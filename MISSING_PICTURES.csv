@@ -1,0 +1,97 @@
+pack,word
+basic_a_u2,hello
+basic_a_u4,good
+basic_a_u4,please
+basic_a_u4,see
+basic_a_u6,What is this?
+basic_b_u1,How are you?
+basic_b_u2,like
+basic_b_u3,please
+basic_b_u4,wins
+basic_b_u5,What is it?
+basic_b_u7,What color is that?
+basic_b_u8,year
+basic_b_u8,How old are you?
+basic_c_u1,love
+basic_c_u2,look
+basic_c_u2,new
+basic_c_u4,near
+basic_c_u6,touch
+basic_c_u8,want
+int2a_u1,weather
+int2a_u1,How is the weather?
+int2a_u3,speak
+int2a_u4,want
+int2a_u4,What do you want?
+int2a_u5,maybe
+int2a_u5,Where is my phone?
+int2a_u6,video
+int2a_u7,student
+int2a_u8,play
+int2a_u8,practice
+int2a_u8,ride
+int2a_u8,What do you do after school?
+int2b_u1,What day is it today?
+int2b_u2,time
+int2b_u2,thirty
+int2b_u2,What time is it now?
+int2b_u3,future
+int2b_u3,What do you want to be in the future?
+int2b_u4,this
+int2b_u4,about
+int2b_u4,hundred
+int2b_u4,everything
+int2b_u4,more
+int2b_u6,teacher
+int2c_u1,season
+int2c_u1,visit
+int2c_u2,sell
+int2c_u2,teeth
+int2c_u2,What are you doing?
+int2c_u3,whose
+int2c_u3,know
+int2c_u4,favorite
+int2c_u5,How are you feeling?
+int2c_u6,hurt
+int2c_u6,What's wrong?
+int2c_u7,sorry
+int2c_u7,friend
+int2c_u7,thank you
+int2c_u8,day
+int2c_u8,time
+int3a_u1,draw
+int3a_u1,What can you draw?
+int3a_u2,flavor
+int3a_u2,What flavor do you like?
+int3a_u4,year
+int3a_u4,How old is he?
+int3a_u5,bug
+int3a_u5,What is this bug?
+int3a_u6,name
+int3a_u6,yell
+int3a_u6,How will I yell your name?
+int3a_u7,gym
+int3a_u8,introduction
+int3a_u8,people
+int3b_u1,grade
+int3b_u1,What grade are you in?
+int3b_u2,Is this a gayageum?
+int3b_u3,please
+int3b_u4,Who is this?
+int3b_u6,fruit
+int3b_u6,What fruit are these?
+int3b_u7,forget
+int3b_u8,English
+int3c_u1,food
+int3c_u1,try
+int3c_u1,sticky
+int3c_u1,rice
+int3c_u1,dessert
+int3c_u3,wear
+int3c_u3,outside
+int3c_u4,play
+int3c_u5,What do you have?
+int3c_u6,how many
+int3c_u7,Can you fly?
+int3c_u8,o'clock
+int3c_u8,What time is it?
