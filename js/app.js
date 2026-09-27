@@ -45,7 +45,7 @@
       const ww = w.ww && typeof w.ww === "object" ? w.ww : null;
       const enExplanation = (ww && ww.def ? wwEn(ww.def) : "") || String(l1.en || "").trim();
       if (enExplanation) return enExplanation;
-      return String(w.en || "").trim();
+      return String(w.ko || w.en || "").trim();
     }
     let nativeWord = String(l1[loc] || "").trim();
     if (!nativeWord && loc === "ko") nativeWord = String(w.ko || "").trim();
@@ -113,7 +113,7 @@
       accountPin: "",
       testKind: "easy",
       studySize: 10,
-      locale: "en",
+      locale: "ko",
       currentSetId: null,
       sets: {},
     };
