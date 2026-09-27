@@ -10,3 +10,4 @@ Day 2 word packs for Mr. Jay's conversation books — same Word Master app and s
 - Pictures: reused Day 4 / Day 5 art (`packs/<id>/<wordid>.jpg`, ≤512px). Words with `"pic": false` show the Korean meaning in the picture game.
 - Audio (Fish Audio, s2.1-pro-free): `us_m` Coach Ray, `us_f` Miss Harper, `grandma` Grandma June, `grandpa` Grandpa Walt, `robot` KITT. UK/Teenager voices hidden.
 - Scores: `js/progress-config.js` → Google Apps Script web app (`apps-script/Code.gs`) writing to the "Day2" tab of "MRJ Word Master Progress (web)". Empty URL = device-only saving.
+- Songs (karaoke): `songs/index.html` → `songs/play.html?song=<id>`. Add a song by dropping `songs/audio/<id>.mp3`, `songs/data/<id>.json`, and one entry in `songs/data/catalog.json`.
