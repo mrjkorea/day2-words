@@ -1,0 +1,108 @@
+{
+ "id": "int3c_u5",
+ "title": "INT 3C · Unit 5 · What Do You Have?",
+ "book": "int3c",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "pencil",
+   "en": "pencil",
+   "ko": "연필",
+   "l1": {
+    "ko": "연필"
+   }
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "l1": {
+    "ko": "모자"
+   }
+  },
+  {
+   "id": "pencilcase",
+   "en": "pencil case",
+   "ko": "필통",
+   "l1": {
+    "ko": "필통"
+   }
+  },
+  {
+   "id": "newspaper",
+   "en": "newspaper",
+   "ko": "신문",
+   "l1": {
+    "ko": "신문"
+   }
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "l1": {
+    "ko": "책"
+   }
+  },
+  {
+   "id": "puzzle",
+   "en": "puzzle",
+   "ko": "퍼즐",
+   "l1": {
+    "ko": "퍼즐"
+   }
+  },
+  {
+   "id": "chessboard",
+   "en": "chessboard",
+   "ko": "체스판",
+   "l1": {
+    "ko": "체스판"
+   }
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "l1": {
+    "ko": "휴대폰"
+   }
+  },
+  {
+   "id": "pillow",
+   "en": "pillow",
+   "ko": "베개",
+   "l1": {
+    "ko": "베개"
+   }
+  },
+  {
+   "id": "cup",
+   "en": "cup",
+   "ko": "컵",
+   "l1": {
+    "ko": "컵"
+   }
+  },
+  {
+   "id": "whatdoyouhave",
+   "en": "What do you have?",
+   "ko": "무엇을 가지고 있어요?",
+   "l1": {
+    "ko": "무엇을 가지고 있어요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "ihaveapuzzle",
+   "en": "I have a puzzle.",
+   "ko": "퍼즐을 가지고 있어요.",
+   "l1": {
+    "ko": "퍼즐을 가지고 있어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

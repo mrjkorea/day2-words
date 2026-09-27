@@ -1,0 +1,108 @@
+{
+ "id": "int3b_u8",
+ "title": "INT 3B · Unit 8 · Do You Like Korea?",
+ "book": "int3b",
+ "unit": 8,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "canada",
+   "en": "Canada",
+   "ko": "캐나다",
+   "l1": {
+    "ko": "캐나다"
+   }
+  },
+  {
+   "id": "korea",
+   "en": "Korea",
+   "ko": "한국",
+   "l1": {
+    "ko": "한국"
+   }
+  },
+  {
+   "id": "tall",
+   "en": "tall",
+   "ko": "키가 큰",
+   "l1": {
+    "ko": "키가 큰"
+   }
+  },
+  {
+   "id": "centimeter",
+   "en": "centimeter",
+   "ko": "센티미터",
+   "l1": {
+    "ko": "센티미터"
+   }
+  },
+  {
+   "id": "teach",
+   "en": "teach",
+   "ko": "가르치다",
+   "l1": {
+    "ko": "가르치다"
+   }
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "l1": {
+    "ko": "영어"
+   },
+   "pic": false
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "l1": {
+    "ko": "음식"
+   }
+  },
+  {
+   "id": "gimbap",
+   "en": "gimbap",
+   "ko": "김밥",
+   "l1": {
+    "ko": "김밥"
+   }
+  },
+  {
+   "id": "weigh",
+   "en": "weigh",
+   "ko": "무게가 ~이다",
+   "l1": {
+    "ko": "무게가 ~이다"
+   }
+  },
+  {
+   "id": "secret",
+   "en": "secret",
+   "ko": "비밀",
+   "l1": {
+    "ko": "비밀"
+   }
+  },
+  {
+   "id": "whereareyoufrom",
+   "en": "Where are you from?",
+   "ko": "어디에서 왔어요?",
+   "l1": {
+    "ko": "어디에서 왔어요?"
+   },
+   "kind": "expression"
+  },
+  {
+   "id": "iamfromcanada",
+   "en": "I am from Canada.",
+   "ko": "캐나다에서 왔어요.",
+   "l1": {
+    "ko": "캐나다에서 왔어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

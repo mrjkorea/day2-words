@@ -1,0 +1,108 @@
+{
+ "id": "basic_b_u1",
+ "title": "Basic B · Unit 1 · How are you?",
+ "book": "basic_b",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "happy",
+   "en": "happy",
+   "ko": "행복한",
+   "l1": {
+    "ko": "행복한"
+   }
+  },
+  {
+   "id": "sad",
+   "en": "sad",
+   "ko": "슬픈",
+   "l1": {
+    "ko": "슬픈"
+   }
+  },
+  {
+   "id": "angry",
+   "en": "angry",
+   "ko": "화난",
+   "l1": {
+    "ko": "화난"
+   }
+  },
+  {
+   "id": "hungry",
+   "en": "hungry",
+   "ko": "배고픈",
+   "l1": {
+    "ko": "배고픈"
+   }
+  },
+  {
+   "id": "tired",
+   "en": "tired",
+   "ko": "피곤한",
+   "l1": {
+    "ko": "피곤한"
+   }
+  },
+  {
+   "id": "bored",
+   "en": "bored",
+   "ko": "지루한",
+   "l1": {
+    "ko": "지루한"
+   }
+  },
+  {
+   "id": "scared",
+   "en": "scared",
+   "ko": "무서운",
+   "l1": {
+    "ko": "무서운"
+   }
+  },
+  {
+   "id": "sick",
+   "en": "sick",
+   "ko": "아픈",
+   "l1": {
+    "ko": "아픈"
+   }
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정되는",
+   "l1": {
+    "ko": "걱정되는"
+   }
+  },
+  {
+   "id": "sleepy",
+   "en": "sleepy",
+   "ko": "졸린",
+   "l1": {
+    "ko": "졸린"
+   }
+  },
+  {
+   "id": "howareyou",
+   "en": "How are you?",
+   "ko": "기분이 어때요?",
+   "l1": {
+    "ko": "기분이 어때요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "iamhappy",
+   "en": "I am happy.",
+   "ko": "나는 행복해요.",
+   "l1": {
+    "ko": "나는 행복해요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "id": "int3c_u7",
+ "title": "INT 3C · Unit 7 · Can You Fly?",
+ "book": "int3c",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "l1": {
+    "ko": "춤추다"
+   }
+  },
+  {
+   "id": "jump",
+   "en": "jump",
+   "ko": "뛰다, 점프하다",
+   "l1": {
+    "ko": "뛰다, 점프하다"
+   }
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "l1": {
+    "ko": "노래하다"
+   }
+  },
+  {
+   "id": "fight",
+   "en": "fight",
+   "ko": "싸우다",
+   "l1": {
+    "ko": "싸우다"
+   }
+  },
+  {
+   "id": "type",
+   "en": "type",
+   "ko": "타자를 치다",
+   "l1": {
+    "ko": "타자를 치다"
+   }
+  },
+  {
+   "id": "walk",
+   "en": "walk",
+   "ko": "걷다",
+   "l1": {
+    "ko": "걷다"
+   }
+  },
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "l1": {
+    "ko": "요리하다"
+   }
+  },
+  {
+   "id": "fly",
+   "en": "fly",
+   "ko": "날다",
+   "l1": {
+    "ko": "날다"
+   }
+  },
+  {
+   "id": "love",
+   "en": "love",
+   "ko": "사랑하다",
+   "l1": {
+    "ko": "사랑하다"
+   }
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "달리다",
+   "l1": {
+    "ko": "달리다"
+   }
+  },
+  {
+   "id": "canyoufly",
+   "en": "Can you fly?",
+   "ko": "너는 날 수 있어?",
+   "l1": {
+    "ko": "너는 날 수 있어?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "noicannotfly",
+   "en": "No, I cannot fly.",
+   "ko": "아니, 나는 날 수 없어.",
+   "l1": {
+    "ko": "아니, 나는 날 수 없어."
+   },
+   "kind": "expression"
+  }
+ ]
+}

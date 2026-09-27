@@ -1,0 +1,116 @@
+{
+ "id": "int3c_u3",
+ "title": "INT 3C · Unit 3 · Can I Play Outside?",
+ "book": "int3c",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "wear",
+   "en": "wear",
+   "ko": "입다, 쓰다, 신다",
+   "l1": {
+    "ko": "입다, 쓰다, 신다"
+   },
+   "pic": false
+  },
+  {
+   "id": "outside",
+   "en": "outside",
+   "ko": "밖에서",
+   "l1": {
+    "ko": "밖에서"
+   },
+   "pic": false
+  },
+  {
+   "id": "dress",
+   "en": "dress",
+   "ko": "드레스",
+   "l1": {
+    "ko": "드레스"
+   }
+  },
+  {
+   "id": "shirt",
+   "en": "shirt",
+   "ko": "셔츠",
+   "l1": {
+    "ko": "셔츠"
+   }
+  },
+  {
+   "id": "pants",
+   "en": "pants",
+   "ko": "바지",
+   "l1": {
+    "ko": "바지"
+   }
+  },
+  {
+   "id": "socks",
+   "en": "socks",
+   "ko": "양말",
+   "l1": {
+    "ko": "양말"
+   }
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "l1": {
+    "ko": "외투"
+   }
+  },
+  {
+   "id": "gloves",
+   "en": "gloves",
+   "ko": "장갑",
+   "l1": {
+    "ko": "장갑"
+   }
+  },
+  {
+   "id": "shoes",
+   "en": "shoes",
+   "ko": "신발",
+   "l1": {
+    "ko": "신발"
+   }
+  },
+  {
+   "id": "skirt",
+   "en": "skirt",
+   "ko": "치마",
+   "l1": {
+    "ko": "치마"
+   }
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "l1": {
+    "ko": "모자"
+   }
+  },
+  {
+   "id": "glasses",
+   "en": "glasses",
+   "ko": "안경",
+   "l1": {
+    "ko": "안경"
+   }
+  },
+  {
+   "id": "caniplayoutside",
+   "en": "Can I play outside?",
+   "ko": "밖에서 놀아도 돼요?",
+   "l1": {
+    "ko": "밖에서 놀아도 돼요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

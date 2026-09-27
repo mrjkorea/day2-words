@@ -1,0 +1,102 @@
+{
+ "id": "int2b_u2",
+ "title": "INT 2B · Unit 2 · What Time is it Now?",
+ "book": "int2b",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "time",
+   "en": "time",
+   "ko": "시간",
+   "l1": {
+    "ko": "시간"
+   },
+   "pic": false
+  },
+  {
+   "id": "oclock",
+   "en": "o'clock",
+   "ko": "~시 (정각)",
+   "l1": {
+    "ko": "~시 (정각)"
+   }
+  },
+  {
+   "id": "thirty",
+   "en": "thirty",
+   "ko": "삼십, 30분",
+   "l1": {
+    "ko": "삼십, 30분"
+   },
+   "pic": false
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "l1": {
+    "ko": "열한, 11"
+   }
+  },
+  {
+   "id": "breakfast",
+   "en": "breakfast",
+   "ko": "아침 식사",
+   "l1": {
+    "ko": "아침 식사"
+   }
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "l1": {
+    "ko": "학교"
+   }
+  },
+  {
+   "id": "snack",
+   "en": "snack",
+   "ko": "간식",
+   "l1": {
+    "ko": "간식"
+   }
+  },
+  {
+   "id": "onlineclass",
+   "en": "online class",
+   "ko": "온라인 수업",
+   "l1": {
+    "ko": "온라인 수업"
+   }
+  },
+  {
+   "id": "recess",
+   "en": "recess",
+   "ko": "쉬는 시간",
+   "l1": {
+    "ko": "쉬는 시간"
+   }
+  },
+  {
+   "id": "whattimeisitnow",
+   "en": "What time is it now?",
+   "ko": "지금 몇 시예요?",
+   "l1": {
+    "ko": "지금 몇 시예요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itisbreakfasttime",
+   "en": "It is breakfast time.",
+   "ko": "아침 식사 시간이에요.",
+   "l1": {
+    "ko": "아침 식사 시간이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

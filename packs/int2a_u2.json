@@ -1,0 +1,98 @@
+{
+ "id": "int2a_u2",
+ "title": "INT 2A · Unit 2 · There are Snakes!",
+ "book": "int2a",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "l1": {
+    "ko": "뱀"
+   }
+  },
+  {
+   "id": "water",
+   "en": "water",
+   "ko": "물",
+   "l1": {
+    "ko": "물"
+   }
+  },
+  {
+   "id": "bee",
+   "en": "bee",
+   "ko": "벌",
+   "l1": {
+    "ko": "벌"
+   }
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "l1": {
+    "ko": "음식"
+   }
+  },
+  {
+   "id": "ant",
+   "en": "ant",
+   "ko": "개미",
+   "l1": {
+    "ko": "개미"
+   }
+  },
+  {
+   "id": "hotel",
+   "en": "hotel",
+   "ko": "호텔",
+   "l1": {
+    "ko": "호텔"
+   }
+  },
+  {
+   "id": "spider",
+   "en": "spider",
+   "ko": "거미",
+   "l1": {
+    "ko": "거미"
+   }
+  },
+  {
+   "id": "washroom",
+   "en": "washroom",
+   "ko": "화장실",
+   "l1": {
+    "ko": "화장실"
+   }
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "l1": {
+    "ko": "선생님"
+   }
+  },
+  {
+   "id": "monster",
+   "en": "monster",
+   "ko": "괴물",
+   "l1": {
+    "ko": "괴물"
+   }
+  },
+  {
+   "id": "therearesnakes",
+   "en": "There are snakes!",
+   "ko": "뱀들이 있어요!",
+   "l1": {
+    "ko": "뱀들이 있어요!"
+   },
+   "kind": "expression"
+  }
+ ]
+}

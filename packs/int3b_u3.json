@@ -1,0 +1,99 @@
+{
+ "id": "int3b_u3",
+ "title": "INT 3B · Unit 3 · Bigger Please!",
+ "book": "int3b",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "~해 주세요",
+   "l1": {
+    "ko": "~해 주세요"
+   },
+   "pic": false
+  },
+  {
+   "id": "slower",
+   "en": "slower",
+   "ko": "더 느리게",
+   "l1": {
+    "ko": "더 느리게"
+   }
+  },
+  {
+   "id": "warmer",
+   "en": "warmer",
+   "ko": "더 따뜻하게",
+   "l1": {
+    "ko": "더 따뜻하게"
+   }
+  },
+  {
+   "id": "louder",
+   "en": "louder",
+   "ko": "더 크게",
+   "l1": {
+    "ko": "더 크게"
+   }
+  },
+  {
+   "id": "higher",
+   "en": "higher",
+   "ko": "더 높게",
+   "l1": {
+    "ko": "더 높게"
+   }
+  },
+  {
+   "id": "cooler",
+   "en": "cooler",
+   "ko": "더 시원하게",
+   "l1": {
+    "ko": "더 시원하게"
+   }
+  },
+  {
+   "id": "smaller",
+   "en": "smaller",
+   "ko": "더 작게",
+   "l1": {
+    "ko": "더 작게"
+   }
+  },
+  {
+   "id": "more",
+   "en": "more",
+   "ko": "더 많이",
+   "l1": {
+    "ko": "더 많이"
+   }
+  },
+  {
+   "id": "less",
+   "en": "less",
+   "ko": "더 적게",
+   "l1": {
+    "ko": "더 적게"
+   }
+  },
+  {
+   "id": "quieter",
+   "en": "quieter",
+   "ko": "더 조용하게",
+   "l1": {
+    "ko": "더 조용하게"
+   }
+  },
+  {
+   "id": "slowerplease",
+   "en": "Slower please.",
+   "ko": "더 천천히 해 주세요.",
+   "l1": {
+    "ko": "더 천천히 해 주세요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

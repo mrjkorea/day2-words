@@ -1,0 +1,108 @@
+{
+ "id": "int2b_u1",
+ "title": "INT 2B · Unit 1 · Hello, This is Pizza Land",
+ "book": "int2b",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "monday",
+   "en": "Monday",
+   "ko": "월요일",
+   "l1": {
+    "ko": "월요일"
+   }
+  },
+  {
+   "id": "tuesday",
+   "en": "Tuesday",
+   "ko": "화요일",
+   "l1": {
+    "ko": "화요일"
+   }
+  },
+  {
+   "id": "wednesday",
+   "en": "Wednesday",
+   "ko": "수요일",
+   "l1": {
+    "ko": "수요일"
+   }
+  },
+  {
+   "id": "thursday",
+   "en": "Thursday",
+   "ko": "목요일",
+   "l1": {
+    "ko": "목요일"
+   }
+  },
+  {
+   "id": "friday",
+   "en": "Friday",
+   "ko": "금요일",
+   "l1": {
+    "ko": "금요일"
+   }
+  },
+  {
+   "id": "saturday",
+   "en": "Saturday",
+   "ko": "토요일",
+   "l1": {
+    "ko": "토요일"
+   }
+  },
+  {
+   "id": "sunday",
+   "en": "Sunday",
+   "ko": "일요일",
+   "l1": {
+    "ko": "일요일"
+   }
+  },
+  {
+   "id": "holiday",
+   "en": "holiday",
+   "ko": "공휴일",
+   "l1": {
+    "ko": "공휴일"
+   }
+  },
+  {
+   "id": "schoolday",
+   "en": "school day",
+   "ko": "수업일",
+   "l1": {
+    "ko": "수업일"
+   }
+  },
+  {
+   "id": "workday",
+   "en": "work day",
+   "ko": "근무일",
+   "l1": {
+    "ko": "근무일"
+   }
+  },
+  {
+   "id": "whatdayisittoday",
+   "en": "What day is it today?",
+   "ko": "오늘 무슨 요일이에요?",
+   "l1": {
+    "ko": "오늘 무슨 요일이에요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itismonday",
+   "en": "It is Monday.",
+   "ko": "월요일이에요.",
+   "l1": {
+    "ko": "월요일이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

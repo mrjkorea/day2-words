@@ -1,0 +1,83 @@
+{
+ "id": "basic_b_u3",
+ "title": "Basic B · Unit 3 · Classroom English Two",
+ "book": "basic_b",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "again",
+   "en": "again",
+   "ko": "다시",
+   "l1": {
+    "ko": "다시"
+   }
+  },
+  {
+   "id": "recycle",
+   "en": "recycle",
+   "ko": "재활용하다",
+   "l1": {
+    "ko": "재활용하다"
+   }
+  },
+  {
+   "id": "trash",
+   "en": "trash",
+   "ko": "버리다, 쓰레기",
+   "l1": {
+    "ko": "버리다, 쓰레기"
+   }
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "l1": {
+    "ko": "이해하다"
+   }
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "l1": {
+    "ko": "알다"
+   }
+  },
+  {
+   "id": "help",
+   "en": "help",
+   "ko": "돕다",
+   "l1": {
+    "ko": "돕다"
+   }
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "l1": {
+    "ko": "조용한"
+   }
+  },
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "부탁해요, 제발",
+   "l1": {
+    "ko": "부탁해요, 제발"
+   },
+   "pic": false
+  },
+  {
+   "id": "idonotunderstand",
+   "en": "I do not understand.",
+   "ko": "저는 이해가 안 돼요.",
+   "l1": {
+    "ko": "저는 이해가 안 돼요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

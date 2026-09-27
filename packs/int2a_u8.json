@@ -1,0 +1,119 @@
+{
+ "id": "int2a_u8",
+ "title": "INT 2A · Unit 8 · What Do You Do After School?",
+ "book": "int2a",
+ "unit": 8,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "play",
+   "en": "play",
+   "ko": "(운동, 게임을) 하다",
+   "l1": {
+    "ko": "(운동, 게임을) 하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "soccer",
+   "en": "soccer",
+   "ko": "축구",
+   "l1": {
+    "ko": "축구"
+   }
+  },
+  {
+   "id": "practice",
+   "en": "practice",
+   "ko": "연습하다",
+   "l1": {
+    "ko": "연습하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "martialarts",
+   "en": "martial arts",
+   "ko": "무술",
+   "l1": {
+    "ko": "무술"
+   }
+  },
+  {
+   "id": "piano",
+   "en": "piano",
+   "ko": "피아노",
+   "l1": {
+    "ko": "피아노"
+   }
+  },
+  {
+   "id": "littlebrother",
+   "en": "little brother",
+   "ko": "남동생",
+   "l1": {
+    "ko": "남동생"
+   }
+  },
+  {
+   "id": "relax",
+   "en": "relax",
+   "ko": "쉬다",
+   "l1": {
+    "ko": "쉬다"
+   }
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "l1": {
+    "ko": "노래하다"
+   }
+  },
+  {
+   "id": "watch",
+   "en": "watch",
+   "ko": "보다",
+   "l1": {
+    "ko": "보다"
+   }
+  },
+  {
+   "id": "ride",
+   "en": "ride",
+   "ko": "타다",
+   "l1": {
+    "ko": "타다"
+   },
+   "pic": false
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "l1": {
+    "ko": "자전거"
+   }
+  },
+  {
+   "id": "whatdoyoudoafterschool",
+   "en": "What do you do after school?",
+   "ko": "방과 후에 뭐 해요?",
+   "l1": {
+    "ko": "방과 후에 뭐 해요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "iplaysoccer",
+   "en": "I play soccer.",
+   "ko": "축구를 해요.",
+   "l1": {
+    "ko": "축구를 해요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

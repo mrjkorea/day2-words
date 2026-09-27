@@ -1,0 +1,117 @@
+{
+ "id": "int3a_u5",
+ "title": "INT 3A · Unit 5 · What is This Bug?",
+ "book": "int3a",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "bug",
+   "en": "bug",
+   "ko": "벌레",
+   "l1": {
+    "ko": "벌레"
+   },
+   "pic": false
+  },
+  {
+   "id": "moth",
+   "en": "moth",
+   "ko": "나방",
+   "l1": {
+    "ko": "나방"
+   }
+  },
+  {
+   "id": "centipede",
+   "en": "centipede",
+   "ko": "지네",
+   "l1": {
+    "ko": "지네"
+   }
+  },
+  {
+   "id": "mosquito",
+   "en": "mosquito",
+   "ko": "모기",
+   "l1": {
+    "ko": "모기"
+   }
+  },
+  {
+   "id": "cicada",
+   "en": "cicada",
+   "ko": "매미",
+   "l1": {
+    "ko": "매미"
+   }
+  },
+  {
+   "id": "spider",
+   "en": "spider",
+   "ko": "거미",
+   "l1": {
+    "ko": "거미"
+   }
+  },
+  {
+   "id": "cockroach",
+   "en": "cockroach",
+   "ko": "바퀴벌레",
+   "l1": {
+    "ko": "바퀴벌레"
+   }
+  },
+  {
+   "id": "ant",
+   "en": "ant",
+   "ko": "개미",
+   "l1": {
+    "ko": "개미"
+   }
+  },
+  {
+   "id": "silkworm",
+   "en": "silkworm",
+   "ko": "누에",
+   "l1": {
+    "ko": "누에"
+   }
+  },
+  {
+   "id": "butterfly",
+   "en": "butterfly",
+   "ko": "나비",
+   "l1": {
+    "ko": "나비"
+   }
+  },
+  {
+   "id": "firefly",
+   "en": "firefly",
+   "ko": "반딧불이",
+   "l1": {
+    "ko": "반딧불이"
+   }
+  },
+  {
+   "id": "whatisthisbug",
+   "en": "What is this bug?",
+   "ko": "이 벌레는 뭐예요?",
+   "l1": {
+    "ko": "이 벌레는 뭐예요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itisabutterfly",
+   "en": "It is a butterfly.",
+   "ko": "나비예요.",
+   "l1": {
+    "ko": "나비예요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

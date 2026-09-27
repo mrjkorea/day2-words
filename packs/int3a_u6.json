@@ -1,0 +1,117 @@
+{
+ "id": "int3a_u6",
+ "title": "INT 3A · Unit 6 · How Will I Yell Your Name?",
+ "book": "int3a",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "name",
+   "en": "name",
+   "ko": "이름",
+   "l1": {
+    "ko": "이름"
+   },
+   "pic": false
+  },
+  {
+   "id": "yell",
+   "en": "yell",
+   "ko": "외치다, 부르다",
+   "l1": {
+    "ko": "외치다, 부르다"
+   },
+   "pic": false
+  },
+  {
+   "id": "rose",
+   "en": "rose",
+   "ko": "장미",
+   "l1": {
+    "ko": "장미"
+   }
+  },
+  {
+   "id": "iris",
+   "en": "iris",
+   "ko": "붓꽃",
+   "l1": {
+    "ko": "붓꽃"
+   }
+  },
+  {
+   "id": "hunter",
+   "en": "hunter",
+   "ko": "사냥꾼",
+   "l1": {
+    "ko": "사냥꾼"
+   }
+  },
+  {
+   "id": "ginger",
+   "en": "ginger",
+   "ko": "생강",
+   "l1": {
+    "ko": "생강"
+   }
+  },
+  {
+   "id": "stingray",
+   "en": "stingray",
+   "ko": "가오리",
+   "l1": {
+    "ko": "가오리"
+   }
+  },
+  {
+   "id": "mike",
+   "en": "mike",
+   "ko": "마이크",
+   "l1": {
+    "ko": "마이크"
+   }
+  },
+  {
+   "id": "ivy",
+   "en": "ivy",
+   "ko": "담쟁이덩굴",
+   "l1": {
+    "ko": "담쟁이덩굴"
+   }
+  },
+  {
+   "id": "baker",
+   "en": "baker",
+   "ko": "제빵사",
+   "l1": {
+    "ko": "제빵사"
+   }
+  },
+  {
+   "id": "lily",
+   "en": "lily",
+   "ko": "백합",
+   "l1": {
+    "ko": "백합"
+   }
+  },
+  {
+   "id": "violet",
+   "en": "violet",
+   "ko": "제비꽃",
+   "l1": {
+    "ko": "제비꽃"
+   }
+  },
+  {
+   "id": "howwilliyellyourname",
+   "en": "How will I yell your name?",
+   "ko": "네 이름을 어떻게 불러 줄까?",
+   "l1": {
+    "ko": "네 이름을 어떻게 불러 줄까?"
+   },
+   "pic": false,
+   "kind": "expression"
+  }
+ ]
+}

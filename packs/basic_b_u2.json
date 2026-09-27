@@ -1,0 +1,99 @@
+{
+ "id": "basic_b_u2",
+ "title": "Basic B · Unit 2 · I like Mr. Jay",
+ "book": "basic_b",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "like",
+   "en": "like",
+   "ko": "좋아하다",
+   "l1": {
+    "ko": "좋아하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "noodles",
+   "en": "noodles",
+   "ko": "면, 국수",
+   "l1": {
+    "ko": "면, 국수"
+   }
+  },
+  {
+   "id": "meat",
+   "en": "meat",
+   "ko": "고기",
+   "l1": {
+    "ko": "고기"
+   }
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "l1": {
+    "ko": "과일"
+   }
+  },
+  {
+   "id": "games",
+   "en": "games",
+   "ko": "게임",
+   "l1": {
+    "ko": "게임"
+   }
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "l1": {
+    "ko": "학교"
+   }
+  },
+  {
+   "id": "exercise",
+   "en": "exercise",
+   "ko": "운동",
+   "l1": {
+    "ko": "운동"
+   }
+  },
+  {
+   "id": "movies",
+   "en": "movies",
+   "ko": "영화",
+   "l1": {
+    "ko": "영화"
+   }
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "l1": {
+    "ko": "음악"
+   }
+  },
+  {
+   "id": "apples",
+   "en": "apples",
+   "ko": "사과",
+   "l1": {
+    "ko": "사과"
+   }
+  },
+  {
+   "id": "ilikenoodles",
+   "en": "I like noodles.",
+   "ko": "나는 면을 좋아해요.",
+   "l1": {
+    "ko": "나는 면을 좋아해요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

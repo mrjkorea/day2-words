@@ -1,0 +1,107 @@
+{
+ "id": "basic_a_u2",
+ "title": "Basic A · Unit 2 · Hello",
+ "book": "basic_a",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "hello",
+   "en": "hello",
+   "ko": "안녕하세요",
+   "l1": {
+    "ko": "안녕하세요"
+   },
+   "pic": false
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "l1": {
+    "ko": "고양이"
+   }
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "l1": {
+    "ko": "개"
+   }
+  },
+  {
+   "id": "cow",
+   "en": "cow",
+   "ko": "소",
+   "l1": {
+    "ko": "소"
+   }
+  },
+  {
+   "id": "horse",
+   "en": "horse",
+   "ko": "말",
+   "l1": {
+    "ko": "말"
+   }
+  },
+  {
+   "id": "chicken",
+   "en": "chicken",
+   "ko": "닭",
+   "l1": {
+    "ko": "닭"
+   }
+  },
+  {
+   "id": "goat",
+   "en": "goat",
+   "ko": "염소",
+   "l1": {
+    "ko": "염소"
+   }
+  },
+  {
+   "id": "pig",
+   "en": "pig",
+   "ko": "돼지",
+   "l1": {
+    "ko": "돼지"
+   }
+  },
+  {
+   "id": "sheep",
+   "en": "sheep",
+   "ko": "양",
+   "l1": {
+    "ko": "양"
+   }
+  },
+  {
+   "id": "duck",
+   "en": "duck",
+   "ko": "오리",
+   "l1": {
+    "ko": "오리"
+   }
+  },
+  {
+   "id": "spider",
+   "en": "spider",
+   "ko": "거미",
+   "l1": {
+    "ko": "거미"
+   }
+  },
+  {
+   "id": "hellomrcat",
+   "en": "Hello, Mr. Cat.",
+   "ko": "안녕하세요, 고양이 아저씨.",
+   "l1": {
+    "ko": "안녕하세요, 고양이 아저씨."
+   },
+   "kind": "expression"
+  }
+ ]
+}

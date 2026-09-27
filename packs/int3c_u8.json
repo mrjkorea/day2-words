@@ -1,0 +1,117 @@
+{
+ "id": "int3c_u8",
+ "title": "INT 3C · Unit 8 · What Time is it?",
+ "book": "int3c",
+ "unit": 8,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "oclock",
+   "en": "o'clock",
+   "ko": "~시 (정각)",
+   "l1": {
+    "ko": "~시 (정각)"
+   },
+   "pic": false
+  },
+  {
+   "id": "one",
+   "en": "one",
+   "ko": "한, 1",
+   "l1": {
+    "ko": "한, 1"
+   }
+  },
+  {
+   "id": "two",
+   "en": "two",
+   "ko": "두, 2",
+   "l1": {
+    "ko": "두, 2"
+   }
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 5",
+   "l1": {
+    "ko": "다섯, 5"
+   }
+  },
+  {
+   "id": "six",
+   "en": "six",
+   "ko": "여섯, 6",
+   "l1": {
+    "ko": "여섯, 6"
+   }
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 7",
+   "l1": {
+    "ko": "일곱, 7"
+   }
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 8",
+   "l1": {
+    "ko": "여덟, 8"
+   }
+  },
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 9",
+   "l1": {
+    "ko": "아홉, 9"
+   }
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열, 10",
+   "l1": {
+    "ko": "열, 10"
+   }
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "l1": {
+    "ko": "열한, 11"
+   }
+  },
+  {
+   "id": "twelve",
+   "en": "twelve",
+   "ko": "열두, 12",
+   "l1": {
+    "ko": "열두, 12"
+   }
+  },
+  {
+   "id": "whattimeisit",
+   "en": "What time is it?",
+   "ko": "몇 시예요?",
+   "l1": {
+    "ko": "몇 시예요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itissevenoclock",
+   "en": "It is seven o'clock.",
+   "ko": "7시예요.",
+   "l1": {
+    "ko": "7시예요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

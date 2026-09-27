@@ -1,0 +1,98 @@
+{
+ "id": "basic_c_u3",
+ "title": "Basic C · Unit 3 · Classroom English Three",
+ "book": "basic_c",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "monday",
+   "en": "Monday",
+   "ko": "월요일",
+   "l1": {
+    "ko": "월요일"
+   }
+  },
+  {
+   "id": "start",
+   "en": "start",
+   "ko": "시작하다",
+   "l1": {
+    "ko": "시작하다"
+   }
+  },
+  {
+   "id": "report",
+   "en": "report",
+   "ko": "보고하다",
+   "l1": {
+    "ko": "보고하다"
+   }
+  },
+  {
+   "id": "spell",
+   "en": "spell",
+   "ko": "철자를 말하다",
+   "l1": {
+    "ko": "철자를 말하다"
+   }
+  },
+  {
+   "id": "mean",
+   "en": "mean",
+   "ko": "뜻하다",
+   "l1": {
+    "ko": "뜻하다"
+   }
+  },
+  {
+   "id": "welcome",
+   "en": "welcome",
+   "ko": "천만에요, 환영하다",
+   "l1": {
+    "ko": "천만에요, 환영하다"
+   }
+  },
+  {
+   "id": "test",
+   "en": "test",
+   "ko": "시험하다",
+   "l1": {
+    "ko": "시험하다"
+   }
+  },
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "l1": {
+    "ko": "내일"
+   }
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "l1": {
+    "ko": "이해하다"
+   }
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "l1": {
+    "ko": "알다"
+   }
+  },
+  {
+   "id": "mayistart",
+   "en": "May I start?",
+   "ko": "시작해도 되나요?",
+   "l1": {
+    "ko": "시작해도 되나요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

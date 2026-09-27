@@ -1,0 +1,98 @@
+{
+ "id": "int3c_u2",
+ "title": "INT 3C · Unit 2 · Do Not Yell",
+ "book": "int3c",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "뛰다",
+   "l1": {
+    "ko": "뛰다"
+   }
+  },
+  {
+   "id": "yell",
+   "en": "yell",
+   "ko": "소리 지르다",
+   "l1": {
+    "ko": "소리 지르다"
+   }
+  },
+  {
+   "id": "open",
+   "en": "open",
+   "ko": "열다",
+   "l1": {
+    "ko": "열다"
+   }
+  },
+  {
+   "id": "pull",
+   "en": "pull",
+   "ko": "당기다",
+   "l1": {
+    "ko": "당기다"
+   }
+  },
+  {
+   "id": "sleep",
+   "en": "sleep",
+   "ko": "자다",
+   "l1": {
+    "ko": "자다"
+   }
+  },
+  {
+   "id": "throw",
+   "en": "throw",
+   "ko": "던지다",
+   "l1": {
+    "ko": "던지다"
+   }
+  },
+  {
+   "id": "burp",
+   "en": "burp",
+   "ko": "트림하다",
+   "l1": {
+    "ko": "트림하다"
+   }
+  },
+  {
+   "id": "fight",
+   "en": "fight",
+   "ko": "싸우다",
+   "l1": {
+    "ko": "싸우다"
+   }
+  },
+  {
+   "id": "touch",
+   "en": "touch",
+   "ko": "만지다",
+   "l1": {
+    "ko": "만지다"
+   }
+  },
+  {
+   "id": "cry",
+   "en": "cry",
+   "ko": "울다",
+   "l1": {
+    "ko": "울다"
+   }
+  },
+  {
+   "id": "dontyell",
+   "en": "Don't yell.",
+   "ko": "소리 지르지 마.",
+   "l1": {
+    "ko": "소리 지르지 마."
+   },
+   "kind": "expression"
+  }
+ ]
+}

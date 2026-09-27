@@ -1,0 +1,109 @@
+{
+ "id": "basic_b_u8",
+ "title": "Basic B · Unit 8 · How old are you?",
+ "book": "basic_b",
+ "unit": 8,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱",
+   "l1": {
+    "ko": "일곱"
+   }
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열",
+   "l1": {
+    "ko": "열"
+   }
+  },
+  {
+   "id": "fourteen",
+   "en": "fourteen",
+   "ko": "열넷",
+   "l1": {
+    "ko": "열넷"
+   }
+  },
+  {
+   "id": "seventeen",
+   "en": "seventeen",
+   "ko": "열일곱",
+   "l1": {
+    "ko": "열일곱"
+   }
+  },
+  {
+   "id": "twentytwo",
+   "en": "twenty-two",
+   "ko": "스물둘",
+   "l1": {
+    "ko": "스물둘"
+   }
+  },
+  {
+   "id": "twentyfive",
+   "en": "twenty-five",
+   "ko": "스물다섯",
+   "l1": {
+    "ko": "스물다섯"
+   }
+  },
+  {
+   "id": "thirtythree",
+   "en": "thirty-three",
+   "ko": "서른셋",
+   "l1": {
+    "ko": "서른셋"
+   }
+  },
+  {
+   "id": "sixtysix",
+   "en": "sixty-six",
+   "ko": "예순여섯",
+   "l1": {
+    "ko": "예순여섯"
+   }
+  },
+  {
+   "id": "onehundred",
+   "en": "one hundred",
+   "ko": "백",
+   "l1": {
+    "ko": "백"
+   }
+  },
+  {
+   "id": "year",
+   "en": "year",
+   "ko": "해, 살",
+   "l1": {
+    "ko": "해, 살"
+   },
+   "pic": false
+  },
+  {
+   "id": "howoldareyou",
+   "en": "How old are you?",
+   "ko": "몇 살이에요?",
+   "l1": {
+    "ko": "몇 살이에요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "iamtenyearsold",
+   "en": "I am ten years old.",
+   "ko": "나는 열 살이에요.",
+   "l1": {
+    "ko": "나는 열 살이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "id": "basic_a_u4",
+ "title": "Basic A · Unit 4 · Classroom English One",
+ "book": "basic_a",
+ "unit": 4,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "good",
+   "en": "good",
+   "ko": "좋은",
+   "l1": {
+    "ko": "좋은"
+   },
+   "pic": false
+  },
+  {
+   "id": "afternoon",
+   "en": "afternoon",
+   "ko": "오후",
+   "l1": {
+    "ko": "오후"
+   }
+  },
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "l1": {
+    "ko": "내일"
+   }
+  },
+  {
+   "id": "sorry",
+   "en": "sorry",
+   "ko": "미안해요",
+   "l1": {
+    "ko": "미안해요"
+   }
+  },
+  {
+   "id": "pardon",
+   "en": "pardon",
+   "ko": "뭐라고요?",
+   "l1": {
+    "ko": "뭐라고요?"
+   }
+  },
+  {
+   "id": "help",
+   "en": "help",
+   "ko": "돕다",
+   "l1": {
+    "ko": "돕다"
+   }
+  },
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "부탁해요, 제발",
+   "l1": {
+    "ko": "부탁해요, 제발"
+   },
+   "pic": false
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "l1": {
+    "ko": "조용한"
+   }
+  },
+  {
+   "id": "wait",
+   "en": "wait",
+   "ko": "기다리다",
+   "l1": {
+    "ko": "기다리다"
+   }
+  },
+  {
+   "id": "see",
+   "en": "see",
+   "ko": "보다",
+   "l1": {
+    "ko": "보다"
+   },
+   "pic": false
+  },
+  {
+   "id": "seeyoutomorrow",
+   "en": "See you tomorrow.",
+   "ko": "내일 봐요.",
+   "l1": {
+    "ko": "내일 봐요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

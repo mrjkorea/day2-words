@@ -1,0 +1,108 @@
+{
+ "id": "basic_b_u5",
+ "title": "Basic B · Unit 5 · What is it?",
+ "book": "basic_b",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "l1": {
+    "ko": "책"
+   }
+  },
+  {
+   "id": "phonecharger",
+   "en": "phone charger",
+   "ko": "휴대폰 충전기",
+   "l1": {
+    "ko": "휴대폰 충전기"
+   }
+  },
+  {
+   "id": "sock",
+   "en": "sock",
+   "ko": "양말",
+   "l1": {
+    "ko": "양말"
+   }
+  },
+  {
+   "id": "toy",
+   "en": "toy",
+   "ko": "장난감",
+   "l1": {
+    "ko": "장난감"
+   }
+  },
+  {
+   "id": "underwear",
+   "en": "underwear",
+   "ko": "속옷",
+   "l1": {
+    "ko": "속옷"
+   }
+  },
+  {
+   "id": "toothbrush",
+   "en": "toothbrush",
+   "ko": "칫솔",
+   "l1": {
+    "ko": "칫솔"
+   }
+  },
+  {
+   "id": "nightlight",
+   "en": "night light",
+   "ko": "야간등",
+   "l1": {
+    "ko": "야간등"
+   }
+  },
+  {
+   "id": "teddybear",
+   "en": "teddy bear",
+   "ko": "곰인형",
+   "l1": {
+    "ko": "곰인형"
+   }
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "l1": {
+    "ko": "사과"
+   }
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "l1": {
+    "ko": "가방"
+   }
+  },
+  {
+   "id": "whatisit",
+   "en": "What is it?",
+   "ko": "그게 뭐예요?",
+   "l1": {
+    "ko": "그게 뭐예요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itisatoy",
+   "en": "It is a toy.",
+   "ko": "장난감이에요.",
+   "l1": {
+    "ko": "장난감이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

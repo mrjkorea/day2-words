@@ -1,0 +1,116 @@
+{
+ "id": "int2c_u1",
+ "title": "INT 2C · Unit 1 · I Love Summer",
+ "book": "int2c",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "season",
+   "en": "season",
+   "ko": "계절",
+   "l1": {
+    "ko": "계절"
+   },
+   "pic": false
+  },
+  {
+   "id": "summer",
+   "en": "summer",
+   "ko": "여름",
+   "l1": {
+    "ko": "여름"
+   }
+  },
+  {
+   "id": "fall",
+   "en": "fall",
+   "ko": "가을",
+   "l1": {
+    "ko": "가을"
+   }
+  },
+  {
+   "id": "winter",
+   "en": "winter",
+   "ko": "겨울",
+   "l1": {
+    "ko": "겨울"
+   }
+  },
+  {
+   "id": "spring",
+   "en": "spring",
+   "ko": "봄",
+   "l1": {
+    "ko": "봄"
+   }
+  },
+  {
+   "id": "swim",
+   "en": "swim",
+   "ko": "수영하다",
+   "l1": {
+    "ko": "수영하다"
+   }
+  },
+  {
+   "id": "island",
+   "en": "island",
+   "ko": "섬",
+   "l1": {
+    "ko": "섬"
+   }
+  },
+  {
+   "id": "visit",
+   "en": "visit",
+   "ko": "방문하다",
+   "l1": {
+    "ko": "방문하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "leaves",
+   "en": "leaves",
+   "ko": "나뭇잎",
+   "l1": {
+    "ko": "나뭇잎"
+   }
+  },
+  {
+   "id": "ski",
+   "en": "ski",
+   "ko": "스키를 타다",
+   "l1": {
+    "ko": "스키를 타다"
+   }
+  },
+  {
+   "id": "skate",
+   "en": "skate",
+   "ko": "스케이트를 타다",
+   "l1": {
+    "ko": "스케이트를 타다"
+   }
+  },
+  {
+   "id": "cherryblossom",
+   "en": "cherry blossom",
+   "ko": "벚꽃",
+   "l1": {
+    "ko": "벚꽃"
+   }
+  },
+  {
+   "id": "iloveallfourseasons",
+   "en": "I love all four seasons.",
+   "ko": "나는 사계절이 다 좋아요.",
+   "l1": {
+    "ko": "나는 사계절이 다 좋아요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

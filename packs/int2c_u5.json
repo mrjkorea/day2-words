@@ -1,0 +1,108 @@
+{
+ "id": "int2c_u5",
+ "title": "INT 2C · Unit 5 · How Are You Feeling?",
+ "book": "int2c",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "confused",
+   "en": "confused",
+   "ko": "혼란스러운",
+   "l1": {
+    "ko": "혼란스러운"
+   }
+  },
+  {
+   "id": "embarrassed",
+   "en": "embarrassed",
+   "ko": "창피한, 쑥스러운",
+   "l1": {
+    "ko": "창피한, 쑥스러운"
+   }
+  },
+  {
+   "id": "jealous",
+   "en": "jealous",
+   "ko": "질투하는",
+   "l1": {
+    "ko": "질투하는"
+   }
+  },
+  {
+   "id": "surprised",
+   "en": "surprised",
+   "ko": "놀란",
+   "l1": {
+    "ko": "놀란"
+   }
+  },
+  {
+   "id": "proud",
+   "en": "proud",
+   "ko": "자랑스러운",
+   "l1": {
+    "ko": "자랑스러운"
+   }
+  },
+  {
+   "id": "ignored",
+   "en": "ignored",
+   "ko": "무시당한",
+   "l1": {
+    "ko": "무시당한"
+   }
+  },
+  {
+   "id": "fantastic",
+   "en": "fantastic",
+   "ko": "환상적인",
+   "l1": {
+    "ko": "환상적인"
+   }
+  },
+  {
+   "id": "guilty",
+   "en": "guilty",
+   "ko": "죄책감이 드는",
+   "l1": {
+    "ko": "죄책감이 드는"
+   }
+  },
+  {
+   "id": "nervous",
+   "en": "nervous",
+   "ko": "긴장한",
+   "l1": {
+    "ko": "긴장한"
+   }
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정하는",
+   "l1": {
+    "ko": "걱정하는"
+   }
+  },
+  {
+   "id": "howareyoufeeling",
+   "en": "How are you feeling?",
+   "ko": "기분이 어때요?",
+   "l1": {
+    "ko": "기분이 어때요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "iamfeelingnervous",
+   "en": "I am feeling nervous.",
+   "ko": "긴장돼요.",
+   "l1": {
+    "ko": "긴장돼요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

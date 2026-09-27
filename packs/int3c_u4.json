@@ -1,0 +1,107 @@
+{
+ "id": "int3c_u4",
+ "title": "INT 3C · Unit 4 · Let's Play an RPG",
+ "book": "int3c",
+ "unit": 4,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "play",
+   "en": "play",
+   "ko": "(운동, 게임을) 하다",
+   "l1": {
+    "ko": "(운동, 게임을) 하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "l1": {
+    "ko": "학교"
+   }
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "l1": {
+    "ko": "노래하다"
+   }
+  },
+  {
+   "id": "soccer",
+   "en": "soccer",
+   "ko": "축구",
+   "l1": {
+    "ko": "축구"
+   }
+  },
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "l1": {
+    "ko": "오르다"
+   }
+  },
+  {
+   "id": "junglegym",
+   "en": "jungle gym",
+   "ko": "정글짐",
+   "l1": {
+    "ko": "정글짐"
+   }
+  },
+  {
+   "id": "tv",
+   "en": "TV",
+   "ko": "텔레비전",
+   "l1": {
+    "ko": "텔레비전"
+   }
+  },
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "l1": {
+    "ko": "요리하다"
+   }
+  },
+  {
+   "id": "talk",
+   "en": "talk",
+   "ko": "이야기하다",
+   "l1": {
+    "ko": "이야기하다"
+   }
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "l1": {
+    "ko": "자전거"
+   }
+  },
+  {
+   "id": "study",
+   "en": "study",
+   "ko": "공부하다",
+   "l1": {
+    "ko": "공부하다"
+   }
+  },
+  {
+   "id": "letsplaysoccer",
+   "en": "Let's play soccer.",
+   "ko": "축구 하자.",
+   "l1": {
+    "ko": "축구 하자."
+   },
+   "kind": "expression"
+  }
+ ]
+}

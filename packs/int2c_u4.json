@@ -1,0 +1,107 @@
+{
+ "id": "int2c_u4",
+ "title": "INT 2C · Unit 4 · What's Your Favorite?",
+ "book": "int2c",
+ "unit": 4,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "favorite",
+   "en": "favorite",
+   "ko": "가장 좋아하는",
+   "l1": {
+    "ko": "가장 좋아하는"
+   },
+   "pic": false
+  },
+  {
+   "id": "animal",
+   "en": "animal",
+   "ko": "동물",
+   "l1": {
+    "ko": "동물"
+   }
+  },
+  {
+   "id": "season",
+   "en": "season",
+   "ko": "계절",
+   "l1": {
+    "ko": "계절"
+   }
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "l1": {
+    "ko": "과일"
+   }
+  },
+  {
+   "id": "game",
+   "en": "game",
+   "ko": "게임",
+   "l1": {
+    "ko": "게임"
+   }
+  },
+  {
+   "id": "color",
+   "en": "color",
+   "ko": "색깔",
+   "l1": {
+    "ko": "색깔"
+   }
+  },
+  {
+   "id": "hobby",
+   "en": "hobby",
+   "ko": "취미",
+   "l1": {
+    "ko": "취미"
+   }
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "l1": {
+    "ko": "음악"
+   }
+  },
+  {
+   "id": "snack",
+   "en": "snack",
+   "ko": "간식",
+   "l1": {
+    "ko": "간식"
+   }
+  },
+  {
+   "id": "sport",
+   "en": "sport",
+   "ko": "스포츠",
+   "l1": {
+    "ko": "스포츠"
+   }
+  },
+  {
+   "id": "character",
+   "en": "character",
+   "ko": "캐릭터",
+   "l1": {
+    "ko": "캐릭터"
+   }
+  },
+  {
+   "id": "whatisyourfavoriteanimal",
+   "en": "What is your favorite animal?",
+   "ko": "가장 좋아하는 동물은 무엇이에요?",
+   "l1": {
+    "ko": "가장 좋아하는 동물은 무엇이에요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

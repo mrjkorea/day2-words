@@ -1,0 +1,117 @@
+{
+ "id": "int3b_u6",
+ "title": "INT 3B · Unit 6 · What Fruit Are These?",
+ "book": "int3b",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "l1": {
+    "ko": "과일"
+   },
+   "pic": false
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "l1": {
+    "ko": "사과"
+   }
+  },
+  {
+   "id": "mango",
+   "en": "mango",
+   "ko": "망고",
+   "l1": {
+    "ko": "망고"
+   }
+  },
+  {
+   "id": "lychee",
+   "en": "lychee",
+   "ko": "리치",
+   "l1": {
+    "ko": "리치"
+   }
+  },
+  {
+   "id": "rambutan",
+   "en": "rambutan",
+   "ko": "람부탄",
+   "l1": {
+    "ko": "람부탄"
+   }
+  },
+  {
+   "id": "grapefruit",
+   "en": "grapefruit",
+   "ko": "자몽",
+   "l1": {
+    "ko": "자몽"
+   }
+  },
+  {
+   "id": "mangosteen",
+   "en": "mangosteen",
+   "ko": "망고스틴",
+   "l1": {
+    "ko": "망고스틴"
+   }
+  },
+  {
+   "id": "durian",
+   "en": "durian",
+   "ko": "두리안",
+   "l1": {
+    "ko": "두리안"
+   }
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "l1": {
+    "ko": "레몬"
+   }
+  },
+  {
+   "id": "pineapple",
+   "en": "pineapple",
+   "ko": "파인애플",
+   "l1": {
+    "ko": "파인애플"
+   }
+  },
+  {
+   "id": "avocado",
+   "en": "avocado",
+   "ko": "아보카도",
+   "l1": {
+    "ko": "아보카도"
+   }
+  },
+  {
+   "id": "whatfruitarethese",
+   "en": "What fruit are these?",
+   "ko": "이것들은 무슨 과일이에요?",
+   "l1": {
+    "ko": "이것들은 무슨 과일이에요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "theyaremangoes",
+   "en": "They are mangoes.",
+   "ko": "망고예요.",
+   "l1": {
+    "ko": "망고예요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

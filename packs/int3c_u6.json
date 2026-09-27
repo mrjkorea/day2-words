@@ -1,0 +1,107 @@
+{
+ "id": "int3c_u6",
+ "title": "INT 3C · Unit 6 · How Many Cities?",
+ "book": "int3c",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "howmany",
+   "en": "how many",
+   "ko": "얼마나 많은, 몇",
+   "l1": {
+    "ko": "얼마나 많은, 몇"
+   },
+   "pic": false
+  },
+  {
+   "id": "city",
+   "en": "city",
+   "ko": "도시",
+   "l1": {
+    "ko": "도시"
+   }
+  },
+  {
+   "id": "province",
+   "en": "province",
+   "ko": "도, 지방",
+   "l1": {
+    "ko": "도, 지방"
+   }
+  },
+  {
+   "id": "nationalpark",
+   "en": "national park",
+   "ko": "국립공원",
+   "l1": {
+    "ko": "국립공원"
+   }
+  },
+  {
+   "id": "island",
+   "en": "island",
+   "ko": "섬",
+   "l1": {
+    "ko": "섬"
+   }
+  },
+  {
+   "id": "volcano",
+   "en": "volcano",
+   "ko": "화산",
+   "l1": {
+    "ko": "화산"
+   }
+  },
+  {
+   "id": "desert",
+   "en": "desert",
+   "ko": "사막",
+   "l1": {
+    "ko": "사막"
+   }
+  },
+  {
+   "id": "people",
+   "en": "people",
+   "ko": "사람들",
+   "l1": {
+    "ko": "사람들"
+   }
+  },
+  {
+   "id": "mountain",
+   "en": "mountain",
+   "ko": "산",
+   "l1": {
+    "ko": "산"
+   }
+  },
+  {
+   "id": "tiger",
+   "en": "tiger",
+   "ko": "호랑이",
+   "l1": {
+    "ko": "호랑이"
+   }
+  },
+  {
+   "id": "student",
+   "en": "student",
+   "ko": "학생",
+   "l1": {
+    "ko": "학생"
+   }
+  },
+  {
+   "id": "howmanyislandsarethere",
+   "en": "How many islands are there?",
+   "ko": "섬이 몇 개 있어요?",
+   "l1": {
+    "ko": "섬이 몇 개 있어요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

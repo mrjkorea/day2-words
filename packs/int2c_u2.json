@@ -1,0 +1,118 @@
+{
+ "id": "int2c_u2",
+ "title": "INT 2C · Unit 2 · What Are You Doing?",
+ "book": "int2c",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "picture",
+   "en": "picture",
+   "ko": "사진",
+   "l1": {
+    "ko": "사진"
+   }
+  },
+  {
+   "id": "sell",
+   "en": "sell",
+   "ko": "팔다",
+   "l1": {
+    "ko": "팔다"
+   },
+   "pic": false
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "l1": {
+    "ko": "과일"
+   }
+  },
+  {
+   "id": "bow",
+   "en": "bow",
+   "ko": "절하다",
+   "l1": {
+    "ko": "절하다"
+   }
+  },
+  {
+   "id": "fishing",
+   "en": "fishing",
+   "ko": "낚시",
+   "l1": {
+    "ko": "낚시"
+   }
+  },
+  {
+   "id": "vegetable",
+   "en": "vegetable",
+   "ko": "채소",
+   "l1": {
+    "ko": "채소"
+   }
+  },
+  {
+   "id": "go",
+   "en": "Go",
+   "ko": "바둑",
+   "l1": {
+    "ko": "바둑"
+   }
+  },
+  {
+   "id": "kimchi",
+   "en": "kimchi",
+   "ko": "김치",
+   "l1": {
+    "ko": "김치"
+   }
+  },
+  {
+   "id": "brush",
+   "en": "brush",
+   "ko": "(이를) 닦다",
+   "l1": {
+    "ko": "(이를) 닦다"
+   }
+  },
+  {
+   "id": "teeth",
+   "en": "teeth",
+   "ko": "이, 치아",
+   "l1": {
+    "ko": "이, 치아"
+   },
+   "pic": false
+  },
+  {
+   "id": "sleep",
+   "en": "sleep",
+   "ko": "자다",
+   "l1": {
+    "ko": "자다"
+   }
+  },
+  {
+   "id": "whatareyoudoing",
+   "en": "What are you doing?",
+   "ko": "뭐 하고 있어요?",
+   "l1": {
+    "ko": "뭐 하고 있어요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "iamfishing",
+   "en": "I am fishing.",
+   "ko": "낚시하고 있어요.",
+   "l1": {
+    "ko": "낚시하고 있어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

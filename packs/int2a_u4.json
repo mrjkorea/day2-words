@@ -1,0 +1,117 @@
+{
+ "id": "int2a_u4",
+ "title": "INT 2A · Unit 4 · What do you Want?",
+ "book": "int2a",
+ "unit": 4,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "want",
+   "en": "want",
+   "ko": "원하다",
+   "l1": {
+    "ko": "원하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "medicine",
+   "en": "medicine",
+   "ko": "약",
+   "l1": {
+    "ko": "약"
+   }
+  },
+  {
+   "id": "blanket",
+   "en": "blanket",
+   "ko": "담요",
+   "l1": {
+    "ko": "담요"
+   }
+  },
+  {
+   "id": "tissuepaper",
+   "en": "tissue paper",
+   "ko": "휴지",
+   "l1": {
+    "ko": "휴지"
+   }
+  },
+  {
+   "id": "soup",
+   "en": "soup",
+   "ko": "수프",
+   "l1": {
+    "ko": "수프"
+   }
+  },
+  {
+   "id": "juice",
+   "en": "juice",
+   "ko": "주스",
+   "l1": {
+    "ko": "주스"
+   }
+  },
+  {
+   "id": "water",
+   "en": "water",
+   "ko": "물",
+   "l1": {
+    "ko": "물"
+   }
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "l1": {
+    "ko": "휴대폰"
+   }
+  },
+  {
+   "id": "hug",
+   "en": "hug",
+   "ko": "포옹",
+   "l1": {
+    "ko": "포옹"
+   }
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "l1": {
+    "ko": "컴퓨터"
+   }
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "l1": {
+    "ko": "책"
+   }
+  },
+  {
+   "id": "whatdoyouwant",
+   "en": "What do you want?",
+   "ko": "무엇을 원해요?",
+   "l1": {
+    "ko": "무엇을 원해요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "iwantablanket",
+   "en": "I want a blanket.",
+   "ko": "담요를 원해요.",
+   "l1": {
+    "ko": "담요를 원해요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

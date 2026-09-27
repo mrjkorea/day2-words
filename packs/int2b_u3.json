@@ -1,0 +1,117 @@
+{
+ "id": "int2b_u3",
+ "title": "INT 2B · Unit 3 · What Do You Want to be in the Future?",
+ "book": "int2b",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "future",
+   "en": "future",
+   "ko": "미래",
+   "l1": {
+    "ko": "미래"
+   },
+   "pic": false
+  },
+  {
+   "id": "progamer",
+   "en": "pro-gamer",
+   "ko": "프로게이머",
+   "l1": {
+    "ko": "프로게이머"
+   }
+  },
+  {
+   "id": "actor",
+   "en": "actor",
+   "ko": "배우",
+   "l1": {
+    "ko": "배우"
+   }
+  },
+  {
+   "id": "foodcritic",
+   "en": "food critic",
+   "ko": "음식 평론가",
+   "l1": {
+    "ko": "음식 평론가"
+   }
+  },
+  {
+   "id": "englishteacher",
+   "en": "English teacher",
+   "ko": "영어 선생님",
+   "l1": {
+    "ko": "영어 선생님"
+   }
+  },
+  {
+   "id": "policeofficer",
+   "en": "police officer",
+   "ko": "경찰관",
+   "l1": {
+    "ko": "경찰관"
+   }
+  },
+  {
+   "id": "scientist",
+   "en": "scientist",
+   "ko": "과학자",
+   "l1": {
+    "ko": "과학자"
+   }
+  },
+  {
+   "id": "doctor",
+   "en": "doctor",
+   "ko": "의사",
+   "l1": {
+    "ko": "의사"
+   }
+  },
+  {
+   "id": "judge",
+   "en": "judge",
+   "ko": "판사",
+   "l1": {
+    "ko": "판사"
+   }
+  },
+  {
+   "id": "president",
+   "en": "president",
+   "ko": "대통령",
+   "l1": {
+    "ko": "대통령"
+   }
+  },
+  {
+   "id": "computerhacker",
+   "en": "computer hacker",
+   "ko": "컴퓨터 해커",
+   "l1": {
+    "ko": "컴퓨터 해커"
+   }
+  },
+  {
+   "id": "whatdoyouwanttobeinthefuture",
+   "en": "What do you want to be in the future?",
+   "ko": "너는 미래에 무엇이 되고 싶어?",
+   "l1": {
+    "ko": "너는 미래에 무엇이 되고 싶어?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "iwanttobeadoctor",
+   "en": "I want to be a doctor.",
+   "ko": "나는 의사가 되고 싶어요.",
+   "l1": {
+    "ko": "나는 의사가 되고 싶어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

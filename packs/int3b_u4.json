@@ -1,0 +1,108 @@
+{
+ "id": "int3b_u4",
+ "title": "INT 3B · Unit 4 · Who is This?",
+ "book": "int3b",
+ "unit": 4,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "mom",
+   "en": "mom",
+   "ko": "엄마",
+   "l1": {
+    "ko": "엄마"
+   }
+  },
+  {
+   "id": "aunt",
+   "en": "aunt",
+   "ko": "고모, 이모",
+   "l1": {
+    "ko": "고모, 이모"
+   }
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "l1": {
+    "ko": "할머니"
+   }
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "언니, 누나, 여동생",
+   "l1": {
+    "ko": "언니, 누나, 여동생"
+   }
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "l1": {
+    "ko": "선생님"
+   }
+  },
+  {
+   "id": "dad",
+   "en": "dad",
+   "ko": "아빠",
+   "l1": {
+    "ko": "아빠"
+   }
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "l1": {
+    "ko": "형, 오빠, 남동생"
+   }
+  },
+  {
+   "id": "grandfather",
+   "en": "grandfather",
+   "ko": "할아버지",
+   "l1": {
+    "ko": "할아버지"
+   }
+  },
+  {
+   "id": "uncle",
+   "en": "uncle",
+   "ko": "삼촌",
+   "l1": {
+    "ko": "삼촌"
+   }
+  },
+  {
+   "id": "me",
+   "en": "me",
+   "ko": "나",
+   "l1": {
+    "ko": "나"
+   }
+  },
+  {
+   "id": "whoisthis",
+   "en": "Who is this?",
+   "ko": "이 사람은 누구예요?",
+   "l1": {
+    "ko": "이 사람은 누구예요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "sheismygrandmother",
+   "en": "She is my grandmother.",
+   "ko": "제 할머니예요.",
+   "l1": {
+    "ko": "제 할머니예요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

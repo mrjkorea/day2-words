@@ -1,0 +1,107 @@
+{
+ "id": "int2a_u3",
+ "title": "INT 2A · Unit 3 · Can You Speak Chinese?",
+ "book": "int2a",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "speak",
+   "en": "speak",
+   "ko": "말하다",
+   "l1": {
+    "ko": "말하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "chinese",
+   "en": "Chinese",
+   "ko": "중국어",
+   "l1": {
+    "ko": "중국어"
+   }
+  },
+  {
+   "id": "japanese",
+   "en": "Japanese",
+   "ko": "일본어",
+   "l1": {
+    "ko": "일본어"
+   }
+  },
+  {
+   "id": "french",
+   "en": "French",
+   "ko": "프랑스어",
+   "l1": {
+    "ko": "프랑스어"
+   }
+  },
+  {
+   "id": "german",
+   "en": "German",
+   "ko": "독일어",
+   "l1": {
+    "ko": "독일어"
+   }
+  },
+  {
+   "id": "hindi",
+   "en": "Hindi",
+   "ko": "힌디어",
+   "l1": {
+    "ko": "힌디어"
+   }
+  },
+  {
+   "id": "spanish",
+   "en": "Spanish",
+   "ko": "스페인어",
+   "l1": {
+    "ko": "스페인어"
+   }
+  },
+  {
+   "id": "vietnamese",
+   "en": "Vietnamese",
+   "ko": "베트남어",
+   "l1": {
+    "ko": "베트남어"
+   }
+  },
+  {
+   "id": "korean",
+   "en": "Korean",
+   "ko": "한국어",
+   "l1": {
+    "ko": "한국어"
+   }
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "l1": {
+    "ko": "영어"
+   }
+  },
+  {
+   "id": "russian",
+   "en": "Russian",
+   "ko": "러시아어",
+   "l1": {
+    "ko": "러시아어"
+   }
+  },
+  {
+   "id": "canyouspeakenglish",
+   "en": "Can you speak English?",
+   "ko": "영어를 할 수 있어요?",
+   "l1": {
+    "ko": "영어를 할 수 있어요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

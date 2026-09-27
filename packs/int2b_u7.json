@@ -1,0 +1,114 @@
+{
+ "id": "int2b_u7",
+ "title": "INT 2B · Unit 7 · Have You Seen My Transit Card?",
+ "book": "int2b",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "transitcard",
+   "en": "transit card",
+   "ko": "교통카드",
+   "l1": {
+    "ko": "교통카드"
+   }
+  },
+  {
+   "id": "pencilcase",
+   "en": "pencil case",
+   "ko": "필통",
+   "l1": {
+    "ko": "필통"
+   }
+  },
+  {
+   "id": "under",
+   "en": "under",
+   "ko": "~ 아래에",
+   "l1": {
+    "ko": "~ 아래에"
+   }
+  },
+  {
+   "id": "behind",
+   "en": "behind",
+   "ko": "~ 뒤에",
+   "l1": {
+    "ko": "~ 뒤에"
+   }
+  },
+  {
+   "id": "infrontof",
+   "en": "in front of",
+   "ko": "~ 앞에",
+   "l1": {
+    "ko": "~ 앞에"
+   }
+  },
+  {
+   "id": "between",
+   "en": "between",
+   "ko": "~ 사이에",
+   "l1": {
+    "ko": "~ 사이에"
+   }
+  },
+  {
+   "id": "nextto",
+   "en": "next to",
+   "ko": "~ 옆에",
+   "l1": {
+    "ko": "~ 옆에"
+   }
+  },
+  {
+   "id": "pocket",
+   "en": "pocket",
+   "ko": "주머니",
+   "l1": {
+    "ko": "주머니"
+   }
+  },
+  {
+   "id": "across",
+   "en": "across",
+   "ko": "~ 건너편에",
+   "l1": {
+    "ko": "~ 건너편에"
+   }
+  },
+  {
+   "id": "outside",
+   "en": "outside",
+   "ko": "~ 밖에",
+   "l1": {
+    "ko": "~ 밖에"
+   }
+  },
+  {
+   "id": "stairs",
+   "en": "stairs",
+   "ko": "계단",
+   "l1": {
+    "ko": "계단"
+   }
+  },
+  {
+   "id": "busstop",
+   "en": "bus stop",
+   "ko": "버스 정류장",
+   "l1": {
+    "ko": "버스 정류장"
+   }
+  },
+  {
+   "id": "isitunderthedesk",
+   "en": "Is it under the desk?",
+   "ko": "책상 아래에 있어요?",
+   "l1": {
+    "ko": "책상 아래에 있어요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

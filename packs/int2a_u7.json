@@ -1,0 +1,107 @@
+{
+ "id": "int2a_u7",
+ "title": "INT 2A · Unit 7 · Where is the Teacher?",
+ "book": "int2a",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "classmate",
+   "en": "classmate",
+   "ko": "반 친구",
+   "l1": {
+    "ko": "반 친구"
+   }
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "l1": {
+    "ko": "선생님"
+   }
+  },
+  {
+   "id": "principal",
+   "en": "principal",
+   "ko": "교장 선생님",
+   "l1": {
+    "ko": "교장 선생님"
+   }
+  },
+  {
+   "id": "student",
+   "en": "student",
+   "ko": "학생",
+   "l1": {
+    "ko": "학생"
+   },
+   "pic": false
+  },
+  {
+   "id": "clean",
+   "en": "clean",
+   "ko": "청소하다",
+   "l1": {
+    "ko": "청소하다"
+   }
+  },
+  {
+   "id": "librarian",
+   "en": "librarian",
+   "ko": "사서",
+   "l1": {
+    "ko": "사서"
+   }
+  },
+  {
+   "id": "janitor",
+   "en": "janitor",
+   "ko": "관리인",
+   "l1": {
+    "ko": "관리인"
+   }
+  },
+  {
+   "id": "lunchlady",
+   "en": "lunch lady",
+   "ko": "급식 아주머니",
+   "l1": {
+    "ko": "급식 아주머니"
+   }
+  },
+  {
+   "id": "secretary",
+   "en": "secretary",
+   "ko": "비서, 행정실 선생님",
+   "l1": {
+    "ko": "비서, 행정실 선생님"
+   }
+  },
+  {
+   "id": "groundskeeper",
+   "en": "groundskeeper",
+   "ko": "운동장 관리인",
+   "l1": {
+    "ko": "운동장 관리인"
+   }
+  },
+  {
+   "id": "nurse",
+   "en": "nurse",
+   "ko": "보건 선생님",
+   "l1": {
+    "ko": "보건 선생님"
+   }
+  },
+  {
+   "id": "whereisourteacher",
+   "en": "Where is our teacher?",
+   "ko": "우리 선생님은 어디에 계세요?",
+   "l1": {
+    "ko": "우리 선생님은 어디에 계세요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

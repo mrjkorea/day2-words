@@ -1,0 +1,112 @@
+{
+ "id": "int3c_u1",
+ "title": "INT 3C · Unit 1 · Do You Like Sweet Food?",
+ "book": "int3c",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "sweet",
+   "en": "sweet",
+   "ko": "달콤한",
+   "l1": {
+    "ko": "달콤한"
+   }
+  },
+  {
+   "id": "salty",
+   "en": "salty",
+   "ko": "짠",
+   "l1": {
+    "ko": "짠"
+   }
+  },
+  {
+   "id": "sour",
+   "en": "sour",
+   "ko": "신",
+   "l1": {
+    "ko": "신"
+   }
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "l1": {
+    "ko": "음식"
+   },
+   "pic": false
+  },
+  {
+   "id": "try",
+   "en": "try",
+   "ko": "먹어 보다",
+   "l1": {
+    "ko": "먹어 보다"
+   },
+   "pic": false
+  },
+  {
+   "id": "ddeok",
+   "en": "ddeok",
+   "ko": "떡",
+   "l1": {
+    "ko": "떡"
+   }
+  },
+  {
+   "id": "sticky",
+   "en": "sticky",
+   "ko": "끈적한",
+   "l1": {
+    "ko": "끈적한"
+   },
+   "pic": false
+  },
+  {
+   "id": "rice",
+   "en": "rice",
+   "ko": "쌀",
+   "l1": {
+    "ko": "쌀"
+   },
+   "pic": false
+  },
+  {
+   "id": "dessert",
+   "en": "dessert",
+   "ko": "후식, 디저트",
+   "l1": {
+    "ko": "후식, 디저트"
+   },
+   "pic": false
+  },
+  {
+   "id": "doenjang",
+   "en": "doenjang",
+   "ko": "된장",
+   "l1": {
+    "ko": "된장"
+   }
+  },
+  {
+   "id": "whatisit",
+   "en": "What is it?",
+   "ko": "그게 뭐예요?",
+   "l1": {
+    "ko": "그게 뭐예요?"
+   },
+   "kind": "expression"
+  },
+  {
+   "id": "itisastickyricedessert",
+   "en": "It is a sticky rice dessert.",
+   "ko": "그것은 끈적한 쌀 후식이에요.",
+   "l1": {
+    "ko": "그것은 끈적한 쌀 후식이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

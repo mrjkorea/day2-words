@@ -1,0 +1,98 @@
+{
+ "id": "int3a_u3",
+ "title": "INT 3A · Unit 3 · Opposites",
+ "book": "int3a",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "good",
+   "en": "good",
+   "ko": "좋은",
+   "l1": {
+    "ko": "좋은"
+   }
+  },
+  {
+   "id": "bad",
+   "en": "bad",
+   "ko": "나쁜",
+   "l1": {
+    "ko": "나쁜"
+   }
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "차가운",
+   "l1": {
+    "ko": "차가운"
+   }
+  },
+  {
+   "id": "hot",
+   "en": "hot",
+   "ko": "뜨거운",
+   "l1": {
+    "ko": "뜨거운"
+   }
+  },
+  {
+   "id": "small",
+   "en": "small",
+   "ko": "작은",
+   "l1": {
+    "ko": "작은"
+   }
+  },
+  {
+   "id": "big",
+   "en": "big",
+   "ko": "큰",
+   "l1": {
+    "ko": "큰"
+   }
+  },
+  {
+   "id": "soft",
+   "en": "soft",
+   "ko": "부드러운",
+   "l1": {
+    "ko": "부드러운"
+   }
+  },
+  {
+   "id": "hard",
+   "en": "hard",
+   "ko": "딱딱한",
+   "l1": {
+    "ko": "딱딱한"
+   }
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "l1": {
+    "ko": "조용한"
+   }
+  },
+  {
+   "id": "loud",
+   "en": "loud",
+   "ko": "시끄러운",
+   "l1": {
+    "ko": "시끄러운"
+   }
+  },
+  {
+   "id": "thisiscold",
+   "en": "This is cold.",
+   "ko": "이것은 차가워요.",
+   "l1": {
+    "ko": "이것은 차가워요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "id": "int2c_u8",
+ "title": "INT 2C · Unit 8 · I'll Miss You",
+ "book": "int2c",
+ "unit": 8,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "miss",
+   "en": "miss",
+   "ko": "그리워하다",
+   "l1": {
+    "ko": "그리워하다"
+   }
+  },
+  {
+   "id": "care",
+   "en": "care",
+   "ko": "조심, 보살핌",
+   "l1": {
+    "ko": "조심, 보살핌"
+   }
+  },
+  {
+   "id": "long",
+   "en": "long",
+   "ko": "오래, 긴",
+   "l1": {
+    "ko": "오래, 긴"
+   }
+  },
+  {
+   "id": "goodbye",
+   "en": "goodbye",
+   "ko": "작별 인사",
+   "l1": {
+    "ko": "작별 인사"
+   }
+  },
+  {
+   "id": "luck",
+   "en": "luck",
+   "ko": "행운",
+   "l1": {
+    "ko": "행운"
+   }
+  },
+  {
+   "id": "easy",
+   "en": "easy",
+   "ko": "편한, 쉬운",
+   "l1": {
+    "ko": "편한, 쉬운"
+   }
+  },
+  {
+   "id": "nice",
+   "en": "nice",
+   "ko": "좋은",
+   "l1": {
+    "ko": "좋은"
+   }
+  },
+  {
+   "id": "day",
+   "en": "day",
+   "ko": "하루, 날",
+   "l1": {
+    "ko": "하루, 날"
+   },
+   "pic": false
+  },
+  {
+   "id": "time",
+   "en": "time",
+   "ko": "시간, 때",
+   "l1": {
+    "ko": "시간, 때"
+   },
+   "pic": false
+  },
+  {
+   "id": "illmissyou",
+   "en": "I'll miss you.",
+   "ko": "보고 싶을 거야.",
+   "l1": {
+    "ko": "보고 싶을 거야."
+   },
+   "kind": "expression"
+  }
+ ]
+}

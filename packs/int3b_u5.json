@@ -1,0 +1,90 @@
+{
+ "id": "int3b_u5",
+ "title": "INT 3B · Unit 5 · Eat Up",
+ "book": "int3b",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "eatup",
+   "en": "eat up",
+   "ko": "다 먹다",
+   "l1": {
+    "ko": "다 먹다"
+   }
+  },
+  {
+   "id": "washup",
+   "en": "wash up",
+   "ko": "씻다",
+   "l1": {
+    "ko": "씻다"
+   }
+  },
+  {
+   "id": "hurryup",
+   "en": "hurry up",
+   "ko": "서두르다",
+   "l1": {
+    "ko": "서두르다"
+   }
+  },
+  {
+   "id": "cleanup",
+   "en": "clean up",
+   "ko": "치우다, 청소하다",
+   "l1": {
+    "ko": "치우다, 청소하다"
+   }
+  },
+  {
+   "id": "slowdown",
+   "en": "slow down",
+   "ko": "속도를 줄이다",
+   "l1": {
+    "ko": "속도를 줄이다"
+   }
+  },
+  {
+   "id": "putdown",
+   "en": "put down",
+   "ko": "내려놓다",
+   "l1": {
+    "ko": "내려놓다"
+   }
+  },
+  {
+   "id": "comedown",
+   "en": "come down",
+   "ko": "내려오다",
+   "l1": {
+    "ko": "내려오다"
+   }
+  },
+  {
+   "id": "giveup",
+   "en": "give up",
+   "ko": "포기하다",
+   "l1": {
+    "ko": "포기하다"
+   }
+  },
+  {
+   "id": "cooldown",
+   "en": "cool down",
+   "ko": "식히다",
+   "l1": {
+    "ko": "식히다"
+   }
+  },
+  {
+   "id": "bequiet",
+   "en": "Be quiet!",
+   "ko": "조용히 해!",
+   "l1": {
+    "ko": "조용히 해!"
+   },
+   "kind": "expression"
+  }
+ ]
+}

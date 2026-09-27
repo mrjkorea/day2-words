@@ -1,0 +1,108 @@
+{
+ "id": "basic_b_u7",
+ "title": "Basic B · Unit 7 · What Color is That?",
+ "book": "basic_b",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "white",
+   "en": "white",
+   "ko": "하얀색",
+   "l1": {
+    "ko": "하얀색"
+   }
+  },
+  {
+   "id": "black",
+   "en": "black",
+   "ko": "검은색",
+   "l1": {
+    "ko": "검은색"
+   }
+  },
+  {
+   "id": "brown",
+   "en": "brown",
+   "ko": "갈색",
+   "l1": {
+    "ko": "갈색"
+   }
+  },
+  {
+   "id": "red",
+   "en": "red",
+   "ko": "빨간색",
+   "l1": {
+    "ko": "빨간색"
+   }
+  },
+  {
+   "id": "orange",
+   "en": "orange",
+   "ko": "주황색",
+   "l1": {
+    "ko": "주황색"
+   }
+  },
+  {
+   "id": "yellow",
+   "en": "yellow",
+   "ko": "노란색",
+   "l1": {
+    "ko": "노란색"
+   }
+  },
+  {
+   "id": "green",
+   "en": "green",
+   "ko": "초록색",
+   "l1": {
+    "ko": "초록색"
+   }
+  },
+  {
+   "id": "blue",
+   "en": "blue",
+   "ko": "파란색",
+   "l1": {
+    "ko": "파란색"
+   }
+  },
+  {
+   "id": "purple",
+   "en": "purple",
+   "ko": "보라색",
+   "l1": {
+    "ko": "보라색"
+   }
+  },
+  {
+   "id": "rainbow",
+   "en": "rainbow",
+   "ko": "무지개",
+   "l1": {
+    "ko": "무지개"
+   }
+  },
+  {
+   "id": "whatcoloristhat",
+   "en": "What color is that?",
+   "ko": "저것은 무슨 색이에요?",
+   "l1": {
+    "ko": "저것은 무슨 색이에요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itisred",
+   "en": "It is red.",
+   "ko": "빨간색이에요.",
+   "l1": {
+    "ko": "빨간색이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

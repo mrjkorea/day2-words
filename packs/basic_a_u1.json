@@ -1,0 +1,89 @@
+{
+ "id": "basic_a_u1",
+ "title": "Basic A · Unit 1 · Numbers 1 to 10",
+ "book": "basic_a",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "one",
+   "en": "one",
+   "ko": "하나, 일",
+   "l1": {
+    "ko": "하나, 일"
+   }
+  },
+  {
+   "id": "two",
+   "en": "two",
+   "ko": "둘, 이",
+   "l1": {
+    "ko": "둘, 이"
+   }
+  },
+  {
+   "id": "three",
+   "en": "three",
+   "ko": "셋, 삼",
+   "l1": {
+    "ko": "셋, 삼"
+   }
+  },
+  {
+   "id": "four",
+   "en": "four",
+   "ko": "넷, 사",
+   "l1": {
+    "ko": "넷, 사"
+   }
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 오",
+   "l1": {
+    "ko": "다섯, 오"
+   }
+  },
+  {
+   "id": "six",
+   "en": "six",
+   "ko": "여섯, 육",
+   "l1": {
+    "ko": "여섯, 육"
+   }
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 칠",
+   "l1": {
+    "ko": "일곱, 칠"
+   }
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 팔",
+   "l1": {
+    "ko": "여덟, 팔"
+   }
+  },
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 구",
+   "l1": {
+    "ko": "아홉, 구"
+   }
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열, 십",
+   "l1": {
+    "ko": "열, 십"
+   }
+  }
+ ]
+}

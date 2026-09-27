@@ -1,0 +1,98 @@
+{
+ "id": "int2b_u5",
+ "title": "INT 2B · Unit 5 · Somebody Stole My Bike!",
+ "book": "int2b",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "smart",
+   "en": "smart",
+   "ko": "똑똑한",
+   "l1": {
+    "ko": "똑똑한"
+   }
+  },
+  {
+   "id": "fat",
+   "en": "fat",
+   "ko": "뚱뚱한",
+   "l1": {
+    "ko": "뚱뚱한"
+   }
+  },
+  {
+   "id": "tall",
+   "en": "tall",
+   "ko": "키가 큰",
+   "l1": {
+    "ko": "키가 큰"
+   }
+  },
+  {
+   "id": "short",
+   "en": "short",
+   "ko": "키가 작은",
+   "l1": {
+    "ko": "키가 작은"
+   }
+  },
+  {
+   "id": "thin",
+   "en": "thin",
+   "ko": "마른",
+   "l1": {
+    "ko": "마른"
+   }
+  },
+  {
+   "id": "old",
+   "en": "old",
+   "ko": "나이 든",
+   "l1": {
+    "ko": "나이 든"
+   }
+  },
+  {
+   "id": "young",
+   "en": "young",
+   "ko": "어린",
+   "l1": {
+    "ko": "어린"
+   }
+  },
+  {
+   "id": "ugly",
+   "en": "ugly",
+   "ko": "못생긴",
+   "l1": {
+    "ko": "못생긴"
+   }
+  },
+  {
+   "id": "goodlooking",
+   "en": "good-looking",
+   "ko": "잘생긴",
+   "l1": {
+    "ko": "잘생긴"
+   }
+  },
+  {
+   "id": "rich",
+   "en": "rich",
+   "ko": "부유한",
+   "l1": {
+    "ko": "부유한"
+   }
+  },
+  {
+   "id": "ishetall",
+   "en": "Is he tall?",
+   "ko": "그는 키가 커요?",
+   "l1": {
+    "ko": "그는 키가 커요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

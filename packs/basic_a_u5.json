@@ -1,0 +1,98 @@
+{
+ "id": "basic_a_u5",
+ "title": "Basic A · Unit 5 · Family",
+ "book": "basic_a",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "mom",
+   "en": "mom",
+   "ko": "엄마",
+   "l1": {
+    "ko": "엄마"
+   }
+  },
+  {
+   "id": "dad",
+   "en": "dad",
+   "ko": "아빠",
+   "l1": {
+    "ko": "아빠"
+   }
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "누나, 언니, 여동생",
+   "l1": {
+    "ko": "누나, 언니, 여동생"
+   }
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "l1": {
+    "ko": "형, 오빠, 남동생"
+   }
+  },
+  {
+   "id": "uncle",
+   "en": "uncle",
+   "ko": "삼촌",
+   "l1": {
+    "ko": "삼촌"
+   }
+  },
+  {
+   "id": "aunt",
+   "en": "aunt",
+   "ko": "이모, 고모",
+   "l1": {
+    "ko": "이모, 고모"
+   }
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "l1": {
+    "ko": "할머니"
+   }
+  },
+  {
+   "id": "cousin",
+   "en": "cousin",
+   "ko": "사촌",
+   "l1": {
+    "ko": "사촌"
+   }
+  },
+  {
+   "id": "nephew",
+   "en": "nephew",
+   "ko": "조카",
+   "l1": {
+    "ko": "조카"
+   }
+  },
+  {
+   "id": "grandson",
+   "en": "grandson",
+   "ko": "손자",
+   "l1": {
+    "ko": "손자"
+   }
+  },
+  {
+   "id": "thisismymom",
+   "en": "This is my mom.",
+   "ko": "이 분은 제 엄마예요.",
+   "l1": {
+    "ko": "이 분은 제 엄마예요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

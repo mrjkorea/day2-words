@@ -1,0 +1,107 @@
+{
+ "id": "basic_c_u8",
+ "title": "Basic C · Unit 8 · I Want a New Computer",
+ "book": "basic_c",
+ "unit": 8,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "want",
+   "en": "want",
+   "ko": "원하다",
+   "l1": {
+    "ko": "원하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "doll",
+   "en": "doll",
+   "ko": "인형",
+   "l1": {
+    "ko": "인형"
+   }
+  },
+  {
+   "id": "pencilcase",
+   "en": "pencil case",
+   "ko": "필통",
+   "l1": {
+    "ko": "필통"
+   }
+  },
+  {
+   "id": "schoolbag",
+   "en": "school bag",
+   "ko": "책가방",
+   "l1": {
+    "ko": "책가방"
+   }
+  },
+  {
+   "id": "earphones",
+   "en": "earphones",
+   "ko": "이어폰",
+   "l1": {
+    "ko": "이어폰"
+   }
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "l1": {
+    "ko": "휴대폰"
+   }
+  },
+  {
+   "id": "clothes",
+   "en": "clothes",
+   "ko": "옷",
+   "l1": {
+    "ko": "옷"
+   }
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "l1": {
+    "ko": "자전거"
+   }
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "l1": {
+    "ko": "컴퓨터"
+   }
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "남동생, 형",
+   "l1": {
+    "ko": "남동생, 형"
+   }
+  },
+  {
+   "id": "house",
+   "en": "house",
+   "ko": "집",
+   "l1": {
+    "ko": "집"
+   }
+  },
+  {
+   "id": "iwantanewbike",
+   "en": "I want a new bike.",
+   "ko": "나는 새 자전거를 원해요.",
+   "l1": {
+    "ko": "나는 새 자전거를 원해요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

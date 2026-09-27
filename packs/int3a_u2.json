@@ -1,0 +1,117 @@
+{
+ "id": "int3a_u2",
+ "title": "INT 3A · Unit 2 · What Flavor Do You Like?",
+ "book": "int3a",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "flavor",
+   "en": "flavor",
+   "ko": "맛",
+   "l1": {
+    "ko": "맛"
+   },
+   "pic": false
+  },
+  {
+   "id": "vanilla",
+   "en": "vanilla",
+   "ko": "바닐라",
+   "l1": {
+    "ko": "바닐라"
+   }
+  },
+  {
+   "id": "chocolate",
+   "en": "chocolate",
+   "ko": "초콜릿",
+   "l1": {
+    "ko": "초콜릿"
+   }
+  },
+  {
+   "id": "strawberry",
+   "en": "strawberry",
+   "ko": "딸기",
+   "l1": {
+    "ko": "딸기"
+   }
+  },
+  {
+   "id": "melon",
+   "en": "melon",
+   "ko": "멜론",
+   "l1": {
+    "ko": "멜론"
+   }
+  },
+  {
+   "id": "mint",
+   "en": "mint",
+   "ko": "민트",
+   "l1": {
+    "ko": "민트"
+   }
+  },
+  {
+   "id": "banana",
+   "en": "banana",
+   "ko": "바나나",
+   "l1": {
+    "ko": "바나나"
+   }
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "l1": {
+    "ko": "레몬"
+   }
+  },
+  {
+   "id": "milk",
+   "en": "milk",
+   "ko": "우유",
+   "l1": {
+    "ko": "우유"
+   }
+  },
+  {
+   "id": "redbean",
+   "en": "red bean",
+   "ko": "팥",
+   "l1": {
+    "ko": "팥"
+   }
+  },
+  {
+   "id": "cottoncandy",
+   "en": "cotton candy",
+   "ko": "솜사탕",
+   "l1": {
+    "ko": "솜사탕"
+   }
+  },
+  {
+   "id": "whatflavordoyoulike",
+   "en": "What flavor do you like?",
+   "ko": "무슨 맛을 좋아해요?",
+   "l1": {
+    "ko": "무슨 맛을 좋아해요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "ilikestrawberry",
+   "en": "I like strawberry.",
+   "ko": "딸기 맛을 좋아해요.",
+   "l1": {
+    "ko": "딸기 맛을 좋아해요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

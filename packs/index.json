@@ -1,0 +1,618 @@
+{
+ "books": [
+  {
+   "id": "basic_a",
+   "label": "Basic A"
+  },
+  {
+   "id": "basic_b",
+   "label": "Basic B"
+  },
+  {
+   "id": "basic_c",
+   "label": "Basic C"
+  },
+  {
+   "id": "int2a",
+   "label": "INT 2A"
+  },
+  {
+   "id": "int2b",
+   "label": "INT 2B"
+  },
+  {
+   "id": "int2c",
+   "label": "INT 2C"
+  },
+  {
+   "id": "int3a",
+   "label": "INT 3A"
+  },
+  {
+   "id": "int3b",
+   "label": "INT 3B"
+  },
+  {
+   "id": "int3c",
+   "label": "INT 3C"
+  }
+ ],
+ "packs": [
+  {
+   "id": "basic_a_u1",
+   "book": "basic_a",
+   "book_label": "Basic A",
+   "unit": 1,
+   "title": "Numbers 1 to 10",
+   "count": 10
+  },
+  {
+   "id": "basic_a_u2",
+   "book": "basic_a",
+   "book_label": "Basic A",
+   "unit": 2,
+   "title": "Hello",
+   "count": 12
+  },
+  {
+   "id": "basic_a_u3",
+   "book": "basic_a",
+   "book_label": "Basic A",
+   "unit": 3,
+   "title": "Computer Orders",
+   "count": 12
+  },
+  {
+   "id": "basic_a_u4",
+   "book": "basic_a",
+   "book_label": "Basic A",
+   "unit": 4,
+   "title": "Classroom English One",
+   "count": 11
+  },
+  {
+   "id": "basic_a_u5",
+   "book": "basic_a",
+   "book_label": "Basic A",
+   "unit": 5,
+   "title": "Family",
+   "count": 11
+  },
+  {
+   "id": "basic_a_u6",
+   "book": "basic_a",
+   "book_label": "Basic A",
+   "unit": 6,
+   "title": "What is this?",
+   "count": 12
+  },
+  {
+   "id": "basic_a_u7",
+   "book": "basic_a",
+   "book_label": "Basic A",
+   "unit": 7,
+   "title": "I can",
+   "count": 12
+  },
+  {
+   "id": "basic_a_u8",
+   "book": "basic_a",
+   "book_label": "Basic A",
+   "unit": 8,
+   "title": "Numbers 11–100",
+   "count": 10
+  },
+  {
+   "id": "basic_b_u1",
+   "book": "basic_b",
+   "book_label": "Basic B",
+   "unit": 1,
+   "title": "How are you?",
+   "count": 12
+  },
+  {
+   "id": "basic_b_u2",
+   "book": "basic_b",
+   "book_label": "Basic B",
+   "unit": 2,
+   "title": "I like Mr. Jay",
+   "count": 11
+  },
+  {
+   "id": "basic_b_u3",
+   "book": "basic_b",
+   "book_label": "Basic B",
+   "unit": 3,
+   "title": "Classroom English Two",
+   "count": 9
+  },
+  {
+   "id": "basic_b_u4",
+   "book": "basic_b",
+   "book_label": "Basic B",
+   "unit": 4,
+   "title": "Rock Paper Scissors",
+   "count": 5
+  },
+  {
+   "id": "basic_b_u5",
+   "book": "basic_b",
+   "book_label": "Basic B",
+   "unit": 5,
+   "title": "What is it?",
+   "count": 12
+  },
+  {
+   "id": "basic_b_u6",
+   "book": "basic_b",
+   "book_label": "Basic B",
+   "unit": 6,
+   "title": "I like my body",
+   "count": 11
+  },
+  {
+   "id": "basic_b_u7",
+   "book": "basic_b",
+   "book_label": "Basic B",
+   "unit": 7,
+   "title": "What Color is That?",
+   "count": 12
+  },
+  {
+   "id": "basic_b_u8",
+   "book": "basic_b",
+   "book_label": "Basic B",
+   "unit": 8,
+   "title": "How old are you?",
+   "count": 12
+  },
+  {
+   "id": "basic_c_u1",
+   "book": "basic_c",
+   "book_label": "Basic C",
+   "unit": 1,
+   "title": "I Love My Dog Zoey",
+   "count": 12
+  },
+  {
+   "id": "basic_c_u2",
+   "book": "basic_c",
+   "book_label": "Basic C",
+   "unit": 2,
+   "title": "Look at My New Hat",
+   "count": 13
+  },
+  {
+   "id": "basic_c_u3",
+   "book": "basic_c",
+   "book_label": "Basic C",
+   "unit": 3,
+   "title": "Classroom English Three",
+   "count": 11
+  },
+  {
+   "id": "basic_c_u4",
+   "book": "basic_c",
+   "book_label": "Basic C",
+   "unit": 4,
+   "title": "What Can We See near Tongyeong?",
+   "count": 12
+  },
+  {
+   "id": "basic_c_u5",
+   "book": "basic_c",
+   "book_label": "Basic C",
+   "unit": 5,
+   "title": "Spelling Bee",
+   "count": 10
+  },
+  {
+   "id": "basic_c_u6",
+   "book": "basic_c",
+   "book_label": "Basic C",
+   "unit": 6,
+   "title": "Don't Touch Your Arm",
+   "count": 12
+  },
+  {
+   "id": "basic_c_u7",
+   "book": "basic_c",
+   "book_label": "Basic C",
+   "unit": 7,
+   "title": "Come Play With Us",
+   "count": 11
+  },
+  {
+   "id": "basic_c_u8",
+   "book": "basic_c",
+   "book_label": "Basic C",
+   "unit": 8,
+   "title": "I Want a New Computer",
+   "count": 12
+  },
+  {
+   "id": "int2a_u1",
+   "book": "int2a",
+   "book_label": "INT 2A",
+   "unit": 1,
+   "title": "How is the Weather?",
+   "count": 13
+  },
+  {
+   "id": "int2a_u2",
+   "book": "int2a",
+   "book_label": "INT 2A",
+   "unit": 2,
+   "title": "There are Snakes!",
+   "count": 11
+  },
+  {
+   "id": "int2a_u3",
+   "book": "int2a",
+   "book_label": "INT 2A",
+   "unit": 3,
+   "title": "Can You Speak Chinese?",
+   "count": 12
+  },
+  {
+   "id": "int2a_u4",
+   "book": "int2a",
+   "book_label": "INT 2A",
+   "unit": 4,
+   "title": "What do you Want?",
+   "count": 13
+  },
+  {
+   "id": "int2a_u5",
+   "book": "int2a",
+   "book_label": "INT 2A",
+   "unit": 5,
+   "title": "Where is My Phone?",
+   "count": 13
+  },
+  {
+   "id": "int2a_u6",
+   "book": "int2a",
+   "book_label": "INT 2A",
+   "unit": 6,
+   "title": "Look at This Funny Video",
+   "count": 12
+  },
+  {
+   "id": "int2a_u7",
+   "book": "int2a",
+   "book_label": "INT 2A",
+   "unit": 7,
+   "title": "Where is the Teacher?",
+   "count": 12
+  },
+  {
+   "id": "int2a_u8",
+   "book": "int2a",
+   "book_label": "INT 2A",
+   "unit": 8,
+   "title": "What Do You Do After School?",
+   "count": 13
+  },
+  {
+   "id": "int2b_u1",
+   "book": "int2b",
+   "book_label": "INT 2B",
+   "unit": 1,
+   "title": "Hello, This is Pizza Land",
+   "count": 12
+  },
+  {
+   "id": "int2b_u2",
+   "book": "int2b",
+   "book_label": "INT 2B",
+   "unit": 2,
+   "title": "What Time is it Now?",
+   "count": 11
+  },
+  {
+   "id": "int2b_u3",
+   "book": "int2b",
+   "book_label": "INT 2B",
+   "unit": 3,
+   "title": "What Do You Want to be in the Future?",
+   "count": 13
+  },
+  {
+   "id": "int2b_u4",
+   "book": "int2b",
+   "book_label": "INT 2B",
+   "unit": 4,
+   "title": "Welcome to Seven-Eleven",
+   "count": 14
+  },
+  {
+   "id": "int2b_u5",
+   "book": "int2b",
+   "book_label": "INT 2B",
+   "unit": 5,
+   "title": "Somebody Stole My Bike!",
+   "count": 11
+  },
+  {
+   "id": "int2b_u6",
+   "book": "int2b",
+   "book_label": "INT 2B",
+   "unit": 6,
+   "title": "Welcome to Parent's Night",
+   "count": 12
+  },
+  {
+   "id": "int2b_u7",
+   "book": "int2b",
+   "book_label": "INT 2B",
+   "unit": 7,
+   "title": "Have You Seen My Transit Card?",
+   "count": 13
+  },
+  {
+   "id": "int2b_u8",
+   "book": "int2b",
+   "book_label": "INT 2B",
+   "unit": 8,
+   "title": "This is Mine!",
+   "count": 7
+  },
+  {
+   "id": "int2c_u1",
+   "book": "int2c",
+   "book_label": "INT 2C",
+   "unit": 1,
+   "title": "I Love Summer",
+   "count": 13
+  },
+  {
+   "id": "int2c_u2",
+   "book": "int2c",
+   "book_label": "INT 2C",
+   "unit": 2,
+   "title": "What Are You Doing?",
+   "count": 13
+  },
+  {
+   "id": "int2c_u3",
+   "book": "int2c",
+   "book_label": "INT 2C",
+   "unit": 3,
+   "title": "Is This Yours?",
+   "count": 12
+  },
+  {
+   "id": "int2c_u4",
+   "book": "int2c",
+   "book_label": "INT 2C",
+   "unit": 4,
+   "title": "What's Your Favorite?",
+   "count": 12
+  },
+  {
+   "id": "int2c_u5",
+   "book": "int2c",
+   "book_label": "INT 2C",
+   "unit": 5,
+   "title": "How Are You Feeling?",
+   "count": 12
+  },
+  {
+   "id": "int2c_u6",
+   "book": "int2c",
+   "book_label": "INT 2C",
+   "unit": 6,
+   "title": "What's Wrong?",
+   "count": 14
+  },
+  {
+   "id": "int2c_u7",
+   "book": "int2c",
+   "book_label": "INT 2C",
+   "unit": 7,
+   "title": "Phone English 1",
+   "count": 12
+  },
+  {
+   "id": "int2c_u8",
+   "book": "int2c",
+   "book_label": "INT 2C",
+   "unit": 8,
+   "title": "I'll Miss You",
+   "count": 10
+  },
+  {
+   "id": "int3a_u1",
+   "book": "int3a",
+   "book_label": "INT 3A",
+   "unit": 1,
+   "title": "I Can Draw a Monster",
+   "count": 13
+  },
+  {
+   "id": "int3a_u2",
+   "book": "int3a",
+   "book_label": "INT 3A",
+   "unit": 2,
+   "title": "What Flavor Do You Like?",
+   "count": 13
+  },
+  {
+   "id": "int3a_u3",
+   "book": "int3a",
+   "book_label": "INT 3A",
+   "unit": 3,
+   "title": "Opposites",
+   "count": 11
+  },
+  {
+   "id": "int3a_u4",
+   "book": "int3a",
+   "book_label": "INT 3A",
+   "unit": 4,
+   "title": "How Old is He?",
+   "count": 12
+  },
+  {
+   "id": "int3a_u5",
+   "book": "int3a",
+   "book_label": "INT 3A",
+   "unit": 5,
+   "title": "What is This Bug?",
+   "count": 13
+  },
+  {
+   "id": "int3a_u6",
+   "book": "int3a",
+   "book_label": "INT 3A",
+   "unit": 6,
+   "title": "How Will I Yell Your Name?",
+   "count": 13
+  },
+  {
+   "id": "int3a_u7",
+   "book": "int3a",
+   "book_label": "INT 3A",
+   "unit": 7,
+   "title": "Gym Class",
+   "count": 11
+  },
+  {
+   "id": "int3a_u8",
+   "book": "int3a",
+   "book_label": "INT 3A",
+   "unit": 8,
+   "title": "Introduction",
+   "count": 12
+  },
+  {
+   "id": "int3b_u1",
+   "book": "int3b",
+   "book_label": "INT 3B",
+   "unit": 1,
+   "title": "What Grade Are You In?",
+   "count": 13
+  },
+  {
+   "id": "int3b_u2",
+   "book": "int3b",
+   "book_label": "INT 3B",
+   "unit": 2,
+   "title": "Is This a Gayageum?",
+   "count": 12
+  },
+  {
+   "id": "int3b_u3",
+   "book": "int3b",
+   "book_label": "INT 3B",
+   "unit": 3,
+   "title": "Bigger Please!",
+   "count": 11
+  },
+  {
+   "id": "int3b_u4",
+   "book": "int3b",
+   "book_label": "INT 3B",
+   "unit": 4,
+   "title": "Who is This?",
+   "count": 12
+  },
+  {
+   "id": "int3b_u5",
+   "book": "int3b",
+   "book_label": "INT 3B",
+   "unit": 5,
+   "title": "Eat Up",
+   "count": 10
+  },
+  {
+   "id": "int3b_u6",
+   "book": "int3b",
+   "book_label": "INT 3B",
+   "unit": 6,
+   "title": "What Fruit Are These?",
+   "count": 13
+  },
+  {
+   "id": "int3b_u7",
+   "book": "int3b",
+   "book_label": "INT 3B",
+   "unit": 7,
+   "title": "Don't Forget Your Transit Card",
+   "count": 12
+  },
+  {
+   "id": "int3b_u8",
+   "book": "int3b",
+   "book_label": "INT 3B",
+   "unit": 8,
+   "title": "Do You Like Korea?",
+   "count": 12
+  },
+  {
+   "id": "int3c_u1",
+   "book": "int3c",
+   "book_label": "INT 3C",
+   "unit": 1,
+   "title": "Do You Like Sweet Food?",
+   "count": 12
+  },
+  {
+   "id": "int3c_u2",
+   "book": "int3c",
+   "book_label": "INT 3C",
+   "unit": 2,
+   "title": "Do Not Yell",
+   "count": 11
+  },
+  {
+   "id": "int3c_u3",
+   "book": "int3c",
+   "book_label": "INT 3C",
+   "unit": 3,
+   "title": "Can I Play Outside?",
+   "count": 13
+  },
+  {
+   "id": "int3c_u4",
+   "book": "int3c",
+   "book_label": "INT 3C",
+   "unit": 4,
+   "title": "Let's Play an RPG",
+   "count": 12
+  },
+  {
+   "id": "int3c_u5",
+   "book": "int3c",
+   "book_label": "INT 3C",
+   "unit": 5,
+   "title": "What Do You Have?",
+   "count": 12
+  },
+  {
+   "id": "int3c_u6",
+   "book": "int3c",
+   "book_label": "INT 3C",
+   "unit": 6,
+   "title": "How Many Cities?",
+   "count": 12
+  },
+  {
+   "id": "int3c_u7",
+   "book": "int3c",
+   "book_label": "INT 3C",
+   "unit": 7,
+   "title": "Can You Fly?",
+   "count": 12
+  },
+  {
+   "id": "int3c_u8",
+   "book": "int3c",
+   "book_label": "INT 3C",
+   "unit": 8,
+   "title": "What Time is it?",
+   "count": 13
+  }
+ ]
+}

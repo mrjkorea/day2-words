@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="theme-color" content="#f6f3ec" />
+  <title>MRJ Day 2 Words · Word Master</title>
+  <link rel="stylesheet" href="css/app.css?v=d2w-1" />
+</head>
+<body>
+  <div id="phone" class="phone">
+    <header class="topbar" id="topbar" hidden>
+      <button type="button" class="icon-btn" id="btn-back" hidden data-i18n-aria="back">←</button>
+      <div class="brand">
+        <h1>Word Master</h1>
+      </div>
+      <label class="lang-wrap">
+        <span class="sr-only" data-i18n="lang_label">Language</span>
+        <select id="lang-select" aria-label="Language"></select>
+      </label>
+    </header>
+
+    <div class="teacher-bar" id="teacher-bar">
+      <button type="button" id="btn-skip-word" data-i18n="skip_word">Skip word</button>
+      <button type="button" id="btn-skip-step" data-i18n="skip_step">Skip step</button>
+      <button type="button" data-jump="intro" data-i18n="jump_meet">1 Meet</button>
+      <button type="button" data-jump="A" data-i18n="jump_learn">2 Learn</button>
+      <button type="button" data-jump="B" data-i18n="jump_dict">3 Dictation</button>
+      <button type="button" data-jump="C" data-i18n="jump_write">4 Write</button>
+      <button type="button" data-jump="games" data-i18n="jump_games">5 Games</button>
+      <button type="button" data-jump="test" data-i18n="jump_test">6 Test</button>
+    </div>
+    <div class="voice-bar" id="voice-toggle" hidden>
+      <button type="button" class="voice-btn" data-voice="us_m" data-i18n="voice_us_m" aria-pressed="true">US male</button>
+      <button type="button" class="voice-btn" data-voice="us_f" data-i18n="voice_us_f">US female</button>
+      <button type="button" class="voice-btn" hidden data-voice="uk_m" data-i18n="voice_uk_m">UK male</button>
+      <button type="button" class="voice-btn" hidden data-voice="uk_f" data-i18n="voice_uk_f">UK female</button>
+      <button type="button" class="voice-btn fun" data-voice="grandma" data-i18n="voice_grandma">Grandma</button>
+      <button type="button" class="voice-btn fun" hidden data-voice="leo" data-i18n="voice_teenager">Teenager</button>
+      <button type="button" class="voice-btn fun" data-voice="grandpa" data-i18n="voice_grandpa">Grandpa</button>
+      <button type="button" class="voice-btn fun" data-voice="robot" data-i18n="voice_robot">Robot</button>
+    </div>
+
+    <main id="stage" class="stage">
+      <section class="screen screen-boot active" id="screen-boot" data-screen="boot">
+        <label class="boot-lang">
+          <span class="sr-only" data-i18n="lang_label">Language</span>
+          <select id="lang-select-boot" aria-label="Language"></select>
+        </label>
+        <div class="boot-hero">
+          <div class="logo-mark" aria-hidden="true">MRJ</div>
+          <p class="eyebrow">Day 2 Words · 9 books</p>
+          <h2 class="hero-title">Word Master</h2>
+          <p class="hero-sub" data-i18n="boot_sub">See · hear · spell · write</p>
+        </div>
+        <button type="button" class="tap-start" id="btn-tap-start">
+          <span class="tap-big" data-i18n="tap_start">Tap to start</span>
+          <span class="tap-ko" data-i18n="tap_hint">Turns sound on</span>
+        </button>
+      </section>
+
+      <section class="screen" id="screen-name" data-screen="name">
+        <h2 class="hero-title" data-i18n="name_title">What’s your name?</h2>
+        <p class="help-ko" data-i18n="name_help">First thing. We keep it on this phone only.</p>
+        <input id="name-input" class="name-input" maxlength="24" autocomplete="off" />
+        <button type="button" class="chunk primary" id="btn-name-go"><strong data-i18n="name_go">That’s me</strong></button>
+      </section>
+
+      <section class="screen" id="screen-home" data-screen="home">
+        <p class="hello" id="hello-line"></p>
+        <button type="button" class="signout-link" id="btn-signout" hidden>Sign out</button>
+        <div class="signin-card" id="signin-card">
+          <p class="signin-kicker">Sign in</p>
+          <p class="help-ko">Name and a 4-digit PIN. Saved in Mr. Jay’s sheet, so you can change computers.</p>
+          <label class="signin-field">
+            <span>Name</span>
+            <input id="account-name" class="name-input" maxlength="24" autocomplete="off" />
+          </label>
+          <label class="signin-field">
+            <span>4-digit PIN</span>
+            <input id="account-pin" class="name-input pin-input" maxlength="4" inputmode="numeric" pattern="[0-9]*" autocomplete="off" />
+          </label>
+            <p class="signin-err" id="signin-err" hidden>Need a name and a 4-digit PIN.</p>
+          <div class="signin-actions">
+            <button type="button" class="chunk primary" id="btn-signin-save"><strong>Sign in</strong></button>
+            <button type="button" class="chunk" id="btn-signin-skip"><strong>Skip — just practice</strong><em>Pick a pack as today</em></button>
+          </div>
+        </div>
+        <div class="stats-card" id="stats-card">
+          <p id="stats-line"></p>
+          <button type="button" class="chunk" id="btn-word-list"><strong data-i18n="words_az">Words A–Z</strong><em data-i18n="word_list_em">See every word A–Z</em></button>
+        </div>
+        <p class="due-line" id="due-line" hidden></p>
+        <p class="path-note">Day 2 Words: pick your book, then your unit. Gold ring = do this next.</p>
+        <div class="home-stack">
+          <button type="button" class="chunk continue" id="btn-continue" hidden>
+            <span class="chip-tag" data-i18n="continue">Continue</span>
+            <strong id="continue-title">Set</strong>
+            <em id="continue-meta"></em>
+          </button>
+          <div class="index-lanes book-lanes">
+            <section class="lane book-lane lane-little" id="book-basic_a">
+              <h3>Basic A <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-basic_a_u1" data-pack="basic_a_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>Numbers 1 to 10</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_a_u2" data-pack="basic_a_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>Hello</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_a_u3" data-pack="basic_a_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>Computer Orders</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_a_u4" data-pack="basic_a_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>Classroom English One</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_a_u5" data-pack="basic_a_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>Family</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_a_u6" data-pack="basic_a_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>What is this?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_a_u7" data-pack="basic_a_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>I can</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_a_u8" data-pack="basic_a_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>Numbers 11–100</em>
+                </button>
+              </div>
+            </section>
+            <section class="lane book-lane lane-little" id="book-basic_b">
+              <h3>Basic B <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-basic_b_u1" data-pack="basic_b_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>How are you?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_b_u2" data-pack="basic_b_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>I like Mr. Jay</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_b_u3" data-pack="basic_b_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>Classroom English Two</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_b_u4" data-pack="basic_b_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>Rock Paper Scissors</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_b_u5" data-pack="basic_b_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>What is it?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_b_u6" data-pack="basic_b_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>I like my body</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_b_u7" data-pack="basic_b_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>What Color is That?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_b_u8" data-pack="basic_b_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>How old are you?</em>
+                </button>
+              </div>
+            </section>
+            <section class="lane book-lane lane-little" id="book-basic_c">
+              <h3>Basic C <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-basic_c_u1" data-pack="basic_c_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>I Love My Dog Zoey</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_c_u2" data-pack="basic_c_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>Look at My New Hat</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_c_u3" data-pack="basic_c_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>Classroom English Three</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_c_u4" data-pack="basic_c_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>What Can We See near Tongyeong?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_c_u5" data-pack="basic_c_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>Spelling Bee</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_c_u6" data-pack="basic_c_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>Don't Touch Your Arm</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_c_u7" data-pack="basic_c_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>Come Play With Us</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-basic_c_u8" data-pack="basic_c_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>I Want a New Computer</em>
+                </button>
+              </div>
+            </section>
+            <section class="lane book-lane lane-nouns" id="book-int2a">
+              <h3>INT 2A <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-int2a_u1" data-pack="int2a_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>How is the Weather?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2a_u2" data-pack="int2a_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>There are Snakes!</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2a_u3" data-pack="int2a_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>Can You Speak Chinese?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2a_u4" data-pack="int2a_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>What do you Want?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2a_u5" data-pack="int2a_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>Where is My Phone?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2a_u6" data-pack="int2a_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>Look at This Funny Video</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2a_u7" data-pack="int2a_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>Where is the Teacher?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2a_u8" data-pack="int2a_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>What Do You Do After School?</em>
+                </button>
+              </div>
+            </section>
+            <section class="lane book-lane lane-nouns" id="book-int2b">
+              <h3>INT 2B <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-int2b_u1" data-pack="int2b_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>Hello, This is Pizza Land</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2b_u2" data-pack="int2b_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>What Time is it Now?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2b_u3" data-pack="int2b_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>What Do You Want to be in the Future?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2b_u4" data-pack="int2b_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>Welcome to Seven-Eleven</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2b_u5" data-pack="int2b_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>Somebody Stole My Bike!</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2b_u6" data-pack="int2b_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>Welcome to Parent's Night</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2b_u7" data-pack="int2b_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>Have You Seen My Transit Card?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2b_u8" data-pack="int2b_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>This is Mine!</em>
+                </button>
+              </div>
+            </section>
+            <section class="lane book-lane lane-nouns" id="book-int2c">
+              <h3>INT 2C <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-int2c_u1" data-pack="int2c_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>I Love Summer</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2c_u2" data-pack="int2c_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>What Are You Doing?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2c_u3" data-pack="int2c_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>Is This Yours?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2c_u4" data-pack="int2c_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>What's Your Favorite?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2c_u5" data-pack="int2c_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>How Are You Feeling?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2c_u6" data-pack="int2c_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>What's Wrong?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2c_u7" data-pack="int2c_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>Phone English 1</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int2c_u8" data-pack="int2c_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>I'll Miss You</em>
+                </button>
+              </div>
+            </section>
+            <section class="lane book-lane lane-adj" id="book-int3a">
+              <h3>INT 3A <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-int3a_u1" data-pack="int3a_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>I Can Draw a Monster</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3a_u2" data-pack="int3a_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>What Flavor Do You Like?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3a_u3" data-pack="int3a_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>Opposites</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3a_u4" data-pack="int3a_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>How Old is He?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3a_u5" data-pack="int3a_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>What is This Bug?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3a_u6" data-pack="int3a_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>How Will I Yell Your Name?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3a_u7" data-pack="int3a_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>Gym Class</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3a_u8" data-pack="int3a_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>Introduction</em>
+                </button>
+              </div>
+            </section>
+            <section class="lane book-lane lane-adj" id="book-int3b">
+              <h3>INT 3B <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-int3b_u1" data-pack="int3b_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>What Grade Are You In?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3b_u2" data-pack="int3b_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>Is This a Gayageum?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3b_u3" data-pack="int3b_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>Bigger Please!</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3b_u4" data-pack="int3b_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>Who is This?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3b_u5" data-pack="int3b_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>Eat Up</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3b_u6" data-pack="int3b_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>What Fruit Are These?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3b_u7" data-pack="int3b_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>Don't Forget Your Transit Card</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3b_u8" data-pack="int3b_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>Do You Like Korea?</em>
+                </button>
+              </div>
+            </section>
+            <section class="lane book-lane lane-adj" id="book-int3c">
+              <h3>INT 3C <em>8 units</em></h3>
+              <div class="lane-grid">
+                <button type="button" class="pack-tile" id="btn-pack-int3c_u1" data-pack="int3c_u1" data-step="1">
+                  <b>1</b><strong>Unit 1</strong><em>Do You Like Sweet Food?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3c_u2" data-pack="int3c_u2" data-step="2">
+                  <b>2</b><strong>Unit 2</strong><em>Do Not Yell</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3c_u3" data-pack="int3c_u3" data-step="3">
+                  <b>3</b><strong>Unit 3</strong><em>Can I Play Outside?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3c_u4" data-pack="int3c_u4" data-step="4">
+                  <b>4</b><strong>Unit 4</strong><em>Let's Play an RPG</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3c_u5" data-pack="int3c_u5" data-step="5">
+                  <b>5</b><strong>Unit 5</strong><em>What Do You Have?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3c_u6" data-pack="int3c_u6" data-step="6">
+                  <b>6</b><strong>Unit 6</strong><em>How Many Cities?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3c_u7" data-pack="int3c_u7" data-step="7">
+                  <b>7</b><strong>Unit 7</strong><em>Can You Fly?</em>
+                </button>
+                <button type="button" class="pack-tile" id="btn-pack-int3c_u8" data-pack="int3c_u8" data-step="8">
+                  <b>8</b><strong>Unit 8</strong><em>What Time is it?</em>
+                </button>
+              </div>
+            </section>
+          </div>
+          <button type="button" class="chunk" id="btn-games-home">
+            <span class="chip-tag" data-i18n="games">Games</span>
+            <strong data-i18n="games">Games</strong>
+            <em data-i18n="games_em">Match · Listen</em>
+          </button>
+        </div>
+      </section>
+
+      <section class="screen" id="screen-set" data-screen="set">
+        <h2 class="set-title" id="set-title">Demo 10</h2>
+        <div class="ribbon" id="progress-ribbon">
+          <button type="button" class="rib" data-jump="intro"><b>1</b><span data-i18n="intro_go">Meet</span></button>
+          <button type="button" class="rib" data-jump="A"><b>2</b><span data-i18n="part_a">Learn</span></button>
+          <button type="button" class="rib" data-jump="B"><b>3</b><span data-i18n="part_b">Dictation</span></button>
+          <button type="button" class="rib" data-jump="C"><b>4</b><span data-i18n="part_c">Write</span></button>
+          <button type="button" class="rib" data-jump="games"><b>5</b><span data-i18n="games">Games</span></button>
+        </div>
+        <p class="pct-line" id="set-pct"></p>
+        <p class="tap-word-hint" data-i18n="study_how_many">How many words this time?</p>
+        <div class="study-size" id="study-size" role="group"></div>
+        <p class="tap-word-hint" data-i18n="tap_word_hint">Tap a word to hear it</p>
+        <div class="word-list" id="word-chips"></div>
+        <div class="home-stack tight">
+          <button type="button" class="chunk primary" id="btn-intro">
+            <strong id="intro-label" data-i18n="intro_go">Meet the words</strong>
+            <em data-i18n="intro_em">Tap pictures · listen · read</em>
+          </button>
+          <button type="button" class="chunk primary" id="btn-learn">
+            <strong id="learn-label">Start learning</strong>
+            <em data-i18n="auto_path">Learn → Dictation → Write, automatic</em>
+          </button>
+          <button type="button" class="chunk test" id="btn-easy">
+            <strong data-i18n="easy">Easy test</strong>
+            <em data-i18n="easy_em">See English · tap the meaning</em>
+          </button>
+          <button type="button" class="chunk test" id="btn-hard">
+            <strong data-i18n="hard">Hard test</strong>
+            <em data-i18n="hard_em">See the meaning · type English</em>
+          </button>
+          <button type="button" class="chunk" id="btn-games-set">
+            <strong data-i18n="games">Games</strong>
+            <em data-i18n="games_set_em">Play with this set</em>
+          </button>
+        </div>
+      </section>
+
+      <section class="screen" id="screen-words" data-screen="words">
+        <h2 class="screen-kicker" data-i18n="words_az">Words A–Z</h2>
+        <div class="word-list" id="alpha-list"></div>
+      </section>
+
+      <section class="screen" id="screen-intro" data-screen="intro">
+        <div id="tapmap" class="tapmap">
+          <div class="learn-hud">
+            <div class="mode-pill">
+              <b id="tap-round-n">1</b>
+              <span id="tap-round-name">Explore</span>
+            </div>
+            <p class="prog-text" id="tap-prog">0 / 5</p>
+          </div>
+          <p class="hint" id="tap-hint"></p>
+          <div class="tap-prompt" id="tap-prompt">
+            <button type="button" class="speaker huge" id="btn-tap-speak" data-i18n-aria="speak_word" hidden>🔊</button>
+            <p class="prompt-en" id="tap-word" hidden></p>
+          </div>
+          <div class="tap-grid" id="tap-grid"></div>
+        </div>
+        <article class="meet-card" id="meet-card" hidden>
+          <img class="meet-pic" id="meet-pic" alt="" />
+          <button type="button" class="meet-en" id="meet-en">word</button>
+          <p class="meet-ko" id="meet-ko"></p>
+          <div class="meet-ww" id="meet-ww" hidden>
+            <p class="ww-pos" id="ww-pos"></p>
+            <p class="ww-def" id="ww-def"></p>
+            <button type="button" class="ww-ex" id="ww-ex" data-i18n-aria="ww_hear_ex"></button>
+            <p class="ww-ex-l1" id="ww-ex-l1"></p>
+            <div class="ww-chips" id="ww-chips"></div>
+          </div>
+          <div class="meet-built" id="meet-built"></div>
+          <p class="tiny" data-i18n="spell_help">Tap the mixed letters to build the word.</p>
+          <div class="meet-pool" id="meet-pool"></div>
+        </article>
+      </section>
+
+      <section class="screen" id="screen-learn" data-screen="learn">
+        <div class="learn-hud">
+          <div class="mode-pill" id="mode-pill">
+            <b id="mode-letter">A</b>
+            <span id="mode-ko">Learn</span>
+          </div>
+          <p class="prog-text" id="prog-text"></p>
+        </div>
+        <p class="hint" id="mode-hint"></p>
+        <div class="card-stage">
+          <article class="sticker-card" id="prompt-card">
+            <button type="button" class="speaker" id="btn-speak" data-i18n-aria="speak_word">🔊</button>
+            <p class="prompt-ko" id="prompt-ko" hidden></p>
+            <p class="prompt-en" id="prompt-en"></p>
+            <p class="caption-fallback" id="caption-fallback" hidden></p>
+            <div class="letter-rail" id="letter-rail" hidden></div>
+            <p class="typed" id="typed-line" hidden><span id="typed-text"></span><i class="caret"></i></p>
+          </article>
+        </div>
+        <div class="choices" id="choices" hidden></div>
+        <div class="az-wrap" id="az-wrap" hidden>
+          <div class="az-pad" id="az-pad"></div>
+          <div class="az-row">
+            <button type="button" class="az-fn del" id="btn-del">⌫</button>
+            <button type="button" class="az-fn ok" id="btn-check">↵  Check</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" id="screen-test" data-screen="test">
+        <div class="home-stack" id="test-pick">
+          <p class="help-ko" data-i18n="pick_test">Choose Easy or Hard</p>
+          <button type="button" class="chunk test" id="btn-test-easy">
+            <strong data-i18n="easy">Easy test</strong>
+            <em data-i18n="easy_em">See English · tap the meaning</em>
+          </button>
+          <button type="button" class="chunk test" id="btn-test-hard">
+            <strong data-i18n="hard">Hard test</strong>
+            <em data-i18n="hard_em">See the meaning · type English</em>
+          </button>
+        </div>
+        <div id="test-play" hidden>
+        <div class="learn-hud">
+          <div class="mode-pill test-pill">
+            <b id="test-kind">EASY</b>
+            <span id="test-ko">Easy test</span>
+          </div>
+          <p class="prog-text" id="test-prog">1 / 10</p>
+        </div>
+        <article class="sticker-card" id="test-card">
+          <button type="button" class="speaker" id="btn-test-speak" data-i18n-aria="speak_word">🔊</button>
+          <p class="prompt-ko" id="test-ko-word" hidden></p>
+          <p class="prompt-en" id="test-en-word"></p>
+          <p class="typed" id="test-typed" hidden><span id="test-typed-text"></span><i class="caret"></i></p>
+        </article>
+        <div class="choices" id="test-choices" hidden></div>
+        <div class="az-wrap" id="test-az-wrap" hidden>
+          <div class="az-pad" id="test-az-pad"></div>
+          <div class="az-row">
+            <button type="button" class="az-fn del" id="btn-test-del">⌫</button>
+            <button type="button" class="az-fn ok" id="btn-test-check">↵  Check</button>
+          </div>
+        </div>
+        <div class="scoreboard" id="test-score" hidden>
+          <h3 id="test-score-title"></h3>
+          <p id="test-score-line"></p>
+          <label class="forever-box" id="forever-box" hidden>
+            <input type="checkbox" id="chk-forever" />
+            <span data-i18n="forever_help">Remember forever — we’ll remind you on this phone later (1 day, then 3, 7, 21, 60).</span>
+          </label>
+          <button type="button" class="chunk primary" id="btn-test-home" data-i18n="back_set">Back to set</button>
+        </div>
+        </div>
+      </section>
+
+      <section class="screen" id="screen-games" data-screen="games">
+        <h2 class="screen-kicker" data-i18n="games_kicker">Games</h2>
+        <p class="help-ko" id="games-set-hint"></p>
+        <div class="game-slots" id="game-slots">
+          <button type="button" class="slot playable" data-game="leapfrog">
+            <b>1</b>
+            <strong>Leap Frog</strong>
+            <em>Jump to the English word</em>
+          </button>
+          <button type="button" class="slot playable" data-game="snowjump">
+            <b>2</b>
+            <strong>Snow Jump</strong>
+            <em>Ski to the right word</em>
+          </button>
+          <button type="button" class="slot playable" data-game="spellfire">
+            <b>3</b>
+            <strong>Spellfire</strong>
+            <em>Climb by spelling</em>
+          </button>
+        </div>
+      </section>
+
+      <section class="screen" id="screen-playgame" data-screen="playgame">
+        <iframe id="game-frame" title="Game" allow="autoplay; fullscreen"></iframe>
+      </section>
+
+      <section class="screen" id="screen-match" data-screen="match">
+        <div class="learn-hud">
+          <div class="mode-pill"><b>M</b><span>Match</span></div>
+          <p class="prog-text" id="match-hud"></p>
+        </div>
+        <p class="help-ko" data-i18n="match_help">Tap an English word and its meaning.</p>
+        <div class="match-grid" id="match-grid"></div>
+        <p class="win-line" id="match-win" hidden data-i18n="match_win">All matched.</p>
+      </section>
+
+      <section class="screen" id="screen-listen" data-screen="listen">
+        <div class="learn-hud">
+          <div class="mode-pill"><b>L</b><span>Listen</span></div>
+          <p class="prog-text" id="listen-prog">1 / 10</p>
+        </div>
+        <article class="sticker-card listen-card">
+          <button type="button" class="speaker huge" id="btn-listen-speak" data-i18n-aria="speak_word">🔊</button>
+          <p class="help-ko" data-i18n="listen_help">Listen, then tap the English word.</p>
+        </article>
+        <div class="choices en-choices" id="listen-choices"></div>
+        <div class="scoreboard" id="listen-score" hidden>
+          <h3 data-i18n="listen_done">Listen done</h3>
+          <p id="listen-score-line"></p>
+          <button type="button" class="chunk primary" id="btn-listen-home" data-i18n="games">Games</button>
+        </div>
+      </section>
+    </main>
+
+    <canvas id="confetti" class="confetti" hidden></canvas>
+    <div class="flash" id="flash" hidden>
+      <div class="mark" id="flash-mark">✓</div>
+    </div>
+    <div class="burst" id="burst" hidden>
+      <p class="burst-msg" id="burst-msg"></p>
+    </div>
+  </div>
+
+  <script src="js/factory-algo.js"></script>
+  <script src="js/meet-lock.js?v=20260923-meetlock"></script>
+  <script src="js/i18n.js?v=20260923-l1"></script>
+  <script src="js/progress-config.js?v=d2w-1"></script>
+  <script src="js/progress.js?v=d2w-1"></script>
+  <script src="js/app.js?v=d2w-1"></script>
+</body>
+</html>

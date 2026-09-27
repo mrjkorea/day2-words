@@ -1,0 +1,117 @@
+{
+ "id": "int3b_u1",
+ "title": "INT 3B · Unit 1 · What Grade Are You In?",
+ "book": "int3b",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "grade",
+   "en": "grade",
+   "ko": "학년",
+   "l1": {
+    "ko": "학년"
+   },
+   "pic": false
+  },
+  {
+   "id": "kindergarten",
+   "en": "kindergarten",
+   "ko": "유치원",
+   "l1": {
+    "ko": "유치원"
+   }
+  },
+  {
+   "id": "first",
+   "en": "first",
+   "ko": "첫째, 1",
+   "l1": {
+    "ko": "첫째, 1"
+   }
+  },
+  {
+   "id": "second",
+   "en": "second",
+   "ko": "둘째, 2",
+   "l1": {
+    "ko": "둘째, 2"
+   }
+  },
+  {
+   "id": "third",
+   "en": "third",
+   "ko": "셋째, 3",
+   "l1": {
+    "ko": "셋째, 3"
+   }
+  },
+  {
+   "id": "fourth",
+   "en": "fourth",
+   "ko": "넷째, 4",
+   "l1": {
+    "ko": "넷째, 4"
+   }
+  },
+  {
+   "id": "fifth",
+   "en": "fifth",
+   "ko": "다섯째, 5",
+   "l1": {
+    "ko": "다섯째, 5"
+   }
+  },
+  {
+   "id": "sixth",
+   "en": "sixth",
+   "ko": "여섯째, 6",
+   "l1": {
+    "ko": "여섯째, 6"
+   }
+  },
+  {
+   "id": "seventh",
+   "en": "seventh",
+   "ko": "일곱째, 7",
+   "l1": {
+    "ko": "일곱째, 7"
+   }
+  },
+  {
+   "id": "eighth",
+   "en": "eighth",
+   "ko": "여덟째, 8",
+   "l1": {
+    "ko": "여덟째, 8"
+   }
+  },
+  {
+   "id": "ninth",
+   "en": "ninth",
+   "ko": "아홉째, 9",
+   "l1": {
+    "ko": "아홉째, 9"
+   }
+  },
+  {
+   "id": "whatgradeareyouin",
+   "en": "What grade are you in?",
+   "ko": "몇 학년이에요?",
+   "l1": {
+    "ko": "몇 학년이에요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "iaminfifthgrade",
+   "en": "I am in fifth grade.",
+   "ko": "5학년이에요.",
+   "l1": {
+    "ko": "5학년이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

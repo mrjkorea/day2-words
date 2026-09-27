@@ -1,0 +1,107 @@
+{
+ "id": "basic_c_u6",
+ "title": "Basic C · Unit 6 · Don't Touch Your Arm",
+ "book": "basic_c",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "touch",
+   "en": "touch",
+   "ko": "만지다",
+   "l1": {
+    "ko": "만지다"
+   },
+   "pic": false
+  },
+  {
+   "id": "arm",
+   "en": "arm",
+   "ko": "팔",
+   "l1": {
+    "ko": "팔"
+   }
+  },
+  {
+   "id": "leg",
+   "en": "leg",
+   "ko": "다리",
+   "l1": {
+    "ko": "다리"
+   }
+  },
+  {
+   "id": "knee",
+   "en": "knee",
+   "ko": "무릎",
+   "l1": {
+    "ko": "무릎"
+   }
+  },
+  {
+   "id": "back",
+   "en": "back",
+   "ko": "등",
+   "l1": {
+    "ko": "등"
+   }
+  },
+  {
+   "id": "face",
+   "en": "face",
+   "ko": "얼굴",
+   "l1": {
+    "ko": "얼굴"
+   }
+  },
+  {
+   "id": "stomach",
+   "en": "stomach",
+   "ko": "배",
+   "l1": {
+    "ko": "배"
+   }
+  },
+  {
+   "id": "wrist",
+   "en": "wrist",
+   "ko": "손목",
+   "l1": {
+    "ko": "손목"
+   }
+  },
+  {
+   "id": "toe",
+   "en": "toe",
+   "ko": "발가락",
+   "l1": {
+    "ko": "발가락"
+   }
+  },
+  {
+   "id": "neck",
+   "en": "neck",
+   "ko": "목",
+   "l1": {
+    "ko": "목"
+   }
+  },
+  {
+   "id": "ear",
+   "en": "ear",
+   "ko": "귀",
+   "l1": {
+    "ko": "귀"
+   }
+  },
+  {
+   "id": "donttouchyourarm",
+   "en": "Don't touch your arm.",
+   "ko": "팔을 만지지 마세요.",
+   "l1": {
+    "ko": "팔을 만지지 마세요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

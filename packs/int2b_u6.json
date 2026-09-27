@@ -1,0 +1,107 @@
+{
+ "id": "int2b_u6",
+ "title": "INT 2B · Unit 6 · Welcome to Parent's Night",
+ "book": "int2b",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "l1": {
+    "ko": "선생님"
+   },
+   "pic": false
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "l1": {
+    "ko": "영어"
+   }
+  },
+  {
+   "id": "math",
+   "en": "math",
+   "ko": "수학",
+   "l1": {
+    "ko": "수학"
+   }
+  },
+  {
+   "id": "science",
+   "en": "science",
+   "ko": "과학",
+   "l1": {
+    "ko": "과학"
+   }
+  },
+  {
+   "id": "history",
+   "en": "history",
+   "ko": "역사",
+   "l1": {
+    "ko": "역사"
+   }
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "l1": {
+    "ko": "음악"
+   }
+  },
+  {
+   "id": "art",
+   "en": "art",
+   "ko": "미술",
+   "l1": {
+    "ko": "미술"
+   }
+  },
+  {
+   "id": "gym",
+   "en": "gym",
+   "ko": "체육",
+   "l1": {
+    "ko": "체육"
+   }
+  },
+  {
+   "id": "korean",
+   "en": "Korean",
+   "ko": "국어, 한국어",
+   "l1": {
+    "ko": "국어, 한국어"
+   }
+  },
+  {
+   "id": "socialstudies",
+   "en": "social studies",
+   "ko": "사회",
+   "l1": {
+    "ko": "사회"
+   }
+  },
+  {
+   "id": "japanese",
+   "en": "Japanese",
+   "ko": "일본어",
+   "l1": {
+    "ko": "일본어"
+   }
+  },
+  {
+   "id": "thisismymathteacher",
+   "en": "This is my math teacher.",
+   "ko": "이 분은 제 수학 선생님이에요.",
+   "l1": {
+    "ko": "이 분은 제 수학 선생님이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

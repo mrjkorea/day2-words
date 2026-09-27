@@ -1,0 +1,98 @@
+{
+ "id": "basic_c_u7",
+ "title": "Basic C · Unit 7 · Come Play With Us",
+ "book": "basic_c",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "slide",
+   "en": "slide",
+   "ko": "미끄럼틀",
+   "l1": {
+    "ko": "미끄럼틀"
+   }
+  },
+  {
+   "id": "seesaw",
+   "en": "seesaw",
+   "ko": "시소",
+   "l1": {
+    "ko": "시소"
+   }
+  },
+  {
+   "id": "merrygoround",
+   "en": "merry-go-round",
+   "ko": "회전목마",
+   "l1": {
+    "ko": "회전목마"
+   }
+  },
+  {
+   "id": "swing",
+   "en": "swing",
+   "ko": "그네",
+   "l1": {
+    "ko": "그네"
+   }
+  },
+  {
+   "id": "junglegym",
+   "en": "jungle gym",
+   "ko": "정글짐",
+   "l1": {
+    "ko": "정글짐"
+   }
+  },
+  {
+   "id": "sandbox",
+   "en": "sandbox",
+   "ko": "모래놀이터",
+   "l1": {
+    "ko": "모래놀이터"
+   }
+  },
+  {
+   "id": "playhouse",
+   "en": "playhouse",
+   "ko": "놀이집",
+   "l1": {
+    "ko": "놀이집"
+   }
+  },
+  {
+   "id": "bumpercar",
+   "en": "bumper car",
+   "ko": "범퍼카",
+   "l1": {
+    "ko": "범퍼카"
+   }
+  },
+  {
+   "id": "maze",
+   "en": "maze",
+   "ko": "미로",
+   "l1": {
+    "ko": "미로"
+   }
+  },
+  {
+   "id": "rollercoaster",
+   "en": "roller coaster",
+   "ko": "롤러코스터",
+   "l1": {
+    "ko": "롤러코스터"
+   }
+  },
+  {
+   "id": "whereistheslide",
+   "en": "Where is the slide?",
+   "ko": "미끄럼틀은 어디에 있어요?",
+   "l1": {
+    "ko": "미끄럼틀은 어디에 있어요?"
+   },
+   "kind": "expression"
+  }
+ ]
+}

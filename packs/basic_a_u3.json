@@ -1,0 +1,106 @@
+{
+ "id": "basic_a_u3",
+ "title": "Basic A · Unit 3 · Computer Orders",
+ "book": "basic_a",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "unplug",
+   "en": "unplug",
+   "ko": "(플러그를) 뽑다",
+   "l1": {
+    "ko": "(플러그를) 뽑다"
+   }
+  },
+  {
+   "id": "headset",
+   "en": "headset",
+   "ko": "헤드셋",
+   "l1": {
+    "ko": "헤드셋"
+   }
+  },
+  {
+   "id": "scroll",
+   "en": "scroll",
+   "ko": "스크롤하다",
+   "l1": {
+    "ko": "스크롤하다"
+   }
+  },
+  {
+   "id": "type",
+   "en": "type",
+   "ko": "(자판을) 치다",
+   "l1": {
+    "ko": "(자판을) 치다"
+   }
+  },
+  {
+   "id": "tab",
+   "en": "tab",
+   "ko": "탭",
+   "l1": {
+    "ko": "탭"
+   }
+  },
+  {
+   "id": "click",
+   "en": "click",
+   "ko": "클릭하다",
+   "l1": {
+    "ko": "클릭하다"
+   }
+  },
+  {
+   "id": "left",
+   "en": "left",
+   "ko": "왼쪽",
+   "l1": {
+    "ko": "왼쪽"
+   }
+  },
+  {
+   "id": "right",
+   "en": "right",
+   "ko": "오른쪽",
+   "l1": {
+    "ko": "오른쪽"
+   }
+  },
+  {
+   "id": "double",
+   "en": "double",
+   "ko": "두 번의",
+   "l1": {
+    "ko": "두 번의"
+   }
+  },
+  {
+   "id": "restart",
+   "en": "restart",
+   "ko": "다시 시작하다",
+   "l1": {
+    "ko": "다시 시작하다"
+   }
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "l1": {
+    "ko": "컴퓨터"
+   }
+  },
+  {
+   "id": "restartyourcomputer",
+   "en": "Restart your computer.",
+   "ko": "컴퓨터를 다시 켜세요.",
+   "l1": {
+    "ko": "컴퓨터를 다시 켜세요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

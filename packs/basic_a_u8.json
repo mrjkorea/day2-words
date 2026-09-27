@@ -1,0 +1,89 @@
+{
+ "id": "basic_a_u8",
+ "title": "Basic A · Unit 8 · Numbers 11–100",
+ "book": "basic_a",
+ "unit": 8,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "onehundred",
+   "en": "one hundred",
+   "ko": "백 (100)",
+   "l1": {
+    "ko": "백 (100)"
+   }
+  },
+  {
+   "id": "ninetynine",
+   "en": "ninety-nine",
+   "ko": "구십구 (99)",
+   "l1": {
+    "ko": "구십구 (99)"
+   }
+  },
+  {
+   "id": "ninetyseven",
+   "en": "ninety-seven",
+   "ko": "구십칠 (97)",
+   "l1": {
+    "ko": "구십칠 (97)"
+   }
+  },
+  {
+   "id": "fiftyfive",
+   "en": "fifty-five",
+   "ko": "오십오 (55)",
+   "l1": {
+    "ko": "오십오 (55)"
+   }
+  },
+  {
+   "id": "thirtythree",
+   "en": "thirty-three",
+   "ko": "삼십삼 (33)",
+   "l1": {
+    "ko": "삼십삼 (33)"
+   }
+  },
+  {
+   "id": "twentytwo",
+   "en": "twenty-two",
+   "ko": "이십이 (22)",
+   "l1": {
+    "ko": "이십이 (22)"
+   }
+  },
+  {
+   "id": "fifteen",
+   "en": "fifteen",
+   "ko": "십오 (15)",
+   "l1": {
+    "ko": "십오 (15)"
+   }
+  },
+  {
+   "id": "thirteen",
+   "en": "thirteen",
+   "ko": "십삼 (13)",
+   "l1": {
+    "ko": "십삼 (13)"
+   }
+  },
+  {
+   "id": "twelve",
+   "en": "twelve",
+   "ko": "십이 (12)",
+   "l1": {
+    "ko": "십이 (12)"
+   }
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "십일 (11)",
+   "l1": {
+    "ko": "십일 (11)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "id": "int3a_u8",
+ "title": "INT 3A · Unit 8 · Introduction",
+ "book": "int3a",
+ "unit": 8,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "introduction",
+   "en": "introduction",
+   "ko": "소개",
+   "l1": {
+    "ko": "소개"
+   },
+   "pic": false
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "l1": {
+    "ko": "열한, 11"
+   }
+  },
+  {
+   "id": "eighteen",
+   "en": "eighteen",
+   "ko": "열여덟, 18",
+   "l1": {
+    "ko": "열여덟, 18"
+   }
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "l1": {
+    "ko": "노래하다"
+   }
+  },
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "l1": {
+    "ko": "그리다"
+   }
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "l1": {
+    "ko": "개"
+   }
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "l1": {
+    "ko": "음악"
+   }
+  },
+  {
+   "id": "family",
+   "en": "family",
+   "ko": "가족",
+   "l1": {
+    "ko": "가족"
+   }
+  },
+  {
+   "id": "people",
+   "en": "people",
+   "ko": "사람들",
+   "l1": {
+    "ko": "사람들"
+   },
+   "pic": false
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "l1": {
+    "ko": "학교"
+   }
+  },
+  {
+   "id": "whereareyoufrom",
+   "en": "Where are you from?",
+   "ko": "너는 어디에서 왔어?",
+   "l1": {
+    "ko": "너는 어디에서 왔어?"
+   },
+   "kind": "expression"
+  },
+  {
+   "id": "iamfromseoul",
+   "en": "I am from Seoul.",
+   "ko": "나는 서울에서 왔어.",
+   "l1": {
+    "ko": "나는 서울에서 왔어."
+   },
+   "kind": "expression"
+  }
+ ]
+}

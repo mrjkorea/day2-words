@@ -1,0 +1,117 @@
+{
+ "id": "int3a_u1",
+ "title": "INT 3A · Unit 1 · I Can Draw a Monster",
+ "book": "int3a",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "l1": {
+    "ko": "그리다"
+   },
+   "pic": false
+  },
+  {
+   "id": "circle",
+   "en": "circle",
+   "ko": "원",
+   "l1": {
+    "ko": "원"
+   }
+  },
+  {
+   "id": "star",
+   "en": "star",
+   "ko": "별",
+   "l1": {
+    "ko": "별"
+   }
+  },
+  {
+   "id": "tree",
+   "en": "tree",
+   "ko": "나무",
+   "l1": {
+    "ko": "나무"
+   }
+  },
+  {
+   "id": "poo",
+   "en": "poo",
+   "ko": "똥",
+   "l1": {
+    "ko": "똥"
+   }
+  },
+  {
+   "id": "flag",
+   "en": "flag",
+   "ko": "깃발",
+   "l1": {
+    "ko": "깃발"
+   }
+  },
+  {
+   "id": "korea",
+   "en": "Korea",
+   "ko": "한국",
+   "l1": {
+    "ko": "한국"
+   }
+  },
+  {
+   "id": "monster",
+   "en": "monster",
+   "ko": "괴물",
+   "l1": {
+    "ko": "괴물"
+   }
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "l1": {
+    "ko": "사과"
+   }
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "l1": {
+    "ko": "모자"
+   }
+  },
+  {
+   "id": "toy",
+   "en": "toy",
+   "ko": "장난감",
+   "l1": {
+    "ko": "장난감"
+   }
+  },
+  {
+   "id": "whatcanyoudraw",
+   "en": "What can you draw?",
+   "ko": "무엇을 그릴 수 있어요?",
+   "l1": {
+    "ko": "무엇을 그릴 수 있어요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "icandrawamonster",
+   "en": "I can draw a monster.",
+   "ko": "나는 괴물을 그릴 수 있어요.",
+   "l1": {
+    "ko": "나는 괴물을 그릴 수 있어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

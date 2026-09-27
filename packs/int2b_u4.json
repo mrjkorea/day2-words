@@ -1,0 +1,128 @@
+{
+ "id": "int2b_u4",
+ "title": "INT 2B · Unit 4 · Welcome to Seven-Eleven",
+ "book": "int2b",
+ "unit": 4,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "this",
+   "en": "this",
+   "ko": "이것",
+   "l1": {
+    "ko": "이것"
+   },
+   "pic": false
+  },
+  {
+   "id": "that",
+   "en": "that",
+   "ko": "저것",
+   "l1": {
+    "ko": "저것"
+   }
+  },
+  {
+   "id": "these",
+   "en": "these",
+   "ko": "이것들",
+   "l1": {
+    "ko": "이것들"
+   }
+  },
+  {
+   "id": "those",
+   "en": "those",
+   "ko": "저것들",
+   "l1": {
+    "ko": "저것들"
+   }
+  },
+  {
+   "id": "about",
+   "en": "about",
+   "ko": "약, 정도",
+   "l1": {
+    "ko": "약, 정도"
+   },
+   "pic": false
+  },
+  {
+   "id": "won",
+   "en": "won",
+   "ko": "원 (돈)",
+   "l1": {
+    "ko": "원 (돈)"
+   }
+  },
+  {
+   "id": "hundred",
+   "en": "hundred",
+   "ko": "백",
+   "l1": {
+    "ko": "백"
+   },
+   "pic": false
+  },
+  {
+   "id": "thousand",
+   "en": "thousand",
+   "ko": "천",
+   "l1": {
+    "ko": "천"
+   }
+  },
+  {
+   "id": "everything",
+   "en": "everything",
+   "ko": "모든 것",
+   "l1": {
+    "ko": "모든 것"
+   },
+   "pic": false
+  },
+  {
+   "id": "cheap",
+   "en": "cheap",
+   "ko": "싼",
+   "l1": {
+    "ko": "싼"
+   }
+  },
+  {
+   "id": "buy",
+   "en": "buy",
+   "ko": "사다",
+   "l1": {
+    "ko": "사다"
+   }
+  },
+  {
+   "id": "more",
+   "en": "more",
+   "ko": "더",
+   "l1": {
+    "ko": "더"
+   },
+   "pic": false
+  },
+  {
+   "id": "howmuchisthis",
+   "en": "How much is this?",
+   "ko": "이것은 얼마예요?",
+   "l1": {
+    "ko": "이것은 얼마예요?"
+   },
+   "kind": "expression"
+  },
+  {
+   "id": "itisaboutfivehundredwon",
+   "en": "It is about five hundred won.",
+   "ko": "그것은 오백 원 정도예요.",
+   "l1": {
+    "ko": "그것은 오백 원 정도예요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

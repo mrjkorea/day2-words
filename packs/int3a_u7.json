@@ -1,0 +1,99 @@
+{
+ "id": "int3a_u7",
+ "title": "INT 3A · Unit 7 · Gym Class",
+ "book": "int3a",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "gym",
+   "en": "gym",
+   "ko": "체육관, 체육",
+   "l1": {
+    "ko": "체육관, 체육"
+   },
+   "pic": false
+  },
+  {
+   "id": "stand",
+   "en": "stand",
+   "ko": "서다",
+   "l1": {
+    "ko": "서다"
+   }
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "뛰다",
+   "l1": {
+    "ko": "뛰다"
+   }
+  },
+  {
+   "id": "jumprope",
+   "en": "jump rope",
+   "ko": "줄넘기",
+   "l1": {
+    "ko": "줄넘기"
+   }
+  },
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "l1": {
+    "ko": "오르다"
+   }
+  },
+  {
+   "id": "clap",
+   "en": "clap",
+   "ko": "박수 치다",
+   "l1": {
+    "ko": "박수 치다"
+   }
+  },
+  {
+   "id": "turn",
+   "en": "turn",
+   "ko": "돌다",
+   "l1": {
+    "ko": "돌다"
+   }
+  },
+  {
+   "id": "dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "l1": {
+    "ko": "춤추다"
+   }
+  },
+  {
+   "id": "sit",
+   "en": "sit",
+   "ko": "앉다",
+   "l1": {
+    "ko": "앉다"
+   }
+  },
+  {
+   "id": "jumpingjacks",
+   "en": "jumping jacks",
+   "ko": "팔 벌려 뛰기",
+   "l1": {
+    "ko": "팔 벌려 뛰기"
+   }
+  },
+  {
+   "id": "clapthreetimes",
+   "en": "Clap three times!",
+   "ko": "박수 세 번 쳐!",
+   "l1": {
+    "ko": "박수 세 번 쳐!"
+   },
+   "kind": "expression"
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "id": "int2c_u3",
+ "title": "INT 2C · Unit 3 · Is This Yours?",
+ "book": "int2c",
+ "unit": 3,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "yours",
+   "en": "yours",
+   "ko": "너의 것",
+   "l1": {
+    "ko": "너의 것"
+   }
+  },
+  {
+   "id": "those",
+   "en": "those",
+   "ko": "저것들",
+   "l1": {
+    "ko": "저것들"
+   }
+  },
+  {
+   "id": "whose",
+   "en": "whose",
+   "ko": "누구의",
+   "l1": {
+    "ko": "누구의"
+   },
+   "pic": false
+  },
+  {
+   "id": "candy",
+   "en": "candy",
+   "ko": "사탕",
+   "l1": {
+    "ko": "사탕"
+   }
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "l1": {
+    "ko": "휴대폰"
+   }
+  },
+  {
+   "id": "chair",
+   "en": "chair",
+   "ko": "의자",
+   "l1": {
+    "ko": "의자"
+   }
+  },
+  {
+   "id": "garbage",
+   "en": "garbage",
+   "ko": "쓰레기",
+   "l1": {
+    "ko": "쓰레기"
+   }
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "l1": {
+    "ko": "책"
+   }
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "l1": {
+    "ko": "돈"
+   }
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "l1": {
+    "ko": "알다"
+   },
+   "pic": false
+  },
+  {
+   "id": "whosecandyisthis",
+   "en": "Whose candy is this?",
+   "ko": "이 사탕은 누구의 것이에요?",
+   "l1": {
+    "ko": "이 사탕은 누구의 것이에요?"
+   },
+   "kind": "expression"
+  },
+  {
+   "id": "idontknow",
+   "en": "I don't know.",
+   "ko": "모르겠어요.",
+   "l1": {
+    "ko": "모르겠어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

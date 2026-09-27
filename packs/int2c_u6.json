@@ -1,0 +1,125 @@
+{
+ "id": "int2c_u6",
+ "title": "INT 2C · Unit 6 · What's Wrong?",
+ "book": "int2c",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "감기",
+   "l1": {
+    "ko": "감기"
+   }
+  },
+  {
+   "id": "knee",
+   "en": "knee",
+   "ko": "무릎",
+   "l1": {
+    "ko": "무릎"
+   }
+  },
+  {
+   "id": "headache",
+   "en": "headache",
+   "ko": "두통",
+   "l1": {
+    "ko": "두통"
+   }
+  },
+  {
+   "id": "back",
+   "en": "back",
+   "ko": "등",
+   "l1": {
+    "ko": "등"
+   }
+  },
+  {
+   "id": "sorethroat",
+   "en": "sore throat",
+   "ko": "목 아픔, 인후통",
+   "l1": {
+    "ko": "목 아픔, 인후통"
+   }
+  },
+  {
+   "id": "fever",
+   "en": "fever",
+   "ko": "열",
+   "l1": {
+    "ko": "열"
+   }
+  },
+  {
+   "id": "stomachache",
+   "en": "stomachache",
+   "ko": "복통",
+   "l1": {
+    "ko": "복통"
+   }
+  },
+  {
+   "id": "tooth",
+   "en": "tooth",
+   "ko": "치아",
+   "l1": {
+    "ko": "치아"
+   }
+  },
+  {
+   "id": "bloodynose",
+   "en": "bloody nose",
+   "ko": "코피",
+   "l1": {
+    "ko": "코피"
+   }
+  },
+  {
+   "id": "ankle",
+   "en": "ankle",
+   "ko": "발목",
+   "l1": {
+    "ko": "발목"
+   }
+  },
+  {
+   "id": "hurt",
+   "en": "hurt",
+   "ko": "아프다",
+   "l1": {
+    "ko": "아프다"
+   },
+   "pic": false
+  },
+  {
+   "id": "sprain",
+   "en": "sprain",
+   "ko": "삐다",
+   "l1": {
+    "ko": "삐다"
+   }
+  },
+  {
+   "id": "whatswrong",
+   "en": "What's wrong?",
+   "ko": "어디가 아파요?",
+   "l1": {
+    "ko": "어디가 아파요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "ihaveaheadache",
+   "en": "I have a headache.",
+   "ko": "두통이 있어요.",
+   "l1": {
+    "ko": "두통이 있어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

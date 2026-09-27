@@ -1,0 +1,117 @@
+{
+ "id": "int2a_u1",
+ "title": "INT 2A · Unit 1 · How is the Weather?",
+ "book": "int2a",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "weather",
+   "en": "weather",
+   "ko": "날씨",
+   "l1": {
+    "ko": "날씨"
+   },
+   "pic": false
+  },
+  {
+   "id": "hot",
+   "en": "hot",
+   "ko": "더운",
+   "l1": {
+    "ko": "더운"
+   }
+  },
+  {
+   "id": "snowing",
+   "en": "snowing",
+   "ko": "눈이 오는",
+   "l1": {
+    "ko": "눈이 오는"
+   }
+  },
+  {
+   "id": "stormy",
+   "en": "stormy",
+   "ko": "폭풍우가 치는",
+   "l1": {
+    "ko": "폭풍우가 치는"
+   }
+  },
+  {
+   "id": "humid",
+   "en": "humid",
+   "ko": "습한",
+   "l1": {
+    "ko": "습한"
+   }
+  },
+  {
+   "id": "rainy",
+   "en": "rainy",
+   "ko": "비가 오는",
+   "l1": {
+    "ko": "비가 오는"
+   }
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "추운",
+   "l1": {
+    "ko": "추운"
+   }
+  },
+  {
+   "id": "foggy",
+   "en": "foggy",
+   "ko": "안개 낀",
+   "l1": {
+    "ko": "안개 낀"
+   }
+  },
+  {
+   "id": "windy",
+   "en": "windy",
+   "ko": "바람이 부는",
+   "l1": {
+    "ko": "바람이 부는"
+   }
+  },
+  {
+   "id": "hailing",
+   "en": "hailing",
+   "ko": "우박이 내리는",
+   "l1": {
+    "ko": "우박이 내리는"
+   }
+  },
+  {
+   "id": "sunny",
+   "en": "sunny",
+   "ko": "화창한",
+   "l1": {
+    "ko": "화창한"
+   }
+  },
+  {
+   "id": "howistheweather",
+   "en": "How is the weather?",
+   "ko": "날씨가 어때요?",
+   "l1": {
+    "ko": "날씨가 어때요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itissunny",
+   "en": "It is sunny.",
+   "ko": "화창해요.",
+   "l1": {
+    "ko": "화창해요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

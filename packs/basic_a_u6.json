@@ -1,0 +1,108 @@
+{
+ "id": "basic_a_u6",
+ "title": "Basic A · Unit 6 · What is this?",
+ "book": "basic_a",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "desk",
+   "en": "desk",
+   "ko": "책상",
+   "l1": {
+    "ko": "책상"
+   }
+  },
+  {
+   "id": "gymball",
+   "en": "gym ball",
+   "ko": "짐볼",
+   "l1": {
+    "ko": "짐볼"
+   }
+  },
+  {
+   "id": "mouse",
+   "en": "mouse",
+   "ko": "마우스",
+   "l1": {
+    "ko": "마우스"
+   }
+  },
+  {
+   "id": "keyboard",
+   "en": "keyboard",
+   "ko": "키보드",
+   "l1": {
+    "ko": "키보드"
+   }
+  },
+  {
+   "id": "monitor",
+   "en": "monitor",
+   "ko": "모니터",
+   "l1": {
+    "ko": "모니터"
+   }
+  },
+  {
+   "id": "headset",
+   "en": "headset",
+   "ko": "헤드셋",
+   "l1": {
+    "ko": "헤드셋"
+   }
+  },
+  {
+   "id": "cube",
+   "en": "cube",
+   "ko": "큐브",
+   "l1": {
+    "ko": "큐브"
+   }
+  },
+  {
+   "id": "clipboard",
+   "en": "clipboard",
+   "ko": "클립보드",
+   "l1": {
+    "ko": "클립보드"
+   }
+  },
+  {
+   "id": "pen",
+   "en": "pen",
+   "ko": "펜",
+   "l1": {
+    "ko": "펜"
+   }
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "l1": {
+    "ko": "책"
+   }
+  },
+  {
+   "id": "whatisthis",
+   "en": "What is this?",
+   "ko": "이것은 무엇이에요?",
+   "l1": {
+    "ko": "이것은 무엇이에요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itisadesk",
+   "en": "It is a desk.",
+   "ko": "책상이에요.",
+   "l1": {
+    "ko": "책상이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

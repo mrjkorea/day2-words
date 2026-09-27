@@ -1,0 +1,89 @@
+{
+ "id": "basic_c_u5",
+ "title": "Basic C · Unit 5 · Spelling Bee",
+ "book": "basic_c",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "pig",
+   "en": "pig",
+   "ko": "돼지",
+   "l1": {
+    "ko": "돼지"
+   }
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "l1": {
+    "ko": "개"
+   }
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "l1": {
+    "ko": "고양이"
+   }
+  },
+  {
+   "id": "seoul",
+   "en": "Seoul",
+   "ko": "서울",
+   "l1": {
+    "ko": "서울"
+   }
+  },
+  {
+   "id": "tongyeong",
+   "en": "Tongyeong",
+   "ko": "통영",
+   "l1": {
+    "ko": "통영"
+   }
+  },
+  {
+   "id": "canada",
+   "en": "Canada",
+   "ko": "캐나다",
+   "l1": {
+    "ko": "캐나다"
+   }
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "l1": {
+    "ko": "학교"
+   }
+  },
+  {
+   "id": "swing",
+   "en": "swing",
+   "ko": "그네",
+   "l1": {
+    "ko": "그네"
+   }
+  },
+  {
+   "id": "knee",
+   "en": "knee",
+   "ko": "무릎",
+   "l1": {
+    "ko": "무릎"
+   }
+  },
+  {
+   "id": "face",
+   "en": "face",
+   "ko": "얼굴",
+   "l1": {
+    "ko": "얼굴"
+   }
+  }
+ ]
+}

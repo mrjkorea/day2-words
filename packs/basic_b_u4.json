@@ -1,0 +1,51 @@
+{
+ "id": "basic_b_u4",
+ "title": "Basic B · Unit 4 · Rock Paper Scissors",
+ "book": "basic_b",
+ "unit": 4,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "rock",
+   "en": "rock",
+   "ko": "바위",
+   "l1": {
+    "ko": "바위"
+   }
+  },
+  {
+   "id": "paper",
+   "en": "paper",
+   "ko": "보, 종이",
+   "l1": {
+    "ko": "보, 종이"
+   }
+  },
+  {
+   "id": "scissors",
+   "en": "scissors",
+   "ko": "가위",
+   "l1": {
+    "ko": "가위"
+   }
+  },
+  {
+   "id": "wins",
+   "en": "wins",
+   "ko": "이기다",
+   "l1": {
+    "ko": "이기다"
+   },
+   "pic": false
+  },
+  {
+   "id": "rockwins",
+   "en": "Rock wins.",
+   "ko": "바위가 이겼어요.",
+   "l1": {
+    "ko": "바위가 이겼어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "id": "int2c_u7",
+ "title": "INT 2C · Unit 7 · Phone English 1",
+ "book": "int2c",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "hello",
+   "en": "hello",
+   "ko": "여보세요",
+   "l1": {
+    "ko": "여보세요"
+   }
+  },
+  {
+   "id": "who",
+   "en": "who",
+   "ko": "누구",
+   "l1": {
+    "ko": "누구"
+   }
+  },
+  {
+   "id": "there",
+   "en": "there",
+   "ko": "거기에",
+   "l1": {
+    "ko": "거기에"
+   }
+  },
+  {
+   "id": "out",
+   "en": "out",
+   "ko": "외출 중인",
+   "l1": {
+    "ko": "외출 중인"
+   }
+  },
+  {
+   "id": "sorry",
+   "en": "sorry",
+   "ko": "죄송해요",
+   "l1": {
+    "ko": "죄송해요"
+   },
+   "pic": false
+  },
+  {
+   "id": "call",
+   "en": "call",
+   "ko": "전화하다",
+   "l1": {
+    "ko": "전화하다"
+   }
+  },
+  {
+   "id": "friend",
+   "en": "friend",
+   "ko": "친구",
+   "l1": {
+    "ko": "친구"
+   },
+   "pic": false
+  },
+  {
+   "id": "phonenumber",
+   "en": "phone number",
+   "ko": "전화번호",
+   "l1": {
+    "ko": "전화번호"
+   }
+  },
+  {
+   "id": "okay",
+   "en": "okay",
+   "ko": "알겠어요",
+   "l1": {
+    "ko": "알겠어요"
+   }
+  },
+  {
+   "id": "thankyou",
+   "en": "thank you",
+   "ko": "감사합니다",
+   "l1": {
+    "ko": "감사합니다"
+   },
+   "pic": false
+  },
+  {
+   "id": "whoisthis",
+   "en": "Who is this?",
+   "ko": "누구세요?",
+   "l1": {
+    "ko": "누구세요?"
+   },
+   "kind": "expression"
+  },
+  {
+   "id": "thisismrjay",
+   "en": "This is Mr. Jay.",
+   "ko": "저는 미스터 제이예요.",
+   "l1": {
+    "ko": "저는 미스터 제이예요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

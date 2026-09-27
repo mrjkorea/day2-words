@@ -1,0 +1,107 @@
+{
+ "id": "basic_c_u1",
+ "title": "Basic C · Unit 1 · I Love My Dog Zoey",
+ "book": "basic_c",
+ "unit": 1,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "love",
+   "en": "love",
+   "ko": "사랑하다",
+   "l1": {
+    "ko": "사랑하다"
+   },
+   "pic": false
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "l1": {
+    "ko": "개"
+   }
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "l1": {
+    "ko": "고양이"
+   }
+  },
+  {
+   "id": "bird",
+   "en": "bird",
+   "ko": "새",
+   "l1": {
+    "ko": "새"
+   }
+  },
+  {
+   "id": "rabbit",
+   "en": "rabbit",
+   "ko": "토끼",
+   "l1": {
+    "ko": "토끼"
+   }
+  },
+  {
+   "id": "hamster",
+   "en": "hamster",
+   "ko": "햄스터",
+   "l1": {
+    "ko": "햄스터"
+   }
+  },
+  {
+   "id": "fish",
+   "en": "fish",
+   "ko": "물고기",
+   "l1": {
+    "ko": "물고기"
+   }
+  },
+  {
+   "id": "beetle",
+   "en": "beetle",
+   "ko": "딱정벌레",
+   "l1": {
+    "ko": "딱정벌레"
+   }
+  },
+  {
+   "id": "turtle",
+   "en": "turtle",
+   "ko": "거북이",
+   "l1": {
+    "ko": "거북이"
+   }
+  },
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "l1": {
+    "ko": "뱀"
+   }
+  },
+  {
+   "id": "squirrel",
+   "en": "squirrel",
+   "ko": "다람쥐",
+   "l1": {
+    "ko": "다람쥐"
+   }
+  },
+  {
+   "id": "ilovemydogzoey",
+   "en": "I love my dog Zoey.",
+   "ko": "나는 내 개 조이를 사랑해요.",
+   "l1": {
+    "ko": "나는 내 개 조이를 사랑해요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "basic_b_u6",
+ "title": "Basic B · Unit 6 · I like my body",
+ "book": "basic_b",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "head",
+   "en": "head",
+   "ko": "머리",
+   "l1": {
+    "ko": "머리"
+   }
+  },
+  {
+   "id": "nose",
+   "en": "nose",
+   "ko": "코",
+   "l1": {
+    "ko": "코"
+   }
+  },
+  {
+   "id": "mouth",
+   "en": "mouth",
+   "ko": "입",
+   "l1": {
+    "ko": "입"
+   }
+  },
+  {
+   "id": "ear",
+   "en": "ear",
+   "ko": "귀",
+   "l1": {
+    "ko": "귀"
+   }
+  },
+  {
+   "id": "eye",
+   "en": "eye",
+   "ko": "눈",
+   "l1": {
+    "ko": "눈"
+   }
+  },
+  {
+   "id": "neck",
+   "en": "neck",
+   "ko": "목",
+   "l1": {
+    "ko": "목"
+   }
+  },
+  {
+   "id": "body",
+   "en": "body",
+   "ko": "몸",
+   "l1": {
+    "ko": "몸"
+   }
+  },
+  {
+   "id": "chin",
+   "en": "chin",
+   "ko": "턱",
+   "l1": {
+    "ko": "턱"
+   }
+  },
+  {
+   "id": "hand",
+   "en": "hand",
+   "ko": "손",
+   "l1": {
+    "ko": "손"
+   }
+  },
+  {
+   "id": "shoulder",
+   "en": "shoulder",
+   "ko": "어깨",
+   "l1": {
+    "ko": "어깨"
+   }
+  },
+  {
+   "id": "thisismyhead",
+   "en": "This is my head.",
+   "ko": "이것은 내 머리예요.",
+   "l1": {
+    "ko": "이것은 내 머리예요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

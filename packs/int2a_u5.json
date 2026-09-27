@@ -1,0 +1,117 @@
+{
+ "id": "int2a_u5",
+ "title": "INT 2A · Unit 5 · Where is My Phone?",
+ "book": "int2a",
+ "unit": 5,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "maybe",
+   "en": "maybe",
+   "ko": "아마",
+   "l1": {
+    "ko": "아마"
+   },
+   "pic": false
+  },
+  {
+   "id": "kitchen",
+   "en": "kitchen",
+   "ko": "주방",
+   "l1": {
+    "ko": "주방"
+   }
+  },
+  {
+   "id": "bathroom",
+   "en": "bathroom",
+   "ko": "욕실",
+   "l1": {
+    "ko": "욕실"
+   }
+  },
+  {
+   "id": "livingroom",
+   "en": "living room",
+   "ko": "거실",
+   "l1": {
+    "ko": "거실"
+   }
+  },
+  {
+   "id": "garage",
+   "en": "garage",
+   "ko": "차고",
+   "l1": {
+    "ko": "차고"
+   }
+  },
+  {
+   "id": "bedroom",
+   "en": "bedroom",
+   "ko": "침실",
+   "l1": {
+    "ko": "침실"
+   }
+  },
+  {
+   "id": "attic",
+   "en": "attic",
+   "ko": "다락방",
+   "l1": {
+    "ko": "다락방"
+   }
+  },
+  {
+   "id": "basement",
+   "en": "basement",
+   "ko": "지하실",
+   "l1": {
+    "ko": "지하실"
+   }
+  },
+  {
+   "id": "diningroom",
+   "en": "dining room",
+   "ko": "식당, 식사하는 방",
+   "l1": {
+    "ko": "식당, 식사하는 방"
+   }
+  },
+  {
+   "id": "classroom",
+   "en": "classroom",
+   "ko": "교실",
+   "l1": {
+    "ko": "교실"
+   }
+  },
+  {
+   "id": "lounge",
+   "en": "lounge",
+   "ko": "휴게실",
+   "l1": {
+    "ko": "휴게실"
+   }
+  },
+  {
+   "id": "whereismyphone",
+   "en": "Where is my phone?",
+   "ko": "내 휴대폰은 어디에 있지?",
+   "l1": {
+    "ko": "내 휴대폰은 어디에 있지?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "maybeitisinthekitchen",
+   "en": "Maybe it is in the kitchen.",
+   "ko": "아마 주방에 있을 거야.",
+   "l1": {
+    "ko": "아마 주방에 있을 거야."
+   },
+   "kind": "expression"
+  }
+ ]
+}

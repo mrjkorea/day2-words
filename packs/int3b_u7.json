@@ -1,0 +1,107 @@
+{
+ "id": "int3b_u7",
+ "title": "INT 3B · Unit 7 · Don't Forget Your Transit Card",
+ "book": "int3b",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "forget",
+   "en": "forget",
+   "ko": "잊다",
+   "l1": {
+    "ko": "잊다"
+   },
+   "pic": false
+  },
+  {
+   "id": "transitcard",
+   "en": "transit card",
+   "ko": "교통카드",
+   "l1": {
+    "ko": "교통카드"
+   }
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "l1": {
+    "ko": "모자"
+   }
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "l1": {
+    "ko": "외투"
+   }
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "l1": {
+    "ko": "돈"
+   }
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "l1": {
+    "ko": "휴대폰"
+   }
+  },
+  {
+   "id": "backpack",
+   "en": "backpack",
+   "ko": "책가방",
+   "l1": {
+    "ko": "책가방"
+   }
+  },
+  {
+   "id": "lunch",
+   "en": "lunch",
+   "ko": "점심",
+   "l1": {
+    "ko": "점심"
+   }
+  },
+  {
+   "id": "littlesister",
+   "en": "little sister",
+   "ko": "여동생",
+   "l1": {
+    "ko": "여동생"
+   }
+  },
+  {
+   "id": "umbrella",
+   "en": "umbrella",
+   "ko": "우산",
+   "l1": {
+    "ko": "우산"
+   }
+  },
+  {
+   "id": "textbook",
+   "en": "textbook",
+   "ko": "교과서",
+   "l1": {
+    "ko": "교과서"
+   }
+  },
+  {
+   "id": "dontforgetyourumbrella",
+   "en": "Don't forget your umbrella.",
+   "ko": "우산 잊지 마.",
+   "l1": {
+    "ko": "우산 잊지 마."
+   },
+   "kind": "expression"
+  }
+ ]
+}

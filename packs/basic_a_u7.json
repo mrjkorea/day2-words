@@ -1,0 +1,106 @@
+{
+ "id": "basic_a_u7",
+ "title": "Basic A · Unit 7 · I can",
+ "book": "basic_a",
+ "unit": 7,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "l1": {
+    "ko": "춤추다"
+   }
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "달리다",
+   "l1": {
+    "ko": "달리다"
+   }
+  },
+  {
+   "id": "fast",
+   "en": "fast",
+   "ko": "빠르게",
+   "l1": {
+    "ko": "빠르게"
+   }
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "l1": {
+    "ko": "노래하다"
+   }
+  },
+  {
+   "id": "taekwondo",
+   "en": "taekwondo",
+   "ko": "태권도",
+   "l1": {
+    "ko": "태권도"
+   }
+  },
+  {
+   "id": "piano",
+   "en": "piano",
+   "ko": "피아노",
+   "l1": {
+    "ko": "피아노"
+   }
+  },
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "l1": {
+    "ko": "그리다"
+   }
+  },
+  {
+   "id": "chinese",
+   "en": "Chinese",
+   "ko": "중국어",
+   "l1": {
+    "ko": "중국어"
+   }
+  },
+  {
+   "id": "magic",
+   "en": "magic",
+   "ko": "마술",
+   "l1": {
+    "ko": "마술"
+   }
+  },
+  {
+   "id": "study",
+   "en": "study",
+   "ko": "공부하다",
+   "l1": {
+    "ko": "공부하다"
+   }
+  },
+  {
+   "id": "eat",
+   "en": "eat",
+   "ko": "먹다",
+   "l1": {
+    "ko": "먹다"
+   }
+  },
+  {
+   "id": "icandance",
+   "en": "I can dance.",
+   "ko": "나는 춤을 출 수 있어요.",
+   "l1": {
+    "ko": "나는 춤을 출 수 있어요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

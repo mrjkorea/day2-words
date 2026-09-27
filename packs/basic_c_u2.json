@@ -1,0 +1,116 @@
+{
+ "id": "basic_c_u2",
+ "title": "Basic C · Unit 2 · Look at My New Hat",
+ "book": "basic_c",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "look",
+   "en": "look",
+   "ko": "보다",
+   "l1": {
+    "ko": "보다"
+   },
+   "pic": false
+  },
+  {
+   "id": "new",
+   "en": "new",
+   "ko": "새로운",
+   "l1": {
+    "ko": "새로운"
+   },
+   "pic": false
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "l1": {
+    "ko": "모자"
+   }
+  },
+  {
+   "id": "earphones",
+   "en": "earphones",
+   "ko": "이어폰",
+   "l1": {
+    "ko": "이어폰"
+   }
+  },
+  {
+   "id": "shoes",
+   "en": "shoes",
+   "ko": "신발",
+   "l1": {
+    "ko": "신발"
+   }
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "l1": {
+    "ko": "휴대폰"
+   }
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "l1": {
+    "ko": "외투"
+   }
+  },
+  {
+   "id": "watch",
+   "en": "watch",
+   "ko": "손목시계",
+   "l1": {
+    "ko": "손목시계"
+   }
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "l1": {
+    "ko": "가방"
+   }
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "l1": {
+    "ko": "컴퓨터"
+   }
+  },
+  {
+   "id": "gloves",
+   "en": "gloves",
+   "ko": "장갑",
+   "l1": {
+    "ko": "장갑"
+   }
+  },
+  {
+   "id": "house",
+   "en": "house",
+   "ko": "집",
+   "l1": {
+    "ko": "집"
+   }
+  },
+  {
+   "id": "lookatmynewhat",
+   "en": "Look at my new hat.",
+   "ko": "내 새 모자 좀 봐.",
+   "l1": {
+    "ko": "내 새 모자 좀 봐."
+   },
+   "kind": "expression"
+  }
+ ]
+}

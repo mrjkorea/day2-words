@@ -1,0 +1,108 @@
+{
+ "id": "int3b_u2",
+ "title": "INT 3B · Unit 2 · Is This a Gayageum?",
+ "book": "int3b",
+ "unit": 2,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "guitar",
+   "en": "guitar",
+   "ko": "기타",
+   "l1": {
+    "ko": "기타"
+   }
+  },
+  {
+   "id": "piano",
+   "en": "piano",
+   "ko": "피아노",
+   "l1": {
+    "ko": "피아노"
+   }
+  },
+  {
+   "id": "flute",
+   "en": "flute",
+   "ko": "플루트",
+   "l1": {
+    "ko": "플루트"
+   }
+  },
+  {
+   "id": "drum",
+   "en": "drum",
+   "ko": "드럼",
+   "l1": {
+    "ko": "드럼"
+   }
+  },
+  {
+   "id": "violin",
+   "en": "violin",
+   "ko": "바이올린",
+   "l1": {
+    "ko": "바이올린"
+   }
+  },
+  {
+   "id": "saxophone",
+   "en": "saxophone",
+   "ko": "색소폰",
+   "l1": {
+    "ko": "색소폰"
+   }
+  },
+  {
+   "id": "microwave",
+   "en": "microwave",
+   "ko": "전자레인지",
+   "l1": {
+    "ko": "전자레인지"
+   }
+  },
+  {
+   "id": "gayageum",
+   "en": "gayageum",
+   "ko": "가야금",
+   "l1": {
+    "ko": "가야금"
+   }
+  },
+  {
+   "id": "cello",
+   "en": "cello",
+   "ko": "첼로",
+   "l1": {
+    "ko": "첼로"
+   }
+  },
+  {
+   "id": "ukulele",
+   "en": "ukulele",
+   "ko": "우쿨렐레",
+   "l1": {
+    "ko": "우쿨렐레"
+   }
+  },
+  {
+   "id": "isthisagayageum",
+   "en": "Is this a gayageum?",
+   "ko": "이것은 가야금이에요?",
+   "l1": {
+    "ko": "이것은 가야금이에요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "itisagayageum",
+   "en": "It is a gayageum.",
+   "ko": "가야금이에요.",
+   "l1": {
+    "ko": "가야금이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

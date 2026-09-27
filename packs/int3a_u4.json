@@ -1,0 +1,109 @@
+{
+ "id": "int3a_u4",
+ "title": "INT 3A · Unit 4 · How Old is He?",
+ "book": "int3a",
+ "unit": 4,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "year",
+   "en": "year",
+   "ko": "해, 살",
+   "l1": {
+    "ko": "해, 살"
+   },
+   "pic": false
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯",
+   "l1": {
+    "ko": "다섯"
+   }
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열",
+   "l1": {
+    "ko": "열"
+   }
+  },
+  {
+   "id": "fifteen",
+   "en": "fifteen",
+   "ko": "열다섯",
+   "l1": {
+    "ko": "열다섯"
+   }
+  },
+  {
+   "id": "twentyseven",
+   "en": "twenty-seven",
+   "ko": "스물일곱",
+   "l1": {
+    "ko": "스물일곱"
+   }
+  },
+  {
+   "id": "thirty",
+   "en": "thirty",
+   "ko": "서른",
+   "l1": {
+    "ko": "서른"
+   }
+  },
+  {
+   "id": "thirtynine",
+   "en": "thirty-nine",
+   "ko": "서른아홉",
+   "l1": {
+    "ko": "서른아홉"
+   }
+  },
+  {
+   "id": "fiftyfive",
+   "en": "fifty-five",
+   "ko": "쉰다섯",
+   "l1": {
+    "ko": "쉰다섯"
+   }
+  },
+  {
+   "id": "seventyseven",
+   "en": "seventy-seven",
+   "ko": "일흔일곱",
+   "l1": {
+    "ko": "일흔일곱"
+   }
+  },
+  {
+   "id": "onehundred",
+   "en": "one hundred",
+   "ko": "백",
+   "l1": {
+    "ko": "백"
+   }
+  },
+  {
+   "id": "howoldishe",
+   "en": "How old is he?",
+   "ko": "그는 몇 살이에요?",
+   "l1": {
+    "ko": "그는 몇 살이에요?"
+   },
+   "pic": false,
+   "kind": "expression"
+  },
+  {
+   "id": "heisfifteenyearsold",
+   "en": "He is fifteen years old.",
+   "ko": "그는 열다섯 살이에요.",
+   "l1": {
+    "ko": "그는 열다섯 살이에요."
+   },
+   "kind": "expression"
+  }
+ ]
+}

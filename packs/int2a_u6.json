@@ -1,0 +1,107 @@
+{
+ "id": "int2a_u6",
+ "title": "INT 2A · Unit 6 · Look at This Funny Video",
+ "book": "int2a",
+ "unit": 6,
+ "source": "Day 4 speaking words (Day 2 pack)",
+ "words": [
+  {
+   "id": "video",
+   "en": "video",
+   "ko": "동영상",
+   "l1": {
+    "ko": "동영상"
+   },
+   "pic": false
+  },
+  {
+   "id": "funny",
+   "en": "funny",
+   "ko": "웃긴",
+   "l1": {
+    "ko": "웃긴"
+   }
+  },
+  {
+   "id": "scary",
+   "en": "scary",
+   "ko": "무서운",
+   "l1": {
+    "ko": "무서운"
+   }
+  },
+  {
+   "id": "gross",
+   "en": "gross",
+   "ko": "역겨운",
+   "l1": {
+    "ko": "역겨운"
+   }
+  },
+  {
+   "id": "sad",
+   "en": "sad",
+   "ko": "슬픈",
+   "l1": {
+    "ko": "슬픈"
+   }
+  },
+  {
+   "id": "weird",
+   "en": "weird",
+   "ko": "이상한",
+   "l1": {
+    "ko": "이상한"
+   }
+  },
+  {
+   "id": "exciting",
+   "en": "exciting",
+   "ko": "신나는",
+   "l1": {
+    "ko": "신나는"
+   }
+  },
+  {
+   "id": "crazy",
+   "en": "crazy",
+   "ko": "엉뚱한, 미친",
+   "l1": {
+    "ko": "엉뚱한, 미친"
+   }
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "l1": {
+    "ko": "조용한"
+   }
+  },
+  {
+   "id": "boring",
+   "en": "boring",
+   "ko": "지루한",
+   "l1": {
+    "ko": "지루한"
+   }
+  },
+  {
+   "id": "loud",
+   "en": "loud",
+   "ko": "시끄러운",
+   "l1": {
+    "ko": "시끄러운"
+   }
+  },
+  {
+   "id": "lookatthisfunnyvideo",
+   "en": "Look at this funny video.",
+   "ko": "이 웃긴 동영상 좀 봐.",
+   "l1": {
+    "ko": "이 웃긴 동영상 좀 봐."
+   },
+   "kind": "expression"
+  }
+ ]
+}
