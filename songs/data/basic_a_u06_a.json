@@ -6,1757 +6,1575 @@
  "unitTitle": "What is this?",
  "packId": "basic_a_u6",
  "audio": "audio/basic_a_u06_a.mp3",
- "duration": 130.43,
+ "duration": 157.97,
  "lines": [
   {
    "n": 1,
    "section": "Intro",
    "text": "What is this? What is this?",
-   "start": 18.22,
+   "start": 0.12,
    "words": [
     {
      "t": "What",
-     "start": 18.22,
-     "end": 18.78
+     "start": 0.12,
+     "end": 0.42
     },
     {
      "t": "is",
-     "start": 18.78,
-     "end": 19.1
+     "start": 0.42,
+     "end": 0.66
     },
     {
      "t": "this?",
-     "start": 19.1,
-     "end": 19.46
+     "start": 0.66,
+     "end": 1.32
     },
     {
      "t": "What",
-     "start": 18.45,
-     "end": 18.9
+     "start": 1.38,
+     "end": 1.58
     },
     {
      "t": "is",
-     "start": 18.9,
-     "end": 19.2
+     "start": 1.58,
+     "end": 1.82
     },
     {
      "t": "this?",
-     "start": 19.2,
-     "end": 19.55
+     "start": 1.85,
+     "end": 2.25
     }
    ],
-   "end": 19.55,
+   "end": 2.25,
    "pic": null
   },
   {
    "n": 2,
    "section": "Verse 1",
-   "text": "What is this? It is a desk.",
-   "start": 19.72,
+   "text": "What is this?",
+   "start": 8.9,
    "words": [
     {
      "t": "What",
-     "start": 18.22,
-     "end": 18.78
+     "start": 8.9,
+     "end": 9.62
     },
     {
      "t": "is",
-     "start": 18.78,
-     "end": 19.1
+     "start": 9.64,
+     "end": 10.02
     },
     {
      "t": "this?",
-     "start": 19.1,
-     "end": 19.46
-    },
-    {
-     "t": "It",
-     "start": 19.76,
-     "end": 20.02
-    },
-    {
-     "t": "is",
-     "start": 20.02,
-     "end": 20.18
-    },
-    {
-     "t": "a",
-     "start": 20.18,
-     "end": 20.38
-    },
-    {
-     "t": "desk.",
-     "start": 20.38,
-     "end": 20.76
+     "start": 10.02,
+     "end": 10.5
     }
    ],
-   "end": 20.76,
-   "pic": "desk"
+   "end": 10.5,
+   "pic": null
   },
   {
    "n": 3,
    "section": "Verse 1",
-   "text": "What is this? It is a mouse.",
-   "start": 21.05,
+   "text": "It is a desk.",
+   "start": 11.42,
    "words": [
     {
-     "t": "What",
-     "start": 21.1,
-     "end": 21.18
-    },
-    {
-     "t": "is",
-     "start": 21.12,
-     "end": 21.36
-    },
-    {
-     "t": "this?",
-     "start": 21.36,
-     "end": 21.74
-    },
-    {
      "t": "It",
-     "start": 22.08,
-     "end": 22.3
+     "start": 11.42,
+     "end": 12.02
     },
     {
      "t": "is",
-     "start": 22.3,
-     "end": 22.44
+     "start": 12.06,
+     "end": 12.36
     },
     {
      "t": "a",
-     "start": 22.44,
-     "end": 22.62
+     "start": 12.36,
+     "end": 12.48
     },
     {
-     "t": "mouse.",
-     "start": 22.62,
-     "end": 22.96
+     "t": "desk.",
+     "start": 12.48,
+     "end": 13.12
     }
    ],
-   "end": 22.96,
-   "pic": "mouse"
+   "end": 13.12,
+   "pic": "desk"
   },
   {
    "n": 4,
    "section": "Verse 1",
-   "text": "What is this? It is a keyboard.",
-   "start": 23.25,
+   "text": "What is this?",
+   "start": 14.05,
    "words": [
     {
      "t": "What",
-     "start": 23.32,
-     "end": 23.38
+     "start": 14.05,
+     "end": 14.38
     },
     {
      "t": "is",
-     "start": 23.38,
-     "end": 23.66
+     "start": 14.4,
+     "end": 14.74
     },
     {
      "t": "this?",
-     "start": 23.66,
-     "end": 24.16
-    },
-    {
-     "t": "It",
-     "start": 24.16,
-     "end": 24.3
-    },
-    {
-     "t": "is",
-     "start": 24.3,
-     "end": 24.48
-    },
-    {
-     "t": "a",
-     "start": 24.48,
-     "end": 24.6
-    },
-    {
-     "t": "keyboard.",
-     "start": 24.6,
-     "end": 25.05
+     "start": 14.74,
+     "end": 15.56
     }
    ],
-   "end": 25.05,
-   "pic": "keyboard"
+   "end": 15.56,
+   "pic": null
   },
   {
    "n": 5,
    "section": "Verse 1",
-   "text": "What is this? It is a monitor.",
-   "start": 25.35,
+   "text": "It is a mouse.",
+   "start": 16.32,
    "words": [
     {
-     "t": "What",
-     "start": 25.42,
-     "end": 25.68
-    },
-    {
-     "t": "is",
-     "start": 25.68,
-     "end": 25.96
-    },
-    {
-     "t": "this?",
-     "start": 25.96,
-     "end": 26.44
-    },
-    {
      "t": "It",
-     "start": 26.44,
-     "end": 26.58
+     "start": 16.32,
+     "end": 16.78
     },
     {
      "t": "is",
-     "start": 26.58,
-     "end": 26.72
+     "start": 16.8,
+     "end": 17.06
     },
     {
      "t": "a",
-     "start": 26.72,
-     "end": 26.84
+     "start": 17.06,
+     "end": 17.22
     },
     {
-     "t": "monitor.",
-     "start": 26.84,
-     "end": 27.2
+     "t": "mouse.",
+     "start": 17.22,
+     "end": 17.62
     }
    ],
-   "end": 27.2,
-   "pic": "monitor"
+   "end": 17.62,
+   "pic": "mouse"
   },
   {
    "n": 6,
-   "section": "Chorus",
-   "text": "What is this? What is this?",
-   "start": 27.55,
+   "section": "Verse 1",
+   "text": "What is this?",
+   "start": 18.72,
    "words": [
     {
      "t": "What",
-     "start": 27.62,
-     "end": 27.96
+     "start": 18.72,
+     "end": 19.25
     },
     {
      "t": "is",
-     "start": 27.96,
-     "end": 28.26
+     "start": 19.25,
+     "end": 19.48
     },
     {
      "t": "this?",
-     "start": 28.26,
-     "end": 28.62
-    },
-    {
-     "t": "What",
-     "start": 28.62,
-     "end": 28.76
-    },
-    {
-     "t": "is",
-     "start": 28.76,
-     "end": 29.08
-    },
-    {
-     "t": "this?",
-     "start": 29.08,
-     "end": 29.5
+     "start": 19.5,
+     "end": 20.16
     }
    ],
-   "end": 29.5,
+   "end": 20.16,
    "pic": null
   },
   {
    "n": 7,
-   "section": "Chorus",
-   "text": "What is this? It is a book!",
-   "start": 29.9,
+   "section": "Verse 1",
+   "text": "It is a keyboard.",
+   "start": 21.05,
    "words": [
     {
-     "t": "What",
-     "start": 29.98,
-     "end": 30.28
-    },
-    {
-     "t": "is",
-     "start": 30.28,
-     "end": 30.54
-    },
-    {
-     "t": "this?",
-     "start": 30.54,
-     "end": 31.04
-    },
-    {
      "t": "It",
-     "start": 31.04,
-     "end": 31.24
+     "start": 21.05,
+     "end": 21.55
     },
     {
      "t": "is",
-     "start": 31.24,
-     "end": 31.4
+     "start": 21.6,
+     "end": 21.74
     },
     {
      "t": "a",
-     "start": 31.4,
-     "end": 31.52
+     "start": 21.78,
+     "end": 21.88
     },
     {
-     "t": "book!",
-     "start": 31.52,
-     "end": 31.74
+     "t": "keyboard.",
+     "start": 21.88,
+     "end": 22.9
     }
    ],
-   "end": 31.74,
-   "pic": "book"
+   "end": 22.9,
+   "pic": "keyboard"
   },
   {
    "n": 8,
-   "section": "Chorus",
-   "text": "What is this? What is this?",
-   "start": 31.74,
+   "section": "Verse 1",
+   "text": "What is this?",
+   "start": 23.02,
    "words": [
     {
      "t": "What",
-     "start": 31.74,
-     "end": 32.2
+     "start": 23.02,
+     "end": 23.75
     },
     {
      "t": "is",
-     "start": 32.2,
-     "end": 32.55
+     "start": 23.82,
+     "end": 24.18
     },
     {
      "t": "this?",
-     "start": 32.55,
-     "end": 32.9
-    },
-    {
-     "t": "What",
-     "start": 32.9,
-     "end": 33.05
-    },
-    {
-     "t": "is",
-     "start": 33.05,
-     "end": 33.18
-    },
-    {
-     "t": "this?",
-     "start": 33.18,
-     "end": 33.34
+     "start": 24.18,
+     "end": 25.0
     }
    ],
-   "end": 33.34,
+   "end": 25.0,
    "pic": null
   },
   {
    "n": 9,
+   "section": "Verse 1",
+   "text": "It is a monitor.",
+   "start": 25.78,
+   "words": [
+    {
+     "t": "It",
+     "start": 25.78,
+     "end": 26.28
+    },
+    {
+     "t": "is",
+     "start": 26.3,
+     "end": 26.46
+    },
+    {
+     "t": "a",
+     "start": 26.46,
+     "end": 26.62
+    },
+    {
+     "t": "monitor.",
+     "start": 26.62,
+     "end": 27.45
+    }
+   ],
+   "end": 27.45,
+   "pic": "monitor"
+  },
+  {
+   "n": 10,
    "section": "Chorus",
-   "text": "What is this? It is a pen!",
-   "start": 33.36,
+   "text": "What is this? What is this?",
+   "start": 27.9,
    "words": [
     {
      "t": "What",
-     "start": 33.36,
-     "end": 33.46
+     "start": 27.9,
+     "end": 28.58
     },
     {
      "t": "is",
-     "start": 33.46,
-     "end": 33.54
+     "start": 28.64,
+     "end": 28.92
     },
     {
      "t": "this?",
-     "start": 33.54,
-     "end": 33.62
+     "start": 28.92,
+     "end": 29.44
     },
     {
-     "t": "It",
-     "start": 33.62,
-     "end": 33.7
+     "t": "What",
+     "start": 30.08,
+     "end": 30.36
     },
     {
      "t": "is",
-     "start": 33.7,
-     "end": 33.78
+     "start": 30.36,
+     "end": 30.92
     },
     {
-     "t": "a",
-     "start": 33.78,
-     "end": 33.86
-    },
-    {
-     "t": "pen!",
-     "start": 33.86,
-     "end": 33.96
+     "t": "this?",
+     "start": 30.92,
+     "end": 31.54
     }
    ],
-   "end": 33.96,
-   "pic": "pen"
-  },
-  {
-   "n": 10,
-   "section": "Chorus",
-   "text": "It is a book, it is a pen",
-   "start": 33.98,
-   "words": [
-    {
-     "t": "It",
-     "start": 33.98,
-     "end": 34.4
-    },
-    {
-     "t": "is",
-     "start": 34.4,
-     "end": 34.9
-    },
-    {
-     "t": "a",
-     "start": 34.9,
-     "end": 35.28
-    },
-    {
-     "t": "book,",
-     "start": 35.28,
-     "end": 35.64
-    },
-    {
-     "t": "it",
-     "start": 35.64,
-     "end": 35.86
-    },
-    {
-     "t": "is",
-     "start": 35.86,
-     "end": 36.1
-    },
-    {
-     "t": "a",
-     "start": 36.1,
-     "end": 36.38
-    },
-    {
-     "t": "pen",
-     "start": 36.38,
-     "end": 36.76,
-     "pic": "pen"
-    }
-   ],
-   "end": 36.76,
-   "pic": "book"
-  },
-  {
-   "n": 10,
-   "section": "Chorus",
-   "text": "It is a book, it is a pen",
-   "start": 38.7,
-   "words": [
-    {
-     "t": "It",
-     "start": 38.78,
-     "end": 39.34
-    },
-    {
-     "t": "is",
-     "start": 39.34,
-     "end": 39.7
-    },
-    {
-     "t": "a",
-     "start": 39.7,
-     "end": 39.88
-    },
-    {
-     "t": "book,",
-     "start": 39.88,
-     "end": 40.34
-    },
-    {
-     "t": "it",
-     "start": 40.34,
-     "end": 40.44
-    },
-    {
-     "t": "is",
-     "start": 40.44,
-     "end": 40.7
-    },
-    {
-     "t": "a",
-     "start": 40.7,
-     "end": 40.88
-    },
-    {
-     "t": "pen",
-     "start": 40.88,
-     "end": 41.36,
-     "pic": "pen"
-    }
-   ],
-   "end": 41.36,
-   "pic": "book"
+   "end": 31.54,
+   "pic": null
   },
   {
    "n": 11,
    "section": "Chorus",
-   "text": "What is this? Tell me again!",
-   "start": 45.6,
+   "text": "What is this?",
+   "start": 32.92,
    "words": [
     {
      "t": "What",
-     "start": 45.68,
-     "end": 46.24
+     "start": 32.92,
+     "end": 33.2
     },
     {
      "t": "is",
-     "start": 46.24,
-     "end": 46.52
+     "start": 33.2,
+     "end": 33.58
     },
     {
      "t": "this?",
-     "start": 46.52,
-     "end": 47.18
-    },
-    {
-     "t": "Tell",
-     "start": 47.18,
-     "end": 47.42
-    },
-    {
-     "t": "me",
-     "start": 47.42,
-     "end": 47.6
-    },
-    {
-     "t": "again!",
-     "start": 47.6,
-     "end": 48.12
+     "start": 33.58,
+     "end": 34.1
     }
    ],
-   "end": 48.12,
+   "end": 34.1,
    "pic": null
   },
   {
    "n": 12,
-   "section": "Verse 2",
-   "text": "What is this? It is a headset.",
-   "start": 48.12,
+   "section": "Chorus",
+   "text": "It is a book!",
+   "start": 35.15,
    "words": [
     {
-     "t": "What",
-     "start": 48.12,
-     "end": 48.52
-    },
-    {
-     "t": "is",
-     "start": 48.52,
-     "end": 48.8
-    },
-    {
-     "t": "this?",
-     "start": 48.8,
-     "end": 49.34
-    },
-    {
      "t": "It",
-     "start": 49.34,
-     "end": 49.46
+     "start": 35.15,
+     "end": 35.65
     },
     {
      "t": "is",
-     "start": 49.46,
-     "end": 49.64
+     "start": 35.65,
+     "end": 35.88
     },
     {
      "t": "a",
-     "start": 49.64,
-     "end": 49.78
+     "start": 35.88,
+     "end": 36.02
     },
     {
-     "t": "headset.",
-     "start": 49.78,
-     "end": 50.15
+     "t": "book!",
+     "start": 36.02,
+     "end": 36.42
     }
    ],
-   "end": 50.15,
-   "pic": "headset"
+   "end": 36.42,
+   "pic": "book"
   },
   {
    "n": 13,
-   "section": "Verse 2",
-   "text": "What is this? It is a cube.",
-   "start": 50.12,
+   "section": "Chorus",
+   "text": "What is this? What is this?",
+   "start": 37.35,
    "words": [
     {
      "t": "What",
-     "start": 50.08,
-     "end": 50.8
+     "start": 37.35,
+     "end": 38.05
     },
     {
      "t": "is",
-     "start": 50.8,
-     "end": 51.08
+     "start": 38.08,
+     "end": 38.3
     },
     {
      "t": "this?",
-     "start": 51.08,
-     "end": 51.8
+     "start": 38.3,
+     "end": 39.58
     },
     {
-     "t": "It",
-     "start": 51.8,
-     "end": 52.04
+     "t": "What",
+     "start": 39.58,
+     "end": 39.82
     },
     {
      "t": "is",
-     "start": 52.04,
-     "end": 52.18
+     "start": 39.82,
+     "end": 40.32
     },
     {
-     "t": "a",
-     "start": 52.18,
-     "end": 52.4
-    },
-    {
-     "t": "cube.",
-     "start": 52.4,
-     "end": 52.7
+     "t": "this?",
+     "start": 40.32,
+     "end": 41.32
     }
    ],
-   "end": 52.7,
-   "pic": "cube"
+   "end": 41.32,
+   "pic": null
   },
   {
    "n": 14,
-   "section": "Verse 2",
-   "text": "What is this? It is a clipboard.",
-   "start": 52.6,
+   "section": "Chorus",
+   "text": "What is this?",
+   "start": 42.05,
    "words": [
     {
      "t": "What",
-     "start": 52.64,
-     "end": 53.14
+     "start": 42.05,
+     "end": 42.6
     },
     {
      "t": "is",
-     "start": 53.14,
-     "end": 53.42
+     "start": 42.64,
+     "end": 42.96
     },
     {
      "t": "this?",
-     "start": 53.42,
-     "end": 53.9
-    },
-    {
-     "t": "It",
-     "start": 53.9,
-     "end": 54.05
-    },
-    {
-     "t": "is",
-     "start": 54.05,
-     "end": 54.2
-    },
-    {
-     "t": "a",
-     "start": 54.2,
-     "end": 54.35
-    },
-    {
-     "t": "clipboard.",
-     "start": 54.35,
-     "end": 54.76
+     "start": 42.96,
+     "end": 43.78
     }
    ],
-   "end": 54.76,
-   "pic": "clipboard"
+   "end": 43.78,
+   "pic": null
   },
   {
    "n": 15,
-   "section": "Verse 2",
-   "text": "What is this? It is a gym ball!",
-   "start": 54.76,
+   "section": "Chorus",
+   "text": "It is a pen!",
+   "start": 44.22,
    "words": [
     {
-     "t": "What",
-     "start": 54.76,
-     "end": 55.36
-    },
-    {
-     "t": "is",
-     "start": 55.36,
-     "end": 55.68
-    },
-    {
-     "t": "this?",
-     "start": 55.68,
-     "end": 56.18
-    },
-    {
      "t": "It",
-     "start": 56.18,
-     "end": 56.3
+     "start": 44.22,
+     "end": 44.95
     },
     {
      "t": "is",
-     "start": 56.3,
-     "end": 56.44
+     "start": 45.02,
+     "end": 45.24
     },
     {
      "t": "a",
-     "start": 56.44,
-     "end": 56.58
+     "start": 45.24,
+     "end": 45.42
     },
     {
-     "t": "gym",
-     "start": 56.58,
-     "end": 56.8
-    },
-    {
-     "t": "ball!",
-     "start": 56.8,
-     "end": 57.26
+     "t": "pen!",
+     "start": 45.42,
+     "end": 46.35
     }
    ],
-   "end": 57.26,
-   "pic": "gymball"
+   "end": 46.35,
+   "pic": "pen"
   },
   {
    "n": 16,
    "section": "Chorus",
-   "text": "What is this? What is this?",
-   "start": 57.26,
+   "text": "It is a book, it is a pen",
+   "start": 47.28,
    "words": [
     {
-     "t": "What",
-     "start": 57.26,
-     "end": 57.68
+     "t": "It",
+     "start": 47.28,
+     "end": 47.46
     },
     {
      "t": "is",
-     "start": 57.68,
-     "end": 57.96
+     "start": 47.46,
+     "end": 47.8
     },
     {
-     "t": "this?",
-     "start": 57.96,
-     "end": 58.36
+     "t": "a",
+     "start": 47.8,
+     "end": 48.1
     },
     {
-     "t": "What",
-     "start": 58.36,
-     "end": 58.56
+     "t": "book,",
+     "start": 48.1,
+     "end": 49.0
+    },
+    {
+     "t": "it",
+     "start": 49.0,
+     "end": 49.86
     },
     {
      "t": "is",
-     "start": 58.56,
-     "end": 58.82
+     "start": 49.86,
+     "end": 50.16
     },
     {
-     "t": "this?",
-     "start": 58.82,
-     "end": 59.08
+     "t": "a",
+     "start": 50.16,
+     "end": 50.48
+    },
+    {
+     "t": "pen",
+     "start": 50.48,
+     "end": 50.78,
+     "pic": "pen"
     }
    ],
-   "end": 59.08,
-   "pic": null
+   "end": 50.78,
+   "pic": "book"
   },
   {
    "n": 17,
    "section": "Chorus",
-   "text": "What is this? It is a book!",
-   "start": 59.08,
+   "text": "What is this? Tell me again!",
+   "start": 51.86,
    "words": [
     {
      "t": "What",
-     "start": 59.08,
-     "end": 59.96
+     "start": 51.86,
+     "end": 52.02
     },
     {
      "t": "is",
-     "start": 59.96,
-     "end": 60.26
+     "start": 52.02,
+     "end": 52.4
     },
     {
      "t": "this?",
-     "start": 60.26,
-     "end": 60.68
+     "start": 52.4,
+     "end": 53.06
     },
     {
-     "t": "It",
-     "start": 60.68,
-     "end": 60.94
+     "t": "Tell",
+     "start": 53.06,
+     "end": 53.3
     },
     {
-     "t": "is",
-     "start": 60.94,
-     "end": 61.3
+     "t": "me",
+     "start": 53.3,
+     "end": 53.54
     },
     {
-     "t": "a",
-     "start": 61.3,
-     "end": 61.54
-    },
-    {
-     "t": "book!",
-     "start": 61.54,
-     "end": 61.85
+     "t": "again!",
+     "start": 53.54,
+     "end": 54.24
     }
    ],
-   "end": 61.85,
-   "pic": "book"
+   "end": 54.24,
+   "pic": null
   },
   {
    "n": 18,
-   "section": "Chorus",
-   "text": "What is this? What is this?",
-   "start": 61.95,
+   "section": "Verse 2",
+   "text": "What is this?",
+   "start": 56.08,
    "words": [
     {
      "t": "What",
-     "start": 62.02,
-     "end": 62.26
+     "start": 56.08,
+     "end": 56.75
     },
     {
      "t": "is",
-     "start": 62.26,
-     "end": 62.54
+     "start": 56.8,
+     "end": 57.14
     },
     {
      "t": "this?",
-     "start": 62.54,
-     "end": 62.84
-    },
-    {
-     "t": "What",
-     "start": 62.84,
-     "end": 63.12
-    },
-    {
-     "t": "is",
-     "start": 63.12,
-     "end": 63.42
-    },
-    {
-     "t": "this?",
-     "start": 63.42,
-     "end": 63.7
+     "start": 57.14,
+     "end": 57.8
     }
    ],
-   "end": 63.7,
+   "end": 57.8,
    "pic": null
   },
   {
    "n": 19,
-   "section": "Chorus",
-   "text": "What is this? It is a pen!",
-   "start": 64.2,
+   "section": "Verse 2",
+   "text": "It is a headset.",
+   "start": 58.45,
    "words": [
     {
-     "t": "What",
-     "start": 64.28,
-     "end": 64.48
-    },
-    {
-     "t": "is",
-     "start": 64.48,
-     "end": 64.8
-    },
-    {
-     "t": "this?",
-     "start": 64.8,
-     "end": 65.14
-    },
-    {
      "t": "It",
-     "start": 65.14,
-     "end": 65.46
+     "start": 58.45,
+     "end": 59.18
     },
     {
      "t": "is",
-     "start": 65.46,
-     "end": 65.86
+     "start": 59.24,
+     "end": 59.42
     },
     {
      "t": "a",
-     "start": 65.86,
-     "end": 66.22
+     "start": 59.42,
+     "end": 59.6
     },
     {
-     "t": "pen!",
-     "start": 66.22,
-     "end": 66.56
+     "t": "headset.",
+     "start": 59.6,
+     "end": 60.54
     }
    ],
-   "end": 66.56,
-   "pic": "pen"
+   "end": 60.54,
+   "pic": "headset"
   },
   {
    "n": 20,
-   "section": "Chorus",
-   "text": "It is a book, it is a pen",
-   "start": 66.56,
-   "words": [
-    {
-     "t": "It",
-     "start": 66.58,
-     "end": 66.86
-    },
-    {
-     "t": "is",
-     "start": 66.86,
-     "end": 67.14
-    },
-    {
-     "t": "a",
-     "start": 67.14,
-     "end": 67.3
-    },
-    {
-     "t": "book,",
-     "start": 67.3,
-     "end": 67.64
-    },
-    {
-     "t": "it",
-     "start": 67.64,
-     "end": 67.82
-    },
-    {
-     "t": "is",
-     "start": 67.82,
-     "end": 68.12
-    },
-    {
-     "t": "a",
-     "start": 68.12,
-     "end": 68.34
-    },
-    {
-     "t": "pen",
-     "start": 68.34,
-     "end": 68.78,
-     "pic": "pen"
-    }
-   ],
-   "end": 68.78,
-   "pic": "book"
-  },
-  {
-   "n": 21,
-   "section": "Chorus",
-   "text": "What is this? Tell me again!",
-   "start": 68.85,
+   "section": "Verse 2",
+   "text": "What is this?",
+   "start": 61.26,
    "words": [
     {
      "t": "What",
-     "start": 68.92,
-     "end": 69.1
+     "start": 61.26,
+     "end": 61.5
     },
     {
      "t": "is",
-     "start": 69.1,
-     "end": 69.36
+     "start": 61.5,
+     "end": 61.86
     },
     {
      "t": "this?",
-     "start": 69.36,
-     "end": 69.68
-    },
-    {
-     "t": "Tell",
-     "start": 69.68,
-     "end": 70.04
-    },
-    {
-     "t": "me",
-     "start": 70.04,
-     "end": 70.44
-    },
-    {
-     "t": "again!",
-     "start": 70.44,
-     "end": 71.34
+     "start": 61.86,
+     "end": 61.96
     }
    ],
-   "end": 71.34,
+   "end": 61.96,
    "pic": null
   },
   {
+   "n": 21,
+   "section": "Verse 2",
+   "text": "It is a cube.",
+   "start": 63.15,
+   "words": [
+    {
+     "t": "It",
+     "start": 63.15,
+     "end": 63.85
+    },
+    {
+     "t": "is",
+     "start": 63.85,
+     "end": 64.08
+    },
+    {
+     "t": "a",
+     "start": 64.08,
+     "end": 64.2
+    },
+    {
+     "t": "cube.",
+     "start": 64.2,
+     "end": 65.15
+    }
+   ],
+   "end": 65.15,
+   "pic": "cube"
+  },
+  {
    "n": 22,
-   "section": "Bridge",
-   "text": "A desk, a mouse, a keyboard",
-   "start": 73.8,
-   "words": [
-    {
-     "t": "A",
-     "start": 73.84,
-     "end": 74.16
-    },
-    {
-     "t": "desk,",
-     "start": 74.16,
-     "end": 74.7
-    },
-    {
-     "t": "a",
-     "start": 75.0,
-     "end": 75.32
-    },
-    {
-     "t": "mouse,",
-     "start": 75.32,
-     "end": 75.8,
-     "pic": "mouse"
-    },
-    {
-     "t": "a",
-     "start": 76.22,
-     "end": 76.5
-    },
-    {
-     "t": "keyboard",
-     "start": 76.5,
-     "end": 77.25,
-     "pic": "keyboard"
-    }
-   ],
-   "end": 77.25,
-   "pic": "desk"
-  },
-  {
-   "n": 23,
-   "section": "Bridge",
-   "text": "A monitor, a headset, a cube",
-   "start": 78.1,
-   "words": [
-    {
-     "t": "A",
-     "start": 78.16,
-     "end": 78.72
-    },
-    {
-     "t": "monitor,",
-     "start": 78.72,
-     "end": 79.3
-    },
-    {
-     "t": "a",
-     "start": 79.84,
-     "end": 79.92
-    },
-    {
-     "t": "headset,",
-     "start": 79.92,
-     "end": 80.5,
-     "pic": "headset"
-    },
-    {
-     "t": "a",
-     "start": 80.78,
-     "end": 81.06
-    },
-    {
-     "t": "cube",
-     "start": 81.06,
-     "end": 81.55,
-     "pic": "cube"
-    }
-   ],
-   "end": 81.55,
-   "pic": "monitor"
-  },
-  {
-   "n": 24,
-   "section": "Bridge",
-   "text": "A clipboard, a pen, a book",
-   "start": 83.0,
-   "words": [
-    {
-     "t": "A",
-     "start": 83.08,
-     "end": 83.34
-    },
-    {
-     "t": "clipboard,",
-     "start": 83.34,
-     "end": 83.9
-    },
-    {
-     "t": "a",
-     "start": 84.24,
-     "end": 84.5
-    },
-    {
-     "t": "pen,",
-     "start": 84.5,
-     "end": 84.96,
-     "pic": "pen"
-    },
-    {
-     "t": "a",
-     "start": 85.26,
-     "end": 85.7
-    },
-    {
-     "t": "book",
-     "start": 85.7,
-     "end": 86.12,
-     "pic": "book"
-    }
-   ],
-   "end": 86.12,
-   "pic": "clipboard"
-  },
-  {
-   "n": 25,
-   "section": "Bridge",
-   "text": "What is this? It is a gym ball!",
-   "start": 87.8,
+   "section": "Verse 2",
+   "text": "What is this?",
+   "start": 65.42,
    "words": [
     {
      "t": "What",
-     "start": 87.86,
-     "end": 88.46
+     "start": 65.42,
+     "end": 66.18
     },
     {
      "t": "is",
-     "start": 88.46,
-     "end": 89.0
+     "start": 66.26,
+     "end": 66.56
     },
     {
      "t": "this?",
-     "start": 89.0,
-     "end": 89.45
-    },
+     "start": 66.56,
+     "end": 67.78
+    }
+   ],
+   "end": 67.78,
+   "pic": null
+  },
+  {
+   "n": 23,
+   "section": "Verse 2",
+   "text": "It is a clipboard.",
+   "start": 68.32,
+   "words": [
     {
      "t": "It",
-     "start": 89.45,
-     "end": 89.65
+     "start": 68.32,
+     "end": 68.56
     },
     {
      "t": "is",
-     "start": 89.65,
-     "end": 89.85
+     "start": 68.56,
+     "end": 68.82
     },
     {
      "t": "a",
-     "start": 89.85,
-     "end": 90.0
+     "start": 68.82,
+     "end": 68.96
+    },
+    {
+     "t": "clipboard.",
+     "start": 68.96,
+     "end": 69.94
+    }
+   ],
+   "end": 69.94,
+   "pic": "clipboard"
+  },
+  {
+   "n": 24,
+   "section": "Verse 2",
+   "text": "What is this?",
+   "start": 70.76,
+   "words": [
+    {
+     "t": "What",
+     "start": 70.76,
+     "end": 70.88
+    },
+    {
+     "t": "is",
+     "start": 71.18,
+     "end": 71.28
+    },
+    {
+     "t": "this?",
+     "start": 71.28,
+     "end": 72.08
+    }
+   ],
+   "end": 72.08,
+   "pic": null
+  },
+  {
+   "n": 25,
+   "section": "Verse 2",
+   "text": "It is a gym ball!",
+   "start": 72.42,
+   "words": [
+    {
+     "t": "It",
+     "start": 72.42,
+     "end": 73.2
+    },
+    {
+     "t": "is",
+     "start": 73.22,
+     "end": 73.5
+    },
+    {
+     "t": "a",
+     "start": 73.5,
+     "end": 73.72
     },
     {
      "t": "gym",
-     "start": 90.0,
-     "end": 90.3
+     "start": 73.72,
+     "end": 74.05
     },
     {
      "t": "ball!",
-     "start": 90.3,
-     "end": 90.75
+     "start": 74.05,
+     "end": 74.85
     }
    ],
-   "end": 90.75,
+   "end": 74.85,
    "pic": "gymball"
   },
   {
    "n": 26,
    "section": "Chorus",
    "text": "What is this? What is this?",
-   "start": 91.3,
+   "start": 75.54,
    "words": [
     {
      "t": "What",
-     "start": 91.38,
-     "end": 91.98
+     "start": 75.54,
+     "end": 75.72
     },
     {
      "t": "is",
-     "start": 91.98,
-     "end": 92.28
+     "start": 75.72,
+     "end": 75.96
     },
     {
      "t": "this?",
-     "start": 92.28,
-     "end": 92.6
+     "start": 75.96,
+     "end": 76.78
     },
     {
      "t": "What",
-     "start": 92.6,
-     "end": 92.84
+     "start": 77.14,
+     "end": 77.42
     },
     {
      "t": "is",
-     "start": 92.84,
-     "end": 93.12
+     "start": 77.42,
+     "end": 78.0
     },
     {
      "t": "this?",
-     "start": 93.12,
-     "end": 93.5
+     "start": 78.0,
+     "end": 78.58
     }
    ],
-   "end": 93.5,
+   "end": 78.58,
    "pic": null
   },
   {
    "n": 27,
    "section": "Chorus",
-   "text": "What is this? It is a book!",
-   "start": 93.75,
+   "text": "What is this?",
+   "start": 79.98,
    "words": [
     {
      "t": "What",
-     "start": 93.84,
-     "end": 94.22
+     "start": 79.98,
+     "end": 80.3
     },
     {
      "t": "is",
-     "start": 94.22,
-     "end": 94.54
+     "start": 80.3,
+     "end": 80.64
     },
     {
      "t": "this?",
-     "start": 94.54,
-     "end": 94.9
-    },
-    {
-     "t": "It",
-     "start": 94.9,
-     "end": 95.1
-    },
-    {
-     "t": "is",
-     "start": 95.1,
-     "end": 95.35
-    },
-    {
-     "t": "a",
-     "start": 95.35,
-     "end": 95.55
-    },
-    {
-     "t": "book!",
-     "start": 95.55,
-     "end": 96.05
+     "start": 80.64,
+     "end": 81.54
     }
    ],
-   "end": 96.05,
-   "pic": "book"
+   "end": 81.54,
+   "pic": null
   },
   {
    "n": 28,
    "section": "Chorus",
-   "text": "What is this? What is this?",
-   "start": 96.15,
+   "text": "It is a book!",
+   "start": 81.75,
    "words": [
     {
-     "t": "What",
-     "start": 96.22,
-     "end": 96.5
+     "t": "It",
+     "start": 81.75,
+     "end": 82.35
     },
     {
      "t": "is",
-     "start": 96.5,
-     "end": 96.8
+     "start": 82.35,
+     "end": 82.88
     },
     {
-     "t": "this?",
-     "start": 96.8,
-     "end": 97.18
+     "t": "a",
+     "start": 82.88,
+     "end": 83.1
     },
     {
-     "t": "What",
-     "start": 97.18,
-     "end": 97.34
-    },
-    {
-     "t": "is",
-     "start": 97.34,
-     "end": 97.66
-    },
-    {
-     "t": "this?",
-     "start": 97.66,
-     "end": 98.08
+     "t": "book!",
+     "start": 83.1,
+     "end": 83.45
     }
    ],
-   "end": 98.08,
-   "pic": null
+   "end": 83.45,
+   "pic": "book"
   },
   {
    "n": 29,
    "section": "Chorus",
-   "text": "What is this? It is a pen!",
-   "start": 98.15,
+   "text": "What is this? What is this?",
+   "start": 84.8,
    "words": [
     {
      "t": "What",
-     "start": 98.2,
-     "end": 98.45
+     "start": 84.8,
+     "end": 85.16
     },
     {
      "t": "is",
-     "start": 98.45,
-     "end": 98.65
+     "start": 85.16,
+     "end": 85.4
     },
     {
      "t": "this?",
-     "start": 98.65,
-     "end": 98.95
+     "start": 85.4,
+     "end": 86.06
     },
     {
-     "t": "It",
-     "start": 98.95,
-     "end": 99.15
+     "t": "What",
+     "start": 86.56,
+     "end": 86.9
     },
     {
      "t": "is",
-     "start": 99.15,
-     "end": 99.35
+     "start": 86.9,
+     "end": 87.36
     },
     {
-     "t": "a",
-     "start": 99.35,
-     "end": 99.5
-    },
-    {
-     "t": "pen!",
-     "start": 99.5,
-     "end": 99.85
+     "t": "this?",
+     "start": 87.36,
+     "end": 88.42
     }
    ],
-   "end": 99.85,
-   "pic": "pen"
+   "end": 88.42,
+   "pic": null
   },
   {
    "n": 30,
    "section": "Chorus",
-   "text": "It is a book, it is a pen",
-   "start": 99.9,
+   "text": "What is this?",
+   "start": 89.4,
    "words": [
     {
-     "t": "It",
-     "start": 99.9,
-     "end": 100.05
+     "t": "What",
+     "start": 89.4,
+     "end": 89.66
     },
     {
      "t": "is",
-     "start": 100.05,
-     "end": 100.18
+     "start": 89.66,
+     "end": 90.0
     },
     {
-     "t": "a",
-     "start": 100.18,
-     "end": 100.3
-    },
-    {
-     "t": "book,",
-     "start": 100.3,
-     "end": 100.55
-    },
-    {
-     "t": "it",
-     "start": 100.55,
-     "end": 100.68
-    },
-    {
-     "t": "is",
-     "start": 100.68,
-     "end": 100.82
-    },
-    {
-     "t": "a",
-     "start": 100.82,
-     "end": 100.95
-    },
-    {
-     "t": "pen",
-     "start": 100.95,
-     "end": 101.25,
-     "pic": "pen"
+     "t": "this?",
+     "start": 90.0,
+     "end": 91.06
     }
    ],
-   "end": 101.25,
-   "pic": "book"
+   "end": 91.06,
+   "pic": null
   },
   {
    "n": 31,
    "section": "Chorus",
-   "text": "What is this? Tell me again!",
-   "start": 101.32,
+   "text": "It is a pen!",
+   "start": 91.15,
    "words": [
-    {
-     "t": "What",
-     "start": 101.05,
-     "end": 101.14
-    },
-    {
-     "t": "is",
-     "start": 101.14,
-     "end": 101.22
-    },
-    {
-     "t": "this?",
-     "start": 101.22,
-     "end": 101.32
-    },
-    {
-     "t": "Tell",
-     "start": 101.34,
-     "end": 101.94
-    },
-    {
-     "t": "me",
-     "start": 101.94,
-     "end": 102.4
-    },
-    {
-     "t": "again!",
-     "start": 102.4,
-     "end": 103.12
-    }
-   ],
-   "end": 103.12,
-   "pic": null
-  },
-  {
-   "n": 32,
-   "section": "Final Chorus",
-   "text": "What is this? What is this?",
-   "start": 103.15,
-   "words": [
-    {
-     "t": "What",
-     "start": 103.24,
-     "end": 103.36
-    },
-    {
-     "t": "is",
-     "start": 103.36,
-     "end": 103.62
-    },
-    {
-     "t": "this?",
-     "start": 103.62,
-     "end": 104.18
-    },
-    {
-     "t": "What",
-     "start": 104.18,
-     "end": 104.34
-    },
-    {
-     "t": "is",
-     "start": 104.34,
-     "end": 105.02
-    },
-    {
-     "t": "this?",
-     "start": 105.02,
-     "end": 105.4
-    }
-   ],
-   "end": 105.4,
-   "pic": null
-  },
-  {
-   "n": 33,
-   "section": "Final Chorus",
-   "text": "What is this? It is a book!",
-   "start": 105.6,
-   "words": [
-    {
-     "t": "What",
-     "start": 105.7,
-     "end": 105.9
-    },
-    {
-     "t": "is",
-     "start": 105.9,
-     "end": 106.1
-    },
-    {
-     "t": "this?",
-     "start": 106.1,
-     "end": 106.35
-    },
     {
      "t": "It",
-     "start": 106.35,
-     "end": 106.55
+     "start": 91.15,
+     "end": 92.0
     },
     {
      "t": "is",
-     "start": 106.55,
-     "end": 106.75
+     "start": 92.02,
+     "end": 92.3
     },
     {
      "t": "a",
-     "start": 106.75,
-     "end": 106.9
-    },
-    {
-     "t": "book!",
-     "start": 106.9,
-     "end": 107.4
-    }
-   ],
-   "end": 107.4,
-   "pic": "book"
-  },
-  {
-   "n": 34,
-   "section": "Final Chorus",
-   "text": "What is this? What is this?",
-   "start": 107.55,
-   "words": [
-    {
-     "t": "What",
-     "start": 107.66,
-     "end": 107.9
-    },
-    {
-     "t": "is",
-     "start": 107.9,
-     "end": 108.22
-    },
-    {
-     "t": "this?",
-     "start": 108.22,
-     "end": 108.6
-    },
-    {
-     "t": "What",
-     "start": 108.6,
-     "end": 108.88
-    },
-    {
-     "t": "is",
-     "start": 108.88,
-     "end": 109.18
-    },
-    {
-     "t": "this?",
-     "start": 109.18,
-     "end": 109.5
-    }
-   ],
-   "end": 109.5,
-   "pic": null
-  },
-  {
-   "n": 35,
-   "section": "Final Chorus",
-   "text": "What is this? It is a pen!",
-   "start": 109.55,
-   "words": [
-    {
-     "t": "What",
-     "start": 109.55,
-     "end": 109.8
-    },
-    {
-     "t": "is",
-     "start": 109.8,
-     "end": 110.05
-    },
-    {
-     "t": "this?",
-     "start": 110.05,
-     "end": 110.42
-    },
-    {
-     "t": "It",
-     "start": 110.42,
-     "end": 110.9
-    },
-    {
-     "t": "is",
-     "start": 110.9,
-     "end": 111.3
-    },
-    {
-     "t": "a",
-     "start": 111.3,
-     "end": 111.72
+     "start": 92.3,
+     "end": 92.48
     },
     {
      "t": "pen!",
-     "start": 111.72,
-     "end": 112.2
+     "start": 92.48,
+     "end": 93.1
     }
    ],
-   "end": 112.2,
+   "end": 93.1,
    "pic": "pen"
   },
   {
-   "n": 36,
-   "section": "Final Chorus",
+   "n": 32,
+   "section": "Chorus",
    "text": "It is a book, it is a pen",
-   "start": 112.25,
+   "start": 93.9,
    "words": [
     {
      "t": "It",
-     "start": 112.3,
-     "end": 112.5
+     "start": 93.9,
+     "end": 94.45
     },
     {
      "t": "is",
-     "start": 112.5,
-     "end": 112.8
+     "start": 94.5,
+     "end": 94.88
     },
     {
      "t": "a",
-     "start": 112.8,
-     "end": 113.02
+     "start": 94.88,
+     "end": 95.18
     },
     {
      "t": "book,",
-     "start": 113.02,
-     "end": 113.48
+     "start": 95.18,
+     "end": 95.98
     },
     {
      "t": "it",
-     "start": 113.48,
-     "end": 113.56
+     "start": 96.58,
+     "end": 96.9
     },
     {
      "t": "is",
-     "start": 113.56,
-     "end": 113.8
+     "start": 96.9,
+     "end": 97.26
     },
     {
      "t": "a",
-     "start": 113.8,
-     "end": 114.1
+     "start": 97.26,
+     "end": 97.6
     },
     {
      "t": "pen",
-     "start": 114.1,
-     "end": 114.5,
+     "start": 97.6,
+     "end": 97.86,
      "pic": "pen"
     }
    ],
-   "end": 114.5,
+   "end": 97.86,
    "pic": "book"
   },
   {
-   "n": 37,
-   "section": "Final Chorus",
+   "n": 33,
+   "section": "Chorus",
    "text": "What is this? Tell me again!",
-   "start": 114.55,
+   "start": 98.36,
    "words": [
     {
      "t": "What",
-     "start": 114.55,
-     "end": 114.75
+     "start": 98.36,
+     "end": 99.2
     },
     {
      "t": "is",
-     "start": 114.75,
-     "end": 114.95
+     "start": 99.2,
+     "end": 99.5
     },
     {
      "t": "this?",
-     "start": 114.95,
-     "end": 115.2
+     "start": 99.5,
+     "end": 100.1
     },
     {
      "t": "Tell",
-     "start": 115.2,
-     "end": 115.55
+     "start": 100.1,
+     "end": 100.36
     },
     {
      "t": "me",
-     "start": 115.55,
-     "end": 115.9
+     "start": 100.36,
+     "end": 100.58
     },
     {
      "t": "again!",
-     "start": 115.9,
-     "end": 116.4
+     "start": 100.58,
+     "end": 101.45
     }
    ],
-   "end": 116.4,
+   "end": 101.45,
    "pic": null
   },
   {
-   "n": 38,
-   "section": "Outro",
-   "text": "What is this? It is a book!",
-   "start": 116.45,
+   "n": 34,
+   "section": "Bridge",
+   "text": "A desk, a mouse, a keyboard",
+   "start": 103.54,
    "words": [
     {
-     "t": "What",
-     "start": 116.45,
-     "end": 116.6
+     "t": "A",
+     "start": 103.54,
+     "end": 103.66
     },
     {
-     "t": "is",
-     "start": 116.6,
-     "end": 116.75
-    },
-    {
-     "t": "this?",
-     "start": 116.75,
-     "end": 116.9
-    },
-    {
-     "t": "It",
-     "start": 116.9,
-     "end": 117.05
-    },
-    {
-     "t": "is",
-     "start": 117.05,
-     "end": 117.2
+     "t": "desk,",
+     "start": 103.66,
+     "end": 104.0
     },
     {
      "t": "a",
-     "start": 117.2,
-     "end": 117.32
+     "start": 104.0,
+     "end": 104.16
     },
     {
-     "t": "book!",
-     "start": 117.32,
-     "end": 117.7
+     "t": "mouse,",
+     "start": 104.16,
+     "end": 104.64,
+     "pic": "mouse"
+    },
+    {
+     "t": "a",
+     "start": 104.64,
+     "end": 104.82
+    },
+    {
+     "t": "keyboard",
+     "start": 104.82,
+     "end": 105.44,
+     "pic": "keyboard"
     }
    ],
-   "end": 117.7,
-   "pic": "book"
+   "end": 105.44,
+   "pic": "desk"
   },
   {
-   "n": 39,
-   "section": "Outro",
-   "text": "It is a book!",
-   "start": 117.75,
+   "n": 35,
+   "section": "Bridge",
+   "text": "A monitor, a headset, a cube",
+   "start": 108.2,
    "words": [
     {
-     "t": "It",
-     "start": 117.75,
+     "t": "A",
+     "start": 108.2,
+     "end": 108.3
+    },
+    {
+     "t": "monitor,",
+     "start": 108.3,
+     "end": 109.32
+    },
+    {
+     "t": "a",
+     "start": 109.32,
+     "end": 109.58
+    },
+    {
+     "t": "headset,",
+     "start": 109.58,
+     "end": 110.62,
+     "pic": "headset"
+    },
+    {
+     "t": "a",
+     "start": 110.66,
+     "end": 110.74
+    },
+    {
+     "t": "cube",
+     "start": 110.74,
+     "end": 111.16,
+     "pic": "cube"
+    }
+   ],
+   "end": 111.16,
+   "pic": "monitor"
+  },
+  {
+   "n": 36,
+   "section": "Bridge",
+   "text": "A clipboard, a pen, a book",
+   "start": 112.9,
+   "words": [
+    {
+     "t": "A",
+     "start": 112.9,
+     "end": 113.04
+    },
+    {
+     "t": "clipboard,",
+     "start": 113.04,
+     "end": 113.74
+    },
+    {
+     "t": "a",
+     "start": 114.2,
+     "end": 114.32
+    },
+    {
+     "t": "pen,",
+     "start": 114.32,
+     "end": 114.68,
+     "pic": "pen"
+    },
+    {
+     "t": "a",
+     "start": 114.68,
+     "end": 114.8
+    },
+    {
+     "t": "book",
+     "start": 114.8,
+     "end": 115.12,
+     "pic": "book"
+    }
+   ],
+   "end": 115.12,
+   "pic": "clipboard"
+  },
+  {
+   "n": 37,
+   "section": "Bridge",
+   "text": "What is this?",
+   "start": 116.95,
+   "words": [
+    {
+     "t": "What",
+     "start": 116.95,
      "end": 117.9
     },
     {
      "t": "is",
-     "start": 117.9,
-     "end": 118.05
+     "start": 117.96,
+     "end": 118.3
+    },
+    {
+     "t": "this?",
+     "start": 118.3,
+     "end": 119.18
+    }
+   ],
+   "end": 119.18,
+   "pic": null
+  },
+  {
+   "n": 38,
+   "section": "Bridge",
+   "text": "It is a gym ball!",
+   "start": 120.02,
+   "words": [
+    {
+     "t": "It",
+     "start": 120.02,
+     "end": 120.42
+    },
+    {
+     "t": "is",
+     "start": 120.42,
+     "end": 120.62
     },
     {
      "t": "a",
-     "start": 118.05,
-     "end": 118.15
+     "start": 120.62,
+     "end": 120.86
+    },
+    {
+     "t": "gym",
+     "start": 120.86,
+     "end": 121.15
+    },
+    {
+     "t": "ball!",
+     "start": 121.15,
+     "end": 121.88
+    }
+   ],
+   "end": 121.88,
+   "pic": "gymball"
+  },
+  {
+   "n": 39,
+   "section": "Final Chorus",
+   "text": "What is this? What is this?",
+   "start": 122.0,
+   "words": [
+    {
+     "t": "What",
+     "start": 122.0,
+     "end": 122.65
+    },
+    {
+     "t": "is",
+     "start": 122.68,
+     "end": 122.98
+    },
+    {
+     "t": "this?",
+     "start": 123.0,
+     "end": 123.85
+    },
+    {
+     "t": "What",
+     "start": 124.2,
+     "end": 124.48
+    },
+    {
+     "t": "is",
+     "start": 124.48,
+     "end": 125.06
+    },
+    {
+     "t": "this?",
+     "start": 125.06,
+     "end": 125.6
+    }
+   ],
+   "end": 125.6,
+   "pic": null
+  },
+  {
+   "n": 40,
+   "section": "Final Chorus",
+   "text": "What is this?",
+   "start": 126.05,
+   "words": [
+    {
+     "t": "What",
+     "start": 126.05,
+     "end": 127.25
+    },
+    {
+     "t": "is",
+     "start": 127.32,
+     "end": 127.68
+    },
+    {
+     "t": "this?",
+     "start": 127.68,
+     "end": 128.56
+    }
+   ],
+   "end": 128.56,
+   "pic": null
+  },
+  {
+   "n": 41,
+   "section": "Final Chorus",
+   "text": "It is a book!",
+   "start": 129.52,
+   "words": [
+    {
+     "t": "It",
+     "start": 129.52,
+     "end": 129.82
+    },
+    {
+     "t": "is",
+     "start": 129.82,
+     "end": 130.0
+    },
+    {
+     "t": "a",
+     "start": 130.0,
+     "end": 130.2
     },
     {
      "t": "book!",
-     "start": 118.15,
-     "end": 118.45
+     "start": 130.2,
+     "end": 130.4
     }
    ],
-   "end": 118.45,
+   "end": 130.4,
+   "pic": "book"
+  },
+  {
+   "n": 42,
+   "section": "Final Chorus",
+   "text": "What is this? What is this?",
+   "start": 131.84,
+   "words": [
+    {
+     "t": "What",
+     "start": 131.84,
+     "end": 132.2
+    },
+    {
+     "t": "is",
+     "start": 132.2,
+     "end": 132.46
+    },
+    {
+     "t": "this?",
+     "start": 132.46,
+     "end": 133.68
+    },
+    {
+     "t": "What",
+     "start": 133.68,
+     "end": 133.94
+    },
+    {
+     "t": "is",
+     "start": 133.94,
+     "end": 134.42
+    },
+    {
+     "t": "this?",
+     "start": 134.42,
+     "end": 135.5
+    }
+   ],
+   "end": 135.5,
+   "pic": null
+  },
+  {
+   "n": 43,
+   "section": "Final Chorus",
+   "text": "What is this?",
+   "start": 136.58,
+   "words": [
+    {
+     "t": "What",
+     "start": 136.58,
+     "end": 136.78
+    },
+    {
+     "t": "is",
+     "start": 136.78,
+     "end": 137.12
+    },
+    {
+     "t": "this?",
+     "start": 137.12,
+     "end": 137.22
+    }
+   ],
+   "end": 137.22,
+   "pic": null
+  },
+  {
+   "n": 44,
+   "section": "Final Chorus",
+   "text": "It is a pen!",
+   "start": 138.94,
+   "words": [
+    {
+     "t": "It",
+     "start": 138.94,
+     "end": 139.12
+    },
+    {
+     "t": "is",
+     "start": 139.12,
+     "end": 139.4
+    },
+    {
+     "t": "a",
+     "start": 139.4,
+     "end": 139.6
+    },
+    {
+     "t": "pen!",
+     "start": 139.6,
+     "end": 140.2
+    }
+   ],
+   "end": 140.2,
+   "pic": "pen"
+  },
+  {
+   "n": 45,
+   "section": "Final Chorus",
+   "text": "It is a book, it is a pen",
+   "start": 141.28,
+   "words": [
+    {
+     "t": "It",
+     "start": 141.28,
+     "end": 141.62
+    },
+    {
+     "t": "is",
+     "start": 141.62,
+     "end": 141.92
+    },
+    {
+     "t": "a",
+     "start": 141.92,
+     "end": 142.14
+    },
+    {
+     "t": "book,",
+     "start": 142.14,
+     "end": 143.06
+    },
+    {
+     "t": "it",
+     "start": 143.64,
+     "end": 143.96
+    },
+    {
+     "t": "is",
+     "start": 143.96,
+     "end": 144.28
+    },
+    {
+     "t": "a",
+     "start": 144.28,
+     "end": 144.62
+    },
+    {
+     "t": "pen",
+     "start": 144.62,
+     "end": 145.1,
+     "pic": "pen"
+    }
+   ],
+   "end": 145.1,
+   "pic": "book"
+  },
+  {
+   "n": 46,
+   "section": "Final Chorus",
+   "text": "What is this? Tell me again!",
+   "start": 145.55,
+   "words": [
+    {
+     "t": "What",
+     "start": 145.55,
+     "end": 146.2
+    },
+    {
+     "t": "is",
+     "start": 146.26,
+     "end": 146.52
+    },
+    {
+     "t": "this?",
+     "start": 146.52,
+     "end": 147.18
+    },
+    {
+     "t": "Tell",
+     "start": 147.18,
+     "end": 147.44
+    },
+    {
+     "t": "me",
+     "start": 147.44,
+     "end": 147.68
+    },
+    {
+     "t": "again!",
+     "start": 147.68,
+     "end": 148.75
+    }
+   ],
+   "end": 148.75,
+   "pic": null
+  },
+  {
+   "n": 47,
+   "section": "Outro",
+   "text": "What is this?",
+   "start": 149.6,
+   "words": [
+    {
+     "t": "What",
+     "start": 149.6,
+     "end": 150.38
+    },
+    {
+     "t": "is",
+     "start": 150.4,
+     "end": 151.05
+    },
+    {
+     "t": "this?",
+     "start": 151.1,
+     "end": 152.15
+    }
+   ],
+   "end": 152.15,
+   "pic": null
+  },
+  {
+   "n": 48,
+   "section": "Outro",
+   "text": "It is a book!",
+   "start": 153.5,
+   "words": [
+    {
+     "t": "It",
+     "start": 153.5,
+     "end": 153.88
+    },
+    {
+     "t": "is",
+     "start": 153.9,
+     "end": 154.3
+    },
+    {
+     "t": "a",
+     "start": 154.3,
+     "end": 154.6
+    },
+    {
+     "t": "book!",
+     "start": 154.6,
+     "end": 155.05
+    }
+   ],
+   "end": 155.05,
    "pic": "book"
   }
  ]
