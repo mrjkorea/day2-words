@@ -56,10 +56,34 @@
     });
   }
 
+  // Jay 28SEP2026: also write the finished item into the ONE score book.
+  function toOneBook(payload) {
+    var p = payload || {};
+    var prog = null;
+    try { prog = JSON.parse(p.progress_json || "null"); } catch (e) {}
+    var known = (prog && (prog.known || prog.correct || prog.knownCount)) || 0;
+    var total = (prog && (prog.total || prog.studySize)) || p.study_size || 0;
+    if (!window.MRJ_SCORES || !total) return Promise.resolve(null);
+    return window.MRJ_SCORES.post({
+      student: p.name || "",
+      program: "day2-words",
+      appName: "MRJ Day 2 Words",
+      source: "day2-words",
+      bookTitle: p.pack_title || "",
+      unitTitle: p.pack_id || "",
+      itemId: [p.pack_id || "pack", p.screen || "screen", p.word_id || ""].join(":"),
+      itemType: "word_study",
+      scoreValue: known,
+      scoreMax: total,
+      localDate: new Date()
+    });
+  }
+
   function save(payload) {
     var body = fields(payload);
     if (!body.action) body.action = "save";
     writeLocal(body);
+    try { toOneBook(body); } catch (e) {}
     return postRemote(body);
   }
 
