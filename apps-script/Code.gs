@@ -1,4 +1,11 @@
 /**
+ * RETIRED 28 Sep 2026 (Jay): this endpoint wrote to the SIDE sheet
+ * "MRJ Word Master Progress (web)" (1bmyXV3-...). The ONE score book is
+ * MRJ Classroom Metrics, posted by js/mrj-scores.js through the shared receiver.
+ * Kept only as history. Do not deploy. Do not point an app at it.
+ */
+/* --- retired source below ---
+/**
  * MRJ Day 2 Words — progress endpoint (Google Apps Script web app).
  * Writes to the "Day2" tab of "MRJ Word Master Progress (web)"
  * (sheet id 1bmyXV3-55wH1p3AEOdC9yUCF3ExulVc6GFJy_Qk0zak), one row per student name.
@@ -55,3 +62,5 @@ function doPost(e) {
     lock.releaseLock();
   }
 }
+
+--- retired source above --- */
