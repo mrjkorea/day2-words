@@ -22,8 +22,12 @@
   }
 
   var box = document.getElementById("song-list");
+  var listStarted = false;
 
-  fetch("data/catalog.json", { cache: "no-store" })
+  function startList() {
+    if (listStarted) return;
+    listStarted = true;
+    fetch("data/catalog.json", { cache: "no-store" })
     .then(function (res) {
       if (!res.ok) throw new Error("catalog");
       return res.json();
@@ -67,4 +71,7 @@
       box.className = "list-empty";
       box.textContent = "Could not load the song list.";
     });
+  }
+
+  window.addEventListener("mrj-auth-ready", startList);
 })();

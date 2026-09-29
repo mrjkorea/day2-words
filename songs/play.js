@@ -22,6 +22,8 @@
   var gapTimer = 0;
   var paused = false;
   var ended = false;
+  var authId = "";
+  var songStarted = false;
 
   function $(id) { return document.getElementById(id); }
 
@@ -128,12 +130,12 @@
     var prog = window.MRJ_WM_progress;
     if (!url || !prog || typeof prog.save !== "function" || typeof prog.load !== "function") return;
 
-    var st = account();
-    var name = String(st.accountName || "").trim();
-    var pin = String(st.accountPin || "").replace(/\D/g, "");
-    if (!name || pin.length !== 4) return;
+    var id = String(authId || "").trim();
+    if (!id) return;
 
+    var st = account();
     var base = slimFromState(st);
+    base.studentId = id;
     base.songScores = {};
     Object.keys(bag).forEach(function (id) {
       base.songScores[id] = bag[id];
@@ -143,20 +145,20 @@
       obj.songScores = base.songScores;
       prog.save({
         action: "save",
-        name: name,
-        pin: pin,
+        name: id,
+        pin: "",
         pack_id: "day2_song_" + song.id,
         pack_title: song.title || song.id,
         screen: "sing",
         word_id: "score",
         study_size: result.percent,
         locale: st.locale || "en",
-        student_id: st.studentId || "",
+        student_id: id,
         progress_json: JSON.stringify(obj),
       }).catch(function () {});
     }
 
-    prog.load({ action: "load", name: name, pin: pin }).then(function (res) {
+    prog.load({ action: "load", name: id, pin: "", student_id: id }).then(function (res) {
       var obj = base;
       if (res && res.found && res.progress_json) {
         try {
@@ -689,11 +691,15 @@
     showError("Could not play the music. Tap a button to try again.");
   });
 
-  var id = songIdFromUrl();
-  if (!id) {
-    showError("Missing song. Go back and pick one.");
-    $("panel-ready").hidden = true;
-  } else {
+  function startSong() {
+    if (songStarted) return;
+    songStarted = true;
+    var id = songIdFromUrl();
+    if (!id) {
+      showError("Missing song. Go back and pick one.");
+      $("panel-ready").hidden = true;
+      return;
+    }
     fetch("data/" + id + ".json", { cache: "no-store" })
       .then(function (res) {
         if (!res.ok) throw new Error("song");
@@ -718,4 +724,10 @@
         $("panel-ready").hidden = true;
       });
   }
+
+  window.addEventListener("mrj-auth-ready", function (event) {
+    var detail = event && event.detail ? event.detail : {};
+    authId = String(detail.id == null ? "" : detail.id).trim();
+    startSong();
+  });
 })();

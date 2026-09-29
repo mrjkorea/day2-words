@@ -91,10 +91,11 @@
       const raw = localStorage.getItem(LS_STATE);
       if (raw) {
         const parsed = JSON.parse(raw);
-        if (parsed && parsed.studentId) {
+        if (parsed && typeof parsed === "object") {
           if (!parsed.displayName) parsed.displayName = "";
-          if (!parsed.accountName) parsed.accountName = "";
-          if (!parsed.accountPin) parsed.accountPin = "";
+          parsed.studentId = "";
+          parsed.accountName = "";
+          parsed.accountPin = "";
           if (!parsed.testKind) parsed.testKind = "easy";
           if (!parsed.studySize) parsed.studySize = 10;
           if (!parsed.voice || parsed.voice === "man") parsed.voice = "us_m";
@@ -105,7 +106,7 @@
       }
     } catch (e) {}
     return {
-      studentId: uid("stu"),
+      studentId: "",
       sessionId: uid("ses"),
       voice: "us_m",
       displayName: "",
@@ -120,11 +121,7 @@
   }
 
   let progressTimer = null;
-  let signinSkipped = false;
-
-  function isSignedIn() {
-    return !!(state.accountName && String(state.accountName).trim());
-  }
+  let appStarted = false;
 
   function currentWordId() {
     if (learn && learn.cur && learn.cur.id) return learn.cur.id;
@@ -177,7 +174,6 @@
       try { obj = JSON.parse(raw); } catch (e) { return; }
     }
     if (!obj || typeof obj !== "object" || !obj.sets) return;
-    if (obj.studentId) state.studentId = obj.studentId;
     if (obj.voice) state.voice = obj.voice;
     if (obj.locale) state.locale = obj.locale;
     if (obj.studySize) state.studySize = obj.studySize;
@@ -214,35 +210,20 @@
     });
   }
 
-  function pullSheet() {
-    if (!state.accountName || !state.accountPin) return;
-    if (!window.MRJ_WM_progress || !window.MRJ_WM_progress.load) return;
-    window.MRJ_WM_progress.load({
-      action: "load",
-      name: state.accountName,
-      pin: state.accountPin,
-    }).then(function (res) {
-      if (res && res.found && res.progress_json) {
-        applyRemote(res.progress_json);
-        try { localStorage.setItem(LS_STATE, JSON.stringify(state)); } catch (e) {}
-        if (currentScreen === "home") renderHome();
-      }
-    }).catch(function () {});
-  }
-
   function progressPayload() {
     const set = currentSet();
+    const studentId = String(state.studentId || "").trim();
     return {
       action: "save",
-      name: state.accountName || "",
-      pin: state.accountPin || "",
+      name: studentId,
+      pin: "",
       pack_id: set ? ("day2_" + (set.packId || set.id || "")) : "",
       pack_title: set ? (set.title || "") : "",
       screen: currentScreen || "",
       word_id: currentWordId(),
       study_size: state.studySize || 10,
       locale: state.locale || "en",
-      student_id: state.studentId || "",
+      student_id: studentId,
       progress_json: JSON.stringify(slimProgress()),
     };
   }
@@ -954,18 +935,7 @@
     const btn = $("#btn-continue");
     const set = currentSet();
     const hello = $("#hello-line");
-    const signed = isSignedIn();
-    if (hello) hello.textContent = signed ? t("hello", { name: state.accountName }) : "";
-    const signCard = $("#signin-card");
-    const signOut = $("#btn-signout");
-    if (signCard) signCard.hidden = signed || signinSkipped;
-    if (signOut) signOut.hidden = !signed;
-    if (signed) {
-      const nameEl = $("#account-name");
-      const pinEl = $("#account-pin");
-      if (nameEl) nameEl.value = state.accountName;
-      if (pinEl) pinEl.value = state.accountPin || "";
-    }
+    if (hello) hello.textContent = state.studentId ? t("hello", { name: state.studentId }) : "";
     let forever = 0;
     let trying = 0;
     Object.keys(state.sets).forEach(function (k) {
@@ -985,7 +955,7 @@
       if (dueSet) due.textContent = t("due_line", { title: dueSet.title });
     }
     markIndexNext();
-    if (!signed || !set) {
+    if (!set) {
       if (btn) btn.hidden = true;
       return;
     }
@@ -2287,7 +2257,7 @@
       sessionStorage.setItem("mrj.wm.gamepack", JSON.stringify(pack));
     } catch (e) { /* ignore */ }
     const frame = $("#game-frame");
-    const name = encodeURIComponent(state.displayName || "Student");
+    const name = encodeURIComponent(state.studentId || "");
     frame.src = path + "?pack=session&packid=" + encodeURIComponent(currentPackId()) + "&student=" + name;
     showScreen("playgame");
   }
@@ -2333,92 +2303,6 @@
       showScreen("home");
       const deep = urlPackId();
       if (deep) openPack(deep);
-    });
-    const nameGo = $("#btn-name-go");
-    if (nameGo) nameGo.addEventListener("click", function () {
-      const n = ($("#name-input").value || "").trim();
-      if (!n) return;
-      state.displayName = n;
-      persist();
-      renderHome();
-      showScreen("home");
-    });
-    const pinEl = $("#account-pin");
-    if (pinEl) pinEl.addEventListener("input", function () {
-      pinEl.value = String(pinEl.value || "").replace(/\D/g, "").slice(0, 4);
-    });
-    const saveIn = $("#btn-signin-save");
-    if (saveIn) saveIn.addEventListener("click", function () {
-      const n = (($("#account-name") && $("#account-name").value) || "").trim().slice(0, 24);
-      const pin = (($("#account-pin") && $("#account-pin").value) || "").replace(/\D/g, "");
-      const err = $("#signin-err");
-      if (!n || pin.length !== 4) {
-        if (err) {
-          err.textContent = "Need a name and a 4-digit PIN.";
-          err.hidden = false;
-        }
-        return;
-      }
-      if (err) err.hidden = true;
-      saveIn.disabled = true;
-      const prog = window.MRJ_WM_progress;
-      if (!prog || !prog.load) {
-        saveIn.disabled = false;
-        if (err) {
-          err.textContent = "Progress sheet is not connected.";
-          err.hidden = false;
-        }
-        return;
-      }
-      prog.load({ action: "load", name: n, pin: pin }).then(function (res) {
-        if (res && res.error === "wrong_pin") {
-          if (err) {
-            err.textContent = "That name already has a different PIN.";
-            err.hidden = false;
-          }
-          saveIn.disabled = false;
-          return;
-        }
-        if (!res || res.ok === false) {
-          if (err) {
-            err.textContent = "Could not reach the progress sheet. Try again.";
-            err.hidden = false;
-          }
-          saveIn.disabled = false;
-          return;
-        }
-        state.accountName = n;
-        state.accountPin = pin;
-        state.displayName = n;
-        signinSkipped = false;
-        if (res.found && res.progress_json) applyRemote(res.progress_json);
-        persist();
-        renderHome();
-        saveIn.disabled = false;
-        const set = currentSet();
-        if (set && set.packId && !(set.words || []).length) openPack(set.packId);
-      }).catch(function () {
-        if (err) {
-          err.textContent = "Could not reach the progress sheet. Try again.";
-          err.hidden = false;
-        }
-        saveIn.disabled = false;
-      });
-    });
-    const skipIn = $("#btn-signin-skip");
-    if (skipIn) skipIn.addEventListener("click", function () {
-      signinSkipped = true;
-      const err = $("#signin-err");
-      if (err) err.hidden = true;
-      renderHome();
-    });
-    const signOut = $("#btn-signout");
-    if (signOut) signOut.addEventListener("click", function () {
-      state.accountName = "";
-      state.accountPin = "";
-      signinSkipped = false;
-      persist();
-      renderHome();
     });
     const listBtn = $("#btn-word-list");
     if (listBtn) listBtn.addEventListener("click", function () {
@@ -2602,16 +2486,6 @@
       } else if (currentScreen === "test") {
         e.preventDefault();
         onHardCheck();
-      } else if (currentScreen === "name") {
-        e.preventDefault();
-        $("#btn-name-go").click();
-      } else if (currentScreen === "home") {
-        const ae = document.activeElement;
-        if (ae && (ae.id === "account-name" || ae.id === "account-pin")) {
-          e.preventDefault();
-          const saveBtn = $("#btn-signin-save");
-          if (saveBtn) saveBtn.click();
-        }
       }
     });
     bindKbDeskMedia();
@@ -2694,15 +2568,27 @@
   }
 
   window.MRJ_WORD_FACTORY_PACK = { words: [] };
-  bind();
-  pullSheet();
-  probeLinuxTts();
-  if (I18n) {
-    I18n.setLocale(state.locale || "en");
-    I18n.fillSelect($("#lang-select"));
-    I18n.fillSelect($("#lang-select-boot"));
-    I18n.applyDom(document);
+
+  function beginAfterAuth(event) {
+    if (appStarted) return;
+    appStarted = true;
+    const detail = event && event.detail ? event.detail : {};
+    const id = String(detail.id == null ? "" : detail.id).trim();
+    state.studentId = id;
+    state.displayName = id;
+    state.accountName = "";
+    state.accountPin = "";
+    bind();
+    probeLinuxTts();
+    if (I18n) {
+      I18n.setLocale(state.locale || "en");
+      I18n.fillSelect($("#lang-select"));
+      I18n.fillSelect($("#lang-select-boot"));
+      I18n.applyDom(document);
+    }
+    setVoice(state.voice);
+    showScreen("boot");
   }
-  setVoice(state.voice);
-  showScreen("boot");
+
+  window.addEventListener("mrj-auth-ready", beginAfterAuth);
 })();

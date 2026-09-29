@@ -34,6 +34,7 @@
   function post(opts) {
     opts = opts || {};
     var student = (opts.student || "").trim();
+    if (!student) return Promise.resolve({ ok: false, skipped: true });
     var itemId = String(opts.itemId || uid("item"));
     var when = opts.when ? new Date(opts.when) : new Date();
     var pct =
