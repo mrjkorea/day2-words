@@ -2277,12 +2277,23 @@
     if (!path) return;
     let pack;
     if (kind === "spellfire") {
+      const voice = state.voice || "us_m";
+      const spoken = playWords(set).map(function (w) {
+        const word = String(w.en || "").toLowerCase().replace(/[^a-z]/g, "");
+        return {
+          item_id: w.id,
+          word: w.en,
+          audio: word ? (location.origin + "/" + packBase() + "/audio/" + voice + "/" + word + ".mp3") : "",
+        };
+      }).filter(function (it) { return it.word; });
       pack = {
         pack_id: set.id || "nouns100",
         title: set.title,
         seconds_per_letter: 5,
-        items: playWords(set).map(function (w) { return { item_id: w.id, word: w.en }; }),
+        items: spoken,
       };
+      pack._spellWords = spoken.map(function (it) { return it.word; }).join(",");
+      pack._spellVoice = voice;
     } else if (kind === "soundinvaders") {
       pack = shooterPack(set);
     } else {
@@ -2300,7 +2311,7 @@
     } catch (e) { /* ignore */ }
     const frame = $("#game-frame");
     const name = encodeURIComponent(state.studentId || "");
-    frame.src = path + "?pack=session&packid=" + encodeURIComponent(currentPackId()) + "&student=" + name;
+    frame.src = path + "?pack=session&packid=" + encodeURIComponent(currentPackId()) + "&words=" + encodeURIComponent((pack && pack._spellWords) || "") + "&voice=" + encodeURIComponent((pack && pack._spellVoice) || state.voice || "us_m") + "&v=1.11&student=" + name;
     showScreen("playgame");
   }
 
