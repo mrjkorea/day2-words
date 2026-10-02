@@ -7,6 +7,14 @@
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="theme-color" content="#f6f3ec" />
   <title>MRJ Day 2 Words · Word Master</title>
+  <script>
+    (function () {
+      var pack = new URLSearchParams(location.search).get("pack") || "";
+      if (!/^[a-z0-9_]+$/.test(pack)) return;
+      var src = "https://mrjkorea.github.io/day2-words/packs/" + pack + ".json";
+      location.replace("https://mrjkorea.github.io/word-master/?packsrc=" + encodeURIComponent(src));
+    })();
+  </script>
   <link rel="stylesheet" href="css/app.css?v=20260929-fit" />
 </head>
 <body>
