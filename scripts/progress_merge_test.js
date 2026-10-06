@@ -61,5 +61,23 @@ if (pack.meetLock.indexOf("w1") === -1 || pack.meetLock.indexOf("w3") === -1) {
   process.exit(1);
 }
 
+const emptyRemote = {
+  v: 1,
+  sets: {
+    basic_a_u1: { winsA: {}, testPassed: {}, lastPlayedAt: 999 },
+  },
+};
+const richLocal = {
+  v: 1,
+  sets: {
+    basic_a_u1: { winsA: { w1: 2 }, testPassed: { w1: 80 }, lastPlayedAt: 1 },
+  },
+};
+const guarded = merge(richLocal, emptyRemote);
+if (!guarded.sets.basic_a_u1 || guarded.sets.basic_a_u1.testPassed.w1 !== 80) {
+  console.error("empty remote guard failed", guarded.sets.basic_a_u1);
+  process.exit(1);
+}
+
 console.log("PROGRESS_MERGE_OK");
 process.exit(0);

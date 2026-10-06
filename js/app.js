@@ -5,6 +5,7 @@
   const LS_STATE_LEGACY = "mrj.day2words.state";
   const LS_STATE_PREFIX = "mrj.day2words.state.";
   const LS_STATE_BACKUP = "mrj.day2words.state.shared_backup";
+  const LS_LEGACY_CLAIMED = "mrj.day2words.state.legacy_claimed";
   const LS_EVENTS_LEGACY = "mrj.day2words.events";
   const LS_EVENTS_PREFIX = "mrj.day2words.events.";
   const DEMO_PACK_ID = "basic_a_u1";
@@ -156,34 +157,99 @@
     return freshState(id);
   }
 
-  function migrateLegacyStateIfSafe(id) {
+  function legacyHasPlayableSets(parsed) {
+    if (!parsed || !parsed.sets || typeof parsed.sets !== "object") return false;
+    return Object.keys(parsed.sets).length > 0;
+  }
+
+  function legacyOwnerStorageKey(parsed) {
+    if (!parsed || typeof parsed !== "object") return "";
+    const acct = studentStorageKey(parsed.accountName || "");
+    if (acct) return acct;
+    const sid = String(parsed.studentId || "").trim();
+    const sidKey = studentStorageKey(sid);
+    const disp = studentStorageKey(parsed.displayName || "");
+    if (sidKey && !/^stu[_-]/i.test(sid)) return sidKey;
+    if (disp && !/^stu[_-]/i.test(parsed.displayName || "")) return disp;
+    return "";
+  }
+
+  function slimFromStateObj(st) {
+    const saved = state;
+    state = normalizeStoredState(st);
+    const slim = slimProgress();
+    state = saved;
+    return slim;
+  }
+
+  function consumeLegacyIfEligible(id) {
     const key = studentStorageKey(id);
-    if (!key) return;
+    if (!key) return null;
     let legacy = "";
     try {
       legacy = localStorage.getItem(LS_STATE_LEGACY) || "";
     } catch (e) {
-      return;
+      return null;
     }
-    if (!legacy) return;
+    if (!legacy) return null;
     let parsed = null;
     try {
       parsed = JSON.parse(legacy);
     } catch (e) {
-      return;
+      return null;
     }
-    if (!parsed || typeof parsed !== "object") return;
-    const legacySid = studentStorageKey(parsed.studentId || "");
-    const legacyName = studentStorageKey(parsed.accountName || parsed.displayName || "");
-    if (legacySid !== key && legacyName !== key) {
-      if (legacySid || legacyName) return;
+    if (!legacyHasPlayableSets(parsed)) return null;
+    const owner = legacyOwnerStorageKey(parsed);
+    if (owner) {
+      if (owner !== key) return null;
+    } else {
+      let claimed = "";
+      try {
+        claimed = localStorage.getItem(LS_LEGACY_CLAIMED) || "";
+      } catch (e) {
+        return null;
+      }
+      const claimedKey = studentStorageKey(claimed);
+      if (claimedKey && claimedKey !== key) return null;
+      try {
+        localStorage.setItem(LS_LEGACY_CLAIMED, id);
+      } catch (e) {}
     }
-    const target = stateStorageKey(id);
     try {
-      if (!localStorage.getItem(target)) localStorage.setItem(target, legacy);
       localStorage.setItem(LS_STATE_BACKUP, legacy);
       localStorage.removeItem(LS_STATE_LEGACY);
     } catch (e) {}
+    return parsed;
+  }
+
+  function recoveryBlobAllowedForStudent(parsed, id) {
+    if (!parsed || !legacyHasPlayableSets(parsed)) return false;
+    const owner = legacyOwnerStorageKey(parsed);
+    const key = studentStorageKey(id);
+    if (owner) return owner === key;
+    let claimed = "";
+    try {
+      claimed = localStorage.getItem(LS_LEGACY_CLAIMED) || "";
+    } catch (e) {}
+    const claimedKey = studentStorageKey(claimed);
+    return !claimedKey || claimedKey === key;
+  }
+
+  function mergeRecoverySnapshots(id) {
+    const blobs = [];
+    try {
+      const backup = localStorage.getItem(LS_STATE_BACKUP);
+      if (backup) blobs.push(JSON.parse(backup));
+    } catch (e) {}
+    try {
+      const per = localStorage.getItem(stateStorageKey(id));
+      if (per) blobs.push(JSON.parse(per));
+    } catch (e) {}
+    blobs.forEach(function (parsed) {
+      if (!recoveryBlobAllowedForStudent(parsed, id)) return;
+      mergeRemoteProgress(slimFromStateObj(parsed));
+    });
+    dedupeSetsByPackId();
   }
 
   function saveStateToStorage(forId) {
@@ -235,10 +301,17 @@
       showScreen("boot");
       return;
     }
-    migrateLegacyStateIfSafe(id);
+    const legacyBlob = consumeLegacyIfEligible(id);
     state = loadStateForStudent(id);
     state.studentId = id;
     state.displayName = id;
+    if (legacyBlob) {
+      mergeRemoteProgress(slimFromStateObj(legacyBlob));
+      saveStateToStorage();
+    }
+    mergeRecoverySnapshots(id);
+    dedupeSetsByPackId();
+    saveStateToStorage();
     if (window.MRJ_WM_progress && typeof window.MRJ_WM_progress.resetSession === "function") {
       window.MRJ_WM_progress.resetSession();
     }
@@ -265,29 +338,119 @@
     return "";
   }
 
+  function copyPassed(src) {
+    const out = {};
+    if (!src || typeof src !== "object") return out;
+    Object.keys(src).forEach(function (id) {
+      out[id] = src[id];
+    });
+    return out;
+  }
+
+  function mergePackSlim(a, b) {
+    const mergeFn = window.MRJ_WM_mergePack;
+    if (mergeFn) return mergeFn(a, b);
+    return b || a || {};
+  }
+
+  function packSlimFromSet(s) {
+    if (!s) return {};
+    return {
+      title: s.title || "",
+      winsA: s.winsA || {},
+      winsB: s.winsB || {},
+      winsC: s.winsC || {},
+      intro: s.intro || {},
+      meetLock: Array.isArray(s.meetLock) ? s.meetLock.slice() : [],
+      startNumber: (Number(s.startNumber) >= 1) ? Number(s.startNumber) : null,
+      testPassed: copyPassed(s.testPassed),
+      tapmapKey: s.tapmapKey || "",
+      lastPlayedAt: s.lastPlayedAt || 0,
+      srsTrying: !!s.srsTrying,
+      srsForever: !!s.srsForever,
+      srsStage: s.srsStage || 0,
+      srsNextAt: s.srsNextAt || null,
+      final: s.final || null,
+      check: s.check || null,
+      finalMiss: Array.isArray(s.finalMiss) ? s.finalMiss.slice(0, 200) : [],
+      roundGames: s.roundGames && typeof s.roundGames === "object" ? s.roundGames : {},
+      pathHeld: s.pathHeld && typeof s.pathHeld === "object" ? s.pathHeld : {},
+      externalPackSrc: s.externalPackSrc || "",
+    };
+  }
+
+  function applySlimPackToSet(set, slim) {
+    if (!set || !slim) return;
+    const merged = mergePackSlim(packSlimFromSet(set), slim);
+    set.title = merged.title || set.title;
+    set.winsA = merged.winsA || {};
+    set.winsB = merged.winsB || {};
+    set.winsC = merged.winsC || {};
+    set.intro = merged.intro || {};
+    set.meetLock = merged.meetLock || [];
+    set.startNumber = (Number(merged.startNumber) >= 1) ? Number(merged.startNumber) : null;
+    set.testPassed = copyPassed(merged.testPassed);
+    set.tapmapKey = merged.tapmapKey || "";
+    set.lastPlayedAt = merged.lastPlayedAt || set.lastPlayedAt || 0;
+    set.srsTrying = !!merged.srsTrying;
+    set.srsForever = !!merged.srsForever;
+    set.srsStage = merged.srsStage || 0;
+    set.srsNextAt = merged.srsNextAt != null ? merged.srsNextAt : set.srsNextAt;
+    set.final = merged.final || set.final;
+    set.check = merged.check || set.check;
+    set.finalMiss = Array.isArray(merged.finalMiss) ? merged.finalMiss.slice(0, 200) : set.finalMiss;
+    set.roundGames = merged.roundGames && typeof merged.roundGames === "object" ? merged.roundGames : set.roundGames;
+    set.pathHeld = merged.pathHeld && typeof merged.pathHeld === "object" ? merged.pathHeld : set.pathHeld;
+    if (slim.externalPackSrc && !set.externalPackSrc) set.externalPackSrc = slim.externalPackSrc;
+  }
+
+  function findSetByPackId(pid) {
+    const keys = Object.keys(state.sets || {});
+    for (let i = 0; i < keys.length; i++) {
+      const s = state.sets[keys[i]];
+      if (s && s.packId === pid) return s;
+    }
+    return null;
+  }
+
+  function dedupeSetsByPackId() {
+    const seen = {};
+    const keys = Object.keys(state.sets || {});
+    keys.forEach(function (k) {
+      const s = state.sets[k];
+      if (!s || !s.packId) return;
+      const pid = s.packId;
+      if (!seen[pid]) {
+        seen[pid] = s;
+        return;
+      }
+      const keep = seen[pid];
+      const drop = s;
+      applySlimPackToSet(keep, packSlimFromSet(drop));
+      if ((!keep.words || !keep.words.length) && drop.words && drop.words.length) {
+        keep.words = drop.words;
+      }
+      if (drop.externalPackSrc && !keep.externalPackSrc) keep.externalPackSrc = drop.externalPackSrc;
+      delete state.sets[drop.id];
+      if (state.currentSetId === drop.id) state.currentSetId = keep.id;
+    });
+  }
+
   function slimProgress() {
     const sets = {};
     Object.keys(state.sets || {}).forEach(function (k) {
       const s = state.sets[k];
       const pid = s && s.packId;
       if (!pid) return;
-      sets[pid] = {
-        title: s.title || "",
-        winsA: s.winsA || {},
-        winsB: s.winsB || {},
-        winsC: s.winsC || {},
-        intro: s.intro || {},
-        meetLock: Array.isArray(s.meetLock) ? s.meetLock.slice() : [],
-        tapmapKey: s.tapmapKey || "",
-        lastPlayedAt: s.lastPlayedAt || 0,
-        srsTrying: !!s.srsTrying,
-        srsForever: !!s.srsForever,
-        srsStage: s.srsStage || 0,
-        srsNextAt: s.srsNextAt || null,
-      };
+      const slim = packSlimFromSet(s);
+      if (sets[pid]) {
+        sets[pid] = mergePackSlim(sets[pid], slim);
+      } else {
+        sets[pid] = slim;
+      }
     });
     const cur = currentSet();
-    return {
+    const payload = {
       v: 1,
       studentId: state.studentId,
       voice: state.voice,
@@ -297,6 +460,15 @@
       currentPackId: cur ? (cur.packId || "") : "",
       sets: sets,
     };
+    if (JSON.stringify(payload).length > 45000) {
+      const order = Object.keys(sets).sort(function (a, b) {
+        return (sets[a].lastPlayedAt || 0) - (sets[b].lastPlayedAt || 0);
+      });
+      for (let i = 0; i < order.length && JSON.stringify(payload).length > 45000; i++) {
+        sets[order[i]].finalMiss = [];
+      }
+    }
+    return payload;
   }
 
   function applyRemote(raw) {
@@ -313,33 +485,35 @@
     if (!obj.v && obj.currentSetId) {
       state.sets = obj.sets;
       state.currentSetId = obj.currentSetId;
+      dedupeSetsByPackId();
       return;
     }
-    state.sets = {};
-    state.currentSetId = null;
     Object.keys(obj.sets).forEach(function (pid) {
-      const s = obj.sets[pid] || {};
-      const id = "set_" + pid;
-      state.sets[id] = {
-        id: id,
-        packId: pid,
-        title: s.title || pid,
-        words: s.words || [],
-        winsA: s.winsA || {},
-        winsB: s.winsB || {},
-        winsC: s.winsC || {},
-        intro: s.intro || {},
-        meetLock: Array.isArray(s.meetLock) ? s.meetLock.slice() : [],
-        tapmapKey: s.tapmapKey || "",
-        lastPlayedAt: s.lastPlayedAt || 0,
-        srsTrying: !!s.srsTrying,
-        srsForever: !!s.srsForever,
-        srsStage: s.srsStage || 0,
-        srsNextAt: s.srsNextAt || null,
-        createdAt: s.lastPlayedAt || Date.now(),
-      };
-      if (obj.currentPackId === pid) state.currentSetId = id;
+      const incoming = obj.sets[pid] || {};
+      let set = findSetByPackId(pid);
+      if (!set) {
+        const id = "set_" + pid;
+        set = {
+          id: id,
+          packId: pid,
+          title: incoming.title || pid,
+          words: incoming.words || [],
+          externalPackSrc: incoming.externalPackSrc || "",
+          winsA: {},
+          winsB: {},
+          winsC: {},
+          intro: {},
+          meetLock: [],
+          testPassed: {},
+          createdAt: incoming.lastPlayedAt || Date.now(),
+          lastPlayedAt: incoming.lastPlayedAt || 0,
+        };
+        state.sets[id] = set;
+      }
+      applySlimPackToSet(set, incoming);
+      if (obj.currentPackId === pid) state.currentSetId = set.id;
     });
+    dedupeSetsByPackId();
   }
 
   function mergeRemoteProgress(raw) {
@@ -364,6 +538,7 @@
     window.MRJ_WM_progress.load().then(function (res) {
       if (gen !== pullGen || currentStudentId() !== id) return;
       if (res && res.found && res.progress_json) mergeRemoteProgress(res.progress_json);
+      dedupeSetsByPackId();
       state.studentId = id;
       saveStateToStorage();
       noteSheetSync(!!(res && res.ok));
@@ -1131,6 +1306,8 @@
       createdAt: Date.now(),
       lastPlayedAt: Date.now(),
       intro: {},
+      meetLock: [],
+      testPassed: {},
       rememberForever: false,
       nextReviewAt: null,
     };
@@ -1189,15 +1366,27 @@
     return (await loadPackFile(DEMO_PACK_ID)) || DEMO_FALLBACK;
   }
 
+  function packJsonUrl(pid) {
+    try {
+      return new URL("packs/" + pid + ".json", window.location.href).href;
+    } catch (e) {
+      return "";
+    }
+  }
+
   async function openPack(pid) {
     const pack = await loadPackFile(pid);
     if (!pack || !pack.words.length) return;
+    const src = packJsonUrl(pid);
     const existing = Object.keys(state.sets)
       .map(function (k) { return state.sets[k]; })
-      .find(function (s) { return s.packId === pid; });
+      .find(function (s) {
+        return s && (s.packId === pid || (src && s.externalPackSrc === src));
+      });
     if (existing) {
       existing.title = pack.title;
       existing.words = pack.words;
+      if (src) existing.externalPackSrc = src;
       activateSet(existing);
       renderSetHome();
       showScreen("set");
@@ -1205,6 +1394,7 @@
       return;
     }
     const set = makeSet(pack.title, pack.words, pid);
+    if (src) set.externalPackSrc = src;
     activateSet(set);
     renderSetHome();
     showScreen("set");
@@ -2927,18 +3117,22 @@
   }
 
   window.MRJ_WORD_FACTORY_PACK = { words: [] };
+  if (window.WM_TEST_HOOK) {
+    window.WM_TEST = {
+      activateSet: activateSet,
+      currentSet: currentSet,
+      slimProgress: slimProgress,
+      applyRemote: applyRemote,
+      mergeRemoteProgress: mergeRemoteProgress,
+      dedupeSetsByPackId: dedupeSetsByPackId,
+      findSetByPackId: findSetByPackId,
+      packSlimFromSet: packSlimFromSet,
+    };
+  }
 
   function beginAfterAuth(event) {
     if (appStarted) return;
     appStarted = true;
-    const detail = event && event.detail ? event.detail : {};
-    const id = String(detail.id == null ? "" : detail.id).trim();
-    if (id) {
-      migrateLegacyStateIfSafe(id);
-      state = loadStateForStudent(id);
-      state.studentId = id;
-      state.displayName = id;
-    }
     state.accountName = "";
     state.accountPin = "";
     bind();
