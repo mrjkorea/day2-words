@@ -1,3 +1,4 @@
-/* Progress sheet. The student id comes from the shared MRJ sign-in. */
+/* Word Factory progress uses the shared MRJ sign-in web app (save_pack / load_pack → AppProgress). */
 window.MRJ_SCORE_SHEET = "https://docs.google.com/spreadsheets/d/1bpgekxlektvwpsef1PmIkxPiDuHrkVXFaAy-OmwqL5c";
-window.WM_PROGRESS_URL = "https://script.google.com/macros/s/AKfycby9onOz2FRwayy2mQq5E_xG7JMxig2DWoE5kQsUYJQ3MAZ0-4OsY70sQ--DmPeUULYZ/exec";
+window.WM_SIGNIN_URL =
+  "https://script.google.com/macros/s/AKfycbwtJTUO3gbcMrlAwsn1feWxyp7Rw2cxpfe1bOT9v2rxmQHa2Tlc6pFNWAjU6ZAdlD6kFQ/exec";

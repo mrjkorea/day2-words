@@ -126,9 +126,8 @@
     bag[song.id] = { last: result, best: best };
     try { localStorage.setItem(SCORE_KEY, JSON.stringify(bag)); } catch (e) {}
 
-    var url = window.WM_PROGRESS_URL;
     var prog = window.MRJ_WM_progress;
-    if (!url || !prog || typeof prog.save !== "function" || typeof prog.load !== "function") return;
+    if (!prog || typeof prog.save !== "function" || typeof prog.load !== "function") return;
 
     var id = String(authId || "").trim();
     if (!id) return;
@@ -137,39 +136,45 @@
     var base = slimFromState(st);
     base.studentId = id;
     base.songScores = {};
-    Object.keys(bag).forEach(function (id) {
-      base.songScores[id] = bag[id];
+    Object.keys(bag).forEach(function (sid) {
+      base.songScores[sid] = bag[sid];
     });
 
+    function mergeSongScores(obj) {
+      obj.songScores = obj.songScores || {};
+      Object.keys(base.songScores).forEach(function (sid) {
+        obj.songScores[sid] = base.songScores[sid];
+      });
+      return obj;
+    }
+
     function send(obj) {
-      obj.songScores = base.songScores;
+      mergeSongScores(obj);
       prog.save({
-        action: "save",
-        name: id,
-        pin: "",
         pack_id: "day2_song_" + song.id,
         pack_title: song.title || song.id,
         screen: "sing",
         word_id: "score",
         study_size: result.percent,
         locale: st.locale || "en",
-        student_id: id,
         progress_json: JSON.stringify(obj),
       }).catch(function () {});
     }
 
-    prog.load({ action: "load", name: id, pin: "", student_id: id }).then(function (res) {
+    prog.load().then(function (res) {
       var obj = base;
       if (res && res.found && res.progress_json) {
         try {
-          var remote = JSON.parse(res.progress_json);
-          if (remote && remote.sets && typeof remote.sets === "object") {
-            Object.keys(base.sets).forEach(function (pid) {
-              remote.sets[pid] = base.sets[pid];
-            });
-            if (base.studentId) remote.studentId = base.studentId;
+          var remote = typeof res.progress_json === "string"
+            ? JSON.parse(res.progress_json)
+            : res.progress_json;
+          var mergeFn = window.MRJ_WM_merge;
+          if (mergeFn && remote && remote.sets) {
+            obj = mergeFn(base, remote);
+          } else if (remote && typeof remote === "object") {
             obj = remote;
           }
+          mergeSongScores(obj);
         } catch (e) {}
       }
       send(obj);
