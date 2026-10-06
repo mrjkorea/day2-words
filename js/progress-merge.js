@@ -89,6 +89,27 @@
     return bAt >= aAt ? b : a;
   }
 
+  function mapHasPositive(m) {
+    m = m && typeof m === "object" ? m : {};
+    var keys = Object.keys(m);
+    for (var i = 0; i < keys.length; i++) {
+      if (Number(m[keys[i]]) > 0) return true;
+    }
+    return false;
+  }
+
+  function packProgressEmpty(p) {
+    if (!p || typeof p !== "object") return true;
+    if (mapHasPositive(p.winsA) || mapHasPositive(p.winsB) || mapHasPositive(p.winsC)) {
+      return false;
+    }
+    if (p.intro && Object.keys(p.intro).length) return false;
+    if (Array.isArray(p.meetLock) && p.meetLock.length) return false;
+    if (p.testPassed && Object.keys(p.testPassed).length) return false;
+    if (p.final || p.check) return false;
+    return true;
+  }
+
   function mergePack(a, b) {
     if (!a) return b || {};
     if (!b) return a || {};
@@ -128,7 +149,13 @@
     });
     var sets = {};
     keys.forEach(function (pid) {
-      sets[pid] = mergePack(localSets[pid], remoteSets[pid]);
+      var localP = localSets[pid];
+      var remoteP = remoteSets[pid];
+      if (packProgressEmpty(remoteP) && !packProgressEmpty(localP)) {
+        sets[pid] = mergePack(remoteP, localP);
+      } else {
+        sets[pid] = mergePack(localP, remoteP);
+      }
     });
     var localAt = 0;
     var remoteAt = 0;
@@ -139,6 +166,15 @@
     var preferRemote = remoteAt >= localAt;
     var base = preferRemote ? remote : local;
     var other = preferRemote ? local : remote;
+    var currentPackId = base.currentPackId || other.currentPackId || "";
+    if (packProgressEmpty(sets[currentPackId])) {
+      for (var pi = 0; pi < keys.length; pi++) {
+        if (!packProgressEmpty(sets[keys[pi]])) {
+          currentPackId = keys[pi];
+          break;
+        }
+      }
+    }
     return {
       v: 1,
       studentId: base.studentId || other.studentId || "",
@@ -146,10 +182,12 @@
       locale: base.locale || other.locale || "en",
       studySize: base.studySize || other.studySize || 10,
       testKind: base.testKind || other.testKind || "easy",
-      currentPackId: base.currentPackId || other.currentPackId || "",
+      currentPackId: currentPackId,
       sets: sets,
     };
   }
 
   root.MRJ_WM_merge = mergeProgress;
+  root.MRJ_WM_mergePack = mergePack;
+  root.MRJ_WM_packProgressEmpty = packProgressEmpty;
 })(typeof window !== "undefined" ? window : global);
