@@ -1,13 +1,16 @@
 (function (root) {
   "use strict";
 
-  var PROGRAM = "word-master";
+  var PROGRAM = root.DAY2_WORDS_PROGRAM || "day2-words";
+  var LEGACY_PROGRAM = root.DAY2_WORDS_LEGACY_PROGRAM || "word-master";
   var LS_KEY = "mrj.day2words.progress";
   var hydrated = false;
   var loadDone = false;
   var pendingSave = null;
   var retryTimer = null;
   var retryAttempt = 0;
+  var loadRetryTimer = null;
+  var loadRetryAttempt = 0;
   var lastSaveError = "";
 
   function authStudentId() {
@@ -37,6 +40,18 @@
     }
   }
 
+  function readLocalProgress() {
+    var blob = readLocal();
+    if (!blob) return null;
+    if (blob.progress_json && root.MRJ_WM_parseProgressJson) {
+      return root.MRJ_WM_parseProgressJson(blob.progress_json);
+    }
+    if (blob.sets && root.MRJ_WM_parseProgressJson) {
+      return root.MRJ_WM_parseProgressJson(blob);
+    }
+    return null;
+  }
+
   function writeLocal(payload) {
     try {
       localStorage.setItem(LS_KEY, JSON.stringify(payload || {}));
@@ -58,12 +73,40 @@
     });
   }
 
+  function loadResponseOk(res) {
+    if (!res || typeof res !== "object") return false;
+    if (res.ok === false) return false;
+    if (res.error) return false;
+    return true;
+  }
+
+  function progressFromLoadRes(res) {
+    if (!res || !res.progress_json) return null;
+    if (root.MRJ_WM_parseProgressJson) return root.MRJ_WM_parseProgressJson(res.progress_json);
+    try {
+      return JSON.parse(String(res.progress_json));
+    } catch (e) {
+      return null;
+    }
+  }
+
   function dispatchSaveStatus(ok, detail) {
     try {
       if (!root.dispatchEvent) return;
       root.dispatchEvent(
         new CustomEvent("mrj-wm-save-status", {
           detail: { ok: !!ok, error: detail && detail.error ? String(detail.error) : "" },
+        })
+      );
+    } catch (e) {}
+  }
+
+  function dispatchHydrated(res) {
+    try {
+      if (!root.dispatchEvent) return;
+      root.dispatchEvent(
+        new CustomEvent("mrj-wm-hydrated", {
+          detail: res && typeof res === "object" ? res : { ok: false },
         })
       );
     } catch (e) {}
@@ -113,7 +156,7 @@
       var itemId = [p.pack_id || "pack", p.scoreKind, p.pack_id || ""].join(":");
       if (root.MRJ_AUTH && typeof root.MRJ_AUTH.noteScore === "function") {
         return root.MRJ_AUTH.noteScore({
-          program: "day2-words",
+          program: PROGRAM,
           itemId: itemId,
           scoreValue: value,
           scoreMax: max,
@@ -124,7 +167,7 @@
       if (!window.MRJ_SCORES) return Promise.resolve(null);
       return window.MRJ_SCORES.post({
         student: student,
-        program: "day2-words",
+        program: PROGRAM,
         appName: "MRJ Day 2 Words",
         source: "day2-words",
         bookTitle: p.pack_title || "",
@@ -145,6 +188,13 @@
     }
   }
 
+  function clearLoadRetryTimer() {
+    if (loadRetryTimer) {
+      clearTimeout(loadRetryTimer);
+      loadRetryTimer = null;
+    }
+  }
+
   function scheduleRetry(body) {
     clearRetryTimer();
     retryAttempt += 1;
@@ -155,6 +205,93 @@
     }, delay);
   }
 
+  function scheduleLoadRetry() {
+    if (loadRetryTimer) return;
+    loadRetryAttempt += 1;
+    var delay = Math.min(30000, 2000 * Math.pow(2, Math.min(loadRetryAttempt, 4)));
+    loadRetryTimer = setTimeout(function () {
+      loadRetryTimer = null;
+      load();
+    }, delay);
+  }
+
+  function loadProgram(program) {
+    var id = authStudentId();
+    var token = authToken();
+    return postRemote({
+      action: "load_pack",
+      id: id,
+      token: token,
+      program: program,
+    });
+  }
+
+  function finishHydration(res, migrationBody) {
+    loadDone = true;
+    hydrated = true;
+    loadRetryAttempt = 0;
+    clearLoadRetryTimer();
+
+    var out = res && typeof res === "object" ? res : { ok: true };
+    if (migrationBody && migrationBody.progress) {
+      out = Object.assign({}, out, {
+        ok: true,
+        found: true,
+        migrated: !!migrationBody.migrated,
+        progress_json: JSON.stringify(migrationBody.progress),
+      });
+    }
+
+    dispatchHydrated(out);
+
+    if (pendingSave && pendingSave.progress_json) {
+      var snap = pendingSave;
+      pendingSave = null;
+      flushSave(snap);
+    } else if (
+      migrationBody &&
+      migrationBody.migrated &&
+      migrationBody.progress &&
+      root.MRJ_WM_progressHasPackData &&
+      root.MRJ_WM_progressHasPackData(migrationBody.progress)
+    ) {
+      flushSave({ progress_json: JSON.stringify(migrationBody.progress) });
+    }
+
+    return out;
+  }
+
+  function runMigrationIfNeeded(res) {
+    var serverProgress = progressFromLoadRes(res);
+    var hasData = root.MRJ_WM_progressHasPackData
+      ? root.MRJ_WM_progressHasPackData(serverProgress)
+      : false;
+    if (hasData) {
+      return Promise.resolve({ res: res, migration: null });
+    }
+
+    var packIds = root.DAY2_WORDS_PACK_IDS || [];
+    var buildFn = root.MRJ_WM_buildMigratedDay2Progress;
+    var mergeFn = root.MRJ_WM_merge;
+    if (!buildFn || !mergeFn) {
+      return Promise.resolve({ res: res, migration: null });
+    }
+
+    return loadProgram(LEGACY_PROGRAM)
+      .then(function (legacyRes) {
+        var legacyRaw = null;
+        if (loadResponseOk(legacyRes) && legacyRes.progress_json) {
+          legacyRaw = legacyRes.progress_json;
+        }
+        var built = buildFn(serverProgress, legacyRaw, readLocalProgress(), packIds, mergeFn);
+        return { res: res, migration: built };
+      })
+      .catch(function () {
+        var built = buildFn(serverProgress, null, readLocalProgress(), packIds, mergeFn);
+        return { res: res, migration: built };
+      });
+  }
+
   function flushSave(body) {
     if (!body) return Promise.resolve(null);
     var id = authStudentId();
@@ -163,7 +300,7 @@
       dispatchSaveStatus(false, { error: "no_auth" });
       return Promise.resolve({ ok: false, error: "no_auth" });
     }
-    if (!loadDone) {
+    if (!loadDone || !hydrated) {
       pendingSave = body;
       return Promise.resolve({ ok: false, error: "not_loaded" });
     }
@@ -215,26 +352,23 @@
     }
     hydrated = false;
     loadDone = false;
-    return postRemote({
-      action: "load_pack",
-      id: id,
-      token: token,
-      program: PROGRAM,
-    }).then(function (res) {
-      loadDone = true;
-      hydrated = true;
-      if (pendingSave && pendingSave.progress_json) {
-        var snap = pendingSave;
-        pendingSave = null;
-        flushSave(snap);
-      }
-      return res;
-    }).catch(function () {
-      loadDone = true;
-      hydrated = false;
-      dispatchSaveStatus(false, { error: "load_failed" });
-      return { ok: false, error: "load_failed" };
-    });
+
+    return loadProgram(PROGRAM)
+      .then(function (res) {
+        if (!loadResponseOk(res)) {
+          scheduleLoadRetry();
+          dispatchHydrated({ ok: false, error: (res && res.error) || "load_failed" });
+          return res || { ok: false, error: "load_failed" };
+        }
+        return runMigrationIfNeeded(res).then(function (pair) {
+          return finishHydration(pair.res, pair.migration);
+        });
+      })
+      .catch(function () {
+        scheduleLoadRetry();
+        dispatchHydrated({ ok: false, error: "load_failed" });
+        return { ok: false, error: "load_failed" };
+      });
   }
 
   function resetSession() {
@@ -242,12 +376,14 @@
     loadDone = false;
     pendingSave = null;
     retryAttempt = 0;
+    loadRetryAttempt = 0;
     lastSaveError = "";
     clearRetryTimer();
+    clearLoadRetryTimer();
   }
 
   function isReadyToSave() {
-    return loadDone && !!authStudentId() && !!authToken();
+    return hydrated && loadDone && !!authStudentId() && !!authToken();
   }
 
   root.MRJ_WM_progress = {
@@ -258,5 +394,6 @@
     merge: root.MRJ_WM_merge,
     countKnownInProgress: countKnownInProgress,
     lastSaveError: function () { return lastSaveError; },
+    programKey: function () { return PROGRAM; },
   };
 })(window);

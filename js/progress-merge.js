@@ -187,7 +187,86 @@
     };
   }
 
+  function parseProgressJson(raw) {
+    if (!raw) return null;
+    if (typeof raw === "object") return raw;
+    try {
+      var parsed = JSON.parse(String(raw));
+      return parsed && typeof parsed === "object" ? parsed : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function progressHasPackData(progress) {
+    var prog = parseProgressJson(progress);
+    if (!prog || !prog.sets || typeof prog.sets !== "object") return false;
+    var keys = Object.keys(prog.sets);
+    for (var i = 0; i < keys.length; i++) {
+      if (!packProgressEmpty(prog.sets[keys[i]])) return true;
+    }
+    return false;
+  }
+
+  function filterProgressToPackIds(progress, packIds) {
+    var prog = parseProgressJson(progress);
+    if (!prog) return { v: 1, sets: {} };
+    var allow = null;
+    if (Array.isArray(packIds) && packIds.length) {
+      allow = {};
+      packIds.forEach(function (pid) {
+        if (pid) allow[String(pid)] = true;
+      });
+    }
+    var sets = prog.sets && typeof prog.sets === "object" ? prog.sets : {};
+    var outSets = {};
+    Object.keys(sets).forEach(function (pid) {
+      if (allow && !allow[pid]) return;
+      outSets[pid] = sets[pid];
+    });
+    return {
+      v: prog.v || 1,
+      studentId: prog.studentId || "",
+      voice: prog.voice || "us_m",
+      locale: prog.locale || "en",
+      studySize: prog.studySize || 10,
+      testKind: prog.testKind || "easy",
+      currentPackId: prog.currentPackId || "",
+      sets: outSets,
+    };
+  }
+
+  function buildMigratedDay2Progress(serverDay2, legacyDay2, localDay2, packIds, mergeFn) {
+    var merge = mergeFn || mergeProgress;
+    var ids = packIds || root.DAY2_WORDS_PACK_IDS || [];
+    var server = filterProgressToPackIds(serverDay2, ids);
+    if (progressHasPackData(server)) {
+      return { progress: server, migrated: false };
+    }
+    var legacy = filterProgressToPackIds(legacyDay2, ids);
+    var local = filterProgressToPackIds(localDay2, ids);
+    var merged = merge(local, legacy);
+    merged = merge(merged, server);
+    return { progress: merged, migrated: true };
+  }
+
   root.MRJ_WM_merge = mergeProgress;
   root.MRJ_WM_mergePack = mergePack;
   root.MRJ_WM_packProgressEmpty = packProgressEmpty;
+  root.MRJ_WM_parseProgressJson = parseProgressJson;
+  root.MRJ_WM_progressHasPackData = progressHasPackData;
+  root.MRJ_WM_filterProgressToPackIds = filterProgressToPackIds;
+  root.MRJ_WM_buildMigratedDay2Progress = buildMigratedDay2Progress;
+
+  if (typeof module !== "undefined" && module.exports) {
+    module.exports = {
+      mergeProgress: mergeProgress,
+      mergePack: mergePack,
+      packProgressEmpty: packProgressEmpty,
+      parseProgressJson: parseProgressJson,
+      progressHasPackData: progressHasPackData,
+      filterProgressToPackIds: filterProgressToPackIds,
+      buildMigratedDay2Progress: buildMigratedDay2Progress,
+    };
+  }
 })(typeof window !== "undefined" ? window : global);
