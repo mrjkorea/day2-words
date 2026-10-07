@@ -319,8 +319,26 @@
     if (currentScreen === "home") renderHome();
   }
 
+  function applyHydratedProgress(res) {
+    const id = currentStudentId();
+    if (!id) return;
+    if (res && res.ok && res.progress_json) {
+      mergeRemoteProgress(res.progress_json);
+      dedupeSetsByPackId();
+      state.studentId = id;
+      saveStateToStorage();
+    }
+    noteSheetSync(!!(res && res.ok));
+    paintSaveWarn(!(res && res.ok));
+    if (currentScreen === "home") renderHome();
+    if (currentScreen === "set") renderSetHome();
+  }
+
   if (window.addEventListener) {
     window.addEventListener("mrj-auth-ready", onAuthReady);
+    window.addEventListener("mrj-wm-hydrated", function (ev) {
+      applyHydratedProgress(ev && ev.detail ? ev.detail : null);
+    });
     window.addEventListener("mrj-wm-save-status", function (ev) {
       const ok = !!(ev && ev.detail && ev.detail.ok);
       noteSheetSync(ok);
@@ -450,7 +468,7 @@
       }
     });
     const cur = currentSet();
-    const payload = {
+    return {
       v: 1,
       studentId: state.studentId,
       voice: state.voice,
@@ -460,15 +478,6 @@
       currentPackId: cur ? (cur.packId || "") : "",
       sets: sets,
     };
-    if (JSON.stringify(payload).length > 45000) {
-      const order = Object.keys(sets).sort(function (a, b) {
-        return (sets[a].lastPlayedAt || 0) - (sets[b].lastPlayedAt || 0);
-      });
-      for (let i = 0; i < order.length && JSON.stringify(payload).length > 45000; i++) {
-        sets[order[i]].finalMiss = [];
-      }
-    }
-    return payload;
   }
 
   function applyRemote(raw) {
@@ -537,14 +546,10 @@
     const gen = ++pullGen;
     window.MRJ_WM_progress.load().then(function (res) {
       if (gen !== pullGen || currentStudentId() !== id) return;
-      if (res && res.found && res.progress_json) mergeRemoteProgress(res.progress_json);
-      dedupeSetsByPackId();
-      state.studentId = id;
-      saveStateToStorage();
-      noteSheetSync(!!(res && res.ok));
-      paintSaveWarn(!(res && res.ok));
-      if (currentScreen === "home") renderHome();
-      if (currentScreen === "set") renderSetHome();
+      if (!(res && res.ok)) {
+        noteSheetSync(false);
+        paintSaveWarn(true);
+      }
     }).catch(function () {
       if (gen !== pullGen) return;
       noteSheetSync(false);
