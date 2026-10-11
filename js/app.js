@@ -572,6 +572,22 @@
     };
   }
 
+  function logActivityResult(kind, score, total, meta) {
+    const set = currentSet();
+    const prog = window.MRJ_WM_progress;
+    if (!set || !prog || typeof prog.logResult !== "function") return;
+    const packId = set.packId || set.id || "";
+    if (!packId) return;
+    prog.logResult({
+      packId: packId,
+      packTitle: set.title || "",
+      kind: kind,
+      score: score,
+      total: total,
+      meta: meta || {},
+    });
+  }
+
   function persist() {
     saveStateToStorage();
     if (progressTimer) clearTimeout(progressTimer);
@@ -2534,10 +2550,12 @@
     const total = quiz.items.length || 1;
     const pct = Math.round((100 * quiz.score) / total);
     const misses = quiz.mistakes || [];
+    const testKind = quiz.kind === "hard" ? "test_hard" : "test_easy";
     $("#test-score-title").textContent = pct + "%";
     if (pct < 80) {
     $("#forever-box").hidden = true;
       $("#test-score-line").textContent = t("need_80", { pct: pct });
+      logActivityResult(testKind, quiz.score, total, { misses: misses, passed: false });
       const set = currentSet();
       if (set) {
         const empty = Algo.emptyWins();
@@ -2553,6 +2571,7 @@
       ? misses.map(function (m) { return m.en + " = " + meaning(m); }).join(" · ")
       : t("no_mistakes");
     $("#test-score-line").textContent = quiz.score + " / " + total + "  ·  " + missLine;
+    logActivityResult(testKind, quiz.score, total, { misses: misses, passed: true });
     const box = $("#forever-box");
     const chk = $("#chk-forever");
     if (box) {
@@ -2645,6 +2664,8 @@
       updateMatchHud();
       if (matchGame.pairs >= matchGame.need) {
         clearInterval(matchGame.timer);
+        const seconds = Math.floor((Date.now() - matchGame.started) / 1000);
+        logActivityResult("match", matchGame.pairs, matchGame.need, { seconds: seconds });
         $("#match-win").hidden = false;
         burst(t("match_win"));
       }
@@ -2713,7 +2734,9 @@
   function finishListen() {
     $("#listen-choices").hidden = true;
     $("#listen-score").hidden = false;
-    $("#listen-score-line").textContent = t("score_line", { score: listenGame.score, total: listenGame.items.length });
+    const total = listenGame.items.length || 1;
+    $("#listen-score-line").textContent = t("score_line", { score: listenGame.score, total: total });
+    logActivityResult("listen", listenGame.score, total, {});
   }
 
   function quizItemsFromSet() {

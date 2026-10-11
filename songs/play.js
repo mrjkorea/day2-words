@@ -583,6 +583,17 @@
     $("score-detail").textContent = hitCount + " / " + total + " words  ·  " + (stars ? "잘했어요!" : "다시 해 봐요!");
     $("btn-again").textContent = "Sing again";
     setPanels("score");
+    var prog = window.MRJ_WM_progress;
+    if (prog && typeof prog.logResult === "function") {
+      prog.logResult({
+        packId: "day2_song_" + song.id,
+        packTitle: song.title || song.id,
+        kind: "song",
+        score: hitCount,
+        total: total,
+        meta: { percent: percent, stars: stars },
+      });
+    }
     var result = {
       percent: percent,
       stars: stars,
