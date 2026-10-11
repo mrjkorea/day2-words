@@ -145,40 +145,63 @@
     return { known: known, total: total };
   }
 
-  function maybePostScore(payload) {
-    var p = payload || {};
-    if (p.scoreKind === "known" || p.scoreKind === "checkup") {
-      var value = Number(p.scoreValue);
-      var max = Number(p.scoreMax);
-      if (!isFinite(value) || !isFinite(max) || !(max > 0)) return Promise.resolve(null);
-      var student = authStudentId();
-      if (!student) return Promise.resolve(null);
-      var itemId = [p.pack_id || "pack", p.scoreKind, p.pack_id || ""].join(":");
-      if (root.MRJ_AUTH && typeof root.MRJ_AUTH.noteScore === "function") {
-        return root.MRJ_AUTH.noteScore({
+  function logResult(opts) {
+    var o = opts || {};
+    var student = authStudentId();
+    if (!student) return Promise.resolve(null);
+    var packId = String(o.packId || "").trim();
+    var kind = String(o.kind || "").trim();
+    if (!packId || !kind) return Promise.resolve(null);
+    var scoreValue = Number(o.score);
+    var scoreMax = Number(o.total);
+    if (!isFinite(scoreValue) || !isFinite(scoreMax) || !(scoreMax > 0)) {
+      return Promise.resolve(null);
+    }
+    var scorePct = Math.round((100 * scoreValue) / scoreMax);
+    var itemId = packId + ":" + kind;
+    var localDateStr =
+      root.MRJ_SCORES && typeof root.MRJ_SCORES.localDate === "function"
+        ? root.MRJ_SCORES.localDate()
+        : "";
+    var packTitle = String(o.packTitle || "");
+    var meta = o.meta && typeof o.meta === "object" ? o.meta : {};
+
+    var noteP = Promise.resolve(null);
+    if (root.MRJ_AUTH && typeof root.MRJ_AUTH.noteScore === "function") {
+      noteP = root.MRJ_AUTH
+        .noteScore({
           program: PROGRAM,
           itemId: itemId,
-          scoreValue: value,
-          scoreMax: max,
-        }).catch(function () {
+          scoreValue: scoreValue,
+          scoreMax: scoreMax,
+          scorePct: scorePct,
+          localDate: localDateStr,
+        })
+        .catch(function () {
           return null;
         });
-      }
-      if (!window.MRJ_SCORES) return Promise.resolve(null);
-      return window.MRJ_SCORES.post({
-        student: student,
+    }
+
+    var postP = Promise.resolve(null);
+    if (root.MRJ_SCORES && typeof root.MRJ_SCORES.post === "function") {
+      postP = root.MRJ_SCORES.post({
         program: PROGRAM,
         appName: "MRJ Day 2 Words",
         source: "day2-words",
-        bookTitle: p.pack_title || "",
-        unitTitle: p.pack_id || "",
+        bookTitle: packTitle,
+        unitTitle: packId,
         itemId: itemId,
-        itemType: p.scoreKind === "checkup" ? "checkup" : "word_study",
-        scoreValue: value,
-        scoreMax: max,
+        itemType: kind,
+        scoreValue: scoreValue,
+        scoreMax: scoreMax,
+        scorePct: scorePct,
+        metadata: meta,
+      }).catch(function () {
+        return null;
       });
     }
-    return Promise.resolve(null);
+
+    return Promise.all([noteP, postP]);
   }
 
   function clearRetryTimer() {
@@ -337,9 +360,6 @@
     if (!id) return Promise.resolve(null);
     var body = payload || {};
     if (!body.progress_json) return Promise.resolve(null);
-    try {
-      maybePostScore(body);
-    } catch (e) {}
     pendingSave = body;
     return flushSave(body);
   }
@@ -388,6 +408,7 @@
 
   root.MRJ_WM_progress = {
     save: save,
+    logResult: logResult,
     load: load,
     resetSession: resetSession,
     isReadyToSave: isReadyToSave,
