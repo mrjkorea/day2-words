@@ -79,6 +79,10 @@ function assertCacheBust() {
       const m = html.match(re);
       assert(m && m[1] === BUILD, file + " " + asset + " ?v= must match build " + BUILD);
     });
+    if (file === "songs/play.html") {
+      const pm = html.match(/play\.js\?v=([^"']+)/);
+      assert(pm && pm[1] === BUILD, "songs/play.html play.js ?v= must match build " + BUILD);
+    }
   });
   const indexHtml = fs.readFileSync("index.html", "utf8");
   const vers = indexHtml.match(/\?v=([^"']+)/g) || [];
