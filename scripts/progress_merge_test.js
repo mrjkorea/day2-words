@@ -79,5 +79,44 @@ if (!guarded.sets.basic_a_u1 || guarded.sets.basic_a_u1.testPassed.w1 !== 80) {
   process.exit(1);
 }
 
+const freshPackPick = merge(
+  {
+    v: 1,
+    currentPackId: "basic_a_u2",
+    sets: {
+      basic_a_u1: {
+        winsA: { one: 2 },
+        intro: { one: true },
+        meetLock: ["one"],
+        lastPlayedAt: 5000,
+      },
+      basic_a_u2: {
+        winsA: {},
+        winsB: {},
+        winsC: {},
+        intro: {},
+        meetLock: [],
+        lastPlayedAt: 9000,
+      },
+    },
+  },
+  {
+    v: 1,
+    currentPackId: "basic_a_u1",
+    sets: {
+      basic_a_u1: {
+        winsA: { one: 2 },
+        intro: { one: true },
+        meetLock: ["one"],
+        lastPlayedAt: 5000,
+      },
+    },
+  }
+);
+if (freshPackPick.currentPackId !== "basic_a_u2") {
+  console.error("fresh pack open should stay on basic_a_u2", freshPackPick.currentPackId);
+  process.exit(1);
+}
+
 console.log("PROGRESS_MERGE_OK");
 process.exit(0);
