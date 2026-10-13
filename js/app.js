@@ -962,9 +962,12 @@
     requestAnimationFrame(tick);
   }
 
+  function packIdForSet(set) {
+    return (set && set.packId) || DEMO_PACK_ID;
+  }
+
   function currentPackId() {
-    const set = currentSet();
-    return (set && (set.packId || set.id)) || DEMO_PACK_ID;
+    return packIdForSet(currentSet());
   }
 
   function packBase() {
@@ -2758,7 +2761,7 @@
     const words = playWords(set).filter(function (w) { return w && w.en && rockLabel(w); });
     const v = state.voice || "us_m";
     return {
-      pack_id: set.id || "nouns100",
+      pack_id: packIdForSet(set),
       title: set.title,
       module_id: "sound-invaders",
       activity_id: "hear_shoot",
@@ -2811,7 +2814,7 @@
         };
       }).filter(function (it) { return it.word; });
       pack = {
-        pack_id: set.id || "nouns100",
+        pack_id: packIdForSet(set),
         title: set.title,
         seconds_per_letter: 5,
         items: spoken,
@@ -2822,7 +2825,7 @@
       pack = shooterPack(set);
     } else {
       pack = {
-        pack_id: set.id || "nouns100",
+        pack_id: packIdForSet(set),
         title: set.title,
         module_id: kind,
         activity_id: kind,
@@ -3155,6 +3158,8 @@
       dedupeSetsByPackId: dedupeSetsByPackId,
       findSetByPackId: findSetByPackId,
       packSlimFromSet: packSlimFromSet,
+      shooterPack: shooterPack,
+      packIdForSet: packIdForSet,
     };
   }
 

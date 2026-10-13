@@ -2,6 +2,6 @@
   "name": "day2-words",
   "private": true,
   "scripts": {
-    "test": "node scripts/progress_hydration_test.js && node scripts/progress_migration_test.js && node scripts/progress_merge_test.js && node scripts/packsrc_refresh_test.js && node scripts/dictation_audio_stop_test.js && node scripts/score_log_test.js"
+    "test": "node scripts/progress_hydration_test.js && node scripts/progress_migration_test.js && node scripts/progress_merge_test.js && node scripts/pack_switch_regression_test.js && node scripts/game_pack_id_test.js && node scripts/packsrc_refresh_test.js && node scripts/dictation_audio_stop_test.js && node scripts/score_log_test.js"
   }
 }
