@@ -381,3 +381,5 @@ img { max-width: 100%; }
 .qc img { width: 100%; aspect-ratio: 1; object-fit: contain; display: block; }
 .qc.right { background: #b6f075; }
 .qc.wrong { background: #ff9c9c; }
+.dock.solo .line-now { font-size: clamp(54px, 15vw, 96px); line-height: 1.12; }
+.dock.solo .band { padding: 22px 10px 26px; }

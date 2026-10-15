@@ -319,7 +319,7 @@
     STAGES.forEach(function (st, i) {
       var b = $(STAGE_BTN[st]);
       var open = isUnlocked(st);
-      b.disabled = !open;
+      b.disabled = !open || (st === "quiz" && isDone(st));
       b.classList.toggle("done", isDone(st));
       var sm = b.querySelector("small");
       if (!sm.dataset.orig) sm.dataset.orig = sm.textContent;
@@ -331,7 +331,7 @@
     var el = $("ready-best");
     if (q && typeof q.score === "number") {
       el.hidden = false;
-      el.textContent = "Quiz best: " + q.score + " / " + q.total;
+      el.textContent = "Quiz: " + q.score + " / " + q.total + (q.passed === false ? " · Try again with your teacher" : "");
     } else el.hidden = true;
   }
 
@@ -375,6 +375,9 @@
   window.__songDebug = {
     get mode() { return mode; },
     get line() { return lineIdx; },
+    get pos() { return uPos; },
+    get uniqCount() { return uniq.length; },
+    get uniqTexts() { return uniq.map(function (i) { return song.lines[i].text; }); },
     get rep() { return practiceRep; },
     get muted() { return audio.muted; },
     get slice() { return slice ? { start: slice.start, end: slice.end, armed: slice.armed, muted: slice.muted } : null; },
@@ -503,6 +506,7 @@
 
   function stageDoneScreen(stage, big, msg, detail) {
     mode = "done";
+    $("panel-play").classList.remove("solo");
     stopGap(); stopSlice(); pauseAudio();
     setPanels("score");
     $("score-stars").textContent = "★★★";
@@ -538,11 +542,25 @@
     stageDoneScreen("listen", "Done!", "You listened to the song!", "듣기 끝! Now tap the words.");
   }
 
+  var uniq = [];
+  function buildUniq() {
+    var seen = {};
+    uniq = [];
+    song.lines.forEach(function (l, i) {
+      var k = String(l.text || "").toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
+      if (seen[k]) return;
+      seen[k] = 1;
+      uniq.push(i);
+    });
+  }
+  var uPos = 0;
   /* ---------- Stage 2: Tap ---------- */
   var tapped = {};
   var tapBusy = false;
-  function startTapLine(idx) {
-    if (idx >= song.lines.length) {
+  function startTapLine(pos) {
+    uPos = pos;
+    var idx = uniq[pos];
+    if (pos >= uniq.length) {
       markDone("tap");
       stageDoneScreen("tap", "Done!", "You tapped every word!", "누르기 끝! Now practice singing.");
       return;
@@ -558,7 +576,7 @@
     $("btn-next").hidden = true;
     $("tap-hint").hidden = false;
     $("tap-hint").textContent = "Tap each word!";
-    $("rep-label").textContent = "Line " + (idx + 1) + " / " + song.lines.length;
+    $("rep-label").textContent = "Line " + (pos + 1) + " / " + uniq.length;
     renderLine(idx);
     resetPaint();
     showBackdrop(pictureFor(song.lines[idx], song.lines[idx].start), idx, idx);
@@ -580,7 +598,7 @@
         gapTimer = 0;
         dlog({ ev: "line", line: li });
         playSlice(line.start - 0.05, practiceSliceEnd(li), false, function () {
-          gapTimer = setTimeout(function () { gapTimer = 0; startTapLine(li + 1); }, 500);
+          gapTimer = setTimeout(function () { gapTimer = 0; startTapLine(uPos + 1); }, 500);
         });
       }, 300);
     });
@@ -596,9 +614,11 @@
     if (end < line.end) end = line.end + 0.02;
     return end;
   }
-  function startPracticeLine(idx) {
-    if (idx < 0) idx = 0;
-    if (idx >= song.lines.length) {
+  function startPracticeLine(pos) {
+    if (pos < 0) pos = 0;
+    uPos = pos;
+    var idx = uniq[pos];
+    if (pos >= uniq.length) {
       markDone("practice");
       stageDoneScreen("practice", "Done!", "You practiced every line!", "연습 끝! Try the mini quiz.");
       return;
@@ -612,7 +632,7 @@
     $("btn-prev").hidden = false;
     $("btn-next").hidden = false;
     $("btn-next").disabled = true;
-    $("btn-prev").disabled = idx === 0;
+    $("btn-prev").disabled = pos === 0;
     $("tap-hint").hidden = false;
     renderLine(idx);
     showBackdrop(pictureFor(song.lines[idx], song.lines[idx].start), idx, idx);
@@ -624,6 +644,7 @@
     var line = song.lines[li];
     var solo = rep === 2;
     $("rep-label").textContent = (rep + 1) + " / 3";
+    $("panel-play").classList.toggle("solo", solo);
     $("tap-hint").textContent = solo ? "Your turn! Sing alone 🎤" : "Listen and sing";
     resetPaint();
     dlog({ ev: "practice", line: li, rep: rep, muted: solo });
@@ -633,6 +654,7 @@
         gapTimer = setTimeout(function () { gapTimer = 0; practicePlay(rep + 1); }, 600);
       } else {
         practiceRep = 3;
+        $("panel-play").classList.remove("solo");
         $("rep-label").textContent = "3 / 3 ✓";
         $("tap-hint").textContent = "Great! Tap Next";
         $("btn-next").disabled = false;
@@ -650,7 +672,7 @@
     return a;
   }
   function beginQuiz() {
-    if (!isUnlocked("quiz")) return;
+    if (!isUnlocked("quiz") || isDone("quiz")) return;
     quizIdx = 0;
     quizScore = 0;
     showQuiz();
@@ -716,22 +738,36 @@
   }
   function finishQuiz() {
     var total = (song.quiz || []).length;
+    var PASS = 3;
     var percent = total ? Math.round((100 * quizScore) / total) : 0;
-    var stars = quizScore >= total ? 3 : quizScore >= total - 1 ? 2 : quizScore > 0 ? 1 : 0;
-    var prev = songStages().quiz;
-    var res = { score: quizScore, total: total, percent: percent, stars: stars, at: Date.now() };
-    if (prev && prev.score > quizScore) { prev.lastScore = quizScore; res = prev; }
-    markDone("quiz", res);
+    var stars = quizScore >= total ? 3 : quizScore >= total - 1 ? 2 : quizScore >= PASS ? 1 : 0;
+    var all = readStages();
+    var mine = all[song.id] || {};
+    var attempts = (mine.quizAttempts || 0) + 1;
+    mine.quizAttempts = attempts;
+    mine.quizScores = (mine.quizScores || []).concat([quizScore]);
+    all[song.id] = mine;
+    try { localStorage.setItem(STAGE_KEY, JSON.stringify(all)); } catch (e) {}
+    var passed = quizScore >= PASS;
     var prog = window.MRJ_WM_progress;
     if (prog && typeof prog.logResult === "function") {
       try {
-        prog.logResult({ packId: "day2_song_" + song.id, packTitle: song.title || song.id, kind: "song_quiz", score: quizScore, total: total, meta: { percent: percent, stars: stars } });
+        prog.logResult({ packId: "day2_song_" + song.id, packTitle: song.title || song.id, kind: "song_quiz", score: quizScore, total: total, meta: { percent: percent, stars: stars, attempt: attempts, passed: passed } });
       } catch (e) {}
     }
-    stageDoneScreen("quiz", quizScore + " / " + total, stars >= 3 ? "Wow! Super star!" : stars === 2 ? "Great job!" : "Good try!", "퀴즈 끝! " + percent + "%");
+    var res = { score: quizScore, total: total, percent: percent, stars: stars, attempts: attempts, passed: passed, at: Date.now() };
+    var detail = "퀴즈 " + percent + "%  ·  Try " + attempts;
+    if (passed || attempts >= 2) {
+      markDone("quiz", res);
+      stageDoneScreen("quiz", quizScore + " / " + total, passed ? (stars >= 3 ? "Wow! Super star!" : "Great job! You passed!") : "Try again with your teacher", detail);
+      $("btn-again").hidden = true;
+    } else {
+      try { saveScore({ percent: percent, stars: stars, screen: "quiz", wordId: "quiz_try1", at: Date.now() }); } catch (e) {}
+      stageDoneScreen("quiz", quizScore + " / " + total, "Almost! Try one more time.", detail + " · Need 3 / 5");
+      $("btn-again").hidden = false;
+      $("btn-again").textContent = "Try quiz again";
+    }
     $("score-stars").textContent = starString(stars);
-    $("btn-again").hidden = false;
-    $("btn-again").textContent = "Try quiz again";
   }
 
   /* ---------- loop + wiring ---------- */
@@ -768,12 +804,12 @@
   $("btn-quiz").addEventListener("click", beginQuiz);
   $("btn-pause").addEventListener("click", togglePause);
   $("btn-prev").addEventListener("click", function () {
-    if (mode !== "practice" || lineIdx === 0) return;
-    startPracticeLine(lineIdx - 1);
+    if (mode !== "practice" || uPos === 0) return;
+    startPracticeLine(uPos - 1);
   });
   $("btn-next").addEventListener("click", function () {
     if (mode !== "practice" || practiceRep < 3) return;
-    startPracticeLine(lineIdx + 1);
+    startPracticeLine(uPos + 1);
   });
   $("btn-again").addEventListener("click", function () {
     var nx = nextStage() || "quiz";
@@ -806,6 +842,7 @@
       .then(function (data) {
         if (!data || !data.lines || !data.lines.length) throw new Error("empty");
         song = data;
+        buildUniq();
         document.title = (song.title || "Song") + " · Songs";
         $("song-title").textContent = song.title || "Song";
         $("ready-title").textContent = song.title || "Song";
