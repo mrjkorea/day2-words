@@ -35,3 +35,4 @@ section.book h2::before { content: "📚 "; }
 .unit small::before { content: "🔤 "; }
 .foot { font-size: .95rem !important; }
 @media (max-width: 700px) { .units { grid-template-columns: 1fr 1fr !important; } }
+/* no brand marks on preview */ .hero .logo { display: none !important; }
