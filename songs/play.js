@@ -283,6 +283,27 @@
   }
 
   /* ---------- stages (2026-10-16) ---------- */
+  /* ===== TEST MODE (?test=1): unlock all stages + Skip button. Remove this block + "TEST_MODE" uses to drop it. ===== */
+  var TEST_MODE = new URLSearchParams(location.search).get("test") === "1";
+  function testSkip() {
+    if (mode === "listen") { finishListen(); return; }
+    try { wordAudio.pause(); } catch (e) {}
+    stopGap(); stopSlice(); pauseAudio();
+    if (mode === "tap") startTapLine(uPos + 1);
+    else if (mode === "practice") startPracticeLine(uPos + 1);
+    else if (mode === "quiz") { quizIdx += 1; showQuiz(); }
+  }
+  if (TEST_MODE) {
+    var sk = document.createElement("button");
+    sk.type = "button";
+    sk.id = "btn-skip";
+    sk.className = "text-btn";
+    sk.textContent = "Skip (test)";
+    sk.style.cssText = "position:fixed;right:10px;top:64px;z-index:9;background:#d00;";
+    sk.addEventListener("click", testSkip);
+    document.body.appendChild(sk);
+  }
+  /* ===== end TEST MODE ===== */
   var STAGE_KEY = "mrj.day2words.songStages";
   var STAGES = ["listen", "tap", "practice", "quiz"];
   var STAGE_NAME = { listen: "Listen", tap: "Tap", practice: "Practice", quiz: "Mini Quiz" };
@@ -297,6 +318,7 @@
   function songStages() { return (song && readStages()[song.id]) || {}; }
   function isDone(stage) { return !!songStages()[stage]; }
   function isUnlocked(stage) {
+    if (TEST_MODE) return true;
     var i = STAGES.indexOf(stage);
     return i <= 0 || isDone(STAGES[i - 1]);
   }
@@ -319,7 +341,7 @@
     STAGES.forEach(function (st, i) {
       var b = $(STAGE_BTN[st]);
       var open = isUnlocked(st);
-      b.disabled = !open || (st === "quiz" && isDone(st));
+      b.disabled = !open || (!TEST_MODE && st === "quiz" && isDone(st));
       b.classList.toggle("done", isDone(st));
       var sm = b.querySelector("small");
       if (!sm.dataset.orig) sm.dataset.orig = sm.textContent;
@@ -592,17 +614,45 @@
     resetPaint();
     showBackdrop(pictureFor(song.lines[idx], song.lines[idx].start), idx, idx);
   }
+  /* Miss Harper word files: songs/words/<word>.mp3 (shared by all songs) */
+  var wordAudio = new Audio();
+  wordAudio.preload = "auto";
+  function wordKey(t) { return String(t || "").toLowerCase().replace(/[^a-z0-9']+/g, ""); }
+  function playWord(w, done) {
+    var fin = false;
+    function end() { if (fin) return; fin = true; if (done) done(); }
+    stopSlice();
+    pauseAudio();
+    try { wordAudio.pause(); } catch (e) {}
+    wordAudio.onended = end;
+    wordAudio.onerror = function () {
+      if (fin) return;
+      fin = true;
+      dlog({ ev: "wordFallback", t: w.t });
+      playSlice(w.start - 0.03, w.end + 0.06, false, done);
+      if (slice) slice.noPaint = true;
+    };
+    wordAudio.src = "words/" + wordKey(w.t) + ".mp3";
+    var p = wordAudio.play();
+    if (p && p.catch) p.catch(function () {});
+    setTimeout(end, 4000);
+  }
   function onWordTap(i) {
+    if (mode === "practice") {
+      if (slice || practiceRep < 3) return;
+      playWord(song.lines[lineIdx].words[i], null);
+      return;
+    }
     if (mode !== "tap" || tapBusy) return;
     var line = song.lines[lineIdx];
     var w = line.words[i];
     tapped[i] = true;
     wordEls[i].classList.add("tapped");
-    dlog({ ev: "word", line: lineIdx, i: i, t: w.t });
+    dlog({ ev: "word", line: lineIdx, i: i, t: w.t, src: "words/" + wordKey(w.t) + ".mp3" });
     var allDone = line.words.every(function (_, k) { return tapped[k]; });
     var li = lineIdx;
-    playSlice(w.start - 0.03, w.end + 0.06, false, function () {
-      if (!allDone || mode !== "tap" || li !== lineIdx) return;
+    playWord(w, function () {
+      if (!allDone || mode !== "tap" || li !== lineIdx || tapBusy) return;
       tapBusy = true;
       $("tap-hint").textContent = "Listen to the line!";
       gapTimer = setTimeout(function () {
@@ -613,7 +663,6 @@
         });
       }, 300);
     });
-    if (slice) slice.noPaint = true;
   }
 
   /* ---------- Stage 3: Practice ---------- */
@@ -683,7 +732,7 @@
     return a;
   }
   function beginQuiz() {
-    if (!isUnlocked("quiz") || isDone("quiz")) return;
+    if (!isUnlocked("quiz") || (!TEST_MODE && isDone("quiz"))) return;
     quizIdx = 0;
     quizScore = 0;
     showQuiz();
