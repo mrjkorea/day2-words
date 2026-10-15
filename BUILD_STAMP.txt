@@ -1,3 +1,0 @@
-version=d2w-1.1
-built=2026-10-07T06:10:00Z
-packs=all
