@@ -1,182 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" data-book="green">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="theme-color" content="#f6f3ec" />
-<title>MRJ Day 2 Words · Word Master</title>
+<meta name="theme-color" content="#0033b8" />
+<title>MRJ Day 2</title>
+<link rel="icon" href="favicon.ico" />
 <style>
-:root{--ink:#000;--navy:#0033b8;--gold:#f5c400;--bg:#fffdf6}
-*{box-sizing:border-box}
-body{margin:0;background:#111;font-family:system-ui,-apple-system,"SF Pro Text","Segoe UI",sans-serif;color:var(--ink)}
-.wrap{max-width:900px;margin:0 auto;background:var(--bg);min-height:100vh;padding:18px 14px 40px}
-.hero{text-align:center;padding:10px 0 14px}
-.logo{display:inline-grid;place-items:center;width:64px;height:64px;border-radius:18px;background:var(--navy);color:#fff;font-weight:900;font-size:20px;letter-spacing:1px}
-.hero h1{margin:10px 0 2px;font-size:32px}
-.hero p{margin:4px 0;font-weight:700;color:#2c2c2e}
-.hero a{color:var(--navy);font-weight:900}
-.jump{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:10px 0 16px}
-.jump a{padding:8px 12px;border:2px solid #111;border-radius:999px;background:#fff;color:#000;text-decoration:none;font-weight:800}
-.book{border:2px solid #111;border-radius:18px;padding:12px;margin:0 0 14px}
-.book h2{margin:2px 4px 10px;font-size:24px}
-.units{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-@media(min-width:700px){.units{grid-template-columns:repeat(4,1fr)}}
-.unit{display:flex;gap:8px;align-items:flex-start;background:#fff;border:2px solid #111;border-radius:14px;padding:10px;color:#000;text-decoration:none;box-shadow:0 3px 0 #111;min-height:74px}
-.unit:active{transform:translateY(2px);box-shadow:0 1px 0 #111}
-.unit b{flex:0 0 auto;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--navy);color:#fff;font-weight:900}
-.unit span{display:flex;flex-direction:column;gap:2px}
-.unit strong{font-size:16px}
-.unit em{font-style:normal;font-size:13px;font-weight:700;color:#333}
-.unit small{font-size:12px;color:#555;font-weight:700}
-.foot{text-align:center;font-size:13px;color:#555;margin-top:18px}
-.foot a{color:var(--navy);font-weight:800}
+*{box-sizing:border-box}body{margin:0;font-family:ui-rounded,"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;background:#fffdf6;color:#111}
+.wrap{max-width:720px;margin:0 auto;padding:calc(16px + env(safe-area-inset-top)) 14px 32px}
+header{text-align:center;padding:8px 0 6px}.logo{display:inline-grid;place-items:center;width:64px;height:64px;border-radius:18px;background:#0033b8;color:#fff;font-weight:900;font-size:22px}
+h1{margin:10px 0 2px;font-size:clamp(32px,8vw,44px)}h2{margin:6px 0 10px;text-align:center;font-size:clamp(26px,6.5vw,34px)}.sub{margin:2px 0 14px;text-align:center;font-weight:800;color:#333}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.card{display:flex;flex-direction:column;justify-content:center;gap:4px;min-height:86px;padding:14px;border:3px solid #111;border-radius:20px;box-shadow:0 5px 0 #111;background:#ffe98a;color:#111;text-decoration:none;font-weight:900;font-size:24px;text-align:center}
+.card small{font-size:15px;font-weight:800;color:#333}.card:active{transform:translateY(3px);box-shadow:0 2px 0 #111}
+.card.unit{background:#bfe3ff;font-size:20px}.big{min-height:120px;font-size:32px}.song{background:#ffe14a}.words{background:#b6f075}
+.soon{background:#ddd;color:#666;box-shadow:0 3px 0 #888;border-color:#888}
+.back{display:inline-block;margin:6px 0 4px;color:#0033b8;font-weight:900;text-decoration:none;font-size:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:8px}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <div class="hero">
-    <div class="logo">MRJ</div>
-    <h1>Day 2 Words</h1>
-    <p>Pick your book, then your unit.</p>
-    <p>Meet · Learn · Dictation · Write · Games · Test</p>
-    <p><a href="songs/index.html">Songs</a></p>
-  </div>
-  <nav class="jump">
-    <a href="songs/index.html">Songs</a>
-    <a href="#basic_a">Basic A</a>
-    <a href="#basic_b">Basic B</a>
-    <a href="#basic_c">Basic C</a>
-    <a href="#int2a">INT 2A</a>
-    <a href="#int2b">INT 2B</a>
-    <a href="#int2c">INT 2C</a>
-    <a href="#int3a">INT 3A</a>
-    <a href="#int3b">INT 3B</a>
-    <a href="#int3c">INT 3C</a>
-  </nav>
-  <section class="book" id="basic_a" style="background:#ffe98a">
-    <h2>Basic A</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_a_u1.json"><b>1</b><span><strong>Unit 1</strong><em>Numbers 1 to 10</em><small>10 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_a_u2.json"><b>2</b><span><strong>Unit 2</strong><em>Hello</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_a_u3.json"><b>3</b><span><strong>Unit 3</strong><em>Computer Orders</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_a_u4.json"><b>4</b><span><strong>Unit 4</strong><em>Classroom English One</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_a_u5.json"><b>5</b><span><strong>Unit 5</strong><em>Family</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_a_u6.json"><b>6</b><span><strong>Unit 6</strong><em>What is this?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_a_u7.json"><b>7</b><span><strong>Unit 7</strong><em>I can</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_a_u8.json"><b>8</b><span><strong>Unit 8</strong><em>Numbers 11–100</em><small>10 words</small></span></a>
-    </div>
-  </section>
-  <section class="book" id="basic_b" style="background:#ffe98a">
-    <h2>Basic B</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_b_u1.json"><b>1</b><span><strong>Unit 1</strong><em>How are you?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_b_u2.json"><b>2</b><span><strong>Unit 2</strong><em>I like Mr. Jay</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_b_u3.json"><b>3</b><span><strong>Unit 3</strong><em>Classroom English Two</em><small>9 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_b_u4.json"><b>4</b><span><strong>Unit 4</strong><em>Rock Paper Scissors</em><small>5 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_b_u5.json"><b>5</b><span><strong>Unit 5</strong><em>What is it?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_b_u6.json"><b>6</b><span><strong>Unit 6</strong><em>I like my body</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_b_u7.json"><b>7</b><span><strong>Unit 7</strong><em>What Color is That?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_b_u8.json"><b>8</b><span><strong>Unit 8</strong><em>How old are you?</em><small>12 words</small></span></a>
-    </div>
-  </section>
-  <section class="book" id="basic_c" style="background:#ffe98a">
-    <h2>Basic C</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_c_u1.json"><b>1</b><span><strong>Unit 1</strong><em>I Love My Dog Zoey</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_c_u2.json"><b>2</b><span><strong>Unit 2</strong><em>Look at My New Hat</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_c_u3.json"><b>3</b><span><strong>Unit 3</strong><em>Classroom English Three</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_c_u4.json"><b>4</b><span><strong>Unit 4</strong><em>What Can We See near Tongyeong?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_c_u5.json"><b>5</b><span><strong>Unit 5</strong><em>Spelling Bee</em><small>10 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_c_u6.json"><b>6</b><span><strong>Unit 6</strong><em>Don't Touch Your Arm</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_c_u7.json"><b>7</b><span><strong>Unit 7</strong><em>Come Play With Us</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fbasic_c_u8.json"><b>8</b><span><strong>Unit 8</strong><em>I Want a New Computer</em><small>12 words</small></span></a>
-    </div>
-  </section>
-  <section class="book" id="int2a" style="background:#d9e8ff">
-    <h2>INT 2A</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2a_u1.json"><b>1</b><span><strong>Unit 1</strong><em>How is the Weather?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2a_u2.json"><b>2</b><span><strong>Unit 2</strong><em>There are Snakes!</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2a_u3.json"><b>3</b><span><strong>Unit 3</strong><em>Can You Speak Chinese?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2a_u4.json"><b>4</b><span><strong>Unit 4</strong><em>What do you Want?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2a_u5.json"><b>5</b><span><strong>Unit 5</strong><em>Where is My Phone?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2a_u6.json"><b>6</b><span><strong>Unit 6</strong><em>Look at This Funny Video</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2a_u7.json"><b>7</b><span><strong>Unit 7</strong><em>Where is the Teacher?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2a_u8.json"><b>8</b><span><strong>Unit 8</strong><em>What Do You Do After School?</em><small>13 words</small></span></a>
-    </div>
-  </section>
-  <section class="book" id="int2b" style="background:#d9e8ff">
-    <h2>INT 2B</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2b_u1.json"><b>1</b><span><strong>Unit 1</strong><em>Hello, This is Pizza Land</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2b_u2.json"><b>2</b><span><strong>Unit 2</strong><em>What Time is it Now?</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2b_u3.json"><b>3</b><span><strong>Unit 3</strong><em>What Do You Want to be in the Future?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2b_u4.json"><b>4</b><span><strong>Unit 4</strong><em>Welcome to Seven-Eleven</em><small>14 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2b_u5.json"><b>5</b><span><strong>Unit 5</strong><em>Somebody Stole My Bike!</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2b_u6.json"><b>6</b><span><strong>Unit 6</strong><em>Welcome to Parent's Night</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2b_u7.json"><b>7</b><span><strong>Unit 7</strong><em>Have You Seen My Transit Card?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2b_u8.json"><b>8</b><span><strong>Unit 8</strong><em>This is Mine!</em><small>7 words</small></span></a>
-    </div>
-  </section>
-  <section class="book" id="int2c" style="background:#d9e8ff">
-    <h2>INT 2C</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2c_u1.json"><b>1</b><span><strong>Unit 1</strong><em>I Love Summer</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2c_u2.json"><b>2</b><span><strong>Unit 2</strong><em>What Are You Doing?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2c_u3.json"><b>3</b><span><strong>Unit 3</strong><em>Is This Yours?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2c_u4.json"><b>4</b><span><strong>Unit 4</strong><em>What's Your Favorite?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2c_u5.json"><b>5</b><span><strong>Unit 5</strong><em>How Are You Feeling?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2c_u6.json"><b>6</b><span><strong>Unit 6</strong><em>What's Wrong?</em><small>14 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2c_u7.json"><b>7</b><span><strong>Unit 7</strong><em>Phone English 1</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint2c_u8.json"><b>8</b><span><strong>Unit 8</strong><em>I'll Miss You</em><small>10 words</small></span></a>
-    </div>
-  </section>
-  <section class="book" id="int3a" style="background:#d9f5df">
-    <h2>INT 3A</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3a_u1.json"><b>1</b><span><strong>Unit 1</strong><em>I Can Draw a Monster</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3a_u2.json"><b>2</b><span><strong>Unit 2</strong><em>What Flavor Do You Like?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3a_u3.json"><b>3</b><span><strong>Unit 3</strong><em>Opposites</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3a_u4.json"><b>4</b><span><strong>Unit 4</strong><em>How Old is He?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3a_u5.json"><b>5</b><span><strong>Unit 5</strong><em>What is This Bug?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3a_u6.json"><b>6</b><span><strong>Unit 6</strong><em>How Will I Yell Your Name?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3a_u7.json"><b>7</b><span><strong>Unit 7</strong><em>Gym Class</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3a_u8.json"><b>8</b><span><strong>Unit 8</strong><em>Introduction</em><small>12 words</small></span></a>
-    </div>
-  </section>
-  <section class="book" id="int3b" style="background:#d9f5df">
-    <h2>INT 3B</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3b_u1.json"><b>1</b><span><strong>Unit 1</strong><em>What Grade Are You In?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3b_u2.json"><b>2</b><span><strong>Unit 2</strong><em>Is This a Gayageum?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3b_u3.json"><b>3</b><span><strong>Unit 3</strong><em>Bigger Please!</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3b_u4.json"><b>4</b><span><strong>Unit 4</strong><em>Who is This?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3b_u5.json"><b>5</b><span><strong>Unit 5</strong><em>Eat Up</em><small>10 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3b_u6.json"><b>6</b><span><strong>Unit 6</strong><em>What Fruit Are These?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3b_u7.json"><b>7</b><span><strong>Unit 7</strong><em>Don't Forget Your Transit Card</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3b_u8.json"><b>8</b><span><strong>Unit 8</strong><em>Do You Like Korea?</em><small>12 words</small></span></a>
-    </div>
-  </section>
-  <section class="book" id="int3c" style="background:#d9f5df">
-    <h2>INT 3C</h2>
-    <div class="units">
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3c_u1.json"><b>1</b><span><strong>Unit 1</strong><em>Do You Like Sweet Food?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3c_u2.json"><b>2</b><span><strong>Unit 2</strong><em>Do Not Yell</em><small>11 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3c_u3.json"><b>3</b><span><strong>Unit 3</strong><em>Can I Play Outside?</em><small>13 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3c_u4.json"><b>4</b><span><strong>Unit 4</strong><em>Let's Play an RPG</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3c_u5.json"><b>5</b><span><strong>Unit 5</strong><em>What Do You Have?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3c_u6.json"><b>6</b><span><strong>Unit 6</strong><em>How Many Cities?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3c_u7.json"><b>7</b><span><strong>Unit 7</strong><em>Can You Fly?</em><small>12 words</small></span></a>
-      <a class="unit" href="https://mrjkorea.github.io/word-master/?packsrc=https%3A%2F%2Fmrjkorea.github.io%2Fday2-words%2Fpacks%2Fint3c_u8.json"><b>8</b><span><strong>Unit 8</strong><em>What Time is it?</em><small>13 words</small></span></a>
-    </div>
-  </section>
-  <p class="foot">Words from each unit's Day 4 speaking test. <a href="https://mrjkorea.github.io/word-master/">Open Word Master</a> · <a href="songs/index.html">Songs</a></p>
+<header><div class="logo">MRJ</div><h1>Day 2</h1><p class="sub" id="crumb">Pick your book</p></header>
+<main id="view"></main>
 </div>
-<link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css">
-<link rel="stylesheet" href="preview-assets/mrj-theme.css?v=live1">
-<link rel="stylesheet" href="preview-assets/day2-preview.css?v=live1">
-<script src="preview-assets/preview-ui.js?v=live1"></script>
-<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js"></script>
-<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js" data-mrj-app="day2-words"></script>
+<script>
+var DATA = {"books": [{"id": "basic_a", "name": "Basic A", "units": [{"id": "basic_a_u1", "unit": 1, "title": "Numbers 1 to 10"}, {"id": "basic_a_u2", "unit": 2, "title": "Hello"}, {"id": "basic_a_u3", "unit": 3, "title": "Computer Orders"}, {"id": "basic_a_u4", "unit": 4, "title": "Classroom English One"}, {"id": "basic_a_u5", "unit": 5, "title": "Family"}, {"id": "basic_a_u6", "unit": 6, "title": "What is this?"}, {"id": "basic_a_u7", "unit": 7, "title": "I can"}, {"id": "basic_a_u8", "unit": 8, "title": "Numbers 11–100"}]}, {"id": "basic_b", "name": "Basic B", "units": [{"id": "basic_b_u1", "unit": 1, "title": "How are you?"}, {"id": "basic_b_u2", "unit": 2, "title": "I like Mr. Jay"}, {"id": "basic_b_u3", "unit": 3, "title": "Classroom English Two"}, {"id": "basic_b_u4", "unit": 4, "title": "Rock Paper Scissors"}, {"id": "basic_b_u5", "unit": 5, "title": "What is it?"}, {"id": "basic_b_u6", "unit": 6, "title": "I like my body"}, {"id": "basic_b_u7", "unit": 7, "title": "What Color is That?"}, {"id": "basic_b_u8", "unit": 8, "title": "How old are you?"}]}, {"id": "basic_c", "name": "Basic C", "units": [{"id": "basic_c_u1", "unit": 1, "title": "I Love My Dog Zoey"}, {"id": "basic_c_u2", "unit": 2, "title": "Look at My New Hat"}, {"id": "basic_c_u3", "unit": 3, "title": "Classroom English Three"}, {"id": "basic_c_u4", "unit": 4, "title": "What Can We See near Tongyeong?"}, {"id": "basic_c_u5", "unit": 5, "title": "Spelling Bee"}, {"id": "basic_c_u6", "unit": 6, "title": "Don't Touch Your Arm"}, {"id": "basic_c_u7", "unit": 7, "title": "Come Play With Us"}, {"id": "basic_c_u8", "unit": 8, "title": "I Want a New Computer"}]}, {"id": "int2a", "name": "INT 2A", "units": [{"id": "int2a_u1", "unit": 1, "title": "How is the Weather?"}, {"id": "int2a_u2", "unit": 2, "title": "There are Snakes!"}, {"id": "int2a_u3", "unit": 3, "title": "Can You Speak Chinese?"}, {"id": "int2a_u4", "unit": 4, "title": "What do you Want?"}, {"id": "int2a_u5", "unit": 5, "title": "Where is My Phone?"}, {"id": "int2a_u6", "unit": 6, "title": "Look at This Funny Video"}, {"id": "int2a_u7", "unit": 7, "title": "Where is the Teacher?"}, {"id": "int2a_u8", "unit": 8, "title": "What Do You Do After School?"}]}, {"id": "int2b", "name": "INT 2B", "units": [{"id": "int2b_u1", "unit": 1, "title": "Hello, This is Pizza Land"}, {"id": "int2b_u2", "unit": 2, "title": "What Time is it Now?"}, {"id": "int2b_u3", "unit": 3, "title": "What Do You Want to be in the Future?"}, {"id": "int2b_u4", "unit": 4, "title": "Welcome to Seven-Eleven"}, {"id": "int2b_u5", "unit": 5, "title": "Somebody Stole My Bike!"}, {"id": "int2b_u6", "unit": 6, "title": "Welcome to Parent's Night"}, {"id": "int2b_u7", "unit": 7, "title": "Have You Seen My Transit Card?"}, {"id": "int2b_u8", "unit": 8, "title": "This is Mine!"}]}, {"id": "int2c", "name": "INT 2C", "units": [{"id": "int2c_u1", "unit": 1, "title": "I Love Summer"}, {"id": "int2c_u2", "unit": 2, "title": "What Are You Doing?"}, {"id": "int2c_u3", "unit": 3, "title": "Is This Yours?"}, {"id": "int2c_u4", "unit": 4, "title": "What's Your Favorite?"}, {"id": "int2c_u5", "unit": 5, "title": "How Are You Feeling?"}, {"id": "int2c_u6", "unit": 6, "title": "What's Wrong?"}, {"id": "int2c_u7", "unit": 7, "title": "Phone English 1"}, {"id": "int2c_u8", "unit": 8, "title": "I'll Miss You"}]}, {"id": "int3a", "name": "INT 3A", "units": [{"id": "int3a_u1", "unit": 1, "title": "I Can Draw a Monster"}, {"id": "int3a_u2", "unit": 2, "title": "What Flavor Do You Like?"}, {"id": "int3a_u3", "unit": 3, "title": "Opposites"}, {"id": "int3a_u4", "unit": 4, "title": "How Old is He?"}, {"id": "int3a_u5", "unit": 5, "title": "What is This Bug?"}, {"id": "int3a_u6", "unit": 6, "title": "How Will I Yell Your Name?"}, {"id": "int3a_u7", "unit": 7, "title": "Gym Class"}, {"id": "int3a_u8", "unit": 8, "title": "Introduction"}]}, {"id": "int3b", "name": "INT 3B", "units": [{"id": "int3b_u1", "unit": 1, "title": "What Grade Are You In?"}, {"id": "int3b_u2", "unit": 2, "title": "Is This a Gayageum?"}, {"id": "int3b_u3", "unit": 3, "title": "Bigger Please!"}, {"id": "int3b_u4", "unit": 4, "title": "Who is This?"}, {"id": "int3b_u5", "unit": 5, "title": "Eat Up"}, {"id": "int3b_u6", "unit": 6, "title": "What Fruit Are These?"}, {"id": "int3b_u7", "unit": 7, "title": "Don't Forget Your Transit Card"}, {"id": "int3b_u8", "unit": 8, "title": "Do You Like Korea?"}]}, {"id": "int3c", "name": "INT 3C", "units": [{"id": "int3c_u1", "unit": 1, "title": "Do You Like Sweet Food?"}, {"id": "int3c_u2", "unit": 2, "title": "Do Not Yell"}, {"id": "int3c_u3", "unit": 3, "title": "Can I Play Outside?"}, {"id": "int3c_u4", "unit": 4, "title": "Let's Play an RPG"}, {"id": "int3c_u5", "unit": 5, "title": "What Do You Have?"}, {"id": "int3c_u6", "unit": 6, "title": "How Many Cities?"}, {"id": "int3c_u7", "unit": 7, "title": "Can You Fly?"}, {"id": "int3c_u8", "unit": 8, "title": "What Time is it?"}]}]};
+var SONGS = {};
+function el(h){var d=document.createElement("div");d.innerHTML=h;return d;}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function book(id){for(var i=0;i<DATA.books.length;i++)if(DATA.books[i].id===id)return DATA.books[i];return null;}
+function render(){
+  var h=location.hash.replace("#",""), v=document.getElementById("view"), c=document.getElementById("crumb"), out="";
+  var m=h.match(/^(.+)_u(\d+)$/), b=book(m?m[1]:h);
+  if(m&&b){
+    var u=b.units.filter(function(x){return x.unit===+m[2];})[0];
+    if(!u){location.hash="";return;}
+    var s=SONGS[u.id];
+    c.textContent=b.name+" · Unit "+u.unit;
+    out='<a class="back" href="#'+b.id+'">← '+esc(b.name)+'</a><h2>Unit '+u.unit+': '+esc(u.title)+'</h2><div class="two">'+
+      (s?'<a class="card big song" id="link-song" href="songs/play.html?song='+s.id+'">🎵 Song<small>'+esc(s.title)+'</small></a>'
+        :'<div class="card big soon" id="link-song">🎵 Song<small>Coming soon</small></div>')+
+      '<a class="card big words" id="link-words" href="play.html?pack='+u.id+'">🔤 Words<small>Word Master</small></a></div>';
+  } else if(b){
+    c.textContent=b.name+" · Pick a unit";
+    out='<a class="back" href="#">← Books</a><h2>'+esc(b.name)+'</h2><div class="grid">'+b.units.map(function(u){
+      return '<a class="card unit" href="#'+u.id+'">Unit '+u.unit+'<small>'+esc(u.title)+(SONGS[u.id]?' 🎵':'')+'</small></a>';}).join("")+'</div>';
+  } else {
+    c.textContent="Pick your book";
+    out='<div class="grid">'+DATA.books.map(function(b){return '<a class="card" href="#'+b.id+'">'+esc(b.name)+'</a>';}).join("")+'</div>';
+  }
+  v.innerHTML=out; window.scrollTo(0,0);
+}
+window.addEventListener("hashchange",render);
+render();
+fetch("songs/data/catalog.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(d){
+  (d.songs||[]).forEach(function(s){if(s.packId)SONGS[s.packId]=s;}); render();
+}).catch(function(){});
+</script>
 </body>
 </html>

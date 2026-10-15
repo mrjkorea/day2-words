@@ -6,7 +6,8 @@
    "book": "Basic A",
    "unit": 6,
    "unitTitle": "What is this?",
-   "blurb": "What is this? It is a desk."
+   "blurb": "What is this? It is a desk.",
+   "packId": "basic_a_u6"
   }
  ]
 }
