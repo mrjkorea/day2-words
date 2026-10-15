@@ -1,0 +1,37 @@
+/* Day 2 Words preview skin (look only). Unit links unchanged. */
+html[data-book] body { background: radial-gradient(1200px 500px at 50% -200px, var(--accent-soft), transparent 70%), var(--bg); font-family: var(--font-ui); color: var(--ink); }
+.wrap { background: transparent !important; max-width: 1040px; padding: 0 18px 48px; }
+.hero { background: linear-gradient(135deg, var(--accent), var(--accent-dark)); color: #fff; margin: 0 -18px 1.2rem; padding: 1.1rem 1.2rem 1.2rem; border-radius: 0 0 28px 28px; box-shadow: var(--chunk); }
+.hero .logo { width: 52px; height: 52px; border-radius: 16px; background: rgba(255,255,255,.95); color: var(--accent-dark); font-size: 16px; }
+.hero h1 { color: #fff; font-size: 2rem; font-weight: 900; }
+.hero p { color: rgba(255,255,255,.95) !important; }
+.hero p:nth-of-type(2) { display: inline-flex; flex-wrap: wrap; gap: .35rem; justify-content: center; font-size: .85rem; }
+.hero a { color: #fff !important; background: rgba(255,255,255,.2); padding: .3rem .9rem; border-radius: 999px; text-decoration: none; }
+.hero a::before { content: "🎵 "; }
+.pv-picker .pv-jump { display: none; }
+.pv-books { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .8rem; margin: 0 0 1.4rem; }
+.pv-book { --c1:#2fb866; --c2:#138042; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; min-height: 120px; padding: .9rem 1rem; border-radius: 24px; color: #fff; text-decoration: none; background: linear-gradient(150deg, var(--c1), var(--c2)); box-shadow: 0 7px 0 color-mix(in srgb, var(--c2) 70%, #000), 0 14px 24px rgba(0,0,0,.12); transition: transform .12s; }
+.pv-book.pv-blue { --c1:#4b95ff; --c2:#1d55c8; } .pv-book.pv-red { --c1:#ff6b5c; --c2:#c72e24; }
+.pv-book::after { content: ""; position: absolute; width: 110px; height: 110px; right: -30px; top: -30px; border-radius: 50%; background: rgba(255,255,255,.16); }
+.pv-book:hover { transform: translateY(-3px); }
+.pv-book.is-on { outline: 4px solid #fff; box-shadow: 0 0 0 8px var(--c1), 0 7px 0 8px color-mix(in srgb, var(--c2) 60%, #000); }
+.pv-book-icon { position: absolute; top: .6rem; left: .8rem; font-size: 1.7rem; }
+.pv-book-title { font: 900 1.2rem var(--font-en); }
+.pv-book-level { position: absolute; right: .8rem; bottom: .9rem; font: 900 2.6rem/1 var(--font-en); }
+.pv-book-count { font-size: .78rem; font-weight: 800; opacity: .9; }
+.pv-picker section.book { display: none; }
+.pv-picker section.book.pv-on { display: block; animation: mrj-pop .3s ease; }
+section.book { background: #fff !important; border: 2px solid var(--border) !important; border-radius: 28px !important; padding: 1.2rem !important; box-shadow: 0 6px 0 var(--border), 0 16px 30px rgba(20,36,24,.06); }
+section.book h2 { font-size: 1.6rem !important; font-weight: 900; color: var(--accent-dark); }
+section.book h2::before { content: "📚 "; }
+.units { grid-template-columns: repeat(4, 1fr) !important; gap: .8rem !important; }
+.unit { flex-direction: column; gap: .5rem !important; min-height: 130px !important; padding: .9rem !important; border: 2px solid var(--border) !important; border-radius: 22px !important; box-shadow: 0 5px 0 var(--border) !important; transition: transform .1s; }
+.unit:hover { transform: translateY(-3px); border-color: var(--accent) !important; box-shadow: 0 5px 0 var(--accent) !important; }
+.unit:active { transform: translateY(3px); }
+.unit b { width: 46px !important; height: 46px !important; border-radius: 14px !important; background: linear-gradient(150deg, var(--accent), var(--accent-dark)) !important; font: 900 1.25rem var(--font-en); box-shadow: 0 3px 0 rgba(0,0,0,.15); }
+.unit strong { font-size: .8rem !important; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.unit em { font: 900 1.1rem/1.25 var(--font-en) !important; color: var(--ink) !important; }
+.unit small { align-self: flex-start; padding: .15rem .6rem; border-radius: 999px; background: var(--accent-soft); color: var(--accent-dark) !important; font-weight: 800; }
+.unit small::before { content: "🔤 "; }
+.foot { font-size: .95rem !important; }
+@media (max-width: 700px) { .units { grid-template-columns: 1fr 1fr !important; } }
