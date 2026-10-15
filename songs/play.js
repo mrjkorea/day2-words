@@ -543,15 +543,26 @@
   }
 
   var uniq = [];
+  function unitOf(k) {
+    var w = k.split(" ");
+    for (var n = 1; n <= w.length / 2; n++) {
+      if (w.length % n) continue;
+      var ok = true;
+      for (var i = n; i < w.length && ok; i++) if (w[i] !== w[i % n]) ok = false;
+      if (ok) return { key: w.slice(0, n).join(" "), rep: true };
+    }
+    return { key: k, rep: false };
+  }
   function buildUniq() {
     var seen = {};
-    uniq = [];
     song.lines.forEach(function (l, i) {
       var k = String(l.text || "").toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
-      if (seen[k]) return;
-      seen[k] = 1;
-      uniq.push(i);
+      var u = unitOf(k);
+      var prev = seen[u.key];
+      if (!prev) seen[u.key] = { i: i, rep: u.rep };
+      else if (prev.rep && !u.rep) seen[u.key] = { i: i, rep: false };
     });
+    uniq = Object.keys(seen).map(function (k) { return seen[k].i; }).sort(function (x, y) { return x - y; });
   }
   var uPos = 0;
   /* ---------- Stage 2: Tap ---------- */
