@@ -357,3 +357,27 @@ img { max-width: 100%; }
   .ready, .score { padding: 26px 28px; }
   .line-now { font-size: 48px; }
 }
+
+/* 2026-10-16 stages, smaller contained pictures, quiz */
+.kb { inset: 0; display: grid; place-items: center; background: linear-gradient(160deg, #5b4bff, #4aa8ff 55%, #7dffb3); }
+.slide img { width: 50%; height: 50%; max-width: 50vmin; max-height: 50vmin; object-fit: contain; border-radius: 22px; margin-bottom: 18vh; }
+@keyframes ken { from { transform: scale(1) translate3d(-1%,0,0); } to { transform: scale(1.05) translate3d(1%,-0.6%,0); } }
+@keyframes ken1 { from { transform: scale(1.02) translate3d(1%,-0.4%,0); } to { transform: scale(1.06) translate3d(-1%,0.6%,0); } }
+@keyframes ken2 { from { transform: scale(1) translate3d(0,0.8%,0); } to { transform: scale(1.05) translate3d(0,-0.8%,0); } }
+@keyframes ken3 { from { transform: scale(1.03) translate3d(-0.8%,0.3%,0); } to { transform: scale(1.06) translate3d(0.8%,-0.3%,0); } }
+.mode.quiz { background: #ffb3d9; }
+.mode:disabled { background: #ccc; color: #666; box-shadow: 0 2px 0 #666; border-color: #666; cursor: not-allowed; }
+.mode.done::after { content: " ✓"; }
+.big:disabled { opacity: 0.45; cursor: not-allowed; }
+.tap-hint { margin: 0; text-align: center; font-weight: 900; font-size: 22px; text-shadow: 0 2px 0 #000; }
+.word.tapped { color: #b6f075; }
+.word.tapped .base { text-decoration: underline 4px #b6f075; }
+.quizp { text-align: center; }
+.quiz-pic { width: 46vmin; max-width: 240px; height: auto; object-fit: contain; border-radius: 18px; border: 3px solid #111; margin: 6px auto; display: block; }
+.quiz-play { margin: 8px auto; display: block; }
+.quiz-choices { display: grid; gap: 10px; margin-top: 10px; }
+.quiz-choices.pics { grid-template-columns: repeat(3, 1fr); }
+.qc { border: 3px solid #111; border-radius: 16px; background: #fff; box-shadow: 0 4px 0 #111; font-weight: 900; font-size: 22px; min-height: 64px; padding: 6px; color: #111; }
+.qc img { width: 100%; aspect-ratio: 1; object-fit: contain; display: block; }
+.qc.right { background: #b6f075; }
+.qc.wrong { background: #ff9c9c; }

@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#1a2744" />
   <title>Song · MRJ Day 2 Words</title>
   <link rel="icon" href="../favicon.ico" />
-  <link rel="stylesheet" href="songs.css" />
+  <link rel="stylesheet" href="songs.css?v=20261016-stages" />
 </head>
 <body>
   <div class="player" id="player">
@@ -28,9 +28,10 @@
     <section class="ready" id="panel-ready">
       <h2 id="ready-title">Song</h2>
       <p class="sub" id="ready-sub"></p>
-      <button type="button" class="mode listen" id="btn-listen">Listen<small>듣기 · the whole song</small></button>
-      <button type="button" class="mode practice" id="btn-practice">Practice<small>연습 · each line 3 times</small></button>
-      <button type="button" class="mode sing" id="btn-sing">Sing and Tap<small>노래하고 누르기</small></button>
+      <button type="button" class="mode listen" id="btn-listen">1. Listen<small>듣기 · the whole song</small></button>
+      <button type="button" class="mode sing" id="btn-tap-stage">2. Tap<small>단어 누르기 · tap each word</small></button>
+      <button type="button" class="mode practice" id="btn-practice">3. Practice<small>연습 · each line 3 times</small></button>
+      <button type="button" class="mode quiz" id="btn-quiz">4. Mini Quiz<small>퀴즈 · 5 questions</small></button>
       <p class="best" id="ready-best" hidden></p>
     </section>
 
@@ -38,13 +39,21 @@
       <div class="practice-bar" id="practice-bar" hidden>
         <button type="button" class="big" id="btn-prev">Back</button>
         <p id="rep-label">1 / 3</p>
-        <button type="button" class="big" id="btn-next">Next</button>
+        <button type="button" class="big" id="btn-next" disabled>Next</button>
       </div>
-      <button type="button" class="tap-btn" id="btn-tap" hidden>TAP</button>
+      <p class="tap-hint" id="tap-hint" hidden>Tap each word!</p>
       <div class="band">
         <div class="line-now" id="line-now"></div>
         <div class="line-next" id="line-next"></div>
       </div>
+    </section>
+
+    <section class="ready quizp" id="panel-quiz" hidden>
+      <p class="sub" id="quiz-count">1 / 5</p>
+      <h2 id="quiz-prompt">What is this?</h2>
+      <button type="button" class="big quiz-play" id="quiz-play" hidden>&#9654; Listen</button>
+      <img class="quiz-pic" id="quiz-pic" alt="" hidden />
+      <div class="quiz-choices" id="quiz-choices"></div>
     </section>
 
     <section class="score" id="panel-score" hidden>
@@ -52,8 +61,8 @@
       <p class="pct" id="score-pct">0%</p>
       <p class="msg" id="score-msg">Great job!</p>
       <p class="sub" id="score-detail"></p>
-      <button type="button" class="mode sing" id="btn-again">Sing again</button>
-      <button type="button" class="mode listen" id="btn-listen-again">Listen</button>
+      <button type="button" class="mode sing" id="btn-again">Next</button>
+      <button type="button" class="mode listen" id="btn-stages">Stages</button>
       <a class="mode practice" id="btn-songs" href="index.html" style="text-align:center;text-decoration:none;display:grid;place-items:center;">All songs</a>
     </section>
 
@@ -69,6 +78,6 @@
   <script src="../js/progress.js?v=20261013-scores-receiver"></script>
   <script>window.WM_BUILD_ID="20261013-scores-receiver";</script>
   <script src="../js/version-watch.js?v=20261013-scores-receiver"></script>
-  <script src="play.js?v=20261013-scores-receiver"></script>
+  <script src="play.js?v=20261016-stages"></script>
 </body>
 </html>

@@ -46,7 +46,7 @@
     }
    ],
    "end": 2.25,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 2,
@@ -71,7 +71,7 @@
     }
    ],
    "end": 10.5,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 3,
@@ -126,7 +126,7 @@
     }
    ],
    "end": 15.56,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 5,
@@ -181,7 +181,7 @@
     }
    ],
    "end": 20.16,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 7,
@@ -236,7 +236,7 @@
     }
    ],
    "end": 25.0,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 9,
@@ -306,7 +306,7 @@
     }
    ],
    "end": 31.54,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 11,
@@ -331,7 +331,7 @@
     }
    ],
    "end": 34.1,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 12,
@@ -401,7 +401,7 @@
     }
    ],
    "end": 41.32,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 14,
@@ -426,7 +426,7 @@
     }
    ],
    "end": 43.78,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 15,
@@ -547,7 +547,7 @@
     }
    ],
    "end": 54.24,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 18,
@@ -572,7 +572,7 @@
     }
    ],
    "end": 57.8,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 19,
@@ -627,7 +627,7 @@
     }
    ],
    "end": 61.96,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 21,
@@ -682,7 +682,7 @@
     }
    ],
    "end": 67.78,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 23,
@@ -737,7 +737,7 @@
     }
    ],
    "end": 72.08,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 25,
@@ -812,7 +812,7 @@
     }
    ],
    "end": 78.58,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 27,
@@ -837,7 +837,7 @@
     }
    ],
    "end": 81.54,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 28,
@@ -907,7 +907,7 @@
     }
    ],
    "end": 88.42,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 30,
@@ -932,7 +932,7 @@
     }
    ],
    "end": 91.06,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 31,
@@ -1053,7 +1053,7 @@
     }
    ],
    "end": 101.45,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 34,
@@ -1204,7 +1204,7 @@
     }
    ],
    "end": 119.18,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 38,
@@ -1279,7 +1279,7 @@
     }
    ],
    "end": 125.6,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 40,
@@ -1304,7 +1304,7 @@
     }
    ],
    "end": 128.56,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 41,
@@ -1374,7 +1374,7 @@
     }
    ],
    "end": 135.5,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 43,
@@ -1399,7 +1399,7 @@
     }
    ],
    "end": 137.22,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 44,
@@ -1520,7 +1520,7 @@
     }
    ],
    "end": 148.75,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 47,
@@ -1545,7 +1545,7 @@
     }
    ],
    "end": 152.15,
-   "pic": null
+   "pic": "whatisthis"
   },
   {
    "n": 48,
@@ -1576,6 +1576,63 @@
    ],
    "end": 155.05,
    "pic": "book"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "listen",
+   "line": 3,
+   "prompt": "Listen. What is it?",
+   "answer": "desk",
+   "choices": [
+    "desk",
+    "pen",
+    "cube"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. What is it?",
+   "answer": "mouse",
+   "choices": [
+    "book",
+    "mouse",
+    "gymball"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "book",
+   "prompt": "What is this?",
+   "answer": "It is a book.",
+   "choices": [
+    "It is a desk.",
+    "It is a book.",
+    "It is a cube."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 15,
+   "prompt": "Listen. What is it?",
+   "answer": "pen",
+   "choices": [
+    "keyboard",
+    "headset",
+    "pen"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "gymball",
+   "prompt": "What is this?",
+   "answer": "It is a gym ball.",
+   "choices": [
+    "It is a gym ball.",
+    "It is a mouse.",
+    "It is a monitor."
+   ]
   }
  ]
 }

@@ -145,6 +145,7 @@
       Object.keys(base.songScores).forEach(function (sid) {
         obj.songScores[sid] = base.songScores[sid];
       });
+      obj.songStages = readStages();
       return obj;
     }
 
@@ -153,8 +154,8 @@
       prog.save({
         pack_id: "day2_song_" + song.id,
         pack_title: song.title || song.id,
-        screen: "sing",
-        word_id: "score",
+        screen: result.screen || "song",
+        word_id: result.wordId || "score",
         study_size: result.percent,
         locale: st.locale || "en",
         progress_json: JSON.stringify(obj),
@@ -281,6 +282,109 @@
     return idx;
   }
 
+  /* ---------- stages (2026-10-16) ---------- */
+  var STAGE_KEY = "mrj.day2words.songStages";
+  var STAGES = ["listen", "tap", "practice", "quiz"];
+  var STAGE_NAME = { listen: "Listen", tap: "Tap", practice: "Practice", quiz: "Mini Quiz" };
+  var STAGE_BTN = { listen: "btn-listen", tap: "btn-tap-stage", practice: "btn-practice", quiz: "btn-quiz" };
+
+  function readStages() {
+    try {
+      var o = JSON.parse(localStorage.getItem(STAGE_KEY) || "{}");
+      return o && typeof o === "object" ? o : {};
+    } catch (e) { return {}; }
+  }
+  function songStages() { return (song && readStages()[song.id]) || {}; }
+  function isDone(stage) { return !!songStages()[stage]; }
+  function isUnlocked(stage) {
+    var i = STAGES.indexOf(stage);
+    return i <= 0 || isDone(STAGES[i - 1]);
+  }
+  function markDone(stage, extra) {
+    var all = readStages();
+    var mine = all[song.id] || {};
+    mine[stage] = extra || { at: Date.now() };
+    all[song.id] = mine;
+    try { localStorage.setItem(STAGE_KEY, JSON.stringify(all)); } catch (e) {}
+    var r = extra && typeof extra.percent === "number" ? extra : { percent: 100, stars: 3, at: Date.now() };
+    r.screen = stage;
+    r.wordId = "stage_" + stage;
+    try { saveScore(r); } catch (e) {}
+  }
+  function nextStage() {
+    for (var i = 0; i < STAGES.length; i++) if (!isDone(STAGES[i])) return STAGES[i];
+    return "";
+  }
+  function refreshStageButtons() {
+    STAGES.forEach(function (st, i) {
+      var b = $(STAGE_BTN[st]);
+      var open = isUnlocked(st);
+      b.disabled = !open;
+      b.classList.toggle("done", isDone(st));
+      var sm = b.querySelector("small");
+      if (!sm.dataset.orig) sm.dataset.orig = sm.textContent;
+      sm.textContent = open ? sm.dataset.orig : "🔒 Finish " + STAGE_NAME[STAGES[i - 1]] + " first";
+    });
+  }
+  function showBestStage() {
+    var q = songStages().quiz;
+    var el = $("ready-best");
+    if (q && typeof q.score === "number") {
+      el.hidden = false;
+      el.textContent = "Quiz best: " + q.score + " / " + q.total;
+    } else el.hidden = true;
+  }
+
+  /* ---------- audio slice engine ---------- */
+  var slice = null;
+  var sliceToken = 0;
+  function stopSlice() { slice = null; sliceToken += 1; audio.muted = false; }
+  function playSlice(start, end, muted, done) {
+    stopSlice();
+    pauseAudio();
+    var tok = sliceToken;
+    var s = { start: start, end: end, done: done, armed: false, muted: !!muted };
+    slice = s;
+    audio.muted = !!muted;
+    var tries = 0;
+    function arm() {
+      if (tok !== sliceToken || s.armed) return;
+      var now = audio.currentTime || 0;
+      if (Math.abs(now - s.start) > 0.35 && tries < 12) {
+        tries += 1;
+        try { audio.currentTime = Math.max(0, s.start); } catch (e) {}
+        setTimeout(arm, 150);
+        return;
+      }
+      s.armed = true;
+      audio.muted = s.muted;
+      playAudio();
+    }
+    try { audio.currentTime = Math.max(0, start); } catch (e) {}
+    setTimeout(arm, 120);
+  }
+  function tickSlice(t) {
+    if (!slice || !slice.armed) return;
+    if (t >= slice.end - 0.01 || audio.ended) {
+      var s = slice;
+      pauseAudio();
+      stopSlice();
+      if (s.done) s.done();
+    }
+  }
+  window.__songDebug = {
+    get mode() { return mode; },
+    get line() { return lineIdx; },
+    get rep() { return practiceRep; },
+    get muted() { return audio.muted; },
+    get slice() { return slice ? { start: slice.start, end: slice.end, armed: slice.armed, muted: slice.muted } : null; },
+    tapLine: function (i) { startTapLine(i); },
+    practiceLine: function (i) { startPracticeLine(i); },
+    log: [],
+  };
+  function dlog(x) { window.__songDebug.log.push(x); }
+
+  /* ---------- lines ---------- */
   function clearWords() {
     $("line-now").innerHTML = "";
     wordEls = [];
@@ -291,178 +395,94 @@
     var line = song.lines[idx];
     var next = song.lines[idx + 1];
     var host = $("line-now");
-    if (builtLine !== idx) {
-      host.innerHTML = "";
-      wordEls = [];
-      line.words.forEach(function (w, i) {
-        var span = document.createElement("span");
-        span.className = "word";
-        span.dataset.i = String(i);
-        var base = document.createElement("span");
-        base.className = "base";
-        base.textContent = w.t;
-        var fill = document.createElement("span");
-        fill.className = "fill";
-        fill.textContent = w.t;
-        fill.setAttribute("aria-hidden", "true");
-        span.appendChild(base);
-        span.appendChild(fill);
-        span.addEventListener("pointerdown", function (ev) {
-          if (mode !== "sing" || ended) return;
-          ev.preventDefault();
-          registerTap(audio.currentTime, i);
-        });
-        host.appendChild(span);
-        wordEls.push(span);
+    if (builtLine === idx) return;
+    host.innerHTML = "";
+    wordEls = [];
+    line.words.forEach(function (w, i) {
+      var span = document.createElement("span");
+      span.className = "word";
+      span.dataset.i = String(i);
+      var base = document.createElement("span");
+      base.className = "base";
+      base.textContent = w.t;
+      var fill = document.createElement("span");
+      fill.className = "fill";
+      fill.textContent = w.t;
+      fill.setAttribute("aria-hidden", "true");
+      span.appendChild(base);
+      span.appendChild(fill);
+      span.addEventListener("click", function (ev) {
+        ev.preventDefault();
+        onWordTap(i);
       });
-      builtLine = idx;
-      $("line-next").textContent = next ? next.text : "";
-    }
+      host.appendChild(span);
+      wordEls.push(span);
+    });
+    builtLine = idx;
+    $("line-next").textContent = next ? next.text : "";
   }
 
-  function paintWords(t) {
-    var line = song.lines[lineIdx];
-    var i, w, el, fill, p, right;
+  function paintWords(t, idx) {
+    var line = song.lines[idx];
+    var i, w, el, fill, p;
     for (i = 0; i < line.words.length; i++) {
       w = line.words[i];
       el = wordEls[i];
       if (!el) continue;
       fill = el.querySelector(".fill");
-      if (hits[lineKey(lineIdx, i)]) el.classList.add("hit");
       if (t >= w.end) {
-        el.classList.add("sung");
-        el.classList.remove("on");
+        el.classList.add("sung"); el.classList.remove("on");
         fill.style.clipPath = "inset(0 0 0 0)";
       } else if (t >= w.start) {
-        el.classList.add("on");
-        el.classList.remove("sung");
-        p = (t - w.start) / Math.max(0.06, w.end - w.start);
-        if (p < 0) p = 0;
-        if (p > 1) p = 1;
-        right = ((1 - p) * 100).toFixed(1);
-        fill.style.clipPath = "inset(0 " + right + "% 0 0)";
+        el.classList.add("on"); el.classList.remove("sung");
+        p = Math.min(1, Math.max(0, (t - w.start) / Math.max(0.06, w.end - w.start)));
+        fill.style.clipPath = "inset(0 " + ((1 - p) * 100).toFixed(1) + "% 0 0)";
       } else {
-        el.classList.remove("on");
-        el.classList.remove("sung");
+        el.classList.remove("on"); el.classList.remove("sung");
         fill.style.clipPath = "inset(0 100% 0 0)";
       }
     }
   }
+  function resetPaint() {
+    wordEls.forEach(function (el) {
+      el.classList.remove("on", "sung");
+      el.querySelector(".fill").style.clipPath = "inset(0 100% 0 0)";
+    });
+  }
 
-  function syncVisual(t) {
-    if (mode === "practice") {
-      renderLine(lineIdx);
-      paintWords(t);
-      showBackdrop(pictureFor(song.lines[lineIdx], t), lineIdx, lineIdx);
-      return;
-    }
+  function syncListen(t) {
     var idx = lineIndexAt(t);
+    var dur = song.duration || audio.duration || 0;
+    if (dur > 0) $("track-bar").style.width = Math.min(100, (t / dur) * 100) + "%";
     if (idx < 0) {
       if (builtLine !== -2) {
         $("line-now").textContent = "";
         $("line-next").textContent = song.lines[0] ? song.lines[0].text : "";
         wordEls = [];
         builtLine = -2;
-        lineIdx = -1;
       }
-      showBackdrop("", -1, 0);
-      var dur0 = song.duration || audio.duration || 0;
-      if (dur0 > 0) $("track-bar").style.width = Math.min(100, (t / dur0) * 100) + "%";
+      showBackdrop(firstPic(), 0, 0);
       return;
     }
-    if (idx !== lineIdx) lineIdx = idx;
-    renderLine(lineIdx);
-    paintWords(t);
-    showBackdrop(pictureFor(song.lines[lineIdx], t), lineIdx, lineIdx);
-    var dur = song.duration || audio.duration || 0;
-    if (dur > 0) $("track-bar").style.width = Math.min(100, (t / dur) * 100) + "%";
-  }
-
-  function lineKey(li, wi) { return li + ":" + wi; }
-
-  function allWords() {
-    var list = [];
-    song.lines.forEach(function (line, li) {
-      line.words.forEach(function (w, wi) {
-        list.push({ li: li, wi: wi, w: w });
-      });
-    });
-    return list;
-  }
-
-  function registerTap(t, onlyWi) {
-    if (mode !== "sing" || ended || paused || lineIdx < 0) return;
-    var line = song.lines[lineIdx];
-    var best = null;
-    var bestDist = 999;
-    var i, w, open, close, mid, dist, key;
-    for (i = 0; i < line.words.length; i++) {
-      if (onlyWi != null && i !== onlyWi) continue;
-      key = lineKey(lineIdx, i);
-      if (hits[key]) continue;
-      w = line.words[i];
-      open = w.start - (onlyWi != null ? TAP_LEAD + 0.12 : TAP_LEAD);
-      close = w.end + TAP_TRAIL;
-      if (t < open || t > close) continue;
-      mid = (w.start + w.end) / 2;
-      dist = Math.abs(t - mid);
-      if (dist < bestDist) {
-        bestDist = dist;
-        best = i;
-      }
-    }
-    if (best == null && onlyWi == null) {
-      var next = song.lines[lineIdx + 1];
-      if (next && next.words[0]) {
-        w = next.words[0];
-        if (t >= w.start - TAP_LEAD && t <= w.end + TAP_TRAIL && !hits[lineKey(lineIdx + 1, 0)]) {
-          hits[lineKey(lineIdx + 1, 0)] = true;
-          flashTap();
-          return;
-        }
-      }
-      return;
-    }
-    if (best == null) return;
-    hits[lineKey(lineIdx, best)] = true;
-    flashTap();
-    paintWords(t);
-  }
-
-  function flashTap() {
-    var btn = $("btn-tap");
-    btn.classList.add("pop");
-    setTimeout(function () { btn.classList.remove("pop"); }, 90);
+    lineIdx = idx;
+    renderLine(idx);
+    paintWords(t, idx);
+    showBackdrop(pictureFor(song.lines[idx], t), idx, idx);
   }
 
   function setPanels(which) {
     $("panel-ready").hidden = which !== "ready";
     $("panel-play").hidden = which !== "play";
+    $("panel-quiz").hidden = which !== "quiz";
     $("panel-score").hidden = which !== "score";
-    $("btn-pause").hidden = which !== "play";
-    $("track").hidden = which !== "play" || mode === "practice";
+    $("btn-pause").hidden = which !== "play" || mode !== "listen";
+    $("track").hidden = which !== "play" || mode !== "listen";
   }
-
-  function stopGap() {
-    if (gapTimer) {
-      clearTimeout(gapTimer);
-      gapTimer = 0;
-    }
-  }
-
-  function pauseAudio() {
-    try { audio.pause(); } catch (e) {}
-  }
-
+  function stopGap() { if (gapTimer) { clearTimeout(gapTimer); gapTimer = 0; } }
+  function pauseAudio() { try { audio.pause(); } catch (e) {} }
   function playAudio() {
     var p = audio.play();
-    if (p && typeof p.catch === "function") {
-      p.catch(function () {
-        if (mode === "practice") {
-          $("rep-label").textContent = "Tap Next";
-        }
-      });
-    }
+    if (p && typeof p.catch === "function") p.catch(function () {});
     return p;
   }
 
@@ -471,237 +491,302 @@
     ended = false;
     paused = false;
     stopGap();
+    stopSlice();
     pauseAudio();
-    try { audio.currentTime = 0; } catch (e) {}
     clearWords();
     setPanels("ready");
-    $("btn-pause").textContent = "Pause";
-    showBest();
-    var pic = firstPic();
+    refreshStageButtons();
+    showBestStage();
     picKey = "";
-    showBackdrop(pic, 0, 0);
+    showBackdrop(firstPic(), 0, 0);
   }
 
-  function beginListen(from) {
+  function stageDoneScreen(stage, big, msg, detail) {
+    mode = "done";
+    stopGap(); stopSlice(); pauseAudio();
+    setPanels("score");
+    $("score-stars").textContent = "★★★";
+    $("score-pct").textContent = big;
+    $("score-msg").textContent = msg;
+    $("score-detail").textContent = detail;
+    var nx = nextStage();
+    $("btn-again").hidden = !nx;
+    if (nx) $("btn-again").textContent = "Next: " + STAGE_NAME[nx];
+  }
+
+  /* ---------- Stage 1: Listen ---------- */
+  function beginListen() {
+    if (!isUnlocked("listen")) return;
     mode = "listen";
     ended = false;
     paused = false;
-    hits = {};
-    stopGap();
+    stopSlice();
     lineIdx = -1;
     builtLine = -1;
     setPanels("play");
     $("practice-bar").hidden = true;
-    $("btn-tap").hidden = true;
+    $("tap-hint").hidden = true;
     $("btn-pause").textContent = "Pause";
-    seekTo(from || 0);
+    audio.muted = false;
+    try { audio.currentTime = 0; } catch (e) {}
     playAudio();
   }
+  function finishListen() {
+    if (ended) return;
+    ended = true;
+    markDone("listen");
+    stageDoneScreen("listen", "Done!", "You listened to the song!", "듣기 끝! Now tap the words.");
+  }
 
-  function beginSing() {
-    mode = "sing";
-    ended = false;
-    paused = false;
-    hits = {};
-    stopGap();
-    lineIdx = -1;
+  /* ---------- Stage 2: Tap ---------- */
+  var tapped = {};
+  var tapBusy = false;
+  function startTapLine(idx) {
+    if (idx >= song.lines.length) {
+      markDone("tap");
+      stageDoneScreen("tap", "Done!", "You tapped every word!", "누르기 끝! Now practice singing.");
+      return;
+    }
+    mode = "tap";
+    lineIdx = idx;
+    tapped = {};
+    tapBusy = false;
     builtLine = -1;
     setPanels("play");
-    $("practice-bar").hidden = true;
-    $("btn-tap").hidden = false;
-    $("btn-pause").textContent = "Pause";
-    seekTo(0);
-    playAudio();
+    $("practice-bar").hidden = false;
+    $("btn-prev").hidden = true;
+    $("btn-next").hidden = true;
+    $("tap-hint").hidden = false;
+    $("tap-hint").textContent = "Tap each word!";
+    $("rep-label").textContent = "Line " + (idx + 1) + " / " + song.lines.length;
+    renderLine(idx);
+    resetPaint();
+    showBackdrop(pictureFor(song.lines[idx], song.lines[idx].start), idx, idx);
+  }
+  function onWordTap(i) {
+    if (mode !== "tap" || tapBusy) return;
+    var line = song.lines[lineIdx];
+    var w = line.words[i];
+    tapped[i] = true;
+    wordEls[i].classList.add("tapped");
+    dlog({ ev: "word", line: lineIdx, i: i, t: w.t });
+    var allDone = line.words.every(function (_, k) { return tapped[k]; });
+    var li = lineIdx;
+    playSlice(w.start - 0.03, w.end + 0.06, false, function () {
+      if (!allDone || mode !== "tap" || li !== lineIdx) return;
+      tapBusy = true;
+      $("tap-hint").textContent = "Listen to the line!";
+      gapTimer = setTimeout(function () {
+        gapTimer = 0;
+        dlog({ ev: "line", line: li });
+        playSlice(line.start - 0.05, practiceSliceEnd(li), false, function () {
+          gapTimer = setTimeout(function () { gapTimer = 0; startTapLine(li + 1); }, 500);
+        });
+      }, 300);
+    });
+    if (slice) slice.noPaint = true;
   }
 
+  /* ---------- Stage 3: Practice ---------- */
   function practiceSliceEnd(idx) {
     var line = song.lines[idx];
     var next = song.lines[idx + 1];
-    var end = line.end + 0.12;
-    if (next) end = Math.min(next.start - 0.04, Math.max(line.end, next.start - 0.04));
-    if (end < line.start + 0.2) end = line.end + 0.05;
+    var end = line.end + 0.35;
+    if (next) end = Math.min(end, next.start - 0.04);
+    if (end < line.end) end = line.end + 0.02;
     return end;
   }
-
-  function startPracticeLine(idx, rep) {
+  function startPracticeLine(idx) {
     if (idx < 0) idx = 0;
     if (idx >= song.lines.length) {
-      practiceDone();
+      markDone("practice");
+      stageDoneScreen("practice", "Done!", "You practiced every line!", "연습 끝! Try the mini quiz.");
       return;
     }
+    stopGap();
     mode = "practice";
-    ended = false;
-    paused = false;
     lineIdx = idx;
-    practiceRep = rep || 0;
     builtLine = -1;
-    sliceEnd = practiceSliceEnd(idx);
-    sliceArmed = false;
     setPanels("play");
     $("practice-bar").hidden = false;
-    $("btn-tap").hidden = true;
-    $("btn-pause").textContent = "Pause";
-    $("rep-label").textContent = (practiceRep + 1) + " / 3";
+    $("btn-prev").hidden = false;
+    $("btn-next").hidden = false;
+    $("btn-next").disabled = true;
+    $("btn-prev").disabled = idx === 0;
+    $("tap-hint").hidden = false;
     renderLine(idx);
     showBackdrop(pictureFor(song.lines[idx], song.lines[idx].start), idx, idx);
-    seekTo(song.lines[idx].start);
-    playAudio();
+    practicePlay(0);
   }
-
-  function practiceDone() {
-    stopGap();
-    pauseAudio();
-    mode = "ready";
-    setPanels("score");
-    $("score-stars").textContent = "★★★";
-    $("score-pct").textContent = "Done!";
-    $("score-msg").textContent = "You practiced every line!";
-    $("score-detail").textContent = "연습 끝! Sing and tap when you are ready.";
-    $("btn-again").textContent = "Sing and Tap";
-  }
-
-  function finishSing() {
-    if (ended) return;
-    ended = true;
-    stopGap();
-    pauseAudio();
-    var total = 0;
-    var hitCount = 0;
-    allWords().forEach(function (item) {
-      total += 1;
-      if (hits[lineKey(item.li, item.wi)]) hitCount += 1;
+  function practicePlay(rep) {
+    practiceRep = rep;
+    var li = lineIdx;
+    var line = song.lines[li];
+    var solo = rep === 2;
+    $("rep-label").textContent = (rep + 1) + " / 3";
+    $("tap-hint").textContent = solo ? "Your turn! Sing alone 🎤" : "Listen and sing";
+    resetPaint();
+    dlog({ ev: "practice", line: li, rep: rep, muted: solo });
+    playSlice(line.start - 0.05, practiceSliceEnd(li), solo, function () {
+      if (mode !== "practice" || li !== lineIdx) return;
+      if (rep < 2) {
+        gapTimer = setTimeout(function () { gapTimer = 0; practicePlay(rep + 1); }, 600);
+      } else {
+        practiceRep = 3;
+        $("rep-label").textContent = "3 / 3 ✓";
+        $("tap-hint").textContent = "Great! Tap Next";
+        $("btn-next").disabled = false;
+      }
     });
-    var percent = total ? Math.round((100 * hitCount) / total) : 0;
-    var stars = starCount(percent, hitCount);
-    var msg = "Let's sing again!";
-    if (stars >= 3) msg = "Wow! Super star!";
-    else if (stars === 2) msg = "Great job!";
-    else if (stars === 1) msg = "Good try!";
-    $("score-stars").textContent = starString(stars);
-    $("score-pct").textContent = percent + "%";
-    $("score-msg").textContent = msg;
-    $("score-detail").textContent = hitCount + " / " + total + " words  ·  " + (stars ? "잘했어요!" : "다시 해 봐요!");
-    $("btn-again").textContent = "Sing again";
-    setPanels("score");
+  }
+
+  /* ---------- Stage 4: Mini quiz ---------- */
+  var quizIdx = 0;
+  var quizScore = 0;
+  var quizLock = false;
+  function shuffle(a) {
+    a = a.slice();
+    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var x = a[i]; a[i] = a[j]; a[j] = x; }
+    return a;
+  }
+  function beginQuiz() {
+    if (!isUnlocked("quiz")) return;
+    quizIdx = 0;
+    quizScore = 0;
+    showQuiz();
+  }
+  function lineByN(n) {
+    for (var i = 0; i < song.lines.length; i++) if (song.lines[i].n === n) return i;
+    return 0;
+  }
+  function playQuizAudio(q) {
+    var li = lineByN(q.line);
+    playSlice(song.lines[li].start - 0.05, practiceSliceEnd(li), false, null);
+  }
+  function showQuiz() {
+    var qs = song.quiz || [];
+    if (quizIdx >= qs.length) return finishQuiz();
+    mode = "quiz";
+    quizLock = false;
+    var q = qs[quizIdx];
+    setPanels("quiz");
+    $("quiz-count").textContent = (quizIdx + 1) + " / " + qs.length;
+    $("quiz-prompt").textContent = q.prompt;
+    var pic = $("quiz-pic");
+    var play = $("quiz-play");
+    var host = $("quiz-choices");
+    host.innerHTML = "";
+    if (q.type === "listen") {
+      pic.hidden = true;
+      play.hidden = false;
+      play.onclick = function () { playQuizAudio(q); };
+      playQuizAudio(q);
+      host.className = "quiz-choices pics";
+    } else {
+      play.hidden = true;
+      pic.hidden = false;
+      pic.src = picUrl(q.pic);
+      pic.alt = "picture";
+      host.className = "quiz-choices";
+    }
+    shuffle(q.choices).forEach(function (c) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "qc";
+      b.dataset.v = c;
+      if (q.type === "listen") {
+        var im = document.createElement("img");
+        im.src = picUrl(c);
+        im.alt = niceName(c);
+        b.appendChild(im);
+      } else b.textContent = c;
+      b.addEventListener("click", function () {
+        if (quizLock) return;
+        quizLock = true;
+        var ok = c === q.answer;
+        if (ok) quizScore += 1;
+        b.classList.add(ok ? "right" : "wrong");
+        if (!ok) Array.prototype.forEach.call(host.children, function (x) { if (x.dataset.v === q.answer) x.classList.add("right"); });
+        dlog({ ev: "quiz", q: quizIdx, ok: ok });
+        stopSlice(); pauseAudio();
+        gapTimer = setTimeout(function () { gapTimer = 0; quizIdx += 1; showQuiz(); }, ok ? 800 : 1600);
+      });
+      host.appendChild(b);
+    });
+  }
+  function finishQuiz() {
+    var total = (song.quiz || []).length;
+    var percent = total ? Math.round((100 * quizScore) / total) : 0;
+    var stars = quizScore >= total ? 3 : quizScore >= total - 1 ? 2 : quizScore > 0 ? 1 : 0;
+    var prev = songStages().quiz;
+    var res = { score: quizScore, total: total, percent: percent, stars: stars, at: Date.now() };
+    if (prev && prev.score > quizScore) { prev.lastScore = quizScore; res = prev; }
+    markDone("quiz", res);
     var prog = window.MRJ_WM_progress;
     if (prog && typeof prog.logResult === "function") {
-      prog.logResult({
-        packId: "day2_song_" + song.id,
-        packTitle: song.title || song.id,
-        kind: "song",
-        score: hitCount,
-        total: total,
-        meta: { percent: percent, stars: stars },
-      });
+      try {
+        prog.logResult({ packId: "day2_song_" + song.id, packTitle: song.title || song.id, kind: "song_quiz", score: quizScore, total: total, meta: { percent: percent, stars: stars } });
+      } catch (e) {}
     }
-    var result = {
-      percent: percent,
-      stars: stars,
-      hits: hitCount,
-      total: total,
-      at: Date.now(),
-    };
-    saveScore(result);
-    showBest();
+    stageDoneScreen("quiz", quizScore + " / " + total, stars >= 3 ? "Wow! Super star!" : stars === 2 ? "Great job!" : "Good try!", "퀴즈 끝! " + percent + "%");
+    $("score-stars").textContent = starString(stars);
+    $("btn-again").hidden = false;
+    $("btn-again").textContent = "Try quiz again";
   }
 
+  /* ---------- loop + wiring ---------- */
   function onTime() {
     if (!song || paused) return;
     var t = audio.currentTime || 0;
-    if (mode === "listen" || mode === "sing") {
+    if (mode === "listen") {
       if (ended) return;
-      syncVisual(t);
-      var mediaDur = (isFinite(audio.duration) && audio.duration > 1) ? audio.duration : 0;
-      var dur = mediaDur || song.duration || 0;
-      var last = song.lines[song.lines.length - 1];
-      var atEnd = audio.ended || (dur > 1 && t >= dur - 0.12) || (last && t >= last.end + 1.2 && t >= (song.duration || dur) - 0.2);
-      if (atEnd) {
-        if (mode === "sing") finishSing();
-        else {
-          ended = true;
-          setPanels("score");
-          $("score-stars").textContent = "♪";
-          $("score-pct").textContent = "End";
-          $("score-msg").textContent = "Want to sing it?";
-          $("score-detail").textContent = "Tap Sing and Tap and press TAP on each word.";
-          $("btn-again").textContent = "Sing and Tap";
-        }
-      }
+      syncListen(t);
+      var dur = (isFinite(audio.duration) && audio.duration > 1) ? audio.duration : (song.duration || 0);
+      if (audio.ended || (dur > 1 && t >= dur - 0.12)) finishListen();
       return;
     }
-    if (mode !== "practice") return;
-    if (!sliceArmed) {
-      if (t >= song.lines[lineIdx].start - 0.05) sliceArmed = true;
-      else return;
-    }
-    syncVisual(t);
-    if (t >= sliceEnd - 0.02) {
-      pauseAudio();
-      practiceRep += 1;
-      if (practiceRep < 3) {
-        $("rep-label").textContent = (practiceRep + 1) + " / 3";
-        stopGap();
-        gapTimer = setTimeout(function () {
-          gapTimer = 0;
-          if (mode !== "practice" || paused) return;
-          sliceArmed = false;
-          seekTo(song.lines[lineIdx].start);
-          builtLine = -1;
-          renderLine(lineIdx);
-          playAudio();
-        }, 420);
-      } else {
-        stopGap();
-        gapTimer = setTimeout(function () {
-          gapTimer = 0;
-          if (mode !== "practice" || paused) return;
-          startPracticeLine(lineIdx + 1, 0);
-        }, 500);
-      }
+    tickSlice(t);
+    if ((mode === "practice" || mode === "tap") && slice && slice.armed) {
+      renderLine(lineIdx);
+      if (!slice.noPaint) paintWords(t, lineIdx);
     }
   }
-
   function loop() {
     onTime();
     raf = requestAnimationFrame(loop);
   }
-
   function togglePause() {
-    if (mode !== "listen" && mode !== "sing" && mode !== "practice") return;
+    if (mode !== "listen") return;
     paused = !paused;
-    if (paused) {
-      pauseAudio();
-      $("btn-pause").textContent = "Play";
-    } else {
-      $("btn-pause").textContent = "Pause";
-      if (mode === "practice" && !gapTimer) playAudio();
-      else if (mode !== "practice") playAudio();
-    }
+    if (paused) { pauseAudio(); $("btn-pause").textContent = "Play"; }
+    else { $("btn-pause").textContent = "Pause"; playAudio(); }
   }
 
-  $("btn-listen").addEventListener("click", function () { beginListen(0); });
-  $("btn-practice").addEventListener("click", function () { startPracticeLine(0, 0); });
-  $("btn-sing").addEventListener("click", function () { beginSing(); });
-  $("btn-tap").addEventListener("pointerdown", function (ev) {
-    ev.preventDefault();
-    registerTap(audio.currentTime, null);
-  });
+  $("btn-listen").addEventListener("click", beginListen);
+  $("btn-tap-stage").addEventListener("click", function () { if (isUnlocked("tap")) startTapLine(0); });
+  $("btn-practice").addEventListener("click", function () { if (isUnlocked("practice")) startPracticeLine(0); });
+  $("btn-quiz").addEventListener("click", beginQuiz);
   $("btn-pause").addEventListener("click", togglePause);
   $("btn-prev").addEventListener("click", function () {
-    if (mode !== "practice") return;
-    stopGap();
-    startPracticeLine(Math.max(0, lineIdx - 1), 0);
+    if (mode !== "practice" || lineIdx === 0) return;
+    startPracticeLine(lineIdx - 1);
   });
   $("btn-next").addEventListener("click", function () {
-    if (mode !== "practice") return;
-    stopGap();
-    startPracticeLine(lineIdx + 1, 0);
+    if (mode !== "practice" || practiceRep < 3) return;
+    startPracticeLine(lineIdx + 1);
   });
-  $("btn-again").addEventListener("click", function () { beginSing(); });
-  $("btn-listen-again").addEventListener("click", function () { beginListen(0); });
+  $("btn-again").addEventListener("click", function () {
+    var nx = nextStage() || "quiz";
+    if (nx === "listen") beginListen();
+    else if (nx === "tap") startTapLine(0);
+    else if (nx === "practice") startPracticeLine(0);
+    else beginQuiz();
+  });
+  $("btn-stages").addEventListener("click", goReady);
+  $("btn-home").addEventListener("click", function () { stopSlice(); pauseAudio(); });
   audio.addEventListener("ended", function () {
-    if (mode === "sing") finishSing();
-    else if (mode === "listen") onTime();
+    if (mode === "listen") finishListen();
+    else tickSlice(audio.currentTime || 0);
   });
   audio.addEventListener("error", function () {
     showError("Could not play the music. Tap a button to try again.");
@@ -717,10 +802,7 @@
       return;
     }
     fetch("data/" + id + ".json", { cache: "no-store" })
-      .then(function (res) {
-        if (!res.ok) throw new Error("song");
-        return res.json();
-      })
+      .then(function (res) { if (!res.ok) throw new Error("song"); return res.json(); })
       .then(function (data) {
         if (!data || !data.lines || !data.lines.length) throw new Error("empty");
         song = data;
@@ -730,9 +812,7 @@
         $("ready-sub").textContent = (song.book || "") + (song.unitTitle ? " · Unit " + song.unit + " · " + song.unitTitle : "");
         audio.src = song.audio;
         audio.load();
-        showBest();
-        picKey = "";
-        showBackdrop(firstPic(), 0, 0);
+        goReady();
         loop();
       })
       .catch(function () {
