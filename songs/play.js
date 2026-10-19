@@ -742,6 +742,7 @@
     return 0;
   }
   function playQuizAudio(q) {
+    if (q.word) { playWord({ t: q.word, start: 0, end: 0 }, null); return; }
     var li = lineByN(q.line);
     playSlice(song.lines[li].start - 0.05, practiceSliceEnd(li), false, null);
   }
@@ -766,8 +767,8 @@
       host.className = "quiz-choices pics";
     } else {
       play.hidden = true;
-      pic.hidden = false;
-      pic.src = picUrl(q.pic);
+      pic.hidden = !q.pic;
+      if (q.pic) pic.src = picUrl(q.pic);
       pic.alt = "picture";
       host.className = "quiz-choices";
     }

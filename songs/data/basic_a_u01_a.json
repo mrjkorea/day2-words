@@ -1,0 +1,1642 @@
+{
+ "id": "basic_a_u01_a",
+ "title": "One to Ten",
+ "book": "Basic A",
+ "unit": 1,
+ "unitTitle": "One to ten",
+ "packId": "basic_a_u1",
+ "audio": "audio/basic_a_u01_a.mp3",
+ "duration": 121.13,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "One, two, three, four!",
+   "words": [
+    {
+     "t": "One,",
+     "start": 2.26,
+     "end": 2.38,
+     "pic": "one"
+    },
+    {
+     "t": "two,",
+     "start": 2.64,
+     "end": 2.76,
+     "pic": "two"
+    },
+    {
+     "t": "three,",
+     "start": 2.74,
+     "end": 3.24,
+     "pic": "three"
+    },
+    {
+     "t": "four!",
+     "start": 3.3,
+     "end": 3.82,
+     "pic": "four"
+    }
+   ],
+   "n": 1,
+   "start": 2.26,
+   "end": 3.82,
+   "pic": "one"
+  },
+  {
+   "section": "Verse 1",
+   "text": "One, two, three, four, five",
+   "words": [
+    {
+     "t": "One,",
+     "start": 5.34,
+     "end": 6.24,
+     "pic": "one"
+    },
+    {
+     "t": "two,",
+     "start": 6.4,
+     "end": 6.74,
+     "pic": "two"
+    },
+    {
+     "t": "three,",
+     "start": 6.8,
+     "end": 7.24,
+     "pic": "three"
+    },
+    {
+     "t": "four,",
+     "start": 7.28,
+     "end": 7.76,
+     "pic": "four"
+    },
+    {
+     "t": "five",
+     "start": 7.84,
+     "end": 8.48,
+     "pic": "five"
+    }
+   ],
+   "n": 2,
+   "start": 5.34,
+   "end": 8.48,
+   "pic": "one"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Six, seven, eight, nine, ten",
+   "words": [
+    {
+     "t": "Six,",
+     "start": 9.88,
+     "end": 10.14,
+     "pic": "six"
+    },
+    {
+     "t": "seven,",
+     "start": 10.3,
+     "end": 10.84,
+     "pic": "seven"
+    },
+    {
+     "t": "eight,",
+     "start": 10.96,
+     "end": 11.26,
+     "pic": "eight"
+    },
+    {
+     "t": "nine,",
+     "start": 11.72,
+     "end": 11.84,
+     "pic": "nine"
+    },
+    {
+     "t": "ten",
+     "start": 12.0,
+     "end": 12.28,
+     "pic": "ten"
+    }
+   ],
+   "n": 3,
+   "start": 9.88,
+   "end": 12.28,
+   "pic": "six"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Count with me, my friend",
+   "words": [
+    {
+     "t": "Count",
+     "start": 13.78,
+     "end": 14.28
+    },
+    {
+     "t": "with",
+     "start": 14.28,
+     "end": 14.82
+    },
+    {
+     "t": "me,",
+     "start": 14.82,
+     "end": 15.34
+    },
+    {
+     "t": "my",
+     "start": 15.4,
+     "end": 15.76
+    },
+    {
+     "t": "friend",
+     "start": 15.76,
+     "end": 16.5
+    }
+   ],
+   "n": 4,
+   "start": 13.78,
+   "end": 16.5,
+   "pic": "count"
+  },
+  {
+   "section": "Verse 1",
+   "text": "One to ten again",
+   "words": [
+    {
+     "t": "One",
+     "start": 17.58,
+     "end": 18.28,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 18.28,
+     "end": 18.74
+    },
+    {
+     "t": "ten",
+     "start": 18.74,
+     "end": 19.42,
+     "pic": "ten"
+    },
+    {
+     "t": "again",
+     "start": 19.42,
+     "end": 20.4
+    }
+   ],
+   "n": 5,
+   "start": 17.58,
+   "end": 20.4,
+   "pic": "count"
+  },
+  {
+   "section": "Pre-Chorus",
+   "text": "Are you ready? Ready!",
+   "words": [
+    {
+     "t": "Are",
+     "start": 21.44,
+     "end": 21.72
+    },
+    {
+     "t": "you",
+     "start": 21.72,
+     "end": 21.94
+    },
+    {
+     "t": "ready?",
+     "start": 21.94,
+     "end": 22.5
+    },
+    {
+     "t": "Ready!",
+     "start": 23.98,
+     "end": 24.28
+    }
+   ],
+   "n": 6,
+   "start": 21.44,
+   "end": 24.28,
+   "pic": "ready"
+  },
+  {
+   "section": "Pre-Chorus",
+   "text": "Here we go! Here we go!",
+   "words": [
+    {
+     "t": "Here",
+     "start": 25.28,
+     "end": 25.68
+    },
+    {
+     "t": "we",
+     "start": 25.68,
+     "end": 25.92
+    },
+    {
+     "t": "go!",
+     "start": 25.92,
+     "end": 26.42
+    },
+    {
+     "t": "Here",
+     "start": 26.5,
+     "end": 26.68
+    },
+    {
+     "t": "we",
+     "start": 26.68,
+     "end": 26.92
+    },
+    {
+     "t": "go!",
+     "start": 26.92,
+     "end": 27.44
+    }
+   ],
+   "n": 7,
+   "start": 25.28,
+   "end": 27.44,
+   "pic": "ready"
+  },
+  {
+   "section": "Chorus",
+   "text": "One, two, three, four, five!",
+   "words": [
+    {
+     "t": "One,",
+     "start": 29.68,
+     "end": 30.2,
+     "pic": "one"
+    },
+    {
+     "t": "two,",
+     "start": 30.2,
+     "end": 30.72,
+     "pic": "two"
+    },
+    {
+     "t": "three,",
+     "start": 30.8,
+     "end": 31.16,
+     "pic": "three"
+    },
+    {
+     "t": "four,",
+     "start": 31.28,
+     "end": 31.4,
+     "pic": "four"
+    },
+    {
+     "t": "five!",
+     "start": 31.62,
+     "end": 31.76,
+     "pic": "five"
+    }
+   ],
+   "n": 8,
+   "start": 29.68,
+   "end": 31.76,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "Six, seven, eight, nine, ten!",
+   "words": [
+    {
+     "t": "Six,",
+     "start": 31.76,
+     "end": 32.14,
+     "pic": "six"
+    },
+    {
+     "t": "seven,",
+     "start": 32.28,
+     "end": 32.88,
+     "pic": "seven"
+    },
+    {
+     "t": "eight,",
+     "start": 33.0,
+     "end": 33.22,
+     "pic": "eight"
+    },
+    {
+     "t": "nine,",
+     "start": 33.34,
+     "end": 33.46,
+     "pic": "nine"
+    },
+    {
+     "t": "ten!",
+     "start": 33.48,
+     "end": 33.74,
+     "pic": "ten"
+    }
+   ],
+   "n": 9,
+   "start": 31.76,
+   "end": 33.74,
+   "pic": "six"
+  },
+  {
+   "section": "Chorus",
+   "text": "One to ten, one to ten",
+   "words": [
+    {
+     "t": "One",
+     "start": 33.8,
+     "end": 34.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 34.16,
+     "end": 34.34
+    },
+    {
+     "t": "ten,",
+     "start": 34.34,
+     "end": 34.74,
+     "pic": "ten"
+    },
+    {
+     "t": "one",
+     "start": 34.8,
+     "end": 35.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 35.16,
+     "end": 35.38
+    },
+    {
+     "t": "ten",
+     "start": 35.38,
+     "end": 35.68,
+     "pic": "ten"
+    }
+   ],
+   "n": 10,
+   "start": 33.8,
+   "end": 35.68,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's go again! Let's go!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 35.84,
+     "end": 35.98
+    },
+    {
+     "t": "go",
+     "start": 35.98,
+     "end": 36.32
+    },
+    {
+     "t": "again!",
+     "start": 36.32,
+     "end": 37.08
+    },
+    {
+     "t": "Let's",
+     "start": 37.38,
+     "end": 37.52
+    },
+    {
+     "t": "go!",
+     "start": 37.52,
+     "end": 37.8
+    }
+   ],
+   "n": 11,
+   "start": 35.84,
+   "end": 37.8,
+   "pic": "ready"
+  },
+  {
+   "section": "Chorus",
+   "text": "One, two, three, four, five!",
+   "words": [
+    {
+     "t": "One,",
+     "start": 37.85,
+     "end": 38.31,
+     "pic": "one"
+    },
+    {
+     "t": "two,",
+     "start": 38.33,
+     "end": 38.79,
+     "pic": "two"
+    },
+    {
+     "t": "three,",
+     "start": 38.86,
+     "end": 39.18,
+     "pic": "three"
+    },
+    {
+     "t": "four,",
+     "start": 39.36,
+     "end": 39.48,
+     "pic": "four"
+    },
+    {
+     "t": "five!",
+     "start": 39.78,
+     "end": 39.9,
+     "pic": "five"
+    }
+   ],
+   "n": 12,
+   "start": 37.85,
+   "end": 39.9,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "Six, seven, eight, nine, ten!",
+   "words": [
+    {
+     "t": "Six,",
+     "start": 39.8,
+     "end": 40.2,
+     "pic": "six"
+    },
+    {
+     "t": "seven,",
+     "start": 40.26,
+     "end": 40.86,
+     "pic": "seven"
+    },
+    {
+     "t": "eight,",
+     "start": 41.16,
+     "end": 41.28,
+     "pic": "eight"
+    },
+    {
+     "t": "nine,",
+     "start": 41.4,
+     "end": 41.52,
+     "pic": "nine"
+    },
+    {
+     "t": "ten!",
+     "start": 41.44,
+     "end": 41.76,
+     "pic": "ten"
+    }
+   ],
+   "n": 13,
+   "start": 39.8,
+   "end": 41.76,
+   "pic": "six"
+  },
+  {
+   "section": "Chorus",
+   "text": "One to ten, one to ten",
+   "words": [
+    {
+     "t": "One",
+     "start": 41.76,
+     "end": 42.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 42.16,
+     "end": 42.36
+    },
+    {
+     "t": "ten,",
+     "start": 42.36,
+     "end": 42.76,
+     "pic": "ten"
+    },
+    {
+     "t": "one",
+     "start": 42.94,
+     "end": 43.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 43.16,
+     "end": 43.4
+    },
+    {
+     "t": "ten",
+     "start": 43.4,
+     "end": 43.82,
+     "pic": "ten"
+    }
+   ],
+   "n": 14,
+   "start": 41.76,
+   "end": 43.82,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "Count it up again!",
+   "words": [
+    {
+     "t": "Count",
+     "start": 44.16,
+     "end": 44.28
+    },
+    {
+     "t": "it",
+     "start": 44.22,
+     "end": 44.5
+    },
+    {
+     "t": "up",
+     "start": 44.5,
+     "end": 44.7
+    },
+    {
+     "t": "again!",
+     "start": 44.7,
+     "end": 45.38
+    }
+   ],
+   "n": 15,
+   "start": 44.16,
+   "end": 45.38,
+   "pic": "count"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Ten, nine, eight, seven, six",
+   "words": [
+    {
+     "t": "Ten,",
+     "start": 45.38,
+     "end": 46.24,
+     "pic": "ten"
+    },
+    {
+     "t": "nine,",
+     "start": 46.68,
+     "end": 46.8,
+     "pic": "nine"
+    },
+    {
+     "t": "eight,",
+     "start": 47.18,
+     "end": 47.3,
+     "pic": "eight"
+    },
+    {
+     "t": "seven,",
+     "start": 47.4,
+     "end": 47.84,
+     "pic": "seven"
+    },
+    {
+     "t": "six",
+     "start": 47.92,
+     "end": 48.46,
+     "pic": "six"
+    }
+   ],
+   "n": 16,
+   "start": 45.38,
+   "end": 48.46,
+   "pic": "ten"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Five, four, three, two, one",
+   "words": [
+    {
+     "t": "Five,",
+     "start": 48.46,
+     "end": 50.3,
+     "pic": "five"
+    },
+    {
+     "t": "four,",
+     "start": 50.38,
+     "end": 50.8,
+     "pic": "four"
+    },
+    {
+     "t": "three,",
+     "start": 50.84,
+     "end": 51.3,
+     "pic": "three"
+    },
+    {
+     "t": "two,",
+     "start": 51.3,
+     "end": 51.78,
+     "pic": "two"
+    },
+    {
+     "t": "one",
+     "start": 51.78,
+     "end": 52.44,
+     "pic": "one"
+    }
+   ],
+   "n": 17,
+   "start": 48.46,
+   "end": 52.44,
+   "pic": "five"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Count it down, count it down",
+   "words": [
+    {
+     "t": "Count",
+     "start": 53.74,
+     "end": 54.34
+    },
+    {
+     "t": "it",
+     "start": 54.34,
+     "end": 54.82
+    },
+    {
+     "t": "down,",
+     "start": 54.82,
+     "end": 55.48
+    },
+    {
+     "t": "count",
+     "start": 55.64,
+     "end": 56.32
+    },
+    {
+     "t": "it",
+     "start": 56.32,
+     "end": 56.9
+    },
+    {
+     "t": "down",
+     "start": 56.9,
+     "end": 57.52
+    }
+   ],
+   "n": 18,
+   "start": 53.74,
+   "end": 57.52,
+   "pic": "count"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Count it down with me!",
+   "words": [
+    {
+     "t": "Count",
+     "start": 57.52,
+     "end": 58.3
+    },
+    {
+     "t": "it",
+     "start": 58.3,
+     "end": 58.88
+    },
+    {
+     "t": "down",
+     "start": 58.88,
+     "end": 59.4
+    },
+    {
+     "t": "with",
+     "start": 59.4,
+     "end": 59.82
+    },
+    {
+     "t": "me!",
+     "start": 59.82,
+     "end": 60.9
+    }
+   ],
+   "n": 19,
+   "start": 57.52,
+   "end": 60.9,
+   "pic": "count"
+  },
+  {
+   "section": "Pre-Chorus",
+   "text": "Are you ready? Ready!",
+   "words": [
+    {
+     "t": "Are",
+     "start": 60.9,
+     "end": 61.7
+    },
+    {
+     "t": "you",
+     "start": 61.7,
+     "end": 61.94
+    },
+    {
+     "t": "ready?",
+     "start": 61.94,
+     "end": 62.52
+    },
+    {
+     "t": "Ready!",
+     "start": 64.08,
+     "end": 64.68
+    }
+   ],
+   "n": 20,
+   "start": 60.9,
+   "end": 64.68,
+   "pic": "ready"
+  },
+  {
+   "section": "Pre-Chorus",
+   "text": "Here we go! Here we go!",
+   "words": [
+    {
+     "t": "Here",
+     "start": 65.22,
+     "end": 65.74
+    },
+    {
+     "t": "we",
+     "start": 65.74,
+     "end": 65.92
+    },
+    {
+     "t": "go!",
+     "start": 65.92,
+     "end": 67.38
+    },
+    {
+     "t": "Here",
+     "start": 67.43,
+     "end": 67.62
+    },
+    {
+     "t": "we",
+     "start": 67.64,
+     "end": 67.82
+    },
+    {
+     "t": "go!",
+     "start": 67.84,
+     "end": 68.03
+    }
+   ],
+   "n": 21,
+   "start": 65.22,
+   "end": 68.03,
+   "pic": "ready"
+  },
+  {
+   "section": "Chorus",
+   "text": "One, two, three, four, five!",
+   "words": [
+    {
+     "t": "One,",
+     "start": 68.1,
+     "end": 68.24,
+     "pic": "one"
+    },
+    {
+     "t": "two,",
+     "start": 68.4,
+     "end": 68.7,
+     "pic": "two"
+    },
+    {
+     "t": "three,",
+     "start": 69.12,
+     "end": 69.24,
+     "pic": "three"
+    },
+    {
+     "t": "four,",
+     "start": 69.3,
+     "end": 69.42,
+     "pic": "four"
+    },
+    {
+     "t": "five!",
+     "start": 69.7,
+     "end": 69.82,
+     "pic": "five"
+    }
+   ],
+   "n": 22,
+   "start": 68.1,
+   "end": 69.82,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "Six, seven, eight, nine, ten!",
+   "words": [
+    {
+     "t": "Six,",
+     "start": 69.78,
+     "end": 70.18,
+     "pic": "six"
+    },
+    {
+     "t": "seven,",
+     "start": 70.24,
+     "end": 70.84,
+     "pic": "seven"
+    },
+    {
+     "t": "eight,",
+     "start": 71.14,
+     "end": 71.26,
+     "pic": "eight"
+    },
+    {
+     "t": "nine,",
+     "start": 71.2,
+     "end": 71.4,
+     "pic": "nine"
+    },
+    {
+     "t": "ten!",
+     "start": 71.48,
+     "end": 71.72,
+     "pic": "ten"
+    }
+   ],
+   "n": 23,
+   "start": 69.78,
+   "end": 71.72,
+   "pic": "six"
+  },
+  {
+   "section": "Chorus",
+   "text": "One to ten, one to ten",
+   "words": [
+    {
+     "t": "One",
+     "start": 71.72,
+     "end": 72.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 72.16,
+     "end": 72.38
+    },
+    {
+     "t": "ten,",
+     "start": 72.38,
+     "end": 72.74,
+     "pic": "ten"
+    },
+    {
+     "t": "one",
+     "start": 72.94,
+     "end": 73.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 73.16,
+     "end": 73.36
+    },
+    {
+     "t": "ten",
+     "start": 73.36,
+     "end": 73.68,
+     "pic": "ten"
+    }
+   ],
+   "n": 24,
+   "start": 71.72,
+   "end": 73.68,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's go again! Let's go!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 73.86,
+     "end": 74.0
+    },
+    {
+     "t": "go",
+     "start": 74.0,
+     "end": 74.32
+    },
+    {
+     "t": "again!",
+     "start": 74.32,
+     "end": 75.06
+    },
+    {
+     "t": "Let's",
+     "start": 75.26,
+     "end": 75.56
+    },
+    {
+     "t": "go!",
+     "start": 75.56,
+     "end": 75.78
+    }
+   ],
+   "n": 25,
+   "start": 73.86,
+   "end": 75.78,
+   "pic": "ready"
+  },
+  {
+   "section": "Chorus",
+   "text": "One, two, three, four, five!",
+   "words": [
+    {
+     "t": "One,",
+     "start": 75.83,
+     "end": 76.37,
+     "pic": "one"
+    },
+    {
+     "t": "two,",
+     "start": 76.44,
+     "end": 76.7,
+     "pic": "two"
+    },
+    {
+     "t": "three,",
+     "start": 76.82,
+     "end": 77.18,
+     "pic": "three"
+    },
+    {
+     "t": "four,",
+     "start": 77.36,
+     "end": 77.48,
+     "pic": "four"
+    },
+    {
+     "t": "five!",
+     "start": 77.72,
+     "end": 77.84,
+     "pic": "five"
+    }
+   ],
+   "n": 26,
+   "start": 75.83,
+   "end": 77.84,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "Six, seven, eight, nine, ten!",
+   "words": [
+    {
+     "t": "Six,",
+     "start": 77.82,
+     "end": 78.2,
+     "pic": "six"
+    },
+    {
+     "t": "seven,",
+     "start": 78.24,
+     "end": 78.84,
+     "pic": "seven"
+    },
+    {
+     "t": "eight,",
+     "start": 79.16,
+     "end": 79.28,
+     "pic": "eight"
+    },
+    {
+     "t": "nine,",
+     "start": 79.4,
+     "end": 79.52,
+     "pic": "nine"
+    },
+    {
+     "t": "ten!",
+     "start": 79.48,
+     "end": 79.74,
+     "pic": "ten"
+    }
+   ],
+   "n": 27,
+   "start": 77.82,
+   "end": 79.74,
+   "pic": "six"
+  },
+  {
+   "section": "Chorus",
+   "text": "One to ten, one to ten",
+   "words": [
+    {
+     "t": "One",
+     "start": 79.74,
+     "end": 80.18,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 80.18,
+     "end": 80.36
+    },
+    {
+     "t": "ten,",
+     "start": 80.36,
+     "end": 80.76,
+     "pic": "ten"
+    },
+    {
+     "t": "one",
+     "start": 80.86,
+     "end": 81.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 81.16,
+     "end": 81.38
+    },
+    {
+     "t": "ten",
+     "start": 81.38,
+     "end": 81.8,
+     "pic": "ten"
+    }
+   ],
+   "n": 28,
+   "start": 79.74,
+   "end": 81.8,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "Count it up again!",
+   "words": [
+    {
+     "t": "Count",
+     "start": 81.9,
+     "end": 82.26
+    },
+    {
+     "t": "it",
+     "start": 82.26,
+     "end": 82.5
+    },
+    {
+     "t": "up",
+     "start": 82.5,
+     "end": 82.74
+    },
+    {
+     "t": "again!",
+     "start": 82.74,
+     "end": 83.34
+    }
+   ],
+   "n": 29,
+   "start": 81.9,
+   "end": 83.34,
+   "pic": "count"
+  },
+  {
+   "section": "Bridge",
+   "text": "One, two! Clap, clap!",
+   "words": [
+    {
+     "t": "One,",
+     "start": 83.84,
+     "end": 84.3,
+     "pic": "one"
+    },
+    {
+     "t": "two!",
+     "start": 84.42,
+     "end": 84.76,
+     "pic": "two"
+    },
+    {
+     "t": "Clap,",
+     "start": 85.38,
+     "end": 85.5,
+     "pic": "clap"
+    },
+    {
+     "t": "clap!",
+     "start": 85.72,
+     "end": 85.84
+    }
+   ],
+   "n": 30,
+   "start": 83.84,
+   "end": 85.84,
+   "pic": "one"
+  },
+  {
+   "section": "Bridge",
+   "text": "Three, four! Clap, clap!",
+   "words": [
+    {
+     "t": "Three,",
+     "start": 86.14,
+     "end": 86.28,
+     "pic": "three"
+    },
+    {
+     "t": "four!",
+     "start": 86.34,
+     "end": 86.76,
+     "pic": "four"
+    },
+    {
+     "t": "Clap,",
+     "start": 87.38,
+     "end": 87.5,
+     "pic": "clap"
+    },
+    {
+     "t": "clap!",
+     "start": 87.76,
+     "end": 87.88
+    }
+   ],
+   "n": 31,
+   "start": 86.14,
+   "end": 87.88,
+   "pic": "three"
+  },
+  {
+   "section": "Bridge",
+   "text": "Five, six! Hands up!",
+   "words": [
+    {
+     "t": "Five,",
+     "start": 87.98,
+     "end": 88.38,
+     "pic": "five"
+    },
+    {
+     "t": "six!",
+     "start": 88.8,
+     "end": 89.2,
+     "pic": "six"
+    },
+    {
+     "t": "Hands",
+     "start": 90.44,
+     "end": 90.56,
+     "pic": "jump"
+    },
+    {
+     "t": "up!",
+     "start": 90.54,
+     "end": 91.38
+    }
+   ],
+   "n": 32,
+   "start": 87.98,
+   "end": 91.38,
+   "pic": "five"
+  },
+  {
+   "section": "Bridge",
+   "text": "Seven, eight! Jump up!",
+   "words": [
+    {
+     "t": "Seven,",
+     "start": 91.96,
+     "end": 92.46,
+     "pic": "seven"
+    },
+    {
+     "t": "eight!",
+     "start": 92.92,
+     "end": 93.48,
+     "pic": "eight"
+    },
+    {
+     "t": "Jump",
+     "start": 94.22,
+     "end": 94.34,
+     "pic": "jump"
+    },
+    {
+     "t": "up!",
+     "start": 94.3,
+     "end": 95.04
+    }
+   ],
+   "n": 33,
+   "start": 91.96,
+   "end": 95.04,
+   "pic": "seven"
+  },
+  {
+   "section": "Bridge",
+   "text": "Nine and ten!",
+   "words": [
+    {
+     "t": "Nine",
+     "start": 95.94,
+     "end": 96.44,
+     "pic": "nine"
+    },
+    {
+     "t": "and",
+     "start": 96.44,
+     "end": 96.84
+    },
+    {
+     "t": "ten!",
+     "start": 96.84,
+     "end": 97.94,
+     "pic": "ten"
+    }
+   ],
+   "n": 34,
+   "start": 95.94,
+   "end": 97.94,
+   "pic": "nine"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "One, two, three, four, five!",
+   "words": [
+    {
+     "t": "One,",
+     "start": 101.74,
+     "end": 102.24,
+     "pic": "one"
+    },
+    {
+     "t": "two,",
+     "start": 102.28,
+     "end": 102.7,
+     "pic": "two"
+    },
+    {
+     "t": "three,",
+     "start": 103.1,
+     "end": 103.22,
+     "pic": "three"
+    },
+    {
+     "t": "four,",
+     "start": 103.36,
+     "end": 103.48,
+     "pic": "four"
+    },
+    {
+     "t": "five!",
+     "start": 103.7,
+     "end": 103.82,
+     "pic": "five"
+    }
+   ],
+   "n": 35,
+   "start": 101.74,
+   "end": 103.82,
+   "pic": "one"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Six, seven, eight, nine, ten!",
+   "words": [
+    {
+     "t": "Six,",
+     "start": 104.0,
+     "end": 104.16,
+     "pic": "six"
+    },
+    {
+     "t": "seven,",
+     "start": 104.36,
+     "end": 104.86,
+     "pic": "seven"
+    },
+    {
+     "t": "eight,",
+     "start": 104.96,
+     "end": 105.16,
+     "pic": "eight"
+    },
+    {
+     "t": "nine,",
+     "start": 105.38,
+     "end": 105.5,
+     "pic": "nine"
+    },
+    {
+     "t": "ten!",
+     "start": 105.54,
+     "end": 105.68,
+     "pic": "ten"
+    }
+   ],
+   "n": 36,
+   "start": 104.0,
+   "end": 105.68,
+   "pic": "six"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "One to ten, one to ten",
+   "words": [
+    {
+     "t": "One",
+     "start": 106.1,
+     "end": 106.22,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 106.16,
+     "end": 106.36
+    },
+    {
+     "t": "ten,",
+     "start": 106.36,
+     "end": 106.74,
+     "pic": "ten"
+    },
+    {
+     "t": "one",
+     "start": 106.96,
+     "end": 107.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 107.16,
+     "end": 107.4
+    },
+    {
+     "t": "ten",
+     "start": 107.4,
+     "end": 107.68,
+     "pic": "ten"
+    }
+   ],
+   "n": 37,
+   "start": 106.1,
+   "end": 107.68,
+   "pic": "one"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Let's go again! Let's go!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 107.78,
+     "end": 107.98
+    },
+    {
+     "t": "go",
+     "start": 107.98,
+     "end": 108.3
+    },
+    {
+     "t": "again!",
+     "start": 108.3,
+     "end": 109.1
+    },
+    {
+     "t": "Let's",
+     "start": 109.48,
+     "end": 109.6
+    },
+    {
+     "t": "go!",
+     "start": 109.5,
+     "end": 109.74
+    }
+   ],
+   "n": 38,
+   "start": 107.78,
+   "end": 109.74,
+   "pic": "ready"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "One, two, three, four, five!",
+   "words": [
+    {
+     "t": "One,",
+     "start": 109.96,
+     "end": 110.28,
+     "pic": "one"
+    },
+    {
+     "t": "two,",
+     "start": 110.7,
+     "end": 110.82,
+     "pic": "two"
+    },
+    {
+     "t": "three,",
+     "start": 110.84,
+     "end": 111.18,
+     "pic": "three"
+    },
+    {
+     "t": "four,",
+     "start": 111.3,
+     "end": 111.42,
+     "pic": "four"
+    },
+    {
+     "t": "five!",
+     "start": 111.44,
+     "end": 111.78,
+     "pic": "five"
+    }
+   ],
+   "n": 39,
+   "start": 109.96,
+   "end": 111.78,
+   "pic": "one"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Six, seven, eight, nine, ten!",
+   "words": [
+    {
+     "t": "Six,",
+     "start": 111.78,
+     "end": 112.18,
+     "pic": "six"
+    },
+    {
+     "t": "seven,",
+     "start": 112.52,
+     "end": 112.84,
+     "pic": "seven"
+    },
+    {
+     "t": "eight,",
+     "start": 113.16,
+     "end": 113.28,
+     "pic": "eight"
+    },
+    {
+     "t": "nine,",
+     "start": 113.4,
+     "end": 113.52,
+     "pic": "nine"
+    },
+    {
+     "t": "ten!",
+     "start": 113.48,
+     "end": 113.74,
+     "pic": "ten"
+    }
+   ],
+   "n": 40,
+   "start": 111.78,
+   "end": 113.74,
+   "pic": "six"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "One to ten, one to ten",
+   "words": [
+    {
+     "t": "One",
+     "start": 113.74,
+     "end": 114.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 114.16,
+     "end": 114.38
+    },
+    {
+     "t": "ten,",
+     "start": 114.38,
+     "end": 114.76,
+     "pic": "ten"
+    },
+    {
+     "t": "one",
+     "start": 114.82,
+     "end": 115.16,
+     "pic": "one"
+    },
+    {
+     "t": "to",
+     "start": 115.16,
+     "end": 115.38
+    },
+    {
+     "t": "ten",
+     "start": 115.38,
+     "end": 115.84,
+     "pic": "ten"
+    }
+   ],
+   "n": 41,
+   "start": 113.74,
+   "end": 115.84,
+   "pic": "one"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Count it up again!",
+   "words": [
+    {
+     "t": "Count",
+     "start": 115.84,
+     "end": 116.22
+    },
+    {
+     "t": "it",
+     "start": 116.22,
+     "end": 116.46
+    },
+    {
+     "t": "up",
+     "start": 116.46,
+     "end": 116.74
+    },
+    {
+     "t": "again!",
+     "start": 116.74,
+     "end": 117.34
+    }
+   ],
+   "n": 42,
+   "start": 115.84,
+   "end": 117.34,
+   "pic": "count"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "listen",
+   "word": "three",
+   "prompt": "Listen. What number?",
+   "answer": "three",
+   "choices": [
+    "three",
+    "eight",
+    "five"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "seven",
+   "prompt": "Listen. What number?",
+   "answer": "seven",
+   "choices": [
+    "one",
+    "seven",
+    "ten"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "five",
+   "prompt": "What number is this?",
+   "answer": "five",
+   "choices": [
+    "two",
+    "five",
+    "nine"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 34,
+   "prompt": "Listen to the song. Nine and ...?",
+   "answer": "ten",
+   "choices": [
+    "four",
+    "six",
+    "ten"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "One, two, three, ...?",
+   "answer": "four",
+   "choices": [
+    "four",
+    "seven",
+    "nine"
+   ]
+  }
+ ]
+}

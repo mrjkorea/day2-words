@@ -1,6 +1,15 @@
 {
  "songs": [
   {
+   "id": "basic_a_u01_a",
+   "title": "One to Ten",
+   "book": "Basic A",
+   "unit": 1,
+   "unitTitle": "One to ten",
+   "blurb": "One, two, three, four, five!",
+   "packId": "basic_a_u1"
+  },
+  {
    "id": "basic_a_u06_a",
    "title": "What Is This?",
    "book": "Basic A",
