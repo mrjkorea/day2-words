@@ -3,7 +3,7 @@
 (function () {
   "use strict";
   var root = document.documentElement;
-  function fam(id) { return /int3/.test(id) ? "red" : /int2/.test(id) ? "blue" : "green"; }
+  function fam(id) { return /int2/.test(id) ? "red" : /int3/.test(id) ? "blue" : "green"; }
   var ICON = { green: "🌿", blue: "💎", red: "🍎" };
   var nav = document.querySelector(".jump");
   var books = document.querySelectorAll("section.book");
@@ -18,7 +18,9 @@
     try { sessionStorage.setItem("pv.day2.book", id); } catch (e) {}
     if (scroll) { var s = document.getElementById(id); if (s) s.scrollIntoView({ behavior: "smooth", block: "start" }); }
   }
-  books.forEach(function (s) {
+  /* Picker order easiest -> hardest: Basic, Int 3, Int 2 (display only). */
+  function rank(id) { return /int2/.test(id) ? 2 : /int3/.test(id) ? 1 : 0; }
+  Array.prototype.slice.call(books).sort(function (a, b) { return rank(a.id) - rank(b.id); }).forEach(function (s) {
     var h = s.querySelector("h2");
     var name = h ? h.textContent.trim() : s.id;
     var f = fam(s.id);
