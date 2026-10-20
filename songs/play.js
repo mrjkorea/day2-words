@@ -353,7 +353,7 @@
     var el = $("ready-best");
     if (q && typeof q.score === "number") {
       el.hidden = false;
-      el.textContent = "Quiz: " + q.score + " / " + q.total + (q.passed === false ? " · Try again with your teacher" : "");
+      el.textContent = "Quiz: " + q.score + " / " + q.total + (q.total ? " (" + Math.round((100 * q.score) / q.total) + "%)" : "") + (q.passed === false ? " · Try again with your teacher" : "");
     } else el.hidden = true;
   }
 
@@ -820,11 +820,11 @@
     var detail = "퀴즈 " + percent + "%  ·  Try " + attempts;
     if (passed || attempts >= 2) {
       markDone("quiz", res);
-      stageDoneScreen("quiz", quizScore + " / " + total, passed ? (stars >= 3 ? "Wow! Super star!" : "Great job! You passed!") : "Try again with your teacher", detail);
+      stageDoneScreen("quiz", quizScore + " / " + total + " (" + percent + "%)", passed ? (stars >= 3 ? "Wow! Super star!" : "Great job! You passed!") : "Try again with your teacher", detail);
       $("btn-again").hidden = true;
     } else {
       try { saveScore({ percent: percent, stars: stars, screen: "quiz", wordId: "quiz_try1", at: Date.now() }); } catch (e) {}
-      stageDoneScreen("quiz", quizScore + " / " + total, "Almost! Try one more time.", detail + " · Need 3 / 5");
+      stageDoneScreen("quiz", quizScore + " / " + total + " (" + percent + "%)", "Almost! Try one more time.", detail + " · Need 3 / 5");
       $("btn-again").hidden = false;
       $("btn-again").textContent = "Try quiz again";
     }
