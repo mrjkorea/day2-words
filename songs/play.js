@@ -817,14 +817,14 @@
       } catch (e) {}
     }
     var res = { score: quizScore, total: total, percent: percent, stars: stars, attempts: attempts, passed: passed, at: Date.now() };
-    var detail = "퀴즈 " + percent + "%  ·  Try " + attempts;
+    var detail = quizScore + " / " + total + " right  ·  Try " + attempts;
     if (passed || attempts >= 2) {
       markDone("quiz", res);
-      stageDoneScreen("quiz", quizScore + " / " + total + " (" + percent + "%)", passed ? (stars >= 3 ? "Wow! Super star!" : "Great job! You passed!") : "Try again with your teacher", detail);
+      stageDoneScreen("quiz", percent + "%", passed ? (stars >= 3 ? "Wow! Super star!" : "Great job! You passed!") : "Try again with your teacher", detail);
       $("btn-again").hidden = true;
     } else {
       try { saveScore({ percent: percent, stars: stars, screen: "quiz", wordId: "quiz_try1", at: Date.now() }); } catch (e) {}
-      stageDoneScreen("quiz", quizScore + " / " + total + " (" + percent + "%)", "Almost! Try one more time.", detail + " · Need 3 / 5");
+      stageDoneScreen("quiz", percent + "%", "Almost! Try one more time.", detail + " · Need 3 / 5");
       $("btn-again").hidden = false;
       $("btn-again").textContent = "Try quiz again";
     }
