@@ -1,0 +1,518 @@
+{
+ "id": "int2a_u7",
+ "title": "INT 2A · Unit 7 · Where is the Teacher?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2a_u7/audio/us_f/",
+ "picDir": "../packs/int2a_u7/",
+ "lineAudio": "audio/int2a_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "librarian",
+   "choices": [
+    "librarian",
+    "teacher",
+    "secretary",
+    "classmate"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "classmate",
+   "choices": [
+    "classmate",
+    "groundskeeper",
+    "secretary",
+    "principal"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "principal",
+   "choices": [
+    "principal",
+    "librarian",
+    "clean",
+    "secretary"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "teacher",
+   "answer": "teacher",
+   "choices": [
+    "teacher",
+    "teocher",
+    "teachep",
+    "tacher"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "classmate",
+   "answer": "classmate",
+   "choices": [
+    "classmate",
+    "classmte",
+    "cassmate",
+    "classmata"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "librarian",
+   "audio": "audio/int2a_u7/{v}/thisisourlibrarian.mp3",
+   "answer": [
+    "This",
+    "is",
+    "our",
+    "librarian."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "janitor",
+   "audio": "audio/int2a_u7/{v}/thisisourjanitor.mp3",
+   "answer": [
+    "This",
+    "is",
+    "our",
+    "janitor."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "groundskeeper",
+   "audio": "audio/int2a_u7/{v}/thisisourgroundskeeper.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "our",
+    "___",
+    "."
+   ],
+   "answer": "groundskeeper",
+   "choices": [
+    "groundskeeper",
+    "librarian",
+    "classmate"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "janitor",
+   "audio": "audio/int2a_u7/{v}/thisisourjanitor.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "our",
+    "___",
+    "."
+   ],
+   "answer": "janitor",
+   "choices": [
+    "janitor",
+    "librarian",
+    "classmate"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "secretary",
+   "audio": "audio/int2a_u7/{v}/thisisoursecretary.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "our",
+    "___",
+    "."
+   ],
+   "answer": "secretary",
+   "choices": [
+    "secretary",
+    "teacher",
+    "principal"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "classmate",
+   "en": "classmate",
+   "ko": "반 친구",
+   "pic": "../packs/int2a_u7/classmate.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/classmate.mp3",
+   "stext": "This is our classmate.",
+   "sentence": "audio/int2a_u7/{v}/thisisourclassmate.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": "../packs/int2a_u7/teacher.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/teacher.mp3",
+   "stext": "This is our teacher.",
+   "sentence": "audio/int2a_u7/{v}/thisisourteacher.mp3"
+  },
+  {
+   "id": "principal",
+   "en": "principal",
+   "ko": "교장 선생님",
+   "pic": "../packs/int2a_u7/principal.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/principal.mp3",
+   "stext": "This is our principal.",
+   "sentence": "audio/int2a_u7/{v}/thisisourprincipal.mp3"
+  },
+  {
+   "id": "student",
+   "en": "student",
+   "ko": "학생",
+   "pic": null,
+   "audio": "../packs/int2a_u7/audio/{v}/student.mp3",
+   "stext": "I am a student.",
+   "sentence": "audio/int2a_u7/{v}/iamastudent.mp3"
+  },
+  {
+   "id": "clean",
+   "en": "clean",
+   "ko": "청소하다",
+   "pic": "../packs/int2a_u7/clean.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/clean.mp3",
+   "stext": "Let's clean the classroom.",
+   "sentence": "audio/int2a_u7/{v}/letscleantheclassroom.mp3"
+  },
+  {
+   "id": "librarian",
+   "en": "librarian",
+   "ko": "사서",
+   "pic": "../packs/int2a_u7/librarian.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/librarian.mp3",
+   "stext": "This is our librarian.",
+   "sentence": "audio/int2a_u7/{v}/thisisourlibrarian.mp3"
+  },
+  {
+   "id": "janitor",
+   "en": "janitor",
+   "ko": "관리인",
+   "pic": "../packs/int2a_u7/janitor.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/janitor.mp3",
+   "stext": "This is our janitor.",
+   "sentence": "audio/int2a_u7/{v}/thisisourjanitor.mp3"
+  },
+  {
+   "id": "lunchlady",
+   "en": "lunch lady",
+   "ko": "급식 아주머니",
+   "pic": "../packs/int2a_u7/lunchlady.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/lunchlady.mp3",
+   "stext": "This is our lunch lady.",
+   "sentence": "audio/int2a_u7/{v}/thisisourlunchlady.mp3"
+  },
+  {
+   "id": "secretary",
+   "en": "secretary",
+   "ko": "비서, 행정실 선생님",
+   "pic": "../packs/int2a_u7/secretary.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/secretary.mp3",
+   "stext": "This is our secretary.",
+   "sentence": "audio/int2a_u7/{v}/thisisoursecretary.mp3"
+  },
+  {
+   "id": "groundskeeper",
+   "en": "groundskeeper",
+   "ko": "운동장 관리인",
+   "pic": "../packs/int2a_u7/groundskeeper.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/groundskeeper.mp3",
+   "stext": "This is our groundskeeper.",
+   "sentence": "audio/int2a_u7/{v}/thisisourgroundskeeper.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "medicine",
+   "en": "medicine",
+   "ko": "약",
+   "pic": "../packs/int2a_u4/medicine.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/medicine.mp3"
+  },
+  {
+   "id": "basement",
+   "en": "basement",
+   "ko": "지하실",
+   "pic": "../packs/int2a_u5/basement.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/basement.mp3"
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "추운",
+   "pic": "../packs/int2a_u1/cold.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/cold.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/int2a_u4/book.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/book.mp3"
+  },
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "pic": "../packs/int2a_u2/snake.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/snake.mp3"
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "pic": "../packs/int2a_u2/food.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/food.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "lunchlady",
+    "medicine",
+    "secretary",
+    "teacher"
+   ],
+   "odd": "medicine"
+  },
+  {
+   "items": [
+    "secretary",
+    "teacher",
+    "librarian",
+    "basement"
+   ],
+   "odd": "basement"
+  },
+  {
+   "items": [
+    "clean",
+    "cold",
+    "principal",
+    "janitor"
+   ],
+   "odd": "cold"
+  },
+  {
+   "items": [
+    "teacher",
+    "principal",
+    "classmate",
+    "book"
+   ],
+   "odd": "book"
+  },
+  {
+   "items": [
+    "lunchlady",
+    "janitor",
+    "snake",
+    "clean"
+   ],
+   "odd": "snake"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "teacher",
+   "student",
+   "clean",
+   "janitor"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "classmate",
+   "teacher",
+   "principal",
+   "student",
+   "clean",
+   "librarian"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "classmate",
+   "teacher",
+   "principal",
+   "student",
+   "clean",
+   "librarian",
+   "janitor"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Where is our teacher?",
+   "audio": "../packs/int2a_u7/audio/{v}/whereisourteacher.mp3"
+  },
+  {
+   "text": "This is our classmate.",
+   "audio": "audio/int2a_u7/{v}/thisisourclassmate.mp3"
+  },
+  {
+   "text": "This is our teacher.",
+   "audio": "audio/int2a_u7/{v}/thisisourteacher.mp3"
+  },
+  {
+   "text": "This is our principal.",
+   "audio": "audio/int2a_u7/{v}/thisisourprincipal.mp3"
+  },
+  {
+   "text": "I am a student.",
+   "audio": "audio/int2a_u7/{v}/iamastudent.mp3"
+  },
+  {
+   "text": "Let's clean the classroom.",
+   "audio": "audio/int2a_u7/{v}/letscleantheclassroom.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2a_u7/principal.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is our principal.",
+     "audio": "audio/int2a_u7/ai/thisisourprincipal.mp3"
+    },
+    {
+     "text": "This is our janitor.",
+     "audio": "audio/int2a_u7/ai/thisisourjanitor.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u7/secretary.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is our secretary.",
+     "audio": "audio/int2a_u7/ai/thisisoursecretary.mp3"
+    },
+    {
+     "text": "This is our teacher.",
+     "audio": "audio/int2a_u7/ai/thisisourteacher.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u7/clean.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is our teacher.",
+     "audio": "audio/int2a_u7/ai/thisisourteacher.mp3"
+    },
+    {
+     "text": "Let's clean the classroom.",
+     "audio": "audio/int2a_u7/ai/letscleantheclassroom.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2a_u7/lunchlady.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is our groundskeeper.",
+     "audio": "audio/int2a_u7/ai/thisisourgroundskeeper.mp3"
+    },
+    {
+     "text": "This is our lunch lady.",
+     "audio": "audio/int2a_u7/ai/thisisourlunchlady.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2a_u7/",
+  "ai": "audio/int2a_u7/ai/"
+ }
+}

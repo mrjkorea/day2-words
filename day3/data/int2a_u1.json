@@ -1,0 +1,515 @@
+{
+ "id": "int2a_u1",
+ "title": "INT 2A · Unit 1 · How is the Weather?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2a_u1/audio/us_f/",
+ "picDir": "../packs/int2a_u1/",
+ "lineAudio": "audio/int2a_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "stormy",
+   "choices": [
+    "stormy",
+    "rainy",
+    "snowing",
+    "hot"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cold",
+   "choices": [
+    "cold",
+    "rainy",
+    "hot",
+    "stormy"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "foggy",
+   "choices": [
+    "foggy",
+    "hailing",
+    "cold",
+    "rainy"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "stormy",
+   "answer": "stormy",
+   "choices": [
+    "stormy",
+    "storry",
+    "story",
+    "stomy"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "cold",
+   "answer": "cold",
+   "choices": [
+    "cold",
+    "cod",
+    "colt",
+    "celd"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "hot",
+   "audio": "audio/int2a_u1/{v}/itishot.mp3",
+   "answer": [
+    "It",
+    "is",
+    "hot."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "hailing",
+   "audio": "audio/int2a_u1/{v}/itishailing.mp3",
+   "answer": [
+    "It",
+    "is",
+    "hailing."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2a_u1/{v}/theweatherisnice.mp3",
+   "sentence": [
+    "The",
+    "___",
+    "is",
+    "nice."
+   ],
+   "answer": "weather",
+   "choices": [
+    "weather",
+    "humid",
+    "snowing"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "stormy",
+   "audio": "audio/int2a_u1/{v}/itisstormy.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "stormy",
+   "choices": [
+    "stormy",
+    "snowing",
+    "windy"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "humid",
+   "audio": "audio/int2a_u1/{v}/itishumid.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "humid",
+   "choices": [
+    "humid",
+    "cold",
+    "stormy"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "weather",
+   "en": "weather",
+   "ko": "날씨",
+   "pic": null,
+   "audio": "../packs/int2a_u1/audio/{v}/weather.mp3",
+   "stext": "The weather is nice.",
+   "sentence": "audio/int2a_u1/{v}/theweatherisnice.mp3"
+  },
+  {
+   "id": "hot",
+   "en": "hot",
+   "ko": "더운",
+   "pic": "../packs/int2a_u1/hot.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/hot.mp3",
+   "stext": "It is hot.",
+   "sentence": "audio/int2a_u1/{v}/itishot.mp3"
+  },
+  {
+   "id": "snowing",
+   "en": "snowing",
+   "ko": "눈이 오는",
+   "pic": "../packs/int2a_u1/snowing.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/snowing.mp3",
+   "stext": "It is snowing.",
+   "sentence": "audio/int2a_u1/{v}/itissnowing.mp3"
+  },
+  {
+   "id": "stormy",
+   "en": "stormy",
+   "ko": "폭풍우가 치는",
+   "pic": "../packs/int2a_u1/stormy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/stormy.mp3",
+   "stext": "It is stormy.",
+   "sentence": "audio/int2a_u1/{v}/itisstormy.mp3"
+  },
+  {
+   "id": "humid",
+   "en": "humid",
+   "ko": "습한",
+   "pic": "../packs/int2a_u1/humid.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/humid.mp3",
+   "stext": "It is humid.",
+   "sentence": "audio/int2a_u1/{v}/itishumid.mp3"
+  },
+  {
+   "id": "rainy",
+   "en": "rainy",
+   "ko": "비가 오는",
+   "pic": "../packs/int2a_u1/rainy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/rainy.mp3",
+   "stext": "It is rainy.",
+   "sentence": "audio/int2a_u1/{v}/itisrainy.mp3"
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "추운",
+   "pic": "../packs/int2a_u1/cold.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/cold.mp3",
+   "stext": "It is cold.",
+   "sentence": "audio/int2a_u1/{v}/itiscold.mp3"
+  },
+  {
+   "id": "foggy",
+   "en": "foggy",
+   "ko": "안개 낀",
+   "pic": "../packs/int2a_u1/foggy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/foggy.mp3",
+   "stext": "It is foggy.",
+   "sentence": "audio/int2a_u1/{v}/itisfoggy.mp3"
+  },
+  {
+   "id": "windy",
+   "en": "windy",
+   "ko": "바람이 부는",
+   "pic": "../packs/int2a_u1/windy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/windy.mp3",
+   "stext": "It is windy.",
+   "sentence": "audio/int2a_u1/{v}/itiswindy.mp3"
+  },
+  {
+   "id": "hailing",
+   "en": "hailing",
+   "ko": "우박이 내리는",
+   "pic": "../packs/int2a_u1/hailing.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/hailing.mp3",
+   "stext": "It is hailing.",
+   "sentence": "audio/int2a_u1/{v}/itishailing.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "hug",
+   "en": "hug",
+   "ko": "포옹",
+   "pic": "../packs/int2a_u4/hug.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/hug.mp3"
+  },
+  {
+   "id": "librarian",
+   "en": "librarian",
+   "ko": "사서",
+   "pic": "../packs/int2a_u7/librarian.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/librarian.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": "../packs/int2a_u2/teacher.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/teacher.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/int2a_u6/quiet.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/quiet.mp3"
+  },
+  {
+   "id": "sad",
+   "en": "sad",
+   "ko": "슬픈",
+   "pic": "../packs/int2a_u6/sad.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/sad.mp3"
+  },
+  {
+   "id": "water",
+   "en": "water",
+   "ko": "물",
+   "pic": "../packs/int2a_u4/water.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/water.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "foggy",
+    "cold",
+    "hug",
+    "snowing"
+   ],
+   "odd": "hug"
+  },
+  {
+   "items": [
+    "hailing",
+    "librarian",
+    "stormy",
+    "snowing"
+   ],
+   "odd": "librarian"
+  },
+  {
+   "items": [
+    "teacher",
+    "stormy",
+    "cold",
+    "rainy"
+   ],
+   "odd": "teacher"
+  },
+  {
+   "items": [
+    "cold",
+    "windy",
+    "foggy",
+    "quiet"
+   ],
+   "odd": "quiet"
+  },
+  {
+   "items": [
+    "foggy",
+    "hailing",
+    "sad",
+    "cold"
+   ],
+   "odd": "sad"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "weather",
+   "hot",
+   "snowing",
+   "stormy",
+   "humid",
+   "rainy"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "weather",
+   "hot",
+   "snowing",
+   "stormy",
+   "humid",
+   "rainy"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "weather",
+   "hot",
+   "snowing",
+   "stormy",
+   "humid",
+   "rainy",
+   "cold"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "How is the weather?",
+   "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+  },
+  {
+   "text": "It is sunny.",
+   "audio": "../packs/int2a_u1/audio/{v}/itissunny.mp3"
+  },
+  {
+   "text": "The weather is nice.",
+   "audio": "audio/int2a_u1/{v}/theweatherisnice.mp3"
+  },
+  {
+   "text": "It is hot.",
+   "audio": "audio/int2a_u1/{v}/itishot.mp3"
+  },
+  {
+   "text": "It is snowing.",
+   "audio": "audio/int2a_u1/{v}/itissnowing.mp3"
+  },
+  {
+   "text": "It is stormy.",
+   "audio": "audio/int2a_u1/{v}/itisstormy.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2a_u1/cold.jpg",
+   "q": {
+    "text": "How is the weather?",
+    "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is stormy.",
+     "audio": "audio/int2a_u1/ai/itisstormy.mp3"
+    },
+    {
+     "text": "It is cold.",
+     "audio": "audio/int2a_u1/ai/itiscold.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2a_u1/humid.jpg",
+   "q": {
+    "text": "How is the weather?",
+    "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is humid.",
+     "audio": "audio/int2a_u1/ai/itishumid.mp3"
+    },
+    {
+     "text": "It is hailing.",
+     "audio": "audio/int2a_u1/ai/itishailing.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u1/hailing.jpg",
+   "q": {
+    "text": "How is the weather?",
+    "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is hailing.",
+     "audio": "audio/int2a_u1/ai/itishailing.mp3"
+    },
+    {
+     "text": "It is cold.",
+     "audio": "audio/int2a_u1/ai/itiscold.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u1/stormy.jpg",
+   "q": {
+    "text": "How is the weather?",
+    "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is rainy.",
+     "audio": "audio/int2a_u1/ai/itisrainy.mp3"
+    },
+    {
+     "text": "It is stormy.",
+     "audio": "audio/int2a_u1/ai/itisstormy.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2a_u1/",
+  "ai": "audio/int2a_u1/ai/"
+ }
+}

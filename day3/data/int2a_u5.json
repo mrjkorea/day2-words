@@ -1,0 +1,593 @@
+{
+ "id": "int2a_u5",
+ "title": "INT 2A · Unit 5 · Where is My Phone?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2a_u5/audio/us_f/",
+ "picDir": "../packs/int2a_u5/",
+ "lineAudio": "audio/int2a_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "attic",
+   "choices": [
+    "attic",
+    "diningroom",
+    "basement",
+    "bathroom"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "livingroom",
+   "choices": [
+    "livingroom",
+    "diningroom",
+    "bedroom",
+    "classroom"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "classroom",
+   "choices": [
+    "classroom",
+    "basement",
+    "attic",
+    "livingroom"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "bathroom",
+   "answer": "bathroom",
+   "choices": [
+    "bathroom",
+    "bathrom",
+    "bethroom",
+    "bahroom"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "attic",
+   "answer": "attic",
+   "choices": [
+    "attic",
+    "atkic",
+    "ettic",
+    "atti"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "basement",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthebasement.mp3",
+   "answer": [
+    "Maybe",
+    "it",
+    "is",
+    "in",
+    "the",
+    "basement."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "garage",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3",
+   "answer": [
+    "Maybe",
+    "it",
+    "is",
+    "in",
+    "the",
+    "garage."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "attic",
+   "audio": "audio/int2a_u5/{v}/maybeitisintheattic.mp3",
+   "sentence": [
+    "Maybe",
+    "it",
+    "is",
+    "in",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "attic",
+   "choices": [
+    "attic",
+    "basement",
+    "bedroom"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "bedroom",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthebedroom.mp3",
+   "sentence": [
+    "Maybe",
+    "it",
+    "is",
+    "in",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "bedroom",
+   "choices": [
+    "bedroom",
+    "bathroom",
+    "maybe"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "garage",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3",
+   "sentence": [
+    "Maybe",
+    "it",
+    "is",
+    "in",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "garage",
+   "choices": [
+    "garage",
+    "bathroom",
+    "maybe"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "maybe",
+   "en": "maybe",
+   "ko": "아마",
+   "pic": null,
+   "audio": "../packs/int2a_u5/audio/{v}/maybe.mp3",
+   "stext": "Maybe it is in my bag.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinmybag.mp3"
+  },
+  {
+   "id": "kitchen",
+   "en": "kitchen",
+   "ko": "주방",
+   "pic": "../packs/int2a_u5/kitchen.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/kitchen.mp3",
+   "stext": "Maybe it is in the kitchen.",
+   "sentence": "../packs/int2a_u5/audio/{v}/maybeitisinthekitchen.mp3"
+  },
+  {
+   "id": "bathroom",
+   "en": "bathroom",
+   "ko": "욕실",
+   "pic": "../packs/int2a_u5/bathroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/bathroom.mp3",
+   "stext": "Maybe it is in the bathroom.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthebathroom.mp3"
+  },
+  {
+   "id": "livingroom",
+   "en": "living room",
+   "ko": "거실",
+   "pic": "../packs/int2a_u5/livingroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/livingroom.mp3",
+   "stext": "Maybe it is in the living room.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthelivingroom.mp3"
+  },
+  {
+   "id": "garage",
+   "en": "garage",
+   "ko": "차고",
+   "pic": "../packs/int2a_u5/garage.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/garage.mp3",
+   "stext": "Maybe it is in the garage.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3"
+  },
+  {
+   "id": "bedroom",
+   "en": "bedroom",
+   "ko": "침실",
+   "pic": "../packs/int2a_u5/bedroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/bedroom.mp3",
+   "stext": "Maybe it is in the bedroom.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthebedroom.mp3"
+  },
+  {
+   "id": "attic",
+   "en": "attic",
+   "ko": "다락방",
+   "pic": "../packs/int2a_u5/attic.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/attic.mp3",
+   "stext": "Maybe it is in the attic.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisintheattic.mp3"
+  },
+  {
+   "id": "basement",
+   "en": "basement",
+   "ko": "지하실",
+   "pic": "../packs/int2a_u5/basement.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/basement.mp3",
+   "stext": "Maybe it is in the basement.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthebasement.mp3"
+  },
+  {
+   "id": "diningroom",
+   "en": "dining room",
+   "ko": "식당, 식사하는 방",
+   "pic": "../packs/int2a_u5/diningroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/diningroom.mp3",
+   "stext": "Maybe it is in the dining room.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthediningroom.mp3"
+  },
+  {
+   "id": "classroom",
+   "en": "classroom",
+   "ko": "교실",
+   "pic": "../packs/int2a_u5/classroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/classroom.mp3",
+   "stext": "Maybe it is in the classroom.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisintheclassroom.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "watch",
+   "en": "watch",
+   "ko": "보다",
+   "pic": "../packs/int2a_u8/watch.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/watch.mp3"
+  },
+  {
+   "id": "crazy",
+   "en": "crazy",
+   "ko": "엉뚱한, 미친",
+   "pic": "../packs/int2a_u6/crazy.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/crazy.mp3"
+  },
+  {
+   "id": "weird",
+   "en": "weird",
+   "ko": "이상한",
+   "pic": "../packs/int2a_u6/weird.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/weird.mp3"
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "pic": "../packs/int2a_u8/bike.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/bike.mp3"
+  },
+  {
+   "id": "nurse",
+   "en": "nurse",
+   "ko": "보건 선생님",
+   "pic": "../packs/int2a_u7/nurse.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/nurse.mp3"
+  },
+  {
+   "id": "foggy",
+   "en": "foggy",
+   "ko": "안개 낀",
+   "pic": "../packs/int2a_u1/foggy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/foggy.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int2a_u5/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "house",
+  "hotspots": [
+   {
+    "id": "attic",
+    "x": 22.5,
+    "y": 13.0,
+    "w": 55.7,
+    "h": 13.0
+   },
+   {
+    "id": "bedroom",
+    "x": 19.5,
+    "y": 27.6,
+    "w": 34.0,
+    "h": 19.9
+   },
+   {
+    "id": "bathroom",
+    "x": 54.2,
+    "y": 27.6,
+    "w": 27.3,
+    "h": 19.9
+   },
+   {
+    "id": "kitchen",
+    "x": 9.8,
+    "y": 49.2,
+    "w": 30.3,
+    "h": 23.0
+   },
+   {
+    "id": "livingroom",
+    "x": 40.5,
+    "y": 49.2,
+    "w": 29.3,
+    "h": 23.0
+   },
+   {
+    "id": "diningroom",
+    "x": 70.1,
+    "y": 49.2,
+    "w": 24.6,
+    "h": 23.0
+   },
+   {
+    "id": "garage",
+    "x": 2.9,
+    "y": 74.0,
+    "w": 32.0,
+    "h": 21.7
+   },
+   {
+    "id": "basement",
+    "x": 36.3,
+    "y": 74.0,
+    "w": 58.9,
+    "h": 21.7
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "diningroom",
+    "garage",
+    "watch",
+    "bathroom"
+   ],
+   "odd": "watch"
+  },
+  {
+   "items": [
+    "attic",
+    "diningroom",
+    "crazy",
+    "livingroom"
+   ],
+   "odd": "crazy"
+  },
+  {
+   "items": [
+    "basement",
+    "weird",
+    "garage",
+    "bathroom"
+   ],
+   "odd": "weird"
+  },
+  {
+   "items": [
+    "garage",
+    "livingroom",
+    "diningroom",
+    "bike"
+   ],
+   "odd": "bike"
+  },
+  {
+   "items": [
+    "classroom",
+    "garage",
+    "nurse",
+    "attic"
+   ],
+   "odd": "nurse"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "maybe",
+   "kitchen",
+   "bathroom",
+   "garage",
+   "bedroom",
+   "attic"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "maybe",
+   "kitchen",
+   "bathroom",
+   "garage",
+   "bedroom",
+   "attic"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "maybe",
+   "kitchen",
+   "bathroom",
+   "garage",
+   "bedroom",
+   "attic",
+   "basement"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Where is my phone?",
+   "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
+  },
+  {
+   "text": "Maybe it is in the kitchen.",
+   "audio": "../packs/int2a_u5/audio/{v}/maybeitisinthekitchen.mp3"
+  },
+  {
+   "text": "Maybe it is in my bag.",
+   "audio": "audio/int2a_u5/{v}/maybeitisinmybag.mp3"
+  },
+  {
+   "text": "Maybe it is in the bathroom.",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthebathroom.mp3"
+  },
+  {
+   "text": "Maybe it is in the living room.",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthelivingroom.mp3"
+  },
+  {
+   "text": "Maybe it is in the garage.",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2a_u5/classroom.jpg",
+   "q": {
+    "text": "Where is my phone?",
+    "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
+   },
+   "choices": [
+    {
+     "text": "Maybe it is in the classroom.",
+     "audio": "audio/int2a_u5/ai/maybeitisintheclassroom.mp3"
+    },
+    {
+     "text": "Maybe it is in my bag.",
+     "audio": "audio/int2a_u5/ai/maybeitisinmybag.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u5/kitchen.jpg",
+   "q": {
+    "text": "Where is my phone?",
+    "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
+   },
+   "choices": [
+    {
+     "text": "Maybe it is in the garage.",
+     "audio": "audio/int2a_u5/ai/maybeitisinthegarage.mp3"
+    },
+    {
+     "text": "Maybe it is in the kitchen.",
+     "audio": "audio/int2a_u5/ai/maybeitisinthekitchen.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2a_u5/bedroom.jpg",
+   "q": {
+    "text": "Where is my phone?",
+    "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
+   },
+   "choices": [
+    {
+     "text": "Maybe it is in the bedroom.",
+     "audio": "audio/int2a_u5/ai/maybeitisinthebedroom.mp3"
+    },
+    {
+     "text": "Maybe it is in the kitchen.",
+     "audio": "audio/int2a_u5/ai/maybeitisinthekitchen.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u5/bathroom.jpg",
+   "q": {
+    "text": "Where is my phone?",
+    "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
+   },
+   "choices": [
+    {
+     "text": "Maybe it is in the garage.",
+     "audio": "audio/int2a_u5/ai/maybeitisinthegarage.mp3"
+    },
+    {
+     "text": "Maybe it is in the bathroom.",
+     "audio": "audio/int2a_u5/ai/maybeitisinthebathroom.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2a_u5/",
+  "ai": "audio/int2a_u5/ai/"
+ }
+}

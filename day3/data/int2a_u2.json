@@ -1,0 +1,594 @@
+{
+ "id": "int2a_u2",
+ "title": "INT 2A · Unit 2 · There are Snakes!",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2a_u2/audio/us_f/",
+ "picDir": "../packs/int2a_u2/",
+ "lineAudio": "audio/int2a_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "spider",
+   "choices": [
+    "spider",
+    "hotel",
+    "ant",
+    "food"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "snake",
+   "choices": [
+    "snake",
+    "monster",
+    "bee",
+    "hotel"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "water",
+   "choices": [
+    "water",
+    "spider",
+    "food",
+    "snake"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hotel",
+   "answer": "hotel",
+   "choices": [
+    "hotel",
+    "hotes",
+    "hocel",
+    "htel"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "ant",
+   "answer": "ant",
+   "choices": [
+    "ant",
+    "antd",
+    "anta",
+    "anti"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "spider",
+   "audio": "audio/int2a_u2/{v}/therearespiders.mp3",
+   "answer": [
+    "There",
+    "are",
+    "spiders!"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "bee",
+   "audio": "audio/int2a_u2/{v}/therearebees.mp3",
+   "answer": [
+    "There",
+    "are",
+    "bees!"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "hotel",
+   "audio": "audio/int2a_u2/{v}/thereisahotel.mp3",
+   "sentence": [
+    "There",
+    "is",
+    "a",
+    "___",
+    "!"
+   ],
+   "answer": "hotel",
+   "choices": [
+    "hotel",
+    "ant",
+    "washroom"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "washroom",
+   "audio": "audio/int2a_u2/{v}/thereisawashroom.mp3",
+   "sentence": [
+    "There",
+    "is",
+    "a",
+    "___",
+    "!"
+   ],
+   "answer": "washroom",
+   "choices": [
+    "washroom",
+    "food",
+    "bee"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "water",
+   "audio": "audio/int2a_u2/{v}/thereiswater.mp3",
+   "sentence": [
+    "There",
+    "is",
+    "___",
+    "!"
+   ],
+   "answer": "water",
+   "choices": [
+    "water",
+    "ant",
+    "snake"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "pic": "../packs/int2a_u2/snake.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/snake.mp3",
+   "stext": "There are snakes!",
+   "sentence": "../packs/int2a_u2/audio/{v}/therearesnakes.mp3"
+  },
+  {
+   "id": "water",
+   "en": "water",
+   "ko": "물",
+   "pic": "../packs/int2a_u2/water.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/water.mp3",
+   "stext": "There is water!",
+   "sentence": "audio/int2a_u2/{v}/thereiswater.mp3"
+  },
+  {
+   "id": "bee",
+   "en": "bee",
+   "ko": "벌",
+   "pic": "../packs/int2a_u2/bee.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/bee.mp3",
+   "stext": "There are bees!",
+   "sentence": "audio/int2a_u2/{v}/therearebees.mp3"
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "pic": "../packs/int2a_u2/food.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/food.mp3",
+   "stext": "There is food!",
+   "sentence": "audio/int2a_u2/{v}/thereisfood.mp3"
+  },
+  {
+   "id": "ant",
+   "en": "ant",
+   "ko": "개미",
+   "pic": "../packs/int2a_u2/ant.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/ant.mp3",
+   "stext": "There are ants!",
+   "sentence": "audio/int2a_u2/{v}/thereareants.mp3"
+  },
+  {
+   "id": "hotel",
+   "en": "hotel",
+   "ko": "호텔",
+   "pic": "../packs/int2a_u2/hotel.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/hotel.mp3",
+   "stext": "There is a hotel!",
+   "sentence": "audio/int2a_u2/{v}/thereisahotel.mp3"
+  },
+  {
+   "id": "spider",
+   "en": "spider",
+   "ko": "거미",
+   "pic": "../packs/int2a_u2/spider.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/spider.mp3",
+   "stext": "There are spiders!",
+   "sentence": "audio/int2a_u2/{v}/therearespiders.mp3"
+  },
+  {
+   "id": "washroom",
+   "en": "washroom",
+   "ko": "화장실",
+   "pic": "../packs/int2a_u2/washroom.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/washroom.mp3",
+   "stext": "There is a washroom!",
+   "sentence": "audio/int2a_u2/{v}/thereisawashroom.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": "../packs/int2a_u2/teacher.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/teacher.mp3",
+   "stext": "There are teachers!",
+   "sentence": "audio/int2a_u2/{v}/thereareteachers.mp3"
+  },
+  {
+   "id": "monster",
+   "en": "monster",
+   "ko": "괴물",
+   "pic": "../packs/int2a_u2/monster.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/monster.mp3",
+   "stext": "There are monsters!",
+   "sentence": "audio/int2a_u2/{v}/therearemonsters.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "sunny",
+   "en": "sunny",
+   "ko": "화창한",
+   "pic": "../packs/int2a_u1/sunny.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/sunny.mp3"
+  },
+  {
+   "id": "hug",
+   "en": "hug",
+   "ko": "포옹",
+   "pic": "../packs/int2a_u4/hug.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/hug.mp3"
+  },
+  {
+   "id": "janitor",
+   "en": "janitor",
+   "ko": "관리인",
+   "pic": "../packs/int2a_u7/janitor.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/janitor.mp3"
+  },
+  {
+   "id": "foggy",
+   "en": "foggy",
+   "ko": "안개 낀",
+   "pic": "../packs/int2a_u1/foggy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/foggy.mp3"
+  },
+  {
+   "id": "librarian",
+   "en": "librarian",
+   "ko": "사서",
+   "pic": "../packs/int2a_u7/librarian.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/librarian.mp3"
+  },
+  {
+   "id": "gross",
+   "en": "gross",
+   "ko": "역겨운",
+   "pic": "../packs/int2a_u6/gross.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/gross.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int2a_u2/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "campsite",
+  "hotspots": [
+   {
+    "id": "snake",
+    "x": 5.9,
+    "y": 54.7,
+    "w": 20.5,
+    "h": 33.9
+   },
+   {
+    "id": "water",
+    "x": 0.0,
+    "y": 44.3,
+    "w": 37.1,
+    "h": 18.2
+   },
+   {
+    "id": "bee",
+    "x": 16.6,
+    "y": 3.3,
+    "w": 18.6,
+    "h": 20.8
+   },
+   {
+    "id": "food",
+    "x": 36.6,
+    "y": 54.0,
+    "w": 31.7,
+    "h": 18.9
+   },
+   {
+    "id": "ant",
+    "x": 68.4,
+    "y": 68.4,
+    "w": 18.6,
+    "h": 27.3
+   },
+   {
+    "id": "hotel",
+    "x": 31.7,
+    "y": 18.9,
+    "w": 11.2,
+    "h": 14.7
+   },
+   {
+    "id": "spider",
+    "x": 68.4,
+    "y": 15.6,
+    "w": 12.2,
+    "h": 11.7
+   },
+   {
+    "id": "washroom",
+    "x": 49.3,
+    "y": 31.0,
+    "w": 16.1,
+    "h": 27.0
+   },
+   {
+    "id": "teacher",
+    "x": 68.4,
+    "y": 31.2,
+    "w": 15.4,
+    "h": 39.1
+   },
+   {
+    "id": "monster",
+    "x": 84.5,
+    "y": 33.2,
+    "w": 15.5,
+    "h": 25.4
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "washroom",
+    "sunny",
+    "ant",
+    "bee"
+   ],
+   "odd": "sunny"
+  },
+  {
+   "items": [
+    "hotel",
+    "hug",
+    "snake",
+    "monster"
+   ],
+   "odd": "hug"
+  },
+  {
+   "items": [
+    "hotel",
+    "janitor",
+    "monster",
+    "teacher"
+   ],
+   "odd": "janitor"
+  },
+  {
+   "items": [
+    "bee",
+    "snake",
+    "foggy",
+    "ant"
+   ],
+   "odd": "foggy"
+  },
+  {
+   "items": [
+    "snake",
+    "teacher",
+    "librarian",
+    "water"
+   ],
+   "odd": "librarian"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "snake",
+   "water",
+   "bee",
+   "food",
+   "ant",
+   "hotel"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "snake",
+   "water",
+   "bee",
+   "food",
+   "ant",
+   "hotel"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "snake",
+   "water",
+   "bee",
+   "food",
+   "ant",
+   "hotel",
+   "spider"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "There are snakes!",
+   "audio": "../packs/int2a_u2/audio/{v}/therearesnakes.mp3"
+  },
+  {
+   "text": "There is water!",
+   "audio": "audio/int2a_u2/{v}/thereiswater.mp3"
+  },
+  {
+   "text": "There are bees!",
+   "audio": "audio/int2a_u2/{v}/therearebees.mp3"
+  },
+  {
+   "text": "There is food!",
+   "audio": "audio/int2a_u2/{v}/thereisfood.mp3"
+  },
+  {
+   "text": "There are ants!",
+   "audio": "audio/int2a_u2/{v}/thereareants.mp3"
+  },
+  {
+   "text": "There is a hotel!",
+   "audio": "audio/int2a_u2/{v}/thereisahotel.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2a_u2/washroom.jpg",
+   "q": {
+    "text": "What is there?",
+    "audio": "audio/int2a_u2/{v}/whatisthere.mp3"
+   },
+   "choices": [
+    {
+     "text": "There is a washroom!",
+     "audio": "audio/int2a_u2/ai/thereisawashroom.mp3"
+    },
+    {
+     "text": "There are ants!",
+     "audio": "audio/int2a_u2/ai/thereareants.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u2/teacher.jpg",
+   "q": {
+    "text": "What is there?",
+    "audio": "audio/int2a_u2/{v}/whatisthere.mp3"
+   },
+   "choices": [
+    {
+     "text": "There are teachers!",
+     "audio": "audio/int2a_u2/ai/thereareteachers.mp3"
+    },
+    {
+     "text": "There are ants!",
+     "audio": "audio/int2a_u2/ai/thereareants.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u2/bee.jpg",
+   "q": {
+    "text": "What is there?",
+    "audio": "audio/int2a_u2/{v}/whatisthere.mp3"
+   },
+   "choices": [
+    {
+     "text": "There are teachers!",
+     "audio": "audio/int2a_u2/ai/thereareteachers.mp3"
+    },
+    {
+     "text": "There are bees!",
+     "audio": "audio/int2a_u2/ai/therearebees.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2a_u2/water.jpg",
+   "q": {
+    "text": "What is there?",
+    "audio": "audio/int2a_u2/{v}/whatisthere.mp3"
+   },
+   "choices": [
+    {
+     "text": "There is water!",
+     "audio": "audio/int2a_u2/ai/thereiswater.mp3"
+    },
+    {
+     "text": "There are snakes!",
+     "audio": "audio/int2a_u2/ai/therearesnakes.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2a_u2/",
+  "ai": "audio/int2a_u2/ai/"
+ }
+}

@@ -1,0 +1,520 @@
+{
+ "id": "int2a_u3",
+ "title": "INT 2A · Unit 3 · Can You Speak Chinese?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2a_u3/audio/us_f/",
+ "picDir": "../packs/int2a_u3/",
+ "lineAudio": "audio/int2a_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "german",
+   "choices": [
+    "german",
+    "english",
+    "hindi",
+    "korean"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "spanish",
+   "choices": [
+    "spanish",
+    "vietnamese",
+    "hindi",
+    "french"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "hindi",
+   "choices": [
+    "hindi",
+    "german",
+    "korean",
+    "japanese"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "french",
+   "answer": "French",
+   "choices": [
+    "French",
+    "rench",
+    "Frenc",
+    "Frensh"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "spanish",
+   "answer": "Spanish",
+   "choices": [
+    "Spanish",
+    "Smanish",
+    "Spaniss",
+    "Spanich"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "vietnamese",
+   "audio": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "Vietnamese."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "../packs/int2a_u3/audio/{v}/canyouspeakenglish.mp3",
+   "answer": [
+    "Can",
+    "you",
+    "speak",
+    "English?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "hindi",
+   "audio": "audio/int2a_u3/{v}/icanspeakhindi.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "speak",
+    "___",
+    "."
+   ],
+   "answer": "Hindi",
+   "choices": [
+    "Hindi",
+    "French",
+    "Speak"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "vietnamese",
+   "audio": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "speak",
+    "___",
+    "."
+   ],
+   "answer": "Vietnamese",
+   "choices": [
+    "Vietnamese",
+    "Speak",
+    "English"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "chinese",
+   "audio": "audio/int2a_u3/{v}/icanspeakchinese.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "speak",
+    "___",
+    "."
+   ],
+   "answer": "Chinese",
+   "choices": [
+    "Chinese",
+    "Spanish",
+    "Korean"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "speak",
+   "en": "speak",
+   "ko": "말하다",
+   "pic": null,
+   "audio": "../packs/int2a_u3/audio/{v}/speak.mp3",
+   "stext": "Can you speak English?",
+   "sentence": "../packs/int2a_u3/audio/{v}/canyouspeakenglish.mp3"
+  },
+  {
+   "id": "chinese",
+   "en": "Chinese",
+   "ko": "중국어",
+   "pic": "../packs/int2a_u3/chinese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/chinese.mp3",
+   "stext": "I can speak Chinese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakchinese.mp3"
+  },
+  {
+   "id": "japanese",
+   "en": "Japanese",
+   "ko": "일본어",
+   "pic": "../packs/int2a_u3/japanese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/japanese.mp3",
+   "stext": "I can speak Japanese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakjapanese.mp3"
+  },
+  {
+   "id": "french",
+   "en": "French",
+   "ko": "프랑스어",
+   "pic": "../packs/int2a_u3/french.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/french.mp3",
+   "stext": "I can speak French.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakfrench.mp3"
+  },
+  {
+   "id": "german",
+   "en": "German",
+   "ko": "독일어",
+   "pic": "../packs/int2a_u3/german.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/german.mp3",
+   "stext": "I can speak German.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakgerman.mp3"
+  },
+  {
+   "id": "hindi",
+   "en": "Hindi",
+   "ko": "힌디어",
+   "pic": "../packs/int2a_u3/hindi.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/hindi.mp3",
+   "stext": "I can speak Hindi.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakhindi.mp3"
+  },
+  {
+   "id": "spanish",
+   "en": "Spanish",
+   "ko": "스페인어",
+   "pic": "../packs/int2a_u3/spanish.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/spanish.mp3",
+   "stext": "I can speak Spanish.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakspanish.mp3"
+  },
+  {
+   "id": "vietnamese",
+   "en": "Vietnamese",
+   "ko": "베트남어",
+   "pic": "../packs/int2a_u3/vietnamese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/vietnamese.mp3",
+   "stext": "I can speak Vietnamese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3"
+  },
+  {
+   "id": "korean",
+   "en": "Korean",
+   "ko": "한국어",
+   "pic": "../packs/int2a_u3/korean.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/korean.mp3",
+   "stext": "I can speak Korean.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakkorean.mp3"
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "pic": "../packs/int2a_u3/english.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/english.mp3",
+   "stext": "I can speak English.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakenglish.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "classmate",
+   "en": "classmate",
+   "ko": "반 친구",
+   "pic": "../packs/int2a_u7/classmate.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/classmate.mp3"
+  },
+  {
+   "id": "juice",
+   "en": "juice",
+   "ko": "주스",
+   "pic": "../packs/int2a_u4/juice.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/juice.mp3"
+  },
+  {
+   "id": "hotel",
+   "en": "hotel",
+   "ko": "호텔",
+   "pic": "../packs/int2a_u2/hotel.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/hotel.mp3"
+  },
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "pic": "../packs/int2a_u2/snake.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/snake.mp3"
+  },
+  {
+   "id": "humid",
+   "en": "humid",
+   "ko": "습한",
+   "pic": "../packs/int2a_u1/humid.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/humid.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int2a_u4/phone.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/phone.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "japanese",
+    "vietnamese",
+    "german",
+    "classmate"
+   ],
+   "odd": "classmate"
+  },
+  {
+   "items": [
+    "japanese",
+    "vietnamese",
+    "juice",
+    "hindi"
+   ],
+   "odd": "juice"
+  },
+  {
+   "items": [
+    "japanese",
+    "hotel",
+    "english",
+    "korean"
+   ],
+   "odd": "hotel"
+  },
+  {
+   "items": [
+    "japanese",
+    "vietnamese",
+    "snake",
+    "chinese"
+   ],
+   "odd": "snake"
+  },
+  {
+   "items": [
+    "humid",
+    "german",
+    "chinese",
+    "japanese"
+   ],
+   "odd": "humid"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "speak",
+   "chinese",
+   "japanese",
+   "french",
+   "german",
+   "hindi"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "speak",
+   "chinese",
+   "japanese",
+   "french",
+   "german",
+   "hindi"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "speak",
+   "chinese",
+   "japanese",
+   "french",
+   "german",
+   "hindi",
+   "spanish"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Can you speak English?",
+   "audio": "../packs/int2a_u3/audio/{v}/canyouspeakenglish.mp3"
+  },
+  {
+   "text": "I can speak Chinese.",
+   "audio": "audio/int2a_u3/{v}/icanspeakchinese.mp3"
+  },
+  {
+   "text": "I can speak Japanese.",
+   "audio": "audio/int2a_u3/{v}/icanspeakjapanese.mp3"
+  },
+  {
+   "text": "I can speak French.",
+   "audio": "audio/int2a_u3/{v}/icanspeakfrench.mp3"
+  },
+  {
+   "text": "I can speak German.",
+   "audio": "audio/int2a_u3/{v}/icanspeakgerman.mp3"
+  },
+  {
+   "text": "I can speak Hindi.",
+   "audio": "audio/int2a_u3/{v}/icanspeakhindi.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2a_u3/chinese.jpg",
+   "q": {
+    "text": "What can you speak?",
+    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can speak Korean.",
+     "audio": "audio/int2a_u3/ai/icanspeakkorean.mp3"
+    },
+    {
+     "text": "I can speak Chinese.",
+     "audio": "audio/int2a_u3/ai/icanspeakchinese.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2a_u3/korean.jpg",
+   "q": {
+    "text": "What can you speak?",
+    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can speak Korean.",
+     "audio": "audio/int2a_u3/ai/icanspeakkorean.mp3"
+    },
+    {
+     "text": "I can speak Chinese.",
+     "audio": "audio/int2a_u3/ai/icanspeakchinese.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u3/vietnamese.jpg",
+   "q": {
+    "text": "What can you speak?",
+    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can speak Vietnamese.",
+     "audio": "audio/int2a_u3/ai/icanspeakvietnamese.mp3"
+    },
+    {
+     "text": "I can speak Korean.",
+     "audio": "audio/int2a_u3/ai/icanspeakkorean.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u3/german.jpg",
+   "q": {
+    "text": "What can you speak?",
+    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can speak German.",
+     "audio": "audio/int2a_u3/ai/icanspeakgerman.mp3"
+    },
+    {
+     "text": "I can speak Vietnamese.",
+     "audio": "audio/int2a_u3/ai/icanspeakvietnamese.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2a_u3/",
+  "ai": "audio/int2a_u3/ai/"
+ }
+}

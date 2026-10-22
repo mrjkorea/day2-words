@@ -1,0 +1,520 @@
+{
+ "id": "int2a_u6",
+ "title": "INT 2A · Unit 6 · Look at This Funny Video",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2a_u6/audio/us_f/",
+ "picDir": "../packs/int2a_u6/",
+ "lineAudio": "audio/int2a_u6/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "exciting",
+   "choices": [
+    "exciting",
+    "weird",
+    "quiet",
+    "funny"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "boring",
+   "choices": [
+    "boring",
+    "weird",
+    "funny",
+    "quiet"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "scary",
+   "choices": [
+    "scary",
+    "gross",
+    "funny",
+    "sad"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "quiet",
+   "answer": "quiet",
+   "choices": [
+    "quiet",
+    "quet",
+    "qiiet",
+    "quiem"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "weird",
+   "answer": "weird",
+   "choices": [
+    "weird",
+    "weurd",
+    "weir",
+    "wird"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sad",
+   "audio": "audio/int2a_u6/{v}/thisvideoissad.mp3",
+   "answer": [
+    "This",
+    "video",
+    "is",
+    "sad."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2a_u6/{v}/lookatthisvideo.mp3",
+   "answer": [
+    "Look",
+    "at",
+    "this",
+    "video."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "scary",
+   "audio": "audio/int2a_u6/{v}/thisvideoisscary.mp3",
+   "sentence": [
+    "This",
+    "video",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "scary",
+   "choices": [
+    "scary",
+    "weird",
+    "funny"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "crazy",
+   "audio": "audio/int2a_u6/{v}/thisvideoiscrazy.mp3",
+   "sentence": [
+    "This",
+    "video",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "crazy",
+   "choices": [
+    "crazy",
+    "exciting",
+    "weird"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "exciting",
+   "audio": "audio/int2a_u6/{v}/thisvideoisexciting.mp3",
+   "sentence": [
+    "This",
+    "video",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "exciting",
+   "choices": [
+    "exciting",
+    "quiet",
+    "scary"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "video",
+   "en": "video",
+   "ko": "동영상",
+   "pic": null,
+   "audio": "../packs/int2a_u6/audio/{v}/video.mp3",
+   "stext": "Look at this video.",
+   "sentence": "audio/int2a_u6/{v}/lookatthisvideo.mp3"
+  },
+  {
+   "id": "funny",
+   "en": "funny",
+   "ko": "웃긴",
+   "pic": "../packs/int2a_u6/funny.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/funny.mp3",
+   "stext": "This video is funny.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisfunny.mp3"
+  },
+  {
+   "id": "scary",
+   "en": "scary",
+   "ko": "무서운",
+   "pic": "../packs/int2a_u6/scary.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/scary.mp3",
+   "stext": "This video is scary.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisscary.mp3"
+  },
+  {
+   "id": "gross",
+   "en": "gross",
+   "ko": "역겨운",
+   "pic": "../packs/int2a_u6/gross.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/gross.mp3",
+   "stext": "This video is gross.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisgross.mp3"
+  },
+  {
+   "id": "sad",
+   "en": "sad",
+   "ko": "슬픈",
+   "pic": "../packs/int2a_u6/sad.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/sad.mp3",
+   "stext": "This video is sad.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoissad.mp3"
+  },
+  {
+   "id": "weird",
+   "en": "weird",
+   "ko": "이상한",
+   "pic": "../packs/int2a_u6/weird.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/weird.mp3",
+   "stext": "This video is weird.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisweird.mp3"
+  },
+  {
+   "id": "exciting",
+   "en": "exciting",
+   "ko": "신나는",
+   "pic": "../packs/int2a_u6/exciting.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/exciting.mp3",
+   "stext": "This video is exciting.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisexciting.mp3"
+  },
+  {
+   "id": "crazy",
+   "en": "crazy",
+   "ko": "엉뚱한, 미친",
+   "pic": "../packs/int2a_u6/crazy.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/crazy.mp3",
+   "stext": "This video is crazy.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoiscrazy.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/int2a_u6/quiet.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/quiet.mp3",
+   "stext": "This video is quiet.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisquiet.mp3"
+  },
+  {
+   "id": "boring",
+   "en": "boring",
+   "ko": "지루한",
+   "pic": "../packs/int2a_u6/boring.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/boring.mp3",
+   "stext": "This video is boring.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisboring.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "washroom",
+   "en": "washroom",
+   "ko": "화장실",
+   "pic": "../packs/int2a_u2/washroom.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/washroom.mp3"
+  },
+  {
+   "id": "librarian",
+   "en": "librarian",
+   "ko": "사서",
+   "pic": "../packs/int2a_u7/librarian.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/librarian.mp3"
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "추운",
+   "pic": "../packs/int2a_u1/cold.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/cold.mp3"
+  },
+  {
+   "id": "soccer",
+   "en": "soccer",
+   "ko": "축구",
+   "pic": "../packs/int2a_u8/soccer.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/soccer.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int2a_u4/phone.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/phone.mp3"
+  },
+  {
+   "id": "humid",
+   "en": "humid",
+   "ko": "습한",
+   "pic": "../packs/int2a_u1/humid.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/humid.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "crazy",
+    "quiet",
+    "washroom",
+    "boring"
+   ],
+   "odd": "washroom"
+  },
+  {
+   "items": [
+    "exciting",
+    "gross",
+    "librarian",
+    "weird"
+   ],
+   "odd": "librarian"
+  },
+  {
+   "items": [
+    "gross",
+    "scary",
+    "cold",
+    "crazy"
+   ],
+   "odd": "cold"
+  },
+  {
+   "items": [
+    "soccer",
+    "crazy",
+    "weird",
+    "funny"
+   ],
+   "odd": "soccer"
+  },
+  {
+   "items": [
+    "funny",
+    "phone",
+    "weird",
+    "quiet"
+   ],
+   "odd": "phone"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "video",
+   "funny",
+   "scary",
+   "gross",
+   "sad",
+   "weird"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "video",
+   "funny",
+   "scary",
+   "gross",
+   "sad",
+   "weird"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "video",
+   "funny",
+   "scary",
+   "gross",
+   "sad",
+   "weird",
+   "exciting"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Look at this funny video.",
+   "audio": "../packs/int2a_u6/audio/{v}/lookatthisfunnyvideo.mp3"
+  },
+  {
+   "text": "Look at this video.",
+   "audio": "audio/int2a_u6/{v}/lookatthisvideo.mp3"
+  },
+  {
+   "text": "This video is funny.",
+   "audio": "audio/int2a_u6/{v}/thisvideoisfunny.mp3"
+  },
+  {
+   "text": "This video is scary.",
+   "audio": "audio/int2a_u6/{v}/thisvideoisscary.mp3"
+  },
+  {
+   "text": "This video is gross.",
+   "audio": "audio/int2a_u6/{v}/thisvideoisgross.mp3"
+  },
+  {
+   "text": "This video is sad.",
+   "audio": "audio/int2a_u6/{v}/thisvideoissad.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2a_u6/gross.jpg",
+   "q": {
+    "text": "How is the video?",
+    "audio": "audio/int2a_u6/{v}/howisthevideo.mp3"
+   },
+   "choices": [
+    {
+     "text": "This video is gross.",
+     "audio": "audio/int2a_u6/ai/thisvideoisgross.mp3"
+    },
+    {
+     "text": "This video is sad.",
+     "audio": "audio/int2a_u6/ai/thisvideoissad.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2a_u6/scary.jpg",
+   "q": {
+    "text": "How is the video?",
+    "audio": "audio/int2a_u6/{v}/howisthevideo.mp3"
+   },
+   "choices": [
+    {
+     "text": "This video is exciting.",
+     "audio": "audio/int2a_u6/ai/thisvideoisexciting.mp3"
+    },
+    {
+     "text": "This video is scary.",
+     "audio": "audio/int2a_u6/ai/thisvideoisscary.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2a_u6/boring.jpg",
+   "q": {
+    "text": "How is the video?",
+    "audio": "audio/int2a_u6/{v}/howisthevideo.mp3"
+   },
+   "choices": [
+    {
+     "text": "This video is scary.",
+     "audio": "audio/int2a_u6/ai/thisvideoisscary.mp3"
+    },
+    {
+     "text": "This video is boring.",
+     "audio": "audio/int2a_u6/ai/thisvideoisboring.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2a_u6/exciting.jpg",
+   "q": {
+    "text": "How is the video?",
+    "audio": "audio/int2a_u6/{v}/howisthevideo.mp3"
+   },
+   "choices": [
+    {
+     "text": "This video is funny.",
+     "audio": "audio/int2a_u6/ai/thisvideoisfunny.mp3"
+    },
+    {
+     "text": "This video is exciting.",
+     "audio": "audio/int2a_u6/ai/thisvideoisexciting.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2a_u6/",
+  "ai": "audio/int2a_u6/ai/"
+ }
+}
