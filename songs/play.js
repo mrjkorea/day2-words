@@ -317,8 +317,16 @@
   }
   function songStages() { return (song && readStages()[song.id]) || {}; }
   function isDone(stage) { return !!songStages()[stage]; }
+  function mrjTeacher() {
+    try {
+      var api = window.MRJSignin || window.MRJ_AUTH;
+      return !!(api && typeof api.isTeacher === "function" && api.isTeacher());
+    } catch (e) {
+      return false;
+    }
+  }
   function isUnlocked(stage) {
-    if (TEST_MODE) return true;
+    if (TEST_MODE || mrjTeacher()) return true;
     var i = STAGES.indexOf(stage);
     return i <= 0 || isDone(STAGES[i - 1]);
   }
@@ -918,6 +926,12 @@
         $("panel-ready").hidden = true;
       });
   }
+
+  document.addEventListener("mrj-teacher", function () {
+    try {
+      refreshStageButtons();
+    } catch (e) {}
+  });
 
   window.addEventListener("mrj-auth-ready", function (event) {
     var detail = event && event.detail ? event.detail : {};
