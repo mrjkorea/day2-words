@@ -12,7 +12,7 @@ WB.link=(page,extra)=>page+'?unit='+encodeURIComponent(WB.unit)+(WB.test?'&test=
 WB.load=()=>fetch('data/'+WB.unit+'.json').then(r=>{if(!r.ok)throw Error('No unit '+WB.unit);return r.json()}).then(d=>WB.D=d);
 WB.sh=a=>a.map(v=>[Math.random(),v]).sort((x,y)=>x[0]-y[0]).map(v=>v[1]);
 let _cur=null;
-WB.play=src=>new Promise(res=>{try{if(_cur)_cur.pause();const a=new Audio(src);_cur=a;a.onended=res;a.onerror=res;a.play().catch(()=>res())}catch(e){res()}});
+let _res=null;WB.play=src=>new Promise(res=>{try{if(_cur){_cur.pause();const r=_res;_res=null;r&&setTimeout(r,0)}const a=new Audio(src);_cur=a;_res=res;a.onended=()=>{if(_res===res)_res=null;res()};a.onerror=res;a.play().catch(()=>res())}catch(e){res()}});
 WB.seq=async list=>{for(const s of list){await WB.play(s);await new Promise(r=>setTimeout(r,250))}};
 WB.line=k=>WB.cheer(k);
 // Coach Ray: fun praise/feedback, random variation, queued after any word sound that is playing

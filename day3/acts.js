@@ -22,7 +22,7 @@ A.map=()=>{const W=WB.D.words,M=WB.D.map||{},order=WB.sh(W),n=order.length;let i
  <div id="mp" style="position:relative;margin-top:8px">${scene?`<img src="${M.scene}" style="width:100%">`:'<div class="grid4" id="g"></div>'}</div></div>`;
  if(scene)M.spots.forEach(s=>{const b=document.createElement('button');b.dataset.id=s.id;b.textContent='?';b.style.cssText=`position:absolute;left:${s.x}%;top:${s.y}%;transform:translate(-50%,-50%)`;b.onclick=()=>tap(b);$('#mp').appendChild(b)});
  else WB.sh(W).forEach(w=>{const b=document.createElement('button');b.dataset.id=w.id;b.style.background='#f1f9ff';b.innerHTML=`<img class="pic" src="${w.pic}" alt=""><div class="lab" style="min-height:24px">?</div>`;b.onclick=()=>tap(b);$('#g').appendChild(b)});
- const say=()=>WB.play(order[i].audio);$('#pl').onclick=say;
+ const say=()=>i<n&&WB.play(order[i].audio);$('#pl').onclick=say;
  function step(){missed=false;document.querySelector('.bar i').style.width=i/n*100+'%';fb('',true);setTimeout(say,300)}
  function good(b){const w=order[i];b.classList.add('ok');b.disabled=true;const l=b.querySelector('.lab');if(l)l.textContent=w.en;else b.textContent=w.en;if(!missed)right++,WB.tick('map',right,n);i++;
   WB.play(w.audio);if(i>=n)setTimeout(()=>WB.end('map',right,n),1000);else setTimeout(step,1100)}
@@ -37,7 +37,7 @@ A.odd=()=>{const S=WB.D.oddOneOut,n=S.length;let i=0,right=0,lock=false;
   document.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>pick(b.dataset.id===s.odd,b))}
  function pick(ok,b){if(lock)return;lock=true;const s=S[i];if(ok){right++,WB.tick('odd',right,n);fb('🎉 Yes! It does not belong.',true)}else{b&&b.classList.add('no');fb('Oops! This one does not belong:',false)}
   $(`[data-id="${s.odd}"]`).classList.add('ok');WB.play(WB.w(s.odd).audio);setTimeout(()=>{i++;i<n?show():WB.end('odd',right,n)},ok?1300:2300)}
- WB.skipBtn(()=>pick(true,null));show();};
+ WB.skipBtn(()=>{if(i<n&&!lock)pick(true,null)});show();};
 
 // 4. Word Search (across and down only)
 A.search=()=>{const cfg=WB.D.wordSearch||{},N=cfg.size||8;const W=(cfg.words||WB.D.words.map(w=>w.id)).map(WB.w).filter(w=>U(w.en).length<=N);
@@ -118,7 +118,7 @@ A.dialogue=()=>{const D=WB.D.dialogues,n=D.length;let i=0,right=0,lock;
  function pick(ok,b){if(lock)return;lock=true;const d=D[i];if(ok)right++,WB.tick('dialogue',right,n);else b&&b.classList.add('no');$(`[data-k="${d.answer}"]`).classList.add('ok');
   fb(ok?'🎉 Great! Listen to the talk.':'Oops! The right answer is green. Listen!',ok);
   setTimeout(()=>WB.seq([d.q.audio,d.choices[d.answer].audio]).then(()=>setTimeout(()=>{i++;i<n?show():WB.end('dialogue',right,n)},500)),400)}
- WB.skipBtn(()=>pick(true,null));show();};
+ WB.skipBtn(()=>{if(i<n&&!lock)pick(true,null)});show();};
 
 WB.load().then(()=>{const a=WB.qs.get('a');if(!A[a]){app().innerHTML='<div class="card"><h1>Unknown activity</h1></div>';return}
  if(!WB.unlocked(a)){app().innerHTML=`<div class="card"><h1>🔒 Locked</h1><p class="p">Finish the step before this one first.</p><button onclick="location.href=WB.link('index.html')">🏠 Steps</button></div>`;return}
