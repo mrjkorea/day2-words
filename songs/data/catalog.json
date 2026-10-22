@@ -19,6 +19,15 @@
    "packId": "basic_a_u2"
   },
   {
+   "id": "basic_a_u03_b",
+   "title": "Restart Your Computer",
+   "book": "Basic A",
+   "unit": 3,
+   "unitTitle": "Computer class",
+   "blurb": "Click, scroll, and restart in computer class!",
+   "packId": "basic_a_u3"
+  },
+  {
    "id": "basic_a_u06_a",
    "title": "What Is This?",
    "book": "Basic A",

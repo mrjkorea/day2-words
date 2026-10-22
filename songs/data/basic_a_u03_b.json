@@ -1,0 +1,1372 @@
+{
+ "id": "basic_a_u03_b",
+ "title": "Restart Your Computer",
+ "book": "Basic A",
+ "unit": 3,
+ "unitTitle": "Computer class",
+ "packId": "basic_a_u3",
+ "audio": "audio/basic_a_u03_b.mp3",
+ "duration": 125.38,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Monday, computer class!",
+   "words": [
+    {
+     "t": "Monday,",
+     "start": 16.14,
+     "end": 16.59
+    },
+    {
+     "t": "computer",
+     "start": 16.61,
+     "end": 17.11,
+     "pic": "computer"
+    },
+    {
+     "t": "class!",
+     "start": 17.13,
+     "end": 17.54
+    }
+   ],
+   "n": 1,
+   "start": 16.14,
+   "end": 17.54,
+   "pic": "computer"
+  },
+  {
+   "section": "Verse 1",
+   "text": "My teacher says, \"Type your ID.\"",
+   "words": [
+    {
+     "t": "My",
+     "start": 17.54,
+     "end": 17.71
+    },
+    {
+     "t": "teacher",
+     "start": 17.73,
+     "end": 18.14
+    },
+    {
+     "t": "says,",
+     "start": 18.16,
+     "end": 18.47
+    },
+    {
+     "t": "\"Type",
+     "start": 18.49,
+     "end": 18.81,
+     "pic": "type"
+    },
+    {
+     "t": "your",
+     "start": 18.83,
+     "end": 19.09
+    },
+    {
+     "t": "ID.\"",
+     "start": 19.11,
+     "end": 19.4
+    }
+   ],
+   "n": 2,
+   "start": 17.54,
+   "end": 19.4,
+   "pic": "type"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I say, \"No problem!\"",
+   "words": [
+    {
+     "t": "I",
+     "start": 19.58,
+     "end": 19.74
+    },
+    {
+     "t": "say,",
+     "start": 19.76,
+     "end": 20.09
+    },
+    {
+     "t": "\"No",
+     "start": 20.11,
+     "end": 20.38
+    },
+    {
+     "t": "problem!\"",
+     "start": 20.4,
+     "end": 21.04
+    }
+   ],
+   "n": 3,
+   "start": 19.58,
+   "end": 21.04,
+   "pic": "type"
+  },
+  {
+   "section": "Verse 1",
+   "text": "My teacher says, \"Scroll down.\"",
+   "words": [
+    {
+     "t": "My",
+     "start": 21.22,
+     "end": 21.38
+    },
+    {
+     "t": "teacher",
+     "start": 21.4,
+     "end": 21.77
+    },
+    {
+     "t": "says,",
+     "start": 21.79,
+     "end": 22.08
+    },
+    {
+     "t": "\"Scroll",
+     "start": 22.1,
+     "end": 22.47,
+     "pic": "scroll"
+    },
+    {
+     "t": "down.\"",
+     "start": 22.49,
+     "end": 22.84
+    }
+   ],
+   "n": 4,
+   "start": 21.22,
+   "end": 22.84,
+   "pic": "scroll"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I say, \"Okay!\"",
+   "words": [
+    {
+     "t": "I",
+     "start": 23.3,
+     "end": 23.62
+    },
+    {
+     "t": "say,",
+     "start": 23.62,
+     "end": 24.44
+    },
+    {
+     "t": "\"Okay!\"",
+     "start": 24.7,
+     "end": 25.18
+    }
+   ],
+   "n": 5,
+   "start": 23.3,
+   "end": 25.18,
+   "pic": "scroll"
+  },
+  {
+   "section": "Verse 1",
+   "text": "\"Make a new tab.\" \"Okay!\"",
+   "words": [
+    {
+     "t": "\"Make",
+     "start": 25.2,
+     "end": 25.44
+    },
+    {
+     "t": "a",
+     "start": 25.44,
+     "end": 25.62
+    },
+    {
+     "t": "new",
+     "start": 25.62,
+     "end": 25.84
+    },
+    {
+     "t": "tab.\"",
+     "start": 25.84,
+     "end": 26.4,
+     "pic": "tab"
+    },
+    {
+     "t": "\"Okay!\"",
+     "start": 26.44,
+     "end": 27.08
+    }
+   ],
+   "n": 6,
+   "start": 25.2,
+   "end": 27.08,
+   "pic": "tab"
+  },
+  {
+   "section": "Verse 1",
+   "text": "\"Don't click on X!\"",
+   "words": [
+    {
+     "t": "\"Don't",
+     "start": 27.1,
+     "end": 27.42
+    },
+    {
+     "t": "click",
+     "start": 27.42,
+     "end": 27.7,
+     "pic": "click"
+    },
+    {
+     "t": "on",
+     "start": 27.7,
+     "end": 28.06
+    },
+    {
+     "t": "X!\"",
+     "start": 28.06,
+     "end": 28.6
+    }
+   ],
+   "n": 7,
+   "start": 27.1,
+   "end": 28.6,
+   "pic": "click"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Oops... I click on X! Oh no!",
+   "words": [
+    {
+     "t": "Oops...",
+     "start": 28.78,
+     "end": 29.38
+    },
+    {
+     "t": "I",
+     "start": 29.39,
+     "end": 29.58
+    },
+    {
+     "t": "click",
+     "start": 29.6,
+     "end": 30.06,
+     "pic": "click"
+    },
+    {
+     "t": "on",
+     "start": 30.08,
+     "end": 30.33
+    },
+    {
+     "t": "X!",
+     "start": 30.35,
+     "end": 30.6
+    },
+    {
+     "t": "Oh",
+     "start": 30.62,
+     "end": 30.88
+    },
+    {
+     "t": "no!",
+     "start": 30.9,
+     "end": 31.24
+    }
+   ],
+   "n": 8,
+   "start": 28.78,
+   "end": 31.24,
+   "pic": "click"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer! Oh my god!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 31.46,
+     "end": 31.94,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 31.94,
+     "end": 32.32
+    },
+    {
+     "t": "computer!",
+     "start": 32.32,
+     "end": 33.68,
+     "pic": "computer"
+    },
+    {
+     "t": "Oh",
+     "start": 33.68,
+     "end": 33.98
+    },
+    {
+     "t": "my",
+     "start": 33.98,
+     "end": 34.24
+    },
+    {
+     "t": "god!",
+     "start": 34.24,
+     "end": 34.98
+    }
+   ],
+   "n": 9,
+   "start": 31.46,
+   "end": 34.98,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer! Oh my god!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 35.14,
+     "end": 35.74,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 35.74,
+     "end": 36.14
+    },
+    {
+     "t": "computer!",
+     "start": 36.14,
+     "end": 37.64,
+     "pic": "computer"
+    },
+    {
+     "t": "Oh",
+     "start": 37.64,
+     "end": 37.82
+    },
+    {
+     "t": "my",
+     "start": 37.82,
+     "end": 38.06
+    },
+    {
+     "t": "god!",
+     "start": 38.06,
+     "end": 38.8
+    }
+   ],
+   "n": 10,
+   "start": 35.14,
+   "end": 38.8,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Left click, right click, double click",
+   "words": [
+    {
+     "t": "Left",
+     "start": 38.96,
+     "end": 39.26,
+     "pic": "left"
+    },
+    {
+     "t": "click,",
+     "start": 39.28,
+     "end": 39.68,
+     "pic": "click"
+    },
+    {
+     "t": "right",
+     "start": 39.7,
+     "end": 40.05,
+     "pic": "right"
+    },
+    {
+     "t": "click,",
+     "start": 40.07,
+     "end": 40.47,
+     "pic": "click"
+    },
+    {
+     "t": "double",
+     "start": 40.49,
+     "end": 40.89,
+     "pic": "double"
+    },
+    {
+     "t": "click",
+     "start": 40.91,
+     "end": 41.28,
+     "pic": "click"
+    }
+   ],
+   "n": 11,
+   "start": 38.96,
+   "end": 41.28,
+   "pic": "left"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 41.28,
+     "end": 43.38,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 43.38,
+     "end": 43.78
+    },
+    {
+     "t": "computer!",
+     "start": 43.78,
+     "end": 45.96,
+     "pic": "computer"
+    }
+   ],
+   "n": 12,
+   "start": 41.28,
+   "end": 45.96,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My teacher says, \"Unplug your headset.\"",
+   "words": [
+    {
+     "t": "My",
+     "start": 45.96,
+     "end": 46.1
+    },
+    {
+     "t": "teacher",
+     "start": 46.1,
+     "end": 46.38
+    },
+    {
+     "t": "says,",
+     "start": 46.38,
+     "end": 46.96
+    },
+    {
+     "t": "\"Unplug",
+     "start": 47.1,
+     "end": 47.28,
+     "pic": "unplug"
+    },
+    {
+     "t": "your",
+     "start": 47.28,
+     "end": 47.54
+    },
+    {
+     "t": "headset.\"",
+     "start": 47.54,
+     "end": 48.19,
+     "pic": "headset"
+    }
+   ],
+   "n": 13,
+   "start": 45.96,
+   "end": 48.19,
+   "pic": "unplug"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I say, \"I don't have a headset!\"",
+   "words": [
+    {
+     "t": "I",
+     "start": 48.29,
+     "end": 48.58
+    },
+    {
+     "t": "say,",
+     "start": 48.6,
+     "end": 49.21
+    },
+    {
+     "t": "\"I",
+     "start": 49.23,
+     "end": 49.63
+    },
+    {
+     "t": "don't",
+     "start": 49.66,
+     "end": 50.37
+    },
+    {
+     "t": "have",
+     "start": 50.39,
+     "end": 51.0
+    },
+    {
+     "t": "a",
+     "start": 51.02,
+     "end": 51.31
+    },
+    {
+     "t": "headset!\"",
+     "start": 51.34,
+     "end": 52.49,
+     "pic": "headset"
+    }
+   ],
+   "n": 14,
+   "start": 48.29,
+   "end": 52.49,
+   "pic": "headset"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My teacher says, \"Left click.\"",
+   "words": [
+    {
+     "t": "My",
+     "start": 51.92,
+     "end": 52.1
+    },
+    {
+     "t": "teacher",
+     "start": 52.12,
+     "end": 52.56
+    },
+    {
+     "t": "says,",
+     "start": 52.58,
+     "end": 52.91
+    },
+    {
+     "t": "\"Left",
+     "start": 52.93,
+     "end": 53.27,
+     "pic": "left"
+    },
+    {
+     "t": "click.\"",
+     "start": 53.29,
+     "end": 53.74,
+     "pic": "click"
+    }
+   ],
+   "n": 15,
+   "start": 51.92,
+   "end": 53.74,
+   "pic": "left"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I say, \"No problem!\"",
+   "words": [
+    {
+     "t": "I",
+     "start": 53.88,
+     "end": 54.11
+    },
+    {
+     "t": "say,",
+     "start": 54.13,
+     "end": 54.61
+    },
+    {
+     "t": "\"No",
+     "start": 54.63,
+     "end": 55.02
+    },
+    {
+     "t": "problem!\"",
+     "start": 55.04,
+     "end": 55.96
+    }
+   ],
+   "n": 16,
+   "start": 53.88,
+   "end": 55.96,
+   "pic": "left"
+  },
+  {
+   "section": "Verse 2",
+   "text": "\"Right click!\" \"Okay!\"",
+   "words": [
+    {
+     "t": "\"Right",
+     "start": 56.3,
+     "end": 56.68,
+     "pic": "right"
+    },
+    {
+     "t": "click!\"",
+     "start": 56.7,
+     "end": 57.13,
+     "pic": "click"
+    },
+    {
+     "t": "\"Okay!\"",
+     "start": 57.15,
+     "end": 57.6
+    }
+   ],
+   "n": 17,
+   "start": 56.3,
+   "end": 57.6,
+   "pic": "right"
+  },
+  {
+   "section": "Verse 2",
+   "text": "\"Double click!\" \"Okay!\"",
+   "words": [
+    {
+     "t": "\"Double",
+     "start": 57.96,
+     "end": 58.52,
+     "pic": "double"
+    },
+    {
+     "t": "click!\"",
+     "start": 58.54,
+     "end": 59.1,
+     "pic": "click"
+    },
+    {
+     "t": "\"Okay!\"",
+     "start": 59.12,
+     "end": 59.7
+    }
+   ],
+   "n": 18,
+   "start": 57.96,
+   "end": 59.7,
+   "pic": "double"
+  },
+  {
+   "section": "Verse 2",
+   "text": "\"Don't click on X!\" \"Sorry!\"",
+   "words": [
+    {
+     "t": "\"Don't",
+     "start": 59.72,
+     "end": 59.96
+    },
+    {
+     "t": "click",
+     "start": 59.96,
+     "end": 60.18,
+     "pic": "click"
+    },
+    {
+     "t": "on",
+     "start": 60.18,
+     "end": 60.46
+    },
+    {
+     "t": "X!\"",
+     "start": 60.46,
+     "end": 61.14
+    },
+    {
+     "t": "\"Sorry!\"",
+     "start": 61.14,
+     "end": 61.66
+    }
+   ],
+   "n": 19,
+   "start": 59.72,
+   "end": 61.66,
+   "pic": "click"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer! Oh my god!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 62.34,
+     "end": 62.62,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 62.62,
+     "end": 63.06
+    },
+    {
+     "t": "computer!",
+     "start": 63.06,
+     "end": 64.3,
+     "pic": "computer"
+    },
+    {
+     "t": "Oh",
+     "start": 64.32,
+     "end": 64.68
+    },
+    {
+     "t": "my",
+     "start": 64.68,
+     "end": 64.94
+    },
+    {
+     "t": "god!",
+     "start": 64.94,
+     "end": 65.68
+    }
+   ],
+   "n": 20,
+   "start": 62.34,
+   "end": 65.68,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer! Oh my god!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 65.78,
+     "end": 66.44,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 66.44,
+     "end": 66.9
+    },
+    {
+     "t": "computer!",
+     "start": 66.9,
+     "end": 68.34,
+     "pic": "computer"
+    },
+    {
+     "t": "Oh",
+     "start": 68.38,
+     "end": 68.56
+    },
+    {
+     "t": "my",
+     "start": 68.56,
+     "end": 68.78
+    },
+    {
+     "t": "god!",
+     "start": 68.78,
+     "end": 69.44
+    }
+   ],
+   "n": 21,
+   "start": 65.78,
+   "end": 69.44,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Left click, right click, double click",
+   "words": [
+    {
+     "t": "Left",
+     "start": 69.64,
+     "end": 69.94,
+     "pic": "left"
+    },
+    {
+     "t": "click,",
+     "start": 69.96,
+     "end": 70.36,
+     "pic": "click"
+    },
+    {
+     "t": "right",
+     "start": 70.38,
+     "end": 70.74,
+     "pic": "right"
+    },
+    {
+     "t": "click,",
+     "start": 70.76,
+     "end": 71.16,
+     "pic": "click"
+    },
+    {
+     "t": "double",
+     "start": 71.18,
+     "end": 71.59,
+     "pic": "double"
+    },
+    {
+     "t": "click",
+     "start": 71.61,
+     "end": 71.98,
+     "pic": "click"
+    }
+   ],
+   "n": 22,
+   "start": 69.64,
+   "end": 71.98,
+   "pic": "left"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 71.98,
+     "end": 74.1,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 74.1,
+     "end": 74.48
+    },
+    {
+     "t": "computer!",
+     "start": 74.48,
+     "end": 75.73,
+     "pic": "computer"
+    }
+   ],
+   "n": 23,
+   "start": 71.98,
+   "end": 75.73,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Bridge",
+   "text": "Left click Okay!",
+   "words": [
+    {
+     "t": "Left",
+     "start": 76.96,
+     "end": 77.24,
+     "pic": "left"
+    },
+    {
+     "t": "click",
+     "start": 77.24,
+     "end": 78.16,
+     "pic": "click"
+    },
+    {
+     "t": "Okay!",
+     "start": 78.16,
+     "end": 80.82
+    }
+   ],
+   "n": 24,
+   "start": 76.96,
+   "end": 80.82,
+   "pic": "left"
+  },
+  {
+   "section": "Bridge",
+   "text": "Right click Okay!",
+   "words": [
+    {
+     "t": "Right",
+     "start": 80.82,
+     "end": 81.08,
+     "pic": "right"
+    },
+    {
+     "t": "click",
+     "start": 81.08,
+     "end": 82.0,
+     "pic": "click"
+    },
+    {
+     "t": "Okay!",
+     "start": 82.0,
+     "end": 84.52
+    }
+   ],
+   "n": 25,
+   "start": 80.82,
+   "end": 84.52,
+   "pic": "right"
+  },
+  {
+   "section": "Bridge",
+   "text": "Double click Okay!",
+   "words": [
+    {
+     "t": "Double",
+     "start": 84.62,
+     "end": 85.18,
+     "pic": "double"
+    },
+    {
+     "t": "click",
+     "start": 85.18,
+     "end": 85.86,
+     "pic": "click"
+    },
+    {
+     "t": "Okay!",
+     "start": 85.86,
+     "end": 86.82
+    }
+   ],
+   "n": 26,
+   "start": 84.62,
+   "end": 86.82,
+   "pic": "double"
+  },
+  {
+   "section": "Bridge",
+   "text": "Don't click on X! Sorry!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 88.6,
+     "end": 88.82
+    },
+    {
+     "t": "click",
+     "start": 88.82,
+     "end": 89.02,
+     "pic": "click"
+    },
+    {
+     "t": "on",
+     "start": 89.02,
+     "end": 89.3
+    },
+    {
+     "t": "X!",
+     "start": 89.3,
+     "end": 91.0
+    },
+    {
+     "t": "Sorry!",
+     "start": 91.0,
+     "end": 92.46
+    }
+   ],
+   "n": 27,
+   "start": 88.6,
+   "end": 92.46,
+   "pic": "click"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer! Oh my god!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 92.72,
+     "end": 93.49,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 93.51,
+     "end": 94.02
+    },
+    {
+     "t": "computer!",
+     "start": 94.04,
+     "end": 94.99,
+     "pic": "computer"
+    },
+    {
+     "t": "Oh",
+     "start": 95.01,
+     "end": 95.34
+    },
+    {
+     "t": "my",
+     "start": 95.36,
+     "end": 95.69
+    },
+    {
+     "t": "god!",
+     "start": 95.71,
+     "end": 96.24
+    }
+   ],
+   "n": 28,
+   "start": 92.72,
+   "end": 96.24,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer! Oh my god!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 96.46,
+     "end": 96.9,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 96.9,
+     "end": 97.36
+    },
+    {
+     "t": "computer!",
+     "start": 97.36,
+     "end": 98.8,
+     "pic": "computer"
+    },
+    {
+     "t": "Oh",
+     "start": 98.8,
+     "end": 98.98
+    },
+    {
+     "t": "my",
+     "start": 98.98,
+     "end": 99.24
+    },
+    {
+     "t": "god!",
+     "start": 99.24,
+     "end": 99.96
+    }
+   ],
+   "n": 29,
+   "start": 96.46,
+   "end": 99.96,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Left click, right click, double click",
+   "words": [
+    {
+     "t": "Left",
+     "start": 100.02,
+     "end": 100.34,
+     "pic": "left"
+    },
+    {
+     "t": "click,",
+     "start": 100.36,
+     "end": 100.78,
+     "pic": "click"
+    },
+    {
+     "t": "right",
+     "start": 100.8,
+     "end": 101.17,
+     "pic": "right"
+    },
+    {
+     "t": "click,",
+     "start": 101.19,
+     "end": 101.62,
+     "pic": "click"
+    },
+    {
+     "t": "double",
+     "start": 101.64,
+     "end": 102.07,
+     "pic": "double"
+    },
+    {
+     "t": "click",
+     "start": 102.09,
+     "end": 102.48,
+     "pic": "click"
+    }
+   ],
+   "n": 30,
+   "start": 100.02,
+   "end": 102.48,
+   "pic": "left"
+  },
+  {
+   "section": "Chorus",
+   "text": "Restart your computer!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 102.48,
+     "end": 104.72,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 104.72,
+     "end": 104.96
+    },
+    {
+     "t": "computer!",
+     "start": 104.96,
+     "end": 106.36,
+     "pic": "computer"
+    }
+   ],
+   "n": 31,
+   "start": 102.48,
+   "end": 106.36,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Restart your computer! Oh my god!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 107.84,
+     "end": 108.5,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 108.5,
+     "end": 108.78
+    },
+    {
+     "t": "computer!",
+     "start": 108.78,
+     "end": 110.2,
+     "pic": "computer"
+    },
+    {
+     "t": "Oh",
+     "start": 110.2,
+     "end": 110.48
+    },
+    {
+     "t": "my",
+     "start": 110.48,
+     "end": 110.8
+    },
+    {
+     "t": "god!",
+     "start": 110.8,
+     "end": 111.64
+    }
+   ],
+   "n": 32,
+   "start": 107.84,
+   "end": 111.64,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Restart your computer! Oh my god!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 111.68,
+     "end": 112.32,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 112.32,
+     "end": 112.58
+    },
+    {
+     "t": "computer!",
+     "start": 112.58,
+     "end": 114.0,
+     "pic": "computer"
+    },
+    {
+     "t": "Oh",
+     "start": 114.0,
+     "end": 114.24
+    },
+    {
+     "t": "my",
+     "start": 114.24,
+     "end": 114.46
+    },
+    {
+     "t": "god!",
+     "start": 114.46,
+     "end": 115.06
+    }
+   ],
+   "n": 33,
+   "start": 111.68,
+   "end": 115.06,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Left click, right click, double click",
+   "words": [
+    {
+     "t": "Left",
+     "start": 115.2,
+     "end": 115.53,
+     "pic": "left"
+    },
+    {
+     "t": "click,",
+     "start": 115.55,
+     "end": 116.01,
+     "pic": "click"
+    },
+    {
+     "t": "right",
+     "start": 116.03,
+     "end": 116.42,
+     "pic": "right"
+    },
+    {
+     "t": "click,",
+     "start": 116.44,
+     "end": 116.89,
+     "pic": "click"
+    },
+    {
+     "t": "double",
+     "start": 116.91,
+     "end": 117.37,
+     "pic": "double"
+    },
+    {
+     "t": "click",
+     "start": 117.39,
+     "end": 117.8,
+     "pic": "click"
+    }
+   ],
+   "n": 34,
+   "start": 115.2,
+   "end": 117.8,
+   "pic": "left"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Restart your computer!",
+   "words": [
+    {
+     "t": "Restart",
+     "start": 117.8,
+     "end": 120.0,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 120.0,
+     "end": 120.32
+    },
+    {
+     "t": "computer!",
+     "start": 120.32,
+     "end": 120.44,
+     "pic": "computer"
+    }
+   ],
+   "n": 35,
+   "start": 117.8,
+   "end": 120.44,
+   "pic": "restartyourcomputer"
+  },
+  {
+   "section": "Outro",
+   "text": "Oh my god! Restart your computer!",
+   "words": [
+    {
+     "t": "Oh",
+     "start": 120.54,
+     "end": 120.88
+    },
+    {
+     "t": "my",
+     "start": 120.9,
+     "end": 121.24
+    },
+    {
+     "t": "god!",
+     "start": 121.26,
+     "end": 121.78
+    },
+    {
+     "t": "Restart",
+     "start": 121.8,
+     "end": 122.59,
+     "pic": "restart"
+    },
+    {
+     "t": "your",
+     "start": 122.61,
+     "end": 123.13
+    },
+    {
+     "t": "computer!",
+     "start": 123.15,
+     "end": 124.14,
+     "pic": "computer"
+    }
+   ],
+   "n": 36,
+   "start": 120.54,
+   "end": 124.14,
+   "pic": "restartyourcomputer"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "computer",
+   "prompt": "What is this?",
+   "answer": "computer",
+   "choices": [
+    "computer",
+    "headset",
+    "desk"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "click",
+   "prompt": "Listen. What word?",
+   "answer": "click",
+   "choices": [
+    "click",
+    "scroll",
+    "type"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "headset",
+   "prompt": "What is this?",
+   "answer": "headset",
+   "choices": [
+    "mouse",
+    "headset",
+    "keyboard"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "restart",
+   "prompt": "Listen. What word?",
+   "answer": "restart",
+   "choices": [
+    "unplug",
+    "restart",
+    "left"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "left",
+   "prompt": "What is this?",
+   "answer": "left",
+   "choices": [
+    "left",
+    "right",
+    "double"
+   ]
+  }
+ ]
+}
