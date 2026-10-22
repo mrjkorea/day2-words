@@ -38,6 +38,7 @@ button:active{transform:translateY(3px);box-shadow:0 1px 0 #e0a800}
  </svg></div>
  <div id="card"></div>
 </div>
+<script src="wb.js"></script>
 <script>
 const qs=new URLSearchParams(location.search),UNIT=qs.get('unit')||'basic_a_u06',TEST=qs.get('test')==='1';
 let D,i=0,right=0,pos=0,locked=false,N=0;const card=document.getElementById('card');
@@ -75,9 +76,10 @@ function next(){i++;if(i<N)show();else end()}
 function end(){const p=Math.round(right/N*100),ps=p>=D.passPercent;if(ps){pos=N;move()}
  card.innerHTML=`<h1>${D.title}</h1><p class="pct ${ps?'pass':'fail'}">${p}%</p><div style="font-size:28px">${right} / ${N} right</div>
  <div class="p">${ps?'🏔️ PASS! You reached the top!':'Not yet — you need '+D.passPercent+'%. Try again!'}</div><button id="again">🔁 Play again</button>`;
- line(ps?D.lines.pass:D.lines.retry);document.getElementById('again').onclick=start}
+ line(ps?D.lines.pass:D.lines.retry);document.getElementById('again').onclick=start;WB.save('climb',p,right,N);
+ card.insertAdjacentHTML('beforeend',` <button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`)}
 function start(){i=0;right=0;pos=0;move();show()}
-fetch('data/'+UNIT+'.json').then(r=>{if(!r.ok)throw Error('No unit '+UNIT);return r.json()}).then(d=>{D=d;N=d.questions.length;drawSteps();
+fetch('data/'+UNIT+'.json').then(r=>{if(!r.ok)throw Error('No unit '+UNIT);return r.json()}).then(d=>{D=d;WB.D=d;N=d.questions.length;if(!WB.unlocked('climb')){card.innerHTML=`<h1>🔒 Locked</h1><p class="p">Finish step 8 first.</p><button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`;return}drawSteps();
  if(TEST){const b=document.createElement('button');b.className='skip';b.textContent='TEST: skip ✓';b.onclick=()=>{if(!locked&&i<N)check(true,null)};document.body.appendChild(b)}
  start()}).catch(e=>card.innerHTML='<h1>Oops</h1><p>'+e.message+'</p>');
 </script></body></html>
