@@ -1,6 +1,6 @@
 // Day 3 activities. Each takes the unit data (WB.D) and draws into #app.
 const A={};const $=s=>document.querySelector(s);const app=()=>document.getElementById('app');
-const head=(id,sub,i,n)=>{const s=WB.steps.find(x=>x[0]===id);return `<div class="card"><h1>${s[2]} ${s[1]}</h1><div class="p">${sub}</div>${n?`<div class="bar"><i style="width:${i/n*100}%"></i></div>`:''}`};
+const head=(id,sub,i,n)=>{const s=WB.steps.find(x=>x[0]===id);WB.voiceBtn();return `<div class="card"><h1>${s[2]} ${s[1]}</h1><div class="p">${sub}</div>${n?`<div class="bar"><i style="width:${i/n*100}%"></i></div>`:''}`};
 const fb=(t,ok)=>{const f=$('#fb');if(f){f.textContent=t;f.style.color=ok?'#2f9e44':'#c92a2a'}if(t&&t.startsWith('🎉'))WB.cheer('right');else if(t&&!ok&&!t.startsWith('First'))WB.cheer('wrong')};
 const U=s=>s.toUpperCase().replace(/[^A-Z]/g,'');
 
@@ -15,19 +15,23 @@ A.match=()=>{const W=WB.D.words,n=W.length;let right=0,done=0,sel=null,miss=new 
   else{miss.add(sel);b.classList.add('no');setTimeout(()=>b.classList.remove('no'),600);fb('Try again!',false)}}
  WB.skipBtn(()=>{const l=[...document.querySelectorAll('#L button')].find(x=>!x.disabled);if(l)hit(l.dataset.id,true)});};
 
-// 2. Map Quiz (scene with spots, or a grid of unit pictures)
-A.map=()=>{const W=WB.D.words,M=WB.D.map||{},order=WB.sh(W),n=order.length;let i=0,right=0,missed=false;
- const scene=M.scene&&M.spots;
- app().innerHTML=head('map','Listen. Tap the right spot on the map.',0,n)+`<button class="snd" id="pl">🔊 Listen</button><div id="fb"></div>
- <div id="mp" style="position:relative;margin-top:8px">${scene?`<img src="${M.scene}" style="width:100%">`:'<div class="grid4" id="g"></div>'}</div></div>`;
- if(scene)M.spots.forEach(s=>{const b=document.createElement('button');b.dataset.id=s.id;b.textContent='?';b.style.cssText=`position:absolute;left:${s.x}%;top:${s.y}%;transform:translate(-50%,-50%)`;b.onclick=()=>tap(b);$('#mp').appendChild(b)});
- else WB.sh(W).forEach(w=>{const b=document.createElement('button');b.dataset.id=w.id;b.style.background='#f1f9ff';b.innerHTML=`<img class="pic" src="${w.pic}" alt=""><div class="lab" style="min-height:24px">?</div>`;b.onclick=()=>tap(b);$('#g').appendChild(b)});
+// 2. Map Quiz: one big scene picture with hotspot boxes (unit JSON "map"), or a picture grid if there is no scene
+A.map=()=>{const M=WB.D.map||{},hs=M.scene&&M.hotspots?M.hotspots:null;const W=hs?hs.map(h=>WB.w(h.id)).filter(Boolean):WB.D.words,order=WB.sh(W),n=order.length;let i=0,right=0,missed=false,lock=false;
+ app().innerHTML=head('map',hs?'Listen. Tap that thing in the picture!':'Listen. Tap the right picture.',0,n)+`<button class="snd" id="pl">🔊 Listen</button> <b id="cnt"></b><div id="fb"></div>
+ <div id="mp" class="${hs?'scene':''}">${hs?`<img src="${M.scene}" alt="scene" draggable="false">`:'<div class="grid4" id="g"></div>'}</div></div>`;
+ const box=(h,cls,label)=>{const d=document.createElement('div');d.className='hit '+(cls||'');d.style.cssText=`left:${h.x}%;top:${h.y}%;width:${h.w}%;height:${h.h}%`;if(label)d.innerHTML='<span>'+label+'</span>';$('#mp').appendChild(d);return d};
+ // a tap hits the smallest hotspot that contains it (so the mouse wins over the desk under it)
+ const at=(px,py)=>hs.filter(h=>px>=h.x&&px<=h.x+h.w&&py>=h.y&&py<=h.y+h.h).sort((a,b)=>a.w*a.h-b.w*b.h)[0];
+ if(hs)$('#mp img').onclick=e=>{const r=e.target.getBoundingClientRect();const h=at((e.clientX-r.left)/r.width*100,(e.clientY-r.top)/r.height*100);tapId(h&&h.id,h)};
+ else WB.sh(W).forEach(w=>{const b=document.createElement('button');b.dataset.id=w.id;b.style.background='#f1f9ff';b.innerHTML=`<img class="pic" src="${w.pic}" alt=""><div class="lab" style="min-height:24px">?</div>`;b.onclick=()=>{if(!b.disabled)tapId(w.id,null,b)};$('#g').appendChild(b)});
  const say=()=>i<n&&WB.play(order[i].audio);$('#pl').onclick=say;
- function step(){missed=false;document.querySelector('.bar i').style.width=i/n*100+'%';fb('',true);setTimeout(say,300)}
- function good(b){const w=order[i];b.classList.add('ok');b.disabled=true;const l=b.querySelector('.lab');if(l)l.textContent=w.en;else b.textContent=w.en;if(!missed)right++,WB.tick('map',right,n);i++;
-  WB.play(w.audio);if(i>=n)setTimeout(()=>WB.end('map',right,n),1000);else setTimeout(step,1100)}
- function tap(b){if(b.disabled||i>=n)return;if(b.dataset.id===order[i].id){fb('🎉 Yes!',true);good(b)}else{missed=true;b.classList.add('no');setTimeout(()=>b.classList.remove('no'),600);fb('Not that one. Listen again!',false);say()}}
- WB.skipBtn(()=>{if(i<n)good($(`#mp [data-id="${order[i].id}"]`))});step();};
+ function step(){missed=false;lock=false;document.querySelector('.bar i').style.width=i/n*100+'%';$('#cnt').textContent=(i+1)+' / '+n;fb('',true);setTimeout(say,300)}
+ function good(){const w=order[i];lock=true;if(hs)box(hs.find(h=>h.id===w.id),'',w.en);else{const b=$(`#g [data-id="${w.id}"]`);b.classList.add('ok');b.disabled=true;b.querySelector('.lab').textContent=w.en}
+  if(!missed)right++,WB.tick('map',right,n);i++;fb('🎉 Yes! '+w.en+'!',true);WB.play(w.audio);if(i>=n)setTimeout(()=>WB.end('map',right,n),1300);else setTimeout(step,1300)}
+ function tapId(id,h,b){if(lock||i>=n)return;if(id===order[i].id){good();return}missed=true;
+  if(h){const d=box(h,'no',WB.w(h.id)?WB.w(h.id).en:'');setTimeout(()=>d.remove(),900)}else if(b){b.classList.add('no');setTimeout(()=>b.classList.remove('no'),600)}
+  fb(h||b?'Not that one. Listen again!':'Tap a thing in the picture!',false);say()}
+ WB.skipBtn(()=>{if(i<n&&!lock)good()});step();};
 
 // 3. Odd One Out
 A.odd=()=>{const S=WB.D.oddOneOut,n=S.length;let i=0,right=0,lock=false;
@@ -58,19 +62,33 @@ A.search=()=>{const cfg=WB.D.wordSearch||{},N=cfg.size||8;const W=(cfg.words||WB
   if(p)mark(p);else{missed=true;fb('Not a word. Try again!',false)}}
  WB.skipBtn(()=>{const p=placed.find(p=>!found.has(p.w.id));if(p)mark(p)});};
 
-// 5. Hangman as a melting snowman (6 misses)
-A.hangman=()=>{const W=WB.sh((WB.D.hangman&&WB.D.hangman.words||WB.D.words.map(w=>w.id)).map(WB.w)),n=W.length,LIVES=6;let i=0,right=0,lives,got,lock;
+// 5. Hangman: the student picks a style first (saved). 6 misses.
+const HSTY={
+ classic:{n:'Classic hangman',ic:'🙂',lose:'Oh no!',hint:'Guess before the picture is finished!',
+  draw:(l,L)=>{const k=L-l,P=['<line x1="20" y1="140" x2="120" y2="140"/>','<line x1="40" y1="140" x2="40" y2="15"/><line x1="40" y1="15" x2="95" y2="15"/><line x1="95" y1="15" x2="95" y2="35"/>','<circle cx="95" cy="50" r="15" fill="#fff3bf"/><circle cx="90" cy="47" r="2" fill="#333"/><circle cx="100" cy="47" r="2" fill="#333"/><path d="M89 55 q6 5 12 0" fill="none"/>','<line x1="95" y1="65" x2="95" y2="100"/>','<line x1="95" y1="75" x2="78" y2="88"/><line x1="95" y1="75" x2="112" y2="88"/>','<line x1="95" y1="100" x2="80" y2="122"/><line x1="95" y1="100" x2="110" y2="122"/>'];
+   return '<svg viewBox="0 0 140 150" stroke="#495057" stroke-width="5" stroke-linecap="round">'+P.slice(0,k).join('')+'</svg>'}},
+ snow:{n:'Snowman in the sun',ic:'⛄',lose:'💧 The snowman melted!',hint:'Guess before the snowman melts!',
+  draw:(l,L)=>`<span style="font-size:${30+40*(L-l)/L}px">☀️</span><span style="display:inline-block;font-size:90px;transform:scale(${.35+.65*l/L}) translateY(${(L-l)*7}px);opacity:${.35+.65*l/L}">${l?'⛄':'💧'}</span>`},
+ balloon:{n:'Balloon',ic:'🎈',lose:'💥 POP!',hint:'Guess before the balloon pops!',
+  draw:(l,L)=>`<span style="display:inline-block;font-size:90px;transform:scale(${l?.35+.65*l/L:1.2}) rotate(${(L-l)*4}deg)">${l?'🎈':'💥'}</span>`},
+ icecream:{n:'Ice cream cone',ic:'🍦',lose:'🫠 The ice cream melted!',hint:'Guess before the ice cream melts!',
+  draw:(l,L)=>`<span style="font-size:${30+40*(L-l)/L}px">☀️</span><span style="display:inline-block;font-size:90px;transform:scale(${.4+.6*l/L},${.25+.75*l/L});transform-origin:bottom">${l?'🍦':'🫠'}</span><span style="font-size:${10+6*(L-l)}px;color:#f783ac">${'💧'.repeat(Math.ceil((L-l)/2))}</span>`}
+};
+A.hangman=()=>{const W=WB.sh((WB.D.hangman&&WB.D.hangman.words||WB.D.words.map(w=>w.id)).map(WB.w)),n=W.length,LIVES=6;let i=0,right=0,lives,got,lock,S;
+ function choose(){app().innerHTML=head('hangman','Pick your game style!')+`<div class="hstyle">`+Object.entries(HSTY).map(([k,v])=>`<button data-s="${k}"><b>${v.ic}</b>${v.n}</button>`).join('')+`</div></div>`;
+  document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{localStorage.setItem('mrj_day3_hangstyle',b.dataset.s);go()})}
+ function go(){S=HSTY[localStorage.getItem('mrj_day3_hangstyle')]||HSTY.snow;i=0;right=0;show()}
  function show(){lives=LIVES;got=new Set();lock=false;const w=W[i];
-  app().innerHTML=head('hangman','Listen and look. Guess the letters before the snowman melts!',i,n)+`<div style="display:flex;justify-content:center;gap:16px;align-items:center"><img class="pic" src="${w.pic}" alt=""><div id="sm" style="font-size:80px;transition:.4s">⛄</div></div>
-  <button class="snd" id="pl">🔊 Listen</button><div id="wd" style="font-size:36px;letter-spacing:8px;margin:10px"></div><div class="keys" id="k"></div><div id="fb"></div></div>`;
-  $('#pl').onclick=()=>WB.play(w.audio);setTimeout(()=>WB.play(w.audio),300);
+  app().innerHTML=head('hangman','Listen and look. '+S.hint,i,n)+`<div style="display:flex;justify-content:center;gap:16px;align-items:center;min-height:160px"><img class="pic" src="${w.pic}" alt=""><div id="sm" style="transition:.4s">${S.draw(LIVES,LIVES)}</div></div>
+  <button class="snd" id="pl">🔊 Listen</button> <button id="chs" style="font-size:15px">🎨 Style</button><div id="wd" style="font-size:36px;letter-spacing:8px;margin:10px"></div><div class="keys" id="k"></div><div id="fb"></div></div>`;
+  $('#pl').onclick=()=>WB.play(w.audio);$('#chs').onclick=choose;setTimeout(()=>WB.play(w.audio),300);
   'abcdefghijklmnopqrstuvwxyz'.split('').forEach(ch=>{const b=document.createElement('button');b.textContent=ch;b.onclick=()=>guess(ch,b);$('#k').appendChild(b)});draw()}
- function draw(){const w=W[i];$('#wd').textContent=[...w.en].map(ch=>ch===' '?' ':got.has(ch)?ch:'_').join('');const s=$('#sm');s.style.transform=`scale(${.4+.6*lives/LIVES}) translateY(${(LIVES-lives)*6}px)`;s.style.opacity=.3+.7*lives/LIVES}
- function guess(ch,b){if(lock)return;b.disabled=true;const w=W[i];if(w.en.includes(ch)){got.add(ch);b.classList.add('ok')}else{lives--;b.classList.add('no');fb('Drip! The snowman is melting…',false)}draw();
+ function draw(){const w=W[i];$('#wd').textContent=[...w.en].map(ch=>ch===' '?' ':got.has(ch)?ch:'_').join('');$('#sm').innerHTML=S.draw(lives,LIVES)}
+ function guess(ch,b){if(lock)return;b.disabled=true;const w=W[i];if(w.en.includes(ch)){got.add(ch);b.classList.add('ok')}else{lives--;b.classList.add('no');fb('Not in the word! '+lives+' left…',false)}draw();
   const win=[...w.en].every(c=>c===' '||got.has(c));if(win)fin(true);else if(lives<=0)fin(false)}
- function fin(ok){lock=true;const w=W[i];[...w.en].forEach(c=>got.add(c));draw();if(ok){right++,WB.tick('hangman',right,n);fb('🎉 You saved the snowman! '+w.en,true)}else{$('#sm').textContent='💧';fb('Oh no! The word is: '+w.en,false)}
+ function fin(ok){lock=true;const w=W[i];[...w.en].forEach(c=>got.add(c));draw();if(ok){right++,WB.tick('hangman',right,n);fb('🎉 You did it! '+w.en,true)}else fb(S.lose+' The word is: '+w.en,false);
   WB.play(w.audio);setTimeout(()=>{i++;i<n?show():WB.end('hangman',right,n)},ok?1500:2500)}
- WB.skipBtn(()=>{if(!lock)fin(true)});show();};
+ WB.skipBtn(()=>{if(S&&!lock)fin(true)});localStorage.getItem('mrj_day3_hangstyle')?go():choose();};
 
 // 6. Crossword: picture + sound clues
 A.cross=()=>{const W=(WB.D.crossword&&WB.D.crossword.words||WB.D.words.map(w=>w.id)).map(WB.w).sort((a,b)=>U(b.en).length-U(a.en).length);
@@ -111,13 +129,13 @@ A.unscramble=()=>{const E=WB.D.expressions,n=E.length;let i=0,right=0,lock,misse
 // 8. Complete the Dialogue
 A.dialogue=()=>{const D=WB.D.dialogues,n=D.length;let i=0,right=0,lock;
  function show(){lock=false;const d=D[i];
-  app().innerHTML=head('dialogue','Listen to the question. Pick the best answer.',i,n)+`<img class="pic" src="${d.pic}" alt=""><div style="font-size:26px;margin:8px">🧑 ${d.q.text} <button class="snd" id="pl">🔊</button></div>
-  <div style="display:grid;gap:8px">`+d.choices.map((c,k)=>`<button data-k="${k}" style="font-size:24px">🙂 ${c.text}</button>`).join('')+`</div><div id="fb"></div></div>`;
+  app().innerHTML=head('dialogue','Listen to the question. Pick the best answer for the AI 🤖 to say.',i,n)+`<img class="pic" src="${d.pic}" alt=""><div style="font-size:26px;margin:8px">🧑 ${d.q.text} <button class="snd" id="pl">🔊</button></div>
+  <div style="display:grid;gap:8px">`+d.choices.map((c,k)=>`<button data-k="${k}" style="font-size:24px">🤖 ${c.text}</button>`).join('')+`</div><div id="fb"></div></div>`;
   $('#pl').onclick=()=>WB.play(d.q.audio);setTimeout(()=>WB.play(d.q.audio),300);
   document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>pick(+b.dataset.k===d.answer,b))}
  function pick(ok,b){if(lock)return;lock=true;const d=D[i];if(ok)right++,WB.tick('dialogue',right,n);else b&&b.classList.add('no');$(`[data-k="${d.answer}"]`).classList.add('ok');
   fb(ok?'🎉 Great! Listen to the talk.':'Oops! The right answer is green. Listen!',ok);
-  setTimeout(()=>WB.seq([d.q.audio,d.choices[d.answer].audio]).then(()=>setTimeout(()=>{i++;i<n?show():WB.end('dialogue',right,n)},500)),400)}
+  setTimeout(()=>WB.seq([d.q.audio,WB.ai(d.choices[d.answer].audio)]).then(()=>setTimeout(()=>{i++;i<n?show():WB.end('dialogue',right,n)},500)),400)}
  WB.skipBtn(()=>{if(i<n&&!lock)pick(true,null)});show();};
 
 WB.load().then(()=>{const a=WB.qs.get('a');if(!A[a]){app().innerHTML='<div class="card"><h1>Unknown activity</h1></div>';return}

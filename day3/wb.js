@@ -1,7 +1,7 @@
 // Day 3 virtual workbook engine: shared helpers. Everything reads data/<unit>.json.
 const WB={};
 WB.qs=new URLSearchParams(location.search);WB.unit=WB.qs.get('unit')||'basic_a_u06';WB.test=WB.qs.get('test')==='1';
-WB.steps=[['match','Matching Columns','🔗'],['map','Map Quiz','🗺️'],['odd','Odd One Out','🤔'],['search','Word Search','🔍'],['hangman','Hangman (Snowman)','⛄'],['cross','Crossword','✏️'],['unscramble','Unscramble Words','🧩'],['dialogue','Complete the Dialogue','💬'],['climb','Mountain Quiz (Final Test)','🏔️']];
+WB.steps=[['match','Matching Columns','🔗'],['map','Map Quiz','🗺️'],['odd','Odd One Out','🤔'],['search','Word Search','🔍'],['hangman','Hangman','🎈'],['cross','Crossword','✏️'],['unscramble','Unscramble Words','🧩'],['dialogue','Complete the Dialogue','💬'],['climb','Mountain Quiz (Final Test)','🏔️']];
 WB.key=()=> 'mrj_day3_'+WB.unit;
 WB.prog=()=>{try{return JSON.parse(localStorage.getItem(WB.key()))||{}}catch(e){return{}}};
 WB.save=(id,pct,right,n)=>{const p=WB.prog();const old=p[id];const pass=pct>=(WB.D.passPercent||80);
@@ -12,7 +12,17 @@ WB.link=(page,extra)=>page+'?unit='+encodeURIComponent(WB.unit)+(WB.test?'&test=
 WB.load=()=>fetch('data/'+WB.unit+'.json').then(r=>{if(!r.ok)throw Error('No unit '+WB.unit);return r.json()}).then(d=>WB.D=d);
 WB.sh=a=>a.map(v=>[Math.random(),v]).sort((x,y)=>x[0]-y[0]).map(v=>v[1]);
 let _cur=null;
-let _res=null;WB.play=src=>new Promise(res=>{try{if(_cur){_cur.pause();const r=_res;_res=null;r&&setTimeout(r,0)}const a=new Audio(src);_cur=a;_res=res;a.onended=()=>{if(_res===res)_res=null;res()};a.onerror=res;a.play().catch(()=>res())}catch(e){res()}});
+// Voice picker (same voice set as Word Master / Day 2). Saved for all of Day 3.
+WB.VOICES=[['us_f','Miss Harper','👩‍🏫'],['us_m','Coach Ray','🧢'],['grandma','Grandma June','👵'],['grandpa','Grandpa Walt','👴'],['robot','Robot','🤖']];
+WB.voice=()=>{const v=localStorage.getItem('mrj_day3_voice');return WB.VOICES.some(x=>x[0]===v)?v:((WB.D&&WB.D.voices&&WB.D.voices.default)||'us_f')};
+WB.setVoice=v=>{localStorage.setItem('mrj_day3_voice',v);document.querySelectorAll('[data-voice]').forEach(b=>b.classList.toggle('sel',b.dataset.voice===v))};
+WB.voiceBar=()=>'<div class="vbar">'+WB.VOICES.map(([id,n,ic])=>`<button data-voice="${id}" class="${WB.voice()===id?'sel':''}" onclick="WB.setVoice('${id}');WB.play('audio/whatisthis.mp3')">${ic} ${n}</button>`).join('')+'</div>';
+// Taught words/sentences play in the chosen voice. Coach Ray (audio/ray/) and the AI voice (audio/ai/) are never changed.
+WB.vsrc=src=>{const m=/(?:^|\/)(?:audio|songs\/words)\/(\w+)\.mp3$/.exec(src||'');if(!m||/audio\/(ray|ai|v)\//.test(src))return src;return ((WB.D&&WB.D.voices&&WB.D.voices.dir)||'audio/v/')+WB.voice()+'/'+m[1]+'.mp3'};
+WB.ai=src=>((WB.D&&WB.D.voices&&WB.D.voices.ai)||'audio/ai/')+String(src).split('/').pop();
+WB.voiceBtn=()=>{if(document.querySelector('.vpick'))return;const b=document.createElement('button');b.className='vpick snd';b.textContent='🗣️';b.title='Choose a voice';
+ b.onclick=()=>{let p=document.querySelector('.vpop');if(p){p.remove();return}p=document.createElement('div');p.className='vpop card';p.innerHTML='<b>Choose a voice</b>'+WB.voiceBar();document.body.appendChild(p)};document.body.appendChild(b)};
+let _res=null;WB.play=src=>new Promise(res=>{src=WB.vsrc(src);try{if(_cur){_cur.pause();const r=_res;_res=null;r&&setTimeout(r,0)}const a=new Audio(src);_cur=a;_res=res;a.onended=()=>{if(_res===res)_res=null;res()};a.onerror=res;a.play().catch(()=>res())}catch(e){res()}});
 WB.seq=async list=>{for(const s of list){await WB.play(s);await new Promise(r=>setTimeout(r,250))}};
 WB.line=k=>WB.cheer(k);
 // Coach Ray: fun praise/feedback, random variation, queued after any word sound that is playing

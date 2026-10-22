@@ -23,3 +23,11 @@ img.pic{width:100%;max-width:120px;aspect-ratio:1;object-fit:contain;display:blo
 .nextlvl{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);font-size:28px;padding:14px 26px;z-index:8;animation:pop .6s}
 .nextlvl small{display:block;font-size:14px}@keyframes pop{0%{transform:translateX(-50%) scale(.3)}70%{transform:translateX(-50%) scale(1.15)}100%{transform:translateX(-50%) scale(1)}}
 .star{font-size:22px}
+
+.vbar{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:8px 0}.vbar button{font-size:16px;padding:8px 10px}
+.vpick{position:fixed;right:8px;top:8px;z-index:9;font-size:22px;padding:6px 10px}.vpop{position:fixed;right:8px;top:56px;z-index:9;max-width:340px}
+.scene{position:relative;margin-top:8px;touch-action:manipulation}.scene img{width:100%;display:block;border-radius:14px}
+.scene .hit{position:absolute;border:4px solid #40c057;border-radius:12px;background:rgba(105,219,124,.25);pointer-events:none;animation:pop .5s}
+.scene .hit.no{border-color:#fa5252;background:rgba(255,135,135,.25)}.scene .hit span{position:absolute;left:50%;bottom:-6px;transform:translate(-50%,100%);background:#fff;border-radius:8px;padding:0 6px;font-size:16px;white-space:nowrap}
+.hstyle{display:grid;grid-template-columns:1fr 1fr;gap:10px}.hstyle button{font-size:20px;padding:16px 8px}.hstyle b{display:block;font-size:54px}
+#sm svg{width:150px;height:150px}

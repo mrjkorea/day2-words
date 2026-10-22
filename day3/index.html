@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Day 3 Virtual Workbook</title><link rel="icon" href="../favicon.ico"><link rel="stylesheet" href="wb.css"></head>
 <body><div id="app"><div class="card"><h1>Loading…</h1></div></div><script src="wb.js"></script><script>
-WB.load().then(D=>{const p=WB.prog();let h=`<div class="card"><h1>📒 Day 3 Workbook</h1><h2>${D.title}</h2><div class="p">Finish each step to open the next. Get ${D.passPercent}% to open the next step. Get 100% for a gold star 🌟. Pass the mountain test with ${D.passPercent}%!</div><div class="p">🌟 ${WB.steps.filter(s=>(p[s[0]]||{}).pct===100).length} / ${WB.steps.length} gold stars</div>`;
+WB.load().then(D=>{const p=WB.prog();let h=`<div class="card"><h1>📒 Day 3 Workbook</h1><h2>${D.title}</h2><div class="p">Finish each step to open the next. Get ${D.passPercent}% to open the next step. Get 100% for a gold star 🌟. Pass the mountain test with ${D.passPercent}%!</div><div class="p">🌟 ${WB.steps.filter(s=>(p[s[0]]||{}).pct===100).length} / ${WB.steps.length} gold stars</div><div class="p"><b>🗣️ Choose your voice:</b></div>${WB.voiceBar()}`;
  WB.steps.forEach(([id,name,ic],k)=>{const r=p[id],done=WB.done(id),open=WB.unlocked(id);
   const url=id==='climb'?WB.link('climb.html'):WB.link('play.html','&a='+id);
   h+=`<button class="step ${done?'ok':open?'':'lock'}" ${open?`onclick="location.href='${url}'"`:'disabled'}><span class="n">${done?'✅':open?ic:'🔒'}</span><span style="flex:1">${k+1}. ${name}</span><span class="star">${r?(r.pct===100?'🌟 ':done?'⭐ ':'')+r.pct+'%':''}</span></button>`});

@@ -6,7 +6,7 @@
 #app2{max-width:980px;margin:auto;padding:10px;display:flex;gap:12px;flex-wrap:wrap}
 #mt{flex:1 1 300px;position:relative;min-height:200px}
 #mt svg{width:100%;height:100%;max-height:520px;display:block}
-#vid{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;border-radius:18px;background:#bfe7ff;display:none}
+#vid{position:fixed;inset:0;width:100vw;height:100vh;height:100dvh;object-fit:cover;background:#bfe7ff;display:none;z-index:50}
 #card{flex:1 1 360px;background:#fff;border-radius:22px;padding:16px;box-shadow:0 6px 0 #8bb;text-align:center}
 .ch{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}
 .pic{background:#f1f9ff;padding:6px}.pic img{width:100%;max-width:150px;aspect-ratio:1;object-fit:contain}
@@ -38,7 +38,7 @@ function move(){const[x,y]=spot(pos);document.getElementById('climber').setAttri
 function drawSteps(){let s='';for(let k=0;k<=N;k++){const[x,y]=spot(k);s+=`<circle cx="${x}" cy="${y}" r="4" fill="#5c940d"/>`}document.getElementById('steps').innerHTML=s}
 // Play a climber clip over the trail map, then go back to the map. Resolves when done (or after a safety timeout).
 function clip(k){return new Promise(res=>{const v=D.video&&D.video[k];if(!v){res();return}let done=false;const fin=()=>{if(done)return;done=true;vid.style.display='none';vid.pause();res()};
- vid.src=v;vid.style.display='block';vid.currentTime=0;vid.onended=fin;vid.onerror=fin;vid.play().catch(fin);setTimeout(fin,6000)})}
+ vid.src=v;vid.style.display='block';document.querySelector('.nextlvl')&&(document.querySelector('.nextlvl').style.zIndex=60);vid.currentTime=0;vid.onended=fin;vid.onerror=fin;vid.play().catch(fin);setTimeout(fin,6000)})}
 function head(){return `<h1>${D.title}</h1><div>Question ${i+1} / ${N} · ⭐ ${right}</div><div class="bar"><i style="width:${i/N*100}%"></i></div>`}
 const choiceBtns=(q,lab)=>`<div class="ch">`+sh(q.choices).map(c=>`<button ${lab?'class="pic"':''} data-a="${c}">${lab?pic(c):c}</button>`).join('')+`</div>`;
 // Question types. Each renders into the card and wires answers to check(ok, button).
@@ -70,7 +70,7 @@ async function end(){const p=Math.round(right/N*100),ps=p>=D.passPercent;WB.save
  <button id="again">🔁 Play again</button> <button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`;
  document.getElementById('again').onclick=start;WB.cheer(ps?'top':'retry');if(ps){pos=N;move();await clip('top')}}
 function start(){i=0;right=0;pos=0;WB._nl=null;move();show()}
-WB.load().then(d=>{D=d;N=d.questions.length;drawSteps();
+WB.load().then(d=>{D=d;WB.voiceBtn();N=d.questions.length;drawSteps();
  if(!WB.unlocked('climb')){card.innerHTML=`<h1>🔒 Locked</h1><p class="p">Finish step 8 first.</p><button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`;return}
  if(WB.test)WB.skipBtn(()=>{if(!locked&&i<N)check(true,null)});start()}).catch(e=>card.innerHTML='<h1>Oops</h1><p>'+e.message+'</p>');
 </script></body></html>
