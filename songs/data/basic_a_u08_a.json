@@ -1,0 +1,1318 @@
+{
+ "id": "basic_a_u08_a",
+ "title": "Twenty and Two",
+ "book": "Basic A",
+ "unit": 8,
+ "unitTitle": "Numbers 11 to 100",
+ "packId": "basic_a_u8",
+ "audio": "audio/basic_a_u08_a.mp3",
+ "duration": 130.68,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Ten, eleven, twelve! Let's go!",
+   "words": [
+    {
+     "t": "Ten,",
+     "start": 11.0,
+     "end": 11.2
+    },
+    {
+     "t": "eleven,",
+     "start": 11.5,
+     "end": 11.68,
+     "pic": "eleven"
+    },
+    {
+     "t": "twelve!",
+     "start": 12.16,
+     "end": 12.78,
+     "pic": "twelve"
+    },
+    {
+     "t": "Let's",
+     "start": 12.78,
+     "end": 12.94
+    },
+    {
+     "t": "go!",
+     "start": 12.94,
+     "end": 13.34
+    }
+   ],
+   "n": 1,
+   "start": 11.0,
+   "end": 13.34,
+   "pic": "eleven"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Eleven, eleven! Twelve, twelve!",
+   "words": [
+    {
+     "t": "Eleven,",
+     "start": 13.34,
+     "end": 13.7,
+     "pic": "eleven"
+    },
+    {
+     "t": "eleven!",
+     "start": 14.3,
+     "end": 14.62,
+     "pic": "eleven"
+    },
+    {
+     "t": "Twelve,",
+     "start": 14.66,
+     "end": 15.28,
+     "pic": "twelve"
+    },
+    {
+     "t": "twelve!",
+     "start": 15.78,
+     "end": 15.98,
+     "pic": "twelve"
+    }
+   ],
+   "n": 2,
+   "start": 13.34,
+   "end": 15.98,
+   "pic": "eleven"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Thirteen, thirteen! Fifteen, fifteen!",
+   "words": [
+    {
+     "t": "Thirteen,",
+     "start": 15.98,
+     "end": 16.62,
+     "pic": "thirteen"
+    },
+    {
+     "t": "thirteen!",
+     "start": 16.98,
+     "end": 17.34,
+     "pic": "thirteen"
+    },
+    {
+     "t": "Fifteen,",
+     "start": 17.34,
+     "end": 17.92,
+     "pic": "fifteen"
+    },
+    {
+     "t": "fifteen!",
+     "start": 18.36,
+     "end": 18.58,
+     "pic": "fifteen"
+    }
+   ],
+   "n": 3,
+   "start": 15.98,
+   "end": 18.58,
+   "pic": "thirteen"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Twenty-two, twenty-two!",
+   "words": [
+    {
+     "t": "Twenty-two,",
+     "start": 18.64,
+     "end": 19.22,
+     "pic": "twentytwo"
+    },
+    {
+     "t": "twenty-two!",
+     "start": 19.6,
+     "end": 20.0,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 4,
+   "start": 18.64,
+   "end": 20.0,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Thirty-three, thirty-three!",
+   "words": [
+    {
+     "t": "Thirty-three,",
+     "start": 20.0,
+     "end": 20.6,
+     "pic": "thirtythree"
+    },
+    {
+     "t": "thirty-three!",
+     "start": 20.96,
+     "end": 21.24,
+     "pic": "thirtythree"
+    }
+   ],
+   "n": 5,
+   "start": 20.0,
+   "end": 21.24,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Chorus",
+   "text": "Twenty and two is twenty-two",
+   "words": [
+    {
+     "t": "Twenty",
+     "start": 21.6,
+     "end": 22.01
+    },
+    {
+     "t": "and",
+     "start": 22.03,
+     "end": 22.28
+    },
+    {
+     "t": "two",
+     "start": 22.3,
+     "end": 22.54
+    },
+    {
+     "t": "is",
+     "start": 22.56,
+     "end": 22.76
+    },
+    {
+     "t": "twenty-two",
+     "start": 22.78,
+     "end": 23.42,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 6,
+   "start": 21.6,
+   "end": 23.42,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thirty and three is thirty-three",
+   "words": [
+    {
+     "t": "Thirty",
+     "start": 23.42,
+     "end": 24.16
+    },
+    {
+     "t": "and",
+     "start": 24.16,
+     "end": 24.56
+    },
+    {
+     "t": "three",
+     "start": 24.56,
+     "end": 24.84
+    },
+    {
+     "t": "is",
+     "start": 24.84,
+     "end": 25.16
+    },
+    {
+     "t": "thirty-three",
+     "start": 25.16,
+     "end": 26.1,
+     "pic": "thirtythree"
+    }
+   ],
+   "n": 7,
+   "start": 23.42,
+   "end": 26.1,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Chorus",
+   "text": "Fifty and five is fifty-five",
+   "words": [
+    {
+     "t": "Fifty",
+     "start": 26.1,
+     "end": 26.78
+    },
+    {
+     "t": "and",
+     "start": 26.78,
+     "end": 27.24
+    },
+    {
+     "t": "five",
+     "start": 27.24,
+     "end": 27.58
+    },
+    {
+     "t": "is",
+     "start": 27.58,
+     "end": 27.86
+    },
+    {
+     "t": "fifty-five",
+     "start": 28.03,
+     "end": 28.88,
+     "pic": "fiftyfive"
+    }
+   ],
+   "n": 8,
+   "start": 26.1,
+   "end": 28.88,
+   "pic": "fiftyfive"
+  },
+  {
+   "section": "Chorus",
+   "text": "Ninety and nine is ninety-nine!",
+   "words": [
+    {
+     "t": "Ninety",
+     "start": 28.88,
+     "end": 29.66
+    },
+    {
+     "t": "and",
+     "start": 29.66,
+     "end": 29.92
+    },
+    {
+     "t": "nine",
+     "start": 29.92,
+     "end": 30.26
+    },
+    {
+     "t": "is",
+     "start": 30.26,
+     "end": 30.52
+    },
+    {
+     "t": "ninety-nine!",
+     "start": 30.52,
+     "end": 31.88,
+     "pic": "ninetynine"
+    }
+   ],
+   "n": 9,
+   "start": 28.88,
+   "end": 31.88,
+   "pic": "ninetynine"
+  },
+  {
+   "section": "Chorus",
+   "text": "Eleven, twelve, thirteen, fifteen",
+   "words": [
+    {
+     "t": "Eleven,",
+     "start": 31.98,
+     "end": 32.52,
+     "pic": "eleven"
+    },
+    {
+     "t": "twelve,",
+     "start": 32.54,
+     "end": 33.08,
+     "pic": "twelve"
+    },
+    {
+     "t": "thirteen,",
+     "start": 33.1,
+     "end": 33.76,
+     "pic": "thirteen"
+    },
+    {
+     "t": "fifteen",
+     "start": 33.78,
+     "end": 34.34,
+     "pic": "fifteen"
+    }
+   ],
+   "n": 10,
+   "start": 31.98,
+   "end": 34.34,
+   "pic": "eleven"
+  },
+  {
+   "section": "Chorus",
+   "text": "One hundred! One hundred!",
+   "words": [
+    {
+     "t": "One",
+     "start": 34.34,
+     "end": 37.18
+    },
+    {
+     "t": "hundred!",
+     "start": 37.18,
+     "end": 39.74,
+     "pic": "onehundred"
+    },
+    {
+     "t": "One",
+     "start": 39.74,
+     "end": 39.86
+    },
+    {
+     "t": "hundred!",
+     "start": 39.86,
+     "end": 42.36,
+     "pic": "onehundred"
+    }
+   ],
+   "n": 11,
+   "start": 34.34,
+   "end": 42.36,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Fifty-five, fifty-five!",
+   "words": [
+    {
+     "t": "Fifty-five,",
+     "start": 42.82,
+     "end": 43.98,
+     "pic": "fiftyfive"
+    },
+    {
+     "t": "fifty-five!",
+     "start": 43.98,
+     "end": 45.48,
+     "pic": "fiftyfive"
+    }
+   ],
+   "n": 12,
+   "start": 42.82,
+   "end": 45.48,
+   "pic": "fiftyfive"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Ninety-seven, ninety-seven!",
+   "words": [
+    {
+     "t": "Ninety-seven,",
+     "start": 45.48,
+     "end": 46.5,
+     "pic": "ninetyseven"
+    },
+    {
+     "t": "ninety-seven!",
+     "start": 47.08,
+     "end": 48.04,
+     "pic": "ninetyseven"
+    }
+   ],
+   "n": 13,
+   "start": 45.48,
+   "end": 48.04,
+   "pic": "ninetyseven"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Ninety-nine, ninety-nine!",
+   "words": [
+    {
+     "t": "Ninety-nine,",
+     "start": 48.04,
+     "end": 49.3,
+     "pic": "ninetynine"
+    },
+    {
+     "t": "ninety-nine!",
+     "start": 49.74,
+     "end": 50.28,
+     "pic": "ninetynine"
+    }
+   ],
+   "n": 14,
+   "start": 48.04,
+   "end": 50.28,
+   "pic": "ninetynine"
+  },
+  {
+   "section": "Verse 2",
+   "text": "One hundred! One hundred!",
+   "words": [
+    {
+     "t": "One",
+     "start": 50.38,
+     "end": 50.54
+    },
+    {
+     "t": "hundred!",
+     "start": 50.54,
+     "end": 51.62,
+     "pic": "onehundred"
+    },
+    {
+     "t": "One",
+     "start": 51.62,
+     "end": 51.86
+    },
+    {
+     "t": "hundred!",
+     "start": 51.86,
+     "end": 53.2,
+     "pic": "onehundred"
+    }
+   ],
+   "n": 15,
+   "start": 50.38,
+   "end": 53.2,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Chorus",
+   "text": "Twenty and two is twenty-two",
+   "words": [
+    {
+     "t": "Twenty",
+     "start": 53.32,
+     "end": 53.62
+    },
+    {
+     "t": "and",
+     "start": 53.62,
+     "end": 53.94
+    },
+    {
+     "t": "two",
+     "start": 53.94,
+     "end": 54.22
+    },
+    {
+     "t": "is",
+     "start": 54.22,
+     "end": 54.52
+    },
+    {
+     "t": "twenty-two",
+     "start": 54.52,
+     "end": 55.48,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 16,
+   "start": 53.32,
+   "end": 55.48,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thirty and three is thirty-three",
+   "words": [
+    {
+     "t": "Thirty",
+     "start": 55.48,
+     "end": 56.22
+    },
+    {
+     "t": "and",
+     "start": 56.22,
+     "end": 56.62
+    },
+    {
+     "t": "three",
+     "start": 56.62,
+     "end": 56.88
+    },
+    {
+     "t": "is",
+     "start": 56.88,
+     "end": 57.2
+    },
+    {
+     "t": "thirty-three",
+     "start": 57.2,
+     "end": 58.12,
+     "pic": "thirtythree"
+    }
+   ],
+   "n": 17,
+   "start": 55.48,
+   "end": 58.12,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Chorus",
+   "text": "Fifty and five is fifty-five",
+   "words": [
+    {
+     "t": "Fifty",
+     "start": 58.12,
+     "end": 58.88
+    },
+    {
+     "t": "and",
+     "start": 58.88,
+     "end": 59.3
+    },
+    {
+     "t": "five",
+     "start": 59.3,
+     "end": 59.64
+    },
+    {
+     "t": "is",
+     "start": 59.64,
+     "end": 59.9
+    },
+    {
+     "t": "fifty-five",
+     "start": 59.9,
+     "end": 60.96,
+     "pic": "fiftyfive"
+    }
+   ],
+   "n": 18,
+   "start": 58.12,
+   "end": 60.96,
+   "pic": "fiftyfive"
+  },
+  {
+   "section": "Chorus",
+   "text": "Ninety and nine is ninety-nine!",
+   "words": [
+    {
+     "t": "Ninety",
+     "start": 60.96,
+     "end": 61.7
+    },
+    {
+     "t": "and",
+     "start": 61.7,
+     "end": 62.0
+    },
+    {
+     "t": "nine",
+     "start": 62.0,
+     "end": 62.32
+    },
+    {
+     "t": "is",
+     "start": 62.32,
+     "end": 62.6
+    },
+    {
+     "t": "ninety-nine!",
+     "start": 62.6,
+     "end": 63.45,
+     "pic": "ninetynine"
+    }
+   ],
+   "n": 19,
+   "start": 60.96,
+   "end": 63.45,
+   "pic": "ninetynine"
+  },
+  {
+   "section": "Chorus",
+   "text": "Eleven, twelve, thirteen, fifteen",
+   "words": [
+    {
+     "t": "Eleven,",
+     "start": 64.2,
+     "end": 64.62,
+     "pic": "eleven"
+    },
+    {
+     "t": "twelve,",
+     "start": 64.78,
+     "end": 64.94,
+     "pic": "twelve"
+    },
+    {
+     "t": "thirteen,",
+     "start": 65.16,
+     "end": 65.54,
+     "pic": "thirteen"
+    },
+    {
+     "t": "fifteen",
+     "start": 65.74,
+     "end": 66.18,
+     "pic": "fifteen"
+    }
+   ],
+   "n": 20,
+   "start": 64.2,
+   "end": 66.18,
+   "pic": "eleven"
+  },
+  {
+   "section": "Chorus",
+   "text": "One hundred! One hundred!",
+   "words": [
+    {
+     "t": "One",
+     "start": 69.24,
+     "end": 70.09
+    },
+    {
+     "t": "hundred!",
+     "start": 70.11,
+     "end": 71.83,
+     "pic": "onehundred"
+    },
+    {
+     "t": "One",
+     "start": 71.85,
+     "end": 72.7
+    },
+    {
+     "t": "hundred!",
+     "start": 72.72,
+     "end": 74.46,
+     "pic": "onehundred"
+    }
+   ],
+   "n": 21,
+   "start": 69.24,
+   "end": 74.46,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Bridge",
+   "text": "One hundred, ninety-nine",
+   "words": [
+    {
+     "t": "One",
+     "start": 74.98,
+     "end": 75.32
+    },
+    {
+     "t": "hundred,",
+     "start": 75.34,
+     "end": 76.04,
+     "pic": "onehundred"
+    },
+    {
+     "t": "ninety-nine",
+     "start": 76.06,
+     "end": 77.0,
+     "pic": "ninetynine"
+    }
+   ],
+   "n": 22,
+   "start": 74.98,
+   "end": 77.0,
+   "pic": "ninetynine"
+  },
+  {
+   "section": "Bridge",
+   "text": "Ninety-seven, fifty-five",
+   "words": [
+    {
+     "t": "Ninety-seven,",
+     "start": 77.0,
+     "end": 78.38,
+     "pic": "ninetyseven"
+    },
+    {
+     "t": "fifty-five",
+     "start": 79.1,
+     "end": 79.64,
+     "pic": "fiftyfive"
+    }
+   ],
+   "n": 23,
+   "start": 77.0,
+   "end": 79.64,
+   "pic": "ninetyseven"
+  },
+  {
+   "section": "Bridge",
+   "text": "Thirty-three, twenty-two",
+   "words": [
+    {
+     "t": "Thirty-three,",
+     "start": 79.64,
+     "end": 80.92,
+     "pic": "thirtythree"
+    },
+    {
+     "t": "twenty-two",
+     "start": 81.54,
+     "end": 82.4,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 24,
+   "start": 79.64,
+   "end": 82.4,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Bridge",
+   "text": "Fifteen, thirteen, twelve, eleven!",
+   "words": [
+    {
+     "t": "Fifteen,",
+     "start": 82.4,
+     "end": 83.24,
+     "pic": "fifteen"
+    },
+    {
+     "t": "thirteen,",
+     "start": 83.7,
+     "end": 83.84,
+     "pic": "thirteen"
+    },
+    {
+     "t": "twelve,",
+     "start": 84.18,
+     "end": 84.38,
+     "pic": "twelve"
+    },
+    {
+     "t": "eleven!",
+     "start": 85.0,
+     "end": 85.7,
+     "pic": "eleven"
+    }
+   ],
+   "n": 25,
+   "start": 82.4,
+   "end": 85.7,
+   "pic": "fifteen"
+  },
+  {
+   "section": "Chorus",
+   "text": "Twenty and two is twenty-two",
+   "words": [
+    {
+     "t": "Twenty",
+     "start": 85.7,
+     "end": 86.09
+    },
+    {
+     "t": "and",
+     "start": 86.11,
+     "end": 86.35
+    },
+    {
+     "t": "two",
+     "start": 86.37,
+     "end": 86.61
+    },
+    {
+     "t": "is",
+     "start": 86.63,
+     "end": 86.82
+    },
+    {
+     "t": "twenty-two",
+     "start": 86.84,
+     "end": 87.46,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 26,
+   "start": 85.7,
+   "end": 87.46,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thirty and three is thirty-three",
+   "words": [
+    {
+     "t": "Thirty",
+     "start": 87.46,
+     "end": 88.24
+    },
+    {
+     "t": "and",
+     "start": 88.24,
+     "end": 88.6
+    },
+    {
+     "t": "three",
+     "start": 88.6,
+     "end": 88.92
+    },
+    {
+     "t": "is",
+     "start": 88.92,
+     "end": 89.22
+    },
+    {
+     "t": "thirty-three",
+     "start": 89.22,
+     "end": 90.02,
+     "pic": "thirtythree"
+    }
+   ],
+   "n": 27,
+   "start": 87.46,
+   "end": 90.02,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Chorus",
+   "text": "Fifty and five is fifty-five",
+   "words": [
+    {
+     "t": "Fifty",
+     "start": 90.14,
+     "end": 90.86
+    },
+    {
+     "t": "and",
+     "start": 90.86,
+     "end": 91.28
+    },
+    {
+     "t": "five",
+     "start": 91.28,
+     "end": 91.62
+    },
+    {
+     "t": "is",
+     "start": 91.62,
+     "end": 91.9
+    },
+    {
+     "t": "fifty-five",
+     "start": 91.9,
+     "end": 92.94,
+     "pic": "fiftyfive"
+    }
+   ],
+   "n": 28,
+   "start": 90.14,
+   "end": 92.94,
+   "pic": "fiftyfive"
+  },
+  {
+   "section": "Chorus",
+   "text": "Ninety and nine is ninety-nine!",
+   "words": [
+    {
+     "t": "Ninety",
+     "start": 92.94,
+     "end": 93.72
+    },
+    {
+     "t": "and",
+     "start": 93.72,
+     "end": 93.98
+    },
+    {
+     "t": "nine",
+     "start": 93.98,
+     "end": 94.3
+    },
+    {
+     "t": "is",
+     "start": 94.3,
+     "end": 94.56
+    },
+    {
+     "t": "ninety-nine!",
+     "start": 94.56,
+     "end": 95.61,
+     "pic": "ninetynine"
+    }
+   ],
+   "n": 29,
+   "start": 92.94,
+   "end": 95.61,
+   "pic": "ninetynine"
+  },
+  {
+   "section": "Chorus",
+   "text": "Eleven, twelve, thirteen, fifteen",
+   "words": [
+    {
+     "t": "Eleven,",
+     "start": 96.5,
+     "end": 96.64,
+     "pic": "eleven"
+    },
+    {
+     "t": "twelve,",
+     "start": 96.84,
+     "end": 96.94,
+     "pic": "twelve"
+    },
+    {
+     "t": "thirteen,",
+     "start": 97.08,
+     "end": 97.54,
+     "pic": "thirteen"
+    },
+    {
+     "t": "fifteen",
+     "start": 97.72,
+     "end": 98.3,
+     "pic": "fifteen"
+    }
+   ],
+   "n": 30,
+   "start": 96.5,
+   "end": 98.3,
+   "pic": "eleven"
+  },
+  {
+   "section": "Chorus",
+   "text": "One hundred! One hundred!",
+   "words": [
+    {
+     "t": "One",
+     "start": 98.3,
+     "end": 101.22
+    },
+    {
+     "t": "hundred!",
+     "start": 101.22,
+     "end": 102.9,
+     "pic": "onehundred"
+    },
+    {
+     "t": "One",
+     "start": 102.9,
+     "end": 103.9
+    },
+    {
+     "t": "hundred!",
+     "start": 103.9,
+     "end": 105.06,
+     "pic": "onehundred"
+    }
+   ],
+   "n": 31,
+   "start": 98.3,
+   "end": 105.06,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Twenty and two is twenty-two",
+   "words": [
+    {
+     "t": "Twenty",
+     "start": 106.82,
+     "end": 107.27
+    },
+    {
+     "t": "and",
+     "start": 107.29,
+     "end": 107.56
+    },
+    {
+     "t": "two",
+     "start": 107.58,
+     "end": 107.86
+    },
+    {
+     "t": "is",
+     "start": 107.88,
+     "end": 108.09
+    },
+    {
+     "t": "twenty-two",
+     "start": 108.11,
+     "end": 108.82,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 32,
+   "start": 106.82,
+   "end": 108.82,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Thirty and three is thirty-three",
+   "words": [
+    {
+     "t": "Thirty",
+     "start": 108.82,
+     "end": 109.56
+    },
+    {
+     "t": "and",
+     "start": 109.56,
+     "end": 109.92
+    },
+    {
+     "t": "three",
+     "start": 109.92,
+     "end": 110.24
+    },
+    {
+     "t": "is",
+     "start": 110.24,
+     "end": 110.54
+    },
+    {
+     "t": "thirty-three",
+     "start": 110.54,
+     "end": 111.54,
+     "pic": "thirtythree"
+    }
+   ],
+   "n": 33,
+   "start": 108.82,
+   "end": 111.54,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Fifty and five is fifty-five",
+   "words": [
+    {
+     "t": "Fifty",
+     "start": 111.54,
+     "end": 112.2
+    },
+    {
+     "t": "and",
+     "start": 112.2,
+     "end": 112.62
+    },
+    {
+     "t": "five",
+     "start": 112.62,
+     "end": 112.96
+    },
+    {
+     "t": "is",
+     "start": 112.96,
+     "end": 113.24
+    },
+    {
+     "t": "fifty-five",
+     "start": 113.24,
+     "end": 114.26,
+     "pic": "fiftyfive"
+    }
+   ],
+   "n": 34,
+   "start": 111.54,
+   "end": 114.26,
+   "pic": "fiftyfive"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Ninety and nine is ninety-nine!",
+   "words": [
+    {
+     "t": "Ninety",
+     "start": 114.26,
+     "end": 115.06
+    },
+    {
+     "t": "and",
+     "start": 115.06,
+     "end": 115.3
+    },
+    {
+     "t": "nine",
+     "start": 115.3,
+     "end": 115.64
+    },
+    {
+     "t": "is",
+     "start": 115.64,
+     "end": 115.9
+    },
+    {
+     "t": "ninety-nine!",
+     "start": 115.9,
+     "end": 117.28,
+     "pic": "ninetynine"
+    }
+   ],
+   "n": 35,
+   "start": 114.26,
+   "end": 117.28,
+   "pic": "ninetynine"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Eleven, twelve, thirteen, fifteen",
+   "words": [
+    {
+     "t": "Eleven,",
+     "start": 117.34,
+     "end": 117.8,
+     "pic": "eleven"
+    },
+    {
+     "t": "twelve,",
+     "start": 118.18,
+     "end": 118.28,
+     "pic": "twelve"
+    },
+    {
+     "t": "thirteen,",
+     "start": 118.62,
+     "end": 118.88,
+     "pic": "thirteen"
+    },
+    {
+     "t": "fifteen",
+     "start": 119.1,
+     "end": 119.66,
+     "pic": "fifteen"
+    }
+   ],
+   "n": 36,
+   "start": 117.34,
+   "end": 119.66,
+   "pic": "eleven"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "One hundred! One hundred!",
+   "words": [
+    {
+     "t": "One",
+     "start": 119.66,
+     "end": 121.28
+    },
+    {
+     "t": "hundred!",
+     "start": 121.28,
+     "end": 122.22,
+     "pic": "onehundred"
+    },
+    {
+     "t": "One",
+     "start": 122.34,
+     "end": 122.58
+    },
+    {
+     "t": "hundred!",
+     "start": 122.58,
+     "end": 123.68,
+     "pic": "onehundred"
+    }
+   ],
+   "n": 37,
+   "start": 119.66,
+   "end": 123.68,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Outro",
+   "text": "One hundred!",
+   "words": [
+    {
+     "t": "One",
+     "start": 124.84,
+     "end": 125.22
+    },
+    {
+     "t": "hundred!",
+     "start": 125.22,
+     "end": 125.92,
+     "pic": "onehundred"
+    }
+   ],
+   "n": 38,
+   "start": 124.84,
+   "end": 125.92,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Outro",
+   "text": "I have one hundred cousins!",
+   "words": [
+    {
+     "t": "I",
+     "start": 126.02,
+     "end": 126.27
+    },
+    {
+     "t": "have",
+     "start": 126.29,
+     "end": 126.82
+    },
+    {
+     "t": "one",
+     "start": 126.84,
+     "end": 127.27
+    },
+    {
+     "t": "hundred",
+     "start": 127.29,
+     "end": 128.09,
+     "pic": "onehundred"
+    },
+    {
+     "t": "cousins!",
+     "start": 128.11,
+     "end": 129.02
+    }
+   ],
+   "n": 39,
+   "start": 126.02,
+   "end": 129.02,
+   "pic": "onehundred"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "twelve",
+   "prompt": "What number is this?",
+   "answer": "twelve",
+   "choices": [
+    "twelve",
+    "twenty",
+    "two"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "fifteen",
+   "prompt": "Listen. What number?",
+   "answer": "fifteen",
+   "choices": [
+    "fifteen",
+    "fiftyfive",
+    "twelve"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "thirtythree",
+   "prompt": "What number is this?",
+   "answer": "thirty-three",
+   "choices": [
+    "thirteen",
+    "thirty-three",
+    "three"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "eleven",
+   "prompt": "Listen. What number?",
+   "answer": "eleven",
+   "choices": [
+    "eleven",
+    "twelve",
+    "thirteen"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "onehundred",
+   "prompt": "What number is this?",
+   "answer": "one hundred",
+   "choices": [
+    "one hundred",
+    "ninety",
+    "ten"
+   ]
+  }
+ ]
+}

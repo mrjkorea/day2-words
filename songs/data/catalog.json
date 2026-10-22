@@ -62,6 +62,15 @@
    "unitTitle": "I can",
    "blurb": "What can you do?",
    "packId": "basic_a_u7"
+  },
+  {
+   "id": "basic_a_u08_a",
+   "title": "Twenty and Two",
+   "book": "Basic A",
+   "unit": 8,
+   "unitTitle": "Numbers 11 to 100",
+   "blurb": "Count big numbers!",
+   "packId": "basic_a_u8"
   }
  ]
 }
