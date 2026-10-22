@@ -1,0 +1,1105 @@
+{
+ "id": "basic_a_u04_b",
+ "title": "Wait! Hurry Up!",
+ "book": "Basic A",
+ "unit": 4,
+ "unitTitle": "Classroom words",
+ "packId": "basic_a_u4",
+ "audio": "audio/basic_a_u04_b.mp3",
+ "duration": 148.08,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Ready? Go!",
+   "words": [
+    {
+     "t": "Ready?",
+     "start": 4.62,
+     "end": 5.66
+    },
+    {
+     "t": "Go!",
+     "start": 5.88,
+     "end": 8.34
+    }
+   ],
+   "n": 1,
+   "start": 4.62,
+   "end": 8.34,
+   "pic": "afternoon"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Wait! Wait!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 8.34,
+     "end": 9.68,
+     "pic": "wait"
+    },
+    {
+     "t": "Wait!",
+     "start": 9.86,
+     "end": 11.6,
+     "pic": "wait"
+    }
+   ],
+   "n": 2,
+   "start": 8.34,
+   "end": 11.6,
+   "pic": "wait"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hurry up!",
+   "words": [
+    {
+     "t": "Hurry",
+     "start": 11.6,
+     "end": 12.08,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 12.08,
+     "end": 12.88
+    }
+   ],
+   "n": 3,
+   "start": 11.6,
+   "end": 12.88,
+   "pic": "hurry"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Wait! Wait!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 13.22,
+     "end": 13.92,
+     "pic": "wait"
+    },
+    {
+     "t": "Wait!",
+     "start": 15.48,
+     "end": 16.98,
+     "pic": "wait"
+    }
+   ],
+   "n": 4,
+   "start": 13.22,
+   "end": 16.98,
+   "pic": "wait"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hurry up, hurry up!",
+   "words": [
+    {
+     "t": "Hurry",
+     "start": 17.72,
+     "end": 18.58,
+     "pic": "hurry"
+    },
+    {
+     "t": "up,",
+     "start": 18.58,
+     "end": 19.2
+    },
+    {
+     "t": "hurry",
+     "start": 19.26,
+     "end": 19.46,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 19.46,
+     "end": 21.44
+    }
+   ],
+   "n": 5,
+   "start": 17.72,
+   "end": 21.44,
+   "pic": "hurry"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Quiet! Quiet!",
+   "words": [
+    {
+     "t": "Quiet!",
+     "start": 21.44,
+     "end": 22.6,
+     "pic": "quiet"
+    },
+    {
+     "t": "Quiet!",
+     "start": 22.6,
+     "end": 23.24,
+     "pic": "quiet"
+    }
+   ],
+   "n": 6,
+   "start": 21.44,
+   "end": 23.24,
+   "pic": "quiet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, I'm sorry.",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 23.92,
+     "end": 24.66
+    },
+    {
+     "t": "I'm",
+     "start": 25.06,
+     "end": 25.24
+    },
+    {
+     "t": "sorry.",
+     "start": 25.24,
+     "end": 26.42,
+     "pic": "sorry"
+    }
+   ],
+   "n": 7,
+   "start": 23.92,
+   "end": 26.42,
+   "pic": "sorry"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 26.42,
+     "end": 27.52,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 28.64,
+     "end": 29.56,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 29.56,
+     "end": 30.4
+    }
+   ],
+   "n": 8,
+   "start": 26.42,
+   "end": 30.4,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 30.76,
+     "end": 31.26,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 31.26,
+     "end": 31.7,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 31.7,
+     "end": 32.32
+    }
+   ],
+   "n": 9,
+   "start": 30.76,
+   "end": 32.32,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Quiet, please! Quiet!",
+   "words": [
+    {
+     "t": "Quiet,",
+     "start": 32.56,
+     "end": 33.78,
+     "pic": "quiet"
+    },
+    {
+     "t": "please!",
+     "start": 33.8,
+     "end": 35.16
+    },
+    {
+     "t": "Quiet!",
+     "start": 35.18,
+     "end": 36.42,
+     "pic": "quiet"
+    }
+   ],
+   "n": 10,
+   "start": 32.56,
+   "end": 36.42,
+   "pic": "quiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, I'm sorry!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 36.76,
+     "end": 37.72
+    },
+    {
+     "t": "I'm",
+     "start": 38.16,
+     "end": 38.24
+    },
+    {
+     "t": "sorry!",
+     "start": 38.24,
+     "end": 39.56,
+     "pic": "sorry"
+    }
+   ],
+   "n": 11,
+   "start": 36.76,
+   "end": 39.56,
+   "pic": "sorry"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 39.56,
+     "end": 40.96,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 42.44,
+     "end": 42.66,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 42.66,
+     "end": 43.4
+    }
+   ],
+   "n": 12,
+   "start": 39.56,
+   "end": 43.4,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 43.84,
+     "end": 44.36,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 44.36,
+     "end": 44.76,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 44.76,
+     "end": 45.66
+    }
+   ],
+   "n": 13,
+   "start": 43.84,
+   "end": 45.66,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! It is okay!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 45.9,
+     "end": 47.29,
+     "pic": "sorry"
+    },
+    {
+     "t": "It",
+     "start": 47.31,
+     "end": 47.99
+    },
+    {
+     "t": "is",
+     "start": 48.01,
+     "end": 48.69
+    },
+    {
+     "t": "okay!",
+     "start": 48.71,
+     "end": 49.94
+    }
+   ],
+   "n": 14,
+   "start": 45.9,
+   "end": 49.94,
+   "pic": "sorry"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Good afternoon!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 52.48,
+     "end": 53.15
+    },
+    {
+     "t": "afternoon!",
+     "start": 53.17,
+     "end": 54.54,
+     "pic": "afternoon"
+    }
+   ],
+   "n": 15,
+   "start": 52.48,
+   "end": 54.54,
+   "pic": "afternoon"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Good afternoon!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 56.82,
+     "end": 57.51
+    },
+    {
+     "t": "afternoon!",
+     "start": 57.53,
+     "end": 58.94,
+     "pic": "afternoon"
+    }
+   ],
+   "n": 16,
+   "start": 56.82,
+   "end": 58.94,
+   "pic": "afternoon"
+  },
+  {
+   "section": "Verse 2",
+   "text": "See you tomorrow!",
+   "words": [
+    {
+     "t": "See",
+     "start": 59.3,
+     "end": 60.28
+    },
+    {
+     "t": "you",
+     "start": 60.3,
+     "end": 61.29
+    },
+    {
+     "t": "tomorrow!",
+     "start": 61.31,
+     "end": 63.52,
+     "pic": "tomorrow"
+    }
+   ],
+   "n": 17,
+   "start": 59.3,
+   "end": 63.52,
+   "pic": "seeyoutomorrow"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I think so!",
+   "words": [
+    {
+     "t": "I",
+     "start": 63.68,
+     "end": 64.12
+    },
+    {
+     "t": "think",
+     "start": 64.14,
+     "end": 65.19
+    },
+    {
+     "t": "so!",
+     "start": 65.21,
+     "end": 65.98
+    }
+   ],
+   "n": 18,
+   "start": 63.68,
+   "end": 65.98,
+   "pic": "seeyoutomorrow"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Wait for me!",
+   "words": [
+    {
+     "t": "Wait",
+     "start": 67.07,
+     "end": 67.19,
+     "pic": "wait"
+    },
+    {
+     "t": "for",
+     "start": 67.19,
+     "end": 67.57
+    },
+    {
+     "t": "me!",
+     "start": 67.57,
+     "end": 69.17
+    }
+   ],
+   "n": 19,
+   "start": 67.07,
+   "end": 69.17,
+   "pic": "wait"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Hurry up!",
+   "words": [
+    {
+     "t": "Hurry",
+     "start": 69.21,
+     "end": 69.67,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 69.67,
+     "end": 71.71
+    }
+   ],
+   "n": 20,
+   "start": 69.21,
+   "end": 71.71,
+   "pic": "hurry"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 72.17,
+     "end": 73.32,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 74.39,
+     "end": 75.37,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 75.37,
+     "end": 76.23
+    }
+   ],
+   "n": 21,
+   "start": 72.17,
+   "end": 76.23,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 76.23,
+     "end": 77.01,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 77.07,
+     "end": 77.49,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 77.49,
+     "end": 78.31
+    }
+   ],
+   "n": 22,
+   "start": 76.23,
+   "end": 78.31,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Quiet, please! Quiet!",
+   "words": [
+    {
+     "t": "Quiet,",
+     "start": 78.49,
+     "end": 78.59,
+     "pic": "quiet"
+    },
+    {
+     "t": "please!",
+     "start": 80.11,
+     "end": 80.93
+    },
+    {
+     "t": "Quiet!",
+     "start": 80.93,
+     "end": 82.31,
+     "pic": "quiet"
+    }
+   ],
+   "n": 23,
+   "start": 78.49,
+   "end": 82.31,
+   "pic": "quiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, I'm sorry!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 82.51,
+     "end": 83.91
+    },
+    {
+     "t": "I'm",
+     "start": 83.93,
+     "end": 84.93
+    },
+    {
+     "t": "sorry!",
+     "start": 84.95,
+     "end": 86.57,
+     "pic": "sorry"
+    }
+   ],
+   "n": 24,
+   "start": 82.51,
+   "end": 86.57,
+   "pic": "sorry"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 86.57,
+     "end": 88.09,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 88.09,
+     "end": 88.49,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 88.49,
+     "end": 89.57
+    }
+   ],
+   "n": 25,
+   "start": 86.57,
+   "end": 89.57,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 89.61,
+     "end": 90.17,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 90.17,
+     "end": 90.59,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 90.59,
+     "end": 91.71
+    }
+   ],
+   "n": 26,
+   "start": 89.61,
+   "end": 91.71,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! It is okay!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 91.71,
+     "end": 92.84,
+     "pic": "sorry"
+    },
+    {
+     "t": "It",
+     "start": 92.86,
+     "end": 93.41
+    },
+    {
+     "t": "is",
+     "start": 93.43,
+     "end": 93.99
+    },
+    {
+     "t": "okay!",
+     "start": 94.01,
+     "end": 95.01
+    }
+   ],
+   "n": 27,
+   "start": 91.71,
+   "end": 95.01,
+   "pic": "sorry"
+  },
+  {
+   "section": "Bridge",
+   "text": "Wait... wait... wait...",
+   "words": [
+    {
+     "t": "Wait...",
+     "start": 98.67,
+     "end": 99.39,
+     "pic": "wait"
+    },
+    {
+     "t": "wait...",
+     "start": 99.39,
+     "end": 101.77,
+     "pic": "wait"
+    },
+    {
+     "t": "wait...",
+     "start": 102.75,
+     "end": 103.25,
+     "pic": "wait"
+    }
+   ],
+   "n": 28,
+   "start": 98.67,
+   "end": 103.25,
+   "pic": "wait"
+  },
+  {
+   "section": "Bridge",
+   "text": "Hurry up! Hurry up!",
+   "words": [
+    {
+     "t": "Hurry",
+     "start": 103.29,
+     "end": 103.69,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 103.69,
+     "end": 104.33
+    },
+    {
+     "t": "Hurry",
+     "start": 104.33,
+     "end": 104.75,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 104.75,
+     "end": 107.05
+    }
+   ],
+   "n": 29,
+   "start": 103.29,
+   "end": 107.05,
+   "pic": "hurry"
+  },
+  {
+   "section": "Bridge",
+   "text": "Quiet... quiet... quiet...",
+   "words": [
+    {
+     "t": "Quiet...",
+     "start": 107.05,
+     "end": 108.42,
+     "pic": "quiet"
+    },
+    {
+     "t": "quiet...",
+     "start": 108.44,
+     "end": 109.8,
+     "pic": "quiet"
+    },
+    {
+     "t": "quiet...",
+     "start": 109.82,
+     "end": 111.21,
+     "pic": "quiet"
+    }
+   ],
+   "n": 30,
+   "start": 107.05,
+   "end": 111.21,
+   "pic": "quiet"
+  },
+  {
+   "section": "Bridge",
+   "text": "Okay, I'm sorry!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 111.21,
+     "end": 111.91
+    },
+    {
+     "t": "I'm",
+     "start": 112.25,
+     "end": 112.45
+    },
+    {
+     "t": "sorry!",
+     "start": 112.45,
+     "end": 113.57,
+     "pic": "sorry"
+    }
+   ],
+   "n": 31,
+   "start": 111.21,
+   "end": 113.57,
+   "pic": "sorry"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 113.67,
+     "end": 114.57,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 114.59,
+     "end": 115.49,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 115.51,
+     "end": 116.17
+    }
+   ],
+   "n": 32,
+   "start": 113.67,
+   "end": 116.17,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 116.17,
+     "end": 116.61,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 116.77,
+     "end": 117.55,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 117.55,
+     "end": 119.99
+    }
+   ],
+   "n": 33,
+   "start": 116.17,
+   "end": 119.99,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Quiet, please! Quiet!",
+   "words": [
+    {
+     "t": "Quiet,",
+     "start": 120.03,
+     "end": 121.55,
+     "pic": "quiet"
+    },
+    {
+     "t": "please!",
+     "start": 121.55,
+     "end": 122.43
+    },
+    {
+     "t": "Quiet!",
+     "start": 122.43,
+     "end": 124.01,
+     "pic": "quiet"
+    }
+   ],
+   "n": 34,
+   "start": 120.03,
+   "end": 124.01,
+   "pic": "quiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, I'm sorry!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 124.01,
+     "end": 125.03
+    },
+    {
+     "t": "I'm",
+     "start": 125.43,
+     "end": 125.59
+    },
+    {
+     "t": "sorry!",
+     "start": 125.59,
+     "end": 127.31,
+     "pic": "sorry"
+    }
+   ],
+   "n": 35,
+   "start": 124.01,
+   "end": 127.31,
+   "pic": "sorry"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 127.31,
+     "end": 129.57,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 129.57,
+     "end": 129.95,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 129.95,
+     "end": 130.95
+    }
+   ],
+   "n": 36,
+   "start": 127.31,
+   "end": 130.95,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Wait! Hurry up!",
+   "words": [
+    {
+     "t": "Wait!",
+     "start": 130.95,
+     "end": 131.69,
+     "pic": "wait"
+    },
+    {
+     "t": "Hurry",
+     "start": 131.71,
+     "end": 132.09,
+     "pic": "hurry"
+    },
+    {
+     "t": "up!",
+     "start": 132.09,
+     "end": 132.79
+    }
+   ],
+   "n": 37,
+   "start": 130.95,
+   "end": 132.79,
+   "pic": "wait"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! It is okay!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 132.79,
+     "end": 135.11,
+     "pic": "sorry"
+    },
+    {
+     "t": "It",
+     "start": 135.13,
+     "end": 136.29
+    },
+    {
+     "t": "is",
+     "start": 136.31,
+     "end": 137.46
+    },
+    {
+     "t": "okay!",
+     "start": 137.48,
+     "end": 139.53
+    }
+   ],
+   "n": 38,
+   "start": 132.79,
+   "end": 139.53,
+   "pic": "sorry"
+  },
+  {
+   "section": "Outro",
+   "text": "See you tomorrow! I think so!",
+   "words": [
+    {
+     "t": "See",
+     "start": 139.57,
+     "end": 139.71
+    },
+    {
+     "t": "you",
+     "start": 139.71,
+     "end": 140.11
+    },
+    {
+     "t": "tomorrow!",
+     "start": 140.11,
+     "end": 141.91,
+     "pic": "tomorrow"
+    },
+    {
+     "t": "I",
+     "start": 141.95,
+     "end": 142.05
+    },
+    {
+     "t": "think",
+     "start": 142.05,
+     "end": 142.35
+    },
+    {
+     "t": "so!",
+     "start": 142.35,
+     "end": 143.31
+    }
+   ],
+   "n": 39,
+   "start": 139.57,
+   "end": 143.31,
+   "pic": "seeyoutomorrow"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "wait",
+   "prompt": "What is this?",
+   "answer": "wait",
+   "choices": [
+    "wait",
+    "sorry",
+    "quiet"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "quiet",
+   "prompt": "Listen. What word?",
+   "answer": "quiet",
+   "choices": [
+    "quiet",
+    "hurry",
+    "sorry"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sorry",
+   "prompt": "What is this?",
+   "answer": "sorry",
+   "choices": [
+    "tomorrow",
+    "sorry",
+    "wait"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "hurry",
+   "prompt": "Listen. What word?",
+   "answer": "hurry",
+   "choices": [
+    "wait",
+    "sorry",
+    "hurry"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "afternoon",
+   "prompt": "Good ...?",
+   "answer": "afternoon",
+   "choices": [
+    "afternoon",
+    "tomorrow",
+    "quiet"
+   ]
+  }
+ ]
+}

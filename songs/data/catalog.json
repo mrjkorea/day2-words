@@ -28,6 +28,15 @@
    "packId": "basic_a_u3"
   },
   {
+   "id": "basic_a_u04_b",
+   "title": "Wait! Hurry Up!",
+   "book": "Basic A",
+   "unit": 4,
+   "unitTitle": "Classroom words",
+   "blurb": "Wait, hurry up, quiet, sorry!",
+   "packId": "basic_a_u4"
+  },
+  {
    "id": "basic_a_u06_a",
    "title": "What Is This?",
    "book": "Basic A",
