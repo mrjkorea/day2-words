@@ -5,7 +5,7 @@
 <style>
 *{box-sizing:border-box}body{margin:0;font-family:"Comic Sans MS","Trebuchet MS",system-ui,sans-serif;background:linear-gradient(#7fd3ff,#d8f3ff);color:#223;min-height:100vh}
 #app{max-width:980px;margin:auto;padding:10px;display:flex;gap:12px;flex-wrap:wrap}
-#mt{flex:1 1 300px;min-height:300px;position:relative}
+#mt{flex:1 1 300px;position:relative}
 #mt svg{width:100%;height:100%;max-height:520px;display:block}
 #card{flex:1 1 360px;background:#fff;border-radius:22px;padding:16px;box-shadow:0 6px 0 #8bb;text-align:center}
 h1{font-size:22px;margin:4px 0;color:#e8590c}.p{font-size:20px;margin:8px 0}
@@ -24,6 +24,7 @@ button:active{transform:translateY(3px);box-shadow:0 1px 0 #e0a800}
 .pct{font-size:96px;font-weight:bold;margin:0}.pass{color:#2f9e44}.fail{color:#e8590c}
 #climber{transition:transform .8s cubic-bezier(.3,1.4,.5,1)}
 .skip{position:fixed;right:8px;bottom:8px;background:#ff6b6b;color:#fff;font-size:14px;padding:8px 12px;z-index:9}
+@media(max-width:700px){#mt svg{height:34vh}.pic img{max-width:110px}.big img{width:120px;height:120px}#app{padding:6px}}
 </style></head><body>
 <div id="app">
  <div id="mt"><svg viewBox="0 0 300 400" aria-label="mountain">
@@ -68,7 +69,7 @@ function check(ok,btn){if(locked)return;locked=true;const q=D.questions[i],fb=do
   const ans=Array.isArray(q.answer)?q.answer.join(' '):q.answer;
   card.querySelectorAll('[data-a]').forEach(b=>{if(b.dataset.a===q.answer)b.classList.add('ok')});
   fb.innerHTML='😮 Oops, slip! Right answer: <u>'+ans+'</u>';fb.style.color='#c92a2a';line(D.lines.oops)}
- move();const c=document.getElementById('climber');if(!ok){c.animate([{transform:c.getAttribute('transform')+' rotate(-20)'}],{duration:1})}
+ move();
  setTimeout(next,ok?1500:2800)}
 function next(){i++;if(i<N)show();else end()}
 function end(){const p=Math.round(right/N*100),ps=p>=D.passPercent;if(ps){pos=N;move()}
