@@ -53,6 +53,15 @@
    "unitTitle": "What is this?",
    "blurb": "What is this? It is a desk.",
    "packId": "basic_a_u6"
+  },
+  {
+   "id": "basic_a_u07_b",
+   "title": "I Can, I Cannot",
+   "book": "Basic A",
+   "unit": 7,
+   "unitTitle": "I can",
+   "blurb": "What can you do?",
+   "packId": "basic_a_u7"
   }
  ]
 }

@@ -1,0 +1,1704 @@
+{
+ "id": "basic_a_u07_b",
+ "title": "I Can, I Cannot",
+ "book": "Basic A",
+ "unit": 7,
+ "unitTitle": "I can",
+ "packId": "basic_a_u7",
+ "audio": "audio/basic_a_u07_b.mp3",
+ "duration": 134.95,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 11.38,
+     "end": 11.98
+    },
+    {
+     "t": "can",
+     "start": 11.98,
+     "end": 12.56
+    },
+    {
+     "t": "you",
+     "start": 12.56,
+     "end": 12.78
+    },
+    {
+     "t": "do?",
+     "start": 12.78,
+     "end": 14.26
+    }
+   ],
+   "n": 1,
+   "start": 11.38,
+   "end": 14.26,
+   "pic": "chinese"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I can run fast!",
+   "words": [
+    {
+     "t": "I",
+     "start": 14.28,
+     "end": 14.42
+    },
+    {
+     "t": "can",
+     "start": 14.42,
+     "end": 14.64
+    },
+    {
+     "t": "run",
+     "start": 14.64,
+     "end": 14.96,
+     "pic": "run"
+    },
+    {
+     "t": "fast!",
+     "start": 14.96,
+     "end": 15.88,
+     "pic": "fast"
+    }
+   ],
+   "n": 2,
+   "start": 14.28,
+   "end": 15.88,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I cannot run very fast!",
+   "words": [
+    {
+     "t": "I",
+     "start": 15.88,
+     "end": 16.13
+    },
+    {
+     "t": "cannot",
+     "start": 16.15,
+     "end": 16.86
+    },
+    {
+     "t": "run",
+     "start": 16.88,
+     "end": 17.32,
+     "pic": "run"
+    },
+    {
+     "t": "very",
+     "start": 17.34,
+     "end": 17.86
+    },
+    {
+     "t": "fast!",
+     "start": 17.88,
+     "end": 18.52,
+     "pic": "fast"
+    }
+   ],
+   "n": 3,
+   "start": 15.88,
+   "end": 18.52,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I can sing!",
+   "words": [
+    {
+     "t": "I",
+     "start": 18.52,
+     "end": 18.68
+    },
+    {
+     "t": "can",
+     "start": 18.68,
+     "end": 18.92
+    },
+    {
+     "t": "sing!",
+     "start": 18.92,
+     "end": 19.52,
+     "pic": "sing"
+    }
+   ],
+   "n": 4,
+   "start": 18.52,
+   "end": 19.52,
+   "pic": "sing"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I cannot sing well!",
+   "words": [
+    {
+     "t": "I",
+     "start": 19.52,
+     "end": 19.82
+    },
+    {
+     "t": "cannot",
+     "start": 19.82,
+     "end": 20.26
+    },
+    {
+     "t": "sing",
+     "start": 20.26,
+     "end": 20.74,
+     "pic": "sing"
+    },
+    {
+     "t": "well!",
+     "start": 20.74,
+     "end": 22.02
+    }
+   ],
+   "n": 5,
+   "start": 19.52,
+   "end": 22.02,
+   "pic": "sing"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I can draw!",
+   "words": [
+    {
+     "t": "I",
+     "start": 22.12,
+     "end": 22.5
+    },
+    {
+     "t": "can",
+     "start": 22.5,
+     "end": 22.74
+    },
+    {
+     "t": "draw!",
+     "start": 22.74,
+     "end": 23.28,
+     "pic": "draw"
+    }
+   ],
+   "n": 6,
+   "start": 22.12,
+   "end": 23.28,
+   "pic": "draw"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I cannot draw well!",
+   "words": [
+    {
+     "t": "I",
+     "start": 23.28,
+     "end": 23.66
+    },
+    {
+     "t": "cannot",
+     "start": 23.66,
+     "end": 24.06
+    },
+    {
+     "t": "draw",
+     "start": 24.06,
+     "end": 24.5,
+     "pic": "draw"
+    },
+    {
+     "t": "well!",
+     "start": 24.5,
+     "end": 26.54
+    }
+   ],
+   "n": 7,
+   "start": 23.28,
+   "end": 26.54,
+   "pic": "draw"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can dance, I can sing",
+   "words": [
+    {
+     "t": "I",
+     "start": 26.62,
+     "end": 26.78
+    },
+    {
+     "t": "can",
+     "start": 26.8,
+     "end": 27.08
+    },
+    {
+     "t": "dance,",
+     "start": 27.1,
+     "end": 27.56,
+     "pic": "dance"
+    },
+    {
+     "t": "I",
+     "start": 27.58,
+     "end": 27.74
+    },
+    {
+     "t": "can",
+     "start": 27.76,
+     "end": 28.04
+    },
+    {
+     "t": "sing",
+     "start": 28.06,
+     "end": 28.42,
+     "pic": "sing"
+    }
+   ],
+   "n": 8,
+   "start": 26.62,
+   "end": 28.42,
+   "pic": "icandance"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can run fast, yeah!",
+   "words": [
+    {
+     "t": "I",
+     "start": 28.42,
+     "end": 29.28
+    },
+    {
+     "t": "can",
+     "start": 29.28,
+     "end": 29.64
+    },
+    {
+     "t": "run",
+     "start": 29.64,
+     "end": 29.9,
+     "pic": "run"
+    },
+    {
+     "t": "fast,",
+     "start": 29.9,
+     "end": 30.7,
+     "pic": "fast"
+    },
+    {
+     "t": "yeah!",
+     "start": 30.7,
+     "end": 30.94
+    }
+   ],
+   "n": 9,
+   "start": 28.42,
+   "end": 30.94,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do? What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 30.94,
+     "end": 31.25
+    },
+    {
+     "t": "can",
+     "start": 31.27,
+     "end": 31.53
+    },
+    {
+     "t": "you",
+     "start": 31.55,
+     "end": 31.81
+    },
+    {
+     "t": "do?",
+     "start": 31.83,
+     "end": 32.09
+    },
+    {
+     "t": "What",
+     "start": 32.11,
+     "end": 32.42
+    },
+    {
+     "t": "can",
+     "start": 32.44,
+     "end": 32.7
+    },
+    {
+     "t": "you",
+     "start": 32.72,
+     "end": 32.98
+    },
+    {
+     "t": "do?",
+     "start": 33.0,
+     "end": 33.28
+    }
+   ],
+   "n": 10,
+   "start": 30.94,
+   "end": 33.28,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can, I can, I can!",
+   "words": [
+    {
+     "t": "I",
+     "start": 33.28,
+     "end": 33.43
+    },
+    {
+     "t": "can,",
+     "start": 33.45,
+     "end": 33.77
+    },
+    {
+     "t": "I",
+     "start": 33.79,
+     "end": 33.94
+    },
+    {
+     "t": "can,",
+     "start": 33.96,
+     "end": 34.27
+    },
+    {
+     "t": "I",
+     "start": 34.29,
+     "end": 34.44
+    },
+    {
+     "t": "can!",
+     "start": 34.46,
+     "end": 34.8
+    }
+   ],
+   "n": 11,
+   "start": 33.28,
+   "end": 34.8,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can dance, I can sing",
+   "words": [
+    {
+     "t": "I",
+     "start": 34.8,
+     "end": 34.94
+    },
+    {
+     "t": "can",
+     "start": 34.96,
+     "end": 35.22
+    },
+    {
+     "t": "dance,",
+     "start": 35.24,
+     "end": 35.65,
+     "pic": "dance"
+    },
+    {
+     "t": "I",
+     "start": 35.67,
+     "end": 35.82
+    },
+    {
+     "t": "can",
+     "start": 35.84,
+     "end": 36.09
+    },
+    {
+     "t": "sing",
+     "start": 36.11,
+     "end": 36.44,
+     "pic": "sing"
+    }
+   ],
+   "n": 12,
+   "start": 34.8,
+   "end": 36.44,
+   "pic": "icandance"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can run fast, yeah!",
+   "words": [
+    {
+     "t": "I",
+     "start": 36.44,
+     "end": 36.94
+    },
+    {
+     "t": "can",
+     "start": 36.94,
+     "end": 37.3
+    },
+    {
+     "t": "run",
+     "start": 37.3,
+     "end": 37.5,
+     "pic": "run"
+    },
+    {
+     "t": "fast,",
+     "start": 37.5,
+     "end": 38.32,
+     "pic": "fast"
+    },
+    {
+     "t": "yeah!",
+     "start": 38.32,
+     "end": 38.6
+    }
+   ],
+   "n": 13,
+   "start": 36.44,
+   "end": 38.6,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do? What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 38.6,
+     "end": 39.06
+    },
+    {
+     "t": "can",
+     "start": 39.08,
+     "end": 39.47
+    },
+    {
+     "t": "you",
+     "start": 39.49,
+     "end": 39.87
+    },
+    {
+     "t": "do?",
+     "start": 39.89,
+     "end": 40.28
+    },
+    {
+     "t": "What",
+     "start": 40.3,
+     "end": 40.76
+    },
+    {
+     "t": "can",
+     "start": 40.78,
+     "end": 41.16
+    },
+    {
+     "t": "you",
+     "start": 41.18,
+     "end": 41.57
+    },
+    {
+     "t": "do?",
+     "start": 41.59,
+     "end": 41.99
+    }
+   ],
+   "n": 14,
+   "start": 38.6,
+   "end": 41.99,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can, I can, I can!",
+   "words": [
+    {
+     "t": "I",
+     "start": 43.8,
+     "end": 44.04
+    },
+    {
+     "t": "can,",
+     "start": 44.06,
+     "end": 44.57
+    },
+    {
+     "t": "I",
+     "start": 44.59,
+     "end": 44.84
+    },
+    {
+     "t": "can,",
+     "start": 44.86,
+     "end": 45.37
+    },
+    {
+     "t": "I",
+     "start": 45.39,
+     "end": 45.63
+    },
+    {
+     "t": "can!",
+     "start": 45.65,
+     "end": 46.18
+    }
+   ],
+   "n": 15,
+   "start": 43.8,
+   "end": 46.18,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I can play the piano!",
+   "words": [
+    {
+     "t": "I",
+     "start": 46.24,
+     "end": 46.34
+    },
+    {
+     "t": "can",
+     "start": 46.34,
+     "end": 46.5
+    },
+    {
+     "t": "play",
+     "start": 46.5,
+     "end": 46.82
+    },
+    {
+     "t": "the",
+     "start": 46.82,
+     "end": 46.98
+    },
+    {
+     "t": "piano!",
+     "start": 46.98,
+     "end": 49.86,
+     "pic": "piano"
+    }
+   ],
+   "n": 16,
+   "start": 46.24,
+   "end": 49.86,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I want to play piano too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 49.86,
+     "end": 50.07
+    },
+    {
+     "t": "want",
+     "start": 50.09,
+     "end": 50.53
+    },
+    {
+     "t": "to",
+     "start": 50.55,
+     "end": 50.83
+    },
+    {
+     "t": "play",
+     "start": 50.85,
+     "end": 51.29
+    },
+    {
+     "t": "piano",
+     "start": 51.31,
+     "end": 51.82,
+     "pic": "piano"
+    },
+    {
+     "t": "too!",
+     "start": 51.84,
+     "end": 52.3
+    }
+   ],
+   "n": 17,
+   "start": 49.86,
+   "end": 52.3,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I can do taekwondo!",
+   "words": [
+    {
+     "t": "I",
+     "start": 52.3,
+     "end": 52.4
+    },
+    {
+     "t": "can",
+     "start": 52.4,
+     "end": 52.74
+    },
+    {
+     "t": "do",
+     "start": 52.74,
+     "end": 53.02
+    },
+    {
+     "t": "taekwondo!",
+     "start": 53.02,
+     "end": 54.68,
+     "pic": "taekwondo"
+    }
+   ],
+   "n": 18,
+   "start": 52.3,
+   "end": 54.68,
+   "pic": "taekwondo"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Wow!",
+   "words": [
+    {
+     "t": "Wow!",
+     "start": 54.68,
+     "end": 55.38
+    }
+   ],
+   "n": 19,
+   "start": 54.68,
+   "end": 55.38,
+   "pic": "taekwondo"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I can speak Chinese!",
+   "words": [
+    {
+     "t": "I",
+     "start": 55.96,
+     "end": 56.12
+    },
+    {
+     "t": "can",
+     "start": 56.14,
+     "end": 56.43
+    },
+    {
+     "t": "speak",
+     "start": 56.45,
+     "end": 56.85
+    },
+    {
+     "t": "Chinese!",
+     "start": 56.87,
+     "end": 57.48,
+     "pic": "chinese"
+    }
+   ],
+   "n": 20,
+   "start": 55.96,
+   "end": 57.48,
+   "pic": "chinese"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I can speak Chinese too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 57.54,
+     "end": 57.76
+    },
+    {
+     "t": "can",
+     "start": 57.76,
+     "end": 57.96
+    },
+    {
+     "t": "speak",
+     "start": 57.96,
+     "end": 58.34
+    },
+    {
+     "t": "Chinese",
+     "start": 58.34,
+     "end": 59.0,
+     "pic": "chinese"
+    },
+    {
+     "t": "too!",
+     "start": 59.0,
+     "end": 60.9
+    }
+   ],
+   "n": 21,
+   "start": 57.54,
+   "end": 60.9,
+   "pic": "chinese"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can dance, I can sing",
+   "words": [
+    {
+     "t": "I",
+     "start": 60.98,
+     "end": 61.13
+    },
+    {
+     "t": "can",
+     "start": 61.15,
+     "end": 61.4
+    },
+    {
+     "t": "dance,",
+     "start": 61.42,
+     "end": 61.85,
+     "pic": "dance"
+    },
+    {
+     "t": "I",
+     "start": 61.87,
+     "end": 62.01
+    },
+    {
+     "t": "can",
+     "start": 62.03,
+     "end": 62.29
+    },
+    {
+     "t": "sing",
+     "start": 62.31,
+     "end": 62.64,
+     "pic": "sing"
+    }
+   ],
+   "n": 22,
+   "start": 60.98,
+   "end": 62.64,
+   "pic": "icandance"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can run fast, yeah!",
+   "words": [
+    {
+     "t": "I",
+     "start": 62.64,
+     "end": 63.6
+    },
+    {
+     "t": "can",
+     "start": 63.6,
+     "end": 63.98
+    },
+    {
+     "t": "run",
+     "start": 63.98,
+     "end": 64.18,
+     "pic": "run"
+    },
+    {
+     "t": "fast,",
+     "start": 64.18,
+     "end": 64.96,
+     "pic": "fast"
+    },
+    {
+     "t": "yeah!",
+     "start": 65.06,
+     "end": 65.2
+    }
+   ],
+   "n": 23,
+   "start": 62.64,
+   "end": 65.2,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do? What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 65.2,
+     "end": 65.52
+    },
+    {
+     "t": "can",
+     "start": 65.54,
+     "end": 65.8
+    },
+    {
+     "t": "you",
+     "start": 65.82,
+     "end": 66.08
+    },
+    {
+     "t": "do?",
+     "start": 66.1,
+     "end": 66.36
+    },
+    {
+     "t": "What",
+     "start": 66.38,
+     "end": 66.7
+    },
+    {
+     "t": "can",
+     "start": 66.72,
+     "end": 66.98
+    },
+    {
+     "t": "you",
+     "start": 67.0,
+     "end": 67.26
+    },
+    {
+     "t": "do?",
+     "start": 67.28,
+     "end": 67.56
+    }
+   ],
+   "n": 24,
+   "start": 65.2,
+   "end": 67.56,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can, I can, I can!",
+   "words": [
+    {
+     "t": "I",
+     "start": 67.56,
+     "end": 67.76
+    },
+    {
+     "t": "can,",
+     "start": 67.78,
+     "end": 68.21
+    },
+    {
+     "t": "I",
+     "start": 68.23,
+     "end": 68.44
+    },
+    {
+     "t": "can,",
+     "start": 68.46,
+     "end": 68.89
+    },
+    {
+     "t": "I",
+     "start": 68.91,
+     "end": 69.11
+    },
+    {
+     "t": "can!",
+     "start": 69.13,
+     "end": 69.58
+    }
+   ],
+   "n": 25,
+   "start": 67.56,
+   "end": 69.58,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can dance, I can sing",
+   "words": [
+    {
+     "t": "I",
+     "start": 69.68,
+     "end": 70.02
+    },
+    {
+     "t": "can",
+     "start": 70.04,
+     "end": 70.62
+    },
+    {
+     "t": "dance,",
+     "start": 70.64,
+     "end": 71.58,
+     "pic": "dance"
+    },
+    {
+     "t": "I",
+     "start": 71.6,
+     "end": 71.94
+    },
+    {
+     "t": "can",
+     "start": 71.96,
+     "end": 72.54
+    },
+    {
+     "t": "sing",
+     "start": 72.56,
+     "end": 73.28,
+     "pic": "sing"
+    }
+   ],
+   "n": 26,
+   "start": 69.68,
+   "end": 73.28,
+   "pic": "icandance"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can run fast, yeah!",
+   "words": [
+    {
+     "t": "I",
+     "start": 70.66,
+     "end": 71.18
+    },
+    {
+     "t": "can",
+     "start": 71.18,
+     "end": 71.6
+    },
+    {
+     "t": "run",
+     "start": 71.6,
+     "end": 71.8,
+     "pic": "run"
+    },
+    {
+     "t": "fast,",
+     "start": 71.8,
+     "end": 72.2,
+     "pic": "fast"
+    },
+    {
+     "t": "yeah!",
+     "start": 72.6,
+     "end": 72.88
+    }
+   ],
+   "n": 27,
+   "start": 70.66,
+   "end": 72.88,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do? What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 72.94,
+     "end": 73.35
+    },
+    {
+     "t": "can",
+     "start": 73.37,
+     "end": 73.71
+    },
+    {
+     "t": "you",
+     "start": 73.73,
+     "end": 74.06
+    },
+    {
+     "t": "do?",
+     "start": 74.08,
+     "end": 74.42
+    },
+    {
+     "t": "What",
+     "start": 74.44,
+     "end": 74.85
+    },
+    {
+     "t": "can",
+     "start": 74.87,
+     "end": 75.21
+    },
+    {
+     "t": "you",
+     "start": 75.23,
+     "end": 75.56
+    },
+    {
+     "t": "do?",
+     "start": 75.58,
+     "end": 75.94
+    }
+   ],
+   "n": 28,
+   "start": 72.94,
+   "end": 75.94,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can, I can, I can!",
+   "words": [
+    {
+     "t": "I",
+     "start": 75.94,
+     "end": 76.33
+    },
+    {
+     "t": "can,",
+     "start": 76.35,
+     "end": 77.15
+    },
+    {
+     "t": "I",
+     "start": 77.17,
+     "end": 77.56
+    },
+    {
+     "t": "can,",
+     "start": 77.58,
+     "end": 78.39
+    },
+    {
+     "t": "I",
+     "start": 78.41,
+     "end": 78.8
+    },
+    {
+     "t": "can!",
+     "start": 78.82,
+     "end": 79.64
+    }
+   ],
+   "n": 29,
+   "start": 75.94,
+   "end": 79.64,
+   "pic": "run"
+  },
+  {
+   "section": "Bridge",
+   "text": "What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 79.74,
+     "end": 79.88
+    },
+    {
+     "t": "can",
+     "start": 79.88,
+     "end": 80.18
+    },
+    {
+     "t": "you",
+     "start": 80.18,
+     "end": 80.42
+    },
+    {
+     "t": "do?",
+     "start": 81.8,
+     "end": 83.34
+    }
+   ],
+   "n": 30,
+   "start": 79.74,
+   "end": 83.34,
+   "pic": "run"
+  },
+  {
+   "section": "Bridge",
+   "text": "I can do magic! I love magic!",
+   "words": [
+    {
+     "t": "I",
+     "start": 83.52,
+     "end": 84.42
+    },
+    {
+     "t": "can",
+     "start": 84.42,
+     "end": 84.64
+    },
+    {
+     "t": "do",
+     "start": 84.64,
+     "end": 84.84
+    },
+    {
+     "t": "magic!",
+     "start": 84.84,
+     "end": 86.28,
+     "pic": "magic"
+    },
+    {
+     "t": "I",
+     "start": 86.28,
+     "end": 86.38
+    },
+    {
+     "t": "love",
+     "start": 86.38,
+     "end": 86.74
+    },
+    {
+     "t": "magic!",
+     "start": 86.74,
+     "end": 88.1,
+     "pic": "magic"
+    }
+   ],
+   "n": 31,
+   "start": 83.52,
+   "end": 88.1,
+   "pic": "magic"
+  },
+  {
+   "section": "Bridge",
+   "text": "What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 88.1,
+     "end": 88.34
+    },
+    {
+     "t": "can",
+     "start": 88.34,
+     "end": 88.72
+    },
+    {
+     "t": "you",
+     "start": 88.72,
+     "end": 89.04
+    },
+    {
+     "t": "do?",
+     "start": 90.74,
+     "end": 91.88
+    }
+   ],
+   "n": 32,
+   "start": 88.1,
+   "end": 91.88,
+   "pic": "magic"
+  },
+  {
+   "section": "Bridge",
+   "text": "I can dance! I love dancing!",
+   "words": [
+    {
+     "t": "I",
+     "start": 92.5,
+     "end": 92.72
+    },
+    {
+     "t": "can",
+     "start": 92.74,
+     "end": 93.12
+    },
+    {
+     "t": "dance!",
+     "start": 93.14,
+     "end": 93.76,
+     "pic": "dance"
+    },
+    {
+     "t": "I",
+     "start": 93.78,
+     "end": 94.0
+    },
+    {
+     "t": "love",
+     "start": 94.02,
+     "end": 94.48
+    },
+    {
+     "t": "dancing!",
+     "start": 94.5,
+     "end": 95.3
+    }
+   ],
+   "n": 33,
+   "start": 92.5,
+   "end": 95.3,
+   "pic": "icandance"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can dance, I can sing",
+   "words": [
+    {
+     "t": "I",
+     "start": 95.3,
+     "end": 95.46
+    },
+    {
+     "t": "can",
+     "start": 95.48,
+     "end": 95.76
+    },
+    {
+     "t": "dance,",
+     "start": 95.78,
+     "end": 96.24,
+     "pic": "dance"
+    },
+    {
+     "t": "I",
+     "start": 96.26,
+     "end": 96.42
+    },
+    {
+     "t": "can",
+     "start": 96.44,
+     "end": 96.72
+    },
+    {
+     "t": "sing",
+     "start": 96.74,
+     "end": 97.1,
+     "pic": "sing"
+    }
+   ],
+   "n": 34,
+   "start": 95.3,
+   "end": 97.1,
+   "pic": "icandance"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can run fast, yeah!",
+   "words": [
+    {
+     "t": "I",
+     "start": 97.14,
+     "end": 97.88
+    },
+    {
+     "t": "can",
+     "start": 97.88,
+     "end": 98.24
+    },
+    {
+     "t": "run",
+     "start": 98.24,
+     "end": 98.42,
+     "pic": "run"
+    },
+    {
+     "t": "fast,",
+     "start": 98.42,
+     "end": 98.92,
+     "pic": "fast"
+    },
+    {
+     "t": "yeah!",
+     "start": 99.4,
+     "end": 99.62
+    }
+   ],
+   "n": 35,
+   "start": 97.14,
+   "end": 99.62,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do? What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 99.62,
+     "end": 99.82
+    },
+    {
+     "t": "can",
+     "start": 99.82,
+     "end": 100.2
+    },
+    {
+     "t": "you",
+     "start": 100.2,
+     "end": 100.7
+    },
+    {
+     "t": "do?",
+     "start": 100.7,
+     "end": 101.48
+    },
+    {
+     "t": "What",
+     "start": 101.48,
+     "end": 101.78
+    },
+    {
+     "t": "can",
+     "start": 101.78,
+     "end": 102.2
+    },
+    {
+     "t": "you",
+     "start": 102.2,
+     "end": 102.46
+    },
+    {
+     "t": "do?",
+     "start": 102.46,
+     "end": 103.51
+    }
+   ],
+   "n": 36,
+   "start": 99.62,
+   "end": 103.51,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can, I can, I can!",
+   "words": [
+    {
+     "t": "I",
+     "start": 103.66,
+     "end": 103.94
+    },
+    {
+     "t": "can,",
+     "start": 103.96,
+     "end": 104.54
+    },
+    {
+     "t": "I",
+     "start": 104.56,
+     "end": 104.84
+    },
+    {
+     "t": "can,",
+     "start": 104.86,
+     "end": 105.44
+    },
+    {
+     "t": "I",
+     "start": 105.46,
+     "end": 105.74
+    },
+    {
+     "t": "can!",
+     "start": 105.76,
+     "end": 106.36
+    }
+   ],
+   "n": 37,
+   "start": 103.66,
+   "end": 106.36,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can dance, I can sing",
+   "words": [
+    {
+     "t": "I",
+     "start": 106.66,
+     "end": 106.86
+    },
+    {
+     "t": "can",
+     "start": 106.88,
+     "end": 107.23
+    },
+    {
+     "t": "dance,",
+     "start": 107.25,
+     "end": 107.81,
+     "pic": "dance"
+    },
+    {
+     "t": "I",
+     "start": 107.83,
+     "end": 108.03
+    },
+    {
+     "t": "can",
+     "start": 108.05,
+     "end": 108.4
+    },
+    {
+     "t": "sing",
+     "start": 108.42,
+     "end": 108.86,
+     "pic": "sing"
+    }
+   ],
+   "n": 38,
+   "start": 106.66,
+   "end": 108.86,
+   "pic": "icandance"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can run fast, yeah!",
+   "words": [
+    {
+     "t": "I",
+     "start": 108.86,
+     "end": 109.3
+    },
+    {
+     "t": "can",
+     "start": 109.3,
+     "end": 109.7
+    },
+    {
+     "t": "run",
+     "start": 109.7,
+     "end": 109.9,
+     "pic": "run"
+    },
+    {
+     "t": "fast,",
+     "start": 109.9,
+     "end": 110.26,
+     "pic": "fast"
+    },
+    {
+     "t": "yeah!",
+     "start": 110.82,
+     "end": 110.96
+    }
+   ],
+   "n": 39,
+   "start": 108.86,
+   "end": 110.96,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do? What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 110.96,
+     "end": 111.22
+    },
+    {
+     "t": "can",
+     "start": 111.22,
+     "end": 111.6
+    },
+    {
+     "t": "you",
+     "start": 111.6,
+     "end": 111.84
+    },
+    {
+     "t": "do?",
+     "start": 111.84,
+     "end": 112.49
+    },
+    {
+     "t": "What",
+     "start": 112.84,
+     "end": 113.08
+    },
+    {
+     "t": "can",
+     "start": 113.08,
+     "end": 113.44
+    },
+    {
+     "t": "you",
+     "start": 113.44,
+     "end": 113.72
+    },
+    {
+     "t": "do?",
+     "start": 113.72,
+     "end": 114.62
+    }
+   ],
+   "n": 40,
+   "start": 110.96,
+   "end": 114.62,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can, I can, I can!",
+   "words": [
+    {
+     "t": "I",
+     "start": 114.78,
+     "end": 115.18
+    },
+    {
+     "t": "can,",
+     "start": 115.2,
+     "end": 116.01
+    },
+    {
+     "t": "I",
+     "start": 116.03,
+     "end": 116.43
+    },
+    {
+     "t": "can,",
+     "start": 116.45,
+     "end": 117.27
+    },
+    {
+     "t": "I",
+     "start": 117.29,
+     "end": 117.68
+    },
+    {
+     "t": "can!",
+     "start": 117.7,
+     "end": 118.54
+    }
+   ],
+   "n": 41,
+   "start": 114.78,
+   "end": 118.54,
+   "pic": "run"
+  },
+  {
+   "section": "Outro",
+   "text": "What can you do?",
+   "words": [
+    {
+     "t": "What",
+     "start": 118.84,
+     "end": 119.2
+    },
+    {
+     "t": "can",
+     "start": 119.22,
+     "end": 119.52
+    },
+    {
+     "t": "you",
+     "start": 119.54,
+     "end": 119.83
+    },
+    {
+     "t": "do?",
+     "start": 119.85,
+     "end": 120.17
+    }
+   ],
+   "n": 42,
+   "start": 118.84,
+   "end": 120.17,
+   "pic": "run"
+  },
+  {
+   "section": "Outro",
+   "text": "I can, I can, I can!",
+   "words": [
+    {
+     "t": "I",
+     "start": 120.64,
+     "end": 120.87
+    },
+    {
+     "t": "can,",
+     "start": 120.89,
+     "end": 121.37
+    },
+    {
+     "t": "I",
+     "start": 121.39,
+     "end": 121.62
+    },
+    {
+     "t": "can,",
+     "start": 121.64,
+     "end": 122.11
+    },
+    {
+     "t": "I",
+     "start": 122.13,
+     "end": 122.36
+    },
+    {
+     "t": "can!",
+     "start": 122.38,
+     "end": 122.88
+    }
+   ],
+   "n": 43,
+   "start": 120.64,
+   "end": 122.88,
+   "pic": "run"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "dance",
+   "prompt": "I can ...?",
+   "answer": "dance",
+   "choices": [
+    "dance",
+    "sing",
+    "run"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "sing",
+   "prompt": "Listen. What word?",
+   "answer": "sing",
+   "choices": [
+    "draw",
+    "sing",
+    "eat"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "piano",
+   "prompt": "I can play the ...?",
+   "answer": "piano",
+   "choices": [
+    "piano",
+    "magic",
+    "study"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "run",
+   "prompt": "Listen. What word?",
+   "answer": "run",
+   "choices": [
+    "run",
+    "dance",
+    "draw"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "taekwondo",
+   "prompt": "I can do ...?",
+   "answer": "taekwondo",
+   "choices": [
+    "taekwondo",
+    "chinese",
+    "magic"
+   ]
+  }
+ ]
+}
