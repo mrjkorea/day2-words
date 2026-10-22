@@ -1,0 +1,518 @@
+{
+ "id": "int2c_u1",
+ "title": "INT 2C · Unit 1 · I Love Summer",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2c_u1/audio/us_f/",
+ "picDir": "../packs/int2c_u1/",
+ "lineAudio": "audio/int2c_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "swim",
+   "choices": [
+    "swim",
+    "summer",
+    "island",
+    "fall"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "leaves",
+   "choices": [
+    "leaves",
+    "summer",
+    "winter",
+    "fall"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "winter",
+   "choices": [
+    "winter",
+    "spring",
+    "island",
+    "summer"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "spring",
+   "answer": "spring",
+   "choices": [
+    "spring",
+    "lpring",
+    "sprinr",
+    "sprong"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "fall",
+   "answer": "fall",
+   "choices": [
+    "fall",
+    "fll",
+    "call",
+    "falc"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "ski",
+   "audio": "audio/int2c_u1/{v}/iskiinwinter.mp3",
+   "answer": [
+    "I",
+    "ski",
+    "in",
+    "winter."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "spring",
+   "audio": "audio/int2c_u1/{v}/ilovespring.mp3",
+   "answer": [
+    "I",
+    "love",
+    "spring."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "leaves",
+   "audio": "audio/int2c_u1/{v}/theleavesareredinfall.mp3",
+   "sentence": [
+    "The",
+    "___",
+    "are",
+    "red",
+    "in",
+    "fall."
+   ],
+   "answer": "leaves",
+   "choices": [
+    "leaves",
+    "swim",
+    "spring"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "spring",
+   "audio": "audio/int2c_u1/{v}/ilovespring.mp3",
+   "sentence": [
+    "I",
+    "love",
+    "___",
+    "."
+   ],
+   "answer": "spring",
+   "choices": [
+    "spring",
+    "leaves",
+    "ski"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2c_u1/{v}/ivisitmygrandma.mp3",
+   "sentence": [
+    "I",
+    "___",
+    "my",
+    "grandma."
+   ],
+   "answer": "visit",
+   "choices": [
+    "visit",
+    "ski",
+    "swim"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "season",
+   "en": "season",
+   "ko": "계절",
+   "pic": null,
+   "audio": "../packs/int2c_u1/audio/{v}/season.mp3",
+   "stext": "I love all four seasons.",
+   "sentence": "../packs/int2c_u1/audio/{v}/iloveallfourseasons.mp3"
+  },
+  {
+   "id": "summer",
+   "en": "summer",
+   "ko": "여름",
+   "pic": "../packs/int2c_u1/summer.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/summer.mp3",
+   "stext": "I love summer.",
+   "sentence": "audio/int2c_u1/{v}/ilovesummer.mp3"
+  },
+  {
+   "id": "fall",
+   "en": "fall",
+   "ko": "가을",
+   "pic": "../packs/int2c_u1/fall.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/fall.mp3",
+   "stext": "I love fall.",
+   "sentence": "audio/int2c_u1/{v}/ilovefall.mp3"
+  },
+  {
+   "id": "winter",
+   "en": "winter",
+   "ko": "겨울",
+   "pic": "../packs/int2c_u1/winter.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/winter.mp3",
+   "stext": "I love winter.",
+   "sentence": "audio/int2c_u1/{v}/ilovewinter.mp3"
+  },
+  {
+   "id": "spring",
+   "en": "spring",
+   "ko": "봄",
+   "pic": "../packs/int2c_u1/spring.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/spring.mp3",
+   "stext": "I love spring.",
+   "sentence": "audio/int2c_u1/{v}/ilovespring.mp3"
+  },
+  {
+   "id": "swim",
+   "en": "swim",
+   "ko": "수영하다",
+   "pic": "../packs/int2c_u1/swim.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/swim.mp3",
+   "stext": "I swim in summer.",
+   "sentence": "audio/int2c_u1/{v}/iswiminsummer.mp3"
+  },
+  {
+   "id": "island",
+   "en": "island",
+   "ko": "섬",
+   "pic": "../packs/int2c_u1/island.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/island.mp3",
+   "stext": "I visit an island.",
+   "sentence": "audio/int2c_u1/{v}/ivisitanisland.mp3"
+  },
+  {
+   "id": "visit",
+   "en": "visit",
+   "ko": "방문하다",
+   "pic": null,
+   "audio": "../packs/int2c_u1/audio/{v}/visit.mp3",
+   "stext": "I visit my grandma.",
+   "sentence": "audio/int2c_u1/{v}/ivisitmygrandma.mp3"
+  },
+  {
+   "id": "leaves",
+   "en": "leaves",
+   "ko": "나뭇잎",
+   "pic": "../packs/int2c_u1/leaves.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/leaves.mp3",
+   "stext": "The leaves are red in fall.",
+   "sentence": "audio/int2c_u1/{v}/theleavesareredinfall.mp3"
+  },
+  {
+   "id": "ski",
+   "en": "ski",
+   "ko": "스키를 타다",
+   "pic": "../packs/int2c_u1/ski.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/ski.mp3",
+   "stext": "I ski in winter.",
+   "sentence": "audio/int2c_u1/{v}/iskiinwinter.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "sport",
+   "en": "sport",
+   "ko": "스포츠",
+   "pic": "../packs/int2c_u4/sport.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/sport.mp3"
+  },
+  {
+   "id": "confused",
+   "en": "confused",
+   "ko": "혼란스러운",
+   "pic": "../packs/int2c_u5/confused.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/confused.mp3"
+  },
+  {
+   "id": "stomachache",
+   "en": "stomachache",
+   "ko": "복통",
+   "pic": "../packs/int2c_u6/stomachache.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/stomachache.mp3"
+  },
+  {
+   "id": "tooth",
+   "en": "tooth",
+   "ko": "치아",
+   "pic": "../packs/int2c_u6/tooth.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/tooth.mp3"
+  },
+  {
+   "id": "miss",
+   "en": "miss",
+   "ko": "그리워하다",
+   "pic": "../packs/int2c_u8/miss.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/miss.mp3"
+  },
+  {
+   "id": "okay",
+   "en": "okay",
+   "ko": "알겠어요",
+   "pic": "../packs/int2c_u7/okay.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/okay.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "summer",
+    "fall",
+    "winter",
+    "sport"
+   ],
+   "odd": "sport"
+  },
+  {
+   "items": [
+    "summer",
+    "leaves",
+    "spring",
+    "confused"
+   ],
+   "odd": "confused"
+  },
+  {
+   "items": [
+    "stomachache",
+    "ski",
+    "fall",
+    "spring"
+   ],
+   "odd": "stomachache"
+  },
+  {
+   "items": [
+    "winter",
+    "tooth",
+    "fall",
+    "spring"
+   ],
+   "odd": "tooth"
+  },
+  {
+   "items": [
+    "swim",
+    "miss",
+    "summer",
+    "winter"
+   ],
+   "odd": "miss"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "season",
+   "summer",
+   "fall",
+   "winter",
+   "spring",
+   "swim"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "season",
+   "summer",
+   "fall",
+   "winter",
+   "spring",
+   "swim"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "season",
+   "summer",
+   "fall",
+   "winter",
+   "spring",
+   "swim",
+   "island"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I love all four seasons.",
+   "audio": "../packs/int2c_u1/audio/{v}/iloveallfourseasons.mp3"
+  },
+  {
+   "text": "I love summer.",
+   "audio": "audio/int2c_u1/{v}/ilovesummer.mp3"
+  },
+  {
+   "text": "I love fall.",
+   "audio": "audio/int2c_u1/{v}/ilovefall.mp3"
+  },
+  {
+   "text": "I love winter.",
+   "audio": "audio/int2c_u1/{v}/ilovewinter.mp3"
+  },
+  {
+   "text": "I love spring.",
+   "audio": "audio/int2c_u1/{v}/ilovespring.mp3"
+  },
+  {
+   "text": "I swim in summer.",
+   "audio": "audio/int2c_u1/{v}/iswiminsummer.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2c_u1/summer.jpg",
+   "q": {
+    "text": "What do you love?",
+    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
+   },
+   "choices": [
+    {
+     "text": "I ski in winter.",
+     "audio": "audio/int2c_u1/ai/iskiinwinter.mp3"
+    },
+    {
+     "text": "I love summer.",
+     "audio": "audio/int2c_u1/ai/ilovesummer.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2c_u1/island.jpg",
+   "q": {
+    "text": "What do you love?",
+    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
+   },
+   "choices": [
+    {
+     "text": "I visit an island.",
+     "audio": "audio/int2c_u1/ai/ivisitanisland.mp3"
+    },
+    {
+     "text": "I love summer.",
+     "audio": "audio/int2c_u1/ai/ilovesummer.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u1/ski.jpg",
+   "q": {
+    "text": "What do you love?",
+    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
+   },
+   "choices": [
+    {
+     "text": "I love all four seasons.",
+     "audio": "audio/int2c_u1/ai/iloveallfourseasons.mp3"
+    },
+    {
+     "text": "I ski in winter.",
+     "audio": "audio/int2c_u1/ai/iskiinwinter.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2c_u1/swim.jpg",
+   "q": {
+    "text": "What do you love?",
+    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
+   },
+   "choices": [
+    {
+     "text": "I love spring.",
+     "audio": "audio/int2c_u1/ai/ilovespring.mp3"
+    },
+    {
+     "text": "I swim in summer.",
+     "audio": "audio/int2c_u1/ai/iswiminsummer.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2c_u1/",
+  "ai": "audio/int2c_u1/ai/"
+ }
+}

@@ -1,0 +1,520 @@
+{
+ "id": "int2c_u2",
+ "title": "INT 2C · Unit 2 · What Are You Doing?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2c_u2/audio/us_f/",
+ "picDir": "../packs/int2c_u2/",
+ "lineAudio": "audio/int2c_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fruit",
+   "choices": [
+    "fruit",
+    "fishing",
+    "brush",
+    "go"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fishing",
+   "choices": [
+    "fishing",
+    "bow",
+    "vegetable",
+    "picture"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "brush",
+   "choices": [
+    "brush",
+    "bow",
+    "vegetable",
+    "fruit"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "vegetable",
+   "answer": "vegetable",
+   "choices": [
+    "vegetable",
+    "vugetable",
+    "vegetalle",
+    "vegeteble"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "fishing",
+   "answer": "fishing",
+   "choices": [
+    "fishing",
+    "rishing",
+    "fshing",
+    "fishinb"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "picture",
+   "audio": "audio/int2c_u2/{v}/iamtakingapicture.mp3",
+   "answer": [
+    "I",
+    "am",
+    "taking",
+    "a",
+    "picture."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2c_u2/{v}/myteethareclean.mp3",
+   "answer": [
+    "My",
+    "teeth",
+    "are",
+    "clean."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "fruit",
+   "audio": "audio/int2c_u2/{v}/iameatingfruit.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "eating",
+    "___",
+    "."
+   ],
+   "answer": "fruit",
+   "choices": [
+    "fruit",
+    "bow",
+    "picture"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2c_u2/{v}/myteethareclean.mp3",
+   "sentence": [
+    "My",
+    "___",
+    "are",
+    "clean."
+   ],
+   "answer": "teeth",
+   "choices": [
+    "teeth",
+    "fishing",
+    "Go"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "kimchi",
+   "audio": "audio/int2c_u2/{v}/iammakingkimchi.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "making",
+    "___",
+    "."
+   ],
+   "answer": "kimchi",
+   "choices": [
+    "kimchi",
+    "vegetable",
+    "bow"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "picture",
+   "en": "picture",
+   "ko": "사진",
+   "pic": "../packs/int2c_u2/picture.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/picture.mp3",
+   "stext": "I am taking a picture.",
+   "sentence": "audio/int2c_u2/{v}/iamtakingapicture.mp3"
+  },
+  {
+   "id": "sell",
+   "en": "sell",
+   "ko": "팔다",
+   "pic": null,
+   "audio": "../packs/int2c_u2/audio/{v}/sell.mp3",
+   "stext": "I am selling fruit.",
+   "sentence": "audio/int2c_u2/{v}/iamsellingfruit.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": "../packs/int2c_u2/fruit.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/fruit.mp3",
+   "stext": "I am eating fruit.",
+   "sentence": "audio/int2c_u2/{v}/iameatingfruit.mp3"
+  },
+  {
+   "id": "bow",
+   "en": "bow",
+   "ko": "절하다",
+   "pic": "../packs/int2c_u2/bow.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/bow.mp3",
+   "stext": "I am bowing.",
+   "sentence": "audio/int2c_u2/{v}/iambowing.mp3"
+  },
+  {
+   "id": "fishing",
+   "en": "fishing",
+   "ko": "낚시",
+   "pic": "../packs/int2c_u2/fishing.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/fishing.mp3",
+   "stext": "I am fishing.",
+   "sentence": "../packs/int2c_u2/audio/{v}/iamfishing.mp3"
+  },
+  {
+   "id": "vegetable",
+   "en": "vegetable",
+   "ko": "채소",
+   "pic": "../packs/int2c_u2/vegetable.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/vegetable.mp3",
+   "stext": "I am washing vegetables.",
+   "sentence": "audio/int2c_u2/{v}/iamwashingvegetables.mp3"
+  },
+  {
+   "id": "go",
+   "en": "Go",
+   "ko": "바둑",
+   "pic": "../packs/int2c_u2/go.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/go.mp3",
+   "stext": "I am playing Go.",
+   "sentence": "audio/int2c_u2/{v}/iamplayinggo.mp3"
+  },
+  {
+   "id": "kimchi",
+   "en": "kimchi",
+   "ko": "김치",
+   "pic": "../packs/int2c_u2/kimchi.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/kimchi.mp3",
+   "stext": "I am making kimchi.",
+   "sentence": "audio/int2c_u2/{v}/iammakingkimchi.mp3"
+  },
+  {
+   "id": "brush",
+   "en": "brush",
+   "ko": "(이를) 닦다",
+   "pic": "../packs/int2c_u2/brush.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/brush.mp3",
+   "stext": "I am brushing my teeth.",
+   "sentence": "audio/int2c_u2/{v}/iambrushingmyteeth.mp3"
+  },
+  {
+   "id": "teeth",
+   "en": "teeth",
+   "ko": "이, 치아",
+   "pic": null,
+   "audio": "../packs/int2c_u2/audio/{v}/teeth.mp3",
+   "stext": "My teeth are clean.",
+   "sentence": "audio/int2c_u2/{v}/myteethareclean.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "ankle",
+   "en": "ankle",
+   "ko": "발목",
+   "pic": "../packs/int2c_u6/ankle.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/ankle.mp3"
+  },
+  {
+   "id": "tooth",
+   "en": "tooth",
+   "ko": "치아",
+   "pic": "../packs/int2c_u6/tooth.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/tooth.mp3"
+  },
+  {
+   "id": "goodbye",
+   "en": "goodbye",
+   "ko": "작별 인사",
+   "pic": "../packs/int2c_u8/goodbye.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/goodbye.mp3"
+  },
+  {
+   "id": "guilty",
+   "en": "guilty",
+   "ko": "죄책감이 드는",
+   "pic": "../packs/int2c_u5/guilty.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/guilty.mp3"
+  },
+  {
+   "id": "character",
+   "en": "character",
+   "ko": "캐릭터",
+   "pic": "../packs/int2c_u4/character.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/character.mp3"
+  },
+  {
+   "id": "fever",
+   "en": "fever",
+   "ko": "열",
+   "pic": "../packs/int2c_u6/fever.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/fever.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "fruit",
+    "vegetable",
+    "ankle",
+    "go"
+   ],
+   "odd": "ankle"
+  },
+  {
+   "items": [
+    "fishing",
+    "kimchi",
+    "tooth",
+    "picture"
+   ],
+   "odd": "tooth"
+  },
+  {
+   "items": [
+    "brush",
+    "fruit",
+    "go",
+    "goodbye"
+   ],
+   "odd": "goodbye"
+  },
+  {
+   "items": [
+    "brush",
+    "kimchi",
+    "guilty",
+    "picture"
+   ],
+   "odd": "guilty"
+  },
+  {
+   "items": [
+    "character",
+    "brush",
+    "bow",
+    "vegetable"
+   ],
+   "odd": "character"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "picture",
+   "sell",
+   "fruit",
+   "bow",
+   "fishing",
+   "go"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "picture",
+   "sell",
+   "fruit",
+   "bow",
+   "fishing",
+   "vegetable"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "picture",
+   "sell",
+   "fruit",
+   "bow",
+   "fishing",
+   "vegetable",
+   "go"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What are you doing?",
+   "audio": "../packs/int2c_u2/audio/{v}/whatareyoudoing.mp3"
+  },
+  {
+   "text": "I am fishing.",
+   "audio": "../packs/int2c_u2/audio/{v}/iamfishing.mp3"
+  },
+  {
+   "text": "I am taking a picture.",
+   "audio": "audio/int2c_u2/{v}/iamtakingapicture.mp3"
+  },
+  {
+   "text": "I am selling fruit.",
+   "audio": "audio/int2c_u2/{v}/iamsellingfruit.mp3"
+  },
+  {
+   "text": "I am eating fruit.",
+   "audio": "audio/int2c_u2/{v}/iameatingfruit.mp3"
+  },
+  {
+   "text": "I am bowing.",
+   "audio": "audio/int2c_u2/{v}/iambowing.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2c_u2/vegetable.jpg",
+   "q": {
+    "text": "What are you doing?",
+    "audio": "../packs/int2c_u2/audio/{v}/whatareyoudoing.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am washing vegetables.",
+     "audio": "audio/int2c_u2/ai/iamwashingvegetables.mp3"
+    },
+    {
+     "text": "I am brushing my teeth.",
+     "audio": "audio/int2c_u2/ai/iambrushingmyteeth.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u2/picture.jpg",
+   "q": {
+    "text": "What are you doing?",
+    "audio": "../packs/int2c_u2/audio/{v}/whatareyoudoing.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am taking a picture.",
+     "audio": "audio/int2c_u2/ai/iamtakingapicture.mp3"
+    },
+    {
+     "text": "I am brushing my teeth.",
+     "audio": "audio/int2c_u2/ai/iambrushingmyteeth.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u2/go.jpg",
+   "q": {
+    "text": "What are you doing?",
+    "audio": "../packs/int2c_u2/audio/{v}/whatareyoudoing.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am playing Go.",
+     "audio": "audio/int2c_u2/ai/iamplayinggo.mp3"
+    },
+    {
+     "text": "I am making kimchi.",
+     "audio": "audio/int2c_u2/ai/iammakingkimchi.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u2/fruit.jpg",
+   "q": {
+    "text": "What are you doing?",
+    "audio": "../packs/int2c_u2/audio/{v}/whatareyoudoing.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am fishing.",
+     "audio": "audio/int2c_u2/ai/iamfishing.mp3"
+    },
+    {
+     "text": "I am eating fruit.",
+     "audio": "audio/int2c_u2/ai/iameatingfruit.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2c_u2/",
+  "ai": "audio/int2c_u2/ai/"
+ }
+}

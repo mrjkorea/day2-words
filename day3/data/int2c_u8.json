@@ -1,0 +1,511 @@
+{
+ "id": "int2c_u8",
+ "title": "INT 2C · Unit 8 · I'll Miss You",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2c_u8/audio/us_f/",
+ "picDir": "../packs/int2c_u8/",
+ "lineAudio": "audio/int2c_u8/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "long",
+   "choices": [
+    "long",
+    "care",
+    "goodbye",
+    "miss"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "care",
+   "choices": [
+    "care",
+    "long",
+    "easy",
+    "nice"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "luck",
+   "choices": [
+    "luck",
+    "nice",
+    "long",
+    "care"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "easy",
+   "answer": "easy",
+   "choices": [
+    "easy",
+    "eay",
+    "uasy",
+    "eask"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "miss",
+   "answer": "miss",
+   "choices": [
+    "miss",
+    "mis",
+    "mass",
+    "mins"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2c_u8/{v}/haveaniceday.mp3",
+   "answer": [
+    "Have",
+    "a",
+    "nice",
+    "day."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2c_u8/{v}/wehadagreattime.mp3",
+   "answer": [
+    "We",
+    "had",
+    "a",
+    "great",
+    "time."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "luck",
+   "audio": "audio/int2c_u8/{v}/goodluck.mp3",
+   "sentence": [
+    "Good",
+    "___",
+    "."
+   ],
+   "answer": "luck",
+   "choices": [
+    "luck",
+    "care",
+    "nice"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2c_u8/{v}/haveaniceday.mp3",
+   "sentence": [
+    "Have",
+    "a",
+    "nice",
+    "___",
+    "."
+   ],
+   "answer": "day",
+   "choices": [
+    "day",
+    "nice",
+    "goodbye"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nice",
+   "audio": "audio/int2c_u8/{v}/itwasnicetomeetyou.mp3",
+   "sentence": [
+    "It",
+    "was",
+    "___",
+    "to",
+    "meet",
+    "you."
+   ],
+   "answer": "nice",
+   "choices": [
+    "nice",
+    "time",
+    "luck"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "miss",
+   "en": "miss",
+   "ko": "그리워하다",
+   "pic": "../packs/int2c_u8/miss.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/miss.mp3",
+   "stext": "I'll miss you.",
+   "sentence": "../packs/int2c_u8/audio/{v}/illmissyou.mp3"
+  },
+  {
+   "id": "care",
+   "en": "care",
+   "ko": "조심, 보살핌",
+   "pic": "../packs/int2c_u8/care.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/care.mp3",
+   "stext": "Take care.",
+   "sentence": "audio/int2c_u8/{v}/takecare.mp3"
+  },
+  {
+   "id": "long",
+   "en": "long",
+   "ko": "오래, 긴",
+   "pic": "../packs/int2c_u8/long.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/long.mp3",
+   "stext": "It was a long year.",
+   "sentence": "audio/int2c_u8/{v}/itwasalongyear.mp3"
+  },
+  {
+   "id": "goodbye",
+   "en": "goodbye",
+   "ko": "작별 인사",
+   "pic": "../packs/int2c_u8/goodbye.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/goodbye.mp3",
+   "stext": "Goodbye.",
+   "sentence": "../packs/int2c_u8/audio/{v}/goodbye.mp3"
+  },
+  {
+   "id": "luck",
+   "en": "luck",
+   "ko": "행운",
+   "pic": "../packs/int2c_u8/luck.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/luck.mp3",
+   "stext": "Good luck.",
+   "sentence": "audio/int2c_u8/{v}/goodluck.mp3"
+  },
+  {
+   "id": "easy",
+   "en": "easy",
+   "ko": "편한, 쉬운",
+   "pic": "../packs/int2c_u8/easy.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/easy.mp3",
+   "stext": "Take it easy.",
+   "sentence": "audio/int2c_u8/{v}/takeiteasy.mp3"
+  },
+  {
+   "id": "nice",
+   "en": "nice",
+   "ko": "좋은",
+   "pic": "../packs/int2c_u8/nice.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/nice.mp3",
+   "stext": "It was nice to meet you.",
+   "sentence": "audio/int2c_u8/{v}/itwasnicetomeetyou.mp3"
+  },
+  {
+   "id": "day",
+   "en": "day",
+   "ko": "하루, 날",
+   "pic": null,
+   "audio": "../packs/int2c_u8/audio/{v}/day.mp3",
+   "stext": "Have a nice day.",
+   "sentence": "audio/int2c_u8/{v}/haveaniceday.mp3"
+  },
+  {
+   "id": "time",
+   "en": "time",
+   "ko": "시간, 때",
+   "pic": null,
+   "audio": "../packs/int2c_u8/audio/{v}/time.mp3",
+   "stext": "We had a great time.",
+   "sentence": "audio/int2c_u8/{v}/wehadagreattime.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "yours",
+   "en": "yours",
+   "ko": "너의 것",
+   "pic": "../packs/int2c_u3/yours.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/yours.mp3"
+  },
+  {
+   "id": "brush",
+   "en": "brush",
+   "ko": "(이를) 닦다",
+   "pic": "../packs/int2c_u2/brush.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/brush.mp3"
+  },
+  {
+   "id": "stomachache",
+   "en": "stomachache",
+   "ko": "복통",
+   "pic": "../packs/int2c_u6/stomachache.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/stomachache.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": "../packs/int2c_u2/fruit.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/fruit.mp3"
+  },
+  {
+   "id": "sport",
+   "en": "sport",
+   "ko": "스포츠",
+   "pic": "../packs/int2c_u4/sport.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/sport.mp3"
+  },
+  {
+   "id": "nervous",
+   "en": "nervous",
+   "ko": "긴장한",
+   "pic": "../packs/int2c_u5/nervous.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/nervous.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "long",
+    "luck",
+    "yours",
+    "miss"
+   ],
+   "odd": "yours"
+  },
+  {
+   "items": [
+    "goodbye",
+    "nice",
+    "easy",
+    "brush"
+   ],
+   "odd": "brush"
+  },
+  {
+   "items": [
+    "care",
+    "stomachache",
+    "long",
+    "luck"
+   ],
+   "odd": "stomachache"
+  },
+  {
+   "items": [
+    "goodbye",
+    "luck",
+    "fruit",
+    "easy"
+   ],
+   "odd": "fruit"
+  },
+  {
+   "items": [
+    "easy",
+    "care",
+    "sport",
+    "nice"
+   ],
+   "odd": "sport"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "miss",
+   "care",
+   "long",
+   "goodbye",
+   "luck",
+   "easy"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "miss",
+   "care",
+   "long",
+   "goodbye",
+   "luck",
+   "easy"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "miss",
+   "care",
+   "long",
+   "goodbye",
+   "luck",
+   "easy",
+   "nice"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I'll miss you.",
+   "audio": "../packs/int2c_u8/audio/{v}/illmissyou.mp3"
+  },
+  {
+   "text": "Take care.",
+   "audio": "audio/int2c_u8/{v}/takecare.mp3"
+  },
+  {
+   "text": "It was a long year.",
+   "audio": "audio/int2c_u8/{v}/itwasalongyear.mp3"
+  },
+  {
+   "text": "Good luck.",
+   "audio": "audio/int2c_u8/{v}/goodluck.mp3"
+  },
+  {
+   "text": "Take it easy.",
+   "audio": "audio/int2c_u8/{v}/takeiteasy.mp3"
+  },
+  {
+   "text": "It was nice to meet you.",
+   "audio": "audio/int2c_u8/{v}/itwasnicetomeetyou.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": null,
+   "q": {
+    "text": "I'll miss you.",
+    "audio": "../packs/int2c_u8/audio/{v}/illmissyou.mp3"
+   },
+   "choices": [
+    {
+     "text": "Nice to meet you too.",
+     "audio": "audio/int2c_u8/ai/nicetomeetyoutoo.mp3"
+    },
+    {
+     "text": "I'll miss you too.",
+     "audio": "audio/int2c_u8/ai/illmissyoutoo.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": null,
+   "q": {
+    "text": "Goodbye!",
+    "audio": "../packs/int2c_u8/audio/{v}/goodbye.mp3"
+   },
+   "choices": [
+    {
+     "text": "Hello. How are you?",
+     "audio": "audio/int2c_u8/ai/hellohowareyou.mp3"
+    },
+    {
+     "text": "Goodbye. Take care.",
+     "audio": "audio/int2c_u8/ai/goodbyetakecare.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": null,
+   "q": {
+    "text": "I have a big test tomorrow.",
+    "audio": "audio/int2c_u8/{v}/ihaveabigtesttomorrow.mp3"
+   },
+   "choices": [
+    {
+     "text": "Good luck!",
+     "audio": "audio/int2c_u8/ai/goodluck.mp3"
+    },
+    {
+     "text": "Happy birthday!",
+     "audio": "audio/int2c_u8/ai/happybirthday.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": null,
+   "q": {
+    "text": "Have a nice day!",
+    "audio": "audio/int2c_u8/{v}/haveaniceday.mp3"
+   },
+   "choices": [
+    {
+     "text": "You too!",
+     "audio": "audio/int2c_u8/ai/youtoo.mp3"
+    },
+    {
+     "text": "Good morning!",
+     "audio": "audio/int2c_u8/ai/goodmorning.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2c_u8/",
+  "ai": "audio/int2c_u8/ai/"
+ }
+}

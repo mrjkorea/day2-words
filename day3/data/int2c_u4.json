@@ -1,0 +1,522 @@
+{
+ "id": "int2c_u4",
+ "title": "INT 2C · Unit 4 · What's Your Favorite?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2c_u4/audio/us_f/",
+ "picDir": "../packs/int2c_u4/",
+ "lineAudio": "audio/int2c_u4/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "color",
+   "choices": [
+    "color",
+    "snack",
+    "hobby",
+    "sport"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "season",
+   "choices": [
+    "season",
+    "color",
+    "game",
+    "fruit"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "music",
+   "choices": [
+    "music",
+    "animal",
+    "season",
+    "hobby"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "game",
+   "answer": "game",
+   "choices": [
+    "game",
+    "gami",
+    "ame",
+    "gabe"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "sport",
+   "answer": "sport",
+   "choices": [
+    "sport",
+    "spor",
+    "sporb",
+    "spot"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "music",
+   "audio": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3",
+   "answer": [
+    "My",
+    "favorite",
+    "music",
+    "is",
+    "K-pop."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2c_u4/{v}/whatisyourfavorite.mp3",
+   "answer": [
+    "What",
+    "is",
+    "your",
+    "favorite?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "season",
+   "audio": "audio/int2c_u4/{v}/myfavoriteseasonissummer.mp3",
+   "sentence": [
+    "My",
+    "favorite",
+    "___",
+    "is",
+    "summer."
+   ],
+   "answer": "season",
+   "choices": [
+    "season",
+    "sport",
+    "hobby"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "fruit",
+   "audio": "audio/int2c_u4/{v}/myfavoritefruitistheapple.mp3",
+   "sentence": [
+    "My",
+    "favorite",
+    "___",
+    "is",
+    "the",
+    "apple."
+   ],
+   "answer": "fruit",
+   "choices": [
+    "fruit",
+    "hobby",
+    "snack"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "music",
+   "audio": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3",
+   "sentence": [
+    "My",
+    "favorite",
+    "___",
+    "is",
+    "K-pop."
+   ],
+   "answer": "music",
+   "choices": [
+    "music",
+    "game",
+    "season"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "favorite",
+   "en": "favorite",
+   "ko": "가장 좋아하는",
+   "pic": null,
+   "audio": "../packs/int2c_u4/audio/{v}/favorite.mp3",
+   "stext": "What is your favorite?",
+   "sentence": "audio/int2c_u4/{v}/whatisyourfavorite.mp3"
+  },
+  {
+   "id": "animal",
+   "en": "animal",
+   "ko": "동물",
+   "pic": "../packs/int2c_u4/animal.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/animal.mp3",
+   "stext": "My favorite animal is the cat.",
+   "sentence": "audio/int2c_u4/{v}/myfavoriteanimalisthecat.mp3"
+  },
+  {
+   "id": "season",
+   "en": "season",
+   "ko": "계절",
+   "pic": "../packs/int2c_u4/season.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/season.mp3",
+   "stext": "My favorite season is summer.",
+   "sentence": "audio/int2c_u4/{v}/myfavoriteseasonissummer.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": "../packs/int2c_u4/fruit.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/fruit.mp3",
+   "stext": "My favorite fruit is the apple.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritefruitistheapple.mp3"
+  },
+  {
+   "id": "game",
+   "en": "game",
+   "ko": "게임",
+   "pic": "../packs/int2c_u4/game.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/game.mp3",
+   "stext": "My favorite game is Go.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritegameisgo.mp3"
+  },
+  {
+   "id": "color",
+   "en": "color",
+   "ko": "색깔",
+   "pic": "../packs/int2c_u4/color.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/color.mp3",
+   "stext": "My favorite color is blue.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritecolorisblue.mp3"
+  },
+  {
+   "id": "hobby",
+   "en": "hobby",
+   "ko": "취미",
+   "pic": "../packs/int2c_u4/hobby.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/hobby.mp3",
+   "stext": "My favorite hobby is drawing.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritehobbyisdrawing.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int2c_u4/music.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/music.mp3",
+   "stext": "My favorite music is K-pop.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3"
+  },
+  {
+   "id": "snack",
+   "en": "snack",
+   "ko": "간식",
+   "pic": "../packs/int2c_u4/snack.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/snack.mp3",
+   "stext": "My favorite snack is chips.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritesnackischips.mp3"
+  },
+  {
+   "id": "sport",
+   "en": "sport",
+   "ko": "스포츠",
+   "pic": "../packs/int2c_u4/sport.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/sport.mp3",
+   "stext": "My favorite sport is soccer.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritesportissoccer.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "candy",
+   "en": "candy",
+   "ko": "사탕",
+   "pic": "../packs/int2c_u3/candy.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/candy.mp3"
+  },
+  {
+   "id": "brush",
+   "en": "brush",
+   "ko": "(이를) 닦다",
+   "pic": "../packs/int2c_u2/brush.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/brush.mp3"
+  },
+  {
+   "id": "ankle",
+   "en": "ankle",
+   "ko": "발목",
+   "pic": "../packs/int2c_u6/ankle.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/ankle.mp3"
+  },
+  {
+   "id": "ignored",
+   "en": "ignored",
+   "ko": "무시당한",
+   "pic": "../packs/int2c_u5/ignored.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/ignored.mp3"
+  },
+  {
+   "id": "out",
+   "en": "out",
+   "ko": "외출 중인",
+   "pic": "../packs/int2c_u7/out.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/out.mp3"
+  },
+  {
+   "id": "spring",
+   "en": "spring",
+   "ko": "봄",
+   "pic": "../packs/int2c_u1/spring.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/spring.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "sport",
+    "music",
+    "candy",
+    "hobby"
+   ],
+   "odd": "candy"
+  },
+  {
+   "items": [
+    "game",
+    "color",
+    "hobby",
+    "brush"
+   ],
+   "odd": "brush"
+  },
+  {
+   "items": [
+    "snack",
+    "ankle",
+    "season",
+    "game"
+   ],
+   "odd": "ankle"
+  },
+  {
+   "items": [
+    "ignored",
+    "hobby",
+    "music",
+    "snack"
+   ],
+   "odd": "ignored"
+  },
+  {
+   "items": [
+    "sport",
+    "music",
+    "out",
+    "color"
+   ],
+   "odd": "out"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "favorite",
+   "animal",
+   "season",
+   "fruit",
+   "game",
+   "color"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "favorite",
+   "animal",
+   "season",
+   "fruit",
+   "game",
+   "color"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "favorite",
+   "animal",
+   "season",
+   "fruit",
+   "game",
+   "color",
+   "hobby"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What is your favorite animal?",
+   "audio": "../packs/int2c_u4/audio/{v}/whatisyourfavoriteanimal.mp3"
+  },
+  {
+   "text": "What is your favorite?",
+   "audio": "audio/int2c_u4/{v}/whatisyourfavorite.mp3"
+  },
+  {
+   "text": "My favorite animal is the cat.",
+   "audio": "audio/int2c_u4/{v}/myfavoriteanimalisthecat.mp3"
+  },
+  {
+   "text": "My favorite season is summer.",
+   "audio": "audio/int2c_u4/{v}/myfavoriteseasonissummer.mp3"
+  },
+  {
+   "text": "My favorite fruit is the apple.",
+   "audio": "audio/int2c_u4/{v}/myfavoritefruitistheapple.mp3"
+  },
+  {
+   "text": "My favorite game is Go.",
+   "audio": "audio/int2c_u4/{v}/myfavoritegameisgo.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2c_u4/animal.jpg",
+   "q": {
+    "text": "What is your favorite animal?",
+    "audio": "../packs/int2c_u4/audio/{v}/whatisyourfavoriteanimal.mp3"
+   },
+   "choices": [
+    {
+     "text": "My favorite game is Go.",
+     "audio": "audio/int2c_u4/ai/myfavoritegameisgo.mp3"
+    },
+    {
+     "text": "My favorite animal is the cat.",
+     "audio": "audio/int2c_u4/ai/myfavoriteanimalisthecat.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2c_u4/season.jpg",
+   "q": {
+    "text": "What is your favorite season?",
+    "audio": "audio/int2c_u4/{v}/whatisyourfavoriteseason.mp3"
+   },
+   "choices": [
+    {
+     "text": "My favorite hobby is drawing.",
+     "audio": "audio/int2c_u4/ai/myfavoritehobbyisdrawing.mp3"
+    },
+    {
+     "text": "My favorite season is summer.",
+     "audio": "audio/int2c_u4/ai/myfavoriteseasonissummer.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2c_u4/color.jpg",
+   "q": {
+    "text": "What is your favorite color?",
+    "audio": "audio/int2c_u4/{v}/whatisyourfavoritecolor.mp3"
+   },
+   "choices": [
+    {
+     "text": "My favorite color is blue.",
+     "audio": "audio/int2c_u4/ai/myfavoritecolorisblue.mp3"
+    },
+    {
+     "text": "My favorite snack is chips.",
+     "audio": "audio/int2c_u4/ai/myfavoritesnackischips.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u4/hobby.jpg",
+   "q": {
+    "text": "What is your favorite hobby?",
+    "audio": "audio/int2c_u4/{v}/whatisyourfavoritehobby.mp3"
+   },
+   "choices": [
+    {
+     "text": "My favorite hobby is drawing.",
+     "audio": "audio/int2c_u4/ai/myfavoritehobbyisdrawing.mp3"
+    },
+    {
+     "text": "What is your favorite?",
+     "audio": "audio/int2c_u4/ai/whatisyourfavorite.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2c_u4/",
+  "ai": "audio/int2c_u4/ai/"
+ }
+}

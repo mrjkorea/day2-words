@@ -1,0 +1,519 @@
+{
+ "id": "int2c_u3",
+ "title": "INT 2C · Unit 3 · Is This Yours?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2c_u3/audio/us_f/",
+ "picDir": "../packs/int2c_u3/",
+ "lineAudio": "audio/int2c_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "chair",
+   "choices": [
+    "chair",
+    "those",
+    "garbage",
+    "yours"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "book",
+   "choices": [
+    "book",
+    "money",
+    "phone",
+    "those"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "garbage",
+   "choices": [
+    "garbage",
+    "phone",
+    "chair",
+    "book"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "yours",
+   "answer": "yours",
+   "choices": [
+    "yours",
+    "yors",
+    "yoars",
+    "yourm"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "book",
+   "answer": "book",
+   "choices": [
+    "book",
+    "boos",
+    "boor",
+    "bok"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "garbage",
+   "audio": "audio/int2c_u3/{v}/itisgarbage.mp3",
+   "answer": [
+    "It",
+    "is",
+    "garbage."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "book",
+   "audio": "audio/int2c_u3/{v}/itismybook.mp3",
+   "answer": [
+    "It",
+    "is",
+    "my",
+    "book."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "candy",
+   "audio": "audio/int2c_u3/{v}/itismycandy.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "candy",
+   "choices": [
+    "candy",
+    "phone",
+    "money"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "phone",
+   "audio": "audio/int2c_u3/{v}/itismyphone.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "whose",
+    "know"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "book",
+   "audio": "audio/int2c_u3/{v}/itismybook.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "book",
+   "choices": [
+    "book",
+    "candy",
+    "those"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "yours",
+   "en": "yours",
+   "ko": "너의 것",
+   "pic": "../packs/int2c_u3/yours.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/yours.mp3",
+   "stext": "Is this yours?",
+   "sentence": "audio/int2c_u3/{v}/isthisyours.mp3"
+  },
+  {
+   "id": "those",
+   "en": "those",
+   "ko": "저것들",
+   "pic": "../packs/int2c_u3/those.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/those.mp3",
+   "stext": "Are those yours?",
+   "sentence": "audio/int2c_u3/{v}/arethoseyours.mp3"
+  },
+  {
+   "id": "whose",
+   "en": "whose",
+   "ko": "누구의",
+   "pic": null,
+   "audio": "../packs/int2c_u3/audio/{v}/whose.mp3",
+   "stext": "Whose candy is this?",
+   "sentence": "../packs/int2c_u3/audio/{v}/whosecandyisthis.mp3"
+  },
+  {
+   "id": "candy",
+   "en": "candy",
+   "ko": "사탕",
+   "pic": "../packs/int2c_u3/candy.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/candy.mp3",
+   "stext": "It is my candy.",
+   "sentence": "audio/int2c_u3/{v}/itismycandy.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int2c_u3/phone.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/phone.mp3",
+   "stext": "It is my phone.",
+   "sentence": "audio/int2c_u3/{v}/itismyphone.mp3"
+  },
+  {
+   "id": "chair",
+   "en": "chair",
+   "ko": "의자",
+   "pic": "../packs/int2c_u3/chair.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/chair.mp3",
+   "stext": "It is my chair.",
+   "sentence": "audio/int2c_u3/{v}/itismychair.mp3"
+  },
+  {
+   "id": "garbage",
+   "en": "garbage",
+   "ko": "쓰레기",
+   "pic": "../packs/int2c_u3/garbage.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/garbage.mp3",
+   "stext": "It is garbage.",
+   "sentence": "audio/int2c_u3/{v}/itisgarbage.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/int2c_u3/book.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/book.mp3",
+   "stext": "It is my book.",
+   "sentence": "audio/int2c_u3/{v}/itismybook.mp3"
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "pic": "../packs/int2c_u3/money.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/money.mp3",
+   "stext": "It is my money.",
+   "sentence": "audio/int2c_u3/{v}/itismymoney.mp3"
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "pic": null,
+   "audio": "../packs/int2c_u3/audio/{v}/know.mp3",
+   "stext": "I don't know.",
+   "sentence": "../packs/int2c_u3/audio/{v}/idontknow.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "proud",
+   "en": "proud",
+   "ko": "자랑스러운",
+   "pic": "../packs/int2c_u5/proud.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/proud.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int2c_u4/music.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/music.mp3"
+  },
+  {
+   "id": "stomachache",
+   "en": "stomachache",
+   "ko": "복통",
+   "pic": "../packs/int2c_u6/stomachache.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/stomachache.mp3"
+  },
+  {
+   "id": "ski",
+   "en": "ski",
+   "ko": "스키를 타다",
+   "pic": "../packs/int2c_u1/ski.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/ski.mp3"
+  },
+  {
+   "id": "goodbye",
+   "en": "goodbye",
+   "ko": "작별 인사",
+   "pic": "../packs/int2c_u8/goodbye.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/goodbye.mp3"
+  },
+  {
+   "id": "hobby",
+   "en": "hobby",
+   "ko": "취미",
+   "pic": "../packs/int2c_u4/hobby.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/hobby.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "phone",
+    "proud",
+    "book",
+    "yours"
+   ],
+   "odd": "proud"
+  },
+  {
+   "items": [
+    "garbage",
+    "those",
+    "music",
+    "book"
+   ],
+   "odd": "music"
+  },
+  {
+   "items": [
+    "stomachache",
+    "those",
+    "phone",
+    "yours"
+   ],
+   "odd": "stomachache"
+  },
+  {
+   "items": [
+    "yours",
+    "money",
+    "ski",
+    "chair"
+   ],
+   "odd": "ski"
+  },
+  {
+   "items": [
+    "goodbye",
+    "book",
+    "yours",
+    "garbage"
+   ],
+   "odd": "goodbye"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "yours",
+   "those",
+   "whose",
+   "candy",
+   "phone",
+   "chair"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "yours",
+   "those",
+   "whose",
+   "candy",
+   "phone",
+   "chair"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "yours",
+   "those",
+   "whose",
+   "candy",
+   "phone",
+   "chair",
+   "garbage"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Whose candy is this?",
+   "audio": "../packs/int2c_u3/audio/{v}/whosecandyisthis.mp3"
+  },
+  {
+   "text": "I don't know.",
+   "audio": "../packs/int2c_u3/audio/{v}/idontknow.mp3"
+  },
+  {
+   "text": "Is this yours?",
+   "audio": "audio/int2c_u3/{v}/isthisyours.mp3"
+  },
+  {
+   "text": "Are those yours?",
+   "audio": "audio/int2c_u3/{v}/arethoseyours.mp3"
+  },
+  {
+   "text": "It is my candy.",
+   "audio": "audio/int2c_u3/{v}/itismycandy.mp3"
+  },
+  {
+   "text": "It is my phone.",
+   "audio": "audio/int2c_u3/{v}/itismyphone.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2c_u3/garbage.jpg",
+   "q": {
+    "text": "Whose is this?",
+    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is garbage.",
+     "audio": "audio/int2c_u3/ai/itisgarbage.mp3"
+    },
+    {
+     "text": "It is my candy.",
+     "audio": "audio/int2c_u3/ai/itismycandy.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u3/yours.jpg",
+   "q": {
+    "text": "Whose is this?",
+    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "Whose candy is this?",
+     "audio": "audio/int2c_u3/ai/whosecandyisthis.mp3"
+    },
+    {
+     "text": "Is this yours?",
+     "audio": "audio/int2c_u3/ai/isthisyours.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2c_u3/book.jpg",
+   "q": {
+    "text": "Whose is this?",
+    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is my book.",
+     "audio": "audio/int2c_u3/ai/itismybook.mp3"
+    },
+    {
+     "text": "Is this yours?",
+     "audio": "audio/int2c_u3/ai/isthisyours.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u3/phone.jpg",
+   "q": {
+    "text": "Whose is this?",
+    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "Are those yours?",
+     "audio": "audio/int2c_u3/ai/arethoseyours.mp3"
+    },
+    {
+     "text": "It is my phone.",
+     "audio": "audio/int2c_u3/ai/itismyphone.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2c_u3/",
+  "ai": "audio/int2c_u3/ai/"
+ }
+}

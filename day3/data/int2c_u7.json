@@ -1,0 +1,519 @@
+{
+ "id": "int2c_u7",
+ "title": "INT 2C · Unit 7 · Phone English 1",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2c_u7/audio/us_f/",
+ "picDir": "../packs/int2c_u7/",
+ "lineAudio": "audio/int2c_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "there",
+   "choices": [
+    "there",
+    "who",
+    "call",
+    "okay"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "hello",
+   "choices": [
+    "hello",
+    "there",
+    "who",
+    "out"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "out",
+   "choices": [
+    "out",
+    "phonenumber",
+    "call",
+    "hello"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "okay",
+   "answer": "okay",
+   "choices": [
+    "okay",
+    "ikay",
+    "oay",
+    "okoy"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "out",
+   "answer": "out",
+   "choices": [
+    "out",
+    "oat",
+    "outi",
+    "outl"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2c_u7/{v}/sorrywrongnumber.mp3",
+   "answer": [
+    "Sorry,",
+    "wrong",
+    "number."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "phonenumber",
+   "audio": "audio/int2c_u7/{v}/whatisyourphonenumber.mp3",
+   "answer": [
+    "What",
+    "is",
+    "your",
+    "phone",
+    "number?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2c_u7/{v}/thisisherfriend.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "her",
+    "___",
+    "."
+   ],
+   "answer": "friend",
+   "choices": [
+    "friend",
+    "okay",
+    "call"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "call",
+   "audio": "audio/int2c_u7/{v}/iwillcallyouback.mp3",
+   "sentence": [
+    "I",
+    "will",
+    "___",
+    "you",
+    "back."
+   ],
+   "answer": "call",
+   "choices": [
+    "call",
+    "okay",
+    "hello"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "there",
+   "audio": "audio/int2c_u7/{v}/isminathere.mp3",
+   "sentence": [
+    "Is",
+    "Mina",
+    "___",
+    "?"
+   ],
+   "answer": "there",
+   "choices": [
+    "there",
+    "who",
+    "friend"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "hello",
+   "en": "hello",
+   "ko": "여보세요",
+   "pic": "../packs/int2c_u7/hello.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/hello.mp3",
+   "stext": "Hello?",
+   "sentence": "../packs/int2c_u7/audio/{v}/hello.mp3"
+  },
+  {
+   "id": "who",
+   "en": "who",
+   "ko": "누구",
+   "pic": "../packs/int2c_u7/who.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/who.mp3",
+   "stext": "Who is this?",
+   "sentence": "../packs/int2c_u7/audio/{v}/whoisthis.mp3"
+  },
+  {
+   "id": "there",
+   "en": "there",
+   "ko": "거기에",
+   "pic": "../packs/int2c_u7/there.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/there.mp3",
+   "stext": "Is Mina there?",
+   "sentence": "audio/int2c_u7/{v}/isminathere.mp3"
+  },
+  {
+   "id": "out",
+   "en": "out",
+   "ko": "외출 중인",
+   "pic": "../packs/int2c_u7/out.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/out.mp3",
+   "stext": "She is out.",
+   "sentence": "audio/int2c_u7/{v}/sheisout.mp3"
+  },
+  {
+   "id": "sorry",
+   "en": "sorry",
+   "ko": "죄송해요",
+   "pic": null,
+   "audio": "../packs/int2c_u7/audio/{v}/sorry.mp3",
+   "stext": "Sorry, wrong number.",
+   "sentence": "audio/int2c_u7/{v}/sorrywrongnumber.mp3"
+  },
+  {
+   "id": "call",
+   "en": "call",
+   "ko": "전화하다",
+   "pic": "../packs/int2c_u7/call.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/call.mp3",
+   "stext": "I will call you back.",
+   "sentence": "audio/int2c_u7/{v}/iwillcallyouback.mp3"
+  },
+  {
+   "id": "friend",
+   "en": "friend",
+   "ko": "친구",
+   "pic": null,
+   "audio": "../packs/int2c_u7/audio/{v}/friend.mp3",
+   "stext": "This is her friend.",
+   "sentence": "audio/int2c_u7/{v}/thisisherfriend.mp3"
+  },
+  {
+   "id": "phonenumber",
+   "en": "phone number",
+   "ko": "전화번호",
+   "pic": "../packs/int2c_u7/phonenumber.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/phonenumber.mp3",
+   "stext": "What is your phone number?",
+   "sentence": "audio/int2c_u7/{v}/whatisyourphonenumber.mp3"
+  },
+  {
+   "id": "okay",
+   "en": "okay",
+   "ko": "알겠어요",
+   "pic": "../packs/int2c_u7/okay.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/okay.mp3",
+   "stext": "Okay, bye.",
+   "sentence": "audio/int2c_u7/{v}/okaybye.mp3"
+  },
+  {
+   "id": "thankyou",
+   "en": "thank you",
+   "ko": "감사합니다",
+   "pic": null,
+   "audio": "../packs/int2c_u7/audio/{v}/thankyou.mp3",
+   "stext": "Thank you.",
+   "sentence": "../packs/int2c_u7/audio/{v}/thankyou.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "ski",
+   "en": "ski",
+   "ko": "스키를 타다",
+   "pic": "../packs/int2c_u1/ski.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/ski.mp3"
+  },
+  {
+   "id": "garbage",
+   "en": "garbage",
+   "ko": "쓰레기",
+   "pic": "../packs/int2c_u3/garbage.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/garbage.mp3"
+  },
+  {
+   "id": "character",
+   "en": "character",
+   "ko": "캐릭터",
+   "pic": "../packs/int2c_u4/character.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/character.mp3"
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "감기",
+   "pic": "../packs/int2c_u6/cold.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/cold.mp3"
+  },
+  {
+   "id": "sleep",
+   "en": "sleep",
+   "ko": "자다",
+   "pic": "../packs/int2c_u2/sleep.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/sleep.mp3"
+  },
+  {
+   "id": "nice",
+   "en": "nice",
+   "ko": "좋은",
+   "pic": "../packs/int2c_u8/nice.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/nice.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "ski",
+    "out",
+    "phonenumber",
+    "there"
+   ],
+   "odd": "ski"
+  },
+  {
+   "items": [
+    "who",
+    "out",
+    "garbage",
+    "phonenumber"
+   ],
+   "odd": "garbage"
+  },
+  {
+   "items": [
+    "hello",
+    "okay",
+    "out",
+    "character"
+   ],
+   "odd": "character"
+  },
+  {
+   "items": [
+    "cold",
+    "call",
+    "phonenumber",
+    "who"
+   ],
+   "odd": "cold"
+  },
+  {
+   "items": [
+    "sleep",
+    "okay",
+    "phonenumber",
+    "there"
+   ],
+   "odd": "sleep"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "hello",
+   "who",
+   "there",
+   "out",
+   "sorry",
+   "call"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "hello",
+   "who",
+   "there",
+   "out",
+   "sorry",
+   "call"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "hello",
+   "who",
+   "there",
+   "out",
+   "sorry",
+   "call",
+   "friend"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Who is this?",
+   "audio": "../packs/int2c_u7/audio/{v}/whoisthis.mp3"
+  },
+  {
+   "text": "This is Mr. Jay.",
+   "audio": "../packs/int2c_u7/audio/{v}/thisismrjay.mp3"
+  },
+  {
+   "text": "Is Mina there?",
+   "audio": "audio/int2c_u7/{v}/isminathere.mp3"
+  },
+  {
+   "text": "She is out.",
+   "audio": "audio/int2c_u7/{v}/sheisout.mp3"
+  },
+  {
+   "text": "Sorry, wrong number.",
+   "audio": "audio/int2c_u7/{v}/sorrywrongnumber.mp3"
+  },
+  {
+   "text": "I will call you back.",
+   "audio": "audio/int2c_u7/{v}/iwillcallyouback.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": null,
+   "q": {
+    "text": "Hello? Who is this?",
+    "audio": "audio/int2c_u7/{v}/hellowhoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my phone.",
+     "audio": "audio/int2c_u7/ai/thisismyphone.mp3"
+    },
+    {
+     "text": "This is Mr. Jay.",
+     "audio": "audio/int2c_u7/ai/thisismrjay.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": null,
+   "q": {
+    "text": "Is Mina there?",
+    "audio": "audio/int2c_u7/{v}/isminathere.mp3"
+   },
+   "choices": [
+    {
+     "text": "Sorry, she is out.",
+     "audio": "audio/int2c_u7/ai/sorrysheisout.mp3"
+    },
+    {
+     "text": "Sorry, it is raining.",
+     "audio": "audio/int2c_u7/ai/sorryitisraining.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": null,
+   "q": {
+    "text": "Can she call me back?",
+    "audio": "audio/int2c_u7/{v}/canshecallmeback.mp3"
+   },
+   "choices": [
+    {
+     "text": "Okay. She will eat lunch.",
+     "audio": "audio/int2c_u7/ai/okayshewilleatlunch.mp3"
+    },
+    {
+     "text": "Okay. She will call you back.",
+     "audio": "audio/int2c_u7/ai/okayshewillcallyouback.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": null,
+   "q": {
+    "text": "What is your phone number?",
+    "audio": "audio/int2c_u7/{v}/whatisyourphonenumber.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is ten years old.",
+     "audio": "audio/int2c_u7/ai/itistenyearsold.mp3"
+    },
+    {
+     "text": "It is 010-1234-5678.",
+     "audio": "audio/int2c_u7/ai/itis01012345678.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2c_u7/",
+  "ai": "audio/int2c_u7/ai/"
+ }
+}

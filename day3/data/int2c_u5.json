@@ -1,0 +1,520 @@
+{
+ "id": "int2c_u5",
+ "title": "INT 2C · Unit 5 · How Are You Feeling?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2c_u5/audio/us_f/",
+ "picDir": "../packs/int2c_u5/",
+ "lineAudio": "audio/int2c_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fantastic",
+   "choices": [
+    "fantastic",
+    "confused",
+    "ignored",
+    "embarrassed"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "embarrassed",
+   "choices": [
+    "embarrassed",
+    "nervous",
+    "proud",
+    "guilty"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "confused",
+   "choices": [
+    "confused",
+    "proud",
+    "worried",
+    "embarrassed"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "guilty",
+   "answer": "guilty",
+   "choices": [
+    "guilty",
+    "guikty",
+    "guily",
+    "guiltk"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "ignored",
+   "answer": "ignored",
+   "choices": [
+    "ignored",
+    "ignoed",
+    "ignorud",
+    "ignared"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "nervous",
+   "audio": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3",
+   "answer": [
+    "I",
+    "am",
+    "feeling",
+    "nervous."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "worried",
+   "audio": "audio/int2c_u5/{v}/iamfeelingworried.mp3",
+   "answer": [
+    "I",
+    "am",
+    "feeling",
+    "worried."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "ignored",
+   "audio": "audio/int2c_u5/{v}/iamfeelingignored.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "feeling",
+    "___",
+    "."
+   ],
+   "answer": "ignored",
+   "choices": [
+    "ignored",
+    "worried",
+    "jealous"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "worried",
+   "audio": "audio/int2c_u5/{v}/iamfeelingworried.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "feeling",
+    "___",
+    "."
+   ],
+   "answer": "worried",
+   "choices": [
+    "worried",
+    "nervous",
+    "confused"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nervous",
+   "audio": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "feeling",
+    "___",
+    "."
+   ],
+   "answer": "nervous",
+   "choices": [
+    "nervous",
+    "jealous",
+    "surprised"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "confused",
+   "en": "confused",
+   "ko": "혼란스러운",
+   "pic": "../packs/int2c_u5/confused.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/confused.mp3",
+   "stext": "I am feeling confused.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingconfused.mp3"
+  },
+  {
+   "id": "embarrassed",
+   "en": "embarrassed",
+   "ko": "창피한, 쑥스러운",
+   "pic": "../packs/int2c_u5/embarrassed.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/embarrassed.mp3",
+   "stext": "I am feeling embarrassed.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingembarrassed.mp3"
+  },
+  {
+   "id": "jealous",
+   "en": "jealous",
+   "ko": "질투하는",
+   "pic": "../packs/int2c_u5/jealous.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/jealous.mp3",
+   "stext": "I am feeling jealous.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingjealous.mp3"
+  },
+  {
+   "id": "surprised",
+   "en": "surprised",
+   "ko": "놀란",
+   "pic": "../packs/int2c_u5/surprised.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/surprised.mp3",
+   "stext": "I am feeling surprised.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingsurprised.mp3"
+  },
+  {
+   "id": "proud",
+   "en": "proud",
+   "ko": "자랑스러운",
+   "pic": "../packs/int2c_u5/proud.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/proud.mp3",
+   "stext": "I am feeling proud.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingproud.mp3"
+  },
+  {
+   "id": "ignored",
+   "en": "ignored",
+   "ko": "무시당한",
+   "pic": "../packs/int2c_u5/ignored.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/ignored.mp3",
+   "stext": "I am feeling ignored.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingignored.mp3"
+  },
+  {
+   "id": "fantastic",
+   "en": "fantastic",
+   "ko": "환상적인",
+   "pic": "../packs/int2c_u5/fantastic.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/fantastic.mp3",
+   "stext": "I am feeling fantastic.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingfantastic.mp3"
+  },
+  {
+   "id": "guilty",
+   "en": "guilty",
+   "ko": "죄책감이 드는",
+   "pic": "../packs/int2c_u5/guilty.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/guilty.mp3",
+   "stext": "I am feeling guilty.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingguilty.mp3"
+  },
+  {
+   "id": "nervous",
+   "en": "nervous",
+   "ko": "긴장한",
+   "pic": "../packs/int2c_u5/nervous.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/nervous.mp3",
+   "stext": "I am feeling nervous.",
+   "sentence": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3"
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정하는",
+   "pic": "../packs/int2c_u5/worried.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/worried.mp3",
+   "stext": "I am feeling worried.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingworried.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "island",
+   "en": "island",
+   "ko": "섬",
+   "pic": "../packs/int2c_u1/island.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/island.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int2c_u3/phone.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/phone.mp3"
+  },
+  {
+   "id": "tooth",
+   "en": "tooth",
+   "ko": "치아",
+   "pic": "../packs/int2c_u6/tooth.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/tooth.mp3"
+  },
+  {
+   "id": "long",
+   "en": "long",
+   "ko": "오래, 긴",
+   "pic": "../packs/int2c_u8/long.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/long.mp3"
+  },
+  {
+   "id": "hello",
+   "en": "hello",
+   "ko": "여보세요",
+   "pic": "../packs/int2c_u7/hello.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/hello.mp3"
+  },
+  {
+   "id": "goodbye",
+   "en": "goodbye",
+   "ko": "작별 인사",
+   "pic": "../packs/int2c_u8/goodbye.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/goodbye.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "proud",
+    "island",
+    "ignored",
+    "surprised"
+   ],
+   "odd": "island"
+  },
+  {
+   "items": [
+    "fantastic",
+    "phone",
+    "proud",
+    "jealous"
+   ],
+   "odd": "phone"
+  },
+  {
+   "items": [
+    "jealous",
+    "tooth",
+    "worried",
+    "surprised"
+   ],
+   "odd": "tooth"
+  },
+  {
+   "items": [
+    "long",
+    "worried",
+    "guilty",
+    "nervous"
+   ],
+   "odd": "long"
+  },
+  {
+   "items": [
+    "fantastic",
+    "confused",
+    "proud",
+    "hello"
+   ],
+   "odd": "hello"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "confused",
+   "jealous",
+   "proud",
+   "ignored",
+   "guilty",
+   "nervous"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "confused",
+   "embarrassed",
+   "jealous",
+   "surprised",
+   "proud",
+   "ignored"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "confused",
+   "embarrassed",
+   "jealous",
+   "surprised",
+   "proud",
+   "ignored",
+   "fantastic"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "How are you feeling?",
+   "audio": "../packs/int2c_u5/audio/{v}/howareyoufeeling.mp3"
+  },
+  {
+   "text": "I am feeling nervous.",
+   "audio": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3"
+  },
+  {
+   "text": "I am feeling confused.",
+   "audio": "audio/int2c_u5/{v}/iamfeelingconfused.mp3"
+  },
+  {
+   "text": "I am feeling embarrassed.",
+   "audio": "audio/int2c_u5/{v}/iamfeelingembarrassed.mp3"
+  },
+  {
+   "text": "I am feeling jealous.",
+   "audio": "audio/int2c_u5/{v}/iamfeelingjealous.mp3"
+  },
+  {
+   "text": "I am feeling surprised.",
+   "audio": "audio/int2c_u5/{v}/iamfeelingsurprised.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2c_u5/confused.jpg",
+   "q": {
+    "text": "How are you feeling?",
+    "audio": "../packs/int2c_u5/audio/{v}/howareyoufeeling.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am feeling proud.",
+     "audio": "audio/int2c_u5/ai/iamfeelingproud.mp3"
+    },
+    {
+     "text": "I am feeling confused.",
+     "audio": "audio/int2c_u5/ai/iamfeelingconfused.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2c_u5/guilty.jpg",
+   "q": {
+    "text": "How are you feeling?",
+    "audio": "../packs/int2c_u5/audio/{v}/howareyoufeeling.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am feeling guilty.",
+     "audio": "audio/int2c_u5/ai/iamfeelingguilty.mp3"
+    },
+    {
+     "text": "I am feeling fantastic.",
+     "audio": "audio/int2c_u5/ai/iamfeelingfantastic.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u5/jealous.jpg",
+   "q": {
+    "text": "How are you feeling?",
+    "audio": "../packs/int2c_u5/audio/{v}/howareyoufeeling.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am feeling jealous.",
+     "audio": "audio/int2c_u5/ai/iamfeelingjealous.mp3"
+    },
+    {
+     "text": "I am feeling confused.",
+     "audio": "audio/int2c_u5/ai/iamfeelingconfused.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2c_u5/embarrassed.jpg",
+   "q": {
+    "text": "How are you feeling?",
+    "audio": "../packs/int2c_u5/audio/{v}/howareyoufeeling.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am feeling embarrassed.",
+     "audio": "audio/int2c_u5/ai/iamfeelingembarrassed.mp3"
+    },
+    {
+     "text": "I am feeling nervous.",
+     "audio": "audio/int2c_u5/ai/iamfeelingnervous.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2c_u5/",
+  "ai": "audio/int2c_u5/ai/"
+ }
+}
