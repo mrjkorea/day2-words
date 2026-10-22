@@ -1,0 +1,478 @@
+{
+ "id": "int2b_u8",
+ "title": "INT 2B · Unit 8 · This is Mine!",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2b_u8/audio/us_f/",
+ "picDir": "../packs/int2b_u8/",
+ "lineAudio": "audio/int2b_u8/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "theirs",
+   "choices": [
+    "theirs",
+    "yours",
+    "his",
+    "ours"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "hers",
+   "choices": [
+    "hers",
+    "ours",
+    "mine",
+    "his"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "yours",
+   "choices": [
+    "yours",
+    "mine",
+    "hers",
+    "his"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "yours",
+   "answer": "yours",
+   "choices": [
+    "yours",
+    "yors",
+    "ours",
+    "yoirs"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hers",
+   "answer": "hers",
+   "choices": [
+    "hers",
+    "hrs",
+    "rers",
+    "heps"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "hers",
+   "audio": "audio/int2b_u8/{v}/itishers.mp3",
+   "answer": [
+    "It",
+    "is",
+    "hers."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "ours",
+   "audio": "audio/int2b_u8/{v}/itisours.mp3",
+   "answer": [
+    "It",
+    "is",
+    "ours."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "yours",
+   "audio": "audio/int2b_u8/{v}/itisyours.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "yours",
+   "choices": [
+    "yours",
+    "hers",
+    "his"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "theirs",
+   "audio": "audio/int2b_u8/{v}/itistheirs.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "theirs",
+   "choices": [
+    "theirs",
+    "ours",
+    "hers"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "his",
+   "audio": "audio/int2b_u8/{v}/itishis.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "his",
+   "choices": [
+    "his",
+    "theirs",
+    "mine"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "mine",
+   "en": "mine",
+   "ko": "내 것",
+   "pic": "../packs/int2b_u8/mine.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/mine.mp3",
+   "stext": "It is mine.",
+   "sentence": "audio/int2b_u8/{v}/itismine.mp3"
+  },
+  {
+   "id": "yours",
+   "en": "yours",
+   "ko": "네 것",
+   "pic": "../packs/int2b_u8/yours.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/yours.mp3",
+   "stext": "It is yours.",
+   "sentence": "audio/int2b_u8/{v}/itisyours.mp3"
+  },
+  {
+   "id": "ours",
+   "en": "ours",
+   "ko": "우리 것",
+   "pic": "../packs/int2b_u8/ours.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/ours.mp3",
+   "stext": "It is ours.",
+   "sentence": "audio/int2b_u8/{v}/itisours.mp3"
+  },
+  {
+   "id": "hers",
+   "en": "hers",
+   "ko": "그녀의 것",
+   "pic": "../packs/int2b_u8/hers.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/hers.mp3",
+   "stext": "It is hers.",
+   "sentence": "audio/int2b_u8/{v}/itishers.mp3"
+  },
+  {
+   "id": "his",
+   "en": "his",
+   "ko": "그의 것",
+   "pic": "../packs/int2b_u8/his.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/his.mp3",
+   "stext": "It is his.",
+   "sentence": "audio/int2b_u8/{v}/itishis.mp3"
+  },
+  {
+   "id": "theirs",
+   "en": "theirs",
+   "ko": "그들의 것",
+   "pic": "../packs/int2b_u8/theirs.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/theirs.mp3",
+   "stext": "It is theirs.",
+   "sentence": "audio/int2b_u8/{v}/itistheirs.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "snack",
+   "en": "snack",
+   "ko": "간식",
+   "pic": "../packs/int2b_u2/snack.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/snack.mp3"
+  },
+  {
+   "id": "outside",
+   "en": "outside",
+   "ko": "~ 밖에",
+   "pic": "../packs/int2b_u7/outside.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/outside.mp3"
+  },
+  {
+   "id": "fat",
+   "en": "fat",
+   "ko": "뚱뚱한",
+   "pic": "../packs/int2b_u5/fat.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/fat.mp3"
+  },
+  {
+   "id": "across",
+   "en": "across",
+   "ko": "~ 건너편에",
+   "pic": "../packs/int2b_u7/across.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/across.mp3"
+  },
+  {
+   "id": "actor",
+   "en": "actor",
+   "ko": "배우",
+   "pic": "../packs/int2b_u3/actor.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/actor.mp3"
+  },
+  {
+   "id": "between",
+   "en": "between",
+   "ko": "~ 사이에",
+   "pic": "../packs/int2b_u7/between.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/between.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "snack",
+    "theirs",
+    "ours",
+    "mine"
+   ],
+   "odd": "snack"
+  },
+  {
+   "items": [
+    "outside",
+    "his",
+    "mine",
+    "theirs"
+   ],
+   "odd": "outside"
+  },
+  {
+   "items": [
+    "his",
+    "hers",
+    "fat",
+    "theirs"
+   ],
+   "odd": "fat"
+  },
+  {
+   "items": [
+    "theirs",
+    "across",
+    "hers",
+    "ours"
+   ],
+   "odd": "across"
+  },
+  {
+   "items": [
+    "hers",
+    "yours",
+    "his",
+    "actor"
+   ],
+   "odd": "actor"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "mine",
+   "yours",
+   "ours",
+   "hers",
+   "his",
+   "theirs"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "mine",
+   "yours",
+   "ours",
+   "hers",
+   "his",
+   "theirs"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "mine",
+   "yours",
+   "ours",
+   "hers",
+   "his",
+   "theirs"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "It is not yours. It is mine.",
+   "audio": "../packs/int2b_u8/audio/{v}/itisnotyoursitismine.mp3"
+  },
+  {
+   "text": "It is mine.",
+   "audio": "audio/int2b_u8/{v}/itismine.mp3"
+  },
+  {
+   "text": "It is yours.",
+   "audio": "audio/int2b_u8/{v}/itisyours.mp3"
+  },
+  {
+   "text": "It is ours.",
+   "audio": "audio/int2b_u8/{v}/itisours.mp3"
+  },
+  {
+   "text": "It is hers.",
+   "audio": "audio/int2b_u8/{v}/itishers.mp3"
+  },
+  {
+   "text": "It is his.",
+   "audio": "audio/int2b_u8/{v}/itishis.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2b_u8/yours.jpg",
+   "q": {
+    "text": "Whose is it?",
+    "audio": "audio/int2b_u8/{v}/whoseisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is ours.",
+     "audio": "audio/int2b_u8/ai/itisours.mp3"
+    },
+    {
+     "text": "It is yours.",
+     "audio": "audio/int2b_u8/ai/itisyours.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u8/mine.jpg",
+   "q": {
+    "text": "Whose is it?",
+    "audio": "audio/int2b_u8/{v}/whoseisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is yours.",
+     "audio": "audio/int2b_u8/ai/itisyours.mp3"
+    },
+    {
+     "text": "It is mine.",
+     "audio": "audio/int2b_u8/ai/itismine.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u8/his.jpg",
+   "q": {
+    "text": "Whose is it?",
+    "audio": "audio/int2b_u8/{v}/whoseisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is yours.",
+     "audio": "audio/int2b_u8/ai/itisyours.mp3"
+    },
+    {
+     "text": "It is his.",
+     "audio": "audio/int2b_u8/ai/itishis.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u8/theirs.jpg",
+   "q": {
+    "text": "Whose is it?",
+    "audio": "audio/int2b_u8/{v}/whoseisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is theirs.",
+     "audio": "audio/int2b_u8/ai/itistheirs.mp3"
+    },
+    {
+     "text": "It is hers.",
+     "audio": "audio/int2b_u8/ai/itishers.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2b_u8/",
+  "ai": "audio/int2b_u8/ai/"
+ }
+}

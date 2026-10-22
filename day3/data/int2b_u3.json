@@ -1,0 +1,528 @@
+{
+ "id": "int2b_u3",
+ "title": "INT 2B · Unit 3 · What Do You Want to be in the Future?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2b_u3/audio/us_f/",
+ "picDir": "../packs/int2b_u3/",
+ "lineAudio": "audio/int2b_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "judge",
+   "choices": [
+    "judge",
+    "president",
+    "actor",
+    "scientist"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "progamer",
+   "choices": [
+    "progamer",
+    "actor",
+    "judge",
+    "policeofficer"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "scientist",
+   "choices": [
+    "scientist",
+    "doctor",
+    "foodcritic",
+    "policeofficer"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "doctor",
+   "answer": "doctor",
+   "choices": [
+    "doctor",
+    "doctir",
+    "docter",
+    "docnor"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "judge",
+   "answer": "judge",
+   "choices": [
+    "judge",
+    "jdge",
+    "jadge",
+    "pudge"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "scientist",
+   "audio": "audio/int2b_u3/{v}/iwanttobeascientist.mp3",
+   "answer": [
+    "I",
+    "want",
+    "to",
+    "be",
+    "a",
+    "scientist."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "actor",
+   "audio": "audio/int2b_u3/{v}/iwanttobeanactor.mp3",
+   "answer": [
+    "I",
+    "want",
+    "to",
+    "be",
+    "an",
+    "actor."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "judge",
+   "audio": "audio/int2b_u3/{v}/iwanttobeajudge.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "to",
+    "be",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "judge",
+   "choices": [
+    "judge",
+    "president",
+    "doctor"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "progamer",
+   "audio": "audio/int2b_u3/{v}/iwanttobeaprogamer.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "to",
+    "be",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "pro-gamer",
+   "choices": [
+    "pro-gamer",
+    "president",
+    "scientist"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2b_u3/{v}/icanbeanythinginthefuture.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "be",
+    "anything",
+    "in",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "future",
+   "choices": [
+    "future",
+    "scientist",
+    "judge"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "future",
+   "en": "future",
+   "ko": "미래",
+   "pic": null,
+   "audio": "../packs/int2b_u3/audio/{v}/future.mp3",
+   "stext": "I can be anything in the future.",
+   "sentence": "audio/int2b_u3/{v}/icanbeanythinginthefuture.mp3"
+  },
+  {
+   "id": "progamer",
+   "en": "pro-gamer",
+   "ko": "프로게이머",
+   "pic": "../packs/int2b_u3/progamer.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/progamer.mp3",
+   "stext": "I want to be a pro-gamer.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeaprogamer.mp3"
+  },
+  {
+   "id": "actor",
+   "en": "actor",
+   "ko": "배우",
+   "pic": "../packs/int2b_u3/actor.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/actor.mp3",
+   "stext": "I want to be an actor.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeanactor.mp3"
+  },
+  {
+   "id": "foodcritic",
+   "en": "food critic",
+   "ko": "음식 평론가",
+   "pic": "../packs/int2b_u3/foodcritic.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/foodcritic.mp3",
+   "stext": "I want to be a food critic.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeafoodcritic.mp3"
+  },
+  {
+   "id": "englishteacher",
+   "en": "English teacher",
+   "ko": "영어 선생님",
+   "pic": "../packs/int2b_u3/englishteacher.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/englishteacher.mp3",
+   "stext": "I want to be an English teacher.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeanenglishteacher.mp3"
+  },
+  {
+   "id": "policeofficer",
+   "en": "police officer",
+   "ko": "경찰관",
+   "pic": "../packs/int2b_u3/policeofficer.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/policeofficer.mp3",
+   "stext": "I want to be a police officer.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeapoliceofficer.mp3"
+  },
+  {
+   "id": "scientist",
+   "en": "scientist",
+   "ko": "과학자",
+   "pic": "../packs/int2b_u3/scientist.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/scientist.mp3",
+   "stext": "I want to be a scientist.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeascientist.mp3"
+  },
+  {
+   "id": "doctor",
+   "en": "doctor",
+   "ko": "의사",
+   "pic": "../packs/int2b_u3/doctor.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/doctor.mp3",
+   "stext": "I want to be a doctor.",
+   "sentence": "../packs/int2b_u3/audio/{v}/iwanttobeadoctor.mp3"
+  },
+  {
+   "id": "judge",
+   "en": "judge",
+   "ko": "판사",
+   "pic": "../packs/int2b_u3/judge.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/judge.mp3",
+   "stext": "I want to be a judge.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeajudge.mp3"
+  },
+  {
+   "id": "president",
+   "en": "president",
+   "ko": "대통령",
+   "pic": "../packs/int2b_u3/president.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/president.mp3",
+   "stext": "I want to be a president.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeapresident.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "ours",
+   "en": "ours",
+   "ko": "우리 것",
+   "pic": "../packs/int2b_u8/ours.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/ours.mp3"
+  },
+  {
+   "id": "stairs",
+   "en": "stairs",
+   "ko": "계단",
+   "pic": "../packs/int2b_u7/stairs.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/stairs.mp3"
+  },
+  {
+   "id": "smart",
+   "en": "smart",
+   "ko": "똑똑한",
+   "pic": "../packs/int2b_u5/smart.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/smart.mp3"
+  },
+  {
+   "id": "buy",
+   "en": "buy",
+   "ko": "사다",
+   "pic": "../packs/int2b_u4/buy.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/buy.mp3"
+  },
+  {
+   "id": "between",
+   "en": "between",
+   "ko": "~ 사이에",
+   "pic": "../packs/int2b_u7/between.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/between.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int2b_u6/music.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/music.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "ours",
+    "progamer",
+    "policeofficer",
+    "doctor"
+   ],
+   "odd": "ours"
+  },
+  {
+   "items": [
+    "scientist",
+    "englishteacher",
+    "policeofficer",
+    "stairs"
+   ],
+   "odd": "stairs"
+  },
+  {
+   "items": [
+    "actor",
+    "smart",
+    "judge",
+    "englishteacher"
+   ],
+   "odd": "smart"
+  },
+  {
+   "items": [
+    "actor",
+    "scientist",
+    "buy",
+    "judge"
+   ],
+   "odd": "buy"
+  },
+  {
+   "items": [
+    "englishteacher",
+    "policeofficer",
+    "president",
+    "between"
+   ],
+   "odd": "between"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "future",
+   "actor",
+   "doctor",
+   "judge"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "future",
+   "actor",
+   "scientist",
+   "doctor",
+   "judge",
+   "president"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "future",
+   "actor",
+   "scientist",
+   "doctor",
+   "judge",
+   "president"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I want to be a doctor.",
+   "audio": "../packs/int2b_u3/audio/{v}/iwanttobeadoctor.mp3"
+  },
+  {
+   "text": "I can be anything in the future.",
+   "audio": "audio/int2b_u3/{v}/icanbeanythinginthefuture.mp3"
+  },
+  {
+   "text": "I want to be a pro-gamer.",
+   "audio": "audio/int2b_u3/{v}/iwanttobeaprogamer.mp3"
+  },
+  {
+   "text": "I want to be an actor.",
+   "audio": "audio/int2b_u3/{v}/iwanttobeanactor.mp3"
+  },
+  {
+   "text": "I want to be a food critic.",
+   "audio": "audio/int2b_u3/{v}/iwanttobeafoodcritic.mp3"
+  },
+  {
+   "text": "I want to be an English teacher.",
+   "audio": "audio/int2b_u3/{v}/iwanttobeanenglishteacher.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2b_u3/foodcritic.jpg",
+   "q": {
+    "text": "What do you want to be in the future?",
+    "audio": "../packs/int2b_u3/audio/{v}/whatdoyouwanttobeinthefuture.mp3"
+   },
+   "choices": [
+    {
+     "text": "I want to be a scientist.",
+     "audio": "audio/int2b_u3/ai/iwanttobeascientist.mp3"
+    },
+    {
+     "text": "I want to be a food critic.",
+     "audio": "audio/int2b_u3/ai/iwanttobeafoodcritic.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u3/doctor.jpg",
+   "q": {
+    "text": "What do you want to be in the future?",
+    "audio": "../packs/int2b_u3/audio/{v}/whatdoyouwanttobeinthefuture.mp3"
+   },
+   "choices": [
+    {
+     "text": "I want to be a food critic.",
+     "audio": "audio/int2b_u3/ai/iwanttobeafoodcritic.mp3"
+    },
+    {
+     "text": "I want to be a doctor.",
+     "audio": "audio/int2b_u3/ai/iwanttobeadoctor.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u3/progamer.jpg",
+   "q": {
+    "text": "What do you want to be in the future?",
+    "audio": "../packs/int2b_u3/audio/{v}/whatdoyouwanttobeinthefuture.mp3"
+   },
+   "choices": [
+    {
+     "text": "I want to be a pro-gamer.",
+     "audio": "audio/int2b_u3/ai/iwanttobeaprogamer.mp3"
+    },
+    {
+     "text": "I want to be an English teacher.",
+     "audio": "audio/int2b_u3/ai/iwanttobeanenglishteacher.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2b_u3/president.jpg",
+   "q": {
+    "text": "What do you want to be in the future?",
+    "audio": "../packs/int2b_u3/audio/{v}/whatdoyouwanttobeinthefuture.mp3"
+   },
+   "choices": [
+    {
+     "text": "I want to be a president.",
+     "audio": "audio/int2b_u3/ai/iwanttobeapresident.mp3"
+    },
+    {
+     "text": "I want to be a doctor.",
+     "audio": "audio/int2b_u3/ai/iwanttobeadoctor.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2b_u3/",
+  "ai": "audio/int2b_u3/ai/"
+ }
+}

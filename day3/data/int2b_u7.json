@@ -1,0 +1,521 @@
+{
+ "id": "int2b_u7",
+ "title": "INT 2B · Unit 7 · Have You Seen My Transit Card?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2b_u7/audio/us_f/",
+ "picDir": "../packs/int2b_u7/",
+ "lineAudio": "audio/int2b_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "outside",
+   "choices": [
+    "outside",
+    "across",
+    "nextto",
+    "transitcard"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "transitcard",
+   "choices": [
+    "transitcard",
+    "infrontof",
+    "between",
+    "pencilcase"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "between",
+   "choices": [
+    "between",
+    "infrontof",
+    "transitcard",
+    "pencilcase"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "across",
+   "answer": "across",
+   "choices": [
+    "across",
+    "ocross",
+    "cross",
+    "akross"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "between",
+   "answer": "between",
+   "choices": [
+    "between",
+    "beteen",
+    "besween",
+    "btween"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "pencilcase",
+   "audio": "audio/int2b_u7/{v}/itisinmypencilcase.mp3",
+   "answer": [
+    "It",
+    "is",
+    "in",
+    "my",
+    "pencil",
+    "case."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "outside",
+   "audio": "audio/int2b_u7/{v}/itisoutside.mp3",
+   "answer": [
+    "It",
+    "is",
+    "outside."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "behind",
+   "audio": "audio/int2b_u7/{v}/itisbehindthedesk.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "the",
+    "desk."
+   ],
+   "answer": "behind",
+   "choices": [
+    "behind",
+    "outside",
+    "under"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "under",
+   "audio": "audio/int2b_u7/{v}/itisunderthedesk.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "the",
+    "desk."
+   ],
+   "answer": "under",
+   "choices": [
+    "under",
+    "outside",
+    "across"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "pocket",
+   "audio": "audio/int2b_u7/{v}/itisinmypocket.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "in",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "pocket",
+   "choices": [
+    "pocket",
+    "outside",
+    "between"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "transitcard",
+   "en": "transit card",
+   "ko": "교통카드",
+   "pic": "../packs/int2b_u7/transitcard.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/transitcard.mp3",
+   "stext": "I have my transit card.",
+   "sentence": "audio/int2b_u7/{v}/ihavemytransitcard.mp3"
+  },
+  {
+   "id": "pencilcase",
+   "en": "pencil case",
+   "ko": "필통",
+   "pic": "../packs/int2b_u7/pencilcase.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/pencilcase.mp3",
+   "stext": "It is in my pencil case.",
+   "sentence": "audio/int2b_u7/{v}/itisinmypencilcase.mp3"
+  },
+  {
+   "id": "under",
+   "en": "under",
+   "ko": "~ 아래에",
+   "pic": "../packs/int2b_u7/under.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/under.mp3",
+   "stext": "It is under the desk.",
+   "sentence": "audio/int2b_u7/{v}/itisunderthedesk.mp3"
+  },
+  {
+   "id": "behind",
+   "en": "behind",
+   "ko": "~ 뒤에",
+   "pic": "../packs/int2b_u7/behind.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/behind.mp3",
+   "stext": "It is behind the desk.",
+   "sentence": "audio/int2b_u7/{v}/itisbehindthedesk.mp3"
+  },
+  {
+   "id": "infrontof",
+   "en": "in front of",
+   "ko": "~ 앞에",
+   "pic": "../packs/int2b_u7/infrontof.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/infrontof.mp3",
+   "stext": "It is in front of the desk.",
+   "sentence": "audio/int2b_u7/{v}/itisinfrontofthedesk.mp3"
+  },
+  {
+   "id": "between",
+   "en": "between",
+   "ko": "~ 사이에",
+   "pic": "../packs/int2b_u7/between.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/between.mp3",
+   "stext": "It is between the books.",
+   "sentence": "audio/int2b_u7/{v}/itisbetweenthebooks.mp3"
+  },
+  {
+   "id": "nextto",
+   "en": "next to",
+   "ko": "~ 옆에",
+   "pic": "../packs/int2b_u7/nextto.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/nextto.mp3",
+   "stext": "It is next to the bag.",
+   "sentence": "audio/int2b_u7/{v}/itisnexttothebag.mp3"
+  },
+  {
+   "id": "pocket",
+   "en": "pocket",
+   "ko": "주머니",
+   "pic": "../packs/int2b_u7/pocket.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/pocket.mp3",
+   "stext": "It is in my pocket.",
+   "sentence": "audio/int2b_u7/{v}/itisinmypocket.mp3"
+  },
+  {
+   "id": "across",
+   "en": "across",
+   "ko": "~ 건너편에",
+   "pic": "../packs/int2b_u7/across.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/across.mp3",
+   "stext": "It is across the street.",
+   "sentence": "audio/int2b_u7/{v}/itisacrossthestreet.mp3"
+  },
+  {
+   "id": "outside",
+   "en": "outside",
+   "ko": "~ 밖에",
+   "pic": "../packs/int2b_u7/outside.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/outside.mp3",
+   "stext": "It is outside.",
+   "sentence": "audio/int2b_u7/{v}/itisoutside.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "gym",
+   "en": "gym",
+   "ko": "체육",
+   "pic": "../packs/int2b_u6/gym.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/gym.mp3"
+  },
+  {
+   "id": "hers",
+   "en": "hers",
+   "ko": "그녀의 것",
+   "pic": "../packs/int2b_u8/hers.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/hers.mp3"
+  },
+  {
+   "id": "won",
+   "en": "won",
+   "ko": "원 (돈)",
+   "pic": "../packs/int2b_u4/won.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/won.mp3"
+  },
+  {
+   "id": "science",
+   "en": "science",
+   "ko": "과학",
+   "pic": "../packs/int2b_u6/science.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/science.mp3"
+  },
+  {
+   "id": "short",
+   "en": "short",
+   "ko": "키가 작은",
+   "pic": "../packs/int2b_u5/short.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/short.mp3"
+  },
+  {
+   "id": "old",
+   "en": "old",
+   "ko": "나이 든",
+   "pic": "../packs/int2b_u5/old.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/old.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "pencilcase",
+    "gym",
+    "nextto",
+    "outside"
+   ],
+   "odd": "gym"
+  },
+  {
+   "items": [
+    "nextto",
+    "hers",
+    "pocket",
+    "outside"
+   ],
+   "odd": "hers"
+  },
+  {
+   "items": [
+    "behind",
+    "won",
+    "between",
+    "under"
+   ],
+   "odd": "won"
+  },
+  {
+   "items": [
+    "science",
+    "pocket",
+    "transitcard",
+    "behind"
+   ],
+   "odd": "science"
+  },
+  {
+   "items": [
+    "outside",
+    "nextto",
+    "pencilcase",
+    "short"
+   ],
+   "odd": "short"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "under",
+   "behind",
+   "between",
+   "pocket",
+   "across",
+   "outside"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "under",
+   "behind",
+   "between",
+   "pocket",
+   "across",
+   "outside"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "under",
+   "behind",
+   "between",
+   "pocket",
+   "across",
+   "outside"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Is it under the desk?",
+   "audio": "../packs/int2b_u7/audio/{v}/isitunderthedesk.mp3"
+  },
+  {
+   "text": "I have my transit card.",
+   "audio": "audio/int2b_u7/{v}/ihavemytransitcard.mp3"
+  },
+  {
+   "text": "It is in my pencil case.",
+   "audio": "audio/int2b_u7/{v}/itisinmypencilcase.mp3"
+  },
+  {
+   "text": "It is under the desk.",
+   "audio": "audio/int2b_u7/{v}/itisunderthedesk.mp3"
+  },
+  {
+   "text": "It is behind the desk.",
+   "audio": "audio/int2b_u7/{v}/itisbehindthedesk.mp3"
+  },
+  {
+   "text": "It is in front of the desk.",
+   "audio": "audio/int2b_u7/{v}/itisinfrontofthedesk.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2b_u7/transitcard.jpg",
+   "q": {
+    "text": "Where is it?",
+    "audio": "audio/int2b_u7/{v}/whereisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is in front of the desk.",
+     "audio": "audio/int2b_u7/ai/itisinfrontofthedesk.mp3"
+    },
+    {
+     "text": "I have my transit card.",
+     "audio": "audio/int2b_u7/ai/ihavemytransitcard.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u7/pencilcase.jpg",
+   "q": {
+    "text": "Where is it?",
+    "audio": "audio/int2b_u7/{v}/whereisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is in my pocket.",
+     "audio": "audio/int2b_u7/ai/itisinmypocket.mp3"
+    },
+    {
+     "text": "It is in my pencil case.",
+     "audio": "audio/int2b_u7/ai/itisinmypencilcase.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u7/between.jpg",
+   "q": {
+    "text": "Where is it?",
+    "audio": "audio/int2b_u7/{v}/whereisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is between the books.",
+     "audio": "audio/int2b_u7/ai/itisbetweenthebooks.mp3"
+    },
+    {
+     "text": "It is in front of the desk.",
+     "audio": "audio/int2b_u7/ai/itisinfrontofthedesk.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2b_u7/under.jpg",
+   "q": {
+    "text": "Where is it?",
+    "audio": "audio/int2b_u7/{v}/whereisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is under the desk.",
+     "audio": "audio/int2b_u7/ai/itisunderthedesk.mp3"
+    },
+    {
+     "text": "It is in my pocket.",
+     "audio": "audio/int2b_u7/ai/itisinmypocket.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2b_u7/",
+  "ai": "audio/int2b_u7/ai/"
+ }
+}

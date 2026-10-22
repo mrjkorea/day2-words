@@ -1,0 +1,515 @@
+{
+ "id": "int2b_u1",
+ "title": "INT 2B · Unit 1 · Hello, This is Pizza Land",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2b_u1/audio/us_f/",
+ "picDir": "../packs/int2b_u1/",
+ "lineAudio": "audio/int2b_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "holiday",
+   "choices": [
+    "holiday",
+    "saturday",
+    "friday",
+    "workday"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "thursday",
+   "choices": [
+    "thursday",
+    "holiday",
+    "friday",
+    "monday"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "wednesday",
+   "choices": [
+    "wednesday",
+    "tuesday",
+    "schoolday",
+    "thursday"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "monday",
+   "answer": "Monday",
+   "choices": [
+    "Monday",
+    "Monay",
+    "monday",
+    "Moncay"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "holiday",
+   "answer": "holiday",
+   "choices": [
+    "holiday",
+    "holibay",
+    "holidy",
+    "hociday"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "friday",
+   "audio": "audio/int2b_u1/{v}/itisfriday.mp3",
+   "answer": [
+    "It",
+    "is",
+    "Friday."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "thursday",
+   "audio": "audio/int2b_u1/{v}/itisthursday.mp3",
+   "answer": [
+    "It",
+    "is",
+    "Thursday."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "tuesday",
+   "audio": "audio/int2b_u1/{v}/itistuesday.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "Tuesday",
+   "choices": [
+    "Tuesday",
+    "Monday",
+    "Saturday"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "sunday",
+   "audio": "audio/int2b_u1/{v}/itissunday.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "Sunday",
+   "choices": [
+    "Sunday",
+    "Monday",
+    "Holiday"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "saturday",
+   "audio": "audio/int2b_u1/{v}/itissaturday.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "Saturday",
+   "choices": [
+    "Saturday",
+    "Friday",
+    "Thursday"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "monday",
+   "en": "Monday",
+   "ko": "월요일",
+   "pic": "../packs/int2b_u1/monday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/monday.mp3",
+   "stext": "It is Monday.",
+   "sentence": "../packs/int2b_u1/audio/{v}/itismonday.mp3"
+  },
+  {
+   "id": "tuesday",
+   "en": "Tuesday",
+   "ko": "화요일",
+   "pic": "../packs/int2b_u1/tuesday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/tuesday.mp3",
+   "stext": "It is Tuesday.",
+   "sentence": "audio/int2b_u1/{v}/itistuesday.mp3"
+  },
+  {
+   "id": "wednesday",
+   "en": "Wednesday",
+   "ko": "수요일",
+   "pic": "../packs/int2b_u1/wednesday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/wednesday.mp3",
+   "stext": "It is Wednesday.",
+   "sentence": "audio/int2b_u1/{v}/itiswednesday.mp3"
+  },
+  {
+   "id": "thursday",
+   "en": "Thursday",
+   "ko": "목요일",
+   "pic": "../packs/int2b_u1/thursday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/thursday.mp3",
+   "stext": "It is Thursday.",
+   "sentence": "audio/int2b_u1/{v}/itisthursday.mp3"
+  },
+  {
+   "id": "friday",
+   "en": "Friday",
+   "ko": "금요일",
+   "pic": "../packs/int2b_u1/friday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/friday.mp3",
+   "stext": "It is Friday.",
+   "sentence": "audio/int2b_u1/{v}/itisfriday.mp3"
+  },
+  {
+   "id": "saturday",
+   "en": "Saturday",
+   "ko": "토요일",
+   "pic": "../packs/int2b_u1/saturday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/saturday.mp3",
+   "stext": "It is Saturday.",
+   "sentence": "audio/int2b_u1/{v}/itissaturday.mp3"
+  },
+  {
+   "id": "sunday",
+   "en": "Sunday",
+   "ko": "일요일",
+   "pic": "../packs/int2b_u1/sunday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/sunday.mp3",
+   "stext": "It is Sunday.",
+   "sentence": "audio/int2b_u1/{v}/itissunday.mp3"
+  },
+  {
+   "id": "holiday",
+   "en": "holiday",
+   "ko": "공휴일",
+   "pic": "../packs/int2b_u1/holiday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/holiday.mp3",
+   "stext": "It is a holiday.",
+   "sentence": "audio/int2b_u1/{v}/itisaholiday.mp3"
+  },
+  {
+   "id": "schoolday",
+   "en": "school day",
+   "ko": "수업일",
+   "pic": "../packs/int2b_u1/schoolday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/schoolday.mp3",
+   "stext": "It is a school day.",
+   "sentence": "audio/int2b_u1/{v}/itisaschoolday.mp3"
+  },
+  {
+   "id": "workday",
+   "en": "work day",
+   "ko": "근무일",
+   "pic": "../packs/int2b_u1/workday.jpg",
+   "audio": "../packs/int2b_u1/audio/{v}/workday.mp3",
+   "stext": "It is a work day.",
+   "sentence": "audio/int2b_u1/{v}/itisaworkday.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "short",
+   "en": "short",
+   "ko": "키가 작은",
+   "pic": "../packs/int2b_u5/short.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/short.mp3"
+  },
+  {
+   "id": "president",
+   "en": "president",
+   "ko": "대통령",
+   "pic": "../packs/int2b_u3/president.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/president.mp3"
+  },
+  {
+   "id": "history",
+   "en": "history",
+   "ko": "역사",
+   "pic": "../packs/int2b_u6/history.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/history.mp3"
+  },
+  {
+   "id": "won",
+   "en": "won",
+   "ko": "원 (돈)",
+   "pic": "../packs/int2b_u4/won.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/won.mp3"
+  },
+  {
+   "id": "smart",
+   "en": "smart",
+   "ko": "똑똑한",
+   "pic": "../packs/int2b_u5/smart.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/smart.mp3"
+  },
+  {
+   "id": "scientist",
+   "en": "scientist",
+   "ko": "과학자",
+   "pic": "../packs/int2b_u3/scientist.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/scientist.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "tuesday",
+    "holiday",
+    "short",
+    "wednesday"
+   ],
+   "odd": "short"
+  },
+  {
+   "items": [
+    "wednesday",
+    "holiday",
+    "president",
+    "friday"
+   ],
+   "odd": "president"
+  },
+  {
+   "items": [
+    "monday",
+    "wednesday",
+    "schoolday",
+    "history"
+   ],
+   "odd": "history"
+  },
+  {
+   "items": [
+    "tuesday",
+    "wednesday",
+    "won",
+    "friday"
+   ],
+   "odd": "won"
+  },
+  {
+   "items": [
+    "sunday",
+    "friday",
+    "smart",
+    "wednesday"
+   ],
+   "odd": "smart"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "monday",
+   "tuesday",
+   "thursday",
+   "friday",
+   "saturday",
+   "sunday"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "monday",
+   "tuesday",
+   "wednesday",
+   "thursday",
+   "friday",
+   "saturday"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "monday",
+   "tuesday",
+   "wednesday",
+   "thursday",
+   "friday",
+   "saturday",
+   "sunday"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What day is it today?",
+   "audio": "../packs/int2b_u1/audio/{v}/whatdayisittoday.mp3"
+  },
+  {
+   "text": "It is Monday.",
+   "audio": "../packs/int2b_u1/audio/{v}/itismonday.mp3"
+  },
+  {
+   "text": "It is Tuesday.",
+   "audio": "audio/int2b_u1/{v}/itistuesday.mp3"
+  },
+  {
+   "text": "It is Wednesday.",
+   "audio": "audio/int2b_u1/{v}/itiswednesday.mp3"
+  },
+  {
+   "text": "It is Thursday.",
+   "audio": "audio/int2b_u1/{v}/itisthursday.mp3"
+  },
+  {
+   "text": "It is Friday.",
+   "audio": "audio/int2b_u1/{v}/itisfriday.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2b_u1/workday.jpg",
+   "q": {
+    "text": "What day is it today?",
+    "audio": "../packs/int2b_u1/audio/{v}/whatdayisittoday.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is Saturday.",
+     "audio": "audio/int2b_u1/ai/itissaturday.mp3"
+    },
+    {
+     "text": "It is a work day.",
+     "audio": "audio/int2b_u1/ai/itisaworkday.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u1/saturday.jpg",
+   "q": {
+    "text": "What day is it today?",
+    "audio": "../packs/int2b_u1/audio/{v}/whatdayisittoday.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is Saturday.",
+     "audio": "audio/int2b_u1/ai/itissaturday.mp3"
+    },
+    {
+     "text": "It is Tuesday.",
+     "audio": "audio/int2b_u1/ai/itistuesday.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2b_u1/wednesday.jpg",
+   "q": {
+    "text": "What day is it today?",
+    "audio": "../packs/int2b_u1/audio/{v}/whatdayisittoday.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is Monday.",
+     "audio": "audio/int2b_u1/ai/itismonday.mp3"
+    },
+    {
+     "text": "It is Wednesday.",
+     "audio": "audio/int2b_u1/ai/itiswednesday.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u1/sunday.jpg",
+   "q": {
+    "text": "What day is it today?",
+    "audio": "../packs/int2b_u1/audio/{v}/whatdayisittoday.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is Sunday.",
+     "audio": "audio/int2b_u1/ai/itissunday.mp3"
+    },
+    {
+     "text": "It is a holiday.",
+     "audio": "audio/int2b_u1/ai/itisaholiday.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2b_u1/",
+  "ai": "audio/int2b_u1/ai/"
+ }
+}

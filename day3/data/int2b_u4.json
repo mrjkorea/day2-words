@@ -1,0 +1,519 @@
+{
+ "id": "int2b_u4",
+ "title": "INT 2B · Unit 4 · Welcome to Seven-Eleven",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2b_u4/audio/us_f/",
+ "picDir": "../packs/int2b_u4/",
+ "lineAudio": "audio/int2b_u4/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cheap",
+   "choices": [
+    "cheap",
+    "won",
+    "thousand",
+    "these"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "won",
+   "choices": [
+    "won",
+    "thousand",
+    "that",
+    "cheap"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "these",
+   "choices": [
+    "these",
+    "thousand",
+    "won",
+    "cheap"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "these",
+   "answer": "these",
+   "choices": [
+    "these",
+    "theme",
+    "ttese",
+    "phese"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "won",
+   "answer": "won",
+   "choices": [
+    "won",
+    "bon",
+    "wonu",
+    "wod"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "these",
+   "audio": "audio/int2b_u4/{v}/howmucharethese.mp3",
+   "answer": [
+    "How",
+    "much",
+    "are",
+    "these?"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "those",
+   "audio": "audio/int2b_u4/{v}/howmucharethose.mp3",
+   "answer": [
+    "How",
+    "much",
+    "are",
+    "those?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "that",
+   "audio": "audio/int2b_u4/{v}/howmuchisthat.mp3",
+   "sentence": [
+    "How",
+    "much",
+    "is",
+    "___",
+    "?"
+   ],
+   "answer": "that",
+   "choices": [
+    "that",
+    "about",
+    "won"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "cheap",
+   "audio": "audio/int2b_u4/{v}/itischeap.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "cheap",
+   "choices": [
+    "cheap",
+    "that",
+    "about"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2b_u4/{v}/itisfivehundredwon.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "five",
+    "___",
+    "won."
+   ],
+   "answer": "hundred",
+   "choices": [
+    "hundred",
+    "this",
+    "those"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "this",
+   "en": "this",
+   "ko": "이것",
+   "pic": null,
+   "audio": "../packs/int2b_u4/audio/{v}/this.mp3",
+   "stext": "How much is this?",
+   "sentence": "../packs/int2b_u4/audio/{v}/howmuchisthis.mp3"
+  },
+  {
+   "id": "that",
+   "en": "that",
+   "ko": "저것",
+   "pic": "../packs/int2b_u4/that.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/that.mp3",
+   "stext": "How much is that?",
+   "sentence": "audio/int2b_u4/{v}/howmuchisthat.mp3"
+  },
+  {
+   "id": "these",
+   "en": "these",
+   "ko": "이것들",
+   "pic": "../packs/int2b_u4/these.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/these.mp3",
+   "stext": "How much are these?",
+   "sentence": "audio/int2b_u4/{v}/howmucharethese.mp3"
+  },
+  {
+   "id": "those",
+   "en": "those",
+   "ko": "저것들",
+   "pic": "../packs/int2b_u4/those.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/those.mp3",
+   "stext": "How much are those?",
+   "sentence": "audio/int2b_u4/{v}/howmucharethose.mp3"
+  },
+  {
+   "id": "about",
+   "en": "about",
+   "ko": "약, 정도",
+   "pic": null,
+   "audio": "../packs/int2b_u4/audio/{v}/about.mp3",
+   "stext": "It is about five hundred won.",
+   "sentence": "../packs/int2b_u4/audio/{v}/itisaboutfivehundredwon.mp3"
+  },
+  {
+   "id": "won",
+   "en": "won",
+   "ko": "원 (돈)",
+   "pic": "../packs/int2b_u4/won.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/won.mp3",
+   "stext": "It is one thousand won.",
+   "sentence": "audio/int2b_u4/{v}/itisonethousandwon.mp3"
+  },
+  {
+   "id": "hundred",
+   "en": "hundred",
+   "ko": "백",
+   "pic": null,
+   "audio": "../packs/int2b_u4/audio/{v}/hundred.mp3",
+   "stext": "It is five hundred won.",
+   "sentence": "audio/int2b_u4/{v}/itisfivehundredwon.mp3"
+  },
+  {
+   "id": "thousand",
+   "en": "thousand",
+   "ko": "천",
+   "pic": "../packs/int2b_u4/thousand.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/thousand.mp3",
+   "stext": "It is two thousand won.",
+   "sentence": "audio/int2b_u4/{v}/itistwothousandwon.mp3"
+  },
+  {
+   "id": "everything",
+   "en": "everything",
+   "ko": "모든 것",
+   "pic": null,
+   "audio": "../packs/int2b_u4/audio/{v}/everything.mp3",
+   "stext": "Everything is cheap.",
+   "sentence": "audio/int2b_u4/{v}/everythingischeap.mp3"
+  },
+  {
+   "id": "cheap",
+   "en": "cheap",
+   "ko": "싼",
+   "pic": "../packs/int2b_u4/cheap.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/cheap.mp3",
+   "stext": "It is cheap.",
+   "sentence": "audio/int2b_u4/{v}/itischeap.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "thin",
+   "en": "thin",
+   "ko": "마른",
+   "pic": "../packs/int2b_u5/thin.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/thin.mp3"
+  },
+  {
+   "id": "math",
+   "en": "math",
+   "ko": "수학",
+   "pic": "../packs/int2b_u6/math.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/math.mp3"
+  },
+  {
+   "id": "old",
+   "en": "old",
+   "ko": "나이 든",
+   "pic": "../packs/int2b_u5/old.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/old.mp3"
+  },
+  {
+   "id": "breakfast",
+   "en": "breakfast",
+   "ko": "아침 식사",
+   "pic": "../packs/int2b_u2/breakfast.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/breakfast.mp3"
+  },
+  {
+   "id": "president",
+   "en": "president",
+   "ko": "대통령",
+   "pic": "../packs/int2b_u3/president.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/president.mp3"
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "pic": "../packs/int2b_u2/eleven.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/eleven.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "won",
+    "cheap",
+    "thousand",
+    "thin"
+   ],
+   "odd": "thin"
+  },
+  {
+   "items": [
+    "that",
+    "math",
+    "cheap",
+    "these"
+   ],
+   "odd": "math"
+  },
+  {
+   "items": [
+    "that",
+    "old",
+    "cheap",
+    "those"
+   ],
+   "odd": "old"
+  },
+  {
+   "items": [
+    "cheap",
+    "breakfast",
+    "these",
+    "those"
+   ],
+   "odd": "breakfast"
+  },
+  {
+   "items": [
+    "won",
+    "president",
+    "cheap",
+    "those"
+   ],
+   "odd": "president"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "this",
+   "that",
+   "these",
+   "those",
+   "about",
+   "won"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "this",
+   "that",
+   "these",
+   "those",
+   "about",
+   "won"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "this",
+   "that",
+   "these",
+   "those",
+   "about",
+   "won",
+   "hundred"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "How much is this?",
+   "audio": "../packs/int2b_u4/audio/{v}/howmuchisthis.mp3"
+  },
+  {
+   "text": "It is about five hundred won.",
+   "audio": "../packs/int2b_u4/audio/{v}/itisaboutfivehundredwon.mp3"
+  },
+  {
+   "text": "How much is that?",
+   "audio": "audio/int2b_u4/{v}/howmuchisthat.mp3"
+  },
+  {
+   "text": "How much are these?",
+   "audio": "audio/int2b_u4/{v}/howmucharethese.mp3"
+  },
+  {
+   "text": "How much are those?",
+   "audio": "audio/int2b_u4/{v}/howmucharethose.mp3"
+  },
+  {
+   "text": "It is one thousand won.",
+   "audio": "audio/int2b_u4/{v}/itisonethousandwon.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": null,
+   "q": {
+    "text": "How much is this?",
+    "audio": "../packs/int2b_u4/audio/{v}/howmuchisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is about five o'clock.",
+     "audio": "audio/int2b_u4/ai/itisaboutfiveoclock.mp3"
+    },
+    {
+     "text": "It is about five hundred won.",
+     "audio": "audio/int2b_u4/ai/itisaboutfivehundredwon.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u4/these.jpg",
+   "q": {
+    "text": "How much are these?",
+    "audio": "audio/int2b_u4/{v}/howmucharethese.mp3"
+   },
+   "choices": [
+    {
+     "text": "They are two thousand won.",
+     "audio": "audio/int2b_u4/ai/theyaretwothousandwon.mp3"
+    },
+    {
+     "text": "They are my friends.",
+     "audio": "audio/int2b_u4/ai/theyaremyfriends.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2b_u4/cheap.jpg",
+   "q": {
+    "text": "Is it cheap?",
+    "audio": "audio/int2b_u4/{v}/isitcheap.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, it is Monday.",
+     "audio": "audio/int2b_u4/ai/yesitismonday.mp3"
+    },
+    {
+     "text": "Yes, it is cheap.",
+     "audio": "audio/int2b_u4/ai/yesitischeap.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u4/that.jpg",
+   "q": {
+    "text": "How much is that?",
+    "audio": "audio/int2b_u4/{v}/howmuchisthat.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is one thousand meters.",
+     "audio": "audio/int2b_u4/ai/itisonethousandmeters.mp3"
+    },
+    {
+     "text": "It is one thousand won.",
+     "audio": "audio/int2b_u4/ai/itisonethousandwon.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2b_u4/",
+  "ai": "audio/int2b_u4/ai/"
+ }
+}

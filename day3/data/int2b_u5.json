@@ -1,0 +1,515 @@
+{
+ "id": "int2b_u5",
+ "title": "INT 2B · Unit 5 · Somebody Stole My Bike!",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2b_u5/audio/us_f/",
+ "picDir": "../packs/int2b_u5/",
+ "lineAudio": "audio/int2b_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "old",
+   "choices": [
+    "old",
+    "young",
+    "fat",
+    "smart"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "tall",
+   "choices": [
+    "tall",
+    "goodlooking",
+    "fat",
+    "old"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "ugly",
+   "choices": [
+    "ugly",
+    "young",
+    "short",
+    "fat"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "short",
+   "answer": "short",
+   "choices": [
+    "short",
+    "sport",
+    "lhort",
+    "shot"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "rich",
+   "answer": "rich",
+   "choices": [
+    "rich",
+    "rch",
+    "roch",
+    "rikh"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "goodlooking",
+   "audio": "audio/int2b_u5/{v}/heisgoodlooking.mp3",
+   "answer": [
+    "He",
+    "is",
+    "good-looking."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "thin",
+   "audio": "audio/int2b_u5/{v}/heisthin.mp3",
+   "answer": [
+    "He",
+    "is",
+    "thin."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "thin",
+   "audio": "audio/int2b_u5/{v}/heisthin.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "thin",
+   "choices": [
+    "thin",
+    "good-looking",
+    "rich"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "tall",
+   "audio": "audio/int2b_u5/{v}/heistall.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "tall",
+   "choices": [
+    "tall",
+    "short",
+    "thin"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "old",
+   "audio": "audio/int2b_u5/{v}/heisold.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "old",
+   "choices": [
+    "old",
+    "good-looking",
+    "fat"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "smart",
+   "en": "smart",
+   "ko": "똑똑한",
+   "pic": "../packs/int2b_u5/smart.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/smart.mp3",
+   "stext": "He is smart.",
+   "sentence": "audio/int2b_u5/{v}/heissmart.mp3"
+  },
+  {
+   "id": "fat",
+   "en": "fat",
+   "ko": "뚱뚱한",
+   "pic": "../packs/int2b_u5/fat.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/fat.mp3",
+   "stext": "He is fat.",
+   "sentence": "audio/int2b_u5/{v}/heisfat.mp3"
+  },
+  {
+   "id": "tall",
+   "en": "tall",
+   "ko": "키가 큰",
+   "pic": "../packs/int2b_u5/tall.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/tall.mp3",
+   "stext": "He is tall.",
+   "sentence": "audio/int2b_u5/{v}/heistall.mp3"
+  },
+  {
+   "id": "short",
+   "en": "short",
+   "ko": "키가 작은",
+   "pic": "../packs/int2b_u5/short.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/short.mp3",
+   "stext": "He is short.",
+   "sentence": "audio/int2b_u5/{v}/heisshort.mp3"
+  },
+  {
+   "id": "thin",
+   "en": "thin",
+   "ko": "마른",
+   "pic": "../packs/int2b_u5/thin.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/thin.mp3",
+   "stext": "He is thin.",
+   "sentence": "audio/int2b_u5/{v}/heisthin.mp3"
+  },
+  {
+   "id": "old",
+   "en": "old",
+   "ko": "나이 든",
+   "pic": "../packs/int2b_u5/old.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/old.mp3",
+   "stext": "He is old.",
+   "sentence": "audio/int2b_u5/{v}/heisold.mp3"
+  },
+  {
+   "id": "young",
+   "en": "young",
+   "ko": "어린",
+   "pic": "../packs/int2b_u5/young.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/young.mp3",
+   "stext": "He is young.",
+   "sentence": "audio/int2b_u5/{v}/heisyoung.mp3"
+  },
+  {
+   "id": "ugly",
+   "en": "ugly",
+   "ko": "못생긴",
+   "pic": "../packs/int2b_u5/ugly.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/ugly.mp3",
+   "stext": "He is ugly.",
+   "sentence": "audio/int2b_u5/{v}/heisugly.mp3"
+  },
+  {
+   "id": "goodlooking",
+   "en": "good-looking",
+   "ko": "잘생긴",
+   "pic": "../packs/int2b_u5/goodlooking.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/goodlooking.mp3",
+   "stext": "He is good-looking.",
+   "sentence": "audio/int2b_u5/{v}/heisgoodlooking.mp3"
+  },
+  {
+   "id": "rich",
+   "en": "rich",
+   "ko": "부유한",
+   "pic": "../packs/int2b_u5/rich.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/rich.mp3",
+   "stext": "He is rich.",
+   "sentence": "audio/int2b_u5/{v}/heisrich.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int2b_u2/school.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/school.mp3"
+  },
+  {
+   "id": "theirs",
+   "en": "theirs",
+   "ko": "그들의 것",
+   "pic": "../packs/int2b_u8/theirs.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/theirs.mp3"
+  },
+  {
+   "id": "hers",
+   "en": "hers",
+   "ko": "그녀의 것",
+   "pic": "../packs/int2b_u8/hers.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/hers.mp3"
+  },
+  {
+   "id": "stairs",
+   "en": "stairs",
+   "ko": "계단",
+   "pic": "../packs/int2b_u7/stairs.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/stairs.mp3"
+  },
+  {
+   "id": "thousand",
+   "en": "thousand",
+   "ko": "천",
+   "pic": "../packs/int2b_u4/thousand.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/thousand.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int2b_u6/music.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/music.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "old",
+    "goodlooking",
+    "thin",
+    "school"
+   ],
+   "odd": "school"
+  },
+  {
+   "items": [
+    "fat",
+    "theirs",
+    "goodlooking",
+    "tall"
+   ],
+   "odd": "theirs"
+  },
+  {
+   "items": [
+    "hers",
+    "rich",
+    "smart",
+    "tall"
+   ],
+   "odd": "hers"
+  },
+  {
+   "items": [
+    "short",
+    "stairs",
+    "old",
+    "tall"
+   ],
+   "odd": "stairs"
+  },
+  {
+   "items": [
+    "tall",
+    "thousand",
+    "thin",
+    "young"
+   ],
+   "odd": "thousand"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "smart",
+   "fat",
+   "tall",
+   "short",
+   "thin",
+   "old"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "smart",
+   "fat",
+   "tall",
+   "short",
+   "thin",
+   "old"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "smart",
+   "fat",
+   "tall",
+   "short",
+   "thin",
+   "old",
+   "young"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Is he tall?",
+   "audio": "../packs/int2b_u5/audio/{v}/ishetall.mp3"
+  },
+  {
+   "text": "He is smart.",
+   "audio": "audio/int2b_u5/{v}/heissmart.mp3"
+  },
+  {
+   "text": "He is fat.",
+   "audio": "audio/int2b_u5/{v}/heisfat.mp3"
+  },
+  {
+   "text": "He is tall.",
+   "audio": "audio/int2b_u5/{v}/heistall.mp3"
+  },
+  {
+   "text": "He is short.",
+   "audio": "audio/int2b_u5/{v}/heisshort.mp3"
+  },
+  {
+   "text": "He is thin.",
+   "audio": "audio/int2b_u5/{v}/heisthin.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2b_u5/old.jpg",
+   "q": {
+    "text": "What does he look like?",
+    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
+   },
+   "choices": [
+    {
+     "text": "He is old.",
+     "audio": "audio/int2b_u5/ai/heisold.mp3"
+    },
+    {
+     "text": "He is ugly.",
+     "audio": "audio/int2b_u5/ai/heisugly.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2b_u5/thin.jpg",
+   "q": {
+    "text": "What does he look like?",
+    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
+   },
+   "choices": [
+    {
+     "text": "He is thin.",
+     "audio": "audio/int2b_u5/ai/heisthin.mp3"
+    },
+    {
+     "text": "He is fat.",
+     "audio": "audio/int2b_u5/ai/heisfat.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2b_u5/tall.jpg",
+   "q": {
+    "text": "What does he look like?",
+    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
+   },
+   "choices": [
+    {
+     "text": "He is good-looking.",
+     "audio": "audio/int2b_u5/ai/heisgoodlooking.mp3"
+    },
+    {
+     "text": "He is tall.",
+     "audio": "audio/int2b_u5/ai/heistall.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u5/ugly.jpg",
+   "q": {
+    "text": "What does he look like?",
+    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
+   },
+   "choices": [
+    {
+     "text": "He is ugly.",
+     "audio": "audio/int2b_u5/ai/heisugly.mp3"
+    },
+    {
+     "text": "He is fat.",
+     "audio": "audio/int2b_u5/ai/heisfat.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2b_u5/",
+  "ai": "audio/int2b_u5/ai/"
+ }
+}

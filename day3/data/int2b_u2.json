@@ -1,0 +1,510 @@
+{
+ "id": "int2b_u2",
+ "title": "INT 2B · Unit 2 · What Time is it Now?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int2b_u2/audio/us_f/",
+ "picDir": "../packs/int2b_u2/",
+ "lineAudio": "audio/int2b_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "eleven",
+   "choices": [
+    "eleven",
+    "breakfast",
+    "school",
+    "recess"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "recess",
+   "choices": [
+    "recess",
+    "snack",
+    "breakfast",
+    "oclock"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "breakfast",
+   "choices": [
+    "breakfast",
+    "snack",
+    "eleven",
+    "onlineclass"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "breakfast",
+   "answer": "breakfast",
+   "choices": [
+    "breakfast",
+    "brakfast",
+    "breakfest",
+    "breakfas"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "recess",
+   "answer": "recess",
+   "choices": [
+    "recess",
+    "ricess",
+    "receks",
+    "rekess"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "onlineclass",
+   "audio": "audio/int2b_u2/{v}/itisonlineclasstime.mp3",
+   "answer": [
+    "It",
+    "is",
+    "online",
+    "class",
+    "time."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3",
+   "answer": [
+    "What",
+    "time",
+    "is",
+    "it",
+    "now?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "snack",
+   "audio": "audio/int2b_u2/{v}/itissnacktime.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "time."
+   ],
+   "answer": "snack",
+   "choices": [
+    "snack",
+    "eleven",
+    "school"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "recess",
+   "audio": "audio/int2b_u2/{v}/itisrecesstime.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "time."
+   ],
+   "answer": "recess",
+   "choices": [
+    "recess",
+    "eleven",
+    "o'clock"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "breakfast",
+   "audio": "../packs/int2b_u2/audio/{v}/itisbreakfasttime.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "time."
+   ],
+   "answer": "breakfast",
+   "choices": [
+    "breakfast",
+    "time",
+    "recess"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "time",
+   "en": "time",
+   "ko": "시간",
+   "pic": null,
+   "audio": "../packs/int2b_u2/audio/{v}/time.mp3",
+   "stext": "What time is it now?",
+   "sentence": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3"
+  },
+  {
+   "id": "oclock",
+   "en": "o'clock",
+   "ko": "~시 (정각)",
+   "pic": "../packs/int2b_u2/oclock.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/oclock.mp3",
+   "stext": "It is eleven o'clock.",
+   "sentence": "audio/int2b_u2/{v}/itiselevenoclock.mp3"
+  },
+  {
+   "id": "thirty",
+   "en": "thirty",
+   "ko": "삼십, 30분",
+   "pic": null,
+   "audio": "../packs/int2b_u2/audio/{v}/thirty.mp3",
+   "stext": "It is eleven thirty.",
+   "sentence": "audio/int2b_u2/{v}/itiseleventhirty.mp3"
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "pic": "../packs/int2b_u2/eleven.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/eleven.mp3",
+   "stext": "It is eleven.",
+   "sentence": "audio/int2b_u2/{v}/itiseleven.mp3"
+  },
+  {
+   "id": "breakfast",
+   "en": "breakfast",
+   "ko": "아침 식사",
+   "pic": "../packs/int2b_u2/breakfast.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/breakfast.mp3",
+   "stext": "It is breakfast time.",
+   "sentence": "../packs/int2b_u2/audio/{v}/itisbreakfasttime.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int2b_u2/school.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/school.mp3",
+   "stext": "It is school time.",
+   "sentence": "audio/int2b_u2/{v}/itisschooltime.mp3"
+  },
+  {
+   "id": "snack",
+   "en": "snack",
+   "ko": "간식",
+   "pic": "../packs/int2b_u2/snack.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/snack.mp3",
+   "stext": "It is snack time.",
+   "sentence": "audio/int2b_u2/{v}/itissnacktime.mp3"
+  },
+  {
+   "id": "onlineclass",
+   "en": "online class",
+   "ko": "온라인 수업",
+   "pic": "../packs/int2b_u2/onlineclass.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/onlineclass.mp3",
+   "stext": "It is online class time.",
+   "sentence": "audio/int2b_u2/{v}/itisonlineclasstime.mp3"
+  },
+  {
+   "id": "recess",
+   "en": "recess",
+   "ko": "쉬는 시간",
+   "pic": "../packs/int2b_u2/recess.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/recess.mp3",
+   "stext": "It is recess time.",
+   "sentence": "audio/int2b_u2/{v}/itisrecesstime.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "cheap",
+   "en": "cheap",
+   "ko": "싼",
+   "pic": "../packs/int2b_u4/cheap.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/cheap.mp3"
+  },
+  {
+   "id": "buy",
+   "en": "buy",
+   "ko": "사다",
+   "pic": "../packs/int2b_u4/buy.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/buy.mp3"
+  },
+  {
+   "id": "outside",
+   "en": "outside",
+   "ko": "~ 밖에",
+   "pic": "../packs/int2b_u7/outside.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/outside.mp3"
+  },
+  {
+   "id": "judge",
+   "en": "judge",
+   "ko": "판사",
+   "pic": "../packs/int2b_u3/judge.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/judge.mp3"
+  },
+  {
+   "id": "thin",
+   "en": "thin",
+   "ko": "마른",
+   "pic": "../packs/int2b_u5/thin.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/thin.mp3"
+  },
+  {
+   "id": "fat",
+   "en": "fat",
+   "ko": "뚱뚱한",
+   "pic": "../packs/int2b_u5/fat.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/fat.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "snack",
+    "school",
+    "cheap",
+    "breakfast"
+   ],
+   "odd": "cheap"
+  },
+  {
+   "items": [
+    "snack",
+    "recess",
+    "oclock",
+    "buy"
+   ],
+   "odd": "buy"
+  },
+  {
+   "items": [
+    "snack",
+    "outside",
+    "school",
+    "breakfast"
+   ],
+   "odd": "outside"
+  },
+  {
+   "items": [
+    "onlineclass",
+    "oclock",
+    "snack",
+    "judge"
+   ],
+   "odd": "judge"
+  },
+  {
+   "items": [
+    "onlineclass",
+    "school",
+    "eleven",
+    "thin"
+   ],
+   "odd": "thin"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "time",
+   "thirty",
+   "eleven",
+   "school",
+   "snack",
+   "recess"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "time",
+   "thirty",
+   "eleven",
+   "breakfast",
+   "school",
+   "snack"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "time",
+   "thirty",
+   "eleven",
+   "breakfast",
+   "school",
+   "snack",
+   "recess"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What time is it now?",
+   "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3"
+  },
+  {
+   "text": "It is breakfast time.",
+   "audio": "../packs/int2b_u2/audio/{v}/itisbreakfasttime.mp3"
+  },
+  {
+   "text": "It is eleven o'clock.",
+   "audio": "audio/int2b_u2/{v}/itiselevenoclock.mp3"
+  },
+  {
+   "text": "It is eleven thirty.",
+   "audio": "audio/int2b_u2/{v}/itiseleventhirty.mp3"
+  },
+  {
+   "text": "It is eleven.",
+   "audio": "audio/int2b_u2/{v}/itiseleven.mp3"
+  },
+  {
+   "text": "It is school time.",
+   "audio": "audio/int2b_u2/{v}/itisschooltime.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int2b_u2/onlineclass.jpg",
+   "q": {
+    "text": "What time is it now?",
+    "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is online class time.",
+     "audio": "audio/int2b_u2/ai/itisonlineclasstime.mp3"
+    },
+    {
+     "text": "It is eleven.",
+     "audio": "audio/int2b_u2/ai/itiseleven.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2b_u2/breakfast.jpg",
+   "q": {
+    "text": "What time is it now?",
+    "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is breakfast time.",
+     "audio": "audio/int2b_u2/ai/itisbreakfasttime.mp3"
+    },
+    {
+     "text": "It is recess time.",
+     "audio": "audio/int2b_u2/ai/itisrecesstime.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int2b_u2/school.jpg",
+   "q": {
+    "text": "What time is it now?",
+    "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is eleven thirty.",
+     "audio": "audio/int2b_u2/ai/itiseleventhirty.mp3"
+    },
+    {
+     "text": "It is school time.",
+     "audio": "audio/int2b_u2/ai/itisschooltime.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int2b_u2/oclock.jpg",
+   "q": {
+    "text": "What time is it now?",
+    "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is eleven o'clock.",
+     "audio": "audio/int2b_u2/ai/itiselevenoclock.mp3"
+    },
+    {
+     "text": "It is eleven.",
+     "audio": "audio/int2b_u2/ai/itiseleven.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2b_u2/",
+  "ai": "audio/int2b_u2/ai/"
+ }
+}
