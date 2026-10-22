@@ -1,0 +1,1644 @@
+{
+ "id": "basic_a_u05_b",
+ "title": "Who Is This?",
+ "book": "Basic A",
+ "unit": 5,
+ "unitTitle": "Family",
+ "packId": "basic_a_u5",
+ "audio": "audio/basic_a_u05_b.mp3",
+ "duration": 136.97,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Welcome to my family party!",
+   "words": [
+    {
+     "t": "Welcome",
+     "start": 10.12,
+     "end": 11.14
+    },
+    {
+     "t": "to",
+     "start": 11.16,
+     "end": 11.6
+    },
+    {
+     "t": "my",
+     "start": 11.62,
+     "end": 12.06
+    },
+    {
+     "t": "family",
+     "start": 12.08,
+     "end": 12.98
+    },
+    {
+     "t": "party!",
+     "start": 13.0,
+     "end": 13.92
+    }
+   ],
+   "n": 1,
+   "start": 10.12,
+   "end": 13.92,
+   "pic": "aunt"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Who is this?",
+   "words": [
+    {
+     "t": "Who",
+     "start": 13.92,
+     "end": 14.08
+    },
+    {
+     "t": "is",
+     "start": 14.08,
+     "end": 14.44
+    },
+    {
+     "t": "this?",
+     "start": 14.44,
+     "end": 14.82
+    }
+   ],
+   "n": 2,
+   "start": 13.92,
+   "end": 14.82,
+   "pic": "aunt"
+  },
+  {
+   "section": "Verse 1",
+   "text": "This is my uncle.",
+   "words": [
+    {
+     "t": "This",
+     "start": 15.82,
+     "end": 16.06
+    },
+    {
+     "t": "is",
+     "start": 16.06,
+     "end": 16.22
+    },
+    {
+     "t": "my",
+     "start": 16.22,
+     "end": 16.42
+    },
+    {
+     "t": "uncle.",
+     "start": 16.42,
+     "end": 17.02,
+     "pic": "uncle"
+    }
+   ],
+   "n": 3,
+   "start": 15.82,
+   "end": 17.02,
+   "pic": "uncle"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Who is this?",
+   "words": [
+    {
+     "t": "Who",
+     "start": 18.46,
+     "end": 18.72
+    },
+    {
+     "t": "is",
+     "start": 18.72,
+     "end": 19.08
+    },
+    {
+     "t": "this?",
+     "start": 19.08,
+     "end": 19.98
+    }
+   ],
+   "n": 4,
+   "start": 18.46,
+   "end": 19.98,
+   "pic": "uncle"
+  },
+  {
+   "section": "Verse 1",
+   "text": "This is my aunt.",
+   "words": [
+    {
+     "t": "This",
+     "start": 20.52,
+     "end": 20.7
+    },
+    {
+     "t": "is",
+     "start": 20.7,
+     "end": 20.88
+    },
+    {
+     "t": "my",
+     "start": 20.88,
+     "end": 21.26
+    },
+    {
+     "t": "aunt.",
+     "start": 21.26,
+     "end": 22.21,
+     "pic": "aunt"
+    }
+   ],
+   "n": 5,
+   "start": 20.52,
+   "end": 22.21,
+   "pic": "aunt"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Who is this?",
+   "words": [
+    {
+     "t": "Who",
+     "start": 23.2,
+     "end": 23.4
+    },
+    {
+     "t": "is",
+     "start": 23.4,
+     "end": 23.62
+    },
+    {
+     "t": "this?",
+     "start": 23.62,
+     "end": 24.17
+    }
+   ],
+   "n": 6,
+   "start": 23.2,
+   "end": 24.17,
+   "pic": "aunt"
+  },
+  {
+   "section": "Verse 1",
+   "text": "This is my grandmother. She is pretty!",
+   "words": [
+    {
+     "t": "This",
+     "start": 25.22,
+     "end": 25.42
+    },
+    {
+     "t": "is",
+     "start": 25.42,
+     "end": 25.56
+    },
+    {
+     "t": "my",
+     "start": 25.56,
+     "end": 25.76
+    },
+    {
+     "t": "grandmother.",
+     "start": 25.76,
+     "end": 26.26,
+     "pic": "grandmother"
+    },
+    {
+     "t": "She",
+     "start": 27.02,
+     "end": 27.2
+    },
+    {
+     "t": "is",
+     "start": 27.2,
+     "end": 27.38
+    },
+    {
+     "t": "pretty!",
+     "start": 27.38,
+     "end": 27.66
+    }
+   ],
+   "n": 7,
+   "start": 25.22,
+   "end": 27.66,
+   "pic": "grandmother"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my mom.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 27.66,
+     "end": 27.9
+    },
+    {
+     "t": "is",
+     "start": 27.9,
+     "end": 28.22
+    },
+    {
+     "t": "this?",
+     "start": 28.22,
+     "end": 28.62
+    },
+    {
+     "t": "This",
+     "start": 28.86,
+     "end": 28.96
+    },
+    {
+     "t": "is",
+     "start": 28.96,
+     "end": 29.1
+    },
+    {
+     "t": "my",
+     "start": 29.1,
+     "end": 29.36
+    },
+    {
+     "t": "mom.",
+     "start": 29.36,
+     "end": 30.0,
+     "pic": "mom"
+    }
+   ],
+   "n": 8,
+   "start": 27.66,
+   "end": 30.0,
+   "pic": "thisismymom"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my dad.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 30.02,
+     "end": 30.24
+    },
+    {
+     "t": "is",
+     "start": 30.24,
+     "end": 30.52
+    },
+    {
+     "t": "this?",
+     "start": 30.52,
+     "end": 30.94
+    },
+    {
+     "t": "This",
+     "start": 31.16,
+     "end": 31.3
+    },
+    {
+     "t": "is",
+     "start": 31.3,
+     "end": 31.44
+    },
+    {
+     "t": "my",
+     "start": 31.44,
+     "end": 31.72
+    },
+    {
+     "t": "dad.",
+     "start": 31.72,
+     "end": 32.32,
+     "pic": "dad"
+    }
+   ],
+   "n": 9,
+   "start": 30.02,
+   "end": 32.32,
+   "pic": "dad"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my sister.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 32.32,
+     "end": 32.54
+    },
+    {
+     "t": "is",
+     "start": 32.54,
+     "end": 32.88
+    },
+    {
+     "t": "this?",
+     "start": 32.88,
+     "end": 33.52
+    },
+    {
+     "t": "This",
+     "start": 33.54,
+     "end": 33.66
+    },
+    {
+     "t": "is",
+     "start": 33.66,
+     "end": 33.76
+    },
+    {
+     "t": "my",
+     "start": 33.76,
+     "end": 33.96
+    },
+    {
+     "t": "sister.",
+     "start": 33.96,
+     "end": 34.46,
+     "pic": "sister"
+    }
+   ],
+   "n": 10,
+   "start": 32.32,
+   "end": 34.46,
+   "pic": "sister"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my brother.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 36.9,
+     "end": 37.18
+    },
+    {
+     "t": "is",
+     "start": 37.18,
+     "end": 37.52
+    },
+    {
+     "t": "this?",
+     "start": 37.52,
+     "end": 38.18
+    },
+    {
+     "t": "This",
+     "start": 38.18,
+     "end": 38.3
+    },
+    {
+     "t": "is",
+     "start": 38.3,
+     "end": 38.4
+    },
+    {
+     "t": "my",
+     "start": 38.4,
+     "end": 38.58
+    },
+    {
+     "t": "brother.",
+     "start": 38.58,
+     "end": 39.03,
+     "pic": "brother"
+    }
+   ],
+   "n": 11,
+   "start": 36.9,
+   "end": 39.03,
+   "pic": "brother"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my family, yeah!",
+   "words": [
+    {
+     "t": "This",
+     "start": 40.24,
+     "end": 41.07
+    },
+    {
+     "t": "is",
+     "start": 41.09,
+     "end": 41.63
+    },
+    {
+     "t": "my",
+     "start": 41.65,
+     "end": 42.2
+    },
+    {
+     "t": "family,",
+     "start": 42.22,
+     "end": 43.47
+    },
+    {
+     "t": "yeah!",
+     "start": 43.49,
+     "end": 44.48
+    }
+   ],
+   "n": 12,
+   "start": 40.24,
+   "end": 44.48,
+   "pic": "brother"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my family!",
+   "words": [
+    {
+     "t": "This",
+     "start": 44.7,
+     "end": 44.9
+    },
+    {
+     "t": "is",
+     "start": 44.9,
+     "end": 45.3
+    },
+    {
+     "t": "my",
+     "start": 45.3,
+     "end": 45.62
+    },
+    {
+     "t": "family!",
+     "start": 46.56,
+     "end": 48.36
+    }
+   ],
+   "n": 13,
+   "start": 44.7,
+   "end": 48.36,
+   "pic": "brother"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Who is this?",
+   "words": [
+    {
+     "t": "Who",
+     "start": 48.36,
+     "end": 51.22
+    },
+    {
+     "t": "is",
+     "start": 51.22,
+     "end": 51.58
+    },
+    {
+     "t": "this?",
+     "start": 51.58,
+     "end": 52.74
+    }
+   ],
+   "n": 14,
+   "start": 48.36,
+   "end": 52.74,
+   "pic": "brother"
+  },
+  {
+   "section": "Verse 2",
+   "text": "This is my cousin.",
+   "words": [
+    {
+     "t": "This",
+     "start": 52.84,
+     "end": 53.45
+    },
+    {
+     "t": "is",
+     "start": 53.47,
+     "end": 53.86
+    },
+    {
+     "t": "my",
+     "start": 53.88,
+     "end": 54.28
+    },
+    {
+     "t": "cousin.",
+     "start": 54.3,
+     "end": 55.24,
+     "pic": "cousin"
+    }
+   ],
+   "n": 15,
+   "start": 52.84,
+   "end": 55.24,
+   "pic": "cousin"
+  },
+  {
+   "section": "Verse 2",
+   "text": "And this is my cousin.",
+   "words": [
+    {
+     "t": "And",
+     "start": 55.3,
+     "end": 55.44
+    },
+    {
+     "t": "this",
+     "start": 55.44,
+     "end": 55.58
+    },
+    {
+     "t": "is",
+     "start": 55.58,
+     "end": 55.72
+    },
+    {
+     "t": "my",
+     "start": 55.72,
+     "end": 55.88
+    },
+    {
+     "t": "cousin.",
+     "start": 55.88,
+     "end": 56.23,
+     "pic": "cousin"
+    }
+   ],
+   "n": 16,
+   "start": 55.34,
+   "end": 58.34,
+   "pic": "cousin"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I have ten cousins!",
+   "words": [
+    {
+     "t": "I",
+     "start": 57.5,
+     "end": 57.9
+    },
+    {
+     "t": "have",
+     "start": 57.9,
+     "end": 58.04
+    },
+    {
+     "t": "ten",
+     "start": 58.04,
+     "end": 58.24
+    },
+    {
+     "t": "cousins!",
+     "start": 58.24,
+     "end": 60.3
+    }
+   ],
+   "n": 17,
+   "start": 57.5,
+   "end": 60.3,
+   "pic": "cousin"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Who is this?",
+   "words": [
+    {
+     "t": "Who",
+     "start": 60.38,
+     "end": 60.58
+    },
+    {
+     "t": "is",
+     "start": 60.58,
+     "end": 60.94
+    },
+    {
+     "t": "this?",
+     "start": 60.94,
+     "end": 61.84
+    }
+   ],
+   "n": 18,
+   "start": 60.38,
+   "end": 61.84,
+   "pic": "cousin"
+  },
+  {
+   "section": "Verse 2",
+   "text": "This is my nephew.",
+   "words": [
+    {
+     "t": "This",
+     "start": 62.04,
+     "end": 63.22
+    },
+    {
+     "t": "is",
+     "start": 63.22,
+     "end": 63.66
+    },
+    {
+     "t": "my",
+     "start": 63.66,
+     "end": 63.96
+    },
+    {
+     "t": "nephew.",
+     "start": 63.96,
+     "end": 64.8,
+     "pic": "nephew"
+    }
+   ],
+   "n": 19,
+   "start": 62.04,
+   "end": 64.8,
+   "pic": "nephew"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my mom.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 64.8,
+     "end": 65.06
+    },
+    {
+     "t": "is",
+     "start": 65.06,
+     "end": 65.32
+    },
+    {
+     "t": "this?",
+     "start": 65.32,
+     "end": 65.82
+    },
+    {
+     "t": "This",
+     "start": 65.94,
+     "end": 66.06
+    },
+    {
+     "t": "is",
+     "start": 66.06,
+     "end": 66.2
+    },
+    {
+     "t": "my",
+     "start": 66.2,
+     "end": 66.44
+    },
+    {
+     "t": "mom.",
+     "start": 66.44,
+     "end": 67.04,
+     "pic": "mom"
+    }
+   ],
+   "n": 20,
+   "start": 64.8,
+   "end": 67.04,
+   "pic": "thisismymom"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my dad.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 67.1,
+     "end": 67.34
+    },
+    {
+     "t": "is",
+     "start": 67.34,
+     "end": 67.66
+    },
+    {
+     "t": "this?",
+     "start": 67.66,
+     "end": 67.96
+    },
+    {
+     "t": "This",
+     "start": 67.98,
+     "end": 68.36
+    },
+    {
+     "t": "is",
+     "start": 68.36,
+     "end": 68.5
+    },
+    {
+     "t": "my",
+     "start": 68.5,
+     "end": 68.76
+    },
+    {
+     "t": "dad.",
+     "start": 68.76,
+     "end": 69.4,
+     "pic": "dad"
+    }
+   ],
+   "n": 21,
+   "start": 67.1,
+   "end": 69.4,
+   "pic": "dad"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my sister.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 69.42,
+     "end": 69.64
+    },
+    {
+     "t": "is",
+     "start": 69.64,
+     "end": 69.96
+    },
+    {
+     "t": "this?",
+     "start": 69.96,
+     "end": 70.54
+    },
+    {
+     "t": "This",
+     "start": 70.54,
+     "end": 70.72
+    },
+    {
+     "t": "is",
+     "start": 70.72,
+     "end": 70.82
+    },
+    {
+     "t": "my",
+     "start": 70.82,
+     "end": 71.0
+    },
+    {
+     "t": "sister.",
+     "start": 71.0,
+     "end": 71.45,
+     "pic": "sister"
+    }
+   ],
+   "n": 22,
+   "start": 69.42,
+   "end": 71.45,
+   "pic": "sister"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my brother.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 73.74,
+     "end": 74.3
+    },
+    {
+     "t": "is",
+     "start": 74.3,
+     "end": 74.62
+    },
+    {
+     "t": "this?",
+     "start": 74.62,
+     "end": 75.2
+    },
+    {
+     "t": "This",
+     "start": 75.26,
+     "end": 75.38
+    },
+    {
+     "t": "is",
+     "start": 75.38,
+     "end": 75.48
+    },
+    {
+     "t": "my",
+     "start": 75.54,
+     "end": 75.66
+    },
+    {
+     "t": "brother.",
+     "start": 75.66,
+     "end": 75.96,
+     "pic": "brother"
+    }
+   ],
+   "n": 23,
+   "start": 73.74,
+   "end": 75.96,
+   "pic": "brother"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my family, yeah!",
+   "words": [
+    {
+     "t": "This",
+     "start": 77.3,
+     "end": 78.12
+    },
+    {
+     "t": "is",
+     "start": 78.14,
+     "end": 78.68
+    },
+    {
+     "t": "my",
+     "start": 78.7,
+     "end": 79.24
+    },
+    {
+     "t": "family,",
+     "start": 79.26,
+     "end": 80.5
+    },
+    {
+     "t": "yeah!",
+     "start": 80.52,
+     "end": 81.5
+    }
+   ],
+   "n": 24,
+   "start": 77.3,
+   "end": 81.5,
+   "pic": "brother"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my family!",
+   "words": [
+    {
+     "t": "This",
+     "start": 81.76,
+     "end": 82.02
+    },
+    {
+     "t": "is",
+     "start": 82.02,
+     "end": 82.42
+    },
+    {
+     "t": "my",
+     "start": 82.42,
+     "end": 82.72
+    },
+    {
+     "t": "family!",
+     "start": 82.72,
+     "end": 84.42
+    }
+   ],
+   "n": 25,
+   "start": 81.76,
+   "end": 84.42,
+   "pic": "brother"
+  },
+  {
+   "section": "Bridge",
+   "text": "And who is this?",
+   "words": [
+    {
+     "t": "And",
+     "start": 84.46,
+     "end": 84.54
+    },
+    {
+     "t": "who",
+     "start": 84.54,
+     "end": 84.78
+    },
+    {
+     "t": "is",
+     "start": 84.78,
+     "end": 85.02
+    },
+    {
+     "t": "this?",
+     "start": 85.02,
+     "end": 85.77
+    }
+   ],
+   "n": 26,
+   "start": 84.46,
+   "end": 85.77,
+   "pic": "brother"
+  },
+  {
+   "section": "Bridge",
+   "text": "This is my grandson!",
+   "words": [
+    {
+     "t": "This",
+     "start": 86.5,
+     "end": 86.64
+    },
+    {
+     "t": "is",
+     "start": 86.64,
+     "end": 87.02
+    },
+    {
+     "t": "my",
+     "start": 87.02,
+     "end": 87.34
+    },
+    {
+     "t": "grandson!",
+     "start": 87.34,
+     "end": 88.84,
+     "pic": "grandson"
+    }
+   ],
+   "n": 27,
+   "start": 86.5,
+   "end": 88.84,
+   "pic": "grandson"
+  },
+  {
+   "section": "Bridge",
+   "text": "Grandson? Grandson!",
+   "words": [
+    {
+     "t": "Grandson?",
+     "start": 88.84,
+     "end": 89.56,
+     "pic": "grandson"
+    },
+    {
+     "t": "Grandson!",
+     "start": 89.64,
+     "end": 90.78,
+     "pic": "grandson"
+    }
+   ],
+   "n": 28,
+   "start": 88.84,
+   "end": 90.78,
+   "pic": "grandson"
+  },
+  {
+   "section": "Bridge",
+   "text": "Oh my god!",
+   "words": [
+    {
+     "t": "Oh",
+     "start": 91.06,
+     "end": 91.54
+    },
+    {
+     "t": "my",
+     "start": 91.54,
+     "end": 92.02
+    },
+    {
+     "t": "god!",
+     "start": 92.02,
+     "end": 92.88
+    }
+   ],
+   "n": 29,
+   "start": 91.06,
+   "end": 92.88,
+   "pic": "grandson"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my mom.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 92.9,
+     "end": 93.1
+    },
+    {
+     "t": "is",
+     "start": 93.1,
+     "end": 93.38
+    },
+    {
+     "t": "this?",
+     "start": 93.38,
+     "end": 93.98
+    },
+    {
+     "t": "This",
+     "start": 94.02,
+     "end": 94.12
+    },
+    {
+     "t": "is",
+     "start": 94.12,
+     "end": 94.26
+    },
+    {
+     "t": "my",
+     "start": 94.26,
+     "end": 94.54
+    },
+    {
+     "t": "mom.",
+     "start": 94.54,
+     "end": 95.18,
+     "pic": "mom"
+    }
+   ],
+   "n": 30,
+   "start": 92.9,
+   "end": 95.18,
+   "pic": "thisismymom"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my dad.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 95.18,
+     "end": 95.4
+    },
+    {
+     "t": "is",
+     "start": 95.4,
+     "end": 95.66
+    },
+    {
+     "t": "this?",
+     "start": 95.66,
+     "end": 96.31
+    },
+    {
+     "t": "This",
+     "start": 96.34,
+     "end": 96.46
+    },
+    {
+     "t": "is",
+     "start": 96.5,
+     "end": 96.6
+    },
+    {
+     "t": "my",
+     "start": 96.6,
+     "end": 96.86
+    },
+    {
+     "t": "dad.",
+     "start": 96.86,
+     "end": 97.5,
+     "pic": "dad"
+    }
+   ],
+   "n": 31,
+   "start": 95.18,
+   "end": 97.5,
+   "pic": "dad"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my sister.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 97.5,
+     "end": 97.74
+    },
+    {
+     "t": "is",
+     "start": 97.74,
+     "end": 98.02
+    },
+    {
+     "t": "this?",
+     "start": 98.02,
+     "end": 98.64
+    },
+    {
+     "t": "This",
+     "start": 98.7,
+     "end": 98.82
+    },
+    {
+     "t": "is",
+     "start": 98.82,
+     "end": 98.96
+    },
+    {
+     "t": "my",
+     "start": 98.96,
+     "end": 99.12
+    },
+    {
+     "t": "sister.",
+     "start": 99.12,
+     "end": 99.52,
+     "pic": "sister"
+    }
+   ],
+   "n": 32,
+   "start": 97.5,
+   "end": 99.52,
+   "pic": "sister"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who is this? This is my brother.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 102.34,
+     "end": 102.55
+    },
+    {
+     "t": "is",
+     "start": 102.57,
+     "end": 102.74
+    },
+    {
+     "t": "this?",
+     "start": 102.76,
+     "end": 103.06
+    },
+    {
+     "t": "This",
+     "start": 103.08,
+     "end": 103.34
+    },
+    {
+     "t": "is",
+     "start": 103.36,
+     "end": 103.52
+    },
+    {
+     "t": "my",
+     "start": 103.54,
+     "end": 103.71
+    },
+    {
+     "t": "brother.",
+     "start": 103.73,
+     "end": 104.19,
+     "pic": "brother"
+    }
+   ],
+   "n": 33,
+   "start": 102.34,
+   "end": 104.19,
+   "pic": "brother"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my family, yeah!",
+   "words": [
+    {
+     "t": "This",
+     "start": 105.08,
+     "end": 105.32
+    },
+    {
+     "t": "is",
+     "start": 105.5,
+     "end": 105.8
+    },
+    {
+     "t": "my",
+     "start": 105.8,
+     "end": 106.1
+    },
+    {
+     "t": "family,",
+     "start": 106.1,
+     "end": 106.84
+    },
+    {
+     "t": "yeah!",
+     "start": 109.1,
+     "end": 109.9
+    }
+   ],
+   "n": 34,
+   "start": 105.08,
+   "end": 109.9,
+   "pic": "brother"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my family!",
+   "words": [
+    {
+     "t": "This",
+     "start": 109.9,
+     "end": 110.59
+    },
+    {
+     "t": "is",
+     "start": 110.61,
+     "end": 111.07
+    },
+    {
+     "t": "my",
+     "start": 111.09,
+     "end": 111.55
+    },
+    {
+     "t": "family!",
+     "start": 111.57,
+     "end": 112.64
+    }
+   ],
+   "n": 35,
+   "start": 109.9,
+   "end": 112.64,
+   "pic": "brother"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Who is this? This is my mom.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 112.74,
+     "end": 113.3
+    },
+    {
+     "t": "is",
+     "start": 113.32,
+     "end": 113.77
+    },
+    {
+     "t": "this?",
+     "start": 113.79,
+     "end": 114.59
+    },
+    {
+     "t": "This",
+     "start": 114.61,
+     "end": 115.29
+    },
+    {
+     "t": "is",
+     "start": 115.31,
+     "end": 115.75
+    },
+    {
+     "t": "my",
+     "start": 115.77,
+     "end": 116.22
+    },
+    {
+     "t": "mom.",
+     "start": 116.24,
+     "end": 116.94,
+     "pic": "mom"
+    }
+   ],
+   "n": 36,
+   "start": 112.74,
+   "end": 116.94,
+   "pic": "thisismymom"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Who is this? This is my dad.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 113.84,
+     "end": 114.12
+    },
+    {
+     "t": "is",
+     "start": 114.14,
+     "end": 114.36
+    },
+    {
+     "t": "this?",
+     "start": 114.38,
+     "end": 114.78
+    },
+    {
+     "t": "This",
+     "start": 114.8,
+     "end": 115.14
+    },
+    {
+     "t": "is",
+     "start": 115.16,
+     "end": 115.38
+    },
+    {
+     "t": "my",
+     "start": 115.4,
+     "end": 115.62
+    },
+    {
+     "t": "dad.",
+     "start": 115.64,
+     "end": 116.0,
+     "pic": "dad"
+    }
+   ],
+   "n": 37,
+   "start": 113.84,
+   "end": 116.0,
+   "pic": "dad"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Who is this? This is my sister.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 116.02,
+     "end": 116.27
+    },
+    {
+     "t": "is",
+     "start": 116.29,
+     "end": 116.49
+    },
+    {
+     "t": "this?",
+     "start": 116.51,
+     "end": 116.87
+    },
+    {
+     "t": "This",
+     "start": 116.89,
+     "end": 117.2
+    },
+    {
+     "t": "is",
+     "start": 117.22,
+     "end": 117.41
+    },
+    {
+     "t": "my",
+     "start": 117.43,
+     "end": 117.63
+    },
+    {
+     "t": "sister.",
+     "start": 117.65,
+     "end": 118.14,
+     "pic": "sister"
+    }
+   ],
+   "n": 38,
+   "start": 116.02,
+   "end": 118.14,
+   "pic": "sister"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Who is this? This is my brother.",
+   "words": [
+    {
+     "t": "Who",
+     "start": 120.74,
+     "end": 120.96
+    },
+    {
+     "t": "is",
+     "start": 120.98,
+     "end": 121.15
+    },
+    {
+     "t": "this?",
+     "start": 121.17,
+     "end": 121.48
+    },
+    {
+     "t": "This",
+     "start": 121.5,
+     "end": 121.76
+    },
+    {
+     "t": "is",
+     "start": 121.78,
+     "end": 121.95
+    },
+    {
+     "t": "my",
+     "start": 121.97,
+     "end": 122.14
+    },
+    {
+     "t": "brother.",
+     "start": 122.16,
+     "end": 122.64,
+     "pic": "brother"
+    }
+   ],
+   "n": 39,
+   "start": 120.74,
+   "end": 122.64,
+   "pic": "brother"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "This is my family, yeah!",
+   "words": [
+    {
+     "t": "This",
+     "start": 123.7,
+     "end": 123.86
+    },
+    {
+     "t": "is",
+     "start": 123.86,
+     "end": 124.28
+    },
+    {
+     "t": "my",
+     "start": 124.28,
+     "end": 124.66
+    },
+    {
+     "t": "family,",
+     "start": 124.66,
+     "end": 125.3
+    },
+    {
+     "t": "yeah!",
+     "start": 126.13,
+     "end": 127.08
+    }
+   ],
+   "n": 40,
+   "start": 123.7,
+   "end": 127.08,
+   "pic": "brother"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "This is my family!",
+   "words": [
+    {
+     "t": "This",
+     "start": 127.1,
+     "end": 127.22
+    },
+    {
+     "t": "is",
+     "start": 127.22,
+     "end": 127.32
+    },
+    {
+     "t": "my",
+     "start": 127.32,
+     "end": 127.5
+    },
+    {
+     "t": "family!",
+     "start": 127.5,
+     "end": 128.28
+    }
+   ],
+   "n": 41,
+   "start": 127.1,
+   "end": 128.28,
+   "pic": "brother"
+  },
+  {
+   "section": "Outro",
+   "text": "This is my family! Who is this?",
+   "words": [
+    {
+     "t": "This",
+     "start": 128.3,
+     "end": 128.56
+    },
+    {
+     "t": "is",
+     "start": 128.56,
+     "end": 128.98
+    },
+    {
+     "t": "my",
+     "start": 128.98,
+     "end": 129.3
+    },
+    {
+     "t": "family!",
+     "start": 129.3,
+     "end": 130.24
+    },
+    {
+     "t": "Who",
+     "start": 130.24,
+     "end": 130.44
+    },
+    {
+     "t": "is",
+     "start": 130.44,
+     "end": 130.82
+    },
+    {
+     "t": "this?",
+     "start": 130.82,
+     "end": 131.6
+    }
+   ],
+   "n": 42,
+   "start": 128.3,
+   "end": 131.6,
+   "pic": "brother"
+  },
+  {
+   "section": "Outro",
+   "text": "This is my family!",
+   "words": [
+    {
+     "t": "This",
+     "start": 131.6,
+     "end": 131.82
+    },
+    {
+     "t": "is",
+     "start": 131.82,
+     "end": 132.0
+    },
+    {
+     "t": "my",
+     "start": 132.0,
+     "end": 132.24
+    },
+    {
+     "t": "family!",
+     "start": 132.24,
+     "end": 132.84
+    }
+   ],
+   "n": 43,
+   "start": 131.6,
+   "end": 132.84,
+   "pic": "brother"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "mom",
+   "prompt": "Who is this?",
+   "answer": "mom",
+   "choices": [
+    "mom",
+    "dad",
+    "uncle"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "brother",
+   "prompt": "Listen. Who?",
+   "answer": "brother",
+   "choices": [
+    "sister",
+    "brother",
+    "aunt"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "grandmother",
+   "prompt": "Who is this?",
+   "answer": "grandmother",
+   "choices": [
+    "grandmother",
+    "cousin",
+    "sister"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "uncle",
+   "prompt": "Listen. Who?",
+   "answer": "uncle",
+   "choices": [
+    "uncle",
+    "mom",
+    "nephew"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "dad",
+   "prompt": "Who is this?",
+   "answer": "dad",
+   "choices": [
+    "aunt",
+    "dad",
+    "cousin"
+   ]
+  }
+ ]
+}
