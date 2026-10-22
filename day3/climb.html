@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mountain Climb Quiz</title>
+<link rel="icon" href="../favicon.ico">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:"Comic Sans MS","Trebuchet MS",system-ui,sans-serif;background:linear-gradient(#7fd3ff,#d8f3ff);color:#223;min-height:100vh}
+#app{max-width:980px;margin:auto;padding:10px;display:flex;gap:12px;flex-wrap:wrap}
+#mt{flex:1 1 300px;min-height:300px;position:relative}
+#mt svg{width:100%;height:100%;max-height:520px;display:block}
+#card{flex:1 1 360px;background:#fff;border-radius:22px;padding:16px;box-shadow:0 6px 0 #8bb;text-align:center}
+h1{font-size:22px;margin:4px 0;color:#e8590c}.p{font-size:20px;margin:8px 0}
+.bar{height:12px;background:#eee;border-radius:9px;overflow:hidden;margin:6px 0}.bar i{display:block;height:100%;background:#40c057;width:0;transition:.4s}
+.ch{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0}
+button{font:inherit;font-size:20px;border:0;border-radius:16px;padding:12px;background:#ffd43b;box-shadow:0 4px 0 #e0a800;cursor:pointer;color:#223}
+button:active{transform:translateY(3px);box-shadow:0 1px 0 #e0a800}
+.pic{background:#f1f9ff;padding:6px}.pic img{width:100%;max-width:150px;aspect-ratio:1;object-fit:contain}
+.big img{width:170px;height:170px;object-fit:contain}
+.ok{background:#69db7c!important;box-shadow:0 4px 0 #2f9e44!important}.no{background:#ff8787!important;box-shadow:0 4px 0 #c92a2a!important}
+.snd{background:#74c0fc;box-shadow:0 4px 0 #1c7ed6;font-size:26px}
+.slots{min-height:56px;border:3px dashed #74c0fc;border-radius:14px;margin:8px 0;padding:6px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center}
+.tiles{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.sent{font-size:26px;margin:10px}.blank{display:inline-block;min-width:70px;border-bottom:4px solid #e8590c;color:#e8590c}
+#fb{font-size:22px;min-height:30px;font-weight:bold}
+.pct{font-size:96px;font-weight:bold;margin:0}.pass{color:#2f9e44}.fail{color:#e8590c}
+#climber{transition:transform .8s cubic-bezier(.3,1.4,.5,1)}
+.skip{position:fixed;right:8px;bottom:8px;background:#ff6b6b;color:#fff;font-size:14px;padding:8px 12px;z-index:9}
+</style></head><body>
+<div id="app">
+ <div id="mt"><svg viewBox="0 0 300 400" aria-label="mountain">
+  <circle cx="250" cy="50" r="28" fill="#ffe066"/>
+  <polygon points="10,395 150,20 290,395" fill="#8ce99a"/>
+  <polygon points="150,20 195,140 170,125 150,145 128,122 107,140" fill="#fff"/>
+  <polygon points="150,20 290,395 220,395" fill="#69db7c" opacity=".6"/>
+  <g id="steps"></g>
+  <g transform="translate(150,20)"><line x1="0" y1="0" x2="0" y2="-18" stroke="#333" stroke-width="2"/><polygon points="0,-18 18,-12 0,-6" fill="#fa5252"/></g>
+  <g id="climber"><circle r="14" fill="#fff" stroke="#e8590c" stroke-width="3"/><text y="7" text-anchor="middle" font-size="20">🧗</text></g>
+ </svg></div>
+ <div id="card"></div>
+</div>
+<script>
+const qs=new URLSearchParams(location.search),UNIT=qs.get('unit')||'basic_a_u06',TEST=qs.get('test')==='1';
+let D,i=0,right=0,pos=0,locked=false,N=0;const card=document.getElementById('card');
+const sh=a=>a.map(v=>[Math.random(),v]).sort((x,y)=>x[0]-y[0]).map(v=>v[1]);
+function aud(src){try{const a=new Audio(src);a.play().catch(()=>{})}catch(e){}}
+const word=w=>aud(D.wordAudio+w.split(' ')[0]+'.mp3'),line=f=>aud(D.lineAudio+f);
+const pic=w=>`<img src="${D.picDir}${w}.webp" alt="${w}">`;
+function spot(p){const t=p/N,y=380-t*350,x=150+Math.sin(t*9)*(70*(1-t));return[x,y]}
+function move(){const[x,y]=spot(pos);document.getElementById('climber').setAttribute('transform',`translate(${x},${y})`);
+ document.getElementById('climber').style.transform='';}
+function drawSteps(){let s='';for(let k=0;k<=N;k++){const[x,y]=spot(k);s+=`<circle cx="${x}" cy="${y}" r="4" fill="#5c940d"/>`}document.getElementById('steps').innerHTML=s}
+function head(){return `<h1>${D.title}</h1><div>Question ${i+1} / ${N} · ⭐ ${right}</div><div class="bar"><i style="width:${i/N*100}%"></i></div>`}
+function show(){locked=false;const q=D.questions[i];let h=head()+`<div class="p">${q.prompt}</div>`;
+ if(q.type==='listen'){h+=`<button class="snd" id="play">🔊 Listen</button><div class="ch">`+sh(q.choices).map(c=>`<button class="pic" data-a="${c}">${pic(c)}</button>`).join('')+`</div>`}
+ else if(q.type==='spell'){h+=`<div class="big">${pic(q.pic)}</div><div class="ch">`+sh(q.choices).map(c=>`<button data-a="${c}">${c}</button>`).join('')+`</div>`}
+ else if(q.type==='fill'){h+=(q.pic?`<div class="big">${pic(q.pic)}</div>`:'')+`<div class="sent">${q.sentence.map(w=>w==='___'?'<span class="blank">?</span>':w).join(' ').replace(' .','.').replace(' ?','?')}</div><div class="ch">`+sh(q.choices).map(c=>`<button data-a="${c}">${c}</button>`).join('')+`</div>`}
+ else if(q.type==='order'){h+=(q.pic?`<div class="big">${pic(q.pic)}</div>`:'')+(q.audio?`<button class="snd" id="play">🔊</button>`:'')+`<div class="slots" id="slots"></div><div class="tiles" id="tiles">`+sh(q.answer.map((w,k)=>[w,k])).map(([w,k])=>`<button data-t="${k}">${w}</button>`).join('')+`</div>`}
+ h+=`<div id="fb"></div>`;card.innerHTML=h;
+ const pl=document.getElementById('play');if(pl)pl.onclick=()=>q.audio?line(q.audio):word(q.answer);
+ if(q.type==='listen')setTimeout(()=>word(q.answer),300);
+ card.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>check(b.dataset.a===q.answer,b));
+ if(q.type==='order'){const built=[];card.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{if(locked)return;
+  const s=document.getElementById('slots');if(b.parentNode.id==='tiles'){s.appendChild(b);built.push(b.textContent)}else{document.getElementById('tiles').appendChild(b);built.splice(built.indexOf(b.textContent),1)}
+  if(built.length===q.answer.length)check(built.join(' ')===q.answer.join(' '),null)})}
+}
+function check(ok,btn){if(locked)return;locked=true;const q=D.questions[i],fb=document.getElementById('fb');
+ if(ok){right++;pos=Math.min(N,pos+1);btn&&btn.classList.add('ok');fb.innerHTML='🎉 Great job! Climb up!';fb.style.color='#2f9e44';line(D.lines.great)}
+ else{pos=Math.max(0,pos-0.5);btn&&btn.classList.add('no');
+  const ans=Array.isArray(q.answer)?q.answer.join(' '):q.answer;
+  card.querySelectorAll('[data-a]').forEach(b=>{if(b.dataset.a===q.answer)b.classList.add('ok')});
+  fb.innerHTML='😮 Oops, slip! Right answer: <u>'+ans+'</u>';fb.style.color='#c92a2a';line(D.lines.oops)}
+ move();const c=document.getElementById('climber');if(!ok){c.animate([{transform:c.getAttribute('transform')+' rotate(-20)'}],{duration:1})}
+ setTimeout(next,ok?1500:2800)}
+function next(){i++;if(i<N)show();else end()}
+function end(){const p=Math.round(right/N*100),ps=p>=D.passPercent;if(ps){pos=N;move()}
+ card.innerHTML=`<h1>${D.title}</h1><p class="pct ${ps?'pass':'fail'}">${p}%</p><div style="font-size:28px">${right} / ${N} right</div>
+ <div class="p">${ps?'🏔️ PASS! You reached the top!':'Not yet — you need '+D.passPercent+'%. Try again!'}</div><button id="again">🔁 Play again</button>`;
+ line(ps?D.lines.pass:D.lines.retry);document.getElementById('again').onclick=start}
+function start(){i=0;right=0;pos=0;move();show()}
+fetch('data/'+UNIT+'.json').then(r=>{if(!r.ok)throw Error('No unit '+UNIT);return r.json()}).then(d=>{D=d;N=d.questions.length;drawSteps();
+ if(TEST){const b=document.createElement('button');b.className='skip';b.textContent='TEST: skip ✓';b.onclick=()=>{if(!locked&&i<N)check(true,null)};document.body.appendChild(b)}
+ start()}).catch(e=>card.innerHTML='<h1>Oops</h1><p>'+e.message+'</p>');
+</script></body></html>
