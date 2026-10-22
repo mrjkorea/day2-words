@@ -1,0 +1,521 @@
+{
+ "id": "int3b_u1",
+ "title": "INT 3B · Unit 1 · What Grade Are You In?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3b_u1/audio/us_f/",
+ "picDir": "../packs/int3b_u1/",
+ "lineAudio": "audio/int3b_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "first",
+   "choices": [
+    "first",
+    "kindergarten",
+    "sixth",
+    "eighth"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "second",
+   "choices": [
+    "second",
+    "fifth",
+    "sixth",
+    "kindergarten"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fourth",
+   "choices": [
+    "fourth",
+    "second",
+    "fifth",
+    "first"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "fifth",
+   "answer": "fifth",
+   "choices": [
+    "fifth",
+    "kifth",
+    "fofth",
+    "fifh"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "second",
+   "answer": "second",
+   "choices": [
+    "second",
+    "semond",
+    "seond",
+    "scond"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "kindergarten",
+   "audio": "audio/int3b_u1/{v}/iaminkindergarten.mp3",
+   "answer": [
+    "I",
+    "am",
+    "in",
+    "kindergarten."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "fifth",
+   "audio": "../packs/int3b_u1/audio/{v}/iaminfifthgrade.mp3",
+   "answer": [
+    "I",
+    "am",
+    "in",
+    "fifth",
+    "grade."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "eighth",
+   "audio": "audio/int3b_u1/{v}/iamineighthgrade.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "in",
+    "___",
+    "grade."
+   ],
+   "answer": "eighth",
+   "choices": [
+    "eighth",
+    "seventh",
+    "kindergarten"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "are",
+    "you",
+    "in?"
+   ],
+   "answer": "grade",
+   "choices": [
+    "grade",
+    "first",
+    "fifth"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "second",
+   "audio": "audio/int3b_u1/{v}/iaminsecondgrade.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "in",
+    "___",
+    "grade."
+   ],
+   "answer": "second",
+   "choices": [
+    "second",
+    "grade",
+    "fourth"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "grade",
+   "en": "grade",
+   "ko": "학년",
+   "pic": null,
+   "audio": "../packs/int3b_u1/audio/{v}/grade.mp3",
+   "stext": "What grade are you in?",
+   "sentence": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+  },
+  {
+   "id": "kindergarten",
+   "en": "kindergarten",
+   "ko": "유치원",
+   "pic": "../packs/int3b_u1/kindergarten.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/kindergarten.mp3",
+   "stext": "I am in kindergarten.",
+   "sentence": "audio/int3b_u1/{v}/iaminkindergarten.mp3"
+  },
+  {
+   "id": "first",
+   "en": "first",
+   "ko": "첫째, 1",
+   "pic": "../packs/int3b_u1/first.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/first.mp3",
+   "stext": "I am in first grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminfirstgrade.mp3"
+  },
+  {
+   "id": "second",
+   "en": "second",
+   "ko": "둘째, 2",
+   "pic": "../packs/int3b_u1/second.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/second.mp3",
+   "stext": "I am in second grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminsecondgrade.mp3"
+  },
+  {
+   "id": "third",
+   "en": "third",
+   "ko": "셋째, 3",
+   "pic": "../packs/int3b_u1/third.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/third.mp3",
+   "stext": "I am in third grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminthirdgrade.mp3"
+  },
+  {
+   "id": "fourth",
+   "en": "fourth",
+   "ko": "넷째, 4",
+   "pic": "../packs/int3b_u1/fourth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/fourth.mp3",
+   "stext": "I am in fourth grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminfourthgrade.mp3"
+  },
+  {
+   "id": "fifth",
+   "en": "fifth",
+   "ko": "다섯째, 5",
+   "pic": "../packs/int3b_u1/fifth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/fifth.mp3",
+   "stext": "I am in fifth grade.",
+   "sentence": "../packs/int3b_u1/audio/{v}/iaminfifthgrade.mp3"
+  },
+  {
+   "id": "sixth",
+   "en": "sixth",
+   "ko": "여섯째, 6",
+   "pic": "../packs/int3b_u1/sixth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/sixth.mp3",
+   "stext": "I am in sixth grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminsixthgrade.mp3"
+  },
+  {
+   "id": "seventh",
+   "en": "seventh",
+   "ko": "일곱째, 7",
+   "pic": "../packs/int3b_u1/seventh.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/seventh.mp3",
+   "stext": "I am in seventh grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminseventhgrade.mp3"
+  },
+  {
+   "id": "eighth",
+   "en": "eighth",
+   "ko": "여덟째, 8",
+   "pic": "../packs/int3b_u1/eighth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/eighth.mp3",
+   "stext": "I am in eighth grade.",
+   "sentence": "audio/int3b_u1/{v}/iamineighthgrade.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "me",
+   "en": "me",
+   "ko": "나",
+   "pic": "../packs/int3b_u4/me.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/me.mp3"
+  },
+  {
+   "id": "tall",
+   "en": "tall",
+   "ko": "키가 큰",
+   "pic": "../packs/int3b_u8/tall.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/tall.mp3"
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "pic": "../packs/int3b_u4/brother.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/brother.mp3"
+  },
+  {
+   "id": "teach",
+   "en": "teach",
+   "ko": "가르치다",
+   "pic": "../packs/int3b_u8/teach.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/teach.mp3"
+  },
+  {
+   "id": "lychee",
+   "en": "lychee",
+   "ko": "리치",
+   "pic": "../packs/int3b_u6/lychee.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lychee.mp3"
+  },
+  {
+   "id": "flute",
+   "en": "flute",
+   "ko": "플루트",
+   "pic": "../packs/int3b_u2/flute.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/flute.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "fifth",
+    "second",
+    "me",
+    "first"
+   ],
+   "odd": "me"
+  },
+  {
+   "items": [
+    "third",
+    "tall",
+    "kindergarten",
+    "fifth"
+   ],
+   "odd": "tall"
+  },
+  {
+   "items": [
+    "eighth",
+    "brother",
+    "kindergarten",
+    "seventh"
+   ],
+   "odd": "brother"
+  },
+  {
+   "items": [
+    "third",
+    "seventh",
+    "teach",
+    "fourth"
+   ],
+   "odd": "teach"
+  },
+  {
+   "items": [
+    "second",
+    "eighth",
+    "sixth",
+    "lychee"
+   ],
+   "odd": "lychee"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "grade",
+   "first",
+   "second",
+   "third",
+   "fourth",
+   "fifth"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "grade",
+   "kindergarten",
+   "first",
+   "second",
+   "third",
+   "fourth"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "grade",
+   "kindergarten",
+   "first",
+   "second",
+   "third",
+   "fourth",
+   "fifth"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What grade are you in?",
+   "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+  },
+  {
+   "text": "I am in fifth grade.",
+   "audio": "../packs/int3b_u1/audio/{v}/iaminfifthgrade.mp3"
+  },
+  {
+   "text": "I am in kindergarten.",
+   "audio": "audio/int3b_u1/{v}/iaminkindergarten.mp3"
+  },
+  {
+   "text": "I am in first grade.",
+   "audio": "audio/int3b_u1/{v}/iaminfirstgrade.mp3"
+  },
+  {
+   "text": "I am in second grade.",
+   "audio": "audio/int3b_u1/{v}/iaminsecondgrade.mp3"
+  },
+  {
+   "text": "I am in third grade.",
+   "audio": "audio/int3b_u1/{v}/iaminthirdgrade.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3b_u1/third.jpg",
+   "q": {
+    "text": "What grade are you in?",
+    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am in third grade.",
+     "audio": "audio/int3b_u1/ai/iaminthirdgrade.mp3"
+    },
+    {
+     "text": "I am in fifth grade.",
+     "audio": "audio/int3b_u1/ai/iaminfifthgrade.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u1/fifth.jpg",
+   "q": {
+    "text": "What grade are you in?",
+    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am in kindergarten.",
+     "audio": "audio/int3b_u1/ai/iaminkindergarten.mp3"
+    },
+    {
+     "text": "I am in fifth grade.",
+     "audio": "audio/int3b_u1/ai/iaminfifthgrade.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u1/second.jpg",
+   "q": {
+    "text": "What grade are you in?",
+    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am in second grade.",
+     "audio": "audio/int3b_u1/ai/iaminsecondgrade.mp3"
+    },
+    {
+     "text": "I am in kindergarten.",
+     "audio": "audio/int3b_u1/ai/iaminkindergarten.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u1/seventh.jpg",
+   "q": {
+    "text": "What grade are you in?",
+    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am in third grade.",
+     "audio": "audio/int3b_u1/ai/iaminthirdgrade.mp3"
+    },
+    {
+     "text": "I am in seventh grade.",
+     "audio": "audio/int3b_u1/ai/iaminseventhgrade.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u1/",
+  "ai": "audio/int3b_u1/ai/"
+ }
+}

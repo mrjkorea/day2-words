@@ -1,0 +1,517 @@
+{
+ "id": "int3b_u8",
+ "title": "INT 3B · Unit 8 · Do You Like Korea?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3b_u8/audio/us_f/",
+ "picDir": "../packs/int3b_u8/",
+ "lineAudio": "audio/int3b_u8/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "korea",
+   "choices": [
+    "korea",
+    "centimeter",
+    "secret",
+    "canada"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "canada",
+   "choices": [
+    "canada",
+    "food",
+    "weigh",
+    "teach"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "gimbap",
+   "choices": [
+    "gimbap",
+    "korea",
+    "food",
+    "centimeter"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "food",
+   "answer": "food",
+   "choices": [
+    "food",
+    "foon",
+    "fiod",
+    "fod"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "centimeter",
+   "answer": "centimeter",
+   "choices": [
+    "centimeter",
+    "cenimeter",
+    "centumeter",
+    "entimeter"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "tall",
+   "audio": "audio/int3b_u8/{v}/iamtall.mp3",
+   "answer": [
+    "I",
+    "am",
+    "tall."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "gimbap",
+   "audio": "audio/int3b_u8/{v}/ilikegimbap.mp3",
+   "answer": [
+    "I",
+    "like",
+    "gimbap."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "secret",
+   "audio": "audio/int3b_u8/{v}/itisasecret.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "secret",
+   "choices": [
+    "secret",
+    "English",
+    "Korea"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "teach",
+   "audio": "audio/int3b_u8/{v}/iteachenglish.mp3",
+   "sentence": [
+    "I",
+    "___",
+    "English."
+   ],
+   "answer": "teach",
+   "choices": [
+    "teach",
+    "tall",
+    "Korea"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "weigh",
+   "audio": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3",
+   "sentence": [
+    "How",
+    "much",
+    "do",
+    "you",
+    "___",
+    "?"
+   ],
+   "answer": "weigh",
+   "choices": [
+    "weigh",
+    "Korea",
+    "teach"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "canada",
+   "en": "Canada",
+   "ko": "캐나다",
+   "pic": "../packs/int3b_u8/canada.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/canada.mp3",
+   "stext": "I am from Canada.",
+   "sentence": "../packs/int3b_u8/audio/{v}/iamfromcanada.mp3"
+  },
+  {
+   "id": "korea",
+   "en": "Korea",
+   "ko": "한국",
+   "pic": "../packs/int3b_u8/korea.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/korea.mp3",
+   "stext": "I live in Korea.",
+   "sentence": "audio/int3b_u8/{v}/iliveinkorea.mp3"
+  },
+  {
+   "id": "tall",
+   "en": "tall",
+   "ko": "키가 큰",
+   "pic": "../packs/int3b_u8/tall.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/tall.mp3",
+   "stext": "I am tall.",
+   "sentence": "audio/int3b_u8/{v}/iamtall.mp3"
+  },
+  {
+   "id": "centimeter",
+   "en": "centimeter",
+   "ko": "센티미터",
+   "pic": "../packs/int3b_u8/centimeter.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/centimeter.mp3",
+   "stext": "I am one hundred eighty centimeters tall.",
+   "sentence": "audio/int3b_u8/{v}/iamonehundredeightycentimeterstall.mp3"
+  },
+  {
+   "id": "teach",
+   "en": "teach",
+   "ko": "가르치다",
+   "pic": "../packs/int3b_u8/teach.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/teach.mp3",
+   "stext": "I teach English.",
+   "sentence": "audio/int3b_u8/{v}/iteachenglish.mp3"
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "pic": null,
+   "audio": "../packs/int3b_u8/audio/{v}/english.mp3",
+   "stext": "I speak English.",
+   "sentence": "audio/int3b_u8/{v}/ispeakenglish.mp3"
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "pic": "../packs/int3b_u8/food.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/food.mp3",
+   "stext": "I like Korean food.",
+   "sentence": "audio/int3b_u8/{v}/ilikekoreanfood.mp3"
+  },
+  {
+   "id": "gimbap",
+   "en": "gimbap",
+   "ko": "김밥",
+   "pic": "../packs/int3b_u8/gimbap.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/gimbap.mp3",
+   "stext": "I like gimbap.",
+   "sentence": "audio/int3b_u8/{v}/ilikegimbap.mp3"
+  },
+  {
+   "id": "weigh",
+   "en": "weigh",
+   "ko": "무게가 ~이다",
+   "pic": "../packs/int3b_u8/weigh.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/weigh.mp3",
+   "stext": "How much do you weigh?",
+   "sentence": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3"
+  },
+  {
+   "id": "secret",
+   "en": "secret",
+   "ko": "비밀",
+   "pic": "../packs/int3b_u8/secret.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/secret.mp3",
+   "stext": "It is a secret.",
+   "sentence": "audio/int3b_u8/{v}/itisasecret.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "saxophone",
+   "en": "saxophone",
+   "ko": "색소폰",
+   "pic": "../packs/int3b_u2/saxophone.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/saxophone.mp3"
+  },
+  {
+   "id": "kindergarten",
+   "en": "kindergarten",
+   "ko": "유치원",
+   "pic": "../packs/int3b_u1/kindergarten.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/kindergarten.mp3"
+  },
+  {
+   "id": "gayageum",
+   "en": "gayageum",
+   "ko": "가야금",
+   "pic": "../packs/int3b_u2/gayageum.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/gayageum.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/int3b_u4/grandmother.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/grandmother.mp3"
+  },
+  {
+   "id": "rambutan",
+   "en": "rambutan",
+   "ko": "람부탄",
+   "pic": "../packs/int3b_u6/rambutan.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/rambutan.mp3"
+  },
+  {
+   "id": "fourth",
+   "en": "fourth",
+   "ko": "넷째, 4",
+   "pic": "../packs/int3b_u1/fourth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/fourth.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "gimbap",
+    "tall",
+    "food",
+    "saxophone"
+   ],
+   "odd": "saxophone"
+  },
+  {
+   "items": [
+    "secret",
+    "kindergarten",
+    "tall",
+    "centimeter"
+   ],
+   "odd": "kindergarten"
+  },
+  {
+   "items": [
+    "gayageum",
+    "gimbap",
+    "centimeter",
+    "tall"
+   ],
+   "odd": "gayageum"
+  },
+  {
+   "items": [
+    "gimbap",
+    "korea",
+    "grandmother",
+    "food"
+   ],
+   "odd": "grandmother"
+  },
+  {
+   "items": [
+    "weigh",
+    "food",
+    "rambutan",
+    "tall"
+   ],
+   "odd": "rambutan"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "canada",
+   "korea",
+   "tall",
+   "teach",
+   "english",
+   "food"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "canada",
+   "korea",
+   "tall",
+   "centimeter",
+   "teach",
+   "english"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "canada",
+   "korea",
+   "tall",
+   "centimeter",
+   "teach",
+   "english",
+   "food"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Where are you from?",
+   "audio": "../packs/int3b_u8/audio/{v}/whereareyoufrom.mp3"
+  },
+  {
+   "text": "I am from Canada.",
+   "audio": "../packs/int3b_u8/audio/{v}/iamfromcanada.mp3"
+  },
+  {
+   "text": "I live in Korea.",
+   "audio": "audio/int3b_u8/{v}/iliveinkorea.mp3"
+  },
+  {
+   "text": "I am tall.",
+   "audio": "audio/int3b_u8/{v}/iamtall.mp3"
+  },
+  {
+   "text": "I am one hundred eighty centimeters tall.",
+   "audio": "audio/int3b_u8/{v}/iamonehundredeightycentimeterstall.mp3"
+  },
+  {
+   "text": "I teach English.",
+   "audio": "audio/int3b_u8/{v}/iteachenglish.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3b_u8/canada.jpg",
+   "q": {
+    "text": "Where are you from?",
+    "audio": "../packs/int3b_u8/audio/{v}/whereareyoufrom.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am from Canada.",
+     "audio": "audio/int3b_u8/ai/iamfromcanada.mp3"
+    },
+    {
+     "text": "I am very tall.",
+     "audio": "audio/int3b_u8/ai/iamverytall.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u8/teach.jpg",
+   "q": {
+    "text": "What do you do?",
+    "audio": "audio/int3b_u8/{v}/whatdoyoudo.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like gimbap.",
+     "audio": "audio/int3b_u8/ai/ilikegimbap.mp3"
+    },
+    {
+     "text": "I teach English.",
+     "audio": "audio/int3b_u8/ai/iteachenglish.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u8/gimbap.jpg",
+   "q": {
+    "text": "What food do you like?",
+    "audio": "audio/int3b_u8/{v}/whatfooddoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am from Canada.",
+     "audio": "audio/int3b_u8/ai/iamfromcanada.mp3"
+    },
+    {
+     "text": "I like gimbap.",
+     "audio": "audio/int3b_u8/ai/ilikegimbap.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u8/secret.jpg",
+   "q": {
+    "text": "How much do you weigh?",
+    "audio": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3"
+   },
+   "choices": [
+    {
+     "text": "I teach English.",
+     "audio": "audio/int3b_u8/ai/iteachenglish.mp3"
+    },
+    {
+     "text": "It is a secret.",
+     "audio": "audio/int3b_u8/ai/itisasecret.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u8/",
+  "ai": "audio/int3b_u8/ai/"
+ }
+}

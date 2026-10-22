@@ -1,0 +1,482 @@
+{
+ "id": "int3b_u5",
+ "title": "INT 3B · Unit 5 · Eat Up",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3b_u5/audio/us_f/",
+ "picDir": "../packs/int3b_u5/",
+ "lineAudio": "audio/int3b_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "eatup",
+   "choices": [
+    "eatup",
+    "washup",
+    "giveup",
+    "cleanup"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "putdown",
+   "choices": [
+    "putdown",
+    "giveup",
+    "cooldown",
+    "eatup"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "comedown",
+   "choices": [
+    "comedown",
+    "slowdown",
+    "giveup",
+    "cooldown"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "cooldown",
+   "answer": "cool down",
+   "choices": [
+    "cool down",
+    "cool duwn",
+    "cooldown",
+    "ool down"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "putdown",
+   "answer": "put down",
+   "choices": [
+    "put down",
+    "pt down",
+    "put dwn",
+    "ut down"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "giveup",
+   "audio": "audio/int3b_u5/{v}/dontgiveup.mp3",
+   "answer": [
+    "Don't",
+    "give",
+    "up!"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "hurryup",
+   "audio": "audio/int3b_u5/{v}/hurryupplease.mp3",
+   "answer": [
+    "Hurry",
+    "up,",
+    "please!"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cleanup",
+   "choices": [
+    "cleanup",
+    "washup",
+    "cooldown",
+    "putdown"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "slowdown",
+   "choices": [
+    "slowdown",
+    "eatup",
+    "hurryup",
+    "putdown"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cooldown",
+   "choices": [
+    "cooldown",
+    "putdown",
+    "hurryup",
+    "comedown"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "eatup",
+   "en": "eat up",
+   "ko": "다 먹다",
+   "pic": "../packs/int3b_u5/eatup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/eatup.mp3",
+   "stext": "Eat up your food!",
+   "sentence": "audio/int3b_u5/{v}/eatupyourfood.mp3"
+  },
+  {
+   "id": "washup",
+   "en": "wash up",
+   "ko": "씻다",
+   "pic": "../packs/int3b_u5/washup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/washup.mp3",
+   "stext": "Wash up before dinner!",
+   "sentence": "audio/int3b_u5/{v}/washupbeforedinner.mp3"
+  },
+  {
+   "id": "hurryup",
+   "en": "hurry up",
+   "ko": "서두르다",
+   "pic": "../packs/int3b_u5/hurryup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/hurryup.mp3",
+   "stext": "Hurry up, please!",
+   "sentence": "audio/int3b_u5/{v}/hurryupplease.mp3"
+  },
+  {
+   "id": "cleanup",
+   "en": "clean up",
+   "ko": "치우다, 청소하다",
+   "pic": "../packs/int3b_u5/cleanup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/cleanup.mp3",
+   "stext": "Clean up your room!",
+   "sentence": "audio/int3b_u5/{v}/cleanupyourroom.mp3"
+  },
+  {
+   "id": "slowdown",
+   "en": "slow down",
+   "ko": "속도를 줄이다",
+   "pic": "../packs/int3b_u5/slowdown.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/slowdown.mp3",
+   "stext": "Slow down, please!",
+   "sentence": "audio/int3b_u5/{v}/slowdownplease.mp3"
+  },
+  {
+   "id": "putdown",
+   "en": "put down",
+   "ko": "내려놓다",
+   "pic": "../packs/int3b_u5/putdown.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/putdown.mp3",
+   "stext": "Put it down, please!",
+   "sentence": "audio/int3b_u5/{v}/putitdownplease.mp3"
+  },
+  {
+   "id": "comedown",
+   "en": "come down",
+   "ko": "내려오다",
+   "pic": "../packs/int3b_u5/comedown.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/comedown.mp3",
+   "stext": "Come down from there!",
+   "sentence": "audio/int3b_u5/{v}/comedownfromthere.mp3"
+  },
+  {
+   "id": "giveup",
+   "en": "give up",
+   "ko": "포기하다",
+   "pic": "../packs/int3b_u5/giveup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/giveup.mp3",
+   "stext": "Don't give up!",
+   "sentence": "audio/int3b_u5/{v}/dontgiveup.mp3"
+  },
+  {
+   "id": "cooldown",
+   "en": "cool down",
+   "ko": "식히다",
+   "pic": "../packs/int3b_u5/cooldown.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/cooldown.mp3",
+   "stext": "Cool down, please!",
+   "sentence": "audio/int3b_u5/{v}/cooldownplease.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3b_u7/hat.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/hat.mp3"
+  },
+  {
+   "id": "pineapple",
+   "en": "pineapple",
+   "ko": "파인애플",
+   "pic": "../packs/int3b_u6/pineapple.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/pineapple.mp3"
+  },
+  {
+   "id": "ukulele",
+   "en": "ukulele",
+   "ko": "우쿨렐레",
+   "pic": "../packs/int3b_u2/ukulele.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/ukulele.mp3"
+  },
+  {
+   "id": "fifth",
+   "en": "fifth",
+   "ko": "다섯째, 5",
+   "pic": "../packs/int3b_u1/fifth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/fifth.mp3"
+  },
+  {
+   "id": "ninth",
+   "en": "ninth",
+   "ko": "아홉째, 9",
+   "pic": "../packs/int3b_u1/ninth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/ninth.mp3"
+  },
+  {
+   "id": "lunch",
+   "en": "lunch",
+   "ko": "점심",
+   "pic": "../packs/int3b_u7/lunch.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/lunch.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "giveup",
+    "comedown",
+    "hat",
+    "hurryup"
+   ],
+   "odd": "hat"
+  },
+  {
+   "items": [
+    "pineapple",
+    "eatup",
+    "putdown",
+    "giveup"
+   ],
+   "odd": "pineapple"
+  },
+  {
+   "items": [
+    "eatup",
+    "slowdown",
+    "ukulele",
+    "giveup"
+   ],
+   "odd": "ukulele"
+  },
+  {
+   "items": [
+    "eatup",
+    "putdown",
+    "fifth",
+    "washup"
+   ],
+   "odd": "fifth"
+  },
+  {
+   "items": [
+    "eatup",
+    "ninth",
+    "washup",
+    "putdown"
+   ],
+   "odd": "ninth"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "eatup",
+   "washup",
+   "hurryup",
+   "cleanup",
+   "putdown",
+   "giveup"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "eatup",
+   "washup",
+   "hurryup",
+   "cleanup",
+   "slowdown",
+   "putdown"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "eatup",
+   "washup",
+   "hurryup",
+   "cleanup",
+   "slowdown",
+   "putdown",
+   "comedown"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Be quiet!",
+   "audio": "../packs/int3b_u5/audio/{v}/bequiet.mp3"
+  },
+  {
+   "text": "Eat up your food!",
+   "audio": "audio/int3b_u5/{v}/eatupyourfood.mp3"
+  },
+  {
+   "text": "Wash up before dinner!",
+   "audio": "audio/int3b_u5/{v}/washupbeforedinner.mp3"
+  },
+  {
+   "text": "Hurry up, please!",
+   "audio": "audio/int3b_u5/{v}/hurryupplease.mp3"
+  },
+  {
+   "text": "Clean up your room!",
+   "audio": "audio/int3b_u5/{v}/cleanupyourroom.mp3"
+  },
+  {
+   "text": "Slow down, please!",
+   "audio": "audio/int3b_u5/{v}/slowdownplease.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3b_u5/hurryup.jpg",
+   "q": {
+    "text": "What should I do?",
+    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
+   },
+   "choices": [
+    {
+     "text": "Hurry up, please!",
+     "audio": "audio/int3b_u5/ai/hurryupplease.mp3"
+    },
+    {
+     "text": "Slow down, please!",
+     "audio": "audio/int3b_u5/ai/slowdownplease.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u5/cooldown.jpg",
+   "q": {
+    "text": "What should I do?",
+    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
+   },
+   "choices": [
+    {
+     "text": "Hurry up, please!",
+     "audio": "audio/int3b_u5/ai/hurryupplease.mp3"
+    },
+    {
+     "text": "Cool down, please!",
+     "audio": "audio/int3b_u5/ai/cooldownplease.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u5/cleanup.jpg",
+   "q": {
+    "text": "What should I do?",
+    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
+   },
+   "choices": [
+    {
+     "text": "Clean up your room!",
+     "audio": "audio/int3b_u5/ai/cleanupyourroom.mp3"
+    },
+    {
+     "text": "Eat up your food!",
+     "audio": "audio/int3b_u5/ai/eatupyourfood.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u5/putdown.jpg",
+   "q": {
+    "text": "What should I do?",
+    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
+   },
+   "choices": [
+    {
+     "text": "Slow down, please!",
+     "audio": "audio/int3b_u5/ai/slowdownplease.mp3"
+    },
+    {
+     "text": "Put it down, please!",
+     "audio": "audio/int3b_u5/ai/putitdownplease.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u5/",
+  "ai": "audio/int3b_u5/ai/"
+ }
+}

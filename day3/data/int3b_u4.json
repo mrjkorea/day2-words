@@ -1,0 +1,519 @@
+{
+ "id": "int3b_u4",
+ "title": "INT 3B · Unit 4 · Who is This?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3b_u4/audio/us_f/",
+ "picDir": "../packs/int3b_u4/",
+ "lineAudio": "audio/int3b_u4/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "dad",
+   "choices": [
+    "dad",
+    "aunt",
+    "me",
+    "grandfather"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "aunt",
+   "choices": [
+    "aunt",
+    "mom",
+    "me",
+    "grandmother"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "grandmother",
+   "choices": [
+    "grandmother",
+    "brother",
+    "sister",
+    "aunt"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "sister",
+   "answer": "sister",
+   "choices": [
+    "sister",
+    "siter",
+    "sistec",
+    "sismer"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "teacher",
+   "answer": "teacher",
+   "choices": [
+    "teacher",
+    "toacher",
+    "teached",
+    "teacer"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "mom",
+   "audio": "audio/int3b_u4/{v}/sheismymom.mp3",
+   "answer": [
+    "She",
+    "is",
+    "my",
+    "mom."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "me",
+   "audio": "audio/int3b_u4/{v}/itisme.mp3",
+   "answer": [
+    "It",
+    "is",
+    "me!"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "aunt",
+   "audio": "audio/int3b_u4/{v}/sheismyaunt.mp3",
+   "sentence": [
+    "She",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "aunt",
+   "choices": [
+    "aunt",
+    "grandfather",
+    "sister"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "uncle",
+   "audio": "audio/int3b_u4/{v}/heismyuncle.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "uncle",
+   "choices": [
+    "uncle",
+    "grandfather",
+    "aunt"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "grandmother",
+   "audio": "../packs/int3b_u4/audio/{v}/sheismygrandmother.mp3",
+   "sentence": [
+    "She",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "grandmother",
+   "choices": [
+    "grandmother",
+    "uncle",
+    "dad"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "mom",
+   "en": "mom",
+   "ko": "엄마",
+   "pic": "../packs/int3b_u4/mom.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/mom.mp3",
+   "stext": "She is my mom.",
+   "sentence": "audio/int3b_u4/{v}/sheismymom.mp3"
+  },
+  {
+   "id": "aunt",
+   "en": "aunt",
+   "ko": "고모, 이모",
+   "pic": "../packs/int3b_u4/aunt.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/aunt.mp3",
+   "stext": "She is my aunt.",
+   "sentence": "audio/int3b_u4/{v}/sheismyaunt.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/int3b_u4/grandmother.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/grandmother.mp3",
+   "stext": "She is my grandmother.",
+   "sentence": "../packs/int3b_u4/audio/{v}/sheismygrandmother.mp3"
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "언니, 누나, 여동생",
+   "pic": "../packs/int3b_u4/sister.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/sister.mp3",
+   "stext": "She is my sister.",
+   "sentence": "audio/int3b_u4/{v}/sheismysister.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": "../packs/int3b_u4/teacher.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/teacher.mp3",
+   "stext": "She is my teacher.",
+   "sentence": "audio/int3b_u4/{v}/sheismyteacher.mp3"
+  },
+  {
+   "id": "dad",
+   "en": "dad",
+   "ko": "아빠",
+   "pic": "../packs/int3b_u4/dad.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/dad.mp3",
+   "stext": "He is my dad.",
+   "sentence": "audio/int3b_u4/{v}/heismydad.mp3"
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "pic": "../packs/int3b_u4/brother.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/brother.mp3",
+   "stext": "He is my brother.",
+   "sentence": "audio/int3b_u4/{v}/heismybrother.mp3"
+  },
+  {
+   "id": "grandfather",
+   "en": "grandfather",
+   "ko": "할아버지",
+   "pic": "../packs/int3b_u4/grandfather.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/grandfather.mp3",
+   "stext": "He is my grandfather.",
+   "sentence": "audio/int3b_u4/{v}/heismygrandfather.mp3"
+  },
+  {
+   "id": "uncle",
+   "en": "uncle",
+   "ko": "삼촌",
+   "pic": "../packs/int3b_u4/uncle.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/uncle.mp3",
+   "stext": "He is my uncle.",
+   "sentence": "audio/int3b_u4/{v}/heismyuncle.mp3"
+  },
+  {
+   "id": "me",
+   "en": "me",
+   "ko": "나",
+   "pic": "../packs/int3b_u4/me.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/me.mp3",
+   "stext": "It is me!",
+   "sentence": "audio/int3b_u4/{v}/itisme.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "lychee",
+   "en": "lychee",
+   "ko": "리치",
+   "pic": "../packs/int3b_u6/lychee.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lychee.mp3"
+  },
+  {
+   "id": "seventh",
+   "en": "seventh",
+   "ko": "일곱째, 7",
+   "pic": "../packs/int3b_u1/seventh.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/seventh.mp3"
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "pic": "../packs/int3b_u7/money.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/money.mp3"
+  },
+  {
+   "id": "lunch",
+   "en": "lunch",
+   "ko": "점심",
+   "pic": "../packs/int3b_u7/lunch.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/lunch.mp3"
+  },
+  {
+   "id": "ninth",
+   "en": "ninth",
+   "ko": "아홉째, 9",
+   "pic": "../packs/int3b_u1/ninth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/ninth.mp3"
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "pic": "../packs/int3b_u6/lemon.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lemon.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "dad",
+    "sister",
+    "grandfather",
+    "lychee"
+   ],
+   "odd": "lychee"
+  },
+  {
+   "items": [
+    "mom",
+    "me",
+    "seventh",
+    "brother"
+   ],
+   "odd": "seventh"
+  },
+  {
+   "items": [
+    "grandfather",
+    "uncle",
+    "money",
+    "mom"
+   ],
+   "odd": "money"
+  },
+  {
+   "items": [
+    "grandfather",
+    "lunch",
+    "mom",
+    "dad"
+   ],
+   "odd": "lunch"
+  },
+  {
+   "items": [
+    "mom",
+    "dad",
+    "grandfather",
+    "ninth"
+   ],
+   "odd": "ninth"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "mom",
+   "aunt",
+   "sister",
+   "teacher",
+   "dad",
+   "brother"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "mom",
+   "aunt",
+   "grandmother",
+   "sister",
+   "teacher",
+   "dad"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "mom",
+   "aunt",
+   "grandmother",
+   "sister",
+   "teacher",
+   "dad",
+   "brother"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Who is this?",
+   "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3"
+  },
+  {
+   "text": "She is my grandmother.",
+   "audio": "../packs/int3b_u4/audio/{v}/sheismygrandmother.mp3"
+  },
+  {
+   "text": "She is my mom.",
+   "audio": "audio/int3b_u4/{v}/sheismymom.mp3"
+  },
+  {
+   "text": "She is my aunt.",
+   "audio": "audio/int3b_u4/{v}/sheismyaunt.mp3"
+  },
+  {
+   "text": "She is my sister.",
+   "audio": "audio/int3b_u4/{v}/sheismysister.mp3"
+  },
+  {
+   "text": "She is my teacher.",
+   "audio": "audio/int3b_u4/{v}/sheismyteacher.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3b_u4/me.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is me!",
+     "audio": "audio/int3b_u4/ai/itisme.mp3"
+    },
+    {
+     "text": "He is my uncle.",
+     "audio": "audio/int3b_u4/ai/heismyuncle.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u4/grandmother.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "She is my mom.",
+     "audio": "audio/int3b_u4/ai/sheismymom.mp3"
+    },
+    {
+     "text": "She is my grandmother.",
+     "audio": "audio/int3b_u4/ai/sheismygrandmother.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u4/aunt.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "She is my aunt.",
+     "audio": "audio/int3b_u4/ai/sheismyaunt.mp3"
+    },
+    {
+     "text": "He is my brother.",
+     "audio": "audio/int3b_u4/ai/heismybrother.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u4/uncle.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is me!",
+     "audio": "audio/int3b_u4/ai/itisme.mp3"
+    },
+    {
+     "text": "He is my uncle.",
+     "audio": "audio/int3b_u4/ai/heismyuncle.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u4/",
+  "ai": "audio/int3b_u4/ai/"
+ }
+}

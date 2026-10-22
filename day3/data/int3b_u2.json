@@ -1,0 +1,597 @@
+{
+ "id": "int3b_u2",
+ "title": "INT 3B · Unit 2 · Is This a Gayageum?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3b_u2/audio/us_f/",
+ "picDir": "../packs/int3b_u2/",
+ "lineAudio": "audio/int3b_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "violin",
+   "choices": [
+    "violin",
+    "guitar",
+    "microwave",
+    "drum"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "drum",
+   "choices": [
+    "drum",
+    "gayageum",
+    "microwave",
+    "violin"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cello",
+   "choices": [
+    "cello",
+    "guitar",
+    "piano",
+    "violin"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "microwave",
+   "answer": "microwave",
+   "choices": [
+    "microwave",
+    "mirowave",
+    "micrwave",
+    "microwive"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "flute",
+   "answer": "flute",
+   "choices": [
+    "flute",
+    "klute",
+    "flte",
+    "fute"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "gayageum",
+   "audio": "../packs/int3b_u2/audio/{v}/itisagayageum.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "gayageum."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "drum",
+   "audio": "audio/int3b_u2/{v}/itisadrum.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "drum."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "saxophone",
+   "audio": "audio/int3b_u2/{v}/itisasaxophone.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "saxophone",
+   "choices": [
+    "saxophone",
+    "microwave",
+    "ukulele"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "microwave",
+   "audio": "audio/int3b_u2/{v}/itisamicrowave.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "microwave",
+   "choices": [
+    "microwave",
+    "flute",
+    "drum"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "violin",
+   "audio": "audio/int3b_u2/{v}/itisaviolin.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "violin",
+   "choices": [
+    "violin",
+    "microwave",
+    "cello"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "guitar",
+   "en": "guitar",
+   "ko": "기타",
+   "pic": "../packs/int3b_u2/guitar.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/guitar.mp3",
+   "stext": "It is a guitar.",
+   "sentence": "audio/int3b_u2/{v}/itisaguitar.mp3"
+  },
+  {
+   "id": "piano",
+   "en": "piano",
+   "ko": "피아노",
+   "pic": "../packs/int3b_u2/piano.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/piano.mp3",
+   "stext": "It is a piano.",
+   "sentence": "audio/int3b_u2/{v}/itisapiano.mp3"
+  },
+  {
+   "id": "flute",
+   "en": "flute",
+   "ko": "플루트",
+   "pic": "../packs/int3b_u2/flute.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/flute.mp3",
+   "stext": "It is a flute.",
+   "sentence": "audio/int3b_u2/{v}/itisaflute.mp3"
+  },
+  {
+   "id": "drum",
+   "en": "drum",
+   "ko": "드럼",
+   "pic": "../packs/int3b_u2/drum.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/drum.mp3",
+   "stext": "It is a drum.",
+   "sentence": "audio/int3b_u2/{v}/itisadrum.mp3"
+  },
+  {
+   "id": "violin",
+   "en": "violin",
+   "ko": "바이올린",
+   "pic": "../packs/int3b_u2/violin.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/violin.mp3",
+   "stext": "It is a violin.",
+   "sentence": "audio/int3b_u2/{v}/itisaviolin.mp3"
+  },
+  {
+   "id": "saxophone",
+   "en": "saxophone",
+   "ko": "색소폰",
+   "pic": "../packs/int3b_u2/saxophone.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/saxophone.mp3",
+   "stext": "It is a saxophone.",
+   "sentence": "audio/int3b_u2/{v}/itisasaxophone.mp3"
+  },
+  {
+   "id": "microwave",
+   "en": "microwave",
+   "ko": "전자레인지",
+   "pic": "../packs/int3b_u2/microwave.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/microwave.mp3",
+   "stext": "It is a microwave.",
+   "sentence": "audio/int3b_u2/{v}/itisamicrowave.mp3"
+  },
+  {
+   "id": "gayageum",
+   "en": "gayageum",
+   "ko": "가야금",
+   "pic": "../packs/int3b_u2/gayageum.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/gayageum.mp3",
+   "stext": "It is a gayageum.",
+   "sentence": "../packs/int3b_u2/audio/{v}/itisagayageum.mp3"
+  },
+  {
+   "id": "cello",
+   "en": "cello",
+   "ko": "첼로",
+   "pic": "../packs/int3b_u2/cello.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/cello.mp3",
+   "stext": "It is a cello.",
+   "sentence": "audio/int3b_u2/{v}/itisacello.mp3"
+  },
+  {
+   "id": "ukulele",
+   "en": "ukulele",
+   "ko": "우쿨렐레",
+   "pic": "../packs/int3b_u2/ukulele.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/ukulele.mp3",
+   "stext": "It is an ukulele.",
+   "sentence": "audio/int3b_u2/{v}/itisanukulele.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "less",
+   "en": "less",
+   "ko": "더 적게",
+   "pic": "../packs/int3b_u3/less.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/less.mp3"
+  },
+  {
+   "id": "kindergarten",
+   "en": "kindergarten",
+   "ko": "유치원",
+   "pic": "../packs/int3b_u1/kindergarten.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/kindergarten.mp3"
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "pic": "../packs/int3b_u7/money.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/money.mp3"
+  },
+  {
+   "id": "durian",
+   "en": "durian",
+   "ko": "두리안",
+   "pic": "../packs/int3b_u6/durian.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/durian.mp3"
+  },
+  {
+   "id": "quieter",
+   "en": "quieter",
+   "ko": "더 조용하게",
+   "pic": "../packs/int3b_u3/quieter.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/quieter.mp3"
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "pic": "../packs/int3b_u6/lemon.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lemon.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int3b_u2/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "musicroom",
+  "hotspots": [
+   {
+    "id": "guitar",
+    "x": 2.0,
+    "y": 26.0,
+    "w": 13.2,
+    "h": 40.6
+   },
+   {
+    "id": "piano",
+    "x": 14.6,
+    "y": 29.7,
+    "w": 24.6,
+    "h": 25.7
+   },
+   {
+    "id": "flute",
+    "x": 15.1,
+    "y": 61.2,
+    "w": 22.8,
+    "h": 9.1
+   },
+   {
+    "id": "drum",
+    "x": 40.0,
+    "y": 50.8,
+    "w": 13.7,
+    "h": 16.9
+   },
+   {
+    "id": "violin",
+    "x": 55.9,
+    "y": 35.4,
+    "w": 9.8,
+    "h": 31.2
+   },
+   {
+    "id": "saxophone",
+    "x": 69.5,
+    "y": 36.2,
+    "w": 12.3,
+    "h": 27.9
+   },
+   {
+    "id": "microwave",
+    "x": 85.0,
+    "y": 28.6,
+    "w": 14.5,
+    "h": 13.0
+   },
+   {
+    "id": "gayageum",
+    "x": 13.5,
+    "y": 74.5,
+    "w": 41.7,
+    "h": 13.0
+   },
+   {
+    "id": "cello",
+    "x": 74.2,
+    "y": 45.8,
+    "w": 13.9,
+    "h": 46.0
+   },
+   {
+    "id": "ukulele",
+    "x": 59.4,
+    "y": 65.5,
+    "w": 10.2,
+    "h": 28.5
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "violin",
+    "guitar",
+    "gayageum",
+    "less"
+   ],
+   "odd": "less"
+  },
+  {
+   "items": [
+    "piano",
+    "microwave",
+    "guitar",
+    "kindergarten"
+   ],
+   "odd": "kindergarten"
+  },
+  {
+   "items": [
+    "microwave",
+    "money",
+    "violin",
+    "drum"
+   ],
+   "odd": "money"
+  },
+  {
+   "items": [
+    "guitar",
+    "flute",
+    "ukulele",
+    "durian"
+   ],
+   "odd": "durian"
+  },
+  {
+   "items": [
+    "gayageum",
+    "flute",
+    "drum",
+    "quieter"
+   ],
+   "odd": "quieter"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "guitar",
+   "piano",
+   "flute",
+   "drum",
+   "violin",
+   "gayageum"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "guitar",
+   "piano",
+   "flute",
+   "drum",
+   "violin",
+   "saxophone"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "guitar",
+   "piano",
+   "flute",
+   "drum",
+   "violin",
+   "saxophone",
+   "microwave"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Is this a gayageum?",
+   "audio": "../packs/int3b_u2/audio/{v}/isthisagayageum.mp3"
+  },
+  {
+   "text": "It is a gayageum.",
+   "audio": "../packs/int3b_u2/audio/{v}/itisagayageum.mp3"
+  },
+  {
+   "text": "It is a guitar.",
+   "audio": "audio/int3b_u2/{v}/itisaguitar.mp3"
+  },
+  {
+   "text": "It is a piano.",
+   "audio": "audio/int3b_u2/{v}/itisapiano.mp3"
+  },
+  {
+   "text": "It is a flute.",
+   "audio": "audio/int3b_u2/{v}/itisaflute.mp3"
+  },
+  {
+   "text": "It is a drum.",
+   "audio": "audio/int3b_u2/{v}/itisadrum.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3b_u2/gayageum.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/int3b_u2/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a gayageum.",
+     "audio": "audio/int3b_u2/ai/itisagayageum.mp3"
+    },
+    {
+     "text": "It is a piano.",
+     "audio": "audio/int3b_u2/ai/itisapiano.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u2/flute.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/int3b_u2/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a violin.",
+     "audio": "audio/int3b_u2/ai/itisaviolin.mp3"
+    },
+    {
+     "text": "It is a flute.",
+     "audio": "audio/int3b_u2/ai/itisaflute.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u2/violin.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/int3b_u2/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a violin.",
+     "audio": "audio/int3b_u2/ai/itisaviolin.mp3"
+    },
+    {
+     "text": "It is a drum.",
+     "audio": "audio/int3b_u2/ai/itisadrum.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u2/ukulele.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/int3b_u2/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a flute.",
+     "audio": "audio/int3b_u2/ai/itisaflute.mp3"
+    },
+    {
+     "text": "It is an ukulele.",
+     "audio": "audio/int3b_u2/ai/itisanukulele.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u2/",
+  "ai": "audio/int3b_u2/ai/"
+ }
+}

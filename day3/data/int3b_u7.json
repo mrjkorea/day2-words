@@ -1,0 +1,591 @@
+{
+ "id": "int3b_u7",
+ "title": "INT 3B · Unit 7 · Don't Forget Your Transit Card",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3b_u7/audio/us_f/",
+ "picDir": "../packs/int3b_u7/",
+ "lineAudio": "audio/int3b_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "transitcard",
+   "choices": [
+    "transitcard",
+    "littlesister",
+    "umbrella",
+    "money"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "coat",
+   "choices": [
+    "coat",
+    "littlesister",
+    "lunch",
+    "umbrella"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "littlesister",
+   "choices": [
+    "littlesister",
+    "money",
+    "phone",
+    "hat"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "phone",
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "pbone",
+    "phon",
+    "phope"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "lunch",
+   "answer": "lunch",
+   "choices": [
+    "lunch",
+    "punch",
+    "luch",
+    "lnch"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "coat",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3",
+   "answer": [
+    "Don't",
+    "forget",
+    "your",
+    "coat."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "littlesister",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourlittlesister.mp3",
+   "answer": [
+    "Don't",
+    "forget",
+    "your",
+    "little",
+    "sister."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "lunch",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourlunch.mp3",
+   "sentence": [
+    "Don't",
+    "forget",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "lunch",
+   "choices": [
+    "lunch",
+    "backpack",
+    "coat"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "coat",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3",
+   "sentence": [
+    "Don't",
+    "forget",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "coat",
+   "choices": [
+    "coat",
+    "lunch",
+    "forget"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "phone",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourphone.mp3",
+   "sentence": [
+    "Don't",
+    "forget",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "forget",
+    "hat"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "forget",
+   "en": "forget",
+   "ko": "잊다",
+   "pic": null,
+   "audio": "../packs/int3b_u7/audio/{v}/forget.mp3",
+   "stext": "Don't forget!",
+   "sentence": "audio/int3b_u7/{v}/dontforget.mp3"
+  },
+  {
+   "id": "transitcard",
+   "en": "transit card",
+   "ko": "교통카드",
+   "pic": "../packs/int3b_u7/transitcard.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/transitcard.mp3",
+   "stext": "Don't forget your transit card.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourtransitcard.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3b_u7/hat.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/hat.mp3",
+   "stext": "Don't forget your hat.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourhat.mp3"
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "pic": "../packs/int3b_u7/coat.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/coat.mp3",
+   "stext": "Don't forget your coat.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3"
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "pic": "../packs/int3b_u7/money.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/money.mp3",
+   "stext": "Don't forget your money.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourmoney.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int3b_u7/phone.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/phone.mp3",
+   "stext": "Don't forget your phone.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourphone.mp3"
+  },
+  {
+   "id": "backpack",
+   "en": "backpack",
+   "ko": "책가방",
+   "pic": "../packs/int3b_u7/backpack.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/backpack.mp3",
+   "stext": "Don't forget your backpack.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourbackpack.mp3"
+  },
+  {
+   "id": "lunch",
+   "en": "lunch",
+   "ko": "점심",
+   "pic": "../packs/int3b_u7/lunch.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/lunch.mp3",
+   "stext": "Don't forget your lunch.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourlunch.mp3"
+  },
+  {
+   "id": "littlesister",
+   "en": "little sister",
+   "ko": "여동생",
+   "pic": "../packs/int3b_u7/littlesister.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/littlesister.mp3",
+   "stext": "Don't forget your little sister.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourlittlesister.mp3"
+  },
+  {
+   "id": "umbrella",
+   "en": "umbrella",
+   "ko": "우산",
+   "pic": "../packs/int3b_u7/umbrella.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/umbrella.mp3",
+   "stext": "Don't forget your umbrella.",
+   "sentence": "../packs/int3b_u7/audio/{v}/dontforgetyourumbrella.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "warmer",
+   "en": "warmer",
+   "ko": "더 따뜻하게",
+   "pic": "../packs/int3b_u3/warmer.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/warmer.mp3"
+  },
+  {
+   "id": "drum",
+   "en": "drum",
+   "ko": "드럼",
+   "pic": "../packs/int3b_u2/drum.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/drum.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": "../packs/int3b_u4/teacher.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/teacher.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/int3b_u4/grandmother.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/grandmother.mp3"
+  },
+  {
+   "id": "violin",
+   "en": "violin",
+   "ko": "바이올린",
+   "pic": "../packs/int3b_u2/violin.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/violin.mp3"
+  },
+  {
+   "id": "guitar",
+   "en": "guitar",
+   "ko": "기타",
+   "pic": "../packs/int3b_u2/guitar.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/guitar.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int3b_u7/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "hallway",
+  "hotspots": [
+   {
+    "id": "transitcard",
+    "x": 38.3,
+    "y": 6.5,
+    "w": 9.4,
+    "h": 15.6
+   },
+   {
+    "id": "hat",
+    "x": 49.3,
+    "y": 6.2,
+    "w": 8.5,
+    "h": 18.2
+   },
+   {
+    "id": "coat",
+    "x": 57.8,
+    "y": 5.5,
+    "w": 14.5,
+    "h": 38.2
+   },
+   {
+    "id": "money",
+    "x": 71.5,
+    "y": 38.8,
+    "w": 9.4,
+    "h": 8.7
+   },
+   {
+    "id": "phone",
+    "x": 80.9,
+    "y": 38.4,
+    "w": 6.5,
+    "h": 9.8
+   },
+   {
+    "id": "backpack",
+    "x": 56.2,
+    "y": 49.2,
+    "w": 15.3,
+    "h": 21.7
+   },
+   {
+    "id": "lunch",
+    "x": 79.3,
+    "y": 77.5,
+    "w": 12.3,
+    "h": 15.0
+   },
+   {
+    "id": "umbrella",
+    "x": 87.4,
+    "y": 55.7,
+    "w": 8.5,
+    "h": 35.7
+   },
+   {
+    "id": "littlesister",
+    "x": 35.9,
+    "y": 43.6,
+    "w": 14.4,
+    "h": 44.9
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "warmer",
+    "transitcard",
+    "umbrella",
+    "littlesister"
+   ],
+   "odd": "warmer"
+  },
+  {
+   "items": [
+    "coat",
+    "drum",
+    "hat",
+    "backpack"
+   ],
+   "odd": "drum"
+  },
+  {
+   "items": [
+    "teacher",
+    "coat",
+    "backpack",
+    "transitcard"
+   ],
+   "odd": "teacher"
+  },
+  {
+   "items": [
+    "grandmother",
+    "littlesister",
+    "transitcard",
+    "coat"
+   ],
+   "odd": "grandmother"
+  },
+  {
+   "items": [
+    "violin",
+    "backpack",
+    "phone",
+    "money"
+   ],
+   "odd": "violin"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "forget",
+   "hat",
+   "coat",
+   "money",
+   "phone",
+   "backpack"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "forget",
+   "hat",
+   "coat",
+   "money",
+   "phone",
+   "backpack"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "forget",
+   "hat",
+   "coat",
+   "money",
+   "phone",
+   "backpack",
+   "lunch"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Don't forget your umbrella.",
+   "audio": "../packs/int3b_u7/audio/{v}/dontforgetyourumbrella.mp3"
+  },
+  {
+   "text": "Don't forget!",
+   "audio": "audio/int3b_u7/{v}/dontforget.mp3"
+  },
+  {
+   "text": "Don't forget your transit card.",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourtransitcard.mp3"
+  },
+  {
+   "text": "Don't forget your hat.",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourhat.mp3"
+  },
+  {
+   "text": "Don't forget your coat.",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3"
+  },
+  {
+   "text": "Don't forget your money.",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourmoney.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3b_u7/lunch.jpg",
+   "q": {
+    "text": "What should I take?",
+    "audio": "audio/int3b_u7/{v}/whatshoulditake.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't forget your backpack.",
+     "audio": "audio/int3b_u7/ai/dontforgetyourbackpack.mp3"
+    },
+    {
+     "text": "Don't forget your lunch.",
+     "audio": "audio/int3b_u7/ai/dontforgetyourlunch.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u7/transitcard.jpg",
+   "q": {
+    "text": "What should I take?",
+    "audio": "audio/int3b_u7/{v}/whatshoulditake.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't forget your hat.",
+     "audio": "audio/int3b_u7/ai/dontforgetyourhat.mp3"
+    },
+    {
+     "text": "Don't forget your transit card.",
+     "audio": "audio/int3b_u7/ai/dontforgetyourtransitcard.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u7/hat.jpg",
+   "q": {
+    "text": "What should I take?",
+    "audio": "audio/int3b_u7/{v}/whatshoulditake.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't forget your lunch.",
+     "audio": "audio/int3b_u7/ai/dontforgetyourlunch.mp3"
+    },
+    {
+     "text": "Don't forget your hat.",
+     "audio": "audio/int3b_u7/ai/dontforgetyourhat.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u7/backpack.jpg",
+   "q": {
+    "text": "What should I take?",
+    "audio": "audio/int3b_u7/{v}/whatshoulditake.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't forget your money.",
+     "audio": "audio/int3b_u7/ai/dontforgetyourmoney.mp3"
+    },
+    {
+     "text": "Don't forget your backpack.",
+     "audio": "audio/int3b_u7/ai/dontforgetyourbackpack.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u7/",
+  "ai": "audio/int3b_u7/ai/"
+ }
+}

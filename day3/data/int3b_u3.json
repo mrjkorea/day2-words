@@ -1,0 +1,508 @@
+{
+ "id": "int3b_u3",
+ "title": "INT 3B · Unit 3 · Bigger Please!",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3b_u3/audio/us_f/",
+ "picDir": "../packs/int3b_u3/",
+ "lineAudio": "audio/int3b_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cooler",
+   "choices": [
+    "cooler",
+    "warmer",
+    "smaller",
+    "louder"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "warmer",
+   "choices": [
+    "warmer",
+    "slower",
+    "cooler",
+    "more"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "less",
+   "choices": [
+    "less",
+    "cooler",
+    "quieter",
+    "warmer"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "cooler",
+   "answer": "cooler",
+   "choices": [
+    "cooler",
+    "couler",
+    "coolr",
+    "coomer"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "warmer",
+   "answer": "warmer",
+   "choices": [
+    "warmer",
+    "barmer",
+    "warmr",
+    "armer"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "warmer",
+   "audio": "audio/int3b_u3/{v}/warmerplease.mp3",
+   "answer": [
+    "Warmer",
+    "please."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "less",
+   "audio": "audio/int3b_u3/{v}/lessplease.mp3",
+   "answer": [
+    "Less",
+    "please."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "warmer",
+   "audio": "audio/int3b_u3/{v}/warmerplease.mp3",
+   "sentence": [
+    "___",
+    "please."
+   ],
+   "answer": "Warmer",
+   "choices": [
+    "Warmer",
+    "Please",
+    "Smaller"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3",
+   "sentence": [
+    "___",
+    "help",
+    "me."
+   ],
+   "answer": "Please",
+   "choices": [
+    "Please",
+    "Warmer",
+    "Less"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "smaller",
+   "audio": "audio/int3b_u3/{v}/smallerplease.mp3",
+   "sentence": [
+    "___",
+    "please."
+   ],
+   "answer": "Smaller",
+   "choices": [
+    "Smaller",
+    "More",
+    "Slower"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "~해 주세요",
+   "pic": null,
+   "audio": "../packs/int3b_u3/audio/{v}/please.mp3",
+   "stext": "Please help me.",
+   "sentence": "audio/int3b_u3/{v}/pleasehelpme.mp3"
+  },
+  {
+   "id": "slower",
+   "en": "slower",
+   "ko": "더 느리게",
+   "pic": "../packs/int3b_u3/slower.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/slower.mp3",
+   "stext": "Slower please.",
+   "sentence": "../packs/int3b_u3/audio/{v}/slowerplease.mp3"
+  },
+  {
+   "id": "warmer",
+   "en": "warmer",
+   "ko": "더 따뜻하게",
+   "pic": "../packs/int3b_u3/warmer.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/warmer.mp3",
+   "stext": "Warmer please.",
+   "sentence": "audio/int3b_u3/{v}/warmerplease.mp3"
+  },
+  {
+   "id": "louder",
+   "en": "louder",
+   "ko": "더 크게",
+   "pic": "../packs/int3b_u3/louder.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/louder.mp3",
+   "stext": "Louder please.",
+   "sentence": "audio/int3b_u3/{v}/louderplease.mp3"
+  },
+  {
+   "id": "higher",
+   "en": "higher",
+   "ko": "더 높게",
+   "pic": "../packs/int3b_u3/higher.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/higher.mp3",
+   "stext": "Higher please.",
+   "sentence": "audio/int3b_u3/{v}/higherplease.mp3"
+  },
+  {
+   "id": "cooler",
+   "en": "cooler",
+   "ko": "더 시원하게",
+   "pic": "../packs/int3b_u3/cooler.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/cooler.mp3",
+   "stext": "Cooler please.",
+   "sentence": "audio/int3b_u3/{v}/coolerplease.mp3"
+  },
+  {
+   "id": "smaller",
+   "en": "smaller",
+   "ko": "더 작게",
+   "pic": "../packs/int3b_u3/smaller.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/smaller.mp3",
+   "stext": "Smaller please.",
+   "sentence": "audio/int3b_u3/{v}/smallerplease.mp3"
+  },
+  {
+   "id": "more",
+   "en": "more",
+   "ko": "더 많이",
+   "pic": "../packs/int3b_u3/more.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/more.mp3",
+   "stext": "More please.",
+   "sentence": "audio/int3b_u3/{v}/moreplease.mp3"
+  },
+  {
+   "id": "less",
+   "en": "less",
+   "ko": "더 적게",
+   "pic": "../packs/int3b_u3/less.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/less.mp3",
+   "stext": "Less please.",
+   "sentence": "audio/int3b_u3/{v}/lessplease.mp3"
+  },
+  {
+   "id": "quieter",
+   "en": "quieter",
+   "ko": "더 조용하게",
+   "pic": "../packs/int3b_u3/quieter.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/quieter.mp3",
+   "stext": "Quieter please.",
+   "sentence": "audio/int3b_u3/{v}/quieterplease.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "textbook",
+   "en": "textbook",
+   "ko": "교과서",
+   "pic": "../packs/int3b_u7/textbook.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/textbook.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3b_u7/hat.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/hat.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": "../packs/int3b_u4/teacher.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/teacher.mp3"
+  },
+  {
+   "id": "rambutan",
+   "en": "rambutan",
+   "ko": "람부탄",
+   "pic": "../packs/int3b_u6/rambutan.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/rambutan.mp3"
+  },
+  {
+   "id": "teach",
+   "en": "teach",
+   "ko": "가르치다",
+   "pic": "../packs/int3b_u8/teach.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/teach.mp3"
+  },
+  {
+   "id": "gayageum",
+   "en": "gayageum",
+   "ko": "가야금",
+   "pic": "../packs/int3b_u2/gayageum.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/gayageum.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "cooler",
+    "quieter",
+    "more",
+    "textbook"
+   ],
+   "odd": "textbook"
+  },
+  {
+   "items": [
+    "hat",
+    "less",
+    "smaller",
+    "higher"
+   ],
+   "odd": "hat"
+  },
+  {
+   "items": [
+    "less",
+    "teacher",
+    "smaller",
+    "warmer"
+   ],
+   "odd": "teacher"
+  },
+  {
+   "items": [
+    "less",
+    "warmer",
+    "slower",
+    "rambutan"
+   ],
+   "odd": "rambutan"
+  },
+  {
+   "items": [
+    "teach",
+    "less",
+    "smaller",
+    "cooler"
+   ],
+   "odd": "teach"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "please",
+   "slower",
+   "warmer",
+   "louder",
+   "higher",
+   "cooler"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "please",
+   "slower",
+   "warmer",
+   "louder",
+   "higher",
+   "cooler"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "please",
+   "slower",
+   "warmer",
+   "louder",
+   "higher",
+   "cooler",
+   "smaller"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Slower please.",
+   "audio": "../packs/int3b_u3/audio/{v}/slowerplease.mp3"
+  },
+  {
+   "text": "Please help me.",
+   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3"
+  },
+  {
+   "text": "Warmer please.",
+   "audio": "audio/int3b_u3/{v}/warmerplease.mp3"
+  },
+  {
+   "text": "Louder please.",
+   "audio": "audio/int3b_u3/{v}/louderplease.mp3"
+  },
+  {
+   "text": "Higher please.",
+   "audio": "audio/int3b_u3/{v}/higherplease.mp3"
+  },
+  {
+   "text": "Cooler please.",
+   "audio": "audio/int3b_u3/{v}/coolerplease.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3b_u3/more.jpg",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    {
+     "text": "More please.",
+     "audio": "audio/int3b_u3/ai/moreplease.mp3"
+    },
+    {
+     "text": "Slower please.",
+     "audio": "audio/int3b_u3/ai/slowerplease.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u3/higher.jpg",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    {
+     "text": "Quieter please.",
+     "audio": "audio/int3b_u3/ai/quieterplease.mp3"
+    },
+    {
+     "text": "Higher please.",
+     "audio": "audio/int3b_u3/ai/higherplease.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u3/louder.jpg",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    {
+     "text": "Less please.",
+     "audio": "audio/int3b_u3/ai/lessplease.mp3"
+    },
+    {
+     "text": "Louder please.",
+     "audio": "audio/int3b_u3/ai/louderplease.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u3/smaller.jpg",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    {
+     "text": "Smaller please.",
+     "audio": "audio/int3b_u3/ai/smallerplease.mp3"
+    },
+    {
+     "text": "More please.",
+     "audio": "audio/int3b_u3/ai/moreplease.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u3/",
+  "ai": "audio/int3b_u3/ai/"
+ }
+}

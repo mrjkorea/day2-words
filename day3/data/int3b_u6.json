@@ -1,0 +1,576 @@
+{
+ "id": "int3b_u6",
+ "title": "INT 3B · Unit 6 · What Fruit Are These?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3b_u6/audio/us_f/",
+ "picDir": "../packs/int3b_u6/",
+ "lineAudio": "audio/int3b_u6/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "pineapple",
+   "choices": [
+    "pineapple",
+    "grapefruit",
+    "durian",
+    "lychee"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "grapefruit",
+   "choices": [
+    "grapefruit",
+    "durian",
+    "pineapple",
+    "mangosteen"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "mango",
+   "choices": [
+    "mango",
+    "mangosteen",
+    "apple",
+    "lemon"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "durian",
+   "answer": "durian",
+   "choices": [
+    "durian",
+    "dubian",
+    "drian",
+    "darian"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "mango",
+   "answer": "mango",
+   "choices": [
+    "mango",
+    "mingo",
+    "mngo",
+    "ango"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "grapefruit",
+   "audio": "audio/int3b_u6/{v}/theyaregrapefruits.mp3",
+   "answer": [
+    "They",
+    "are",
+    "grapefruits."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "pineapple",
+   "audio": "audio/int3b_u6/{v}/theyarepineapples.mp3",
+   "answer": [
+    "They",
+    "are",
+    "pineapples."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "are",
+    "these?"
+   ],
+   "answer": "fruit",
+   "choices": [
+    "fruit",
+    "mango",
+    "mangosteen"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "rambutan",
+   "choices": [
+    "rambutan",
+    "durian",
+    "mango",
+    "grapefruit"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "lychee",
+   "choices": [
+    "lychee",
+    "apple",
+    "mango",
+    "mangosteen"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": null,
+   "audio": "../packs/int3b_u6/audio/{v}/fruit.mp3",
+   "stext": "What fruit are these?",
+   "sentence": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "pic": "../packs/int3b_u6/apple.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/apple.mp3",
+   "stext": "They are apples.",
+   "sentence": "audio/int3b_u6/{v}/theyareapples.mp3"
+  },
+  {
+   "id": "mango",
+   "en": "mango",
+   "ko": "망고",
+   "pic": "../packs/int3b_u6/mango.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/mango.mp3",
+   "stext": "They are mangoes.",
+   "sentence": "../packs/int3b_u6/audio/{v}/theyaremangoes.mp3"
+  },
+  {
+   "id": "lychee",
+   "en": "lychee",
+   "ko": "리치",
+   "pic": "../packs/int3b_u6/lychee.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lychee.mp3",
+   "stext": "They are lychees.",
+   "sentence": "audio/int3b_u6/{v}/theyarelychees.mp3"
+  },
+  {
+   "id": "rambutan",
+   "en": "rambutan",
+   "ko": "람부탄",
+   "pic": "../packs/int3b_u6/rambutan.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/rambutan.mp3",
+   "stext": "They are rambutans.",
+   "sentence": "audio/int3b_u6/{v}/theyarerambutans.mp3"
+  },
+  {
+   "id": "grapefruit",
+   "en": "grapefruit",
+   "ko": "자몽",
+   "pic": "../packs/int3b_u6/grapefruit.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/grapefruit.mp3",
+   "stext": "They are grapefruits.",
+   "sentence": "audio/int3b_u6/{v}/theyaregrapefruits.mp3"
+  },
+  {
+   "id": "mangosteen",
+   "en": "mangosteen",
+   "ko": "망고스틴",
+   "pic": "../packs/int3b_u6/mangosteen.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/mangosteen.mp3",
+   "stext": "They are mangosteens.",
+   "sentence": "audio/int3b_u6/{v}/theyaremangosteens.mp3"
+  },
+  {
+   "id": "durian",
+   "en": "durian",
+   "ko": "두리안",
+   "pic": "../packs/int3b_u6/durian.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/durian.mp3",
+   "stext": "They are durians.",
+   "sentence": "audio/int3b_u6/{v}/theyaredurians.mp3"
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "pic": "../packs/int3b_u6/lemon.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lemon.mp3",
+   "stext": "They are lemons.",
+   "sentence": "audio/int3b_u6/{v}/theyarelemons.mp3"
+  },
+  {
+   "id": "pineapple",
+   "en": "pineapple",
+   "ko": "파인애플",
+   "pic": "../packs/int3b_u6/pineapple.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/pineapple.mp3",
+   "stext": "They are pineapples.",
+   "sentence": "audio/int3b_u6/{v}/theyarepineapples.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "pic": "../packs/int3b_u7/coat.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/coat.mp3"
+  },
+  {
+   "id": "violin",
+   "en": "violin",
+   "ko": "바이올린",
+   "pic": "../packs/int3b_u2/violin.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/violin.mp3"
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "언니, 누나, 여동생",
+   "pic": "../packs/int3b_u4/sister.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/sister.mp3"
+  },
+  {
+   "id": "weigh",
+   "en": "weigh",
+   "ko": "무게가 ~이다",
+   "pic": "../packs/int3b_u8/weigh.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/weigh.mp3"
+  },
+  {
+   "id": "microwave",
+   "en": "microwave",
+   "ko": "전자레인지",
+   "pic": "../packs/int3b_u2/microwave.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/microwave.mp3"
+  },
+  {
+   "id": "lunch",
+   "en": "lunch",
+   "ko": "점심",
+   "pic": "../packs/int3b_u7/lunch.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/lunch.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int3b_u6/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "fruitstand",
+  "hotspots": [
+   {
+    "id": "fruit",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 100.0,
+    "h": 100.0
+   },
+   {
+    "id": "apple",
+    "x": 11.7,
+    "y": 18.2,
+    "w": 24.9,
+    "h": 24.1
+   },
+   {
+    "id": "mango",
+    "x": 38.3,
+    "y": 17.6,
+    "w": 23.4,
+    "h": 24.7
+   },
+   {
+    "id": "lychee",
+    "x": 63.7,
+    "y": 18.9,
+    "w": 24.2,
+    "h": 23.4
+   },
+   {
+    "id": "rambutan",
+    "x": 7.8,
+    "y": 42.3,
+    "w": 26.9,
+    "h": 24.1
+   },
+   {
+    "id": "grapefruit",
+    "x": 37.6,
+    "y": 43.0,
+    "w": 23.9,
+    "h": 23.4
+   },
+   {
+    "id": "mangosteen",
+    "x": 64.5,
+    "y": 42.3,
+    "w": 27.1,
+    "h": 24.1
+   },
+   {
+    "id": "lemon",
+    "x": 5.7,
+    "y": 68.4,
+    "w": 28.0,
+    "h": 27.7
+   },
+   {
+    "id": "durian",
+    "x": 36.9,
+    "y": 65.8,
+    "w": 25.1,
+    "h": 30.3
+   },
+   {
+    "id": "pineapple",
+    "x": 65.4,
+    "y": 61.8,
+    "w": 25.9,
+    "h": 34.2
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "grapefruit",
+    "coat",
+    "pineapple",
+    "rambutan"
+   ],
+   "odd": "coat"
+  },
+  {
+   "items": [
+    "apple",
+    "violin",
+    "lemon",
+    "lychee"
+   ],
+   "odd": "violin"
+  },
+  {
+   "items": [
+    "sister",
+    "durian",
+    "apple",
+    "mangosteen"
+   ],
+   "odd": "sister"
+  },
+  {
+   "items": [
+    "durian",
+    "apple",
+    "weigh",
+    "mango"
+   ],
+   "odd": "weigh"
+  },
+  {
+   "items": [
+    "microwave",
+    "grapefruit",
+    "lemon",
+    "lychee"
+   ],
+   "odd": "microwave"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "fruit",
+   "apple",
+   "mango",
+   "lychee",
+   "rambutan",
+   "durian"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "fruit",
+   "apple",
+   "mango",
+   "lychee",
+   "rambutan",
+   "grapefruit"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "fruit",
+   "apple",
+   "mango",
+   "lychee",
+   "rambutan",
+   "grapefruit",
+   "mangosteen"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What fruit are these?",
+   "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+  },
+  {
+   "text": "They are mangoes.",
+   "audio": "../packs/int3b_u6/audio/{v}/theyaremangoes.mp3"
+  },
+  {
+   "text": "They are apples.",
+   "audio": "audio/int3b_u6/{v}/theyareapples.mp3"
+  },
+  {
+   "text": "They are lychees.",
+   "audio": "audio/int3b_u6/{v}/theyarelychees.mp3"
+  },
+  {
+   "text": "They are rambutans.",
+   "audio": "audio/int3b_u6/{v}/theyarerambutans.mp3"
+  },
+  {
+   "text": "They are grapefruits.",
+   "audio": "audio/int3b_u6/{v}/theyaregrapefruits.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3b_u6/rambutan.jpg",
+   "q": {
+    "text": "What fruit are these?",
+    "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+   },
+   "choices": [
+    {
+     "text": "They are rambutans.",
+     "audio": "audio/int3b_u6/ai/theyarerambutans.mp3"
+    },
+    {
+     "text": "They are lemons.",
+     "audio": "audio/int3b_u6/ai/theyarelemons.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u6/mango.jpg",
+   "q": {
+    "text": "What fruit are these?",
+    "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+   },
+   "choices": [
+    {
+     "text": "They are mangoes.",
+     "audio": "audio/int3b_u6/ai/theyaremangoes.mp3"
+    },
+    {
+     "text": "What fruit are these?",
+     "audio": "audio/int3b_u6/ai/whatfruitarethese.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3b_u6/apple.jpg",
+   "q": {
+    "text": "What fruit are these?",
+    "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+   },
+   "choices": [
+    {
+     "text": "They are durians.",
+     "audio": "audio/int3b_u6/ai/theyaredurians.mp3"
+    },
+    {
+     "text": "They are apples.",
+     "audio": "audio/int3b_u6/ai/theyareapples.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3b_u6/pineapple.jpg",
+   "q": {
+    "text": "What fruit are these?",
+    "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+   },
+   "choices": [
+    {
+     "text": "They are pineapples.",
+     "audio": "audio/int3b_u6/ai/theyarepineapples.mp3"
+    },
+    {
+     "text": "They are mangoes.",
+     "audio": "audio/int3b_u6/ai/theyaremangoes.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u6/",
+  "ai": "audio/int3b_u6/ai/"
+ }
+}
