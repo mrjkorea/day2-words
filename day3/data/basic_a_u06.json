@@ -5,13 +5,6 @@
  "wordAudio": "../songs/words/",
  "picDir": "pics/",
  "lineAudio": "audio/",
- "lines": {
-  "great": "great.mp3",
-  "oops": "oops.mp3",
-  "pass": "pass.mp3",
-  "retry": "retry.mp3",
-  "done": "done.mp3"
- },
  "questions": [
   {
    "type": "listen",
@@ -22,7 +15,8 @@
     "pen",
     "desk",
     "cube"
-   ]
+   ],
+   "skill": "listen"
   },
   {
    "type": "spell",
@@ -33,7 +27,8 @@
     "pen",
     "pne",
     "ppen"
-   ]
+   ],
+   "skill": "spell"
   },
   {
    "type": "order",
@@ -43,7 +38,8 @@
     "What",
     "is",
     "this?"
-   ]
+   ],
+   "skill": "unscramble"
   },
   {
    "type": "listen",
@@ -54,7 +50,8 @@
     "mouse",
     "monitor",
     "clipboard"
-   ]
+   ],
+   "skill": "listen"
   },
   {
    "type": "fill",
@@ -73,7 +70,8 @@
     "book",
     "pen",
     "desk"
-   ]
+   ],
+   "skill": "dialogue"
   },
   {
    "type": "spell",
@@ -84,7 +82,8 @@
     "dsek",
     "desk",
     "deks"
-   ]
+   ],
+   "skill": "spell"
   },
   {
    "type": "fill",
@@ -102,7 +101,8 @@
     "is",
     "it",
     "a"
-   ]
+   ],
+   "skill": "dialogue"
   },
   {
    "type": "order",
@@ -114,7 +114,8 @@
     "is",
     "a",
     "cube."
-   ]
+   ],
+   "skill": "unscramble"
   },
   {
    "type": "listen",
@@ -125,7 +126,8 @@
     "book",
     "clipboard",
     "monitor"
-   ]
+   ],
+   "skill": "listen"
   },
   {
    "type": "spell",
@@ -136,7 +138,8 @@
     "keybord",
     "keyboard",
     "kayboard"
-   ]
+   ],
+   "skill": "spell"
   }
  ],
  "words": [
@@ -421,5 +424,51 @@
    ],
    "answer": 0
   }
- ]
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ }
 }
