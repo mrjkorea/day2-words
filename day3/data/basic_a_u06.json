@@ -1,0 +1,21 @@
+{
+  "id": "basic_a_u06",
+  "title": "Basic A · Unit 6 · What is this?",
+  "passPercent": 80,
+  "wordAudio": "../songs/words/",
+  "picDir": "pics/",
+  "lineAudio": "audio/",
+  "lines": { "great": "great.mp3", "oops": "oops.mp3", "pass": "pass.mp3", "retry": "retry.mp3" },
+  "questions": [
+    { "type": "listen", "prompt": "Listen. Tap the picture.", "answer": "book", "choices": ["book", "pen", "desk", "cube"] },
+    { "type": "spell", "prompt": "What is this? Pick the right spelling.", "pic": "pen", "answer": "pen", "choices": ["pen", "pne", "ppen"] },
+    { "type": "order", "prompt": "Put the words in order.", "audio": "whatisthis.mp3", "answer": ["What", "is", "this?"] },
+    { "type": "listen", "prompt": "Listen. Tap the picture.", "answer": "mouse", "choices": ["keyboard", "mouse", "monitor", "clipboard"] },
+    { "type": "fill", "prompt": "Fill in the missing word.", "pic": "book", "audio": "itisabook.mp3", "sentence": ["It", "is", "a", "___", "."], "answer": "book", "choices": ["book", "pen", "desk"] },
+    { "type": "spell", "prompt": "What is this? Pick the right spelling.", "pic": "desk", "answer": "desk", "choices": ["dsek", "desk", "deks"] },
+    { "type": "fill", "prompt": "Fill in the missing word.", "pic": "pen", "audio": "whatisthis.mp3", "sentence": ["What", "___", "this", "?"], "answer": "is", "choices": ["is", "it", "a"] },
+    { "type": "order", "prompt": "Put the words in order.", "pic": "cube", "audio": "itisacube.mp3", "answer": ["It", "is", "a", "cube."] },
+    { "type": "listen", "prompt": "Listen. Tap the picture.", "answer": "clipboard", "choices": ["cube", "book", "clipboard", "monitor"] },
+    { "type": "spell", "prompt": "What is this? Pick the right spelling.", "pic": "keyboard", "answer": "keyboard", "choices": ["keybord", "keyboard", "kayboard"] }
+  ]
+}
