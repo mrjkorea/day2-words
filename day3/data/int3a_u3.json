@@ -1,0 +1,515 @@
+{
+ "id": "int3a_u3",
+ "title": "INT 3A · Unit 3 · Opposites",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3a_u3/audio/us_f/",
+ "picDir": "../packs/int3a_u3/",
+ "lineAudio": "audio/int3a_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "quiet",
+   "choices": [
+    "quiet",
+    "small",
+    "cold",
+    "good"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "hot",
+   "choices": [
+    "hot",
+    "hard",
+    "small",
+    "big"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "good",
+   "choices": [
+    "good",
+    "cold",
+    "bad",
+    "soft"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "small",
+   "answer": "small",
+   "choices": [
+    "small",
+    "smal",
+    "scall",
+    "cmall"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "soft",
+   "answer": "soft",
+   "choices": [
+    "soft",
+    "sott",
+    "sft",
+    "sopt"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "loud",
+   "audio": "audio/int3a_u3/{v}/thisisloud.mp3",
+   "answer": [
+    "This",
+    "is",
+    "loud."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "big",
+   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
+   "answer": [
+    "This",
+    "is",
+    "big."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "big",
+   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "big",
+   "choices": [
+    "big",
+    "loud",
+    "bad"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "cold",
+   "audio": "../packs/int3a_u3/audio/{v}/thisiscold.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "cold",
+   "choices": [
+    "cold",
+    "loud",
+    "good"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "bad",
+   "audio": "audio/int3a_u3/{v}/thisisbad.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "bad",
+   "choices": [
+    "bad",
+    "loud",
+    "soft"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "good",
+   "en": "good",
+   "ko": "좋은",
+   "pic": "../packs/int3a_u3/good.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/good.mp3",
+   "stext": "This is good.",
+   "sentence": "audio/int3a_u3/{v}/thisisgood.mp3"
+  },
+  {
+   "id": "bad",
+   "en": "bad",
+   "ko": "나쁜",
+   "pic": "../packs/int3a_u3/bad.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/bad.mp3",
+   "stext": "This is bad.",
+   "sentence": "audio/int3a_u3/{v}/thisisbad.mp3"
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "차가운",
+   "pic": "../packs/int3a_u3/cold.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/cold.mp3",
+   "stext": "This is cold.",
+   "sentence": "../packs/int3a_u3/audio/{v}/thisiscold.mp3"
+  },
+  {
+   "id": "hot",
+   "en": "hot",
+   "ko": "뜨거운",
+   "pic": "../packs/int3a_u3/hot.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/hot.mp3",
+   "stext": "This is hot.",
+   "sentence": "audio/int3a_u3/{v}/thisishot.mp3"
+  },
+  {
+   "id": "small",
+   "en": "small",
+   "ko": "작은",
+   "pic": "../packs/int3a_u3/small.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/small.mp3",
+   "stext": "This is small.",
+   "sentence": "audio/int3a_u3/{v}/thisissmall.mp3"
+  },
+  {
+   "id": "big",
+   "en": "big",
+   "ko": "큰",
+   "pic": "../packs/int3a_u3/big.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/big.mp3",
+   "stext": "This is big.",
+   "sentence": "audio/int3a_u3/{v}/thisisbig.mp3"
+  },
+  {
+   "id": "soft",
+   "en": "soft",
+   "ko": "부드러운",
+   "pic": "../packs/int3a_u3/soft.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/soft.mp3",
+   "stext": "This is soft.",
+   "sentence": "audio/int3a_u3/{v}/thisissoft.mp3"
+  },
+  {
+   "id": "hard",
+   "en": "hard",
+   "ko": "딱딱한",
+   "pic": "../packs/int3a_u3/hard.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/hard.mp3",
+   "stext": "This is hard.",
+   "sentence": "audio/int3a_u3/{v}/thisishard.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/int3a_u3/quiet.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/quiet.mp3",
+   "stext": "This is quiet.",
+   "sentence": "audio/int3a_u3/{v}/thisisquiet.mp3"
+  },
+  {
+   "id": "loud",
+   "en": "loud",
+   "ko": "시끄러운",
+   "pic": "../packs/int3a_u3/loud.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/loud.mp3",
+   "stext": "This is loud.",
+   "sentence": "audio/int3a_u3/{v}/thisisloud.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/int3a_u8/sing.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/sing.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int3a_u8/music.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/music.mp3"
+  },
+  {
+   "id": "hunter",
+   "en": "hunter",
+   "ko": "사냥꾼",
+   "pic": "../packs/int3a_u6/hunter.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/hunter.mp3"
+  },
+  {
+   "id": "vanilla",
+   "en": "vanilla",
+   "ko": "바닐라",
+   "pic": "../packs/int3a_u2/vanilla.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/vanilla.mp3"
+  },
+  {
+   "id": "centipede",
+   "en": "centipede",
+   "ko": "지네",
+   "pic": "../packs/int3a_u5/centipede.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/centipede.mp3"
+  },
+  {
+   "id": "chocolate",
+   "en": "chocolate",
+   "ko": "초콜릿",
+   "pic": "../packs/int3a_u2/chocolate.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/chocolate.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "cold",
+    "sing",
+    "bad",
+    "small"
+   ],
+   "odd": "sing"
+  },
+  {
+   "items": [
+    "good",
+    "music",
+    "loud",
+    "soft"
+   ],
+   "odd": "music"
+  },
+  {
+   "items": [
+    "hard",
+    "cold",
+    "soft",
+    "hunter"
+   ],
+   "odd": "hunter"
+  },
+  {
+   "items": [
+    "hot",
+    "vanilla",
+    "loud",
+    "soft"
+   ],
+   "odd": "vanilla"
+  },
+  {
+   "items": [
+    "soft",
+    "centipede",
+    "big",
+    "cold"
+   ],
+   "odd": "centipede"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "good",
+   "bad",
+   "cold",
+   "hot",
+   "small",
+   "big"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "good",
+   "bad",
+   "cold",
+   "hot",
+   "small",
+   "big"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "good",
+   "bad",
+   "cold",
+   "hot",
+   "small",
+   "big",
+   "soft"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "This is cold.",
+   "audio": "../packs/int3a_u3/audio/{v}/thisiscold.mp3"
+  },
+  {
+   "text": "This is good.",
+   "audio": "audio/int3a_u3/{v}/thisisgood.mp3"
+  },
+  {
+   "text": "This is bad.",
+   "audio": "audio/int3a_u3/{v}/thisisbad.mp3"
+  },
+  {
+   "text": "This is hot.",
+   "audio": "audio/int3a_u3/{v}/thisishot.mp3"
+  },
+  {
+   "text": "This is small.",
+   "audio": "audio/int3a_u3/{v}/thisissmall.mp3"
+  },
+  {
+   "text": "This is big.",
+   "audio": "audio/int3a_u3/{v}/thisisbig.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3a_u3/loud.jpg",
+   "q": {
+    "text": "How is it?",
+    "audio": "audio/int3a_u3/{v}/howisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is loud.",
+     "audio": "audio/int3a_u3/ai/thisisloud.mp3"
+    },
+    {
+     "text": "This is small.",
+     "audio": "audio/int3a_u3/ai/thisissmall.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u3/bad.jpg",
+   "q": {
+    "text": "How is it?",
+    "audio": "audio/int3a_u3/{v}/howisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is good.",
+     "audio": "audio/int3a_u3/ai/thisisgood.mp3"
+    },
+    {
+     "text": "This is bad.",
+     "audio": "audio/int3a_u3/ai/thisisbad.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u3/hard.jpg",
+   "q": {
+    "text": "How is it?",
+    "audio": "audio/int3a_u3/{v}/howisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is hard.",
+     "audio": "audio/int3a_u3/ai/thisishard.mp3"
+    },
+    {
+     "text": "This is good.",
+     "audio": "audio/int3a_u3/ai/thisisgood.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u3/soft.jpg",
+   "q": {
+    "text": "How is it?",
+    "audio": "audio/int3a_u3/{v}/howisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is hard.",
+     "audio": "audio/int3a_u3/ai/thisishard.mp3"
+    },
+    {
+     "text": "This is soft.",
+     "audio": "audio/int3a_u3/ai/thisissoft.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u3/",
+  "ai": "audio/int3a_u3/ai/"
+ }
+}

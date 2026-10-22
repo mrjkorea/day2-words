@@ -1,0 +1,516 @@
+{
+ "id": "int3a_u2",
+ "title": "INT 3A · Unit 2 · What Flavor Do You Like?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3a_u2/audio/us_f/",
+ "picDir": "../packs/int3a_u2/",
+ "lineAudio": "audio/int3a_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "strawberry",
+   "choices": [
+    "strawberry",
+    "chocolate",
+    "banana",
+    "redbean"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "melon",
+   "choices": [
+    "melon",
+    "mint",
+    "banana",
+    "redbean"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "mint",
+   "choices": [
+    "mint",
+    "melon",
+    "redbean",
+    "lemon"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "milk",
+   "answer": "milk",
+   "choices": [
+    "milk",
+    "mitk",
+    "mipk",
+    "mlk"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "banana",
+   "answer": "banana",
+   "choices": [
+    "banana",
+    "anana",
+    "banena",
+    "banane"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "banana",
+   "audio": "audio/int3a_u2/{v}/ilikebanana.mp3",
+   "answer": [
+    "I",
+    "like",
+    "banana."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "redbean",
+   "audio": "audio/int3a_u2/{v}/ilikeredbean.mp3",
+   "answer": [
+    "I",
+    "like",
+    "red",
+    "bean."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "mint",
+   "audio": "audio/int3a_u2/{v}/ilikemint.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "mint",
+   "choices": [
+    "mint",
+    "strawberry",
+    "vanilla"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "milk",
+   "audio": "audio/int3a_u2/{v}/ilikemilk.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "milk",
+   "choices": [
+    "milk",
+    "melon",
+    "strawberry"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "banana",
+   "audio": "audio/int3a_u2/{v}/ilikebanana.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "banana",
+   "choices": [
+    "banana",
+    "chocolate",
+    "melon"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "flavor",
+   "en": "flavor",
+   "ko": "맛",
+   "pic": null,
+   "audio": "../packs/int3a_u2/audio/{v}/flavor.mp3",
+   "stext": "What flavor do you like?",
+   "sentence": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+  },
+  {
+   "id": "vanilla",
+   "en": "vanilla",
+   "ko": "바닐라",
+   "pic": "../packs/int3a_u2/vanilla.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/vanilla.mp3",
+   "stext": "I like vanilla.",
+   "sentence": "audio/int3a_u2/{v}/ilikevanilla.mp3"
+  },
+  {
+   "id": "chocolate",
+   "en": "chocolate",
+   "ko": "초콜릿",
+   "pic": "../packs/int3a_u2/chocolate.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/chocolate.mp3",
+   "stext": "I like chocolate.",
+   "sentence": "audio/int3a_u2/{v}/ilikechocolate.mp3"
+  },
+  {
+   "id": "strawberry",
+   "en": "strawberry",
+   "ko": "딸기",
+   "pic": "../packs/int3a_u2/strawberry.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/strawberry.mp3",
+   "stext": "I like strawberry.",
+   "sentence": "../packs/int3a_u2/audio/{v}/ilikestrawberry.mp3"
+  },
+  {
+   "id": "melon",
+   "en": "melon",
+   "ko": "멜론",
+   "pic": "../packs/int3a_u2/melon.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/melon.mp3",
+   "stext": "I like melon.",
+   "sentence": "audio/int3a_u2/{v}/ilikemelon.mp3"
+  },
+  {
+   "id": "mint",
+   "en": "mint",
+   "ko": "민트",
+   "pic": "../packs/int3a_u2/mint.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/mint.mp3",
+   "stext": "I like mint.",
+   "sentence": "audio/int3a_u2/{v}/ilikemint.mp3"
+  },
+  {
+   "id": "banana",
+   "en": "banana",
+   "ko": "바나나",
+   "pic": "../packs/int3a_u2/banana.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/banana.mp3",
+   "stext": "I like banana.",
+   "sentence": "audio/int3a_u2/{v}/ilikebanana.mp3"
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "pic": "../packs/int3a_u2/lemon.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/lemon.mp3",
+   "stext": "I like lemon.",
+   "sentence": "audio/int3a_u2/{v}/ilikelemon.mp3"
+  },
+  {
+   "id": "milk",
+   "en": "milk",
+   "ko": "우유",
+   "pic": "../packs/int3a_u2/milk.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/milk.mp3",
+   "stext": "I like milk.",
+   "sentence": "audio/int3a_u2/{v}/ilikemilk.mp3"
+  },
+  {
+   "id": "redbean",
+   "en": "red bean",
+   "ko": "팥",
+   "pic": "../packs/int3a_u2/redbean.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/redbean.mp3",
+   "stext": "I like red bean.",
+   "sentence": "audio/int3a_u2/{v}/ilikeredbean.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "bad",
+   "en": "bad",
+   "ko": "나쁜",
+   "pic": "../packs/int3a_u3/bad.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/bad.mp3"
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "pic": "../packs/int3a_u1/apple.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/apple.mp3"
+  },
+  {
+   "id": "violet",
+   "en": "violet",
+   "ko": "제비꽃",
+   "pic": "../packs/int3a_u6/violet.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/violet.mp3"
+  },
+  {
+   "id": "firefly",
+   "en": "firefly",
+   "ko": "반딧불이",
+   "pic": "../packs/int3a_u5/firefly.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/firefly.mp3"
+  },
+  {
+   "id": "family",
+   "en": "family",
+   "ko": "가족",
+   "pic": "../packs/int3a_u8/family.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/family.mp3"
+  },
+  {
+   "id": "lily",
+   "en": "lily",
+   "ko": "백합",
+   "pic": "../packs/int3a_u6/lily.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/lily.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "melon",
+    "bad",
+    "redbean",
+    "milk"
+   ],
+   "odd": "bad"
+  },
+  {
+   "items": [
+    "strawberry",
+    "melon",
+    "apple",
+    "vanilla"
+   ],
+   "odd": "apple"
+  },
+  {
+   "items": [
+    "milk",
+    "mint",
+    "melon",
+    "violet"
+   ],
+   "odd": "violet"
+  },
+  {
+   "items": [
+    "redbean",
+    "firefly",
+    "banana",
+    "chocolate"
+   ],
+   "odd": "firefly"
+  },
+  {
+   "items": [
+    "family",
+    "chocolate",
+    "banana",
+    "redbean"
+   ],
+   "odd": "family"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "flavor",
+   "vanilla",
+   "melon",
+   "mint",
+   "banana",
+   "lemon"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "flavor",
+   "vanilla",
+   "chocolate",
+   "strawberry",
+   "melon",
+   "mint"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "flavor",
+   "vanilla",
+   "chocolate",
+   "strawberry",
+   "melon",
+   "mint",
+   "banana"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What flavor do you like?",
+   "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+  },
+  {
+   "text": "I like strawberry.",
+   "audio": "../packs/int3a_u2/audio/{v}/ilikestrawberry.mp3"
+  },
+  {
+   "text": "I like vanilla.",
+   "audio": "audio/int3a_u2/{v}/ilikevanilla.mp3"
+  },
+  {
+   "text": "I like chocolate.",
+   "audio": "audio/int3a_u2/{v}/ilikechocolate.mp3"
+  },
+  {
+   "text": "I like melon.",
+   "audio": "audio/int3a_u2/{v}/ilikemelon.mp3"
+  },
+  {
+   "text": "I like mint.",
+   "audio": "audio/int3a_u2/{v}/ilikemint.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3a_u2/banana.jpg",
+   "q": {
+    "text": "What flavor do you like?",
+    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like banana.",
+     "audio": "audio/int3a_u2/ai/ilikebanana.mp3"
+    },
+    {
+     "text": "I like red bean.",
+     "audio": "audio/int3a_u2/ai/ilikeredbean.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u2/redbean.jpg",
+   "q": {
+    "text": "What flavor do you like?",
+    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like lemon.",
+     "audio": "audio/int3a_u2/ai/ilikelemon.mp3"
+    },
+    {
+     "text": "I like red bean.",
+     "audio": "audio/int3a_u2/ai/ilikeredbean.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u2/chocolate.jpg",
+   "q": {
+    "text": "What flavor do you like?",
+    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like chocolate.",
+     "audio": "audio/int3a_u2/ai/ilikechocolate.mp3"
+    },
+    {
+     "text": "I like lemon.",
+     "audio": "audio/int3a_u2/ai/ilikelemon.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u2/vanilla.jpg",
+   "q": {
+    "text": "What flavor do you like?",
+    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like vanilla.",
+     "audio": "audio/int3a_u2/ai/ilikevanilla.mp3"
+    },
+    {
+     "text": "I like mint.",
+     "audio": "audio/int3a_u2/ai/ilikemint.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u2/",
+  "ai": "audio/int3a_u2/ai/"
+ }
+}

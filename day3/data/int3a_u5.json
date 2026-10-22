@@ -1,0 +1,590 @@
+{
+ "id": "int3a_u5",
+ "title": "INT 3A · Unit 5 · What is This Bug?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3a_u5/audio/us_f/",
+ "picDir": "../packs/int3a_u5/",
+ "lineAudio": "audio/int3a_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "silkworm",
+   "choices": [
+    "silkworm",
+    "ant",
+    "centipede",
+    "cockroach"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cicada",
+   "choices": [
+    "cicada",
+    "moth",
+    "butterfly",
+    "centipede"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "butterfly",
+   "choices": [
+    "butterfly",
+    "mosquito",
+    "silkworm",
+    "cicada"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "silkworm",
+   "answer": "silkworm",
+   "choices": [
+    "silkworm",
+    "slkworm",
+    "silkwork",
+    "silpworm"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "spider",
+   "answer": "spider",
+   "choices": [
+    "spider",
+    "spier",
+    "spidem",
+    "spide"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "spider",
+   "audio": "audio/int3a_u5/{v}/itisaspider.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "spider."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3",
+   "answer": [
+    "What",
+    "is",
+    "this",
+    "bug?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "silkworm",
+   "audio": "audio/int3a_u5/{v}/itisasilkworm.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "silkworm",
+   "choices": [
+    "silkworm",
+    "moth",
+    "bug"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "butterfly",
+   "audio": "../packs/int3a_u5/audio/{v}/itisabutterfly.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "butterfly",
+   "choices": [
+    "butterfly",
+    "bug",
+    "cockroach"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "cockroach",
+   "audio": "audio/int3a_u5/{v}/itisacockroach.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "cockroach",
+   "choices": [
+    "cockroach",
+    "centipede",
+    "mosquito"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "bug",
+   "en": "bug",
+   "ko": "벌레",
+   "pic": null,
+   "audio": "../packs/int3a_u5/audio/{v}/bug.mp3",
+   "stext": "What is this bug?",
+   "sentence": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+  },
+  {
+   "id": "moth",
+   "en": "moth",
+   "ko": "나방",
+   "pic": "../packs/int3a_u5/moth.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/moth.mp3",
+   "stext": "It is a moth.",
+   "sentence": "audio/int3a_u5/{v}/itisamoth.mp3"
+  },
+  {
+   "id": "centipede",
+   "en": "centipede",
+   "ko": "지네",
+   "pic": "../packs/int3a_u5/centipede.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/centipede.mp3",
+   "stext": "It is a centipede.",
+   "sentence": "audio/int3a_u5/{v}/itisacentipede.mp3"
+  },
+  {
+   "id": "mosquito",
+   "en": "mosquito",
+   "ko": "모기",
+   "pic": "../packs/int3a_u5/mosquito.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/mosquito.mp3",
+   "stext": "It is a mosquito.",
+   "sentence": "audio/int3a_u5/{v}/itisamosquito.mp3"
+  },
+  {
+   "id": "cicada",
+   "en": "cicada",
+   "ko": "매미",
+   "pic": "../packs/int3a_u5/cicada.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/cicada.mp3",
+   "stext": "It is a cicada.",
+   "sentence": "audio/int3a_u5/{v}/itisacicada.mp3"
+  },
+  {
+   "id": "spider",
+   "en": "spider",
+   "ko": "거미",
+   "pic": "../packs/int3a_u5/spider.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/spider.mp3",
+   "stext": "It is a spider.",
+   "sentence": "audio/int3a_u5/{v}/itisaspider.mp3"
+  },
+  {
+   "id": "cockroach",
+   "en": "cockroach",
+   "ko": "바퀴벌레",
+   "pic": "../packs/int3a_u5/cockroach.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/cockroach.mp3",
+   "stext": "It is a cockroach.",
+   "sentence": "audio/int3a_u5/{v}/itisacockroach.mp3"
+  },
+  {
+   "id": "ant",
+   "en": "ant",
+   "ko": "개미",
+   "pic": "../packs/int3a_u5/ant.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/ant.mp3",
+   "stext": "It is an ant.",
+   "sentence": "audio/int3a_u5/{v}/itisanant.mp3"
+  },
+  {
+   "id": "silkworm",
+   "en": "silkworm",
+   "ko": "누에",
+   "pic": "../packs/int3a_u5/silkworm.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/silkworm.mp3",
+   "stext": "It is a silkworm.",
+   "sentence": "audio/int3a_u5/{v}/itisasilkworm.mp3"
+  },
+  {
+   "id": "butterfly",
+   "en": "butterfly",
+   "ko": "나비",
+   "pic": "../packs/int3a_u5/butterfly.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/butterfly.mp3",
+   "stext": "It is a butterfly.",
+   "sentence": "../packs/int3a_u5/audio/{v}/itisabutterfly.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "pic": "../packs/int3a_u7/climb.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/climb.mp3"
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "pic": "../packs/int3a_u2/lemon.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/lemon.mp3"
+  },
+  {
+   "id": "bad",
+   "en": "bad",
+   "ko": "나쁜",
+   "pic": "../packs/int3a_u3/bad.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/bad.mp3"
+  },
+  {
+   "id": "fifteen",
+   "en": "fifteen",
+   "ko": "열다섯",
+   "pic": "../packs/int3a_u4/fifteen.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/fifteen.mp3"
+  },
+  {
+   "id": "stand",
+   "en": "stand",
+   "ko": "서다",
+   "pic": "../packs/int3a_u7/stand.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/stand.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯",
+   "pic": "../packs/int3a_u4/five.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/five.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int3a_u5/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "garden",
+  "hotspots": [
+   {
+    "id": "moth",
+    "x": 8.3,
+    "y": 17.6,
+    "w": 27.6,
+    "h": 22.1
+   },
+   {
+    "id": "centipede",
+    "x": 34.2,
+    "y": 22.8,
+    "w": 24.9,
+    "h": 18.9
+   },
+   {
+    "id": "mosquito",
+    "x": 58.6,
+    "y": 11.1,
+    "w": 18.6,
+    "h": 28.0
+   },
+   {
+    "id": "cicada",
+    "x": 81.5,
+    "y": 18.9,
+    "w": 14.2,
+    "h": 33.2
+   },
+   {
+    "id": "spider",
+    "x": 34.7,
+    "y": 43.0,
+    "w": 18.1,
+    "h": 18.2
+   },
+   {
+    "id": "cockroach",
+    "x": 53.7,
+    "y": 38.4,
+    "w": 24.4,
+    "h": 26.7
+   },
+   {
+    "id": "ant",
+    "x": 26.2,
+    "y": 70.3,
+    "w": 22.2,
+    "h": 14.3
+   },
+   {
+    "id": "silkworm",
+    "x": 56.2,
+    "y": 71.6,
+    "w": 22.0,
+    "h": 10.4
+   },
+   {
+    "id": "butterfly",
+    "x": 8.6,
+    "y": 41.4,
+    "w": 24.4,
+    "h": 28.9
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "mosquito",
+    "climb",
+    "spider",
+    "centipede"
+   ],
+   "odd": "climb"
+  },
+  {
+   "items": [
+    "mosquito",
+    "centipede",
+    "lemon",
+    "butterfly"
+   ],
+   "odd": "lemon"
+  },
+  {
+   "items": [
+    "ant",
+    "mosquito",
+    "bad",
+    "spider"
+   ],
+   "odd": "bad"
+  },
+  {
+   "items": [
+    "moth",
+    "cockroach",
+    "fifteen",
+    "ant"
+   ],
+   "odd": "fifteen"
+  },
+  {
+   "items": [
+    "ant",
+    "silkworm",
+    "cicada",
+    "stand"
+   ],
+   "odd": "stand"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "bug",
+   "moth",
+   "mosquito",
+   "cicada",
+   "spider",
+   "ant"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "bug",
+   "moth",
+   "centipede",
+   "mosquito",
+   "cicada",
+   "spider"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "bug",
+   "moth",
+   "centipede",
+   "mosquito",
+   "cicada",
+   "spider",
+   "cockroach"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What is this bug?",
+   "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+  },
+  {
+   "text": "It is a butterfly.",
+   "audio": "../packs/int3a_u5/audio/{v}/itisabutterfly.mp3"
+  },
+  {
+   "text": "It is a moth.",
+   "audio": "audio/int3a_u5/{v}/itisamoth.mp3"
+  },
+  {
+   "text": "It is a centipede.",
+   "audio": "audio/int3a_u5/{v}/itisacentipede.mp3"
+  },
+  {
+   "text": "It is a mosquito.",
+   "audio": "audio/int3a_u5/{v}/itisamosquito.mp3"
+  },
+  {
+   "text": "It is a cicada.",
+   "audio": "audio/int3a_u5/{v}/itisacicada.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3a_u5/silkworm.jpg",
+   "q": {
+    "text": "What is this bug?",
+    "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a butterfly.",
+     "audio": "audio/int3a_u5/ai/itisabutterfly.mp3"
+    },
+    {
+     "text": "It is a silkworm.",
+     "audio": "audio/int3a_u5/ai/itisasilkworm.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u5/centipede.jpg",
+   "q": {
+    "text": "What is this bug?",
+    "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a mosquito.",
+     "audio": "audio/int3a_u5/ai/itisamosquito.mp3"
+    },
+    {
+     "text": "It is a centipede.",
+     "audio": "audio/int3a_u5/ai/itisacentipede.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u5/butterfly.jpg",
+   "q": {
+    "text": "What is this bug?",
+    "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a cicada.",
+     "audio": "audio/int3a_u5/ai/itisacicada.mp3"
+    },
+    {
+     "text": "It is a butterfly.",
+     "audio": "audio/int3a_u5/ai/itisabutterfly.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u5/cicada.jpg",
+   "q": {
+    "text": "What is this bug?",
+    "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a cicada.",
+     "audio": "audio/int3a_u5/ai/itisacicada.mp3"
+    },
+    {
+     "text": "It is a centipede.",
+     "audio": "audio/int3a_u5/ai/itisacentipede.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u5/",
+  "ai": "audio/int3a_u5/ai/"
+ }
+}

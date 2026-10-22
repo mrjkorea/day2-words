@@ -1,0 +1,521 @@
+{
+ "id": "int3a_u6",
+ "title": "INT 3A · Unit 6 · How Will I Yell Your Name?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3a_u6/audio/us_f/",
+ "picDir": "../packs/int3a_u6/",
+ "lineAudio": "audio/int3a_u6/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "iris",
+   "choices": [
+    "iris",
+    "baker",
+    "mike",
+    "stingray"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "ivy",
+   "choices": [
+    "ivy",
+    "iris",
+    "mike",
+    "hunter"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "stingray",
+   "choices": [
+    "stingray",
+    "rose",
+    "ivy",
+    "baker"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hunter",
+   "answer": "hunter",
+   "choices": [
+    "hunter",
+    "hunrer",
+    "unter",
+    "huntur"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "iris",
+   "answer": "iris",
+   "choices": [
+    "iris",
+    "iras",
+    "ris",
+    "iis"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "answer": [
+    "I",
+    "will",
+    "yell",
+    "your",
+    "name."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "stingray",
+   "audio": "audio/int3a_u6/{v}/mynameisstingray.mp3",
+   "answer": [
+    "My",
+    "name",
+    "is",
+    "Stingray."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "sentence": [
+    "I",
+    "will",
+    "___",
+    "your",
+    "name."
+   ],
+   "answer": "yell",
+   "choices": [
+    "yell",
+    "name",
+    "stingray"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "baker",
+   "audio": "audio/int3a_u6/{v}/mynameisbaker.mp3",
+   "sentence": [
+    "My",
+    "name",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "Baker",
+   "choices": [
+    "Baker",
+    "Hunter",
+    "Ivy"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "ivy",
+   "audio": "audio/int3a_u6/{v}/mynameisivy.mp3",
+   "sentence": [
+    "My",
+    "name",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "Ivy",
+   "choices": [
+    "Ivy",
+    "Stingray",
+    "Rose"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "name",
+   "en": "name",
+   "ko": "이름",
+   "pic": null,
+   "audio": "../packs/int3a_u6/audio/{v}/name.mp3",
+   "stext": "What is your name?",
+   "sentence": "audio/int3a_u6/{v}/whatisyourname.mp3"
+  },
+  {
+   "id": "yell",
+   "en": "yell",
+   "ko": "외치다, 부르다",
+   "pic": null,
+   "audio": "../packs/int3a_u6/audio/{v}/yell.mp3",
+   "stext": "I will yell your name.",
+   "sentence": "audio/int3a_u6/{v}/iwillyellyourname.mp3"
+  },
+  {
+   "id": "rose",
+   "en": "rose",
+   "ko": "장미",
+   "pic": "../packs/int3a_u6/rose.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/rose.mp3",
+   "stext": "My name is Rose.",
+   "sentence": "audio/int3a_u6/{v}/mynameisrose.mp3"
+  },
+  {
+   "id": "iris",
+   "en": "iris",
+   "ko": "붓꽃",
+   "pic": "../packs/int3a_u6/iris.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/iris.mp3",
+   "stext": "My name is Iris.",
+   "sentence": "audio/int3a_u6/{v}/mynameisiris.mp3"
+  },
+  {
+   "id": "hunter",
+   "en": "hunter",
+   "ko": "사냥꾼",
+   "pic": "../packs/int3a_u6/hunter.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/hunter.mp3",
+   "stext": "My name is Hunter.",
+   "sentence": "audio/int3a_u6/{v}/mynameishunter.mp3"
+  },
+  {
+   "id": "ginger",
+   "en": "ginger",
+   "ko": "생강",
+   "pic": "../packs/int3a_u6/ginger.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/ginger.mp3",
+   "stext": "My name is Ginger.",
+   "sentence": "audio/int3a_u6/{v}/mynameisginger.mp3"
+  },
+  {
+   "id": "stingray",
+   "en": "stingray",
+   "ko": "가오리",
+   "pic": "../packs/int3a_u6/stingray.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/stingray.mp3",
+   "stext": "My name is Stingray.",
+   "sentence": "audio/int3a_u6/{v}/mynameisstingray.mp3"
+  },
+  {
+   "id": "mike",
+   "en": "mike",
+   "ko": "마이크",
+   "pic": "../packs/int3a_u6/mike.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/mike.mp3",
+   "stext": "My name is Mike.",
+   "sentence": "audio/int3a_u6/{v}/mynameismike.mp3"
+  },
+  {
+   "id": "ivy",
+   "en": "ivy",
+   "ko": "담쟁이덩굴",
+   "pic": "../packs/int3a_u6/ivy.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/ivy.mp3",
+   "stext": "My name is Ivy.",
+   "sentence": "audio/int3a_u6/{v}/mynameisivy.mp3"
+  },
+  {
+   "id": "baker",
+   "en": "baker",
+   "ko": "제빵사",
+   "pic": "../packs/int3a_u6/baker.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/baker.mp3",
+   "stext": "My name is Baker.",
+   "sentence": "audio/int3a_u6/{v}/mynameisbaker.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "moth",
+   "en": "moth",
+   "ko": "나방",
+   "pic": "../packs/int3a_u5/moth.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/moth.mp3"
+  },
+  {
+   "id": "toy",
+   "en": "toy",
+   "ko": "장난감",
+   "pic": "../packs/int3a_u1/toy.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/toy.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/int3a_u3/quiet.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/quiet.mp3"
+  },
+  {
+   "id": "silkworm",
+   "en": "silkworm",
+   "ko": "누에",
+   "pic": "../packs/int3a_u5/silkworm.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/silkworm.mp3"
+  },
+  {
+   "id": "cockroach",
+   "en": "cockroach",
+   "ko": "바퀴벌레",
+   "pic": "../packs/int3a_u5/cockroach.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/cockroach.mp3"
+  },
+  {
+   "id": "clap",
+   "en": "clap",
+   "ko": "박수 치다",
+   "pic": "../packs/int3a_u7/clap.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/clap.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "hunter",
+    "iris",
+    "mike",
+    "moth"
+   ],
+   "odd": "moth"
+  },
+  {
+   "items": [
+    "toy",
+    "hunter",
+    "stingray",
+    "baker"
+   ],
+   "odd": "toy"
+  },
+  {
+   "items": [
+    "stingray",
+    "ginger",
+    "quiet",
+    "iris"
+   ],
+   "odd": "quiet"
+  },
+  {
+   "items": [
+    "baker",
+    "mike",
+    "hunter",
+    "silkworm"
+   ],
+   "odd": "silkworm"
+  },
+  {
+   "items": [
+    "mike",
+    "cockroach",
+    "baker",
+    "rose"
+   ],
+   "odd": "cockroach"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "name",
+   "yell",
+   "rose",
+   "iris",
+   "hunter",
+   "ginger"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "name",
+   "yell",
+   "rose",
+   "iris",
+   "hunter",
+   "ginger"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "name",
+   "yell",
+   "rose",
+   "iris",
+   "hunter",
+   "ginger",
+   "stingray"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "How will I yell your name?",
+   "audio": "../packs/int3a_u6/audio/{v}/howwilliyellyourname.mp3"
+  },
+  {
+   "text": "What is your name?",
+   "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+  },
+  {
+   "text": "I will yell your name.",
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3"
+  },
+  {
+   "text": "My name is Rose.",
+   "audio": "audio/int3a_u6/{v}/mynameisrose.mp3"
+  },
+  {
+   "text": "My name is Iris.",
+   "audio": "audio/int3a_u6/{v}/mynameisiris.mp3"
+  },
+  {
+   "text": "My name is Hunter.",
+   "audio": "audio/int3a_u6/{v}/mynameishunter.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3a_u6/iris.jpg",
+   "q": {
+    "text": "What is your name?",
+    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+   },
+   "choices": [
+    {
+     "text": "My name is Hunter.",
+     "audio": "audio/int3a_u6/ai/mynameishunter.mp3"
+    },
+    {
+     "text": "My name is Iris.",
+     "audio": "audio/int3a_u6/ai/mynameisiris.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u6/rose.jpg",
+   "q": {
+    "text": "What is your name?",
+    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+   },
+   "choices": [
+    {
+     "text": "My name is Ivy.",
+     "audio": "audio/int3a_u6/ai/mynameisivy.mp3"
+    },
+    {
+     "text": "My name is Rose.",
+     "audio": "audio/int3a_u6/ai/mynameisrose.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u6/baker.jpg",
+   "q": {
+    "text": "What is your name?",
+    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+   },
+   "choices": [
+    {
+     "text": "My name is Baker.",
+     "audio": "audio/int3a_u6/ai/mynameisbaker.mp3"
+    },
+    {
+     "text": "My name is Rose.",
+     "audio": "audio/int3a_u6/ai/mynameisrose.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u6/stingray.jpg",
+   "q": {
+    "text": "What is your name?",
+    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+   },
+   "choices": [
+    {
+     "text": "I will yell your name.",
+     "audio": "audio/int3a_u6/ai/iwillyellyourname.mp3"
+    },
+    {
+     "text": "My name is Stingray.",
+     "audio": "audio/int3a_u6/ai/mynameisstingray.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u6/",
+  "ai": "audio/int3a_u6/ai/"
+ }
+}

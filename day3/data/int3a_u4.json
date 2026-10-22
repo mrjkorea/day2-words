@@ -1,0 +1,518 @@
+{
+ "id": "int3a_u4",
+ "title": "INT 3A · Unit 4 · How Old is He?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3a_u4/audio/us_f/",
+ "picDir": "../packs/int3a_u4/",
+ "lineAudio": "audio/int3a_u4/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "five",
+   "choices": [
+    "five",
+    "thirtynine",
+    "seventyseven",
+    "fifteen"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "thirtynine",
+   "choices": [
+    "thirtynine",
+    "onehundred",
+    "thirty",
+    "ten"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "seventyseven",
+   "choices": [
+    "seventyseven",
+    "thirty",
+    "onehundred",
+    "fifteen"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "fifteen",
+   "answer": "fifteen",
+   "choices": [
+    "fifteen",
+    "fiftien",
+    "fifteun",
+    "fiften"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "ten",
+   "answer": "ten",
+   "choices": [
+    "ten",
+    "sen",
+    "ton",
+    "tenn"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "thirty",
+   "audio": "audio/int3a_u4/{v}/heisthirtyyearsold.mp3",
+   "answer": [
+    "He",
+    "is",
+    "thirty",
+    "years",
+    "old."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "twentyseven",
+   "audio": "audio/int3a_u4/{v}/heistwentysevenyearsold.mp3",
+   "answer": [
+    "He",
+    "is",
+    "twenty-seven",
+    "years",
+    "old."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "twentyseven",
+   "audio": "audio/int3a_u4/{v}/heistwentysevenyearsold.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "years",
+    "old."
+   ],
+   "answer": "twenty-seven",
+   "choices": [
+    "twenty-seven",
+    "year",
+    "fifty-five"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "fiftyfive",
+   "audio": "audio/int3a_u4/{v}/heisfiftyfiveyearsold.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "years",
+    "old."
+   ],
+   "answer": "fifty-five",
+   "choices": [
+    "fifty-five",
+    "ten",
+    "fifteen"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "seventyseven",
+   "audio": "audio/int3a_u4/{v}/heisseventysevenyearsold.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "years",
+    "old."
+   ],
+   "answer": "seventy-seven",
+   "choices": [
+    "seventy-seven",
+    "fifty-five",
+    "fifteen"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "year",
+   "en": "year",
+   "ko": "해, 살",
+   "pic": null,
+   "audio": "../packs/int3a_u4/audio/{v}/year.mp3",
+   "stext": "One year has twelve months.",
+   "sentence": "audio/int3a_u4/{v}/oneyearhastwelvemonths.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯",
+   "pic": "../packs/int3a_u4/five.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/five.mp3",
+   "stext": "He is five years old.",
+   "sentence": "audio/int3a_u4/{v}/heisfiveyearsold.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열",
+   "pic": "../packs/int3a_u4/ten.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/ten.mp3",
+   "stext": "He is ten years old.",
+   "sentence": "audio/int3a_u4/{v}/heistenyearsold.mp3"
+  },
+  {
+   "id": "fifteen",
+   "en": "fifteen",
+   "ko": "열다섯",
+   "pic": "../packs/int3a_u4/fifteen.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/fifteen.mp3",
+   "stext": "He is fifteen years old.",
+   "sentence": "../packs/int3a_u4/audio/{v}/heisfifteenyearsold.mp3"
+  },
+  {
+   "id": "twentyseven",
+   "en": "twenty-seven",
+   "ko": "스물일곱",
+   "pic": "../packs/int3a_u4/twentyseven.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/twentyseven.mp3",
+   "stext": "He is twenty-seven years old.",
+   "sentence": "audio/int3a_u4/{v}/heistwentysevenyearsold.mp3"
+  },
+  {
+   "id": "thirty",
+   "en": "thirty",
+   "ko": "서른",
+   "pic": "../packs/int3a_u4/thirty.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/thirty.mp3",
+   "stext": "He is thirty years old.",
+   "sentence": "audio/int3a_u4/{v}/heisthirtyyearsold.mp3"
+  },
+  {
+   "id": "thirtynine",
+   "en": "thirty-nine",
+   "ko": "서른아홉",
+   "pic": "../packs/int3a_u4/thirtynine.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/thirtynine.mp3",
+   "stext": "He is thirty-nine years old.",
+   "sentence": "audio/int3a_u4/{v}/heisthirtynineyearsold.mp3"
+  },
+  {
+   "id": "fiftyfive",
+   "en": "fifty-five",
+   "ko": "쉰다섯",
+   "pic": "../packs/int3a_u4/fiftyfive.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/fiftyfive.mp3",
+   "stext": "He is fifty-five years old.",
+   "sentence": "audio/int3a_u4/{v}/heisfiftyfiveyearsold.mp3"
+  },
+  {
+   "id": "seventyseven",
+   "en": "seventy-seven",
+   "ko": "일흔일곱",
+   "pic": "../packs/int3a_u4/seventyseven.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/seventyseven.mp3",
+   "stext": "He is seventy-seven years old.",
+   "sentence": "audio/int3a_u4/{v}/heisseventysevenyearsold.mp3"
+  },
+  {
+   "id": "onehundred",
+   "en": "one hundred",
+   "ko": "백",
+   "pic": "../packs/int3a_u4/onehundred.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/onehundred.mp3",
+   "stext": "He is one hundred years old.",
+   "sentence": "audio/int3a_u4/{v}/heisonehundredyearsold.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "good",
+   "en": "good",
+   "ko": "좋은",
+   "pic": "../packs/int3a_u3/good.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/good.mp3"
+  },
+  {
+   "id": "soft",
+   "en": "soft",
+   "ko": "부드러운",
+   "pic": "../packs/int3a_u3/soft.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/soft.mp3"
+  },
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "pic": "../packs/int3a_u7/climb.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/climb.mp3"
+  },
+  {
+   "id": "lily",
+   "en": "lily",
+   "ko": "백합",
+   "pic": "../packs/int3a_u6/lily.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/lily.mp3"
+  },
+  {
+   "id": "firefly",
+   "en": "firefly",
+   "ko": "반딧불이",
+   "pic": "../packs/int3a_u5/firefly.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/firefly.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/int3a_u8/dog.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/dog.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "seventyseven",
+    "onehundred",
+    "fifteen",
+    "good"
+   ],
+   "odd": "good"
+  },
+  {
+   "items": [
+    "soft",
+    "thirty",
+    "seventyseven",
+    "five"
+   ],
+   "odd": "soft"
+  },
+  {
+   "items": [
+    "seventyseven",
+    "fiftyfive",
+    "ten",
+    "climb"
+   ],
+   "odd": "climb"
+  },
+  {
+   "items": [
+    "twentyseven",
+    "lily",
+    "onehundred",
+    "thirty"
+   ],
+   "odd": "lily"
+  },
+  {
+   "items": [
+    "twentyseven",
+    "fiftyfive",
+    "fifteen",
+    "firefly"
+   ],
+   "odd": "firefly"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "year",
+   "five",
+   "ten",
+   "fifteen",
+   "thirty"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "year",
+   "five",
+   "ten",
+   "fifteen",
+   "thirty"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "year",
+   "five",
+   "ten",
+   "fifteen",
+   "thirty"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "How old is he?",
+   "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+  },
+  {
+   "text": "He is fifteen years old.",
+   "audio": "../packs/int3a_u4/audio/{v}/heisfifteenyearsold.mp3"
+  },
+  {
+   "text": "One year has twelve months.",
+   "audio": "audio/int3a_u4/{v}/oneyearhastwelvemonths.mp3"
+  },
+  {
+   "text": "He is five years old.",
+   "audio": "audio/int3a_u4/{v}/heisfiveyearsold.mp3"
+  },
+  {
+   "text": "He is ten years old.",
+   "audio": "audio/int3a_u4/{v}/heistenyearsold.mp3"
+  },
+  {
+   "text": "He is twenty-seven years old.",
+   "audio": "audio/int3a_u4/{v}/heistwentysevenyearsold.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3a_u4/thirtynine.jpg",
+   "q": {
+    "text": "How old is he?",
+    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+   },
+   "choices": [
+    {
+     "text": "He is thirty-nine years old.",
+     "audio": "audio/int3a_u4/ai/heisthirtynineyearsold.mp3"
+    },
+    {
+     "text": "He is one hundred years old.",
+     "audio": "audio/int3a_u4/ai/heisonehundredyearsold.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u4/fifteen.jpg",
+   "q": {
+    "text": "How old is he?",
+    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+   },
+   "choices": [
+    {
+     "text": "He is fifteen years old.",
+     "audio": "audio/int3a_u4/ai/heisfifteenyearsold.mp3"
+    },
+    {
+     "text": "He is thirty years old.",
+     "audio": "audio/int3a_u4/ai/heisthirtyyearsold.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u4/fiftyfive.jpg",
+   "q": {
+    "text": "How old is he?",
+    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+   },
+   "choices": [
+    {
+     "text": "He is thirty years old.",
+     "audio": "audio/int3a_u4/ai/heisthirtyyearsold.mp3"
+    },
+    {
+     "text": "He is fifty-five years old.",
+     "audio": "audio/int3a_u4/ai/heisfiftyfiveyearsold.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u4/ten.jpg",
+   "q": {
+    "text": "How old is he?",
+    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+   },
+   "choices": [
+    {
+     "text": "He is ten years old.",
+     "audio": "audio/int3a_u4/ai/heistenyearsold.mp3"
+    },
+    {
+     "text": "He is one hundred years old.",
+     "audio": "audio/int3a_u4/ai/heisonehundredyearsold.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u4/",
+  "ai": "audio/int3a_u4/ai/"
+ }
+}

@@ -1,0 +1,589 @@
+{
+ "id": "int3a_u7",
+ "title": "INT 3A · Unit 7 · Gym Class",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3a_u7/audio/us_f/",
+ "picDir": "../packs/int3a_u7/",
+ "lineAudio": "audio/int3a_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "dance",
+   "choices": [
+    "dance",
+    "run",
+    "sit",
+    "clap"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "sit",
+   "choices": [
+    "sit",
+    "jumpingjacks",
+    "clap",
+    "turn"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "jumprope",
+   "choices": [
+    "jumprope",
+    "run",
+    "jumpingjacks",
+    "sit"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "dance",
+   "answer": "dance",
+   "choices": [
+    "dance",
+    "dabce",
+    "dace",
+    "ance"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "climb",
+   "answer": "climb",
+   "choices": [
+    "climb",
+    "clib",
+    "llimb",
+    "clumb"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "climb",
+   "audio": "audio/int3a_u7/{v}/climbtherope.mp3",
+   "answer": [
+    "Climb",
+    "the",
+    "rope!"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "clap",
+   "audio": "../packs/int3a_u7/audio/{v}/clapthreetimes.mp3",
+   "answer": [
+    "Clap",
+    "three",
+    "times!"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "dance",
+   "audio": "audio/int3a_u7/{v}/letsdance.mp3",
+   "sentence": [
+    "Let's",
+    "___",
+    "!"
+   ],
+   "answer": "dance",
+   "choices": [
+    "dance",
+    "turn",
+    "run"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3a_u7/{v}/wehavegymclass.mp3",
+   "sentence": [
+    "We",
+    "have",
+    "___",
+    "class."
+   ],
+   "answer": "gym",
+   "choices": [
+    "gym",
+    "dance",
+    "clap"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "turn",
+   "audio": "audio/int3a_u7/{v}/turnaround.mp3",
+   "sentence": [
+    "___",
+    "around!"
+   ],
+   "answer": "Turn",
+   "choices": [
+    "Turn",
+    "Dance",
+    "Sit"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "gym",
+   "en": "gym",
+   "ko": "체육관, 체육",
+   "pic": null,
+   "audio": "../packs/int3a_u7/audio/{v}/gym.mp3",
+   "stext": "We have gym class.",
+   "sentence": "audio/int3a_u7/{v}/wehavegymclass.mp3"
+  },
+  {
+   "id": "stand",
+   "en": "stand",
+   "ko": "서다",
+   "pic": "../packs/int3a_u7/stand.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/stand.mp3",
+   "stext": "Stand up!",
+   "sentence": "audio/int3a_u7/{v}/standup.mp3"
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "뛰다",
+   "pic": "../packs/int3a_u7/run.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/run.mp3",
+   "stext": "Run fast!",
+   "sentence": "audio/int3a_u7/{v}/runfast.mp3"
+  },
+  {
+   "id": "jumprope",
+   "en": "jump rope",
+   "ko": "줄넘기",
+   "pic": "../packs/int3a_u7/jumprope.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/jumprope.mp3",
+   "stext": "Jump rope!",
+   "sentence": "../packs/int3a_u7/audio/{v}/jumprope.mp3"
+  },
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "pic": "../packs/int3a_u7/climb.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/climb.mp3",
+   "stext": "Climb the rope!",
+   "sentence": "audio/int3a_u7/{v}/climbtherope.mp3"
+  },
+  {
+   "id": "clap",
+   "en": "clap",
+   "ko": "박수 치다",
+   "pic": "../packs/int3a_u7/clap.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/clap.mp3",
+   "stext": "Clap three times!",
+   "sentence": "../packs/int3a_u7/audio/{v}/clapthreetimes.mp3"
+  },
+  {
+   "id": "turn",
+   "en": "turn",
+   "ko": "돌다",
+   "pic": "../packs/int3a_u7/turn.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/turn.mp3",
+   "stext": "Turn around!",
+   "sentence": "audio/int3a_u7/{v}/turnaround.mp3"
+  },
+  {
+   "id": "dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "pic": "../packs/int3a_u7/dance.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/dance.mp3",
+   "stext": "Let's dance!",
+   "sentence": "audio/int3a_u7/{v}/letsdance.mp3"
+  },
+  {
+   "id": "sit",
+   "en": "sit",
+   "ko": "앉다",
+   "pic": "../packs/int3a_u7/sit.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/sit.mp3",
+   "stext": "Sit down!",
+   "sentence": "audio/int3a_u7/{v}/sitdown.mp3"
+  },
+  {
+   "id": "jumpingjacks",
+   "en": "jumping jacks",
+   "ko": "팔 벌려 뛰기",
+   "pic": "../packs/int3a_u7/jumpingjacks.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/jumpingjacks.mp3",
+   "stext": "Do jumping jacks!",
+   "sentence": "audio/int3a_u7/{v}/dojumpingjacks.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "hunter",
+   "en": "hunter",
+   "ko": "사냥꾼",
+   "pic": "../packs/int3a_u6/hunter.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/hunter.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯",
+   "pic": "../packs/int3a_u4/five.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/five.mp3"
+  },
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "pic": "../packs/int3a_u8/draw.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/draw.mp3"
+  },
+  {
+   "id": "small",
+   "en": "small",
+   "ko": "작은",
+   "pic": "../packs/int3a_u3/small.jpg",
+   "audio": "../packs/int3a_u3/audio/{v}/small.mp3"
+  },
+  {
+   "id": "circle",
+   "en": "circle",
+   "ko": "원",
+   "pic": "../packs/int3a_u1/circle.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/circle.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3a_u1/hat.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/hat.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int3a_u7/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "gym",
+  "hotspots": [
+   {
+    "id": "gym",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 100.0,
+    "h": 100.0
+   },
+   {
+    "id": "stand",
+    "x": 1.8,
+    "y": 32.3,
+    "w": 10.7,
+    "h": 38.7
+   },
+   {
+    "id": "run",
+    "x": 14.2,
+    "y": 28.0,
+    "w": 15.1,
+    "h": 31.2
+   },
+   {
+    "id": "jumprope",
+    "x": 33.7,
+    "y": 18.2,
+    "w": 15.6,
+    "h": 37.1
+   },
+   {
+    "id": "climb",
+    "x": 66.9,
+    "y": 10.4,
+    "w": 9.8,
+    "h": 29.9
+   },
+   {
+    "id": "clap",
+    "x": 27.3,
+    "y": 50.8,
+    "w": 10.9,
+    "h": 40.1
+   },
+   {
+    "id": "turn",
+    "x": 43.9,
+    "y": 51.4,
+    "w": 14.6,
+    "h": 36.8
+   },
+   {
+    "id": "dance",
+    "x": 60.5,
+    "y": 48.2,
+    "w": 14.6,
+    "h": 37.8
+   },
+   {
+    "id": "sit",
+    "x": 72.8,
+    "y": 65.8,
+    "w": 21.0,
+    "h": 26.0
+   },
+   {
+    "id": "jumpingjacks",
+    "x": 77.0,
+    "y": 34.9,
+    "w": 20.5,
+    "h": 31.8
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "sit",
+    "stand",
+    "climb",
+    "hunter"
+   ],
+   "odd": "hunter"
+  },
+  {
+   "items": [
+    "five",
+    "climb",
+    "clap",
+    "jumprope"
+   ],
+   "odd": "five"
+  },
+  {
+   "items": [
+    "draw",
+    "sit",
+    "clap",
+    "turn"
+   ],
+   "odd": "draw"
+  },
+  {
+   "items": [
+    "small",
+    "jumpingjacks",
+    "run",
+    "sit"
+   ],
+   "odd": "small"
+  },
+  {
+   "items": [
+    "run",
+    "clap",
+    "jumpingjacks",
+    "circle"
+   ],
+   "odd": "circle"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "gym",
+   "stand",
+   "run",
+   "climb",
+   "clap",
+   "turn"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "gym",
+   "stand",
+   "run",
+   "climb",
+   "clap",
+   "turn"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "gym",
+   "stand",
+   "run",
+   "climb",
+   "clap",
+   "turn",
+   "dance"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Clap three times!",
+   "audio": "../packs/int3a_u7/audio/{v}/clapthreetimes.mp3"
+  },
+  {
+   "text": "We have gym class.",
+   "audio": "audio/int3a_u7/{v}/wehavegymclass.mp3"
+  },
+  {
+   "text": "Stand up!",
+   "audio": "audio/int3a_u7/{v}/standup.mp3"
+  },
+  {
+   "text": "Run fast!",
+   "audio": "audio/int3a_u7/{v}/runfast.mp3"
+  },
+  {
+   "text": "Jump rope!",
+   "audio": "../packs/int3a_u7/audio/{v}/jumprope.mp3"
+  },
+  {
+   "text": "Climb the rope!",
+   "audio": "audio/int3a_u7/{v}/climbtherope.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3a_u7/jumprope.jpg",
+   "q": {
+    "text": "What do we do?",
+    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Climb the rope!",
+     "audio": "audio/int3a_u7/ai/climbtherope.mp3"
+    },
+    {
+     "text": "Jump rope!",
+     "audio": "audio/int3a_u7/ai/jumprope.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u7/climb.jpg",
+   "q": {
+    "text": "What do we do?",
+    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Climb the rope!",
+     "audio": "audio/int3a_u7/ai/climbtherope.mp3"
+    },
+    {
+     "text": "Let's dance!",
+     "audio": "audio/int3a_u7/ai/letsdance.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u7/turn.jpg",
+   "q": {
+    "text": "What do we do?",
+    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Jump rope!",
+     "audio": "audio/int3a_u7/ai/jumprope.mp3"
+    },
+    {
+     "text": "Turn around!",
+     "audio": "audio/int3a_u7/ai/turnaround.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u7/sit.jpg",
+   "q": {
+    "text": "What do we do?",
+    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Jump rope!",
+     "audio": "audio/int3a_u7/ai/jumprope.mp3"
+    },
+    {
+     "text": "Sit down!",
+     "audio": "audio/int3a_u7/ai/sitdown.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u7/",
+  "ai": "audio/int3a_u7/ai/"
+ }
+}

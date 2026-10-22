@@ -1,0 +1,519 @@
+{
+ "id": "int3a_u8",
+ "title": "INT 3A · Unit 8 · Introduction",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3a_u8/audio/us_f/",
+ "picDir": "../packs/int3a_u8/",
+ "lineAudio": "audio/int3a_u8/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "family",
+   "choices": [
+    "family",
+    "sing",
+    "eighteen",
+    "eleven"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "sing",
+   "choices": [
+    "sing",
+    "draw",
+    "school",
+    "eighteen"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "school",
+   "choices": [
+    "school",
+    "eighteen",
+    "sing",
+    "dog"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "sing",
+   "answer": "sing",
+   "choices": [
+    "sing",
+    "sinb",
+    "sng",
+    "sang"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "eighteen",
+   "answer": "eighteen",
+   "choices": [
+    "eighteen",
+    "eghteen",
+    "oighteen",
+    "eigtteen"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "music",
+   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
+   "answer": [
+    "I",
+    "like",
+    "music."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "eleven",
+   "audio": "audio/int3a_u8/{v}/iamelevenyearsold.mp3",
+   "answer": [
+    "I",
+    "am",
+    "eleven",
+    "years",
+    "old."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3a_u8/{v}/thisismyintroduction.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "introduction",
+   "choices": [
+    "introduction",
+    "eleven",
+    "sing"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "family",
+   "audio": "audio/int3a_u8/{v}/ilovemyfamily.mp3",
+   "sentence": [
+    "I",
+    "love",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "family",
+   "choices": [
+    "family",
+    "draw",
+    "school"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "music",
+   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "music",
+   "choices": [
+    "music",
+    "eleven",
+    "introduction"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "introduction",
+   "en": "introduction",
+   "ko": "소개",
+   "pic": null,
+   "audio": "../packs/int3a_u8/audio/{v}/introduction.mp3",
+   "stext": "This is my introduction.",
+   "sentence": "audio/int3a_u8/{v}/thisismyintroduction.mp3"
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "pic": "../packs/int3a_u8/eleven.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/eleven.mp3",
+   "stext": "I am eleven years old.",
+   "sentence": "audio/int3a_u8/{v}/iamelevenyearsold.mp3"
+  },
+  {
+   "id": "eighteen",
+   "en": "eighteen",
+   "ko": "열여덟, 18",
+   "pic": "../packs/int3a_u8/eighteen.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/eighteen.mp3",
+   "stext": "My brother is eighteen.",
+   "sentence": "audio/int3a_u8/{v}/mybrotheriseighteen.mp3"
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/int3a_u8/sing.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/sing.mp3",
+   "stext": "I like to sing.",
+   "sentence": "audio/int3a_u8/{v}/iliketosing.mp3"
+  },
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "pic": "../packs/int3a_u8/draw.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/draw.mp3",
+   "stext": "I like to draw.",
+   "sentence": "audio/int3a_u8/{v}/iliketodraw.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/int3a_u8/dog.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/dog.mp3",
+   "stext": "I have a dog.",
+   "sentence": "audio/int3a_u8/{v}/ihaveadog.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int3a_u8/music.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/music.mp3",
+   "stext": "I like music.",
+   "sentence": "audio/int3a_u8/{v}/ilikemusic.mp3"
+  },
+  {
+   "id": "family",
+   "en": "family",
+   "ko": "가족",
+   "pic": "../packs/int3a_u8/family.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/family.mp3",
+   "stext": "I love my family.",
+   "sentence": "audio/int3a_u8/{v}/ilovemyfamily.mp3"
+  },
+  {
+   "id": "people",
+   "en": "people",
+   "ko": "사람들",
+   "pic": null,
+   "audio": "../packs/int3a_u8/audio/{v}/people.mp3",
+   "stext": "There are four people in my family.",
+   "sentence": "audio/int3a_u8/{v}/therearefourpeopleinmyfamily.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int3a_u8/school.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/school.mp3",
+   "stext": "I go to Hana School.",
+   "sentence": "audio/int3a_u8/{v}/igotohanaschool.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "ginger",
+   "en": "ginger",
+   "ko": "생강",
+   "pic": "../packs/int3a_u6/ginger.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/ginger.mp3"
+  },
+  {
+   "id": "star",
+   "en": "star",
+   "ko": "별",
+   "pic": "../packs/int3a_u1/star.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/star.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯",
+   "pic": "../packs/int3a_u4/five.jpg",
+   "audio": "../packs/int3a_u4/audio/{v}/five.mp3"
+  },
+  {
+   "id": "ant",
+   "en": "ant",
+   "ko": "개미",
+   "pic": "../packs/int3a_u5/ant.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/ant.mp3"
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "뛰다",
+   "pic": "../packs/int3a_u7/run.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/run.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3a_u1/hat.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/hat.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "ginger",
+    "eighteen",
+    "draw",
+    "family"
+   ],
+   "odd": "ginger"
+  },
+  {
+   "items": [
+    "star",
+    "sing",
+    "family",
+    "eleven"
+   ],
+   "odd": "star"
+  },
+  {
+   "items": [
+    "eighteen",
+    "dog",
+    "draw",
+    "five"
+   ],
+   "odd": "five"
+  },
+  {
+   "items": [
+    "sing",
+    "family",
+    "eleven",
+    "ant"
+   ],
+   "odd": "ant"
+  },
+  {
+   "items": [
+    "dog",
+    "run",
+    "draw",
+    "family"
+   ],
+   "odd": "run"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "eleven",
+   "eighteen",
+   "sing",
+   "draw",
+   "dog",
+   "music"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "introduction",
+   "eleven",
+   "eighteen",
+   "sing",
+   "draw",
+   "dog"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "introduction",
+   "eleven",
+   "eighteen",
+   "sing",
+   "draw",
+   "dog",
+   "music"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Where are you from?",
+   "audio": "../packs/int3a_u8/audio/{v}/whereareyoufrom.mp3"
+  },
+  {
+   "text": "I am from Seoul.",
+   "audio": "../packs/int3a_u8/audio/{v}/iamfromseoul.mp3"
+  },
+  {
+   "text": "This is my introduction.",
+   "audio": "audio/int3a_u8/{v}/thisismyintroduction.mp3"
+  },
+  {
+   "text": "I am eleven years old.",
+   "audio": "audio/int3a_u8/{v}/iamelevenyearsold.mp3"
+  },
+  {
+   "text": "My brother is eighteen.",
+   "audio": "audio/int3a_u8/{v}/mybrotheriseighteen.mp3"
+  },
+  {
+   "text": "I like to sing.",
+   "audio": "audio/int3a_u8/{v}/iliketosing.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": null,
+   "q": {
+    "text": "Where are you from?",
+    "audio": "../packs/int3a_u8/audio/{v}/whereareyoufrom.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am from Seoul.",
+     "audio": "audio/int3a_u8/ai/iamfromseoul.mp3"
+    },
+    {
+     "text": "I am eleven years old.",
+     "audio": "audio/int3a_u8/ai/iamelevenyearsold.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u8/eleven.jpg",
+   "q": {
+    "text": "How old are you?",
+    "audio": "audio/int3a_u8/{v}/howoldareyou.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am from Seoul.",
+     "audio": "audio/int3a_u8/ai/iamfromseoul.mp3"
+    },
+    {
+     "text": "I am eleven years old.",
+     "audio": "audio/int3a_u8/ai/iamelevenyearsold.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u8/dog.jpg",
+   "q": {
+    "text": "Do you have a pet?",
+    "audio": "audio/int3a_u8/{v}/doyouhaveapet.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes. I like to sing.",
+     "audio": "audio/int3a_u8/ai/yesiliketosing.mp3"
+    },
+    {
+     "text": "Yes. I have a dog.",
+     "audio": "audio/int3a_u8/ai/yesihaveadog.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3a_u8/family.jpg",
+   "q": {
+    "text": "How many people are in your family?",
+    "audio": "audio/int3a_u8/{v}/howmanypeopleareinyourfamily.mp3"
+   },
+   "choices": [
+    {
+     "text": "There are four people in my family.",
+     "audio": "audio/int3a_u8/ai/therearefourpeopleinmyfamily.mp3"
+    },
+    {
+     "text": "There are four dogs in my school.",
+     "audio": "audio/int3a_u8/ai/therearefourdogsinmyschool.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u8/",
+  "ai": "audio/int3a_u8/ai/"
+ }
+}

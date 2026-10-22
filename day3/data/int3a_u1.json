@@ -1,0 +1,592 @@
+{
+ "id": "int3a_u1",
+ "title": "INT 3A · Unit 1 · I Can Draw a Monster",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3a_u1/audio/us_f/",
+ "picDir": "../packs/int3a_u1/",
+ "lineAudio": "audio/int3a_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "monster",
+   "choices": [
+    "monster",
+    "circle",
+    "korea",
+    "poo"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "circle",
+   "choices": [
+    "circle",
+    "korea",
+    "monster",
+    "hat"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "apple",
+   "choices": [
+    "apple",
+    "flag",
+    "poo",
+    "monster"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "tree",
+   "answer": "tree",
+   "choices": [
+    "tree",
+    "tre",
+    "mree",
+    "rree"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "korea",
+   "answer": "Korea",
+   "choices": [
+    "Korea",
+    "orea",
+    "Kolea",
+    "Koree"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "tree",
+   "audio": "audio/int3a_u1/{v}/icandrawatree.mp3",
+   "answer": [
+    "I",
+    "can",
+    "draw",
+    "a",
+    "tree."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "monster",
+   "audio": "../packs/int3a_u1/audio/{v}/icandrawamonster.mp3",
+   "answer": [
+    "I",
+    "can",
+    "draw",
+    "a",
+    "monster."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "apple",
+   "audio": "audio/int3a_u1/{v}/icandrawanapple.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "draw",
+    "an",
+    "___",
+    "."
+   ],
+   "answer": "apple",
+   "choices": [
+    "apple",
+    "flag",
+    "monster"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3a_u1/{v}/icandraw.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "draw",
+   "choices": [
+    "draw",
+    "flag",
+    "poo"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "poo",
+   "audio": "audio/int3a_u1/{v}/icandrawpoo.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "draw",
+    "___",
+    "."
+   ],
+   "answer": "poo",
+   "choices": [
+    "poo",
+    "monster",
+    "hat"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "pic": null,
+   "audio": "../packs/int3a_u1/audio/{v}/draw.mp3",
+   "stext": "I can draw.",
+   "sentence": "audio/int3a_u1/{v}/icandraw.mp3"
+  },
+  {
+   "id": "circle",
+   "en": "circle",
+   "ko": "원",
+   "pic": "../packs/int3a_u1/circle.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/circle.mp3",
+   "stext": "I can draw a circle.",
+   "sentence": "audio/int3a_u1/{v}/icandrawacircle.mp3"
+  },
+  {
+   "id": "star",
+   "en": "star",
+   "ko": "별",
+   "pic": "../packs/int3a_u1/star.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/star.mp3",
+   "stext": "I can draw a star.",
+   "sentence": "audio/int3a_u1/{v}/icandrawastar.mp3"
+  },
+  {
+   "id": "tree",
+   "en": "tree",
+   "ko": "나무",
+   "pic": "../packs/int3a_u1/tree.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/tree.mp3",
+   "stext": "I can draw a tree.",
+   "sentence": "audio/int3a_u1/{v}/icandrawatree.mp3"
+  },
+  {
+   "id": "poo",
+   "en": "poo",
+   "ko": "똥",
+   "pic": "../packs/int3a_u1/poo.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/poo.mp3",
+   "stext": "I can draw poo.",
+   "sentence": "audio/int3a_u1/{v}/icandrawpoo.mp3"
+  },
+  {
+   "id": "flag",
+   "en": "flag",
+   "ko": "깃발",
+   "pic": "../packs/int3a_u1/flag.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/flag.mp3",
+   "stext": "I can draw a flag.",
+   "sentence": "audio/int3a_u1/{v}/icandrawaflag.mp3"
+  },
+  {
+   "id": "korea",
+   "en": "Korea",
+   "ko": "한국",
+   "pic": "../packs/int3a_u1/korea.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/korea.mp3",
+   "stext": "I can draw Korea.",
+   "sentence": "audio/int3a_u1/{v}/icandrawkorea.mp3"
+  },
+  {
+   "id": "monster",
+   "en": "monster",
+   "ko": "괴물",
+   "pic": "../packs/int3a_u1/monster.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/monster.mp3",
+   "stext": "I can draw a monster.",
+   "sentence": "../packs/int3a_u1/audio/{v}/icandrawamonster.mp3"
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "pic": "../packs/int3a_u1/apple.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/apple.mp3",
+   "stext": "I can draw an apple.",
+   "sentence": "audio/int3a_u1/{v}/icandrawanapple.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3a_u1/hat.jpg",
+   "audio": "../packs/int3a_u1/audio/{v}/hat.mp3",
+   "stext": "I can draw a hat.",
+   "sentence": "audio/int3a_u1/{v}/icandrawahat.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "banana",
+   "en": "banana",
+   "ko": "바나나",
+   "pic": "../packs/int3a_u2/banana.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/banana.mp3"
+  },
+  {
+   "id": "centipede",
+   "en": "centipede",
+   "ko": "지네",
+   "pic": "../packs/int3a_u5/centipede.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/centipede.mp3"
+  },
+  {
+   "id": "firefly",
+   "en": "firefly",
+   "ko": "반딧불이",
+   "pic": "../packs/int3a_u5/firefly.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/firefly.mp3"
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "pic": "../packs/int3a_u8/eleven.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/eleven.mp3"
+  },
+  {
+   "id": "milk",
+   "en": "milk",
+   "ko": "우유",
+   "pic": "../packs/int3a_u2/milk.jpg",
+   "audio": "../packs/int3a_u2/audio/{v}/milk.mp3"
+  },
+  {
+   "id": "violet",
+   "en": "violet",
+   "ko": "제비꽃",
+   "pic": "../packs/int3a_u6/violet.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/violet.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int3a_u1/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "drawings",
+  "hotspots": [
+   {
+    "id": "circle",
+    "x": 17.6,
+    "y": 13.0,
+    "w": 16.1,
+    "h": 19.5
+   },
+   {
+    "id": "star",
+    "x": 40.0,
+    "y": 11.5,
+    "w": 17.1,
+    "h": 20.4
+   },
+   {
+    "id": "tree",
+    "x": 62.5,
+    "y": 9.1,
+    "w": 20.0,
+    "h": 26.7
+   },
+   {
+    "id": "poo",
+    "x": 16.6,
+    "y": 35.4,
+    "w": 17.1,
+    "h": 22.1
+   },
+   {
+    "id": "flag",
+    "x": 40.8,
+    "y": 34.5,
+    "w": 16.8,
+    "h": 24.3
+   },
+   {
+    "id": "korea",
+    "x": 61.8,
+    "y": 36.8,
+    "w": 22.9,
+    "h": 21.7
+   },
+   {
+    "id": "monster",
+    "x": 15.1,
+    "y": 59.2,
+    "w": 21.5,
+    "h": 27.3
+   },
+   {
+    "id": "apple",
+    "x": 40.8,
+    "y": 59.2,
+    "w": 17.3,
+    "h": 24.7
+   },
+   {
+    "id": "hat",
+    "x": 61.0,
+    "y": 61.2,
+    "w": 23.4,
+    "h": 19.5
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "poo",
+    "banana",
+    "hat",
+    "korea"
+   ],
+   "odd": "banana"
+  },
+  {
+   "items": [
+    "tree",
+    "centipede",
+    "hat",
+    "flag"
+   ],
+   "odd": "centipede"
+  },
+  {
+   "items": [
+    "hat",
+    "circle",
+    "monster",
+    "firefly"
+   ],
+   "odd": "firefly"
+  },
+  {
+   "items": [
+    "apple",
+    "circle",
+    "eleven",
+    "flag"
+   ],
+   "odd": "eleven"
+  },
+  {
+   "items": [
+    "milk",
+    "apple",
+    "tree",
+    "korea"
+   ],
+   "odd": "milk"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "draw",
+   "circle",
+   "star",
+   "tree",
+   "poo",
+   "flag"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "draw",
+   "circle",
+   "star",
+   "tree",
+   "poo",
+   "flag"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "draw",
+   "circle",
+   "star",
+   "tree",
+   "poo",
+   "flag",
+   "korea"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What can you draw?",
+   "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
+  },
+  {
+   "text": "I can draw a monster.",
+   "audio": "../packs/int3a_u1/audio/{v}/icandrawamonster.mp3"
+  },
+  {
+   "text": "I can draw.",
+   "audio": "audio/int3a_u1/{v}/icandraw.mp3"
+  },
+  {
+   "text": "I can draw a circle.",
+   "audio": "audio/int3a_u1/{v}/icandrawacircle.mp3"
+  },
+  {
+   "text": "I can draw a star.",
+   "audio": "audio/int3a_u1/{v}/icandrawastar.mp3"
+  },
+  {
+   "text": "I can draw a tree.",
+   "audio": "audio/int3a_u1/{v}/icandrawatree.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3a_u1/monster.jpg",
+   "q": {
+    "text": "What can you draw?",
+    "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can draw a monster.",
+     "audio": "audio/int3a_u1/ai/icandrawamonster.mp3"
+    },
+    {
+     "text": "I can draw.",
+     "audio": "audio/int3a_u1/ai/icandraw.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u1/circle.jpg",
+   "q": {
+    "text": "What can you draw?",
+    "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can draw a circle.",
+     "audio": "audio/int3a_u1/ai/icandrawacircle.mp3"
+    },
+    {
+     "text": "I can draw.",
+     "audio": "audio/int3a_u1/ai/icandraw.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u1/tree.jpg",
+   "q": {
+    "text": "What can you draw?",
+    "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can draw a tree.",
+     "audio": "audio/int3a_u1/ai/icandrawatree.mp3"
+    },
+    {
+     "text": "I can draw Korea.",
+     "audio": "audio/int3a_u1/ai/icandrawkorea.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3a_u1/korea.jpg",
+   "q": {
+    "text": "What can you draw?",
+    "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can draw a flag.",
+     "audio": "audio/int3a_u1/ai/icandrawaflag.mp3"
+    },
+    {
+     "text": "I can draw Korea.",
+     "audio": "audio/int3a_u1/ai/icandrawkorea.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u1/",
+  "ai": "audio/int3a_u1/ai/"
+ }
+}
