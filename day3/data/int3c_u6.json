@@ -1,0 +1,522 @@
+{
+ "id": "int3c_u6",
+ "title": "INT 3C · Unit 6 · How Many Cities?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3c_u6/audio/us_f/",
+ "picDir": "../packs/int3c_u6/",
+ "lineAudio": "audio/int3c_u6/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "volcano",
+   "choices": [
+    "volcano",
+    "desert",
+    "tiger",
+    "province"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "tiger",
+   "choices": [
+    "tiger",
+    "mountain",
+    "desert",
+    "nationalpark"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "desert",
+   "choices": [
+    "desert",
+    "mountain",
+    "province",
+    "city"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "desert",
+   "answer": "desert",
+   "choices": [
+    "desert",
+    "deserl",
+    "esert",
+    "deert"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "island",
+   "answer": "island",
+   "choices": [
+    "island",
+    "esland",
+    "usland",
+    "islnd"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "people",
+   "audio": "audio/int3c_u6/{v}/therearemanypeople.mp3",
+   "answer": [
+    "There",
+    "are",
+    "many",
+    "people."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "city",
+   "audio": "audio/int3c_u6/{v}/therearemanycities.mp3",
+   "answer": [
+    "There",
+    "are",
+    "many",
+    "cities."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "volcano",
+   "audio": "audio/int3c_u6/{v}/thereisavolcanoonjeju.mp3",
+   "sentence": [
+    "There",
+    "is",
+    "a",
+    "___",
+    "on",
+    "Jeju."
+   ],
+   "answer": "volcano",
+   "choices": [
+    "volcano",
+    "mountain",
+    "city"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "desert",
+   "audio": "audio/int3c_u6/{v}/thereisnodesertinkorea.mp3",
+   "sentence": [
+    "There",
+    "is",
+    "no",
+    "___",
+    "in",
+    "Korea."
+   ],
+   "answer": "desert",
+   "choices": [
+    "desert",
+    "island",
+    "people"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "people",
+   "audio": "audio/int3c_u6/{v}/therearemanypeople.mp3",
+   "sentence": [
+    "There",
+    "are",
+    "many",
+    "___",
+    "."
+   ],
+   "answer": "people",
+   "choices": [
+    "people",
+    "mountain",
+    "desert"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "howmany",
+   "en": "how many",
+   "ko": "얼마나 많은, 몇",
+   "pic": null,
+   "audio": "../packs/int3c_u6/audio/{v}/howmany.mp3",
+   "stext": "How many cities are there?",
+   "sentence": "audio/int3c_u6/{v}/howmanycitiesarethere.mp3"
+  },
+  {
+   "id": "city",
+   "en": "city",
+   "ko": "도시",
+   "pic": "../packs/int3c_u6/city.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/city.mp3",
+   "stext": "There are many cities.",
+   "sentence": "audio/int3c_u6/{v}/therearemanycities.mp3"
+  },
+  {
+   "id": "province",
+   "en": "province",
+   "ko": "도, 지방",
+   "pic": "../packs/int3c_u6/province.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/province.mp3",
+   "stext": "Korea has many provinces.",
+   "sentence": "audio/int3c_u6/{v}/koreahasmanyprovinces.mp3"
+  },
+  {
+   "id": "nationalpark",
+   "en": "national park",
+   "ko": "국립공원",
+   "pic": "../packs/int3c_u6/nationalpark.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/nationalpark.mp3",
+   "stext": "Let's visit a national park.",
+   "sentence": "audio/int3c_u6/{v}/letsvisitanationalpark.mp3"
+  },
+  {
+   "id": "island",
+   "en": "island",
+   "ko": "섬",
+   "pic": "../packs/int3c_u6/island.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/island.mp3",
+   "stext": "There are many islands.",
+   "sentence": "audio/int3c_u6/{v}/therearemanyislands.mp3"
+  },
+  {
+   "id": "volcano",
+   "en": "volcano",
+   "ko": "화산",
+   "pic": "../packs/int3c_u6/volcano.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/volcano.mp3",
+   "stext": "There is a volcano on Jeju.",
+   "sentence": "audio/int3c_u6/{v}/thereisavolcanoonjeju.mp3"
+  },
+  {
+   "id": "desert",
+   "en": "desert",
+   "ko": "사막",
+   "pic": "../packs/int3c_u6/desert.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/desert.mp3",
+   "stext": "There is no desert in Korea.",
+   "sentence": "audio/int3c_u6/{v}/thereisnodesertinkorea.mp3"
+  },
+  {
+   "id": "people",
+   "en": "people",
+   "ko": "사람들",
+   "pic": "../packs/int3c_u6/people.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/people.mp3",
+   "stext": "There are many people.",
+   "sentence": "audio/int3c_u6/{v}/therearemanypeople.mp3"
+  },
+  {
+   "id": "mountain",
+   "en": "mountain",
+   "ko": "산",
+   "pic": "../packs/int3c_u6/mountain.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/mountain.mp3",
+   "stext": "There are many mountains.",
+   "sentence": "audio/int3c_u6/{v}/therearemanymountains.mp3"
+  },
+  {
+   "id": "tiger",
+   "en": "tiger",
+   "ko": "호랑이",
+   "pic": "../packs/int3c_u6/tiger.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/tiger.mp3",
+   "stext": "There are no tigers.",
+   "sentence": "audio/int3c_u6/{v}/therearenotigers.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "open",
+   "en": "open",
+   "ko": "열다",
+   "pic": "../packs/int3c_u2/open.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/open.mp3"
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "뛰다",
+   "pic": "../packs/int3c_u2/run.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/run.mp3"
+  },
+  {
+   "id": "type",
+   "en": "type",
+   "ko": "타자를 치다",
+   "pic": "../packs/int3c_u7/type.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/type.mp3"
+  },
+  {
+   "id": "study",
+   "en": "study",
+   "ko": "공부하다",
+   "pic": "../packs/int3c_u4/study.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/study.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3c_u5/hat.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/hat.mp3"
+  },
+  {
+   "id": "ddeok",
+   "en": "ddeok",
+   "ko": "떡",
+   "pic": "../packs/int3c_u1/ddeok.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/ddeok.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "mountain",
+    "open",
+    "province",
+    "nationalpark"
+   ],
+   "odd": "open"
+  },
+  {
+   "items": [
+    "island",
+    "run",
+    "volcano",
+    "people"
+   ],
+   "odd": "run"
+  },
+  {
+   "items": [
+    "people",
+    "mountain",
+    "type",
+    "island"
+   ],
+   "odd": "type"
+  },
+  {
+   "items": [
+    "study",
+    "nationalpark",
+    "mountain",
+    "island"
+   ],
+   "odd": "study"
+  },
+  {
+   "items": [
+    "desert",
+    "island",
+    "tiger",
+    "hat"
+   ],
+   "odd": "hat"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "city",
+   "province",
+   "island",
+   "volcano",
+   "desert",
+   "people"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "city",
+   "province",
+   "island",
+   "volcano",
+   "desert",
+   "people"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "city",
+   "province",
+   "island",
+   "volcano",
+   "desert",
+   "people",
+   "mountain"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "How many islands are there?",
+   "audio": "../packs/int3c_u6/audio/{v}/howmanyislandsarethere.mp3"
+  },
+  {
+   "text": "How many cities are there?",
+   "audio": "audio/int3c_u6/{v}/howmanycitiesarethere.mp3"
+  },
+  {
+   "text": "There are many cities.",
+   "audio": "audio/int3c_u6/{v}/therearemanycities.mp3"
+  },
+  {
+   "text": "Korea has many provinces.",
+   "audio": "audio/int3c_u6/{v}/koreahasmanyprovinces.mp3"
+  },
+  {
+   "text": "Let's visit a national park.",
+   "audio": "audio/int3c_u6/{v}/letsvisitanationalpark.mp3"
+  },
+  {
+   "text": "There are many islands.",
+   "audio": "audio/int3c_u6/{v}/therearemanyislands.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3c_u6/volcano.jpg",
+   "q": {
+    "text": "What can you see?",
+    "audio": "audio/int3c_u6/{v}/whatcanyousee.mp3"
+   },
+   "choices": [
+    {
+     "text": "There are no tigers.",
+     "audio": "audio/int3c_u6/ai/therearenotigers.mp3"
+    },
+    {
+     "text": "There is a volcano on Jeju.",
+     "audio": "audio/int3c_u6/ai/thereisavolcanoonjeju.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u6/island.jpg",
+   "q": {
+    "text": "What can you see?",
+    "audio": "audio/int3c_u6/{v}/whatcanyousee.mp3"
+   },
+   "choices": [
+    {
+     "text": "There are many islands.",
+     "audio": "audio/int3c_u6/ai/therearemanyislands.mp3"
+    },
+    {
+     "text": "There are many mountains.",
+     "audio": "audio/int3c_u6/ai/therearemanymountains.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u6/desert.jpg",
+   "q": {
+    "text": "What can you see?",
+    "audio": "audio/int3c_u6/{v}/whatcanyousee.mp3"
+   },
+   "choices": [
+    {
+     "text": "There is no desert in Korea.",
+     "audio": "audio/int3c_u6/ai/thereisnodesertinkorea.mp3"
+    },
+    {
+     "text": "How many cities are there?",
+     "audio": "audio/int3c_u6/ai/howmanycitiesarethere.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u6/people.jpg",
+   "q": {
+    "text": "What can you see?",
+    "audio": "audio/int3c_u6/{v}/whatcanyousee.mp3"
+   },
+   "choices": [
+    {
+     "text": "There are many people.",
+     "audio": "audio/int3c_u6/ai/therearemanypeople.mp3"
+    },
+    {
+     "text": "There is no desert in Korea.",
+     "audio": "audio/int3c_u6/ai/thereisnodesertinkorea.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u6/",
+  "ai": "audio/int3c_u6/ai/"
+ }
+}

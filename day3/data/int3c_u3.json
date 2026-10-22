@@ -1,0 +1,585 @@
+{
+ "id": "int3c_u3",
+ "title": "INT 3C · Unit 3 · Can I Play Outside?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3c_u3/audio/us_f/",
+ "picDir": "../packs/int3c_u3/",
+ "lineAudio": "audio/int3c_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "pants",
+   "choices": [
+    "pants",
+    "skirt",
+    "socks",
+    "shoes"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "coat",
+   "choices": [
+    "coat",
+    "shirt",
+    "shoes",
+    "gloves"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "socks",
+   "choices": [
+    "socks",
+    "gloves",
+    "shoes",
+    "dress"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "shirt",
+   "answer": "shirt",
+   "choices": [
+    "shirt",
+    "khirt",
+    "shirl",
+    "shrt"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "pants",
+   "answer": "pants",
+   "choices": [
+    "pants",
+    "pantn",
+    "pant",
+    "pantb"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "skirt",
+   "audio": "audio/int3c_u3/{v}/wearaskirt.mp3",
+   "answer": [
+    "Wear",
+    "a",
+    "skirt."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3",
+   "answer": [
+    "What",
+    "should",
+    "I",
+    "wear?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "pants",
+   "audio": "audio/int3c_u3/{v}/wearpants.mp3",
+   "sentence": [
+    "Wear",
+    "___",
+    "."
+   ],
+   "answer": "pants",
+   "choices": [
+    "pants",
+    "dress",
+    "outside"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3",
+   "sentence": [
+    "What",
+    "should",
+    "I",
+    "___",
+    "?"
+   ],
+   "answer": "wear",
+   "choices": [
+    "wear",
+    "socks",
+    "shoes"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "gloves",
+   "audio": "audio/int3c_u3/{v}/weargloves.mp3",
+   "sentence": [
+    "Wear",
+    "___",
+    "."
+   ],
+   "answer": "gloves",
+   "choices": [
+    "gloves",
+    "skirt",
+    "shirt"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "wear",
+   "en": "wear",
+   "ko": "입다, 쓰다, 신다",
+   "pic": null,
+   "audio": "../packs/int3c_u3/audio/{v}/wear.mp3",
+   "stext": "What should I wear?",
+   "sentence": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+  },
+  {
+   "id": "outside",
+   "en": "outside",
+   "ko": "밖에서",
+   "pic": null,
+   "audio": "../packs/int3c_u3/audio/{v}/outside.mp3",
+   "stext": "Can I play outside?",
+   "sentence": "../packs/int3c_u3/audio/{v}/caniplayoutside.mp3"
+  },
+  {
+   "id": "dress",
+   "en": "dress",
+   "ko": "드레스",
+   "pic": "../packs/int3c_u3/dress.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/dress.mp3",
+   "stext": "Wear a dress.",
+   "sentence": "audio/int3c_u3/{v}/wearadress.mp3"
+  },
+  {
+   "id": "shirt",
+   "en": "shirt",
+   "ko": "셔츠",
+   "pic": "../packs/int3c_u3/shirt.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/shirt.mp3",
+   "stext": "Wear a shirt.",
+   "sentence": "audio/int3c_u3/{v}/wearashirt.mp3"
+  },
+  {
+   "id": "pants",
+   "en": "pants",
+   "ko": "바지",
+   "pic": "../packs/int3c_u3/pants.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/pants.mp3",
+   "stext": "Wear pants.",
+   "sentence": "audio/int3c_u3/{v}/wearpants.mp3"
+  },
+  {
+   "id": "socks",
+   "en": "socks",
+   "ko": "양말",
+   "pic": "../packs/int3c_u3/socks.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/socks.mp3",
+   "stext": "Wear socks.",
+   "sentence": "audio/int3c_u3/{v}/wearsocks.mp3"
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "pic": "../packs/int3c_u3/coat.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/coat.mp3",
+   "stext": "Wear a coat.",
+   "sentence": "audio/int3c_u3/{v}/wearacoat.mp3"
+  },
+  {
+   "id": "gloves",
+   "en": "gloves",
+   "ko": "장갑",
+   "pic": "../packs/int3c_u3/gloves.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/gloves.mp3",
+   "stext": "Wear gloves.",
+   "sentence": "audio/int3c_u3/{v}/weargloves.mp3"
+  },
+  {
+   "id": "shoes",
+   "en": "shoes",
+   "ko": "신발",
+   "pic": "../packs/int3c_u3/shoes.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/shoes.mp3",
+   "stext": "Wear shoes.",
+   "sentence": "audio/int3c_u3/{v}/wearshoes.mp3"
+  },
+  {
+   "id": "skirt",
+   "en": "skirt",
+   "ko": "치마",
+   "pic": "../packs/int3c_u3/skirt.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/skirt.mp3",
+   "stext": "Wear a skirt.",
+   "sentence": "audio/int3c_u3/{v}/wearaskirt.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "pic": "../packs/int3c_u7/cook.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/cook.mp3"
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 7",
+   "pic": "../packs/int3c_u8/seven.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/seven.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int3c_u4/school.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/school.mp3"
+  },
+  {
+   "id": "pull",
+   "en": "pull",
+   "ko": "당기다",
+   "pic": "../packs/int3c_u2/pull.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/pull.mp3"
+  },
+  {
+   "id": "talk",
+   "en": "talk",
+   "ko": "이야기하다",
+   "pic": "../packs/int3c_u4/talk.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/talk.mp3"
+  },
+  {
+   "id": "twelve",
+   "en": "twelve",
+   "ko": "열두, 12",
+   "pic": "../packs/int3c_u8/twelve.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/twelve.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int3c_u3/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "clothes",
+  "hotspots": [
+   {
+    "id": "outside",
+    "x": 10.9,
+    "y": 3.9,
+    "w": 27.0,
+    "h": 29.3
+   },
+   {
+    "id": "dress",
+    "x": 10.5,
+    "y": 37.5,
+    "w": 23.4,
+    "h": 24.7
+   },
+   {
+    "id": "shirt",
+    "x": 18.4,
+    "y": 60.3,
+    "w": 19.9,
+    "h": 22.0
+   },
+   {
+    "id": "pants",
+    "x": 35.9,
+    "y": 55.3,
+    "w": 18.9,
+    "h": 31.9
+   },
+   {
+    "id": "socks",
+    "x": 5.4,
+    "y": 65.1,
+    "w": 12.4,
+    "h": 15.6
+   },
+   {
+    "id": "coat",
+    "x": 61.0,
+    "y": 10.4,
+    "w": 25.1,
+    "h": 36.5
+   },
+   {
+    "id": "gloves",
+    "x": 84.2,
+    "y": 18.2,
+    "w": 12.0,
+    "h": 16.3
+   },
+   {
+    "id": "shoes",
+    "x": 64.9,
+    "y": 52.1,
+    "w": 16.3,
+    "h": 14.6
+   },
+   {
+    "id": "skirt",
+    "x": 64.3,
+    "y": 69.7,
+    "w": 28.0,
+    "h": 20.8
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "gloves",
+    "cook",
+    "pants",
+    "shirt"
+   ],
+   "odd": "cook"
+  },
+  {
+   "items": [
+    "socks",
+    "gloves",
+    "seven",
+    "shoes"
+   ],
+   "odd": "seven"
+  },
+  {
+   "items": [
+    "coat",
+    "skirt",
+    "school",
+    "gloves"
+   ],
+   "odd": "school"
+  },
+  {
+   "items": [
+    "pants",
+    "coat",
+    "pull",
+    "shirt"
+   ],
+   "odd": "pull"
+  },
+  {
+   "items": [
+    "talk",
+    "coat",
+    "socks",
+    "gloves"
+   ],
+   "odd": "talk"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "wear",
+   "outside",
+   "dress",
+   "shirt",
+   "pants",
+   "socks"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "wear",
+   "outside",
+   "dress",
+   "shirt",
+   "pants",
+   "socks"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "wear",
+   "outside",
+   "dress",
+   "shirt",
+   "pants",
+   "socks",
+   "coat"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Can I play outside?",
+   "audio": "../packs/int3c_u3/audio/{v}/caniplayoutside.mp3"
+  },
+  {
+   "text": "What should I wear?",
+   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+  },
+  {
+   "text": "Wear a dress.",
+   "audio": "audio/int3c_u3/{v}/wearadress.mp3"
+  },
+  {
+   "text": "Wear a shirt.",
+   "audio": "audio/int3c_u3/{v}/wearashirt.mp3"
+  },
+  {
+   "text": "Wear pants.",
+   "audio": "audio/int3c_u3/{v}/wearpants.mp3"
+  },
+  {
+   "text": "Wear socks.",
+   "audio": "audio/int3c_u3/{v}/wearsocks.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3c_u3/dress.jpg",
+   "q": {
+    "text": "What should I wear?",
+    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+   },
+   "choices": [
+    {
+     "text": "Wear shoes.",
+     "audio": "audio/int3c_u3/ai/wearshoes.mp3"
+    },
+    {
+     "text": "Wear a dress.",
+     "audio": "audio/int3c_u3/ai/wearadress.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u3/shoes.jpg",
+   "q": {
+    "text": "What should I wear?",
+    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+   },
+   "choices": [
+    {
+     "text": "Wear a skirt.",
+     "audio": "audio/int3c_u3/ai/wearaskirt.mp3"
+    },
+    {
+     "text": "Wear shoes.",
+     "audio": "audio/int3c_u3/ai/wearshoes.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u3/shirt.jpg",
+   "q": {
+    "text": "What should I wear?",
+    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+   },
+   "choices": [
+    {
+     "text": "Wear a shirt.",
+     "audio": "audio/int3c_u3/ai/wearashirt.mp3"
+    },
+    {
+     "text": "Wear pants.",
+     "audio": "audio/int3c_u3/ai/wearpants.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u3/pants.jpg",
+   "q": {
+    "text": "What should I wear?",
+    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+   },
+   "choices": [
+    {
+     "text": "Wear pants.",
+     "audio": "audio/int3c_u3/ai/wearpants.mp3"
+    },
+    {
+     "text": "Wear a coat.",
+     "audio": "audio/int3c_u3/ai/wearacoat.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u3/",
+  "ai": "audio/int3c_u3/ai/"
+ }
+}

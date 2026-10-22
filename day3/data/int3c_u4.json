@@ -1,0 +1,516 @@
+{
+ "id": "int3c_u4",
+ "title": "INT 3C · Unit 4 · Let's Play an RPG",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3c_u4/audio/us_f/",
+ "picDir": "../packs/int3c_u4/",
+ "lineAudio": "audio/int3c_u4/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "talk",
+   "choices": [
+    "talk",
+    "cook",
+    "bike",
+    "school"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "tv",
+   "choices": [
+    "tv",
+    "school",
+    "cook",
+    "sing"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cook",
+   "choices": [
+    "cook",
+    "tv",
+    "talk",
+    "junglegym"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "cook",
+   "answer": "cook",
+   "choices": [
+    "cook",
+    "rook",
+    "coo",
+    "pook"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "school",
+   "answer": "school",
+   "choices": [
+    "school",
+    "schoos",
+    "schoo",
+    "scpool"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "tv",
+   "audio": "audio/int3c_u4/{v}/letswatchtv.mp3",
+   "answer": [
+    "Let's",
+    "watch",
+    "TV."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "bike",
+   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
+   "answer": [
+    "Let's",
+    "ride",
+    "a",
+    "bike."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "bike",
+   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
+   "sentence": [
+    "Let's",
+    "ride",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "bike",
+   "choices": [
+    "bike",
+    "talk",
+    "cook"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "talk",
+   "audio": "audio/int3c_u4/{v}/letstalk.mp3",
+   "sentence": [
+    "Let's",
+    "___",
+    "."
+   ],
+   "answer": "talk",
+   "choices": [
+    "talk",
+    "play",
+    "bike"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "soccer",
+   "audio": "../packs/int3c_u4/audio/{v}/letsplaysoccer.mp3",
+   "sentence": [
+    "Let's",
+    "play",
+    "___",
+    "."
+   ],
+   "answer": "soccer",
+   "choices": [
+    "soccer",
+    "play",
+    "bike"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "play",
+   "en": "play",
+   "ko": "(운동, 게임을) 하다",
+   "pic": null,
+   "audio": "../packs/int3c_u4/audio/{v}/play.mp3",
+   "stext": "Let's play.",
+   "sentence": "audio/int3c_u4/{v}/letsplay.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int3c_u4/school.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/school.mp3",
+   "stext": "Let's go to school.",
+   "sentence": "audio/int3c_u4/{v}/letsgotoschool.mp3"
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/int3c_u4/sing.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/sing.mp3",
+   "stext": "Let's sing.",
+   "sentence": "audio/int3c_u4/{v}/letssing.mp3"
+  },
+  {
+   "id": "soccer",
+   "en": "soccer",
+   "ko": "축구",
+   "pic": "../packs/int3c_u4/soccer.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/soccer.mp3",
+   "stext": "Let's play soccer.",
+   "sentence": "../packs/int3c_u4/audio/{v}/letsplaysoccer.mp3"
+  },
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "pic": "../packs/int3c_u4/climb.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/climb.mp3",
+   "stext": "Let's climb.",
+   "sentence": "audio/int3c_u4/{v}/letsclimb.mp3"
+  },
+  {
+   "id": "junglegym",
+   "en": "jungle gym",
+   "ko": "정글짐",
+   "pic": "../packs/int3c_u4/junglegym.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/junglegym.mp3",
+   "stext": "Let's play on the jungle gym.",
+   "sentence": "audio/int3c_u4/{v}/letsplayonthejunglegym.mp3"
+  },
+  {
+   "id": "tv",
+   "en": "TV",
+   "ko": "텔레비전",
+   "pic": "../packs/int3c_u4/tv.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/tv.mp3",
+   "stext": "Let's watch TV.",
+   "sentence": "audio/int3c_u4/{v}/letswatchtv.mp3"
+  },
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "pic": "../packs/int3c_u4/cook.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/cook.mp3",
+   "stext": "Let's cook.",
+   "sentence": "audio/int3c_u4/{v}/letscook.mp3"
+  },
+  {
+   "id": "talk",
+   "en": "talk",
+   "ko": "이야기하다",
+   "pic": "../packs/int3c_u4/talk.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/talk.mp3",
+   "stext": "Let's talk.",
+   "sentence": "audio/int3c_u4/{v}/letstalk.mp3"
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "pic": "../packs/int3c_u4/bike.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/bike.mp3",
+   "stext": "Let's ride a bike.",
+   "sentence": "audio/int3c_u4/{v}/letsrideabike.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 7",
+   "pic": "../packs/int3c_u8/seven.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/seven.mp3"
+  },
+  {
+   "id": "glasses",
+   "en": "glasses",
+   "ko": "안경",
+   "pic": "../packs/int3c_u3/glasses.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/glasses.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int3c_u5/phone.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/phone.mp3"
+  },
+  {
+   "id": "desert",
+   "en": "desert",
+   "ko": "사막",
+   "pic": "../packs/int3c_u6/desert.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/desert.mp3"
+  },
+  {
+   "id": "province",
+   "en": "province",
+   "ko": "도, 지방",
+   "pic": "../packs/int3c_u6/province.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/province.mp3"
+  },
+  {
+   "id": "burp",
+   "en": "burp",
+   "ko": "트림하다",
+   "pic": "../packs/int3c_u2/burp.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/burp.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "seven",
+    "tv",
+    "soccer",
+    "school"
+   ],
+   "odd": "seven"
+  },
+  {
+   "items": [
+    "glasses",
+    "junglegym",
+    "soccer",
+    "talk"
+   ],
+   "odd": "glasses"
+  },
+  {
+   "items": [
+    "phone",
+    "bike",
+    "tv",
+    "cook"
+   ],
+   "odd": "phone"
+  },
+  {
+   "items": [
+    "desert",
+    "bike",
+    "school",
+    "cook"
+   ],
+   "odd": "desert"
+  },
+  {
+   "items": [
+    "junglegym",
+    "sing",
+    "climb",
+    "province"
+   ],
+   "odd": "province"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "play",
+   "school",
+   "sing",
+   "soccer",
+   "climb",
+   "tv"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "play",
+   "school",
+   "sing",
+   "soccer",
+   "climb",
+   "tv"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "play",
+   "school",
+   "sing",
+   "soccer",
+   "climb",
+   "tv",
+   "cook"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Let's play soccer.",
+   "audio": "../packs/int3c_u4/audio/{v}/letsplaysoccer.mp3"
+  },
+  {
+   "text": "Let's play.",
+   "audio": "audio/int3c_u4/{v}/letsplay.mp3"
+  },
+  {
+   "text": "Let's go to school.",
+   "audio": "audio/int3c_u4/{v}/letsgotoschool.mp3"
+  },
+  {
+   "text": "Let's sing.",
+   "audio": "audio/int3c_u4/{v}/letssing.mp3"
+  },
+  {
+   "text": "Let's climb.",
+   "audio": "audio/int3c_u4/{v}/letsclimb.mp3"
+  },
+  {
+   "text": "Let's play on the jungle gym.",
+   "audio": "audio/int3c_u4/{v}/letsplayonthejunglegym.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3c_u4/tv.jpg",
+   "q": {
+    "text": "What do you want to do?",
+    "audio": "audio/int3c_u4/{v}/whatdoyouwanttodo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Let's watch TV.",
+     "audio": "audio/int3c_u4/ai/letswatchtv.mp3"
+    },
+    {
+     "text": "Let's go to school.",
+     "audio": "audio/int3c_u4/ai/letsgotoschool.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u4/talk.jpg",
+   "q": {
+    "text": "What do you want to do?",
+    "audio": "audio/int3c_u4/{v}/whatdoyouwanttodo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Let's ride a bike.",
+     "audio": "audio/int3c_u4/ai/letsrideabike.mp3"
+    },
+    {
+     "text": "Let's talk.",
+     "audio": "audio/int3c_u4/ai/letstalk.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u4/climb.jpg",
+   "q": {
+    "text": "What do you want to do?",
+    "audio": "audio/int3c_u4/{v}/whatdoyouwanttodo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Let's watch TV.",
+     "audio": "audio/int3c_u4/ai/letswatchtv.mp3"
+    },
+    {
+     "text": "Let's climb.",
+     "audio": "audio/int3c_u4/ai/letsclimb.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u4/junglegym.jpg",
+   "q": {
+    "text": "What do you want to do?",
+    "audio": "audio/int3c_u4/{v}/whatdoyouwanttodo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Let's play on the jungle gym.",
+     "audio": "audio/int3c_u4/ai/letsplayonthejunglegym.mp3"
+    },
+    {
+     "text": "Let's play.",
+     "audio": "audio/int3c_u4/ai/letsplay.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u4/",
+  "ai": "audio/int3c_u4/ai/"
+ }
+}

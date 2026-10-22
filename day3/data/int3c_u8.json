@@ -1,0 +1,517 @@
+{
+ "id": "int3c_u8",
+ "title": "INT 3C · Unit 8 · What Time is it?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3c_u8/audio/us_f/",
+ "picDir": "../packs/int3c_u8/",
+ "lineAudio": "audio/int3c_u8/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "ten",
+   "choices": [
+    "ten",
+    "two",
+    "five",
+    "nine"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "seven",
+   "choices": [
+    "seven",
+    "eight",
+    "nine",
+    "six"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "eight",
+   "choices": [
+    "eight",
+    "one",
+    "five",
+    "ten"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "one",
+   "answer": "one",
+   "choices": [
+    "one",
+    "onep",
+    "onem",
+    "onea"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "five",
+   "answer": "five",
+   "choices": [
+    "five",
+    "fiv",
+    "fove",
+    "fise"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "two",
+   "audio": "audio/int3c_u8/{v}/itistwooclock.mp3",
+   "answer": [
+    "It",
+    "is",
+    "two",
+    "o'clock."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "six",
+   "audio": "audio/int3c_u8/{v}/itissixoclock.mp3",
+   "answer": [
+    "It",
+    "is",
+    "six",
+    "o'clock."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nine",
+   "audio": "audio/int3c_u8/{v}/itisnineoclock.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "o'clock."
+   ],
+   "answer": "nine",
+   "choices": [
+    "nine",
+    "six",
+    "ten"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "six",
+   "audio": "audio/int3c_u8/{v}/itissixoclock.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "o'clock."
+   ],
+   "answer": "six",
+   "choices": [
+    "six",
+    "nine",
+    "two"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "seven",
+   "audio": "../packs/int3c_u8/audio/{v}/itissevenoclock.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "o'clock."
+   ],
+   "answer": "seven",
+   "choices": [
+    "seven",
+    "six",
+    "ten"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "oclock",
+   "en": "o'clock",
+   "ko": "~시 (정각)",
+   "pic": null,
+   "audio": "../packs/int3c_u8/audio/{v}/oclock.mp3",
+   "stext": "It is twelve o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itistwelveoclock.mp3"
+  },
+  {
+   "id": "one",
+   "en": "one",
+   "ko": "한, 1",
+   "pic": "../packs/int3c_u8/one.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/one.mp3",
+   "stext": "It is one o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itisoneoclock.mp3"
+  },
+  {
+   "id": "two",
+   "en": "two",
+   "ko": "두, 2",
+   "pic": "../packs/int3c_u8/two.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/two.mp3",
+   "stext": "It is two o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itistwooclock.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 5",
+   "pic": "../packs/int3c_u8/five.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/five.mp3",
+   "stext": "It is five o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itisfiveoclock.mp3"
+  },
+  {
+   "id": "six",
+   "en": "six",
+   "ko": "여섯, 6",
+   "pic": "../packs/int3c_u8/six.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/six.mp3",
+   "stext": "It is six o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itissixoclock.mp3"
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 7",
+   "pic": "../packs/int3c_u8/seven.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/seven.mp3",
+   "stext": "It is seven o'clock.",
+   "sentence": "../packs/int3c_u8/audio/{v}/itissevenoclock.mp3"
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 8",
+   "pic": "../packs/int3c_u8/eight.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/eight.mp3",
+   "stext": "It is eight o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itiseightoclock.mp3"
+  },
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 9",
+   "pic": "../packs/int3c_u8/nine.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/nine.mp3",
+   "stext": "It is nine o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itisnineoclock.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열, 10",
+   "pic": "../packs/int3c_u8/ten.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/ten.mp3",
+   "stext": "It is ten o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itistenoclock.mp3"
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "pic": "../packs/int3c_u8/eleven.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/eleven.mp3",
+   "stext": "It is eleven o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itiselevenoclock.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "jump",
+   "en": "jump",
+   "ko": "뛰다, 점프하다",
+   "pic": "../packs/int3c_u7/jump.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/jump.mp3"
+  },
+  {
+   "id": "fly",
+   "en": "fly",
+   "ko": "날다",
+   "pic": "../packs/int3c_u7/fly.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/fly.mp3"
+  },
+  {
+   "id": "throw",
+   "en": "throw",
+   "ko": "던지다",
+   "pic": "../packs/int3c_u2/throw.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/throw.mp3"
+  },
+  {
+   "id": "sour",
+   "en": "sour",
+   "ko": "신",
+   "pic": "../packs/int3c_u1/sour.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/sour.mp3"
+  },
+  {
+   "id": "ddeok",
+   "en": "ddeok",
+   "ko": "떡",
+   "pic": "../packs/int3c_u1/ddeok.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/ddeok.mp3"
+  },
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "pic": "../packs/int3c_u4/cook.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/cook.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "ten",
+    "one",
+    "five",
+    "jump"
+   ],
+   "odd": "jump"
+  },
+  {
+   "items": [
+    "ten",
+    "six",
+    "seven",
+    "fly"
+   ],
+   "odd": "fly"
+  },
+  {
+   "items": [
+    "seven",
+    "eleven",
+    "one",
+    "throw"
+   ],
+   "odd": "throw"
+  },
+  {
+   "items": [
+    "eight",
+    "sour",
+    "eleven",
+    "six"
+   ],
+   "odd": "sour"
+  },
+  {
+   "items": [
+    "two",
+    "six",
+    "ddeok",
+    "one"
+   ],
+   "odd": "ddeok"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "one",
+   "two",
+   "five",
+   "six",
+   "seven",
+   "eight"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "one",
+   "two",
+   "five",
+   "six",
+   "seven",
+   "eight"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "one",
+   "two",
+   "five",
+   "six",
+   "seven",
+   "eight",
+   "nine"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What time is it?",
+   "audio": "../packs/int3c_u8/audio/{v}/whattimeisit.mp3"
+  },
+  {
+   "text": "It is seven o'clock.",
+   "audio": "../packs/int3c_u8/audio/{v}/itissevenoclock.mp3"
+  },
+  {
+   "text": "It is twelve o'clock.",
+   "audio": "audio/int3c_u8/{v}/itistwelveoclock.mp3"
+  },
+  {
+   "text": "It is one o'clock.",
+   "audio": "audio/int3c_u8/{v}/itisoneoclock.mp3"
+  },
+  {
+   "text": "It is two o'clock.",
+   "audio": "audio/int3c_u8/{v}/itistwooclock.mp3"
+  },
+  {
+   "text": "It is five o'clock.",
+   "audio": "audio/int3c_u8/{v}/itisfiveoclock.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3c_u8/one.jpg",
+   "q": {
+    "text": "What time is it?",
+    "audio": "../packs/int3c_u8/audio/{v}/whattimeisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is one o'clock.",
+     "audio": "audio/int3c_u8/ai/itisoneoclock.mp3"
+    },
+    {
+     "text": "It is seven o'clock.",
+     "audio": "audio/int3c_u8/ai/itissevenoclock.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u8/eight.jpg",
+   "q": {
+    "text": "What time is it?",
+    "audio": "../packs/int3c_u8/audio/{v}/whattimeisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is twelve o'clock.",
+     "audio": "audio/int3c_u8/ai/itistwelveoclock.mp3"
+    },
+    {
+     "text": "It is eight o'clock.",
+     "audio": "audio/int3c_u8/ai/itiseightoclock.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u8/nine.jpg",
+   "q": {
+    "text": "What time is it?",
+    "audio": "../packs/int3c_u8/audio/{v}/whattimeisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is eleven o'clock.",
+     "audio": "audio/int3c_u8/ai/itiselevenoclock.mp3"
+    },
+    {
+     "text": "It is nine o'clock.",
+     "audio": "audio/int3c_u8/ai/itisnineoclock.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u8/five.jpg",
+   "q": {
+    "text": "What time is it?",
+    "audio": "../packs/int3c_u8/audio/{v}/whattimeisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is ten o'clock.",
+     "audio": "audio/int3c_u8/ai/itistenoclock.mp3"
+    },
+    {
+     "text": "It is five o'clock.",
+     "audio": "audio/int3c_u8/ai/itisfiveoclock.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u8/",
+  "ai": "audio/int3c_u8/ai/"
+ }
+}

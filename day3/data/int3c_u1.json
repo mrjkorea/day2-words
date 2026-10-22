@@ -1,0 +1,514 @@
+{
+ "id": "int3c_u1",
+ "title": "INT 3C · Unit 1 · Do You Like Sweet Food?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3c_u1/audio/us_f/",
+ "picDir": "../packs/int3c_u1/",
+ "lineAudio": "audio/int3c_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "salty",
+   "choices": [
+    "salty",
+    "sour",
+    "ddeok",
+    "sweet"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "ddeok",
+   "choices": [
+    "ddeok",
+    "sweet",
+    "doenjang",
+    "salty"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "sour",
+   "choices": [
+    "sour",
+    "salty",
+    "sweet",
+    "doenjang"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "salty",
+   "answer": "salty",
+   "choices": [
+    "salty",
+    "alty",
+    "salt",
+    "salmy"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "sweet",
+   "answer": "sweet",
+   "choices": [
+    "sweet",
+    "sweeb",
+    "weet",
+    "swee"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "salty",
+   "audio": "audio/int3c_u1/{v}/itissalty.mp3",
+   "answer": [
+    "It",
+    "is",
+    "salty."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int3c_u1/{v}/itissticky.mp3",
+   "answer": [
+    "It",
+    "is",
+    "sticky."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3c_u1/{v}/itisadessert.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "dessert",
+   "choices": [
+    "dessert",
+    "sticky",
+    "rice"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "doenjang",
+   "audio": "audio/int3c_u1/{v}/itisdoenjang.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "doenjang",
+   "choices": [
+    "doenjang",
+    "ddeok",
+    "rice"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3c_u1/{v}/tryit.mp3",
+   "sentence": [
+    "___",
+    "it!"
+   ],
+   "answer": "Try",
+   "choices": [
+    "Try",
+    "Dessert",
+    "Rice"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "sweet",
+   "en": "sweet",
+   "ko": "달콤한",
+   "pic": "../packs/int3c_u1/sweet.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/sweet.mp3",
+   "stext": "It is sweet.",
+   "sentence": "audio/int3c_u1/{v}/itissweet.mp3"
+  },
+  {
+   "id": "salty",
+   "en": "salty",
+   "ko": "짠",
+   "pic": "../packs/int3c_u1/salty.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/salty.mp3",
+   "stext": "It is salty.",
+   "sentence": "audio/int3c_u1/{v}/itissalty.mp3"
+  },
+  {
+   "id": "sour",
+   "en": "sour",
+   "ko": "신",
+   "pic": "../packs/int3c_u1/sour.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/sour.mp3",
+   "stext": "It is sour.",
+   "sentence": "audio/int3c_u1/{v}/itissour.mp3"
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/food.mp3",
+   "stext": "I like sweet food.",
+   "sentence": "audio/int3c_u1/{v}/ilikesweetfood.mp3"
+  },
+  {
+   "id": "try",
+   "en": "try",
+   "ko": "먹어 보다",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/try.mp3",
+   "stext": "Try it!",
+   "sentence": "audio/int3c_u1/{v}/tryit.mp3"
+  },
+  {
+   "id": "ddeok",
+   "en": "ddeok",
+   "ko": "떡",
+   "pic": "../packs/int3c_u1/ddeok.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/ddeok.mp3",
+   "stext": "It is ddeok.",
+   "sentence": "audio/int3c_u1/{v}/itisddeok.mp3"
+  },
+  {
+   "id": "sticky",
+   "en": "sticky",
+   "ko": "끈적한",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/sticky.mp3",
+   "stext": "It is sticky.",
+   "sentence": "audio/int3c_u1/{v}/itissticky.mp3"
+  },
+  {
+   "id": "rice",
+   "en": "rice",
+   "ko": "쌀",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/rice.mp3",
+   "stext": "It is rice.",
+   "sentence": "audio/int3c_u1/{v}/itisrice.mp3"
+  },
+  {
+   "id": "dessert",
+   "en": "dessert",
+   "ko": "후식, 디저트",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/dessert.mp3",
+   "stext": "It is a dessert.",
+   "sentence": "audio/int3c_u1/{v}/itisadessert.mp3"
+  },
+  {
+   "id": "doenjang",
+   "en": "doenjang",
+   "ko": "된장",
+   "pic": "../packs/int3c_u1/doenjang.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/doenjang.mp3",
+   "stext": "It is doenjang.",
+   "sentence": "audio/int3c_u1/{v}/itisdoenjang.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3c_u5/hat.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/hat.mp3"
+  },
+  {
+   "id": "gloves",
+   "en": "gloves",
+   "ko": "장갑",
+   "pic": "../packs/int3c_u3/gloves.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/gloves.mp3"
+  },
+  {
+   "id": "study",
+   "en": "study",
+   "ko": "공부하다",
+   "pic": "../packs/int3c_u4/study.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/study.mp3"
+  },
+  {
+   "id": "tiger",
+   "en": "tiger",
+   "ko": "호랑이",
+   "pic": "../packs/int3c_u6/tiger.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/tiger.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 5",
+   "pic": "../packs/int3c_u8/five.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/five.mp3"
+  },
+  {
+   "id": "fight",
+   "en": "fight",
+   "ko": "싸우다",
+   "pic": "../packs/int3c_u7/fight.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/fight.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "sweet",
+    "hat",
+    "doenjang",
+    "ddeok"
+   ],
+   "odd": "hat"
+  },
+  {
+   "items": [
+    "ddeok",
+    "sour",
+    "sweet",
+    "gloves"
+   ],
+   "odd": "gloves"
+  },
+  {
+   "items": [
+    "study",
+    "doenjang",
+    "sour",
+    "ddeok"
+   ],
+   "odd": "study"
+  },
+  {
+   "items": [
+    "doenjang",
+    "salty",
+    "tiger",
+    "ddeok"
+   ],
+   "odd": "tiger"
+  },
+  {
+   "items": [
+    "sour",
+    "doenjang",
+    "five",
+    "salty"
+   ],
+   "odd": "five"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "sweet",
+   "salty",
+   "sour",
+   "food",
+   "try",
+   "ddeok"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "sweet",
+   "salty",
+   "sour",
+   "food",
+   "try",
+   "ddeok"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "sweet",
+   "salty",
+   "sour",
+   "food",
+   "try",
+   "ddeok",
+   "sticky"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What is it?",
+   "audio": "../packs/int3c_u1/audio/{v}/whatisit.mp3"
+  },
+  {
+   "text": "It is a sticky rice dessert.",
+   "audio": "../packs/int3c_u1/audio/{v}/itisastickyricedessert.mp3"
+  },
+  {
+   "text": "It is sweet.",
+   "audio": "audio/int3c_u1/{v}/itissweet.mp3"
+  },
+  {
+   "text": "It is salty.",
+   "audio": "audio/int3c_u1/{v}/itissalty.mp3"
+  },
+  {
+   "text": "It is sour.",
+   "audio": "audio/int3c_u1/{v}/itissour.mp3"
+  },
+  {
+   "text": "I like sweet food.",
+   "audio": "audio/int3c_u1/{v}/ilikesweetfood.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3c_u1/sweet.jpg",
+   "q": {
+    "text": "What is it? How does it taste?",
+    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
+   },
+   "choices": [
+    {
+     "text": "Try it!",
+     "audio": "audio/int3c_u1/ai/tryit.mp3"
+    },
+    {
+     "text": "It is sweet.",
+     "audio": "audio/int3c_u1/ai/itissweet.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u1/sour.jpg",
+   "q": {
+    "text": "What is it? How does it taste?",
+    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is sweet.",
+     "audio": "audio/int3c_u1/ai/itissweet.mp3"
+    },
+    {
+     "text": "It is sour.",
+     "audio": "audio/int3c_u1/ai/itissour.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u1/ddeok.jpg",
+   "q": {
+    "text": "What is it? How does it taste?",
+    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is ddeok.",
+     "audio": "audio/int3c_u1/ai/itisddeok.mp3"
+    },
+    {
+     "text": "It is sweet.",
+     "audio": "audio/int3c_u1/ai/itissweet.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u1/doenjang.jpg",
+   "q": {
+    "text": "What is it? How does it taste?",
+    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is rice.",
+     "audio": "audio/int3c_u1/ai/itisrice.mp3"
+    },
+    {
+     "text": "It is doenjang.",
+     "audio": "audio/int3c_u1/ai/itisdoenjang.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u1/",
+  "ai": "audio/int3c_u1/ai/"
+ }
+}

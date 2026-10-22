@@ -1,0 +1,516 @@
+{
+ "id": "int3c_u7",
+ "title": "INT 3C · Unit 7 · Can You Fly?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3c_u7/audio/us_f/",
+ "picDir": "../packs/int3c_u7/",
+ "lineAudio": "audio/int3c_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fight",
+   "choices": [
+    "fight",
+    "sing",
+    "type",
+    "love"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cook",
+   "choices": [
+    "cook",
+    "fly",
+    "love",
+    "dance"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "run",
+   "choices": [
+    "run",
+    "fight",
+    "type",
+    "love"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "fly",
+   "answer": "fly",
+   "choices": [
+    "fly",
+    "flyt",
+    "flyd",
+    "flr"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "type",
+   "answer": "type",
+   "choices": [
+    "type",
+    "tcpe",
+    "trpe",
+    "lype"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "jump",
+   "audio": "audio/int3c_u7/{v}/icanjump.mp3",
+   "answer": [
+    "I",
+    "can",
+    "jump."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sing",
+   "audio": "audio/int3c_u7/{v}/icansing.mp3",
+   "answer": [
+    "I",
+    "can",
+    "sing."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "fly",
+   "audio": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3",
+   "sentence": [
+    "No,",
+    "I",
+    "cannot",
+    "___",
+    "."
+   ],
+   "answer": "fly",
+   "choices": [
+    "fly",
+    "run",
+    "jump"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "run",
+   "audio": "audio/int3c_u7/{v}/icanrun.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "run",
+   "choices": [
+    "run",
+    "sing",
+    "love"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "walk",
+   "audio": "audio/int3c_u7/{v}/icanwalk.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "walk",
+   "choices": [
+    "walk",
+    "jump",
+    "type"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "pic": "../packs/int3c_u7/dance.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/dance.mp3",
+   "stext": "I can dance.",
+   "sentence": "audio/int3c_u7/{v}/icandance.mp3"
+  },
+  {
+   "id": "jump",
+   "en": "jump",
+   "ko": "뛰다, 점프하다",
+   "pic": "../packs/int3c_u7/jump.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/jump.mp3",
+   "stext": "I can jump.",
+   "sentence": "audio/int3c_u7/{v}/icanjump.mp3"
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/int3c_u7/sing.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/sing.mp3",
+   "stext": "I can sing.",
+   "sentence": "audio/int3c_u7/{v}/icansing.mp3"
+  },
+  {
+   "id": "fight",
+   "en": "fight",
+   "ko": "싸우다",
+   "pic": "../packs/int3c_u7/fight.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/fight.mp3",
+   "stext": "I can fight.",
+   "sentence": "audio/int3c_u7/{v}/icanfight.mp3"
+  },
+  {
+   "id": "type",
+   "en": "type",
+   "ko": "타자를 치다",
+   "pic": "../packs/int3c_u7/type.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/type.mp3",
+   "stext": "I can type.",
+   "sentence": "audio/int3c_u7/{v}/icantype.mp3"
+  },
+  {
+   "id": "walk",
+   "en": "walk",
+   "ko": "걷다",
+   "pic": "../packs/int3c_u7/walk.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/walk.mp3",
+   "stext": "I can walk.",
+   "sentence": "audio/int3c_u7/{v}/icanwalk.mp3"
+  },
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "pic": "../packs/int3c_u7/cook.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/cook.mp3",
+   "stext": "I can cook.",
+   "sentence": "audio/int3c_u7/{v}/icancook.mp3"
+  },
+  {
+   "id": "fly",
+   "en": "fly",
+   "ko": "날다",
+   "pic": "../packs/int3c_u7/fly.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/fly.mp3",
+   "stext": "No, I cannot fly.",
+   "sentence": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3"
+  },
+  {
+   "id": "love",
+   "en": "love",
+   "ko": "사랑하다",
+   "pic": "../packs/int3c_u7/love.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/love.mp3",
+   "stext": "I can love my family.",
+   "sentence": "audio/int3c_u7/{v}/icanlovemyfamily.mp3"
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "달리다",
+   "pic": "../packs/int3c_u7/run.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/run.mp3",
+   "stext": "I can run.",
+   "sentence": "audio/int3c_u7/{v}/icanrun.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 9",
+   "pic": "../packs/int3c_u8/nine.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/nine.mp3"
+  },
+  {
+   "id": "tiger",
+   "en": "tiger",
+   "ko": "호랑이",
+   "pic": "../packs/int3c_u6/tiger.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/tiger.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 5",
+   "pic": "../packs/int3c_u8/five.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/five.mp3"
+  },
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "pic": "../packs/int3c_u4/climb.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/climb.mp3"
+  },
+  {
+   "id": "island",
+   "en": "island",
+   "ko": "섬",
+   "pic": "../packs/int3c_u6/island.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/island.mp3"
+  },
+  {
+   "id": "shirt",
+   "en": "shirt",
+   "ko": "셔츠",
+   "pic": "../packs/int3c_u3/shirt.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/shirt.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "nine",
+    "cook",
+    "type",
+    "run"
+   ],
+   "odd": "nine"
+  },
+  {
+   "items": [
+    "love",
+    "run",
+    "fly",
+    "tiger"
+   ],
+   "odd": "tiger"
+  },
+  {
+   "items": [
+    "type",
+    "walk",
+    "fight",
+    "five"
+   ],
+   "odd": "five"
+  },
+  {
+   "items": [
+    "type",
+    "fight",
+    "fly",
+    "climb"
+   ],
+   "odd": "climb"
+  },
+  {
+   "items": [
+    "island",
+    "walk",
+    "dance",
+    "sing"
+   ],
+   "odd": "island"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "dance",
+   "jump",
+   "sing",
+   "fight",
+   "type",
+   "walk"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "dance",
+   "jump",
+   "sing",
+   "fight",
+   "type",
+   "walk"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "dance",
+   "jump",
+   "sing",
+   "fight",
+   "type",
+   "walk",
+   "cook"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Can you fly?",
+   "audio": "../packs/int3c_u7/audio/{v}/canyoufly.mp3"
+  },
+  {
+   "text": "No, I cannot fly.",
+   "audio": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3"
+  },
+  {
+   "text": "I can dance.",
+   "audio": "audio/int3c_u7/{v}/icandance.mp3"
+  },
+  {
+   "text": "I can jump.",
+   "audio": "audio/int3c_u7/{v}/icanjump.mp3"
+  },
+  {
+   "text": "I can sing.",
+   "audio": "audio/int3c_u7/{v}/icansing.mp3"
+  },
+  {
+   "text": "I can fight.",
+   "audio": "audio/int3c_u7/{v}/icanfight.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3c_u7/type.jpg",
+   "q": {
+    "text": "Can you type?",
+    "audio": "audio/int3c_u7/{v}/canyoutype.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can type.",
+     "audio": "audio/int3c_u7/ai/icantype.mp3"
+    },
+    {
+     "text": "I can run.",
+     "audio": "audio/int3c_u7/ai/icanrun.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u7/fight.jpg",
+   "q": {
+    "text": "Can you fight?",
+    "audio": "audio/int3c_u7/{v}/canyoufight.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can cook.",
+     "audio": "audio/int3c_u7/ai/icancook.mp3"
+    },
+    {
+     "text": "I can fight.",
+     "audio": "audio/int3c_u7/ai/icanfight.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u7/fly.jpg",
+   "q": {
+    "text": "Can you fly?",
+    "audio": "../packs/int3c_u7/audio/{v}/canyoufly.mp3"
+   },
+   "choices": [
+    {
+     "text": "No, I cannot fly.",
+     "audio": "audio/int3c_u7/ai/noicannotfly.mp3"
+    },
+    {
+     "text": "I can fight.",
+     "audio": "audio/int3c_u7/ai/icanfight.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u7/run.jpg",
+   "q": {
+    "text": "Can you run?",
+    "audio": "audio/int3c_u7/{v}/canyourun.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can walk.",
+     "audio": "audio/int3c_u7/ai/icanwalk.mp3"
+    },
+    {
+     "text": "I can run.",
+     "audio": "audio/int3c_u7/ai/icanrun.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u7/",
+  "ai": "audio/int3c_u7/ai/"
+ }
+}

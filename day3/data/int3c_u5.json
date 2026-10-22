@@ -1,0 +1,597 @@
+{
+ "id": "int3c_u5",
+ "title": "INT 3C · Unit 5 · What Do You Have?",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3c_u5/audio/us_f/",
+ "picDir": "../packs/int3c_u5/",
+ "lineAudio": "audio/int3c_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "pencil",
+   "choices": [
+    "pencil",
+    "hat",
+    "book",
+    "pillow"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "pencilcase",
+   "choices": [
+    "pencilcase",
+    "puzzle",
+    "pencil",
+    "book"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "pillow",
+    "book",
+    "chessboard"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "puzzle",
+   "answer": "puzzle",
+   "choices": [
+    "puzzle",
+    "pozzle",
+    "pzzle",
+    "puczle"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "phone",
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "phoe",
+    "phome",
+    "pone"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "pillow",
+   "audio": "audio/int3c_u5/{v}/ihaveapillow.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "pillow."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "chessboard",
+   "audio": "audio/int3c_u5/{v}/ihaveachessboard.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "chessboard."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "cup",
+   "audio": "audio/int3c_u5/{v}/ihaveacup.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "cup",
+   "choices": [
+    "cup",
+    "pillow",
+    "phone"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "hat",
+   "audio": "audio/int3c_u5/{v}/ihaveahat.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "hat",
+   "choices": [
+    "hat",
+    "pillow",
+    "newspaper"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "pencil",
+   "audio": "audio/int3c_u5/{v}/ihaveapencil.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "pencil",
+   "choices": [
+    "pencil",
+    "phone",
+    "chessboard"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "pencil",
+   "en": "pencil",
+   "ko": "연필",
+   "pic": "../packs/int3c_u5/pencil.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/pencil.mp3",
+   "stext": "I have a pencil.",
+   "sentence": "audio/int3c_u5/{v}/ihaveapencil.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3c_u5/hat.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/hat.mp3",
+   "stext": "I have a hat.",
+   "sentence": "audio/int3c_u5/{v}/ihaveahat.mp3"
+  },
+  {
+   "id": "pencilcase",
+   "en": "pencil case",
+   "ko": "필통",
+   "pic": "../packs/int3c_u5/pencilcase.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/pencilcase.mp3",
+   "stext": "I have a pencil case.",
+   "sentence": "audio/int3c_u5/{v}/ihaveapencilcase.mp3"
+  },
+  {
+   "id": "newspaper",
+   "en": "newspaper",
+   "ko": "신문",
+   "pic": "../packs/int3c_u5/newspaper.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/newspaper.mp3",
+   "stext": "I have a newspaper.",
+   "sentence": "audio/int3c_u5/{v}/ihaveanewspaper.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/int3c_u5/book.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/book.mp3",
+   "stext": "I have a book.",
+   "sentence": "audio/int3c_u5/{v}/ihaveabook.mp3"
+  },
+  {
+   "id": "puzzle",
+   "en": "puzzle",
+   "ko": "퍼즐",
+   "pic": "../packs/int3c_u5/puzzle.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/puzzle.mp3",
+   "stext": "I have a puzzle.",
+   "sentence": "../packs/int3c_u5/audio/{v}/ihaveapuzzle.mp3"
+  },
+  {
+   "id": "chessboard",
+   "en": "chessboard",
+   "ko": "체스판",
+   "pic": "../packs/int3c_u5/chessboard.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/chessboard.mp3",
+   "stext": "I have a chessboard.",
+   "sentence": "audio/int3c_u5/{v}/ihaveachessboard.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int3c_u5/phone.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/phone.mp3",
+   "stext": "I have a phone.",
+   "sentence": "audio/int3c_u5/{v}/ihaveaphone.mp3"
+  },
+  {
+   "id": "pillow",
+   "en": "pillow",
+   "ko": "베개",
+   "pic": "../packs/int3c_u5/pillow.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/pillow.mp3",
+   "stext": "I have a pillow.",
+   "sentence": "audio/int3c_u5/{v}/ihaveapillow.mp3"
+  },
+  {
+   "id": "cup",
+   "en": "cup",
+   "ko": "컵",
+   "pic": "../packs/int3c_u5/cup.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/cup.mp3",
+   "stext": "I have a cup.",
+   "sentence": "audio/int3c_u5/{v}/ihaveacup.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "sweet",
+   "en": "sweet",
+   "ko": "달콤한",
+   "pic": "../packs/int3c_u1/sweet.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/sweet.mp3"
+  },
+  {
+   "id": "type",
+   "en": "type",
+   "ko": "타자를 치다",
+   "pic": "../packs/int3c_u7/type.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/type.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int3c_u4/school.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/school.mp3"
+  },
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "pic": "../packs/int3c_u7/cook.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/cook.mp3"
+  },
+  {
+   "id": "six",
+   "en": "six",
+   "ko": "여섯, 6",
+   "pic": "../packs/int3c_u8/six.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/six.mp3"
+  },
+  {
+   "id": "one",
+   "en": "one",
+   "ko": "한, 1",
+   "pic": "../packs/int3c_u8/one.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/one.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/int3c_u5/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "livingroom",
+  "hotspots": [
+   {
+    "id": "pencil",
+    "x": 20.0,
+    "y": 25.4,
+    "w": 11.7,
+    "h": 10.0
+   },
+   {
+    "id": "hat",
+    "x": 33.0,
+    "y": 12.8,
+    "w": 17.0,
+    "h": 16.5
+   },
+   {
+    "id": "pencilcase",
+    "x": 48.6,
+    "y": 20.2,
+    "w": 15.3,
+    "h": 13.9
+   },
+   {
+    "id": "newspaper",
+    "x": 57.6,
+    "y": 24.5,
+    "w": 21.5,
+    "h": 17.4
+   },
+   {
+    "id": "book",
+    "x": 4.9,
+    "y": 59.2,
+    "w": 20.7,
+    "h": 22.5
+   },
+   {
+    "id": "puzzle",
+    "x": 24.6,
+    "y": 56.2,
+    "w": 19.5,
+    "h": 31.2
+   },
+   {
+    "id": "chessboard",
+    "x": 45.9,
+    "y": 52.7,
+    "w": 32.4,
+    "h": 31.9
+   },
+   {
+    "id": "phone",
+    "x": 71.1,
+    "y": 73.2,
+    "w": 16.0,
+    "h": 15.4
+   },
+   {
+    "id": "pillow",
+    "x": 79.6,
+    "y": 0.7,
+    "w": 19.2,
+    "h": 22.1
+   },
+   {
+    "id": "cup",
+    "x": 80.1,
+    "y": 54.4,
+    "w": 11.5,
+    "h": 14.6
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "phone",
+    "sweet",
+    "cup",
+    "newspaper"
+   ],
+   "odd": "sweet"
+  },
+  {
+   "items": [
+    "phone",
+    "chessboard",
+    "type",
+    "book"
+   ],
+   "odd": "type"
+  },
+  {
+   "items": [
+    "school",
+    "hat",
+    "pillow",
+    "newspaper"
+   ],
+   "odd": "school"
+  },
+  {
+   "items": [
+    "cup",
+    "hat",
+    "newspaper",
+    "cook"
+   ],
+   "odd": "cook"
+  },
+  {
+   "items": [
+    "cup",
+    "six",
+    "puzzle",
+    "book"
+   ],
+   "odd": "six"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "pencil",
+   "hat",
+   "book",
+   "puzzle",
+   "phone",
+   "pillow"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "pencil",
+   "hat",
+   "newspaper",
+   "book",
+   "puzzle",
+   "chessboard"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "pencil",
+   "hat",
+   "newspaper",
+   "book",
+   "puzzle",
+   "chessboard",
+   "phone"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What do you have?",
+   "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3"
+  },
+  {
+   "text": "I have a puzzle.",
+   "audio": "../packs/int3c_u5/audio/{v}/ihaveapuzzle.mp3"
+  },
+  {
+   "text": "I have a pencil.",
+   "audio": "audio/int3c_u5/{v}/ihaveapencil.mp3"
+  },
+  {
+   "text": "I have a hat.",
+   "audio": "audio/int3c_u5/{v}/ihaveahat.mp3"
+  },
+  {
+   "text": "I have a pencil case.",
+   "audio": "audio/int3c_u5/{v}/ihaveapencilcase.mp3"
+  },
+  {
+   "text": "I have a newspaper.",
+   "audio": "audio/int3c_u5/{v}/ihaveanewspaper.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3c_u5/cup.jpg",
+   "q": {
+    "text": "What do you have?",
+    "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3"
+   },
+   "choices": [
+    {
+     "text": "I have a newspaper.",
+     "audio": "audio/int3c_u5/ai/ihaveanewspaper.mp3"
+    },
+    {
+     "text": "I have a cup.",
+     "audio": "audio/int3c_u5/ai/ihaveacup.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u5/newspaper.jpg",
+   "q": {
+    "text": "What do you have?",
+    "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3"
+   },
+   "choices": [
+    {
+     "text": "I have a chessboard.",
+     "audio": "audio/int3c_u5/ai/ihaveachessboard.mp3"
+    },
+    {
+     "text": "I have a newspaper.",
+     "audio": "audio/int3c_u5/ai/ihaveanewspaper.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u5/pillow.jpg",
+   "q": {
+    "text": "What do you have?",
+    "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3"
+   },
+   "choices": [
+    {
+     "text": "I have a pencil.",
+     "audio": "audio/int3c_u5/ai/ihaveapencil.mp3"
+    },
+    {
+     "text": "I have a pillow.",
+     "audio": "audio/int3c_u5/ai/ihaveapillow.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u5/hat.jpg",
+   "q": {
+    "text": "What do you have?",
+    "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3"
+   },
+   "choices": [
+    {
+     "text": "I have a phone.",
+     "audio": "audio/int3c_u5/ai/ihaveaphone.mp3"
+    },
+    {
+     "text": "I have a hat.",
+     "audio": "audio/int3c_u5/ai/ihaveahat.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u5/",
+  "ai": "audio/int3c_u5/ai/"
+ }
+}

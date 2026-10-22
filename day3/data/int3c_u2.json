@@ -1,0 +1,510 @@
+{
+ "id": "int3c_u2",
+ "title": "INT 3C · Unit 2 · Do Not Yell",
+ "passPercent": 80,
+ "wordAudio": "../packs/int3c_u2/audio/us_f/",
+ "picDir": "../packs/int3c_u2/",
+ "lineAudio": "audio/int3c_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fight",
+   "choices": [
+    "fight",
+    "throw",
+    "yell",
+    "burp"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "pull",
+   "choices": [
+    "pull",
+    "yell",
+    "burp",
+    "cry"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cry",
+   "choices": [
+    "cry",
+    "fight",
+    "burp",
+    "pull"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "throw",
+   "answer": "throw",
+   "choices": [
+    "throw",
+    "hrow",
+    "rhrow",
+    "thow"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "fight",
+   "answer": "fight",
+   "choices": [
+    "fight",
+    "figt",
+    "fught",
+    "figh"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "open",
+   "audio": "audio/int3c_u2/{v}/dontopen.mp3",
+   "answer": [
+    "Don't",
+    "open."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sleep",
+   "audio": "audio/int3c_u2/{v}/dontsleep.mp3",
+   "answer": [
+    "Don't",
+    "sleep."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "burp",
+   "audio": "audio/int3c_u2/{v}/dontburp.mp3",
+   "sentence": [
+    "Don't",
+    "___",
+    "."
+   ],
+   "answer": "burp",
+   "choices": [
+    "burp",
+    "sleep",
+    "touch"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "cry",
+   "audio": "audio/int3c_u2/{v}/dontcry.mp3",
+   "sentence": [
+    "Don't",
+    "___",
+    "."
+   ],
+   "answer": "cry",
+   "choices": [
+    "cry",
+    "pull",
+    "sleep"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "run",
+   "audio": "audio/int3c_u2/{v}/dontrun.mp3",
+   "sentence": [
+    "Don't",
+    "___",
+    "."
+   ],
+   "answer": "run",
+   "choices": [
+    "run",
+    "yell",
+    "sleep"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "뛰다",
+   "pic": "../packs/int3c_u2/run.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/run.mp3",
+   "stext": "Don't run.",
+   "sentence": "audio/int3c_u2/{v}/dontrun.mp3"
+  },
+  {
+   "id": "yell",
+   "en": "yell",
+   "ko": "소리 지르다",
+   "pic": "../packs/int3c_u2/yell.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/yell.mp3",
+   "stext": "Don't yell.",
+   "sentence": "../packs/int3c_u2/audio/{v}/dontyell.mp3"
+  },
+  {
+   "id": "open",
+   "en": "open",
+   "ko": "열다",
+   "pic": "../packs/int3c_u2/open.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/open.mp3",
+   "stext": "Don't open.",
+   "sentence": "audio/int3c_u2/{v}/dontopen.mp3"
+  },
+  {
+   "id": "pull",
+   "en": "pull",
+   "ko": "당기다",
+   "pic": "../packs/int3c_u2/pull.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/pull.mp3",
+   "stext": "Don't pull.",
+   "sentence": "audio/int3c_u2/{v}/dontpull.mp3"
+  },
+  {
+   "id": "sleep",
+   "en": "sleep",
+   "ko": "자다",
+   "pic": "../packs/int3c_u2/sleep.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/sleep.mp3",
+   "stext": "Don't sleep.",
+   "sentence": "audio/int3c_u2/{v}/dontsleep.mp3"
+  },
+  {
+   "id": "throw",
+   "en": "throw",
+   "ko": "던지다",
+   "pic": "../packs/int3c_u2/throw.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/throw.mp3",
+   "stext": "Don't throw.",
+   "sentence": "audio/int3c_u2/{v}/dontthrow.mp3"
+  },
+  {
+   "id": "burp",
+   "en": "burp",
+   "ko": "트림하다",
+   "pic": "../packs/int3c_u2/burp.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/burp.mp3",
+   "stext": "Don't burp.",
+   "sentence": "audio/int3c_u2/{v}/dontburp.mp3"
+  },
+  {
+   "id": "fight",
+   "en": "fight",
+   "ko": "싸우다",
+   "pic": "../packs/int3c_u2/fight.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/fight.mp3",
+   "stext": "Don't fight.",
+   "sentence": "audio/int3c_u2/{v}/dontfight.mp3"
+  },
+  {
+   "id": "touch",
+   "en": "touch",
+   "ko": "만지다",
+   "pic": "../packs/int3c_u2/touch.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/touch.mp3",
+   "stext": "Don't touch.",
+   "sentence": "audio/int3c_u2/{v}/donttouch.mp3"
+  },
+  {
+   "id": "cry",
+   "en": "cry",
+   "ko": "울다",
+   "pic": "../packs/int3c_u2/cry.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/cry.mp3",
+   "stext": "Don't cry.",
+   "sentence": "audio/int3c_u2/{v}/dontcry.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "soccer",
+   "en": "soccer",
+   "ko": "축구",
+   "pic": "../packs/int3c_u4/soccer.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/soccer.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int3c_u4/school.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/school.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 5",
+   "pic": "../packs/int3c_u8/five.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/five.mp3"
+  },
+  {
+   "id": "tiger",
+   "en": "tiger",
+   "ko": "호랑이",
+   "pic": "../packs/int3c_u6/tiger.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/tiger.mp3"
+  },
+  {
+   "id": "desert",
+   "en": "desert",
+   "ko": "사막",
+   "pic": "../packs/int3c_u6/desert.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/desert.mp3"
+  },
+  {
+   "id": "pencil",
+   "en": "pencil",
+   "ko": "연필",
+   "pic": "../packs/int3c_u5/pencil.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/pencil.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "yell",
+    "open",
+    "soccer",
+    "throw"
+   ],
+   "odd": "soccer"
+  },
+  {
+   "items": [
+    "throw",
+    "run",
+    "yell",
+    "school"
+   ],
+   "odd": "school"
+  },
+  {
+   "items": [
+    "open",
+    "fight",
+    "burp",
+    "five"
+   ],
+   "odd": "five"
+  },
+  {
+   "items": [
+    "cry",
+    "throw",
+    "tiger",
+    "run"
+   ],
+   "odd": "tiger"
+  },
+  {
+   "items": [
+    "throw",
+    "sleep",
+    "burp",
+    "desert"
+   ],
+   "odd": "desert"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "run",
+   "yell",
+   "open",
+   "pull",
+   "sleep",
+   "throw"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "run",
+   "yell",
+   "open",
+   "pull",
+   "sleep",
+   "throw"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "run",
+   "yell",
+   "open",
+   "pull",
+   "sleep",
+   "throw",
+   "burp"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Don't yell.",
+   "audio": "../packs/int3c_u2/audio/{v}/dontyell.mp3"
+  },
+  {
+   "text": "Don't run.",
+   "audio": "audio/int3c_u2/{v}/dontrun.mp3"
+  },
+  {
+   "text": "Don't open.",
+   "audio": "audio/int3c_u2/{v}/dontopen.mp3"
+  },
+  {
+   "text": "Don't pull.",
+   "audio": "audio/int3c_u2/{v}/dontpull.mp3"
+  },
+  {
+   "text": "Don't sleep.",
+   "audio": "audio/int3c_u2/{v}/dontsleep.mp3"
+  },
+  {
+   "text": "Don't throw.",
+   "audio": "audio/int3c_u2/{v}/dontthrow.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/int3c_u2/touch.jpg",
+   "q": {
+    "text": "What can I not do?",
+    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't open.",
+     "audio": "audio/int3c_u2/ai/dontopen.mp3"
+    },
+    {
+     "text": "Don't touch.",
+     "audio": "audio/int3c_u2/ai/donttouch.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/int3c_u2/burp.jpg",
+   "q": {
+    "text": "What can I not do?",
+    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't burp.",
+     "audio": "audio/int3c_u2/ai/dontburp.mp3"
+    },
+    {
+     "text": "Don't cry.",
+     "audio": "audio/int3c_u2/ai/dontcry.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u2/cry.jpg",
+   "q": {
+    "text": "What can I not do?",
+    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't cry.",
+     "audio": "audio/int3c_u2/ai/dontcry.mp3"
+    },
+    {
+     "text": "Don't pull.",
+     "audio": "audio/int3c_u2/ai/dontpull.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/int3c_u2/fight.jpg",
+   "q": {
+    "text": "What can I not do?",
+    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't cry.",
+     "audio": "audio/int3c_u2/ai/dontcry.mp3"
+    },
+    {
+     "text": "Don't fight.",
+     "audio": "audio/int3c_u2/ai/dontfight.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u2/",
+  "ai": "audio/int3c_u2/ai/"
+ }
+}
