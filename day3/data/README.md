@@ -10,7 +10,8 @@ All paths are relative to the `day3/` folder. Add `&test=1` to unlock every step
 | `passPercent` | climb | Pass mark for the final mountain test (80). |
 | `words[]` | 1,2,4,5,6 | Unit words: `{id, en, pic, audio, sentence}`. `pic` = picture, `audio` = word mp3, `sentence` = optional "It is a ___." mp3. |
 | `extras[]` | 3 | Clearly different items (food, animals) for Odd One Out, same shape as words. |
-| `map` | 2 | `{scene: null}` shows a grid of the word pictures. For a real scene: `{scene: "pics/room.webp", spots: [{id, x, y}]}` with x/y in % of the picture. |
+| `map` | 2 | Hotspot picture quiz. `{scene, hotspots:[{id, x, y, w, h}]}`. See "Map scenes" below. `{scene: null}` falls back to a grid of the word pictures. |
+| `voices` | all | `{default:"us_f", dir:"audio/v/", ai:"audio/ai/"}`. See "Voices" below. |
 | `oddOneOut[]` | 3 | `{items: [4 ids from words/extras], odd: id}`. |
 | `wordSearch` | 4 | `{size: 8, words: [ids]}`. Words longer than `size` are skipped. Across and down only. |
 | `hangman` | 5 | `{words: [ids]}`. |
@@ -30,3 +31,24 @@ Scoring: when a student reaches `passPercent` (80%) during an activity, a big **
 Miss Harper (736de7d32d7949469ba4664bce9f3f32) says the words and sentences being taught. Coach Ray says the praise.
 
 Progress is saved in the browser's localStorage under `mrj_day3_<unit>`. Each step unlocks after the one before is finished. The mountain test needs `passPercent`.
+
+
+## Map scenes (hotspots)
+One big picture that holds every object of the unit, each clearly separate (Unit 6: `pics/scene_classroom.webp`, a classroom). Ideas for other units: a funny big person for body parts, a fruit market for fruit, a zoo for animals, a kitchen for food.
+```json
+"map": {"scene": "pics/scene_classroom.webp", "hotspots": [
+  {"id": "mouse", "x": 46, "y": 63.5, "w": 10, "h": 10},
+  {"id": "desk",  "x": 16, "y": 60,   "w": 61.5, "h": 36.5}
+]}
+```
+- `id` is a word id from `words`. `x, y` is the top-left corner and `w, h` is the size, all in **% of the picture** (so the picture's pixel size does not matter).
+- The student hears a word and must tap that object. If boxes overlap, the **smallest** box wins, so a mouse on a desk works.
+- Only words that have a hotspot are asked. To find the numbers, open the picture in any editor and divide pixel positions by the width or height.
+
+## Voices
+- Students pick the voice that reads everything taught (hub, or the 🗣️ button on every page). The choice is saved in `localStorage` key `mrj_day3_voice` and is shared by every unit and step. It is the same set as Word Master / Day 2: `us_f` Miss Harper (default), `us_m` Coach Ray, `grandma` Grandma June, `grandpa` Grandpa Walt, `robot` KITT.
+- Keep audio paths in the JSON as `audio/<name>.mp3` or `../songs/words/<word>.mp3`. The engine plays `audio/v/<voice>/<name>.mp3` instead, so **every taught mp3 must exist in all 5 voice folders**. Copy from `../packs/<unit>/audio/<voice>/` first, then make the rest with Fish TTS (each text starts with an [emotion] tag).
+- Praise always uses Coach Ray (`coach`, `audio/ray/`). Dialogue answers always use the AI voice (Day 6 Talk AI, Jay TTS `a79698cbbba6435d86ee335fbd999c41`): `audio/ai/<same file name as the choice audio>`. Dialogue questions use the student's voice.
+
+## Hangman styles
+Before playing, the student picks a style: classic hangman (simple cartoon), snowman melting in the sun, balloon popping, or ice cream melting. The choice is saved in `mrj_day3_hangstyle`, and the 🎨 button changes it. No JSON is needed.
