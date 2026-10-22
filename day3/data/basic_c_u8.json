@@ -1,0 +1,588 @@
+{
+ "id": "basic_c_u8",
+ "title": "Basic C · Unit 8 · I Want a New Computer",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_c_u8/audio/us_f/",
+ "picDir": "../packs/basic_c_u8/",
+ "lineAudio": "audio/basic_c_u8/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "earphones",
+   "choices": [
+    "earphones",
+    "schoolbag",
+    "clothes",
+    "pencilcase"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "bike",
+   "choices": [
+    "bike",
+    "computer",
+    "phone",
+    "earphones"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "bike",
+    "pencilcase",
+    "earphones"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "doll",
+   "answer": "doll",
+   "choices": [
+    "doll",
+    "dopl",
+    "oll",
+    "dolr"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "computer",
+   "answer": "computer",
+   "choices": [
+    "computer",
+    "comuter",
+    "computem",
+    "omputer"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "phone",
+   "audio": "audio/basic_c_u8/{v}/iwantanewphone.mp3",
+   "answer": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "phone."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "pencilcase",
+   "audio": "audio/basic_c_u8/{v}/iwantanewpencilcase.mp3",
+   "answer": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "pencil",
+    "case."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "computer",
+   "audio": "audio/basic_c_u8/{v}/iwantanewcomputer.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "computer",
+   "choices": [
+    "computer",
+    "brother",
+    "earphones"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "earphones",
+   "audio": "audio/basic_c_u8/{v}/iwantnewearphones.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "earphones",
+   "choices": [
+    "earphones",
+    "brother",
+    "phone"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "phone",
+   "audio": "audio/basic_c_u8/{v}/iwantanewphone.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "doll",
+    "want"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "want",
+   "en": "want",
+   "ko": "원하다",
+   "pic": null,
+   "audio": "../packs/basic_c_u8/audio/{v}/want.mp3",
+   "stext": "I want it.",
+   "sentence": "audio/basic_c_u8/{v}/iwantit.mp3"
+  },
+  {
+   "id": "doll",
+   "en": "doll",
+   "ko": "인형",
+   "pic": "../packs/basic_c_u8/doll.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/doll.mp3",
+   "stext": "I want a new doll.",
+   "sentence": "audio/basic_c_u8/{v}/iwantanewdoll.mp3"
+  },
+  {
+   "id": "pencilcase",
+   "en": "pencil case",
+   "ko": "필통",
+   "pic": "../packs/basic_c_u8/pencilcase.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/pencilcase.mp3",
+   "stext": "I want a new pencil case.",
+   "sentence": "audio/basic_c_u8/{v}/iwantanewpencilcase.mp3"
+  },
+  {
+   "id": "schoolbag",
+   "en": "school bag",
+   "ko": "책가방",
+   "pic": "../packs/basic_c_u8/schoolbag.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/schoolbag.mp3",
+   "stext": "I want a new school bag.",
+   "sentence": "audio/basic_c_u8/{v}/iwantanewschoolbag.mp3"
+  },
+  {
+   "id": "earphones",
+   "en": "earphones",
+   "ko": "이어폰",
+   "pic": "../packs/basic_c_u8/earphones.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/earphones.mp3",
+   "stext": "I want new earphones.",
+   "sentence": "audio/basic_c_u8/{v}/iwantnewearphones.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/basic_c_u8/phone.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/phone.mp3",
+   "stext": "I want a new phone.",
+   "sentence": "audio/basic_c_u8/{v}/iwantanewphone.mp3"
+  },
+  {
+   "id": "clothes",
+   "en": "clothes",
+   "ko": "옷",
+   "pic": "../packs/basic_c_u8/clothes.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/clothes.mp3",
+   "stext": "I want new clothes.",
+   "sentence": "audio/basic_c_u8/{v}/iwantnewclothes.mp3"
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "pic": "../packs/basic_c_u8/bike.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/bike.mp3",
+   "stext": "I want a new bike.",
+   "sentence": "../packs/basic_c_u8/audio/{v}/iwantanewbike.mp3"
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "pic": "../packs/basic_c_u8/computer.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/computer.mp3",
+   "stext": "I want a new computer.",
+   "sentence": "audio/basic_c_u8/{v}/iwantanewcomputer.mp3"
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "남동생, 형",
+   "pic": "../packs/basic_c_u8/brother.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/brother.mp3",
+   "stext": "I want a little brother.",
+   "sentence": "audio/basic_c_u8/{v}/iwantalittlebrother.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "leg",
+   "en": "leg",
+   "ko": "다리",
+   "pic": "../packs/basic_c_u6/leg.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/leg.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_c_u2/bag.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/bag.mp3"
+  },
+  {
+   "id": "back",
+   "en": "back",
+   "ko": "등",
+   "pic": "../packs/basic_c_u6/back.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/back.mp3"
+  },
+  {
+   "id": "seesaw",
+   "en": "seesaw",
+   "ko": "시소",
+   "pic": "../packs/basic_c_u7/seesaw.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/seesaw.mp3"
+  },
+  {
+   "id": "bird",
+   "en": "bird",
+   "ko": "새",
+   "pic": "../packs/basic_c_u1/bird.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/bird.mp3"
+  },
+  {
+   "id": "knee",
+   "en": "knee",
+   "ko": "무릎",
+   "pic": "../packs/basic_c_u5/knee.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/knee.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/basic_c_u8/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "store",
+  "hotspots": [
+   {
+    "id": "doll",
+    "x": 3.7,
+    "y": 34.9,
+    "w": 12.9,
+    "h": 32.8
+   },
+   {
+    "id": "pencilcase",
+    "x": 16.6,
+    "y": 46.9,
+    "w": 12.7,
+    "h": 16.3
+   },
+   {
+    "id": "schoolbag",
+    "x": 29.8,
+    "y": 38.8,
+    "w": 14.2,
+    "h": 25.3
+   },
+   {
+    "id": "earphones",
+    "x": 44.2,
+    "y": 41.0,
+    "w": 11.1,
+    "h": 18.6
+   },
+   {
+    "id": "phone",
+    "x": 56.2,
+    "y": 41.9,
+    "w": 8.3,
+    "h": 21.9
+   },
+   {
+    "id": "clothes",
+    "x": 65.2,
+    "y": 36.7,
+    "w": 18.8,
+    "h": 27.7
+   },
+   {
+    "id": "bike",
+    "x": 77.9,
+    "y": 46.6,
+    "w": 20.9,
+    "h": 23.0
+   },
+   {
+    "id": "computer",
+    "x": 68.8,
+    "y": 70.3,
+    "w": 29.8,
+    "h": 27.3
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "clothes",
+    "earphones",
+    "brother",
+    "leg"
+   ],
+   "odd": "leg"
+  },
+  {
+   "items": [
+    "bike",
+    "bag",
+    "earphones",
+    "phone"
+   ],
+   "odd": "bag"
+  },
+  {
+   "items": [
+    "phone",
+    "schoolbag",
+    "back",
+    "brother"
+   ],
+   "odd": "back"
+  },
+  {
+   "items": [
+    "pencilcase",
+    "doll",
+    "schoolbag",
+    "seesaw"
+   ],
+   "odd": "seesaw"
+  },
+  {
+   "items": [
+    "clothes",
+    "bird",
+    "brother",
+    "pencilcase"
+   ],
+   "odd": "bird"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "want",
+   "doll",
+   "phone",
+   "clothes",
+   "bike",
+   "computer"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "want",
+   "doll",
+   "earphones",
+   "phone",
+   "clothes",
+   "bike"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "want",
+   "doll",
+   "earphones",
+   "phone",
+   "clothes",
+   "bike",
+   "computer"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I want a new bike.",
+   "audio": "../packs/basic_c_u8/audio/{v}/iwantanewbike.mp3"
+  },
+  {
+   "text": "I want it.",
+   "audio": "audio/basic_c_u8/{v}/iwantit.mp3"
+  },
+  {
+   "text": "I want a new doll.",
+   "audio": "audio/basic_c_u8/{v}/iwantanewdoll.mp3"
+  },
+  {
+   "text": "I want a new pencil case.",
+   "audio": "audio/basic_c_u8/{v}/iwantanewpencilcase.mp3"
+  },
+  {
+   "text": "I want a new school bag.",
+   "audio": "audio/basic_c_u8/{v}/iwantanewschoolbag.mp3"
+  },
+  {
+   "text": "I want new earphones.",
+   "audio": "audio/basic_c_u8/{v}/iwantnewearphones.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_c_u8/schoolbag.jpg",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/basic_c_u8/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    {
+     "text": "I want new clothes.",
+     "audio": "audio/basic_c_u8/ai/iwantnewclothes.mp3"
+    },
+    {
+     "text": "I want a new school bag.",
+     "audio": "audio/basic_c_u8/ai/iwantanewschoolbag.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u8/brother.jpg",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/basic_c_u8/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    {
+     "text": "I want a little brother.",
+     "audio": "audio/basic_c_u8/ai/iwantalittlebrother.mp3"
+    },
+    {
+     "text": "I want new clothes.",
+     "audio": "audio/basic_c_u8/ai/iwantnewclothes.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u8/clothes.jpg",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/basic_c_u8/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    {
+     "text": "I want new earphones.",
+     "audio": "audio/basic_c_u8/ai/iwantnewearphones.mp3"
+    },
+    {
+     "text": "I want new clothes.",
+     "audio": "audio/basic_c_u8/ai/iwantnewclothes.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u8/computer.jpg",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/basic_c_u8/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    {
+     "text": "I want a little brother.",
+     "audio": "audio/basic_c_u8/ai/iwantalittlebrother.mp3"
+    },
+    {
+     "text": "I want a new computer.",
+     "audio": "audio/basic_c_u8/ai/iwantanewcomputer.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_c_u8/",
+  "ai": "audio/basic_c_u8/ai/"
+ }
+}

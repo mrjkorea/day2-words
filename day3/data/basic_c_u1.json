@@ -1,0 +1,589 @@
+{
+ "id": "basic_c_u1",
+ "title": "Basic C · Unit 1 · I Love My Dog Zoey",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_c_u1/audio/us_f/",
+ "picDir": "../packs/basic_c_u1/",
+ "lineAudio": "audio/basic_c_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "snake",
+   "choices": [
+    "snake",
+    "turtle",
+    "beetle",
+    "cat"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cat",
+   "choices": [
+    "cat",
+    "bird",
+    "beetle",
+    "fish"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fish",
+   "choices": [
+    "fish",
+    "hamster",
+    "cat",
+    "rabbit"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "bird",
+   "answer": "bird",
+   "choices": [
+    "bird",
+    "berd",
+    "ird",
+    "bir"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "cat",
+   "answer": "cat",
+   "choices": [
+    "cat",
+    "cati",
+    "catp",
+    "cot"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "snake",
+   "audio": "audio/basic_c_u1/{v}/ilovemysnake.mp3",
+   "answer": [
+    "I",
+    "love",
+    "my",
+    "snake."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "turtle",
+   "audio": "audio/basic_c_u1/{v}/ilovemyturtle.mp3",
+   "answer": [
+    "I",
+    "love",
+    "my",
+    "turtle."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "snake",
+   "audio": "audio/basic_c_u1/{v}/ilovemysnake.mp3",
+   "sentence": [
+    "I",
+    "love",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "snake",
+   "choices": [
+    "snake",
+    "love",
+    "dog"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/basic_c_u1/{v}/ilovemyfamily.mp3",
+   "sentence": [
+    "I",
+    "___",
+    "my",
+    "family."
+   ],
+   "answer": "love",
+   "choices": [
+    "love",
+    "rabbit",
+    "fish"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "rabbit",
+   "audio": "audio/basic_c_u1/{v}/ilovemyrabbit.mp3",
+   "sentence": [
+    "I",
+    "love",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "rabbit",
+   "choices": [
+    "rabbit",
+    "hamster",
+    "fish"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "love",
+   "en": "love",
+   "ko": "사랑하다",
+   "pic": null,
+   "audio": "../packs/basic_c_u1/audio/{v}/love.mp3",
+   "stext": "I love my family.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyfamily.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/basic_c_u1/dog.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/dog.mp3",
+   "stext": "I love my dog.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemydog.mp3"
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "pic": "../packs/basic_c_u1/cat.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/cat.mp3",
+   "stext": "I love my cat.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemycat.mp3"
+  },
+  {
+   "id": "bird",
+   "en": "bird",
+   "ko": "새",
+   "pic": "../packs/basic_c_u1/bird.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/bird.mp3",
+   "stext": "I love my bird.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemybird.mp3"
+  },
+  {
+   "id": "rabbit",
+   "en": "rabbit",
+   "ko": "토끼",
+   "pic": "../packs/basic_c_u1/rabbit.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/rabbit.mp3",
+   "stext": "I love my rabbit.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyrabbit.mp3"
+  },
+  {
+   "id": "hamster",
+   "en": "hamster",
+   "ko": "햄스터",
+   "pic": "../packs/basic_c_u1/hamster.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/hamster.mp3",
+   "stext": "I love my hamster.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyhamster.mp3"
+  },
+  {
+   "id": "fish",
+   "en": "fish",
+   "ko": "물고기",
+   "pic": "../packs/basic_c_u1/fish.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/fish.mp3",
+   "stext": "I love my fish.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyfish.mp3"
+  },
+  {
+   "id": "beetle",
+   "en": "beetle",
+   "ko": "딱정벌레",
+   "pic": "../packs/basic_c_u1/beetle.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/beetle.mp3",
+   "stext": "I love my beetle.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemybeetle.mp3"
+  },
+  {
+   "id": "turtle",
+   "en": "turtle",
+   "ko": "거북이",
+   "pic": "../packs/basic_c_u1/turtle.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/turtle.mp3",
+   "stext": "I love my turtle.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyturtle.mp3"
+  },
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "pic": "../packs/basic_c_u1/snake.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/snake.mp3",
+   "stext": "I love my snake.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemysnake.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "mean",
+   "en": "mean",
+   "ko": "뜻하다",
+   "pic": "../packs/basic_c_u3/mean.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/mean.mp3"
+  },
+  {
+   "id": "test",
+   "en": "test",
+   "ko": "시험하다",
+   "pic": "../packs/basic_c_u3/test.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/test.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/basic_c_u2/phone.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/phone.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_c_u2/bag.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/bag.mp3"
+  },
+  {
+   "id": "toe",
+   "en": "toe",
+   "ko": "발가락",
+   "pic": "../packs/basic_c_u6/toe.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/toe.mp3"
+  },
+  {
+   "id": "maze",
+   "en": "maze",
+   "ko": "미로",
+   "pic": "../packs/basic_c_u7/maze.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/maze.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/basic_c_u1/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "petshop",
+  "hotspots": [
+   {
+    "id": "dog",
+    "x": 15.6,
+    "y": 2.0,
+    "w": 18.6,
+    "h": 30.6
+   },
+   {
+    "id": "cat",
+    "x": 43.0,
+    "y": 3.3,
+    "w": 15.6,
+    "h": 29.9
+   },
+   {
+    "id": "bird",
+    "x": 66.9,
+    "y": 3.3,
+    "w": 13.2,
+    "h": 29.3
+   },
+   {
+    "id": "rabbit",
+    "x": 14.6,
+    "y": 37.1,
+    "w": 16.6,
+    "h": 28.0
+   },
+   {
+    "id": "hamster",
+    "x": 39.6,
+    "y": 40.4,
+    "w": 19.0,
+    "h": 24.7
+   },
+   {
+    "id": "fish",
+    "x": 64.9,
+    "y": 39.7,
+    "w": 20.0,
+    "h": 25.4
+   },
+   {
+    "id": "beetle",
+    "x": 2.9,
+    "y": 71.0,
+    "w": 29.3,
+    "h": 22.1
+   },
+   {
+    "id": "turtle",
+    "x": 38.6,
+    "y": 71.6,
+    "w": 21.0,
+    "h": 18.9
+   },
+   {
+    "id": "snake",
+    "x": 68.4,
+    "y": 70.3,
+    "w": 19.5,
+    "h": 22.1
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "bird",
+    "beetle",
+    "dog",
+    "mean"
+   ],
+   "odd": "mean"
+  },
+  {
+   "items": [
+    "beetle",
+    "test",
+    "turtle",
+    "bird"
+   ],
+   "odd": "test"
+  },
+  {
+   "items": [
+    "beetle",
+    "phone",
+    "rabbit",
+    "turtle"
+   ],
+   "odd": "phone"
+  },
+  {
+   "items": [
+    "fish",
+    "bag",
+    "beetle",
+    "snake"
+   ],
+   "odd": "bag"
+  },
+  {
+   "items": [
+    "turtle",
+    "rabbit",
+    "toe",
+    "dog"
+   ],
+   "odd": "toe"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "love",
+   "dog",
+   "cat",
+   "bird",
+   "rabbit",
+   "hamster"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "love",
+   "dog",
+   "cat",
+   "bird",
+   "rabbit",
+   "hamster"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "love",
+   "dog",
+   "cat",
+   "bird",
+   "rabbit",
+   "hamster",
+   "fish"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I love my dog Zoey.",
+   "audio": "../packs/basic_c_u1/audio/{v}/ilovemydogzoey.mp3"
+  },
+  {
+   "text": "I love my family.",
+   "audio": "audio/basic_c_u1/{v}/ilovemyfamily.mp3"
+  },
+  {
+   "text": "I love my dog.",
+   "audio": "audio/basic_c_u1/{v}/ilovemydog.mp3"
+  },
+  {
+   "text": "I love my cat.",
+   "audio": "audio/basic_c_u1/{v}/ilovemycat.mp3"
+  },
+  {
+   "text": "I love my bird.",
+   "audio": "audio/basic_c_u1/{v}/ilovemybird.mp3"
+  },
+  {
+   "text": "I love my rabbit.",
+   "audio": "audio/basic_c_u1/{v}/ilovemyrabbit.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_c_u1/fish.jpg",
+   "q": {
+    "text": "What pet do you love?",
+    "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
+   },
+   "choices": [
+    {
+     "text": "I love my beetle.",
+     "audio": "audio/basic_c_u1/ai/ilovemybeetle.mp3"
+    },
+    {
+     "text": "I love my fish.",
+     "audio": "audio/basic_c_u1/ai/ilovemyfish.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u1/beetle.jpg",
+   "q": {
+    "text": "What pet do you love?",
+    "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
+   },
+   "choices": [
+    {
+     "text": "I love my beetle.",
+     "audio": "audio/basic_c_u1/ai/ilovemybeetle.mp3"
+    },
+    {
+     "text": "I love my hamster.",
+     "audio": "audio/basic_c_u1/ai/ilovemyhamster.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u1/cat.jpg",
+   "q": {
+    "text": "What pet do you love?",
+    "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
+   },
+   "choices": [
+    {
+     "text": "I love my rabbit.",
+     "audio": "audio/basic_c_u1/ai/ilovemyrabbit.mp3"
+    },
+    {
+     "text": "I love my cat.",
+     "audio": "audio/basic_c_u1/ai/ilovemycat.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u1/hamster.jpg",
+   "q": {
+    "text": "What pet do you love?",
+    "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
+   },
+   "choices": [
+    {
+     "text": "I love my hamster.",
+     "audio": "audio/basic_c_u1/ai/ilovemyhamster.mp3"
+    },
+    {
+     "text": "I love my rabbit.",
+     "audio": "audio/basic_c_u1/ai/ilovemyrabbit.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_c_u1/",
+  "ai": "audio/basic_c_u1/ai/"
+ }
+}

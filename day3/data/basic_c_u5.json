@@ -1,0 +1,525 @@
+{
+ "id": "basic_c_u5",
+ "title": "Basic C · Unit 5 · Spelling Bee",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_c_u5/audio/us_f/",
+ "picDir": "../packs/basic_c_u5/",
+ "lineAudio": "audio/basic_c_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "dog",
+   "choices": [
+    "dog",
+    "tongyeong",
+    "seoul",
+    "canada"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "swing",
+   "choices": [
+    "swing",
+    "pig",
+    "knee",
+    "canada"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "face",
+   "choices": [
+    "face",
+    "school",
+    "tongyeong",
+    "swing"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "tongyeong",
+   "answer": "Tongyeong",
+   "choices": [
+    "Tongyeong",
+    "Tungyeong",
+    "Tongyeon",
+    "Tengyeong"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "knee",
+   "answer": "knee",
+   "choices": [
+    "knee",
+    "knue",
+    "kne",
+    "rnee"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "face",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellface.mp3",
+   "answer": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "face?"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "seoul",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellseoul.mp3",
+   "answer": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "Seoul?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "dog",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspelldog.mp3",
+   "sentence": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "___",
+    "?"
+   ],
+   "answer": "dog",
+   "choices": [
+    "dog",
+    "knee",
+    "Seoul"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "face",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellface.mp3",
+   "sentence": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "___",
+    "?"
+   ],
+   "answer": "face",
+   "choices": [
+    "face",
+    "Tongyeong",
+    "dog"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "knee",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3",
+   "sentence": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "___",
+    "?"
+   ],
+   "answer": "knee",
+   "choices": [
+    "knee",
+    "Canada",
+    "Seoul"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "pig",
+   "en": "pig",
+   "ko": "돼지",
+   "pic": "../packs/basic_c_u5/pig.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/pig.mp3",
+   "stext": "How do you spell pig?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellpig.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/basic_c_u5/dog.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/dog.mp3",
+   "stext": "How do you spell dog?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspelldog.mp3"
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "pic": "../packs/basic_c_u5/cat.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/cat.mp3",
+   "stext": "How do you spell cat?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellcat.mp3"
+  },
+  {
+   "id": "seoul",
+   "en": "Seoul",
+   "ko": "서울",
+   "pic": "../packs/basic_c_u5/seoul.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/seoul.mp3",
+   "stext": "How do you spell Seoul?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellseoul.mp3"
+  },
+  {
+   "id": "tongyeong",
+   "en": "Tongyeong",
+   "ko": "통영",
+   "pic": "../packs/basic_c_u5/tongyeong.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/tongyeong.mp3",
+   "stext": "How do you spell Tongyeong?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspelltongyeong.mp3"
+  },
+  {
+   "id": "canada",
+   "en": "Canada",
+   "ko": "캐나다",
+   "pic": "../packs/basic_c_u5/canada.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/canada.mp3",
+   "stext": "How do you spell Canada?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellcanada.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/basic_c_u5/school.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/school.mp3",
+   "stext": "How do you spell school?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellschool.mp3"
+  },
+  {
+   "id": "swing",
+   "en": "swing",
+   "ko": "그네",
+   "pic": "../packs/basic_c_u5/swing.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/swing.mp3",
+   "stext": "How do you spell swing?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellswing.mp3"
+  },
+  {
+   "id": "knee",
+   "en": "knee",
+   "ko": "무릎",
+   "pic": "../packs/basic_c_u5/knee.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/knee.mp3",
+   "stext": "How do you spell knee?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3"
+  },
+  {
+   "id": "face",
+   "en": "face",
+   "ko": "얼굴",
+   "pic": "../packs/basic_c_u5/face.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/face.mp3",
+   "stext": "How do you spell face?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellface.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "pic": "../packs/basic_c_u3/tomorrow.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/tomorrow.mp3"
+  },
+  {
+   "id": "neck",
+   "en": "neck",
+   "ko": "목",
+   "pic": "../packs/basic_c_u6/neck.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/neck.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/basic_c_u2/phone.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/phone.mp3"
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "pic": "../packs/basic_c_u3/understand.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/understand.mp3"
+  },
+  {
+   "id": "spell",
+   "en": "spell",
+   "ko": "철자를 말하다",
+   "pic": "../packs/basic_c_u3/spell.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/spell.mp3"
+  },
+  {
+   "id": "earphones",
+   "en": "earphones",
+   "ko": "이어폰",
+   "pic": "../packs/basic_c_u8/earphones.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/earphones.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "tomorrow",
+    "canada",
+    "school",
+    "face"
+   ],
+   "odd": "tomorrow"
+  },
+  {
+   "items": [
+    "dog",
+    "canada",
+    "school",
+    "neck"
+   ],
+   "odd": "neck"
+  },
+  {
+   "items": [
+    "phone",
+    "pig",
+    "face",
+    "seoul"
+   ],
+   "odd": "phone"
+  },
+  {
+   "items": [
+    "understand",
+    "pig",
+    "school",
+    "swing"
+   ],
+   "odd": "understand"
+  },
+  {
+   "items": [
+    "cat",
+    "tongyeong",
+    "school",
+    "spell"
+   ],
+   "odd": "spell"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "pig",
+   "dog",
+   "cat",
+   "seoul",
+   "canada",
+   "school"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "pig",
+   "dog",
+   "cat",
+   "seoul",
+   "tongyeong",
+   "canada"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "pig",
+   "dog",
+   "cat",
+   "seoul",
+   "tongyeong",
+   "canada",
+   "school"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "How do you spell pig?",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellpig.mp3"
+  },
+  {
+   "text": "How do you spell dog?",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspelldog.mp3"
+  },
+  {
+   "text": "How do you spell cat?",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellcat.mp3"
+  },
+  {
+   "text": "How do you spell Seoul?",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellseoul.mp3"
+  },
+  {
+   "text": "How do you spell Tongyeong?",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspelltongyeong.mp3"
+  },
+  {
+   "text": "How do you spell Canada?",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellcanada.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_c_u5/pig.jpg",
+   "q": {
+    "text": "How do you spell pig?",
+    "audio": "audio/basic_c_u5/{v}/howdoyouspellpig.mp3"
+   },
+   "choices": [
+    {
+     "text": "D, O, G. Dog.",
+     "audio": "audio/basic_c_u5/ai/dogdog.mp3"
+    },
+    {
+     "text": "P, I, G. Pig.",
+     "audio": "audio/basic_c_u5/ai/pigpig.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u5/cat.jpg",
+   "q": {
+    "text": "How do you spell cat?",
+    "audio": "audio/basic_c_u5/{v}/howdoyouspellcat.mp3"
+   },
+   "choices": [
+    {
+     "text": "C, U, T. Cut.",
+     "audio": "audio/basic_c_u5/ai/cutcut.mp3"
+    },
+    {
+     "text": "C, A, T. Cat.",
+     "audio": "audio/basic_c_u5/ai/catcat.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u5/dog.jpg",
+   "q": {
+    "text": "How do you spell dog?",
+    "audio": "audio/basic_c_u5/{v}/howdoyouspelldog.mp3"
+   },
+   "choices": [
+    {
+     "text": "D, O, G. Dog.",
+     "audio": "audio/basic_c_u5/ai/dogdog.mp3"
+    },
+    {
+     "text": "D, U, G. Dug.",
+     "audio": "audio/basic_c_u5/ai/dugdug.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u5/face.jpg",
+   "q": {
+    "text": "How do you spell face?",
+    "audio": "audio/basic_c_u5/{v}/howdoyouspellface.mp3"
+   },
+   "choices": [
+    {
+     "text": "F, A, C, E. Face.",
+     "audio": "audio/basic_c_u5/ai/faceface.mp3"
+    },
+    {
+     "text": "F, A, S, E. Fase.",
+     "audio": "audio/basic_c_u5/ai/fasefase.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_c_u5/",
+  "ai": "audio/basic_c_u5/ai/"
+ }
+}

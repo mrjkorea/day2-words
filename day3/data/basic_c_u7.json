@@ -1,0 +1,600 @@
+{
+ "id": "basic_c_u7",
+ "title": "Basic C · Unit 7 · Come Play With Us",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_c_u7/audio/us_f/",
+ "picDir": "../packs/basic_c_u7/",
+ "lineAudio": "audio/basic_c_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "maze",
+   "choices": [
+    "maze",
+    "junglegym",
+    "seesaw",
+    "sandbox"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "sandbox",
+   "choices": [
+    "sandbox",
+    "seesaw",
+    "swing",
+    "slide"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "playhouse",
+   "choices": [
+    "playhouse",
+    "merrygoround",
+    "sandbox",
+    "rollercoaster"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "seesaw",
+   "answer": "seesaw",
+   "choices": [
+    "seesaw",
+    "seosaw",
+    "seasaw",
+    "eesaw"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "maze",
+   "answer": "maze",
+   "choices": [
+    "maze",
+    "maz",
+    "mize",
+    "meze"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sandbox",
+   "audio": "audio/basic_c_u7/{v}/letsplayinthesandbox.mp3",
+   "answer": [
+    "Let's",
+    "play",
+    "in",
+    "the",
+    "sandbox."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "bumpercar",
+   "audio": "audio/basic_c_u7/{v}/letsridethebumpercar.mp3",
+   "answer": [
+    "Let's",
+    "ride",
+    "the",
+    "bumper",
+    "car."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "slide",
+   "audio": "audio/basic_c_u7/{v}/letsplayontheslide.mp3",
+   "sentence": [
+    "Let's",
+    "play",
+    "on",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "slide",
+   "choices": [
+    "slide",
+    "playhouse",
+    "seesaw"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "swing",
+   "audio": "audio/basic_c_u7/{v}/letsplayontheswing.mp3",
+   "sentence": [
+    "Let's",
+    "play",
+    "on",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "swing",
+   "choices": [
+    "swing",
+    "slide",
+    "seesaw"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "playhouse",
+   "audio": "audio/basic_c_u7/{v}/letsplayintheplayhouse.mp3",
+   "sentence": [
+    "Let's",
+    "play",
+    "in",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "playhouse",
+   "choices": [
+    "playhouse",
+    "maze",
+    "merry-go-round"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "slide",
+   "en": "slide",
+   "ko": "미끄럼틀",
+   "pic": "../packs/basic_c_u7/slide.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/slide.mp3",
+   "stext": "Let's play on the slide.",
+   "sentence": "audio/basic_c_u7/{v}/letsplayontheslide.mp3"
+  },
+  {
+   "id": "seesaw",
+   "en": "seesaw",
+   "ko": "시소",
+   "pic": "../packs/basic_c_u7/seesaw.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/seesaw.mp3",
+   "stext": "Let's play on the seesaw.",
+   "sentence": "audio/basic_c_u7/{v}/letsplayontheseesaw.mp3"
+  },
+  {
+   "id": "merrygoround",
+   "en": "merry-go-round",
+   "ko": "회전목마",
+   "pic": "../packs/basic_c_u7/merrygoround.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/merrygoround.mp3",
+   "stext": "Let's ride the merry-go-round.",
+   "sentence": "audio/basic_c_u7/{v}/letsridethemerrygoround.mp3"
+  },
+  {
+   "id": "swing",
+   "en": "swing",
+   "ko": "그네",
+   "pic": "../packs/basic_c_u7/swing.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/swing.mp3",
+   "stext": "Let's play on the swing.",
+   "sentence": "audio/basic_c_u7/{v}/letsplayontheswing.mp3"
+  },
+  {
+   "id": "junglegym",
+   "en": "jungle gym",
+   "ko": "정글짐",
+   "pic": "../packs/basic_c_u7/junglegym.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/junglegym.mp3",
+   "stext": "Let's play on the jungle gym.",
+   "sentence": "audio/basic_c_u7/{v}/letsplayonthejunglegym.mp3"
+  },
+  {
+   "id": "sandbox",
+   "en": "sandbox",
+   "ko": "모래놀이터",
+   "pic": "../packs/basic_c_u7/sandbox.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/sandbox.mp3",
+   "stext": "Let's play in the sandbox.",
+   "sentence": "audio/basic_c_u7/{v}/letsplayinthesandbox.mp3"
+  },
+  {
+   "id": "playhouse",
+   "en": "playhouse",
+   "ko": "놀이집",
+   "pic": "../packs/basic_c_u7/playhouse.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/playhouse.mp3",
+   "stext": "Let's play in the playhouse.",
+   "sentence": "audio/basic_c_u7/{v}/letsplayintheplayhouse.mp3"
+  },
+  {
+   "id": "bumpercar",
+   "en": "bumper car",
+   "ko": "범퍼카",
+   "pic": "../packs/basic_c_u7/bumpercar.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/bumpercar.mp3",
+   "stext": "Let's ride the bumper car.",
+   "sentence": "audio/basic_c_u7/{v}/letsridethebumpercar.mp3"
+  },
+  {
+   "id": "maze",
+   "en": "maze",
+   "ko": "미로",
+   "pic": "../packs/basic_c_u7/maze.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/maze.mp3",
+   "stext": "Let's go in the maze.",
+   "sentence": "audio/basic_c_u7/{v}/letsgointhemaze.mp3"
+  },
+  {
+   "id": "rollercoaster",
+   "en": "roller coaster",
+   "ko": "롤러코스터",
+   "pic": "../packs/basic_c_u7/rollercoaster.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/rollercoaster.mp3",
+   "stext": "Let's ride the roller coaster.",
+   "sentence": "audio/basic_c_u7/{v}/letsridetherollercoaster.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "house",
+   "en": "house",
+   "ko": "집",
+   "pic": "../packs/basic_c_u8/house.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/house.mp3"
+  },
+  {
+   "id": "turtle",
+   "en": "turtle",
+   "ko": "거북이",
+   "pic": "../packs/basic_c_u1/turtle.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/turtle.mp3"
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "pic": "../packs/basic_c_u8/bike.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/bike.mp3"
+  },
+  {
+   "id": "hamster",
+   "en": "hamster",
+   "ko": "햄스터",
+   "pic": "../packs/basic_c_u1/hamster.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/hamster.mp3"
+  },
+  {
+   "id": "watch",
+   "en": "watch",
+   "ko": "손목시계",
+   "pic": "../packs/basic_c_u2/watch.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/watch.mp3"
+  },
+  {
+   "id": "squirrel",
+   "en": "squirrel",
+   "ko": "다람쥐",
+   "pic": "../packs/basic_c_u1/squirrel.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/squirrel.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/basic_c_u7/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "playground",
+  "hotspots": [
+   {
+    "id": "slide",
+    "x": 14.2,
+    "y": 9.8,
+    "w": 17.1,
+    "h": 25.4
+   },
+   {
+    "id": "seesaw",
+    "x": 37.1,
+    "y": 18.2,
+    "w": 14.6,
+    "h": 11.1
+   },
+   {
+    "id": "merrygoround",
+    "x": 65.4,
+    "y": 16.9,
+    "w": 22.5,
+    "h": 31.9
+   },
+   {
+    "id": "swing",
+    "x": 5.9,
+    "y": 33.6,
+    "w": 20.0,
+    "h": 22.4
+   },
+   {
+    "id": "junglegym",
+    "x": 38.1,
+    "y": 29.9,
+    "w": 20.5,
+    "h": 27.3
+   },
+   {
+    "id": "sandbox",
+    "x": 20.5,
+    "y": 54.0,
+    "w": 22.0,
+    "h": 17.6
+   },
+   {
+    "id": "playhouse",
+    "x": 4.4,
+    "y": 61.2,
+    "w": 19.0,
+    "h": 26.0
+   },
+   {
+    "id": "bumpercar",
+    "x": 33.7,
+    "y": 69.7,
+    "w": 29.8,
+    "h": 24.7
+   },
+   {
+    "id": "maze",
+    "x": 59.1,
+    "y": 50.8,
+    "w": 39.6,
+    "h": 35.2
+   },
+   {
+    "id": "rollercoaster",
+    "x": 56.2,
+    "y": 3.3,
+    "w": 40.5,
+    "h": 22.8
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "bumpercar",
+    "house",
+    "seesaw",
+    "merrygoround"
+   ],
+   "odd": "house"
+  },
+  {
+   "items": [
+    "swing",
+    "playhouse",
+    "sandbox",
+    "turtle"
+   ],
+   "odd": "turtle"
+  },
+  {
+   "items": [
+    "bike",
+    "sandbox",
+    "rollercoaster",
+    "bumpercar"
+   ],
+   "odd": "bike"
+  },
+  {
+   "items": [
+    "swing",
+    "hamster",
+    "slide",
+    "rollercoaster"
+   ],
+   "odd": "hamster"
+  },
+  {
+   "items": [
+    "junglegym",
+    "bumpercar",
+    "watch",
+    "merrygoround"
+   ],
+   "odd": "watch"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "slide",
+   "seesaw",
+   "swing",
+   "sandbox",
+   "maze"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "slide",
+   "seesaw",
+   "swing",
+   "sandbox",
+   "playhouse",
+   "maze"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "slide",
+   "seesaw",
+   "swing",
+   "sandbox",
+   "playhouse",
+   "maze"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Where is the slide?",
+   "audio": "../packs/basic_c_u7/audio/{v}/whereistheslide.mp3"
+  },
+  {
+   "text": "Let's play on the slide.",
+   "audio": "audio/basic_c_u7/{v}/letsplayontheslide.mp3"
+  },
+  {
+   "text": "Let's play on the seesaw.",
+   "audio": "audio/basic_c_u7/{v}/letsplayontheseesaw.mp3"
+  },
+  {
+   "text": "Let's ride the merry-go-round.",
+   "audio": "audio/basic_c_u7/{v}/letsridethemerrygoround.mp3"
+  },
+  {
+   "text": "Let's play on the swing.",
+   "audio": "audio/basic_c_u7/{v}/letsplayontheswing.mp3"
+  },
+  {
+   "text": "Let's play on the jungle gym.",
+   "audio": "audio/basic_c_u7/{v}/letsplayonthejunglegym.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_c_u7/rollercoaster.jpg",
+   "q": {
+    "text": "Where do you want to play?",
+    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
+   },
+   "choices": [
+    {
+     "text": "Let's ride the roller coaster.",
+     "audio": "audio/basic_c_u7/ai/letsridetherollercoaster.mp3"
+    },
+    {
+     "text": "Let's play in the sandbox.",
+     "audio": "audio/basic_c_u7/ai/letsplayinthesandbox.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u7/bumpercar.jpg",
+   "q": {
+    "text": "Where do you want to play?",
+    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
+   },
+   "choices": [
+    {
+     "text": "Let's ride the roller coaster.",
+     "audio": "audio/basic_c_u7/ai/letsridetherollercoaster.mp3"
+    },
+    {
+     "text": "Let's ride the bumper car.",
+     "audio": "audio/basic_c_u7/ai/letsridethebumpercar.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u7/slide.jpg",
+   "q": {
+    "text": "Where do you want to play?",
+    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
+   },
+   "choices": [
+    {
+     "text": "Let's ride the bumper car.",
+     "audio": "audio/basic_c_u7/ai/letsridethebumpercar.mp3"
+    },
+    {
+     "text": "Let's play on the slide.",
+     "audio": "audio/basic_c_u7/ai/letsplayontheslide.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u7/junglegym.jpg",
+   "q": {
+    "text": "Where do you want to play?",
+    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
+   },
+   "choices": [
+    {
+     "text": "Let's play on the jungle gym.",
+     "audio": "audio/basic_c_u7/ai/letsplayonthejunglegym.mp3"
+    },
+    {
+     "text": "Let's ride the merry-go-round.",
+     "audio": "audio/basic_c_u7/ai/letsridethemerrygoround.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_c_u7/",
+  "ai": "audio/basic_c_u7/ai/"
+ }
+}

@@ -1,0 +1,519 @@
+{
+ "id": "basic_c_u3",
+ "title": "Basic C · Unit 3 · Classroom English Three",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_c_u3/audio/us_f/",
+ "picDir": "../packs/basic_c_u3/",
+ "lineAudio": "audio/basic_c_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "test",
+   "choices": [
+    "test",
+    "mean",
+    "report",
+    "understand"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "spell",
+   "choices": [
+    "spell",
+    "welcome",
+    "mean",
+    "test"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "mean",
+   "choices": [
+    "mean",
+    "tomorrow",
+    "monday",
+    "spell"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "test",
+   "answer": "test",
+   "choices": [
+    "test",
+    "tesd",
+    "tst",
+    "est"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "welcome",
+   "answer": "welcome",
+   "choices": [
+    "welcome",
+    "melcome",
+    "welcone",
+    "welcom"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "test",
+   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "test",
+    "today."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "know",
+   "audio": "audio/basic_c_u3/{v}/idontknow.mp3",
+   "answer": [
+    "I",
+    "don't",
+    "know."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "start",
+   "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3",
+   "sentence": [
+    "May",
+    "I",
+    "___",
+    "?"
+   ],
+   "answer": "start",
+   "choices": [
+    "start",
+    "Monday",
+    "tomorrow"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "spell",
+   "audio": "audio/basic_c_u3/{v}/howdoyouspellit.mp3",
+   "sentence": [
+    "How",
+    "do",
+    "you",
+    "___",
+    "it?"
+   ],
+   "answer": "spell",
+   "choices": [
+    "spell",
+    "Monday",
+    "tomorrow"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "test",
+   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
+   "sentence": [
+    "We",
+    "have",
+    "a",
+    "___",
+    "today."
+   ],
+   "answer": "test",
+   "choices": [
+    "test",
+    "start",
+    "understand"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "monday",
+   "en": "Monday",
+   "ko": "월요일",
+   "pic": "../packs/basic_c_u3/monday.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/monday.mp3",
+   "stext": "See you on Monday.",
+   "sentence": "audio/basic_c_u3/{v}/seeyouonmonday.mp3"
+  },
+  {
+   "id": "start",
+   "en": "start",
+   "ko": "시작하다",
+   "pic": "../packs/basic_c_u3/start.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/start.mp3",
+   "stext": "May I start?",
+   "sentence": "../packs/basic_c_u3/audio/{v}/mayistart.mp3"
+  },
+  {
+   "id": "report",
+   "en": "report",
+   "ko": "보고하다",
+   "pic": "../packs/basic_c_u3/report.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/report.mp3",
+   "stext": "I have a report.",
+   "sentence": "audio/basic_c_u3/{v}/ihaveareport.mp3"
+  },
+  {
+   "id": "spell",
+   "en": "spell",
+   "ko": "철자를 말하다",
+   "pic": "../packs/basic_c_u3/spell.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/spell.mp3",
+   "stext": "How do you spell it?",
+   "sentence": "audio/basic_c_u3/{v}/howdoyouspellit.mp3"
+  },
+  {
+   "id": "mean",
+   "en": "mean",
+   "ko": "뜻하다",
+   "pic": "../packs/basic_c_u3/mean.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/mean.mp3",
+   "stext": "What does it mean?",
+   "sentence": "audio/basic_c_u3/{v}/whatdoesitmean.mp3"
+  },
+  {
+   "id": "welcome",
+   "en": "welcome",
+   "ko": "천만에요, 환영하다",
+   "pic": "../packs/basic_c_u3/welcome.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/welcome.mp3",
+   "stext": "You are welcome.",
+   "sentence": "audio/basic_c_u3/{v}/youarewelcome.mp3"
+  },
+  {
+   "id": "test",
+   "en": "test",
+   "ko": "시험하다",
+   "pic": "../packs/basic_c_u3/test.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/test.mp3",
+   "stext": "We have a test today.",
+   "sentence": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3"
+  },
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "pic": "../packs/basic_c_u3/tomorrow.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/tomorrow.mp3",
+   "stext": "See you tomorrow.",
+   "sentence": "audio/basic_c_u3/{v}/seeyoutomorrow.mp3"
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "pic": "../packs/basic_c_u3/understand.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/understand.mp3",
+   "stext": "I understand.",
+   "sentence": "audio/basic_c_u3/{v}/iunderstand.mp3"
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "pic": "../packs/basic_c_u3/know.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/know.mp3",
+   "stext": "I don't know.",
+   "sentence": "audio/basic_c_u3/{v}/idontknow.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "doll",
+   "en": "doll",
+   "ko": "인형",
+   "pic": "../packs/basic_c_u8/doll.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/doll.mp3"
+  },
+  {
+   "id": "playhouse",
+   "en": "playhouse",
+   "ko": "놀이집",
+   "pic": "../packs/basic_c_u7/playhouse.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/playhouse.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/basic_c_u2/hat.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/hat.mp3"
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "pic": "../packs/basic_c_u2/coat.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/coat.mp3"
+  },
+  {
+   "id": "beetle",
+   "en": "beetle",
+   "ko": "딱정벌레",
+   "pic": "../packs/basic_c_u1/beetle.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/beetle.mp3"
+  },
+  {
+   "id": "seesaw",
+   "en": "seesaw",
+   "ko": "시소",
+   "pic": "../packs/basic_c_u7/seesaw.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/seesaw.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "doll",
+    "welcome",
+    "know",
+    "mean"
+   ],
+   "odd": "doll"
+  },
+  {
+   "items": [
+    "welcome",
+    "start",
+    "playhouse",
+    "mean"
+   ],
+   "odd": "playhouse"
+  },
+  {
+   "items": [
+    "start",
+    "monday",
+    "hat",
+    "spell"
+   ],
+   "odd": "hat"
+  },
+  {
+   "items": [
+    "spell",
+    "coat",
+    "welcome",
+    "mean"
+   ],
+   "odd": "coat"
+  },
+  {
+   "items": [
+    "spell",
+    "report",
+    "start",
+    "beetle"
+   ],
+   "odd": "beetle"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "monday",
+   "start",
+   "report",
+   "spell",
+   "mean",
+   "welcome"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "monday",
+   "start",
+   "report",
+   "spell",
+   "mean",
+   "welcome"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "monday",
+   "start",
+   "report",
+   "spell",
+   "mean",
+   "welcome",
+   "test"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "May I start?",
+   "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3"
+  },
+  {
+   "text": "See you on Monday.",
+   "audio": "audio/basic_c_u3/{v}/seeyouonmonday.mp3"
+  },
+  {
+   "text": "I have a report.",
+   "audio": "audio/basic_c_u3/{v}/ihaveareport.mp3"
+  },
+  {
+   "text": "How do you spell it?",
+   "audio": "audio/basic_c_u3/{v}/howdoyouspellit.mp3"
+  },
+  {
+   "text": "What does it mean?",
+   "audio": "audio/basic_c_u3/{v}/whatdoesitmean.mp3"
+  },
+  {
+   "text": "You are welcome.",
+   "audio": "audio/basic_c_u3/{v}/youarewelcome.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_c_u3/start.jpg",
+   "q": {
+    "text": "May I start?",
+    "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, you may start.",
+     "audio": "audio/basic_c_u3/ai/yesyoumaystart.mp3"
+    },
+    {
+     "text": "You are welcome.",
+     "audio": "audio/basic_c_u3/ai/youarewelcome.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u3/welcome.jpg",
+   "q": {
+    "text": "Thank you.",
+    "audio": "audio/basic_c_u3/{v}/thankyou.mp3"
+   },
+   "choices": [
+    {
+     "text": "You are welcome.",
+     "audio": "audio/basic_c_u3/ai/youarewelcome.mp3"
+    },
+    {
+     "text": "May I start?",
+     "audio": "audio/basic_c_u3/ai/mayistart.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u3/mean.jpg",
+   "q": {
+    "text": "What does it mean?",
+    "audio": "audio/basic_c_u3/{v}/whatdoesitmean.mp3"
+   },
+   "choices": [
+    {
+     "text": "Sorry, I don't know.",
+     "audio": "audio/basic_c_u3/ai/sorryidontknow.mp3"
+    },
+    {
+     "text": "See you on Monday.",
+     "audio": "audio/basic_c_u3/ai/seeyouonmonday.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u3/test.jpg",
+   "q": {
+    "text": "When is the test?",
+    "audio": "audio/basic_c_u3/{v}/whenisthetest.mp3"
+   },
+   "choices": [
+    {
+     "text": "The test is tomorrow.",
+     "audio": "audio/basic_c_u3/ai/thetestistomorrow.mp3"
+    },
+    {
+     "text": "The test is red.",
+     "audio": "audio/basic_c_u3/ai/thetestisred.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_c_u3/",
+  "ai": "audio/basic_c_u3/ai/"
+ }
+}

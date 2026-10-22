@@ -1,0 +1,520 @@
+{
+ "id": "basic_c_u4",
+ "title": "Basic C · Unit 4 · What Can We See near Tongyeong?",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_c_u4/audio/us_f/",
+ "picDir": "../packs/basic_c_u4/",
+ "lineAudio": "audio/basic_c_u4/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "suncheon",
+   "choices": [
+    "suncheon",
+    "pyeongchang",
+    "gongju",
+    "jeju"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "andong",
+   "choices": [
+    "andong",
+    "gongju",
+    "jeju",
+    "pyeongchang"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "gongju",
+   "choices": [
+    "gongju",
+    "suncheon",
+    "tongyeong",
+    "busan"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "suncheon",
+   "answer": "Suncheon",
+   "choices": [
+    "Suncheon",
+    "Sunchaon",
+    "Sucheon",
+    "Sunchion"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "tongyeong",
+   "answer": "Tongyeong",
+   "choices": [
+    "Tongyeong",
+    "Tongyeopg",
+    "Tongyeonk",
+    "dongyeong"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "suncheon",
+   "audio": "audio/basic_c_u4/{v}/wecanseesuncheon.mp3",
+   "answer": [
+    "We",
+    "can",
+    "see",
+    "Suncheon."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "andong",
+   "audio": "audio/basic_c_u4/{v}/wecanseeandong.mp3",
+   "answer": [
+    "We",
+    "can",
+    "see",
+    "Andong."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "goseong",
+   "audio": "audio/basic_c_u4/{v}/wecanseegoseong.mp3",
+   "sentence": [
+    "We",
+    "can",
+    "see",
+    "___",
+    "."
+   ],
+   "answer": "Goseong",
+   "choices": [
+    "Goseong",
+    "Seoul",
+    "Busan"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "seoul",
+   "audio": "audio/basic_c_u4/{v}/wecanseeseoul.mp3",
+   "sentence": [
+    "We",
+    "can",
+    "see",
+    "___",
+    "."
+   ],
+   "answer": "Seoul",
+   "choices": [
+    "Seoul",
+    "Suncheon",
+    "Busan"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "busan",
+   "audio": "audio/basic_c_u4/{v}/wecanseebusan.mp3",
+   "sentence": [
+    "We",
+    "can",
+    "see",
+    "___",
+    "."
+   ],
+   "answer": "Busan",
+   "choices": [
+    "Busan",
+    "Goseong",
+    "Pyeongchang"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "near",
+   "en": "near",
+   "ko": "근처에",
+   "pic": null,
+   "audio": "../packs/basic_c_u4/audio/{v}/near.mp3",
+   "stext": "Goseong is near Tongyeong.",
+   "sentence": "audio/basic_c_u4/{v}/goseongisneartongyeong.mp3"
+  },
+  {
+   "id": "seoul",
+   "en": "Seoul",
+   "ko": "서울",
+   "pic": "../packs/basic_c_u4/seoul.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/seoul.mp3",
+   "stext": "We can see Seoul.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseeseoul.mp3"
+  },
+  {
+   "id": "busan",
+   "en": "Busan",
+   "ko": "부산",
+   "pic": "../packs/basic_c_u4/busan.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/busan.mp3",
+   "stext": "We can see Busan.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseebusan.mp3"
+  },
+  {
+   "id": "jeju",
+   "en": "Jeju",
+   "ko": "제주",
+   "pic": "../packs/basic_c_u4/jeju.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/jeju.mp3",
+   "stext": "We can see Jeju.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseejeju.mp3"
+  },
+  {
+   "id": "tongyeong",
+   "en": "Tongyeong",
+   "ko": "통영",
+   "pic": "../packs/basic_c_u4/tongyeong.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/tongyeong.mp3",
+   "stext": "We can see Tongyeong.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseetongyeong.mp3"
+  },
+  {
+   "id": "gongju",
+   "en": "Gongju",
+   "ko": "공주",
+   "pic": "../packs/basic_c_u4/gongju.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/gongju.mp3",
+   "stext": "We can see Gongju.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseegongju.mp3"
+  },
+  {
+   "id": "andong",
+   "en": "Andong",
+   "ko": "안동",
+   "pic": "../packs/basic_c_u4/andong.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/andong.mp3",
+   "stext": "We can see Andong.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseeandong.mp3"
+  },
+  {
+   "id": "suncheon",
+   "en": "Suncheon",
+   "ko": "순천",
+   "pic": "../packs/basic_c_u4/suncheon.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/suncheon.mp3",
+   "stext": "We can see Suncheon.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseesuncheon.mp3"
+  },
+  {
+   "id": "goseong",
+   "en": "Goseong",
+   "ko": "고성",
+   "pic": "../packs/basic_c_u4/goseong.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/goseong.mp3",
+   "stext": "We can see Goseong.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseegoseong.mp3"
+  },
+  {
+   "id": "pyeongchang",
+   "en": "Pyeongchang",
+   "ko": "평창",
+   "pic": "../packs/basic_c_u4/pyeongchang.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/pyeongchang.mp3",
+   "stext": "We can see Pyeongchang.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseepyeongchang.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "pic": "../packs/basic_c_u1/snake.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/snake.mp3"
+  },
+  {
+   "id": "doll",
+   "en": "doll",
+   "ko": "인형",
+   "pic": "../packs/basic_c_u8/doll.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/doll.mp3"
+  },
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "pic": "../packs/basic_c_u3/tomorrow.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/tomorrow.mp3"
+  },
+  {
+   "id": "slide",
+   "en": "slide",
+   "ko": "미끄럼틀",
+   "pic": "../packs/basic_c_u7/slide.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/slide.mp3"
+  },
+  {
+   "id": "house",
+   "en": "house",
+   "ko": "집",
+   "pic": "../packs/basic_c_u2/house.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/house.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/basic_c_u8/phone.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/phone.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "snake",
+    "andong",
+    "tongyeong",
+    "gongju"
+   ],
+   "odd": "snake"
+  },
+  {
+   "items": [
+    "doll",
+    "andong",
+    "suncheon",
+    "goseong"
+   ],
+   "odd": "doll"
+  },
+  {
+   "items": [
+    "gongju",
+    "andong",
+    "tomorrow",
+    "tongyeong"
+   ],
+   "odd": "tomorrow"
+  },
+  {
+   "items": [
+    "tongyeong",
+    "slide",
+    "andong",
+    "goseong"
+   ],
+   "odd": "slide"
+  },
+  {
+   "items": [
+    "goseong",
+    "seoul",
+    "andong",
+    "house"
+   ],
+   "odd": "house"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "near",
+   "seoul",
+   "busan",
+   "jeju",
+   "gongju",
+   "andong"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "near",
+   "seoul",
+   "busan",
+   "jeju",
+   "tongyeong",
+   "gongju"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "near",
+   "seoul",
+   "busan",
+   "jeju",
+   "tongyeong",
+   "gongju",
+   "andong"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What can we see near Tongyeong?",
+   "audio": "../packs/basic_c_u4/audio/{v}/whatcanweseeneartongyeong.mp3"
+  },
+  {
+   "text": "Goseong is near Tongyeong.",
+   "audio": "audio/basic_c_u4/{v}/goseongisneartongyeong.mp3"
+  },
+  {
+   "text": "We can see Seoul.",
+   "audio": "audio/basic_c_u4/{v}/wecanseeseoul.mp3"
+  },
+  {
+   "text": "We can see Busan.",
+   "audio": "audio/basic_c_u4/{v}/wecanseebusan.mp3"
+  },
+  {
+   "text": "We can see Jeju.",
+   "audio": "audio/basic_c_u4/{v}/wecanseejeju.mp3"
+  },
+  {
+   "text": "We can see Tongyeong.",
+   "audio": "audio/basic_c_u4/{v}/wecanseetongyeong.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_c_u4/andong.jpg",
+   "q": {
+    "text": "What can we see?",
+    "audio": "audio/basic_c_u4/{v}/whatcanwesee.mp3"
+   },
+   "choices": [
+    {
+     "text": "We can see Andong.",
+     "audio": "audio/basic_c_u4/ai/wecanseeandong.mp3"
+    },
+    {
+     "text": "We can see Goseong.",
+     "audio": "audio/basic_c_u4/ai/wecanseegoseong.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u4/goseong.jpg",
+   "q": {
+    "text": "What can we see?",
+    "audio": "audio/basic_c_u4/{v}/whatcanwesee.mp3"
+   },
+   "choices": [
+    {
+     "text": "We can see Goseong.",
+     "audio": "audio/basic_c_u4/ai/wecanseegoseong.mp3"
+    },
+    {
+     "text": "We can see Gongju.",
+     "audio": "audio/basic_c_u4/ai/wecanseegongju.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u4/gongju.jpg",
+   "q": {
+    "text": "What can we see?",
+    "audio": "audio/basic_c_u4/{v}/whatcanwesee.mp3"
+   },
+   "choices": [
+    {
+     "text": "We can see Pyeongchang.",
+     "audio": "audio/basic_c_u4/ai/wecanseepyeongchang.mp3"
+    },
+    {
+     "text": "We can see Gongju.",
+     "audio": "audio/basic_c_u4/ai/wecanseegongju.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u4/jeju.jpg",
+   "q": {
+    "text": "What can we see?",
+    "audio": "audio/basic_c_u4/{v}/whatcanwesee.mp3"
+   },
+   "choices": [
+    {
+     "text": "We can see Seoul.",
+     "audio": "audio/basic_c_u4/ai/wecanseeseoul.mp3"
+    },
+    {
+     "text": "We can see Jeju.",
+     "audio": "audio/basic_c_u4/ai/wecanseejeju.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_c_u4/",
+  "ai": "audio/basic_c_u4/ai/"
+ }
+}

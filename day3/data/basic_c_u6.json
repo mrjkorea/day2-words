@@ -1,0 +1,519 @@
+{
+ "id": "basic_c_u6",
+ "title": "Basic C · Unit 6 · Don't Touch Your Arm",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_c_u6/audio/us_f/",
+ "picDir": "../packs/basic_c_u6/",
+ "lineAudio": "audio/basic_c_u6/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "wrist",
+   "choices": [
+    "wrist",
+    "arm",
+    "toe",
+    "leg"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "toe",
+   "choices": [
+    "toe",
+    "stomach",
+    "face",
+    "neck"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "arm",
+   "choices": [
+    "arm",
+    "face",
+    "toe",
+    "wrist"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "leg",
+   "answer": "leg",
+   "choices": [
+    "leg",
+    "legk",
+    "lag",
+    "keg"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "neck",
+   "answer": "neck",
+   "choices": [
+    "neck",
+    "nck",
+    "nack",
+    "nek"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "back",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourback.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "your",
+    "back."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/basic_c_u6/{v}/donttouchit.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "it."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "neck",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourneck.mp3",
+   "sentence": [
+    "Don't",
+    "touch",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "neck",
+   "choices": [
+    "neck",
+    "stomach",
+    "wrist"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "knee",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourknee.mp3",
+   "sentence": [
+    "Don't",
+    "touch",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "knee",
+   "choices": [
+    "knee",
+    "face",
+    "leg"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "leg",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourleg.mp3",
+   "sentence": [
+    "Don't",
+    "touch",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "leg",
+   "choices": [
+    "leg",
+    "face",
+    "stomach"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "touch",
+   "en": "touch",
+   "ko": "만지다",
+   "pic": null,
+   "audio": "../packs/basic_c_u6/audio/{v}/touch.mp3",
+   "stext": "Don't touch it.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchit.mp3"
+  },
+  {
+   "id": "arm",
+   "en": "arm",
+   "ko": "팔",
+   "pic": "../packs/basic_c_u6/arm.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/arm.mp3",
+   "stext": "Don't touch your arm.",
+   "sentence": "../packs/basic_c_u6/audio/{v}/donttouchyourarm.mp3"
+  },
+  {
+   "id": "leg",
+   "en": "leg",
+   "ko": "다리",
+   "pic": "../packs/basic_c_u6/leg.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/leg.mp3",
+   "stext": "Don't touch your leg.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourleg.mp3"
+  },
+  {
+   "id": "knee",
+   "en": "knee",
+   "ko": "무릎",
+   "pic": "../packs/basic_c_u6/knee.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/knee.mp3",
+   "stext": "Don't touch your knee.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourknee.mp3"
+  },
+  {
+   "id": "back",
+   "en": "back",
+   "ko": "등",
+   "pic": "../packs/basic_c_u6/back.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/back.mp3",
+   "stext": "Don't touch your back.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourback.mp3"
+  },
+  {
+   "id": "face",
+   "en": "face",
+   "ko": "얼굴",
+   "pic": "../packs/basic_c_u6/face.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/face.mp3",
+   "stext": "Don't touch your face.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourface.mp3"
+  },
+  {
+   "id": "stomach",
+   "en": "stomach",
+   "ko": "배",
+   "pic": "../packs/basic_c_u6/stomach.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/stomach.mp3",
+   "stext": "Don't touch your stomach.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourstomach.mp3"
+  },
+  {
+   "id": "wrist",
+   "en": "wrist",
+   "ko": "손목",
+   "pic": "../packs/basic_c_u6/wrist.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/wrist.mp3",
+   "stext": "Don't touch your wrist.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourwrist.mp3"
+  },
+  {
+   "id": "toe",
+   "en": "toe",
+   "ko": "발가락",
+   "pic": "../packs/basic_c_u6/toe.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/toe.mp3",
+   "stext": "Don't touch your toe.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourtoe.mp3"
+  },
+  {
+   "id": "neck",
+   "en": "neck",
+   "ko": "목",
+   "pic": "../packs/basic_c_u6/neck.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/neck.mp3",
+   "stext": "Don't touch your neck.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourneck.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "beetle",
+   "en": "beetle",
+   "ko": "딱정벌레",
+   "pic": "../packs/basic_c_u1/beetle.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/beetle.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/basic_c_u1/dog.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/dog.mp3"
+  },
+  {
+   "id": "spell",
+   "en": "spell",
+   "ko": "철자를 말하다",
+   "pic": "../packs/basic_c_u3/spell.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/spell.mp3"
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "pic": "../packs/basic_c_u8/bike.jpg",
+   "audio": "../packs/basic_c_u8/audio/{v}/bike.mp3"
+  },
+  {
+   "id": "playhouse",
+   "en": "playhouse",
+   "ko": "놀이집",
+   "pic": "../packs/basic_c_u7/playhouse.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/playhouse.mp3"
+  },
+  {
+   "id": "turtle",
+   "en": "turtle",
+   "ko": "거북이",
+   "pic": "../packs/basic_c_u1/turtle.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/turtle.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "arm",
+    "face",
+    "stomach",
+    "beetle"
+   ],
+   "odd": "beetle"
+  },
+  {
+   "items": [
+    "dog",
+    "knee",
+    "stomach",
+    "leg"
+   ],
+   "odd": "dog"
+  },
+  {
+   "items": [
+    "neck",
+    "back",
+    "spell",
+    "leg"
+   ],
+   "odd": "spell"
+  },
+  {
+   "items": [
+    "arm",
+    "wrist",
+    "bike",
+    "face"
+   ],
+   "odd": "bike"
+  },
+  {
+   "items": [
+    "arm",
+    "stomach",
+    "leg",
+    "playhouse"
+   ],
+   "odd": "playhouse"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "touch",
+   "arm",
+   "leg",
+   "knee",
+   "back",
+   "face"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "touch",
+   "arm",
+   "leg",
+   "knee",
+   "back",
+   "face"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "touch",
+   "arm",
+   "leg",
+   "knee",
+   "back",
+   "face",
+   "stomach"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Don't touch your arm.",
+   "audio": "../packs/basic_c_u6/audio/{v}/donttouchyourarm.mp3"
+  },
+  {
+   "text": "Don't touch it.",
+   "audio": "audio/basic_c_u6/{v}/donttouchit.mp3"
+  },
+  {
+   "text": "Don't touch your leg.",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourleg.mp3"
+  },
+  {
+   "text": "Don't touch your knee.",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourknee.mp3"
+  },
+  {
+   "text": "Don't touch your back.",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourback.mp3"
+  },
+  {
+   "text": "Don't touch your face.",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourface.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_c_u6/face.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_c_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't touch your face.",
+     "audio": "audio/basic_c_u6/ai/donttouchyourface.mp3"
+    },
+    {
+     "text": "Don't touch your leg.",
+     "audio": "audio/basic_c_u6/ai/donttouchyourleg.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u6/arm.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_c_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't touch your neck.",
+     "audio": "audio/basic_c_u6/ai/donttouchyourneck.mp3"
+    },
+    {
+     "text": "Don't touch your arm.",
+     "audio": "audio/basic_c_u6/ai/donttouchyourarm.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u6/leg.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_c_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't touch your leg.",
+     "audio": "audio/basic_c_u6/ai/donttouchyourleg.mp3"
+    },
+    {
+     "text": "Don't touch your knee.",
+     "audio": "audio/basic_c_u6/ai/donttouchyourknee.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u6/neck.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_c_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "Don't touch your neck.",
+     "audio": "audio/basic_c_u6/ai/donttouchyourneck.mp3"
+    },
+    {
+     "text": "Don't touch your face.",
+     "audio": "audio/basic_c_u6/ai/donttouchyourface.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_c_u6/",
+  "ai": "audio/basic_c_u6/ai/"
+ }
+}

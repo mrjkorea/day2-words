@@ -1,0 +1,524 @@
+{
+ "id": "basic_c_u2",
+ "title": "Basic C · Unit 2 · Look at My New Hat",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_c_u2/audio/us_f/",
+ "picDir": "../packs/basic_c_u2/",
+ "lineAudio": "audio/basic_c_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "shoes",
+   "choices": [
+    "shoes",
+    "coat",
+    "hat",
+    "earphones"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "earphones",
+   "choices": [
+    "earphones",
+    "shoes",
+    "hat",
+    "watch"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "bag",
+   "choices": [
+    "bag",
+    "phone",
+    "hat",
+    "computer"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hat",
+   "answer": "hat",
+   "choices": [
+    "hat",
+    "hato",
+    "hit",
+    "hatb"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "coat",
+   "answer": "coat",
+   "choices": [
+    "coat",
+    "poat",
+    "cat",
+    "coa"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "phone",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewphone.mp3",
+   "answer": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "phone."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "computer",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewcomputer.mp3",
+   "answer": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "computer."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "coat",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewcoat.mp3",
+   "sentence": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "coat",
+   "choices": [
+    "coat",
+    "bag",
+    "computer"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "watch",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewwatch.mp3",
+   "sentence": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "watch",
+   "choices": [
+    "watch",
+    "bag",
+    "phone"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/basic_c_u2/{v}/mybagisnew.mp3",
+   "sentence": [
+    "My",
+    "bag",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "new",
+   "choices": [
+    "new",
+    "phone",
+    "coat"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "look",
+   "en": "look",
+   "ko": "보다",
+   "pic": null,
+   "audio": "../packs/basic_c_u2/audio/{v}/look.mp3",
+   "stext": "Look at me.",
+   "sentence": "audio/basic_c_u2/{v}/lookatme.mp3"
+  },
+  {
+   "id": "new",
+   "en": "new",
+   "ko": "새로운",
+   "pic": null,
+   "audio": "../packs/basic_c_u2/audio/{v}/new.mp3",
+   "stext": "My bag is new.",
+   "sentence": "audio/basic_c_u2/{v}/mybagisnew.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/basic_c_u2/hat.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/hat.mp3",
+   "stext": "Look at my new hat.",
+   "sentence": "../packs/basic_c_u2/audio/{v}/lookatmynewhat.mp3"
+  },
+  {
+   "id": "earphones",
+   "en": "earphones",
+   "ko": "이어폰",
+   "pic": "../packs/basic_c_u2/earphones.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/earphones.mp3",
+   "stext": "Look at my new earphones.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewearphones.mp3"
+  },
+  {
+   "id": "shoes",
+   "en": "shoes",
+   "ko": "신발",
+   "pic": "../packs/basic_c_u2/shoes.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/shoes.mp3",
+   "stext": "Look at my new shoes.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewshoes.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/basic_c_u2/phone.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/phone.mp3",
+   "stext": "Look at my new phone.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewphone.mp3"
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "pic": "../packs/basic_c_u2/coat.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/coat.mp3",
+   "stext": "Look at my new coat.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewcoat.mp3"
+  },
+  {
+   "id": "watch",
+   "en": "watch",
+   "ko": "손목시계",
+   "pic": "../packs/basic_c_u2/watch.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/watch.mp3",
+   "stext": "Look at my new watch.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewwatch.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_c_u2/bag.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/bag.mp3",
+   "stext": "Look at my new bag.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewbag.mp3"
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "pic": "../packs/basic_c_u2/computer.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/computer.mp3",
+   "stext": "Look at my new computer.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewcomputer.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "bird",
+   "en": "bird",
+   "ko": "새",
+   "pic": "../packs/basic_c_u1/bird.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/bird.mp3"
+  },
+  {
+   "id": "mean",
+   "en": "mean",
+   "ko": "뜻하다",
+   "pic": "../packs/basic_c_u3/mean.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/mean.mp3"
+  },
+  {
+   "id": "test",
+   "en": "test",
+   "ko": "시험하다",
+   "pic": "../packs/basic_c_u3/test.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/test.mp3"
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "pic": "../packs/basic_c_u3/understand.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/understand.mp3"
+  },
+  {
+   "id": "seesaw",
+   "en": "seesaw",
+   "ko": "시소",
+   "pic": "../packs/basic_c_u7/seesaw.jpg",
+   "audio": "../packs/basic_c_u7/audio/{v}/seesaw.mp3"
+  },
+  {
+   "id": "leg",
+   "en": "leg",
+   "ko": "다리",
+   "pic": "../packs/basic_c_u6/leg.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/leg.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "phone",
+    "bird",
+    "computer",
+    "shoes"
+   ],
+   "odd": "bird"
+  },
+  {
+   "items": [
+    "mean",
+    "bag",
+    "hat",
+    "phone"
+   ],
+   "odd": "mean"
+  },
+  {
+   "items": [
+    "test",
+    "coat",
+    "bag",
+    "computer"
+   ],
+   "odd": "test"
+  },
+  {
+   "items": [
+    "shoes",
+    "hat",
+    "watch",
+    "understand"
+   ],
+   "odd": "understand"
+  },
+  {
+   "items": [
+    "seesaw",
+    "phone",
+    "coat",
+    "shoes"
+   ],
+   "odd": "seesaw"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "look",
+   "new",
+   "hat",
+   "shoes",
+   "phone",
+   "coat"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "look",
+   "new",
+   "hat",
+   "earphones",
+   "shoes",
+   "phone"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "look",
+   "new",
+   "hat",
+   "earphones",
+   "shoes",
+   "phone",
+   "coat"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Look at my new hat.",
+   "audio": "../packs/basic_c_u2/audio/{v}/lookatmynewhat.mp3"
+  },
+  {
+   "text": "Look at me.",
+   "audio": "audio/basic_c_u2/{v}/lookatme.mp3"
+  },
+  {
+   "text": "My bag is new.",
+   "audio": "audio/basic_c_u2/{v}/mybagisnew.mp3"
+  },
+  {
+   "text": "Look at my new earphones.",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewearphones.mp3"
+  },
+  {
+   "text": "Look at my new shoes.",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewshoes.mp3"
+  },
+  {
+   "text": "Look at my new phone.",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewphone.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_c_u2/shoes.jpg",
+   "q": {
+    "text": "What is new?",
+    "audio": "audio/basic_c_u2/{v}/whatisnew.mp3"
+   },
+   "choices": [
+    {
+     "text": "Look at my new hat.",
+     "audio": "audio/basic_c_u2/ai/lookatmynewhat.mp3"
+    },
+    {
+     "text": "Look at my new shoes.",
+     "audio": "audio/basic_c_u2/ai/lookatmynewshoes.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u2/computer.jpg",
+   "q": {
+    "text": "What is new?",
+    "audio": "audio/basic_c_u2/{v}/whatisnew.mp3"
+   },
+   "choices": [
+    {
+     "text": "Look at my new earphones.",
+     "audio": "audio/basic_c_u2/ai/lookatmynewearphones.mp3"
+    },
+    {
+     "text": "Look at my new computer.",
+     "audio": "audio/basic_c_u2/ai/lookatmynewcomputer.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_c_u2/earphones.jpg",
+   "q": {
+    "text": "What is new?",
+    "audio": "audio/basic_c_u2/{v}/whatisnew.mp3"
+   },
+   "choices": [
+    {
+     "text": "Look at my new earphones.",
+     "audio": "audio/basic_c_u2/ai/lookatmynewearphones.mp3"
+    },
+    {
+     "text": "Look at my new phone.",
+     "audio": "audio/basic_c_u2/ai/lookatmynewphone.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_c_u2/coat.jpg",
+   "q": {
+    "text": "What is new?",
+    "audio": "audio/basic_c_u2/{v}/whatisnew.mp3"
+   },
+   "choices": [
+    {
+     "text": "Look at my new coat.",
+     "audio": "audio/basic_c_u2/ai/lookatmynewcoat.mp3"
+    },
+    {
+     "text": "Look at my new hat.",
+     "audio": "audio/basic_c_u2/ai/lookatmynewhat.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_c_u2/",
+  "ai": "audio/basic_c_u2/ai/"
+ }
+}
