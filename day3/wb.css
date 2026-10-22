@@ -20,3 +20,6 @@ img.pic{width:100%;max-width:120px;aspect-ratio:1;object-fit:contain;display:blo
 .keys{display:flex;flex-wrap:wrap;gap:5px;justify-content:center}.keys button{width:42px;padding:8px 0;font-size:18px}
 .step{display:flex;align-items:center;gap:12px;text-align:left;font-size:20px;padding:12px;margin:8px 0;width:100%}
 .step .n{font-size:26px;width:40px;text-align:center}.step.lock{background:#dee2e6;box-shadow:0 4px 0 #adb5bd}
+.nextlvl{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);font-size:28px;padding:14px 26px;z-index:8;animation:pop .6s}
+.nextlvl small{display:block;font-size:14px}@keyframes pop{0%{transform:translateX(-50%) scale(.3)}70%{transform:translateX(-50%) scale(1.15)}100%{transform:translateX(-50%) scale(1)}}
+.star{font-size:22px}
