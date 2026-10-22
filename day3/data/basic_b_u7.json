@@ -1,0 +1,592 @@
+{
+ "id": "basic_b_u7",
+ "title": "Basic B · Unit 7 · What Color is That?",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_b_u7/audio/us_f/",
+ "picDir": "../packs/basic_b_u7/",
+ "lineAudio": "audio/basic_b_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "brown",
+   "choices": [
+    "brown",
+    "orange",
+    "red",
+    "rainbow"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "blue",
+   "choices": [
+    "blue",
+    "rainbow",
+    "red",
+    "orange"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "red",
+   "choices": [
+    "red",
+    "black",
+    "orange",
+    "purple"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "white",
+   "answer": "white",
+   "choices": [
+    "white",
+    "whute",
+    "wite",
+    "wlite"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "brown",
+   "answer": "brown",
+   "choices": [
+    "brown",
+    "brow",
+    "bown",
+    "brwn"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "green",
+   "audio": "audio/basic_b_u7/{v}/itisgreen.mp3",
+   "answer": [
+    "It",
+    "is",
+    "green."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "purple",
+   "audio": "audio/basic_b_u7/{v}/itispurple.mp3",
+   "answer": [
+    "It",
+    "is",
+    "purple."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "orange",
+   "audio": "audio/basic_b_u7/{v}/itisorange.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "orange",
+   "choices": [
+    "orange",
+    "green",
+    "yellow"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "red",
+   "audio": "../packs/basic_b_u7/audio/{v}/itisred.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "red",
+   "choices": [
+    "red",
+    "brown",
+    "white"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "brown",
+   "audio": "audio/basic_b_u7/{v}/itisbrown.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "brown",
+   "choices": [
+    "brown",
+    "yellow",
+    "black"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "white",
+   "en": "white",
+   "ko": "하얀색",
+   "pic": "../packs/basic_b_u7/white.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/white.mp3",
+   "stext": "It is white.",
+   "sentence": "audio/basic_b_u7/{v}/itiswhite.mp3"
+  },
+  {
+   "id": "black",
+   "en": "black",
+   "ko": "검은색",
+   "pic": "../packs/basic_b_u7/black.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/black.mp3",
+   "stext": "It is black.",
+   "sentence": "audio/basic_b_u7/{v}/itisblack.mp3"
+  },
+  {
+   "id": "brown",
+   "en": "brown",
+   "ko": "갈색",
+   "pic": "../packs/basic_b_u7/brown.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/brown.mp3",
+   "stext": "It is brown.",
+   "sentence": "audio/basic_b_u7/{v}/itisbrown.mp3"
+  },
+  {
+   "id": "red",
+   "en": "red",
+   "ko": "빨간색",
+   "pic": "../packs/basic_b_u7/red.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/red.mp3",
+   "stext": "It is red.",
+   "sentence": "../packs/basic_b_u7/audio/{v}/itisred.mp3"
+  },
+  {
+   "id": "orange",
+   "en": "orange",
+   "ko": "주황색",
+   "pic": "../packs/basic_b_u7/orange.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/orange.mp3",
+   "stext": "It is orange.",
+   "sentence": "audio/basic_b_u7/{v}/itisorange.mp3"
+  },
+  {
+   "id": "yellow",
+   "en": "yellow",
+   "ko": "노란색",
+   "pic": "../packs/basic_b_u7/yellow.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/yellow.mp3",
+   "stext": "It is yellow.",
+   "sentence": "audio/basic_b_u7/{v}/itisyellow.mp3"
+  },
+  {
+   "id": "green",
+   "en": "green",
+   "ko": "초록색",
+   "pic": "../packs/basic_b_u7/green.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/green.mp3",
+   "stext": "It is green.",
+   "sentence": "audio/basic_b_u7/{v}/itisgreen.mp3"
+  },
+  {
+   "id": "blue",
+   "en": "blue",
+   "ko": "파란색",
+   "pic": "../packs/basic_b_u7/blue.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/blue.mp3",
+   "stext": "It is blue.",
+   "sentence": "audio/basic_b_u7/{v}/itisblue.mp3"
+  },
+  {
+   "id": "purple",
+   "en": "purple",
+   "ko": "보라색",
+   "pic": "../packs/basic_b_u7/purple.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/purple.mp3",
+   "stext": "It is purple.",
+   "sentence": "audio/basic_b_u7/{v}/itispurple.mp3"
+  },
+  {
+   "id": "rainbow",
+   "en": "rainbow",
+   "ko": "무지개",
+   "pic": "../packs/basic_b_u7/rainbow.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/rainbow.mp3",
+   "stext": "It is a rainbow.",
+   "sentence": "audio/basic_b_u7/{v}/itisarainbow.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "pic": "../packs/basic_b_u5/apple.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/apple.mp3"
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱",
+   "pic": "../packs/basic_b_u8/seven.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/seven.mp3"
+  },
+  {
+   "id": "sock",
+   "en": "sock",
+   "ko": "양말",
+   "pic": "../packs/basic_b_u5/sock.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/sock.mp3"
+  },
+  {
+   "id": "bored",
+   "en": "bored",
+   "ko": "지루한",
+   "pic": "../packs/basic_b_u1/bored.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/bored.mp3"
+  },
+  {
+   "id": "games",
+   "en": "games",
+   "ko": "게임",
+   "pic": "../packs/basic_b_u2/games.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/games.mp3"
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정되는",
+   "pic": "../packs/basic_b_u1/worried.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/worried.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/basic_b_u7/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "balloons",
+  "hotspots": [
+   {
+    "id": "white",
+    "x": 16.1,
+    "y": 36.5,
+    "w": 7.3,
+    "h": 13.0
+   },
+   {
+    "id": "black",
+    "x": 23.9,
+    "y": 36.5,
+    "w": 7.3,
+    "h": 13.0
+   },
+   {
+    "id": "brown",
+    "x": 31.5,
+    "y": 36.5,
+    "w": 7.2,
+    "h": 13.0
+   },
+   {
+    "id": "red",
+    "x": 39.1,
+    "y": 36.5,
+    "w": 7.3,
+    "h": 13.0
+   },
+   {
+    "id": "orange",
+    "x": 46.9,
+    "y": 36.5,
+    "w": 7.0,
+    "h": 13.0
+   },
+   {
+    "id": "yellow",
+    "x": 54.4,
+    "y": 36.5,
+    "w": 7.1,
+    "h": 13.0
+   },
+   {
+    "id": "green",
+    "x": 61.8,
+    "y": 36.5,
+    "w": 7.2,
+    "h": 13.0
+   },
+   {
+    "id": "blue",
+    "x": 69.3,
+    "y": 36.5,
+    "w": 7.2,
+    "h": 13.0
+   },
+   {
+    "id": "purple",
+    "x": 77.0,
+    "y": 36.5,
+    "w": 7.2,
+    "h": 13.0
+   },
+   {
+    "id": "rainbow",
+    "x": 7.8,
+    "y": 3.9,
+    "w": 85.0,
+    "h": 31.9
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "white",
+    "blue",
+    "yellow",
+    "apple"
+   ],
+   "odd": "apple"
+  },
+  {
+   "items": [
+    "rainbow",
+    "seven",
+    "purple",
+    "green"
+   ],
+   "odd": "seven"
+  },
+  {
+   "items": [
+    "black",
+    "yellow",
+    "sock",
+    "rainbow"
+   ],
+   "odd": "sock"
+  },
+  {
+   "items": [
+    "yellow",
+    "bored",
+    "green",
+    "brown"
+   ],
+   "odd": "bored"
+  },
+  {
+   "items": [
+    "purple",
+    "green",
+    "brown",
+    "games"
+   ],
+   "odd": "games"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "white",
+   "black",
+   "brown",
+   "red",
+   "orange",
+   "yellow"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "white",
+   "black",
+   "brown",
+   "red",
+   "orange",
+   "yellow"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "white",
+   "black",
+   "brown",
+   "red",
+   "orange",
+   "yellow",
+   "green"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What color is that?",
+   "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+  },
+  {
+   "text": "It is red.",
+   "audio": "../packs/basic_b_u7/audio/{v}/itisred.mp3"
+  },
+  {
+   "text": "It is white.",
+   "audio": "audio/basic_b_u7/{v}/itiswhite.mp3"
+  },
+  {
+   "text": "It is black.",
+   "audio": "audio/basic_b_u7/{v}/itisblack.mp3"
+  },
+  {
+   "text": "It is brown.",
+   "audio": "audio/basic_b_u7/{v}/itisbrown.mp3"
+  },
+  {
+   "text": "It is orange.",
+   "audio": "audio/basic_b_u7/{v}/itisorange.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_b_u7/red.jpg",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is red.",
+     "audio": "audio/basic_b_u7/ai/itisred.mp3"
+    },
+    {
+     "text": "It is brown.",
+     "audio": "audio/basic_b_u7/ai/itisbrown.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u7/brown.jpg",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is brown.",
+     "audio": "audio/basic_b_u7/ai/itisbrown.mp3"
+    },
+    {
+     "text": "It is black.",
+     "audio": "audio/basic_b_u7/ai/itisblack.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u7/white.jpg",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is white.",
+     "audio": "audio/basic_b_u7/ai/itiswhite.mp3"
+    },
+    {
+     "text": "It is red.",
+     "audio": "audio/basic_b_u7/ai/itisred.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u7/black.jpg",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is black.",
+     "audio": "audio/basic_b_u7/ai/itisblack.mp3"
+    },
+    {
+     "text": "It is white.",
+     "audio": "audio/basic_b_u7/ai/itiswhite.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u7/",
+  "ai": "audio/basic_b_u7/ai/"
+ }
+}

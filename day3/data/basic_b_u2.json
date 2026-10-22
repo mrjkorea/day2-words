@@ -1,0 +1,515 @@
+{
+ "id": "basic_b_u2",
+ "title": "Basic B · Unit 2 · I like Mr. Jay",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_b_u2/audio/us_f/",
+ "picDir": "../packs/basic_b_u2/",
+ "lineAudio": "audio/basic_b_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "exercise",
+   "choices": [
+    "exercise",
+    "music",
+    "noodles",
+    "games"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "noodles",
+   "choices": [
+    "noodles",
+    "movies",
+    "meat",
+    "exercise"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "apples",
+   "choices": [
+    "apples",
+    "music",
+    "noodles",
+    "school"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "movies",
+   "answer": "movies",
+   "choices": [
+    "movies",
+    "movius",
+    "modies",
+    "movees"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "games",
+   "answer": "games",
+   "choices": [
+    "games",
+    "gemes",
+    "gams",
+    "rames"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "fruit",
+   "audio": "audio/basic_b_u2/{v}/ilikefruit.mp3",
+   "answer": [
+    "I",
+    "like",
+    "fruit."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "noodles",
+   "audio": "../packs/basic_b_u2/audio/{v}/ilikenoodles.mp3",
+   "answer": [
+    "I",
+    "like",
+    "noodles."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "apples",
+   "audio": "audio/basic_b_u2/{v}/ilikeapples.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "apples",
+   "choices": [
+    "apples",
+    "games",
+    "noodles"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "games",
+   "audio": "audio/basic_b_u2/{v}/ilikegames.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "games",
+   "choices": [
+    "games",
+    "meat",
+    "fruit"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "meat",
+   "audio": "audio/basic_b_u2/{v}/ilikemeat.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "meat",
+   "choices": [
+    "meat",
+    "music",
+    "games"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "like",
+   "en": "like",
+   "ko": "좋아하다",
+   "pic": null,
+   "audio": "../packs/basic_b_u2/audio/{v}/like.mp3",
+   "stext": "I like Mr. Jay.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemrjay.mp3"
+  },
+  {
+   "id": "noodles",
+   "en": "noodles",
+   "ko": "면, 국수",
+   "pic": "../packs/basic_b_u2/noodles.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/noodles.mp3",
+   "stext": "I like noodles.",
+   "sentence": "../packs/basic_b_u2/audio/{v}/ilikenoodles.mp3"
+  },
+  {
+   "id": "meat",
+   "en": "meat",
+   "ko": "고기",
+   "pic": "../packs/basic_b_u2/meat.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/meat.mp3",
+   "stext": "I like meat.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemeat.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": "../packs/basic_b_u2/fruit.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/fruit.mp3",
+   "stext": "I like fruit.",
+   "sentence": "audio/basic_b_u2/{v}/ilikefruit.mp3"
+  },
+  {
+   "id": "games",
+   "en": "games",
+   "ko": "게임",
+   "pic": "../packs/basic_b_u2/games.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/games.mp3",
+   "stext": "I like games.",
+   "sentence": "audio/basic_b_u2/{v}/ilikegames.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/basic_b_u2/school.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/school.mp3",
+   "stext": "I like school.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeschool.mp3"
+  },
+  {
+   "id": "exercise",
+   "en": "exercise",
+   "ko": "운동",
+   "pic": "../packs/basic_b_u2/exercise.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/exercise.mp3",
+   "stext": "I like exercise.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeexercise.mp3"
+  },
+  {
+   "id": "movies",
+   "en": "movies",
+   "ko": "영화",
+   "pic": "../packs/basic_b_u2/movies.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/movies.mp3",
+   "stext": "I like movies.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemovies.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/basic_b_u2/music.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/music.mp3",
+   "stext": "I like music.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemusic.mp3"
+  },
+  {
+   "id": "apples",
+   "en": "apples",
+   "ko": "사과",
+   "pic": "../packs/basic_b_u2/apples.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/apples.mp3",
+   "stext": "I like apples.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeapples.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "help",
+   "en": "help",
+   "ko": "돕다",
+   "pic": "../packs/basic_b_u3/help.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/help.mp3"
+  },
+  {
+   "id": "green",
+   "en": "green",
+   "ko": "초록색",
+   "pic": "../packs/basic_b_u7/green.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/green.mp3"
+  },
+  {
+   "id": "scared",
+   "en": "scared",
+   "ko": "무서운",
+   "pic": "../packs/basic_b_u1/scared.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/scared.mp3"
+  },
+  {
+   "id": "toothbrush",
+   "en": "toothbrush",
+   "ko": "칫솔",
+   "pic": "../packs/basic_b_u5/toothbrush.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toothbrush.mp3"
+  },
+  {
+   "id": "fourteen",
+   "en": "fourteen",
+   "ko": "열넷",
+   "pic": "../packs/basic_b_u8/fourteen.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/fourteen.mp3"
+  },
+  {
+   "id": "brown",
+   "en": "brown",
+   "ko": "갈색",
+   "pic": "../packs/basic_b_u7/brown.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/brown.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "movies",
+    "games",
+    "help",
+    "school"
+   ],
+   "odd": "help"
+  },
+  {
+   "items": [
+    "green",
+    "noodles",
+    "games",
+    "meat"
+   ],
+   "odd": "green"
+  },
+  {
+   "items": [
+    "scared",
+    "music",
+    "fruit",
+    "games"
+   ],
+   "odd": "scared"
+  },
+  {
+   "items": [
+    "exercise",
+    "toothbrush",
+    "movies",
+    "games"
+   ],
+   "odd": "toothbrush"
+  },
+  {
+   "items": [
+    "apples",
+    "fourteen",
+    "fruit",
+    "exercise"
+   ],
+   "odd": "fourteen"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "like",
+   "noodles",
+   "meat",
+   "fruit",
+   "games",
+   "school"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "like",
+   "noodles",
+   "meat",
+   "fruit",
+   "games",
+   "school"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "like",
+   "noodles",
+   "meat",
+   "fruit",
+   "games",
+   "school",
+   "exercise"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I like noodles.",
+   "audio": "../packs/basic_b_u2/audio/{v}/ilikenoodles.mp3"
+  },
+  {
+   "text": "I like Mr. Jay.",
+   "audio": "audio/basic_b_u2/{v}/ilikemrjay.mp3"
+  },
+  {
+   "text": "I like meat.",
+   "audio": "audio/basic_b_u2/{v}/ilikemeat.mp3"
+  },
+  {
+   "text": "I like fruit.",
+   "audio": "audio/basic_b_u2/{v}/ilikefruit.mp3"
+  },
+  {
+   "text": "I like games.",
+   "audio": "audio/basic_b_u2/{v}/ilikegames.mp3"
+  },
+  {
+   "text": "I like school.",
+   "audio": "audio/basic_b_u2/{v}/ilikeschool.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_b_u2/fruit.jpg",
+   "q": {
+    "text": "What do you like?",
+    "audio": "audio/basic_b_u2/{v}/whatdoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like fruit.",
+     "audio": "audio/basic_b_u2/ai/ilikefruit.mp3"
+    },
+    {
+     "text": "I like movies.",
+     "audio": "audio/basic_b_u2/ai/ilikemovies.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u2/apples.jpg",
+   "q": {
+    "text": "What do you like?",
+    "audio": "audio/basic_b_u2/{v}/whatdoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like exercise.",
+     "audio": "audio/basic_b_u2/ai/ilikeexercise.mp3"
+    },
+    {
+     "text": "I like apples.",
+     "audio": "audio/basic_b_u2/ai/ilikeapples.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u2/school.jpg",
+   "q": {
+    "text": "What do you like?",
+    "audio": "audio/basic_b_u2/{v}/whatdoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like games.",
+     "audio": "audio/basic_b_u2/ai/ilikegames.mp3"
+    },
+    {
+     "text": "I like school.",
+     "audio": "audio/basic_b_u2/ai/ilikeschool.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u2/music.jpg",
+   "q": {
+    "text": "What do you like?",
+    "audio": "audio/basic_b_u2/{v}/whatdoyoulike.mp3"
+   },
+   "choices": [
+    {
+     "text": "I like music.",
+     "audio": "audio/basic_b_u2/ai/ilikemusic.mp3"
+    },
+    {
+     "text": "I like exercise.",
+     "audio": "audio/basic_b_u2/ai/ilikeexercise.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u2/",
+  "ai": "audio/basic_b_u2/ai/"
+ }
+}

@@ -12,55 +12,67 @@
    "answer": "right",
    "choices": [
     "right",
+    "restart",
     "headset",
-    "tab",
     "left"
    ]
   },
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "scroll",
+   "answer": "headset",
    "choices": [
-    "scroll",
-    "left",
-    "unplug",
-    "restart"
+    "headset",
+    "double",
+    "type",
+    "right"
    ]
   },
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "type",
+   "answer": "restart",
    "choices": [
+    "restart",
     "type",
-    "double",
-    "left",
-    "restart"
+    "headset",
+    "scroll"
    ]
   },
   {
    "type": "spell",
    "skill": "spelling",
+   "pic": "click",
+   "answer": "click",
+   "choices": [
+    "click",
+    "clik",
+    "clck",
+    "clilk"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "unplug",
+   "answer": "unplug",
+   "choices": [
+    "unplug",
+    "nplug",
+    "unmlug",
+    "uplug"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
    "pic": "type",
-   "answer": "type",
-   "choices": [
-    "type",
-    "tye",
-    "ype",
-    "tyme"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "left",
-   "answer": "left",
-   "choices": [
-    "left",
-    "lect",
-    "lest",
-    "lft"
+   "audio": "audio/basic_a_u3/{v}/typeyourid.mp3",
+   "answer": [
+    "Type",
+    "your",
+    "ID."
    ]
   },
   {
@@ -76,67 +88,58 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "tab",
-   "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3",
-   "answer": [
-    "Make",
-    "a",
-    "new",
-    "tab."
-   ]
-  },
-  {
    "type": "fill",
    "prompt": "Fill in the missing word.",
    "skill": "vocabulary",
-   "pic": "scroll",
-   "audio": "audio/basic_a_u3/{v}/scrolldown.mp3",
+   "pic": "type",
+   "audio": "audio/basic_a_u3/{v}/typeyourid.mp3",
    "sentence": [
     "___",
-    "down."
+    "your",
+    "ID."
    ],
-   "answer": "scroll",
+   "answer": "Type",
    "choices": [
-    "scroll",
-    "double",
-    "tab"
+    "Type",
+    "Scroll",
+    "Unplug"
    ]
   },
   {
    "type": "fill",
    "prompt": "Fill in the missing word.",
    "skill": "vocabulary",
-   "pic": "click",
-   "audio": "audio/basic_a_u3/{v}/clickhere.mp3",
-   "sentence": [
-    "___",
-    "here."
-   ],
-   "answer": "click",
-   "choices": [
-    "click",
-    "type",
-    "right"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "left",
-   "audio": "audio/basic_a_u3/{v}/leftclick.mp3",
+   "pic": "double",
+   "audio": "audio/basic_a_u3/{v}/doubleclick.mp3",
    "sentence": [
     "___",
     "click."
    ],
-   "answer": "left",
+   "answer": "Double",
    "choices": [
+    "Double",
+    "Right",
+    "Scroll"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "tab",
+   "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3",
+   "sentence": [
+    "Make",
+    "a",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "tab",
+   "choices": [
+    "tab",
     "left",
-    "type",
-    "restart"
+    "right"
    ]
   }
  ],
@@ -391,12 +394,12 @@
    },
    "choices": [
     {
-     "text": "I don't have a headset.",
-     "audio": "audio/basic_a_u3/ai/idonthaveaheadset.mp3"
+     "text": "Okay. I am unplugging my headset.",
+     "audio": "audio/basic_a_u3/ai/okayiamunpluggingmyheadset.mp3"
     },
     {
-     "text": "Hello, Mr. Cat.",
-     "audio": "audio/basic_a_u3/ai/hellomrcat.mp3"
+     "text": "Okay. I am restarting my computer.",
+     "audio": "audio/basic_a_u3/ai/okayiamrestartingmycomputer.mp3"
     }
    ],
    "answer": 0
@@ -409,15 +412,15 @@
    },
    "choices": [
     {
-     "text": "See you tomorrow.",
-     "audio": "audio/basic_a_u3/ai/seeyoutomorrow.mp3"
+     "text": "Okay. I am restarting my computer.",
+     "audio": "audio/basic_a_u3/ai/okayiamrestartingmycomputer.mp3"
     },
     {
-     "text": "Okay.",
-     "audio": "audio/basic_a_u3/ai/okay.mp3"
+     "text": "Okay. I am making a new tab.",
+     "audio": "audio/basic_a_u3/ai/okayiammakinganewtab.mp3"
     }
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "pic": "../packs/basic_a_u3/tab.jpg",
@@ -427,15 +430,15 @@
    },
    "choices": [
     {
-     "text": "No problem.",
-     "audio": "audio/basic_a_u3/ai/noproblem.mp3"
+     "text": "Okay. I am typing my ID.",
+     "audio": "audio/basic_a_u3/ai/okayiamtypingmyid.mp3"
     },
     {
-     "text": "Yes, it is.",
-     "audio": "audio/basic_a_u3/ai/yesitis.mp3"
+     "text": "Okay. I am making a new tab.",
+     "audio": "audio/basic_a_u3/ai/okayiammakinganewtab.mp3"
     }
    ],
-   "answer": 0
+   "answer": 1
   },
   {
    "pic": "../packs/basic_a_u3/type.jpg",
@@ -445,15 +448,15 @@
    },
    "choices": [
     {
-     "text": "Okay.",
-     "audio": "audio/basic_a_u3/ai/okay.mp3"
+     "text": "Okay. I am unplugging my headset.",
+     "audio": "audio/basic_a_u3/ai/okayiamunpluggingmyheadset.mp3"
     },
     {
-     "text": "Yes, it is.",
-     "audio": "audio/basic_a_u3/ai/yesitis.mp3"
+     "text": "Okay. I am typing my ID.",
+     "audio": "audio/basic_a_u3/ai/okayiamtypingmyid.mp3"
     }
    ],
-   "answer": 0
+   "answer": 1
   }
  ],
  "coach": {

@@ -9,58 +9,58 @@
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "chinese",
+   "answer": "dance",
    "choices": [
-    "chinese",
-    "taekwondo",
     "dance",
-    "sing"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "fast",
-   "choices": [
-    "fast",
-    "study",
-    "dance",
-    "draw"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "run",
-   "choices": [
-    "run",
     "fast",
     "magic",
     "taekwondo"
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sing",
-   "answer": "sing",
+   "type": "listen",
+   "skill": "listening",
+   "answer": "draw",
    "choices": [
+    "draw",
     "sing",
-    "sinm",
-    "song",
-    "sig"
+    "magic",
+    "taekwondo"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "study",
+   "choices": [
+    "study",
+    "sing",
+    "draw",
+    "dance"
    ]
   },
   {
    "type": "spell",
    "skill": "spelling",
-   "pic": "chinese",
-   "answer": "Chinese",
+   "pic": "taekwondo",
+   "answer": "taekwondo",
    "choices": [
-    "Chinese",
-    "Chinuse",
-    "Chinesu",
-    "thinese"
+    "taekwondo",
+    "tekwondo",
+    "taekondo",
+    "taekwonmo"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "run",
+   "answer": "run",
+   "choices": [
+    "run",
+    "rur",
+    "rus",
+    "tun"
    ]
   },
   {
@@ -447,73 +447,73 @@
  ],
  "dialogues": [
   {
-   "pic": "../packs/basic_a_u7/dance.jpg",
+   "pic": "../packs/basic_a_u7/chinese.jpg",
    "q": {
-    "text": "Can you dance?",
-    "audio": "audio/basic_a_u7/{v}/canyoudance.mp3"
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
    },
    "choices": [
     {
-     "text": "Yes, I can dance.",
-     "audio": "audio/basic_a_u7/ai/yesicandance.mp3"
+     "text": "I can speak Chinese.",
+     "audio": "audio/basic_a_u7/ai/icanspeakchinese.mp3"
     },
-    {
-     "text": "Yes, it is.",
-     "audio": "audio/basic_a_u7/ai/yesitis.mp3"
-    }
-   ],
-   "answer": 0
-  },
-  {
-   "pic": "../packs/basic_a_u7/sing.jpg",
-   "q": {
-    "text": "Can you sing?",
-    "audio": "audio/basic_a_u7/{v}/canyousing.mp3"
-   },
-   "choices": [
-    {
-     "text": "Yes, I can sing.",
-     "audio": "audio/basic_a_u7/ai/yesicansing.mp3"
-    },
-    {
-     "text": "Yes, it is.",
-     "audio": "audio/basic_a_u7/ai/yesitis.mp3"
-    }
-   ],
-   "answer": 0
-  },
-  {
-   "pic": "../packs/basic_a_u7/draw.jpg",
-   "q": {
-    "text": "Can you draw?",
-    "audio": "audio/basic_a_u7/{v}/canyoudraw.mp3"
-   },
-   "choices": [
-    {
-     "text": "Yes, I can draw.",
-     "audio": "audio/basic_a_u7/ai/yesicandraw.mp3"
-    },
-    {
-     "text": "I am fine.",
-     "audio": "audio/basic_a_u7/ai/iamfine.mp3"
-    }
-   ],
-   "answer": 0
-  },
-  {
-   "pic": "../packs/basic_a_u7/piano.jpg",
-   "q": {
-    "text": "Can you play the piano?",
-    "audio": "audio/basic_a_u7/{v}/canyouplaythepiano.mp3"
-   },
-   "choices": [
     {
      "text": "I can dance.",
      "audio": "audio/basic_a_u7/ai/icandance.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u7/fast.jpg",
+   "q": {
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can do taekwondo.",
+     "audio": "audio/basic_a_u7/ai/icandotaekwondo.mp3"
     },
     {
-     "text": "Yes, I can play the piano.",
-     "audio": "audio/basic_a_u7/ai/yesicanplaythepiano.mp3"
+     "text": "I can run fast.",
+     "audio": "audio/basic_a_u7/ai/icanrunfast.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u7/study.jpg",
+   "q": {
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can study.",
+     "audio": "audio/basic_a_u7/ai/icanstudy.mp3"
+    },
+    {
+     "text": "I can speak Chinese.",
+     "audio": "audio/basic_a_u7/ai/icanspeakchinese.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u7/run.jpg",
+   "q": {
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can run fast.",
+     "audio": "audio/basic_a_u7/ai/icanrunfast.mp3"
+    },
+    {
+     "text": "I can run.",
+     "audio": "audio/basic_a_u7/ai/icanrun.mp3"
     }
    ],
    "answer": 1

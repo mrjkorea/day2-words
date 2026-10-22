@@ -1,0 +1,597 @@
+{
+ "id": "basic_b_u6",
+ "title": "Basic B · Unit 6 · I like my body",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_b_u6/audio/us_f/",
+ "picDir": "../packs/basic_b_u6/",
+ "lineAudio": "audio/basic_b_u6/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "body",
+   "choices": [
+    "body",
+    "neck",
+    "eye",
+    "head"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "nose",
+   "choices": [
+    "nose",
+    "shoulder",
+    "chin",
+    "eye"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "mouth",
+   "choices": [
+    "mouth",
+    "ear",
+    "nose",
+    "neck"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hand",
+   "answer": "hand",
+   "choices": [
+    "hand",
+    "and",
+    "han",
+    "had"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "neck",
+   "answer": "neck",
+   "choices": [
+    "neck",
+    "necc",
+    "nebk",
+    "nuck"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "body",
+   "audio": "audio/basic_b_u6/{v}/thisismybody.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "body."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "mouth",
+   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "mouth."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "mouth",
+   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "mouth",
+   "choices": [
+    "mouth",
+    "eye",
+    "nose"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "ear",
+   "audio": "audio/basic_b_u6/{v}/thisismyear.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "ear",
+   "choices": [
+    "ear",
+    "head",
+    "body"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nose",
+   "audio": "audio/basic_b_u6/{v}/thisismynose.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "nose",
+   "choices": [
+    "nose",
+    "neck",
+    "body"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "head",
+   "en": "head",
+   "ko": "머리",
+   "pic": "../packs/basic_b_u6/head.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/head.mp3",
+   "stext": "This is my head.",
+   "sentence": "../packs/basic_b_u6/audio/{v}/thisismyhead.mp3"
+  },
+  {
+   "id": "nose",
+   "en": "nose",
+   "ko": "코",
+   "pic": "../packs/basic_b_u6/nose.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/nose.mp3",
+   "stext": "This is my nose.",
+   "sentence": "audio/basic_b_u6/{v}/thisismynose.mp3"
+  },
+  {
+   "id": "mouth",
+   "en": "mouth",
+   "ko": "입",
+   "pic": "../packs/basic_b_u6/mouth.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/mouth.mp3",
+   "stext": "This is my mouth.",
+   "sentence": "audio/basic_b_u6/{v}/thisismymouth.mp3"
+  },
+  {
+   "id": "ear",
+   "en": "ear",
+   "ko": "귀",
+   "pic": "../packs/basic_b_u6/ear.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/ear.mp3",
+   "stext": "This is my ear.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyear.mp3"
+  },
+  {
+   "id": "eye",
+   "en": "eye",
+   "ko": "눈",
+   "pic": "../packs/basic_b_u6/eye.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/eye.mp3",
+   "stext": "This is my eye.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyeye.mp3"
+  },
+  {
+   "id": "neck",
+   "en": "neck",
+   "ko": "목",
+   "pic": "../packs/basic_b_u6/neck.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/neck.mp3",
+   "stext": "This is my neck.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyneck.mp3"
+  },
+  {
+   "id": "body",
+   "en": "body",
+   "ko": "몸",
+   "pic": "../packs/basic_b_u6/body.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/body.mp3",
+   "stext": "This is my body.",
+   "sentence": "audio/basic_b_u6/{v}/thisismybody.mp3"
+  },
+  {
+   "id": "chin",
+   "en": "chin",
+   "ko": "턱",
+   "pic": "../packs/basic_b_u6/chin.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/chin.mp3",
+   "stext": "This is my chin.",
+   "sentence": "audio/basic_b_u6/{v}/thisismychin.mp3"
+  },
+  {
+   "id": "hand",
+   "en": "hand",
+   "ko": "손",
+   "pic": "../packs/basic_b_u6/hand.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/hand.mp3",
+   "stext": "This is my hand.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyhand.mp3"
+  },
+  {
+   "id": "shoulder",
+   "en": "shoulder",
+   "ko": "어깨",
+   "pic": "../packs/basic_b_u6/shoulder.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/shoulder.mp3",
+   "stext": "This is my shoulder.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyshoulder.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "again",
+   "en": "again",
+   "ko": "다시",
+   "pic": "../packs/basic_b_u3/again.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/again.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열",
+   "pic": "../packs/basic_b_u8/ten.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/ten.mp3"
+  },
+  {
+   "id": "black",
+   "en": "black",
+   "ko": "검은색",
+   "pic": "../packs/basic_b_u7/black.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/black.mp3"
+  },
+  {
+   "id": "fourteen",
+   "en": "fourteen",
+   "ko": "열넷",
+   "pic": "../packs/basic_b_u8/fourteen.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/fourteen.mp3"
+  },
+  {
+   "id": "blue",
+   "en": "blue",
+   "ko": "파란색",
+   "pic": "../packs/basic_b_u7/blue.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/blue.mp3"
+  },
+  {
+   "id": "toy",
+   "en": "toy",
+   "ko": "장난감",
+   "pic": "../packs/basic_b_u5/toy.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toy.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/basic_b_u6/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "body",
+  "hotspots": [
+   {
+    "id": "head",
+    "x": 30.8,
+    "y": 2.0,
+    "w": 35.6,
+    "h": 46.9
+   },
+   {
+    "id": "eye",
+    "x": 40.2,
+    "y": 26.7,
+    "w": 18.4,
+    "h": 8.7
+   },
+   {
+    "id": "nose",
+    "x": 47.4,
+    "y": 33.2,
+    "w": 4.4,
+    "h": 4.6
+   },
+   {
+    "id": "mouth",
+    "x": 44.9,
+    "y": 37.8,
+    "w": 9.8,
+    "h": 7.2
+   },
+   {
+    "id": "ear",
+    "x": 33.7,
+    "y": 32.6,
+    "w": 6.3,
+    "h": 9.8
+   },
+   {
+    "id": "chin",
+    "x": 45.4,
+    "y": 44.9,
+    "w": 8.8,
+    "h": 4.3
+   },
+   {
+    "id": "neck",
+    "x": 45.9,
+    "y": 48.2,
+    "w": 8.3,
+    "h": 5.2
+   },
+   {
+    "id": "shoulder",
+    "x": 32.2,
+    "y": 52.1,
+    "w": 12.7,
+    "h": 14.3
+   },
+   {
+    "id": "body",
+    "x": 39.1,
+    "y": 53.4,
+    "w": 23.4,
+    "h": 36.5
+   },
+   {
+    "id": "hand",
+    "x": 14.6,
+    "y": 69.7,
+    "w": 11.2,
+    "h": 16.3
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "again",
+    "eye",
+    "shoulder",
+    "ear"
+   ],
+   "odd": "again"
+  },
+  {
+   "items": [
+    "ten",
+    "eye",
+    "hand",
+    "mouth"
+   ],
+   "odd": "ten"
+  },
+  {
+   "items": [
+    "shoulder",
+    "chin",
+    "black",
+    "ear"
+   ],
+   "odd": "black"
+  },
+  {
+   "items": [
+    "nose",
+    "body",
+    "fourteen",
+    "hand"
+   ],
+   "odd": "fourteen"
+  },
+  {
+   "items": [
+    "hand",
+    "head",
+    "blue",
+    "nose"
+   ],
+   "odd": "blue"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "head",
+   "nose",
+   "mouth",
+   "ear",
+   "eye",
+   "neck"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "head",
+   "nose",
+   "mouth",
+   "ear",
+   "eye",
+   "neck"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "head",
+   "nose",
+   "mouth",
+   "ear",
+   "eye",
+   "neck",
+   "body"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "This is my head.",
+   "audio": "../packs/basic_b_u6/audio/{v}/thisismyhead.mp3"
+  },
+  {
+   "text": "This is my nose.",
+   "audio": "audio/basic_b_u6/{v}/thisismynose.mp3"
+  },
+  {
+   "text": "This is my mouth.",
+   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3"
+  },
+  {
+   "text": "This is my ear.",
+   "audio": "audio/basic_b_u6/{v}/thisismyear.mp3"
+  },
+  {
+   "text": "This is my eye.",
+   "audio": "audio/basic_b_u6/{v}/thisismyeye.mp3"
+  },
+  {
+   "text": "This is my neck.",
+   "audio": "audio/basic_b_u6/{v}/thisismyneck.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_b_u6/eye.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_b_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my mouth.",
+     "audio": "audio/basic_b_u6/ai/thisismymouth.mp3"
+    },
+    {
+     "text": "This is my eye.",
+     "audio": "audio/basic_b_u6/ai/thisismyeye.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u6/body.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_b_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my body.",
+     "audio": "audio/basic_b_u6/ai/thisismybody.mp3"
+    },
+    {
+     "text": "This is my nose.",
+     "audio": "audio/basic_b_u6/ai/thisismynose.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u6/mouth.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_b_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my neck.",
+     "audio": "audio/basic_b_u6/ai/thisismyneck.mp3"
+    },
+    {
+     "text": "This is my mouth.",
+     "audio": "audio/basic_b_u6/ai/thisismymouth.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u6/neck.jpg",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_b_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my ear.",
+     "audio": "audio/basic_b_u6/ai/thisismyear.mp3"
+    },
+    {
+     "text": "This is my neck.",
+     "audio": "audio/basic_b_u6/ai/thisismyneck.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u6/",
+  "ai": "audio/basic_b_u6/ai/"
+ }
+}

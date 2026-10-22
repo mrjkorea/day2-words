@@ -9,23 +9,23 @@
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "five",
+   "answer": "six",
    "choices": [
-    "five",
+    "six",
     "seven",
-    "ten",
+    "four",
     "one"
    ]
   },
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "one",
+   "answer": "ten",
    "choices": [
+    "ten",
     "one",
-    "seven",
-    "five",
-    "two"
+    "two",
+    "nine"
    ]
   },
   {
@@ -34,9 +34,21 @@
    "answer": "two",
    "choices": [
     "two",
+    "eight",
+    "seven",
+    "one"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "one",
+   "answer": "one",
+   "choices": [
     "one",
-    "three",
-    "ten"
+    "onea",
+    "oni",
+    "ine"
    ]
   },
   {
@@ -46,33 +58,21 @@
    "answer": "seven",
    "choices": [
     "seven",
-    "sevin",
-    "sevon",
-    "even"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "six",
-   "answer": "six",
-   "choices": [
-    "six",
-    "mix",
-    "sixc",
-    "lix"
+    "sven",
+    "sevn",
+    "sevun"
    ]
   },
   {
    "type": "order",
    "prompt": "Put the words in order.",
    "skill": "grammar",
-   "pic": "seven",
-   "audio": "audio/basic_a_u1/{v}/ihavesevenapples.mp3",
+   "pic": "four",
+   "audio": "audio/basic_a_u1/{v}/ihavefourapples.mp3",
    "answer": [
     "I",
     "have",
-    "seven",
+    "four",
     "apples."
    ]
   },
@@ -104,26 +104,26 @@
    "answer": "seven",
    "choices": [
     "seven",
-    "one",
-    "nine"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nine",
-   "audio": "audio/basic_a_u1/{v}/ihavenineapples.mp3",
-   "sentence": [
-    "I",
-    "have",
-    "___",
-    "apples."
-   ],
-   "answer": "nine",
-   "choices": [
     "nine",
-    "eight",
+    "four"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "two",
+   "audio": "audio/basic_a_u1/{v}/ihavetwoapples.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "___",
+    "apples."
+   ],
+   "answer": "two",
+   "choices": [
+    "two",
+    "nine",
     "ten"
    ]
   },
@@ -131,19 +131,19 @@
    "type": "fill",
    "prompt": "Fill in the missing word.",
    "skill": "vocabulary",
-   "pic": "three",
-   "audio": "audio/basic_a_u1/{v}/ihavethreeapples.mp3",
+   "pic": "four",
+   "audio": "audio/basic_a_u1/{v}/ihavefourapples.mp3",
    "sentence": [
     "I",
     "have",
     "___",
     "apples."
    ],
-   "answer": "three",
+   "answer": "four",
    "choices": [
-    "three",
-    "five",
-    "ten"
+    "four",
+    "seven",
+    "eight"
    ]
   }
  ],
@@ -398,15 +398,15 @@
    },
    "choices": [
     {
-     "text": "Hello, Mr. Cat.",
-     "audio": "audio/basic_a_u1/ai/hellomrcat.mp3"
-    },
-    {
      "text": "I have three apples.",
      "audio": "audio/basic_a_u1/ai/ihavethreeapples.mp3"
+    },
+    {
+     "text": "I have eight apples.",
+     "audio": "audio/basic_a_u1/ai/ihaveeightapples.mp3"
     }
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "pic": "../packs/basic_a_u1/five.jpg",
@@ -416,33 +416,15 @@
    },
    "choices": [
     {
-     "text": "Hello, Mr. Cat.",
-     "audio": "audio/basic_a_u1/ai/hellomrcat.mp3"
-    },
-    {
      "text": "I have five apples.",
      "audio": "audio/basic_a_u1/ai/ihavefiveapples.mp3"
-    }
-   ],
-   "answer": 1
-  },
-  {
-   "pic": "../packs/basic_a_u1/eight.jpg",
-   "q": {
-    "text": "How many apples?",
-    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
-   },
-   "choices": [
-    {
-     "text": "Thank you.",
-     "audio": "audio/basic_a_u1/ai/thankyou.mp3"
     },
     {
-     "text": "I have eight apples.",
-     "audio": "audio/basic_a_u1/ai/ihaveeightapples.mp3"
+     "text": "I have six apples.",
+     "audio": "audio/basic_a_u1/ai/ihavesixapples.mp3"
     }
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "pic": "../packs/basic_a_u1/ten.jpg",
@@ -452,8 +434,8 @@
    },
    "choices": [
     {
-     "text": "Thank you.",
-     "audio": "audio/basic_a_u1/ai/thankyou.mp3"
+     "text": "I have five apples.",
+     "audio": "audio/basic_a_u1/ai/ihavefiveapples.mp3"
     },
     {
      "text": "I have ten apples.",
@@ -461,6 +443,24 @@
     }
    ],
    "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u1/nine.jpg",
+   "q": {
+    "text": "How many apples?",
+    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
+   },
+   "choices": [
+    {
+     "text": "I have nine apples.",
+     "audio": "audio/basic_a_u1/ai/ihavenineapples.mp3"
+    },
+    {
+     "text": "I have one apple.",
+     "audio": "audio/basic_a_u1/ai/ihaveoneapple.mp3"
+    }
+   ],
+   "answer": 0
   }
  ],
  "coach": {

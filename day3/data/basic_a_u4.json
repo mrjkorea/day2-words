@@ -9,46 +9,46 @@
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "help",
+   "answer": "wait",
    "choices": [
-    "help",
-    "quiet",
     "wait",
+    "quiet",
+    "pardon",
     "tomorrow"
    ]
   },
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "wait",
+   "answer": "help",
    "choices": [
+    "help",
     "wait",
-    "afternoon",
     "tomorrow",
-    "quiet"
+    "afternoon"
    ]
   },
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "afternoon",
+   "answer": "pardon",
    "choices": [
-    "afternoon",
-    "sorry",
+    "pardon",
+    "quiet",
     "wait",
-    "quiet"
+    "tomorrow"
    ]
   },
   {
    "type": "spell",
    "skill": "spelling",
-   "pic": "tomorrow",
-   "answer": "tomorrow",
+   "pic": "afternoon",
+   "answer": "afternoon",
    "choices": [
-    "tomorrow",
-    "tomorcow",
-    "tomerrow",
-    "tomortow"
+    "afternoon",
+    "aftertoon",
+    "aftercoon",
+    "afturnoon"
    ]
   },
   {
@@ -58,9 +58,9 @@
    "answer": "quiet",
    "choices": [
     "quiet",
-    "quiit",
+    "quiot",
     "uiet",
-    "quiot"
+    "quiit"
    ]
   },
   {
@@ -98,11 +98,11 @@
     "a",
     "minute."
    ],
-   "answer": "wait",
+   "answer": "Wait",
    "choices": [
-    "wait",
-    "good",
-    "pardon"
+    "Wait",
+    "Good",
+    "Pardon"
    ]
   },
   {
@@ -116,11 +116,11 @@
     "me,",
     "please."
    ],
-   "answer": "help",
+   "answer": "Help",
    "choices": [
-    "help",
-    "wait",
-    "sorry"
+    "Help",
+    "Wait",
+    "Sorry"
    ]
   },
   {
@@ -393,15 +393,15 @@
    },
    "choices": [
     {
-     "text": "Hello, Mr. Cat.",
-     "audio": "audio/basic_a_u4/ai/hellomrcat.mp3"
-    },
-    {
      "text": "Good afternoon, teacher.",
      "audio": "audio/basic_a_u4/ai/goodafternoonteacher.mp3"
+    },
+    {
+     "text": "Good night, teacher.",
+     "audio": "audio/basic_a_u4/ai/goodnightteacher.mp3"
     }
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "pic": "../packs/basic_a_u4/tomorrow.jpg",
@@ -411,8 +411,8 @@
    },
    "choices": [
     {
-     "text": "Thank you.",
-     "audio": "audio/basic_a_u4/ai/thankyou.mp3"
+     "text": "Hello! Nice to meet you.",
+     "audio": "audio/basic_a_u4/ai/hellonicetomeetyou.mp3"
     },
     {
      "text": "Bye! See you tomorrow.",
@@ -429,15 +429,15 @@
    },
    "choices": [
     {
-     "text": "Yes, it is.",
-     "audio": "audio/basic_a_u4/ai/yesitis.mp3"
-    },
-    {
      "text": "I am sorry.",
      "audio": "audio/basic_a_u4/ai/iamsorry.mp3"
+    },
+    {
+     "text": "Thank you very much.",
+     "audio": "audio/basic_a_u4/ai/thankyouverymuch.mp3"
     }
    ],
-   "answer": 1
+   "answer": 0
   },
   {
    "pic": "../packs/basic_a_u4/help.jpg",
@@ -447,15 +447,15 @@
    },
    "choices": [
     {
-     "text": "Yes, I can.",
-     "audio": "audio/basic_a_u4/ai/yesican.mp3"
+     "text": "Yes, I can dance.",
+     "audio": "audio/basic_a_u4/ai/yesicandance.mp3"
     },
     {
-     "text": "I can dance.",
-     "audio": "audio/basic_a_u4/ai/icandance.mp3"
+     "text": "Yes, I can help you.",
+     "audio": "audio/basic_a_u4/ai/yesicanhelpyou.mp3"
     }
    ],
-   "answer": 0
+   "answer": 1
   }
  ],
  "coach": {

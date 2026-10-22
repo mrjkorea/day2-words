@@ -1,0 +1,594 @@
+{
+ "id": "basic_b_u5",
+ "title": "Basic B · Unit 5 · What is it?",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_b_u5/audio/us_f/",
+ "picDir": "../packs/basic_b_u5/",
+ "lineAudio": "audio/basic_b_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "apple",
+   "choices": [
+    "apple",
+    "phonecharger",
+    "toothbrush",
+    "teddybear"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "nightlight",
+   "choices": [
+    "nightlight",
+    "toothbrush",
+    "book",
+    "teddybear"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "underwear",
+   "choices": [
+    "underwear",
+    "phonecharger",
+    "toothbrush",
+    "apple"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "book",
+   "answer": "book",
+   "choices": [
+    "book",
+    "bok",
+    "bouk",
+    "boik"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "sock",
+   "answer": "sock",
+   "choices": [
+    "sock",
+    "mock",
+    "socp",
+    "sok"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "underwear",
+   "audio": "audio/basic_b_u5/{v}/itisunderwear.mp3",
+   "answer": [
+    "It",
+    "is",
+    "underwear."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "toothbrush",
+   "audio": "audio/basic_b_u5/{v}/itisatoothbrush.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "toothbrush."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "underwear",
+   "audio": "audio/basic_b_u5/{v}/itisunderwear.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "underwear",
+   "choices": [
+    "underwear",
+    "apple",
+    "bag"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "book",
+   "audio": "audio/basic_b_u5/{v}/itisabook.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "book",
+   "choices": [
+    "book",
+    "sock",
+    "underwear"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "sock",
+   "audio": "audio/basic_b_u5/{v}/itisasock.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "sock",
+   "choices": [
+    "sock",
+    "apple",
+    "toothbrush"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/basic_b_u5/book.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/book.mp3",
+   "stext": "It is a book.",
+   "sentence": "audio/basic_b_u5/{v}/itisabook.mp3"
+  },
+  {
+   "id": "phonecharger",
+   "en": "phone charger",
+   "ko": "휴대폰 충전기",
+   "pic": "../packs/basic_b_u5/phonecharger.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/phonecharger.mp3",
+   "stext": "It is a phone charger.",
+   "sentence": "audio/basic_b_u5/{v}/itisaphonecharger.mp3"
+  },
+  {
+   "id": "sock",
+   "en": "sock",
+   "ko": "양말",
+   "pic": "../packs/basic_b_u5/sock.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/sock.mp3",
+   "stext": "It is a sock.",
+   "sentence": "audio/basic_b_u5/{v}/itisasock.mp3"
+  },
+  {
+   "id": "toy",
+   "en": "toy",
+   "ko": "장난감",
+   "pic": "../packs/basic_b_u5/toy.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toy.mp3",
+   "stext": "It is a toy.",
+   "sentence": "../packs/basic_b_u5/audio/{v}/itisatoy.mp3"
+  },
+  {
+   "id": "underwear",
+   "en": "underwear",
+   "ko": "속옷",
+   "pic": "../packs/basic_b_u5/underwear.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/underwear.mp3",
+   "stext": "It is underwear.",
+   "sentence": "audio/basic_b_u5/{v}/itisunderwear.mp3"
+  },
+  {
+   "id": "toothbrush",
+   "en": "toothbrush",
+   "ko": "칫솔",
+   "pic": "../packs/basic_b_u5/toothbrush.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toothbrush.mp3",
+   "stext": "It is a toothbrush.",
+   "sentence": "audio/basic_b_u5/{v}/itisatoothbrush.mp3"
+  },
+  {
+   "id": "nightlight",
+   "en": "night light",
+   "ko": "야간등",
+   "pic": "../packs/basic_b_u5/nightlight.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/nightlight.mp3",
+   "stext": "It is a night light.",
+   "sentence": "audio/basic_b_u5/{v}/itisanightlight.mp3"
+  },
+  {
+   "id": "teddybear",
+   "en": "teddy bear",
+   "ko": "곰인형",
+   "pic": "../packs/basic_b_u5/teddybear.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/teddybear.mp3",
+   "stext": "It is a teddy bear.",
+   "sentence": "audio/basic_b_u5/{v}/itisateddybear.mp3"
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "pic": "../packs/basic_b_u5/apple.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/apple.mp3",
+   "stext": "It is an apple.",
+   "sentence": "audio/basic_b_u5/{v}/itisanapple.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_b_u5/bag.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/bag.mp3",
+   "stext": "It is a bag.",
+   "sentence": "audio/basic_b_u5/{v}/itisabag.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "yellow",
+   "en": "yellow",
+   "ko": "노란색",
+   "pic": "../packs/basic_b_u7/yellow.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/yellow.mp3"
+  },
+  {
+   "id": "neck",
+   "en": "neck",
+   "ko": "목",
+   "pic": "../packs/basic_b_u6/neck.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/neck.mp3"
+  },
+  {
+   "id": "paper",
+   "en": "paper",
+   "ko": "보, 종이",
+   "pic": "../packs/basic_b_u4/paper.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/paper.mp3"
+  },
+  {
+   "id": "mouth",
+   "en": "mouth",
+   "ko": "입",
+   "pic": "../packs/basic_b_u6/mouth.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/mouth.mp3"
+  },
+  {
+   "id": "head",
+   "en": "head",
+   "ko": "머리",
+   "pic": "../packs/basic_b_u6/head.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/head.mp3"
+  },
+  {
+   "id": "fourteen",
+   "en": "fourteen",
+   "ko": "열넷",
+   "pic": "../packs/basic_b_u8/fourteen.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/fourteen.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/basic_b_u5/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "bedroom",
+  "hotspots": [
+   {
+    "id": "book",
+    "x": 2.9,
+    "y": 63.2,
+    "w": 24.4,
+    "h": 26.0
+   },
+   {
+    "id": "phonecharger",
+    "x": 6.3,
+    "y": 37.8,
+    "w": 17.6,
+    "h": 22.8
+   },
+   {
+    "id": "sock",
+    "x": 23.9,
+    "y": 44.9,
+    "w": 15.1,
+    "h": 20.2
+   },
+   {
+    "id": "toy",
+    "x": 42.5,
+    "y": 44.3,
+    "w": 20.0,
+    "h": 19.5
+   },
+   {
+    "id": "underwear",
+    "x": 37.6,
+    "y": 67.7,
+    "w": 20.0,
+    "h": 20.2
+   },
+   {
+    "id": "toothbrush",
+    "x": 62.5,
+    "y": 65.1,
+    "w": 17.1,
+    "h": 22.4
+   },
+   {
+    "id": "nightlight",
+    "x": 68.4,
+    "y": 5.2,
+    "w": 10.9,
+    "h": 15.0
+   },
+   {
+    "id": "teddybear",
+    "x": 80.9,
+    "y": 1.6,
+    "w": 15.0,
+    "h": 21.6
+   },
+   {
+    "id": "apple",
+    "x": 81.1,
+    "y": 67.1,
+    "w": 12.2,
+    "h": 17.3
+   },
+   {
+    "id": "bag",
+    "x": 75.0,
+    "y": 33.9,
+    "w": 21.7,
+    "h": 29.9
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "teddybear",
+    "yellow",
+    "sock",
+    "bag"
+   ],
+   "odd": "yellow"
+  },
+  {
+   "items": [
+    "toothbrush",
+    "bag",
+    "neck",
+    "toy"
+   ],
+   "odd": "neck"
+  },
+  {
+   "items": [
+    "paper",
+    "bag",
+    "toothbrush",
+    "phonecharger"
+   ],
+   "odd": "paper"
+  },
+  {
+   "items": [
+    "underwear",
+    "mouth",
+    "toy",
+    "toothbrush"
+   ],
+   "odd": "mouth"
+  },
+  {
+   "items": [
+    "head",
+    "book",
+    "toothbrush",
+    "phonecharger"
+   ],
+   "odd": "head"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "book",
+   "sock",
+   "toy",
+   "apple",
+   "bag"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "book",
+   "sock",
+   "toy",
+   "underwear",
+   "toothbrush",
+   "apple"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "book",
+   "sock",
+   "toy",
+   "underwear",
+   "toothbrush",
+   "apple",
+   "bag"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What is it?",
+   "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+  },
+  {
+   "text": "It is a toy.",
+   "audio": "../packs/basic_b_u5/audio/{v}/itisatoy.mp3"
+  },
+  {
+   "text": "It is a book.",
+   "audio": "audio/basic_b_u5/{v}/itisabook.mp3"
+  },
+  {
+   "text": "It is a phone charger.",
+   "audio": "audio/basic_b_u5/{v}/itisaphonecharger.mp3"
+  },
+  {
+   "text": "It is a sock.",
+   "audio": "audio/basic_b_u5/{v}/itisasock.mp3"
+  },
+  {
+   "text": "It is underwear.",
+   "audio": "audio/basic_b_u5/{v}/itisunderwear.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_b_u5/toy.jpg",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is an apple.",
+     "audio": "audio/basic_b_u5/ai/itisanapple.mp3"
+    },
+    {
+     "text": "It is a toy.",
+     "audio": "audio/basic_b_u5/ai/itisatoy.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u5/sock.jpg",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a sock.",
+     "audio": "audio/basic_b_u5/ai/itisasock.mp3"
+    },
+    {
+     "text": "It is a book.",
+     "audio": "audio/basic_b_u5/ai/itisabook.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u5/nightlight.jpg",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a night light.",
+     "audio": "audio/basic_b_u5/ai/itisanightlight.mp3"
+    },
+    {
+     "text": "It is a toy.",
+     "audio": "audio/basic_b_u5/ai/itisatoy.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u5/underwear.jpg",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is underwear.",
+     "audio": "audio/basic_b_u5/ai/itisunderwear.mp3"
+    },
+    {
+     "text": "It is a night light.",
+     "audio": "audio/basic_b_u5/ai/itisanightlight.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u5/",
+  "ai": "audio/basic_b_u5/ai/"
+ }
+}

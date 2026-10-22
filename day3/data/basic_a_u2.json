@@ -9,139 +9,139 @@
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "cat",
-   "choices": [
-    "cat",
-    "horse",
-    "cow",
-    "dog"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
    "answer": "cow",
    "choices": [
     "cow",
-    "pig",
-    "duck",
+    "sheep",
+    "cat",
     "chicken"
    ]
   },
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "chicken",
+   "answer": "cat",
    "choices": [
-    "chicken",
-    "dog",
+    "cat",
     "sheep",
-    "horse"
+    "dog",
+    "duck"
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "duck",
+   "type": "listen",
+   "skill": "listening",
    "answer": "duck",
    "choices": [
     "duck",
-    "duc",
-    "cuck",
-    "dumk"
+    "chicken",
+    "pig",
+    "sheep"
    ]
   },
   {
    "type": "spell",
    "skill": "spelling",
-   "pic": "pig",
-   "answer": "pig",
+   "pic": "chicken",
+   "answer": "chicken",
    "choices": [
-    "pig",
-    "piga",
-    "peg",
-    "pil"
+    "chicken",
+    "chickin",
+    "shicken",
+    "cicken"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "goat",
+   "answer": "goat",
+   "choices": [
+    "goat",
+    "guat",
+    "goap",
+    "got"
    ]
   },
   {
    "type": "order",
    "prompt": "Put the words in order.",
    "skill": "grammar",
-   "pic": "sheep",
-   "audio": "audio/basic_a_u2/{v}/hellomrssheep.mp3",
+   "pic": "chicken",
+   "audio": "audio/basic_a_u2/{v}/hellomschicken.mp3",
    "answer": [
-    "Hello,",
-    "Mrs.",
-    "Sheep."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "duck",
-   "audio": "audio/basic_a_u2/{v}/hellomrsduck.mp3",
-   "answer": [
-    "Hello,",
-    "Mrs.",
-    "Duck."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "pig",
-   "audio": "audio/basic_a_u2/{v}/hellomspig.mp3",
-   "sentence": [
     "Hello,",
     "Ms.",
-    "___",
-    "."
-   ],
-   "answer": "pig",
-   "choices": [
-    "pig",
-    "sheep",
-    "chicken"
+    "Chicken."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "horse",
+   "audio": "audio/basic_a_u2/{v}/hellomrhorse.mp3",
+   "answer": [
+    "Hello,",
+    "Mr.",
+    "Horse."
    ]
   },
   {
    "type": "fill",
    "prompt": "Fill in the missing word.",
    "skill": "vocabulary",
-   "pic": "horse",
-   "audio": "audio/basic_a_u2/{v}/hellomrhorse.mp3",
+   "pic": "cat",
+   "audio": "../packs/basic_a_u2/audio/{v}/hellomrcat.mp3",
    "sentence": [
     "Hello,",
     "Mr.",
     "___",
     "."
    ],
-   "answer": "horse",
+   "answer": "Cat",
    "choices": [
-    "horse",
-    "chicken",
-    "cat"
+    "Cat",
+    "Dog",
+    "Goat"
    ]
   },
   {
    "type": "fill",
    "prompt": "Fill in the missing word.",
    "skill": "vocabulary",
-   "pic": "goat",
-   "audio": "audio/basic_a_u2/{v}/hellomsgoat.mp3",
+   "pic": "sheep",
+   "audio": "audio/basic_a_u2/{v}/hellomrssheep.mp3",
    "sentence": [
     "Hello,",
-    "Ms.",
+    "Mrs.",
     "___",
     "."
    ],
-   "answer": "goat",
+   "answer": "Sheep",
    "choices": [
-    "goat",
-    "horse",
-    "cow"
+    "Sheep",
+    "Pig",
+    "Chicken"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "duck",
+   "audio": "audio/basic_a_u2/{v}/hellomrsduck.mp3",
+   "sentence": [
+    "Hello,",
+    "Mrs.",
+    "___",
+    "."
+   ],
+   "answer": "Duck",
+   "choices": [
+    "Duck",
+    "Dog",
+    "Hello"
    ]
   }
  ],
@@ -459,33 +459,15 @@
  ],
  "dialogues": [
   {
-   "pic": "../packs/basic_a_u2/cat.jpg",
+   "pic": "../packs/basic_a_u2/pig.jpg",
    "q": {
-    "text": "Hello!",
-    "audio": "../packs/basic_a_u2/audio/{v}/hello.mp3"
+    "text": "Who is this? Say hello!",
+    "audio": "audio/basic_a_u2/{v}/whoisthissayhello.mp3"
    },
    "choices": [
-    {
-     "text": "Yes, it is.",
-     "audio": "audio/basic_a_u2/ai/yesitis.mp3"
-    },
     {
      "text": "Hello, Mr. Cat.",
      "audio": "audio/basic_a_u2/ai/hellomrcat.mp3"
-    }
-   ],
-   "answer": 1
-  },
-  {
-   "pic": "../packs/basic_a_u2/pig.jpg",
-   "q": {
-    "text": "Hello!",
-    "audio": "../packs/basic_a_u2/audio/{v}/hello.mp3"
-   },
-   "choices": [
-    {
-     "text": "I am fine.",
-     "audio": "audio/basic_a_u2/ai/iamfine.mp3"
     },
     {
      "text": "Hello, Ms. Pig.",
@@ -495,37 +477,55 @@
    "answer": 1
   },
   {
-   "pic": "../packs/basic_a_u2/duck.jpg",
+   "pic": "../packs/basic_a_u2/cat.jpg",
    "q": {
-    "text": "Hello!",
-    "audio": "../packs/basic_a_u2/audio/{v}/hello.mp3"
+    "text": "Who is this? Say hello!",
+    "audio": "audio/basic_a_u2/{v}/whoisthissayhello.mp3"
    },
    "choices": [
     {
-     "text": "Thank you.",
-     "audio": "audio/basic_a_u2/ai/thankyou.mp3"
+     "text": "Hello, Mr. Cat.",
+     "audio": "audio/basic_a_u2/ai/hellomrcat.mp3"
+    },
+    {
+     "text": "Hello, Mr. Cow.",
+     "audio": "audio/basic_a_u2/ai/hellomrcow.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u2/goat.jpg",
+   "q": {
+    "text": "Who is this? Say hello!",
+    "audio": "audio/basic_a_u2/{v}/whoisthissayhello.mp3"
+   },
+   "choices": [
+    {
+     "text": "Hello, Ms. Goat.",
+     "audio": "audio/basic_a_u2/ai/hellomsgoat.mp3"
+    },
+    {
+     "text": "Hello, Mom.",
+     "audio": "audio/basic_a_u2/ai/hellomom.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u2/horse.jpg",
+   "q": {
+    "text": "Who is this? Say hello!",
+    "audio": "audio/basic_a_u2/{v}/whoisthissayhello.mp3"
+   },
+   "choices": [
+    {
+     "text": "Hello, Mr. Horse.",
+     "audio": "audio/basic_a_u2/ai/hellomrhorse.mp3"
     },
     {
      "text": "Hello, Mrs. Duck.",
      "audio": "audio/basic_a_u2/ai/hellomrsduck.mp3"
-    }
-   ],
-   "answer": 1
-  },
-  {
-   "pic": null,
-   "q": {
-    "text": "Goodbye!",
-    "audio": "audio/basic_a_u2/{v}/goodbye.mp3"
-   },
-   "choices": [
-    {
-     "text": "Goodbye, Mom.",
-     "audio": "audio/basic_a_u2/ai/goodbyemom.mp3"
-    },
-    {
-     "text": "Hello, Mr. Cat.",
-     "audio": "audio/basic_a_u2/ai/hellomrcat.mp3"
     }
    ],
    "answer": 0

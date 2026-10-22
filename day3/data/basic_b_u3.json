@@ -1,0 +1,497 @@
+{
+ "id": "basic_b_u3",
+ "title": "Basic B · Unit 3 · Classroom English Two",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_b_u3/audio/us_f/",
+ "picDir": "../packs/basic_b_u3/",
+ "lineAudio": "audio/basic_b_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "trash",
+   "choices": [
+    "trash",
+    "understand",
+    "quiet",
+    "know"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "understand",
+   "choices": [
+    "understand",
+    "quiet",
+    "trash",
+    "help"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "help",
+   "choices": [
+    "help",
+    "again",
+    "quiet",
+    "understand"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "quiet",
+   "answer": "quiet",
+   "choices": [
+    "quiet",
+    "quiek",
+    "qoiet",
+    "quit"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "trash",
+   "answer": "trash",
+   "choices": [
+    "trash",
+    "rash",
+    "tralh",
+    "trasd"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "help",
+   "audio": "audio/basic_b_u3/{v}/canyouhelpme.mp3",
+   "answer": [
+    "Can",
+    "you",
+    "help",
+    "me?"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/basic_b_u3/{v}/sitdownplease.mp3",
+   "answer": [
+    "Sit",
+    "down,",
+    "please."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/basic_b_u3/{v}/sitdownplease.mp3",
+   "sentence": [
+    "Sit",
+    "down,",
+    "___",
+    "."
+   ],
+   "answer": "please",
+   "choices": [
+    "please",
+    "again",
+    "recycle"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "help",
+   "audio": "audio/basic_b_u3/{v}/canyouhelpme.mp3",
+   "sentence": [
+    "Can",
+    "you",
+    "___",
+    "me?"
+   ],
+   "answer": "help",
+   "choices": [
+    "help",
+    "quiet",
+    "again"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "know",
+   "audio": "audio/basic_b_u3/{v}/iknow.mp3",
+   "sentence": [
+    "I",
+    "___",
+    "."
+   ],
+   "answer": "know",
+   "choices": [
+    "know",
+    "quiet",
+    "recycle"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "again",
+   "en": "again",
+   "ko": "다시",
+   "pic": "../packs/basic_b_u3/again.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/again.mp3",
+   "stext": "Say it again, please.",
+   "sentence": "audio/basic_b_u3/{v}/sayitagainplease.mp3"
+  },
+  {
+   "id": "recycle",
+   "en": "recycle",
+   "ko": "재활용하다",
+   "pic": "../packs/basic_b_u3/recycle.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/recycle.mp3",
+   "stext": "Recycle the paper.",
+   "sentence": "audio/basic_b_u3/{v}/recyclethepaper.mp3"
+  },
+  {
+   "id": "trash",
+   "en": "trash",
+   "ko": "버리다, 쓰레기",
+   "pic": "../packs/basic_b_u3/trash.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/trash.mp3",
+   "stext": "Put it in the trash.",
+   "sentence": "audio/basic_b_u3/{v}/putitinthetrash.mp3"
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "pic": "../packs/basic_b_u3/understand.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/understand.mp3",
+   "stext": "I do not understand.",
+   "sentence": "../packs/basic_b_u3/audio/{v}/idonotunderstand.mp3"
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "pic": "../packs/basic_b_u3/know.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/know.mp3",
+   "stext": "I know.",
+   "sentence": "audio/basic_b_u3/{v}/iknow.mp3"
+  },
+  {
+   "id": "help",
+   "en": "help",
+   "ko": "돕다",
+   "pic": "../packs/basic_b_u3/help.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/help.mp3",
+   "stext": "Can you help me?",
+   "sentence": "audio/basic_b_u3/{v}/canyouhelpme.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/basic_b_u3/quiet.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/quiet.mp3",
+   "stext": "Be quiet, please.",
+   "sentence": "audio/basic_b_u3/{v}/bequietplease.mp3"
+  },
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "부탁해요, 제발",
+   "pic": null,
+   "audio": "../packs/basic_b_u3/audio/{v}/please.mp3",
+   "stext": "Sit down, please.",
+   "sentence": "audio/basic_b_u3/{v}/sitdownplease.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "apples",
+   "en": "apples",
+   "ko": "사과",
+   "pic": "../packs/basic_b_u2/apples.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/apples.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_b_u5/bag.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/bag.mp3"
+  },
+  {
+   "id": "meat",
+   "en": "meat",
+   "ko": "고기",
+   "pic": "../packs/basic_b_u2/meat.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/meat.mp3"
+  },
+  {
+   "id": "ear",
+   "en": "ear",
+   "ko": "귀",
+   "pic": "../packs/basic_b_u6/ear.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/ear.mp3"
+  },
+  {
+   "id": "toothbrush",
+   "en": "toothbrush",
+   "ko": "칫솔",
+   "pic": "../packs/basic_b_u5/toothbrush.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toothbrush.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열",
+   "pic": "../packs/basic_b_u8/ten.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/ten.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "again",
+    "recycle",
+    "trash",
+    "apples"
+   ],
+   "odd": "apples"
+  },
+  {
+   "items": [
+    "bag",
+    "recycle",
+    "quiet",
+    "know"
+   ],
+   "odd": "bag"
+  },
+  {
+   "items": [
+    "again",
+    "help",
+    "meat",
+    "quiet"
+   ],
+   "odd": "meat"
+  },
+  {
+   "items": [
+    "ear",
+    "again",
+    "trash",
+    "understand"
+   ],
+   "odd": "ear"
+  },
+  {
+   "items": [
+    "toothbrush",
+    "again",
+    "trash",
+    "recycle"
+   ],
+   "odd": "toothbrush"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "again",
+   "recycle",
+   "trash",
+   "know",
+   "help",
+   "quiet"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "again",
+   "recycle",
+   "trash",
+   "understand",
+   "know",
+   "help"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "again",
+   "recycle",
+   "trash",
+   "understand",
+   "know",
+   "help",
+   "quiet"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I do not understand.",
+   "audio": "../packs/basic_b_u3/audio/{v}/idonotunderstand.mp3"
+  },
+  {
+   "text": "Say it again, please.",
+   "audio": "audio/basic_b_u3/{v}/sayitagainplease.mp3"
+  },
+  {
+   "text": "Recycle the paper.",
+   "audio": "audio/basic_b_u3/{v}/recyclethepaper.mp3"
+  },
+  {
+   "text": "Put it in the trash.",
+   "audio": "audio/basic_b_u3/{v}/putitinthetrash.mp3"
+  },
+  {
+   "text": "I know.",
+   "audio": "audio/basic_b_u3/{v}/iknow.mp3"
+  },
+  {
+   "text": "Can you help me?",
+   "audio": "audio/basic_b_u3/{v}/canyouhelpme.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_b_u3/understand.jpg",
+   "q": {
+    "text": "Do you understand?",
+    "audio": "audio/basic_b_u3/{v}/doyouunderstand.mp3"
+   },
+   "choices": [
+    {
+     "text": "No. I do not understand.",
+     "audio": "audio/basic_b_u3/ai/noidonotunderstand.mp3"
+    },
+    {
+     "text": "No. I do not like noodles.",
+     "audio": "audio/basic_b_u3/ai/noidonotlikenoodles.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u3/help.jpg",
+   "q": {
+    "text": "Can you help me?",
+    "audio": "audio/basic_b_u3/{v}/canyouhelpme.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, I can recycle.",
+     "audio": "audio/basic_b_u3/ai/yesicanrecycle.mp3"
+    },
+    {
+     "text": "Yes, I can help you.",
+     "audio": "audio/basic_b_u3/ai/yesicanhelpyou.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u3/trash.jpg",
+   "q": {
+    "text": "Where does the trash go?",
+    "audio": "audio/basic_b_u3/{v}/wheredoesthetrashgo.mp3"
+   },
+   "choices": [
+    {
+     "text": "Put it on your head.",
+     "audio": "audio/basic_b_u3/ai/putitonyourhead.mp3"
+    },
+    {
+     "text": "Put it in the trash can.",
+     "audio": "audio/basic_b_u3/ai/putitinthetrashcan.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u3/recycle.jpg",
+   "q": {
+    "text": "What do we do with old paper?",
+    "audio": "audio/basic_b_u3/{v}/whatdowedowitholdpaper.mp3"
+   },
+   "choices": [
+    {
+     "text": "Eat the paper.",
+     "audio": "audio/basic_b_u3/ai/eatthepaper.mp3"
+    },
+    {
+     "text": "Recycle the paper.",
+     "audio": "audio/basic_b_u3/ai/recyclethepaper.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u3/",
+  "ai": "audio/basic_b_u3/ai/"
+ }
+}

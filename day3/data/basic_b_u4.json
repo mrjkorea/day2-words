@@ -1,0 +1,438 @@
+{
+ "id": "basic_b_u4",
+ "title": "Basic B · Unit 4 · Rock Paper Scissors",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_b_u4/audio/us_f/",
+ "picDir": "../packs/basic_b_u4/",
+ "lineAudio": "audio/basic_b_u4/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "wins",
+   "choices": [
+    "wins",
+    "scissors",
+    "paper",
+    "rock"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "paper",
+   "choices": [
+    "paper",
+    "wins",
+    "scissors",
+    "rock"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "scissors",
+   "choices": [
+    "scissors",
+    "rock",
+    "paper",
+    "wins"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "rock",
+   "answer": "rock",
+   "choices": [
+    "rock",
+    "pock",
+    "rok",
+    "roct"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "scissors",
+   "answer": "scissors",
+   "choices": [
+    "scissors",
+    "stissors",
+    "scisors",
+    "scissor"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "scissors",
+   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3",
+   "answer": [
+    "Scissors",
+    "win."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "rock",
+   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
+   "answer": [
+    "Rock",
+    "wins."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "rock",
+   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
+   "sentence": [
+    "___",
+    "wins."
+   ],
+   "answer": "Rock",
+   "choices": [
+    "Rock",
+    "Paper",
+    "Scissors"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "paper",
+   "audio": "audio/basic_b_u4/{v}/paperwins.mp3",
+   "sentence": [
+    "___",
+    "wins."
+   ],
+   "answer": "Paper",
+   "choices": [
+    "Paper",
+    "Scissors",
+    "Rock"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "scissors",
+   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3",
+   "sentence": [
+    "___",
+    "win."
+   ],
+   "answer": "Scissors",
+   "choices": [
+    "Scissors",
+    "Paper",
+    "Rock"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "rock",
+   "en": "rock",
+   "ko": "바위",
+   "pic": "../packs/basic_b_u4/rock.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/rock.mp3",
+   "stext": "Rock wins.",
+   "sentence": "../packs/basic_b_u4/audio/{v}/rockwins.mp3"
+  },
+  {
+   "id": "paper",
+   "en": "paper",
+   "ko": "보, 종이",
+   "pic": "../packs/basic_b_u4/paper.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/paper.mp3",
+   "stext": "Paper wins.",
+   "sentence": "audio/basic_b_u4/{v}/paperwins.mp3"
+  },
+  {
+   "id": "scissors",
+   "en": "scissors",
+   "ko": "가위",
+   "pic": "../packs/basic_b_u4/scissors.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/scissors.mp3",
+   "stext": "Scissors win.",
+   "sentence": "audio/basic_b_u4/{v}/scissorswin.mp3"
+  },
+  {
+   "id": "wins",
+   "en": "wins",
+   "ko": "이기다",
+   "pic": null,
+   "audio": "../packs/basic_b_u4/audio/{v}/wins.mp3",
+   "stext": "Scissors win against paper.",
+   "sentence": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "chin",
+   "en": "chin",
+   "ko": "턱",
+   "pic": "../packs/basic_b_u6/chin.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/chin.mp3"
+  },
+  {
+   "id": "trash",
+   "en": "trash",
+   "ko": "버리다, 쓰레기",
+   "pic": "../packs/basic_b_u3/trash.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/trash.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_b_u5/bag.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/bag.mp3"
+  },
+  {
+   "id": "toothbrush",
+   "en": "toothbrush",
+   "ko": "칫솔",
+   "pic": "../packs/basic_b_u5/toothbrush.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toothbrush.mp3"
+  },
+  {
+   "id": "eye",
+   "en": "eye",
+   "ko": "눈",
+   "pic": "../packs/basic_b_u6/eye.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/eye.mp3"
+  },
+  {
+   "id": "mouth",
+   "en": "mouth",
+   "ko": "입",
+   "pic": "../packs/basic_b_u6/mouth.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/mouth.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "chin",
+    "paper",
+    "rock",
+    "scissors"
+   ],
+   "odd": "chin"
+  },
+  {
+   "items": [
+    "trash",
+    "rock",
+    "paper",
+    "scissors"
+   ],
+   "odd": "trash"
+  },
+  {
+   "items": [
+    "scissors",
+    "paper",
+    "bag",
+    "rock"
+   ],
+   "odd": "bag"
+  },
+  {
+   "items": [
+    "rock",
+    "toothbrush",
+    "scissors",
+    "paper"
+   ],
+   "odd": "toothbrush"
+  },
+  {
+   "items": [
+    "scissors",
+    "paper",
+    "rock",
+    "eye"
+   ],
+   "odd": "eye"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "rock",
+   "paper",
+   "scissors",
+   "wins"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "rock",
+   "paper",
+   "scissors",
+   "wins"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "rock",
+   "paper",
+   "scissors",
+   "wins"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Rock wins.",
+   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3"
+  },
+  {
+   "text": "Paper wins.",
+   "audio": "audio/basic_b_u4/{v}/paperwins.mp3"
+  },
+  {
+   "text": "Scissors win.",
+   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3"
+  },
+  {
+   "text": "Scissors win against paper.",
+   "audio": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_b_u4/rock.jpg",
+   "q": {
+    "text": "Rock or scissors. Who wins?",
+    "audio": "audio/basic_b_u4/{v}/rockorscissorswhowins.mp3"
+   },
+   "choices": [
+    {
+     "text": "Scissors win.",
+     "audio": "audio/basic_b_u4/ai/scissorswin.mp3"
+    },
+    {
+     "text": "Rock wins.",
+     "audio": "audio/basic_b_u4/ai/rockwins.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u4/paper.jpg",
+   "q": {
+    "text": "Paper or rock. Who wins?",
+    "audio": "audio/basic_b_u4/{v}/paperorrockwhowins.mp3"
+   },
+   "choices": [
+    {
+     "text": "Paper wins.",
+     "audio": "audio/basic_b_u4/ai/paperwins.mp3"
+    },
+    {
+     "text": "Rock wins.",
+     "audio": "audio/basic_b_u4/ai/rockwins.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u4/scissors.jpg",
+   "q": {
+    "text": "Scissors or paper. Who wins?",
+    "audio": "audio/basic_b_u4/{v}/scissorsorpaperwhowins.mp3"
+   },
+   "choices": [
+    {
+     "text": "Scissors win.",
+     "audio": "audio/basic_b_u4/ai/scissorswin.mp3"
+    },
+    {
+     "text": "Paper wins.",
+     "audio": "audio/basic_b_u4/ai/paperwins.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u4/paper.jpg",
+   "q": {
+    "text": "Rock or paper. Who wins?",
+    "audio": "audio/basic_b_u4/{v}/rockorpaperwhowins.mp3"
+   },
+   "choices": [
+    {
+     "text": "Paper wins.",
+     "audio": "audio/basic_b_u4/ai/paperwins.mp3"
+    },
+    {
+     "text": "Rock wins.",
+     "audio": "audio/basic_b_u4/ai/rockwins.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u4/",
+  "ai": "audio/basic_b_u4/ai/"
+ }
+}

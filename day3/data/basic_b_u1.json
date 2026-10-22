@@ -1,0 +1,515 @@
+{
+ "id": "basic_b_u1",
+ "title": "Basic B · Unit 1 · How are you?",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_b_u1/audio/us_f/",
+ "picDir": "../packs/basic_b_u1/",
+ "lineAudio": "audio/basic_b_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "hungry",
+   "choices": [
+    "hungry",
+    "sick",
+    "bored",
+    "tired"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "tired",
+   "choices": [
+    "tired",
+    "hungry",
+    "bored",
+    "sad"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "bored",
+   "choices": [
+    "bored",
+    "sleepy",
+    "tired",
+    "worried"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "tired",
+   "answer": "tired",
+   "choices": [
+    "tired",
+    "tared",
+    "kired",
+    "tited"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hungry",
+   "answer": "hungry",
+   "choices": [
+    "hungry",
+    "hubgry",
+    "hungdy",
+    "hungy"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sick",
+   "audio": "audio/basic_b_u1/{v}/iamsick.mp3",
+   "answer": [
+    "I",
+    "am",
+    "sick."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "tired",
+   "audio": "audio/basic_b_u1/{v}/iamtired.mp3",
+   "answer": [
+    "I",
+    "am",
+    "tired."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "hungry",
+   "audio": "audio/basic_b_u1/{v}/iamhungry.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "."
+   ],
+   "answer": "hungry",
+   "choices": [
+    "hungry",
+    "angry",
+    "sleepy"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "sleepy",
+   "audio": "audio/basic_b_u1/{v}/iamsleepy.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "."
+   ],
+   "answer": "sleepy",
+   "choices": [
+    "sleepy",
+    "sick",
+    "angry"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "bored",
+   "audio": "audio/basic_b_u1/{v}/iambored.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "."
+   ],
+   "answer": "bored",
+   "choices": [
+    "bored",
+    "hungry",
+    "sleepy"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "happy",
+   "en": "happy",
+   "ko": "행복한",
+   "pic": "../packs/basic_b_u1/happy.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/happy.mp3",
+   "stext": "I am happy.",
+   "sentence": "../packs/basic_b_u1/audio/{v}/iamhappy.mp3"
+  },
+  {
+   "id": "sad",
+   "en": "sad",
+   "ko": "슬픈",
+   "pic": "../packs/basic_b_u1/sad.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sad.mp3",
+   "stext": "I am sad.",
+   "sentence": "audio/basic_b_u1/{v}/iamsad.mp3"
+  },
+  {
+   "id": "angry",
+   "en": "angry",
+   "ko": "화난",
+   "pic": "../packs/basic_b_u1/angry.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/angry.mp3",
+   "stext": "I am angry.",
+   "sentence": "audio/basic_b_u1/{v}/iamangry.mp3"
+  },
+  {
+   "id": "hungry",
+   "en": "hungry",
+   "ko": "배고픈",
+   "pic": "../packs/basic_b_u1/hungry.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/hungry.mp3",
+   "stext": "I am hungry.",
+   "sentence": "audio/basic_b_u1/{v}/iamhungry.mp3"
+  },
+  {
+   "id": "tired",
+   "en": "tired",
+   "ko": "피곤한",
+   "pic": "../packs/basic_b_u1/tired.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/tired.mp3",
+   "stext": "I am tired.",
+   "sentence": "audio/basic_b_u1/{v}/iamtired.mp3"
+  },
+  {
+   "id": "bored",
+   "en": "bored",
+   "ko": "지루한",
+   "pic": "../packs/basic_b_u1/bored.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/bored.mp3",
+   "stext": "I am bored.",
+   "sentence": "audio/basic_b_u1/{v}/iambored.mp3"
+  },
+  {
+   "id": "scared",
+   "en": "scared",
+   "ko": "무서운",
+   "pic": "../packs/basic_b_u1/scared.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/scared.mp3",
+   "stext": "I am scared.",
+   "sentence": "audio/basic_b_u1/{v}/iamscared.mp3"
+  },
+  {
+   "id": "sick",
+   "en": "sick",
+   "ko": "아픈",
+   "pic": "../packs/basic_b_u1/sick.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sick.mp3",
+   "stext": "I am sick.",
+   "sentence": "audio/basic_b_u1/{v}/iamsick.mp3"
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정되는",
+   "pic": "../packs/basic_b_u1/worried.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/worried.mp3",
+   "stext": "I am worried.",
+   "sentence": "audio/basic_b_u1/{v}/iamworried.mp3"
+  },
+  {
+   "id": "sleepy",
+   "en": "sleepy",
+   "ko": "졸린",
+   "pic": "../packs/basic_b_u1/sleepy.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sleepy.mp3",
+   "stext": "I am sleepy.",
+   "sentence": "audio/basic_b_u1/{v}/iamsleepy.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "red",
+   "en": "red",
+   "ko": "빨간색",
+   "pic": "../packs/basic_b_u7/red.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/red.mp3"
+  },
+  {
+   "id": "ear",
+   "en": "ear",
+   "ko": "귀",
+   "pic": "../packs/basic_b_u6/ear.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/ear.mp3"
+  },
+  {
+   "id": "rock",
+   "en": "rock",
+   "ko": "바위",
+   "pic": "../packs/basic_b_u4/rock.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/rock.mp3"
+  },
+  {
+   "id": "fourteen",
+   "en": "fourteen",
+   "ko": "열넷",
+   "pic": "../packs/basic_b_u8/fourteen.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/fourteen.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/basic_b_u2/music.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/music.mp3"
+  },
+  {
+   "id": "black",
+   "en": "black",
+   "ko": "검은색",
+   "pic": "../packs/basic_b_u7/black.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/black.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "red",
+    "sleepy",
+    "hungry",
+    "sad"
+   ],
+   "odd": "red"
+  },
+  {
+   "items": [
+    "sick",
+    "worried",
+    "happy",
+    "ear"
+   ],
+   "odd": "ear"
+  },
+  {
+   "items": [
+    "rock",
+    "happy",
+    "sad",
+    "angry"
+   ],
+   "odd": "rock"
+  },
+  {
+   "items": [
+    "fourteen",
+    "sad",
+    "sick",
+    "bored"
+   ],
+   "odd": "fourteen"
+  },
+  {
+   "items": [
+    "happy",
+    "music",
+    "scared",
+    "sick"
+   ],
+   "odd": "music"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "happy",
+   "sad",
+   "angry",
+   "hungry",
+   "tired",
+   "bored"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "happy",
+   "sad",
+   "angry",
+   "hungry",
+   "tired",
+   "bored"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "happy",
+   "sad",
+   "angry",
+   "hungry",
+   "tired",
+   "bored",
+   "scared"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "How are you?",
+   "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+  },
+  {
+   "text": "I am happy.",
+   "audio": "../packs/basic_b_u1/audio/{v}/iamhappy.mp3"
+  },
+  {
+   "text": "I am sad.",
+   "audio": "audio/basic_b_u1/{v}/iamsad.mp3"
+  },
+  {
+   "text": "I am angry.",
+   "audio": "audio/basic_b_u1/{v}/iamangry.mp3"
+  },
+  {
+   "text": "I am hungry.",
+   "audio": "audio/basic_b_u1/{v}/iamhungry.mp3"
+  },
+  {
+   "text": "I am tired.",
+   "audio": "audio/basic_b_u1/{v}/iamtired.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_b_u1/tired.jpg",
+   "q": {
+    "text": "How are you?",
+    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am tired.",
+     "audio": "audio/basic_b_u1/ai/iamtired.mp3"
+    },
+    {
+     "text": "I am sad.",
+     "audio": "audio/basic_b_u1/ai/iamsad.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u1/angry.jpg",
+   "q": {
+    "text": "How are you?",
+    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am scared.",
+     "audio": "audio/basic_b_u1/ai/iamscared.mp3"
+    },
+    {
+     "text": "I am angry.",
+     "audio": "audio/basic_b_u1/ai/iamangry.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_b_u1/sleepy.jpg",
+   "q": {
+    "text": "How are you?",
+    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am sleepy.",
+     "audio": "audio/basic_b_u1/ai/iamsleepy.mp3"
+    },
+    {
+     "text": "I am happy.",
+     "audio": "audio/basic_b_u1/ai/iamhappy.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_b_u1/bored.jpg",
+   "q": {
+    "text": "How are you?",
+    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am sleepy.",
+     "audio": "audio/basic_b_u1/ai/iamsleepy.mp3"
+    },
+    {
+     "text": "I am bored.",
+     "audio": "audio/basic_b_u1/ai/iambored.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u1/",
+  "ai": "audio/basic_b_u1/ai/"
+ }
+}

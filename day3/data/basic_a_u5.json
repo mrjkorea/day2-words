@@ -9,124 +9,84 @@
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "aunt",
+   "answer": "nephew",
    "choices": [
-    "aunt",
-    "brother",
+    "nephew",
     "mom",
-    "cousin"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "dad",
-   "choices": [
-    "dad",
     "aunt",
-    "mom",
     "brother"
    ]
   },
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "grandmother",
-   "choices": [
-    "grandmother",
-    "nephew",
-    "sister",
-    "grandson"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cousin",
-   "answer": "cousin",
-   "choices": [
-    "cousin",
-    "bousin",
-    "cousi",
-    "pousin"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sister",
-   "answer": "sister",
-   "choices": [
-    "sister",
-    "siser",
-    "nister",
-    "suster"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "brother",
-   "audio": "audio/basic_a_u5/{v}/thisismybrother.mp3",
-   "answer": [
-    "This",
-    "is",
-    "my",
-    "brother."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "cousin",
-   "audio": "audio/basic_a_u5/{v}/thisismycousin.mp3",
-   "answer": [
-    "This",
-    "is",
-    "my",
-    "cousin."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nephew",
-   "audio": "audio/basic_a_u5/{v}/thisismynephew.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "nephew",
-   "choices": [
-    "nephew",
-    "cousin",
-    "grandson"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "mom",
-   "audio": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
    "answer": "mom",
    "choices": [
     "mom",
+    "grandson",
+    "brother",
+    "nephew"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "uncle",
+   "choices": [
     "uncle",
-    "aunt"
+    "nephew",
+    "sister",
+    "cousin"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "mom",
+   "answer": "mom",
+   "choices": [
+    "mom",
+    "mop",
+    "momb",
+    "momc"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "grandson",
+   "answer": "grandson",
+   "choices": [
+    "grandson",
+    "nrandson",
+    "gradson",
+    "grankson"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "nephew",
+   "audio": "audio/basic_a_u5/{v}/thisismynephew.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "nephew."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "mom",
+   "audio": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "mom."
    ]
   },
   {
@@ -145,8 +105,48 @@
    "answer": "sister",
    "choices": [
     "sister",
+    "uncle",
+    "aunt"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "cousin",
+   "audio": "audio/basic_a_u5/{v}/thisismycousin.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "cousin",
+   "choices": [
+    "cousin",
     "nephew",
     "dad"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nephew",
+   "audio": "audio/basic_a_u5/{v}/thisismynephew.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "nephew",
+   "choices": [
+    "nephew",
+    "mom",
+    "sister"
    ]
   }
  ],
@@ -394,22 +394,40 @@
  ],
  "dialogues": [
   {
-   "pic": "../packs/basic_a_u5/mom.jpg",
+   "pic": "../packs/basic_a_u5/nephew.jpg",
    "q": {
     "text": "Who is this?",
     "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
    },
    "choices": [
     {
-     "text": "It is a book.",
-     "audio": "audio/basic_a_u5/ai/itisabook.mp3"
+     "text": "This is my nephew.",
+     "audio": "audio/basic_a_u5/ai/thisismynephew.mp3"
     },
     {
-     "text": "This is my mom.",
-     "audio": "audio/basic_a_u5/ai/thisismymom.mp3"
+     "text": "This is my uncle.",
+     "audio": "audio/basic_a_u5/ai/thisismyuncle.mp3"
     }
    ],
-   "answer": 1
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u5/cousin.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my cousin.",
+     "audio": "audio/basic_a_u5/ai/thisismycousin.mp3"
+    },
+    {
+     "text": "This is my nephew.",
+     "audio": "audio/basic_a_u5/ai/thisismynephew.mp3"
+    }
+   ],
+   "answer": 0
   },
   {
    "pic": "../packs/basic_a_u5/dad.jpg",
@@ -423,44 +441,26 @@
      "audio": "audio/basic_a_u5/ai/thisismydad.mp3"
     },
     {
-     "text": "Thank you.",
-     "audio": "audio/basic_a_u5/ai/thankyou.mp3"
-    }
-   ],
-   "answer": 0
-  },
-  {
-   "pic": "../packs/basic_a_u5/sister.jpg",
-   "q": {
-    "text": "Who is this?",
-    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
-   },
-   "choices": [
-    {
-     "text": "This is my sister.",
-     "audio": "audio/basic_a_u5/ai/thisismysister.mp3"
-    },
-    {
-     "text": "It is a book.",
-     "audio": "audio/basic_a_u5/ai/itisabook.mp3"
-    }
-   ],
-   "answer": 0
-  },
-  {
-   "pic": "../packs/basic_a_u5/grandmother.jpg",
-   "q": {
-    "text": "Who is this?",
-    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
-   },
-   "choices": [
-    {
      "text": "This is my grandmother.",
      "audio": "audio/basic_a_u5/ai/thisismygrandmother.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u5/mom.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my mom.",
+     "audio": "audio/basic_a_u5/ai/thisismymom.mp3"
     },
     {
-     "text": "Yes, it is.",
-     "audio": "audio/basic_a_u5/ai/yesitis.mp3"
+     "text": "This is my cousin.",
+     "audio": "audio/basic_a_u5/ai/thisismycousin.mp3"
     }
    ],
    "answer": 0
