@@ -31,3 +31,4 @@ img.pic{width:100%;max-width:120px;aspect-ratio:1;object-fit:contain;display:blo
 .scene .hit.no{border-color:#fa5252;background:rgba(255,135,135,.25)}.scene .hit span{position:absolute;left:50%;bottom:-6px;transform:translate(-50%,100%);background:#fff;border-radius:8px;padding:0 6px;font-size:16px;white-space:nowrap}
 .hstyle{display:grid;grid-template-columns:1fr 1fr;gap:10px}.hstyle button{font-size:20px;padding:16px 8px}.hstyle b{display:block;font-size:54px}
 #sm svg{width:150px;height:150px}
+.kcard{display:flex;align-items:center;justify-content:center;min-height:90px;max-width:140px;margin:auto;padding:6px;border-radius:14px;background:#fff3bf;font-size:20px;font-weight:bold;font-family:system-ui,sans-serif}

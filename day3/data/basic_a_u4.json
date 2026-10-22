@@ -1,0 +1,512 @@
+{
+ "id": "basic_a_u4",
+ "title": "Basic A · Unit 4 · Classroom English One",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_a_u4/audio/us_f/",
+ "picDir": "../packs/basic_a_u4/",
+ "lineAudio": "audio/basic_a_u4/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "help",
+   "choices": [
+    "help",
+    "quiet",
+    "wait",
+    "tomorrow"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "wait",
+   "choices": [
+    "wait",
+    "afternoon",
+    "tomorrow",
+    "quiet"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "afternoon",
+   "choices": [
+    "afternoon",
+    "sorry",
+    "wait",
+    "quiet"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "tomorrow",
+   "answer": "tomorrow",
+   "choices": [
+    "tomorrow",
+    "tomorcow",
+    "tomerrow",
+    "tomortow"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "quiet",
+   "answer": "quiet",
+   "choices": [
+    "quiet",
+    "quiit",
+    "uiet",
+    "quiot"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "wait",
+   "audio": "audio/basic_a_u4/{v}/waitaminute.mp3",
+   "answer": [
+    "Wait",
+    "a",
+    "minute."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sorry",
+   "audio": "audio/basic_a_u4/{v}/iamsorry.mp3",
+   "answer": [
+    "I",
+    "am",
+    "sorry."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "wait",
+   "audio": "audio/basic_a_u4/{v}/waitaminute.mp3",
+   "sentence": [
+    "___",
+    "a",
+    "minute."
+   ],
+   "answer": "wait",
+   "choices": [
+    "wait",
+    "good",
+    "pardon"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "help",
+   "audio": "audio/basic_a_u4/{v}/helpmeplease.mp3",
+   "sentence": [
+    "___",
+    "me,",
+    "please."
+   ],
+   "answer": "help",
+   "choices": [
+    "help",
+    "wait",
+    "sorry"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "afternoon",
+   "audio": "audio/basic_a_u4/{v}/goodafternoon.mp3",
+   "sentence": [
+    "Good",
+    "___",
+    "."
+   ],
+   "answer": "afternoon",
+   "choices": [
+    "afternoon",
+    "wait",
+    "please"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "good",
+   "en": "good",
+   "ko": "좋은",
+   "pic": null,
+   "audio": "../packs/basic_a_u4/audio/{v}/good.mp3",
+   "stext": "Good job!",
+   "sentence": "audio/basic_a_u4/{v}/goodjob.mp3"
+  },
+  {
+   "id": "afternoon",
+   "en": "afternoon",
+   "ko": "오후",
+   "pic": "../packs/basic_a_u4/afternoon.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/afternoon.mp3",
+   "stext": "Good afternoon.",
+   "sentence": "audio/basic_a_u4/{v}/goodafternoon.mp3"
+  },
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "pic": "../packs/basic_a_u4/tomorrow.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/tomorrow.mp3",
+   "stext": "See you tomorrow.",
+   "sentence": "../packs/basic_a_u4/audio/{v}/seeyoutomorrow.mp3"
+  },
+  {
+   "id": "sorry",
+   "en": "sorry",
+   "ko": "미안해요",
+   "pic": "../packs/basic_a_u4/sorry.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/sorry.mp3",
+   "stext": "I am sorry.",
+   "sentence": "audio/basic_a_u4/{v}/iamsorry.mp3"
+  },
+  {
+   "id": "pardon",
+   "en": "pardon",
+   "ko": "뭐라고요?",
+   "pic": "../packs/basic_a_u4/pardon.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/pardon.mp3",
+   "stext": "Pardon me?",
+   "sentence": "audio/basic_a_u4/{v}/pardonme.mp3"
+  },
+  {
+   "id": "help",
+   "en": "help",
+   "ko": "돕다",
+   "pic": "../packs/basic_a_u4/help.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/help.mp3",
+   "stext": "Help me, please.",
+   "sentence": "audio/basic_a_u4/{v}/helpmeplease.mp3"
+  },
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "부탁해요, 제발",
+   "pic": null,
+   "audio": "../packs/basic_a_u4/audio/{v}/please.mp3",
+   "stext": "Sit down, please.",
+   "sentence": "audio/basic_a_u4/{v}/sitdownplease.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/basic_a_u4/quiet.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/quiet.mp3",
+   "stext": "Be quiet, please.",
+   "sentence": "audio/basic_a_u4/{v}/bequietplease.mp3"
+  },
+  {
+   "id": "wait",
+   "en": "wait",
+   "ko": "기다리다",
+   "pic": "../packs/basic_a_u4/wait.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/wait.mp3",
+   "stext": "Wait a minute.",
+   "sentence": "audio/basic_a_u4/{v}/waitaminute.mp3"
+  },
+  {
+   "id": "see",
+   "en": "see",
+   "ko": "보다",
+   "pic": null,
+   "audio": "../packs/basic_a_u4/audio/{v}/see.mp3",
+   "stext": "See you later.",
+   "sentence": "audio/basic_a_u4/{v}/seeyoulater.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "left",
+   "en": "left",
+   "ko": "왼쪽",
+   "pic": "../packs/basic_a_u3/left.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/left.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/basic_a_u5/grandmother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandmother.mp3"
+  },
+  {
+   "id": "duck",
+   "en": "duck",
+   "ko": "오리",
+   "pic": "../packs/basic_a_u2/duck.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/duck.mp3"
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "누나, 언니, 여동생",
+   "pic": "../packs/basic_a_u5/sister.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/sister.mp3"
+  },
+  {
+   "id": "tab",
+   "en": "tab",
+   "ko": "탭",
+   "pic": "../packs/basic_a_u3/tab.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/tab.mp3"
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 팔",
+   "pic": "../packs/basic_a_u1/eight.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/eight.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "wait",
+    "help",
+    "sorry",
+    "left"
+   ],
+   "odd": "left"
+  },
+  {
+   "items": [
+    "sorry",
+    "grandmother",
+    "quiet",
+    "help"
+   ],
+   "odd": "grandmother"
+  },
+  {
+   "items": [
+    "tomorrow",
+    "duck",
+    "quiet",
+    "afternoon"
+   ],
+   "odd": "duck"
+  },
+  {
+   "items": [
+    "tomorrow",
+    "afternoon",
+    "help",
+    "sister"
+   ],
+   "odd": "sister"
+  },
+  {
+   "items": [
+    "wait",
+    "tab",
+    "help",
+    "afternoon"
+   ],
+   "odd": "tab"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "good",
+   "tomorrow",
+   "sorry",
+   "pardon",
+   "help",
+   "please"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "good",
+   "afternoon",
+   "tomorrow",
+   "sorry",
+   "pardon",
+   "help"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "good",
+   "afternoon",
+   "tomorrow",
+   "sorry",
+   "pardon",
+   "help",
+   "please"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "See you tomorrow.",
+   "audio": "../packs/basic_a_u4/audio/{v}/seeyoutomorrow.mp3"
+  },
+  {
+   "text": "Good job!",
+   "audio": "audio/basic_a_u4/{v}/goodjob.mp3"
+  },
+  {
+   "text": "Good afternoon.",
+   "audio": "audio/basic_a_u4/{v}/goodafternoon.mp3"
+  },
+  {
+   "text": "I am sorry.",
+   "audio": "audio/basic_a_u4/{v}/iamsorry.mp3"
+  },
+  {
+   "text": "Pardon me?",
+   "audio": "audio/basic_a_u4/{v}/pardonme.mp3"
+  },
+  {
+   "text": "Help me, please.",
+   "audio": "audio/basic_a_u4/{v}/helpmeplease.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_a_u4/afternoon.jpg",
+   "q": {
+    "text": "Good afternoon.",
+    "audio": "audio/basic_a_u4/{v}/goodafternoon.mp3"
+   },
+   "choices": [
+    {
+     "text": "Hello, Mr. Cat.",
+     "audio": "audio/basic_a_u4/ai/hellomrcat.mp3"
+    },
+    {
+     "text": "Good afternoon, teacher.",
+     "audio": "audio/basic_a_u4/ai/goodafternoonteacher.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u4/tomorrow.jpg",
+   "q": {
+    "text": "See you tomorrow.",
+    "audio": "../packs/basic_a_u4/audio/{v}/seeyoutomorrow.mp3"
+   },
+   "choices": [
+    {
+     "text": "Thank you.",
+     "audio": "audio/basic_a_u4/ai/thankyou.mp3"
+    },
+    {
+     "text": "Bye! See you tomorrow.",
+     "audio": "audio/basic_a_u4/ai/byeseeyoutomorrow.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u4/quiet.jpg",
+   "q": {
+    "text": "Be quiet, please.",
+    "audio": "audio/basic_a_u4/{v}/bequietplease.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, it is.",
+     "audio": "audio/basic_a_u4/ai/yesitis.mp3"
+    },
+    {
+     "text": "I am sorry.",
+     "audio": "audio/basic_a_u4/ai/iamsorry.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u4/help.jpg",
+   "q": {
+    "text": "Can you help me?",
+    "audio": "audio/basic_a_u4/{v}/canyouhelpme.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, I can.",
+     "audio": "audio/basic_a_u4/ai/yesican.mp3"
+    },
+    {
+     "text": "I can dance.",
+     "audio": "audio/basic_a_u4/ai/icandance.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u4/",
+  "ai": "audio/basic_a_u4/ai/"
+ }
+}

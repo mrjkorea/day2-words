@@ -1,0 +1,520 @@
+{
+ "id": "basic_a_u5",
+ "title": "Basic A · Unit 5 · Family",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_a_u5/audio/us_f/",
+ "picDir": "../packs/basic_a_u5/",
+ "lineAudio": "audio/basic_a_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "aunt",
+   "choices": [
+    "aunt",
+    "brother",
+    "mom",
+    "cousin"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "dad",
+   "choices": [
+    "dad",
+    "aunt",
+    "mom",
+    "brother"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "grandmother",
+   "choices": [
+    "grandmother",
+    "nephew",
+    "sister",
+    "grandson"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "cousin",
+   "answer": "cousin",
+   "choices": [
+    "cousin",
+    "bousin",
+    "cousi",
+    "pousin"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "sister",
+   "answer": "sister",
+   "choices": [
+    "sister",
+    "siser",
+    "nister",
+    "suster"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "brother",
+   "audio": "audio/basic_a_u5/{v}/thisismybrother.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "brother."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "cousin",
+   "audio": "audio/basic_a_u5/{v}/thisismycousin.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "cousin."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nephew",
+   "audio": "audio/basic_a_u5/{v}/thisismynephew.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "nephew",
+   "choices": [
+    "nephew",
+    "cousin",
+    "grandson"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "mom",
+   "audio": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "mom",
+   "choices": [
+    "mom",
+    "uncle",
+    "aunt"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "sister",
+   "audio": "audio/basic_a_u5/{v}/thisismysister.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "sister",
+   "choices": [
+    "sister",
+    "nephew",
+    "dad"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "mom",
+   "en": "mom",
+   "ko": "엄마",
+   "pic": "../packs/basic_a_u5/mom.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/mom.mp3",
+   "stext": "This is my mom.",
+   "sentence": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3"
+  },
+  {
+   "id": "dad",
+   "en": "dad",
+   "ko": "아빠",
+   "pic": "../packs/basic_a_u5/dad.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/dad.mp3",
+   "stext": "This is my dad.",
+   "sentence": "audio/basic_a_u5/{v}/thisismydad.mp3"
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "누나, 언니, 여동생",
+   "pic": "../packs/basic_a_u5/sister.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/sister.mp3",
+   "stext": "This is my sister.",
+   "sentence": "audio/basic_a_u5/{v}/thisismysister.mp3"
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "pic": "../packs/basic_a_u5/brother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/brother.mp3",
+   "stext": "This is my brother.",
+   "sentence": "audio/basic_a_u5/{v}/thisismybrother.mp3"
+  },
+  {
+   "id": "uncle",
+   "en": "uncle",
+   "ko": "삼촌",
+   "pic": "../packs/basic_a_u5/uncle.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/uncle.mp3",
+   "stext": "This is my uncle.",
+   "sentence": "audio/basic_a_u5/{v}/thisismyuncle.mp3"
+  },
+  {
+   "id": "aunt",
+   "en": "aunt",
+   "ko": "이모, 고모",
+   "pic": "../packs/basic_a_u5/aunt.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/aunt.mp3",
+   "stext": "This is my aunt.",
+   "sentence": "audio/basic_a_u5/{v}/thisismyaunt.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/basic_a_u5/grandmother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandmother.mp3",
+   "stext": "This is my grandmother.",
+   "sentence": "audio/basic_a_u5/{v}/thisismygrandmother.mp3"
+  },
+  {
+   "id": "cousin",
+   "en": "cousin",
+   "ko": "사촌",
+   "pic": "../packs/basic_a_u5/cousin.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/cousin.mp3",
+   "stext": "This is my cousin.",
+   "sentence": "audio/basic_a_u5/{v}/thisismycousin.mp3"
+  },
+  {
+   "id": "nephew",
+   "en": "nephew",
+   "ko": "조카",
+   "pic": "../packs/basic_a_u5/nephew.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/nephew.mp3",
+   "stext": "This is my nephew.",
+   "sentence": "audio/basic_a_u5/{v}/thisismynephew.mp3"
+  },
+  {
+   "id": "grandson",
+   "en": "grandson",
+   "ko": "손자",
+   "pic": "../packs/basic_a_u5/grandson.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandson.mp3",
+   "stext": "This is my grandson.",
+   "sentence": "audio/basic_a_u5/{v}/thisismygrandson.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "monitor",
+   "en": "monitor",
+   "ko": "모니터",
+   "pic": "../packs/basic_a_u6/monitor.jpg",
+   "audio": "../packs/basic_a_u6/audio/{v}/monitor.mp3"
+  },
+  {
+   "id": "right",
+   "en": "right",
+   "ko": "오른쪽",
+   "pic": "../packs/basic_a_u3/right.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/right.mp3"
+  },
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 구",
+   "pic": "../packs/basic_a_u1/nine.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/nine.mp3"
+  },
+  {
+   "id": "fast",
+   "en": "fast",
+   "ko": "빠르게",
+   "pic": "../packs/basic_a_u7/fast.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/fast.mp3"
+  },
+  {
+   "id": "four",
+   "en": "four",
+   "ko": "넷, 사",
+   "pic": "../packs/basic_a_u1/four.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/four.mp3"
+  },
+  {
+   "id": "chicken",
+   "en": "chicken",
+   "ko": "닭",
+   "pic": "../packs/basic_a_u2/chicken.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/chicken.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "nephew",
+    "grandson",
+    "monitor",
+    "cousin"
+   ],
+   "odd": "monitor"
+  },
+  {
+   "items": [
+    "sister",
+    "right",
+    "grandson",
+    "dad"
+   ],
+   "odd": "right"
+  },
+  {
+   "items": [
+    "brother",
+    "nephew",
+    "sister",
+    "nine"
+   ],
+   "odd": "nine"
+  },
+  {
+   "items": [
+    "brother",
+    "fast",
+    "mom",
+    "dad"
+   ],
+   "odd": "fast"
+  },
+  {
+   "items": [
+    "grandmother",
+    "aunt",
+    "four",
+    "nephew"
+   ],
+   "odd": "four"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "mom",
+   "dad",
+   "sister",
+   "brother",
+   "uncle",
+   "aunt"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "mom",
+   "dad",
+   "sister",
+   "brother",
+   "uncle",
+   "aunt"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "mom",
+   "dad",
+   "sister",
+   "brother",
+   "uncle",
+   "aunt",
+   "grandmother"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "This is my mom.",
+   "audio": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3"
+  },
+  {
+   "text": "This is my dad.",
+   "audio": "audio/basic_a_u5/{v}/thisismydad.mp3"
+  },
+  {
+   "text": "This is my sister.",
+   "audio": "audio/basic_a_u5/{v}/thisismysister.mp3"
+  },
+  {
+   "text": "This is my brother.",
+   "audio": "audio/basic_a_u5/{v}/thisismybrother.mp3"
+  },
+  {
+   "text": "This is my uncle.",
+   "audio": "audio/basic_a_u5/{v}/thisismyuncle.mp3"
+  },
+  {
+   "text": "This is my aunt.",
+   "audio": "audio/basic_a_u5/{v}/thisismyaunt.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_a_u5/mom.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a book.",
+     "audio": "audio/basic_a_u5/ai/itisabook.mp3"
+    },
+    {
+     "text": "This is my mom.",
+     "audio": "audio/basic_a_u5/ai/thisismymom.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u5/dad.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my dad.",
+     "audio": "audio/basic_a_u5/ai/thisismydad.mp3"
+    },
+    {
+     "text": "Thank you.",
+     "audio": "audio/basic_a_u5/ai/thankyou.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u5/sister.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my sister.",
+     "audio": "audio/basic_a_u5/ai/thisismysister.mp3"
+    },
+    {
+     "text": "It is a book.",
+     "audio": "audio/basic_a_u5/ai/itisabook.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u5/grandmother.jpg",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "This is my grandmother.",
+     "audio": "audio/basic_a_u5/ai/thisismygrandmother.mp3"
+    },
+    {
+     "text": "Yes, it is.",
+     "audio": "audio/basic_a_u5/ai/yesitis.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u5/",
+  "ai": "audio/basic_a_u5/ai/"
+ }
+}

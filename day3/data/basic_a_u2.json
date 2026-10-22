@@ -1,0 +1,585 @@
+{
+ "id": "basic_a_u2",
+ "title": "Basic A · Unit 2 · Hello",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_a_u2/audio/us_f/",
+ "picDir": "../packs/basic_a_u2/",
+ "lineAudio": "audio/basic_a_u2/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cat",
+   "choices": [
+    "cat",
+    "horse",
+    "cow",
+    "dog"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "cow",
+   "choices": [
+    "cow",
+    "pig",
+    "duck",
+    "chicken"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "chicken",
+   "choices": [
+    "chicken",
+    "dog",
+    "sheep",
+    "horse"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "duck",
+   "answer": "duck",
+   "choices": [
+    "duck",
+    "duc",
+    "cuck",
+    "dumk"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "pig",
+   "answer": "pig",
+   "choices": [
+    "pig",
+    "piga",
+    "peg",
+    "pil"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sheep",
+   "audio": "audio/basic_a_u2/{v}/hellomrssheep.mp3",
+   "answer": [
+    "Hello,",
+    "Mrs.",
+    "Sheep."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "duck",
+   "audio": "audio/basic_a_u2/{v}/hellomrsduck.mp3",
+   "answer": [
+    "Hello,",
+    "Mrs.",
+    "Duck."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "pig",
+   "audio": "audio/basic_a_u2/{v}/hellomspig.mp3",
+   "sentence": [
+    "Hello,",
+    "Ms.",
+    "___",
+    "."
+   ],
+   "answer": "pig",
+   "choices": [
+    "pig",
+    "sheep",
+    "chicken"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "horse",
+   "audio": "audio/basic_a_u2/{v}/hellomrhorse.mp3",
+   "sentence": [
+    "Hello,",
+    "Mr.",
+    "___",
+    "."
+   ],
+   "answer": "horse",
+   "choices": [
+    "horse",
+    "chicken",
+    "cat"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "goat",
+   "audio": "audio/basic_a_u2/{v}/hellomsgoat.mp3",
+   "sentence": [
+    "Hello,",
+    "Ms.",
+    "___",
+    "."
+   ],
+   "answer": "goat",
+   "choices": [
+    "goat",
+    "horse",
+    "cow"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "hello",
+   "en": "hello",
+   "ko": "안녕하세요",
+   "pic": null,
+   "audio": "../packs/basic_a_u2/audio/{v}/hello.mp3",
+   "stext": "Hello, Mom.",
+   "sentence": "audio/basic_a_u2/{v}/hellomom.mp3"
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "pic": "../packs/basic_a_u2/cat.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/cat.mp3",
+   "stext": "Hello, Mr. Cat.",
+   "sentence": "../packs/basic_a_u2/audio/{v}/hellomrcat.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/basic_a_u2/dog.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/dog.mp3",
+   "stext": "Hello, Mr. Dog.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrdog.mp3"
+  },
+  {
+   "id": "cow",
+   "en": "cow",
+   "ko": "소",
+   "pic": "../packs/basic_a_u2/cow.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/cow.mp3",
+   "stext": "Hello, Mr. Cow.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrcow.mp3"
+  },
+  {
+   "id": "horse",
+   "en": "horse",
+   "ko": "말",
+   "pic": "../packs/basic_a_u2/horse.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/horse.mp3",
+   "stext": "Hello, Mr. Horse.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrhorse.mp3"
+  },
+  {
+   "id": "chicken",
+   "en": "chicken",
+   "ko": "닭",
+   "pic": "../packs/basic_a_u2/chicken.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/chicken.mp3",
+   "stext": "Hello, Ms. Chicken.",
+   "sentence": "audio/basic_a_u2/{v}/hellomschicken.mp3"
+  },
+  {
+   "id": "goat",
+   "en": "goat",
+   "ko": "염소",
+   "pic": "../packs/basic_a_u2/goat.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/goat.mp3",
+   "stext": "Hello, Ms. Goat.",
+   "sentence": "audio/basic_a_u2/{v}/hellomsgoat.mp3"
+  },
+  {
+   "id": "pig",
+   "en": "pig",
+   "ko": "돼지",
+   "pic": "../packs/basic_a_u2/pig.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/pig.mp3",
+   "stext": "Hello, Ms. Pig.",
+   "sentence": "audio/basic_a_u2/{v}/hellomspig.mp3"
+  },
+  {
+   "id": "sheep",
+   "en": "sheep",
+   "ko": "양",
+   "pic": "../packs/basic_a_u2/sheep.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/sheep.mp3",
+   "stext": "Hello, Mrs. Sheep.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrssheep.mp3"
+  },
+  {
+   "id": "duck",
+   "en": "duck",
+   "ko": "오리",
+   "pic": "../packs/basic_a_u2/duck.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/duck.mp3",
+   "stext": "Hello, Mrs. Duck.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrsduck.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "headset",
+   "en": "headset",
+   "ko": "헤드셋",
+   "pic": "../packs/basic_a_u6/headset.jpg",
+   "audio": "../packs/basic_a_u6/audio/{v}/headset.mp3"
+  },
+  {
+   "id": "desk",
+   "en": "desk",
+   "ko": "책상",
+   "pic": "../packs/basic_a_u6/desk.jpg",
+   "audio": "../packs/basic_a_u6/audio/{v}/desk.mp3"
+  },
+  {
+   "id": "unplug",
+   "en": "unplug",
+   "ko": "(플러그를) 뽑다",
+   "pic": "../packs/basic_a_u3/unplug.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/unplug.mp3"
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 팔",
+   "pic": "../packs/basic_a_u1/eight.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/eight.mp3"
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "십일 (11)",
+   "pic": "../packs/basic_a_u8/eleven.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/eleven.mp3"
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "pic": "../packs/basic_a_u5/brother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/brother.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/basic_a_u2/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "farm",
+  "hotspots": [
+   {
+    "id": "cat",
+    "x": 9,
+    "y": 23,
+    "w": 15,
+    "h": 21
+   },
+   {
+    "id": "dog",
+    "x": 39,
+    "y": 22,
+    "w": 17,
+    "h": 24
+   },
+   {
+    "id": "cow",
+    "x": 68,
+    "y": 23,
+    "w": 24,
+    "h": 24
+   },
+   {
+    "id": "horse",
+    "x": 7,
+    "y": 39,
+    "w": 25,
+    "h": 31
+   },
+   {
+    "id": "chicken",
+    "x": 42,
+    "y": 47,
+    "w": 14,
+    "h": 23
+   },
+   {
+    "id": "goat",
+    "x": 67,
+    "y": 46,
+    "w": 21,
+    "h": 26
+   },
+   {
+    "id": "pig",
+    "x": 9,
+    "y": 72,
+    "w": 20,
+    "h": 22
+   },
+   {
+    "id": "sheep",
+    "x": 38,
+    "y": 70,
+    "w": 21,
+    "h": 24
+   },
+   {
+    "id": "duck",
+    "x": 70,
+    "y": 73,
+    "w": 16,
+    "h": 22
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "horse",
+    "goat",
+    "cow",
+    "headset"
+   ],
+   "odd": "headset"
+  },
+  {
+   "items": [
+    "cow",
+    "goat",
+    "desk",
+    "chicken"
+   ],
+   "odd": "desk"
+  },
+  {
+   "items": [
+    "cat",
+    "duck",
+    "sheep",
+    "unplug"
+   ],
+   "odd": "unplug"
+  },
+  {
+   "items": [
+    "cat",
+    "cow",
+    "chicken",
+    "eight"
+   ],
+   "odd": "eight"
+  },
+  {
+   "items": [
+    "dog",
+    "eleven",
+    "chicken",
+    "duck"
+   ],
+   "odd": "eleven"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "hello",
+   "cat",
+   "dog",
+   "cow",
+   "horse",
+   "chicken"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "hello",
+   "cat",
+   "dog",
+   "cow",
+   "horse",
+   "chicken"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "hello",
+   "cat",
+   "dog",
+   "cow",
+   "horse",
+   "chicken",
+   "goat"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Hello, Mr. Cat.",
+   "audio": "../packs/basic_a_u2/audio/{v}/hellomrcat.mp3"
+  },
+  {
+   "text": "Hello, Mom.",
+   "audio": "audio/basic_a_u2/{v}/hellomom.mp3"
+  },
+  {
+   "text": "Hello, Mr. Dog.",
+   "audio": "audio/basic_a_u2/{v}/hellomrdog.mp3"
+  },
+  {
+   "text": "Hello, Mr. Cow.",
+   "audio": "audio/basic_a_u2/{v}/hellomrcow.mp3"
+  },
+  {
+   "text": "Hello, Mr. Horse.",
+   "audio": "audio/basic_a_u2/{v}/hellomrhorse.mp3"
+  },
+  {
+   "text": "Hello, Ms. Chicken.",
+   "audio": "audio/basic_a_u2/{v}/hellomschicken.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_a_u2/cat.jpg",
+   "q": {
+    "text": "Hello!",
+    "audio": "../packs/basic_a_u2/audio/{v}/hello.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, it is.",
+     "audio": "audio/basic_a_u2/ai/yesitis.mp3"
+    },
+    {
+     "text": "Hello, Mr. Cat.",
+     "audio": "audio/basic_a_u2/ai/hellomrcat.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u2/pig.jpg",
+   "q": {
+    "text": "Hello!",
+    "audio": "../packs/basic_a_u2/audio/{v}/hello.mp3"
+   },
+   "choices": [
+    {
+     "text": "I am fine.",
+     "audio": "audio/basic_a_u2/ai/iamfine.mp3"
+    },
+    {
+     "text": "Hello, Ms. Pig.",
+     "audio": "audio/basic_a_u2/ai/hellomspig.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u2/duck.jpg",
+   "q": {
+    "text": "Hello!",
+    "audio": "../packs/basic_a_u2/audio/{v}/hello.mp3"
+   },
+   "choices": [
+    {
+     "text": "Thank you.",
+     "audio": "audio/basic_a_u2/ai/thankyou.mp3"
+    },
+    {
+     "text": "Hello, Mrs. Duck.",
+     "audio": "audio/basic_a_u2/ai/hellomrsduck.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": null,
+   "q": {
+    "text": "Goodbye!",
+    "audio": "audio/basic_a_u2/{v}/goodbye.mp3"
+   },
+   "choices": [
+    {
+     "text": "Goodbye, Mom.",
+     "audio": "audio/basic_a_u2/ai/goodbyemom.mp3"
+    },
+    {
+     "text": "Hello, Mr. Cat.",
+     "audio": "audio/basic_a_u2/ai/hellomrcat.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u2/",
+  "ai": "audio/basic_a_u2/ai/"
+ }
+}

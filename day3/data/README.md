@@ -52,3 +52,12 @@ One big picture that holds every object of the unit, each clearly separate (Unit
 
 ## Hangman styles
 Before playing, the student picks a style: classic hangman (simple cartoon), snowman melting in the sun, balloon popping, or ice cream melting. The choice is saved in `mrj_day3_hangstyle`, and the 🎨 button changes it. No JSON is needed.
+
+## Phase 2 units (all books)
+- Built by /workspace/day3-inventory/build_unit.py from packs/<unit>.json plus a per-book spec (model sentences, dialogues).
+- Word pictures and word audio are used in place from the Day 2 pack: `../packs/<unit>/<id>.jpg`, `../packs/<unit>/audio/{v}/<id>.mp3`.
+- `{v}` in any audio path is replaced by the chosen voice (us_f, us_m, grandma, grandpa, robot).
+- New clips: `audio/<unit>/{v}/<name>.mp3` (sentences, questions) and `audio/<unit>/ai/<name>.mp3` (AI answers, Jay TTS).
+- A word with no picture (`pic: null`) shows a Korean-meaning card and is left out of map, odd-one-out and listen questions.
+- Scenes: `pics/<unit>/scene.webp` with hotspots in `data/<unit>.map.json`. No map file = picture-grid map.
+- `units.html` lists every unit (from data/units.json, made by make_units.py).

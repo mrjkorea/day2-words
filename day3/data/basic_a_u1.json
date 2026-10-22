@@ -1,0 +1,517 @@
+{
+ "id": "basic_a_u1",
+ "title": "Basic A · Unit 1 · Numbers 1 to 10",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_a_u1/audio/us_f/",
+ "picDir": "../packs/basic_a_u1/",
+ "lineAudio": "audio/basic_a_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "five",
+   "choices": [
+    "five",
+    "seven",
+    "ten",
+    "one"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "one",
+   "choices": [
+    "one",
+    "seven",
+    "five",
+    "two"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "two",
+   "choices": [
+    "two",
+    "one",
+    "three",
+    "ten"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "seven",
+   "answer": "seven",
+   "choices": [
+    "seven",
+    "sevin",
+    "sevon",
+    "even"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "six",
+   "answer": "six",
+   "choices": [
+    "six",
+    "mix",
+    "sixc",
+    "lix"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "seven",
+   "audio": "audio/basic_a_u1/{v}/ihavesevenapples.mp3",
+   "answer": [
+    "I",
+    "have",
+    "seven",
+    "apples."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "eight",
+   "audio": "audio/basic_a_u1/{v}/ihaveeightapples.mp3",
+   "answer": [
+    "I",
+    "have",
+    "eight",
+    "apples."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "seven",
+   "audio": "audio/basic_a_u1/{v}/ihavesevenapples.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "___",
+    "apples."
+   ],
+   "answer": "seven",
+   "choices": [
+    "seven",
+    "one",
+    "nine"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nine",
+   "audio": "audio/basic_a_u1/{v}/ihavenineapples.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "___",
+    "apples."
+   ],
+   "answer": "nine",
+   "choices": [
+    "nine",
+    "eight",
+    "ten"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "three",
+   "audio": "audio/basic_a_u1/{v}/ihavethreeapples.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "___",
+    "apples."
+   ],
+   "answer": "three",
+   "choices": [
+    "three",
+    "five",
+    "ten"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "one",
+   "en": "one",
+   "ko": "하나, 일",
+   "pic": "../packs/basic_a_u1/one.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/one.mp3",
+   "stext": "I have one apple.",
+   "sentence": "audio/basic_a_u1/{v}/ihaveoneapple.mp3"
+  },
+  {
+   "id": "two",
+   "en": "two",
+   "ko": "둘, 이",
+   "pic": "../packs/basic_a_u1/two.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/two.mp3",
+   "stext": "I have two apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavetwoapples.mp3"
+  },
+  {
+   "id": "three",
+   "en": "three",
+   "ko": "셋, 삼",
+   "pic": "../packs/basic_a_u1/three.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/three.mp3",
+   "stext": "I have three apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavethreeapples.mp3"
+  },
+  {
+   "id": "four",
+   "en": "four",
+   "ko": "넷, 사",
+   "pic": "../packs/basic_a_u1/four.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/four.mp3",
+   "stext": "I have four apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavefourapples.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 오",
+   "pic": "../packs/basic_a_u1/five.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/five.mp3",
+   "stext": "I have five apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavefiveapples.mp3"
+  },
+  {
+   "id": "six",
+   "en": "six",
+   "ko": "여섯, 육",
+   "pic": "../packs/basic_a_u1/six.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/six.mp3",
+   "stext": "I have six apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavesixapples.mp3"
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 칠",
+   "pic": "../packs/basic_a_u1/seven.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/seven.mp3",
+   "stext": "I have seven apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavesevenapples.mp3"
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 팔",
+   "pic": "../packs/basic_a_u1/eight.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/eight.mp3",
+   "stext": "I have eight apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihaveeightapples.mp3"
+  },
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 구",
+   "pic": "../packs/basic_a_u1/nine.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/nine.mp3",
+   "stext": "I have nine apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavenineapples.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열, 십",
+   "pic": "../packs/basic_a_u1/ten.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/ten.mp3",
+   "stext": "I have ten apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavetenapples.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "달리다",
+   "pic": "../packs/basic_a_u7/run.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/run.mp3"
+  },
+  {
+   "id": "wait",
+   "en": "wait",
+   "ko": "기다리다",
+   "pic": "../packs/basic_a_u4/wait.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/wait.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/basic_a_u4/quiet.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/quiet.mp3"
+  },
+  {
+   "id": "mom",
+   "en": "mom",
+   "ko": "엄마",
+   "pic": "../packs/basic_a_u5/mom.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/mom.mp3"
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "pic": "../packs/basic_a_u2/cat.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/cat.mp3"
+  },
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "pic": "../packs/basic_a_u4/tomorrow.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/tomorrow.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "three",
+    "run",
+    "ten",
+    "two"
+   ],
+   "odd": "run"
+  },
+  {
+   "items": [
+    "five",
+    "wait",
+    "six",
+    "ten"
+   ],
+   "odd": "wait"
+  },
+  {
+   "items": [
+    "five",
+    "ten",
+    "quiet",
+    "one"
+   ],
+   "odd": "quiet"
+  },
+  {
+   "items": [
+    "mom",
+    "two",
+    "seven",
+    "six"
+   ],
+   "odd": "mom"
+  },
+  {
+   "items": [
+    "two",
+    "nine",
+    "six",
+    "cat"
+   ],
+   "odd": "cat"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "one",
+   "two",
+   "three",
+   "four",
+   "five",
+   "six"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "one",
+   "two",
+   "three",
+   "four",
+   "five",
+   "six"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "one",
+   "two",
+   "three",
+   "four",
+   "five",
+   "six",
+   "seven"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I have one apple.",
+   "audio": "audio/basic_a_u1/{v}/ihaveoneapple.mp3"
+  },
+  {
+   "text": "I have two apples.",
+   "audio": "audio/basic_a_u1/{v}/ihavetwoapples.mp3"
+  },
+  {
+   "text": "I have three apples.",
+   "audio": "audio/basic_a_u1/{v}/ihavethreeapples.mp3"
+  },
+  {
+   "text": "I have four apples.",
+   "audio": "audio/basic_a_u1/{v}/ihavefourapples.mp3"
+  },
+  {
+   "text": "I have five apples.",
+   "audio": "audio/basic_a_u1/{v}/ihavefiveapples.mp3"
+  },
+  {
+   "text": "I have six apples.",
+   "audio": "audio/basic_a_u1/{v}/ihavesixapples.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_a_u1/three.jpg",
+   "q": {
+    "text": "How many apples?",
+    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
+   },
+   "choices": [
+    {
+     "text": "Hello, Mr. Cat.",
+     "audio": "audio/basic_a_u1/ai/hellomrcat.mp3"
+    },
+    {
+     "text": "I have three apples.",
+     "audio": "audio/basic_a_u1/ai/ihavethreeapples.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u1/five.jpg",
+   "q": {
+    "text": "How many apples?",
+    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
+   },
+   "choices": [
+    {
+     "text": "Hello, Mr. Cat.",
+     "audio": "audio/basic_a_u1/ai/hellomrcat.mp3"
+    },
+    {
+     "text": "I have five apples.",
+     "audio": "audio/basic_a_u1/ai/ihavefiveapples.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u1/eight.jpg",
+   "q": {
+    "text": "How many apples?",
+    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
+   },
+   "choices": [
+    {
+     "text": "Thank you.",
+     "audio": "audio/basic_a_u1/ai/thankyou.mp3"
+    },
+    {
+     "text": "I have eight apples.",
+     "audio": "audio/basic_a_u1/ai/ihaveeightapples.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u1/ten.jpg",
+   "q": {
+    "text": "How many apples?",
+    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
+   },
+   "choices": [
+    {
+     "text": "Thank you.",
+     "audio": "audio/basic_a_u1/ai/thankyou.mp3"
+    },
+    {
+     "text": "I have ten apples.",
+     "audio": "audio/basic_a_u1/ai/ihavetenapples.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u1/",
+  "ai": "audio/basic_a_u1/ai/"
+ }
+}

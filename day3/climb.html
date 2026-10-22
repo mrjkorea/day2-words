@@ -31,8 +31,8 @@
 <script src="wb.js"></script>
 <script>
 let D,i=0,right=0,pos=0,locked=false,N=0;const card=document.getElementById('card'),vid=document.getElementById('vid');
-const sh=WB.sh,word=w=>WB.play(D.wordAudio+w.split(' ')[0]+'.mp3'),line=f=>WB.play(D.lineAudio+f);
-const pic=w=>`<img src="${D.picDir}${w}.webp" alt="${w}">`;
+const sh=WB.sh,word=w=>{const x=WB.w(w);return WB.play(x?x.audio:D.wordAudio+w.split(' ')[0]+'.mp3')},line=f=>WB.play(f.includes('/')?f:D.lineAudio+f);
+const pic=w=>{const x=WB.w(w);return x&&x.pic?`<img src="${x.pic}" alt="">`:x&&!x.pic?`<div class="kcard">${x.ko||""}</div>`:`<img src="${D.picDir}${w}.webp" alt="${w}">`};
 function spot(p){const t=p/N,y=380-t*350,x=150+Math.sin(t*9)*(70*(1-t));return[x,y]}
 function move(){const[x,y]=spot(pos);document.getElementById('climber').setAttribute('transform',`translate(${x},${y})`)}
 function drawSteps(){let s='';for(let k=0;k<=N;k++){const[x,y]=spot(k);s+=`<circle cx="${x}" cy="${y}" r="4" fill="#5c940d"/>`}document.getElementById('steps').innerHTML=s}

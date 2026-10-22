@@ -8,7 +8,7 @@ const U=s=>s.toUpperCase().replace(/[^A-Z]/g,'');
 A.match=()=>{const W=WB.D.words,n=W.length;let right=0,done=0,sel=null,miss=new Set();
  app().innerHTML=head('match','Tap a word (hear it!), then tap its picture.')+`<div class="grid2"><div id="L" style="display:grid;gap:6px"></div><div id="R" class="grid2"></div></div><div id="fb"></div></div>`;
  WB.sh(W).forEach(w=>{const b=document.createElement('button');b.textContent='🔊 '+w.en;b.dataset.id=w.id;b.onclick=()=>{if(b.disabled)return;document.querySelectorAll('#L button').forEach(x=>x.classList.remove('sel'));b.classList.add('sel');sel=w.id;WB.play(w.audio)};$('#L').appendChild(b)});
- WB.sh(W).forEach(w=>{const b=document.createElement('button');b.style.background='#f1f9ff';b.innerHTML=`<img class="pic" src="${w.pic}" alt="">`;b.dataset.id=w.id;b.onclick=()=>pick(b);$('#R').appendChild(b)});
+ WB.sh(W).forEach(w=>{const b=document.createElement('button');b.style.background='#f1f9ff';b.innerHTML=WB.picHTML(w);b.dataset.id=w.id;b.onclick=()=>pick(b);$('#R').appendChild(b)});
  function hit(id,good){const l=$(`#L [data-id="${id}"]`),r=$(`#R [data-id="${id}"]`);l.disabled=r.disabled=true;l.classList.remove('sel');l.classList.add('ok');r.classList.add('ok');if(good)right++,WB.tick('match',right,n);done++;if(done===n)setTimeout(()=>WB.end('match',right,n),900)}
  function pick(b){if(b.disabled)return;if(!sel){fb('First tap a word.',false);return}
   if(b.dataset.id===sel){hit(sel,!miss.has(sel));fb('🎉 Great!',true);WB.play(WB.w(sel).audio);sel=null}
@@ -16,7 +16,7 @@ A.match=()=>{const W=WB.D.words,n=W.length;let right=0,done=0,sel=null,miss=new 
  WB.skipBtn(()=>{const l=[...document.querySelectorAll('#L button')].find(x=>!x.disabled);if(l)hit(l.dataset.id,true)});};
 
 // 2. Map Quiz: one big scene picture with hotspot boxes (unit JSON "map"), or a picture grid if there is no scene
-A.map=()=>{const M=WB.D.map||{},hs=M.scene&&M.hotspots?M.hotspots:null;const W=hs?hs.map(h=>WB.w(h.id)).filter(Boolean):WB.D.words,order=WB.sh(W),n=order.length;let i=0,right=0,missed=false,lock=false;
+A.map=()=>{const M=WB.D.map||{},hs=M.scene&&M.hotspots?M.hotspots:null;const W=hs?hs.map(h=>WB.w(h.id)).filter(Boolean):WB.D.words.filter(w=>w.pic).slice(0,8),order=WB.sh(W),n=order.length;let i=0,right=0,missed=false,lock=false;
  app().innerHTML=head('map',hs?'Listen. Tap that thing in the picture!':'Listen. Tap the right picture.',0,n)+`<button class="snd" id="pl">🔊 Listen</button> <b id="cnt"></b><div id="fb"></div>
  <div id="mp" class="${hs?'scene':''}">${hs?`<img src="${M.scene}" alt="scene" draggable="false">`:'<div class="grid4" id="g"></div>'}</div></div>`;
  const box=(h,cls,label)=>{const d=document.createElement('div');d.className='hit '+(cls||'');d.style.cssText=`left:${h.x}%;top:${h.y}%;width:${h.w}%;height:${h.h}%`;if(label)d.innerHTML='<span>'+label+'</span>';$('#mp').appendChild(d);return d};
@@ -51,7 +51,7 @@ A.search=()=>{const cfg=WB.D.wordSearch||{},N=cfg.size||8;const W=(cfg.words||WB
  const AB='ABCDEFGHIJKLMNOPRSTUVWY';g=g.map(row=>row.map(v=>v||AB[Math.floor(Math.random()*AB.length)]));
  const n=placed.length;let found=new Set(),right=0,missed=false,start=null;
  app().innerHTML=head('search','Find the words. Tap the first letter, then the last letter.')+`<div class="lg" id="lg" style="grid-template-columns:repeat(${N},1fr);max-width:420px"></div>
- <div class="grid4" id="ws">`+placed.map(p=>`<div data-w="${p.w.id}" style="border-radius:12px;background:#f1f9ff;padding:4px"><img class="pic" style="max-width:70px" src="${p.w.pic}" alt=""><button class="snd" style="font-size:15px;padding:6px">🔊 ${p.w.en}</button></div>`).join('')+`</div><div id="fb"></div></div>`;
+ <div class="grid4" id="ws">`+placed.map(p=>`<div data-w="${p.w.id}" style="border-radius:12px;background:#f1f9ff;padding:4px">${WB.picHTML(p.w,"max-width:70px;min-height:50px;font-size:14px")}<button class="snd" style="font-size:15px;padding:6px">🔊 ${p.w.en}</button></div>`).join('')+`</div><div id="fb"></div></div>`;
  placed.forEach(p=>$(`[data-w="${p.w.id}"] button`).onclick=()=>WB.play(p.w.audio));
  g.forEach((row,r)=>row.forEach((ch,c)=>{const d=document.createElement('div');d.textContent=ch;d.dataset.r=r;d.dataset.c=c;d.onclick=()=>tap(r,c,d);$('#lg').appendChild(d)}));
  const cell=(r,c)=>$(`#lg [data-r="${r}"][data-c="${c}"]`);
@@ -79,7 +79,7 @@ A.hangman=()=>{const W=WB.sh((WB.D.hangman&&WB.D.hangman.words||WB.D.words.map(w
   document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{localStorage.setItem('mrj_day3_hangstyle',b.dataset.s);go()})}
  function go(){S=HSTY[localStorage.getItem('mrj_day3_hangstyle')]||HSTY.snow;i=0;right=0;show()}
  function show(){lives=LIVES;got=new Set();lock=false;const w=W[i];
-  app().innerHTML=head('hangman','Listen and look. '+S.hint,i,n)+`<div style="display:flex;justify-content:center;gap:16px;align-items:center;min-height:160px"><img class="pic" src="${w.pic}" alt=""><div id="sm" style="transition:.4s">${S.draw(LIVES,LIVES)}</div></div>
+  app().innerHTML=head('hangman','Listen and look. '+S.hint,i,n)+`<div style="display:flex;justify-content:center;gap:16px;align-items:center;min-height:160px">${WB.picHTML(w)}<div id="sm" style="transition:.4s">${S.draw(LIVES,LIVES)}</div></div>
   <button class="snd" id="pl">🔊 Listen</button> <button id="chs" style="font-size:15px">🎨 Style</button><div id="wd" style="font-size:36px;letter-spacing:8px;margin:10px"></div><div class="keys" id="k"></div><div id="fb"></div></div>`;
   $('#pl').onclick=()=>WB.play(w.audio);$('#chs').onclick=choose;setTimeout(()=>WB.play(w.audio),300);
   'abcdefghijklmnopqrstuvwxyz'.split('').forEach(ch=>{const b=document.createElement('button');b.textContent=ch;b.onclick=()=>guess(ch,b);$('#k').appendChild(b)});draw()}
@@ -102,7 +102,7 @@ A.cross=()=>{const W=(WB.D.crossword&&WB.D.crossword.words||WB.D.words.map(w=>w.
  const rs=[...G.keys()].map(k=>+k.split(',')[0]),cs=[...G.keys()].map(k=>+k.split(',')[1]),r0=Math.min(...rs),c0=Math.min(...cs),R=Math.max(...rs)-r0+1,C=Math.max(...cs)-c0+1;
  P.forEach((p,k)=>{p.r-=r0;p.c-=c0;p.no=k+1});const n=P.length;let right=0,done=new Set(),tries={},cur=null;
  app().innerHTML=head('cross','Tap a picture clue, listen, and type the word.')+`<div class="lg" id="lg" style="grid-template-columns:repeat(${C},1fr);max-width:${Math.min(460,C*44)}px"></div>
- <div class="grid4" id="cl">`+P.map(p=>`<button data-k="${p.no}" style="background:#f1f9ff;padding:4px"><b>${p.no} ${p.d[1]?'→':'↓'}</b><img class="pic" style="max-width:64px" src="${p.w.pic}" alt=""></button>`).join('')+`</div>
+ <div class="grid4" id="cl">`+P.map(p=>`<button data-k="${p.no}" style="background:#f1f9ff;padding:4px"><b>${p.no} ${p.d[1]?'→':'↓'}</b>${WB.picHTML(p.w,"max-width:64px;min-height:50px;font-size:13px")}</button>`).join('')+`</div>
  <div id="inp" style="margin:10px;display:none"><button class="snd" id="pl">🔊</button> <input id="ans" autocomplete="off" autocapitalize="off" style="font:inherit;font-size:22px;width:160px;padding:8px;border-radius:10px;border:3px solid #74c0fc"> <button id="go">OK</button></div><div id="fb"></div></div>`;
  for(let r=0;r<R;r++)for(let c=0;c<C;c++){const d=document.createElement('div');d.id='x'+r+'_'+c;d.className=G.has(key(r+r0,c+c0))?'c':'x';$('#lg').appendChild(d)}
  P.forEach(p=>{const e=$('#x'+p.r+'_'+p.c);if(!e.querySelector('small'))e.insertAdjacentHTML('afterbegin',`<small>${p.no}</small>`)});
@@ -129,7 +129,7 @@ A.unscramble=()=>{const E=WB.D.expressions,n=E.length;let i=0,right=0,lock,misse
 // 8. Complete the Dialogue
 A.dialogue=()=>{const D=WB.D.dialogues,n=D.length;let i=0,right=0,lock;
  function show(){lock=false;const d=D[i];
-  app().innerHTML=head('dialogue','Listen to the question. Pick the best answer for the AI 🤖 to say.',i,n)+`<img class="pic" src="${d.pic}" alt=""><div style="font-size:26px;margin:8px">🧑 ${d.q.text} <button class="snd" id="pl">🔊</button></div>
+  app().innerHTML=head('dialogue','Listen to the question. Pick the best answer for the AI 🤖 to say.',i,n)+`${d.pic?`<img class="pic" src="${d.pic}" alt="">`:""}<div style="font-size:26px;margin:8px">🧑 ${d.q.text} <button class="snd" id="pl">🔊</button></div>
   <div style="display:grid;gap:8px">`+d.choices.map((c,k)=>`<button data-k="${k}" style="font-size:24px">🤖 ${c.text}</button>`).join('')+`</div><div id="fb"></div></div>`;
   $('#pl').onclick=()=>WB.play(d.q.audio);setTimeout(()=>WB.play(d.q.audio),300);
   document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>pick(+b.dataset.k===d.answer,b))}

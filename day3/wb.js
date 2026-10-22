@@ -18,8 +18,8 @@ WB.voice=()=>{const v=localStorage.getItem('mrj_day3_voice');return WB.VOICES.so
 WB.setVoice=v=>{localStorage.setItem('mrj_day3_voice',v);document.querySelectorAll('[data-voice]').forEach(b=>b.classList.toggle('sel',b.dataset.voice===v))};
 WB.voiceBar=()=>'<div class="vbar">'+WB.VOICES.map(([id,n,ic])=>`<button data-voice="${id}" class="${WB.voice()===id?'sel':''}" onclick="WB.setVoice('${id}');WB.play('audio/whatisthis.mp3')">${ic} ${n}</button>`).join('')+'</div>';
 // Taught words/sentences play in the chosen voice. Coach Ray (audio/ray/) and the AI voice (audio/ai/) are never changed.
-WB.vsrc=src=>{const m=/(?:^|\/)(?:audio|songs\/words)\/(\w+)\.mp3$/.exec(src||'');if(!m||/audio\/(ray|ai|v)\//.test(src))return src;return ((WB.D&&WB.D.voices&&WB.D.voices.dir)||'audio/v/')+WB.voice()+'/'+m[1]+'.mp3'};
-WB.ai=src=>((WB.D&&WB.D.voices&&WB.D.voices.ai)||'audio/ai/')+String(src).split('/').pop();
+WB.vsrc=src=>{if(src&&src.includes('{v}'))return src.split('{v}').join(WB.voice());const m=/(?:^|\/)(?:audio|songs\/words)\/(\w+)\.mp3$/.exec(src||'');if(!m||/audio\/(ray|ai|v)\//.test(src))return src;return ((WB.D&&WB.D.voices&&WB.D.voices.dir)||'audio/v/')+WB.voice()+'/'+m[1]+'.mp3'};
+WB.ai=src=>/\/ai\//.test(src)?src:((WB.D&&WB.D.voices&&WB.D.voices.ai)||'audio/ai/')+String(src).split('/').pop();
 WB.voiceBtn=()=>{if(document.querySelector('.vpick'))return;const b=document.createElement('button');b.className='vpick snd';b.textContent='🗣️';b.title='Choose a voice';
  b.onclick=()=>{let p=document.querySelector('.vpop');if(p){p.remove();return}p=document.createElement('div');p.className='vpop card';p.innerHTML='<b>Choose a voice</b>'+WB.voiceBar();document.body.appendChild(p)};document.body.appendChild(b)};
 let _res=null;WB.play=src=>new Promise(res=>{src=WB.vsrc(src);try{if(_cur){_cur.pause();const r=_res;_res=null;r&&setTimeout(r,0)}const a=new Audio(src);_cur=a;_res=res;a.onended=()=>{if(_res===res)_res=null;res()};a.onerror=res;a.play().catch(()=>res())}catch(e){res()}});
@@ -43,3 +43,6 @@ WB.end=(id,right,n)=>{const pct=n?Math.round(right/n*100):0;WB.save(id,pct,right
  <div class="p" style="font-size:24px">${pct===100?'🌟 GOLD STAR! Perfect!':pct>=(WB.D.passPercent||80)?'⭐ Next level unlocked!':'Get '+(WB.D.passPercent||80)+'% to open the next level. Try again!'}</div><p><button onclick="location.reload()">🔁 Again</button> <button onclick="location.href=WB.link('index.html')">🏠 Steps</button>
  ${nx&&pct>=(WB.D.passPercent||80)?`<button class="ok" style="font-size:26px;padding:14px 22px" onclick="location.href=WB.link('${nx[0]==='climb'?'climb.html':'play.html'}','${nx[0]==='climb'?'':'&a='+nx[0]}')">Next level ▶</button>`:''}</p></div>`;document.querySelector('.nextlvl')?.remove();WB.cheer(pct===100||pct>=(WB.D.passPercent||80)?'top':'retry')};
 WB.skipBtn=fn=>{if(!WB.test)return;let b=document.querySelector('.skip');if(!b){b=document.createElement('button');b.className='skip';b.textContent='TEST: skip ✓';document.body.appendChild(b)}b.onclick=fn};
+
+// Picture, or a Korean-meaning card for words with no picture
+WB.picHTML=(w,style)=>w&&w.pic?`<img class="pic" ${style?`style="${style}"`:''} src="${w.pic}" alt="">`:`<div class="kcard" ${style?`style="${style}"`:''}>${w&&w.ko||'?'}</div>`;

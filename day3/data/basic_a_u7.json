@@ -1,0 +1,573 @@
+{
+ "id": "basic_a_u7",
+ "title": "Basic A · Unit 7 · I can",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_a_u7/audio/us_f/",
+ "picDir": "../packs/basic_a_u7/",
+ "lineAudio": "audio/basic_a_u7/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "chinese",
+   "choices": [
+    "chinese",
+    "taekwondo",
+    "dance",
+    "sing"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fast",
+   "choices": [
+    "fast",
+    "study",
+    "dance",
+    "draw"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "run",
+   "choices": [
+    "run",
+    "fast",
+    "magic",
+    "taekwondo"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "sing",
+   "answer": "sing",
+   "choices": [
+    "sing",
+    "sinm",
+    "song",
+    "sig"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "chinese",
+   "answer": "Chinese",
+   "choices": [
+    "Chinese",
+    "Chinuse",
+    "Chinesu",
+    "thinese"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "study",
+   "audio": "audio/basic_a_u7/{v}/icanstudy.mp3",
+   "answer": [
+    "I",
+    "can",
+    "study."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "chinese",
+   "audio": "audio/basic_a_u7/{v}/icanspeakchinese.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "Chinese."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "sing",
+   "audio": "audio/basic_a_u7/{v}/icansing.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "sing",
+   "choices": [
+    "sing",
+    "piano",
+    "dance"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "study",
+   "audio": "audio/basic_a_u7/{v}/icanstudy.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "study",
+   "choices": [
+    "study",
+    "draw",
+    "run"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "fast",
+   "audio": "audio/basic_a_u7/{v}/icanrunfast.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "run",
+    "___",
+    "."
+   ],
+   "answer": "fast",
+   "choices": [
+    "fast",
+    "piano",
+    "Chinese"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "pic": "../packs/basic_a_u7/dance.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/dance.mp3",
+   "stext": "I can dance.",
+   "sentence": "../packs/basic_a_u7/audio/{v}/icandance.mp3"
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "달리다",
+   "pic": "../packs/basic_a_u7/run.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/run.mp3",
+   "stext": "I can run.",
+   "sentence": "audio/basic_a_u7/{v}/icanrun.mp3"
+  },
+  {
+   "id": "fast",
+   "en": "fast",
+   "ko": "빠르게",
+   "pic": "../packs/basic_a_u7/fast.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/fast.mp3",
+   "stext": "I can run fast.",
+   "sentence": "audio/basic_a_u7/{v}/icanrunfast.mp3"
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/basic_a_u7/sing.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/sing.mp3",
+   "stext": "I can sing.",
+   "sentence": "audio/basic_a_u7/{v}/icansing.mp3"
+  },
+  {
+   "id": "taekwondo",
+   "en": "taekwondo",
+   "ko": "태권도",
+   "pic": "../packs/basic_a_u7/taekwondo.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/taekwondo.mp3",
+   "stext": "I can do taekwondo.",
+   "sentence": "audio/basic_a_u7/{v}/icandotaekwondo.mp3"
+  },
+  {
+   "id": "piano",
+   "en": "piano",
+   "ko": "피아노",
+   "pic": "../packs/basic_a_u7/piano.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/piano.mp3",
+   "stext": "I can play the piano.",
+   "sentence": "audio/basic_a_u7/{v}/icanplaythepiano.mp3"
+  },
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "pic": "../packs/basic_a_u7/draw.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/draw.mp3",
+   "stext": "I can draw.",
+   "sentence": "audio/basic_a_u7/{v}/icandraw.mp3"
+  },
+  {
+   "id": "chinese",
+   "en": "Chinese",
+   "ko": "중국어",
+   "pic": "../packs/basic_a_u7/chinese.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/chinese.mp3",
+   "stext": "I can speak Chinese.",
+   "sentence": "audio/basic_a_u7/{v}/icanspeakchinese.mp3"
+  },
+  {
+   "id": "magic",
+   "en": "magic",
+   "ko": "마술",
+   "pic": "../packs/basic_a_u7/magic.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/magic.mp3",
+   "stext": "I can do magic.",
+   "sentence": "audio/basic_a_u7/{v}/icandomagic.mp3"
+  },
+  {
+   "id": "study",
+   "en": "study",
+   "ko": "공부하다",
+   "pic": "../packs/basic_a_u7/study.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/study.mp3",
+   "stext": "I can study.",
+   "sentence": "audio/basic_a_u7/{v}/icanstudy.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "two",
+   "en": "two",
+   "ko": "둘, 이",
+   "pic": "../packs/basic_a_u1/two.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/two.mp3"
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "pic": "../packs/basic_a_u3/computer.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/computer.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/basic_a_u5/grandmother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandmother.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/basic_a_u6/book.jpg",
+   "audio": "../packs/basic_a_u6/audio/{v}/book.mp3"
+  },
+  {
+   "id": "tab",
+   "en": "tab",
+   "ko": "탭",
+   "pic": "../packs/basic_a_u3/tab.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/tab.mp3"
+  },
+  {
+   "id": "uncle",
+   "en": "uncle",
+   "ko": "삼촌",
+   "pic": "../packs/basic_a_u5/uncle.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/uncle.mp3"
+  }
+ ],
+ "map": {
+  "scene": "pics/basic_a_u7/scene.webp",
+  "w": 1152,
+  "h": 864,
+  "prompt": "talent show",
+  "hotspots": [
+   {
+    "id": "dance",
+    "x": 1,
+    "y": 30,
+    "w": 15,
+    "h": 37
+   },
+   {
+    "id": "run",
+    "x": 15,
+    "y": 32,
+    "w": 15,
+    "h": 34
+   },
+   {
+    "id": "sing",
+    "x": 30,
+    "y": 31,
+    "w": 13,
+    "h": 36
+   },
+   {
+    "id": "taekwondo",
+    "x": 44,
+    "y": 32,
+    "w": 14,
+    "h": 34
+   },
+   {
+    "id": "piano",
+    "x": 58,
+    "y": 28,
+    "w": 11,
+    "h": 35
+   },
+   {
+    "id": "draw",
+    "x": 70,
+    "y": 33,
+    "w": 15,
+    "h": 33
+   },
+   {
+    "id": "magic",
+    "x": 85,
+    "y": 30,
+    "w": 14,
+    "h": 38
+   }
+  ]
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "fast",
+    "magic",
+    "draw",
+    "two"
+   ],
+   "odd": "two"
+  },
+  {
+   "items": [
+    "study",
+    "magic",
+    "computer",
+    "dance"
+   ],
+   "odd": "computer"
+  },
+  {
+   "items": [
+    "run",
+    "taekwondo",
+    "grandmother",
+    "piano"
+   ],
+   "odd": "grandmother"
+  },
+  {
+   "items": [
+    "dance",
+    "draw",
+    "chinese",
+    "book"
+   ],
+   "odd": "book"
+  },
+  {
+   "items": [
+    "draw",
+    "piano",
+    "tab",
+    "taekwondo"
+   ],
+   "odd": "tab"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "dance",
+   "run",
+   "fast",
+   "sing",
+   "piano",
+   "draw"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "dance",
+   "run",
+   "fast",
+   "sing",
+   "taekwondo",
+   "piano"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "dance",
+   "run",
+   "fast",
+   "sing",
+   "taekwondo",
+   "piano",
+   "draw"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "I can dance.",
+   "audio": "../packs/basic_a_u7/audio/{v}/icandance.mp3"
+  },
+  {
+   "text": "I can run.",
+   "audio": "audio/basic_a_u7/{v}/icanrun.mp3"
+  },
+  {
+   "text": "I can run fast.",
+   "audio": "audio/basic_a_u7/{v}/icanrunfast.mp3"
+  },
+  {
+   "text": "I can sing.",
+   "audio": "audio/basic_a_u7/{v}/icansing.mp3"
+  },
+  {
+   "text": "I can do taekwondo.",
+   "audio": "audio/basic_a_u7/{v}/icandotaekwondo.mp3"
+  },
+  {
+   "text": "I can play the piano.",
+   "audio": "audio/basic_a_u7/{v}/icanplaythepiano.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_a_u7/dance.jpg",
+   "q": {
+    "text": "Can you dance?",
+    "audio": "audio/basic_a_u7/{v}/canyoudance.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, I can dance.",
+     "audio": "audio/basic_a_u7/ai/yesicandance.mp3"
+    },
+    {
+     "text": "Yes, it is.",
+     "audio": "audio/basic_a_u7/ai/yesitis.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u7/sing.jpg",
+   "q": {
+    "text": "Can you sing?",
+    "audio": "audio/basic_a_u7/{v}/canyousing.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, I can sing.",
+     "audio": "audio/basic_a_u7/ai/yesicansing.mp3"
+    },
+    {
+     "text": "Yes, it is.",
+     "audio": "audio/basic_a_u7/ai/yesitis.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u7/draw.jpg",
+   "q": {
+    "text": "Can you draw?",
+    "audio": "audio/basic_a_u7/{v}/canyoudraw.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, I can draw.",
+     "audio": "audio/basic_a_u7/ai/yesicandraw.mp3"
+    },
+    {
+     "text": "I am fine.",
+     "audio": "audio/basic_a_u7/ai/iamfine.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u7/piano.jpg",
+   "q": {
+    "text": "Can you play the piano?",
+    "audio": "audio/basic_a_u7/{v}/canyouplaythepiano.mp3"
+   },
+   "choices": [
+    {
+     "text": "I can dance.",
+     "audio": "audio/basic_a_u7/ai/icandance.mp3"
+    },
+    {
+     "text": "Yes, I can play the piano.",
+     "audio": "audio/basic_a_u7/ai/yesicanplaythepiano.mp3"
+    }
+   ],
+   "answer": 1
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u7/",
+  "ai": "audio/basic_a_u7/ai/"
+ }
+}

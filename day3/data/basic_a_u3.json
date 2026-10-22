@@ -1,0 +1,510 @@
+{
+ "id": "basic_a_u3",
+ "title": "Basic A · Unit 3 · Computer Orders",
+ "passPercent": 80,
+ "wordAudio": "../packs/basic_a_u3/audio/us_f/",
+ "picDir": "../packs/basic_a_u3/",
+ "lineAudio": "audio/basic_a_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "right",
+   "choices": [
+    "right",
+    "headset",
+    "tab",
+    "left"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "scroll",
+   "choices": [
+    "scroll",
+    "left",
+    "unplug",
+    "restart"
+   ]
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "type",
+   "choices": [
+    "type",
+    "double",
+    "left",
+    "restart"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "type",
+   "answer": "type",
+   "choices": [
+    "type",
+    "tye",
+    "ype",
+    "tyme"
+   ]
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "left",
+   "answer": "left",
+   "choices": [
+    "left",
+    "lect",
+    "lest",
+    "lft"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "unplug",
+   "audio": "audio/basic_a_u3/{v}/unplugyourheadset.mp3",
+   "answer": [
+    "Unplug",
+    "your",
+    "headset."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "tab",
+   "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3",
+   "answer": [
+    "Make",
+    "a",
+    "new",
+    "tab."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "scroll",
+   "audio": "audio/basic_a_u3/{v}/scrolldown.mp3",
+   "sentence": [
+    "___",
+    "down."
+   ],
+   "answer": "scroll",
+   "choices": [
+    "scroll",
+    "double",
+    "tab"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "click",
+   "audio": "audio/basic_a_u3/{v}/clickhere.mp3",
+   "sentence": [
+    "___",
+    "here."
+   ],
+   "answer": "click",
+   "choices": [
+    "click",
+    "type",
+    "right"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "left",
+   "audio": "audio/basic_a_u3/{v}/leftclick.mp3",
+   "sentence": [
+    "___",
+    "click."
+   ],
+   "answer": "left",
+   "choices": [
+    "left",
+    "type",
+    "restart"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "unplug",
+   "en": "unplug",
+   "ko": "(플러그를) 뽑다",
+   "pic": "../packs/basic_a_u3/unplug.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/unplug.mp3",
+   "stext": "Unplug your headset.",
+   "sentence": "audio/basic_a_u3/{v}/unplugyourheadset.mp3"
+  },
+  {
+   "id": "headset",
+   "en": "headset",
+   "ko": "헤드셋",
+   "pic": "../packs/basic_a_u3/headset.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/headset.mp3",
+   "stext": "Put on your headset.",
+   "sentence": "audio/basic_a_u3/{v}/putonyourheadset.mp3"
+  },
+  {
+   "id": "scroll",
+   "en": "scroll",
+   "ko": "스크롤하다",
+   "pic": "../packs/basic_a_u3/scroll.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/scroll.mp3",
+   "stext": "Scroll down.",
+   "sentence": "audio/basic_a_u3/{v}/scrolldown.mp3"
+  },
+  {
+   "id": "type",
+   "en": "type",
+   "ko": "(자판을) 치다",
+   "pic": "../packs/basic_a_u3/type.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/type.mp3",
+   "stext": "Type your ID.",
+   "sentence": "audio/basic_a_u3/{v}/typeyourid.mp3"
+  },
+  {
+   "id": "tab",
+   "en": "tab",
+   "ko": "탭",
+   "pic": "../packs/basic_a_u3/tab.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/tab.mp3",
+   "stext": "Make a new tab.",
+   "sentence": "audio/basic_a_u3/{v}/makeanewtab.mp3"
+  },
+  {
+   "id": "click",
+   "en": "click",
+   "ko": "클릭하다",
+   "pic": "../packs/basic_a_u3/click.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/click.mp3",
+   "stext": "Click here.",
+   "sentence": "audio/basic_a_u3/{v}/clickhere.mp3"
+  },
+  {
+   "id": "left",
+   "en": "left",
+   "ko": "왼쪽",
+   "pic": "../packs/basic_a_u3/left.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/left.mp3",
+   "stext": "Left click.",
+   "sentence": "audio/basic_a_u3/{v}/leftclick.mp3"
+  },
+  {
+   "id": "right",
+   "en": "right",
+   "ko": "오른쪽",
+   "pic": "../packs/basic_a_u3/right.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/right.mp3",
+   "stext": "Right click.",
+   "sentence": "audio/basic_a_u3/{v}/rightclick.mp3"
+  },
+  {
+   "id": "double",
+   "en": "double",
+   "ko": "두 번의",
+   "pic": "../packs/basic_a_u3/double.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/double.mp3",
+   "stext": "Double click.",
+   "sentence": "audio/basic_a_u3/{v}/doubleclick.mp3"
+  },
+  {
+   "id": "restart",
+   "en": "restart",
+   "ko": "다시 시작하다",
+   "pic": "../packs/basic_a_u3/restart.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/restart.mp3",
+   "stext": "Restart your computer.",
+   "sentence": "../packs/basic_a_u3/audio/{v}/restartyourcomputer.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "grandson",
+   "en": "grandson",
+   "ko": "손자",
+   "pic": "../packs/basic_a_u5/grandson.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandson.mp3"
+  },
+  {
+   "id": "one",
+   "en": "one",
+   "ko": "하나, 일",
+   "pic": "../packs/basic_a_u1/one.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/one.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/basic_a_u5/grandmother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandmother.mp3"
+  },
+  {
+   "id": "monitor",
+   "en": "monitor",
+   "ko": "모니터",
+   "pic": "../packs/basic_a_u6/monitor.jpg",
+   "audio": "../packs/basic_a_u6/audio/{v}/monitor.mp3"
+  },
+  {
+   "id": "chicken",
+   "en": "chicken",
+   "ko": "닭",
+   "pic": "../packs/basic_a_u2/chicken.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/chicken.mp3"
+  },
+  {
+   "id": "horse",
+   "en": "horse",
+   "ko": "말",
+   "pic": "../packs/basic_a_u2/horse.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/horse.mp3"
+  }
+ ],
+ "map": {},
+ "oddOneOut": [
+  {
+   "items": [
+    "tab",
+    "grandson",
+    "type",
+    "restart"
+   ],
+   "odd": "grandson"
+  },
+  {
+   "items": [
+    "left",
+    "one",
+    "type",
+    "headset"
+   ],
+   "odd": "one"
+  },
+  {
+   "items": [
+    "grandmother",
+    "tab",
+    "double",
+    "type"
+   ],
+   "odd": "grandmother"
+  },
+  {
+   "items": [
+    "unplug",
+    "tab",
+    "scroll",
+    "monitor"
+   ],
+   "odd": "monitor"
+  },
+  {
+   "items": [
+    "headset",
+    "unplug",
+    "chicken",
+    "tab"
+   ],
+   "odd": "chicken"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "unplug",
+   "headset",
+   "scroll",
+   "type",
+   "tab",
+   "click"
+  ]
+ },
+ "hangman": {
+  "words": [
+   "unplug",
+   "headset",
+   "scroll",
+   "type",
+   "tab",
+   "click"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "unplug",
+   "headset",
+   "scroll",
+   "type",
+   "tab",
+   "click",
+   "left"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "Restart your computer.",
+   "audio": "../packs/basic_a_u3/audio/{v}/restartyourcomputer.mp3"
+  },
+  {
+   "text": "Unplug your headset.",
+   "audio": "audio/basic_a_u3/{v}/unplugyourheadset.mp3"
+  },
+  {
+   "text": "Put on your headset.",
+   "audio": "audio/basic_a_u3/{v}/putonyourheadset.mp3"
+  },
+  {
+   "text": "Scroll down.",
+   "audio": "audio/basic_a_u3/{v}/scrolldown.mp3"
+  },
+  {
+   "text": "Type your ID.",
+   "audio": "audio/basic_a_u3/{v}/typeyourid.mp3"
+  },
+  {
+   "text": "Make a new tab.",
+   "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "../packs/basic_a_u3/headset.jpg",
+   "q": {
+    "text": "Unplug your headset.",
+    "audio": "audio/basic_a_u3/{v}/unplugyourheadset.mp3"
+   },
+   "choices": [
+    {
+     "text": "I don't have a headset.",
+     "audio": "audio/basic_a_u3/ai/idonthaveaheadset.mp3"
+    },
+    {
+     "text": "Hello, Mr. Cat.",
+     "audio": "audio/basic_a_u3/ai/hellomrcat.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u3/restart.jpg",
+   "q": {
+    "text": "Restart your computer.",
+    "audio": "../packs/basic_a_u3/audio/{v}/restartyourcomputer.mp3"
+   },
+   "choices": [
+    {
+     "text": "See you tomorrow.",
+     "audio": "audio/basic_a_u3/ai/seeyoutomorrow.mp3"
+    },
+    {
+     "text": "Okay.",
+     "audio": "audio/basic_a_u3/ai/okay.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "../packs/basic_a_u3/tab.jpg",
+   "q": {
+    "text": "Make a new tab.",
+    "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3"
+   },
+   "choices": [
+    {
+     "text": "No problem.",
+     "audio": "audio/basic_a_u3/ai/noproblem.mp3"
+    },
+    {
+     "text": "Yes, it is.",
+     "audio": "audio/basic_a_u3/ai/yesitis.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "../packs/basic_a_u3/type.jpg",
+   "q": {
+    "text": "Type your ID.",
+    "audio": "audio/basic_a_u3/{v}/typeyourid.mp3"
+   },
+   "choices": [
+    {
+     "text": "Okay.",
+     "audio": "audio/basic_a_u3/ai/okay.mp3"
+    },
+    {
+     "text": "Yes, it is.",
+     "audio": "audio/basic_a_u3/ai/yesitis.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "review": {
+  "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
+  "types": [
+   "listen",
+   "spell",
+   "order",
+   "fill"
+  ]
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u3/",
+  "ai": "audio/basic_a_u3/ai/"
+ }
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "id": "basic_a_u1",
+  "book": "basic_a",
+  "n": 1,
+  "title": "Basic A · Unit 1 · Numbers 1 to 10"
+ },
+ {
+  "id": "basic_a_u2",
+  "book": "basic_a",
+  "n": 2,
+  "title": "Basic A · Unit 2 · Hello"
+ },
+ {
+  "id": "basic_a_u3",
+  "book": "basic_a",
+  "n": 3,
+  "title": "Basic A · Unit 3 · Computer Orders"
+ },
+ {
+  "id": "basic_a_u4",
+  "book": "basic_a",
+  "n": 4,
+  "title": "Basic A · Unit 4 · Classroom English One"
+ },
+ {
+  "id": "basic_a_u5",
+  "book": "basic_a",
+  "n": 5,
+  "title": "Basic A · Unit 5 · Family"
+ },
+ {
+  "id": "basic_a_u06",
+  "book": "basic_a",
+  "n": 6,
+  "title": "Basic A · Unit 6 · What is this?"
+ },
+ {
+  "id": "basic_a_u7",
+  "book": "basic_a",
+  "n": 7,
+  "title": "Basic A · Unit 7 · I can"
+ },
+ {
+  "id": "basic_a_u8",
+  "book": "basic_a",
+  "n": 8,
+  "title": "Basic A · Unit 8 · Numbers 11–100"
+ }
+]
