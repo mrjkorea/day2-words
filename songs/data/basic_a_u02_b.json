@@ -1,0 +1,1178 @@
+{
+ "id": "basic_a_u02_b",
+ "title": "Hello, Mr. Horse!",
+ "book": "Basic A",
+ "unit": 2,
+ "unitTitle": "Animals",
+ "packId": "basic_a_u2",
+ "audio": "audio/basic_a_u02_b.mp3",
+ "duration": 121.37,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Good morning, farm!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 0.77,
+     "end": 1.82
+    },
+    {
+     "t": "morning,",
+     "start": 1.82,
+     "end": 2.2
+    },
+    {
+     "t": "farm!",
+     "start": 2.44,
+     "end": 4.94
+    }
+   ],
+   "n": 1,
+   "start": 0.77,
+   "end": 4.94,
+   "pic": "cat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hello, Mr. Horse! Neigh!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 5.04,
+     "end": 5.54
+    },
+    {
+     "t": "Mr.",
+     "start": 6.88,
+     "end": 7.22
+    },
+    {
+     "t": "Horse!",
+     "start": 7.22,
+     "end": 8.2,
+     "pic": "horse"
+    },
+    {
+     "t": "Neigh!",
+     "start": 8.44,
+     "end": 9.18
+    }
+   ],
+   "n": 2,
+   "start": 5.04,
+   "end": 9.18,
+   "pic": "horse"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hello, Mr. Cow! Moo!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 9.24,
+     "end": 9.8
+    },
+    {
+     "t": "Mr.",
+     "start": 11.34,
+     "end": 11.84
+    },
+    {
+     "t": "Cow!",
+     "start": 11.88,
+     "end": 12.94,
+     "pic": "cow"
+    },
+    {
+     "t": "Moo!",
+     "start": 13.02,
+     "end": 13.76
+    }
+   ],
+   "n": 3,
+   "start": 9.24,
+   "end": 13.76,
+   "pic": "cow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hello, Mr. Dog! Woof, woof!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 13.96,
+     "end": 14.42
+    },
+    {
+     "t": "Mr.",
+     "start": 15.98,
+     "end": 16.5
+    },
+    {
+     "t": "Dog!",
+     "start": 16.7,
+     "end": 17.34,
+     "pic": "dog"
+    },
+    {
+     "t": "Woof,",
+     "start": 17.36,
+     "end": 17.72
+    },
+    {
+     "t": "woof!",
+     "start": 17.72,
+     "end": 18.48
+    }
+   ],
+   "n": 4,
+   "start": 13.96,
+   "end": 18.48,
+   "pic": "dog"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hello, Mr. Cat! Meow!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 18.56,
+     "end": 19.08
+    },
+    {
+     "t": "Mr.",
+     "start": 20.66,
+     "end": 21.12
+    },
+    {
+     "t": "Cat!",
+     "start": 21.2,
+     "end": 21.64,
+     "pic": "cat"
+    },
+    {
+     "t": "Meow!",
+     "start": 22.22,
+     "end": 23.4
+    }
+   ],
+   "n": 5,
+   "start": 18.56,
+   "end": 23.4,
+   "pic": "hellomrcat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello, hello!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 23.82,
+     "end": 24.55
+    },
+    {
+     "t": "hello,",
+     "start": 24.57,
+     "end": 25.31
+    },
+    {
+     "t": "hello!",
+     "start": 25.33,
+     "end": 26.08
+    }
+   ],
+   "n": 6,
+   "start": 23.82,
+   "end": 26.08,
+   "pic": "hellomrcat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Chicken! Cluck!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 26.2,
+     "end": 26.58
+    },
+    {
+     "t": "Ms.",
+     "start": 26.82,
+     "end": 26.96
+    },
+    {
+     "t": "Chicken!",
+     "start": 27.06,
+     "end": 28.0,
+     "pic": "chicken"
+    },
+    {
+     "t": "Cluck!",
+     "start": 28.18,
+     "end": 28.38
+    }
+   ],
+   "n": 7,
+   "start": 26.2,
+   "end": 28.38,
+   "pic": "chicken"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Goat! Maa!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 28.6,
+     "end": 28.88
+    },
+    {
+     "t": "Ms.",
+     "start": 29.12,
+     "end": 29.3
+    },
+    {
+     "t": "Goat!",
+     "start": 29.38,
+     "end": 29.8,
+     "pic": "goat"
+    },
+    {
+     "t": "Maa!",
+     "start": 29.98,
+     "end": 31.24
+    }
+   ],
+   "n": 8,
+   "start": 28.6,
+   "end": 31.24,
+   "pic": "goat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Pig! Oink, oink!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 31.24,
+     "end": 31.38
+    },
+    {
+     "t": "Ms.",
+     "start": 31.46,
+     "end": 31.76
+    },
+    {
+     "t": "Pig!",
+     "start": 31.76,
+     "end": 31.98,
+     "pic": "pig"
+    },
+    {
+     "t": "Oink,",
+     "start": 31.98,
+     "end": 32.32
+    },
+    {
+     "t": "oink!",
+     "start": 32.32,
+     "end": 32.52
+    }
+   ],
+   "n": 9,
+   "start": 31.24,
+   "end": 32.52,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, everybody!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 33.1,
+     "end": 33.81
+    },
+    {
+     "t": "everybody!",
+     "start": 33.83,
+     "end": 34.92
+    }
+   ],
+   "n": 10,
+   "start": 33.1,
+   "end": 34.92,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello, hello!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 34.92,
+     "end": 36.95
+    },
+    {
+     "t": "hello,",
+     "start": 36.97,
+     "end": 39.01
+    },
+    {
+     "t": "hello!",
+     "start": 39.03,
+     "end": 41.08
+    }
+   ],
+   "n": 11,
+   "start": 34.92,
+   "end": 41.08,
+   "pic": "pig"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Hello, Mrs. Sheep! Baa!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 41.08,
+     "end": 42.57
+    },
+    {
+     "t": "Mrs.",
+     "start": 42.59,
+     "end": 43.7
+    },
+    {
+     "t": "Sheep!",
+     "start": 43.72,
+     "end": 45.21,
+     "pic": "sheep"
+    },
+    {
+     "t": "Baa!",
+     "start": 45.23,
+     "end": 46.36
+    }
+   ],
+   "n": 12,
+   "start": 41.08,
+   "end": 46.36,
+   "pic": "sheep"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Hello, Mrs. Duck! Quack, quack!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 46.5,
+     "end": 47.28
+    },
+    {
+     "t": "Mrs.",
+     "start": 48.58,
+     "end": 48.9
+    },
+    {
+     "t": "Duck!",
+     "start": 49.28,
+     "end": 49.56,
+     "pic": "duck"
+    },
+    {
+     "t": "Quack,",
+     "start": 49.64,
+     "end": 50.12
+    },
+    {
+     "t": "quack!",
+     "start": 50.26,
+     "end": 51.02
+    }
+   ],
+   "n": 13,
+   "start": 46.5,
+   "end": 51.02,
+   "pic": "duck"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Hello, Ms. Goat! Maa!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 51.2,
+     "end": 51.58
+    },
+    {
+     "t": "Ms.",
+     "start": 53.22,
+     "end": 53.66
+    },
+    {
+     "t": "Goat!",
+     "start": 53.86,
+     "end": 54.74,
+     "pic": "goat"
+    },
+    {
+     "t": "Maa!",
+     "start": 54.82,
+     "end": 55.7
+    }
+   ],
+   "n": 14,
+   "start": 51.2,
+   "end": 55.7,
+   "pic": "goat"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Hello, Ms. Pig! Oink, oink!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 55.82,
+     "end": 56.2
+    },
+    {
+     "t": "Ms.",
+     "start": 56.5,
+     "end": 56.7
+    },
+    {
+     "t": "Pig!",
+     "start": 56.7,
+     "end": 57.02,
+     "pic": "pig"
+    },
+    {
+     "t": "Oink,",
+     "start": 57.02,
+     "end": 57.36
+    },
+    {
+     "t": "oink!",
+     "start": 57.48,
+     "end": 57.94
+    }
+   ],
+   "n": 15,
+   "start": 55.82,
+   "end": 57.94,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello, hello!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 58.2,
+     "end": 58.92
+    },
+    {
+     "t": "hello,",
+     "start": 58.94,
+     "end": 59.66
+    },
+    {
+     "t": "hello!",
+     "start": 59.68,
+     "end": 60.42
+    }
+   ],
+   "n": 16,
+   "start": 58.2,
+   "end": 60.42,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Chicken! Cluck!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 60.68,
+     "end": 61.1
+    },
+    {
+     "t": "Ms.",
+     "start": 61.22,
+     "end": 61.44
+    },
+    {
+     "t": "Chicken!",
+     "start": 61.48,
+     "end": 62.48,
+     "pic": "chicken"
+    },
+    {
+     "t": "Cluck!",
+     "start": 62.66,
+     "end": 62.86
+    }
+   ],
+   "n": 17,
+   "start": 60.68,
+   "end": 62.86,
+   "pic": "chicken"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Goat! Maa!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 62.86,
+     "end": 63.32
+    },
+    {
+     "t": "Ms.",
+     "start": 63.54,
+     "end": 63.68
+    },
+    {
+     "t": "Goat!",
+     "start": 63.86,
+     "end": 64.3,
+     "pic": "goat"
+    },
+    {
+     "t": "Maa!",
+     "start": 64.34,
+     "end": 64.92
+    }
+   ],
+   "n": 18,
+   "start": 62.86,
+   "end": 64.92,
+   "pic": "goat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Pig! Oink, oink!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 65.08,
+     "end": 65.6
+    },
+    {
+     "t": "Ms.",
+     "start": 65.94,
+     "end": 66.08
+    },
+    {
+     "t": "Pig!",
+     "start": 66.18,
+     "end": 66.3,
+     "pic": "pig"
+    },
+    {
+     "t": "Oink,",
+     "start": 66.34,
+     "end": 66.69
+    },
+    {
+     "t": "oink!",
+     "start": 66.7,
+     "end": 66.88
+    }
+   ],
+   "n": 19,
+   "start": 65.08,
+   "end": 66.88,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, everybody!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 66.88,
+     "end": 67.5
+    },
+    {
+     "t": "everybody!",
+     "start": 68.3,
+     "end": 69.18
+    }
+   ],
+   "n": 20,
+   "start": 66.88,
+   "end": 69.18,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello, hello!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 69.38,
+     "end": 69.96
+    },
+    {
+     "t": "hello,",
+     "start": 70.96,
+     "end": 71.44
+    },
+    {
+     "t": "hello!",
+     "start": 76.96,
+     "end": 77.48
+    }
+   ],
+   "n": 21,
+   "start": 69.38,
+   "end": 77.48,
+   "pic": "pig"
+  },
+  {
+   "section": "Bridge",
+   "text": "Hello, Mrs. Spider...",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 77.48,
+     "end": 77.79
+    },
+    {
+     "t": "Mrs.",
+     "start": 77.81,
+     "end": 78.03
+    },
+    {
+     "t": "Spider...",
+     "start": 78.05,
+     "end": 78.5,
+     "pic": "spider"
+    }
+   ],
+   "n": 22,
+   "start": 77.48,
+   "end": 78.5,
+   "pic": "spider"
+  },
+  {
+   "section": "Bridge",
+   "text": "Oh no! A spider!",
+   "words": [
+    {
+     "t": "Oh",
+     "start": 78.76,
+     "end": 79.16
+    },
+    {
+     "t": "no!",
+     "start": 79.18,
+     "end": 79.67
+    },
+    {
+     "t": "A",
+     "start": 79.69,
+     "end": 79.99
+    },
+    {
+     "t": "spider!",
+     "start": 80.01,
+     "end": 80.94,
+     "pic": "spider"
+    }
+   ],
+   "n": 23,
+   "start": 78.76,
+   "end": 80.94,
+   "pic": "spider"
+  },
+  {
+   "section": "Bridge",
+   "text": "Hello, Mrs. Spider!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 80.94,
+     "end": 81.36
+    },
+    {
+     "t": "Mrs.",
+     "start": 81.96,
+     "end": 82.32
+    },
+    {
+     "t": "Spider!",
+     "start": 82.74,
+     "end": 83.16,
+     "pic": "spider"
+    }
+   ],
+   "n": 24,
+   "start": 80.94,
+   "end": 83.16,
+   "pic": "spider"
+  },
+  {
+   "section": "Bridge",
+   "text": "Goodbye, Mrs. Spider!",
+   "words": [
+    {
+     "t": "Goodbye,",
+     "start": 83.2,
+     "end": 83.82
+    },
+    {
+     "t": "Mrs.",
+     "start": 84.32,
+     "end": 84.7
+    },
+    {
+     "t": "Spider!",
+     "start": 85.12,
+     "end": 85.86,
+     "pic": "spider"
+    }
+   ],
+   "n": 25,
+   "start": 83.2,
+   "end": 85.86,
+   "pic": "spider"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello, hello!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 86.14,
+     "end": 86.88
+    },
+    {
+     "t": "hello,",
+     "start": 86.9,
+     "end": 87.64
+    },
+    {
+     "t": "hello!",
+     "start": 87.66,
+     "end": 88.42
+    }
+   ],
+   "n": 26,
+   "start": 86.14,
+   "end": 88.42,
+   "pic": "spider"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Chicken! Cluck!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 88.54,
+     "end": 89.1
+    },
+    {
+     "t": "Ms.",
+     "start": 89.12,
+     "end": 89.46
+    },
+    {
+     "t": "Chicken!",
+     "start": 89.48,
+     "end": 90.18,
+     "pic": "chicken"
+    },
+    {
+     "t": "Cluck!",
+     "start": 90.2,
+     "end": 90.78
+    }
+   ],
+   "n": 27,
+   "start": 88.54,
+   "end": 90.78,
+   "pic": "chicken"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Goat! Maa!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 91.18,
+     "end": 91.66
+    },
+    {
+     "t": "Ms.",
+     "start": 91.68,
+     "end": 91.98
+    },
+    {
+     "t": "Goat!",
+     "start": 92.0,
+     "end": 92.42,
+     "pic": "goat"
+    },
+    {
+     "t": "Maa!",
+     "start": 92.44,
+     "end": 92.82
+    }
+   ],
+   "n": 28,
+   "start": 91.18,
+   "end": 92.82,
+   "pic": "goat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, Ms. Pig! Oink, oink!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 93.14,
+     "end": 93.52
+    },
+    {
+     "t": "Ms.",
+     "start": 93.88,
+     "end": 94.0
+    },
+    {
+     "t": "Pig!",
+     "start": 94.16,
+     "end": 94.3,
+     "pic": "pig"
+    },
+    {
+     "t": "Oink,",
+     "start": 94.32,
+     "end": 94.62
+    },
+    {
+     "t": "oink!",
+     "start": 94.62,
+     "end": 94.84
+    }
+   ],
+   "n": 29,
+   "start": 93.14,
+   "end": 94.84,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, everybody!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 95.44,
+     "end": 96.12
+    },
+    {
+     "t": "everybody!",
+     "start": 96.14,
+     "end": 97.18
+    }
+   ],
+   "n": 30,
+   "start": 95.44,
+   "end": 97.18,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello, hello!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 97.18,
+     "end": 97.9
+    },
+    {
+     "t": "hello,",
+     "start": 98.26,
+     "end": 99.8
+    },
+    {
+     "t": "hello!",
+     "start": 99.8,
+     "end": 100.72
+    }
+   ],
+   "n": 31,
+   "start": 97.18,
+   "end": 100.72,
+   "pic": "pig"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Hello, hello, hello!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 100.8,
+     "end": 101.36
+    },
+    {
+     "t": "hello,",
+     "start": 101.38,
+     "end": 101.94
+    },
+    {
+     "t": "hello!",
+     "start": 101.96,
+     "end": 102.54
+    }
+   ],
+   "n": 32,
+   "start": 100.8,
+   "end": 102.54,
+   "pic": "pig"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Hello, Ms. Chicken! Cluck!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 102.54,
+     "end": 102.86
+    },
+    {
+     "t": "Ms.",
+     "start": 103.02,
+     "end": 103.4
+    },
+    {
+     "t": "Chicken!",
+     "start": 103.4,
+     "end": 104.2,
+     "pic": "chicken"
+    },
+    {
+     "t": "Cluck!",
+     "start": 104.44,
+     "end": 104.92
+    }
+   ],
+   "n": 33,
+   "start": 102.54,
+   "end": 104.92,
+   "pic": "chicken"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Hello, Ms. Goat! Maa!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 104.92,
+     "end": 105.08
+    },
+    {
+     "t": "Ms.",
+     "start": 105.4,
+     "end": 105.72
+    },
+    {
+     "t": "Goat!",
+     "start": 105.72,
+     "end": 106.22,
+     "pic": "goat"
+    },
+    {
+     "t": "Maa!",
+     "start": 106.32,
+     "end": 106.74
+    }
+   ],
+   "n": 34,
+   "start": 104.92,
+   "end": 106.74,
+   "pic": "goat"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Hello, Ms. Pig! Oink, oink!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 107.06,
+     "end": 107.51
+    },
+    {
+     "t": "Ms.",
+     "start": 107.53,
+     "end": 107.8
+    },
+    {
+     "t": "Pig!",
+     "start": 107.82,
+     "end": 108.16,
+     "pic": "pig"
+    },
+    {
+     "t": "Oink,",
+     "start": 108.18,
+     "end": 108.57
+    },
+    {
+     "t": "oink!",
+     "start": 108.59,
+     "end": 109.0
+    }
+   ],
+   "n": 35,
+   "start": 107.06,
+   "end": 109.0,
+   "pic": "pig"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Hello, everybody!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 109.4,
+     "end": 110.02
+    },
+    {
+     "t": "everybody!",
+     "start": 110.04,
+     "end": 111.0
+    }
+   ],
+   "n": 36,
+   "start": 109.4,
+   "end": 111.0,
+   "pic": "pig"
+  },
+  {
+   "section": "Final Chorus",
+   "text": "Hello, hello, hello!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 111.12,
+     "end": 111.66
+    },
+    {
+     "t": "hello,",
+     "start": 112.84,
+     "end": 113.34
+    },
+    {
+     "t": "hello!",
+     "start": 113.98,
+     "end": 114.6
+    }
+   ],
+   "n": 37,
+   "start": 111.12,
+   "end": 114.6,
+   "pic": "pig"
+  },
+  {
+   "section": "Outro",
+   "text": "Hello, everybody!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 114.6,
+     "end": 115.15
+    },
+    {
+     "t": "everybody!",
+     "start": 115.17,
+     "end": 116.02
+    }
+   ],
+   "n": 38,
+   "start": 114.6,
+   "end": 116.02,
+   "pic": "pig"
+  },
+  {
+   "section": "Outro",
+   "text": "Hello! Hello!",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 116.12,
+     "end": 116.7
+    },
+    {
+     "t": "Hello!",
+     "start": 116.72,
+     "end": 117.32
+    }
+   ],
+   "n": 39,
+   "start": 116.12,
+   "end": 117.32,
+   "pic": "pig"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "horse",
+   "prompt": "What is this?",
+   "answer": "horse",
+   "choices": [
+    "horse",
+    "cow",
+    "pig"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "cat",
+   "prompt": "Listen. What animal?",
+   "answer": "cat",
+   "choices": [
+    "dog",
+    "cat",
+    "duck"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sheep",
+   "prompt": "What is this?",
+   "answer": "sheep",
+   "choices": [
+    "goat",
+    "sheep",
+    "chicken"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "duck",
+   "prompt": "Listen. What animal?",
+   "answer": "duck",
+   "choices": [
+    "duck",
+    "pig",
+    "horse"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "spider",
+   "prompt": "What is this?",
+   "answer": "spider",
+   "choices": [
+    "cat",
+    "spider",
+    "cow"
+   ]
+  }
+ ]
+}

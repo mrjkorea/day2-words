@@ -10,6 +10,15 @@
    "packId": "basic_a_u1"
   },
   {
+   "id": "basic_a_u02_b",
+   "title": "Hello, Mr. Horse!",
+   "book": "Basic A",
+   "unit": 2,
+   "unitTitle": "Animals",
+   "blurb": "Say hello to the farm animals!",
+   "packId": "basic_a_u2"
+  },
+  {
    "id": "basic_a_u06_a",
    "title": "What Is This?",
    "book": "Basic A",
