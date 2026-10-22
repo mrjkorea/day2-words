@@ -1,21 +1,425 @@
 {
-  "id": "basic_a_u06",
-  "title": "Basic A · Unit 6 · What is this?",
-  "passPercent": 80,
-  "wordAudio": "../songs/words/",
-  "picDir": "pics/",
-  "lineAudio": "audio/",
-  "lines": { "great": "great.mp3", "oops": "oops.mp3", "pass": "pass.mp3", "retry": "retry.mp3" },
-  "questions": [
-    { "type": "listen", "prompt": "Listen. Tap the picture.", "answer": "book", "choices": ["book", "pen", "desk", "cube"] },
-    { "type": "spell", "prompt": "What is this? Pick the right spelling.", "pic": "pen", "answer": "pen", "choices": ["pen", "pne", "ppen"] },
-    { "type": "order", "prompt": "Put the words in order.", "audio": "whatisthis.mp3", "answer": ["What", "is", "this?"] },
-    { "type": "listen", "prompt": "Listen. Tap the picture.", "answer": "mouse", "choices": ["keyboard", "mouse", "monitor", "clipboard"] },
-    { "type": "fill", "prompt": "Fill in the missing word.", "pic": "book", "audio": "itisabook.mp3", "sentence": ["It", "is", "a", "___", "."], "answer": "book", "choices": ["book", "pen", "desk"] },
-    { "type": "spell", "prompt": "What is this? Pick the right spelling.", "pic": "desk", "answer": "desk", "choices": ["dsek", "desk", "deks"] },
-    { "type": "fill", "prompt": "Fill in the missing word.", "pic": "pen", "audio": "whatisthis.mp3", "sentence": ["What", "___", "this", "?"], "answer": "is", "choices": ["is", "it", "a"] },
-    { "type": "order", "prompt": "Put the words in order.", "pic": "cube", "audio": "itisacube.mp3", "answer": ["It", "is", "a", "cube."] },
-    { "type": "listen", "prompt": "Listen. Tap the picture.", "answer": "clipboard", "choices": ["cube", "book", "clipboard", "monitor"] },
-    { "type": "spell", "prompt": "What is this? Pick the right spelling.", "pic": "keyboard", "answer": "keyboard", "choices": ["keybord", "keyboard", "kayboard"] }
+ "id": "basic_a_u06",
+ "title": "Basic A · Unit 6 · What is this?",
+ "passPercent": 80,
+ "wordAudio": "../songs/words/",
+ "picDir": "pics/",
+ "lineAudio": "audio/",
+ "lines": {
+  "great": "great.mp3",
+  "oops": "oops.mp3",
+  "pass": "pass.mp3",
+  "retry": "retry.mp3",
+  "done": "done.mp3"
+ },
+ "questions": [
+  {
+   "type": "listen",
+   "prompt": "Listen. Tap the picture.",
+   "answer": "book",
+   "choices": [
+    "book",
+    "pen",
+    "desk",
+    "cube"
+   ]
+  },
+  {
+   "type": "spell",
+   "prompt": "What is this? Pick the right spelling.",
+   "pic": "pen",
+   "answer": "pen",
+   "choices": [
+    "pen",
+    "pne",
+    "ppen"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "audio": "whatisthis.mp3",
+   "answer": [
+    "What",
+    "is",
+    "this?"
+   ]
+  },
+  {
+   "type": "listen",
+   "prompt": "Listen. Tap the picture.",
+   "answer": "mouse",
+   "choices": [
+    "keyboard",
+    "mouse",
+    "monitor",
+    "clipboard"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "pic": "book",
+   "audio": "itisabook.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "book",
+   "choices": [
+    "book",
+    "pen",
+    "desk"
+   ]
+  },
+  {
+   "type": "spell",
+   "prompt": "What is this? Pick the right spelling.",
+   "pic": "desk",
+   "answer": "desk",
+   "choices": [
+    "dsek",
+    "desk",
+    "deks"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "pic": "pen",
+   "audio": "whatisthis.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "this",
+    "?"
+   ],
+   "answer": "is",
+   "choices": [
+    "is",
+    "it",
+    "a"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "pic": "cube",
+   "audio": "itisacube.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "cube."
+   ]
+  },
+  {
+   "type": "listen",
+   "prompt": "Listen. Tap the picture.",
+   "answer": "clipboard",
+   "choices": [
+    "cube",
+    "book",
+    "clipboard",
+    "monitor"
+   ]
+  },
+  {
+   "type": "spell",
+   "prompt": "What is this? Pick the right spelling.",
+   "pic": "keyboard",
+   "answer": "keyboard",
+   "choices": [
+    "keybord",
+    "keyboard",
+    "kayboard"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "id": "desk",
+   "en": "desk",
+   "pic": "pics/desk.webp",
+   "audio": "../songs/words/desk.mp3",
+   "sentence": "audio/itisadesk.mp3"
+  },
+  {
+   "id": "mouse",
+   "en": "mouse",
+   "pic": "pics/mouse.webp",
+   "audio": "../songs/words/mouse.mp3",
+   "sentence": "audio/itisamouse.mp3"
+  },
+  {
+   "id": "keyboard",
+   "en": "keyboard",
+   "pic": "pics/keyboard.webp",
+   "audio": "../songs/words/keyboard.mp3",
+   "sentence": "audio/itisakeyboard.mp3"
+  },
+  {
+   "id": "monitor",
+   "en": "monitor",
+   "pic": "pics/monitor.webp",
+   "audio": "../songs/words/monitor.mp3",
+   "sentence": "audio/itisamonitor.mp3"
+  },
+  {
+   "id": "cube",
+   "en": "cube",
+   "pic": "pics/cube.webp",
+   "audio": "../songs/words/cube.mp3",
+   "sentence": "audio/itisacube.mp3"
+  },
+  {
+   "id": "clipboard",
+   "en": "clipboard",
+   "pic": "pics/clipboard.webp",
+   "audio": "../songs/words/clipboard.mp3",
+   "sentence": "audio/itisaclipboard.mp3"
+  },
+  {
+   "id": "pen",
+   "en": "pen",
+   "pic": "pics/pen.webp",
+   "audio": "../songs/words/pen.mp3",
+   "sentence": "audio/itisapen.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "pic": "pics/book.webp",
+   "audio": "../songs/words/book.mp3",
+   "sentence": "audio/itisabook.mp3"
+  }
+ ],
+ "extras": [
+  {
+   "id": "apple",
+   "en": "apple",
+   "pic": "pics/apple.webp",
+   "audio": "audio/w_apple.mp3"
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "pic": "pics/cat.webp",
+   "audio": "audio/w_cat.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "pic": "pics/dog.webp",
+   "audio": "audio/w_dog.mp3"
+  },
+  {
+   "id": "fish",
+   "en": "fish",
+   "pic": "pics/fish.webp",
+   "audio": "audio/w_fish.mp3"
+  },
+  {
+   "id": "bird",
+   "en": "bird",
+   "pic": "pics/bird.webp",
+   "audio": "audio/w_bird.mp3"
+  },
+  {
+   "id": "pig",
+   "en": "pig",
+   "pic": "pics/pig.webp",
+   "audio": "audio/w_pig.mp3"
+  }
+ ],
+ "map": {
+  "scene": null,
+  "note": "No Unit 6 scene yet: the engine shows a grid of the unit pictures. To use a scene, set scene to an image path and add spots: [{id, x, y}] in percent."
+ },
+ "oddOneOut": [
+  {
+   "items": [
+    "pen",
+    "book",
+    "desk",
+    "apple"
+   ],
+   "odd": "apple"
+  },
+  {
+   "items": [
+    "cat",
+    "mouse",
+    "keyboard",
+    "monitor"
+   ],
+   "odd": "cat"
+  },
+  {
+   "items": [
+    "cube",
+    "pen",
+    "dog",
+    "clipboard"
+   ],
+   "odd": "dog"
+  },
+  {
+   "items": [
+    "book",
+    "fish",
+    "desk",
+    "monitor"
+   ],
+   "odd": "fish"
+  },
+  {
+   "items": [
+    "keyboard",
+    "pen",
+    "cube",
+    "bird"
+   ],
+   "odd": "bird"
+  }
+ ],
+ "wordSearch": {
+  "size": 8,
+  "words": [
+   "desk",
+   "mouse",
+   "cube",
+   "pen",
+   "book",
+   "monitor"
   ]
+ },
+ "hangman": {
+  "words": [
+   "pen",
+   "book",
+   "desk",
+   "cube",
+   "mouse",
+   "monitor"
+  ]
+ },
+ "crossword": {
+  "words": [
+   "keyboard",
+   "desk",
+   "mouse",
+   "book",
+   "pen",
+   "cube",
+   "monitor"
+  ]
+ },
+ "expressions": [
+  {
+   "text": "What is this?",
+   "audio": "audio/whatisthis.mp3"
+  },
+  {
+   "text": "It is a book.",
+   "audio": "audio/itisabook.mp3"
+  },
+  {
+   "text": "It is a pen.",
+   "audio": "audio/itisapen.mp3"
+  },
+  {
+   "text": "It is a desk.",
+   "audio": "audio/itisadesk.mp3"
+  },
+  {
+   "text": "Is it a mouse?",
+   "audio": "audio/isitamouse.mp3"
+  },
+  {
+   "text": "No, it is a cube.",
+   "audio": "audio/noitisacube.mp3"
+  }
+ ],
+ "dialogues": [
+  {
+   "pic": "pics/book.webp",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "It is a book.",
+     "audio": "audio/itisabook.mp3"
+    },
+    {
+     "text": "I am fine.",
+     "audio": "audio/iamfine.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "pics/pen.webp",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/whatisthis.mp3"
+   },
+   "choices": [
+    {
+     "text": "Thank you.",
+     "audio": "audio/thankyou.mp3"
+    },
+    {
+     "text": "It is a pen.",
+     "audio": "audio/itisapen.mp3"
+    }
+   ],
+   "answer": 1
+  },
+  {
+   "pic": "pics/book.webp",
+   "q": {
+    "text": "Is it a book?",
+    "audio": "audio/isitabook.mp3"
+   },
+   "choices": [
+    {
+     "text": "Yes, it is.",
+     "audio": "audio/yesitis.mp3"
+    },
+    {
+     "text": "Yes, I can.",
+     "audio": "audio/yesican.mp3"
+    },
+    {
+     "text": "I am fine.",
+     "audio": "audio/iamfine.mp3"
+    }
+   ],
+   "answer": 0
+  },
+  {
+   "pic": "pics/cube.webp",
+   "q": {
+    "text": "Is it a mouse?",
+    "audio": "audio/isitamouse.mp3"
+   },
+   "choices": [
+    {
+     "text": "No, it is a cube.",
+     "audio": "audio/noitisacube.mp3"
+    },
+    {
+     "text": "Thank you.",
+     "audio": "audio/thankyou.mp3"
+    }
+   ],
+   "answer": 0
+  }
+ ]
 }
