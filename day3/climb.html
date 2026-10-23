@@ -54,9 +54,11 @@ const TYPES={
  dialogue:{html:q=>(q.pic?`<div class="big"><img src="${q.pic}" alt=""></div>`:'')+`<button class="snd" id="play">🔊</button><div class="sent">💬 ${q.q.text}</div>`+choiceBtns(q),
   start:q=>{q.audio=q.q.audio;setTimeout(()=>line(q.q.audio),300)}}
 };
+const PROMPTS={listen:'Listen and choose the right picture.',spell:'Look at the picture. Choose the right spelling.',fill:'Fill in the missing word.',order:'Put the words in order.',dialogue:'Choose the best answer.'};
+const PROMPT=q=>{const t=q&&q.prompt;return (typeof t==='string'&&t.trim()&&t!=='undefined')?t:(PROMPTS[q&&q.type]||'Choose the right answer.')};
 const HOME=()=>D.kind==='review'?'units.html':WB.link('index.html');
 function show(){locked=false;const q=D.questions[i],T=TYPES[q.type];if(!T){i++;return i<N?show():end()}
- card.innerHTML=head()+`<div class="p">${q.prompt}</div>`+T.html(q)+`<div id="fb"></div>`;
+ card.innerHTML=head()+`<div class="p">${PROMPT(q)}</div>`+T.html(q)+`<div id="fb"></div>`;
  const pl=document.getElementById('play');if(pl)pl.onclick=()=>q.audio?line(q.audio):word(q.answer);
  card.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>check(b.dataset.a===q.answer,b));T.start&&T.start(q)}
 async function check(ok,btn){if(locked)return;locked=true;const q=D.questions[i],fb=document.getElementById('fb');
