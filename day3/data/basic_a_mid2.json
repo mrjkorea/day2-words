@@ -1,0 +1,723 @@
+{
+ "id": "basic_a_mid2",
+ "kind": "review",
+ "title": "Basic A · Review Units 5-8",
+ "passPercent": 80,
+ "units": [
+  "basic_a_u5",
+  "basic_a_u06",
+  "basic_a_u7",
+  "basic_a_u8"
+ ],
+ "wordAudio": "../packs/basic_a_u5/audio/us_f/",
+ "picDir": "../packs/basic_a_u5/",
+ "lineAudio": "audio/basic_a_u5/",
+ "questions": [
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "sing",
+   "audio": "audio/basic_a_u7/{v}/icansing.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "sing",
+   "choices": [
+    "sing",
+    "piano",
+    "dance"
+   ],
+   "unit": "basic_a_u7"
+  },
+  {
+   "type": "spell",
+   "prompt": "What is this? Pick the right spelling.",
+   "pic": "keyboard",
+   "answer": "keyboard",
+   "choices": [
+    "keybord",
+    "keyboard",
+    "kayboard"
+   ],
+   "skill": "spell",
+   "unit": "basic_a_u06"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_a_u7",
+   "q": {
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
+   },
+   "pic": "../packs/basic_a_u7/chinese.jpg",
+   "choices": [
+    "I can speak Chinese.",
+    "I can dance."
+   ],
+   "answer": "I can speak Chinese.",
+   "aud": {
+    "I can speak Chinese.": "audio/basic_a_u7/ai/icanspeakchinese.mp3",
+    "I can dance.": "audio/basic_a_u7/ai/icandance.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "twelve",
+   "audio": "audio/basic_a_u8/{v}/itistwelve.mp3",
+   "answer": [
+    "It",
+    "is",
+    "twelve."
+   ],
+   "unit": "basic_a_u8"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "sister",
+   "audio": "audio/basic_a_u5/{v}/thisismysister.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "sister",
+   "choices": [
+    "sister",
+    "uncle",
+    "aunt"
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "study",
+   "choices": [
+    "study",
+    "sing",
+    "draw",
+    "dance"
+   ],
+   "unit": "basic_a_u7"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_a_u5",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "pic": "../packs/basic_a_u5/nephew.jpg",
+   "choices": [
+    "This is my nephew.",
+    "This is my uncle."
+   ],
+   "answer": "This is my nephew.",
+   "aud": {
+    "This is my nephew.": "audio/basic_a_u5/ai/thisismynephew.mp3",
+    "This is my uncle.": "audio/basic_a_u5/ai/thisismyuncle.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "chinese",
+   "audio": "audio/basic_a_u7/{v}/icanspeakchinese.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "Chinese."
+   ],
+   "unit": "basic_a_u7"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "mom",
+   "answer": "mom",
+   "choices": [
+    "mom",
+    "mop",
+    "momb",
+    "momc"
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "pic": "cube",
+   "audio": "audio/v/{v}/itisacube.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "cube."
+   ],
+   "skill": "unscramble",
+   "unit": "basic_a_u06"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "ninetynine",
+   "audio": "audio/basic_a_u8/{v}/itisninetynine.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "ninety-nine",
+   "choices": [
+    "ninety-nine",
+    "ninety-seven",
+    "thirty-three"
+   ],
+   "unit": "basic_a_u8"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "mom",
+   "choices": [
+    "mom",
+    "grandson",
+    "brother",
+    "nephew"
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "listen",
+   "prompt": "Listen. Tap the picture.",
+   "answer": "mouse",
+   "choices": [
+    "keyboard",
+    "mouse",
+    "monitor",
+    "clipboard"
+   ],
+   "skill": "listen",
+   "unit": "basic_a_u06"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "twelve",
+   "answer": "twelve",
+   "choices": [
+    "twelve",
+    "telve",
+    "twilve",
+    "twlve"
+   ],
+   "unit": "basic_a_u8"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_a_u06",
+   "q": {
+    "text": "Is it a mouse?",
+    "audio": "audio/v/{v}/isitamouse.mp3"
+   },
+   "pic": "pics/cube.webp",
+   "choices": [
+    "No, it is a cube.",
+    "Thank you."
+   ],
+   "answer": "No, it is a cube.",
+   "aud": {
+    "No, it is a cube.": "audio/v/{v}/noitisacube.mp3",
+    "Thank you.": "audio/v/{v}/thankyou.mp3"
+   }
+  }
+ ],
+ "words": [
+  {
+   "id": "mom",
+   "en": "mom",
+   "ko": "엄마",
+   "pic": "../packs/basic_a_u5/mom.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/mom.mp3",
+   "stext": "This is my mom.",
+   "sentence": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3"
+  },
+  {
+   "id": "dad",
+   "en": "dad",
+   "ko": "아빠",
+   "pic": "../packs/basic_a_u5/dad.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/dad.mp3",
+   "stext": "This is my dad.",
+   "sentence": "audio/basic_a_u5/{v}/thisismydad.mp3"
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "누나, 언니, 여동생",
+   "pic": "../packs/basic_a_u5/sister.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/sister.mp3",
+   "stext": "This is my sister.",
+   "sentence": "audio/basic_a_u5/{v}/thisismysister.mp3"
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "pic": "../packs/basic_a_u5/brother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/brother.mp3",
+   "stext": "This is my brother.",
+   "sentence": "audio/basic_a_u5/{v}/thisismybrother.mp3"
+  },
+  {
+   "id": "uncle",
+   "en": "uncle",
+   "ko": "삼촌",
+   "pic": "../packs/basic_a_u5/uncle.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/uncle.mp3",
+   "stext": "This is my uncle.",
+   "sentence": "audio/basic_a_u5/{v}/thisismyuncle.mp3"
+  },
+  {
+   "id": "aunt",
+   "en": "aunt",
+   "ko": "이모, 고모",
+   "pic": "../packs/basic_a_u5/aunt.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/aunt.mp3",
+   "stext": "This is my aunt.",
+   "sentence": "audio/basic_a_u5/{v}/thisismyaunt.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/basic_a_u5/grandmother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandmother.mp3",
+   "stext": "This is my grandmother.",
+   "sentence": "audio/basic_a_u5/{v}/thisismygrandmother.mp3"
+  },
+  {
+   "id": "cousin",
+   "en": "cousin",
+   "ko": "사촌",
+   "pic": "../packs/basic_a_u5/cousin.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/cousin.mp3",
+   "stext": "This is my cousin.",
+   "sentence": "audio/basic_a_u5/{v}/thisismycousin.mp3"
+  },
+  {
+   "id": "nephew",
+   "en": "nephew",
+   "ko": "조카",
+   "pic": "../packs/basic_a_u5/nephew.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/nephew.mp3",
+   "stext": "This is my nephew.",
+   "sentence": "audio/basic_a_u5/{v}/thisismynephew.mp3"
+  },
+  {
+   "id": "grandson",
+   "en": "grandson",
+   "ko": "손자",
+   "pic": "../packs/basic_a_u5/grandson.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandson.mp3",
+   "stext": "This is my grandson.",
+   "sentence": "audio/basic_a_u5/{v}/thisismygrandson.mp3"
+  },
+  {
+   "id": "monitor",
+   "en": "monitor",
+   "ko": "모니터",
+   "pic": "../packs/basic_a_u6/monitor.jpg",
+   "audio": "../packs/basic_a_u6/audio/{v}/monitor.mp3"
+  },
+  {
+   "id": "right",
+   "en": "right",
+   "ko": "오른쪽",
+   "pic": "../packs/basic_a_u3/right.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/right.mp3"
+  },
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 구",
+   "pic": "../packs/basic_a_u1/nine.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/nine.mp3"
+  },
+  {
+   "id": "fast",
+   "en": "fast",
+   "ko": "빠르게",
+   "pic": "../packs/basic_a_u7/fast.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/fast.mp3"
+  },
+  {
+   "id": "four",
+   "en": "four",
+   "ko": "넷, 사",
+   "pic": "../packs/basic_a_u1/four.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/four.mp3"
+  },
+  {
+   "id": "chicken",
+   "en": "chicken",
+   "ko": "닭",
+   "pic": "../packs/basic_a_u2/chicken.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/chicken.mp3"
+  },
+  {
+   "id": "desk",
+   "en": "desk",
+   "pic": "pics/desk.webp",
+   "audio": "audio/v/{v}/desk.mp3",
+   "sentence": "audio/v/{v}/itisadesk.mp3"
+  },
+  {
+   "id": "mouse",
+   "en": "mouse",
+   "pic": "pics/mouse.webp",
+   "audio": "audio/v/{v}/mouse.mp3",
+   "sentence": "audio/v/{v}/itisamouse.mp3"
+  },
+  {
+   "id": "keyboard",
+   "en": "keyboard",
+   "pic": "pics/keyboard.webp",
+   "audio": "audio/v/{v}/keyboard.mp3",
+   "sentence": "audio/v/{v}/itisakeyboard.mp3"
+  },
+  {
+   "id": "cube",
+   "en": "cube",
+   "pic": "pics/cube.webp",
+   "audio": "audio/v/{v}/cube.mp3",
+   "sentence": "audio/v/{v}/itisacube.mp3"
+  },
+  {
+   "id": "clipboard",
+   "en": "clipboard",
+   "pic": "pics/clipboard.webp",
+   "audio": "audio/v/{v}/clipboard.mp3",
+   "sentence": "audio/v/{v}/itisaclipboard.mp3"
+  },
+  {
+   "id": "pen",
+   "en": "pen",
+   "pic": "pics/pen.webp",
+   "audio": "audio/v/{v}/pen.mp3",
+   "sentence": "audio/v/{v}/itisapen.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "pic": "pics/book.webp",
+   "audio": "audio/v/{v}/book.mp3",
+   "sentence": "audio/v/{v}/itisabook.mp3"
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "pic": "pics/apple.webp",
+   "audio": "audio/v/{v}/w_apple.mp3"
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "pic": "pics/cat.webp",
+   "audio": "audio/v/{v}/w_cat.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "pic": "pics/dog.webp",
+   "audio": "audio/v/{v}/w_dog.mp3"
+  },
+  {
+   "id": "fish",
+   "en": "fish",
+   "pic": "pics/fish.webp",
+   "audio": "audio/v/{v}/w_fish.mp3"
+  },
+  {
+   "id": "bird",
+   "en": "bird",
+   "pic": "pics/bird.webp",
+   "audio": "audio/v/{v}/w_bird.mp3"
+  },
+  {
+   "id": "pig",
+   "en": "pig",
+   "pic": "pics/pig.webp",
+   "audio": "audio/v/{v}/w_pig.mp3"
+  },
+  {
+   "id": "dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "pic": "../packs/basic_a_u7/dance.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/dance.mp3",
+   "stext": "I can dance.",
+   "sentence": "../packs/basic_a_u7/audio/{v}/icandance.mp3"
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "달리다",
+   "pic": "../packs/basic_a_u7/run.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/run.mp3",
+   "stext": "I can run.",
+   "sentence": "audio/basic_a_u7/{v}/icanrun.mp3"
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/basic_a_u7/sing.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/sing.mp3",
+   "stext": "I can sing.",
+   "sentence": "audio/basic_a_u7/{v}/icansing.mp3"
+  },
+  {
+   "id": "taekwondo",
+   "en": "taekwondo",
+   "ko": "태권도",
+   "pic": "../packs/basic_a_u7/taekwondo.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/taekwondo.mp3",
+   "stext": "I can do taekwondo.",
+   "sentence": "audio/basic_a_u7/{v}/icandotaekwondo.mp3"
+  },
+  {
+   "id": "piano",
+   "en": "piano",
+   "ko": "피아노",
+   "pic": "../packs/basic_a_u7/piano.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/piano.mp3",
+   "stext": "I can play the piano.",
+   "sentence": "audio/basic_a_u7/{v}/icanplaythepiano.mp3"
+  },
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "pic": "../packs/basic_a_u7/draw.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/draw.mp3",
+   "stext": "I can draw.",
+   "sentence": "audio/basic_a_u7/{v}/icandraw.mp3"
+  },
+  {
+   "id": "chinese",
+   "en": "Chinese",
+   "ko": "중국어",
+   "pic": "../packs/basic_a_u7/chinese.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/chinese.mp3",
+   "stext": "I can speak Chinese.",
+   "sentence": "audio/basic_a_u7/{v}/icanspeakchinese.mp3"
+  },
+  {
+   "id": "magic",
+   "en": "magic",
+   "ko": "마술",
+   "pic": "../packs/basic_a_u7/magic.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/magic.mp3",
+   "stext": "I can do magic.",
+   "sentence": "audio/basic_a_u7/{v}/icandomagic.mp3"
+  },
+  {
+   "id": "study",
+   "en": "study",
+   "ko": "공부하다",
+   "pic": "../packs/basic_a_u7/study.jpg",
+   "audio": "../packs/basic_a_u7/audio/{v}/study.mp3",
+   "stext": "I can study.",
+   "sentence": "audio/basic_a_u7/{v}/icanstudy.mp3"
+  },
+  {
+   "id": "two",
+   "en": "two",
+   "ko": "둘, 이",
+   "pic": "../packs/basic_a_u1/two.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/two.mp3"
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "pic": "../packs/basic_a_u3/computer.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/computer.mp3"
+  },
+  {
+   "id": "tab",
+   "en": "tab",
+   "ko": "탭",
+   "pic": "../packs/basic_a_u3/tab.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/tab.mp3"
+  },
+  {
+   "id": "onehundred",
+   "en": "one hundred",
+   "ko": "백 (100)",
+   "pic": "../packs/basic_a_u8/onehundred.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/onehundred.mp3",
+   "stext": "It is one hundred.",
+   "sentence": "audio/basic_a_u8/{v}/itisonehundred.mp3"
+  },
+  {
+   "id": "ninetynine",
+   "en": "ninety-nine",
+   "ko": "구십구 (99)",
+   "pic": "../packs/basic_a_u8/ninetynine.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/ninetynine.mp3",
+   "stext": "It is ninety-nine.",
+   "sentence": "audio/basic_a_u8/{v}/itisninetynine.mp3"
+  },
+  {
+   "id": "ninetyseven",
+   "en": "ninety-seven",
+   "ko": "구십칠 (97)",
+   "pic": "../packs/basic_a_u8/ninetyseven.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/ninetyseven.mp3",
+   "stext": "It is ninety-seven.",
+   "sentence": "audio/basic_a_u8/{v}/itisninetyseven.mp3"
+  },
+  {
+   "id": "fiftyfive",
+   "en": "fifty-five",
+   "ko": "오십오 (55)",
+   "pic": "../packs/basic_a_u8/fiftyfive.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/fiftyfive.mp3",
+   "stext": "It is fifty-five.",
+   "sentence": "audio/basic_a_u8/{v}/itisfiftyfive.mp3"
+  },
+  {
+   "id": "thirtythree",
+   "en": "thirty-three",
+   "ko": "삼십삼 (33)",
+   "pic": "../packs/basic_a_u8/thirtythree.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/thirtythree.mp3",
+   "stext": "It is thirty-three.",
+   "sentence": "audio/basic_a_u8/{v}/itisthirtythree.mp3"
+  },
+  {
+   "id": "twentytwo",
+   "en": "twenty-two",
+   "ko": "이십이 (22)",
+   "pic": "../packs/basic_a_u8/twentytwo.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/twentytwo.mp3",
+   "stext": "It is twenty-two.",
+   "sentence": "audio/basic_a_u8/{v}/itistwentytwo.mp3"
+  },
+  {
+   "id": "fifteen",
+   "en": "fifteen",
+   "ko": "십오 (15)",
+   "pic": "../packs/basic_a_u8/fifteen.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/fifteen.mp3",
+   "stext": "It is fifteen.",
+   "sentence": "audio/basic_a_u8/{v}/itisfifteen.mp3"
+  },
+  {
+   "id": "thirteen",
+   "en": "thirteen",
+   "ko": "십삼 (13)",
+   "pic": "../packs/basic_a_u8/thirteen.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/thirteen.mp3",
+   "stext": "It is thirteen.",
+   "sentence": "audio/basic_a_u8/{v}/itisthirteen.mp3"
+  },
+  {
+   "id": "twelve",
+   "en": "twelve",
+   "ko": "십이 (12)",
+   "pic": "../packs/basic_a_u8/twelve.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/twelve.mp3",
+   "stext": "It is twelve.",
+   "sentence": "audio/basic_a_u8/{v}/itistwelve.mp3"
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "십일 (11)",
+   "pic": "../packs/basic_a_u8/eleven.jpg",
+   "audio": "../packs/basic_a_u8/audio/{v}/eleven.mp3",
+   "stext": "It is eleven.",
+   "sentence": "audio/basic_a_u8/{v}/itiseleven.mp3"
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 팔",
+   "pic": "../packs/basic_a_u1/eight.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/eight.mp3"
+  },
+  {
+   "id": "three",
+   "en": "three",
+   "ko": "셋, 삼",
+   "pic": "../packs/basic_a_u1/three.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/three.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u5/",
+  "ai": "audio/basic_a_u5/ai/"
+ }
+}

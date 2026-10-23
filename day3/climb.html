@@ -32,7 +32,7 @@
 <script>
 let D,i=0,right=0,pos=0,locked=false,N=0;const card=document.getElementById('card'),vid=document.getElementById('vid');
 const sh=WB.sh,word=w=>{const x=WB.w(w);return WB.play(x?x.audio:D.wordAudio+w.split(' ')[0]+'.mp3')},line=f=>WB.play(f.includes('/')?f:D.lineAudio+f);
-const pic=w=>{const x=WB.w(w);return x&&x.pic?`<img src="${x.pic}" alt="">`:x&&!x.pic?`<div class="kcard">${x.ko||""}</div>`:`<img src="${D.picDir}${w}.webp" alt="${w}">`};
+const pic=w=>{if(String(w).includes("/"))return `<img src="${w}" alt="">`;const x=WB.w(w);return x&&x.pic?`<img src="${x.pic}" alt="">`:x&&!x.pic?`<div class="kcard">${x.ko||""}</div>`:`<img src="${D.picDir}${w}.webp" alt="${w}">`};
 function spot(p){const t=p/N,y=380-t*350,x=150+Math.sin(t*9)*(70*(1-t));return[x,y]}
 function move(){const[x,y]=spot(pos);document.getElementById('climber').setAttribute('transform',`translate(${x},${y})`)}
 function drawSteps(){let s='';for(let k=0;k<=N;k++){const[x,y]=spot(k);s+=`<circle cx="${x}" cy="${y}" r="4" fill="#5c940d"/>`}document.getElementById('steps').innerHTML=s}
@@ -50,8 +50,11 @@ const TYPES={
  order:{html:q=>(q.pic?`<div class="big">${pic(q.pic)}</div>`:'')+(q.audio?`<button class="snd" id="play">🔊</button>`:'')+`<div class="slots" id="slots"></div><div class="tiles" id="tiles">`+sh(q.answer.map((w,k)=>[w,k])).map(([w,k])=>`<button data-t="${k}">${w}</button>`).join('')+`</div>`,
   start:q=>{const built=[];card.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{if(locked)return;const s=document.getElementById('slots');
    if(b.parentNode.id==='tiles'){s.appendChild(b);built.push(b.textContent)}else{document.getElementById('tiles').appendChild(b);built.splice(built.indexOf(b.textContent),1)}
-   if(built.length===q.answer.length)check(built.join(' ')===q.answer.join(' '),null)})}}
+   if(built.length===q.answer.length)check(built.join(' ')===q.answer.join(' '),null)})}},
+ dialogue:{html:q=>(q.pic?`<div class="big"><img src="${q.pic}" alt=""></div>`:'')+`<button class="snd" id="play">🔊</button><div class="sent">💬 ${q.q.text}</div>`+choiceBtns(q),
+  start:q=>{q.audio=q.q.audio;setTimeout(()=>line(q.q.audio),300)}}
 };
+const HOME=()=>D.kind==='review'?'units.html':WB.link('index.html');
 function show(){locked=false;const q=D.questions[i],T=TYPES[q.type];if(!T){i++;return i<N?show():end()}
  card.innerHTML=head()+`<div class="p">${q.prompt}</div>`+T.html(q)+`<div id="fb"></div>`;
  const pl=document.getElementById('play');if(pl)pl.onclick=()=>q.audio?line(q.audio):word(q.answer);
@@ -66,11 +69,11 @@ async function check(ok,btn){if(locked)return;locked=true;const q=D.questions[i]
 function next(){i++;if(i<N)show();else end()}
 async function end(){const p=Math.round(right/N*100),ps=p>=D.passPercent;WB.save('climb',p,right,N);document.querySelector('.nextlvl')?.remove();
  card.innerHTML=`<h1>${D.title}</h1><p class="pct ${ps?'':'fail'}">${p}%</p><div style="font-size:28px">${right} / ${N} right</div>
- <div class="p" style="font-size:24px">${p===100?'🌟 GOLD STAR! Day 3 passed!':ps?'🏔️ PASS! You reached the top! Day 3 passed!':'Not yet — you need '+D.passPercent+'%. Try again!'}</div>
- <button id="again">🔁 Play again</button> <button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`;
+ <div class="p" style="font-size:24px">${p===100?'🌟 GOLD STAR! '+(D.kind==='review'?'Review':'Day 3')+' passed!':ps?'🏔️ PASS! You reached the top! '+(D.kind==='review'?'Review':'Day 3')+' passed!':'Not yet — you need '+D.passPercent+'%. Try again!'}</div>
+ <button id="again">🔁 Play again</button> <button onclick="location.href=HOME()">🏠 ${D.kind==='review'?'All units':'Steps'}</button>`;
  document.getElementById('again').onclick=start;WB.cheer(ps?'top':'retry');if(ps){pos=N;move();await clip('top')}}
 function start(){i=0;right=0;pos=0;WB._nl=null;move();show()}
 WB.load().then(d=>{D=d;WB.voiceBtn();N=d.questions.length;drawSteps();
- if(!WB.unlocked('climb')){card.innerHTML=`<h1>🔒 Locked</h1><p class="p">Finish step 8 first.</p><button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`;return}
+ if(D.kind!=='review'&&!WB.unlocked('climb')){card.innerHTML=`<h1>🔒 Locked</h1><p class="p">Finish step 8 first.</p><button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`;return}
  if(WB.test)WB.skipBtn(()=>{if(!locked&&i<N)check(true,null)});start()}).catch(e=>card.innerHTML='<h1>Oops</h1><p>'+e.message+'</p>');
 </script></body></html>

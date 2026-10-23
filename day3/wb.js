@@ -33,8 +33,8 @@ WB.cheer=k=>{const src=WB.pick(k);if(!src)return Promise.resolve();if(k==='wrong
 // 80% reached during play: big Next level button (keep going for the gold star)
 WB.tick=(id,right,n)=>{if(!n||right/n<(WB.D.passPercent||80)/100||WB._nl===id)return;WB._nl=id;WB.save(id,Math.round(right/n*100),right,n);
  const i=WB.steps.findIndex(s=>s[0]===id),nx=WB.steps[i+1];const b=document.createElement('button');b.className='nextlvl ok';
- b.innerHTML=nx?'⭐ Next level ▶<small>or keep going for a gold star!</small>':'🏆 Day 3 passed!<small>keep going for a gold star!</small>';
- b.onclick=()=>location.href=nx?WB.link(nx[0]==='climb'?'climb.html':'play.html',nx[0]==='climb'?'':'&a='+nx[0]):WB.link('index.html');document.body.appendChild(b);setTimeout(()=>WB.cheer('next'),900)};
+ b.innerHTML=nx?'⭐ Next level ▶<small>or keep going for a gold star!</small>':(WB.D.kind==='review'?'🏆 Review passed!':'🏆 Day 3 passed!')+'<small>keep going for a gold star!</small>';
+ b.onclick=()=>location.href=nx?WB.link(nx[0]==='climb'?'climb.html':'play.html',nx[0]==='climb'?'':'&a='+nx[0]):(WB.D.kind==='review'?'units.html':WB.link('index.html'));document.body.appendChild(b);setTimeout(()=>WB.cheer('next'),900)};
 WB.all=()=>[...WB.D.words,...(WB.D.extras||[])];
 WB.w=id=>WB.all().find(w=>w.id===id);
 WB.end=(id,right,n)=>{const pct=n?Math.round(right/n*100):0;WB.save(id,pct,right,n);
