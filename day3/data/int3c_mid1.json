@@ -1,0 +1,721 @@
+{
+ "id": "int3c_mid1",
+ "kind": "review",
+ "title": "INT 3C · Review Units 1-4",
+ "passPercent": 80,
+ "units": [
+  "int3c_u1",
+  "int3c_u2",
+  "int3c_u3",
+  "int3c_u4"
+ ],
+ "wordAudio": "../packs/int3c_u1/audio/us_f/",
+ "picDir": "../packs/int3c_u1/",
+ "lineAudio": "audio/int3c_u1/",
+ "questions": [
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int3c_u2",
+   "q": {
+    "text": "What can I not do?",
+    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
+   },
+   "pic": "../packs/int3c_u2/cry.jpg",
+   "choices": [
+    "Don't cry.",
+    "Don't pull."
+   ],
+   "answer": "Don't cry.",
+   "aud": {
+    "Don't cry.": "audio/int3c_u2/ai/dontcry.mp3",
+    "Don't pull.": "audio/int3c_u2/ai/dontpull.mp3"
+   }
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "sour",
+   "choices": [
+    "sour",
+    "salty",
+    "sweet",
+    "doenjang"
+   ],
+   "unit": "int3c_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "pull",
+   "choices": [
+    "pull",
+    "yell",
+    "burp",
+    "cry"
+   ],
+   "unit": "int3c_u2"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "socks",
+   "choices": [
+    "socks",
+    "gloves",
+    "shoes",
+    "dress"
+   ],
+   "unit": "int3c_u3"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "open",
+   "audio": "audio/int3c_u2/{v}/dontopen.mp3",
+   "answer": [
+    "Don't",
+    "open."
+   ],
+   "unit": "int3c_u2"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int3c_u3",
+   "q": {
+    "text": "What should I wear?",
+    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+   },
+   "pic": "../packs/int3c_u3/shoes.jpg",
+   "choices": [
+    "Wear a skirt.",
+    "Wear shoes."
+   ],
+   "answer": "Wear shoes.",
+   "aud": {
+    "Wear a skirt.": "audio/int3c_u3/ai/wearaskirt.mp3",
+    "Wear shoes.": "audio/int3c_u3/ai/wearshoes.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "bike",
+   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
+   "answer": [
+    "Let's",
+    "ride",
+    "a",
+    "bike."
+   ],
+   "unit": "int3c_u4"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "salty",
+   "answer": "salty",
+   "choices": [
+    "salty",
+    "alty",
+    "salt",
+    "salmy"
+   ],
+   "unit": "int3c_u1"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "cook",
+   "answer": "cook",
+   "choices": [
+    "cook",
+    "rook",
+    "coo",
+    "pook"
+   ],
+   "unit": "int3c_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "skirt",
+   "audio": "audio/int3c_u3/{v}/wearaskirt.mp3",
+   "answer": [
+    "Wear",
+    "a",
+    "skirt."
+   ],
+   "unit": "int3c_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "bike",
+   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
+   "sentence": [
+    "Let's",
+    "ride",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "bike",
+   "choices": [
+    "bike",
+    "talk",
+    "cook"
+   ],
+   "unit": "int3c_u4"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "gloves",
+   "audio": "audio/int3c_u3/{v}/weargloves.mp3",
+   "sentence": [
+    "Wear",
+    "___",
+    "."
+   ],
+   "answer": "gloves",
+   "choices": [
+    "gloves",
+    "skirt",
+    "shirt"
+   ],
+   "unit": "int3c_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "doenjang",
+   "audio": "audio/int3c_u1/{v}/itisdoenjang.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "doenjang",
+   "choices": [
+    "doenjang",
+    "ddeok",
+    "rice"
+   ],
+   "unit": "int3c_u1"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "fight",
+   "answer": "fight",
+   "choices": [
+    "fight",
+    "figt",
+    "fught",
+    "figh"
+   ],
+   "unit": "int3c_u2"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int3c_u1",
+   "q": {
+    "text": "What is it? How does it taste?",
+    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
+   },
+   "pic": "../packs/int3c_u1/ddeok.jpg",
+   "choices": [
+    "It is ddeok.",
+    "It is sweet."
+   ],
+   "answer": "It is ddeok.",
+   "aud": {
+    "It is ddeok.": "audio/int3c_u1/ai/itisddeok.mp3",
+    "It is sweet.": "audio/int3c_u1/ai/itissweet.mp3"
+   }
+  }
+ ],
+ "words": [
+  {
+   "id": "sweet",
+   "en": "sweet",
+   "ko": "달콤한",
+   "pic": "../packs/int3c_u1/sweet.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/sweet.mp3",
+   "stext": "It is sweet.",
+   "sentence": "audio/int3c_u1/{v}/itissweet.mp3"
+  },
+  {
+   "id": "salty",
+   "en": "salty",
+   "ko": "짠",
+   "pic": "../packs/int3c_u1/salty.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/salty.mp3",
+   "stext": "It is salty.",
+   "sentence": "audio/int3c_u1/{v}/itissalty.mp3"
+  },
+  {
+   "id": "sour",
+   "en": "sour",
+   "ko": "신",
+   "pic": "../packs/int3c_u1/sour.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/sour.mp3",
+   "stext": "It is sour.",
+   "sentence": "audio/int3c_u1/{v}/itissour.mp3"
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/food.mp3",
+   "stext": "I like sweet food.",
+   "sentence": "audio/int3c_u1/{v}/ilikesweetfood.mp3"
+  },
+  {
+   "id": "try",
+   "en": "try",
+   "ko": "먹어 보다",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/try.mp3",
+   "stext": "Try it!",
+   "sentence": "audio/int3c_u1/{v}/tryit.mp3"
+  },
+  {
+   "id": "ddeok",
+   "en": "ddeok",
+   "ko": "떡",
+   "pic": "../packs/int3c_u1/ddeok.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/ddeok.mp3",
+   "stext": "It is ddeok.",
+   "sentence": "audio/int3c_u1/{v}/itisddeok.mp3"
+  },
+  {
+   "id": "sticky",
+   "en": "sticky",
+   "ko": "끈적한",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/sticky.mp3",
+   "stext": "It is sticky.",
+   "sentence": "audio/int3c_u1/{v}/itissticky.mp3"
+  },
+  {
+   "id": "rice",
+   "en": "rice",
+   "ko": "쌀",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/rice.mp3",
+   "stext": "It is rice.",
+   "sentence": "audio/int3c_u1/{v}/itisrice.mp3"
+  },
+  {
+   "id": "dessert",
+   "en": "dessert",
+   "ko": "후식, 디저트",
+   "pic": null,
+   "audio": "../packs/int3c_u1/audio/{v}/dessert.mp3",
+   "stext": "It is a dessert.",
+   "sentence": "audio/int3c_u1/{v}/itisadessert.mp3"
+  },
+  {
+   "id": "doenjang",
+   "en": "doenjang",
+   "ko": "된장",
+   "pic": "../packs/int3c_u1/doenjang.jpg",
+   "audio": "../packs/int3c_u1/audio/{v}/doenjang.mp3",
+   "stext": "It is doenjang.",
+   "sentence": "audio/int3c_u1/{v}/itisdoenjang.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3c_u5/hat.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/hat.mp3"
+  },
+  {
+   "id": "gloves",
+   "en": "gloves",
+   "ko": "장갑",
+   "pic": "../packs/int3c_u3/gloves.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/gloves.mp3"
+  },
+  {
+   "id": "study",
+   "en": "study",
+   "ko": "공부하다",
+   "pic": "../packs/int3c_u4/study.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/study.mp3"
+  },
+  {
+   "id": "tiger",
+   "en": "tiger",
+   "ko": "호랑이",
+   "pic": "../packs/int3c_u6/tiger.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/tiger.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 5",
+   "pic": "../packs/int3c_u8/five.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/five.mp3"
+  },
+  {
+   "id": "fight",
+   "en": "fight",
+   "ko": "싸우다",
+   "pic": "../packs/int3c_u7/fight.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/fight.mp3"
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "뛰다",
+   "pic": "../packs/int3c_u2/run.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/run.mp3",
+   "stext": "Don't run.",
+   "sentence": "audio/int3c_u2/{v}/dontrun.mp3"
+  },
+  {
+   "id": "yell",
+   "en": "yell",
+   "ko": "소리 지르다",
+   "pic": "../packs/int3c_u2/yell.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/yell.mp3",
+   "stext": "Don't yell.",
+   "sentence": "../packs/int3c_u2/audio/{v}/dontyell.mp3"
+  },
+  {
+   "id": "open",
+   "en": "open",
+   "ko": "열다",
+   "pic": "../packs/int3c_u2/open.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/open.mp3",
+   "stext": "Don't open.",
+   "sentence": "audio/int3c_u2/{v}/dontopen.mp3"
+  },
+  {
+   "id": "pull",
+   "en": "pull",
+   "ko": "당기다",
+   "pic": "../packs/int3c_u2/pull.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/pull.mp3",
+   "stext": "Don't pull.",
+   "sentence": "audio/int3c_u2/{v}/dontpull.mp3"
+  },
+  {
+   "id": "sleep",
+   "en": "sleep",
+   "ko": "자다",
+   "pic": "../packs/int3c_u2/sleep.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/sleep.mp3",
+   "stext": "Don't sleep.",
+   "sentence": "audio/int3c_u2/{v}/dontsleep.mp3"
+  },
+  {
+   "id": "throw",
+   "en": "throw",
+   "ko": "던지다",
+   "pic": "../packs/int3c_u2/throw.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/throw.mp3",
+   "stext": "Don't throw.",
+   "sentence": "audio/int3c_u2/{v}/dontthrow.mp3"
+  },
+  {
+   "id": "burp",
+   "en": "burp",
+   "ko": "트림하다",
+   "pic": "../packs/int3c_u2/burp.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/burp.mp3",
+   "stext": "Don't burp.",
+   "sentence": "audio/int3c_u2/{v}/dontburp.mp3"
+  },
+  {
+   "id": "touch",
+   "en": "touch",
+   "ko": "만지다",
+   "pic": "../packs/int3c_u2/touch.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/touch.mp3",
+   "stext": "Don't touch.",
+   "sentence": "audio/int3c_u2/{v}/donttouch.mp3"
+  },
+  {
+   "id": "cry",
+   "en": "cry",
+   "ko": "울다",
+   "pic": "../packs/int3c_u2/cry.jpg",
+   "audio": "../packs/int3c_u2/audio/{v}/cry.mp3",
+   "stext": "Don't cry.",
+   "sentence": "audio/int3c_u2/{v}/dontcry.mp3"
+  },
+  {
+   "id": "soccer",
+   "en": "soccer",
+   "ko": "축구",
+   "pic": "../packs/int3c_u4/soccer.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/soccer.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int3c_u4/school.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/school.mp3"
+  },
+  {
+   "id": "desert",
+   "en": "desert",
+   "ko": "사막",
+   "pic": "../packs/int3c_u6/desert.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/desert.mp3"
+  },
+  {
+   "id": "pencil",
+   "en": "pencil",
+   "ko": "연필",
+   "pic": "../packs/int3c_u5/pencil.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/pencil.mp3"
+  },
+  {
+   "id": "wear",
+   "en": "wear",
+   "ko": "입다, 쓰다, 신다",
+   "pic": null,
+   "audio": "../packs/int3c_u3/audio/{v}/wear.mp3",
+   "stext": "What should I wear?",
+   "sentence": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+  },
+  {
+   "id": "outside",
+   "en": "outside",
+   "ko": "밖에서",
+   "pic": null,
+   "audio": "../packs/int3c_u3/audio/{v}/outside.mp3",
+   "stext": "Can I play outside?",
+   "sentence": "../packs/int3c_u3/audio/{v}/caniplayoutside.mp3"
+  },
+  {
+   "id": "dress",
+   "en": "dress",
+   "ko": "드레스",
+   "pic": "../packs/int3c_u3/dress.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/dress.mp3",
+   "stext": "Wear a dress.",
+   "sentence": "audio/int3c_u3/{v}/wearadress.mp3"
+  },
+  {
+   "id": "shirt",
+   "en": "shirt",
+   "ko": "셔츠",
+   "pic": "../packs/int3c_u3/shirt.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/shirt.mp3",
+   "stext": "Wear a shirt.",
+   "sentence": "audio/int3c_u3/{v}/wearashirt.mp3"
+  },
+  {
+   "id": "pants",
+   "en": "pants",
+   "ko": "바지",
+   "pic": "../packs/int3c_u3/pants.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/pants.mp3",
+   "stext": "Wear pants.",
+   "sentence": "audio/int3c_u3/{v}/wearpants.mp3"
+  },
+  {
+   "id": "socks",
+   "en": "socks",
+   "ko": "양말",
+   "pic": "../packs/int3c_u3/socks.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/socks.mp3",
+   "stext": "Wear socks.",
+   "sentence": "audio/int3c_u3/{v}/wearsocks.mp3"
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "pic": "../packs/int3c_u3/coat.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/coat.mp3",
+   "stext": "Wear a coat.",
+   "sentence": "audio/int3c_u3/{v}/wearacoat.mp3"
+  },
+  {
+   "id": "shoes",
+   "en": "shoes",
+   "ko": "신발",
+   "pic": "../packs/int3c_u3/shoes.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/shoes.mp3",
+   "stext": "Wear shoes.",
+   "sentence": "audio/int3c_u3/{v}/wearshoes.mp3"
+  },
+  {
+   "id": "skirt",
+   "en": "skirt",
+   "ko": "치마",
+   "pic": "../packs/int3c_u3/skirt.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/skirt.mp3",
+   "stext": "Wear a skirt.",
+   "sentence": "audio/int3c_u3/{v}/wearaskirt.mp3"
+  },
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "pic": "../packs/int3c_u7/cook.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/cook.mp3"
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 7",
+   "pic": "../packs/int3c_u8/seven.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/seven.mp3"
+  },
+  {
+   "id": "talk",
+   "en": "talk",
+   "ko": "이야기하다",
+   "pic": "../packs/int3c_u4/talk.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/talk.mp3"
+  },
+  {
+   "id": "twelve",
+   "en": "twelve",
+   "ko": "열두, 12",
+   "pic": "../packs/int3c_u8/twelve.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/twelve.mp3"
+  },
+  {
+   "id": "play",
+   "en": "play",
+   "ko": "(운동, 게임을) 하다",
+   "pic": null,
+   "audio": "../packs/int3c_u4/audio/{v}/play.mp3",
+   "stext": "Let's play.",
+   "sentence": "audio/int3c_u4/{v}/letsplay.mp3"
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/int3c_u4/sing.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/sing.mp3",
+   "stext": "Let's sing.",
+   "sentence": "audio/int3c_u4/{v}/letssing.mp3"
+  },
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "pic": "../packs/int3c_u4/climb.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/climb.mp3",
+   "stext": "Let's climb.",
+   "sentence": "audio/int3c_u4/{v}/letsclimb.mp3"
+  },
+  {
+   "id": "junglegym",
+   "en": "jungle gym",
+   "ko": "정글짐",
+   "pic": "../packs/int3c_u4/junglegym.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/junglegym.mp3",
+   "stext": "Let's play on the jungle gym.",
+   "sentence": "audio/int3c_u4/{v}/letsplayonthejunglegym.mp3"
+  },
+  {
+   "id": "tv",
+   "en": "TV",
+   "ko": "텔레비전",
+   "pic": "../packs/int3c_u4/tv.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/tv.mp3",
+   "stext": "Let's watch TV.",
+   "sentence": "audio/int3c_u4/{v}/letswatchtv.mp3"
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "pic": "../packs/int3c_u4/bike.jpg",
+   "audio": "../packs/int3c_u4/audio/{v}/bike.mp3",
+   "stext": "Let's ride a bike.",
+   "sentence": "audio/int3c_u4/{v}/letsrideabike.mp3"
+  },
+  {
+   "id": "glasses",
+   "en": "glasses",
+   "ko": "안경",
+   "pic": "../packs/int3c_u3/glasses.jpg",
+   "audio": "../packs/int3c_u3/audio/{v}/glasses.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int3c_u5/phone.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/phone.mp3"
+  },
+  {
+   "id": "province",
+   "en": "province",
+   "ko": "도, 지방",
+   "pic": "../packs/int3c_u6/province.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/province.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3c_u1/",
+  "ai": "audio/int3c_u1/ai/"
+ }
+}

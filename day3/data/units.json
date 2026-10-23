@@ -622,5 +622,29 @@
   "book": "int3c",
   "n": 8,
   "title": "INT 3C · Unit 8 · What Time is it?"
+ },
+ {
+  "id": "int3c_mid1",
+  "book": "int3c",
+  "n": 101,
+  "kind": "review",
+  "label": "Review 1-4",
+  "title": "INT 3C · Review Units 1-4"
+ },
+ {
+  "id": "int3c_mid2",
+  "book": "int3c",
+  "n": 102,
+  "kind": "review",
+  "label": "Review 5-8",
+  "title": "INT 3C · Review Units 5-8"
+ },
+ {
+  "id": "int3c_final",
+  "book": "int3c",
+  "n": 103,
+  "kind": "review",
+  "label": "Final Review",
+  "title": "INT 3C · Final Review Units 1-8"
  }
 ]
