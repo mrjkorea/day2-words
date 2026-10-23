@@ -1,0 +1,692 @@
+{
+ "id": "basic_b_mid2",
+ "kind": "review",
+ "title": "Basic B · Review Units 5-8",
+ "passPercent": 80,
+ "units": [
+  "basic_b_u5",
+  "basic_b_u6",
+  "basic_b_u7",
+  "basic_b_u8"
+ ],
+ "wordAudio": "../packs/basic_b_u5/audio/us_f/",
+ "picDir": "../packs/basic_b_u5/",
+ "lineAudio": "audio/basic_b_u5/",
+ "questions": [
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "red",
+   "audio": "../packs/basic_b_u7/audio/{v}/itisred.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "red",
+   "choices": [
+    "red",
+    "brown",
+    "white"
+   ],
+   "unit": "basic_b_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "seven",
+   "audio": "audio/basic_b_u8/{v}/iamsevenyearsold.mp3",
+   "answer": [
+    "I",
+    "am",
+    "seven",
+    "years",
+    "old."
+   ],
+   "unit": "basic_b_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "purple",
+   "audio": "audio/basic_b_u7/{v}/itispurple.mp3",
+   "answer": [
+    "It",
+    "is",
+    "purple."
+   ],
+   "unit": "basic_b_u7"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "ten",
+   "answer": "ten",
+   "choices": [
+    "ten",
+    "tenc",
+    "teb",
+    "tenb"
+   ],
+   "unit": "basic_b_u8"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "apple",
+   "choices": [
+    "apple",
+    "phonecharger",
+    "toothbrush",
+    "teddybear"
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "ten",
+   "audio": "../packs/basic_b_u8/audio/{v}/iamtenyearsold.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "years",
+    "old."
+   ],
+   "answer": "ten",
+   "choices": [
+    "ten",
+    "fourteen",
+    "seventeen"
+   ],
+   "unit": "basic_b_u8"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_b_u7",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "pic": "../packs/basic_b_u7/black.jpg",
+   "choices": [
+    "It is black.",
+    "It is white."
+   ],
+   "answer": "It is black.",
+   "aud": {
+    "It is black.": "audio/basic_b_u7/ai/itisblack.mp3",
+    "It is white.": "audio/basic_b_u7/ai/itiswhite.mp3"
+   }
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "sock",
+   "audio": "audio/basic_b_u5/{v}/itisasock.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "sock",
+   "choices": [
+    "sock",
+    "apple",
+    "toothbrush"
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "nose",
+   "choices": [
+    "nose",
+    "shoulder",
+    "chin",
+    "eye"
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "book",
+   "answer": "book",
+   "choices": [
+    "book",
+    "bok",
+    "bouk",
+    "boik"
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_b_u6",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_b_u6/{v}/whatisthis.mp3"
+   },
+   "pic": "../packs/basic_b_u6/body.jpg",
+   "choices": [
+    "This is my body.",
+    "This is my nose."
+   ],
+   "answer": "This is my body.",
+   "aud": {
+    "This is my body.": "audio/basic_b_u6/ai/thisismybody.mp3",
+    "This is my nose.": "audio/basic_b_u6/ai/thisismynose.mp3"
+   }
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_b_u5",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
+   "pic": "../packs/basic_b_u5/nightlight.jpg",
+   "choices": [
+    "It is a night light.",
+    "It is a toy."
+   ],
+   "answer": "It is a night light.",
+   "aud": {
+    "It is a night light.": "audio/basic_b_u5/ai/itisanightlight.mp3",
+    "It is a toy.": "audio/basic_b_u5/ai/itisatoy.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "mouth",
+   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "mouth."
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "red",
+   "choices": [
+    "red",
+    "black",
+    "orange",
+    "purple"
+   ],
+   "unit": "basic_b_u7"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hand",
+   "answer": "hand",
+   "choices": [
+    "hand",
+    "and",
+    "han",
+    "had"
+   ],
+   "unit": "basic_b_u6"
+  }
+ ],
+ "words": [
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/basic_b_u5/book.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/book.mp3",
+   "stext": "It is a book.",
+   "sentence": "audio/basic_b_u5/{v}/itisabook.mp3"
+  },
+  {
+   "id": "phonecharger",
+   "en": "phone charger",
+   "ko": "휴대폰 충전기",
+   "pic": "../packs/basic_b_u5/phonecharger.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/phonecharger.mp3",
+   "stext": "It is a phone charger.",
+   "sentence": "audio/basic_b_u5/{v}/itisaphonecharger.mp3"
+  },
+  {
+   "id": "sock",
+   "en": "sock",
+   "ko": "양말",
+   "pic": "../packs/basic_b_u5/sock.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/sock.mp3",
+   "stext": "It is a sock.",
+   "sentence": "audio/basic_b_u5/{v}/itisasock.mp3"
+  },
+  {
+   "id": "toy",
+   "en": "toy",
+   "ko": "장난감",
+   "pic": "../packs/basic_b_u5/toy.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toy.mp3",
+   "stext": "It is a toy.",
+   "sentence": "../packs/basic_b_u5/audio/{v}/itisatoy.mp3"
+  },
+  {
+   "id": "underwear",
+   "en": "underwear",
+   "ko": "속옷",
+   "pic": "../packs/basic_b_u5/underwear.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/underwear.mp3",
+   "stext": "It is underwear.",
+   "sentence": "audio/basic_b_u5/{v}/itisunderwear.mp3"
+  },
+  {
+   "id": "toothbrush",
+   "en": "toothbrush",
+   "ko": "칫솔",
+   "pic": "../packs/basic_b_u5/toothbrush.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toothbrush.mp3",
+   "stext": "It is a toothbrush.",
+   "sentence": "audio/basic_b_u5/{v}/itisatoothbrush.mp3"
+  },
+  {
+   "id": "nightlight",
+   "en": "night light",
+   "ko": "야간등",
+   "pic": "../packs/basic_b_u5/nightlight.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/nightlight.mp3",
+   "stext": "It is a night light.",
+   "sentence": "audio/basic_b_u5/{v}/itisanightlight.mp3"
+  },
+  {
+   "id": "teddybear",
+   "en": "teddy bear",
+   "ko": "곰인형",
+   "pic": "../packs/basic_b_u5/teddybear.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/teddybear.mp3",
+   "stext": "It is a teddy bear.",
+   "sentence": "audio/basic_b_u5/{v}/itisateddybear.mp3"
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "pic": "../packs/basic_b_u5/apple.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/apple.mp3",
+   "stext": "It is an apple.",
+   "sentence": "audio/basic_b_u5/{v}/itisanapple.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_b_u5/bag.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/bag.mp3",
+   "stext": "It is a bag.",
+   "sentence": "audio/basic_b_u5/{v}/itisabag.mp3"
+  },
+  {
+   "id": "yellow",
+   "en": "yellow",
+   "ko": "노란색",
+   "pic": "../packs/basic_b_u7/yellow.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/yellow.mp3"
+  },
+  {
+   "id": "neck",
+   "en": "neck",
+   "ko": "목",
+   "pic": "../packs/basic_b_u6/neck.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/neck.mp3"
+  },
+  {
+   "id": "paper",
+   "en": "paper",
+   "ko": "보, 종이",
+   "pic": "../packs/basic_b_u4/paper.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/paper.mp3"
+  },
+  {
+   "id": "mouth",
+   "en": "mouth",
+   "ko": "입",
+   "pic": "../packs/basic_b_u6/mouth.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/mouth.mp3"
+  },
+  {
+   "id": "head",
+   "en": "head",
+   "ko": "머리",
+   "pic": "../packs/basic_b_u6/head.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/head.mp3"
+  },
+  {
+   "id": "fourteen",
+   "en": "fourteen",
+   "ko": "열넷",
+   "pic": "../packs/basic_b_u8/fourteen.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/fourteen.mp3"
+  },
+  {
+   "id": "nose",
+   "en": "nose",
+   "ko": "코",
+   "pic": "../packs/basic_b_u6/nose.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/nose.mp3",
+   "stext": "This is my nose.",
+   "sentence": "audio/basic_b_u6/{v}/thisismynose.mp3"
+  },
+  {
+   "id": "ear",
+   "en": "ear",
+   "ko": "귀",
+   "pic": "../packs/basic_b_u6/ear.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/ear.mp3",
+   "stext": "This is my ear.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyear.mp3"
+  },
+  {
+   "id": "eye",
+   "en": "eye",
+   "ko": "눈",
+   "pic": "../packs/basic_b_u6/eye.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/eye.mp3",
+   "stext": "This is my eye.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyeye.mp3"
+  },
+  {
+   "id": "body",
+   "en": "body",
+   "ko": "몸",
+   "pic": "../packs/basic_b_u6/body.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/body.mp3",
+   "stext": "This is my body.",
+   "sentence": "audio/basic_b_u6/{v}/thisismybody.mp3"
+  },
+  {
+   "id": "chin",
+   "en": "chin",
+   "ko": "턱",
+   "pic": "../packs/basic_b_u6/chin.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/chin.mp3",
+   "stext": "This is my chin.",
+   "sentence": "audio/basic_b_u6/{v}/thisismychin.mp3"
+  },
+  {
+   "id": "hand",
+   "en": "hand",
+   "ko": "손",
+   "pic": "../packs/basic_b_u6/hand.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/hand.mp3",
+   "stext": "This is my hand.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyhand.mp3"
+  },
+  {
+   "id": "shoulder",
+   "en": "shoulder",
+   "ko": "어깨",
+   "pic": "../packs/basic_b_u6/shoulder.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/shoulder.mp3",
+   "stext": "This is my shoulder.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyshoulder.mp3"
+  },
+  {
+   "id": "again",
+   "en": "again",
+   "ko": "다시",
+   "pic": "../packs/basic_b_u3/again.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/again.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열",
+   "pic": "../packs/basic_b_u8/ten.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/ten.mp3"
+  },
+  {
+   "id": "black",
+   "en": "black",
+   "ko": "검은색",
+   "pic": "../packs/basic_b_u7/black.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/black.mp3"
+  },
+  {
+   "id": "blue",
+   "en": "blue",
+   "ko": "파란색",
+   "pic": "../packs/basic_b_u7/blue.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/blue.mp3"
+  },
+  {
+   "id": "white",
+   "en": "white",
+   "ko": "하얀색",
+   "pic": "../packs/basic_b_u7/white.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/white.mp3",
+   "stext": "It is white.",
+   "sentence": "audio/basic_b_u7/{v}/itiswhite.mp3"
+  },
+  {
+   "id": "brown",
+   "en": "brown",
+   "ko": "갈색",
+   "pic": "../packs/basic_b_u7/brown.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/brown.mp3",
+   "stext": "It is brown.",
+   "sentence": "audio/basic_b_u7/{v}/itisbrown.mp3"
+  },
+  {
+   "id": "red",
+   "en": "red",
+   "ko": "빨간색",
+   "pic": "../packs/basic_b_u7/red.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/red.mp3",
+   "stext": "It is red.",
+   "sentence": "../packs/basic_b_u7/audio/{v}/itisred.mp3"
+  },
+  {
+   "id": "orange",
+   "en": "orange",
+   "ko": "주황색",
+   "pic": "../packs/basic_b_u7/orange.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/orange.mp3",
+   "stext": "It is orange.",
+   "sentence": "audio/basic_b_u7/{v}/itisorange.mp3"
+  },
+  {
+   "id": "green",
+   "en": "green",
+   "ko": "초록색",
+   "pic": "../packs/basic_b_u7/green.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/green.mp3",
+   "stext": "It is green.",
+   "sentence": "audio/basic_b_u7/{v}/itisgreen.mp3"
+  },
+  {
+   "id": "purple",
+   "en": "purple",
+   "ko": "보라색",
+   "pic": "../packs/basic_b_u7/purple.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/purple.mp3",
+   "stext": "It is purple.",
+   "sentence": "audio/basic_b_u7/{v}/itispurple.mp3"
+  },
+  {
+   "id": "rainbow",
+   "en": "rainbow",
+   "ko": "무지개",
+   "pic": "../packs/basic_b_u7/rainbow.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/rainbow.mp3",
+   "stext": "It is a rainbow.",
+   "sentence": "audio/basic_b_u7/{v}/itisarainbow.mp3"
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱",
+   "pic": "../packs/basic_b_u8/seven.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/seven.mp3"
+  },
+  {
+   "id": "bored",
+   "en": "bored",
+   "ko": "지루한",
+   "pic": "../packs/basic_b_u1/bored.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/bored.mp3"
+  },
+  {
+   "id": "games",
+   "en": "games",
+   "ko": "게임",
+   "pic": "../packs/basic_b_u2/games.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/games.mp3"
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정되는",
+   "pic": "../packs/basic_b_u1/worried.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/worried.mp3"
+  },
+  {
+   "id": "seventeen",
+   "en": "seventeen",
+   "ko": "열일곱",
+   "pic": "../packs/basic_b_u8/seventeen.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/seventeen.mp3",
+   "stext": "I am seventeen years old.",
+   "sentence": "audio/basic_b_u8/{v}/iamseventeenyearsold.mp3"
+  },
+  {
+   "id": "twentytwo",
+   "en": "twenty-two",
+   "ko": "스물둘",
+   "pic": "../packs/basic_b_u8/twentytwo.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/twentytwo.mp3",
+   "stext": "I am twenty-two years old.",
+   "sentence": "audio/basic_b_u8/{v}/iamtwentytwoyearsold.mp3"
+  },
+  {
+   "id": "twentyfive",
+   "en": "twenty-five",
+   "ko": "스물다섯",
+   "pic": "../packs/basic_b_u8/twentyfive.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/twentyfive.mp3",
+   "stext": "I am twenty-five years old.",
+   "sentence": "audio/basic_b_u8/{v}/iamtwentyfiveyearsold.mp3"
+  },
+  {
+   "id": "thirtythree",
+   "en": "thirty-three",
+   "ko": "서른셋",
+   "pic": "../packs/basic_b_u8/thirtythree.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/thirtythree.mp3",
+   "stext": "I am thirty-three years old.",
+   "sentence": "audio/basic_b_u8/{v}/iamthirtythreeyearsold.mp3"
+  },
+  {
+   "id": "sixtysix",
+   "en": "sixty-six",
+   "ko": "예순여섯",
+   "pic": "../packs/basic_b_u8/sixtysix.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/sixtysix.mp3",
+   "stext": "I am sixty-six years old.",
+   "sentence": "audio/basic_b_u8/{v}/iamsixtysixyearsold.mp3"
+  },
+  {
+   "id": "onehundred",
+   "en": "one hundred",
+   "ko": "백",
+   "pic": "../packs/basic_b_u8/onehundred.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/onehundred.mp3",
+   "stext": "I am one hundred years old.",
+   "sentence": "audio/basic_b_u8/{v}/iamonehundredyearsold.mp3"
+  },
+  {
+   "id": "year",
+   "en": "year",
+   "ko": "해, 살",
+   "pic": null,
+   "audio": "../packs/basic_b_u8/audio/{v}/year.mp3",
+   "stext": "One year has twelve months.",
+   "sentence": "audio/basic_b_u8/{v}/oneyearhastwelvemonths.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/basic_b_u3/quiet.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/quiet.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/basic_b_u2/music.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/music.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u5/",
+  "ai": "audio/basic_b_u5/ai/"
+ }
+}

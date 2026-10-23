@@ -1,0 +1,658 @@
+{
+ "id": "basic_b_mid1",
+ "kind": "review",
+ "title": "Basic B · Review Units 1-4",
+ "passPercent": 80,
+ "units": [
+  "basic_b_u1",
+  "basic_b_u2",
+  "basic_b_u3",
+  "basic_b_u4"
+ ],
+ "wordAudio": "../packs/basic_b_u1/audio/us_f/",
+ "picDir": "../packs/basic_b_u1/",
+ "lineAudio": "audio/basic_b_u1/",
+ "questions": [
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "rock",
+   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
+   "sentence": [
+    "___",
+    "wins."
+   ],
+   "answer": "Rock",
+   "choices": [
+    "Rock",
+    "Paper",
+    "Scissors"
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "understand",
+   "choices": [
+    "understand",
+    "quiet",
+    "trash",
+    "help"
+   ],
+   "unit": "basic_b_u3"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "movies",
+   "answer": "movies",
+   "choices": [
+    "movies",
+    "movius",
+    "modies",
+    "movees"
+   ],
+   "unit": "basic_b_u2"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "rock",
+   "answer": "rock",
+   "choices": [
+    "rock",
+    "pock",
+    "rok",
+    "roct"
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_b_u2",
+   "q": {
+    "text": "What do you like?",
+    "audio": "audio/basic_b_u2/{v}/whatdoyoulike.mp3"
+   },
+   "pic": "../packs/basic_b_u2/music.jpg",
+   "choices": [
+    "I like music.",
+    "I like exercise."
+   ],
+   "answer": "I like music.",
+   "aud": {
+    "I like music.": "audio/basic_b_u2/ai/ilikemusic.mp3",
+    "I like exercise.": "audio/basic_b_u2/ai/ilikeexercise.mp3"
+   }
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "know",
+   "audio": "audio/basic_b_u3/{v}/iknow.mp3",
+   "sentence": [
+    "I",
+    "___",
+    "."
+   ],
+   "answer": "know",
+   "choices": [
+    "know",
+    "quiet",
+    "recycle"
+   ],
+   "unit": "basic_b_u3"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "fruit",
+   "audio": "audio/basic_b_u2/{v}/ilikefruit.mp3",
+   "answer": [
+    "I",
+    "like",
+    "fruit."
+   ],
+   "unit": "basic_b_u2"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_b_u3",
+   "q": {
+    "text": "Do you understand?",
+    "audio": "audio/basic_b_u3/{v}/doyouunderstand.mp3"
+   },
+   "pic": "../packs/basic_b_u3/understand.jpg",
+   "choices": [
+    "No. I do not understand.",
+    "No. I do not like noodles."
+   ],
+   "answer": "No. I do not understand.",
+   "aud": {
+    "No. I do not understand.": "audio/basic_b_u3/ai/noidonotunderstand.mp3",
+    "No. I do not like noodles.": "audio/basic_b_u3/ai/noidonotlikenoodles.mp3"
+   }
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "exercise",
+   "choices": [
+    "exercise",
+    "music",
+    "noodles",
+    "games"
+   ],
+   "unit": "basic_b_u2"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_b_u1",
+   "q": {
+    "text": "How are you?",
+    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+   },
+   "pic": "../packs/basic_b_u1/bored.jpg",
+   "choices": [
+    "I am sleepy.",
+    "I am bored."
+   ],
+   "answer": "I am bored.",
+   "aud": {
+    "I am sleepy.": "audio/basic_b_u1/ai/iamsleepy.mp3",
+    "I am bored.": "audio/basic_b_u1/ai/iambored.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "rock",
+   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
+   "answer": [
+    "Rock",
+    "wins."
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "bored",
+   "choices": [
+    "bored",
+    "sleepy",
+    "tired",
+    "worried"
+   ],
+   "unit": "basic_b_u1"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/basic_b_u3/{v}/sitdownplease.mp3",
+   "answer": [
+    "Sit",
+    "down,",
+    "please."
+   ],
+   "unit": "basic_b_u3"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hungry",
+   "answer": "hungry",
+   "choices": [
+    "hungry",
+    "hubgry",
+    "hungdy",
+    "hungy"
+   ],
+   "unit": "basic_b_u1"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "hungry",
+   "audio": "audio/basic_b_u1/{v}/iamhungry.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "."
+   ],
+   "answer": "hungry",
+   "choices": [
+    "hungry",
+    "angry",
+    "sleepy"
+   ],
+   "unit": "basic_b_u1"
+  }
+ ],
+ "words": [
+  {
+   "id": "happy",
+   "en": "happy",
+   "ko": "행복한",
+   "pic": "../packs/basic_b_u1/happy.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/happy.mp3",
+   "stext": "I am happy.",
+   "sentence": "../packs/basic_b_u1/audio/{v}/iamhappy.mp3"
+  },
+  {
+   "id": "sad",
+   "en": "sad",
+   "ko": "슬픈",
+   "pic": "../packs/basic_b_u1/sad.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sad.mp3",
+   "stext": "I am sad.",
+   "sentence": "audio/basic_b_u1/{v}/iamsad.mp3"
+  },
+  {
+   "id": "angry",
+   "en": "angry",
+   "ko": "화난",
+   "pic": "../packs/basic_b_u1/angry.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/angry.mp3",
+   "stext": "I am angry.",
+   "sentence": "audio/basic_b_u1/{v}/iamangry.mp3"
+  },
+  {
+   "id": "hungry",
+   "en": "hungry",
+   "ko": "배고픈",
+   "pic": "../packs/basic_b_u1/hungry.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/hungry.mp3",
+   "stext": "I am hungry.",
+   "sentence": "audio/basic_b_u1/{v}/iamhungry.mp3"
+  },
+  {
+   "id": "tired",
+   "en": "tired",
+   "ko": "피곤한",
+   "pic": "../packs/basic_b_u1/tired.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/tired.mp3",
+   "stext": "I am tired.",
+   "sentence": "audio/basic_b_u1/{v}/iamtired.mp3"
+  },
+  {
+   "id": "bored",
+   "en": "bored",
+   "ko": "지루한",
+   "pic": "../packs/basic_b_u1/bored.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/bored.mp3",
+   "stext": "I am bored.",
+   "sentence": "audio/basic_b_u1/{v}/iambored.mp3"
+  },
+  {
+   "id": "scared",
+   "en": "scared",
+   "ko": "무서운",
+   "pic": "../packs/basic_b_u1/scared.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/scared.mp3",
+   "stext": "I am scared.",
+   "sentence": "audio/basic_b_u1/{v}/iamscared.mp3"
+  },
+  {
+   "id": "sick",
+   "en": "sick",
+   "ko": "아픈",
+   "pic": "../packs/basic_b_u1/sick.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sick.mp3",
+   "stext": "I am sick.",
+   "sentence": "audio/basic_b_u1/{v}/iamsick.mp3"
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정되는",
+   "pic": "../packs/basic_b_u1/worried.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/worried.mp3",
+   "stext": "I am worried.",
+   "sentence": "audio/basic_b_u1/{v}/iamworried.mp3"
+  },
+  {
+   "id": "sleepy",
+   "en": "sleepy",
+   "ko": "졸린",
+   "pic": "../packs/basic_b_u1/sleepy.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sleepy.mp3",
+   "stext": "I am sleepy.",
+   "sentence": "audio/basic_b_u1/{v}/iamsleepy.mp3"
+  },
+  {
+   "id": "red",
+   "en": "red",
+   "ko": "빨간색",
+   "pic": "../packs/basic_b_u7/red.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/red.mp3"
+  },
+  {
+   "id": "ear",
+   "en": "ear",
+   "ko": "귀",
+   "pic": "../packs/basic_b_u6/ear.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/ear.mp3"
+  },
+  {
+   "id": "rock",
+   "en": "rock",
+   "ko": "바위",
+   "pic": "../packs/basic_b_u4/rock.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/rock.mp3"
+  },
+  {
+   "id": "fourteen",
+   "en": "fourteen",
+   "ko": "열넷",
+   "pic": "../packs/basic_b_u8/fourteen.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/fourteen.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/basic_b_u2/music.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/music.mp3"
+  },
+  {
+   "id": "black",
+   "en": "black",
+   "ko": "검은색",
+   "pic": "../packs/basic_b_u7/black.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/black.mp3"
+  },
+  {
+   "id": "like",
+   "en": "like",
+   "ko": "좋아하다",
+   "pic": null,
+   "audio": "../packs/basic_b_u2/audio/{v}/like.mp3",
+   "stext": "I like Mr. Jay.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemrjay.mp3"
+  },
+  {
+   "id": "noodles",
+   "en": "noodles",
+   "ko": "면, 국수",
+   "pic": "../packs/basic_b_u2/noodles.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/noodles.mp3",
+   "stext": "I like noodles.",
+   "sentence": "../packs/basic_b_u2/audio/{v}/ilikenoodles.mp3"
+  },
+  {
+   "id": "meat",
+   "en": "meat",
+   "ko": "고기",
+   "pic": "../packs/basic_b_u2/meat.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/meat.mp3",
+   "stext": "I like meat.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemeat.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": "../packs/basic_b_u2/fruit.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/fruit.mp3",
+   "stext": "I like fruit.",
+   "sentence": "audio/basic_b_u2/{v}/ilikefruit.mp3"
+  },
+  {
+   "id": "games",
+   "en": "games",
+   "ko": "게임",
+   "pic": "../packs/basic_b_u2/games.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/games.mp3",
+   "stext": "I like games.",
+   "sentence": "audio/basic_b_u2/{v}/ilikegames.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/basic_b_u2/school.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/school.mp3",
+   "stext": "I like school.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeschool.mp3"
+  },
+  {
+   "id": "exercise",
+   "en": "exercise",
+   "ko": "운동",
+   "pic": "../packs/basic_b_u2/exercise.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/exercise.mp3",
+   "stext": "I like exercise.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeexercise.mp3"
+  },
+  {
+   "id": "movies",
+   "en": "movies",
+   "ko": "영화",
+   "pic": "../packs/basic_b_u2/movies.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/movies.mp3",
+   "stext": "I like movies.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemovies.mp3"
+  },
+  {
+   "id": "apples",
+   "en": "apples",
+   "ko": "사과",
+   "pic": "../packs/basic_b_u2/apples.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/apples.mp3",
+   "stext": "I like apples.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeapples.mp3"
+  },
+  {
+   "id": "help",
+   "en": "help",
+   "ko": "돕다",
+   "pic": "../packs/basic_b_u3/help.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/help.mp3"
+  },
+  {
+   "id": "green",
+   "en": "green",
+   "ko": "초록색",
+   "pic": "../packs/basic_b_u7/green.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/green.mp3"
+  },
+  {
+   "id": "toothbrush",
+   "en": "toothbrush",
+   "ko": "칫솔",
+   "pic": "../packs/basic_b_u5/toothbrush.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toothbrush.mp3"
+  },
+  {
+   "id": "brown",
+   "en": "brown",
+   "ko": "갈색",
+   "pic": "../packs/basic_b_u7/brown.jpg",
+   "audio": "../packs/basic_b_u7/audio/{v}/brown.mp3"
+  },
+  {
+   "id": "again",
+   "en": "again",
+   "ko": "다시",
+   "pic": "../packs/basic_b_u3/again.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/again.mp3",
+   "stext": "Say it again, please.",
+   "sentence": "audio/basic_b_u3/{v}/sayitagainplease.mp3"
+  },
+  {
+   "id": "recycle",
+   "en": "recycle",
+   "ko": "재활용하다",
+   "pic": "../packs/basic_b_u3/recycle.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/recycle.mp3",
+   "stext": "Recycle the paper.",
+   "sentence": "audio/basic_b_u3/{v}/recyclethepaper.mp3"
+  },
+  {
+   "id": "trash",
+   "en": "trash",
+   "ko": "버리다, 쓰레기",
+   "pic": "../packs/basic_b_u3/trash.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/trash.mp3",
+   "stext": "Put it in the trash.",
+   "sentence": "audio/basic_b_u3/{v}/putitinthetrash.mp3"
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "pic": "../packs/basic_b_u3/understand.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/understand.mp3",
+   "stext": "I do not understand.",
+   "sentence": "../packs/basic_b_u3/audio/{v}/idonotunderstand.mp3"
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "pic": "../packs/basic_b_u3/know.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/know.mp3",
+   "stext": "I know.",
+   "sentence": "audio/basic_b_u3/{v}/iknow.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/basic_b_u3/quiet.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/quiet.mp3",
+   "stext": "Be quiet, please.",
+   "sentence": "audio/basic_b_u3/{v}/bequietplease.mp3"
+  },
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "부탁해요, 제발",
+   "pic": null,
+   "audio": "../packs/basic_b_u3/audio/{v}/please.mp3",
+   "stext": "Sit down, please.",
+   "sentence": "audio/basic_b_u3/{v}/sitdownplease.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_b_u5/bag.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/bag.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열",
+   "pic": "../packs/basic_b_u8/ten.jpg",
+   "audio": "../packs/basic_b_u8/audio/{v}/ten.mp3"
+  },
+  {
+   "id": "paper",
+   "en": "paper",
+   "ko": "보, 종이",
+   "pic": "../packs/basic_b_u4/paper.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/paper.mp3",
+   "stext": "Paper wins.",
+   "sentence": "audio/basic_b_u4/{v}/paperwins.mp3"
+  },
+  {
+   "id": "scissors",
+   "en": "scissors",
+   "ko": "가위",
+   "pic": "../packs/basic_b_u4/scissors.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/scissors.mp3",
+   "stext": "Scissors win.",
+   "sentence": "audio/basic_b_u4/{v}/scissorswin.mp3"
+  },
+  {
+   "id": "wins",
+   "en": "wins",
+   "ko": "이기다",
+   "pic": null,
+   "audio": "../packs/basic_b_u4/audio/{v}/wins.mp3",
+   "stext": "Scissors win against paper.",
+   "sentence": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3"
+  },
+  {
+   "id": "chin",
+   "en": "chin",
+   "ko": "턱",
+   "pic": "../packs/basic_b_u6/chin.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/chin.mp3"
+  },
+  {
+   "id": "eye",
+   "en": "eye",
+   "ko": "눈",
+   "pic": "../packs/basic_b_u6/eye.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/eye.mp3"
+  },
+  {
+   "id": "mouth",
+   "en": "mouth",
+   "ko": "입",
+   "pic": "../packs/basic_b_u6/mouth.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/mouth.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_b_u1/",
+  "ai": "audio/basic_b_u1/ai/"
+ }
+}
