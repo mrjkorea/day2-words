@@ -1,0 +1,1056 @@
+{
+ "id": "int2c_final",
+ "kind": "review",
+ "title": "INT 2C · Final Review Units 1-8",
+ "passPercent": 80,
+ "units": [
+  "int2c_u1",
+  "int2c_u2",
+  "int2c_u3",
+  "int2c_u4",
+  "int2c_u5",
+  "int2c_u6",
+  "int2c_u7",
+  "int2c_u8"
+ ],
+ "wordAudio": "../packs/int2c_u1/audio/us_f/",
+ "picDir": "../packs/int2c_u1/",
+ "lineAudio": "audio/int2c_u1/",
+ "questions": [
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2c_u2/{v}/myteethareclean.mp3",
+   "answer": [
+    "My",
+    "teeth",
+    "are",
+    "clean."
+   ],
+   "unit": "int2c_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nervous",
+   "audio": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "feeling",
+    "___",
+    "."
+   ],
+   "answer": "nervous",
+   "choices": [
+    "nervous",
+    "jealous",
+    "surprised"
+   ],
+   "unit": "int2c_u5"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "fall",
+   "answer": "fall",
+   "choices": [
+    "fall",
+    "fll",
+    "call",
+    "falc"
+   ],
+   "unit": "int2c_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "music",
+   "choices": [
+    "music",
+    "animal",
+    "season",
+    "hobby"
+   ],
+   "unit": "int2c_u4"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "out",
+   "answer": "out",
+   "choices": [
+    "out",
+    "oat",
+    "outi",
+    "outl"
+   ],
+   "unit": "int2c_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2c_u8/{v}/wehadagreattime.mp3",
+   "answer": [
+    "We",
+    "had",
+    "a",
+    "great",
+    "time."
+   ],
+   "unit": "int2c_u8"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "ignored",
+   "answer": "ignored",
+   "choices": [
+    "ignored",
+    "ignoed",
+    "ignorud",
+    "ignared"
+   ],
+   "unit": "int2c_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "tooth",
+   "choices": [
+    "tooth",
+    "sorethroat",
+    "fever",
+    "stomachache"
+   ],
+   "unit": "int2c_u6"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2c_u1",
+   "q": {
+    "text": "What do you love?",
+    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
+   },
+   "pic": "../packs/int2c_u1/ski.jpg",
+   "choices": [
+    "I love all four seasons.",
+    "I ski in winter."
+   ],
+   "answer": "I ski in winter.",
+   "aud": {
+    "I love all four seasons.": "audio/int2c_u1/ai/iloveallfourseasons.mp3",
+    "I ski in winter.": "audio/int2c_u1/ai/iskiinwinter.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int2c_u4/{v}/whatisyourfavorite.mp3",
+   "answer": [
+    "What",
+    "is",
+    "your",
+    "favorite?"
+   ],
+   "unit": "int2c_u4"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "brush",
+   "choices": [
+    "brush",
+    "bow",
+    "vegetable",
+    "fruit"
+   ],
+   "unit": "int2c_u2"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "leaves",
+   "choices": [
+    "leaves",
+    "summer",
+    "winter",
+    "fall"
+   ],
+   "unit": "int2c_u1"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "kimchi",
+   "audio": "audio/int2c_u2/{v}/iammakingkimchi.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "making",
+    "___",
+    "."
+   ],
+   "answer": "kimchi",
+   "choices": [
+    "kimchi",
+    "vegetable",
+    "bow"
+   ],
+   "unit": "int2c_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2c_u8/{v}/haveaniceday.mp3",
+   "sentence": [
+    "Have",
+    "a",
+    "nice",
+    "___",
+    "."
+   ],
+   "answer": "day",
+   "choices": [
+    "day",
+    "nice",
+    "goodbye"
+   ],
+   "unit": "int2c_u8"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2c_u3",
+   "q": {
+    "text": "Whose is this?",
+    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
+   },
+   "pic": "../packs/int2c_u3/yours.jpg",
+   "choices": [
+    "Whose candy is this?",
+    "Is this yours?"
+   ],
+   "answer": "Is this yours?",
+   "aud": {
+    "Whose candy is this?": "audio/int2c_u3/ai/whosecandyisthis.mp3",
+    "Is this yours?": "audio/int2c_u3/ai/isthisyours.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "fever",
+   "audio": "audio/int2c_u6/{v}/ihaveafever.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "fever."
+   ],
+   "unit": "int2c_u6"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2c_u7",
+   "q": {
+    "text": "Hello? Who is this?",
+    "audio": "audio/int2c_u7/{v}/hellowhoisthis.mp3"
+   },
+   "pic": null,
+   "choices": [
+    "This is my phone.",
+    "This is Mr. Jay."
+   ],
+   "answer": "This is Mr. Jay.",
+   "aud": {
+    "This is my phone.": "audio/int2c_u7/ai/thisismyphone.mp3",
+    "This is Mr. Jay.": "audio/int2c_u7/ai/thisismrjay.mp3"
+   }
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "book",
+   "audio": "audio/int2c_u3/{v}/itismybook.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "book",
+   "choices": [
+    "book",
+    "candy",
+    "those"
+   ],
+   "unit": "int2c_u3"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2c_u4",
+   "q": {
+    "text": "What is your favorite hobby?",
+    "audio": "audio/int2c_u4/{v}/whatisyourfavoritehobby.mp3"
+   },
+   "pic": "../packs/int2c_u4/hobby.jpg",
+   "choices": [
+    "My favorite hobby is drawing.",
+    "What is your favorite?"
+   ],
+   "answer": "My favorite hobby is drawing.",
+   "aud": {
+    "My favorite hobby is drawing.": "audio/int2c_u4/ai/myfavoritehobbyisdrawing.mp3",
+    "What is your favorite?": "audio/int2c_u4/ai/whatisyourfavorite.mp3"
+   }
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "yours",
+   "answer": "yours",
+   "choices": [
+    "yours",
+    "yors",
+    "yoars",
+    "yourm"
+   ],
+   "unit": "int2c_u3"
+  }
+ ],
+ "words": [
+  {
+   "id": "season",
+   "en": "season",
+   "ko": "계절",
+   "pic": null,
+   "audio": "../packs/int2c_u1/audio/{v}/season.mp3",
+   "stext": "I love all four seasons.",
+   "sentence": "../packs/int2c_u1/audio/{v}/iloveallfourseasons.mp3"
+  },
+  {
+   "id": "summer",
+   "en": "summer",
+   "ko": "여름",
+   "pic": "../packs/int2c_u1/summer.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/summer.mp3",
+   "stext": "I love summer.",
+   "sentence": "audio/int2c_u1/{v}/ilovesummer.mp3"
+  },
+  {
+   "id": "fall",
+   "en": "fall",
+   "ko": "가을",
+   "pic": "../packs/int2c_u1/fall.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/fall.mp3",
+   "stext": "I love fall.",
+   "sentence": "audio/int2c_u1/{v}/ilovefall.mp3"
+  },
+  {
+   "id": "winter",
+   "en": "winter",
+   "ko": "겨울",
+   "pic": "../packs/int2c_u1/winter.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/winter.mp3",
+   "stext": "I love winter.",
+   "sentence": "audio/int2c_u1/{v}/ilovewinter.mp3"
+  },
+  {
+   "id": "spring",
+   "en": "spring",
+   "ko": "봄",
+   "pic": "../packs/int2c_u1/spring.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/spring.mp3",
+   "stext": "I love spring.",
+   "sentence": "audio/int2c_u1/{v}/ilovespring.mp3"
+  },
+  {
+   "id": "swim",
+   "en": "swim",
+   "ko": "수영하다",
+   "pic": "../packs/int2c_u1/swim.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/swim.mp3",
+   "stext": "I swim in summer.",
+   "sentence": "audio/int2c_u1/{v}/iswiminsummer.mp3"
+  },
+  {
+   "id": "island",
+   "en": "island",
+   "ko": "섬",
+   "pic": "../packs/int2c_u1/island.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/island.mp3",
+   "stext": "I visit an island.",
+   "sentence": "audio/int2c_u1/{v}/ivisitanisland.mp3"
+  },
+  {
+   "id": "visit",
+   "en": "visit",
+   "ko": "방문하다",
+   "pic": null,
+   "audio": "../packs/int2c_u1/audio/{v}/visit.mp3",
+   "stext": "I visit my grandma.",
+   "sentence": "audio/int2c_u1/{v}/ivisitmygrandma.mp3"
+  },
+  {
+   "id": "leaves",
+   "en": "leaves",
+   "ko": "나뭇잎",
+   "pic": "../packs/int2c_u1/leaves.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/leaves.mp3",
+   "stext": "The leaves are red in fall.",
+   "sentence": "audio/int2c_u1/{v}/theleavesareredinfall.mp3"
+  },
+  {
+   "id": "ski",
+   "en": "ski",
+   "ko": "스키를 타다",
+   "pic": "../packs/int2c_u1/ski.jpg",
+   "audio": "../packs/int2c_u1/audio/{v}/ski.mp3",
+   "stext": "I ski in winter.",
+   "sentence": "audio/int2c_u1/{v}/iskiinwinter.mp3"
+  },
+  {
+   "id": "sport",
+   "en": "sport",
+   "ko": "스포츠",
+   "pic": "../packs/int2c_u4/sport.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/sport.mp3"
+  },
+  {
+   "id": "confused",
+   "en": "confused",
+   "ko": "혼란스러운",
+   "pic": "../packs/int2c_u5/confused.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/confused.mp3"
+  },
+  {
+   "id": "stomachache",
+   "en": "stomachache",
+   "ko": "복통",
+   "pic": "../packs/int2c_u6/stomachache.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/stomachache.mp3"
+  },
+  {
+   "id": "tooth",
+   "en": "tooth",
+   "ko": "치아",
+   "pic": "../packs/int2c_u6/tooth.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/tooth.mp3"
+  },
+  {
+   "id": "miss",
+   "en": "miss",
+   "ko": "그리워하다",
+   "pic": "../packs/int2c_u8/miss.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/miss.mp3"
+  },
+  {
+   "id": "okay",
+   "en": "okay",
+   "ko": "알겠어요",
+   "pic": "../packs/int2c_u7/okay.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/okay.mp3"
+  },
+  {
+   "id": "picture",
+   "en": "picture",
+   "ko": "사진",
+   "pic": "../packs/int2c_u2/picture.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/picture.mp3",
+   "stext": "I am taking a picture.",
+   "sentence": "audio/int2c_u2/{v}/iamtakingapicture.mp3"
+  },
+  {
+   "id": "sell",
+   "en": "sell",
+   "ko": "팔다",
+   "pic": null,
+   "audio": "../packs/int2c_u2/audio/{v}/sell.mp3",
+   "stext": "I am selling fruit.",
+   "sentence": "audio/int2c_u2/{v}/iamsellingfruit.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": "../packs/int2c_u2/fruit.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/fruit.mp3",
+   "stext": "I am eating fruit.",
+   "sentence": "audio/int2c_u2/{v}/iameatingfruit.mp3"
+  },
+  {
+   "id": "bow",
+   "en": "bow",
+   "ko": "절하다",
+   "pic": "../packs/int2c_u2/bow.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/bow.mp3",
+   "stext": "I am bowing.",
+   "sentence": "audio/int2c_u2/{v}/iambowing.mp3"
+  },
+  {
+   "id": "fishing",
+   "en": "fishing",
+   "ko": "낚시",
+   "pic": "../packs/int2c_u2/fishing.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/fishing.mp3",
+   "stext": "I am fishing.",
+   "sentence": "../packs/int2c_u2/audio/{v}/iamfishing.mp3"
+  },
+  {
+   "id": "vegetable",
+   "en": "vegetable",
+   "ko": "채소",
+   "pic": "../packs/int2c_u2/vegetable.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/vegetable.mp3",
+   "stext": "I am washing vegetables.",
+   "sentence": "audio/int2c_u2/{v}/iamwashingvegetables.mp3"
+  },
+  {
+   "id": "go",
+   "en": "Go",
+   "ko": "바둑",
+   "pic": "../packs/int2c_u2/go.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/go.mp3",
+   "stext": "I am playing Go.",
+   "sentence": "audio/int2c_u2/{v}/iamplayinggo.mp3"
+  },
+  {
+   "id": "kimchi",
+   "en": "kimchi",
+   "ko": "김치",
+   "pic": "../packs/int2c_u2/kimchi.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/kimchi.mp3",
+   "stext": "I am making kimchi.",
+   "sentence": "audio/int2c_u2/{v}/iammakingkimchi.mp3"
+  },
+  {
+   "id": "brush",
+   "en": "brush",
+   "ko": "(이를) 닦다",
+   "pic": "../packs/int2c_u2/brush.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/brush.mp3",
+   "stext": "I am brushing my teeth.",
+   "sentence": "audio/int2c_u2/{v}/iambrushingmyteeth.mp3"
+  },
+  {
+   "id": "teeth",
+   "en": "teeth",
+   "ko": "이, 치아",
+   "pic": null,
+   "audio": "../packs/int2c_u2/audio/{v}/teeth.mp3",
+   "stext": "My teeth are clean.",
+   "sentence": "audio/int2c_u2/{v}/myteethareclean.mp3"
+  },
+  {
+   "id": "ankle",
+   "en": "ankle",
+   "ko": "발목",
+   "pic": "../packs/int2c_u6/ankle.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/ankle.mp3"
+  },
+  {
+   "id": "goodbye",
+   "en": "goodbye",
+   "ko": "작별 인사",
+   "pic": "../packs/int2c_u8/goodbye.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/goodbye.mp3"
+  },
+  {
+   "id": "guilty",
+   "en": "guilty",
+   "ko": "죄책감이 드는",
+   "pic": "../packs/int2c_u5/guilty.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/guilty.mp3"
+  },
+  {
+   "id": "character",
+   "en": "character",
+   "ko": "캐릭터",
+   "pic": "../packs/int2c_u4/character.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/character.mp3"
+  },
+  {
+   "id": "fever",
+   "en": "fever",
+   "ko": "열",
+   "pic": "../packs/int2c_u6/fever.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/fever.mp3"
+  },
+  {
+   "id": "yours",
+   "en": "yours",
+   "ko": "너의 것",
+   "pic": "../packs/int2c_u3/yours.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/yours.mp3",
+   "stext": "Is this yours?",
+   "sentence": "audio/int2c_u3/{v}/isthisyours.mp3"
+  },
+  {
+   "id": "those",
+   "en": "those",
+   "ko": "저것들",
+   "pic": "../packs/int2c_u3/those.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/those.mp3",
+   "stext": "Are those yours?",
+   "sentence": "audio/int2c_u3/{v}/arethoseyours.mp3"
+  },
+  {
+   "id": "whose",
+   "en": "whose",
+   "ko": "누구의",
+   "pic": null,
+   "audio": "../packs/int2c_u3/audio/{v}/whose.mp3",
+   "stext": "Whose candy is this?",
+   "sentence": "../packs/int2c_u3/audio/{v}/whosecandyisthis.mp3"
+  },
+  {
+   "id": "candy",
+   "en": "candy",
+   "ko": "사탕",
+   "pic": "../packs/int2c_u3/candy.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/candy.mp3",
+   "stext": "It is my candy.",
+   "sentence": "audio/int2c_u3/{v}/itismycandy.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int2c_u3/phone.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/phone.mp3",
+   "stext": "It is my phone.",
+   "sentence": "audio/int2c_u3/{v}/itismyphone.mp3"
+  },
+  {
+   "id": "chair",
+   "en": "chair",
+   "ko": "의자",
+   "pic": "../packs/int2c_u3/chair.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/chair.mp3",
+   "stext": "It is my chair.",
+   "sentence": "audio/int2c_u3/{v}/itismychair.mp3"
+  },
+  {
+   "id": "garbage",
+   "en": "garbage",
+   "ko": "쓰레기",
+   "pic": "../packs/int2c_u3/garbage.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/garbage.mp3",
+   "stext": "It is garbage.",
+   "sentence": "audio/int2c_u3/{v}/itisgarbage.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/int2c_u3/book.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/book.mp3",
+   "stext": "It is my book.",
+   "sentence": "audio/int2c_u3/{v}/itismybook.mp3"
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "pic": "../packs/int2c_u3/money.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/money.mp3",
+   "stext": "It is my money.",
+   "sentence": "audio/int2c_u3/{v}/itismymoney.mp3"
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "pic": null,
+   "audio": "../packs/int2c_u3/audio/{v}/know.mp3",
+   "stext": "I don't know.",
+   "sentence": "../packs/int2c_u3/audio/{v}/idontknow.mp3"
+  },
+  {
+   "id": "proud",
+   "en": "proud",
+   "ko": "자랑스러운",
+   "pic": "../packs/int2c_u5/proud.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/proud.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int2c_u4/music.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/music.mp3"
+  },
+  {
+   "id": "hobby",
+   "en": "hobby",
+   "ko": "취미",
+   "pic": "../packs/int2c_u4/hobby.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/hobby.mp3"
+  },
+  {
+   "id": "favorite",
+   "en": "favorite",
+   "ko": "가장 좋아하는",
+   "pic": null,
+   "audio": "../packs/int2c_u4/audio/{v}/favorite.mp3",
+   "stext": "What is your favorite?",
+   "sentence": "audio/int2c_u4/{v}/whatisyourfavorite.mp3"
+  },
+  {
+   "id": "animal",
+   "en": "animal",
+   "ko": "동물",
+   "pic": "../packs/int2c_u4/animal.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/animal.mp3",
+   "stext": "My favorite animal is the cat.",
+   "sentence": "audio/int2c_u4/{v}/myfavoriteanimalisthecat.mp3"
+  },
+  {
+   "id": "game",
+   "en": "game",
+   "ko": "게임",
+   "pic": "../packs/int2c_u4/game.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/game.mp3",
+   "stext": "My favorite game is Go.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritegameisgo.mp3"
+  },
+  {
+   "id": "color",
+   "en": "color",
+   "ko": "색깔",
+   "pic": "../packs/int2c_u4/color.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/color.mp3",
+   "stext": "My favorite color is blue.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritecolorisblue.mp3"
+  },
+  {
+   "id": "snack",
+   "en": "snack",
+   "ko": "간식",
+   "pic": "../packs/int2c_u4/snack.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/snack.mp3",
+   "stext": "My favorite snack is chips.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritesnackischips.mp3"
+  },
+  {
+   "id": "ignored",
+   "en": "ignored",
+   "ko": "무시당한",
+   "pic": "../packs/int2c_u5/ignored.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/ignored.mp3"
+  },
+  {
+   "id": "out",
+   "en": "out",
+   "ko": "외출 중인",
+   "pic": "../packs/int2c_u7/out.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/out.mp3"
+  },
+  {
+   "id": "embarrassed",
+   "en": "embarrassed",
+   "ko": "창피한, 쑥스러운",
+   "pic": "../packs/int2c_u5/embarrassed.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/embarrassed.mp3",
+   "stext": "I am feeling embarrassed.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingembarrassed.mp3"
+  },
+  {
+   "id": "jealous",
+   "en": "jealous",
+   "ko": "질투하는",
+   "pic": "../packs/int2c_u5/jealous.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/jealous.mp3",
+   "stext": "I am feeling jealous.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingjealous.mp3"
+  },
+  {
+   "id": "surprised",
+   "en": "surprised",
+   "ko": "놀란",
+   "pic": "../packs/int2c_u5/surprised.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/surprised.mp3",
+   "stext": "I am feeling surprised.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingsurprised.mp3"
+  },
+  {
+   "id": "fantastic",
+   "en": "fantastic",
+   "ko": "환상적인",
+   "pic": "../packs/int2c_u5/fantastic.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/fantastic.mp3",
+   "stext": "I am feeling fantastic.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingfantastic.mp3"
+  },
+  {
+   "id": "nervous",
+   "en": "nervous",
+   "ko": "긴장한",
+   "pic": "../packs/int2c_u5/nervous.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/nervous.mp3",
+   "stext": "I am feeling nervous.",
+   "sentence": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3"
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정하는",
+   "pic": "../packs/int2c_u5/worried.jpg",
+   "audio": "../packs/int2c_u5/audio/{v}/worried.mp3",
+   "stext": "I am feeling worried.",
+   "sentence": "audio/int2c_u5/{v}/iamfeelingworried.mp3"
+  },
+  {
+   "id": "long",
+   "en": "long",
+   "ko": "오래, 긴",
+   "pic": "../packs/int2c_u8/long.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/long.mp3"
+  },
+  {
+   "id": "hello",
+   "en": "hello",
+   "ko": "여보세요",
+   "pic": "../packs/int2c_u7/hello.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/hello.mp3"
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "감기",
+   "pic": "../packs/int2c_u6/cold.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/cold.mp3",
+   "stext": "I have a cold.",
+   "sentence": "audio/int2c_u6/{v}/ihaveacold.mp3"
+  },
+  {
+   "id": "knee",
+   "en": "knee",
+   "ko": "무릎",
+   "pic": "../packs/int2c_u6/knee.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/knee.mp3",
+   "stext": "My knee hurts.",
+   "sentence": "audio/int2c_u6/{v}/mykneehurts.mp3"
+  },
+  {
+   "id": "headache",
+   "en": "headache",
+   "ko": "두통",
+   "pic": "../packs/int2c_u6/headache.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/headache.mp3",
+   "stext": "I have a headache.",
+   "sentence": "../packs/int2c_u6/audio/{v}/ihaveaheadache.mp3"
+  },
+  {
+   "id": "back",
+   "en": "back",
+   "ko": "등",
+   "pic": "../packs/int2c_u6/back.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/back.mp3",
+   "stext": "My back hurts.",
+   "sentence": "audio/int2c_u6/{v}/mybackhurts.mp3"
+  },
+  {
+   "id": "sorethroat",
+   "en": "sore throat",
+   "ko": "목 아픔, 인후통",
+   "pic": "../packs/int2c_u6/sorethroat.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/sorethroat.mp3",
+   "stext": "I have a sore throat.",
+   "sentence": "audio/int2c_u6/{v}/ihaveasorethroat.mp3"
+  },
+  {
+   "id": "bloodynose",
+   "en": "bloody nose",
+   "ko": "코피",
+   "pic": "../packs/int2c_u6/bloodynose.jpg",
+   "audio": "../packs/int2c_u6/audio/{v}/bloodynose.mp3",
+   "stext": "I have a bloody nose.",
+   "sentence": "audio/int2c_u6/{v}/ihaveabloodynose.mp3"
+  },
+  {
+   "id": "care",
+   "en": "care",
+   "ko": "조심, 보살핌",
+   "pic": "../packs/int2c_u8/care.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/care.mp3"
+  },
+  {
+   "id": "nice",
+   "en": "nice",
+   "ko": "좋은",
+   "pic": "../packs/int2c_u8/nice.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/nice.mp3"
+  },
+  {
+   "id": "who",
+   "en": "who",
+   "ko": "누구",
+   "pic": "../packs/int2c_u7/who.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/who.mp3",
+   "stext": "Who is this?",
+   "sentence": "../packs/int2c_u7/audio/{v}/whoisthis.mp3"
+  },
+  {
+   "id": "there",
+   "en": "there",
+   "ko": "거기에",
+   "pic": "../packs/int2c_u7/there.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/there.mp3",
+   "stext": "Is Mina there?",
+   "sentence": "audio/int2c_u7/{v}/isminathere.mp3"
+  },
+  {
+   "id": "sorry",
+   "en": "sorry",
+   "ko": "죄송해요",
+   "pic": null,
+   "audio": "../packs/int2c_u7/audio/{v}/sorry.mp3",
+   "stext": "Sorry, wrong number.",
+   "sentence": "audio/int2c_u7/{v}/sorrywrongnumber.mp3"
+  },
+  {
+   "id": "call",
+   "en": "call",
+   "ko": "전화하다",
+   "pic": "../packs/int2c_u7/call.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/call.mp3",
+   "stext": "I will call you back.",
+   "sentence": "audio/int2c_u7/{v}/iwillcallyouback.mp3"
+  },
+  {
+   "id": "friend",
+   "en": "friend",
+   "ko": "친구",
+   "pic": null,
+   "audio": "../packs/int2c_u7/audio/{v}/friend.mp3",
+   "stext": "This is her friend.",
+   "sentence": "audio/int2c_u7/{v}/thisisherfriend.mp3"
+  },
+  {
+   "id": "phonenumber",
+   "en": "phone number",
+   "ko": "전화번호",
+   "pic": "../packs/int2c_u7/phonenumber.jpg",
+   "audio": "../packs/int2c_u7/audio/{v}/phonenumber.mp3",
+   "stext": "What is your phone number?",
+   "sentence": "audio/int2c_u7/{v}/whatisyourphonenumber.mp3"
+  },
+  {
+   "id": "thankyou",
+   "en": "thank you",
+   "ko": "감사합니다",
+   "pic": null,
+   "audio": "../packs/int2c_u7/audio/{v}/thankyou.mp3",
+   "stext": "Thank you.",
+   "sentence": "../packs/int2c_u7/audio/{v}/thankyou.mp3"
+  },
+  {
+   "id": "sleep",
+   "en": "sleep",
+   "ko": "자다",
+   "pic": "../packs/int2c_u2/sleep.jpg",
+   "audio": "../packs/int2c_u2/audio/{v}/sleep.mp3"
+  },
+  {
+   "id": "luck",
+   "en": "luck",
+   "ko": "행운",
+   "pic": "../packs/int2c_u8/luck.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/luck.mp3",
+   "stext": "Good luck.",
+   "sentence": "audio/int2c_u8/{v}/goodluck.mp3"
+  },
+  {
+   "id": "easy",
+   "en": "easy",
+   "ko": "편한, 쉬운",
+   "pic": "../packs/int2c_u8/easy.jpg",
+   "audio": "../packs/int2c_u8/audio/{v}/easy.mp3",
+   "stext": "Take it easy.",
+   "sentence": "audio/int2c_u8/{v}/takeiteasy.mp3"
+  },
+  {
+   "id": "day",
+   "en": "day",
+   "ko": "하루, 날",
+   "pic": null,
+   "audio": "../packs/int2c_u8/audio/{v}/day.mp3",
+   "stext": "Have a nice day.",
+   "sentence": "audio/int2c_u8/{v}/haveaniceday.mp3"
+  },
+  {
+   "id": "time",
+   "en": "time",
+   "ko": "시간, 때",
+   "pic": null,
+   "audio": "../packs/int2c_u8/audio/{v}/time.mp3",
+   "stext": "We had a great time.",
+   "sentence": "audio/int2c_u8/{v}/wehadagreattime.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2c_u1/",
+  "ai": "audio/int2c_u1/ai/"
+ }
+}

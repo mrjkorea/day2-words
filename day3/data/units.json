@@ -408,6 +408,30 @@
   "title": "INT 2C · Unit 8 · I'll Miss You"
  },
  {
+  "id": "int2c_mid1",
+  "book": "int2c",
+  "n": 101,
+  "kind": "review",
+  "label": "Review 1-4",
+  "title": "INT 2C · Review Units 1-4"
+ },
+ {
+  "id": "int2c_mid2",
+  "book": "int2c",
+  "n": 102,
+  "kind": "review",
+  "label": "Review 5-8",
+  "title": "INT 2C · Review Units 5-8"
+ },
+ {
+  "id": "int2c_final",
+  "book": "int2c",
+  "n": 103,
+  "kind": "review",
+  "label": "Final Review",
+  "title": "INT 2C · Final Review Units 1-8"
+ },
+ {
   "id": "int3a_u1",
   "book": "int3a",
   "n": 1,
