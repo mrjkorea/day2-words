@@ -1,0 +1,967 @@
+{
+ "id": "int2a_u04_b",
+ "title": "I Want Juice",
+ "book": "INT 2A",
+ "unit": 4,
+ "unitTitle": "What do you Want?",
+ "packId": "int2a_u4",
+ "audio": "audio/int2a_u04_b.mp3",
+ "duration": 151.92,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "I want it!",
+   "words": [
+    {
+     "t": "I",
+     "start": 5.3,
+     "end": 6.5
+    },
+    {
+     "t": "want",
+     "start": 6.58,
+     "end": 7.02
+    },
+    {
+     "t": "it!",
+     "start": 7.0,
+     "end": 7.66
+    }
+   ],
+   "n": 1,
+   "start": 5.3,
+   "end": 7.66,
+   "pic": "blanket"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I want juice!",
+   "words": [
+    {
+     "t": "I",
+     "start": 8.5,
+     "end": 8.94
+    },
+    {
+     "t": "want",
+     "start": 8.96,
+     "end": 9.26
+    },
+    {
+     "t": "juice!",
+     "start": 9.26,
+     "end": 9.9,
+     "pic": "juice"
+    }
+   ],
+   "n": 2,
+   "start": 8.5,
+   "end": 9.9,
+   "pic": "juice"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Here you go!",
+   "words": [
+    {
+     "t": "Here",
+     "start": 11.3,
+     "end": 11.62
+    },
+    {
+     "t": "you",
+     "start": 11.62,
+     "end": 11.98
+    },
+    {
+     "t": "go!",
+     "start": 11.96,
+     "end": 12.56
+    }
+   ],
+   "n": 3,
+   "start": 11.3,
+   "end": 12.56,
+   "pic": "juice"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I want water!",
+   "words": [
+    {
+     "t": "I",
+     "start": 13.14,
+     "end": 14.22
+    },
+    {
+     "t": "want",
+     "start": 14.22,
+     "end": 14.6
+    },
+    {
+     "t": "water!",
+     "start": 14.6,
+     "end": 15.42,
+     "pic": "water"
+    }
+   ],
+   "n": 4,
+   "start": 13.14,
+   "end": 15.42,
+   "pic": "water"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Here you go!",
+   "words": [
+    {
+     "t": "Here",
+     "start": 16.52,
+     "end": 16.94
+    },
+    {
+     "t": "you",
+     "start": 16.94,
+     "end": 17.3
+    },
+    {
+     "t": "go!",
+     "start": 17.3,
+     "end": 17.84
+    }
+   ],
+   "n": 5,
+   "start": 16.52,
+   "end": 17.84,
+   "pic": "water"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I want my phone!",
+   "words": [
+    {
+     "t": "I",
+     "start": 19.02,
+     "end": 19.32
+    },
+    {
+     "t": "want",
+     "start": 19.32,
+     "end": 19.6
+    },
+    {
+     "t": "my",
+     "start": 19.62,
+     "end": 20.08
+    },
+    {
+     "t": "phone!",
+     "start": 20.08,
+     "end": 20.32,
+     "pic": "phone"
+    }
+   ],
+   "n": 6,
+   "start": 19.02,
+   "end": 20.32,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Here you go!",
+   "words": [
+    {
+     "t": "Here",
+     "start": 22.14,
+     "end": 22.32
+    },
+    {
+     "t": "you",
+     "start": 22.28,
+     "end": 22.64
+    },
+    {
+     "t": "go!",
+     "start": 22.68,
+     "end": 23.34
+    }
+   ],
+   "n": 7,
+   "start": 22.14,
+   "end": 23.34,
+   "pic": "phone"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want juice! Juice!",
+   "words": [
+    {
+     "t": "I",
+     "start": 26.0,
+     "end": 26.4
+    },
+    {
+     "t": "want",
+     "start": 26.4,
+     "end": 26.6
+    },
+    {
+     "t": "juice!",
+     "start": 26.65,
+     "end": 26.92,
+     "pic": "juice"
+    },
+    {
+     "t": "Juice!",
+     "start": 26.95,
+     "end": 27.21,
+     "pic": "juice"
+    }
+   ],
+   "n": 8,
+   "start": 26.0,
+   "end": 27.21,
+   "pic": "juice"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want soup! Soup!",
+   "words": [
+    {
+     "t": "I",
+     "start": 27.34,
+     "end": 27.64
+    },
+    {
+     "t": "want",
+     "start": 27.64,
+     "end": 27.94
+    },
+    {
+     "t": "soup!",
+     "start": 27.99,
+     "end": 28.41,
+     "pic": "soup"
+    },
+    {
+     "t": "Soup!",
+     "start": 28.44,
+     "end": 28.86,
+     "pic": "soup"
+    }
+   ],
+   "n": 9,
+   "start": 27.34,
+   "end": 28.86,
+   "pic": "soup"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 34.16,
+     "end": 34.88
+    },
+    {
+     "t": "do",
+     "start": 34.88,
+     "end": 35.2
+    },
+    {
+     "t": "you",
+     "start": 35.24,
+     "end": 35.38
+    },
+    {
+     "t": "want?",
+     "start": 35.4,
+     "end": 35.72
+    },
+    {
+     "t": "What",
+     "start": 36.0,
+     "end": 36.26
+    },
+    {
+     "t": "do",
+     "start": 36.26,
+     "end": 36.5
+    },
+    {
+     "t": "you",
+     "start": 36.52,
+     "end": 36.66
+    },
+    {
+     "t": "want?",
+     "start": 36.68,
+     "end": 37.12
+    }
+   ],
+   "n": 10,
+   "start": 34.16,
+   "end": 37.12,
+   "pic": "soup"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want a hug!",
+   "words": [
+    {
+     "t": "I",
+     "start": 37.52,
+     "end": 37.96
+    },
+    {
+     "t": "want",
+     "start": 37.96,
+     "end": 38.4
+    },
+    {
+     "t": "a",
+     "start": 38.4,
+     "end": 38.74
+    },
+    {
+     "t": "hug!",
+     "start": 38.78,
+     "end": 39.38,
+     "pic": "hug"
+    }
+   ],
+   "n": 11,
+   "start": 37.52,
+   "end": 39.38,
+   "pic": "hug"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you want for Christmas?",
+   "words": [
+    {
+     "t": "What",
+     "start": 42.66,
+     "end": 43.02
+    },
+    {
+     "t": "do",
+     "start": 43.02,
+     "end": 43.18
+    },
+    {
+     "t": "you",
+     "start": 43.2,
+     "end": 43.38
+    },
+    {
+     "t": "want",
+     "start": 43.38,
+     "end": 43.6
+    },
+    {
+     "t": "for",
+     "start": 43.62,
+     "end": 43.88
+    },
+    {
+     "t": "Christmas?",
+     "start": 43.88,
+     "end": 44.46
+    }
+   ],
+   "n": 12,
+   "start": 42.66,
+   "end": 44.46,
+   "pic": "hug"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I want a bag!",
+   "words": [
+    {
+     "t": "I",
+     "start": 47.02,
+     "end": 47.26
+    },
+    {
+     "t": "want",
+     "start": 47.26,
+     "end": 47.72
+    },
+    {
+     "t": "a",
+     "start": 47.72,
+     "end": 48.0
+    },
+    {
+     "t": "bag!",
+     "start": 48.0,
+     "end": 48.62
+    }
+   ],
+   "n": 13,
+   "start": 47.02,
+   "end": 48.62,
+   "pic": "hug"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you want for your birthday?",
+   "words": [
+    {
+     "t": "What",
+     "start": 53.58,
+     "end": 53.76
+    },
+    {
+     "t": "do",
+     "start": 53.76,
+     "end": 53.88
+    },
+    {
+     "t": "you",
+     "start": 53.88,
+     "end": 54.06
+    },
+    {
+     "t": "want",
+     "start": 54.06,
+     "end": 54.28
+    },
+    {
+     "t": "for",
+     "start": 54.28,
+     "end": 54.48
+    },
+    {
+     "t": "your",
+     "start": 54.48,
+     "end": 54.72
+    },
+    {
+     "t": "birthday?",
+     "start": 54.66,
+     "end": 55.02
+    }
+   ],
+   "n": 14,
+   "start": 48.72,
+   "end": 52.92,
+   "pic": "hug"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I want a new phone!",
+   "words": [
+    {
+     "t": "I",
+     "start": 56.34,
+     "end": 56.6
+    },
+    {
+     "t": "want",
+     "start": 56.6,
+     "end": 56.88
+    },
+    {
+     "t": "a",
+     "start": 56.88,
+     "end": 57.1
+    },
+    {
+     "t": "new",
+     "start": 57.1,
+     "end": 57.28
+    },
+    {
+     "t": "phone!",
+     "start": 57.28,
+     "end": 57.58,
+     "pic": "phone"
+    }
+   ],
+   "n": 15,
+   "start": 53.02,
+   "end": 56.02,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you want now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 59.42,
+     "end": 59.62
+    },
+    {
+     "t": "do",
+     "start": 59.66,
+     "end": 59.88
+    },
+    {
+     "t": "you",
+     "start": 59.88,
+     "end": 60.06
+    },
+    {
+     "t": "want",
+     "start": 60.06,
+     "end": 60.42
+    },
+    {
+     "t": "now?",
+     "start": 60.42,
+     "end": 60.97
+    }
+   ],
+   "n": 16,
+   "start": 59.42,
+   "end": 60.97,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I want a hug!",
+   "words": [
+    {
+     "t": "I",
+     "start": 61.74,
+     "end": 61.98
+    },
+    {
+     "t": "want",
+     "start": 61.98,
+     "end": 62.44
+    },
+    {
+     "t": "a",
+     "start": 62.44,
+     "end": 62.74
+    },
+    {
+     "t": "hug!",
+     "start": 62.73,
+     "end": 63.31,
+     "pic": "hug"
+    }
+   ],
+   "n": 17,
+   "start": 61.74,
+   "end": 63.31,
+   "pic": "hug"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want juice! Juice!",
+   "words": [
+    {
+     "t": "I",
+     "start": 63.32,
+     "end": 63.62
+    },
+    {
+     "t": "want",
+     "start": 63.68,
+     "end": 63.96
+    },
+    {
+     "t": "juice!",
+     "start": 64.01,
+     "end": 64.27,
+     "pic": "juice"
+    },
+    {
+     "t": "Juice!",
+     "start": 64.3,
+     "end": 64.56,
+     "pic": "juice"
+    }
+   ],
+   "n": 18,
+   "start": 63.32,
+   "end": 64.56,
+   "pic": "juice"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want soup! Soup!",
+   "words": [
+    {
+     "t": "I",
+     "start": 64.68,
+     "end": 64.94
+    },
+    {
+     "t": "want",
+     "start": 64.94,
+     "end": 65.26
+    },
+    {
+     "t": "soup!",
+     "start": 67.89,
+     "end": 68.41,
+     "pic": "soup"
+    },
+    {
+     "t": "Soup!",
+     "start": 68.63,
+     "end": 69.19,
+     "pic": "soup"
+    }
+   ],
+   "n": 19,
+   "start": 64.68,
+   "end": 69.19,
+   "pic": "soup"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 74.5,
+     "end": 74.9
+    },
+    {
+     "t": "do",
+     "start": 74.9,
+     "end": 75.18
+    },
+    {
+     "t": "you",
+     "start": 75.18,
+     "end": 75.42
+    },
+    {
+     "t": "want?",
+     "start": 75.47,
+     "end": 75.89
+    },
+    {
+     "t": "What",
+     "start": 77.32,
+     "end": 77.64
+    },
+    {
+     "t": "do",
+     "start": 77.64,
+     "end": 77.88
+    },
+    {
+     "t": "you",
+     "start": 77.93,
+     "end": 78.35
+    },
+    {
+     "t": "want?",
+     "start": 78.38,
+     "end": 78.8
+    }
+   ],
+   "n": 20,
+   "start": 74.5,
+   "end": 78.8,
+   "pic": "soup"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want a hug!",
+   "words": [
+    {
+     "t": "I",
+     "start": 80.28,
+     "end": 80.58
+    },
+    {
+     "t": "want",
+     "start": 80.58,
+     "end": 81.06
+    },
+    {
+     "t": "a",
+     "start": 81.11,
+     "end": 81.53
+    },
+    {
+     "t": "hug!",
+     "start": 81.56,
+     "end": 81.98,
+     "pic": "hug"
+    }
+   ],
+   "n": 21,
+   "start": 80.28,
+   "end": 81.98,
+   "pic": "hug"
+  },
+  {
+   "section": "Bridge",
+   "text": "Medicine! Blanket! Tissue paper!",
+   "words": [
+    {
+     "t": "Medicine!",
+     "start": 87.64,
+     "end": 87.74,
+     "pic": "medicine"
+    },
+    {
+     "t": "Blanket!",
+     "start": 87.79,
+     "end": 88.21,
+     "pic": "blanket"
+    },
+    {
+     "t": "Tissue",
+     "start": 88.24,
+     "end": 88.66
+    },
+    {
+     "t": "paper!",
+     "start": 110.66,
+     "end": 111.51
+    }
+   ],
+   "n": 22,
+   "start": 87.64,
+   "end": 111.51,
+   "pic": "tissuepaper"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want juice! Juice!",
+   "words": [
+    {
+     "t": "I",
+     "start": 117.94,
+     "end": 118.3
+    },
+    {
+     "t": "want",
+     "start": 118.3,
+     "end": 118.6
+    },
+    {
+     "t": "juice!",
+     "start": 118.65,
+     "end": 118.81,
+     "pic": "juice"
+    },
+    {
+     "t": "Juice!",
+     "start": 118.84,
+     "end": 119.0,
+     "pic": "juice"
+    }
+   ],
+   "n": 23,
+   "start": 117.94,
+   "end": 119.0,
+   "pic": "juice"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want soup! Soup!",
+   "words": [
+    {
+     "t": "I",
+     "start": 119.08,
+     "end": 119.54
+    },
+    {
+     "t": "want",
+     "start": 119.54,
+     "end": 121.22
+    },
+    {
+     "t": "soup!",
+     "start": 121.27,
+     "end": 121.69,
+     "pic": "soup"
+    },
+    {
+     "t": "Soup!",
+     "start": 121.72,
+     "end": 122.14,
+     "pic": "soup"
+    }
+   ],
+   "n": 24,
+   "start": 119.08,
+   "end": 122.14,
+   "pic": "soup"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 125.32,
+     "end": 125.54
+    },
+    {
+     "t": "do",
+     "start": 125.56,
+     "end": 125.9
+    },
+    {
+     "t": "you",
+     "start": 125.92,
+     "end": 126.08
+    },
+    {
+     "t": "want?",
+     "start": 126.08,
+     "end": 126.4
+    },
+    {
+     "t": "What",
+     "start": 126.7,
+     "end": 126.92
+    },
+    {
+     "t": "do",
+     "start": 126.92,
+     "end": 127.2
+    },
+    {
+     "t": "you",
+     "start": 127.2,
+     "end": 127.4
+    },
+    {
+     "t": "want?",
+     "start": 127.4,
+     "end": 127.86
+    }
+   ],
+   "n": 25,
+   "start": 125.32,
+   "end": 127.86,
+   "pic": "soup"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want a hug!",
+   "words": [
+    {
+     "t": "I",
+     "start": 128.46,
+     "end": 128.64
+    },
+    {
+     "t": "want",
+     "start": 128.69,
+     "end": 129.11
+    },
+    {
+     "t": "a",
+     "start": 129.14,
+     "end": 129.56
+    },
+    {
+     "t": "hug!",
+     "start": 129.59,
+     "end": 130.01,
+     "pic": "hug"
+    }
+   ],
+   "n": 26,
+   "start": 128.46,
+   "end": 130.01,
+   "pic": "hug"
+  },
+  {
+   "section": "Outro",
+   "text": "I want a hug!",
+   "words": [
+    {
+     "t": "I",
+     "start": 132.76,
+     "end": 133.96
+    },
+    {
+     "t": "want",
+     "start": 134.01,
+     "end": 134.43
+    },
+    {
+     "t": "a",
+     "start": 134.46,
+     "end": 134.88
+    },
+    {
+     "t": "hug!",
+     "start": 134.91,
+     "end": 135.33,
+     "pic": "hug"
+    }
+   ],
+   "n": 27,
+   "start": 132.76,
+   "end": 135.33,
+   "pic": "hug"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "juice",
+   "prompt": "What do you want?",
+   "answer": "I want juice!",
+   "choices": [
+    "I want juice!",
+    "I want water!",
+    "I want soup!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. What do you want?",
+   "answer": "water",
+   "choices": [
+    "water",
+    "juice",
+    "medicine"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "hug",
+   "prompt": "What do you want?",
+   "answer": "I want a hug!",
+   "choices": [
+    "I want a book!",
+    "I want a hug!",
+    "I want a blanket!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 9,
+   "prompt": "Listen. What do you want?",
+   "answer": "soup",
+   "choices": [
+    "phone",
+    "soup",
+    "juice"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "juice",
+   "prompt": "I want juice!",
+   "answer": "Here you go!",
+   "choices": [
+    "Here you go!",
+    "Yes, I can!",
+    "Run!"
+   ]
+  }
+ ]
+}

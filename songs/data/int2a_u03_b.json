@@ -1,0 +1,985 @@
+{
+ "id": "int2a_u03_b",
+ "title": "What Languages Can You Speak?",
+ "book": "INT 2A",
+ "unit": 3,
+ "unitTitle": "Can You Speak Chinese?",
+ "packId": "int2a_u3",
+ "audio": "audio/int2a_u03_b.mp3",
+ "duration": 141.86,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hello! Hola! Ciao!",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 4.06,
+     "end": 6.06
+    },
+    {
+     "t": "Hola!",
+     "start": 6.72,
+     "end": 7.62
+    },
+    {
+     "t": "Ciao!",
+     "start": 8.16,
+     "end": 8.58
+    }
+   ],
+   "n": 1,
+   "start": 4.06,
+   "end": 8.58,
+   "pic": "canyouspeakenglish"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 8.58,
+     "end": 10.5
+    },
+    {
+     "t": "languages",
+     "start": 10.5,
+     "end": 11.22
+    },
+    {
+     "t": "can",
+     "start": 11.22,
+     "end": 11.66
+    },
+    {
+     "t": "you",
+     "start": 11.9,
+     "end": 12.0
+    },
+    {
+     "t": "speak?",
+     "start": 12.02,
+     "end": 12.82
+    }
+   ],
+   "n": 2,
+   "start": 8.58,
+   "end": 12.82,
+   "pic": "canyouspeakenglish"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I can speak Korean and English!",
+   "words": [
+    {
+     "t": "I",
+     "start": 14.52,
+     "end": 14.74
+    },
+    {
+     "t": "can",
+     "start": 14.74,
+     "end": 15.28
+    },
+    {
+     "t": "speak",
+     "start": 15.3,
+     "end": 15.88
+    },
+    {
+     "t": "Korean",
+     "start": 15.88,
+     "end": 17.16,
+     "pic": "korean"
+    },
+    {
+     "t": "and",
+     "start": 17.16,
+     "end": 18.06
+    },
+    {
+     "t": "English!",
+     "start": 18.06,
+     "end": 18.78,
+     "pic": "english"
+    }
+   ],
+   "n": 3,
+   "start": 14.52,
+   "end": 18.78,
+   "pic": "korean"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 19.78,
+     "end": 20.14
+    },
+    {
+     "t": "languages",
+     "start": 20.61,
+     "end": 20.8
+    },
+    {
+     "t": "can",
+     "start": 20.86,
+     "end": 21.24
+    },
+    {
+     "t": "you",
+     "start": 21.24,
+     "end": 21.52
+    },
+    {
+     "t": "speak?",
+     "start": 21.52,
+     "end": 22.0
+    }
+   ],
+   "n": 4,
+   "start": 19.78,
+   "end": 22.0,
+   "pic": "korean"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I can speak Chinese!",
+   "words": [
+    {
+     "t": "I",
+     "start": 22.52,
+     "end": 22.62
+    },
+    {
+     "t": "can",
+     "start": 22.62,
+     "end": 22.78
+    },
+    {
+     "t": "speak",
+     "start": 22.78,
+     "end": 23.04
+    },
+    {
+     "t": "Chinese!",
+     "start": 23.04,
+     "end": 23.74,
+     "pic": "chinese"
+    }
+   ],
+   "n": 5,
+   "start": 22.52,
+   "end": 23.74,
+   "pic": "chinese"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 23.74,
+     "end": 24.96
+    },
+    {
+     "t": "languages",
+     "start": 24.96,
+     "end": 25.68
+    },
+    {
+     "t": "can",
+     "start": 25.68,
+     "end": 26.08
+    },
+    {
+     "t": "you",
+     "start": 26.08,
+     "end": 26.48
+    },
+    {
+     "t": "speak?",
+     "start": 26.48,
+     "end": 27.24
+    }
+   ],
+   "n": 6,
+   "start": 23.74,
+   "end": 27.24,
+   "pic": "chinese"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Only English!",
+   "words": [
+    {
+     "t": "Only",
+     "start": 27.88,
+     "end": 28.18
+    },
+    {
+     "t": "English!",
+     "start": 28.18,
+     "end": 28.8,
+     "pic": "english"
+    }
+   ],
+   "n": 7,
+   "start": 27.88,
+   "end": 28.8,
+   "pic": "english"
+  },
+  {
+   "section": "Chorus",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 29.58,
+     "end": 29.72
+    },
+    {
+     "t": "languages",
+     "start": 29.72,
+     "end": 30.86
+    },
+    {
+     "t": "can",
+     "start": 30.86,
+     "end": 31.78
+    },
+    {
+     "t": "you",
+     "start": 31.78,
+     "end": 32.0
+    },
+    {
+     "t": "speak?",
+     "start": 32.0,
+     "end": 32.82
+    }
+   ],
+   "n": 8,
+   "start": 29.58,
+   "end": 32.82,
+   "pic": "english"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can speak Korean! Korean!",
+   "words": [
+    {
+     "t": "I",
+     "start": 33.68,
+     "end": 33.96
+    },
+    {
+     "t": "can",
+     "start": 33.98,
+     "end": 34.5
+    },
+    {
+     "t": "speak",
+     "start": 34.52,
+     "end": 35.1
+    },
+    {
+     "t": "Korean!",
+     "start": 35.1,
+     "end": 35.9,
+     "pic": "korean"
+    },
+    {
+     "t": "Korean!",
+     "start": 35.95,
+     "end": 36.37,
+     "pic": "korean"
+    }
+   ],
+   "n": 9,
+   "start": 33.68,
+   "end": 36.37,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 37.68,
+     "end": 37.84
+    },
+    {
+     "t": "languages",
+     "start": 40.22,
+     "end": 40.32
+    },
+    {
+     "t": "can",
+     "start": 40.61,
+     "end": 41.16
+    },
+    {
+     "t": "you",
+     "start": 41.21,
+     "end": 41.63
+    },
+    {
+     "t": "speak?",
+     "start": 41.66,
+     "end": 42.08
+    }
+   ],
+   "n": 10,
+   "start": 37.68,
+   "end": 42.08,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can speak English! English!",
+   "words": [
+    {
+     "t": "I",
+     "start": 43.2,
+     "end": 43.62
+    },
+    {
+     "t": "can",
+     "start": 43.81,
+     "end": 44.16
+    },
+    {
+     "t": "speak",
+     "start": 44.22,
+     "end": 44.74
+    },
+    {
+     "t": "English!",
+     "start": 44.74,
+     "end": 45.82,
+     "pic": "english"
+    },
+    {
+     "t": "English!",
+     "start": 45.87,
+     "end": 46.29,
+     "pic": "english"
+    }
+   ],
+   "n": 11,
+   "start": 43.2,
+   "end": 46.29,
+   "pic": "english"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Can you speak Japanese?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 47.32,
+     "end": 47.82
+    },
+    {
+     "t": "you",
+     "start": 48.93,
+     "end": 49.16
+    },
+    {
+     "t": "speak",
+     "start": 49.16,
+     "end": 49.48
+    },
+    {
+     "t": "Japanese?",
+     "start": 49.58,
+     "end": 50.48,
+     "pic": "japanese"
+    }
+   ],
+   "n": 12,
+   "start": 47.32,
+   "end": 50.48,
+   "pic": "japanese"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 51.9,
+     "end": 52.02
+    },
+    {
+     "t": "I",
+     "start": 52.04,
+     "end": 52.24
+    },
+    {
+     "t": "can!",
+     "start": 52.24,
+     "end": 52.74
+    }
+   ],
+   "n": 13,
+   "start": 51.9,
+   "end": 52.74,
+   "pic": "japanese"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Can you speak French?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 53.74,
+     "end": 53.88
+    },
+    {
+     "t": "you",
+     "start": 53.88,
+     "end": 54.02
+    },
+    {
+     "t": "speak",
+     "start": 54.04,
+     "end": 54.78
+    },
+    {
+     "t": "French?",
+     "start": 54.78,
+     "end": 55.6,
+     "pic": "french"
+    }
+   ],
+   "n": 14,
+   "start": 53.74,
+   "end": 55.6,
+   "pic": "french"
+  },
+  {
+   "section": "Verse 2",
+   "text": "No, I cannot!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 58.88,
+     "end": 59.02
+    },
+    {
+     "t": "I",
+     "start": 59.24,
+     "end": 59.4
+    },
+    {
+     "t": "cannot!",
+     "start": 59.38,
+     "end": 59.73
+    }
+   ],
+   "n": 15,
+   "start": 58.88,
+   "end": 59.73,
+   "pic": "french"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Can you speak Korean?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 63.32,
+     "end": 63.48
+    },
+    {
+     "t": "you",
+     "start": 63.44,
+     "end": 63.6
+    },
+    {
+     "t": "speak",
+     "start": 63.6,
+     "end": 63.9
+    },
+    {
+     "t": "Korean?",
+     "start": 63.92,
+     "end": 64.74,
+     "pic": "korean"
+    }
+   ],
+   "n": 16,
+   "start": 63.32,
+   "end": 64.74,
+   "pic": "korean"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 66.22,
+     "end": 66.36
+    },
+    {
+     "t": "I",
+     "start": 66.44,
+     "end": 66.6
+    },
+    {
+     "t": "can!",
+     "start": 66.6,
+     "end": 66.7
+    }
+   ],
+   "n": 17,
+   "start": 64.84,
+   "end": 66.64,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 67.9,
+     "end": 68.2
+    },
+    {
+     "t": "languages",
+     "start": 68.2,
+     "end": 68.92
+    },
+    {
+     "t": "can",
+     "start": 69.02,
+     "end": 70.18
+    },
+    {
+     "t": "you",
+     "start": 70.18,
+     "end": 70.4
+    },
+    {
+     "t": "speak?",
+     "start": 70.38,
+     "end": 71.28
+    }
+   ],
+   "n": 18,
+   "start": 67.9,
+   "end": 71.28,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can speak Korean! Korean!",
+   "words": [
+    {
+     "t": "I",
+     "start": 72.1,
+     "end": 72.34
+    },
+    {
+     "t": "can",
+     "start": 72.3,
+     "end": 72.96
+    },
+    {
+     "t": "speak",
+     "start": 72.98,
+     "end": 73.56
+    },
+    {
+     "t": "Korean!",
+     "start": 73.54,
+     "end": 75.12,
+     "pic": "korean"
+    },
+    {
+     "t": "Korean!",
+     "start": 76.3,
+     "end": 77.04,
+     "pic": "korean"
+    }
+   ],
+   "n": 19,
+   "start": 72.1,
+   "end": 77.04,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 77.48,
+     "end": 77.86
+    },
+    {
+     "t": "languages",
+     "start": 77.86,
+     "end": 78.74
+    },
+    {
+     "t": "can",
+     "start": 78.86,
+     "end": 79.58
+    },
+    {
+     "t": "you",
+     "start": 79.74,
+     "end": 80.04
+    },
+    {
+     "t": "speak?",
+     "start": 80.04,
+     "end": 80.94
+    }
+   ],
+   "n": 20,
+   "start": 77.48,
+   "end": 80.94,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can speak English! English!",
+   "words": [
+    {
+     "t": "I",
+     "start": 81.64,
+     "end": 82.06
+    },
+    {
+     "t": "can",
+     "start": 82.08,
+     "end": 82.66
+    },
+    {
+     "t": "speak",
+     "start": 82.62,
+     "end": 83.14
+    },
+    {
+     "t": "English!",
+     "start": 83.14,
+     "end": 83.86,
+     "pic": "english"
+    },
+    {
+     "t": "English!",
+     "start": 83.88,
+     "end": 84.4,
+     "pic": "english"
+    }
+   ],
+   "n": 21,
+   "start": 81.64,
+   "end": 84.4,
+   "pic": "english"
+  },
+  {
+   "section": "Bridge",
+   "text": "Bonjour! French! Guten Tag! German!",
+   "words": [
+    {
+     "t": "Bonjour!",
+     "start": 87.62,
+     "end": 88.2
+    },
+    {
+     "t": "French!",
+     "start": 89.22,
+     "end": 89.36,
+     "pic": "french"
+    },
+    {
+     "t": "Guten",
+     "start": 89.41,
+     "end": 89.83
+    },
+    {
+     "t": "Tag!",
+     "start": 89.86,
+     "end": 90.28
+    },
+    {
+     "t": "German!",
+     "start": 90.9,
+     "end": 91.74,
+     "pic": "german"
+    }
+   ],
+   "n": 22,
+   "start": 87.62,
+   "end": 91.74,
+   "pic": "french"
+  },
+  {
+   "section": "Bridge",
+   "text": "Ciao! Italian!",
+   "words": [
+    {
+     "t": "Ciao!",
+     "start": 92.18,
+     "end": 92.58
+    },
+    {
+     "t": "Italian!",
+     "start": 93.14,
+     "end": 94.14
+    }
+   ],
+   "n": 23,
+   "start": 92.18,
+   "end": 94.14,
+   "pic": "french"
+  },
+  {
+   "section": "Chorus",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 96.64,
+     "end": 96.98
+    },
+    {
+     "t": "languages",
+     "start": 96.98,
+     "end": 97.92
+    },
+    {
+     "t": "can",
+     "start": 98.6,
+     "end": 99.0
+    },
+    {
+     "t": "you",
+     "start": 99.0,
+     "end": 99.2
+    },
+    {
+     "t": "speak?",
+     "start": 99.2,
+     "end": 99.49
+    }
+   ],
+   "n": 24,
+   "start": 96.64,
+   "end": 99.49,
+   "pic": "french"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can speak Korean! Korean!",
+   "words": [
+    {
+     "t": "I",
+     "start": 100.74,
+     "end": 101.16
+    },
+    {
+     "t": "can",
+     "start": 101.16,
+     "end": 101.76
+    },
+    {
+     "t": "speak",
+     "start": 101.82,
+     "end": 102.36
+    },
+    {
+     "t": "Korean!",
+     "start": 102.36,
+     "end": 102.46,
+     "pic": "korean"
+    },
+    {
+     "t": "Korean!",
+     "start": 104.5,
+     "end": 105.12,
+     "pic": "korean"
+    }
+   ],
+   "n": 25,
+   "start": 100.74,
+   "end": 105.12,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 105.88,
+     "end": 106.44
+    },
+    {
+     "t": "languages",
+     "start": 106.54,
+     "end": 107.52
+    },
+    {
+     "t": "can",
+     "start": 107.54,
+     "end": 108.5
+    },
+    {
+     "t": "you",
+     "start": 108.46,
+     "end": 108.8
+    },
+    {
+     "t": "speak?",
+     "start": 108.8,
+     "end": 109.46
+    }
+   ],
+   "n": 26,
+   "start": 105.88,
+   "end": 109.46,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "I can speak English! English!",
+   "words": [
+    {
+     "t": "I",
+     "start": 110.36,
+     "end": 110.86
+    },
+    {
+     "t": "can",
+     "start": 110.86,
+     "end": 111.44
+    },
+    {
+     "t": "speak",
+     "start": 111.44,
+     "end": 111.98
+    },
+    {
+     "t": "English!",
+     "start": 111.94,
+     "end": 113.14,
+     "pic": "english"
+    },
+    {
+     "t": "English!",
+     "start": 113.36,
+     "end": 114.58,
+     "pic": "english"
+    }
+   ],
+   "n": 27,
+   "start": 110.36,
+   "end": 114.58,
+   "pic": "english"
+  },
+  {
+   "section": "Outro",
+   "text": "What languages can you speak?",
+   "words": [
+    {
+     "t": "What",
+     "start": 119.0,
+     "end": 120.5
+    },
+    {
+     "t": "languages",
+     "start": 120.52,
+     "end": 123.27
+    },
+    {
+     "t": "can",
+     "start": 123.29,
+     "end": 124.54
+    },
+    {
+     "t": "you",
+     "start": 124.56,
+     "end": 125.8
+    },
+    {
+     "t": "speak?",
+     "start": 125.82,
+     "end": 127.84
+    }
+   ],
+   "n": 28,
+   "start": 119.0,
+   "end": 127.84,
+   "pic": "english"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "korean",
+   "prompt": "What languages can you speak?",
+   "answer": "I can speak Korean!",
+   "choices": [
+    "I can speak Korean!",
+    "I can speak Chinese!",
+    "I can speak French!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. What can she speak?",
+   "answer": "chinese",
+   "choices": [
+    "chinese",
+    "japanese",
+    "german"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "japanese",
+   "prompt": "Can you speak Japanese?",
+   "answer": "Yes, I can!",
+   "choices": [
+    "Yes, I can!",
+    "Yes, I am!",
+    "Yes, it is!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 14,
+   "prompt": "Listen. Can you speak ...?",
+   "answer": "french",
+   "choices": [
+    "spanish",
+    "french",
+    "english"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "english",
+   "prompt": "What do you ask?",
+   "answer": "What languages can you speak?",
+   "choices": [
+    "What languages can you speak?",
+    "What do you want?",
+    "Where is my phone?"
+   ]
+  }
+ ]
+}

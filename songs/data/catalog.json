@@ -215,6 +215,78 @@
    "unitTitle": "I Want a New Computer",
    "blurb": "What do you want? I want a new computer!",
    "packId": "basic_c_u8"
+  },
+  {
+   "id": "int2a_u01_b",
+   "title": "It Is Rainy Today",
+   "book": "INT 2A",
+   "unit": 1,
+   "unitTitle": "How is the Weather?",
+   "blurb": "How is the weather? It is rainy today!",
+   "packId": "int2a_u1"
+  },
+  {
+   "id": "int2a_u02_a",
+   "title": "There Are Snakes!",
+   "book": "INT 2A",
+   "unit": 2,
+   "unitTitle": "There are Snakes!",
+   "blurb": "There are snakes! Run!",
+   "packId": "int2a_u2"
+  },
+  {
+   "id": "int2a_u03_b",
+   "title": "What Languages Can You Speak?",
+   "book": "INT 2A",
+   "unit": 3,
+   "unitTitle": "Can You Speak Chinese?",
+   "blurb": "What languages can you speak? I can speak Korean!",
+   "packId": "int2a_u3"
+  },
+  {
+   "id": "int2a_u04_b",
+   "title": "I Want Juice",
+   "book": "INT 2A",
+   "unit": 4,
+   "unitTitle": "What do you Want?",
+   "blurb": "What do you want? I want juice!",
+   "packId": "int2a_u4"
+  },
+  {
+   "id": "int2a_u05_b",
+   "title": "Maybe It Is in the Kitchen",
+   "book": "INT 2A",
+   "unit": 5,
+   "unitTitle": "Where is My Phone?",
+   "blurb": "Where is my key? Maybe it is in the kitchen!",
+   "packId": "int2a_u5"
+  },
+  {
+   "id": "int2a_u06_b",
+   "title": "Yeah, It Is Really Scary!",
+   "book": "INT 2A",
+   "unit": 6,
+   "unitTitle": "Look at This Funny Video",
+   "blurb": "Look at this video! Yeah, it is really scary!",
+   "packId": "int2a_u6"
+  },
+  {
+   "id": "int2a_u07_b",
+   "title": "She Is in the Library",
+   "book": "INT 2A",
+   "unit": 7,
+   "unitTitle": "Where is the Teacher?",
+   "blurb": "Where is the librarian? She is in the library!",
+   "packId": "int2a_u7"
+  },
+  {
+   "id": "int2a_u08_a",
+   "title": "What Do You Do After School?",
+   "book": "INT 2A",
+   "unit": 8,
+   "unitTitle": "What Do You Do After School?",
+   "blurb": "What do you do after school? I play soccer!",
+   "packId": "int2a_u8"
   }
  ]
 }

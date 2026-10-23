@@ -1,0 +1,1075 @@
+{
+ "id": "int2a_u06_b",
+ "title": "Yeah, It Is Really Scary!",
+ "book": "INT 2A",
+ "unit": 6,
+ "unitTitle": "Look at This Funny Video",
+ "packId": "int2a_u6",
+ "audio": "audio/int2a_u06_b.mp3",
+ "duration": 142.63,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Oh! Look at this!",
+   "words": [
+    {
+     "t": "Oh!",
+     "start": 6.17,
+     "end": 7.82
+    },
+    {
+     "t": "Look",
+     "start": 8.06,
+     "end": 8.34
+    },
+    {
+     "t": "at",
+     "start": 8.34,
+     "end": 8.52
+    },
+    {
+     "t": "this!",
+     "start": 8.56,
+     "end": 9.22
+    }
+   ],
+   "n": 1,
+   "start": 6.17,
+   "end": 9.22,
+   "pic": "boring"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Look at this scary video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 9.98,
+     "end": 10.32
+    },
+    {
+     "t": "at",
+     "start": 10.28,
+     "end": 10.82
+    },
+    {
+     "t": "this",
+     "start": 10.82,
+     "end": 11.12
+    },
+    {
+     "t": "scary",
+     "start": 11.12,
+     "end": 11.62,
+     "pic": "scary"
+    },
+    {
+     "t": "video!",
+     "start": 11.62,
+     "end": 12.46
+    }
+   ],
+   "n": 2,
+   "start": 9.98,
+   "end": 12.46,
+   "pic": "scary"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yeah, it is really scary!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 14.29,
+     "end": 15.14
+    },
+    {
+     "t": "it",
+     "start": 15.48,
+     "end": 15.7
+    },
+    {
+     "t": "is",
+     "start": 15.68,
+     "end": 16.08
+    },
+    {
+     "t": "really",
+     "start": 16.06,
+     "end": 16.42
+    },
+    {
+     "t": "scary!",
+     "start": 16.4,
+     "end": 17.1,
+     "pic": "scary"
+    }
+   ],
+   "n": 3,
+   "start": 14.29,
+   "end": 17.1,
+   "pic": "scary"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Look at this cute video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 19.8,
+     "end": 20.02
+    },
+    {
+     "t": "at",
+     "start": 20.02,
+     "end": 20.6
+    },
+    {
+     "t": "this",
+     "start": 20.6,
+     "end": 20.94
+    },
+    {
+     "t": "cute",
+     "start": 20.94,
+     "end": 21.28
+    },
+    {
+     "t": "video!",
+     "start": 21.28,
+     "end": 22.12
+    }
+   ],
+   "n": 4,
+   "start": 19.8,
+   "end": 22.12,
+   "pic": "scary"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yeah, it is really cute!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 22.56,
+     "end": 22.76
+    },
+    {
+     "t": "it",
+     "start": 22.8,
+     "end": 23.04
+    },
+    {
+     "t": "is",
+     "start": 23.04,
+     "end": 23.3
+    },
+    {
+     "t": "really",
+     "start": 23.3,
+     "end": 23.7
+    },
+    {
+     "t": "cute!",
+     "start": 23.7,
+     "end": 24.24
+    }
+   ],
+   "n": 5,
+   "start": 22.56,
+   "end": 24.24,
+   "pic": "scary"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Look at this brave video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 24.64,
+     "end": 24.94
+    },
+    {
+     "t": "at",
+     "start": 24.94,
+     "end": 25.52
+    },
+    {
+     "t": "this",
+     "start": 25.5,
+     "end": 25.84
+    },
+    {
+     "t": "brave",
+     "start": 25.86,
+     "end": 26.26
+    },
+    {
+     "t": "video!",
+     "start": 26.26,
+     "end": 27.0
+    }
+   ],
+   "n": 6,
+   "start": 24.64,
+   "end": 27.0,
+   "pic": "scary"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yeah, it is really brave!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 27.42,
+     "end": 27.68
+    },
+    {
+     "t": "it",
+     "start": 27.7,
+     "end": 27.92
+    },
+    {
+     "t": "is",
+     "start": 27.92,
+     "end": 28.22
+    },
+    {
+     "t": "really",
+     "start": 28.22,
+     "end": 28.6
+    },
+    {
+     "t": "brave!",
+     "start": 28.76,
+     "end": 29.18
+    }
+   ],
+   "n": 7,
+   "start": 27.42,
+   "end": 29.18,
+   "pic": "scary"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really scary! Scary!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 29.28,
+     "end": 29.88
+    },
+    {
+     "t": "it",
+     "start": 30.18,
+     "end": 30.46
+    },
+    {
+     "t": "is",
+     "start": 30.46,
+     "end": 31.14
+    },
+    {
+     "t": "really",
+     "start": 31.14,
+     "end": 31.72
+    },
+    {
+     "t": "scary!",
+     "start": 31.72,
+     "end": 32.58,
+     "pic": "scary"
+    },
+    {
+     "t": "Scary!",
+     "start": 33.72,
+     "end": 34.28,
+     "pic": "scary"
+    }
+   ],
+   "n": 8,
+   "start": 29.28,
+   "end": 34.28,
+   "pic": "scary"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really funny! Funny!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 34.44,
+     "end": 34.76
+    },
+    {
+     "t": "it",
+     "start": 35.06,
+     "end": 35.42
+    },
+    {
+     "t": "is",
+     "start": 35.36,
+     "end": 36.16
+    },
+    {
+     "t": "really",
+     "start": 36.16,
+     "end": 36.66
+    },
+    {
+     "t": "funny!",
+     "start": 36.66,
+     "end": 37.44,
+     "pic": "funny"
+    },
+    {
+     "t": "Funny!",
+     "start": 38.2,
+     "end": 38.76,
+     "pic": "funny"
+    }
+   ],
+   "n": 9,
+   "start": 34.44,
+   "end": 38.76,
+   "pic": "funny"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at this video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 40.4,
+     "end": 40.6
+    },
+    {
+     "t": "at",
+     "start": 40.6,
+     "end": 40.94
+    },
+    {
+     "t": "this",
+     "start": 41.06,
+     "end": 41.16
+    },
+    {
+     "t": "video!",
+     "start": 41.16,
+     "end": 41.68
+    }
+   ],
+   "n": 10,
+   "start": 40.4,
+   "end": 41.68,
+   "pic": "funny"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really crazy!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 44.18,
+     "end": 44.45
+    },
+    {
+     "t": "it",
+     "start": 44.83,
+     "end": 45.0
+    },
+    {
+     "t": "is",
+     "start": 45.0,
+     "end": 45.32
+    },
+    {
+     "t": "really",
+     "start": 45.36,
+     "end": 45.72
+    },
+    {
+     "t": "crazy!",
+     "start": 45.72,
+     "end": 46.67,
+     "pic": "crazy"
+    }
+   ],
+   "n": 11,
+   "start": 44.18,
+   "end": 46.67,
+   "pic": "crazy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Look at this sad video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 48.92,
+     "end": 49.38
+    },
+    {
+     "t": "at",
+     "start": 49.38,
+     "end": 49.98
+    },
+    {
+     "t": "this",
+     "start": 49.98,
+     "end": 50.32
+    },
+    {
+     "t": "sad",
+     "start": 50.32,
+     "end": 50.7,
+     "pic": "sad"
+    },
+    {
+     "t": "video!",
+     "start": 50.7,
+     "end": 51.4
+    }
+   ],
+   "n": 12,
+   "start": 48.92,
+   "end": 51.4,
+   "pic": "sad"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yeah, it is really sad!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 53.84,
+     "end": 54.22
+    },
+    {
+     "t": "it",
+     "start": 54.5,
+     "end": 54.76
+    },
+    {
+     "t": "is",
+     "start": 54.76,
+     "end": 55.08
+    },
+    {
+     "t": "really",
+     "start": 55.08,
+     "end": 55.5
+    },
+    {
+     "t": "sad!",
+     "start": 55.5,
+     "end": 56.26,
+     "pic": "sad"
+    }
+   ],
+   "n": 13,
+   "start": 53.84,
+   "end": 56.26,
+   "pic": "sad"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Look at this exciting video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 59.49,
+     "end": 59.62
+    },
+    {
+     "t": "at",
+     "start": 59.62,
+     "end": 59.74
+    },
+    {
+     "t": "this",
+     "start": 59.76,
+     "end": 59.94
+    },
+    {
+     "t": "exciting",
+     "start": 59.96,
+     "end": 60.28,
+     "pic": "exciting"
+    },
+    {
+     "t": "video!",
+     "start": 60.3,
+     "end": 60.92
+    }
+   ],
+   "n": 14,
+   "start": 59.49,
+   "end": 60.92,
+   "pic": "exciting"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yeah, it is really exciting!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 61.52,
+     "end": 61.84
+    },
+    {
+     "t": "it",
+     "start": 61.92,
+     "end": 62.08
+    },
+    {
+     "t": "is",
+     "start": 62.1,
+     "end": 62.34
+    },
+    {
+     "t": "really",
+     "start": 62.38,
+     "end": 62.78
+    },
+    {
+     "t": "exciting!",
+     "start": 62.78,
+     "end": 63.53,
+     "pic": "exciting"
+    }
+   ],
+   "n": 15,
+   "start": 61.52,
+   "end": 63.53,
+   "pic": "exciting"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Look at this gross video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 63.9,
+     "end": 64.04
+    },
+    {
+     "t": "at",
+     "start": 64.04,
+     "end": 64.54
+    },
+    {
+     "t": "this",
+     "start": 64.6,
+     "end": 64.92
+    },
+    {
+     "t": "gross",
+     "start": 64.92,
+     "end": 65.28,
+     "pic": "gross"
+    },
+    {
+     "t": "video!",
+     "start": 65.28,
+     "end": 66.04
+    }
+   ],
+   "n": 16,
+   "start": 63.9,
+   "end": 66.04,
+   "pic": "gross"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yeah, it is really gross!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 66.56,
+     "end": 66.76
+    },
+    {
+     "t": "it",
+     "start": 66.8,
+     "end": 67.06
+    },
+    {
+     "t": "is",
+     "start": 67.06,
+     "end": 67.38
+    },
+    {
+     "t": "really",
+     "start": 67.44,
+     "end": 67.98
+    },
+    {
+     "t": "gross!",
+     "start": 68.02,
+     "end": 68.64,
+     "pic": "gross"
+    }
+   ],
+   "n": 17,
+   "start": 66.56,
+   "end": 68.64,
+   "pic": "gross"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really scary! Scary!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 68.78,
+     "end": 69.14
+    },
+    {
+     "t": "it",
+     "start": 69.38,
+     "end": 69.72
+    },
+    {
+     "t": "is",
+     "start": 69.72,
+     "end": 70.38
+    },
+    {
+     "t": "really",
+     "start": 70.38,
+     "end": 70.94
+    },
+    {
+     "t": "scary!",
+     "start": 70.96,
+     "end": 71.76,
+     "pic": "scary"
+    },
+    {
+     "t": "Scary!",
+     "start": 72.98,
+     "end": 73.48,
+     "pic": "scary"
+    }
+   ],
+   "n": 18,
+   "start": 68.78,
+   "end": 73.48,
+   "pic": "scary"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really funny! Funny!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 73.66,
+     "end": 74.0
+    },
+    {
+     "t": "it",
+     "start": 74.3,
+     "end": 74.6
+    },
+    {
+     "t": "is",
+     "start": 74.6,
+     "end": 75.36
+    },
+    {
+     "t": "really",
+     "start": 75.36,
+     "end": 75.9
+    },
+    {
+     "t": "funny!",
+     "start": 75.9,
+     "end": 76.48,
+     "pic": "funny"
+    },
+    {
+     "t": "Funny!",
+     "start": 77.54,
+     "end": 77.8,
+     "pic": "funny"
+    }
+   ],
+   "n": 19,
+   "start": 73.66,
+   "end": 77.8,
+   "pic": "funny"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at this video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 79.36,
+     "end": 79.84
+    },
+    {
+     "t": "at",
+     "start": 79.84,
+     "end": 80.16
+    },
+    {
+     "t": "this",
+     "start": 80.16,
+     "end": 80.4
+    },
+    {
+     "t": "video!",
+     "start": 80.38,
+     "end": 80.86
+    }
+   ],
+   "n": 20,
+   "start": 79.36,
+   "end": 80.86,
+   "pic": "funny"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really crazy!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 83.44,
+     "end": 83.76
+    },
+    {
+     "t": "it",
+     "start": 83.88,
+     "end": 84.24
+    },
+    {
+     "t": "is",
+     "start": 84.24,
+     "end": 84.54
+    },
+    {
+     "t": "really",
+     "start": 84.54,
+     "end": 84.98
+    },
+    {
+     "t": "crazy!",
+     "start": 84.98,
+     "end": 85.72,
+     "pic": "crazy"
+    }
+   ],
+   "n": 21,
+   "start": 83.44,
+   "end": 85.72,
+   "pic": "crazy"
+  },
+  {
+   "section": "Bridge",
+   "text": "Funny! Scary! Gross! Sad!",
+   "words": [
+    {
+     "t": "Funny!",
+     "start": 87.42,
+     "end": 88.74,
+     "pic": "funny"
+    },
+    {
+     "t": "Scary!",
+     "start": 90.46,
+     "end": 91.54,
+     "pic": "scary"
+    },
+    {
+     "t": "Gross!",
+     "start": 93.12,
+     "end": 93.6,
+     "pic": "gross"
+    },
+    {
+     "t": "Sad!",
+     "start": 95.32,
+     "end": 96.22,
+     "pic": "sad"
+    }
+   ],
+   "n": 22,
+   "start": 87.42,
+   "end": 96.22,
+   "pic": "funny"
+  },
+  {
+   "section": "Bridge",
+   "text": "Weird! Exciting! Crazy!",
+   "words": [
+    {
+     "t": "Weird!",
+     "start": 97.96,
+     "end": 100.08,
+     "pic": "weird"
+    },
+    {
+     "t": "Exciting!",
+     "start": 100.26,
+     "end": 101.22,
+     "pic": "exciting"
+    },
+    {
+     "t": "Crazy!",
+     "start": 103.38,
+     "end": 103.54,
+     "pic": "crazy"
+    }
+   ],
+   "n": 23,
+   "start": 97.96,
+   "end": 103.54,
+   "pic": "weird"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really scary! Scary!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 107.5,
+     "end": 108.22
+    },
+    {
+     "t": "it",
+     "start": 108.46,
+     "end": 108.8
+    },
+    {
+     "t": "is",
+     "start": 108.84,
+     "end": 109.48
+    },
+    {
+     "t": "really",
+     "start": 109.44,
+     "end": 110.02
+    },
+    {
+     "t": "scary!",
+     "start": 110.02,
+     "end": 110.84,
+     "pic": "scary"
+    },
+    {
+     "t": "Scary!",
+     "start": 111.92,
+     "end": 112.26,
+     "pic": "scary"
+    }
+   ],
+   "n": 24,
+   "start": 107.5,
+   "end": 112.26,
+   "pic": "scary"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really funny! Funny!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 112.74,
+     "end": 113.1
+    },
+    {
+     "t": "it",
+     "start": 113.42,
+     "end": 113.72
+    },
+    {
+     "t": "is",
+     "start": 113.68,
+     "end": 114.44
+    },
+    {
+     "t": "really",
+     "start": 114.44,
+     "end": 115.0
+    },
+    {
+     "t": "funny!",
+     "start": 115.0,
+     "end": 115.76,
+     "pic": "funny"
+    },
+    {
+     "t": "Funny!",
+     "start": 116.7,
+     "end": 116.88,
+     "pic": "funny"
+    }
+   ],
+   "n": 25,
+   "start": 112.74,
+   "end": 116.88,
+   "pic": "funny"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at this video!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 118.75,
+     "end": 118.92
+    },
+    {
+     "t": "at",
+     "start": 119.02,
+     "end": 119.26
+    },
+    {
+     "t": "this",
+     "start": 119.32,
+     "end": 119.5
+    },
+    {
+     "t": "video!",
+     "start": 119.48,
+     "end": 119.96
+    }
+   ],
+   "n": 26,
+   "start": 118.75,
+   "end": 119.96,
+   "pic": "funny"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yeah, it is really crazy!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 122.48,
+     "end": 122.8
+    },
+    {
+     "t": "it",
+     "start": 123.17,
+     "end": 123.32
+    },
+    {
+     "t": "is",
+     "start": 123.32,
+     "end": 123.72
+    },
+    {
+     "t": "really",
+     "start": 123.68,
+     "end": 124.06
+    },
+    {
+     "t": "crazy!",
+     "start": 124.04,
+     "end": 124.94,
+     "pic": "crazy"
+    }
+   ],
+   "n": 27,
+   "start": 122.48,
+   "end": 124.94,
+   "pic": "crazy"
+  },
+  {
+   "section": "Outro",
+   "text": "Yeah, it is really scary!",
+   "words": [
+    {
+     "t": "Yeah,",
+     "start": 125.96,
+     "end": 126.38
+    },
+    {
+     "t": "it",
+     "start": 126.5,
+     "end": 126.6
+    },
+    {
+     "t": "is",
+     "start": 126.6,
+     "end": 126.8
+    },
+    {
+     "t": "really",
+     "start": 126.8,
+     "end": 127.02
+    },
+    {
+     "t": "scary!",
+     "start": 127.06,
+     "end": 127.42,
+     "pic": "scary"
+    }
+   ],
+   "n": 28,
+   "start": 125.96,
+   "end": 127.42,
+   "pic": "scary"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "scary",
+   "prompt": "Look at this scary video!",
+   "answer": "Yeah, it is really scary!",
+   "choices": [
+    "Yeah, it is really scary!",
+    "Yeah, it is really funny!",
+    "Yeah, it is really sad!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 9,
+   "prompt": "Listen. It is really ...",
+   "answer": "funny",
+   "choices": [
+    "funny",
+    "boring",
+    "loud"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sad",
+   "prompt": "Look at this sad video!",
+   "answer": "Yeah, it is really sad!",
+   "choices": [
+    "Yeah, it is really gross!",
+    "Yeah, it is really sad!",
+    "Yeah, it is really exciting!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 15,
+   "prompt": "Listen. It is really ...",
+   "answer": "exciting",
+   "choices": [
+    "scary",
+    "exciting",
+    "weird"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "gross",
+   "prompt": "What do you say?",
+   "answer": "Look at this gross video!",
+   "choices": [
+    "Look at this gross video!",
+    "Look at this funny video!",
+    "Look at this crazy video!"
+   ]
+  }
+ ]
+}

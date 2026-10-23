@@ -1,0 +1,1006 @@
+{
+ "id": "int2a_u07_b",
+ "title": "She Is in the Library",
+ "book": "INT 2A",
+ "unit": 7,
+ "unitTitle": "Where is the Teacher?",
+ "packId": "int2a_u7",
+ "audio": "audio/int2a_u07_b.mp3",
+ "duration": 153.77,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Where is everybody?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 8.83,
+     "end": 9.2
+    },
+    {
+     "t": "is",
+     "start": 9.3,
+     "end": 9.56
+    },
+    {
+     "t": "everybody?",
+     "start": 9.6,
+     "end": 10.1
+    }
+   ],
+   "n": 1,
+   "start": 8.83,
+   "end": 10.1,
+   "pic": "classmate"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where is the librarian?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 12.08,
+     "end": 12.28
+    },
+    {
+     "t": "is",
+     "start": 12.26,
+     "end": 12.56
+    },
+    {
+     "t": "the",
+     "start": 12.56,
+     "end": 12.84
+    },
+    {
+     "t": "librarian?",
+     "start": 12.84,
+     "end": 13.54,
+     "pic": "librarian"
+    }
+   ],
+   "n": 2,
+   "start": 12.08,
+   "end": 13.54,
+   "pic": "librarian"
+  },
+  {
+   "section": "Verse 1",
+   "text": "She is in the library!",
+   "words": [
+    {
+     "t": "She",
+     "start": 14.96,
+     "end": 15.26
+    },
+    {
+     "t": "is",
+     "start": 15.26,
+     "end": 15.64
+    },
+    {
+     "t": "in",
+     "start": 15.62,
+     "end": 16.16
+    },
+    {
+     "t": "the",
+     "start": 16.16,
+     "end": 16.58
+    },
+    {
+     "t": "library!",
+     "start": 16.58,
+     "end": 17.42
+    }
+   ],
+   "n": 3,
+   "start": 14.96,
+   "end": 17.42,
+   "pic": "librarian"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where is the principal?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 19.08,
+     "end": 19.4
+    },
+    {
+     "t": "is",
+     "start": 19.36,
+     "end": 19.72
+    },
+    {
+     "t": "the",
+     "start": 19.72,
+     "end": 20.12
+    },
+    {
+     "t": "principal?",
+     "start": 20.12,
+     "end": 20.78,
+     "pic": "principal"
+    }
+   ],
+   "n": 4,
+   "start": 19.08,
+   "end": 20.78,
+   "pic": "principal"
+  },
+  {
+   "section": "Verse 1",
+   "text": "He is in the office!",
+   "words": [
+    {
+     "t": "He",
+     "start": 21.76,
+     "end": 22.06
+    },
+    {
+     "t": "is",
+     "start": 22.06,
+     "end": 22.4
+    },
+    {
+     "t": "in",
+     "start": 22.4,
+     "end": 22.76
+    },
+    {
+     "t": "the",
+     "start": 22.76,
+     "end": 23.18
+    },
+    {
+     "t": "office!",
+     "start": 23.18,
+     "end": 23.86
+    }
+   ],
+   "n": 5,
+   "start": 21.76,
+   "end": 23.86,
+   "pic": "principal"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where are the students?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 24.38,
+     "end": 24.6
+    },
+    {
+     "t": "are",
+     "start": 24.58,
+     "end": 25.0
+    },
+    {
+     "t": "the",
+     "start": 25.02,
+     "end": 25.16
+    },
+    {
+     "t": "students?",
+     "start": 25.24,
+     "end": 25.84
+    }
+   ],
+   "n": 6,
+   "start": 24.38,
+   "end": 25.84,
+   "pic": "principal"
+  },
+  {
+   "section": "Verse 1",
+   "text": "They are in the gym!",
+   "words": [
+    {
+     "t": "They",
+     "start": 27.04,
+     "end": 27.26
+    },
+    {
+     "t": "are",
+     "start": 27.26,
+     "end": 27.62
+    },
+    {
+     "t": "in",
+     "start": 27.62,
+     "end": 27.98
+    },
+    {
+     "t": "the",
+     "start": 27.98,
+     "end": 28.38
+    },
+    {
+     "t": "gym!",
+     "start": 28.32,
+     "end": 28.74
+    }
+   ],
+   "n": 7,
+   "start": 27.04,
+   "end": 28.74,
+   "pic": "principal"
+  },
+  {
+   "section": "Chorus",
+   "text": "She is in the library! Library!",
+   "words": [
+    {
+     "t": "She",
+     "start": 28.91,
+     "end": 29.15
+    },
+    {
+     "t": "is",
+     "start": 29.15,
+     "end": 29.31
+    },
+    {
+     "t": "in",
+     "start": 29.3,
+     "end": 29.7
+    },
+    {
+     "t": "the",
+     "start": 29.7,
+     "end": 30.08
+    },
+    {
+     "t": "library!",
+     "start": 30.08,
+     "end": 31.08
+    },
+    {
+     "t": "Library!",
+     "start": 33.14,
+     "end": 34.34
+    }
+   ],
+   "n": 8,
+   "start": 28.91,
+   "end": 34.34,
+   "pic": "principal"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is in the office! Office!",
+   "words": [
+    {
+     "t": "He",
+     "start": 36.1,
+     "end": 36.48
+    },
+    {
+     "t": "is",
+     "start": 36.46,
+     "end": 37.28
+    },
+    {
+     "t": "in",
+     "start": 37.52,
+     "end": 38.18
+    },
+    {
+     "t": "the",
+     "start": 38.16,
+     "end": 38.76
+    },
+    {
+     "t": "office!",
+     "start": 38.7,
+     "end": 39.78
+    },
+    {
+     "t": "Office!",
+     "start": 39.1,
+     "end": 40.32
+    }
+   ],
+   "n": 9,
+   "start": 36.1,
+   "end": 40.32,
+   "pic": "principal"
+  },
+  {
+   "section": "Chorus",
+   "text": "They are in the gym!",
+   "words": [
+    {
+     "t": "They",
+     "start": 41.28,
+     "end": 41.64
+    },
+    {
+     "t": "are",
+     "start": 41.64,
+     "end": 41.94
+    },
+    {
+     "t": "in",
+     "start": 41.98,
+     "end": 42.64
+    },
+    {
+     "t": "the",
+     "start": 42.78,
+     "end": 43.3
+    },
+    {
+     "t": "gym!",
+     "start": 43.3,
+     "end": 44.18
+    }
+   ],
+   "n": 10,
+   "start": 41.28,
+   "end": 44.18,
+   "pic": "principal"
+  },
+  {
+   "section": "Chorus",
+   "text": "Where is the teacher?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 45.06,
+     "end": 45.5
+    },
+    {
+     "t": "is",
+     "start": 45.46,
+     "end": 46.08
+    },
+    {
+     "t": "the",
+     "start": 46.08,
+     "end": 46.54
+    },
+    {
+     "t": "teacher?",
+     "start": 46.54,
+     "end": 47.48,
+     "pic": "teacher"
+    }
+   ],
+   "n": 11,
+   "start": 45.06,
+   "end": 47.48,
+   "pic": "teacher"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where is the lunch lady?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 50.88,
+     "end": 51.26
+    },
+    {
+     "t": "is",
+     "start": 51.24,
+     "end": 51.56
+    },
+    {
+     "t": "the",
+     "start": 51.56,
+     "end": 51.92
+    },
+    {
+     "t": "lunch",
+     "start": 51.92,
+     "end": 52.28
+    },
+    {
+     "t": "lady?",
+     "start": 52.28,
+     "end": 52.92
+    }
+   ],
+   "n": 12,
+   "start": 50.88,
+   "end": 52.92,
+   "pic": "lunchlady"
+  },
+  {
+   "section": "Verse 2",
+   "text": "She is in the cafeteria!",
+   "words": [
+    {
+     "t": "She",
+     "start": 53.9,
+     "end": 54.22
+    },
+    {
+     "t": "is",
+     "start": 54.22,
+     "end": 54.58
+    },
+    {
+     "t": "in",
+     "start": 54.58,
+     "end": 55.14
+    },
+    {
+     "t": "the",
+     "start": 55.14,
+     "end": 55.58
+    },
+    {
+     "t": "cafeteria!",
+     "start": 55.58,
+     "end": 56.3
+    }
+   ],
+   "n": 13,
+   "start": 53.9,
+   "end": 56.3,
+   "pic": "lunchlady"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where is the teacher?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 57.42,
+     "end": 57.54
+    },
+    {
+     "t": "is",
+     "start": 57.54,
+     "end": 58.08
+    },
+    {
+     "t": "the",
+     "start": 58.12,
+     "end": 58.34
+    },
+    {
+     "t": "teacher?",
+     "start": 58.34,
+     "end": 58.9,
+     "pic": "teacher"
+    }
+   ],
+   "n": 14,
+   "start": 57.42,
+   "end": 58.9,
+   "pic": "teacher"
+  },
+  {
+   "section": "Verse 2",
+   "text": "He is in the classroom!",
+   "words": [
+    {
+     "t": "He",
+     "start": 60.03,
+     "end": 60.3
+    },
+    {
+     "t": "is",
+     "start": 60.3,
+     "end": 60.58
+    },
+    {
+     "t": "in",
+     "start": 60.6,
+     "end": 60.96
+    },
+    {
+     "t": "the",
+     "start": 60.96,
+     "end": 61.26
+    },
+    {
+     "t": "classroom!",
+     "start": 61.26,
+     "end": 61.96
+    }
+   ],
+   "n": 15,
+   "start": 60.03,
+   "end": 61.96,
+   "pic": "teacher"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where are our classmates?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 63.26,
+     "end": 63.56
+    },
+    {
+     "t": "are",
+     "start": 63.56,
+     "end": 63.94
+    },
+    {
+     "t": "our",
+     "start": 63.94,
+     "end": 64.24
+    },
+    {
+     "t": "classmates?",
+     "start": 64.26,
+     "end": 64.86,
+     "pic": "classmate"
+    }
+   ],
+   "n": 16,
+   "start": 63.26,
+   "end": 64.86,
+   "pic": "classmate"
+  },
+  {
+   "section": "Verse 2",
+   "text": "They are in the gym!",
+   "words": [
+    {
+     "t": "They",
+     "start": 66.0,
+     "end": 66.24
+    },
+    {
+     "t": "are",
+     "start": 66.26,
+     "end": 66.58
+    },
+    {
+     "t": "in",
+     "start": 66.62,
+     "end": 66.98
+    },
+    {
+     "t": "the",
+     "start": 66.98,
+     "end": 67.24
+    },
+    {
+     "t": "gym!",
+     "start": 67.32,
+     "end": 67.58
+    }
+   ],
+   "n": 17,
+   "start": 66.0,
+   "end": 67.58,
+   "pic": "classmate"
+  },
+  {
+   "section": "Chorus",
+   "text": "She is in the library! Library!",
+   "words": [
+    {
+     "t": "She",
+     "start": 67.6,
+     "end": 68.12
+    },
+    {
+     "t": "is",
+     "start": 68.12,
+     "end": 68.32
+    },
+    {
+     "t": "in",
+     "start": 68.34,
+     "end": 68.68
+    },
+    {
+     "t": "the",
+     "start": 68.68,
+     "end": 69.1
+    },
+    {
+     "t": "library!",
+     "start": 69.06,
+     "end": 70.06
+    },
+    {
+     "t": "Library!",
+     "start": 71.66,
+     "end": 74.2
+    }
+   ],
+   "n": 18,
+   "start": 67.6,
+   "end": 74.2,
+   "pic": "classmate"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is in the office! Office!",
+   "words": [
+    {
+     "t": "He",
+     "start": 74.33,
+     "end": 74.62
+    },
+    {
+     "t": "is",
+     "start": 74.68,
+     "end": 76.54
+    },
+    {
+     "t": "in",
+     "start": 76.54,
+     "end": 77.16
+    },
+    {
+     "t": "the",
+     "start": 77.16,
+     "end": 77.8
+    },
+    {
+     "t": "office!",
+     "start": 77.76,
+     "end": 78.84
+    },
+    {
+     "t": "Office!",
+     "start": 78.84,
+     "end": 79.94
+    }
+   ],
+   "n": 19,
+   "start": 74.33,
+   "end": 79.94,
+   "pic": "classmate"
+  },
+  {
+   "section": "Chorus",
+   "text": "They are in the gym!",
+   "words": [
+    {
+     "t": "They",
+     "start": 80.68,
+     "end": 81.25
+    },
+    {
+     "t": "are",
+     "start": 81.27,
+     "end": 81.73
+    },
+    {
+     "t": "in",
+     "start": 81.75,
+     "end": 82.13
+    },
+    {
+     "t": "the",
+     "start": 82.15,
+     "end": 82.61
+    },
+    {
+     "t": "gym!",
+     "start": 82.63,
+     "end": 83.22
+    }
+   ],
+   "n": 20,
+   "start": 80.68,
+   "end": 83.22,
+   "pic": "classmate"
+  },
+  {
+   "section": "Chorus",
+   "text": "Where is the teacher?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 86.68,
+     "end": 87.48
+    },
+    {
+     "t": "is",
+     "start": 87.48,
+     "end": 88.12
+    },
+    {
+     "t": "the",
+     "start": 88.16,
+     "end": 88.52
+    },
+    {
+     "t": "teacher?",
+     "start": 88.52,
+     "end": 89.44,
+     "pic": "teacher"
+    }
+   ],
+   "n": 21,
+   "start": 86.68,
+   "end": 89.44,
+   "pic": "teacher"
+  },
+  {
+   "section": "Bridge",
+   "text": "Library, books for you and me!",
+   "words": [
+    {
+     "t": "Library,",
+     "start": 107.96,
+     "end": 109.2
+    },
+    {
+     "t": "books",
+     "start": 109.2,
+     "end": 109.86
+    },
+    {
+     "t": "for",
+     "start": 109.86,
+     "end": 110.14
+    },
+    {
+     "t": "you",
+     "start": 110.14,
+     "end": 110.5
+    },
+    {
+     "t": "and",
+     "start": 110.5,
+     "end": 111.06
+    },
+    {
+     "t": "me!",
+     "start": 111.06,
+     "end": 112.71
+    }
+   ],
+   "n": 22,
+   "start": 107.96,
+   "end": 112.71,
+   "pic": "teacher"
+  },
+  {
+   "section": "Chorus",
+   "text": "She is in the library! Library!",
+   "words": [
+    {
+     "t": "She",
+     "start": 112.8,
+     "end": 113.1
+    },
+    {
+     "t": "is",
+     "start": 113.1,
+     "end": 113.34
+    },
+    {
+     "t": "in",
+     "start": 113.34,
+     "end": 113.72
+    },
+    {
+     "t": "the",
+     "start": 113.7,
+     "end": 114.02
+    },
+    {
+     "t": "library!",
+     "start": 114.02,
+     "end": 114.82
+    },
+    {
+     "t": "Library!",
+     "start": 114.87,
+     "end": 115.29
+    }
+   ],
+   "n": 23,
+   "start": 112.8,
+   "end": 115.29,
+   "pic": "teacher"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is in the office! Office!",
+   "words": [
+    {
+     "t": "He",
+     "start": 118.48,
+     "end": 118.74
+    },
+    {
+     "t": "is",
+     "start": 118.74,
+     "end": 119.14
+    },
+    {
+     "t": "in",
+     "start": 119.14,
+     "end": 119.5
+    },
+    {
+     "t": "the",
+     "start": 119.46,
+     "end": 119.94
+    },
+    {
+     "t": "office!",
+     "start": 119.94,
+     "end": 121.14
+    },
+    {
+     "t": "Office!",
+     "start": 121.19,
+     "end": 121.61
+    }
+   ],
+   "n": 24,
+   "start": 118.48,
+   "end": 121.61,
+   "pic": "teacher"
+  },
+  {
+   "section": "Chorus",
+   "text": "They are in the gym!",
+   "words": [
+    {
+     "t": "They",
+     "start": 122.28,
+     "end": 122.64
+    },
+    {
+     "t": "are",
+     "start": 122.64,
+     "end": 123.08
+    },
+    {
+     "t": "in",
+     "start": 123.08,
+     "end": 123.8
+    },
+    {
+     "t": "the",
+     "start": 123.8,
+     "end": 124.54
+    },
+    {
+     "t": "gym!",
+     "start": 124.59,
+     "end": 125.01
+    }
+   ],
+   "n": 25,
+   "start": 122.28,
+   "end": 125.01,
+   "pic": "teacher"
+  },
+  {
+   "section": "Chorus",
+   "text": "Where is the teacher?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 126.02,
+     "end": 126.6
+    },
+    {
+     "t": "is",
+     "start": 126.6,
+     "end": 127.12
+    },
+    {
+     "t": "the",
+     "start": 127.12,
+     "end": 127.54
+    },
+    {
+     "t": "teacher?",
+     "start": 127.54,
+     "end": 128.42,
+     "pic": "teacher"
+    }
+   ],
+   "n": 26,
+   "start": 126.02,
+   "end": 128.42,
+   "pic": "teacher"
+  },
+  {
+   "section": "Outro",
+   "text": "She is in the library!",
+   "words": [
+    {
+     "t": "She",
+     "start": 136.19,
+     "end": 137.14
+    },
+    {
+     "t": "is",
+     "start": 137.14,
+     "end": 137.34
+    },
+    {
+     "t": "in",
+     "start": 137.34,
+     "end": 137.7
+    },
+    {
+     "t": "the",
+     "start": 137.7,
+     "end": 138.08
+    },
+    {
+     "t": "library!",
+     "start": 138.08,
+     "end": 139.22
+    }
+   ],
+   "n": 27,
+   "start": 136.19,
+   "end": 139.22,
+   "pic": "teacher"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "librarian",
+   "prompt": "Where is the librarian?",
+   "answer": "She is in the library!",
+   "choices": [
+    "She is in the library!",
+    "She is in the gym!",
+    "She is in the office!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. Who is it?",
+   "answer": "principal",
+   "choices": [
+    "principal",
+    "nurse",
+    "janitor"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "lunchlady",
+   "prompt": "Where is the lunch lady?",
+   "answer": "She is in the cafeteria!",
+   "choices": [
+    "She is in the library!",
+    "She is in the cafeteria!",
+    "She is in the classroom!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 16,
+   "prompt": "Listen. Who is in the gym?",
+   "answer": "classmate",
+   "choices": [
+    "teacher",
+    "classmate",
+    "secretary"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "teacher",
+   "prompt": "Where is the teacher?",
+   "answer": "He is in the classroom!",
+   "choices": [
+    "He is in the classroom!",
+    "He is in the cafeteria!",
+    "He is in the library!"
+   ]
+  }
+ ]
+}

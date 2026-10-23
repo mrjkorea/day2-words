@@ -1,0 +1,863 @@
+{
+ "id": "int2a_u02_a",
+ "title": "There Are Snakes!",
+ "book": "INT 2A",
+ "unit": 2,
+ "unitTitle": "There are Snakes!",
+ "packId": "int2a_u2",
+ "audio": "audio/int2a_u02_a.mp3",
+ "duration": 144.17,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "A walk in the jungle!",
+   "words": [
+    {
+     "t": "A",
+     "start": 15.6,
+     "end": 16.2
+    },
+    {
+     "t": "walk",
+     "start": 16.2,
+     "end": 16.46
+    },
+    {
+     "t": "in",
+     "start": 16.46,
+     "end": 16.7
+    },
+    {
+     "t": "the",
+     "start": 16.7,
+     "end": 16.92
+    },
+    {
+     "t": "jungle!",
+     "start": 16.88,
+     "end": 17.16
+    }
+   ],
+   "n": 1,
+   "start": 15.6,
+   "end": 17.16,
+   "pic": "ant"
+  },
+  {
+   "section": "Verse 1",
+   "text": "There are snakes!",
+   "words": [
+    {
+     "t": "There",
+     "start": 20.42,
+     "end": 20.86
+    },
+    {
+     "t": "are",
+     "start": 20.84,
+     "end": 21.44
+    },
+    {
+     "t": "snakes!",
+     "start": 21.4,
+     "end": 22.08,
+     "pic": "snake"
+    }
+   ],
+   "n": 2,
+   "start": 20.42,
+   "end": 22.08,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 23.94,
+     "end": 24.34
+    }
+   ],
+   "n": 3,
+   "start": 23.94,
+   "end": 24.34,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Verse 1",
+   "text": "There are bees!",
+   "words": [
+    {
+     "t": "There",
+     "start": 25.32,
+     "end": 25.72
+    },
+    {
+     "t": "are",
+     "start": 25.72,
+     "end": 26.32
+    },
+    {
+     "t": "bees!",
+     "start": 26.32,
+     "end": 27.6,
+     "pic": "bee"
+    }
+   ],
+   "n": 4,
+   "start": 25.32,
+   "end": 27.6,
+   "pic": "bee"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 28.94,
+     "end": 29.26
+    }
+   ],
+   "n": 5,
+   "start": 28.94,
+   "end": 29.26,
+   "pic": "bee"
+  },
+  {
+   "section": "Verse 1",
+   "text": "There are spiders!",
+   "words": [
+    {
+     "t": "There",
+     "start": 30.04,
+     "end": 30.5
+    },
+    {
+     "t": "are",
+     "start": 30.5,
+     "end": 31.08
+    },
+    {
+     "t": "spiders!",
+     "start": 31.08,
+     "end": 31.96,
+     "pic": "spider"
+    }
+   ],
+   "n": 6,
+   "start": 30.04,
+   "end": 31.96,
+   "pic": "spider"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 33.7,
+     "end": 34.12
+    }
+   ],
+   "n": 7,
+   "start": 33.7,
+   "end": 34.12,
+   "pic": "spider"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are snakes! There are snakes!",
+   "words": [
+    {
+     "t": "There",
+     "start": 38.98,
+     "end": 39.28
+    },
+    {
+     "t": "are",
+     "start": 39.28,
+     "end": 39.52
+    },
+    {
+     "t": "snakes!",
+     "start": 39.52,
+     "end": 40.12,
+     "pic": "snake"
+    },
+    {
+     "t": "There",
+     "start": 40.24,
+     "end": 40.52
+    },
+    {
+     "t": "are",
+     "start": 40.52,
+     "end": 40.7
+    },
+    {
+     "t": "snakes!",
+     "start": 40.7,
+     "end": 41.28,
+     "pic": "snake"
+    }
+   ],
+   "n": 8,
+   "start": 38.98,
+   "end": 41.28,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Run! Run! Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 43.38,
+     "end": 43.64
+    },
+    {
+     "t": "Run!",
+     "start": 44.64,
+     "end": 44.76
+    },
+    {
+     "t": "Run!",
+     "start": 45.74,
+     "end": 46.2
+    }
+   ],
+   "n": 9,
+   "start": 43.38,
+   "end": 46.2,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are bees! There are ants!",
+   "words": [
+    {
+     "t": "There",
+     "start": 48.62,
+     "end": 48.92
+    },
+    {
+     "t": "are",
+     "start": 48.92,
+     "end": 49.18
+    },
+    {
+     "t": "bees!",
+     "start": 49.18,
+     "end": 49.62,
+     "pic": "bee"
+    },
+    {
+     "t": "There",
+     "start": 49.9,
+     "end": 50.16
+    },
+    {
+     "t": "are",
+     "start": 50.16,
+     "end": 50.46
+    },
+    {
+     "t": "ants!",
+     "start": 50.46,
+     "end": 50.82,
+     "pic": "ant"
+    }
+   ],
+   "n": 10,
+   "start": 48.62,
+   "end": 50.82,
+   "pic": "bee"
+  },
+  {
+   "section": "Chorus",
+   "text": "Run! Run! Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 52.14,
+     "end": 52.24
+    },
+    {
+     "t": "Run!",
+     "start": 53.92,
+     "end": 54.66
+    },
+    {
+     "t": "Run!",
+     "start": 54.78,
+     "end": 55.53
+    }
+   ],
+   "n": 11,
+   "start": 52.14,
+   "end": 55.53,
+   "pic": "bee"
+  },
+  {
+   "section": "Verse 2",
+   "text": "There are ants!",
+   "words": [
+    {
+     "t": "There",
+     "start": 58.92,
+     "end": 59.24
+    },
+    {
+     "t": "are",
+     "start": 59.24,
+     "end": 59.88
+    },
+    {
+     "t": "ants!",
+     "start": 59.88,
+     "end": 60.72,
+     "pic": "ant"
+    }
+   ],
+   "n": 12,
+   "start": 58.92,
+   "end": 60.72,
+   "pic": "ant"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 62.3,
+     "end": 62.8
+    }
+   ],
+   "n": 13,
+   "start": 62.3,
+   "end": 62.8,
+   "pic": "ant"
+  },
+  {
+   "section": "Verse 2",
+   "text": "There are snakes!",
+   "words": [
+    {
+     "t": "There",
+     "start": 63.64,
+     "end": 64.14
+    },
+    {
+     "t": "are",
+     "start": 64.14,
+     "end": 64.64
+    },
+    {
+     "t": "snakes!",
+     "start": 64.64,
+     "end": 65.78,
+     "pic": "snake"
+    }
+   ],
+   "n": 14,
+   "start": 63.64,
+   "end": 65.78,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 67.44,
+     "end": 67.66
+    }
+   ],
+   "n": 15,
+   "start": 65.88,
+   "end": 66.48,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Verse 2",
+   "text": "There are bees!",
+   "words": [
+    {
+     "t": "There",
+     "start": 68.5,
+     "end": 68.94
+    },
+    {
+     "t": "are",
+     "start": 68.94,
+     "end": 69.54
+    },
+    {
+     "t": "bees!",
+     "start": 69.54,
+     "end": 70.52,
+     "pic": "bee"
+    }
+   ],
+   "n": 16,
+   "start": 68.5,
+   "end": 70.52,
+   "pic": "bee"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 71.0,
+     "end": 72.62
+    }
+   ],
+   "n": 17,
+   "start": 71.0,
+   "end": 72.62,
+   "pic": "bee"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are snakes! There are snakes!",
+   "words": [
+    {
+     "t": "There",
+     "start": 77.5,
+     "end": 77.72
+    },
+    {
+     "t": "are",
+     "start": 77.72,
+     "end": 77.98
+    },
+    {
+     "t": "snakes!",
+     "start": 77.98,
+     "end": 78.52,
+     "pic": "snake"
+    },
+    {
+     "t": "There",
+     "start": 78.66,
+     "end": 78.9
+    },
+    {
+     "t": "are",
+     "start": 78.9,
+     "end": 79.12
+    },
+    {
+     "t": "snakes!",
+     "start": 79.12,
+     "end": 79.64,
+     "pic": "snake"
+    }
+   ],
+   "n": 18,
+   "start": 77.5,
+   "end": 79.64,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Run! Run! Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 81.62,
+     "end": 82.04
+    },
+    {
+     "t": "Run!",
+     "start": 82.66,
+     "end": 83.64
+    },
+    {
+     "t": "Run!",
+     "start": 84.6,
+     "end": 84.68
+    }
+   ],
+   "n": 19,
+   "start": 81.62,
+   "end": 84.68,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are bees! There are ants!",
+   "words": [
+    {
+     "t": "There",
+     "start": 87.04,
+     "end": 87.43
+    },
+    {
+     "t": "are",
+     "start": 87.45,
+     "end": 87.73
+    },
+    {
+     "t": "bees!",
+     "start": 87.75,
+     "end": 88.14,
+     "pic": "bee"
+    },
+    {
+     "t": "There",
+     "start": 88.16,
+     "end": 88.55
+    },
+    {
+     "t": "are",
+     "start": 88.57,
+     "end": 88.85
+    },
+    {
+     "t": "ants!",
+     "start": 88.87,
+     "end": 89.28,
+     "pic": "ant"
+    }
+   ],
+   "n": 20,
+   "start": 87.04,
+   "end": 89.28,
+   "pic": "bee"
+  },
+  {
+   "section": "Chorus",
+   "text": "Run! Run! Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 91.28,
+     "end": 91.78
+    },
+    {
+     "t": "Run!",
+     "start": 92.62,
+     "end": 93.18
+    },
+    {
+     "t": "Run!",
+     "start": 93.18,
+     "end": 94.34
+    }
+   ],
+   "n": 21,
+   "start": 91.28,
+   "end": 94.34,
+   "pic": "bee"
+  },
+  {
+   "section": "Bridge",
+   "text": "One step, two steps, three steps forward!",
+   "words": [
+    {
+     "t": "One",
+     "start": 96.06,
+     "end": 96.7
+    },
+    {
+     "t": "step,",
+     "start": 96.7,
+     "end": 97.76
+    },
+    {
+     "t": "two",
+     "start": 98.44,
+     "end": 98.96
+    },
+    {
+     "t": "steps,",
+     "start": 98.96,
+     "end": 99.98
+    },
+    {
+     "t": "three",
+     "start": 100.88,
+     "end": 101.1
+    },
+    {
+     "t": "steps",
+     "start": 101.1,
+     "end": 101.86
+    },
+    {
+     "t": "forward!",
+     "start": 101.86,
+     "end": 101.96
+    }
+   ],
+   "n": 22,
+   "start": 96.06,
+   "end": 101.96,
+   "pic": "bee"
+  },
+  {
+   "section": "Bridge",
+   "text": "Stop! Listen! What is that?",
+   "words": [
+    {
+     "t": "Stop!",
+     "start": 105.38,
+     "end": 106.1
+    },
+    {
+     "t": "Listen!",
+     "start": 107.7,
+     "end": 108.08
+    },
+    {
+     "t": "What",
+     "start": 110.0,
+     "end": 111.02
+    },
+    {
+     "t": "is",
+     "start": 111.02,
+     "end": 112.7
+    },
+    {
+     "t": "that?",
+     "start": 112.7,
+     "end": 113.68
+    }
+   ],
+   "n": 23,
+   "start": 105.38,
+   "end": 113.68,
+   "pic": "bee"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are snakes! There are snakes!",
+   "words": [
+    {
+     "t": "There",
+     "start": 115.7,
+     "end": 116.12
+    },
+    {
+     "t": "are",
+     "start": 116.15,
+     "end": 116.57
+    },
+    {
+     "t": "snakes!",
+     "start": 116.6,
+     "end": 117.02,
+     "pic": "snake"
+    },
+    {
+     "t": "There",
+     "start": 117.08,
+     "end": 117.26
+    },
+    {
+     "t": "are",
+     "start": 117.26,
+     "end": 117.54
+    },
+    {
+     "t": "snakes!",
+     "start": 117.54,
+     "end": 118.14,
+     "pic": "snake"
+    }
+   ],
+   "n": 24,
+   "start": 115.7,
+   "end": 118.14,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Run! Run! Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 120.06,
+     "end": 121.38
+    },
+    {
+     "t": "Run!",
+     "start": 122.52,
+     "end": 123.26
+    },
+    {
+     "t": "Run!",
+     "start": 123.31,
+     "end": 123.73
+    }
+   ],
+   "n": 25,
+   "start": 120.06,
+   "end": 123.73,
+   "pic": "therearesnakes"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are bees! There are ants!",
+   "words": [
+    {
+     "t": "There",
+     "start": 125.36,
+     "end": 125.68
+    },
+    {
+     "t": "are",
+     "start": 125.68,
+     "end": 125.98
+    },
+    {
+     "t": "bees!",
+     "start": 125.98,
+     "end": 126.38,
+     "pic": "bee"
+    },
+    {
+     "t": "There",
+     "start": 126.8,
+     "end": 126.94
+    },
+    {
+     "t": "are",
+     "start": 126.94,
+     "end": 127.24
+    },
+    {
+     "t": "ants!",
+     "start": 127.24,
+     "end": 127.72,
+     "pic": "ant"
+    }
+   ],
+   "n": 26,
+   "start": 125.36,
+   "end": 127.72,
+   "pic": "bee"
+  },
+  {
+   "section": "Chorus",
+   "text": "Run! Run! Run!",
+   "words": [
+    {
+     "t": "Run!",
+     "start": 129.6,
+     "end": 130.02
+    },
+    {
+     "t": "Run!",
+     "start": 130.07,
+     "end": 130.49
+    },
+    {
+     "t": "Run!",
+     "start": 130.53,
+     "end": 130.95
+    }
+   ],
+   "n": 27,
+   "start": 129.6,
+   "end": 130.95,
+   "pic": "bee"
+  },
+  {
+   "section": "Outro",
+   "text": "There are snakes! Run!",
+   "words": [
+    {
+     "t": "There",
+     "start": 131.0,
+     "end": 132.17
+    },
+    {
+     "t": "are",
+     "start": 132.3,
+     "end": 133.13
+    },
+    {
+     "t": "snakes!",
+     "start": 133.22,
+     "end": 134.72,
+     "pic": "snake"
+    },
+    {
+     "t": "Run!",
+     "start": 134.89,
+     "end": 135.89
+    }
+   ],
+   "n": 28,
+   "start": 131.0,
+   "end": 135.89,
+   "pic": "therearesnakes"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "snake",
+   "prompt": "What is there?",
+   "answer": "There are snakes!",
+   "choices": [
+    "There are snakes!",
+    "There are bees!",
+    "There are ants!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. What is there?",
+   "answer": "bee",
+   "choices": [
+    "bee",
+    "spider",
+    "ant"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "spider",
+   "prompt": "What is there?",
+   "answer": "There are spiders!",
+   "choices": [
+    "There are ants!",
+    "There are spiders!",
+    "There are snakes!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 12,
+   "prompt": "Listen. What is there?",
+   "answer": "ant",
+   "choices": [
+    "snake",
+    "ant",
+    "bee"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "snake",
+   "prompt": "There are snakes! What do you do?",
+   "answer": "Run!",
+   "choices": [
+    "Run!",
+    "Stop!",
+    "Listen!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1159 @@
+{
+ "id": "int2a_u05_b",
+ "title": "Maybe It Is in the Kitchen",
+ "book": "INT 2A",
+ "unit": 5,
+ "unitTitle": "Where is My Phone?",
+ "packId": "int2a_u5",
+ "audio": "audio/int2a_u05_b.mp3",
+ "duration": 149.11,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "I don't know...",
+   "words": [
+    {
+     "t": "I",
+     "start": 3.6,
+     "end": 4.2
+    },
+    {
+     "t": "don't",
+     "start": 4.2,
+     "end": 4.44
+    },
+    {
+     "t": "know...",
+     "start": 4.34,
+     "end": 4.89
+    }
+   ],
+   "n": 1,
+   "start": 3.6,
+   "end": 4.89,
+   "pic": "attic"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where is my bag?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 10.79,
+     "end": 11.84
+    },
+    {
+     "t": "is",
+     "start": 11.86,
+     "end": 12.56
+    },
+    {
+     "t": "my",
+     "start": 12.56,
+     "end": 12.82
+    },
+    {
+     "t": "bag?",
+     "start": 12.8,
+     "end": 13.22
+    }
+   ],
+   "n": 2,
+   "start": 10.79,
+   "end": 13.22,
+   "pic": "attic"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Maybe it is in the bedroom!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 13.9,
+     "end": 14.32
+    },
+    {
+     "t": "it",
+     "start": 14.32,
+     "end": 14.8
+    },
+    {
+     "t": "is",
+     "start": 14.8,
+     "end": 15.08
+    },
+    {
+     "t": "in",
+     "start": 15.08,
+     "end": 15.38
+    },
+    {
+     "t": "the",
+     "start": 15.38,
+     "end": 15.64
+    },
+    {
+     "t": "bedroom!",
+     "start": 15.64,
+     "end": 16.1,
+     "pic": "bedroom"
+    }
+   ],
+   "n": 3,
+   "start": 13.9,
+   "end": 16.1,
+   "pic": "bedroom"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where is my key?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 16.3,
+     "end": 16.54
+    },
+    {
+     "t": "is",
+     "start": 16.54,
+     "end": 17.16
+    },
+    {
+     "t": "my",
+     "start": 17.18,
+     "end": 17.4
+    },
+    {
+     "t": "key?",
+     "start": 17.44,
+     "end": 17.76
+    }
+   ],
+   "n": 4,
+   "start": 16.3,
+   "end": 17.76,
+   "pic": "bedroom"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Maybe it is in the kitchen!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 20.8,
+     "end": 21.22
+    },
+    {
+     "t": "it",
+     "start": 21.2,
+     "end": 21.48
+    },
+    {
+     "t": "is",
+     "start": 21.48,
+     "end": 21.7
+    },
+    {
+     "t": "in",
+     "start": 21.7,
+     "end": 21.86
+    },
+    {
+     "t": "the",
+     "start": 21.86,
+     "end": 21.98
+    },
+    {
+     "t": "kitchen!",
+     "start": 21.98,
+     "end": 22.42,
+     "pic": "kitchen"
+    }
+   ],
+   "n": 5,
+   "start": 20.8,
+   "end": 22.42,
+   "pic": "maybeitisinthekitchen"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where is my jacket?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 23.04,
+     "end": 23.68
+    },
+    {
+     "t": "is",
+     "start": 23.68,
+     "end": 23.96
+    },
+    {
+     "t": "my",
+     "start": 23.96,
+     "end": 24.26
+    },
+    {
+     "t": "jacket?",
+     "start": 24.26,
+     "end": 24.7
+    }
+   ],
+   "n": 6,
+   "start": 23.04,
+   "end": 24.7,
+   "pic": "maybeitisinthekitchen"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Maybe it is in the garage!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 25.44,
+     "end": 25.76
+    },
+    {
+     "t": "it",
+     "start": 25.84,
+     "end": 26.06
+    },
+    {
+     "t": "is",
+     "start": 26.1,
+     "end": 26.38
+    },
+    {
+     "t": "in",
+     "start": 26.36,
+     "end": 26.48
+    },
+    {
+     "t": "the",
+     "start": 26.48,
+     "end": 26.62
+    },
+    {
+     "t": "garage!",
+     "start": 26.62,
+     "end": 27.06,
+     "pic": "garage"
+    }
+   ],
+   "n": 7,
+   "start": 25.44,
+   "end": 27.06,
+   "pic": "garage"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the kitchen! Maybe!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 30.0,
+     "end": 30.72
+    },
+    {
+     "t": "it",
+     "start": 30.7,
+     "end": 31.48
+    },
+    {
+     "t": "is",
+     "start": 31.52,
+     "end": 31.8
+    },
+    {
+     "t": "in",
+     "start": 31.82,
+     "end": 32.1
+    },
+    {
+     "t": "the",
+     "start": 32.1,
+     "end": 32.3
+    },
+    {
+     "t": "kitchen!",
+     "start": 32.3,
+     "end": 32.84,
+     "pic": "kitchen"
+    },
+    {
+     "t": "Maybe!",
+     "start": 33.58,
+     "end": 34.98
+    }
+   ],
+   "n": 8,
+   "start": 30.0,
+   "end": 34.98,
+   "pic": "maybeitisinthekitchen"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the bathroom! Maybe!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 34.96,
+     "end": 35.43
+    },
+    {
+     "t": "it",
+     "start": 35.45,
+     "end": 35.7
+    },
+    {
+     "t": "is",
+     "start": 35.72,
+     "end": 35.98
+    },
+    {
+     "t": "in",
+     "start": 36.0,
+     "end": 36.26
+    },
+    {
+     "t": "the",
+     "start": 36.28,
+     "end": 36.61
+    },
+    {
+     "t": "bathroom!",
+     "start": 36.63,
+     "end": 37.37,
+     "pic": "bathroom"
+    },
+    {
+     "t": "Maybe!",
+     "start": 37.39,
+     "end": 37.95
+    }
+   ],
+   "n": 9,
+   "start": 34.96,
+   "end": 37.95,
+   "pic": "bathroom"
+  },
+  {
+   "section": "Chorus",
+   "text": "I don't know, I don't know,",
+   "words": [
+    {
+     "t": "I",
+     "start": 38.5,
+     "end": 38.66
+    },
+    {
+     "t": "don't",
+     "start": 38.66,
+     "end": 39.04
+    },
+    {
+     "t": "know,",
+     "start": 39.04,
+     "end": 39.58
+    },
+    {
+     "t": "I",
+     "start": 39.58,
+     "end": 40.92
+    },
+    {
+     "t": "don't",
+     "start": 40.92,
+     "end": 41.4
+    },
+    {
+     "t": "know,",
+     "start": 41.4,
+     "end": 42.16
+    }
+   ],
+   "n": 10,
+   "start": 38.5,
+   "end": 42.16,
+   "pic": "bathroom"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the living room!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 44.12,
+     "end": 44.52
+    },
+    {
+     "t": "it",
+     "start": 44.52,
+     "end": 45.16
+    },
+    {
+     "t": "is",
+     "start": 45.1,
+     "end": 45.64
+    },
+    {
+     "t": "in",
+     "start": 45.66,
+     "end": 45.98
+    },
+    {
+     "t": "the",
+     "start": 45.98,
+     "end": 46.18
+    },
+    {
+     "t": "living",
+     "start": 46.18,
+     "end": 46.76
+    },
+    {
+     "t": "room!",
+     "start": 46.76,
+     "end": 47.2
+    }
+   ],
+   "n": 11,
+   "start": 44.12,
+   "end": 47.2,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where is my phone?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 48.58,
+     "end": 48.88
+    },
+    {
+     "t": "is",
+     "start": 48.86,
+     "end": 49.46
+    },
+    {
+     "t": "my",
+     "start": 49.47,
+     "end": 49.66
+    },
+    {
+     "t": "phone?",
+     "start": 49.66,
+     "end": 50.12
+    }
+   ],
+   "n": 12,
+   "start": 48.58,
+   "end": 50.12,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Maybe it is in the shed!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 50.94,
+     "end": 51.28
+    },
+    {
+     "t": "it",
+     "start": 51.28,
+     "end": 51.64
+    },
+    {
+     "t": "is",
+     "start": 51.74,
+     "end": 52.0
+    },
+    {
+     "t": "in",
+     "start": 52.02,
+     "end": 52.26
+    },
+    {
+     "t": "the",
+     "start": 52.26,
+     "end": 52.48
+    },
+    {
+     "t": "shed!",
+     "start": 52.48,
+     "end": 52.92
+    }
+   ],
+   "n": 13,
+   "start": 50.94,
+   "end": 52.92,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where is my book?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 53.18,
+     "end": 53.52
+    },
+    {
+     "t": "is",
+     "start": 53.5,
+     "end": 54.08
+    },
+    {
+     "t": "my",
+     "start": 54.08,
+     "end": 54.28
+    },
+    {
+     "t": "book?",
+     "start": 54.28,
+     "end": 54.66
+    }
+   ],
+   "n": 14,
+   "start": 53.18,
+   "end": 54.66,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Maybe it is in the living room!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 57.7,
+     "end": 58.04
+    },
+    {
+     "t": "it",
+     "start": 58.04,
+     "end": 58.4
+    },
+    {
+     "t": "is",
+     "start": 58.4,
+     "end": 58.66
+    },
+    {
+     "t": "in",
+     "start": 58.66,
+     "end": 58.78
+    },
+    {
+     "t": "the",
+     "start": 58.78,
+     "end": 58.94
+    },
+    {
+     "t": "living",
+     "start": 58.94,
+     "end": 59.1
+    },
+    {
+     "t": "room!",
+     "start": 59.1,
+     "end": 59.58
+    }
+   ],
+   "n": 15,
+   "start": 57.7,
+   "end": 59.58,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where is my dog?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 60.3,
+     "end": 60.62
+    },
+    {
+     "t": "is",
+     "start": 60.62,
+     "end": 60.88
+    },
+    {
+     "t": "my",
+     "start": 60.88,
+     "end": 61.2
+    },
+    {
+     "t": "dog?",
+     "start": 61.16,
+     "end": 61.84
+    }
+   ],
+   "n": 16,
+   "start": 60.3,
+   "end": 61.84,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Maybe it is in the garden!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 62.38,
+     "end": 62.66
+    },
+    {
+     "t": "it",
+     "start": 62.72,
+     "end": 62.98
+    },
+    {
+     "t": "is",
+     "start": 63.02,
+     "end": 63.26
+    },
+    {
+     "t": "in",
+     "start": 63.26,
+     "end": 63.38
+    },
+    {
+     "t": "the",
+     "start": 63.38,
+     "end": 63.6
+    },
+    {
+     "t": "garden!",
+     "start": 63.6,
+     "end": 64.25
+    }
+   ],
+   "n": 17,
+   "start": 62.38,
+   "end": 64.25,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the kitchen! Maybe!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 67.04,
+     "end": 67.62
+    },
+    {
+     "t": "it",
+     "start": 67.34,
+     "end": 68.42
+    },
+    {
+     "t": "is",
+     "start": 68.44,
+     "end": 68.74
+    },
+    {
+     "t": "in",
+     "start": 68.74,
+     "end": 69.02
+    },
+    {
+     "t": "the",
+     "start": 69.02,
+     "end": 69.18
+    },
+    {
+     "t": "kitchen!",
+     "start": 69.18,
+     "end": 69.76,
+     "pic": "kitchen"
+    },
+    {
+     "t": "Maybe!",
+     "start": 70.32,
+     "end": 71.9
+    }
+   ],
+   "n": 18,
+   "start": 67.04,
+   "end": 71.9,
+   "pic": "maybeitisinthekitchen"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the bathroom! Maybe!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 71.87,
+     "end": 72.34
+    },
+    {
+     "t": "it",
+     "start": 72.36,
+     "end": 72.62
+    },
+    {
+     "t": "is",
+     "start": 72.64,
+     "end": 72.9
+    },
+    {
+     "t": "in",
+     "start": 72.92,
+     "end": 73.18
+    },
+    {
+     "t": "the",
+     "start": 73.2,
+     "end": 73.52
+    },
+    {
+     "t": "bathroom!",
+     "start": 73.54,
+     "end": 74.29,
+     "pic": "bathroom"
+    },
+    {
+     "t": "Maybe!",
+     "start": 74.31,
+     "end": 74.87
+    }
+   ],
+   "n": 19,
+   "start": 71.87,
+   "end": 74.87,
+   "pic": "bathroom"
+  },
+  {
+   "section": "Chorus",
+   "text": "I don't know, I don't know,",
+   "words": [
+    {
+     "t": "I",
+     "start": 75.42,
+     "end": 75.54
+    },
+    {
+     "t": "don't",
+     "start": 75.54,
+     "end": 75.96
+    },
+    {
+     "t": "know,",
+     "start": 75.96,
+     "end": 76.22
+    },
+    {
+     "t": "I",
+     "start": 77.58,
+     "end": 77.88
+    },
+    {
+     "t": "don't",
+     "start": 77.84,
+     "end": 78.24
+    },
+    {
+     "t": "know,",
+     "start": 78.26,
+     "end": 79.04
+    }
+   ],
+   "n": 20,
+   "start": 75.42,
+   "end": 79.04,
+   "pic": "bathroom"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the living room!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 81.2,
+     "end": 81.58
+    },
+    {
+     "t": "it",
+     "start": 81.58,
+     "end": 82.08
+    },
+    {
+     "t": "is",
+     "start": 82.08,
+     "end": 82.58
+    },
+    {
+     "t": "in",
+     "start": 82.6,
+     "end": 82.92
+    },
+    {
+     "t": "the",
+     "start": 82.9,
+     "end": 83.18
+    },
+    {
+     "t": "living",
+     "start": 83.18,
+     "end": 83.68
+    },
+    {
+     "t": "room!",
+     "start": 83.68,
+     "end": 84.52
+    }
+   ],
+   "n": 21,
+   "start": 81.2,
+   "end": 84.52,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Bridge",
+   "text": "There are two kitchens in this house!",
+   "words": [
+    {
+     "t": "There",
+     "start": 106.5,
+     "end": 106.7
+    },
+    {
+     "t": "are",
+     "start": 106.7,
+     "end": 107.04
+    },
+    {
+     "t": "two",
+     "start": 107.04,
+     "end": 107.32
+    },
+    {
+     "t": "kitchens",
+     "start": 107.32,
+     "end": 107.78
+    },
+    {
+     "t": "in",
+     "start": 107.78,
+     "end": 108.16
+    },
+    {
+     "t": "this",
+     "start": 108.16,
+     "end": 108.76
+    },
+    {
+     "t": "house!",
+     "start": 108.76,
+     "end": 109.26
+    }
+   ],
+   "n": 22,
+   "start": 106.5,
+   "end": 109.26,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Bridge",
+   "text": "Funny! Funny!",
+   "words": [
+    {
+     "t": "Funny!",
+     "start": 109.3,
+     "end": 109.8
+    },
+    {
+     "t": "Funny!",
+     "start": 109.85,
+     "end": 110.34
+    }
+   ],
+   "n": 23,
+   "start": 109.3,
+   "end": 110.34,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the kitchen! Maybe!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 114.9,
+     "end": 115.8
+    },
+    {
+     "t": "it",
+     "start": 115.8,
+     "end": 116.86
+    },
+    {
+     "t": "is",
+     "start": 116.86,
+     "end": 117.24
+    },
+    {
+     "t": "in",
+     "start": 117.24,
+     "end": 117.5
+    },
+    {
+     "t": "the",
+     "start": 117.5,
+     "end": 117.66
+    },
+    {
+     "t": "kitchen!",
+     "start": 117.66,
+     "end": 118.14,
+     "pic": "kitchen"
+    },
+    {
+     "t": "Maybe!",
+     "start": 118.14,
+     "end": 120.4
+    }
+   ],
+   "n": 24,
+   "start": 114.9,
+   "end": 120.4,
+   "pic": "maybeitisinthekitchen"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the bathroom! Maybe!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 120.37,
+     "end": 120.84
+    },
+    {
+     "t": "it",
+     "start": 120.86,
+     "end": 121.12
+    },
+    {
+     "t": "is",
+     "start": 121.14,
+     "end": 121.4
+    },
+    {
+     "t": "in",
+     "start": 121.42,
+     "end": 121.68
+    },
+    {
+     "t": "the",
+     "start": 121.7,
+     "end": 122.04
+    },
+    {
+     "t": "bathroom!",
+     "start": 122.06,
+     "end": 122.81,
+     "pic": "bathroom"
+    },
+    {
+     "t": "Maybe!",
+     "start": 122.83,
+     "end": 123.39
+    }
+   ],
+   "n": 25,
+   "start": 120.37,
+   "end": 123.39,
+   "pic": "bathroom"
+  },
+  {
+   "section": "Chorus",
+   "text": "I don't know, I don't know,",
+   "words": [
+    {
+     "t": "I",
+     "start": 123.82,
+     "end": 124.0
+    },
+    {
+     "t": "don't",
+     "start": 124.0,
+     "end": 124.42
+    },
+    {
+     "t": "know,",
+     "start": 124.42,
+     "end": 125.0
+    },
+    {
+     "t": "I",
+     "start": 125.48,
+     "end": 126.3
+    },
+    {
+     "t": "don't",
+     "start": 126.3,
+     "end": 126.68
+    },
+    {
+     "t": "know,",
+     "start": 126.74,
+     "end": 127.14
+    }
+   ],
+   "n": 26,
+   "start": 123.82,
+   "end": 127.14,
+   "pic": "bathroom"
+  },
+  {
+   "section": "Chorus",
+   "text": "Maybe it is in the living room!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 129.5,
+     "end": 129.98
+    },
+    {
+     "t": "it",
+     "start": 129.98,
+     "end": 130.5
+    },
+    {
+     "t": "is",
+     "start": 130.62,
+     "end": 131.04
+    },
+    {
+     "t": "in",
+     "start": 131.04,
+     "end": 131.34
+    },
+    {
+     "t": "the",
+     "start": 131.34,
+     "end": 131.62
+    },
+    {
+     "t": "living",
+     "start": 131.66,
+     "end": 132.2
+    },
+    {
+     "t": "room!",
+     "start": 132.2,
+     "end": 133.35
+    }
+   ],
+   "n": 27,
+   "start": 129.5,
+   "end": 133.35,
+   "pic": "livingroom"
+  },
+  {
+   "section": "Outro",
+   "text": "Maybe it is in the kitchen!",
+   "words": [
+    {
+     "t": "Maybe",
+     "start": 136.18,
+     "end": 136.56
+    },
+    {
+     "t": "it",
+     "start": 136.54,
+     "end": 137.0
+    },
+    {
+     "t": "is",
+     "start": 137.0,
+     "end": 137.4
+    },
+    {
+     "t": "in",
+     "start": 137.4,
+     "end": 137.66
+    },
+    {
+     "t": "the",
+     "start": 137.66,
+     "end": 137.9
+    },
+    {
+     "t": "kitchen!",
+     "start": 137.9,
+     "end": 138.36,
+     "pic": "kitchen"
+    }
+   ],
+   "n": 28,
+   "start": 136.18,
+   "end": 138.36,
+   "pic": "maybeitisinthekitchen"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "kitchen",
+   "prompt": "Where is my key?",
+   "answer": "Maybe it is in the kitchen!",
+   "choices": [
+    "Maybe it is in the kitchen!",
+    "Maybe it is in the garage!",
+    "Maybe it is in the attic!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 3,
+   "prompt": "Listen. Where is my bag?",
+   "answer": "bedroom",
+   "choices": [
+    "bedroom",
+    "bathroom",
+    "basement"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "garage",
+   "prompt": "Where is my jacket?",
+   "answer": "Maybe it is in the garage!",
+   "choices": [
+    "Maybe it is in the kitchen!",
+    "Maybe it is in the garage!",
+    "Maybe it is in the bedroom!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 11,
+   "prompt": "Listen. Maybe it is in the ...",
+   "answer": "livingroom",
+   "choices": [
+    "diningroom",
+    "livingroom",
+    "classroom"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "bathroom",
+   "prompt": "Where is it?",
+   "answer": "Maybe it is in the bathroom!",
+   "choices": [
+    "Maybe it is in the bathroom!",
+    "Maybe it is in the lounge!",
+    "Maybe it is in the kitchen!"
+   ]
+  }
+ ]
+}

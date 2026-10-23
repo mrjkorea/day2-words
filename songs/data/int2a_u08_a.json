@@ -1,0 +1,1175 @@
+{
+ "id": "int2a_u08_a",
+ "title": "What Do You Do After School?",
+ "book": "INT 2A",
+ "unit": 8,
+ "unitTitle": "What Do You Do After School?",
+ "packId": "int2a_u8",
+ "audio": "audio/int2a_u08_a.mp3",
+ "duration": 155.35,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "School is over!",
+   "words": [
+    {
+     "t": "School",
+     "start": 2.4,
+     "end": 3.08
+    },
+    {
+     "t": "is",
+     "start": 2.8,
+     "end": 3.68
+    },
+    {
+     "t": "over!",
+     "start": 3.7,
+     "end": 4.46
+    }
+   ],
+   "n": 1,
+   "start": 2.4,
+   "end": 4.46,
+   "pic": "bike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What do you do after school?",
+   "words": [
+    {
+     "t": "What",
+     "start": 5.3,
+     "end": 5.56
+    },
+    {
+     "t": "do",
+     "start": 12.08,
+     "end": 12.26
+    },
+    {
+     "t": "you",
+     "start": 12.26,
+     "end": 12.38
+    },
+    {
+     "t": "do",
+     "start": 12.38,
+     "end": 12.66
+    },
+    {
+     "t": "after",
+     "start": 12.66,
+     "end": 12.88
+    },
+    {
+     "t": "school?",
+     "start": 12.88,
+     "end": 13.36
+    }
+   ],
+   "n": 2,
+   "start": 5.3,
+   "end": 13.36,
+   "pic": "bike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I play computer games!",
+   "words": [
+    {
+     "t": "I",
+     "start": 14.43,
+     "end": 14.64
+    },
+    {
+     "t": "play",
+     "start": 14.64,
+     "end": 14.92
+    },
+    {
+     "t": "computer",
+     "start": 14.92,
+     "end": 15.68
+    },
+    {
+     "t": "games!",
+     "start": 15.68,
+     "end": 16.52
+    }
+   ],
+   "n": 3,
+   "start": 14.43,
+   "end": 16.52,
+   "pic": "bike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What do you do after school?",
+   "words": [
+    {
+     "t": "What",
+     "start": 16.8,
+     "end": 16.96
+    },
+    {
+     "t": "do",
+     "start": 16.92,
+     "end": 17.2
+    },
+    {
+     "t": "you",
+     "start": 17.22,
+     "end": 17.44
+    },
+    {
+     "t": "do",
+     "start": 17.44,
+     "end": 17.76
+    },
+    {
+     "t": "after",
+     "start": 17.76,
+     "end": 18.28
+    },
+    {
+     "t": "school?",
+     "start": 18.26,
+     "end": 18.84
+    }
+   ],
+   "n": 4,
+   "start": 16.8,
+   "end": 18.84,
+   "pic": "bike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I play soccer!",
+   "words": [
+    {
+     "t": "I",
+     "start": 21.08,
+     "end": 21.54
+    },
+    {
+     "t": "play",
+     "start": 21.52,
+     "end": 21.88
+    },
+    {
+     "t": "soccer!",
+     "start": 21.9,
+     "end": 22.48,
+     "pic": "soccer"
+    }
+   ],
+   "n": 5,
+   "start": 21.08,
+   "end": 22.48,
+   "pic": "iplaysoccer"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What do you do after school?",
+   "words": [
+    {
+     "t": "What",
+     "start": 23.58,
+     "end": 23.82
+    },
+    {
+     "t": "do",
+     "start": 23.84,
+     "end": 24.14
+    },
+    {
+     "t": "you",
+     "start": 24.16,
+     "end": 24.34
+    },
+    {
+     "t": "do",
+     "start": 24.34,
+     "end": 24.76
+    },
+    {
+     "t": "after",
+     "start": 24.78,
+     "end": 25.42
+    },
+    {
+     "t": "school?",
+     "start": 25.42,
+     "end": 25.98
+    }
+   ],
+   "n": 6,
+   "start": 23.58,
+   "end": 25.98,
+   "pic": "iplaysoccer"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I practice martial arts!",
+   "words": [
+    {
+     "t": "I",
+     "start": 26.52,
+     "end": 27.1
+    },
+    {
+     "t": "practice",
+     "start": 26.84,
+     "end": 27.24
+    },
+    {
+     "t": "martial",
+     "start": 27.24,
+     "end": 27.8
+    },
+    {
+     "t": "arts!",
+     "start": 27.8,
+     "end": 29.2
+    }
+   ],
+   "n": 7,
+   "start": 26.52,
+   "end": 29.2,
+   "pic": "martialarts"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you do after school? After school!",
+   "words": [
+    {
+     "t": "What",
+     "start": 30.54,
+     "end": 30.82
+    },
+    {
+     "t": "do",
+     "start": 30.8,
+     "end": 31.08
+    },
+    {
+     "t": "you",
+     "start": 31.1,
+     "end": 31.32
+    },
+    {
+     "t": "do",
+     "start": 31.32,
+     "end": 31.74
+    },
+    {
+     "t": "after",
+     "start": 31.74,
+     "end": 32.32
+    },
+    {
+     "t": "school?",
+     "start": 32.3,
+     "end": 32.98
+    },
+    {
+     "t": "After",
+     "start": 33.36,
+     "end": 33.62
+    },
+    {
+     "t": "school!",
+     "start": 33.62,
+     "end": 34.1
+    }
+   ],
+   "n": 8,
+   "start": 30.54,
+   "end": 34.1,
+   "pic": "martialarts"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you do after school? After school!",
+   "words": [
+    {
+     "t": "What",
+     "start": 35.18,
+     "end": 35.58
+    },
+    {
+     "t": "do",
+     "start": 35.6,
+     "end": 35.86
+    },
+    {
+     "t": "you",
+     "start": 35.88,
+     "end": 36.21
+    },
+    {
+     "t": "do",
+     "start": 36.23,
+     "end": 36.49
+    },
+    {
+     "t": "after",
+     "start": 36.51,
+     "end": 36.99
+    },
+    {
+     "t": "school?",
+     "start": 37.01,
+     "end": 37.62
+    },
+    {
+     "t": "After",
+     "start": 37.64,
+     "end": 38.11
+    },
+    {
+     "t": "school!",
+     "start": 38.13,
+     "end": 38.76
+    }
+   ],
+   "n": 9,
+   "start": 35.18,
+   "end": 38.76,
+   "pic": "martialarts"
+  },
+  {
+   "section": "Chorus",
+   "text": "I play piano! I go to English class!",
+   "words": [
+    {
+     "t": "I",
+     "start": 39.46,
+     "end": 39.82
+    },
+    {
+     "t": "play",
+     "start": 39.86,
+     "end": 40.3
+    },
+    {
+     "t": "piano!",
+     "start": 40.26,
+     "end": 41.12,
+     "pic": "piano"
+    },
+    {
+     "t": "I",
+     "start": 41.2,
+     "end": 41.54
+    },
+    {
+     "t": "go",
+     "start": 41.52,
+     "end": 41.7
+    },
+    {
+     "t": "to",
+     "start": 41.7,
+     "end": 41.9
+    },
+    {
+     "t": "English",
+     "start": 41.9,
+     "end": 42.7
+    },
+    {
+     "t": "class!",
+     "start": 42.7,
+     "end": 43.14
+    }
+   ],
+   "n": 10,
+   "start": 39.46,
+   "end": 43.14,
+   "pic": "piano"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is fun! It is fun!",
+   "words": [
+    {
+     "t": "It",
+     "start": 44.86,
+     "end": 45.02
+    },
+    {
+     "t": "is",
+     "start": 45.02,
+     "end": 45.2
+    },
+    {
+     "t": "fun!",
+     "start": 45.22,
+     "end": 45.64
+    },
+    {
+     "t": "It",
+     "start": 46.0,
+     "end": 46.2
+    },
+    {
+     "t": "is",
+     "start": 46.2,
+     "end": 46.44
+    },
+    {
+     "t": "fun!",
+     "start": 46.44,
+     "end": 46.86
+    }
+   ],
+   "n": 11,
+   "start": 44.86,
+   "end": 46.86,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you do after school?",
+   "words": [
+    {
+     "t": "What",
+     "start": 47.74,
+     "end": 48.15
+    },
+    {
+     "t": "do",
+     "start": 48.17,
+     "end": 48.44
+    },
+    {
+     "t": "you",
+     "start": 48.46,
+     "end": 48.8
+    },
+    {
+     "t": "do",
+     "start": 48.82,
+     "end": 49.09
+    },
+    {
+     "t": "after",
+     "start": 49.11,
+     "end": 49.59
+    },
+    {
+     "t": "school?",
+     "start": 49.61,
+     "end": 50.26
+    }
+   ],
+   "n": 12,
+   "start": 47.74,
+   "end": 50.26,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I go to English class!",
+   "words": [
+    {
+     "t": "I",
+     "start": 51.14,
+     "end": 51.6
+    },
+    {
+     "t": "go",
+     "start": 51.6,
+     "end": 51.9
+    },
+    {
+     "t": "to",
+     "start": 51.9,
+     "end": 52.28
+    },
+    {
+     "t": "English",
+     "start": 52.22,
+     "end": 52.76
+    },
+    {
+     "t": "class!",
+     "start": 52.72,
+     "end": 52.98
+    }
+   ],
+   "n": 13,
+   "start": 51.14,
+   "end": 52.98,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you do after school?",
+   "words": [
+    {
+     "t": "What",
+     "start": 53.52,
+     "end": 53.94
+    },
+    {
+     "t": "do",
+     "start": 53.9,
+     "end": 54.18
+    },
+    {
+     "t": "you",
+     "start": 54.2,
+     "end": 54.46
+    },
+    {
+     "t": "do",
+     "start": 54.46,
+     "end": 54.82
+    },
+    {
+     "t": "after",
+     "start": 54.82,
+     "end": 55.26
+    },
+    {
+     "t": "school?",
+     "start": 55.24,
+     "end": 55.74
+    }
+   ],
+   "n": 14,
+   "start": 53.52,
+   "end": 55.74,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I play piano!",
+   "words": [
+    {
+     "t": "I",
+     "start": 58.52,
+     "end": 58.72
+    },
+    {
+     "t": "play",
+     "start": 58.7,
+     "end": 58.98
+    },
+    {
+     "t": "piano!",
+     "start": 58.98,
+     "end": 59.62,
+     "pic": "piano"
+    }
+   ],
+   "n": 15,
+   "start": 58.52,
+   "end": 59.62,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you do after school?",
+   "words": [
+    {
+     "t": "What",
+     "start": 60.74,
+     "end": 61.0
+    },
+    {
+     "t": "do",
+     "start": 61.0,
+     "end": 61.36
+    },
+    {
+     "t": "you",
+     "start": 61.36,
+     "end": 61.58
+    },
+    {
+     "t": "do",
+     "start": 61.58,
+     "end": 62.02
+    },
+    {
+     "t": "after",
+     "start": 62.02,
+     "end": 62.56
+    },
+    {
+     "t": "school?",
+     "start": 62.56,
+     "end": 63.16
+    }
+   ],
+   "n": 16,
+   "start": 60.74,
+   "end": 63.16,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I take care of my little brother!",
+   "words": [
+    {
+     "t": "I",
+     "start": 63.22,
+     "end": 63.42
+    },
+    {
+     "t": "take",
+     "start": 63.4,
+     "end": 63.76
+    },
+    {
+     "t": "care",
+     "start": 63.74,
+     "end": 64.18
+    },
+    {
+     "t": "of",
+     "start": 64.18,
+     "end": 64.56
+    },
+    {
+     "t": "my",
+     "start": 64.56,
+     "end": 64.88
+    },
+    {
+     "t": "little",
+     "start": 64.88,
+     "end": 65.36
+    },
+    {
+     "t": "brother!",
+     "start": 65.36,
+     "end": 66.08
+    }
+   ],
+   "n": 17,
+   "start": 63.22,
+   "end": 66.08,
+   "pic": "littlebrother"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you do after school? After school!",
+   "words": [
+    {
+     "t": "What",
+     "start": 67.68,
+     "end": 68.58
+    },
+    {
+     "t": "do",
+     "start": 68.56,
+     "end": 68.9
+    },
+    {
+     "t": "you",
+     "start": 68.9,
+     "end": 69.16
+    },
+    {
+     "t": "do",
+     "start": 69.16,
+     "end": 69.6
+    },
+    {
+     "t": "after",
+     "start": 69.6,
+     "end": 70.2
+    },
+    {
+     "t": "school?",
+     "start": 70.2,
+     "end": 70.82
+    },
+    {
+     "t": "After",
+     "start": 71.28,
+     "end": 71.48
+    },
+    {
+     "t": "school!",
+     "start": 71.44,
+     "end": 71.92
+    }
+   ],
+   "n": 18,
+   "start": 67.68,
+   "end": 71.92,
+   "pic": "littlebrother"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you do after school? After school!",
+   "words": [
+    {
+     "t": "What",
+     "start": 72.99,
+     "end": 73.44
+    },
+    {
+     "t": "do",
+     "start": 73.46,
+     "end": 73.75
+    },
+    {
+     "t": "you",
+     "start": 73.77,
+     "end": 74.14
+    },
+    {
+     "t": "do",
+     "start": 74.16,
+     "end": 74.46
+    },
+    {
+     "t": "after",
+     "start": 74.48,
+     "end": 75.0
+    },
+    {
+     "t": "school?",
+     "start": 75.02,
+     "end": 75.71
+    },
+    {
+     "t": "After",
+     "start": 75.73,
+     "end": 76.26
+    },
+    {
+     "t": "school!",
+     "start": 76.28,
+     "end": 76.98
+    }
+   ],
+   "n": 19,
+   "start": 72.99,
+   "end": 76.98,
+   "pic": "littlebrother"
+  },
+  {
+   "section": "Chorus",
+   "text": "I play piano! I go to English class!",
+   "words": [
+    {
+     "t": "I",
+     "start": 77.36,
+     "end": 77.72
+    },
+    {
+     "t": "play",
+     "start": 77.73,
+     "end": 78.16
+    },
+    {
+     "t": "piano!",
+     "start": 78.18,
+     "end": 79.06,
+     "pic": "piano"
+    },
+    {
+     "t": "I",
+     "start": 79.36,
+     "end": 79.48
+    },
+    {
+     "t": "go",
+     "start": 79.48,
+     "end": 79.62
+    },
+    {
+     "t": "to",
+     "start": 79.62,
+     "end": 79.82
+    },
+    {
+     "t": "English",
+     "start": 79.82,
+     "end": 80.46
+    },
+    {
+     "t": "class!",
+     "start": 80.46,
+     "end": 81.01
+    }
+   ],
+   "n": 20,
+   "start": 77.36,
+   "end": 81.01,
+   "pic": "piano"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is fun! It is fun!",
+   "words": [
+    {
+     "t": "It",
+     "start": 82.64,
+     "end": 83.02
+    },
+    {
+     "t": "is",
+     "start": 82.98,
+     "end": 83.2
+    },
+    {
+     "t": "fun!",
+     "start": 83.22,
+     "end": 83.6
+    },
+    {
+     "t": "It",
+     "start": 83.8,
+     "end": 84.14
+    },
+    {
+     "t": "is",
+     "start": 84.14,
+     "end": 84.46
+    },
+    {
+     "t": "fun!",
+     "start": 84.46,
+     "end": 84.82
+    }
+   ],
+   "n": 21,
+   "start": 82.64,
+   "end": 84.82,
+   "pic": "piano"
+  },
+  {
+   "section": "Bridge",
+   "text": "And you? I just relax!",
+   "words": [
+    {
+     "t": "And",
+     "start": 110.48,
+     "end": 110.7
+    },
+    {
+     "t": "you?",
+     "start": 110.7,
+     "end": 111.24
+    },
+    {
+     "t": "I",
+     "start": 111.24,
+     "end": 112.22
+    },
+    {
+     "t": "just",
+     "start": 112.22,
+     "end": 112.62
+    },
+    {
+     "t": "relax!",
+     "start": 112.62,
+     "end": 113.97,
+     "pic": "relax"
+    }
+   ],
+   "n": 22,
+   "start": 110.48,
+   "end": 113.97,
+   "pic": "relax"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you do after school? After school!",
+   "words": [
+    {
+     "t": "What",
+     "start": 115.76,
+     "end": 115.94
+    },
+    {
+     "t": "do",
+     "start": 115.94,
+     "end": 116.18
+    },
+    {
+     "t": "you",
+     "start": 116.18,
+     "end": 116.42
+    },
+    {
+     "t": "do",
+     "start": 116.42,
+     "end": 116.84
+    },
+    {
+     "t": "after",
+     "start": 116.82,
+     "end": 117.44
+    },
+    {
+     "t": "school?",
+     "start": 117.42,
+     "end": 118.12
+    },
+    {
+     "t": "After",
+     "start": 118.52,
+     "end": 118.66
+    },
+    {
+     "t": "school!",
+     "start": 118.66,
+     "end": 119.34
+    }
+   ],
+   "n": 23,
+   "start": 115.76,
+   "end": 119.34,
+   "pic": "relax"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you do after school? After school!",
+   "words": [
+    {
+     "t": "What",
+     "start": 120.2,
+     "end": 120.5
+    },
+    {
+     "t": "do",
+     "start": 120.44,
+     "end": 120.8
+    },
+    {
+     "t": "you",
+     "start": 120.8,
+     "end": 121.04
+    },
+    {
+     "t": "do",
+     "start": 121.04,
+     "end": 121.5
+    },
+    {
+     "t": "after",
+     "start": 121.48,
+     "end": 122.12
+    },
+    {
+     "t": "school?",
+     "start": 122.1,
+     "end": 122.74
+    },
+    {
+     "t": "After",
+     "start": 122.96,
+     "end": 123.3
+    },
+    {
+     "t": "school!",
+     "start": 123.3,
+     "end": 124.06
+    }
+   ],
+   "n": 24,
+   "start": 120.2,
+   "end": 124.06,
+   "pic": "relax"
+  },
+  {
+   "section": "Chorus",
+   "text": "I play piano! I go to English class!",
+   "words": [
+    {
+     "t": "I",
+     "start": 124.48,
+     "end": 124.92
+    },
+    {
+     "t": "play",
+     "start": 124.92,
+     "end": 125.36
+    },
+    {
+     "t": "piano!",
+     "start": 125.36,
+     "end": 126.22,
+     "pic": "piano"
+    },
+    {
+     "t": "I",
+     "start": 126.22,
+     "end": 126.6
+    },
+    {
+     "t": "go",
+     "start": 126.62,
+     "end": 126.78
+    },
+    {
+     "t": "to",
+     "start": 126.8,
+     "end": 127.0
+    },
+    {
+     "t": "English",
+     "start": 127.0,
+     "end": 127.76
+    },
+    {
+     "t": "class!",
+     "start": 127.72,
+     "end": 128.82
+    }
+   ],
+   "n": 25,
+   "start": 124.48,
+   "end": 128.82,
+   "pic": "piano"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is fun! It is fun!",
+   "words": [
+    {
+     "t": "It",
+     "start": 129.95,
+     "end": 130.1
+    },
+    {
+     "t": "is",
+     "start": 130.1,
+     "end": 130.3
+    },
+    {
+     "t": "fun!",
+     "start": 130.34,
+     "end": 130.76
+    },
+    {
+     "t": "It",
+     "start": 131.12,
+     "end": 131.26
+    },
+    {
+     "t": "is",
+     "start": 131.28,
+     "end": 131.5
+    },
+    {
+     "t": "fun!",
+     "start": 131.5,
+     "end": 132.02
+    }
+   ],
+   "n": 26,
+   "start": 129.95,
+   "end": 132.02,
+   "pic": "piano"
+  },
+  {
+   "section": "Outro",
+   "text": "What do you do after school?",
+   "words": [
+    {
+     "t": "What",
+     "start": 138.75,
+     "end": 138.94
+    },
+    {
+     "t": "do",
+     "start": 138.94,
+     "end": 139.3
+    },
+    {
+     "t": "you",
+     "start": 139.3,
+     "end": 139.56
+    },
+    {
+     "t": "do",
+     "start": 139.56,
+     "end": 140.08
+    },
+    {
+     "t": "after",
+     "start": 140.0,
+     "end": 140.62
+    },
+    {
+     "t": "school?",
+     "start": 140.6,
+     "end": 141.36
+    }
+   ],
+   "n": 27,
+   "start": 138.75,
+   "end": 141.36,
+   "pic": "piano"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "soccer",
+   "prompt": "What do you do after school?",
+   "answer": "I play soccer!",
+   "choices": [
+    "I play soccer!",
+    "I play piano!",
+    "I just relax!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 7,
+   "prompt": "Listen. What do you do after school?",
+   "answer": "martialarts",
+   "choices": [
+    "martialarts",
+    "piano",
+    "sing"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "piano",
+   "prompt": "What do you do after school?",
+   "answer": "I play piano!",
+   "choices": [
+    "I play soccer!",
+    "I play piano!",
+    "I practice martial arts!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 17,
+   "prompt": "Listen. Who do you take care of?",
+   "answer": "littlebrother",
+   "choices": [
+    "littlebrother",
+    "bike",
+    "relax"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "relax",
+   "prompt": "And you?",
+   "answer": "I just relax!",
+   "choices": [
+    "I just relax!",
+    "I play soccer!",
+    "It is fun!"
+   ]
+  }
+ ]
+}

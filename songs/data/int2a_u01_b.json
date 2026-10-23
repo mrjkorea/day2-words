@@ -1,0 +1,1013 @@
+{
+ "id": "int2a_u01_b",
+ "title": "It Is Rainy Today",
+ "book": "INT 2A",
+ "unit": 1,
+ "unitTitle": "How is the Weather?",
+ "packId": "int2a_u1",
+ "audio": "audio/int2a_u01_b.mp3",
+ "duration": 156.7,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Look outside!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 1.54,
+     "end": 1.78
+    },
+    {
+     "t": "outside!",
+     "start": 1.78,
+     "end": 2.56
+    }
+   ],
+   "n": 1,
+   "start": 1.54,
+   "end": 2.56,
+   "pic": "cold"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is rainy today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 6.48,
+     "end": 8.18
+    },
+    {
+     "t": "is",
+     "start": 10.02,
+     "end": 10.74
+    },
+    {
+     "t": "rainy",
+     "start": 10.72,
+     "end": 11.3,
+     "pic": "rainy"
+    },
+    {
+     "t": "today!",
+     "start": 11.3,
+     "end": 12.7
+    }
+   ],
+   "n": 2,
+   "start": 6.48,
+   "end": 12.7,
+   "pic": "rainy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Rainy? Take an umbrella!",
+   "words": [
+    {
+     "t": "Rainy?",
+     "start": 14.62,
+     "end": 15.46,
+     "pic": "rainy"
+    },
+    {
+     "t": "Take",
+     "start": 15.97,
+     "end": 16.2
+    },
+    {
+     "t": "an",
+     "start": 16.24,
+     "end": 16.64
+    },
+    {
+     "t": "umbrella!",
+     "start": 16.64,
+     "end": 17.26
+    }
+   ],
+   "n": 3,
+   "start": 14.62,
+   "end": 17.26,
+   "pic": "rainy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is windy today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 19.36,
+     "end": 19.6
+    },
+    {
+     "t": "is",
+     "start": 19.62,
+     "end": 20.36
+    },
+    {
+     "t": "windy",
+     "start": 20.36,
+     "end": 21.24,
+     "pic": "windy"
+    },
+    {
+     "t": "today!",
+     "start": 21.24,
+     "end": 22.18
+    }
+   ],
+   "n": 4,
+   "start": 19.36,
+   "end": 22.18,
+   "pic": "windy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Windy? Hold your hat!",
+   "words": [
+    {
+     "t": "Windy?",
+     "start": 24.02,
+     "end": 25.28,
+     "pic": "windy"
+    },
+    {
+     "t": "Hold",
+     "start": 25.88,
+     "end": 26.14
+    },
+    {
+     "t": "your",
+     "start": 26.12,
+     "end": 26.42
+    },
+    {
+     "t": "hat!",
+     "start": 26.42,
+     "end": 27.02
+    }
+   ],
+   "n": 5,
+   "start": 24.02,
+   "end": 27.02,
+   "pic": "windy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is humid today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 28.88,
+     "end": 29.26
+    },
+    {
+     "t": "is",
+     "start": 29.24,
+     "end": 29.94
+    },
+    {
+     "t": "humid",
+     "start": 29.94,
+     "end": 30.66,
+     "pic": "humid"
+    },
+    {
+     "t": "today!",
+     "start": 30.66,
+     "end": 32.02
+    }
+   ],
+   "n": 6,
+   "start": 28.88,
+   "end": 32.02,
+   "pic": "humid"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Humid? It is so hot!",
+   "words": [
+    {
+     "t": "Humid?",
+     "start": 34.05,
+     "end": 34.8,
+     "pic": "humid"
+    },
+    {
+     "t": "It",
+     "start": 35.2,
+     "end": 35.46
+    },
+    {
+     "t": "is",
+     "start": 35.5,
+     "end": 35.78
+    },
+    {
+     "t": "so",
+     "start": 35.78,
+     "end": 36.06
+    },
+    {
+     "t": "hot!",
+     "start": 36.06,
+     "end": 36.84,
+     "pic": "hot"
+    }
+   ],
+   "n": 7,
+   "start": 34.05,
+   "end": 36.84,
+   "pic": "humid"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is rainy today! Rainy!",
+   "words": [
+    {
+     "t": "It",
+     "start": 38.8,
+     "end": 39.12
+    },
+    {
+     "t": "is",
+     "start": 39.14,
+     "end": 39.62
+    },
+    {
+     "t": "rainy",
+     "start": 39.68,
+     "end": 40.26,
+     "pic": "rainy"
+    },
+    {
+     "t": "today!",
+     "start": 40.26,
+     "end": 41.08
+    },
+    {
+     "t": "Rainy!",
+     "start": 42.17,
+     "end": 43.45,
+     "pic": "rainy"
+    }
+   ],
+   "n": 8,
+   "start": 38.8,
+   "end": 43.45,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is cloudy today! Cloudy!",
+   "words": [
+    {
+     "t": "It",
+     "start": 43.6,
+     "end": 43.8
+    },
+    {
+     "t": "is",
+     "start": 43.8,
+     "end": 44.36
+    },
+    {
+     "t": "cloudy",
+     "start": 44.36,
+     "end": 45.06
+    },
+    {
+     "t": "today!",
+     "start": 45.06,
+     "end": 46.14
+    },
+    {
+     "t": "Cloudy!",
+     "start": 46.67,
+     "end": 46.98
+    }
+   ],
+   "n": 9,
+   "start": 43.6,
+   "end": 46.98,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is the weather? How is the weather?",
+   "words": [
+    {
+     "t": "How",
+     "start": 48.34,
+     "end": 48.64
+    },
+    {
+     "t": "is",
+     "start": 48.64,
+     "end": 48.92
+    },
+    {
+     "t": "the",
+     "start": 48.94,
+     "end": 49.34
+    },
+    {
+     "t": "weather?",
+     "start": 49.3,
+     "end": 49.9
+    },
+    {
+     "t": "How",
+     "start": 50.84,
+     "end": 51.12
+    },
+    {
+     "t": "is",
+     "start": 51.12,
+     "end": 51.38
+    },
+    {
+     "t": "the",
+     "start": 51.38,
+     "end": 51.76
+    },
+    {
+     "t": "weather?",
+     "start": 51.76,
+     "end": 52.4
+    }
+   ],
+   "n": 10,
+   "start": 48.34,
+   "end": 52.4,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is rainy today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 54.0,
+     "end": 54.88
+    },
+    {
+     "t": "is",
+     "start": 54.88,
+     "end": 55.24
+    },
+    {
+     "t": "rainy",
+     "start": 55.24,
+     "end": 56.0,
+     "pic": "rainy"
+    },
+    {
+     "t": "today!",
+     "start": 56.0,
+     "end": 57.82
+    }
+   ],
+   "n": 11,
+   "start": 54.0,
+   "end": 57.82,
+   "pic": "rainy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is snowy today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 57.0,
+     "end": 57.42
+    },
+    {
+     "t": "is",
+     "start": 57.47,
+     "end": 57.89
+    },
+    {
+     "t": "snowy",
+     "start": 57.94,
+     "end": 58.68
+    },
+    {
+     "t": "today!",
+     "start": 58.76,
+     "end": 59.61
+    }
+   ],
+   "n": 12,
+   "start": 57.0,
+   "end": 59.61,
+   "pic": "rainy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Snowy? Let's play!",
+   "words": [
+    {
+     "t": "Snowy?",
+     "start": 61.8,
+     "end": 63.42
+    },
+    {
+     "t": "Let's",
+     "start": 63.62,
+     "end": 64.9
+    },
+    {
+     "t": "play!",
+     "start": 64.86,
+     "end": 65.52
+    }
+   ],
+   "n": 13,
+   "start": 61.8,
+   "end": 65.52,
+   "pic": "rainy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is sunny today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 67.3,
+     "end": 67.68
+    },
+    {
+     "t": "is",
+     "start": 67.66,
+     "end": 68.28
+    },
+    {
+     "t": "sunny",
+     "start": 68.28,
+     "end": 68.92,
+     "pic": "sunny"
+    },
+    {
+     "t": "today!",
+     "start": 68.92,
+     "end": 70.04
+    }
+   ],
+   "n": 14,
+   "start": 67.3,
+   "end": 70.04,
+   "pic": "itissunny"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sunny? Let's go out!",
+   "words": [
+    {
+     "t": "Sunny?",
+     "start": 72.08,
+     "end": 72.8,
+     "pic": "sunny"
+    },
+    {
+     "t": "Let's",
+     "start": 73.76,
+     "end": 74.2
+    },
+    {
+     "t": "go",
+     "start": 74.18,
+     "end": 74.5
+    },
+    {
+     "t": "out!",
+     "start": 74.5,
+     "end": 75.35
+    }
+   ],
+   "n": 15,
+   "start": 72.08,
+   "end": 75.35,
+   "pic": "sunny"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is nice today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 76.86,
+     "end": 77.24
+    },
+    {
+     "t": "is",
+     "start": 77.24,
+     "end": 77.92
+    },
+    {
+     "t": "nice",
+     "start": 77.92,
+     "end": 78.66
+    },
+    {
+     "t": "today!",
+     "start": 78.8,
+     "end": 79.68
+    }
+   ],
+   "n": 16,
+   "start": 76.86,
+   "end": 79.68,
+   "pic": "sunny"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Nice? I like it!",
+   "words": [
+    {
+     "t": "Nice?",
+     "start": 81.0,
+     "end": 81.1
+    },
+    {
+     "t": "I",
+     "start": 83.48,
+     "end": 83.88
+    },
+    {
+     "t": "like",
+     "start": 83.88,
+     "end": 85.02
+    },
+    {
+     "t": "it!",
+     "start": 84.6,
+     "end": 86.42
+    }
+   ],
+   "n": 17,
+   "start": 81.0,
+   "end": 86.42,
+   "pic": "sunny"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is rainy today! Rainy!",
+   "words": [
+    {
+     "t": "It",
+     "start": 86.86,
+     "end": 87.08
+    },
+    {
+     "t": "is",
+     "start": 87.07,
+     "end": 87.6
+    },
+    {
+     "t": "rainy",
+     "start": 87.6,
+     "end": 88.08,
+     "pic": "rainy"
+    },
+    {
+     "t": "today!",
+     "start": 88.18,
+     "end": 89.24
+    },
+    {
+     "t": "Rainy!",
+     "start": 89.29,
+     "end": 89.71,
+     "pic": "rainy"
+    }
+   ],
+   "n": 18,
+   "start": 86.86,
+   "end": 89.71,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is cloudy today! Cloudy!",
+   "words": [
+    {
+     "t": "It",
+     "start": 90.1,
+     "end": 90.64
+    },
+    {
+     "t": "is",
+     "start": 91.78,
+     "end": 92.36
+    },
+    {
+     "t": "cloudy",
+     "start": 92.34,
+     "end": 93.02
+    },
+    {
+     "t": "today!",
+     "start": 93.0,
+     "end": 94.02
+    },
+    {
+     "t": "Cloudy!",
+     "start": 95.25,
+     "end": 96.15
+    }
+   ],
+   "n": 19,
+   "start": 90.1,
+   "end": 96.15,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is the weather? How is the weather?",
+   "words": [
+    {
+     "t": "How",
+     "start": 96.4,
+     "end": 96.66
+    },
+    {
+     "t": "is",
+     "start": 96.64,
+     "end": 96.96
+    },
+    {
+     "t": "the",
+     "start": 96.94,
+     "end": 97.24
+    },
+    {
+     "t": "weather?",
+     "start": 97.24,
+     "end": 97.92
+    },
+    {
+     "t": "How",
+     "start": 98.82,
+     "end": 99.08
+    },
+    {
+     "t": "is",
+     "start": 99.26,
+     "end": 99.36
+    },
+    {
+     "t": "the",
+     "start": 99.36,
+     "end": 99.68
+    },
+    {
+     "t": "weather?",
+     "start": 99.68,
+     "end": 100.42
+    }
+   ],
+   "n": 20,
+   "start": 96.4,
+   "end": 100.42,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is rainy today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 102.62,
+     "end": 102.86
+    },
+    {
+     "t": "is",
+     "start": 102.86,
+     "end": 103.2
+    },
+    {
+     "t": "rainy",
+     "start": 103.22,
+     "end": 103.96,
+     "pic": "rainy"
+    },
+    {
+     "t": "today!",
+     "start": 103.96,
+     "end": 104.98
+    }
+   ],
+   "n": 21,
+   "start": 102.62,
+   "end": 104.98,
+   "pic": "rainy"
+  },
+  {
+   "section": "Bridge",
+   "text": "How is the weather in Sokcho?",
+   "words": [
+    {
+     "t": "How",
+     "start": 106.0,
+     "end": 106.48
+    },
+    {
+     "t": "is",
+     "start": 106.48,
+     "end": 106.62
+    },
+    {
+     "t": "the",
+     "start": 106.62,
+     "end": 106.94
+    },
+    {
+     "t": "weather",
+     "start": 106.94,
+     "end": 107.5
+    },
+    {
+     "t": "in",
+     "start": 107.5,
+     "end": 108.22
+    },
+    {
+     "t": "Sokcho?",
+     "start": 108.27,
+     "end": 108.69
+    }
+   ],
+   "n": 22,
+   "start": 106.0,
+   "end": 108.69,
+   "pic": "rainy"
+  },
+  {
+   "section": "Bridge",
+   "text": "It is snowy!",
+   "words": [
+    {
+     "t": "It",
+     "start": 114.62,
+     "end": 114.86
+    },
+    {
+     "t": "is",
+     "start": 114.86,
+     "end": 115.2
+    },
+    {
+     "t": "snowy!",
+     "start": 115.18,
+     "end": 115.88
+    }
+   ],
+   "n": 23,
+   "start": 114.62,
+   "end": 115.88,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is rainy today! Rainy!",
+   "words": [
+    {
+     "t": "It",
+     "start": 118.02,
+     "end": 118.28
+    },
+    {
+     "t": "is",
+     "start": 118.28,
+     "end": 118.8
+    },
+    {
+     "t": "rainy",
+     "start": 118.8,
+     "end": 119.46,
+     "pic": "rainy"
+    },
+    {
+     "t": "today!",
+     "start": 119.46,
+     "end": 120.16
+    },
+    {
+     "t": "Rainy!",
+     "start": 121.28,
+     "end": 122.52,
+     "pic": "rainy"
+    }
+   ],
+   "n": 24,
+   "start": 118.02,
+   "end": 122.52,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is cloudy today! Cloudy!",
+   "words": [
+    {
+     "t": "It",
+     "start": 122.82,
+     "end": 123.08
+    },
+    {
+     "t": "is",
+     "start": 123.04,
+     "end": 123.54
+    },
+    {
+     "t": "cloudy",
+     "start": 123.56,
+     "end": 124.0
+    },
+    {
+     "t": "today!",
+     "start": 124.22,
+     "end": 125.34
+    },
+    {
+     "t": "Cloudy!",
+     "start": 126.12,
+     "end": 127.08
+    }
+   ],
+   "n": 25,
+   "start": 122.82,
+   "end": 127.08,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is the weather? How is the weather?",
+   "words": [
+    {
+     "t": "How",
+     "start": 126.42,
+     "end": 127.82
+    },
+    {
+     "t": "is",
+     "start": 127.82,
+     "end": 128.18
+    },
+    {
+     "t": "the",
+     "start": 128.18,
+     "end": 128.52
+    },
+    {
+     "t": "weather?",
+     "start": 128.52,
+     "end": 129.08
+    },
+    {
+     "t": "How",
+     "start": 129.98,
+     "end": 130.24
+    },
+    {
+     "t": "is",
+     "start": 130.28,
+     "end": 130.56
+    },
+    {
+     "t": "the",
+     "start": 130.56,
+     "end": 130.84
+    },
+    {
+     "t": "weather?",
+     "start": 130.84,
+     "end": 131.42
+    }
+   ],
+   "n": 26,
+   "start": 126.42,
+   "end": 131.42,
+   "pic": "rainy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is rainy today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 132.0,
+     "end": 134.08
+    },
+    {
+     "t": "is",
+     "start": 134.08,
+     "end": 134.44
+    },
+    {
+     "t": "rainy",
+     "start": 134.46,
+     "end": 135.18,
+     "pic": "rainy"
+    },
+    {
+     "t": "today!",
+     "start": 135.18,
+     "end": 136.86
+    }
+   ],
+   "n": 27,
+   "start": 132.0,
+   "end": 136.86,
+   "pic": "rainy"
+  },
+  {
+   "section": "Outro",
+   "text": "It is rainy today!",
+   "words": [
+    {
+     "t": "It",
+     "start": 136.86,
+     "end": 141.2
+    },
+    {
+     "t": "is",
+     "start": 141.26,
+     "end": 141.64
+    },
+    {
+     "t": "rainy",
+     "start": 141.64,
+     "end": 142.46,
+     "pic": "rainy"
+    },
+    {
+     "t": "today!",
+     "start": 142.42,
+     "end": 143.5
+    }
+   ],
+   "n": 28,
+   "start": 136.86,
+   "end": 143.5,
+   "pic": "rainy"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "rainy",
+   "prompt": "How is the weather?",
+   "answer": "It is rainy today!",
+   "choices": [
+    "It is rainy today!",
+    "It is sunny today!",
+    "It is windy today!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. How is the weather?",
+   "answer": "windy",
+   "choices": [
+    "windy",
+    "rainy",
+    "snowing"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sunny",
+   "prompt": "How is the weather?",
+   "answer": "It is sunny today!",
+   "choices": [
+    "It is humid today!",
+    "It is sunny today!",
+    "It is cold today!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 6,
+   "prompt": "Listen. How is the weather?",
+   "answer": "humid",
+   "choices": [
+    "hot",
+    "humid",
+    "foggy"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "rainy",
+   "prompt": "It is rainy. What do you say?",
+   "answer": "Take an umbrella!",
+   "choices": [
+    "Take an umbrella!",
+    "Hold your hat!",
+    "Let's go out!"
+   ]
+  }
+ ]
+}
