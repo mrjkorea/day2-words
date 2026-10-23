@@ -1,0 +1,723 @@
+{
+ "id": "int3b_mid1",
+ "kind": "review",
+ "title": "INT 3B · Review Units 1-4",
+ "passPercent": 80,
+ "units": [
+  "int3b_u1",
+  "int3b_u2",
+  "int3b_u3",
+  "int3b_u4"
+ ],
+ "wordAudio": "../packs/int3b_u1/audio/us_f/",
+ "picDir": "../packs/int3b_u1/",
+ "lineAudio": "audio/int3b_u1/",
+ "questions": [
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "teacher",
+   "answer": "teacher",
+   "choices": [
+    "teacher",
+    "toacher",
+    "teached",
+    "teacer"
+   ],
+   "unit": "int3b_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "drum",
+   "audio": "audio/int3b_u2/{v}/itisadrum.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "drum."
+   ],
+   "unit": "int3b_u2"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fourth",
+   "choices": [
+    "fourth",
+    "second",
+    "fifth",
+    "first"
+   ],
+   "unit": "int3b_u1"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "less",
+   "audio": "audio/int3b_u3/{v}/lessplease.mp3",
+   "answer": [
+    "Less",
+    "please."
+   ],
+   "unit": "int3b_u3"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int3b_u2",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/int3b_u2/{v}/whatisthis.mp3"
+   },
+   "pic": "../packs/int3b_u2/gayageum.jpg",
+   "choices": [
+    "It is a gayageum.",
+    "It is a piano."
+   ],
+   "answer": "It is a gayageum.",
+   "aud": {
+    "It is a gayageum.": "audio/int3b_u2/ai/itisagayageum.mp3",
+    "It is a piano.": "audio/int3b_u2/ai/itisapiano.mp3"
+   }
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3",
+   "sentence": [
+    "___",
+    "help",
+    "me."
+   ],
+   "answer": "Please",
+   "choices": [
+    "Please",
+    "Warmer",
+    "Less"
+   ],
+   "unit": "int3b_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "uncle",
+   "audio": "audio/int3b_u4/{v}/heismyuncle.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "uncle",
+   "choices": [
+    "uncle",
+    "grandfather",
+    "aunt"
+   ],
+   "unit": "int3b_u4"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "flute",
+   "answer": "flute",
+   "choices": [
+    "flute",
+    "klute",
+    "flte",
+    "fute"
+   ],
+   "unit": "int3b_u2"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int3b_u1",
+   "q": {
+    "text": "What grade are you in?",
+    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+   },
+   "pic": "../packs/int3b_u1/seventh.jpg",
+   "choices": [
+    "I am in third grade.",
+    "I am in seventh grade."
+   ],
+   "answer": "I am in seventh grade.",
+   "aud": {
+    "I am in third grade.": "audio/int3b_u1/ai/iaminthirdgrade.mp3",
+    "I am in seventh grade.": "audio/int3b_u1/ai/iaminseventhgrade.mp3"
+   }
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int3b_u3",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "pic": "../packs/int3b_u3/higher.jpg",
+   "choices": [
+    "Quieter please.",
+    "Higher please."
+   ],
+   "answer": "Higher please.",
+   "aud": {
+    "Quieter please.": "audio/int3b_u3/ai/quieterplease.mp3",
+    "Higher please.": "audio/int3b_u3/ai/higherplease.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "mom",
+   "audio": "audio/int3b_u4/{v}/sheismymom.mp3",
+   "answer": [
+    "She",
+    "is",
+    "my",
+    "mom."
+   ],
+   "unit": "int3b_u4"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "eighth",
+   "audio": "audio/int3b_u1/{v}/iamineighthgrade.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "in",
+    "___",
+    "grade."
+   ],
+   "answer": "eighth",
+   "choices": [
+    "eighth",
+    "seventh",
+    "kindergarten"
+   ],
+   "unit": "int3b_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "less",
+   "choices": [
+    "less",
+    "cooler",
+    "quieter",
+    "warmer"
+   ],
+   "unit": "int3b_u3"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "second",
+   "answer": "second",
+   "choices": [
+    "second",
+    "semond",
+    "seond",
+    "scond"
+   ],
+   "unit": "int3b_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "violin",
+   "choices": [
+    "violin",
+    "guitar",
+    "microwave",
+    "drum"
+   ],
+   "unit": "int3b_u2"
+  }
+ ],
+ "words": [
+  {
+   "id": "grade",
+   "en": "grade",
+   "ko": "학년",
+   "pic": null,
+   "audio": "../packs/int3b_u1/audio/{v}/grade.mp3",
+   "stext": "What grade are you in?",
+   "sentence": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+  },
+  {
+   "id": "kindergarten",
+   "en": "kindergarten",
+   "ko": "유치원",
+   "pic": "../packs/int3b_u1/kindergarten.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/kindergarten.mp3",
+   "stext": "I am in kindergarten.",
+   "sentence": "audio/int3b_u1/{v}/iaminkindergarten.mp3"
+  },
+  {
+   "id": "first",
+   "en": "first",
+   "ko": "첫째, 1",
+   "pic": "../packs/int3b_u1/first.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/first.mp3",
+   "stext": "I am in first grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminfirstgrade.mp3"
+  },
+  {
+   "id": "second",
+   "en": "second",
+   "ko": "둘째, 2",
+   "pic": "../packs/int3b_u1/second.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/second.mp3",
+   "stext": "I am in second grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminsecondgrade.mp3"
+  },
+  {
+   "id": "third",
+   "en": "third",
+   "ko": "셋째, 3",
+   "pic": "../packs/int3b_u1/third.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/third.mp3",
+   "stext": "I am in third grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminthirdgrade.mp3"
+  },
+  {
+   "id": "fourth",
+   "en": "fourth",
+   "ko": "넷째, 4",
+   "pic": "../packs/int3b_u1/fourth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/fourth.mp3",
+   "stext": "I am in fourth grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminfourthgrade.mp3"
+  },
+  {
+   "id": "fifth",
+   "en": "fifth",
+   "ko": "다섯째, 5",
+   "pic": "../packs/int3b_u1/fifth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/fifth.mp3",
+   "stext": "I am in fifth grade.",
+   "sentence": "../packs/int3b_u1/audio/{v}/iaminfifthgrade.mp3"
+  },
+  {
+   "id": "sixth",
+   "en": "sixth",
+   "ko": "여섯째, 6",
+   "pic": "../packs/int3b_u1/sixth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/sixth.mp3",
+   "stext": "I am in sixth grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminsixthgrade.mp3"
+  },
+  {
+   "id": "seventh",
+   "en": "seventh",
+   "ko": "일곱째, 7",
+   "pic": "../packs/int3b_u1/seventh.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/seventh.mp3",
+   "stext": "I am in seventh grade.",
+   "sentence": "audio/int3b_u1/{v}/iaminseventhgrade.mp3"
+  },
+  {
+   "id": "eighth",
+   "en": "eighth",
+   "ko": "여덟째, 8",
+   "pic": "../packs/int3b_u1/eighth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/eighth.mp3",
+   "stext": "I am in eighth grade.",
+   "sentence": "audio/int3b_u1/{v}/iamineighthgrade.mp3"
+  },
+  {
+   "id": "me",
+   "en": "me",
+   "ko": "나",
+   "pic": "../packs/int3b_u4/me.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/me.mp3"
+  },
+  {
+   "id": "tall",
+   "en": "tall",
+   "ko": "키가 큰",
+   "pic": "../packs/int3b_u8/tall.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/tall.mp3"
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "pic": "../packs/int3b_u4/brother.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/brother.mp3"
+  },
+  {
+   "id": "teach",
+   "en": "teach",
+   "ko": "가르치다",
+   "pic": "../packs/int3b_u8/teach.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/teach.mp3"
+  },
+  {
+   "id": "lychee",
+   "en": "lychee",
+   "ko": "리치",
+   "pic": "../packs/int3b_u6/lychee.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lychee.mp3"
+  },
+  {
+   "id": "flute",
+   "en": "flute",
+   "ko": "플루트",
+   "pic": "../packs/int3b_u2/flute.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/flute.mp3"
+  },
+  {
+   "id": "guitar",
+   "en": "guitar",
+   "ko": "기타",
+   "pic": "../packs/int3b_u2/guitar.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/guitar.mp3",
+   "stext": "It is a guitar.",
+   "sentence": "audio/int3b_u2/{v}/itisaguitar.mp3"
+  },
+  {
+   "id": "piano",
+   "en": "piano",
+   "ko": "피아노",
+   "pic": "../packs/int3b_u2/piano.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/piano.mp3",
+   "stext": "It is a piano.",
+   "sentence": "audio/int3b_u2/{v}/itisapiano.mp3"
+  },
+  {
+   "id": "drum",
+   "en": "drum",
+   "ko": "드럼",
+   "pic": "../packs/int3b_u2/drum.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/drum.mp3",
+   "stext": "It is a drum.",
+   "sentence": "audio/int3b_u2/{v}/itisadrum.mp3"
+  },
+  {
+   "id": "violin",
+   "en": "violin",
+   "ko": "바이올린",
+   "pic": "../packs/int3b_u2/violin.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/violin.mp3",
+   "stext": "It is a violin.",
+   "sentence": "audio/int3b_u2/{v}/itisaviolin.mp3"
+  },
+  {
+   "id": "saxophone",
+   "en": "saxophone",
+   "ko": "색소폰",
+   "pic": "../packs/int3b_u2/saxophone.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/saxophone.mp3",
+   "stext": "It is a saxophone.",
+   "sentence": "audio/int3b_u2/{v}/itisasaxophone.mp3"
+  },
+  {
+   "id": "microwave",
+   "en": "microwave",
+   "ko": "전자레인지",
+   "pic": "../packs/int3b_u2/microwave.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/microwave.mp3",
+   "stext": "It is a microwave.",
+   "sentence": "audio/int3b_u2/{v}/itisamicrowave.mp3"
+  },
+  {
+   "id": "gayageum",
+   "en": "gayageum",
+   "ko": "가야금",
+   "pic": "../packs/int3b_u2/gayageum.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/gayageum.mp3",
+   "stext": "It is a gayageum.",
+   "sentence": "../packs/int3b_u2/audio/{v}/itisagayageum.mp3"
+  },
+  {
+   "id": "cello",
+   "en": "cello",
+   "ko": "첼로",
+   "pic": "../packs/int3b_u2/cello.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/cello.mp3",
+   "stext": "It is a cello.",
+   "sentence": "audio/int3b_u2/{v}/itisacello.mp3"
+  },
+  {
+   "id": "ukulele",
+   "en": "ukulele",
+   "ko": "우쿨렐레",
+   "pic": "../packs/int3b_u2/ukulele.jpg",
+   "audio": "../packs/int3b_u2/audio/{v}/ukulele.mp3",
+   "stext": "It is an ukulele.",
+   "sentence": "audio/int3b_u2/{v}/itisanukulele.mp3"
+  },
+  {
+   "id": "less",
+   "en": "less",
+   "ko": "더 적게",
+   "pic": "../packs/int3b_u3/less.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/less.mp3"
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "pic": "../packs/int3b_u7/money.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/money.mp3"
+  },
+  {
+   "id": "durian",
+   "en": "durian",
+   "ko": "두리안",
+   "pic": "../packs/int3b_u6/durian.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/durian.mp3"
+  },
+  {
+   "id": "quieter",
+   "en": "quieter",
+   "ko": "더 조용하게",
+   "pic": "../packs/int3b_u3/quieter.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/quieter.mp3"
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "pic": "../packs/int3b_u6/lemon.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lemon.mp3"
+  },
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "~해 주세요",
+   "pic": null,
+   "audio": "../packs/int3b_u3/audio/{v}/please.mp3",
+   "stext": "Please help me.",
+   "sentence": "audio/int3b_u3/{v}/pleasehelpme.mp3"
+  },
+  {
+   "id": "slower",
+   "en": "slower",
+   "ko": "더 느리게",
+   "pic": "../packs/int3b_u3/slower.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/slower.mp3",
+   "stext": "Slower please.",
+   "sentence": "../packs/int3b_u3/audio/{v}/slowerplease.mp3"
+  },
+  {
+   "id": "warmer",
+   "en": "warmer",
+   "ko": "더 따뜻하게",
+   "pic": "../packs/int3b_u3/warmer.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/warmer.mp3",
+   "stext": "Warmer please.",
+   "sentence": "audio/int3b_u3/{v}/warmerplease.mp3"
+  },
+  {
+   "id": "louder",
+   "en": "louder",
+   "ko": "더 크게",
+   "pic": "../packs/int3b_u3/louder.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/louder.mp3",
+   "stext": "Louder please.",
+   "sentence": "audio/int3b_u3/{v}/louderplease.mp3"
+  },
+  {
+   "id": "higher",
+   "en": "higher",
+   "ko": "더 높게",
+   "pic": "../packs/int3b_u3/higher.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/higher.mp3",
+   "stext": "Higher please.",
+   "sentence": "audio/int3b_u3/{v}/higherplease.mp3"
+  },
+  {
+   "id": "cooler",
+   "en": "cooler",
+   "ko": "더 시원하게",
+   "pic": "../packs/int3b_u3/cooler.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/cooler.mp3",
+   "stext": "Cooler please.",
+   "sentence": "audio/int3b_u3/{v}/coolerplease.mp3"
+  },
+  {
+   "id": "smaller",
+   "en": "smaller",
+   "ko": "더 작게",
+   "pic": "../packs/int3b_u3/smaller.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/smaller.mp3",
+   "stext": "Smaller please.",
+   "sentence": "audio/int3b_u3/{v}/smallerplease.mp3"
+  },
+  {
+   "id": "more",
+   "en": "more",
+   "ko": "더 많이",
+   "pic": "../packs/int3b_u3/more.jpg",
+   "audio": "../packs/int3b_u3/audio/{v}/more.mp3",
+   "stext": "More please.",
+   "sentence": "audio/int3b_u3/{v}/moreplease.mp3"
+  },
+  {
+   "id": "textbook",
+   "en": "textbook",
+   "ko": "교과서",
+   "pic": "../packs/int3b_u7/textbook.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/textbook.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3b_u7/hat.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/hat.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": "../packs/int3b_u4/teacher.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/teacher.mp3"
+  },
+  {
+   "id": "rambutan",
+   "en": "rambutan",
+   "ko": "람부탄",
+   "pic": "../packs/int3b_u6/rambutan.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/rambutan.mp3"
+  },
+  {
+   "id": "mom",
+   "en": "mom",
+   "ko": "엄마",
+   "pic": "../packs/int3b_u4/mom.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/mom.mp3",
+   "stext": "She is my mom.",
+   "sentence": "audio/int3b_u4/{v}/sheismymom.mp3"
+  },
+  {
+   "id": "aunt",
+   "en": "aunt",
+   "ko": "고모, 이모",
+   "pic": "../packs/int3b_u4/aunt.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/aunt.mp3",
+   "stext": "She is my aunt.",
+   "sentence": "audio/int3b_u4/{v}/sheismyaunt.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/int3b_u4/grandmother.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/grandmother.mp3",
+   "stext": "She is my grandmother.",
+   "sentence": "../packs/int3b_u4/audio/{v}/sheismygrandmother.mp3"
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "언니, 누나, 여동생",
+   "pic": "../packs/int3b_u4/sister.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/sister.mp3",
+   "stext": "She is my sister.",
+   "sentence": "audio/int3b_u4/{v}/sheismysister.mp3"
+  },
+  {
+   "id": "dad",
+   "en": "dad",
+   "ko": "아빠",
+   "pic": "../packs/int3b_u4/dad.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/dad.mp3",
+   "stext": "He is my dad.",
+   "sentence": "audio/int3b_u4/{v}/heismydad.mp3"
+  },
+  {
+   "id": "grandfather",
+   "en": "grandfather",
+   "ko": "할아버지",
+   "pic": "../packs/int3b_u4/grandfather.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/grandfather.mp3",
+   "stext": "He is my grandfather.",
+   "sentence": "audio/int3b_u4/{v}/heismygrandfather.mp3"
+  },
+  {
+   "id": "uncle",
+   "en": "uncle",
+   "ko": "삼촌",
+   "pic": "../packs/int3b_u4/uncle.jpg",
+   "audio": "../packs/int3b_u4/audio/{v}/uncle.mp3",
+   "stext": "He is my uncle.",
+   "sentence": "audio/int3b_u4/{v}/heismyuncle.mp3"
+  },
+  {
+   "id": "lunch",
+   "en": "lunch",
+   "ko": "점심",
+   "pic": "../packs/int3b_u7/lunch.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/lunch.mp3"
+  },
+  {
+   "id": "ninth",
+   "en": "ninth",
+   "ko": "아홉째, 9",
+   "pic": "../packs/int3b_u1/ninth.jpg",
+   "audio": "../packs/int3b_u1/audio/{v}/ninth.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3b_u1/",
+  "ai": "audio/int3b_u1/ai/"
+ }
+}

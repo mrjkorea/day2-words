@@ -552,6 +552,30 @@
   "title": "INT 3B · Unit 8 · Do You Like Korea?"
  },
  {
+  "id": "int3b_mid1",
+  "book": "int3b",
+  "n": 101,
+  "kind": "review",
+  "label": "Review 1-4",
+  "title": "INT 3B · Review Units 1-4"
+ },
+ {
+  "id": "int3b_mid2",
+  "book": "int3b",
+  "n": 102,
+  "kind": "review",
+  "label": "Review 5-8",
+  "title": "INT 3B · Review Units 5-8"
+ },
+ {
+  "id": "int3b_final",
+  "book": "int3b",
+  "n": 103,
+  "kind": "review",
+  "label": "Final Review",
+  "title": "INT 3B · Final Review Units 1-8"
+ },
+ {
   "id": "int3c_u1",
   "book": "int3c",
   "n": 1,
