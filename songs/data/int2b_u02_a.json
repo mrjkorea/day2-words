@@ -1,0 +1,998 @@
+{
+ "id": "int2b_u02_a",
+ "title": "What Time Is It Now?",
+ "book": "INT 2B",
+ "unit": 2,
+ "unitTitle": "What Time is it Now?",
+ "packId": "int2b_u2",
+ "audio": "audio/int2b_u02_a.mp3",
+ "duration": 149.93,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hey Google!",
+   "words": [
+    {
+     "t": "Hey",
+     "start": 0.3,
+     "end": 1.98
+    },
+    {
+     "t": "Google!",
+     "start": 1.98,
+     "end": 2.06
+    }
+   ],
+   "n": 1,
+   "start": 0.3,
+   "end": 2.06,
+   "pic": "breakfast"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 8.8,
+     "end": 9.57
+    },
+    {
+     "t": "time",
+     "start": 9.65,
+     "end": 10.42
+    },
+    {
+     "t": "is",
+     "start": 10.51,
+     "end": 11.02
+    },
+    {
+     "t": "it",
+     "start": 11.08,
+     "end": 11.59
+    },
+    {
+     "t": "now?",
+     "start": 11.65,
+     "end": 12.41
+    }
+   ],
+   "n": 2,
+   "start": 8.8,
+   "end": 12.41,
+   "pic": "breakfast"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It's seven thirty!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 13.42,
+     "end": 13.78
+    },
+    {
+     "t": "seven",
+     "start": 13.78,
+     "end": 14.64
+    },
+    {
+     "t": "thirty!",
+     "start": 14.64,
+     "end": 15.4
+    }
+   ],
+   "n": 3,
+   "start": 13.42,
+   "end": 15.4,
+   "pic": "breakfast"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It's time for breakfast!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 15.86,
+     "end": 16.1
+    },
+    {
+     "t": "time",
+     "start": 16.1,
+     "end": 16.3
+    },
+    {
+     "t": "for",
+     "start": 16.32,
+     "end": 16.6
+    },
+    {
+     "t": "breakfast!",
+     "start": 16.74,
+     "end": 17.42,
+     "pic": "breakfast"
+    }
+   ],
+   "n": 4,
+   "start": 15.86,
+   "end": 17.42,
+   "pic": "breakfast"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 17.86,
+     "end": 18.1
+    },
+    {
+     "t": "time",
+     "start": 18.3,
+     "end": 19.08
+    },
+    {
+     "t": "is",
+     "start": 19.16,
+     "end": 19.64
+    },
+    {
+     "t": "it",
+     "start": 19.64,
+     "end": 19.86
+    },
+    {
+     "t": "now?",
+     "start": 19.86,
+     "end": 21.04
+    }
+   ],
+   "n": 5,
+   "start": 17.86,
+   "end": 21.04,
+   "pic": "breakfast"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is eight o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 22.08,
+     "end": 22.44
+    },
+    {
+     "t": "is",
+     "start": 22.44,
+     "end": 23.1
+    },
+    {
+     "t": "eight",
+     "start": 23.24,
+     "end": 23.44
+    },
+    {
+     "t": "o'clock!",
+     "start": 23.49,
+     "end": 23.91,
+     "pic": "oclock"
+    }
+   ],
+   "n": 6,
+   "start": 22.08,
+   "end": 23.91,
+   "pic": "oclock"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It's school time!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 24.32,
+     "end": 24.82
+    },
+    {
+     "t": "school",
+     "start": 24.84,
+     "end": 25.2,
+     "pic": "school"
+    },
+    {
+     "t": "time!",
+     "start": 25.2,
+     "end": 26.06
+    }
+   ],
+   "n": 7,
+   "start": 24.32,
+   "end": 26.06,
+   "pic": "school"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it now? What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 27.06,
+     "end": 27.56
+    },
+    {
+     "t": "time",
+     "start": 27.61,
+     "end": 27.69
+    },
+    {
+     "t": "is",
+     "start": 27.56,
+     "end": 28.4
+    },
+    {
+     "t": "it",
+     "start": 28.5,
+     "end": 28.6
+    },
+    {
+     "t": "now?",
+     "start": 28.6,
+     "end": 29.85
+    },
+    {
+     "t": "What",
+     "start": 31.02,
+     "end": 31.14
+    },
+    {
+     "t": "time",
+     "start": 31.38,
+     "end": 31.78
+    },
+    {
+     "t": "is",
+     "start": 31.78,
+     "end": 32.72
+    },
+    {
+     "t": "it",
+     "start": 32.72,
+     "end": 32.98
+    },
+    {
+     "t": "now?",
+     "start": 32.98,
+     "end": 33.44
+    }
+   ],
+   "n": 8,
+   "start": 27.06,
+   "end": 33.44,
+   "pic": "school"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's twelve o'clock!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 33.6,
+     "end": 33.96
+    },
+    {
+     "t": "twelve",
+     "start": 34.0,
+     "end": 34.48
+    },
+    {
+     "t": "o'clock!",
+     "start": 34.53,
+     "end": 35.13,
+     "pic": "oclock"
+    }
+   ],
+   "n": 9,
+   "start": 33.6,
+   "end": 35.13,
+   "pic": "oclock"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's time for lunch!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 35.3,
+     "end": 35.88
+    },
+    {
+     "t": "time",
+     "start": 35.95,
+     "end": 36.53
+    },
+    {
+     "t": "for",
+     "start": 36.6,
+     "end": 37.08
+    },
+    {
+     "t": "lunch!",
+     "start": 37.14,
+     "end": 37.91
+    }
+   ],
+   "n": 10,
+   "start": 35.3,
+   "end": 37.91,
+   "pic": "oclock"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 39.56,
+     "end": 39.9
+    },
+    {
+     "t": "time",
+     "start": 39.9,
+     "end": 41.08
+    },
+    {
+     "t": "is",
+     "start": 41.08,
+     "end": 41.58
+    },
+    {
+     "t": "it",
+     "start": 41.58,
+     "end": 41.9
+    },
+    {
+     "t": "now?",
+     "start": 41.9,
+     "end": 42.68
+    }
+   ],
+   "n": 11,
+   "start": 39.56,
+   "end": 42.68,
+   "pic": "oclock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 43.86,
+     "end": 44.2
+    },
+    {
+     "t": "time",
+     "start": 44.18,
+     "end": 44.78
+    },
+    {
+     "t": "is",
+     "start": 44.78,
+     "end": 45.78
+    },
+    {
+     "t": "it",
+     "start": 45.78,
+     "end": 46.0
+    },
+    {
+     "t": "now?",
+     "start": 46.0,
+     "end": 46.4
+    }
+   ],
+   "n": 12,
+   "start": 43.86,
+   "end": 46.4,
+   "pic": "oclock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is eleven a.m.!",
+   "words": [
+    {
+     "t": "It",
+     "start": 48.32,
+     "end": 48.56
+    },
+    {
+     "t": "is",
+     "start": 48.58,
+     "end": 49.16
+    },
+    {
+     "t": "eleven",
+     "start": 49.08,
+     "end": 49.66,
+     "pic": "eleven"
+    },
+    {
+     "t": "a.m.!",
+     "start": 49.8,
+     "end": 50.5
+    }
+   ],
+   "n": 13,
+   "start": 48.32,
+   "end": 50.5,
+   "pic": "eleven"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It's time for recess!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 50.9,
+     "end": 51.1
+    },
+    {
+     "t": "time",
+     "start": 51.12,
+     "end": 51.26
+    },
+    {
+     "t": "for",
+     "start": 51.26,
+     "end": 51.68
+    },
+    {
+     "t": "recess!",
+     "start": 51.68,
+     "end": 52.38,
+     "pic": "recess"
+    }
+   ],
+   "n": 14,
+   "start": 50.9,
+   "end": 52.38,
+   "pic": "recess"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 52.38,
+     "end": 52.9
+    },
+    {
+     "t": "time",
+     "start": 52.9,
+     "end": 53.54
+    },
+    {
+     "t": "is",
+     "start": 53.54,
+     "end": 54.56
+    },
+    {
+     "t": "it",
+     "start": 54.56,
+     "end": 54.78
+    },
+    {
+     "t": "now?",
+     "start": 54.78,
+     "end": 55.9
+    }
+   ],
+   "n": 15,
+   "start": 52.38,
+   "end": 55.9,
+   "pic": "recess"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is three thirty!",
+   "words": [
+    {
+     "t": "It",
+     "start": 56.98,
+     "end": 57.28
+    },
+    {
+     "t": "is",
+     "start": 57.32,
+     "end": 57.7
+    },
+    {
+     "t": "three",
+     "start": 57.7,
+     "end": 58.24
+    },
+    {
+     "t": "thirty!",
+     "start": 58.24,
+     "end": 58.8
+    }
+   ],
+   "n": 16,
+   "start": 56.98,
+   "end": 58.8,
+   "pic": "recess"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It's snack time!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 59.42,
+     "end": 59.92
+    },
+    {
+     "t": "snack",
+     "start": 59.96,
+     "end": 60.16,
+     "pic": "snack"
+    },
+    {
+     "t": "time!",
+     "start": 60.14,
+     "end": 60.88
+    }
+   ],
+   "n": 17,
+   "start": 59.42,
+   "end": 60.88,
+   "pic": "snack"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it now? What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 61.48,
+     "end": 61.92
+    },
+    {
+     "t": "time",
+     "start": 61.88,
+     "end": 62.64
+    },
+    {
+     "t": "is",
+     "start": 62.52,
+     "end": 63.34
+    },
+    {
+     "t": "it",
+     "start": 63.32,
+     "end": 63.62
+    },
+    {
+     "t": "now?",
+     "start": 63.62,
+     "end": 64.4
+    },
+    {
+     "t": "What",
+     "start": 65.63,
+     "end": 66.04
+    },
+    {
+     "t": "time",
+     "start": 66.06,
+     "end": 67.08
+    },
+    {
+     "t": "is",
+     "start": 67.08,
+     "end": 67.64
+    },
+    {
+     "t": "it",
+     "start": 67.64,
+     "end": 67.94
+    },
+    {
+     "t": "now?",
+     "start": 67.9,
+     "end": 68.46
+    }
+   ],
+   "n": 18,
+   "start": 61.48,
+   "end": 68.46,
+   "pic": "snack"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's twelve o'clock!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 68.6,
+     "end": 68.94
+    },
+    {
+     "t": "twelve",
+     "start": 68.97,
+     "end": 69.42
+    },
+    {
+     "t": "o'clock!",
+     "start": 69.47,
+     "end": 70.04,
+     "pic": "oclock"
+    }
+   ],
+   "n": 19,
+   "start": 68.6,
+   "end": 70.04,
+   "pic": "oclock"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's time for lunch!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 70.2,
+     "end": 70.78
+    },
+    {
+     "t": "time",
+     "start": 70.85,
+     "end": 71.43
+    },
+    {
+     "t": "for",
+     "start": 71.5,
+     "end": 71.98
+    },
+    {
+     "t": "lunch!",
+     "start": 72.04,
+     "end": 72.81
+    }
+   ],
+   "n": 20,
+   "start": 70.2,
+   "end": 72.81,
+   "pic": "oclock"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 74.4,
+     "end": 75.06
+    },
+    {
+     "t": "time",
+     "start": 75.06,
+     "end": 75.94
+    },
+    {
+     "t": "is",
+     "start": 75.94,
+     "end": 76.44
+    },
+    {
+     "t": "it",
+     "start": 76.44,
+     "end": 76.74
+    },
+    {
+     "t": "now?",
+     "start": 76.74,
+     "end": 77.7
+    }
+   ],
+   "n": 21,
+   "start": 74.4,
+   "end": 77.7,
+   "pic": "oclock"
+  },
+  {
+   "section": "Bridge",
+   "text": "It is ten p.m.!",
+   "words": [
+    {
+     "t": "It",
+     "start": 111.24,
+     "end": 114.04
+    },
+    {
+     "t": "is",
+     "start": 114.04,
+     "end": 114.54
+    },
+    {
+     "t": "ten",
+     "start": 114.59,
+     "end": 115.01
+    },
+    {
+     "t": "p.m.!",
+     "start": 115.04,
+     "end": 115.46
+    }
+   ],
+   "n": 22,
+   "start": 111.24,
+   "end": 115.46,
+   "pic": "oclock"
+  },
+  {
+   "section": "Bridge",
+   "text": "It's bedtime!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 118.28,
+     "end": 119.24
+    },
+    {
+     "t": "bedtime!",
+     "start": 119.24,
+     "end": 122.0
+    }
+   ],
+   "n": 23,
+   "start": 118.28,
+   "end": 122.0,
+   "pic": "oclock"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it now? What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 122.46,
+     "end": 122.92
+    },
+    {
+     "t": "time",
+     "start": 122.88,
+     "end": 123.72
+    },
+    {
+     "t": "is",
+     "start": 123.68,
+     "end": 124.44
+    },
+    {
+     "t": "it",
+     "start": 124.44,
+     "end": 124.7
+    },
+    {
+     "t": "now?",
+     "start": 124.7,
+     "end": 125.78
+    },
+    {
+     "t": "What",
+     "start": 126.94,
+     "end": 127.36
+    },
+    {
+     "t": "time",
+     "start": 127.48,
+     "end": 128.28
+    },
+    {
+     "t": "is",
+     "start": 128.28,
+     "end": 128.84
+    },
+    {
+     "t": "it",
+     "start": 128.84,
+     "end": 129.1
+    },
+    {
+     "t": "now?",
+     "start": 129.1,
+     "end": 129.5
+    }
+   ],
+   "n": 24,
+   "start": 122.46,
+   "end": 129.5,
+   "pic": "oclock"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's twelve o'clock!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 129.5,
+     "end": 129.81
+    },
+    {
+     "t": "twelve",
+     "start": 129.85,
+     "end": 130.27
+    },
+    {
+     "t": "o'clock!",
+     "start": 130.32,
+     "end": 130.84,
+     "pic": "oclock"
+    }
+   ],
+   "n": 25,
+   "start": 129.5,
+   "end": 130.84,
+   "pic": "oclock"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's time for lunch!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 131.4,
+     "end": 131.83
+    },
+    {
+     "t": "time",
+     "start": 131.88,
+     "end": 132.31
+    },
+    {
+     "t": "for",
+     "start": 132.36,
+     "end": 132.72
+    },
+    {
+     "t": "lunch!",
+     "start": 132.76,
+     "end": 133.34
+    }
+   ],
+   "n": 26,
+   "start": 131.4,
+   "end": 133.34,
+   "pic": "oclock"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 133.9,
+     "end": 134.23
+    },
+    {
+     "t": "time",
+     "start": 134.27,
+     "end": 134.6
+    },
+    {
+     "t": "is",
+     "start": 134.64,
+     "end": 134.86
+    },
+    {
+     "t": "it",
+     "start": 134.88,
+     "end": 135.11
+    },
+    {
+     "t": "now?",
+     "start": 135.13,
+     "end": 135.46
+    }
+   ],
+   "n": 27,
+   "start": 133.9,
+   "end": 135.46,
+   "pic": "oclock"
+  },
+  {
+   "section": "Outro",
+   "text": "What time is it now?",
+   "words": [
+    {
+     "t": "What",
+     "start": 135.78,
+     "end": 136.12
+    },
+    {
+     "t": "time",
+     "start": 136.12,
+     "end": 136.68
+    },
+    {
+     "t": "is",
+     "start": 136.68,
+     "end": 137.54
+    },
+    {
+     "t": "it",
+     "start": 137.54,
+     "end": 137.88
+    },
+    {
+     "t": "now?",
+     "start": 137.88,
+     "end": 138.82
+    }
+   ],
+   "n": 28,
+   "start": 135.78,
+   "end": 138.82,
+   "pic": "oclock"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "breakfast",
+   "prompt": "What time is it now?",
+   "answer": "It's time for breakfast!",
+   "choices": [
+    "It's time for breakfast!",
+    "It's time for lunch!",
+    "It's bedtime!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 13,
+   "prompt": "Listen. What time is it?",
+   "answer": "eleven",
+   "choices": [
+    "eleven",
+    "oclock",
+    "snack"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "recess",
+   "prompt": "It is eleven a.m.!",
+   "answer": "It's time for recess!",
+   "choices": [
+    "It's time for recess!",
+    "It's snack time!",
+    "It's school time!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 17,
+   "prompt": "Listen. What time is it?",
+   "answer": "snack",
+   "choices": [
+    "breakfast",
+    "snack",
+    "school"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "oclock",
+   "prompt": "What do you ask?",
+   "answer": "What time is it now?",
+   "choices": [
+    "What time is it now?",
+    "What day is it today?",
+    "What do you do?"
+   ]
+  }
+ ]
+}

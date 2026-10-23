@@ -1,0 +1,1005 @@
+{
+ "id": "int2b_u01_a",
+ "title": "What Day Is It Today?",
+ "book": "INT 2B",
+ "unit": 1,
+ "unitTitle": "Hello, This is Pizza Land",
+ "packId": "int2b_u1",
+ "audio": "audio/int2b_u01_a.mp3",
+ "duration": 150.12,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hello, this is Pizza Land!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 7.04,
+     "end": 7.74
+    },
+    {
+     "t": "this",
+     "start": 8.42,
+     "end": 8.56
+    },
+    {
+     "t": "is",
+     "start": 8.6,
+     "end": 8.86
+    },
+    {
+     "t": "Pizza",
+     "start": 8.86,
+     "end": 9.12
+    },
+    {
+     "t": "Land!",
+     "start": 9.16,
+     "end": 9.56
+    }
+   ],
+   "n": 1,
+   "start": 7.04,
+   "end": 9.56,
+   "pic": "friday"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 14.24,
+     "end": 14.56
+    },
+    {
+     "t": "day",
+     "start": 14.56,
+     "end": 15.14
+    },
+    {
+     "t": "is",
+     "start": 15.14,
+     "end": 15.44
+    },
+    {
+     "t": "it",
+     "start": 15.44,
+     "end": 15.68
+    },
+    {
+     "t": "today?",
+     "start": 15.68,
+     "end": 16.22
+    }
+   ],
+   "n": 2,
+   "start": 14.24,
+   "end": 16.22,
+   "pic": "friday"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It's Monday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 16.27,
+     "end": 16.69
+    },
+    {
+     "t": "Monday!",
+     "start": 16.72,
+     "end": 17.14,
+     "pic": "monday"
+    }
+   ],
+   "n": 3,
+   "start": 16.27,
+   "end": 17.14,
+   "pic": "monday"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 18.59,
+     "end": 18.86
+    },
+    {
+     "t": "day",
+     "start": 18.88,
+     "end": 19.46
+    },
+    {
+     "t": "is",
+     "start": 19.46,
+     "end": 19.74
+    },
+    {
+     "t": "it",
+     "start": 19.74,
+     "end": 20.02
+    },
+    {
+     "t": "today?",
+     "start": 20.02,
+     "end": 20.42
+    }
+   ],
+   "n": 4,
+   "start": 18.59,
+   "end": 20.42,
+   "pic": "monday"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It's Tuesday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 20.56,
+     "end": 20.82
+    },
+    {
+     "t": "Tuesday!",
+     "start": 23.54,
+     "end": 23.9,
+     "pic": "tuesday"
+    }
+   ],
+   "n": 5,
+   "start": 20.56,
+   "end": 23.9,
+   "pic": "tuesday"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 27.16,
+     "end": 27.48
+    },
+    {
+     "t": "day",
+     "start": 27.48,
+     "end": 28.02
+    },
+    {
+     "t": "is",
+     "start": 28.02,
+     "end": 28.32
+    },
+    {
+     "t": "it",
+     "start": 28.32,
+     "end": 28.56
+    },
+    {
+     "t": "today?",
+     "start": 28.56,
+     "end": 28.98
+    }
+   ],
+   "n": 6,
+   "start": 27.16,
+   "end": 28.98,
+   "pic": "tuesday"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It's Wednesday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 29.18,
+     "end": 29.44
+    },
+    {
+     "t": "Wednesday!",
+     "start": 29.28,
+     "end": 29.96,
+     "pic": "wednesday"
+    }
+   ],
+   "n": 7,
+   "start": 29.18,
+   "end": 29.96,
+   "pic": "wednesday"
+  },
+  {
+   "section": "Chorus",
+   "text": "What day is it today? What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 31.42,
+     "end": 31.74
+    },
+    {
+     "t": "day",
+     "start": 31.72,
+     "end": 32.3
+    },
+    {
+     "t": "is",
+     "start": 32.3,
+     "end": 32.6
+    },
+    {
+     "t": "it",
+     "start": 32.6,
+     "end": 32.84
+    },
+    {
+     "t": "today?",
+     "start": 32.84,
+     "end": 33.4
+    },
+    {
+     "t": "What",
+     "start": 35.71,
+     "end": 35.96
+    },
+    {
+     "t": "day",
+     "start": 36.0,
+     "end": 36.58
+    },
+    {
+     "t": "is",
+     "start": 36.58,
+     "end": 36.86
+    },
+    {
+     "t": "it",
+     "start": 36.86,
+     "end": 37.14
+    },
+    {
+     "t": "today?",
+     "start": 37.12,
+     "end": 37.68
+    }
+   ],
+   "n": 8,
+   "start": 31.42,
+   "end": 37.68,
+   "pic": "wednesday"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's Friday! It's Friday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 38.2,
+     "end": 38.46
+    },
+    {
+     "t": "Friday!",
+     "start": 38.46,
+     "end": 38.94,
+     "pic": "friday"
+    },
+    {
+     "t": "It's",
+     "start": 39.4,
+     "end": 39.58
+    },
+    {
+     "t": "Friday!",
+     "start": 39.58,
+     "end": 40.18,
+     "pic": "friday"
+    }
+   ],
+   "n": 9,
+   "start": 38.2,
+   "end": 40.18,
+   "pic": "friday"
+  },
+  {
+   "section": "Chorus",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 40.29,
+     "end": 40.54
+    },
+    {
+     "t": "day",
+     "start": 40.6,
+     "end": 40.84
+    },
+    {
+     "t": "is",
+     "start": 40.92,
+     "end": 41.22
+    },
+    {
+     "t": "it",
+     "start": 41.22,
+     "end": 41.44
+    },
+    {
+     "t": "today?",
+     "start": 41.44,
+     "end": 42.04
+    }
+   ],
+   "n": 10,
+   "start": 40.29,
+   "end": 42.04,
+   "pic": "friday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sunday, Monday, Tuesday!",
+   "words": [
+    {
+     "t": "Sunday,",
+     "start": 43.74,
+     "end": 44.52,
+     "pic": "sunday"
+    },
+    {
+     "t": "Monday,",
+     "start": 44.92,
+     "end": 45.36,
+     "pic": "monday"
+    },
+    {
+     "t": "Tuesday!",
+     "start": 45.54,
+     "end": 45.74,
+     "pic": "tuesday"
+    }
+   ],
+   "n": 11,
+   "start": 43.74,
+   "end": 45.74,
+   "pic": "sunday"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 45.71,
+     "end": 46.76
+    },
+    {
+     "t": "day",
+     "start": 46.78,
+     "end": 47.65
+    },
+    {
+     "t": "is",
+     "start": 47.67,
+     "end": 48.36
+    },
+    {
+     "t": "it",
+     "start": 48.38,
+     "end": 49.07
+    },
+    {
+     "t": "today?",
+     "start": 49.09,
+     "end": 50.52
+    }
+   ],
+   "n": 12,
+   "start": 45.71,
+   "end": 50.52,
+   "pic": "sunday"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It's Thursday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 52.7,
+     "end": 53.52
+    },
+    {
+     "t": "Thursday!",
+     "start": 53.52,
+     "end": 54.34,
+     "pic": "thursday"
+    }
+   ],
+   "n": 13,
+   "start": 52.7,
+   "end": 54.34,
+   "pic": "thursday"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 54.34,
+     "end": 54.66
+    },
+    {
+     "t": "day",
+     "start": 54.68,
+     "end": 54.94
+    },
+    {
+     "t": "is",
+     "start": 54.96,
+     "end": 55.16
+    },
+    {
+     "t": "it",
+     "start": 55.18,
+     "end": 55.39
+    },
+    {
+     "t": "today?",
+     "start": 55.41,
+     "end": 55.86
+    }
+   ],
+   "n": 14,
+   "start": 54.34,
+   "end": 55.86,
+   "pic": "thursday"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It's Saturday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 57.54,
+     "end": 57.9
+    },
+    {
+     "t": "Saturday!",
+     "start": 57.9,
+     "end": 58.58,
+     "pic": "saturday"
+    }
+   ],
+   "n": 15,
+   "start": 57.54,
+   "end": 58.58,
+   "pic": "saturday"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 61.5,
+     "end": 61.86
+    },
+    {
+     "t": "day",
+     "start": 61.9,
+     "end": 62.2
+    },
+    {
+     "t": "is",
+     "start": 62.23,
+     "end": 62.47
+    },
+    {
+     "t": "it",
+     "start": 62.5,
+     "end": 62.74
+    },
+    {
+     "t": "today?",
+     "start": 62.77,
+     "end": 63.25
+    }
+   ],
+   "n": 16,
+   "start": 61.5,
+   "end": 63.25,
+   "pic": "saturday"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It's Sunday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 63.4,
+     "end": 63.87
+    },
+    {
+     "t": "Sunday!",
+     "start": 63.92,
+     "end": 64.62,
+     "pic": "sunday"
+    }
+   ],
+   "n": 17,
+   "start": 63.4,
+   "end": 64.62,
+   "pic": "sunday"
+  },
+  {
+   "section": "Chorus",
+   "text": "What day is it today? What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 65.6,
+     "end": 66.24
+    },
+    {
+     "t": "day",
+     "start": 66.31,
+     "end": 66.84
+    },
+    {
+     "t": "is",
+     "start": 66.9,
+     "end": 67.33
+    },
+    {
+     "t": "it",
+     "start": 67.38,
+     "end": 67.8
+    },
+    {
+     "t": "today?",
+     "start": 67.85,
+     "end": 68.71
+    },
+    {
+     "t": "What",
+     "start": 68.8,
+     "end": 69.44
+    },
+    {
+     "t": "day",
+     "start": 69.51,
+     "end": 70.04
+    },
+    {
+     "t": "is",
+     "start": 70.1,
+     "end": 70.53
+    },
+    {
+     "t": "it",
+     "start": 70.58,
+     "end": 71.0
+    },
+    {
+     "t": "today?",
+     "start": 71.05,
+     "end": 71.91
+    }
+   ],
+   "n": 18,
+   "start": 65.6,
+   "end": 71.91,
+   "pic": "sunday"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's Friday! It's Friday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 72.67,
+     "end": 73.13
+    },
+    {
+     "t": "Friday!",
+     "start": 73.15,
+     "end": 73.84,
+     "pic": "friday"
+    },
+    {
+     "t": "It's",
+     "start": 73.86,
+     "end": 74.32
+    },
+    {
+     "t": "Friday!",
+     "start": 74.34,
+     "end": 75.05,
+     "pic": "friday"
+    }
+   ],
+   "n": 19,
+   "start": 72.67,
+   "end": 75.05,
+   "pic": "friday"
+  },
+  {
+   "section": "Chorus",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 75.05,
+     "end": 75.37
+    },
+    {
+     "t": "day",
+     "start": 75.39,
+     "end": 75.66
+    },
+    {
+     "t": "is",
+     "start": 75.68,
+     "end": 75.89
+    },
+    {
+     "t": "it",
+     "start": 75.91,
+     "end": 76.11
+    },
+    {
+     "t": "today?",
+     "start": 76.13,
+     "end": 76.59
+    }
+   ],
+   "n": 20,
+   "start": 75.05,
+   "end": 76.59,
+   "pic": "friday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sunday, Monday, Tuesday!",
+   "words": [
+    {
+     "t": "Sunday,",
+     "start": 78.84,
+     "end": 79.04,
+     "pic": "sunday"
+    },
+    {
+     "t": "Monday,",
+     "start": 78.94,
+     "end": 79.82,
+     "pic": "monday"
+    },
+    {
+     "t": "Tuesday!",
+     "start": 79.82,
+     "end": 80.18,
+     "pic": "tuesday"
+    }
+   ],
+   "n": 21,
+   "start": 78.84,
+   "end": 80.18,
+   "pic": "sunday"
+  },
+  {
+   "section": "Bridge",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 108.64,
+     "end": 108.94
+    },
+    {
+     "t": "day",
+     "start": 108.86,
+     "end": 109.42
+    },
+    {
+     "t": "is",
+     "start": 109.42,
+     "end": 109.74
+    },
+    {
+     "t": "it",
+     "start": 109.74,
+     "end": 109.98
+    },
+    {
+     "t": "today?",
+     "start": 109.98,
+     "end": 110.46
+    }
+   ],
+   "n": 22,
+   "start": 108.64,
+   "end": 110.46,
+   "pic": "sunday"
+  },
+  {
+   "section": "Bridge",
+   "text": "It is my birthday!",
+   "words": [
+    {
+     "t": "It",
+     "start": 113.04,
+     "end": 113.5
+    },
+    {
+     "t": "is",
+     "start": 113.46,
+     "end": 114.02
+    },
+    {
+     "t": "my",
+     "start": 114.02,
+     "end": 114.58
+    },
+    {
+     "t": "birthday!",
+     "start": 114.58,
+     "end": 115.84
+    }
+   ],
+   "n": 23,
+   "start": 113.04,
+   "end": 115.84,
+   "pic": "sunday"
+  },
+  {
+   "section": "Chorus",
+   "text": "What day is it today? What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 117.24,
+     "end": 117.56
+    },
+    {
+     "t": "day",
+     "start": 117.56,
+     "end": 118.04
+    },
+    {
+     "t": "is",
+     "start": 118.04,
+     "end": 118.38
+    },
+    {
+     "t": "it",
+     "start": 118.38,
+     "end": 118.66
+    },
+    {
+     "t": "today?",
+     "start": 118.66,
+     "end": 119.2
+    },
+    {
+     "t": "What",
+     "start": 121.63,
+     "end": 121.84
+    },
+    {
+     "t": "day",
+     "start": 121.86,
+     "end": 122.46
+    },
+    {
+     "t": "is",
+     "start": 122.46,
+     "end": 122.72
+    },
+    {
+     "t": "it",
+     "start": 122.72,
+     "end": 123.02
+    },
+    {
+     "t": "today?",
+     "start": 123.02,
+     "end": 123.48
+    }
+   ],
+   "n": 24,
+   "start": 117.24,
+   "end": 123.48,
+   "pic": "sunday"
+  },
+  {
+   "section": "Chorus",
+   "text": "It's Friday! It's Friday!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 124.08,
+     "end": 124.28
+    },
+    {
+     "t": "Friday!",
+     "start": 124.3,
+     "end": 124.61,
+     "pic": "friday"
+    },
+    {
+     "t": "It's",
+     "start": 124.63,
+     "end": 124.84
+    },
+    {
+     "t": "Friday!",
+     "start": 124.86,
+     "end": 125.19,
+     "pic": "friday"
+    }
+   ],
+   "n": 25,
+   "start": 124.08,
+   "end": 125.19,
+   "pic": "friday"
+  },
+  {
+   "section": "Chorus",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 125.16,
+     "end": 126.04
+    },
+    {
+     "t": "day",
+     "start": 126.04,
+     "end": 126.8
+    },
+    {
+     "t": "is",
+     "start": 126.8,
+     "end": 127.08
+    },
+    {
+     "t": "it",
+     "start": 127.08,
+     "end": 127.32
+    },
+    {
+     "t": "today?",
+     "start": 127.32,
+     "end": 127.98
+    }
+   ],
+   "n": 26,
+   "start": 125.16,
+   "end": 127.98,
+   "pic": "friday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sunday, Monday, Tuesday!",
+   "words": [
+    {
+     "t": "Sunday,",
+     "start": 129.68,
+     "end": 130.36,
+     "pic": "sunday"
+    },
+    {
+     "t": "Monday,",
+     "start": 130.44,
+     "end": 131.06,
+     "pic": "monday"
+    },
+    {
+     "t": "Tuesday!",
+     "start": 131.2,
+     "end": 131.66,
+     "pic": "tuesday"
+    }
+   ],
+   "n": 27,
+   "start": 129.68,
+   "end": 131.66,
+   "pic": "sunday"
+  },
+  {
+   "section": "Outro",
+   "text": "What day is it today?",
+   "words": [
+    {
+     "t": "What",
+     "start": 134.82,
+     "end": 135.04
+    },
+    {
+     "t": "day",
+     "start": 135.12,
+     "end": 135.44
+    },
+    {
+     "t": "is",
+     "start": 135.44,
+     "end": 135.74
+    },
+    {
+     "t": "it",
+     "start": 135.74,
+     "end": 136.06
+    },
+    {
+     "t": "today?",
+     "start": 136.06,
+     "end": 136.44
+    }
+   ],
+   "n": 28,
+   "start": 134.82,
+   "end": 136.44,
+   "pic": "sunday"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "monday",
+   "prompt": "What day is it today?",
+   "answer": "It's Monday!",
+   "choices": [
+    "It's Monday!",
+    "It's Friday!",
+    "It's Sunday!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. What day is it today?",
+   "answer": "tuesday",
+   "choices": [
+    "tuesday",
+    "thursday",
+    "saturday"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "friday",
+   "prompt": "What day is it today?",
+   "answer": "It's Friday!",
+   "choices": [
+    "It's Tuesday!",
+    "It's Friday!",
+    "It's Wednesday!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 15,
+   "prompt": "Listen. What day is it today?",
+   "answer": "saturday",
+   "choices": [
+    "sunday",
+    "saturday",
+    "monday"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "wednesday",
+   "prompt": "What do you ask?",
+   "answer": "What day is it today?",
+   "choices": [
+    "What day is it today?",
+    "What time is it now?",
+    "How much is it?"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1164 @@
+{
+ "id": "int2b_u04_a",
+ "title": "How Much Is It?",
+ "book": "INT 2B",
+ "unit": 4,
+ "unitTitle": "Welcome to Seven-Eleven",
+ "packId": "int2b_u4",
+ "audio": "audio/int2b_u04_a.mp3",
+ "duration": 152.33,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Welcome to Seven-Eleven!",
+   "words": [
+    {
+     "t": "Welcome",
+     "start": 5.18,
+     "end": 5.4
+    },
+    {
+     "t": "to",
+     "start": 5.4,
+     "end": 5.92
+    },
+    {
+     "t": "Seven-Eleven!",
+     "start": 5.94,
+     "end": 6.89
+    }
+   ],
+   "n": 1,
+   "start": 5.18,
+   "end": 6.89,
+   "pic": "buy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How much is a hamburger in Canada?",
+   "words": [
+    {
+     "t": "How",
+     "start": 8.8,
+     "end": 9.14
+    },
+    {
+     "t": "much",
+     "start": 9.14,
+     "end": 9.52
+    },
+    {
+     "t": "is",
+     "start": 9.94,
+     "end": 10.18
+    },
+    {
+     "t": "a",
+     "start": 10.18,
+     "end": 10.4
+    },
+    {
+     "t": "hamburger",
+     "start": 10.4,
+     "end": 10.98
+    },
+    {
+     "t": "in",
+     "start": 10.98,
+     "end": 11.56
+    },
+    {
+     "t": "Canada?",
+     "start": 11.56,
+     "end": 12.12
+    }
+   ],
+   "n": 2,
+   "start": 8.8,
+   "end": 12.12,
+   "pic": "buy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is about ten dollars!",
+   "words": [
+    {
+     "t": "It",
+     "start": 13.46,
+     "end": 13.76
+    },
+    {
+     "t": "is",
+     "start": 13.76,
+     "end": 14.04
+    },
+    {
+     "t": "about",
+     "start": 14.04,
+     "end": 14.68
+    },
+    {
+     "t": "ten",
+     "start": 14.68,
+     "end": 15.32
+    },
+    {
+     "t": "dollars!",
+     "start": 15.32,
+     "end": 15.98
+    }
+   ],
+   "n": 3,
+   "start": 13.46,
+   "end": 15.98,
+   "pic": "buy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How much is a cup of coffee in Canada?",
+   "words": [
+    {
+     "t": "How",
+     "start": 17.52,
+     "end": 17.88
+    },
+    {
+     "t": "much",
+     "start": 17.88,
+     "end": 18.3
+    },
+    {
+     "t": "is",
+     "start": 18.68,
+     "end": 18.92
+    },
+    {
+     "t": "a",
+     "start": 18.92,
+     "end": 19.12
+    },
+    {
+     "t": "cup",
+     "start": 19.12,
+     "end": 19.32
+    },
+    {
+     "t": "of",
+     "start": 19.44,
+     "end": 19.54
+    },
+    {
+     "t": "coffee",
+     "start": 19.54,
+     "end": 19.94
+    },
+    {
+     "t": "in",
+     "start": 19.94,
+     "end": 20.32
+    },
+    {
+     "t": "Canada?",
+     "start": 20.32,
+     "end": 20.84
+    }
+   ],
+   "n": 4,
+   "start": 17.52,
+   "end": 20.84,
+   "pic": "buy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is about three dollars!",
+   "words": [
+    {
+     "t": "It",
+     "start": 22.21,
+     "end": 22.48
+    },
+    {
+     "t": "is",
+     "start": 22.5,
+     "end": 22.8
+    },
+    {
+     "t": "about",
+     "start": 22.8,
+     "end": 23.4
+    },
+    {
+     "t": "three",
+     "start": 23.4,
+     "end": 23.96
+    },
+    {
+     "t": "dollars!",
+     "start": 23.96,
+     "end": 24.72
+    }
+   ],
+   "n": 5,
+   "start": 22.21,
+   "end": 24.72,
+   "pic": "buy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How much is a car in Canada?",
+   "words": [
+    {
+     "t": "How",
+     "start": 25.46,
+     "end": 26.66
+    },
+    {
+     "t": "much",
+     "start": 26.66,
+     "end": 27.08
+    },
+    {
+     "t": "is",
+     "start": 27.38,
+     "end": 27.88
+    },
+    {
+     "t": "a",
+     "start": 27.88,
+     "end": 28.12
+    },
+    {
+     "t": "car",
+     "start": 28.18,
+     "end": 28.54
+    },
+    {
+     "t": "in",
+     "start": 28.54,
+     "end": 29.06
+    },
+    {
+     "t": "Canada?",
+     "start": 29.06,
+     "end": 29.58
+    }
+   ],
+   "n": 6,
+   "start": 25.46,
+   "end": 29.58,
+   "pic": "buy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is about thirty thousand dollars!",
+   "words": [
+    {
+     "t": "It",
+     "start": 30.78,
+     "end": 30.94
+    },
+    {
+     "t": "is",
+     "start": 30.94,
+     "end": 31.24
+    },
+    {
+     "t": "about",
+     "start": 31.24,
+     "end": 31.66
+    },
+    {
+     "t": "thirty",
+     "start": 31.66,
+     "end": 32.14
+    },
+    {
+     "t": "thousand",
+     "start": 32.14,
+     "end": 32.74,
+     "pic": "thousand"
+    },
+    {
+     "t": "dollars!",
+     "start": 32.74,
+     "end": 33.88
+    }
+   ],
+   "n": 7,
+   "start": 30.78,
+   "end": 33.88,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "How much is it? How much is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 34.98,
+     "end": 35.32
+    },
+    {
+     "t": "much",
+     "start": 35.32,
+     "end": 35.74
+    },
+    {
+     "t": "is",
+     "start": 35.74,
+     "end": 36.0
+    },
+    {
+     "t": "it?",
+     "start": 36.0,
+     "end": 36.26
+    },
+    {
+     "t": "How",
+     "start": 37.14,
+     "end": 37.48
+    },
+    {
+     "t": "much",
+     "start": 37.48,
+     "end": 37.88
+    },
+    {
+     "t": "is",
+     "start": 37.88,
+     "end": 38.16
+    },
+    {
+     "t": "it?",
+     "start": 38.16,
+     "end": 38.46
+    }
+   ],
+   "n": 8,
+   "start": 34.98,
+   "end": 38.46,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is about one thousand won!",
+   "words": [
+    {
+     "t": "It",
+     "start": 39.36,
+     "end": 39.66
+    },
+    {
+     "t": "is",
+     "start": 39.66,
+     "end": 40.0
+    },
+    {
+     "t": "about",
+     "start": 39.98,
+     "end": 40.42
+    },
+    {
+     "t": "one",
+     "start": 40.48,
+     "end": 40.78
+    },
+    {
+     "t": "thousand",
+     "start": 40.78,
+     "end": 41.4,
+     "pic": "thousand"
+    },
+    {
+     "t": "won!",
+     "start": 41.38,
+     "end": 41.96,
+     "pic": "won"
+    }
+   ],
+   "n": 9,
+   "start": 39.36,
+   "end": 41.96,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "How much is it? How much is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 43.06,
+     "end": 44.0
+    },
+    {
+     "t": "much",
+     "start": 44.0,
+     "end": 44.42
+    },
+    {
+     "t": "is",
+     "start": 44.42,
+     "end": 44.68
+    },
+    {
+     "t": "it?",
+     "start": 44.68,
+     "end": 45.06
+    },
+    {
+     "t": "How",
+     "start": 45.9,
+     "end": 46.22
+    },
+    {
+     "t": "much",
+     "start": 46.2,
+     "end": 46.52
+    },
+    {
+     "t": "is",
+     "start": 46.6,
+     "end": 46.92
+    },
+    {
+     "t": "it?",
+     "start": 46.92,
+     "end": 47.66
+    }
+   ],
+   "n": 10,
+   "start": 43.06,
+   "end": 47.66,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "Everything here is cheap!",
+   "words": [
+    {
+     "t": "Everything",
+     "start": 48.24,
+     "end": 48.84
+    },
+    {
+     "t": "here",
+     "start": 48.84,
+     "end": 49.6
+    },
+    {
+     "t": "is",
+     "start": 49.6,
+     "end": 50.18
+    },
+    {
+     "t": "cheap!",
+     "start": 50.18,
+     "end": 50.5,
+     "pic": "cheap"
+    }
+   ],
+   "n": 11,
+   "start": 48.24,
+   "end": 50.5,
+   "pic": "cheap"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How much is the dog food?",
+   "words": [
+    {
+     "t": "How",
+     "start": 52.46,
+     "end": 52.74
+    },
+    {
+     "t": "much",
+     "start": 52.76,
+     "end": 53.14
+    },
+    {
+     "t": "is",
+     "start": 53.18,
+     "end": 54.3
+    },
+    {
+     "t": "the",
+     "start": 54.28,
+     "end": 54.58
+    },
+    {
+     "t": "dog",
+     "start": 54.5,
+     "end": 54.92
+    },
+    {
+     "t": "food?",
+     "start": 54.92,
+     "end": 55.34
+    }
+   ],
+   "n": 12,
+   "start": 52.46,
+   "end": 55.34,
+   "pic": "cheap"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is about five thousand won!",
+   "words": [
+    {
+     "t": "It",
+     "start": 56.9,
+     "end": 57.08
+    },
+    {
+     "t": "is",
+     "start": 57.08,
+     "end": 57.38
+    },
+    {
+     "t": "about",
+     "start": 57.38,
+     "end": 57.78
+    },
+    {
+     "t": "five",
+     "start": 57.78,
+     "end": 58.22
+    },
+    {
+     "t": "thousand",
+     "start": 58.22,
+     "end": 58.76,
+     "pic": "thousand"
+    },
+    {
+     "t": "won!",
+     "start": 58.94,
+     "end": 59.34,
+     "pic": "won"
+    }
+   ],
+   "n": 13,
+   "start": 56.9,
+   "end": 59.34,
+   "pic": "thousand"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How much is the tuna?",
+   "words": [
+    {
+     "t": "How",
+     "start": 61.14,
+     "end": 61.48
+    },
+    {
+     "t": "much",
+     "start": 61.48,
+     "end": 61.86
+    },
+    {
+     "t": "is",
+     "start": 61.86,
+     "end": 63.02
+    },
+    {
+     "t": "the",
+     "start": 63.02,
+     "end": 63.26
+    },
+    {
+     "t": "tuna?",
+     "start": 63.24,
+     "end": 63.88
+    }
+   ],
+   "n": 14,
+   "start": 61.14,
+   "end": 63.88,
+   "pic": "thousand"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is about two thousand won!",
+   "words": [
+    {
+     "t": "It",
+     "start": 65.54,
+     "end": 65.84
+    },
+    {
+     "t": "is",
+     "start": 65.84,
+     "end": 66.1
+    },
+    {
+     "t": "about",
+     "start": 66.14,
+     "end": 66.56
+    },
+    {
+     "t": "two",
+     "start": 66.56,
+     "end": 66.9
+    },
+    {
+     "t": "thousand",
+     "start": 66.9,
+     "end": 67.46,
+     "pic": "thousand"
+    },
+    {
+     "t": "won!",
+     "start": 67.66,
+     "end": 68.64,
+     "pic": "won"
+    }
+   ],
+   "n": 15,
+   "start": 65.54,
+   "end": 68.64,
+   "pic": "thousand"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How much is a house in Canada?",
+   "words": [
+    {
+     "t": "How",
+     "start": 69.92,
+     "end": 70.3
+    },
+    {
+     "t": "much",
+     "start": 70.3,
+     "end": 70.64
+    },
+    {
+     "t": "is",
+     "start": 70.74,
+     "end": 71.26
+    },
+    {
+     "t": "a",
+     "start": 71.31,
+     "end": 71.41
+    },
+    {
+     "t": "house",
+     "start": 71.46,
+     "end": 71.76
+    },
+    {
+     "t": "in",
+     "start": 71.76,
+     "end": 72.12
+    },
+    {
+     "t": "Canada?",
+     "start": 72.12,
+     "end": 72.62
+    }
+   ],
+   "n": 16,
+   "start": 69.92,
+   "end": 72.62,
+   "pic": "thousand"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is very expensive!",
+   "words": [
+    {
+     "t": "It",
+     "start": 74.26,
+     "end": 74.82
+    },
+    {
+     "t": "is",
+     "start": 74.82,
+     "end": 75.24
+    },
+    {
+     "t": "very",
+     "start": 75.3,
+     "end": 75.92
+    },
+    {
+     "t": "expensive!",
+     "start": 75.92,
+     "end": 76.72
+    }
+   ],
+   "n": 17,
+   "start": 74.26,
+   "end": 76.72,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "How much is it? How much is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 78.66,
+     "end": 78.88
+    },
+    {
+     "t": "much",
+     "start": 78.9,
+     "end": 79.3
+    },
+    {
+     "t": "is",
+     "start": 79.3,
+     "end": 79.62
+    },
+    {
+     "t": "it?",
+     "start": 79.62,
+     "end": 80.02
+    },
+    {
+     "t": "How",
+     "start": 80.84,
+     "end": 81.12
+    },
+    {
+     "t": "much",
+     "start": 81.08,
+     "end": 81.48
+    },
+    {
+     "t": "is",
+     "start": 81.48,
+     "end": 81.8
+    },
+    {
+     "t": "it?",
+     "start": 81.8,
+     "end": 81.98
+    }
+   ],
+   "n": 18,
+   "start": 78.66,
+   "end": 81.98,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is about one thousand won!",
+   "words": [
+    {
+     "t": "It",
+     "start": 82.98,
+     "end": 83.26
+    },
+    {
+     "t": "is",
+     "start": 83.26,
+     "end": 83.58
+    },
+    {
+     "t": "about",
+     "start": 83.58,
+     "end": 84.02
+    },
+    {
+     "t": "one",
+     "start": 84.1,
+     "end": 84.58
+    },
+    {
+     "t": "thousand",
+     "start": 84.58,
+     "end": 85.0,
+     "pic": "thousand"
+    },
+    {
+     "t": "won!",
+     "start": 85.0,
+     "end": 85.98,
+     "pic": "won"
+    }
+   ],
+   "n": 19,
+   "start": 82.98,
+   "end": 85.98,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "How much is it? How much is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 87.34,
+     "end": 87.64
+    },
+    {
+     "t": "much",
+     "start": 87.64,
+     "end": 87.98
+    },
+    {
+     "t": "is",
+     "start": 88.02,
+     "end": 88.34
+    },
+    {
+     "t": "it?",
+     "start": 88.34,
+     "end": 88.58
+    },
+    {
+     "t": "How",
+     "start": 89.54,
+     "end": 89.82
+    },
+    {
+     "t": "much",
+     "start": 89.82,
+     "end": 90.22
+    },
+    {
+     "t": "is",
+     "start": 90.22,
+     "end": 90.58
+    },
+    {
+     "t": "it?",
+     "start": 90.58,
+     "end": 91.24
+    }
+   ],
+   "n": 20,
+   "start": 87.34,
+   "end": 91.24,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "Everything here is cheap!",
+   "words": [
+    {
+     "t": "Everything",
+     "start": 92.12,
+     "end": 92.52
+    },
+    {
+     "t": "here",
+     "start": 92.5,
+     "end": 93.3
+    },
+    {
+     "t": "is",
+     "start": 93.3,
+     "end": 93.74
+    },
+    {
+     "t": "cheap!",
+     "start": 93.74,
+     "end": 94.22,
+     "pic": "cheap"
+    }
+   ],
+   "n": 21,
+   "start": 92.12,
+   "end": 94.22,
+   "pic": "cheap"
+  },
+  {
+   "section": "Bridge",
+   "text": "Let's buy some more!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 110.5,
+     "end": 111.1
+    },
+    {
+     "t": "buy",
+     "start": 111.12,
+     "end": 111.54,
+     "pic": "buy"
+    },
+    {
+     "t": "some",
+     "start": 111.56,
+     "end": 112.07
+    },
+    {
+     "t": "more!",
+     "start": 112.09,
+     "end": 112.71
+    }
+   ],
+   "n": 22,
+   "start": 110.5,
+   "end": 112.71,
+   "pic": "buy"
+  },
+  {
+   "section": "Chorus",
+   "text": "How much is it? How much is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 121.36,
+     "end": 121.54
+    },
+    {
+     "t": "much",
+     "start": 122.42,
+     "end": 122.92
+    },
+    {
+     "t": "is",
+     "start": 122.92,
+     "end": 123.22
+    },
+    {
+     "t": "it?",
+     "start": 123.22,
+     "end": 123.56
+    },
+    {
+     "t": "How",
+     "start": 124.44,
+     "end": 124.7
+    },
+    {
+     "t": "much",
+     "start": 124.74,
+     "end": 125.08
+    },
+    {
+     "t": "is",
+     "start": 125.08,
+     "end": 125.4
+    },
+    {
+     "t": "it?",
+     "start": 125.4,
+     "end": 125.7
+    }
+   ],
+   "n": 23,
+   "start": 121.36,
+   "end": 125.7,
+   "pic": "buy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is about one thousand won!",
+   "words": [
+    {
+     "t": "It",
+     "start": 126.62,
+     "end": 126.9
+    },
+    {
+     "t": "is",
+     "start": 126.9,
+     "end": 127.2
+    },
+    {
+     "t": "about",
+     "start": 127.2,
+     "end": 127.66
+    },
+    {
+     "t": "one",
+     "start": 127.68,
+     "end": 128.18
+    },
+    {
+     "t": "thousand",
+     "start": 128.18,
+     "end": 128.66,
+     "pic": "thousand"
+    },
+    {
+     "t": "won!",
+     "start": 128.66,
+     "end": 128.76,
+     "pic": "won"
+    }
+   ],
+   "n": 24,
+   "start": 126.62,
+   "end": 128.76,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "How much is it? How much is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 130.78,
+     "end": 131.24
+    },
+    {
+     "t": "much",
+     "start": 131.24,
+     "end": 131.6
+    },
+    {
+     "t": "is",
+     "start": 131.64,
+     "end": 131.96
+    },
+    {
+     "t": "it?",
+     "start": 131.96,
+     "end": 132.28
+    },
+    {
+     "t": "How",
+     "start": 133.14,
+     "end": 133.46
+    },
+    {
+     "t": "much",
+     "start": 133.46,
+     "end": 133.86
+    },
+    {
+     "t": "is",
+     "start": 133.82,
+     "end": 134.16
+    },
+    {
+     "t": "it?",
+     "start": 134.16,
+     "end": 134.86
+    }
+   ],
+   "n": 25,
+   "start": 130.78,
+   "end": 134.86,
+   "pic": "thousand"
+  },
+  {
+   "section": "Chorus",
+   "text": "Everything here is cheap!",
+   "words": [
+    {
+     "t": "Everything",
+     "start": 135.76,
+     "end": 135.94
+    },
+    {
+     "t": "here",
+     "start": 135.94,
+     "end": 136.9
+    },
+    {
+     "t": "is",
+     "start": 136.84,
+     "end": 137.46
+    },
+    {
+     "t": "cheap!",
+     "start": 137.51,
+     "end": 137.93,
+     "pic": "cheap"
+    }
+   ],
+   "n": 26,
+   "start": 135.76,
+   "end": 137.93,
+   "pic": "cheap"
+  },
+  {
+   "section": "Outro",
+   "text": "How much is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 141.8,
+     "end": 142.12
+    },
+    {
+     "t": "much",
+     "start": 142.14,
+     "end": 142.58
+    },
+    {
+     "t": "is",
+     "start": 142.58,
+     "end": 142.94
+    },
+    {
+     "t": "it?",
+     "start": 142.94,
+     "end": 143.86
+    }
+   ],
+   "n": 27,
+   "start": 141.8,
+   "end": 143.86,
+   "pic": "cheap"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "won",
+   "prompt": "How much is it?",
+   "answer": "It is about one thousand won!",
+   "choices": [
+    "It is about one thousand won!",
+    "It is very tall!",
+    "It is Monday!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 11,
+   "prompt": "Listen. Everything here is ...",
+   "answer": "cheap",
+   "choices": [
+    "cheap",
+    "buy",
+    "thousand"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "howmuchisthis",
+   "prompt": "What do you ask?",
+   "answer": "How much is it?",
+   "choices": [
+    "How much is it?",
+    "What time is it?",
+    "Is it in your bag?"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 22,
+   "prompt": "Listen. Let's ... some more!",
+   "answer": "buy",
+   "choices": [
+    "these",
+    "buy",
+    "cheap"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "itisaboutfivehundredwon",
+   "prompt": "How much is the dog food?",
+   "answer": "It is about five thousand won!",
+   "choices": [
+    "It is about five thousand won!",
+    "It is about ten dollars!",
+    "It is very expensive!"
+   ]
+  }
+ ]
+}

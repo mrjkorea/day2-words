@@ -287,6 +287,78 @@
    "unitTitle": "What Do You Do After School?",
    "blurb": "What do you do after school? I play soccer!",
    "packId": "int2a_u8"
+  },
+  {
+   "id": "int2b_u01_a",
+   "title": "What Day Is It Today?",
+   "book": "INT 2B",
+   "unit": 1,
+   "unitTitle": "Hello, This is Pizza Land",
+   "blurb": "What day is it today? It's Monday!",
+   "packId": "int2b_u1"
+  },
+  {
+   "id": "int2b_u02_a",
+   "title": "What Time Is It Now?",
+   "book": "INT 2B",
+   "unit": 2,
+   "unitTitle": "What Time is it Now?",
+   "blurb": "What time is it now? It's time for lunch!",
+   "packId": "int2b_u2"
+  },
+  {
+   "id": "int2b_u03_b",
+   "title": "What Do You Do?",
+   "book": "INT 2B",
+   "unit": 3,
+   "unitTitle": "What Do You Want to be in the Future?",
+   "blurb": "What do you do? I am a doctor!",
+   "packId": "int2b_u3"
+  },
+  {
+   "id": "int2b_u04_a",
+   "title": "How Much Is It?",
+   "book": "INT 2B",
+   "unit": 4,
+   "unitTitle": "Welcome to Seven-Eleven",
+   "blurb": "How much is it? It is about one thousand won!",
+   "packId": "int2b_u4"
+  },
+  {
+   "id": "int2b_u05_a",
+   "title": "Somebody Stole My Bike!",
+   "book": "INT 2B",
+   "unit": 5,
+   "unitTitle": "Somebody Stole My Bike!",
+   "blurb": "Is he tall? He is very tall!",
+   "packId": "int2b_u5"
+  },
+  {
+   "id": "int2b_u06_a",
+   "title": "This Is My Math Teacher",
+   "book": "INT 2B",
+   "unit": 6,
+   "unitTitle": "Welcome to Parent's Night",
+   "blurb": "This is my math teacher! Nice to meet you!",
+   "packId": "int2b_u6"
+  },
+  {
+   "id": "int2b_u07_b",
+   "title": "Is It in Your Bag?",
+   "book": "INT 2B",
+   "unit": 7,
+   "unitTitle": "Have You Seen My Transit Card?",
+   "blurb": "Is it in your bag? Nope!",
+   "packId": "int2b_u7"
+  },
+  {
+   "id": "int2b_u08_b",
+   "title": "It Is Not Yours!",
+   "book": "INT 2B",
+   "unit": 8,
+   "unitTitle": "This is Mine!",
+   "blurb": "It is not yours! It is mine!",
+   "packId": "int2b_u8"
   }
  ]
 }

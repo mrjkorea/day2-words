@@ -1,0 +1,1187 @@
+{
+ "id": "int2b_u06_a",
+ "title": "This Is My Math Teacher",
+ "book": "INT 2B",
+ "unit": 6,
+ "unitTitle": "Welcome to Parent's Night",
+ "packId": "int2b_u6",
+ "audio": "audio/int2b_u06_a.mp3",
+ "duration": 148.51,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Welcome to Parent's Night!",
+   "words": [
+    {
+     "t": "Welcome",
+     "start": 1.38,
+     "end": 1.48
+    },
+    {
+     "t": "to",
+     "start": 4.66,
+     "end": 5.42
+    },
+    {
+     "t": "Parent's",
+     "start": 5.38,
+     "end": 5.88
+    },
+    {
+     "t": "Night!",
+     "start": 5.88,
+     "end": 6.36
+    }
+   ],
+   "n": 1,
+   "start": 1.38,
+   "end": 6.36,
+   "pic": "art"
+  },
+  {
+   "section": "Verse 1",
+   "text": "This is my English teacher, Mr. Jay!",
+   "words": [
+    {
+     "t": "This",
+     "start": 13.42,
+     "end": 13.68
+    },
+    {
+     "t": "is",
+     "start": 13.64,
+     "end": 13.88
+    },
+    {
+     "t": "my",
+     "start": 13.88,
+     "end": 14.14
+    },
+    {
+     "t": "English",
+     "start": 14.14,
+     "end": 14.76,
+     "pic": "english"
+    },
+    {
+     "t": "teacher,",
+     "start": 14.76,
+     "end": 15.3
+    },
+    {
+     "t": "Mr.",
+     "start": 15.64,
+     "end": 15.9
+    },
+    {
+     "t": "Jay!",
+     "start": 15.95,
+     "end": 16.37
+    }
+   ],
+   "n": 2,
+   "start": 13.42,
+   "end": 16.37,
+   "pic": "english"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Nice to meet you, Mr. Jay!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 17.0,
+     "end": 17.52
+    },
+    {
+     "t": "to",
+     "start": 17.46,
+     "end": 17.98
+    },
+    {
+     "t": "meet",
+     "start": 17.98,
+     "end": 18.44
+    },
+    {
+     "t": "you,",
+     "start": 18.44,
+     "end": 19.02
+    },
+    {
+     "t": "Mr.",
+     "start": 19.76,
+     "end": 20.04
+    },
+    {
+     "t": "Jay!",
+     "start": 20.54,
+     "end": 21.73
+    }
+   ],
+   "n": 3,
+   "start": 17.0,
+   "end": 21.73,
+   "pic": "english"
+  },
+  {
+   "section": "Verse 1",
+   "text": "This is my math teacher, Ms. Soohok!",
+   "words": [
+    {
+     "t": "This",
+     "start": 21.86,
+     "end": 22.32
+    },
+    {
+     "t": "is",
+     "start": 22.32,
+     "end": 22.54
+    },
+    {
+     "t": "my",
+     "start": 22.52,
+     "end": 22.78
+    },
+    {
+     "t": "math",
+     "start": 22.76,
+     "end": 23.4,
+     "pic": "math"
+    },
+    {
+     "t": "teacher,",
+     "start": 23.38,
+     "end": 24.02
+    },
+    {
+     "t": "Ms.",
+     "start": 24.34,
+     "end": 24.44
+    },
+    {
+     "t": "Soohok!",
+     "start": 24.9,
+     "end": 25.38
+    }
+   ],
+   "n": 4,
+   "start": 21.86,
+   "end": 25.38,
+   "pic": "thisismymathteacher"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 25.63,
+     "end": 26.04
+    },
+    {
+     "t": "to",
+     "start": 26.04,
+     "end": 26.54
+    },
+    {
+     "t": "meet",
+     "start": 26.54,
+     "end": 27.08
+    },
+    {
+     "t": "you!",
+     "start": 27.08,
+     "end": 27.68
+    }
+   ],
+   "n": 5,
+   "start": 25.63,
+   "end": 27.68,
+   "pic": "thisismymathteacher"
+  },
+  {
+   "section": "Verse 1",
+   "text": "This is my science teacher, Mr. Gwohok!",
+   "words": [
+    {
+     "t": "This",
+     "start": 30.36,
+     "end": 30.96
+    },
+    {
+     "t": "is",
+     "start": 30.94,
+     "end": 31.16
+    },
+    {
+     "t": "my",
+     "start": 31.16,
+     "end": 31.4
+    },
+    {
+     "t": "science",
+     "start": 31.4,
+     "end": 32.08,
+     "pic": "science"
+    },
+    {
+     "t": "teacher,",
+     "start": 32.06,
+     "end": 32.68
+    },
+    {
+     "t": "Mr.",
+     "start": 32.94,
+     "end": 33.12
+    },
+    {
+     "t": "Gwohok!",
+     "start": 33.36,
+     "end": 34.18
+    }
+   ],
+   "n": 6,
+   "start": 30.36,
+   "end": 34.18,
+   "pic": "science"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 35.36,
+     "end": 35.84
+    },
+    {
+     "t": "to",
+     "start": 35.84,
+     "end": 36.26
+    },
+    {
+     "t": "meet",
+     "start": 36.26,
+     "end": 36.92
+    },
+    {
+     "t": "you!",
+     "start": 36.92,
+     "end": 37.28
+    }
+   ],
+   "n": 7,
+   "start": 35.36,
+   "end": 37.28,
+   "pic": "science"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my teacher! Nice to meet you!",
+   "words": [
+    {
+     "t": "This",
+     "start": 38.68,
+     "end": 39.02
+    },
+    {
+     "t": "is",
+     "start": 39.02,
+     "end": 39.3
+    },
+    {
+     "t": "my",
+     "start": 39.3,
+     "end": 39.54
+    },
+    {
+     "t": "teacher!",
+     "start": 39.54,
+     "end": 40.3
+    },
+    {
+     "t": "Nice",
+     "start": 40.9,
+     "end": 41.26
+    },
+    {
+     "t": "to",
+     "start": 41.26,
+     "end": 41.68
+    },
+    {
+     "t": "meet",
+     "start": 41.7,
+     "end": 42.32
+    },
+    {
+     "t": "you!",
+     "start": 42.32,
+     "end": 42.7
+    }
+   ],
+   "n": 8,
+   "start": 38.68,
+   "end": 42.7,
+   "pic": "science"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my teacher! Nice to meet you too!",
+   "words": [
+    {
+     "t": "This",
+     "start": 42.98,
+     "end": 43.36
+    },
+    {
+     "t": "is",
+     "start": 43.34,
+     "end": 43.62
+    },
+    {
+     "t": "my",
+     "start": 43.62,
+     "end": 44.0
+    },
+    {
+     "t": "teacher!",
+     "start": 43.92,
+     "end": 44.72
+    },
+    {
+     "t": "Nice",
+     "start": 44.8,
+     "end": 45.02
+    },
+    {
+     "t": "to",
+     "start": 45.02,
+     "end": 45.24
+    },
+    {
+     "t": "meet",
+     "start": 45.24,
+     "end": 45.6
+    },
+    {
+     "t": "you",
+     "start": 45.6,
+     "end": 46.0
+    },
+    {
+     "t": "too!",
+     "start": 46.0,
+     "end": 46.56
+    }
+   ],
+   "n": 9,
+   "start": 42.98,
+   "end": 46.56,
+   "pic": "science"
+  },
+  {
+   "section": "Chorus",
+   "text": "Welcome, welcome, Parent's Night!",
+   "words": [
+    {
+     "t": "Welcome,",
+     "start": 47.36,
+     "end": 47.98
+    },
+    {
+     "t": "welcome,",
+     "start": 48.44,
+     "end": 49.2
+    },
+    {
+     "t": "Parent's",
+     "start": 49.5,
+     "end": 50.22
+    },
+    {
+     "t": "Night!",
+     "start": 50.27,
+     "end": 50.45
+    }
+   ],
+   "n": 10,
+   "start": 47.36,
+   "end": 50.45,
+   "pic": "science"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 50.54,
+     "end": 51.24
+    },
+    {
+     "t": "to",
+     "start": 52.16,
+     "end": 52.56
+    },
+    {
+     "t": "meet",
+     "start": 52.56,
+     "end": 52.96
+    },
+    {
+     "t": "you!",
+     "start": 52.86,
+     "end": 53.6
+    }
+   ],
+   "n": 11,
+   "start": 50.54,
+   "end": 53.6,
+   "pic": "science"
+  },
+  {
+   "section": "Verse 2",
+   "text": "This is my history teacher, Mrs. Yuksu!",
+   "words": [
+    {
+     "t": "This",
+     "start": 55.43,
+     "end": 56.88
+    },
+    {
+     "t": "is",
+     "start": 56.88,
+     "end": 57.08
+    },
+    {
+     "t": "my",
+     "start": 57.08,
+     "end": 57.34
+    },
+    {
+     "t": "history",
+     "start": 57.34,
+     "end": 57.92,
+     "pic": "history"
+    },
+    {
+     "t": "teacher,",
+     "start": 57.92,
+     "end": 58.52
+    },
+    {
+     "t": "Mrs.",
+     "start": 58.54,
+     "end": 59.14
+    },
+    {
+     "t": "Yuksu!",
+     "start": 59.19,
+     "end": 59.61
+    }
+   ],
+   "n": 12,
+   "start": 55.43,
+   "end": 59.61,
+   "pic": "history"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 60.1,
+     "end": 60.66
+    },
+    {
+     "t": "to",
+     "start": 60.66,
+     "end": 61.22
+    },
+    {
+     "t": "meet",
+     "start": 61.22,
+     "end": 61.68
+    },
+    {
+     "t": "you!",
+     "start": 61.68,
+     "end": 62.46
+    }
+   ],
+   "n": 13,
+   "start": 60.1,
+   "end": 62.46,
+   "pic": "history"
+  },
+  {
+   "section": "Verse 2",
+   "text": "This is my music teacher, Mr. Oommok!",
+   "words": [
+    {
+     "t": "This",
+     "start": 64.38,
+     "end": 65.48
+    },
+    {
+     "t": "is",
+     "start": 65.5,
+     "end": 65.78
+    },
+    {
+     "t": "my",
+     "start": 65.78,
+     "end": 66.08
+    },
+    {
+     "t": "music",
+     "start": 66.04,
+     "end": 66.64,
+     "pic": "music"
+    },
+    {
+     "t": "teacher,",
+     "start": 66.64,
+     "end": 67.28
+    },
+    {
+     "t": "Mr.",
+     "start": 67.44,
+     "end": 67.82
+    },
+    {
+     "t": "Oommok!",
+     "start": 68.16,
+     "end": 68.98
+    }
+   ],
+   "n": 14,
+   "start": 64.38,
+   "end": 68.98,
+   "pic": "music"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 69.02,
+     "end": 69.38
+    },
+    {
+     "t": "to",
+     "start": 69.36,
+     "end": 69.84
+    },
+    {
+     "t": "meet",
+     "start": 69.84,
+     "end": 70.36
+    },
+    {
+     "t": "you!",
+     "start": 70.34,
+     "end": 71.22
+    }
+   ],
+   "n": 15,
+   "start": 69.02,
+   "end": 71.22,
+   "pic": "music"
+  },
+  {
+   "section": "Verse 2",
+   "text": "This is my art teacher, Ms. Meesool!",
+   "words": [
+    {
+     "t": "This",
+     "start": 74.08,
+     "end": 74.2
+    },
+    {
+     "t": "is",
+     "start": 74.2,
+     "end": 74.48
+    },
+    {
+     "t": "my",
+     "start": 74.48,
+     "end": 74.74
+    },
+    {
+     "t": "art",
+     "start": 74.74,
+     "end": 75.38,
+     "pic": "art"
+    },
+    {
+     "t": "teacher,",
+     "start": 75.38,
+     "end": 75.92
+    },
+    {
+     "t": "Ms.",
+     "start": 76.36,
+     "end": 76.5
+    },
+    {
+     "t": "Meesool!",
+     "start": 76.76,
+     "end": 78.56
+    }
+   ],
+   "n": 16,
+   "start": 74.08,
+   "end": 78.56,
+   "pic": "art"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 78.6,
+     "end": 79.08
+    },
+    {
+     "t": "to",
+     "start": 79.08,
+     "end": 79.5
+    },
+    {
+     "t": "meet",
+     "start": 79.5,
+     "end": 80.08
+    },
+    {
+     "t": "you!",
+     "start": 80.08,
+     "end": 80.64
+    }
+   ],
+   "n": 17,
+   "start": 78.6,
+   "end": 80.64,
+   "pic": "art"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my teacher! Nice to meet you!",
+   "words": [
+    {
+     "t": "This",
+     "start": 81.92,
+     "end": 82.16
+    },
+    {
+     "t": "is",
+     "start": 82.28,
+     "end": 82.54
+    },
+    {
+     "t": "my",
+     "start": 82.54,
+     "end": 82.78
+    },
+    {
+     "t": "teacher!",
+     "start": 82.78,
+     "end": 83.62
+    },
+    {
+     "t": "Nice",
+     "start": 84.14,
+     "end": 84.48
+    },
+    {
+     "t": "to",
+     "start": 84.42,
+     "end": 84.92
+    },
+    {
+     "t": "meet",
+     "start": 84.96,
+     "end": 85.56
+    },
+    {
+     "t": "you!",
+     "start": 85.56,
+     "end": 85.94
+    }
+   ],
+   "n": 18,
+   "start": 81.92,
+   "end": 85.94,
+   "pic": "art"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my teacher! Nice to meet you too!",
+   "words": [
+    {
+     "t": "This",
+     "start": 86.24,
+     "end": 86.62
+    },
+    {
+     "t": "is",
+     "start": 86.56,
+     "end": 86.84
+    },
+    {
+     "t": "my",
+     "start": 86.88,
+     "end": 87.2
+    },
+    {
+     "t": "teacher!",
+     "start": 87.24,
+     "end": 88.0
+    },
+    {
+     "t": "Nice",
+     "start": 88.02,
+     "end": 88.16
+    },
+    {
+     "t": "to",
+     "start": 88.21,
+     "end": 88.35
+    },
+    {
+     "t": "meet",
+     "start": 88.42,
+     "end": 88.84
+    },
+    {
+     "t": "you",
+     "start": 88.84,
+     "end": 89.28
+    },
+    {
+     "t": "too!",
+     "start": 89.28,
+     "end": 90.14
+    }
+   ],
+   "n": 19,
+   "start": 86.24,
+   "end": 90.14,
+   "pic": "art"
+  },
+  {
+   "section": "Chorus",
+   "text": "Welcome, welcome, Parent's Night!",
+   "words": [
+    {
+     "t": "Welcome,",
+     "start": 90.56,
+     "end": 91.22
+    },
+    {
+     "t": "welcome,",
+     "start": 91.72,
+     "end": 91.84
+    },
+    {
+     "t": "Parent's",
+     "start": 92.96,
+     "end": 93.44
+    },
+    {
+     "t": "Night!",
+     "start": 93.49,
+     "end": 93.67
+    }
+   ],
+   "n": 20,
+   "start": 90.56,
+   "end": 93.67,
+   "pic": "art"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 93.76,
+     "end": 94.38
+    },
+    {
+     "t": "to",
+     "start": 95.46,
+     "end": 95.82
+    },
+    {
+     "t": "meet",
+     "start": 95.84,
+     "end": 96.1
+    },
+    {
+     "t": "you!",
+     "start": 96.16,
+     "end": 97.26
+    }
+   ],
+   "n": 21,
+   "start": 93.76,
+   "end": 97.26,
+   "pic": "art"
+  },
+  {
+   "section": "Bridge",
+   "text": "This is my gym teacher, Mr. Chaiyook!",
+   "words": [
+    {
+     "t": "This",
+     "start": 99.08,
+     "end": 99.46
+    },
+    {
+     "t": "is",
+     "start": 99.46,
+     "end": 99.7
+    },
+    {
+     "t": "my",
+     "start": 99.7,
+     "end": 100.02
+    },
+    {
+     "t": "gym",
+     "start": 100.07,
+     "end": 100.15,
+     "pic": "gym"
+    },
+    {
+     "t": "teacher,",
+     "start": 100.0,
+     "end": 100.7
+    },
+    {
+     "t": "Mr.",
+     "start": 101.94,
+     "end": 102.22
+    },
+    {
+     "t": "Chaiyook!",
+     "start": 102.27,
+     "end": 102.69
+    }
+   ],
+   "n": 22,
+   "start": 99.08,
+   "end": 102.69,
+   "pic": "gym"
+  },
+  {
+   "section": "Bridge",
+   "text": "This is my Korean teacher, Mr. Sejong!",
+   "words": [
+    {
+     "t": "This",
+     "start": 103.64,
+     "end": 104.59
+    },
+    {
+     "t": "is",
+     "start": 104.61,
+     "end": 105.24
+    },
+    {
+     "t": "my",
+     "start": 105.26,
+     "end": 105.89
+    },
+    {
+     "t": "Korean",
+     "start": 105.91,
+     "end": 107.18,
+     "pic": "korean"
+    },
+    {
+     "t": "teacher,",
+     "start": 107.2,
+     "end": 108.8
+    },
+    {
+     "t": "Mr.",
+     "start": 108.82,
+     "end": 109.61
+    },
+    {
+     "t": "Sejong!",
+     "start": 109.63,
+     "end": 111.09
+    }
+   ],
+   "n": 23,
+   "start": 103.64,
+   "end": 111.09,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my teacher! Nice to meet you!",
+   "words": [
+    {
+     "t": "This",
+     "start": 110.6,
+     "end": 110.82
+    },
+    {
+     "t": "is",
+     "start": 110.82,
+     "end": 111.02
+    },
+    {
+     "t": "my",
+     "start": 111.1,
+     "end": 112.74
+    },
+    {
+     "t": "teacher!",
+     "start": 112.74,
+     "end": 116.84
+    },
+    {
+     "t": "Nice",
+     "start": 118.6,
+     "end": 119.14
+    },
+    {
+     "t": "to",
+     "start": 119.14,
+     "end": 119.6
+    },
+    {
+     "t": "meet",
+     "start": 119.6,
+     "end": 120.2
+    },
+    {
+     "t": "you!",
+     "start": 120.2,
+     "end": 120.6
+    }
+   ],
+   "n": 24,
+   "start": 110.6,
+   "end": 120.6,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "This is my teacher! Nice to meet you too!",
+   "words": [
+    {
+     "t": "This",
+     "start": 120.7,
+     "end": 121.11
+    },
+    {
+     "t": "is",
+     "start": 121.13,
+     "end": 121.39
+    },
+    {
+     "t": "my",
+     "start": 121.41,
+     "end": 121.68
+    },
+    {
+     "t": "teacher!",
+     "start": 121.7,
+     "end": 122.39
+    },
+    {
+     "t": "Nice",
+     "start": 122.41,
+     "end": 122.82
+    },
+    {
+     "t": "to",
+     "start": 122.84,
+     "end": 123.11
+    },
+    {
+     "t": "meet",
+     "start": 123.13,
+     "end": 123.53
+    },
+    {
+     "t": "you",
+     "start": 123.55,
+     "end": 123.89
+    },
+    {
+     "t": "too!",
+     "start": 123.91,
+     "end": 124.34
+    }
+   ],
+   "n": 25,
+   "start": 120.7,
+   "end": 124.34,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "Welcome, welcome, Parent's Night!",
+   "words": [
+    {
+     "t": "Welcome,",
+     "start": 124.6,
+     "end": 125.4
+    },
+    {
+     "t": "welcome,",
+     "start": 126.18,
+     "end": 126.98
+    },
+    {
+     "t": "Parent's",
+     "start": 127.03,
+     "end": 127.45
+    },
+    {
+     "t": "Night!",
+     "start": 127.48,
+     "end": 127.9
+    }
+   ],
+   "n": 26,
+   "start": 124.6,
+   "end": 127.9,
+   "pic": "korean"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 129.34,
+     "end": 129.84
+    },
+    {
+     "t": "to",
+     "start": 129.72,
+     "end": 130.16
+    },
+    {
+     "t": "meet",
+     "start": 130.22,
+     "end": 130.58
+    },
+    {
+     "t": "you!",
+     "start": 130.58,
+     "end": 131.88
+    }
+   ],
+   "n": 27,
+   "start": 129.34,
+   "end": 131.88,
+   "pic": "korean"
+  },
+  {
+   "section": "Outro",
+   "text": "Nice to meet you too!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 133.8,
+     "end": 134.16
+    },
+    {
+     "t": "to",
+     "start": 134.18,
+     "end": 134.76
+    },
+    {
+     "t": "meet",
+     "start": 134.84,
+     "end": 136.06
+    },
+    {
+     "t": "you",
+     "start": 135.98,
+     "end": 136.9
+    },
+    {
+     "t": "too!",
+     "start": 138.0,
+     "end": 138.16
+    }
+   ],
+   "n": 28,
+   "start": 133.8,
+   "end": 138.16,
+   "pic": "korean"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "math",
+   "prompt": "This is my math teacher!",
+   "answer": "Nice to meet you!",
+   "choices": [
+    "Nice to meet you!",
+    "It is ours!",
+    "What time is it?"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 6,
+   "prompt": "Listen. Which teacher?",
+   "answer": "science",
+   "choices": [
+    "science",
+    "music",
+    "art"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "english",
+   "prompt": "Who is Mr. Jay?",
+   "answer": "This is my English teacher, Mr. Jay!",
+   "choices": [
+    "This is my English teacher, Mr. Jay!",
+    "This is my math teacher!",
+    "This is my gym teacher!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 14,
+   "prompt": "Listen. Which teacher?",
+   "answer": "music",
+   "choices": [
+    "history",
+    "music",
+    "gym"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "history",
+   "prompt": "Which teacher?",
+   "answer": "This is my history teacher!",
+   "choices": [
+    "This is my history teacher!",
+    "This is my art teacher!",
+    "This is my Korean teacher!"
+   ]
+  }
+ ]
+}

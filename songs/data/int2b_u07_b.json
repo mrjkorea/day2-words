@@ -1,0 +1,880 @@
+{
+ "id": "int2b_u07_b",
+ "title": "Is It in Your Bag?",
+ "book": "INT 2B",
+ "unit": 7,
+ "unitTitle": "Have You Seen My Transit Card?",
+ "packId": "int2b_u7",
+ "audio": "audio/int2b_u07_b.mp3",
+ "duration": 150.48,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Let's think together!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 3.58,
+     "end": 4.22
+    },
+    {
+     "t": "think",
+     "start": 4.26,
+     "end": 4.46
+    },
+    {
+     "t": "together!",
+     "start": 4.46,
+     "end": 5.44
+    }
+   ],
+   "n": 1,
+   "start": 3.58,
+   "end": 5.44,
+   "pic": "across"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Is it in your bag?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 7.82,
+     "end": 8.1
+    },
+    {
+     "t": "it",
+     "start": 8.08,
+     "end": 8.26
+    },
+    {
+     "t": "in",
+     "start": 8.26,
+     "end": 8.46
+    },
+    {
+     "t": "your",
+     "start": 8.5,
+     "end": 8.78
+    },
+    {
+     "t": "bag?",
+     "start": 8.78,
+     "end": 9.48
+    }
+   ],
+   "n": 2,
+   "start": 7.82,
+   "end": 9.48,
+   "pic": "across"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Nope!",
+   "words": [
+    {
+     "t": "Nope!",
+     "start": 9.53,
+     "end": 9.95
+    }
+   ],
+   "n": 3,
+   "start": 9.53,
+   "end": 9.95,
+   "pic": "across"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Is it on your desk?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 12.62,
+     "end": 12.76
+    },
+    {
+     "t": "it",
+     "start": 12.76,
+     "end": 12.92
+    },
+    {
+     "t": "on",
+     "start": 12.98,
+     "end": 13.22
+    },
+    {
+     "t": "your",
+     "start": 13.22,
+     "end": 13.72
+    },
+    {
+     "t": "desk?",
+     "start": 13.72,
+     "end": 14.32
+    }
+   ],
+   "n": 4,
+   "start": 12.62,
+   "end": 14.32,
+   "pic": "across"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Nope!",
+   "words": [
+    {
+     "t": "Nope!",
+     "start": 15.57,
+     "end": 16.22
+    }
+   ],
+   "n": 5,
+   "start": 15.57,
+   "end": 16.22,
+   "pic": "across"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Is it under your chair?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 17.0,
+     "end": 17.14
+    },
+    {
+     "t": "it",
+     "start": 17.12,
+     "end": 17.24
+    },
+    {
+     "t": "under",
+     "start": 17.24,
+     "end": 17.52,
+     "pic": "under"
+    },
+    {
+     "t": "your",
+     "start": 17.52,
+     "end": 17.8
+    },
+    {
+     "t": "chair?",
+     "start": 17.82,
+     "end": 18.32
+    }
+   ],
+   "n": 6,
+   "start": 17.0,
+   "end": 18.32,
+   "pic": "under"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Nope!",
+   "words": [
+    {
+     "t": "Nope!",
+     "start": 19.79,
+     "end": 20.48
+    }
+   ],
+   "n": 7,
+   "start": 19.79,
+   "end": 20.48,
+   "pic": "under"
+  },
+  {
+   "section": "Chorus",
+   "text": "In, on, under! Nope!",
+   "words": [
+    {
+     "t": "In,",
+     "start": 22.13,
+     "end": 22.62
+    },
+    {
+     "t": "on,",
+     "start": 22.64,
+     "end": 23.13
+    },
+    {
+     "t": "under!",
+     "start": 23.15,
+     "end": 23.94,
+     "pic": "under"
+    },
+    {
+     "t": "Nope!",
+     "start": 23.96,
+     "end": 24.67
+    }
+   ],
+   "n": 8,
+   "start": 22.13,
+   "end": 24.67,
+   "pic": "under"
+  },
+  {
+   "section": "Chorus",
+   "text": "In front of, behind! Nope!",
+   "words": [
+    {
+     "t": "In",
+     "start": 25.06,
+     "end": 26.32
+    },
+    {
+     "t": "front",
+     "start": 26.32,
+     "end": 26.72
+    },
+    {
+     "t": "of,",
+     "start": 26.6,
+     "end": 27.1
+    },
+    {
+     "t": "behind!",
+     "start": 27.16,
+     "end": 27.66,
+     "pic": "behind"
+    },
+    {
+     "t": "Nope!",
+     "start": 28.35,
+     "end": 28.7
+    }
+   ],
+   "n": 9,
+   "start": 25.06,
+   "end": 28.7,
+   "pic": "infrontof"
+  },
+  {
+   "section": "Chorus",
+   "text": "Next to, between!",
+   "words": [
+    {
+     "t": "Next",
+     "start": 30.56,
+     "end": 30.88
+    },
+    {
+     "t": "to,",
+     "start": 30.92,
+     "end": 31.26
+    },
+    {
+     "t": "between!",
+     "start": 31.26,
+     "end": 31.98,
+     "pic": "between"
+    }
+   ],
+   "n": 10,
+   "start": 30.56,
+   "end": 31.98,
+   "pic": "between"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have you seen it?",
+   "words": [
+    {
+     "t": "Have",
+     "start": 33.82,
+     "end": 34.1
+    },
+    {
+     "t": "you",
+     "start": 34.14,
+     "end": 34.46
+    },
+    {
+     "t": "seen",
+     "start": 34.46,
+     "end": 35.12
+    },
+    {
+     "t": "it?",
+     "start": 35.0,
+     "end": 35.42
+    }
+   ],
+   "n": 11,
+   "start": 33.82,
+   "end": 35.42,
+   "pic": "between"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is it next to your phone?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 38.22,
+     "end": 38.39
+    },
+    {
+     "t": "it",
+     "start": 38.41,
+     "end": 38.58
+    },
+    {
+     "t": "next",
+     "start": 38.6,
+     "end": 38.86
+    },
+    {
+     "t": "to",
+     "start": 38.88,
+     "end": 39.05
+    },
+    {
+     "t": "your",
+     "start": 39.07,
+     "end": 39.33
+    },
+    {
+     "t": "phone?",
+     "start": 39.35,
+     "end": 39.73
+    }
+   ],
+   "n": 12,
+   "start": 38.22,
+   "end": 39.73,
+   "pic": "between"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Nope!",
+   "words": [
+    {
+     "t": "Nope!",
+     "start": 40.11,
+     "end": 40.61
+    }
+   ],
+   "n": 13,
+   "start": 40.11,
+   "end": 40.61,
+   "pic": "between"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is it between your books?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 42.2,
+     "end": 42.43
+    },
+    {
+     "t": "it",
+     "start": 42.46,
+     "end": 42.69
+    },
+    {
+     "t": "between",
+     "start": 42.72,
+     "end": 43.24,
+     "pic": "between"
+    },
+    {
+     "t": "your",
+     "start": 43.3,
+     "end": 43.65
+    },
+    {
+     "t": "books?",
+     "start": 43.68,
+     "end": 44.15
+    }
+   ],
+   "n": 14,
+   "start": 42.2,
+   "end": 44.15,
+   "pic": "between"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Nope!",
+   "words": [
+    {
+     "t": "Nope!",
+     "start": 49.8,
+     "end": 50.34
+    }
+   ],
+   "n": 15,
+   "start": 49.8,
+   "end": 50.34,
+   "pic": "between"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is it in front of the TV?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 51.36,
+     "end": 51.48
+    },
+    {
+     "t": "it",
+     "start": 51.5,
+     "end": 51.7
+    },
+    {
+     "t": "in",
+     "start": 51.7,
+     "end": 52.0
+    },
+    {
+     "t": "front",
+     "start": 52.0,
+     "end": 52.18
+    },
+    {
+     "t": "of",
+     "start": 52.18,
+     "end": 52.38
+    },
+    {
+     "t": "the",
+     "start": 52.38,
+     "end": 52.6
+    },
+    {
+     "t": "TV?",
+     "start": 52.6,
+     "end": 53.0
+    }
+   ],
+   "n": 16,
+   "start": 50.44,
+   "end": 54.64,
+   "pic": "infrontof"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Nope!",
+   "words": [
+    {
+     "t": "Nope!",
+     "start": 54.09,
+     "end": 54.69
+    }
+   ],
+   "n": 17,
+   "start": 54.09,
+   "end": 54.69,
+   "pic": "infrontof"
+  },
+  {
+   "section": "Chorus",
+   "text": "In, on, under! Nope!",
+   "words": [
+    {
+     "t": "In,",
+     "start": 56.91,
+     "end": 57.09
+    },
+    {
+     "t": "on,",
+     "start": 57.26,
+     "end": 57.86
+    },
+    {
+     "t": "under!",
+     "start": 57.88,
+     "end": 58.8,
+     "pic": "under"
+    },
+    {
+     "t": "Nope!",
+     "start": 58.85,
+     "end": 59.27
+    }
+   ],
+   "n": 18,
+   "start": 56.91,
+   "end": 59.27,
+   "pic": "under"
+  },
+  {
+   "section": "Chorus",
+   "text": "In front of, behind! Nope!",
+   "words": [
+    {
+     "t": "In",
+     "start": 60.9,
+     "end": 61.12
+    },
+    {
+     "t": "front",
+     "start": 61.12,
+     "end": 61.52
+    },
+    {
+     "t": "of,",
+     "start": 61.52,
+     "end": 61.98
+    },
+    {
+     "t": "behind!",
+     "start": 61.98,
+     "end": 62.86,
+     "pic": "behind"
+    },
+    {
+     "t": "Nope!",
+     "start": 65.15,
+     "end": 65.33
+    }
+   ],
+   "n": 19,
+   "start": 60.9,
+   "end": 65.33,
+   "pic": "infrontof"
+  },
+  {
+   "section": "Chorus",
+   "text": "Next to, between!",
+   "words": [
+    {
+     "t": "Next",
+     "start": 65.34,
+     "end": 65.72
+    },
+    {
+     "t": "to,",
+     "start": 65.72,
+     "end": 66.06
+    },
+    {
+     "t": "between!",
+     "start": 66.06,
+     "end": 66.16,
+     "pic": "between"
+    }
+   ],
+   "n": 20,
+   "start": 65.34,
+   "end": 66.16,
+   "pic": "between"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have you seen it?",
+   "words": [
+    {
+     "t": "Have",
+     "start": 68.62,
+     "end": 68.96
+    },
+    {
+     "t": "you",
+     "start": 68.96,
+     "end": 69.26
+    },
+    {
+     "t": "seen",
+     "start": 69.26,
+     "end": 69.8
+    },
+    {
+     "t": "it?",
+     "start": 69.8,
+     "end": 70.18
+    }
+   ],
+   "n": 21,
+   "start": 68.62,
+   "end": 70.18,
+   "pic": "between"
+  },
+  {
+   "section": "Bridge",
+   "text": "Have you seen my transit card?",
+   "words": [
+    {
+     "t": "Have",
+     "start": 92.4,
+     "end": 92.94
+    },
+    {
+     "t": "you",
+     "start": 93.0,
+     "end": 93.45
+    },
+    {
+     "t": "seen",
+     "start": 93.5,
+     "end": 94.04
+    },
+    {
+     "t": "my",
+     "start": 94.1,
+     "end": 94.46
+    },
+    {
+     "t": "transit",
+     "start": 94.5,
+     "end": 95.31
+    },
+    {
+     "t": "card?",
+     "start": 95.4,
+     "end": 96.03
+    }
+   ],
+   "n": 22,
+   "start": 92.4,
+   "end": 96.03,
+   "pic": "transitcard"
+  },
+  {
+   "section": "Bridge",
+   "text": "Sorry, but no!",
+   "words": [
+    {
+     "t": "Sorry,",
+     "start": 101.02,
+     "end": 101.66
+    },
+    {
+     "t": "but",
+     "start": 101.94,
+     "end": 102.08
+    },
+    {
+     "t": "no!",
+     "start": 102.08,
+     "end": 103.34
+    }
+   ],
+   "n": 23,
+   "start": 101.02,
+   "end": 103.34,
+   "pic": "transitcard"
+  },
+  {
+   "section": "Chorus",
+   "text": "In, on, under! Nope!",
+   "words": [
+    {
+     "t": "In,",
+     "start": 108.93,
+     "end": 109.35
+    },
+    {
+     "t": "on,",
+     "start": 109.38,
+     "end": 109.8
+    },
+    {
+     "t": "under!",
+     "start": 109.86,
+     "end": 110.72,
+     "pic": "under"
+    },
+    {
+     "t": "Nope!",
+     "start": 110.77,
+     "end": 110.98
+    }
+   ],
+   "n": 24,
+   "start": 108.93,
+   "end": 110.98,
+   "pic": "under"
+  },
+  {
+   "section": "Chorus",
+   "text": "In front of, behind! Nope!",
+   "words": [
+    {
+     "t": "In",
+     "start": 111.08,
+     "end": 113.02
+    },
+    {
+     "t": "front",
+     "start": 113.02,
+     "end": 113.54
+    },
+    {
+     "t": "of,",
+     "start": 113.54,
+     "end": 114.0
+    },
+    {
+     "t": "behind!",
+     "start": 114.0,
+     "end": 114.82,
+     "pic": "behind"
+    },
+    {
+     "t": "Nope!",
+     "start": 114.87,
+     "end": 115.29
+    }
+   ],
+   "n": 25,
+   "start": 111.08,
+   "end": 115.29,
+   "pic": "infrontof"
+  },
+  {
+   "section": "Chorus",
+   "text": "Next to, between!",
+   "words": [
+    {
+     "t": "Next",
+     "start": 117.4,
+     "end": 117.74
+    },
+    {
+     "t": "to,",
+     "start": 117.72,
+     "end": 118.04
+    },
+    {
+     "t": "between!",
+     "start": 118.04,
+     "end": 118.84,
+     "pic": "between"
+    }
+   ],
+   "n": 26,
+   "start": 117.4,
+   "end": 118.84,
+   "pic": "between"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have you seen it?",
+   "words": [
+    {
+     "t": "Have",
+     "start": 120.58,
+     "end": 120.92
+    },
+    {
+     "t": "you",
+     "start": 120.92,
+     "end": 121.24
+    },
+    {
+     "t": "seen",
+     "start": 121.24,
+     "end": 121.78
+    },
+    {
+     "t": "it?",
+     "start": 121.76,
+     "end": 122.22
+    }
+   ],
+   "n": 27,
+   "start": 120.58,
+   "end": 122.22,
+   "pic": "between"
+  },
+  {
+   "section": "Outro",
+   "text": "Is it in your bag?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 129.22,
+     "end": 129.45
+    },
+    {
+     "t": "it",
+     "start": 129.47,
+     "end": 129.7
+    },
+    {
+     "t": "in",
+     "start": 129.72,
+     "end": 129.95
+    },
+    {
+     "t": "your",
+     "start": 129.97,
+     "end": 130.32
+    },
+    {
+     "t": "bag?",
+     "start": 130.34,
+     "end": 130.72
+    }
+   ],
+   "n": 28,
+   "start": 129.22,
+   "end": 130.72,
+   "pic": "between"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "pocket",
+   "prompt": "Is it in your bag?",
+   "answer": "Nope!",
+   "choices": [
+    "Nope!",
+    "It is ours!",
+    "Nice to meet you!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 6,
+   "prompt": "Listen. Is it ... your chair?",
+   "answer": "under",
+   "choices": [
+    "under",
+    "behind",
+    "between"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "infrontof",
+   "prompt": "Where is it?",
+   "answer": "in front of",
+   "choices": [
+    "in front of",
+    "next to",
+    "under"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 12,
+   "prompt": "Listen. Is it ... your phone?",
+   "answer": "nextto",
+   "choices": [
+    "across",
+    "nextto",
+    "under"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "transitcard",
+   "prompt": "What do you ask?",
+   "answer": "Have you seen my transit card?",
+   "choices": [
+    "Have you seen my transit card?",
+    "How much is it?",
+    "What do you do?"
+   ]
+  }
+ ]
+}

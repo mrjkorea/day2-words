@@ -1,0 +1,982 @@
+{
+ "id": "int2b_u05_a",
+ "title": "Somebody Stole My Bike!",
+ "book": "INT 2B",
+ "unit": 5,
+ "unitTitle": "Somebody Stole My Bike!",
+ "packId": "int2b_u5",
+ "audio": "audio/int2b_u05_a.mp3",
+ "duration": 149.83,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Help! Somebody stole my bike!",
+   "words": [
+    {
+     "t": "Help!",
+     "start": 7.8,
+     "end": 9.5
+    },
+    {
+     "t": "Somebody",
+     "start": 10.74,
+     "end": 11.42
+    },
+    {
+     "t": "stole",
+     "start": 11.42,
+     "end": 12.14
+    },
+    {
+     "t": "my",
+     "start": 12.16,
+     "end": 12.42
+    },
+    {
+     "t": "bike!",
+     "start": 12.42,
+     "end": 12.78
+    }
+   ],
+   "n": 1,
+   "start": 7.8,
+   "end": 12.78,
+   "pic": "fat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What did he look like?",
+   "words": [
+    {
+     "t": "What",
+     "start": 13.84,
+     "end": 14.08
+    },
+    {
+     "t": "did",
+     "start": 14.08,
+     "end": 14.4
+    },
+    {
+     "t": "he",
+     "start": 14.4,
+     "end": 14.58
+    },
+    {
+     "t": "look",
+     "start": 14.58,
+     "end": 14.86
+    },
+    {
+     "t": "like?",
+     "start": 14.86,
+     "end": 15.38
+    }
+   ],
+   "n": 2,
+   "start": 13.84,
+   "end": 15.38,
+   "pic": "fat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I don't know!",
+   "words": [
+    {
+     "t": "I",
+     "start": 16.26,
+     "end": 16.58
+    },
+    {
+     "t": "don't",
+     "start": 16.58,
+     "end": 16.82
+    },
+    {
+     "t": "know!",
+     "start": 16.82,
+     "end": 17.3
+    }
+   ],
+   "n": 3,
+   "start": 16.26,
+   "end": 17.3,
+   "pic": "fat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Is he tall?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 18.08,
+     "end": 18.26
+    },
+    {
+     "t": "he",
+     "start": 18.26,
+     "end": 18.5
+    },
+    {
+     "t": "tall?",
+     "start": 18.48,
+     "end": 18.93,
+     "pic": "tall"
+    }
+   ],
+   "n": 4,
+   "start": 18.08,
+   "end": 18.93,
+   "pic": "tall"
+  },
+  {
+   "section": "Verse 1",
+   "text": "He is very tall!",
+   "words": [
+    {
+     "t": "He",
+     "start": 20.03,
+     "end": 20.4
+    },
+    {
+     "t": "is",
+     "start": 20.42,
+     "end": 20.7
+    },
+    {
+     "t": "very",
+     "start": 20.7,
+     "end": 21.04
+    },
+    {
+     "t": "tall!",
+     "start": 21.04,
+     "end": 21.78,
+     "pic": "tall"
+    }
+   ],
+   "n": 5,
+   "start": 20.03,
+   "end": 21.78,
+   "pic": "tall"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Is he thin?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 22.84,
+     "end": 23.1
+    },
+    {
+     "t": "he",
+     "start": 23.1,
+     "end": 23.28
+    },
+    {
+     "t": "thin?",
+     "start": 23.28,
+     "end": 23.7,
+     "pic": "thin"
+    }
+   ],
+   "n": 6,
+   "start": 22.84,
+   "end": 23.7,
+   "pic": "thin"
+  },
+  {
+   "section": "Verse 1",
+   "text": "He is very thin!",
+   "words": [
+    {
+     "t": "He",
+     "start": 24.51,
+     "end": 24.76
+    },
+    {
+     "t": "is",
+     "start": 24.76,
+     "end": 25.04
+    },
+    {
+     "t": "very",
+     "start": 25.1,
+     "end": 25.44
+    },
+    {
+     "t": "thin!",
+     "start": 25.44,
+     "end": 25.92,
+     "pic": "thin"
+    }
+   ],
+   "n": 7,
+   "start": 24.51,
+   "end": 25.92,
+   "pic": "thin"
+  },
+  {
+   "section": "Chorus",
+   "text": "Somebody stole my bike! Oh no!",
+   "words": [
+    {
+     "t": "Somebody",
+     "start": 26.76,
+     "end": 27.87
+    },
+    {
+     "t": "stole",
+     "start": 27.89,
+     "end": 28.66
+    },
+    {
+     "t": "my",
+     "start": 28.68,
+     "end": 29.11
+    },
+    {
+     "t": "bike!",
+     "start": 29.13,
+     "end": 29.9
+    },
+    {
+     "t": "Oh",
+     "start": 29.92,
+     "end": 30.36
+    },
+    {
+     "t": "no!",
+     "start": 30.38,
+     "end": 30.94
+    }
+   ],
+   "n": 8,
+   "start": 26.76,
+   "end": 30.94,
+   "pic": "thin"
+  },
+  {
+   "section": "Chorus",
+   "text": "Somebody stole my bike! Oh no!",
+   "words": [
+    {
+     "t": "Somebody",
+     "start": 31.28,
+     "end": 32.42
+    },
+    {
+     "t": "stole",
+     "start": 32.42,
+     "end": 33.12
+    },
+    {
+     "t": "my",
+     "start": 33.12,
+     "end": 33.84
+    },
+    {
+     "t": "bike!",
+     "start": 33.84,
+     "end": 34.38
+    },
+    {
+     "t": "Oh",
+     "start": 34.43,
+     "end": 34.71
+    },
+    {
+     "t": "no!",
+     "start": 34.84,
+     "end": 35.52
+    }
+   ],
+   "n": 9,
+   "start": 31.28,
+   "end": 35.52,
+   "pic": "thin"
+  },
+  {
+   "section": "Chorus",
+   "text": "What did he look like?",
+   "words": [
+    {
+     "t": "What",
+     "start": 36.16,
+     "end": 36.48
+    },
+    {
+     "t": "did",
+     "start": 36.6,
+     "end": 37.08
+    },
+    {
+     "t": "he",
+     "start": 37.08,
+     "end": 37.56
+    },
+    {
+     "t": "look",
+     "start": 37.56,
+     "end": 38.04
+    },
+    {
+     "t": "like?",
+     "start": 38.04,
+     "end": 39.24
+    }
+   ],
+   "n": 10,
+   "start": 36.16,
+   "end": 39.24,
+   "pic": "thin"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is very tall!",
+   "words": [
+    {
+     "t": "He",
+     "start": 40.14,
+     "end": 40.46
+    },
+    {
+     "t": "is",
+     "start": 40.46,
+     "end": 40.92
+    },
+    {
+     "t": "very",
+     "start": 40.92,
+     "end": 41.64
+    },
+    {
+     "t": "tall!",
+     "start": 41.64,
+     "end": 42.88,
+     "pic": "tall"
+    }
+   ],
+   "n": 11,
+   "start": 40.14,
+   "end": 42.88,
+   "pic": "tall"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is he young?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 44.22,
+     "end": 44.44
+    },
+    {
+     "t": "he",
+     "start": 44.44,
+     "end": 44.7
+    },
+    {
+     "t": "young?",
+     "start": 44.7,
+     "end": 45.08,
+     "pic": "young"
+    }
+   ],
+   "n": 12,
+   "start": 44.22,
+   "end": 45.08,
+   "pic": "young"
+  },
+  {
+   "section": "Verse 2",
+   "text": "He is very young!",
+   "words": [
+    {
+     "t": "He",
+     "start": 48.58,
+     "end": 48.82
+    },
+    {
+     "t": "is",
+     "start": 48.82,
+     "end": 49.1
+    },
+    {
+     "t": "very",
+     "start": 49.1,
+     "end": 49.4
+    },
+    {
+     "t": "young!",
+     "start": 49.4,
+     "end": 50.0,
+     "pic": "young"
+    }
+   ],
+   "n": 13,
+   "start": 48.58,
+   "end": 50.0,
+   "pic": "young"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is he ugly?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 51.22,
+     "end": 51.5
+    },
+    {
+     "t": "he",
+     "start": 51.5,
+     "end": 51.68
+    },
+    {
+     "t": "ugly?",
+     "start": 51.68,
+     "end": 52.18,
+     "pic": "ugly"
+    }
+   ],
+   "n": 14,
+   "start": 51.22,
+   "end": 52.18,
+   "pic": "ugly"
+  },
+  {
+   "section": "Verse 2",
+   "text": "He is very good-looking!",
+   "words": [
+    {
+     "t": "He",
+     "start": 52.86,
+     "end": 53.32
+    },
+    {
+     "t": "is",
+     "start": 53.32,
+     "end": 55.02
+    },
+    {
+     "t": "very",
+     "start": 55.02,
+     "end": 55.5
+    },
+    {
+     "t": "good-looking!",
+     "start": 55.55,
+     "end": 55.97,
+     "pic": "goodlooking"
+    }
+   ],
+   "n": 15,
+   "start": 52.86,
+   "end": 55.97,
+   "pic": "goodlooking"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is he rich?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 57.88,
+     "end": 58.02
+    },
+    {
+     "t": "he",
+     "start": 58.02,
+     "end": 58.26
+    },
+    {
+     "t": "rich?",
+     "start": 58.24,
+     "end": 58.7,
+     "pic": "rich"
+    }
+   ],
+   "n": 16,
+   "start": 57.88,
+   "end": 58.7,
+   "pic": "rich"
+  },
+  {
+   "section": "Verse 2",
+   "text": "No, he is not rich!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 59.44,
+     "end": 59.72
+    },
+    {
+     "t": "he",
+     "start": 59.76,
+     "end": 59.94
+    },
+    {
+     "t": "is",
+     "start": 59.96,
+     "end": 60.18
+    },
+    {
+     "t": "not",
+     "start": 60.18,
+     "end": 60.44
+    },
+    {
+     "t": "rich!",
+     "start": 60.44,
+     "end": 60.92,
+     "pic": "rich"
+    }
+   ],
+   "n": 17,
+   "start": 59.44,
+   "end": 60.92,
+   "pic": "rich"
+  },
+  {
+   "section": "Chorus",
+   "text": "Somebody stole my bike! Oh no!",
+   "words": [
+    {
+     "t": "Somebody",
+     "start": 62.68,
+     "end": 62.88
+    },
+    {
+     "t": "stole",
+     "start": 62.88,
+     "end": 63.7
+    },
+    {
+     "t": "my",
+     "start": 63.7,
+     "end": 64.48
+    },
+    {
+     "t": "bike!",
+     "start": 64.48,
+     "end": 65.0
+    },
+    {
+     "t": "Oh",
+     "start": 65.05,
+     "end": 65.29
+    },
+    {
+     "t": "no!",
+     "start": 65.4,
+     "end": 65.7
+    }
+   ],
+   "n": 18,
+   "start": 62.68,
+   "end": 65.7,
+   "pic": "rich"
+  },
+  {
+   "section": "Chorus",
+   "text": "Somebody stole my bike! Oh no!",
+   "words": [
+    {
+     "t": "Somebody",
+     "start": 66.12,
+     "end": 66.7
+    },
+    {
+     "t": "stole",
+     "start": 66.7,
+     "end": 67.94
+    },
+    {
+     "t": "my",
+     "start": 67.94,
+     "end": 68.78
+    },
+    {
+     "t": "bike!",
+     "start": 68.78,
+     "end": 69.52
+    },
+    {
+     "t": "Oh",
+     "start": 69.57,
+     "end": 69.65
+    },
+    {
+     "t": "no!",
+     "start": 69.62,
+     "end": 70.14
+    }
+   ],
+   "n": 19,
+   "start": 66.12,
+   "end": 70.14,
+   "pic": "rich"
+  },
+  {
+   "section": "Chorus",
+   "text": "What did he look like?",
+   "words": [
+    {
+     "t": "What",
+     "start": 71.04,
+     "end": 71.3
+    },
+    {
+     "t": "did",
+     "start": 71.3,
+     "end": 71.96
+    },
+    {
+     "t": "he",
+     "start": 71.94,
+     "end": 72.46
+    },
+    {
+     "t": "look",
+     "start": 72.48,
+     "end": 72.96
+    },
+    {
+     "t": "like?",
+     "start": 72.96,
+     "end": 74.24
+    }
+   ],
+   "n": 20,
+   "start": 71.04,
+   "end": 74.24,
+   "pic": "rich"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is very tall!",
+   "words": [
+    {
+     "t": "He",
+     "start": 74.76,
+     "end": 75.22
+    },
+    {
+     "t": "is",
+     "start": 75.16,
+     "end": 75.78
+    },
+    {
+     "t": "very",
+     "start": 75.81,
+     "end": 76.58
+    },
+    {
+     "t": "tall!",
+     "start": 76.58,
+     "end": 77.44,
+     "pic": "tall"
+    }
+   ],
+   "n": 21,
+   "start": 74.76,
+   "end": 77.44,
+   "pic": "tall"
+  },
+  {
+   "section": "Bridge",
+   "text": "Oh wait!",
+   "words": [
+    {
+     "t": "Oh",
+     "start": 87.34,
+     "end": 89.74
+    },
+    {
+     "t": "wait!",
+     "start": 89.79,
+     "end": 90.21
+    }
+   ],
+   "n": 22,
+   "start": 87.34,
+   "end": 90.21,
+   "pic": "tall"
+  },
+  {
+   "section": "Bridge",
+   "text": "I think he is a she!",
+   "words": [
+    {
+     "t": "I",
+     "start": 92.72,
+     "end": 93.16
+    },
+    {
+     "t": "think",
+     "start": 93.16,
+     "end": 93.74
+    },
+    {
+     "t": "he",
+     "start": 93.74,
+     "end": 94.3
+    },
+    {
+     "t": "is",
+     "start": 94.3,
+     "end": 94.86
+    },
+    {
+     "t": "a",
+     "start": 94.86,
+     "end": 95.24
+    },
+    {
+     "t": "she!",
+     "start": 95.29,
+     "end": 95.71
+    }
+   ],
+   "n": 23,
+   "start": 92.72,
+   "end": 95.71,
+   "pic": "tall"
+  },
+  {
+   "section": "Chorus",
+   "text": "Somebody stole my bike! Oh no!",
+   "words": [
+    {
+     "t": "Somebody",
+     "start": 97.64,
+     "end": 98.49
+    },
+    {
+     "t": "stole",
+     "start": 98.51,
+     "end": 99.1
+    },
+    {
+     "t": "my",
+     "start": 99.12,
+     "end": 99.45
+    },
+    {
+     "t": "bike!",
+     "start": 99.47,
+     "end": 100.06
+    },
+    {
+     "t": "Oh",
+     "start": 100.08,
+     "end": 100.4
+    },
+    {
+     "t": "no!",
+     "start": 100.42,
+     "end": 100.86
+    }
+   ],
+   "n": 24,
+   "start": 97.64,
+   "end": 100.86,
+   "pic": "tall"
+  },
+  {
+   "section": "Chorus",
+   "text": "Somebody stole my bike! Oh no!",
+   "words": [
+    {
+     "t": "Somebody",
+     "start": 101.24,
+     "end": 102.34
+    },
+    {
+     "t": "stole",
+     "start": 102.34,
+     "end": 102.86
+    },
+    {
+     "t": "my",
+     "start": 102.86,
+     "end": 103.86
+    },
+    {
+     "t": "bike!",
+     "start": 103.64,
+     "end": 104.2
+    },
+    {
+     "t": "Oh",
+     "start": 104.6,
+     "end": 104.68
+    },
+    {
+     "t": "no!",
+     "start": 104.68,
+     "end": 105.04
+    }
+   ],
+   "n": 25,
+   "start": 101.24,
+   "end": 105.04,
+   "pic": "tall"
+  },
+  {
+   "section": "Chorus",
+   "text": "What did he look like?",
+   "words": [
+    {
+     "t": "What",
+     "start": 105.86,
+     "end": 106.24
+    },
+    {
+     "t": "did",
+     "start": 106.3,
+     "end": 106.8
+    },
+    {
+     "t": "he",
+     "start": 106.88,
+     "end": 107.34
+    },
+    {
+     "t": "look",
+     "start": 107.34,
+     "end": 107.8
+    },
+    {
+     "t": "like?",
+     "start": 107.8,
+     "end": 109.05
+    }
+   ],
+   "n": 26,
+   "start": 105.86,
+   "end": 109.05,
+   "pic": "tall"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is very tall!",
+   "words": [
+    {
+     "t": "He",
+     "start": 109.68,
+     "end": 109.88
+    },
+    {
+     "t": "is",
+     "start": 109.98,
+     "end": 110.7
+    },
+    {
+     "t": "very",
+     "start": 110.7,
+     "end": 111.48
+    },
+    {
+     "t": "tall!",
+     "start": 111.48,
+     "end": 112.9,
+     "pic": "tall"
+    }
+   ],
+   "n": 27,
+   "start": 109.68,
+   "end": 112.9,
+   "pic": "tall"
+  },
+  {
+   "section": "Outro",
+   "text": "Somebody stole my bike!",
+   "words": [
+    {
+     "t": "Somebody",
+     "start": 128.45,
+     "end": 132.3
+    },
+    {
+     "t": "stole",
+     "start": 132.3,
+     "end": 132.9
+    },
+    {
+     "t": "my",
+     "start": 132.9,
+     "end": 133.44
+    },
+    {
+     "t": "bike!",
+     "start": 133.44,
+     "end": 134.98
+    }
+   ],
+   "n": 28,
+   "start": 128.45,
+   "end": 134.98,
+   "pic": "tall"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "tall",
+   "prompt": "Is he tall?",
+   "answer": "He is very tall!",
+   "choices": [
+    "He is very tall!",
+    "He is very thin!",
+    "He is very young!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 7,
+   "prompt": "Listen. He is very ...",
+   "answer": "thin",
+   "choices": [
+    "thin",
+    "fat",
+    "old"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "young",
+   "prompt": "Is he young?",
+   "answer": "He is very young!",
+   "choices": [
+    "He is very old!",
+    "He is very young!",
+    "He is very rich!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 15,
+   "prompt": "Listen. He is very ...",
+   "answer": "goodlooking",
+   "choices": [
+    "ugly",
+    "goodlooking",
+    "smart"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "rich",
+   "prompt": "Is he rich?",
+   "answer": "No, he is not rich!",
+   "choices": [
+    "No, he is not rich!",
+    "Yes, it is his!",
+    "Nope!"
+   ]
+  }
+ ]
+}
