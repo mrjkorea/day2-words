@@ -480,6 +480,30 @@
   "title": "INT 3A · Unit 8 · Introduction"
  },
  {
+  "id": "int3a_mid1",
+  "book": "int3a",
+  "n": 101,
+  "kind": "review",
+  "label": "Review 1-4",
+  "title": "INT 3A · Review Units 1-4"
+ },
+ {
+  "id": "int3a_mid2",
+  "book": "int3a",
+  "n": 102,
+  "kind": "review",
+  "label": "Review 5-8",
+  "title": "INT 3A · Review Units 5-8"
+ },
+ {
+  "id": "int3a_final",
+  "book": "int3a",
+  "n": 103,
+  "kind": "review",
+  "label": "Final Review",
+  "title": "INT 3A · Final Review Units 1-8"
+ },
+ {
   "id": "int3b_u1",
   "book": "int3b",
   "n": 1,
