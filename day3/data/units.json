@@ -336,6 +336,30 @@
   "title": "INT 2B · Unit 8 · This is Mine!"
  },
  {
+  "id": "int2b_mid1",
+  "book": "int2b",
+  "n": 101,
+  "kind": "review",
+  "label": "Review 1-4",
+  "title": "INT 2B · Review Units 1-4"
+ },
+ {
+  "id": "int2b_mid2",
+  "book": "int2b",
+  "n": 102,
+  "kind": "review",
+  "label": "Review 5-8",
+  "title": "INT 2B · Review Units 5-8"
+ },
+ {
+  "id": "int2b_final",
+  "book": "int2b",
+  "n": 103,
+  "kind": "review",
+  "label": "Final Review",
+  "title": "INT 2B · Final Review Units 1-8"
+ },
+ {
   "id": "int2c_u1",
   "book": "int2c",
   "n": 1,

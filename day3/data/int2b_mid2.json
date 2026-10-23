@@ -1,0 +1,654 @@
+{
+ "id": "int2b_mid2",
+ "kind": "review",
+ "title": "INT 2B · Review Units 5-8",
+ "passPercent": 80,
+ "units": [
+  "int2b_u5",
+  "int2b_u6",
+  "int2b_u7",
+  "int2b_u8"
+ ],
+ "wordAudio": "../packs/int2b_u5/audio/us_f/",
+ "picDir": "../packs/int2b_u5/",
+ "lineAudio": "audio/int2b_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "outside",
+   "choices": [
+    "outside",
+    "across",
+    "nextto",
+    "transitcard"
+   ],
+   "unit": "int2b_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "science",
+   "audio": "audio/int2b_u6/{v}/thisismyscienceteacher.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "science",
+    "teacher."
+   ],
+   "unit": "int2b_u6"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "hers",
+   "audio": "audio/int2b_u8/{v}/itishers.mp3",
+   "answer": [
+    "It",
+    "is",
+    "hers."
+   ],
+   "unit": "int2b_u8"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "science",
+   "answer": "science",
+   "choices": [
+    "science",
+    "sciense",
+    "scionce",
+    "scienc"
+   ],
+   "unit": "int2b_u6"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "short",
+   "answer": "short",
+   "choices": [
+    "short",
+    "sport",
+    "lhort",
+    "shot"
+   ],
+   "unit": "int2b_u5"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "hers",
+   "answer": "hers",
+   "choices": [
+    "hers",
+    "hrs",
+    "rers",
+    "heps"
+   ],
+   "unit": "int2b_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "pencilcase",
+   "audio": "audio/int2b_u7/{v}/itisinmypencilcase.mp3",
+   "answer": [
+    "It",
+    "is",
+    "in",
+    "my",
+    "pencil",
+    "case."
+   ],
+   "unit": "int2b_u7"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2b_u6",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2b_u6/{v}/whoisthis.mp3"
+   },
+   "pic": "../packs/int2b_u6/math.jpg",
+   "choices": [
+    "This is my gym teacher.",
+    "This is my math teacher."
+   ],
+   "answer": "This is my math teacher.",
+   "aud": {
+    "This is my gym teacher.": "audio/int2b_u6/ai/thisismygymteacher.mp3",
+    "This is my math teacher.": "audio/int2b_u6/ai/thisismymathteacher.mp3"
+   }
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "yours",
+   "audio": "audio/int2b_u8/{v}/itisyours.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "yours",
+   "choices": [
+    "yours",
+    "hers",
+    "his"
+   ],
+   "unit": "int2b_u8"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "math",
+   "choices": [
+    "math",
+    "english",
+    "art",
+    "socialstudies"
+   ],
+   "unit": "int2b_u6"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "old",
+   "choices": [
+    "old",
+    "young",
+    "fat",
+    "smart"
+   ],
+   "unit": "int2b_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "under",
+   "audio": "audio/int2b_u7/{v}/itisunderthedesk.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "the",
+    "desk."
+   ],
+   "answer": "under",
+   "choices": [
+    "under",
+    "outside",
+    "across"
+   ],
+   "unit": "int2b_u7"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2b_u5",
+   "q": {
+    "text": "What does he look like?",
+    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
+   },
+   "pic": "../packs/int2b_u5/tall.jpg",
+   "choices": [
+    "He is good-looking.",
+    "He is tall."
+   ],
+   "answer": "He is tall.",
+   "aud": {
+    "He is good-looking.": "audio/int2b_u5/ai/heisgoodlooking.mp3",
+    "He is tall.": "audio/int2b_u5/ai/heistall.mp3"
+   }
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2b_u7",
+   "q": {
+    "text": "Where is it?",
+    "audio": "audio/int2b_u7/{v}/whereisit.mp3"
+   },
+   "pic": "../packs/int2b_u7/under.jpg",
+   "choices": [
+    "It is under the desk.",
+    "It is in my pocket."
+   ],
+   "answer": "It is under the desk.",
+   "aud": {
+    "It is under the desk.": "audio/int2b_u7/ai/itisunderthedesk.mp3",
+    "It is in my pocket.": "audio/int2b_u7/ai/itisinmypocket.mp3"
+   }
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "thin",
+   "audio": "audio/int2b_u5/{v}/heisthin.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "thin",
+   "choices": [
+    "thin",
+    "good-looking",
+    "rich"
+   ],
+   "unit": "int2b_u5"
+  }
+ ],
+ "words": [
+  {
+   "id": "smart",
+   "en": "smart",
+   "ko": "똑똑한",
+   "pic": "../packs/int2b_u5/smart.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/smart.mp3",
+   "stext": "He is smart.",
+   "sentence": "audio/int2b_u5/{v}/heissmart.mp3"
+  },
+  {
+   "id": "fat",
+   "en": "fat",
+   "ko": "뚱뚱한",
+   "pic": "../packs/int2b_u5/fat.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/fat.mp3",
+   "stext": "He is fat.",
+   "sentence": "audio/int2b_u5/{v}/heisfat.mp3"
+  },
+  {
+   "id": "tall",
+   "en": "tall",
+   "ko": "키가 큰",
+   "pic": "../packs/int2b_u5/tall.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/tall.mp3",
+   "stext": "He is tall.",
+   "sentence": "audio/int2b_u5/{v}/heistall.mp3"
+  },
+  {
+   "id": "short",
+   "en": "short",
+   "ko": "키가 작은",
+   "pic": "../packs/int2b_u5/short.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/short.mp3",
+   "stext": "He is short.",
+   "sentence": "audio/int2b_u5/{v}/heisshort.mp3"
+  },
+  {
+   "id": "thin",
+   "en": "thin",
+   "ko": "마른",
+   "pic": "../packs/int2b_u5/thin.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/thin.mp3",
+   "stext": "He is thin.",
+   "sentence": "audio/int2b_u5/{v}/heisthin.mp3"
+  },
+  {
+   "id": "old",
+   "en": "old",
+   "ko": "나이 든",
+   "pic": "../packs/int2b_u5/old.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/old.mp3",
+   "stext": "He is old.",
+   "sentence": "audio/int2b_u5/{v}/heisold.mp3"
+  },
+  {
+   "id": "young",
+   "en": "young",
+   "ko": "어린",
+   "pic": "../packs/int2b_u5/young.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/young.mp3",
+   "stext": "He is young.",
+   "sentence": "audio/int2b_u5/{v}/heisyoung.mp3"
+  },
+  {
+   "id": "ugly",
+   "en": "ugly",
+   "ko": "못생긴",
+   "pic": "../packs/int2b_u5/ugly.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/ugly.mp3",
+   "stext": "He is ugly.",
+   "sentence": "audio/int2b_u5/{v}/heisugly.mp3"
+  },
+  {
+   "id": "goodlooking",
+   "en": "good-looking",
+   "ko": "잘생긴",
+   "pic": "../packs/int2b_u5/goodlooking.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/goodlooking.mp3",
+   "stext": "He is good-looking.",
+   "sentence": "audio/int2b_u5/{v}/heisgoodlooking.mp3"
+  },
+  {
+   "id": "rich",
+   "en": "rich",
+   "ko": "부유한",
+   "pic": "../packs/int2b_u5/rich.jpg",
+   "audio": "../packs/int2b_u5/audio/{v}/rich.mp3",
+   "stext": "He is rich.",
+   "sentence": "audio/int2b_u5/{v}/heisrich.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int2b_u2/school.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/school.mp3"
+  },
+  {
+   "id": "theirs",
+   "en": "theirs",
+   "ko": "그들의 것",
+   "pic": "../packs/int2b_u8/theirs.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/theirs.mp3"
+  },
+  {
+   "id": "hers",
+   "en": "hers",
+   "ko": "그녀의 것",
+   "pic": "../packs/int2b_u8/hers.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/hers.mp3"
+  },
+  {
+   "id": "stairs",
+   "en": "stairs",
+   "ko": "계단",
+   "pic": "../packs/int2b_u7/stairs.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/stairs.mp3"
+  },
+  {
+   "id": "thousand",
+   "en": "thousand",
+   "ko": "천",
+   "pic": "../packs/int2b_u4/thousand.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/thousand.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int2b_u6/music.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/music.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": null,
+   "audio": "../packs/int2b_u6/audio/{v}/teacher.mp3",
+   "stext": "This is my teacher.",
+   "sentence": "audio/int2b_u6/{v}/thisismyteacher.mp3"
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "pic": "../packs/int2b_u6/english.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/english.mp3",
+   "stext": "This is my English teacher.",
+   "sentence": "audio/int2b_u6/{v}/thisismyenglishteacher.mp3"
+  },
+  {
+   "id": "math",
+   "en": "math",
+   "ko": "수학",
+   "pic": "../packs/int2b_u6/math.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/math.mp3",
+   "stext": "This is my math teacher.",
+   "sentence": "../packs/int2b_u6/audio/{v}/thisismymathteacher.mp3"
+  },
+  {
+   "id": "science",
+   "en": "science",
+   "ko": "과학",
+   "pic": "../packs/int2b_u6/science.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/science.mp3",
+   "stext": "This is my science teacher.",
+   "sentence": "audio/int2b_u6/{v}/thisismyscienceteacher.mp3"
+  },
+  {
+   "id": "history",
+   "en": "history",
+   "ko": "역사",
+   "pic": "../packs/int2b_u6/history.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/history.mp3",
+   "stext": "This is my history teacher.",
+   "sentence": "audio/int2b_u6/{v}/thisismyhistoryteacher.mp3"
+  },
+  {
+   "id": "art",
+   "en": "art",
+   "ko": "미술",
+   "pic": "../packs/int2b_u6/art.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/art.mp3",
+   "stext": "This is my art teacher.",
+   "sentence": "audio/int2b_u6/{v}/thisismyartteacher.mp3"
+  },
+  {
+   "id": "gym",
+   "en": "gym",
+   "ko": "체육",
+   "pic": "../packs/int2b_u6/gym.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/gym.mp3",
+   "stext": "This is my gym teacher.",
+   "sentence": "audio/int2b_u6/{v}/thisismygymteacher.mp3"
+  },
+  {
+   "id": "korean",
+   "en": "Korean",
+   "ko": "국어, 한국어",
+   "pic": "../packs/int2b_u6/korean.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/korean.mp3",
+   "stext": "This is my Korean teacher.",
+   "sentence": "audio/int2b_u6/{v}/thisismykoreanteacher.mp3"
+  },
+  {
+   "id": "socialstudies",
+   "en": "social studies",
+   "ko": "사회",
+   "pic": "../packs/int2b_u6/socialstudies.jpg",
+   "audio": "../packs/int2b_u6/audio/{v}/socialstudies.mp3",
+   "stext": "This is my social studies teacher.",
+   "sentence": "audio/int2b_u6/{v}/thisismysocialstudiesteacher.mp3"
+  },
+  {
+   "id": "snack",
+   "en": "snack",
+   "ko": "간식",
+   "pic": "../packs/int2b_u2/snack.jpg",
+   "audio": "../packs/int2b_u2/audio/{v}/snack.mp3"
+  },
+  {
+   "id": "his",
+   "en": "his",
+   "ko": "그의 것",
+   "pic": "../packs/int2b_u8/his.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/his.mp3"
+  },
+  {
+   "id": "under",
+   "en": "under",
+   "ko": "~ 아래에",
+   "pic": "../packs/int2b_u7/under.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/under.mp3"
+  },
+  {
+   "id": "across",
+   "en": "across",
+   "ko": "~ 건너편에",
+   "pic": "../packs/int2b_u7/across.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/across.mp3"
+  },
+  {
+   "id": "mine",
+   "en": "mine",
+   "ko": "내 것",
+   "pic": "../packs/int2b_u8/mine.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/mine.mp3"
+  },
+  {
+   "id": "transitcard",
+   "en": "transit card",
+   "ko": "교통카드",
+   "pic": "../packs/int2b_u7/transitcard.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/transitcard.mp3",
+   "stext": "I have my transit card.",
+   "sentence": "audio/int2b_u7/{v}/ihavemytransitcard.mp3"
+  },
+  {
+   "id": "pencilcase",
+   "en": "pencil case",
+   "ko": "필통",
+   "pic": "../packs/int2b_u7/pencilcase.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/pencilcase.mp3",
+   "stext": "It is in my pencil case.",
+   "sentence": "audio/int2b_u7/{v}/itisinmypencilcase.mp3"
+  },
+  {
+   "id": "behind",
+   "en": "behind",
+   "ko": "~ 뒤에",
+   "pic": "../packs/int2b_u7/behind.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/behind.mp3",
+   "stext": "It is behind the desk.",
+   "sentence": "audio/int2b_u7/{v}/itisbehindthedesk.mp3"
+  },
+  {
+   "id": "infrontof",
+   "en": "in front of",
+   "ko": "~ 앞에",
+   "pic": "../packs/int2b_u7/infrontof.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/infrontof.mp3",
+   "stext": "It is in front of the desk.",
+   "sentence": "audio/int2b_u7/{v}/itisinfrontofthedesk.mp3"
+  },
+  {
+   "id": "between",
+   "en": "between",
+   "ko": "~ 사이에",
+   "pic": "../packs/int2b_u7/between.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/between.mp3",
+   "stext": "It is between the books.",
+   "sentence": "audio/int2b_u7/{v}/itisbetweenthebooks.mp3"
+  },
+  {
+   "id": "nextto",
+   "en": "next to",
+   "ko": "~ 옆에",
+   "pic": "../packs/int2b_u7/nextto.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/nextto.mp3",
+   "stext": "It is next to the bag.",
+   "sentence": "audio/int2b_u7/{v}/itisnexttothebag.mp3"
+  },
+  {
+   "id": "pocket",
+   "en": "pocket",
+   "ko": "주머니",
+   "pic": "../packs/int2b_u7/pocket.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/pocket.mp3",
+   "stext": "It is in my pocket.",
+   "sentence": "audio/int2b_u7/{v}/itisinmypocket.mp3"
+  },
+  {
+   "id": "outside",
+   "en": "outside",
+   "ko": "~ 밖에",
+   "pic": "../packs/int2b_u7/outside.jpg",
+   "audio": "../packs/int2b_u7/audio/{v}/outside.mp3",
+   "stext": "It is outside.",
+   "sentence": "audio/int2b_u7/{v}/itisoutside.mp3"
+  },
+  {
+   "id": "won",
+   "en": "won",
+   "ko": "원 (돈)",
+   "pic": "../packs/int2b_u4/won.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/won.mp3"
+  },
+  {
+   "id": "yours",
+   "en": "yours",
+   "ko": "네 것",
+   "pic": "../packs/int2b_u8/yours.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/yours.mp3",
+   "stext": "It is yours.",
+   "sentence": "audio/int2b_u8/{v}/itisyours.mp3"
+  },
+  {
+   "id": "ours",
+   "en": "ours",
+   "ko": "우리 것",
+   "pic": "../packs/int2b_u8/ours.jpg",
+   "audio": "../packs/int2b_u8/audio/{v}/ours.mp3",
+   "stext": "It is ours.",
+   "sentence": "audio/int2b_u8/{v}/itisours.mp3"
+  },
+  {
+   "id": "actor",
+   "en": "actor",
+   "ko": "배우",
+   "pic": "../packs/int2b_u3/actor.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/actor.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2b_u5/",
+  "ai": "audio/int2b_u5/ai/"
+ }
+}
