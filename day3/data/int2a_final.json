@@ -1,0 +1,1077 @@
+{
+ "id": "int2a_final",
+ "kind": "review",
+ "title": "INT 2A · Final Review Units 1-8",
+ "passPercent": 80,
+ "units": [
+  "int2a_u1",
+  "int2a_u2",
+  "int2a_u3",
+  "int2a_u4",
+  "int2a_u5",
+  "int2a_u6",
+  "int2a_u7",
+  "int2a_u8"
+ ],
+ "wordAudio": "../packs/int2a_u1/audio/us_f/",
+ "picDir": "../packs/int2a_u1/",
+ "lineAudio": "audio/int2a_u1/",
+ "questions": [
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "juice",
+   "audio": "audio/int2a_u4/{v}/iwantjuice.mp3",
+   "answer": [
+    "I",
+    "want",
+    "juice."
+   ],
+   "unit": "int2a_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "watch",
+   "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
+   "answer": [
+    "I",
+    "watch",
+    "TV."
+   ],
+   "unit": "int2a_u8"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "teacher",
+   "answer": "teacher",
+   "choices": [
+    "teacher",
+    "teocher",
+    "teachep",
+    "tacher"
+   ],
+   "unit": "int2a_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sad",
+   "audio": "audio/int2a_u6/{v}/thisvideoissad.mp3",
+   "answer": [
+    "This",
+    "video",
+    "is",
+    "sad."
+   ],
+   "unit": "int2a_u6"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2a_u7",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
+   },
+   "pic": "../packs/int2a_u7/lunchlady.jpg",
+   "choices": [
+    "This is our groundskeeper.",
+    "This is our lunch lady."
+   ],
+   "answer": "This is our lunch lady.",
+   "aud": {
+    "This is our groundskeeper.": "audio/int2a_u7/ai/thisisourgroundskeeper.mp3",
+    "This is our lunch lady.": "audio/int2a_u7/ai/thisisourlunchlady.mp3"
+   }
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "bee",
+   "audio": "audio/int2a_u2/{v}/therearebees.mp3",
+   "answer": [
+    "There",
+    "are",
+    "bees!"
+   ],
+   "unit": "int2a_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "garage",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3",
+   "sentence": [
+    "Maybe",
+    "it",
+    "is",
+    "in",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "garage",
+   "choices": [
+    "garage",
+    "bathroom",
+    "maybe"
+   ],
+   "unit": "int2a_u5"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2a_u3",
+   "q": {
+    "text": "What can you speak?",
+    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
+   },
+   "pic": "../packs/int2a_u3/chinese.jpg",
+   "choices": [
+    "I can speak Korean.",
+    "I can speak Chinese."
+   ],
+   "answer": "I can speak Chinese.",
+   "aud": {
+    "I can speak Korean.": "audio/int2a_u3/ai/icanspeakkorean.mp3",
+    "I can speak Chinese.": "audio/int2a_u3/ai/icanspeakchinese.mp3"
+   }
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "washroom",
+   "audio": "audio/int2a_u2/{v}/thereisawashroom.mp3",
+   "sentence": [
+    "There",
+    "is",
+    "a",
+    "___",
+    "!"
+   ],
+   "answer": "washroom",
+   "choices": [
+    "washroom",
+    "food",
+    "bee"
+   ],
+   "unit": "int2a_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "piano",
+   "audio": "audio/int2a_u8/{v}/iplaythepiano.mp3",
+   "sentence": [
+    "I",
+    "play",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "piano",
+   "choices": [
+    "piano",
+    "play",
+    "watch"
+   ],
+   "unit": "int2a_u8"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "foggy",
+   "choices": [
+    "foggy",
+    "hailing",
+    "cold",
+    "rainy"
+   ],
+   "unit": "int2a_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "spider",
+   "choices": [
+    "spider",
+    "hotel",
+    "ant",
+    "food"
+   ],
+   "unit": "int2a_u2"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "stormy",
+   "answer": "stormy",
+   "choices": [
+    "stormy",
+    "storry",
+    "story",
+    "stomy"
+   ],
+   "unit": "int2a_u1"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "french",
+   "answer": "French",
+   "choices": [
+    "French",
+    "rench",
+    "Frenc",
+    "Frensh"
+   ],
+   "unit": "int2a_u3"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2a_u4",
+   "q": {
+    "text": "What do you want?",
+    "audio": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3"
+   },
+   "pic": "../packs/int2a_u4/juice.jpg",
+   "choices": [
+    "I want medicine.",
+    "I want juice."
+   ],
+   "answer": "I want juice.",
+   "aud": {
+    "I want medicine.": "audio/int2a_u4/ai/iwantmedicine.mp3",
+    "I want juice.": "audio/int2a_u4/ai/iwantjuice.mp3"
+   }
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2a_u1",
+   "q": {
+    "text": "How is the weather?",
+    "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+   },
+   "pic": "../packs/int2a_u1/stormy.jpg",
+   "choices": [
+    "It is rainy.",
+    "It is stormy."
+   ],
+   "answer": "It is stormy.",
+   "aud": {
+    "It is rainy.": "audio/int2a_u1/ai/itisrainy.mp3",
+    "It is stormy.": "audio/int2a_u1/ai/itisstormy.mp3"
+   }
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "scary",
+   "choices": [
+    "scary",
+    "gross",
+    "funny",
+    "sad"
+   ],
+   "unit": "int2a_u6"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "bathroom",
+   "answer": "bathroom",
+   "choices": [
+    "bathroom",
+    "bathrom",
+    "bethroom",
+    "bahroom"
+   ],
+   "unit": "int2a_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "hindi",
+   "audio": "audio/int2a_u3/{v}/icanspeakhindi.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "speak",
+    "___",
+    "."
+   ],
+   "answer": "Hindi",
+   "choices": [
+    "Hindi",
+    "French",
+    "Speak"
+   ],
+   "unit": "int2a_u3"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "soup",
+   "choices": [
+    "soup",
+    "phone",
+    "water",
+    "hug"
+   ],
+   "unit": "int2a_u4"
+  }
+ ],
+ "words": [
+  {
+   "id": "weather",
+   "en": "weather",
+   "ko": "날씨",
+   "pic": null,
+   "audio": "../packs/int2a_u1/audio/{v}/weather.mp3",
+   "stext": "The weather is nice.",
+   "sentence": "audio/int2a_u1/{v}/theweatherisnice.mp3"
+  },
+  {
+   "id": "hot",
+   "en": "hot",
+   "ko": "더운",
+   "pic": "../packs/int2a_u1/hot.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/hot.mp3",
+   "stext": "It is hot.",
+   "sentence": "audio/int2a_u1/{v}/itishot.mp3"
+  },
+  {
+   "id": "snowing",
+   "en": "snowing",
+   "ko": "눈이 오는",
+   "pic": "../packs/int2a_u1/snowing.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/snowing.mp3",
+   "stext": "It is snowing.",
+   "sentence": "audio/int2a_u1/{v}/itissnowing.mp3"
+  },
+  {
+   "id": "stormy",
+   "en": "stormy",
+   "ko": "폭풍우가 치는",
+   "pic": "../packs/int2a_u1/stormy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/stormy.mp3",
+   "stext": "It is stormy.",
+   "sentence": "audio/int2a_u1/{v}/itisstormy.mp3"
+  },
+  {
+   "id": "humid",
+   "en": "humid",
+   "ko": "습한",
+   "pic": "../packs/int2a_u1/humid.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/humid.mp3",
+   "stext": "It is humid.",
+   "sentence": "audio/int2a_u1/{v}/itishumid.mp3"
+  },
+  {
+   "id": "rainy",
+   "en": "rainy",
+   "ko": "비가 오는",
+   "pic": "../packs/int2a_u1/rainy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/rainy.mp3",
+   "stext": "It is rainy.",
+   "sentence": "audio/int2a_u1/{v}/itisrainy.mp3"
+  },
+  {
+   "id": "cold",
+   "en": "cold",
+   "ko": "추운",
+   "pic": "../packs/int2a_u1/cold.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/cold.mp3",
+   "stext": "It is cold.",
+   "sentence": "audio/int2a_u1/{v}/itiscold.mp3"
+  },
+  {
+   "id": "foggy",
+   "en": "foggy",
+   "ko": "안개 낀",
+   "pic": "../packs/int2a_u1/foggy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/foggy.mp3",
+   "stext": "It is foggy.",
+   "sentence": "audio/int2a_u1/{v}/itisfoggy.mp3"
+  },
+  {
+   "id": "windy",
+   "en": "windy",
+   "ko": "바람이 부는",
+   "pic": "../packs/int2a_u1/windy.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/windy.mp3",
+   "stext": "It is windy.",
+   "sentence": "audio/int2a_u1/{v}/itiswindy.mp3"
+  },
+  {
+   "id": "hailing",
+   "en": "hailing",
+   "ko": "우박이 내리는",
+   "pic": "../packs/int2a_u1/hailing.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/hailing.mp3",
+   "stext": "It is hailing.",
+   "sentence": "audio/int2a_u1/{v}/itishailing.mp3"
+  },
+  {
+   "id": "hug",
+   "en": "hug",
+   "ko": "포옹",
+   "pic": "../packs/int2a_u4/hug.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/hug.mp3"
+  },
+  {
+   "id": "librarian",
+   "en": "librarian",
+   "ko": "사서",
+   "pic": "../packs/int2a_u7/librarian.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/librarian.mp3"
+  },
+  {
+   "id": "teacher",
+   "en": "teacher",
+   "ko": "선생님",
+   "pic": "../packs/int2a_u2/teacher.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/teacher.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/int2a_u6/quiet.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/quiet.mp3"
+  },
+  {
+   "id": "sad",
+   "en": "sad",
+   "ko": "슬픈",
+   "pic": "../packs/int2a_u6/sad.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/sad.mp3"
+  },
+  {
+   "id": "water",
+   "en": "water",
+   "ko": "물",
+   "pic": "../packs/int2a_u4/water.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/water.mp3"
+  },
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "pic": "../packs/int2a_u2/snake.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/snake.mp3",
+   "stext": "There are snakes!",
+   "sentence": "../packs/int2a_u2/audio/{v}/therearesnakes.mp3"
+  },
+  {
+   "id": "bee",
+   "en": "bee",
+   "ko": "벌",
+   "pic": "../packs/int2a_u2/bee.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/bee.mp3",
+   "stext": "There are bees!",
+   "sentence": "audio/int2a_u2/{v}/therearebees.mp3"
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "pic": "../packs/int2a_u2/food.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/food.mp3",
+   "stext": "There is food!",
+   "sentence": "audio/int2a_u2/{v}/thereisfood.mp3"
+  },
+  {
+   "id": "ant",
+   "en": "ant",
+   "ko": "개미",
+   "pic": "../packs/int2a_u2/ant.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/ant.mp3",
+   "stext": "There are ants!",
+   "sentence": "audio/int2a_u2/{v}/thereareants.mp3"
+  },
+  {
+   "id": "hotel",
+   "en": "hotel",
+   "ko": "호텔",
+   "pic": "../packs/int2a_u2/hotel.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/hotel.mp3",
+   "stext": "There is a hotel!",
+   "sentence": "audio/int2a_u2/{v}/thereisahotel.mp3"
+  },
+  {
+   "id": "spider",
+   "en": "spider",
+   "ko": "거미",
+   "pic": "../packs/int2a_u2/spider.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/spider.mp3",
+   "stext": "There are spiders!",
+   "sentence": "audio/int2a_u2/{v}/therearespiders.mp3"
+  },
+  {
+   "id": "washroom",
+   "en": "washroom",
+   "ko": "화장실",
+   "pic": "../packs/int2a_u2/washroom.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/washroom.mp3",
+   "stext": "There is a washroom!",
+   "sentence": "audio/int2a_u2/{v}/thereisawashroom.mp3"
+  },
+  {
+   "id": "monster",
+   "en": "monster",
+   "ko": "괴물",
+   "pic": "../packs/int2a_u2/monster.jpg",
+   "audio": "../packs/int2a_u2/audio/{v}/monster.mp3",
+   "stext": "There are monsters!",
+   "sentence": "audio/int2a_u2/{v}/therearemonsters.mp3"
+  },
+  {
+   "id": "sunny",
+   "en": "sunny",
+   "ko": "화창한",
+   "pic": "../packs/int2a_u1/sunny.jpg",
+   "audio": "../packs/int2a_u1/audio/{v}/sunny.mp3"
+  },
+  {
+   "id": "janitor",
+   "en": "janitor",
+   "ko": "관리인",
+   "pic": "../packs/int2a_u7/janitor.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/janitor.mp3"
+  },
+  {
+   "id": "gross",
+   "en": "gross",
+   "ko": "역겨운",
+   "pic": "../packs/int2a_u6/gross.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/gross.mp3"
+  },
+  {
+   "id": "speak",
+   "en": "speak",
+   "ko": "말하다",
+   "pic": null,
+   "audio": "../packs/int2a_u3/audio/{v}/speak.mp3",
+   "stext": "Can you speak English?",
+   "sentence": "../packs/int2a_u3/audio/{v}/canyouspeakenglish.mp3"
+  },
+  {
+   "id": "chinese",
+   "en": "Chinese",
+   "ko": "중국어",
+   "pic": "../packs/int2a_u3/chinese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/chinese.mp3",
+   "stext": "I can speak Chinese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakchinese.mp3"
+  },
+  {
+   "id": "japanese",
+   "en": "Japanese",
+   "ko": "일본어",
+   "pic": "../packs/int2a_u3/japanese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/japanese.mp3",
+   "stext": "I can speak Japanese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakjapanese.mp3"
+  },
+  {
+   "id": "french",
+   "en": "French",
+   "ko": "프랑스어",
+   "pic": "../packs/int2a_u3/french.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/french.mp3",
+   "stext": "I can speak French.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakfrench.mp3"
+  },
+  {
+   "id": "german",
+   "en": "German",
+   "ko": "독일어",
+   "pic": "../packs/int2a_u3/german.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/german.mp3",
+   "stext": "I can speak German.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakgerman.mp3"
+  },
+  {
+   "id": "hindi",
+   "en": "Hindi",
+   "ko": "힌디어",
+   "pic": "../packs/int2a_u3/hindi.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/hindi.mp3",
+   "stext": "I can speak Hindi.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakhindi.mp3"
+  },
+  {
+   "id": "spanish",
+   "en": "Spanish",
+   "ko": "스페인어",
+   "pic": "../packs/int2a_u3/spanish.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/spanish.mp3",
+   "stext": "I can speak Spanish.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakspanish.mp3"
+  },
+  {
+   "id": "vietnamese",
+   "en": "Vietnamese",
+   "ko": "베트남어",
+   "pic": "../packs/int2a_u3/vietnamese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/vietnamese.mp3",
+   "stext": "I can speak Vietnamese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3"
+  },
+  {
+   "id": "korean",
+   "en": "Korean",
+   "ko": "한국어",
+   "pic": "../packs/int2a_u3/korean.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/korean.mp3",
+   "stext": "I can speak Korean.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakkorean.mp3"
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "pic": "../packs/int2a_u3/english.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/english.mp3",
+   "stext": "I can speak English.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakenglish.mp3"
+  },
+  {
+   "id": "classmate",
+   "en": "classmate",
+   "ko": "반 친구",
+   "pic": "../packs/int2a_u7/classmate.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/classmate.mp3"
+  },
+  {
+   "id": "juice",
+   "en": "juice",
+   "ko": "주스",
+   "pic": "../packs/int2a_u4/juice.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/juice.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int2a_u4/phone.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/phone.mp3"
+  },
+  {
+   "id": "want",
+   "en": "want",
+   "ko": "원하다",
+   "pic": null,
+   "audio": "../packs/int2a_u4/audio/{v}/want.mp3",
+   "stext": "What do you want?",
+   "sentence": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3"
+  },
+  {
+   "id": "medicine",
+   "en": "medicine",
+   "ko": "약",
+   "pic": "../packs/int2a_u4/medicine.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/medicine.mp3",
+   "stext": "I want medicine.",
+   "sentence": "audio/int2a_u4/{v}/iwantmedicine.mp3"
+  },
+  {
+   "id": "blanket",
+   "en": "blanket",
+   "ko": "담요",
+   "pic": "../packs/int2a_u4/blanket.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/blanket.mp3",
+   "stext": "I want a blanket.",
+   "sentence": "../packs/int2a_u4/audio/{v}/iwantablanket.mp3"
+  },
+  {
+   "id": "tissuepaper",
+   "en": "tissue paper",
+   "ko": "휴지",
+   "pic": "../packs/int2a_u4/tissuepaper.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/tissuepaper.mp3",
+   "stext": "I want tissue paper.",
+   "sentence": "audio/int2a_u4/{v}/iwanttissuepaper.mp3"
+  },
+  {
+   "id": "soup",
+   "en": "soup",
+   "ko": "수프",
+   "pic": "../packs/int2a_u4/soup.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/soup.mp3",
+   "stext": "I want soup.",
+   "sentence": "audio/int2a_u4/{v}/iwantsoup.mp3"
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "pic": "../packs/int2a_u4/computer.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/computer.mp3",
+   "stext": "I want a computer.",
+   "sentence": "audio/int2a_u4/{v}/iwantacomputer.mp3"
+  },
+  {
+   "id": "bedroom",
+   "en": "bedroom",
+   "ko": "침실",
+   "pic": "../packs/int2a_u5/bedroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/bedroom.mp3"
+  },
+  {
+   "id": "soccer",
+   "en": "soccer",
+   "ko": "축구",
+   "pic": "../packs/int2a_u8/soccer.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/soccer.mp3"
+  },
+  {
+   "id": "funny",
+   "en": "funny",
+   "ko": "웃긴",
+   "pic": "../packs/int2a_u6/funny.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/funny.mp3"
+  },
+  {
+   "id": "scary",
+   "en": "scary",
+   "ko": "무서운",
+   "pic": "../packs/int2a_u6/scary.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/scary.mp3"
+  },
+  {
+   "id": "piano",
+   "en": "piano",
+   "ko": "피아노",
+   "pic": "../packs/int2a_u8/piano.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/piano.mp3"
+  },
+  {
+   "id": "maybe",
+   "en": "maybe",
+   "ko": "아마",
+   "pic": null,
+   "audio": "../packs/int2a_u5/audio/{v}/maybe.mp3",
+   "stext": "Maybe it is in my bag.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinmybag.mp3"
+  },
+  {
+   "id": "kitchen",
+   "en": "kitchen",
+   "ko": "주방",
+   "pic": "../packs/int2a_u5/kitchen.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/kitchen.mp3",
+   "stext": "Maybe it is in the kitchen.",
+   "sentence": "../packs/int2a_u5/audio/{v}/maybeitisinthekitchen.mp3"
+  },
+  {
+   "id": "bathroom",
+   "en": "bathroom",
+   "ko": "욕실",
+   "pic": "../packs/int2a_u5/bathroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/bathroom.mp3",
+   "stext": "Maybe it is in the bathroom.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthebathroom.mp3"
+  },
+  {
+   "id": "livingroom",
+   "en": "living room",
+   "ko": "거실",
+   "pic": "../packs/int2a_u5/livingroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/livingroom.mp3",
+   "stext": "Maybe it is in the living room.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthelivingroom.mp3"
+  },
+  {
+   "id": "garage",
+   "en": "garage",
+   "ko": "차고",
+   "pic": "../packs/int2a_u5/garage.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/garage.mp3",
+   "stext": "Maybe it is in the garage.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3"
+  },
+  {
+   "id": "attic",
+   "en": "attic",
+   "ko": "다락방",
+   "pic": "../packs/int2a_u5/attic.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/attic.mp3",
+   "stext": "Maybe it is in the attic.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisintheattic.mp3"
+  },
+  {
+   "id": "basement",
+   "en": "basement",
+   "ko": "지하실",
+   "pic": "../packs/int2a_u5/basement.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/basement.mp3",
+   "stext": "Maybe it is in the basement.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthebasement.mp3"
+  },
+  {
+   "id": "diningroom",
+   "en": "dining room",
+   "ko": "식당, 식사하는 방",
+   "pic": "../packs/int2a_u5/diningroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/diningroom.mp3",
+   "stext": "Maybe it is in the dining room.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisinthediningroom.mp3"
+  },
+  {
+   "id": "classroom",
+   "en": "classroom",
+   "ko": "교실",
+   "pic": "../packs/int2a_u5/classroom.jpg",
+   "audio": "../packs/int2a_u5/audio/{v}/classroom.mp3",
+   "stext": "Maybe it is in the classroom.",
+   "sentence": "audio/int2a_u5/{v}/maybeitisintheclassroom.mp3"
+  },
+  {
+   "id": "watch",
+   "en": "watch",
+   "ko": "보다",
+   "pic": "../packs/int2a_u8/watch.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/watch.mp3"
+  },
+  {
+   "id": "crazy",
+   "en": "crazy",
+   "ko": "엉뚱한, 미친",
+   "pic": "../packs/int2a_u6/crazy.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/crazy.mp3"
+  },
+  {
+   "id": "weird",
+   "en": "weird",
+   "ko": "이상한",
+   "pic": "../packs/int2a_u6/weird.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/weird.mp3"
+  },
+  {
+   "id": "bike",
+   "en": "bike",
+   "ko": "자전거",
+   "pic": "../packs/int2a_u8/bike.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/bike.mp3"
+  },
+  {
+   "id": "nurse",
+   "en": "nurse",
+   "ko": "보건 선생님",
+   "pic": "../packs/int2a_u7/nurse.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/nurse.mp3"
+  },
+  {
+   "id": "video",
+   "en": "video",
+   "ko": "동영상",
+   "pic": null,
+   "audio": "../packs/int2a_u6/audio/{v}/video.mp3",
+   "stext": "Look at this video.",
+   "sentence": "audio/int2a_u6/{v}/lookatthisvideo.mp3"
+  },
+  {
+   "id": "exciting",
+   "en": "exciting",
+   "ko": "신나는",
+   "pic": "../packs/int2a_u6/exciting.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/exciting.mp3",
+   "stext": "This video is exciting.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisexciting.mp3"
+  },
+  {
+   "id": "boring",
+   "en": "boring",
+   "ko": "지루한",
+   "pic": "../packs/int2a_u6/boring.jpg",
+   "audio": "../packs/int2a_u6/audio/{v}/boring.mp3",
+   "stext": "This video is boring.",
+   "sentence": "audio/int2a_u6/{v}/thisvideoisboring.mp3"
+  },
+  {
+   "id": "principal",
+   "en": "principal",
+   "ko": "교장 선생님",
+   "pic": "../packs/int2a_u7/principal.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/principal.mp3",
+   "stext": "This is our principal.",
+   "sentence": "audio/int2a_u7/{v}/thisisourprincipal.mp3"
+  },
+  {
+   "id": "student",
+   "en": "student",
+   "ko": "학생",
+   "pic": null,
+   "audio": "../packs/int2a_u7/audio/{v}/student.mp3",
+   "stext": "I am a student.",
+   "sentence": "audio/int2a_u7/{v}/iamastudent.mp3"
+  },
+  {
+   "id": "clean",
+   "en": "clean",
+   "ko": "청소하다",
+   "pic": "../packs/int2a_u7/clean.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/clean.mp3",
+   "stext": "Let's clean the classroom.",
+   "sentence": "audio/int2a_u7/{v}/letscleantheclassroom.mp3"
+  },
+  {
+   "id": "lunchlady",
+   "en": "lunch lady",
+   "ko": "급식 아주머니",
+   "pic": "../packs/int2a_u7/lunchlady.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/lunchlady.mp3",
+   "stext": "This is our lunch lady.",
+   "sentence": "audio/int2a_u7/{v}/thisisourlunchlady.mp3"
+  },
+  {
+   "id": "secretary",
+   "en": "secretary",
+   "ko": "비서, 행정실 선생님",
+   "pic": "../packs/int2a_u7/secretary.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/secretary.mp3",
+   "stext": "This is our secretary.",
+   "sentence": "audio/int2a_u7/{v}/thisisoursecretary.mp3"
+  },
+  {
+   "id": "groundskeeper",
+   "en": "groundskeeper",
+   "ko": "운동장 관리인",
+   "pic": "../packs/int2a_u7/groundskeeper.jpg",
+   "audio": "../packs/int2a_u7/audio/{v}/groundskeeper.mp3",
+   "stext": "This is our groundskeeper.",
+   "sentence": "audio/int2a_u7/{v}/thisisourgroundskeeper.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/int2a_u4/book.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/book.mp3"
+  },
+  {
+   "id": "play",
+   "en": "play",
+   "ko": "(운동, 게임을) 하다",
+   "pic": null,
+   "audio": "../packs/int2a_u8/audio/{v}/play.mp3",
+   "stext": "I play games.",
+   "sentence": "audio/int2a_u8/{v}/iplaygames.mp3"
+  },
+  {
+   "id": "practice",
+   "en": "practice",
+   "ko": "연습하다",
+   "pic": null,
+   "audio": "../packs/int2a_u8/audio/{v}/practice.mp3",
+   "stext": "I practice taekwondo.",
+   "sentence": "audio/int2a_u8/{v}/ipracticetaekwondo.mp3"
+  },
+  {
+   "id": "martialarts",
+   "en": "martial arts",
+   "ko": "무술",
+   "pic": "../packs/int2a_u8/martialarts.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/martialarts.mp3",
+   "stext": "I practice martial arts.",
+   "sentence": "audio/int2a_u8/{v}/ipracticemartialarts.mp3"
+  },
+  {
+   "id": "littlebrother",
+   "en": "little brother",
+   "ko": "남동생",
+   "pic": "../packs/int2a_u8/littlebrother.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/littlebrother.mp3",
+   "stext": "I play with my little brother.",
+   "sentence": "audio/int2a_u8/{v}/iplaywithmylittlebrother.mp3"
+  },
+  {
+   "id": "relax",
+   "en": "relax",
+   "ko": "쉬다",
+   "pic": "../packs/int2a_u8/relax.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/relax.mp3",
+   "stext": "I relax at home.",
+   "sentence": "audio/int2a_u8/{v}/irelaxathome.mp3"
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/int2a_u8/sing.jpg",
+   "audio": "../packs/int2a_u8/audio/{v}/sing.mp3",
+   "stext": "I sing songs.",
+   "sentence": "audio/int2a_u8/{v}/isingsongs.mp3"
+  },
+  {
+   "id": "ride",
+   "en": "ride",
+   "ko": "타다",
+   "pic": null,
+   "audio": "../packs/int2a_u8/audio/{v}/ride.mp3",
+   "stext": "I ride my bike.",
+   "sentence": "audio/int2a_u8/{v}/iridemybike.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2a_u1/",
+  "ai": "audio/int2a_u1/ai/"
+ }
+}

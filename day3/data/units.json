@@ -264,6 +264,30 @@
   "title": "INT 2A · Unit 8 · What Do You Do After School?"
  },
  {
+  "id": "int2a_mid1",
+  "book": "int2a",
+  "n": 101,
+  "kind": "review",
+  "label": "Review 1-4",
+  "title": "INT 2A · Review Units 1-4"
+ },
+ {
+  "id": "int2a_mid2",
+  "book": "int2a",
+  "n": 102,
+  "kind": "review",
+  "label": "Review 5-8",
+  "title": "INT 2A · Review Units 5-8"
+ },
+ {
+  "id": "int2a_final",
+  "book": "int2a",
+  "n": 103,
+  "kind": "review",
+  "label": "Final Review",
+  "title": "INT 2A · Final Review Units 1-8"
+ },
+ {
   "id": "int2b_u1",
   "book": "int2b",
   "n": 1,
