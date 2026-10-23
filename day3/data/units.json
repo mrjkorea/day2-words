@@ -192,6 +192,30 @@
   "title": "Basic C · Unit 8 · I Want a New Computer"
  },
  {
+  "id": "basic_c_mid1",
+  "book": "basic_c",
+  "n": 101,
+  "kind": "review",
+  "label": "Review 1-4",
+  "title": "Basic C · Review Units 1-4"
+ },
+ {
+  "id": "basic_c_mid2",
+  "book": "basic_c",
+  "n": 102,
+  "kind": "review",
+  "label": "Review 5-8",
+  "title": "Basic C · Review Units 5-8"
+ },
+ {
+  "id": "basic_c_final",
+  "book": "basic_c",
+  "n": 103,
+  "kind": "review",
+  "label": "Final Review",
+  "title": "Basic C · Final Review Units 1-8"
+ },
+ {
   "id": "int2a_u1",
   "book": "int2a",
   "n": 1,
