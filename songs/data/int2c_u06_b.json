@@ -1,0 +1,900 @@
+{
+ "id": "int2c_u06_b",
+ "title": "My Knee Hurts",
+ "book": "INT 2C",
+ "unit": 6,
+ "unitTitle": "What's Wrong?",
+ "packId": "int2c_u6",
+ "audio": "audio/int2c_u06_b.mp3",
+ "duration": 143.45,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Ouch!",
+   "words": [
+    {
+     "t": "Ouch!",
+     "start": 0.2,
+     "end": 0.83
+    }
+   ],
+   "n": 1,
+   "start": 0.2,
+   "end": 0.83,
+   "pic": "ankle"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What's wrong with him?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 13.51,
+     "end": 15.36
+    },
+    {
+     "t": "wrong",
+     "start": 15.36,
+     "end": 15.66
+    },
+    {
+     "t": "with",
+     "start": 16.28,
+     "end": 17.02
+    },
+    {
+     "t": "him?",
+     "start": 17.02,
+     "end": 17.56
+    }
+   ],
+   "n": 2,
+   "start": 13.51,
+   "end": 17.56,
+   "pic": "ankle"
+  },
+  {
+   "section": "Verse 1",
+   "text": "His knee hurts!",
+   "words": [
+    {
+     "t": "His",
+     "start": 18.72,
+     "end": 18.94
+    },
+    {
+     "t": "knee",
+     "start": 18.94,
+     "end": 19.42,
+     "pic": "knee"
+    },
+    {
+     "t": "hurts!",
+     "start": 19.42,
+     "end": 20.0
+    }
+   ],
+   "n": 3,
+   "start": 18.72,
+   "end": 20.0,
+   "pic": "knee"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What's wrong with her?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 20.9,
+     "end": 21.46
+    },
+    {
+     "t": "wrong",
+     "start": 21.46,
+     "end": 21.88
+    },
+    {
+     "t": "with",
+     "start": 21.88,
+     "end": 22.8
+    },
+    {
+     "t": "her?",
+     "start": 22.8,
+     "end": 23.28
+    }
+   ],
+   "n": 4,
+   "start": 20.9,
+   "end": 23.28,
+   "pic": "knee"
+  },
+  {
+   "section": "Verse 1",
+   "text": "She has a headache!",
+   "words": [
+    {
+     "t": "She",
+     "start": 23.9,
+     "end": 24.16
+    },
+    {
+     "t": "has",
+     "start": 24.16,
+     "end": 24.52
+    },
+    {
+     "t": "a",
+     "start": 24.52,
+     "end": 24.8
+    },
+    {
+     "t": "headache!",
+     "start": 24.8,
+     "end": 25.28,
+     "pic": "headache"
+    }
+   ],
+   "n": 5,
+   "start": 23.9,
+   "end": 25.28,
+   "pic": "headache"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What's wrong with them?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 25.9,
+     "end": 26.28
+    },
+    {
+     "t": "wrong",
+     "start": 26.28,
+     "end": 26.42
+    },
+    {
+     "t": "with",
+     "start": 26.42,
+     "end": 26.7
+    },
+    {
+     "t": "them?",
+     "start": 26.7,
+     "end": 27.08
+    }
+   ],
+   "n": 6,
+   "start": 25.9,
+   "end": 27.08,
+   "pic": "headache"
+  },
+  {
+   "section": "Verse 1",
+   "text": "They have a cold!",
+   "words": [
+    {
+     "t": "They",
+     "start": 27.88,
+     "end": 28.1
+    },
+    {
+     "t": "have",
+     "start": 28.1,
+     "end": 28.36
+    },
+    {
+     "t": "a",
+     "start": 28.36,
+     "end": 28.64
+    },
+    {
+     "t": "cold!",
+     "start": 28.64,
+     "end": 29.3,
+     "pic": "cold"
+    }
+   ],
+   "n": 7,
+   "start": 27.88,
+   "end": 29.3,
+   "pic": "cold"
+  },
+  {
+   "section": "Chorus",
+   "text": "My knee hurts! Ouch!",
+   "words": [
+    {
+     "t": "My",
+     "start": 30.0,
+     "end": 30.48
+    },
+    {
+     "t": "knee",
+     "start": 30.46,
+     "end": 30.86,
+     "pic": "knee"
+    },
+    {
+     "t": "hurts!",
+     "start": 30.82,
+     "end": 31.4
+    },
+    {
+     "t": "Ouch!",
+     "start": 31.45,
+     "end": 31.87
+    }
+   ],
+   "n": 8,
+   "start": 30.0,
+   "end": 31.87,
+   "pic": "knee"
+  },
+  {
+   "section": "Chorus",
+   "text": "My back hurts! Ouch!",
+   "words": [
+    {
+     "t": "My",
+     "start": 33.74,
+     "end": 34.12
+    },
+    {
+     "t": "back",
+     "start": 34.1,
+     "end": 34.7,
+     "pic": "back"
+    },
+    {
+     "t": "hurts!",
+     "start": 34.7,
+     "end": 35.44
+    },
+    {
+     "t": "Ouch!",
+     "start": 35.49,
+     "end": 35.91
+    }
+   ],
+   "n": 9,
+   "start": 33.74,
+   "end": 35.91,
+   "pic": "back"
+  },
+  {
+   "section": "Chorus",
+   "text": "What's wrong? What's wrong?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 38.64,
+     "end": 39.64
+    },
+    {
+     "t": "wrong?",
+     "start": 39.68,
+     "end": 40.0
+    },
+    {
+     "t": "What's",
+     "start": 40.16,
+     "end": 40.36
+    },
+    {
+     "t": "wrong?",
+     "start": 40.36,
+     "end": 40.86
+    }
+   ],
+   "n": 10,
+   "start": 38.64,
+   "end": 40.86,
+   "pic": "back"
+  },
+  {
+   "section": "Chorus",
+   "text": "I have a headache!",
+   "words": [
+    {
+     "t": "I",
+     "start": 41.66,
+     "end": 41.96
+    },
+    {
+     "t": "have",
+     "start": 41.96,
+     "end": 42.28
+    },
+    {
+     "t": "a",
+     "start": 42.26,
+     "end": 42.56
+    },
+    {
+     "t": "headache!",
+     "start": 42.56,
+     "end": 43.31,
+     "pic": "headache"
+    }
+   ],
+   "n": 11,
+   "start": 41.66,
+   "end": 43.31,
+   "pic": "ihaveaheadache"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What's wrong with you?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 47.02,
+     "end": 47.34
+    },
+    {
+     "t": "wrong",
+     "start": 47.32,
+     "end": 47.48
+    },
+    {
+     "t": "with",
+     "start": 47.48,
+     "end": 47.72
+    },
+    {
+     "t": "you?",
+     "start": 47.72,
+     "end": 48.26
+    }
+   ],
+   "n": 12,
+   "start": 47.02,
+   "end": 48.26,
+   "pic": "ihaveaheadache"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My tooth hurts!",
+   "words": [
+    {
+     "t": "My",
+     "start": 49.4,
+     "end": 49.64
+    },
+    {
+     "t": "tooth",
+     "start": 49.62,
+     "end": 50.06,
+     "pic": "tooth"
+    },
+    {
+     "t": "hurts!",
+     "start": 50.04,
+     "end": 50.64
+    }
+   ],
+   "n": 13,
+   "start": 49.4,
+   "end": 50.64,
+   "pic": "tooth"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What's wrong with you?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 51.5,
+     "end": 52.06
+    },
+    {
+     "t": "wrong",
+     "start": 52.16,
+     "end": 52.62
+    },
+    {
+     "t": "with",
+     "start": 52.62,
+     "end": 53.44
+    },
+    {
+     "t": "you?",
+     "start": 53.42,
+     "end": 53.98
+    }
+   ],
+   "n": 14,
+   "start": 51.5,
+   "end": 53.98,
+   "pic": "tooth"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My throat hurts!",
+   "words": [
+    {
+     "t": "My",
+     "start": 54.66,
+     "end": 54.84
+    },
+    {
+     "t": "throat",
+     "start": 54.84,
+     "end": 55.36
+    },
+    {
+     "t": "hurts!",
+     "start": 55.32,
+     "end": 55.86
+    }
+   ],
+   "n": 15,
+   "start": 54.66,
+   "end": 55.86,
+   "pic": "tooth"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What's wrong with you?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 56.72,
+     "end": 56.88
+    },
+    {
+     "t": "wrong",
+     "start": 56.9,
+     "end": 57.24
+    },
+    {
+     "t": "with",
+     "start": 57.24,
+     "end": 57.6
+    },
+    {
+     "t": "you?",
+     "start": 57.6,
+     "end": 58.2
+    }
+   ],
+   "n": 16,
+   "start": 56.72,
+   "end": 58.2,
+   "pic": "tooth"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I have a stomachache!",
+   "words": [
+    {
+     "t": "I",
+     "start": 60.0,
+     "end": 60.24
+    },
+    {
+     "t": "have",
+     "start": 60.22,
+     "end": 60.52
+    },
+    {
+     "t": "a",
+     "start": 60.54,
+     "end": 60.68
+    },
+    {
+     "t": "stomachache!",
+     "start": 60.74,
+     "end": 61.39,
+     "pic": "stomachache"
+    }
+   ],
+   "n": 17,
+   "start": 60.0,
+   "end": 61.39,
+   "pic": "stomachache"
+  },
+  {
+   "section": "Chorus",
+   "text": "My knee hurts! Ouch!",
+   "words": [
+    {
+     "t": "My",
+     "start": 64.68,
+     "end": 64.95
+    },
+    {
+     "t": "knee",
+     "start": 64.97,
+     "end": 65.39,
+     "pic": "knee"
+    },
+    {
+     "t": "hurts!",
+     "start": 65.41,
+     "end": 65.98
+    },
+    {
+     "t": "Ouch!",
+     "start": 66.0,
+     "end": 66.51
+    }
+   ],
+   "n": 18,
+   "start": 64.68,
+   "end": 66.51,
+   "pic": "knee"
+  },
+  {
+   "section": "Chorus",
+   "text": "My back hurts! Ouch!",
+   "words": [
+    {
+     "t": "My",
+     "start": 66.8,
+     "end": 66.9
+    },
+    {
+     "t": "back",
+     "start": 66.94,
+     "end": 67.38,
+     "pic": "back"
+    },
+    {
+     "t": "hurts!",
+     "start": 67.38,
+     "end": 68.02
+    },
+    {
+     "t": "Ouch!",
+     "start": 68.58,
+     "end": 69.02
+    }
+   ],
+   "n": 19,
+   "start": 66.8,
+   "end": 69.02,
+   "pic": "back"
+  },
+  {
+   "section": "Chorus",
+   "text": "What's wrong? What's wrong?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 69.86,
+     "end": 70.46
+    },
+    {
+     "t": "wrong?",
+     "start": 70.4,
+     "end": 70.76
+    },
+    {
+     "t": "What's",
+     "start": 70.96,
+     "end": 71.24
+    },
+    {
+     "t": "wrong?",
+     "start": 71.24,
+     "end": 71.8
+    }
+   ],
+   "n": 20,
+   "start": 69.86,
+   "end": 71.8,
+   "pic": "back"
+  },
+  {
+   "section": "Chorus",
+   "text": "I have a headache!",
+   "words": [
+    {
+     "t": "I",
+     "start": 72.24,
+     "end": 72.74
+    },
+    {
+     "t": "have",
+     "start": 72.72,
+     "end": 73.0
+    },
+    {
+     "t": "a",
+     "start": 73.0,
+     "end": 73.34
+    },
+    {
+     "t": "headache!",
+     "start": 73.3,
+     "end": 74.52,
+     "pic": "headache"
+    }
+   ],
+   "n": 21,
+   "start": 72.24,
+   "end": 74.52,
+   "pic": "ihaveaheadache"
+  },
+  {
+   "section": "Bridge",
+   "text": "I have a cold! No school for you!",
+   "words": [
+    {
+     "t": "I",
+     "start": 79.0,
+     "end": 79.38
+    },
+    {
+     "t": "have",
+     "start": 79.4,
+     "end": 79.7
+    },
+    {
+     "t": "a",
+     "start": 79.7,
+     "end": 79.96
+    },
+    {
+     "t": "cold!",
+     "start": 79.96,
+     "end": 80.54,
+     "pic": "cold"
+    },
+    {
+     "t": "No",
+     "start": 81.1,
+     "end": 81.34
+    },
+    {
+     "t": "school",
+     "start": 81.3,
+     "end": 81.5
+    },
+    {
+     "t": "for",
+     "start": 81.56,
+     "end": 81.84
+    },
+    {
+     "t": "you!",
+     "start": 81.84,
+     "end": 82.2
+    }
+   ],
+   "n": 22,
+   "start": 79.0,
+   "end": 82.2,
+   "pic": "cold"
+  },
+  {
+   "section": "Bridge",
+   "text": "Oh no!",
+   "words": [
+    {
+     "t": "Oh",
+     "start": 83.72,
+     "end": 84.3
+    },
+    {
+     "t": "no!",
+     "start": 84.3,
+     "end": 85.12
+    }
+   ],
+   "n": 23,
+   "start": 83.72,
+   "end": 85.12,
+   "pic": "cold"
+  },
+  {
+   "section": "Chorus",
+   "text": "My knee hurts! Ouch!",
+   "words": [
+    {
+     "t": "My",
+     "start": 117.23,
+     "end": 118.48
+    },
+    {
+     "t": "knee",
+     "start": 118.76,
+     "end": 119.06,
+     "pic": "knee"
+    },
+    {
+     "t": "hurts!",
+     "start": 119.06,
+     "end": 119.74
+    },
+    {
+     "t": "Ouch!",
+     "start": 119.79,
+     "end": 120.21
+    }
+   ],
+   "n": 24,
+   "start": 117.23,
+   "end": 120.21,
+   "pic": "knee"
+  },
+  {
+   "section": "Chorus",
+   "text": "My back hurts! Ouch!",
+   "words": [
+    {
+     "t": "My",
+     "start": 121.44,
+     "end": 122.46
+    },
+    {
+     "t": "back",
+     "start": 122.44,
+     "end": 123.02,
+     "pic": "back"
+    },
+    {
+     "t": "hurts!",
+     "start": 123.02,
+     "end": 123.62
+    },
+    {
+     "t": "Ouch!",
+     "start": 124.11,
+     "end": 125.6
+    }
+   ],
+   "n": 25,
+   "start": 121.44,
+   "end": 125.6,
+   "pic": "back"
+  },
+  {
+   "section": "Chorus",
+   "text": "What's wrong? What's wrong?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 126.97,
+     "end": 127.92
+    },
+    {
+     "t": "wrong?",
+     "start": 127.96,
+     "end": 128.3
+    },
+    {
+     "t": "What's",
+     "start": 128.48,
+     "end": 128.9
+    },
+    {
+     "t": "wrong?",
+     "start": 128.9,
+     "end": 129.2
+    }
+   ],
+   "n": 26,
+   "start": 126.97,
+   "end": 129.2,
+   "pic": "back"
+  },
+  {
+   "section": "Chorus",
+   "text": "I have a headache!",
+   "words": [
+    {
+     "t": "I",
+     "start": 130.04,
+     "end": 130.3
+    },
+    {
+     "t": "have",
+     "start": 130.3,
+     "end": 130.6
+    },
+    {
+     "t": "a",
+     "start": 130.6,
+     "end": 130.84
+    },
+    {
+     "t": "headache!",
+     "start": 130.84,
+     "end": 131.59,
+     "pic": "headache"
+    }
+   ],
+   "n": 27,
+   "start": 130.04,
+   "end": 131.59,
+   "pic": "ihaveaheadache"
+  },
+  {
+   "section": "Outro",
+   "text": "My knee hurts!",
+   "words": [
+    {
+     "t": "My",
+     "start": 133.86,
+     "end": 134.02
+    },
+    {
+     "t": "knee",
+     "start": 134.02,
+     "end": 134.58,
+     "pic": "knee"
+    },
+    {
+     "t": "hurts!",
+     "start": 134.58,
+     "end": 135.5
+    }
+   ],
+   "n": 28,
+   "start": 133.86,
+   "end": 135.5,
+   "pic": "knee"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "knee",
+   "prompt": "What's wrong with him?",
+   "answer": "His knee hurts!",
+   "choices": [
+    "His knee hurts!",
+    "He has a cold!",
+    "His back hurts!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. She has a ...",
+   "answer": "headache",
+   "choices": [
+    "headache",
+    "fever",
+    "cold"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "cold",
+   "prompt": "What's wrong with them?",
+   "answer": "They have a cold!",
+   "choices": [
+    "They have a fever!",
+    "They have a cold!",
+    "Their knees hurt!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 7,
+   "prompt": "Listen. They have a ...",
+   "answer": "cold",
+   "choices": [
+    "headache",
+    "cold",
+    "stomachache"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "back",
+   "prompt": "What's wrong?",
+   "answer": "My back hurts!",
+   "choices": [
+    "My back hurts!",
+    "I have a cold!",
+    "My knee hurts!"
+   ]
+  }
+ ]
+}

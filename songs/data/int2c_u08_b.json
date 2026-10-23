@@ -1,0 +1,932 @@
+{
+ "id": "int2c_u08_b",
+ "title": "Take It Easy!",
+ "book": "INT 2C",
+ "unit": 8,
+ "unitTitle": "I'll Miss You",
+ "packId": "int2c_u8",
+ "audio": "audio/int2c_u08_b.mp3",
+ "duration": 150.5,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Okay! I am off!",
+   "words": [
+    {
+     "t": "Okay!",
+     "start": 0.52,
+     "end": 3.06
+    },
+    {
+     "t": "I",
+     "start": 5.08,
+     "end": 5.52
+    },
+    {
+     "t": "am",
+     "start": 5.52,
+     "end": 6.16
+    },
+    {
+     "t": "off!",
+     "start": 6.16,
+     "end": 7.76
+    }
+   ],
+   "n": 1,
+   "start": 0.52,
+   "end": 7.76,
+   "pic": "care"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am off!",
+   "words": [
+    {
+     "t": "I",
+     "start": 10.04,
+     "end": 12.14
+    },
+    {
+     "t": "am",
+     "start": 15.72,
+     "end": 16.56
+    },
+    {
+     "t": "off!",
+     "start": 16.52,
+     "end": 17.18
+    }
+   ],
+   "n": 2,
+   "start": 10.04,
+   "end": 17.18,
+   "pic": "care"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Take it easy!",
+   "words": [
+    {
+     "t": "Take",
+     "start": 19.42,
+     "end": 19.62
+    },
+    {
+     "t": "it",
+     "start": 19.6,
+     "end": 19.96
+    },
+    {
+     "t": "easy!",
+     "start": 19.96,
+     "end": 20.52,
+     "pic": "easy"
+    }
+   ],
+   "n": 3,
+   "start": 19.42,
+   "end": 20.52,
+   "pic": "easy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I must be going!",
+   "words": [
+    {
+     "t": "I",
+     "start": 22.86,
+     "end": 23.02
+    },
+    {
+     "t": "must",
+     "start": 23.02,
+     "end": 23.42
+    },
+    {
+     "t": "be",
+     "start": 23.42,
+     "end": 23.92
+    },
+    {
+     "t": "going!",
+     "start": 23.92,
+     "end": 24.62
+    }
+   ],
+   "n": 4,
+   "start": 22.86,
+   "end": 24.62,
+   "pic": "easy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Have a nice day!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 25.42,
+     "end": 25.77
+    },
+    {
+     "t": "a",
+     "start": 25.79,
+     "end": 25.96
+    },
+    {
+     "t": "nice",
+     "start": 25.98,
+     "end": 26.33,
+     "pic": "nice"
+    },
+    {
+     "t": "day!",
+     "start": 26.35,
+     "end": 26.72
+    }
+   ],
+   "n": 5,
+   "start": 25.42,
+   "end": 26.72,
+   "pic": "nice"
+  },
+  {
+   "section": "Verse 1",
+   "text": "See you!",
+   "words": [
+    {
+     "t": "See",
+     "start": 27.1,
+     "end": 27.58
+    },
+    {
+     "t": "you!",
+     "start": 27.5,
+     "end": 27.94
+    }
+   ],
+   "n": 6,
+   "start": 27.1,
+   "end": 27.94,
+   "pic": "nice"
+  },
+  {
+   "section": "Verse 1",
+   "text": "See you next time!",
+   "words": [
+    {
+     "t": "See",
+     "start": 28.96,
+     "end": 29.36
+    },
+    {
+     "t": "you",
+     "start": 29.36,
+     "end": 29.96
+    },
+    {
+     "t": "next",
+     "start": 29.9,
+     "end": 30.3
+    },
+    {
+     "t": "time!",
+     "start": 30.36,
+     "end": 31.44
+    }
+   ],
+   "n": 7,
+   "start": 28.96,
+   "end": 31.44,
+   "pic": "nice"
+  },
+  {
+   "section": "Chorus",
+   "text": "Take it easy! Take it easy!",
+   "words": [
+    {
+     "t": "Take",
+     "start": 31.96,
+     "end": 32.1
+    },
+    {
+     "t": "it",
+     "start": 32.08,
+     "end": 32.38
+    },
+    {
+     "t": "easy!",
+     "start": 32.42,
+     "end": 32.8,
+     "pic": "easy"
+    },
+    {
+     "t": "Take",
+     "start": 33.62,
+     "end": 33.96
+    },
+    {
+     "t": "it",
+     "start": 33.94,
+     "end": 34.28
+    },
+    {
+     "t": "easy!",
+     "start": 34.28,
+     "end": 35.02,
+     "pic": "easy"
+    }
+   ],
+   "n": 8,
+   "start": 31.96,
+   "end": 35.02,
+   "pic": "easy"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a nice day! Have a nice day!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 35.52,
+     "end": 35.86
+    },
+    {
+     "t": "a",
+     "start": 35.82,
+     "end": 36.14
+    },
+    {
+     "t": "nice",
+     "start": 36.14,
+     "end": 36.36,
+     "pic": "nice"
+    },
+    {
+     "t": "day!",
+     "start": 36.36,
+     "end": 37.0
+    },
+    {
+     "t": "Have",
+     "start": 37.4,
+     "end": 37.68
+    },
+    {
+     "t": "a",
+     "start": 37.66,
+     "end": 37.94
+    },
+    {
+     "t": "nice",
+     "start": 37.94,
+     "end": 38.2,
+     "pic": "nice"
+    },
+    {
+     "t": "day!",
+     "start": 38.2,
+     "end": 38.9
+    }
+   ],
+   "n": 9,
+   "start": 35.52,
+   "end": 38.9,
+   "pic": "nice"
+  },
+  {
+   "section": "Chorus",
+   "text": "Good luck! Take care!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 39.36,
+     "end": 39.72
+    },
+    {
+     "t": "luck!",
+     "start": 39.72,
+     "end": 40.08,
+     "pic": "luck"
+    },
+    {
+     "t": "Take",
+     "start": 40.26,
+     "end": 40.56
+    },
+    {
+     "t": "care!",
+     "start": 40.6,
+     "end": 41.24,
+     "pic": "care"
+    }
+   ],
+   "n": 10,
+   "start": 39.36,
+   "end": 41.24,
+   "pic": "luck"
+  },
+  {
+   "section": "Chorus",
+   "text": "So long! See you!",
+   "words": [
+    {
+     "t": "So",
+     "start": 41.86,
+     "end": 42.38
+    },
+    {
+     "t": "long!",
+     "start": 42.34,
+     "end": 43.2,
+     "pic": "long"
+    },
+    {
+     "t": "See",
+     "start": 43.96,
+     "end": 44.22
+    },
+    {
+     "t": "you!",
+     "start": 44.18,
+     "end": 44.96
+    }
+   ],
+   "n": 11,
+   "start": 41.86,
+   "end": 44.96,
+   "pic": "long"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Time to say goodbye!",
+   "words": [
+    {
+     "t": "Time",
+     "start": 45.28,
+     "end": 45.4
+    },
+    {
+     "t": "to",
+     "start": 45.46,
+     "end": 45.66
+    },
+    {
+     "t": "say",
+     "start": 45.66,
+     "end": 45.94
+    },
+    {
+     "t": "goodbye!",
+     "start": 45.94,
+     "end": 46.54,
+     "pic": "goodbye"
+    }
+   ],
+   "n": 12,
+   "start": 45.28,
+   "end": 46.54,
+   "pic": "goodbye"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I'll miss you!",
+   "words": [
+    {
+     "t": "I'll",
+     "start": 47.69,
+     "end": 49.34
+    },
+    {
+     "t": "miss",
+     "start": 49.34,
+     "end": 49.66,
+     "pic": "miss"
+    },
+    {
+     "t": "you!",
+     "start": 49.78,
+     "end": 50.48
+    }
+   ],
+   "n": 13,
+   "start": 47.69,
+   "end": 50.48,
+   "pic": "illmissyou"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I'm going overseas!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 52.42,
+     "end": 52.7
+    },
+    {
+     "t": "going",
+     "start": 52.67,
+     "end": 53.04
+    },
+    {
+     "t": "overseas!",
+     "start": 53.04,
+     "end": 53.8
+    }
+   ],
+   "n": 14,
+   "start": 52.42,
+   "end": 53.8,
+   "pic": "illmissyou"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Good luck!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 55.0,
+     "end": 55.42
+    },
+    {
+     "t": "luck!",
+     "start": 55.26,
+     "end": 55.76,
+     "pic": "luck"
+    }
+   ],
+   "n": 15,
+   "start": 55.0,
+   "end": 55.76,
+   "pic": "luck"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Bye bye!",
+   "words": [
+    {
+     "t": "Bye",
+     "start": 56.9,
+     "end": 57.18
+    },
+    {
+     "t": "bye!",
+     "start": 57.16,
+     "end": 57.96
+    }
+   ],
+   "n": 16,
+   "start": 56.9,
+   "end": 57.96,
+   "pic": "luck"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Farewell!",
+   "words": [
+    {
+     "t": "Farewell!",
+     "start": 58.66,
+     "end": 59.24
+    }
+   ],
+   "n": 17,
+   "start": 58.66,
+   "end": 59.24,
+   "pic": "luck"
+  },
+  {
+   "section": "Chorus",
+   "text": "Take it easy! Take it easy!",
+   "words": [
+    {
+     "t": "Take",
+     "start": 63.28,
+     "end": 63.48
+    },
+    {
+     "t": "it",
+     "start": 63.48,
+     "end": 63.84
+    },
+    {
+     "t": "easy!",
+     "start": 63.84,
+     "end": 64.54,
+     "pic": "easy"
+    },
+    {
+     "t": "Take",
+     "start": 65.14,
+     "end": 65.36
+    },
+    {
+     "t": "it",
+     "start": 65.36,
+     "end": 65.72
+    },
+    {
+     "t": "easy!",
+     "start": 65.72,
+     "end": 66.46,
+     "pic": "easy"
+    }
+   ],
+   "n": 18,
+   "start": 63.28,
+   "end": 66.46,
+   "pic": "easy"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a nice day! Have a nice day!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 66.92,
+     "end": 67.22
+    },
+    {
+     "t": "a",
+     "start": 67.22,
+     "end": 67.54
+    },
+    {
+     "t": "nice",
+     "start": 67.54,
+     "end": 67.76,
+     "pic": "nice"
+    },
+    {
+     "t": "day!",
+     "start": 67.76,
+     "end": 68.42
+    },
+    {
+     "t": "Have",
+     "start": 68.8,
+     "end": 69.08
+    },
+    {
+     "t": "a",
+     "start": 69.08,
+     "end": 69.48
+    },
+    {
+     "t": "nice",
+     "start": 69.48,
+     "end": 69.58,
+     "pic": "nice"
+    },
+    {
+     "t": "day!",
+     "start": 69.58,
+     "end": 70.26
+    }
+   ],
+   "n": 19,
+   "start": 66.92,
+   "end": 70.26,
+   "pic": "nice"
+  },
+  {
+   "section": "Chorus",
+   "text": "Good luck! Take care!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 70.68,
+     "end": 71.02
+    },
+    {
+     "t": "luck!",
+     "start": 71.02,
+     "end": 71.52,
+     "pic": "luck"
+    },
+    {
+     "t": "Take",
+     "start": 71.7,
+     "end": 72.0
+    },
+    {
+     "t": "care!",
+     "start": 72.0,
+     "end": 72.64,
+     "pic": "care"
+    }
+   ],
+   "n": 20,
+   "start": 70.68,
+   "end": 72.64,
+   "pic": "luck"
+  },
+  {
+   "section": "Chorus",
+   "text": "So long! See you!",
+   "words": [
+    {
+     "t": "So",
+     "start": 73.28,
+     "end": 73.72
+    },
+    {
+     "t": "long!",
+     "start": 73.72,
+     "end": 74.58,
+     "pic": "long"
+    },
+    {
+     "t": "See",
+     "start": 75.36,
+     "end": 75.54
+    },
+    {
+     "t": "you!",
+     "start": 75.54,
+     "end": 76.79
+    }
+   ],
+   "n": 21,
+   "start": 73.28,
+   "end": 76.79,
+   "pic": "long"
+  },
+  {
+   "section": "Bridge",
+   "text": "Goodbye! See you next time!",
+   "words": [
+    {
+     "t": "Goodbye!",
+     "start": 77.72,
+     "end": 85.38,
+     "pic": "goodbye"
+    },
+    {
+     "t": "See",
+     "start": 89.17,
+     "end": 89.82
+    },
+    {
+     "t": "you",
+     "start": 89.82,
+     "end": 90.08
+    },
+    {
+     "t": "next",
+     "start": 90.08,
+     "end": 90.34
+    },
+    {
+     "t": "time!",
+     "start": 90.34,
+     "end": 90.44
+    }
+   ],
+   "n": 22,
+   "start": 77.72,
+   "end": 90.44,
+   "pic": "goodbye"
+  },
+  {
+   "section": "Chorus",
+   "text": "Take it easy! Take it easy!",
+   "words": [
+    {
+     "t": "Take",
+     "start": 92.78,
+     "end": 93.02
+    },
+    {
+     "t": "it",
+     "start": 93.02,
+     "end": 93.38
+    },
+    {
+     "t": "easy!",
+     "start": 93.38,
+     "end": 93.98,
+     "pic": "easy"
+    },
+    {
+     "t": "Take",
+     "start": 94.6,
+     "end": 94.92
+    },
+    {
+     "t": "it",
+     "start": 94.92,
+     "end": 95.24
+    },
+    {
+     "t": "easy!",
+     "start": 95.24,
+     "end": 95.74,
+     "pic": "easy"
+    }
+   ],
+   "n": 23,
+   "start": 92.78,
+   "end": 95.74,
+   "pic": "easy"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a nice day! Have a nice day!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 96.46,
+     "end": 96.74
+    },
+    {
+     "t": "a",
+     "start": 96.74,
+     "end": 97.06
+    },
+    {
+     "t": "nice",
+     "start": 97.06,
+     "end": 97.34,
+     "pic": "nice"
+    },
+    {
+     "t": "day!",
+     "start": 97.34,
+     "end": 97.94
+    },
+    {
+     "t": "Have",
+     "start": 98.32,
+     "end": 98.58
+    },
+    {
+     "t": "a",
+     "start": 98.58,
+     "end": 98.98
+    },
+    {
+     "t": "nice",
+     "start": 98.98,
+     "end": 99.16,
+     "pic": "nice"
+    },
+    {
+     "t": "day!",
+     "start": 99.16,
+     "end": 99.76
+    }
+   ],
+   "n": 24,
+   "start": 96.46,
+   "end": 99.76,
+   "pic": "nice"
+  },
+  {
+   "section": "Chorus",
+   "text": "Good luck! Take care!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 100.2,
+     "end": 100.54
+    },
+    {
+     "t": "luck!",
+     "start": 100.54,
+     "end": 101.0,
+     "pic": "luck"
+    },
+    {
+     "t": "Take",
+     "start": 101.18,
+     "end": 101.48
+    },
+    {
+     "t": "care!",
+     "start": 101.48,
+     "end": 102.2,
+     "pic": "care"
+    }
+   ],
+   "n": 25,
+   "start": 100.2,
+   "end": 102.2,
+   "pic": "luck"
+  },
+  {
+   "section": "Chorus",
+   "text": "So long! See you!",
+   "words": [
+    {
+     "t": "So",
+     "start": 102.86,
+     "end": 103.18
+    },
+    {
+     "t": "long!",
+     "start": 103.18,
+     "end": 103.78,
+     "pic": "long"
+    },
+    {
+     "t": "See",
+     "start": 104.8,
+     "end": 105.2
+    },
+    {
+     "t": "you!",
+     "start": 105.2,
+     "end": 107.24
+    }
+   ],
+   "n": 26,
+   "start": 102.86,
+   "end": 107.24,
+   "pic": "long"
+  },
+  {
+   "section": "Outro",
+   "text": "Take it easy!",
+   "words": [
+    {
+     "t": "Take",
+     "start": 124.18,
+     "end": 124.38
+    },
+    {
+     "t": "it",
+     "start": 124.38,
+     "end": 124.76
+    },
+    {
+     "t": "easy!",
+     "start": 124.76,
+     "end": 125.38,
+     "pic": "easy"
+    }
+   ],
+   "n": 27,
+   "start": 124.18,
+   "end": 125.38,
+   "pic": "easy"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "easy",
+   "prompt": "I am off!",
+   "answer": "Take it easy!",
+   "choices": [
+    "Take it easy!",
+    "It is mine!",
+    "I prefer spring!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. Have a ... day!",
+   "answer": "nice",
+   "choices": [
+    "nice",
+    "long",
+    "miss"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "luck",
+   "prompt": "I have a test today!",
+   "answer": "Good luck!",
+   "choices": [
+    "Good luck!",
+    "My knee hurts!",
+    "It is his!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 3,
+   "prompt": "Listen. Take it ...",
+   "answer": "easy",
+   "choices": [
+    "easy",
+    "care",
+    "luck"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "goodbye",
+   "prompt": "Time to say ...",
+   "answer": "goodbye!",
+   "choices": [
+    "goodbye!",
+    "hello!",
+    "thank you!"
+   ]
+  }
+ ]
+}

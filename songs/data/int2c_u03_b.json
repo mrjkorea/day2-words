@@ -1,0 +1,907 @@
+{
+ "id": "int2c_u03_b",
+ "title": "Whose Is This?",
+ "book": "INT 2C",
+ "unit": 3,
+ "unitTitle": "Is This Yours?",
+ "packId": "int2c_u3",
+ "audio": "audio/int2c_u03_b.mp3",
+ "duration": 152.66,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Whose is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 0.44,
+     "end": 0.56
+    },
+    {
+     "t": "is",
+     "start": 0.56,
+     "end": 0.78
+    },
+    {
+     "t": "this?",
+     "start": 0.78,
+     "end": 1.28
+    }
+   ],
+   "n": 1,
+   "start": 0.44,
+   "end": 1.28,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Whose pen is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 15.58,
+     "end": 16.1
+    },
+    {
+     "t": "pen",
+     "start": 16.1,
+     "end": 16.88
+    },
+    {
+     "t": "is",
+     "start": 16.88,
+     "end": 17.82
+    },
+    {
+     "t": "this?",
+     "start": 17.82,
+     "end": 18.68
+    }
+   ],
+   "n": 2,
+   "start": 15.58,
+   "end": 18.68,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is mine!",
+   "words": [
+    {
+     "t": "It",
+     "start": 19.44,
+     "end": 19.72
+    },
+    {
+     "t": "is",
+     "start": 19.72,
+     "end": 20.76
+    },
+    {
+     "t": "mine!",
+     "start": 20.76,
+     "end": 21.7
+    }
+   ],
+   "n": 3,
+   "start": 19.44,
+   "end": 21.7,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Whose phone is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 23.16,
+     "end": 23.94
+    },
+    {
+     "t": "phone",
+     "start": 23.84,
+     "end": 24.52,
+     "pic": "phone"
+    },
+    {
+     "t": "is",
+     "start": 24.52,
+     "end": 25.48
+    },
+    {
+     "t": "this?",
+     "start": 25.48,
+     "end": 26.48
+    }
+   ],
+   "n": 4,
+   "start": 23.16,
+   "end": 26.48,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is his!",
+   "words": [
+    {
+     "t": "It",
+     "start": 27.0,
+     "end": 27.42
+    },
+    {
+     "t": "is",
+     "start": 27.42,
+     "end": 28.48
+    },
+    {
+     "t": "his!",
+     "start": 28.48,
+     "end": 29.42
+    }
+   ],
+   "n": 5,
+   "start": 27.0,
+   "end": 29.42,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Whose book is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 30.62,
+     "end": 31.38
+    },
+    {
+     "t": "book",
+     "start": 31.38,
+     "end": 32.18,
+     "pic": "book"
+    },
+    {
+     "t": "is",
+     "start": 32.18,
+     "end": 33.2
+    },
+    {
+     "t": "this?",
+     "start": 33.2,
+     "end": 34.06
+    }
+   ],
+   "n": 6,
+   "start": 30.62,
+   "end": 34.06,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is hers!",
+   "words": [
+    {
+     "t": "It",
+     "start": 34.72,
+     "end": 35.12
+    },
+    {
+     "t": "is",
+     "start": 35.08,
+     "end": 36.12
+    },
+    {
+     "t": "hers!",
+     "start": 36.12,
+     "end": 37.92
+    }
+   ],
+   "n": 7,
+   "start": 34.72,
+   "end": 37.92,
+   "pic": "book"
+  },
+  {
+   "section": "Chorus",
+   "text": "Whose is this? Whose is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 38.72,
+     "end": 38.92
+    },
+    {
+     "t": "is",
+     "start": 38.92,
+     "end": 39.22
+    },
+    {
+     "t": "this?",
+     "start": 39.18,
+     "end": 39.93
+    },
+    {
+     "t": "Whose",
+     "start": 40.6,
+     "end": 40.86
+    },
+    {
+     "t": "is",
+     "start": 40.86,
+     "end": 41.26
+    },
+    {
+     "t": "this?",
+     "start": 41.18,
+     "end": 41.9
+    }
+   ],
+   "n": 8,
+   "start": 38.72,
+   "end": 41.9,
+   "pic": "book"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is mine! Mine!",
+   "words": [
+    {
+     "t": "It",
+     "start": 42.36,
+     "end": 43.1
+    },
+    {
+     "t": "is",
+     "start": 43.1,
+     "end": 43.88
+    },
+    {
+     "t": "mine!",
+     "start": 43.82,
+     "end": 44.72
+    },
+    {
+     "t": "Mine!",
+     "start": 44.77,
+     "end": 45.19
+    }
+   ],
+   "n": 9,
+   "start": 42.36,
+   "end": 45.19,
+   "pic": "book"
+  },
+  {
+   "section": "Chorus",
+   "text": "Whose is this? Whose is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 46.24,
+     "end": 46.6
+    },
+    {
+     "t": "is",
+     "start": 46.6,
+     "end": 46.86
+    },
+    {
+     "t": "this?",
+     "start": 46.84,
+     "end": 47.64
+    },
+    {
+     "t": "Whose",
+     "start": 48.26,
+     "end": 48.48
+    },
+    {
+     "t": "is",
+     "start": 48.5,
+     "end": 48.82
+    },
+    {
+     "t": "this?",
+     "start": 48.8,
+     "end": 49.6
+    }
+   ],
+   "n": 10,
+   "start": 46.24,
+   "end": 49.6,
+   "pic": "book"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is not mine!",
+   "words": [
+    {
+     "t": "It",
+     "start": 50.04,
+     "end": 50.38
+    },
+    {
+     "t": "is",
+     "start": 50.4,
+     "end": 50.73
+    },
+    {
+     "t": "not",
+     "start": 50.75,
+     "end": 51.18
+    },
+    {
+     "t": "mine!",
+     "start": 51.2,
+     "end": 51.82
+    }
+   ],
+   "n": 11,
+   "start": 50.04,
+   "end": 51.82,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Whose shoes are these?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 54.32,
+     "end": 54.46
+    },
+    {
+     "t": "shoes",
+     "start": 54.48,
+     "end": 55.18
+    },
+    {
+     "t": "are",
+     "start": 55.18,
+     "end": 56.26
+    },
+    {
+     "t": "these?",
+     "start": 56.22,
+     "end": 56.82
+    }
+   ],
+   "n": 12,
+   "start": 54.32,
+   "end": 56.82,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 2",
+   "text": "They are mine!",
+   "words": [
+    {
+     "t": "They",
+     "start": 57.78,
+     "end": 58.14
+    },
+    {
+     "t": "are",
+     "start": 58.1,
+     "end": 58.98
+    },
+    {
+     "t": "mine!",
+     "start": 58.98,
+     "end": 60.42
+    }
+   ],
+   "n": 13,
+   "start": 57.78,
+   "end": 60.42,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Whose hat is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 61.94,
+     "end": 62.5
+    },
+    {
+     "t": "hat",
+     "start": 62.53,
+     "end": 62.86
+    },
+    {
+     "t": "is",
+     "start": 63.2,
+     "end": 63.72
+    },
+    {
+     "t": "this?",
+     "start": 63.72,
+     "end": 64.56
+    }
+   ],
+   "n": 14,
+   "start": 61.94,
+   "end": 64.56,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is yours!",
+   "words": [
+    {
+     "t": "It",
+     "start": 65.42,
+     "end": 65.84
+    },
+    {
+     "t": "is",
+     "start": 65.84,
+     "end": 66.94
+    },
+    {
+     "t": "yours!",
+     "start": 66.92,
+     "end": 67.78,
+     "pic": "yours"
+    }
+   ],
+   "n": 15,
+   "start": 65.42,
+   "end": 67.78,
+   "pic": "yours"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Whose candy is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 68.6,
+     "end": 69.92
+    },
+    {
+     "t": "candy",
+     "start": 69.9,
+     "end": 70.56,
+     "pic": "candy"
+    },
+    {
+     "t": "is",
+     "start": 70.56,
+     "end": 71.4
+    },
+    {
+     "t": "this?",
+     "start": 71.4,
+     "end": 72.42
+    }
+   ],
+   "n": 16,
+   "start": 68.6,
+   "end": 72.42,
+   "pic": "whosecandyisthis"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is ours!",
+   "words": [
+    {
+     "t": "It",
+     "start": 73.18,
+     "end": 73.56
+    },
+    {
+     "t": "is",
+     "start": 73.54,
+     "end": 74.56
+    },
+    {
+     "t": "ours!",
+     "start": 74.56,
+     "end": 76.38
+    }
+   ],
+   "n": 17,
+   "start": 73.18,
+   "end": 76.38,
+   "pic": "whosecandyisthis"
+  },
+  {
+   "section": "Chorus",
+   "text": "Whose is this? Whose is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 76.9,
+     "end": 77.32
+    },
+    {
+     "t": "is",
+     "start": 77.32,
+     "end": 77.6
+    },
+    {
+     "t": "this?",
+     "start": 77.6,
+     "end": 78.42
+    },
+    {
+     "t": "Whose",
+     "start": 78.86,
+     "end": 79.26
+    },
+    {
+     "t": "is",
+     "start": 79.26,
+     "end": 79.52
+    },
+    {
+     "t": "this?",
+     "start": 79.52,
+     "end": 79.98
+    }
+   ],
+   "n": 18,
+   "start": 76.9,
+   "end": 79.98,
+   "pic": "whosecandyisthis"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is mine! Mine!",
+   "words": [
+    {
+     "t": "It",
+     "start": 80.98,
+     "end": 81.12
+    },
+    {
+     "t": "is",
+     "start": 81.12,
+     "end": 82.2
+    },
+    {
+     "t": "mine!",
+     "start": 82.26,
+     "end": 83.46
+    },
+    {
+     "t": "Mine!",
+     "start": 83.51,
+     "end": 83.93
+    }
+   ],
+   "n": 19,
+   "start": 80.98,
+   "end": 83.93,
+   "pic": "whosecandyisthis"
+  },
+  {
+   "section": "Chorus",
+   "text": "Whose is this? Whose is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 84.88,
+     "end": 85.35
+    },
+    {
+     "t": "is",
+     "start": 85.37,
+     "end": 85.63
+    },
+    {
+     "t": "this?",
+     "start": 85.65,
+     "end": 86.12
+    },
+    {
+     "t": "Whose",
+     "start": 86.14,
+     "end": 86.61
+    },
+    {
+     "t": "is",
+     "start": 86.63,
+     "end": 86.89
+    },
+    {
+     "t": "this?",
+     "start": 86.91,
+     "end": 87.4
+    }
+   ],
+   "n": 20,
+   "start": 84.88,
+   "end": 87.4,
+   "pic": "whosecandyisthis"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is not mine!",
+   "words": [
+    {
+     "t": "It",
+     "start": 88.18,
+     "end": 88.6
+    },
+    {
+     "t": "is",
+     "start": 88.66,
+     "end": 89.64
+    },
+    {
+     "t": "not",
+     "start": 89.74,
+     "end": 90.14
+    },
+    {
+     "t": "mine!",
+     "start": 90.14,
+     "end": 91.12
+    }
+   ],
+   "n": 21,
+   "start": 88.18,
+   "end": 91.12,
+   "pic": "whosecandyisthis"
+  },
+  {
+   "section": "Bridge",
+   "text": "Mine! Yours! His! Hers! Ours!",
+   "words": [
+    {
+     "t": "Mine!",
+     "start": 92.36,
+     "end": 93.4
+    },
+    {
+     "t": "Yours!",
+     "start": 94.28,
+     "end": 95.08,
+     "pic": "yours"
+    },
+    {
+     "t": "His!",
+     "start": 96.3,
+     "end": 96.76
+    },
+    {
+     "t": "Hers!",
+     "start": 97.14,
+     "end": 97.6
+    },
+    {
+     "t": "Ours!",
+     "start": 98.2,
+     "end": 99.3
+    }
+   ],
+   "n": 22,
+   "start": 92.36,
+   "end": 99.3,
+   "pic": "yours"
+  },
+  {
+   "section": "Chorus",
+   "text": "Whose is this? Whose is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 130.29,
+     "end": 130.71
+    },
+    {
+     "t": "is",
+     "start": 130.74,
+     "end": 131.16
+    },
+    {
+     "t": "this?",
+     "start": 131.22,
+     "end": 131.38
+    },
+    {
+     "t": "Whose",
+     "start": 131.43,
+     "end": 131.85
+    },
+    {
+     "t": "is",
+     "start": 131.88,
+     "end": 132.3
+    },
+    {
+     "t": "this?",
+     "start": 133.08,
+     "end": 133.4
+    }
+   ],
+   "n": 23,
+   "start": 130.29,
+   "end": 133.4,
+   "pic": "yours"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is mine! Mine!",
+   "words": [
+    {
+     "t": "It",
+     "start": 134.78,
+     "end": 135.14
+    },
+    {
+     "t": "is",
+     "start": 135.14,
+     "end": 136.04
+    },
+    {
+     "t": "mine!",
+     "start": 136.04,
+     "end": 137.4
+    },
+    {
+     "t": "Mine!",
+     "start": 137.45,
+     "end": 137.87
+    }
+   ],
+   "n": 24,
+   "start": 134.78,
+   "end": 137.87,
+   "pic": "yours"
+  },
+  {
+   "section": "Chorus",
+   "text": "Whose is this? Whose is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 137.9,
+     "end": 138.32
+    },
+    {
+     "t": "is",
+     "start": 138.86,
+     "end": 139.06
+    },
+    {
+     "t": "this?",
+     "start": 139.06,
+     "end": 139.84
+    },
+    {
+     "t": "Whose",
+     "start": 139.89,
+     "end": 140.31
+    },
+    {
+     "t": "is",
+     "start": 140.78,
+     "end": 140.98
+    },
+    {
+     "t": "this?",
+     "start": 140.98,
+     "end": 141.08
+    }
+   ],
+   "n": 25,
+   "start": 137.9,
+   "end": 141.08,
+   "pic": "yours"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is not mine!",
+   "words": [
+    {
+     "t": "It",
+     "start": 142.42,
+     "end": 142.64
+    },
+    {
+     "t": "is",
+     "start": 142.64,
+     "end": 143.52
+    },
+    {
+     "t": "not",
+     "start": 143.52,
+     "end": 143.86
+    },
+    {
+     "t": "mine!",
+     "start": 143.86,
+     "end": 145.02
+    }
+   ],
+   "n": 26,
+   "start": 142.42,
+   "end": 145.02,
+   "pic": "yours"
+  },
+  {
+   "section": "Outro",
+   "text": "Whose is this?",
+   "words": [
+    {
+     "t": "Whose",
+     "start": 146.08,
+     "end": 146.5
+    },
+    {
+     "t": "is",
+     "start": 146.56,
+     "end": 146.74
+    },
+    {
+     "t": "this?",
+     "start": 146.74,
+     "end": 147.42
+    }
+   ],
+   "n": 27,
+   "start": 146.08,
+   "end": 147.42,
+   "pic": "yours"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "phone",
+   "prompt": "Whose phone is this?",
+   "answer": "It is his!",
+   "choices": [
+    "It is his!",
+    "It is red!",
+    "It is Monday!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "It is ___",
+   "answer": "his",
+   "choices": [
+    "his",
+    "hers",
+    "mine"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "book",
+   "prompt": "Whose book is this?",
+   "answer": "It is hers!",
+   "choices": [
+    "It is blue!",
+    "It is hers!",
+    "I am fine!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "It is ___",
+   "answer": "hers",
+   "choices": [
+    "mine",
+    "his",
+    "hers"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "candy",
+   "prompt": "Whose candy is this?",
+   "answer": "It is mine!",
+   "choices": [
+    "It is mine!",
+    "I prefer spring!",
+    "I am sitting!"
+   ]
+  }
+ ]
+}

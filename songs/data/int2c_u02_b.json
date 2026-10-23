@@ -1,0 +1,992 @@
+{
+ "id": "int2c_u02_b",
+ "title": "I Am Sitting on a Chair",
+ "book": "INT 2C",
+ "unit": 2,
+ "unitTitle": "What Are You Doing?",
+ "packId": "int2c_u2",
+ "audio": "audio/int2c_u02_b.mp3",
+ "duration": 148.39,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Sit, sitting...",
+   "words": [
+    {
+     "t": "Sit,",
+     "start": 15.56,
+     "end": 16.52
+    },
+    {
+     "t": "sitting...",
+     "start": 16.57,
+     "end": 16.75
+    }
+   ],
+   "n": 1,
+   "start": 15.56,
+   "end": 16.75,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What are you doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 16.84,
+     "end": 17.62
+    },
+    {
+     "t": "are",
+     "start": 17.62,
+     "end": 17.92
+    },
+    {
+     "t": "you",
+     "start": 17.92,
+     "end": 18.12
+    },
+    {
+     "t": "doing?",
+     "start": 18.12,
+     "end": 18.56
+    }
+   ],
+   "n": 2,
+   "start": 16.84,
+   "end": 18.56,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am sitting on a chair!",
+   "words": [
+    {
+     "t": "I",
+     "start": 19.38,
+     "end": 19.46
+    },
+    {
+     "t": "am",
+     "start": 19.42,
+     "end": 19.86
+    },
+    {
+     "t": "sitting",
+     "start": 19.9,
+     "end": 20.38
+    },
+    {
+     "t": "on",
+     "start": 20.38,
+     "end": 20.8
+    },
+    {
+     "t": "a",
+     "start": 20.8,
+     "end": 21.06
+    },
+    {
+     "t": "chair!",
+     "start": 21.06,
+     "end": 21.48
+    }
+   ],
+   "n": 3,
+   "start": 19.38,
+   "end": 21.48,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What are you doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 22.9,
+     "end": 23.3
+    },
+    {
+     "t": "are",
+     "start": 23.3,
+     "end": 25.48
+    },
+    {
+     "t": "you",
+     "start": 25.48,
+     "end": 25.72
+    },
+    {
+     "t": "doing?",
+     "start": 25.72,
+     "end": 26.28
+    }
+   ],
+   "n": 4,
+   "start": 22.9,
+   "end": 26.28,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am pushing a cart!",
+   "words": [
+    {
+     "t": "I",
+     "start": 26.68,
+     "end": 27.06
+    },
+    {
+     "t": "am",
+     "start": 27.06,
+     "end": 27.6
+    },
+    {
+     "t": "pushing",
+     "start": 27.6,
+     "end": 28.02
+    },
+    {
+     "t": "a",
+     "start": 28.19,
+     "end": 28.32
+    },
+    {
+     "t": "cart!",
+     "start": 28.4,
+     "end": 28.58
+    }
+   ],
+   "n": 5,
+   "start": 26.68,
+   "end": 28.58,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What are you doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 30.38,
+     "end": 31.1
+    },
+    {
+     "t": "are",
+     "start": 31.1,
+     "end": 31.48
+    },
+    {
+     "t": "you",
+     "start": 31.48,
+     "end": 32.26
+    },
+    {
+     "t": "doing?",
+     "start": 32.26,
+     "end": 33.28
+    }
+   ],
+   "n": 6,
+   "start": 30.38,
+   "end": 33.28,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am pulling a wagon!",
+   "words": [
+    {
+     "t": "I",
+     "start": 34.54,
+     "end": 34.88
+    },
+    {
+     "t": "am",
+     "start": 34.88,
+     "end": 35.62
+    },
+    {
+     "t": "pulling",
+     "start": 35.62,
+     "end": 36.58
+    },
+    {
+     "t": "a",
+     "start": 36.58,
+     "end": 37.3
+    },
+    {
+     "t": "wagon!",
+     "start": 37.28,
+     "end": 37.82
+    }
+   ],
+   "n": 7,
+   "start": 34.54,
+   "end": 37.82,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am sitting! Sitting!",
+   "words": [
+    {
+     "t": "I",
+     "start": 38.14,
+     "end": 38.37
+    },
+    {
+     "t": "am",
+     "start": 38.39,
+     "end": 38.71
+    },
+    {
+     "t": "sitting!",
+     "start": 38.73,
+     "end": 39.55
+    },
+    {
+     "t": "Sitting!",
+     "start": 39.57,
+     "end": 40.41
+    }
+   ],
+   "n": 8,
+   "start": 38.14,
+   "end": 40.41,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am pushing! Pushing!",
+   "words": [
+    {
+     "t": "I",
+     "start": 40.3,
+     "end": 41.62
+    },
+    {
+     "t": "am",
+     "start": 41.66,
+     "end": 43.18
+    },
+    {
+     "t": "pushing!",
+     "start": 43.26,
+     "end": 44.0
+    },
+    {
+     "t": "Pushing!",
+     "start": 44.48,
+     "end": 44.8
+    }
+   ],
+   "n": 9,
+   "start": 40.3,
+   "end": 44.8,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "What are you doing? What are you doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 45.44,
+     "end": 45.88
+    },
+    {
+     "t": "are",
+     "start": 45.94,
+     "end": 46.46
+    },
+    {
+     "t": "you",
+     "start": 46.46,
+     "end": 46.66
+    },
+    {
+     "t": "doing?",
+     "start": 46.68,
+     "end": 47.34
+    },
+    {
+     "t": "What",
+     "start": 47.96,
+     "end": 48.1
+    },
+    {
+     "t": "are",
+     "start": 48.1,
+     "end": 48.34
+    },
+    {
+     "t": "you",
+     "start": 48.36,
+     "end": 48.6
+    },
+    {
+     "t": "doing?",
+     "start": 48.6,
+     "end": 48.7
+    }
+   ],
+   "n": 10,
+   "start": 45.44,
+   "end": 48.7,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am singing a song!",
+   "words": [
+    {
+     "t": "I",
+     "start": 51.66,
+     "end": 52.0
+    },
+    {
+     "t": "am",
+     "start": 52.0,
+     "end": 52.36
+    },
+    {
+     "t": "singing",
+     "start": 52.36,
+     "end": 52.76
+    },
+    {
+     "t": "a",
+     "start": 52.76,
+     "end": 53.24
+    },
+    {
+     "t": "song!",
+     "start": 53.24,
+     "end": 53.64
+    }
+   ],
+   "n": 11,
+   "start": 51.66,
+   "end": 53.64,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What are you doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 55.4,
+     "end": 55.76
+    },
+    {
+     "t": "are",
+     "start": 55.76,
+     "end": 55.96
+    },
+    {
+     "t": "you",
+     "start": 55.96,
+     "end": 56.2
+    },
+    {
+     "t": "doing?",
+     "start": 56.2,
+     "end": 56.64
+    }
+   ],
+   "n": 12,
+   "start": 55.4,
+   "end": 56.64,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am reading a book!",
+   "words": [
+    {
+     "t": "I",
+     "start": 57.14,
+     "end": 57.56
+    },
+    {
+     "t": "am",
+     "start": 57.56,
+     "end": 58.0
+    },
+    {
+     "t": "reading",
+     "start": 58.0,
+     "end": 58.46
+    },
+    {
+     "t": "a",
+     "start": 58.48,
+     "end": 58.96
+    },
+    {
+     "t": "book!",
+     "start": 58.96,
+     "end": 59.26
+    }
+   ],
+   "n": 13,
+   "start": 57.14,
+   "end": 59.26,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What are you doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 60.9,
+     "end": 61.24
+    },
+    {
+     "t": "are",
+     "start": 63.1,
+     "end": 63.56
+    },
+    {
+     "t": "you",
+     "start": 63.56,
+     "end": 63.82
+    },
+    {
+     "t": "doing?",
+     "start": 63.78,
+     "end": 63.88
+    }
+   ],
+   "n": 14,
+   "start": 60.9,
+   "end": 63.88,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am studying!",
+   "words": [
+    {
+     "t": "I",
+     "start": 64.78,
+     "end": 65.12
+    },
+    {
+     "t": "am",
+     "start": 65.12,
+     "end": 65.6
+    },
+    {
+     "t": "studying!",
+     "start": 65.6,
+     "end": 66.6
+    }
+   ],
+   "n": 15,
+   "start": 64.78,
+   "end": 66.6,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What am I doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 66.66,
+     "end": 68.86
+    },
+    {
+     "t": "am",
+     "start": 69.16,
+     "end": 69.88
+    },
+    {
+     "t": "I",
+     "start": 69.8,
+     "end": 70.38
+    },
+    {
+     "t": "doing?",
+     "start": 70.38,
+     "end": 71.46
+    }
+   ],
+   "n": 16,
+   "start": 66.66,
+   "end": 71.46,
+   "pic": "bow"
+  },
+  {
+   "section": "Verse 2",
+   "text": "You are playing!",
+   "words": [
+    {
+     "t": "You",
+     "start": 72.4,
+     "end": 72.92
+    },
+    {
+     "t": "are",
+     "start": 72.86,
+     "end": 73.86
+    },
+    {
+     "t": "playing!",
+     "start": 74.1,
+     "end": 75.16
+    }
+   ],
+   "n": 17,
+   "start": 72.4,
+   "end": 75.16,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am sitting! Sitting!",
+   "words": [
+    {
+     "t": "I",
+     "start": 76.22,
+     "end": 76.62
+    },
+    {
+     "t": "am",
+     "start": 76.66,
+     "end": 77.46
+    },
+    {
+     "t": "sitting!",
+     "start": 77.48,
+     "end": 78.24
+    },
+    {
+     "t": "Sitting!",
+     "start": 78.29,
+     "end": 78.71
+    }
+   ],
+   "n": 18,
+   "start": 76.22,
+   "end": 78.71,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am pushing! Pushing!",
+   "words": [
+    {
+     "t": "I",
+     "start": 79.6,
+     "end": 80.24
+    },
+    {
+     "t": "am",
+     "start": 80.2,
+     "end": 81.42
+    },
+    {
+     "t": "pushing!",
+     "start": 81.42,
+     "end": 82.14
+    },
+    {
+     "t": "Pushing!",
+     "start": 82.19,
+     "end": 82.61
+    }
+   ],
+   "n": 19,
+   "start": 79.6,
+   "end": 82.61,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "What are you doing? What are you doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 83.6,
+     "end": 84.1
+    },
+    {
+     "t": "are",
+     "start": 84.1,
+     "end": 84.52
+    },
+    {
+     "t": "you",
+     "start": 84.54,
+     "end": 84.78
+    },
+    {
+     "t": "doing?",
+     "start": 84.78,
+     "end": 85.54
+    },
+    {
+     "t": "What",
+     "start": 85.94,
+     "end": 86.16
+    },
+    {
+     "t": "are",
+     "start": 86.16,
+     "end": 86.44
+    },
+    {
+     "t": "you",
+     "start": 86.44,
+     "end": 86.66
+    },
+    {
+     "t": "doing?",
+     "start": 86.66,
+     "end": 87.12
+    }
+   ],
+   "n": 20,
+   "start": 83.6,
+   "end": 87.12,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am singing a song!",
+   "words": [
+    {
+     "t": "I",
+     "start": 89.74,
+     "end": 90.16
+    },
+    {
+     "t": "am",
+     "start": 90.2,
+     "end": 90.46
+    },
+    {
+     "t": "singing",
+     "start": 90.4,
+     "end": 90.88
+    },
+    {
+     "t": "a",
+     "start": 90.88,
+     "end": 91.32
+    },
+    {
+     "t": "song!",
+     "start": 91.3,
+     "end": 91.8
+    }
+   ],
+   "n": 21,
+   "start": 89.74,
+   "end": 91.8,
+   "pic": "bow"
+  },
+  {
+   "section": "Bridge",
+   "text": "Sit, sitting! Push, pushing!",
+   "words": [
+    {
+     "t": "Sit,",
+     "start": 101.18,
+     "end": 103.02
+    },
+    {
+     "t": "sitting!",
+     "start": 103.07,
+     "end": 103.49
+    },
+    {
+     "t": "Push,",
+     "start": 105.4,
+     "end": 105.56
+    },
+    {
+     "t": "pushing!",
+     "start": 105.61,
+     "end": 106.03
+    }
+   ],
+   "n": 22,
+   "start": 101.18,
+   "end": 106.03,
+   "pic": "bow"
+  },
+  {
+   "section": "Bridge",
+   "text": "Pull, pulling! Sing, singing!",
+   "words": [
+    {
+     "t": "Pull,",
+     "start": 106.06,
+     "end": 106.48
+    },
+    {
+     "t": "pulling!",
+     "start": 106.51,
+     "end": 106.93
+    },
+    {
+     "t": "Sing,",
+     "start": 108.48,
+     "end": 108.92
+    },
+    {
+     "t": "singing!",
+     "start": 108.97,
+     "end": 109.39
+    }
+   ],
+   "n": 23,
+   "start": 106.06,
+   "end": 109.39,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am sitting! Sitting!",
+   "words": [
+    {
+     "t": "I",
+     "start": 114.24,
+     "end": 114.57
+    },
+    {
+     "t": "am",
+     "start": 114.59,
+     "end": 115.04
+    },
+    {
+     "t": "sitting!",
+     "start": 115.06,
+     "end": 116.22
+    },
+    {
+     "t": "Sitting!",
+     "start": 116.24,
+     "end": 117.42
+    }
+   ],
+   "n": 24,
+   "start": 114.24,
+   "end": 117.42,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am pushing! Pushing!",
+   "words": [
+    {
+     "t": "I",
+     "start": 118.14,
+     "end": 118.5
+    },
+    {
+     "t": "am",
+     "start": 118.48,
+     "end": 119.38
+    },
+    {
+     "t": "pushing!",
+     "start": 119.38,
+     "end": 120.26
+    },
+    {
+     "t": "Pushing!",
+     "start": 120.14,
+     "end": 121.18
+    }
+   ],
+   "n": 25,
+   "start": 118.14,
+   "end": 121.18,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "What are you doing? What are you doing?",
+   "words": [
+    {
+     "t": "What",
+     "start": 121.66,
+     "end": 122.06
+    },
+    {
+     "t": "are",
+     "start": 122.26,
+     "end": 122.64
+    },
+    {
+     "t": "you",
+     "start": 122.64,
+     "end": 122.9
+    },
+    {
+     "t": "doing?",
+     "start": 122.84,
+     "end": 123.62
+    },
+    {
+     "t": "What",
+     "start": 124.02,
+     "end": 124.3
+    },
+    {
+     "t": "are",
+     "start": 124.28,
+     "end": 124.54
+    },
+    {
+     "t": "you",
+     "start": 124.54,
+     "end": 124.8
+    },
+    {
+     "t": "doing?",
+     "start": 124.8,
+     "end": 125.26
+    }
+   ],
+   "n": 26,
+   "start": 121.66,
+   "end": 125.26,
+   "pic": "bow"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am singing a song!",
+   "words": [
+    {
+     "t": "I",
+     "start": 127.86,
+     "end": 128.22
+    },
+    {
+     "t": "am",
+     "start": 128.22,
+     "end": 128.54
+    },
+    {
+     "t": "singing",
+     "start": 128.52,
+     "end": 128.92
+    },
+    {
+     "t": "a",
+     "start": 128.96,
+     "end": 129.38
+    },
+    {
+     "t": "song!",
+     "start": 129.38,
+     "end": 129.82
+    }
+   ],
+   "n": 27,
+   "start": 127.86,
+   "end": 129.82,
+   "pic": "bow"
+  },
+  {
+   "section": "Outro",
+   "text": "I am singing a song!",
+   "words": [
+    {
+     "t": "I",
+     "start": 133.05,
+     "end": 134.2
+    },
+    {
+     "t": "am",
+     "start": 134.2,
+     "end": 136.14
+    },
+    {
+     "t": "singing",
+     "start": 136.14,
+     "end": 136.58
+    },
+    {
+     "t": "a",
+     "start": 136.58,
+     "end": 136.98
+    },
+    {
+     "t": "song!",
+     "start": 136.98,
+     "end": 137.44
+    }
+   ],
+   "n": 28,
+   "start": 133.05,
+   "end": 137.44,
+   "pic": "bow"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "fishing",
+   "prompt": "What are you doing?",
+   "answer": "I am fishing!",
+   "choices": [
+    "I am fishing!",
+    "I am sleeping!",
+    "I am brushing!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "I am pushing a ___",
+   "answer": "cart",
+   "choices": [
+    "cart",
+    "chair",
+    "wagon"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sleep",
+   "prompt": "What are you doing?",
+   "answer": "I am sleeping!",
+   "choices": [
+    "I am singing!",
+    "I am sleeping!",
+    "I am fishing!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "I am pulling a ___",
+   "answer": "wagon",
+   "choices": [
+    "cart",
+    "song",
+    "wagon"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "brush",
+   "prompt": "What are you doing?",
+   "answer": "I am brushing!",
+   "choices": [
+    "I am brushing!",
+    "I am sitting!",
+    "I am fishing!"
+   ]
+  }
+ ]
+}

@@ -359,6 +359,78 @@
    "unitTitle": "This is Mine!",
    "blurb": "It is not yours! It is mine!",
    "packId": "int2b_u8"
+  },
+  {
+   "id": "int2c_u01_b",
+   "title": "What Season Do You Prefer?",
+   "book": "INT 2C",
+   "unit": 1,
+   "unitTitle": "I Love Summer",
+   "blurb": "What season do you prefer? I prefer spring!",
+   "packId": "int2c_u1"
+  },
+  {
+   "id": "int2c_u02_b",
+   "title": "I Am Sitting on a Chair",
+   "book": "INT 2C",
+   "unit": 2,
+   "unitTitle": "What Are You Doing?",
+   "blurb": "What are you doing? I am sitting on a chair!",
+   "packId": "int2c_u2"
+  },
+  {
+   "id": "int2c_u03_b",
+   "title": "Whose Is This?",
+   "book": "INT 2C",
+   "unit": 3,
+   "unitTitle": "Is This Yours?",
+   "blurb": "Whose pen is this? It is mine!",
+   "packId": "int2c_u3"
+  },
+  {
+   "id": "int2c_u04_b",
+   "title": "My Favorite Color Is Blue",
+   "book": "INT 2C",
+   "unit": 4,
+   "unitTitle": "What's Your Favorite?",
+   "blurb": "My favorite color is blue! What's your favorite?",
+   "packId": "int2c_u4"
+  },
+  {
+   "id": "int2c_u05_b",
+   "title": "I Am Feeling Fantastic",
+   "book": "INT 2C",
+   "unit": 5,
+   "unitTitle": "How Are You Feeling?",
+   "blurb": "How are you feeling? I am feeling fantastic!",
+   "packId": "int2c_u5"
+  },
+  {
+   "id": "int2c_u06_b",
+   "title": "My Knee Hurts",
+   "book": "INT 2C",
+   "unit": 6,
+   "unitTitle": "What's Wrong?",
+   "blurb": "What's wrong with him? His knee hurts!",
+   "packId": "int2c_u6"
+  },
+  {
+   "id": "int2c_u07_b",
+   "title": "What Is His Number?",
+   "book": "INT 2C",
+   "unit": 7,
+   "unitTitle": "Phone English 1",
+   "blurb": "What is his number? His number is zero one zero...",
+   "packId": "int2c_u7"
+  },
+  {
+   "id": "int2c_u08_b",
+   "title": "Take It Easy!",
+   "book": "INT 2C",
+   "unit": 8,
+   "unitTitle": "I'll Miss You",
+   "blurb": "I am off! Take it easy!",
+   "packId": "int2c_u8"
   }
  ]
 }

@@ -1,0 +1,1020 @@
+{
+ "id": "int2c_u05_b",
+ "title": "I Am Feeling Fantastic",
+ "book": "INT 2C",
+ "unit": 5,
+ "unitTitle": "How Are You Feeling?",
+ "packId": "int2c_u5",
+ "audio": "audio/int2c_u05_b.mp3",
+ "duration": 150.82,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "I am feeling fantastic!",
+   "words": [
+    {
+     "t": "I",
+     "start": 10.2,
+     "end": 12.3
+    },
+    {
+     "t": "am",
+     "start": 12.32,
+     "end": 12.86
+    },
+    {
+     "t": "feeling",
+     "start": 12.86,
+     "end": 13.36
+    },
+    {
+     "t": "fantastic!",
+     "start": 13.36,
+     "end": 14.2,
+     "pic": "fantastic"
+    }
+   ],
+   "n": 1,
+   "start": 10.2,
+   "end": 14.2,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am feeling fantastic!",
+   "words": [
+    {
+     "t": "I",
+     "start": 17.5,
+     "end": 18.1
+    },
+    {
+     "t": "am",
+     "start": 18.1,
+     "end": 18.62
+    },
+    {
+     "t": "feeling",
+     "start": 18.62,
+     "end": 19.12
+    },
+    {
+     "t": "fantastic!",
+     "start": 19.12,
+     "end": 20.24,
+     "pic": "fantastic"
+    }
+   ],
+   "n": 2,
+   "start": 17.5,
+   "end": 20.24,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Fantastic? Me too!",
+   "words": [
+    {
+     "t": "Fantastic?",
+     "start": 21.36,
+     "end": 21.76,
+     "pic": "fantastic"
+    },
+    {
+     "t": "Me",
+     "start": 22.32,
+     "end": 22.5
+    },
+    {
+     "t": "too!",
+     "start": 22.48,
+     "end": 22.9
+    }
+   ],
+   "n": 3,
+   "start": 21.36,
+   "end": 22.9,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am feeling proud!",
+   "words": [
+    {
+     "t": "I",
+     "start": 23.54,
+     "end": 23.92
+    },
+    {
+     "t": "am",
+     "start": 23.9,
+     "end": 24.44
+    },
+    {
+     "t": "feeling",
+     "start": 24.44,
+     "end": 24.86
+    },
+    {
+     "t": "proud!",
+     "start": 24.88,
+     "end": 25.46,
+     "pic": "proud"
+    }
+   ],
+   "n": 4,
+   "start": 23.54,
+   "end": 25.46,
+   "pic": "proud"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Proud? Good job!",
+   "words": [
+    {
+     "t": "Proud?",
+     "start": 27.02,
+     "end": 28.22,
+     "pic": "proud"
+    },
+    {
+     "t": "Good",
+     "start": 28.56,
+     "end": 28.76
+    },
+    {
+     "t": "job!",
+     "start": 28.76,
+     "end": 28.98
+    }
+   ],
+   "n": 5,
+   "start": 27.02,
+   "end": 28.98,
+   "pic": "proud"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am feeling satisfied!",
+   "words": [
+    {
+     "t": "I",
+     "start": 30.6,
+     "end": 31.42
+    },
+    {
+     "t": "am",
+     "start": 31.42,
+     "end": 31.6
+    },
+    {
+     "t": "feeling",
+     "start": 31.6,
+     "end": 32.04
+    },
+    {
+     "t": "satisfied!",
+     "start": 32.04,
+     "end": 32.52
+    }
+   ],
+   "n": 6,
+   "start": 30.6,
+   "end": 32.52,
+   "pic": "proud"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Satisfied? Great!",
+   "words": [
+    {
+     "t": "Satisfied?",
+     "start": 33.96,
+     "end": 34.72
+    },
+    {
+     "t": "Great!",
+     "start": 36.54,
+     "end": 36.82
+    }
+   ],
+   "n": 7,
+   "start": 33.96,
+   "end": 36.82,
+   "pic": "proud"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling fantastic! Fantastic!",
+   "words": [
+    {
+     "t": "I",
+     "start": 39.08,
+     "end": 39.2
+    },
+    {
+     "t": "am",
+     "start": 39.2,
+     "end": 39.78
+    },
+    {
+     "t": "feeling",
+     "start": 39.74,
+     "end": 40.14
+    },
+    {
+     "t": "fantastic!",
+     "start": 40.2,
+     "end": 41.0,
+     "pic": "fantastic"
+    },
+    {
+     "t": "Fantastic!",
+     "start": 41.52,
+     "end": 42.28,
+     "pic": "fantastic"
+    }
+   ],
+   "n": 8,
+   "start": 39.08,
+   "end": 42.28,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling proud! Proud!",
+   "words": [
+    {
+     "t": "I",
+     "start": 42.68,
+     "end": 43.04
+    },
+    {
+     "t": "am",
+     "start": 43.04,
+     "end": 43.62
+    },
+    {
+     "t": "feeling",
+     "start": 43.58,
+     "end": 44.04
+    },
+    {
+     "t": "proud!",
+     "start": 44.04,
+     "end": 44.6,
+     "pic": "proud"
+    },
+    {
+     "t": "Proud!",
+     "start": 45.0,
+     "end": 45.38,
+     "pic": "proud"
+    }
+   ],
+   "n": 9,
+   "start": 42.68,
+   "end": 45.38,
+   "pic": "proud"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you feeling?",
+   "words": [
+    {
+     "t": "How",
+     "start": 45.56,
+     "end": 45.74
+    },
+    {
+     "t": "are",
+     "start": 45.74,
+     "end": 45.88
+    },
+    {
+     "t": "you",
+     "start": 45.88,
+     "end": 46.0
+    },
+    {
+     "t": "feeling?",
+     "start": 46.0,
+     "end": 46.42
+    }
+   ],
+   "n": 10,
+   "start": 45.48,
+   "end": 47.88,
+   "pic": "proud"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling fantastic today!",
+   "words": [
+    {
+     "t": "I",
+     "start": 46.58,
+     "end": 46.94
+    },
+    {
+     "t": "am",
+     "start": 46.94,
+     "end": 47.44
+    },
+    {
+     "t": "feeling",
+     "start": 47.48,
+     "end": 48.0
+    },
+    {
+     "t": "fantastic",
+     "start": 48.0,
+     "end": 49.54,
+     "pic": "fantastic"
+    },
+    {
+     "t": "today!",
+     "start": 49.54,
+     "end": 50.72
+    }
+   ],
+   "n": 11,
+   "start": 46.58,
+   "end": 50.72,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am feeling a little ignored.",
+   "words": [
+    {
+     "t": "I",
+     "start": 57.45,
+     "end": 58.8
+    },
+    {
+     "t": "am",
+     "start": 58.8,
+     "end": 58.96
+    },
+    {
+     "t": "feeling",
+     "start": 58.98,
+     "end": 59.48
+    },
+    {
+     "t": "a",
+     "start": 59.48,
+     "end": 59.96
+    },
+    {
+     "t": "little",
+     "start": 59.94,
+     "end": 60.34
+    },
+    {
+     "t": "ignored.",
+     "start": 60.52,
+     "end": 61.28,
+     "pic": "ignored"
+    }
+   ],
+   "n": 12,
+   "start": 57.45,
+   "end": 61.28,
+   "pic": "ignored"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Ignored? I am here!",
+   "words": [
+    {
+     "t": "Ignored?",
+     "start": 62.58,
+     "end": 63.12,
+     "pic": "ignored"
+    },
+    {
+     "t": "I",
+     "start": 63.36,
+     "end": 63.62
+    },
+    {
+     "t": "am",
+     "start": 63.6,
+     "end": 63.78
+    },
+    {
+     "t": "here!",
+     "start": 63.78,
+     "end": 64.23
+    }
+   ],
+   "n": 13,
+   "start": 62.58,
+   "end": 64.23,
+   "pic": "ignored"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am feeling a little confused.",
+   "words": [
+    {
+     "t": "I",
+     "start": 64.34,
+     "end": 64.58
+    },
+    {
+     "t": "am",
+     "start": 64.6,
+     "end": 64.78
+    },
+    {
+     "t": "feeling",
+     "start": 66.7,
+     "end": 67.18
+    },
+    {
+     "t": "a",
+     "start": 67.16,
+     "end": 67.66
+    },
+    {
+     "t": "little",
+     "start": 67.64,
+     "end": 68.02
+    },
+    {
+     "t": "confused.",
+     "start": 68.08,
+     "end": 68.98,
+     "pic": "confused"
+    }
+   ],
+   "n": 14,
+   "start": 64.34,
+   "end": 68.98,
+   "pic": "confused"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Confused? Let me help!",
+   "words": [
+    {
+     "t": "Confused?",
+     "start": 70.18,
+     "end": 70.7,
+     "pic": "confused"
+    },
+    {
+     "t": "Let",
+     "start": 71.06,
+     "end": 71.26
+    },
+    {
+     "t": "me",
+     "start": 71.24,
+     "end": 71.44
+    },
+    {
+     "t": "help!",
+     "start": 71.46,
+     "end": 71.86
+    }
+   ],
+   "n": 15,
+   "start": 70.18,
+   "end": 71.86,
+   "pic": "confused"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am feeling very uncomfortable.",
+   "words": [
+    {
+     "t": "I",
+     "start": 73.92,
+     "end": 74.2
+    },
+    {
+     "t": "am",
+     "start": 74.16,
+     "end": 74.4
+    },
+    {
+     "t": "feeling",
+     "start": 74.4,
+     "end": 74.78
+    },
+    {
+     "t": "very",
+     "start": 74.78,
+     "end": 75.3
+    },
+    {
+     "t": "uncomfortable.",
+     "start": 75.3,
+     "end": 76.2
+    }
+   ],
+   "n": 16,
+   "start": 73.92,
+   "end": 76.2,
+   "pic": "confused"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Uncomfortable? Sit down!",
+   "words": [
+    {
+     "t": "Uncomfortable?",
+     "start": 77.1,
+     "end": 77.86
+    },
+    {
+     "t": "Sit",
+     "start": 78.88,
+     "end": 79.1
+    },
+    {
+     "t": "down!",
+     "start": 79.1,
+     "end": 80.66
+    }
+   ],
+   "n": 17,
+   "start": 77.1,
+   "end": 80.66,
+   "pic": "confused"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling fantastic! Fantastic!",
+   "words": [
+    {
+     "t": "I",
+     "start": 81.0,
+     "end": 81.56
+    },
+    {
+     "t": "am",
+     "start": 81.56,
+     "end": 81.98
+    },
+    {
+     "t": "feeling",
+     "start": 81.98,
+     "end": 82.84
+    },
+    {
+     "t": "fantastic!",
+     "start": 86.32,
+     "end": 87.42,
+     "pic": "fantastic"
+    },
+    {
+     "t": "Fantastic!",
+     "start": 87.47,
+     "end": 87.89,
+     "pic": "fantastic"
+    }
+   ],
+   "n": 18,
+   "start": 81.0,
+   "end": 87.89,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling proud! Proud!",
+   "words": [
+    {
+     "t": "I",
+     "start": 88.36,
+     "end": 88.64
+    },
+    {
+     "t": "am",
+     "start": 89.08,
+     "end": 89.58
+    },
+    {
+     "t": "feeling",
+     "start": 89.58,
+     "end": 90.12
+    },
+    {
+     "t": "proud!",
+     "start": 90.16,
+     "end": 90.68,
+     "pic": "proud"
+    },
+    {
+     "t": "Proud!",
+     "start": 90.73,
+     "end": 91.05,
+     "pic": "proud"
+    }
+   ],
+   "n": 19,
+   "start": 88.36,
+   "end": 91.05,
+   "pic": "proud"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you feeling?",
+   "words": [
+    {
+     "t": "How",
+     "start": 91.2,
+     "end": 91.82
+    },
+    {
+     "t": "are",
+     "start": 91.82,
+     "end": 91.98
+    },
+    {
+     "t": "you",
+     "start": 91.98,
+     "end": 92.1
+    },
+    {
+     "t": "feeling?",
+     "start": 92.1,
+     "end": 92.56
+    }
+   ],
+   "n": 20,
+   "start": 91.2,
+   "end": 92.56,
+   "pic": "proud"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling fantastic today!",
+   "words": [
+    {
+     "t": "I",
+     "start": 92.68,
+     "end": 93.02
+    },
+    {
+     "t": "am",
+     "start": 93.02,
+     "end": 93.62
+    },
+    {
+     "t": "feeling",
+     "start": 93.62,
+     "end": 94.14
+    },
+    {
+     "t": "fantastic",
+     "start": 94.12,
+     "end": 95.62,
+     "pic": "fantastic"
+    },
+    {
+     "t": "today!",
+     "start": 95.6,
+     "end": 96.92
+    }
+   ],
+   "n": 21,
+   "start": 92.68,
+   "end": 96.92,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Bridge",
+   "text": "How is he feeling? He is feeling proud!",
+   "words": [
+    {
+     "t": "How",
+     "start": 104.12,
+     "end": 104.38
+    },
+    {
+     "t": "is",
+     "start": 104.38,
+     "end": 104.84
+    },
+    {
+     "t": "he",
+     "start": 104.86,
+     "end": 105.1
+    },
+    {
+     "t": "feeling?",
+     "start": 105.1,
+     "end": 105.8
+    },
+    {
+     "t": "He",
+     "start": 106.58,
+     "end": 106.78
+    },
+    {
+     "t": "is",
+     "start": 106.94,
+     "end": 107.04
+    },
+    {
+     "t": "feeling",
+     "start": 107.04,
+     "end": 107.38
+    },
+    {
+     "t": "proud!",
+     "start": 107.38,
+     "end": 107.5,
+     "pic": "proud"
+    }
+   ],
+   "n": 22,
+   "start": 104.12,
+   "end": 107.5,
+   "pic": "proud"
+  },
+  {
+   "section": "Bridge",
+   "text": "How is she feeling? She is feeling fantastic!",
+   "words": [
+    {
+     "t": "How",
+     "start": 107.54,
+     "end": 108.13
+    },
+    {
+     "t": "is",
+     "start": 108.15,
+     "end": 108.62
+    },
+    {
+     "t": "she",
+     "start": 108.64,
+     "end": 109.23
+    },
+    {
+     "t": "feeling?",
+     "start": 109.25,
+     "end": 110.44
+    },
+    {
+     "t": "She",
+     "start": 110.46,
+     "end": 111.05
+    },
+    {
+     "t": "is",
+     "start": 111.07,
+     "end": 111.54
+    },
+    {
+     "t": "feeling",
+     "start": 111.56,
+     "end": 112.64
+    },
+    {
+     "t": "fantastic!",
+     "start": 112.66,
+     "end": 114.12,
+     "pic": "fantastic"
+    }
+   ],
+   "n": 23,
+   "start": 107.54,
+   "end": 114.12,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling fantastic! Fantastic!",
+   "words": [
+    {
+     "t": "I",
+     "start": 117.56,
+     "end": 118.0
+    },
+    {
+     "t": "am",
+     "start": 118.0,
+     "end": 118.44
+    },
+    {
+     "t": "feeling",
+     "start": 118.44,
+     "end": 118.94
+    },
+    {
+     "t": "fantastic!",
+     "start": 119.0,
+     "end": 119.46,
+     "pic": "fantastic"
+    },
+    {
+     "t": "Fantastic!",
+     "start": 120.28,
+     "end": 120.9,
+     "pic": "fantastic"
+    }
+   ],
+   "n": 24,
+   "start": 117.56,
+   "end": 120.9,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling proud! Proud!",
+   "words": [
+    {
+     "t": "I",
+     "start": 121.64,
+     "end": 121.8
+    },
+    {
+     "t": "am",
+     "start": 121.8,
+     "end": 122.32
+    },
+    {
+     "t": "feeling",
+     "start": 122.32,
+     "end": 122.78
+    },
+    {
+     "t": "proud!",
+     "start": 122.76,
+     "end": 123.3,
+     "pic": "proud"
+    },
+    {
+     "t": "Proud!",
+     "start": 123.8,
+     "end": 124.12,
+     "pic": "proud"
+    }
+   ],
+   "n": 25,
+   "start": 121.64,
+   "end": 124.12,
+   "pic": "proud"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you feeling?",
+   "words": [
+    {
+     "t": "How",
+     "start": 124.28,
+     "end": 124.46
+    },
+    {
+     "t": "are",
+     "start": 124.46,
+     "end": 124.64
+    },
+    {
+     "t": "you",
+     "start": 124.64,
+     "end": 124.74
+    },
+    {
+     "t": "feeling?",
+     "start": 124.78,
+     "end": 125.2
+    }
+   ],
+   "n": 26,
+   "start": 124.22,
+   "end": 126.62,
+   "pic": "proud"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am feeling fantastic today!",
+   "words": [
+    {
+     "t": "I",
+     "start": 125.28,
+     "end": 125.72
+    },
+    {
+     "t": "am",
+     "start": 125.7,
+     "end": 126.1
+    },
+    {
+     "t": "feeling",
+     "start": 126.1,
+     "end": 126.74
+    },
+    {
+     "t": "fantastic",
+     "start": 126.74,
+     "end": 127.94,
+     "pic": "fantastic"
+    },
+    {
+     "t": "today!",
+     "start": 127.94,
+     "end": 129.54
+    }
+   ],
+   "n": 27,
+   "start": 125.28,
+   "end": 129.54,
+   "pic": "fantastic"
+  },
+  {
+   "section": "Outro",
+   "text": "I am feeling fantastic!",
+   "words": [
+    {
+     "t": "I",
+     "start": 140.54,
+     "end": 141.02
+    },
+    {
+     "t": "am",
+     "start": 141.02,
+     "end": 141.54
+    },
+    {
+     "t": "feeling",
+     "start": 141.54,
+     "end": 142.02
+    },
+    {
+     "t": "fantastic!",
+     "start": 141.98,
+     "end": 142.7,
+     "pic": "fantastic"
+    }
+   ],
+   "n": 28,
+   "start": 140.54,
+   "end": 142.7,
+   "pic": "fantastic"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "fantastic",
+   "prompt": "How are you feeling?",
+   "answer": "I am feeling fantastic!",
+   "choices": [
+    "I am feeling fantastic!",
+    "I am feeling worried!",
+    "I am feeling nervous!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. I am feeling ...",
+   "answer": "proud",
+   "choices": [
+    "proud",
+    "confused",
+    "jealous"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "nervous",
+   "prompt": "How are you feeling?",
+   "answer": "I am feeling nervous!",
+   "choices": [
+    "I am feeling proud!",
+    "I am feeling nervous!",
+    "I am feeling fantastic!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "I am feeling ___",
+   "answer": "satisfied",
+   "choices": [
+    "surprised",
+    "satisfied",
+    "worried"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "ignored",
+   "prompt": "How are you feeling?",
+   "answer": "I am feeling a little ignored.",
+   "choices": [
+    "I am feeling a little ignored.",
+    "I am feeling proud!",
+    "I am feeling fantastic!"
+   ]
+  }
+ ]
+}

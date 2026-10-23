@@ -1,0 +1,1088 @@
+{
+ "id": "int2c_u01_b",
+ "title": "What Season Do You Prefer?",
+ "book": "INT 2C",
+ "unit": 1,
+ "unitTitle": "I Love Summer",
+ "packId": "int2c_u1",
+ "audio": "audio/int2c_u01_b.mp3",
+ "duration": 146.5,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Spring, summer, fall, or winter?",
+   "words": [
+    {
+     "t": "Spring,",
+     "start": 8.33,
+     "end": 9.28,
+     "pic": "spring"
+    },
+    {
+     "t": "summer,",
+     "start": 9.64,
+     "end": 9.86,
+     "pic": "summer"
+    },
+    {
+     "t": "fall,",
+     "start": 10.2,
+     "end": 10.46,
+     "pic": "fall"
+    },
+    {
+     "t": "or",
+     "start": 10.44,
+     "end": 10.82
+    },
+    {
+     "t": "winter?",
+     "start": 10.82,
+     "end": 11.28,
+     "pic": "winter"
+    }
+   ],
+   "n": 1,
+   "start": 8.33,
+   "end": 11.28,
+   "pic": "spring"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What season do you prefer?",
+   "words": [
+    {
+     "t": "What",
+     "start": 11.98,
+     "end": 12.1
+    },
+    {
+     "t": "season",
+     "start": 12.1,
+     "end": 12.52
+    },
+    {
+     "t": "do",
+     "start": 12.52,
+     "end": 12.98
+    },
+    {
+     "t": "you",
+     "start": 13.0,
+     "end": 13.32
+    },
+    {
+     "t": "prefer?",
+     "start": 13.32,
+     "end": 13.78
+    }
+   ],
+   "n": 2,
+   "start": 11.98,
+   "end": 13.78,
+   "pic": "spring"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I prefer spring!",
+   "words": [
+    {
+     "t": "I",
+     "start": 14.58,
+     "end": 14.8
+    },
+    {
+     "t": "prefer",
+     "start": 14.84,
+     "end": 15.28
+    },
+    {
+     "t": "spring!",
+     "start": 15.24,
+     "end": 15.82,
+     "pic": "spring"
+    }
+   ],
+   "n": 3,
+   "start": 14.58,
+   "end": 15.82,
+   "pic": "spring"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What can you do there?",
+   "words": [
+    {
+     "t": "What",
+     "start": 16.42,
+     "end": 16.6
+    },
+    {
+     "t": "can",
+     "start": 16.6,
+     "end": 16.92
+    },
+    {
+     "t": "you",
+     "start": 16.92,
+     "end": 17.14
+    },
+    {
+     "t": "do",
+     "start": 17.14,
+     "end": 17.46
+    },
+    {
+     "t": "there?",
+     "start": 17.52,
+     "end": 18.12
+    }
+   ],
+   "n": 4,
+   "start": 16.42,
+   "end": 18.12,
+   "pic": "spring"
+  },
+  {
+   "section": "Verse 1",
+   "text": "We can see cherry blossoms!",
+   "words": [
+    {
+     "t": "We",
+     "start": 19.48,
+     "end": 19.68
+    },
+    {
+     "t": "can",
+     "start": 19.66,
+     "end": 19.84
+    },
+    {
+     "t": "see",
+     "start": 19.84,
+     "end": 20.04
+    },
+    {
+     "t": "cherry",
+     "start": 20.04,
+     "end": 20.52
+    },
+    {
+     "t": "blossoms!",
+     "start": 20.52,
+     "end": 21.02
+    }
+   ],
+   "n": 5,
+   "start": 19.48,
+   "end": 21.02,
+   "pic": "cherryblossom"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What season do you prefer?",
+   "words": [
+    {
+     "t": "What",
+     "start": 21.3,
+     "end": 21.5
+    },
+    {
+     "t": "season",
+     "start": 21.48,
+     "end": 21.86
+    },
+    {
+     "t": "do",
+     "start": 21.86,
+     "end": 22.24
+    },
+    {
+     "t": "you",
+     "start": 22.26,
+     "end": 22.64
+    },
+    {
+     "t": "prefer?",
+     "start": 22.64,
+     "end": 23.14
+    }
+   ],
+   "n": 6,
+   "start": 21.3,
+   "end": 23.14,
+   "pic": "cherryblossom"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I prefer winter!",
+   "words": [
+    {
+     "t": "I",
+     "start": 24.32,
+     "end": 24.6
+    },
+    {
+     "t": "prefer",
+     "start": 24.6,
+     "end": 25.12
+    },
+    {
+     "t": "winter!",
+     "start": 25.12,
+     "end": 25.57,
+     "pic": "winter"
+    }
+   ],
+   "n": 7,
+   "start": 24.32,
+   "end": 25.57,
+   "pic": "winter"
+  },
+  {
+   "section": "Chorus",
+   "text": "What season do you prefer? I prefer summer!",
+   "words": [
+    {
+     "t": "What",
+     "start": 26.66,
+     "end": 27.09
+    },
+    {
+     "t": "season",
+     "start": 27.11,
+     "end": 27.68
+    },
+    {
+     "t": "do",
+     "start": 27.7,
+     "end": 27.98
+    },
+    {
+     "t": "you",
+     "start": 28.0,
+     "end": 28.35
+    },
+    {
+     "t": "prefer?",
+     "start": 28.37,
+     "end": 29.02
+    },
+    {
+     "t": "I",
+     "start": 29.04,
+     "end": 29.24
+    },
+    {
+     "t": "prefer",
+     "start": 29.26,
+     "end": 29.83
+    },
+    {
+     "t": "summer!",
+     "start": 29.85,
+     "end": 30.52,
+     "pic": "summer"
+    }
+   ],
+   "n": 8,
+   "start": 26.66,
+   "end": 30.52,
+   "pic": "summer"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do there? We can swim!",
+   "words": [
+    {
+     "t": "What",
+     "start": 31.08,
+     "end": 31.2
+    },
+    {
+     "t": "can",
+     "start": 31.2,
+     "end": 31.72
+    },
+    {
+     "t": "you",
+     "start": 31.72,
+     "end": 32.16
+    },
+    {
+     "t": "do",
+     "start": 32.16,
+     "end": 32.5
+    },
+    {
+     "t": "there?",
+     "start": 32.5,
+     "end": 33.04
+    },
+    {
+     "t": "We",
+     "start": 33.12,
+     "end": 33.3
+    },
+    {
+     "t": "can",
+     "start": 33.3,
+     "end": 33.48
+    },
+    {
+     "t": "swim!",
+     "start": 33.48,
+     "end": 33.92,
+     "pic": "swim"
+    }
+   ],
+   "n": 9,
+   "start": 31.08,
+   "end": 33.92,
+   "pic": "swim"
+  },
+  {
+   "section": "Chorus",
+   "text": "What season do you prefer?",
+   "words": [
+    {
+     "t": "What",
+     "start": 34.6,
+     "end": 34.7
+    },
+    {
+     "t": "season",
+     "start": 34.7,
+     "end": 35.56
+    },
+    {
+     "t": "do",
+     "start": 35.56,
+     "end": 36.26
+    },
+    {
+     "t": "you",
+     "start": 36.26,
+     "end": 36.46
+    },
+    {
+     "t": "prefer?",
+     "start": 36.46,
+     "end": 36.9
+    }
+   ],
+   "n": 10,
+   "start": 34.6,
+   "end": 36.9,
+   "pic": "swim"
+  },
+  {
+   "section": "Chorus",
+   "text": "How about you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 37.64,
+     "end": 38.14
+    },
+    {
+     "t": "about",
+     "start": 38.14,
+     "end": 38.54
+    },
+    {
+     "t": "you?",
+     "start": 38.54,
+     "end": 39.79
+    }
+   ],
+   "n": 11,
+   "start": 37.64,
+   "end": 39.79,
+   "pic": "swim"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What season do you prefer?",
+   "words": [
+    {
+     "t": "What",
+     "start": 42.16,
+     "end": 42.54
+    },
+    {
+     "t": "season",
+     "start": 42.54,
+     "end": 43.02
+    },
+    {
+     "t": "do",
+     "start": 43.02,
+     "end": 43.46
+    },
+    {
+     "t": "you",
+     "start": 43.46,
+     "end": 43.82
+    },
+    {
+     "t": "prefer?",
+     "start": 43.82,
+     "end": 44.52
+    }
+   ],
+   "n": 12,
+   "start": 42.16,
+   "end": 44.52,
+   "pic": "swim"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I prefer fall!",
+   "words": [
+    {
+     "t": "I",
+     "start": 45.18,
+     "end": 45.3
+    },
+    {
+     "t": "prefer",
+     "start": 45.41,
+     "end": 45.64
+    },
+    {
+     "t": "fall!",
+     "start": 45.74,
+     "end": 46.42,
+     "pic": "fall"
+    }
+   ],
+   "n": 13,
+   "start": 45.18,
+   "end": 46.42,
+   "pic": "fall"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What can you do there?",
+   "words": [
+    {
+     "t": "What",
+     "start": 46.9,
+     "end": 47.06
+    },
+    {
+     "t": "can",
+     "start": 47.06,
+     "end": 47.4
+    },
+    {
+     "t": "you",
+     "start": 47.4,
+     "end": 47.62
+    },
+    {
+     "t": "do",
+     "start": 47.62,
+     "end": 48.04
+    },
+    {
+     "t": "there?",
+     "start": 48.04,
+     "end": 48.54
+    }
+   ],
+   "n": 14,
+   "start": 46.9,
+   "end": 48.54,
+   "pic": "fall"
+  },
+  {
+   "section": "Verse 2",
+   "text": "We can see beautiful leaves!",
+   "words": [
+    {
+     "t": "We",
+     "start": 49.94,
+     "end": 50.16
+    },
+    {
+     "t": "can",
+     "start": 50.16,
+     "end": 50.32
+    },
+    {
+     "t": "see",
+     "start": 50.3,
+     "end": 50.52
+    },
+    {
+     "t": "beautiful",
+     "start": 50.52,
+     "end": 50.96
+    },
+    {
+     "t": "leaves!",
+     "start": 50.96,
+     "end": 51.51,
+     "pic": "leaves"
+    }
+   ],
+   "n": 15,
+   "start": 49.94,
+   "end": 51.51,
+   "pic": "leaves"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What season do you prefer?",
+   "words": [
+    {
+     "t": "What",
+     "start": 51.96,
+     "end": 52.2
+    },
+    {
+     "t": "season",
+     "start": 52.22,
+     "end": 52.6
+    },
+    {
+     "t": "do",
+     "start": 52.6,
+     "end": 52.92
+    },
+    {
+     "t": "you",
+     "start": 52.92,
+     "end": 53.16
+    },
+    {
+     "t": "prefer?",
+     "start": 53.16,
+     "end": 53.7
+    }
+   ],
+   "n": 16,
+   "start": 51.96,
+   "end": 53.7,
+   "pic": "leaves"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I prefer summer!",
+   "words": [
+    {
+     "t": "I",
+     "start": 54.32,
+     "end": 54.56
+    },
+    {
+     "t": "prefer",
+     "start": 54.56,
+     "end": 55.24
+    },
+    {
+     "t": "summer!",
+     "start": 55.32,
+     "end": 56.36,
+     "pic": "summer"
+    }
+   ],
+   "n": 17,
+   "start": 54.32,
+   "end": 56.36,
+   "pic": "summer"
+  },
+  {
+   "section": "Chorus",
+   "text": "What season do you prefer? I prefer summer!",
+   "words": [
+    {
+     "t": "What",
+     "start": 57.28,
+     "end": 57.42
+    },
+    {
+     "t": "season",
+     "start": 57.94,
+     "end": 58.68
+    },
+    {
+     "t": "do",
+     "start": 58.68,
+     "end": 59.28
+    },
+    {
+     "t": "you",
+     "start": 59.28,
+     "end": 59.5
+    },
+    {
+     "t": "prefer?",
+     "start": 59.5,
+     "end": 60.0
+    },
+    {
+     "t": "I",
+     "start": 60.26,
+     "end": 60.44
+    },
+    {
+     "t": "prefer",
+     "start": 60.46,
+     "end": 60.7
+    },
+    {
+     "t": "summer!",
+     "start": 60.72,
+     "end": 61.42,
+     "pic": "summer"
+    }
+   ],
+   "n": 18,
+   "start": 57.28,
+   "end": 61.42,
+   "pic": "summer"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do there? We can swim!",
+   "words": [
+    {
+     "t": "What",
+     "start": 61.92,
+     "end": 62.26
+    },
+    {
+     "t": "can",
+     "start": 62.26,
+     "end": 62.72
+    },
+    {
+     "t": "you",
+     "start": 62.7,
+     "end": 63.18
+    },
+    {
+     "t": "do",
+     "start": 63.16,
+     "end": 63.5
+    },
+    {
+     "t": "there?",
+     "start": 63.5,
+     "end": 63.96
+    },
+    {
+     "t": "We",
+     "start": 64.08,
+     "end": 64.22
+    },
+    {
+     "t": "can",
+     "start": 64.22,
+     "end": 64.42
+    },
+    {
+     "t": "swim!",
+     "start": 64.42,
+     "end": 64.88,
+     "pic": "swim"
+    }
+   ],
+   "n": 19,
+   "start": 61.92,
+   "end": 64.88,
+   "pic": "swim"
+  },
+  {
+   "section": "Chorus",
+   "text": "What season do you prefer?",
+   "words": [
+    {
+     "t": "What",
+     "start": 65.3,
+     "end": 65.74
+    },
+    {
+     "t": "season",
+     "start": 65.7,
+     "end": 66.62
+    },
+    {
+     "t": "do",
+     "start": 66.56,
+     "end": 67.22
+    },
+    {
+     "t": "you",
+     "start": 67.18,
+     "end": 67.4
+    },
+    {
+     "t": "prefer?",
+     "start": 67.4,
+     "end": 68.12
+    }
+   ],
+   "n": 20,
+   "start": 65.3,
+   "end": 68.12,
+   "pic": "swim"
+  },
+  {
+   "section": "Chorus",
+   "text": "How about you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 68.84,
+     "end": 69.12
+    },
+    {
+     "t": "about",
+     "start": 69.08,
+     "end": 69.46
+    },
+    {
+     "t": "you?",
+     "start": 69.46,
+     "end": 69.98
+    }
+   ],
+   "n": 21,
+   "start": 68.84,
+   "end": 69.98,
+   "pic": "swim"
+  },
+  {
+   "section": "Bridge",
+   "text": "In winter, we can ski!",
+   "words": [
+    {
+     "t": "In",
+     "start": 80.92,
+     "end": 81.26
+    },
+    {
+     "t": "winter,",
+     "start": 81.26,
+     "end": 81.98,
+     "pic": "winter"
+    },
+    {
+     "t": "we",
+     "start": 81.98,
+     "end": 82.62
+    },
+    {
+     "t": "can",
+     "start": 82.62,
+     "end": 83.12
+    },
+    {
+     "t": "ski!",
+     "start": 83.12,
+     "end": 83.56,
+     "pic": "ski"
+    }
+   ],
+   "n": 22,
+   "start": 80.92,
+   "end": 83.56,
+   "pic": "winter"
+  },
+  {
+   "section": "Bridge",
+   "text": "In summer, we can swim!",
+   "words": [
+    {
+     "t": "In",
+     "start": 83.82,
+     "end": 84.08
+    },
+    {
+     "t": "summer,",
+     "start": 84.1,
+     "end": 84.78,
+     "pic": "summer"
+    },
+    {
+     "t": "we",
+     "start": 84.78,
+     "end": 85.52
+    },
+    {
+     "t": "can",
+     "start": 85.52,
+     "end": 85.88
+    },
+    {
+     "t": "swim!",
+     "start": 85.88,
+     "end": 86.58,
+     "pic": "swim"
+    }
+   ],
+   "n": 23,
+   "start": 83.82,
+   "end": 86.58,
+   "pic": "summer"
+  },
+  {
+   "section": "Chorus",
+   "text": "What season do you prefer? I prefer summer!",
+   "words": [
+    {
+     "t": "What",
+     "start": 121.1,
+     "end": 121.53
+    },
+    {
+     "t": "season",
+     "start": 121.57,
+     "end": 122.14
+    },
+    {
+     "t": "do",
+     "start": 122.2,
+     "end": 122.49
+    },
+    {
+     "t": "you",
+     "start": 122.52,
+     "end": 122.87
+    },
+    {
+     "t": "prefer?",
+     "start": 122.91,
+     "end": 123.55
+    },
+    {
+     "t": "I",
+     "start": 123.62,
+     "end": 123.84
+    },
+    {
+     "t": "prefer",
+     "start": 123.86,
+     "end": 124.43
+    },
+    {
+     "t": "summer!",
+     "start": 124.49,
+     "end": 125.13,
+     "pic": "summer"
+    }
+   ],
+   "n": 24,
+   "start": 121.1,
+   "end": 125.13,
+   "pic": "summer"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can you do there? We can swim!",
+   "words": [
+    {
+     "t": "What",
+     "start": 125.62,
+     "end": 126.02
+    },
+    {
+     "t": "can",
+     "start": 126.02,
+     "end": 126.42
+    },
+    {
+     "t": "you",
+     "start": 126.42,
+     "end": 126.9
+    },
+    {
+     "t": "do",
+     "start": 126.9,
+     "end": 127.28
+    },
+    {
+     "t": "there?",
+     "start": 127.28,
+     "end": 127.72
+    },
+    {
+     "t": "We",
+     "start": 127.82,
+     "end": 127.94
+    },
+    {
+     "t": "can",
+     "start": 127.96,
+     "end": 128.18
+    },
+    {
+     "t": "swim!",
+     "start": 128.18,
+     "end": 128.66,
+     "pic": "swim"
+    }
+   ],
+   "n": 25,
+   "start": 125.62,
+   "end": 128.66,
+   "pic": "swim"
+  },
+  {
+   "section": "Chorus",
+   "text": "What season do you prefer?",
+   "words": [
+    {
+     "t": "What",
+     "start": 128.96,
+     "end": 129.3
+    },
+    {
+     "t": "season",
+     "start": 129.26,
+     "end": 130.1
+    },
+    {
+     "t": "do",
+     "start": 130.1,
+     "end": 130.96
+    },
+    {
+     "t": "you",
+     "start": 130.98,
+     "end": 131.06
+    },
+    {
+     "t": "prefer?",
+     "start": 131.18,
+     "end": 131.52
+    }
+   ],
+   "n": 26,
+   "start": 128.96,
+   "end": 131.52,
+   "pic": "swim"
+  },
+  {
+   "section": "Chorus",
+   "text": "How about you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 132.66,
+     "end": 132.82
+    },
+    {
+     "t": "about",
+     "start": 132.88,
+     "end": 133.24
+    },
+    {
+     "t": "you?",
+     "start": 133.24,
+     "end": 133.8
+    }
+   ],
+   "n": 27,
+   "start": 132.66,
+   "end": 133.8,
+   "pic": "swim"
+  },
+  {
+   "section": "Outro",
+   "text": "What season do you prefer?",
+   "words": [
+    {
+     "t": "What",
+     "start": 135.1,
+     "end": 135.58
+    },
+    {
+     "t": "season",
+     "start": 135.58,
+     "end": 136.3
+    },
+    {
+     "t": "do",
+     "start": 136.3,
+     "end": 136.88
+    },
+    {
+     "t": "you",
+     "start": 136.9,
+     "end": 137.08
+    },
+    {
+     "t": "prefer?",
+     "start": 137.14,
+     "end": 137.74
+    }
+   ],
+   "n": 28,
+   "start": 135.1,
+   "end": 137.74,
+   "pic": "swim"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "spring",
+   "prompt": "What season do you prefer?",
+   "answer": "I prefer spring!",
+   "choices": [
+    "I prefer spring!",
+    "I prefer fall!",
+    "I prefer winter!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 3,
+   "prompt": "Listen. I prefer ...",
+   "answer": "spring",
+   "choices": [
+    "spring",
+    "summer",
+    "fall"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "winter",
+   "prompt": "What season do you prefer?",
+   "answer": "I prefer winter!",
+   "choices": [
+    "I prefer summer!",
+    "I prefer winter!",
+    "I prefer spring!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 7,
+   "prompt": "Listen. I prefer ...",
+   "answer": "winter",
+   "choices": [
+    "fall",
+    "spring",
+    "winter"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "cherryblossom",
+   "prompt": "What can you do in spring?",
+   "answer": "We can see cherry blossoms!",
+   "choices": [
+    "We can see cherry blossoms!",
+    "We can ski!",
+    "We can swim!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1018 @@
+{
+ "id": "int2c_u04_b",
+ "title": "My Favorite Color Is Blue",
+ "book": "INT 2C",
+ "unit": 4,
+ "unitTitle": "What's Your Favorite?",
+ "packId": "int2c_u4",
+ "audio": "audio/int2c_u04_b.mp3",
+ "duration": 142.2,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "My favorite color is blue!",
+   "words": [
+    {
+     "t": "My",
+     "start": 8.03,
+     "end": 8.14
+    },
+    {
+     "t": "favorite",
+     "start": 8.14,
+     "end": 8.58
+    },
+    {
+     "t": "color",
+     "start": 8.58,
+     "end": 9.1,
+     "pic": "color"
+    },
+    {
+     "t": "is",
+     "start": 9.1,
+     "end": 9.46
+    },
+    {
+     "t": "blue!",
+     "start": 9.46,
+     "end": 9.82
+    }
+   ],
+   "n": 1,
+   "start": 8.03,
+   "end": 9.82,
+   "pic": "color"
+  },
+  {
+   "section": "Verse 1",
+   "text": "My favorite color is blue!",
+   "words": [
+    {
+     "t": "My",
+     "start": 10.16,
+     "end": 10.24
+    },
+    {
+     "t": "favorite",
+     "start": 10.22,
+     "end": 10.58
+    },
+    {
+     "t": "color",
+     "start": 10.58,
+     "end": 11.02,
+     "pic": "color"
+    },
+    {
+     "t": "is",
+     "start": 11.02,
+     "end": 11.38
+    },
+    {
+     "t": "blue!",
+     "start": 11.38,
+     "end": 11.84
+    }
+   ],
+   "n": 2,
+   "start": 10.16,
+   "end": 11.84,
+   "pic": "color"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Blue? I like red!",
+   "words": [
+    {
+     "t": "Blue?",
+     "start": 12.16,
+     "end": 12.46
+    },
+    {
+     "t": "I",
+     "start": 12.64,
+     "end": 13.08
+    },
+    {
+     "t": "like",
+     "start": 13.08,
+     "end": 13.34
+    },
+    {
+     "t": "red!",
+     "start": 13.34,
+     "end": 13.7
+    }
+   ],
+   "n": 3,
+   "start": 12.16,
+   "end": 13.7,
+   "pic": "color"
+  },
+  {
+   "section": "Verse 1",
+   "text": "My favorite subject is science!",
+   "words": [
+    {
+     "t": "My",
+     "start": 13.86,
+     "end": 14.14
+    },
+    {
+     "t": "favorite",
+     "start": 14.14,
+     "end": 14.44
+    },
+    {
+     "t": "subject",
+     "start": 14.44,
+     "end": 14.96
+    },
+    {
+     "t": "is",
+     "start": 14.96,
+     "end": 15.32
+    },
+    {
+     "t": "science!",
+     "start": 15.32,
+     "end": 15.8
+    }
+   ],
+   "n": 4,
+   "start": 13.86,
+   "end": 15.8,
+   "pic": "color"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Science? I like math!",
+   "words": [
+    {
+     "t": "Science?",
+     "start": 16.2,
+     "end": 16.68
+    },
+    {
+     "t": "I",
+     "start": 16.78,
+     "end": 16.98
+    },
+    {
+     "t": "like",
+     "start": 16.98,
+     "end": 17.22
+    },
+    {
+     "t": "math!",
+     "start": 17.22,
+     "end": 17.58
+    }
+   ],
+   "n": 5,
+   "start": 16.2,
+   "end": 17.58,
+   "pic": "color"
+  },
+  {
+   "section": "Verse 1",
+   "text": "My favorite animal is a dog!",
+   "words": [
+    {
+     "t": "My",
+     "start": 17.62,
+     "end": 18.0
+    },
+    {
+     "t": "favorite",
+     "start": 18.0,
+     "end": 18.36
+    },
+    {
+     "t": "animal",
+     "start": 18.36,
+     "end": 18.98,
+     "pic": "animal"
+    },
+    {
+     "t": "is",
+     "start": 18.98,
+     "end": 19.86
+    },
+    {
+     "t": "a",
+     "start": 19.86,
+     "end": 20.32
+    },
+    {
+     "t": "dog!",
+     "start": 20.32,
+     "end": 20.66
+    }
+   ],
+   "n": 6,
+   "start": 17.62,
+   "end": 20.66,
+   "pic": "animal"
+  },
+  {
+   "section": "Verse 1",
+   "text": "A dog? I like cats!",
+   "words": [
+    {
+     "t": "A",
+     "start": 21.18,
+     "end": 21.42
+    },
+    {
+     "t": "dog?",
+     "start": 21.42,
+     "end": 21.76
+    },
+    {
+     "t": "I",
+     "start": 22.12,
+     "end": 22.3
+    },
+    {
+     "t": "like",
+     "start": 22.3,
+     "end": 22.62
+    },
+    {
+     "t": "cats!",
+     "start": 22.62,
+     "end": 23.2
+    }
+   ],
+   "n": 7,
+   "start": 21.18,
+   "end": 23.2,
+   "pic": "animal"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite color is blue! Blue!",
+   "words": [
+    {
+     "t": "My",
+     "start": 26.06,
+     "end": 26.54
+    },
+    {
+     "t": "favorite",
+     "start": 26.59,
+     "end": 26.67
+    },
+    {
+     "t": "color",
+     "start": 26.54,
+     "end": 26.86,
+     "pic": "color"
+    },
+    {
+     "t": "is",
+     "start": 26.86,
+     "end": 27.1
+    },
+    {
+     "t": "blue!",
+     "start": 27.1,
+     "end": 27.64
+    },
+    {
+     "t": "Blue!",
+     "start": 28.16,
+     "end": 28.52
+    }
+   ],
+   "n": 8,
+   "start": 26.06,
+   "end": 28.52,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite subject is math! Math!",
+   "words": [
+    {
+     "t": "My",
+     "start": 29.74,
+     "end": 29.98
+    },
+    {
+     "t": "favorite",
+     "start": 30.02,
+     "end": 30.4
+    },
+    {
+     "t": "subject",
+     "start": 30.4,
+     "end": 30.76
+    },
+    {
+     "t": "is",
+     "start": 30.76,
+     "end": 31.04
+    },
+    {
+     "t": "math!",
+     "start": 31.04,
+     "end": 31.58
+    },
+    {
+     "t": "Math!",
+     "start": 31.96,
+     "end": 32.26
+    }
+   ],
+   "n": 9,
+   "start": 29.74,
+   "end": 32.26,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "What's your favorite?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 33.42,
+     "end": 33.72
+    },
+    {
+     "t": "your",
+     "start": 33.7,
+     "end": 33.86
+    },
+    {
+     "t": "favorite?",
+     "start": 33.84,
+     "end": 33.94
+    }
+   ],
+   "n": 10,
+   "start": 32.36,
+   "end": 34.16,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite is you!",
+   "words": [
+    {
+     "t": "My",
+     "start": 35.54,
+     "end": 35.74
+    },
+    {
+     "t": "favorite",
+     "start": 35.74,
+     "end": 36.2
+    },
+    {
+     "t": "is",
+     "start": 36.18,
+     "end": 36.58
+    },
+    {
+     "t": "you!",
+     "start": 36.54,
+     "end": 36.96
+    }
+   ],
+   "n": 11,
+   "start": 35.54,
+   "end": 36.96,
+   "pic": "color"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My favorite sport is soccer!",
+   "words": [
+    {
+     "t": "My",
+     "start": 40.16,
+     "end": 41.06
+    },
+    {
+     "t": "favorite",
+     "start": 41.04,
+     "end": 41.44
+    },
+    {
+     "t": "sport",
+     "start": 41.46,
+     "end": 41.82,
+     "pic": "sport"
+    },
+    {
+     "t": "is",
+     "start": 41.84,
+     "end": 42.08
+    },
+    {
+     "t": "soccer!",
+     "start": 42.1,
+     "end": 42.46
+    }
+   ],
+   "n": 12,
+   "start": 40.16,
+   "end": 42.46,
+   "pic": "sport"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Soccer? I like hockey!",
+   "words": [
+    {
+     "t": "Soccer?",
+     "start": 42.46,
+     "end": 43.08
+    },
+    {
+     "t": "I",
+     "start": 43.8,
+     "end": 44.0
+    },
+    {
+     "t": "like",
+     "start": 44.0,
+     "end": 44.3
+    },
+    {
+     "t": "hockey!",
+     "start": 44.26,
+     "end": 44.72
+    }
+   ],
+   "n": 13,
+   "start": 42.46,
+   "end": 44.72,
+   "pic": "sport"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My favorite music is K-pop!",
+   "words": [
+    {
+     "t": "My",
+     "start": 44.8,
+     "end": 45.0
+    },
+    {
+     "t": "favorite",
+     "start": 45.06,
+     "end": 45.38
+    },
+    {
+     "t": "music",
+     "start": 45.38,
+     "end": 45.86,
+     "pic": "music"
+    },
+    {
+     "t": "is",
+     "start": 45.88,
+     "end": 46.44
+    },
+    {
+     "t": "K-pop!",
+     "start": 46.41,
+     "end": 47.11
+    }
+   ],
+   "n": 14,
+   "start": 44.8,
+   "end": 47.11,
+   "pic": "music"
+  },
+  {
+   "section": "Verse 2",
+   "text": "K-pop? I like rock music!",
+   "words": [
+    {
+     "t": "K-pop?",
+     "start": 47.11,
+     "end": 47.45
+    },
+    {
+     "t": "I",
+     "start": 47.47,
+     "end": 47.59
+    },
+    {
+     "t": "like",
+     "start": 47.61,
+     "end": 47.86
+    },
+    {
+     "t": "rock",
+     "start": 47.88,
+     "end": 48.14
+    },
+    {
+     "t": "music!",
+     "start": 48.16,
+     "end": 48.52,
+     "pic": "music"
+    }
+   ],
+   "n": 15,
+   "start": 47.11,
+   "end": 48.52,
+   "pic": "music"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My favorite game is chess!",
+   "words": [
+    {
+     "t": "My",
+     "start": 48.64,
+     "end": 48.88
+    },
+    {
+     "t": "favorite",
+     "start": 48.9,
+     "end": 49.2
+    },
+    {
+     "t": "game",
+     "start": 49.22,
+     "end": 49.7,
+     "pic": "game"
+    },
+    {
+     "t": "is",
+     "start": 49.76,
+     "end": 50.3
+    },
+    {
+     "t": "chess!",
+     "start": 50.3,
+     "end": 50.68
+    }
+   ],
+   "n": 16,
+   "start": 48.64,
+   "end": 50.68,
+   "pic": "game"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Chess? I like RPGs!",
+   "words": [
+    {
+     "t": "Chess?",
+     "start": 50.84,
+     "end": 51.12
+    },
+    {
+     "t": "I",
+     "start": 51.42,
+     "end": 51.68
+    },
+    {
+     "t": "like",
+     "start": 51.68,
+     "end": 52.22
+    },
+    {
+     "t": "RPGs!",
+     "start": 53.59,
+     "end": 54.27
+    }
+   ],
+   "n": 17,
+   "start": 50.84,
+   "end": 54.27,
+   "pic": "game"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite color is blue! Blue!",
+   "words": [
+    {
+     "t": "My",
+     "start": 56.74,
+     "end": 56.92
+    },
+    {
+     "t": "favorite",
+     "start": 57.0,
+     "end": 57.46
+    },
+    {
+     "t": "color",
+     "start": 57.46,
+     "end": 57.86,
+     "pic": "color"
+    },
+    {
+     "t": "is",
+     "start": 57.86,
+     "end": 58.08
+    },
+    {
+     "t": "blue!",
+     "start": 58.08,
+     "end": 58.42
+    },
+    {
+     "t": "Blue!",
+     "start": 59.08,
+     "end": 59.54
+    }
+   ],
+   "n": 18,
+   "start": 56.74,
+   "end": 59.54,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite subject is math! Math!",
+   "words": [
+    {
+     "t": "My",
+     "start": 59.59,
+     "end": 60.84
+    },
+    {
+     "t": "favorite",
+     "start": 60.9,
+     "end": 61.34
+    },
+    {
+     "t": "subject",
+     "start": 61.34,
+     "end": 61.66
+    },
+    {
+     "t": "is",
+     "start": 61.68,
+     "end": 61.98
+    },
+    {
+     "t": "math!",
+     "start": 61.98,
+     "end": 62.14
+    },
+    {
+     "t": "Math!",
+     "start": 62.69,
+     "end": 62.94
+    }
+   ],
+   "n": 19,
+   "start": 59.59,
+   "end": 62.94,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "What's your favorite?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 64.26,
+     "end": 64.64
+    },
+    {
+     "t": "your",
+     "start": 64.64,
+     "end": 64.82
+    },
+    {
+     "t": "favorite?",
+     "start": 64.78,
+     "end": 65.44
+    }
+   ],
+   "n": 20,
+   "start": 64.26,
+   "end": 65.44,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite is you!",
+   "words": [
+    {
+     "t": "My",
+     "start": 66.48,
+     "end": 66.74
+    },
+    {
+     "t": "favorite",
+     "start": 66.72,
+     "end": 67.16
+    },
+    {
+     "t": "is",
+     "start": 67.16,
+     "end": 67.54
+    },
+    {
+     "t": "you!",
+     "start": 67.54,
+     "end": 68.24
+    }
+   ],
+   "n": 21,
+   "start": 66.48,
+   "end": 68.24,
+   "pic": "color"
+  },
+  {
+   "section": "Bridge",
+   "text": "What's your favorite? Blue!",
+   "words": [
+    {
+     "t": "What's",
+     "start": 99.58,
+     "end": 99.98
+    },
+    {
+     "t": "your",
+     "start": 99.96,
+     "end": 100.18
+    },
+    {
+     "t": "favorite?",
+     "start": 100.18,
+     "end": 100.56
+    },
+    {
+     "t": "Blue!",
+     "start": 100.56,
+     "end": 101.26
+    }
+   ],
+   "n": 22,
+   "start": 99.58,
+   "end": 101.26,
+   "pic": "color"
+  },
+  {
+   "section": "Bridge",
+   "text": "What's your favorite? Math!",
+   "words": [
+    {
+     "t": "What's",
+     "start": 102.98,
+     "end": 103.34
+    },
+    {
+     "t": "your",
+     "start": 103.36,
+     "end": 103.56
+    },
+    {
+     "t": "favorite?",
+     "start": 103.56,
+     "end": 104.16
+    },
+    {
+     "t": "Math!",
+     "start": 104.21,
+     "end": 104.63
+    }
+   ],
+   "n": 23,
+   "start": 102.98,
+   "end": 104.63,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite color is blue! Blue!",
+   "words": [
+    {
+     "t": "My",
+     "start": 105.32,
+     "end": 105.44
+    },
+    {
+     "t": "favorite",
+     "start": 105.44,
+     "end": 105.84
+    },
+    {
+     "t": "color",
+     "start": 105.84,
+     "end": 106.22,
+     "pic": "color"
+    },
+    {
+     "t": "is",
+     "start": 106.22,
+     "end": 106.5
+    },
+    {
+     "t": "blue!",
+     "start": 106.4,
+     "end": 106.74
+    },
+    {
+     "t": "Blue!",
+     "start": 106.79,
+     "end": 107.01
+    }
+   ],
+   "n": 24,
+   "start": 105.32,
+   "end": 107.01,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite subject is math! Math!",
+   "words": [
+    {
+     "t": "My",
+     "start": 107.12,
+     "end": 107.48
+    },
+    {
+     "t": "favorite",
+     "start": 107.48,
+     "end": 107.82
+    },
+    {
+     "t": "subject",
+     "start": 107.8,
+     "end": 108.12
+    },
+    {
+     "t": "is",
+     "start": 108.1,
+     "end": 108.32
+    },
+    {
+     "t": "math!",
+     "start": 108.44,
+     "end": 109.24
+    },
+    {
+     "t": "Math!",
+     "start": 110.0,
+     "end": 110.62
+    }
+   ],
+   "n": 25,
+   "start": 107.12,
+   "end": 110.62,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "What's your favorite?",
+   "words": [
+    {
+     "t": "What's",
+     "start": 110.98,
+     "end": 111.08
+    },
+    {
+     "t": "your",
+     "start": 111.08,
+     "end": 111.26
+    },
+    {
+     "t": "favorite?",
+     "start": 111.26,
+     "end": 111.71
+    }
+   ],
+   "n": 26,
+   "start": 110.72,
+   "end": 112.52,
+   "pic": "color"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite is you!",
+   "words": [
+    {
+     "t": "My",
+     "start": 112.88,
+     "end": 113.28
+    },
+    {
+     "t": "favorite",
+     "start": 113.28,
+     "end": 113.6
+    },
+    {
+     "t": "is",
+     "start": 113.6,
+     "end": 113.92
+    },
+    {
+     "t": "you!",
+     "start": 113.94,
+     "end": 114.24
+    }
+   ],
+   "n": 27,
+   "start": 112.88,
+   "end": 114.24,
+   "pic": "color"
+  },
+  {
+   "section": "Outro",
+   "text": "My favorite color is blue!",
+   "words": [
+    {
+     "t": "My",
+     "start": 114.88,
+     "end": 115.12
+    },
+    {
+     "t": "favorite",
+     "start": 115.2,
+     "end": 115.54
+    },
+    {
+     "t": "color",
+     "start": 119.42,
+     "end": 119.76,
+     "pic": "color"
+    },
+    {
+     "t": "is",
+     "start": 119.8,
+     "end": 120.0
+    },
+    {
+     "t": "blue!",
+     "start": 120.0,
+     "end": 120.5
+    }
+   ],
+   "n": 28,
+   "start": 114.88,
+   "end": 120.5,
+   "pic": "color"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "color",
+   "prompt": "What is your favorite color?",
+   "answer": "My favorite color is blue!",
+   "choices": [
+    "My favorite color is blue!",
+    "My knee hurts!",
+    "I am off!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "I like ___",
+   "answer": "red",
+   "choices": [
+    "red",
+    "blue",
+    "green"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "animal",
+   "prompt": "What is your favorite animal?",
+   "answer": "My favorite animal is a dog!",
+   "choices": [
+    "My favorite season is fall!",
+    "My favorite animal is a dog!",
+    "It is his!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "My favorite subject is ___",
+   "answer": "science",
+   "choices": [
+    "math",
+    "science",
+    "music"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sport",
+   "prompt": "What is your favorite sport?",
+   "answer": "My favorite sport is soccer!",
+   "choices": [
+    "My favorite sport is soccer!",
+    "My favorite color is red!",
+    "I prefer winter!"
+   ]
+  }
+ ]
+}
