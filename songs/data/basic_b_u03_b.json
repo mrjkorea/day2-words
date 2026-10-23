@@ -1,0 +1,985 @@
+{
+ "id": "basic_b_u03_b",
+ "title": "I Do Not Understand",
+ "book": "Basic B",
+ "unit": 3,
+ "unitTitle": "Classroom English Two",
+ "packId": "basic_b_u3",
+ "audio": "audio/basic_b_u03_b.mp3",
+ "duration": 124.37,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hmm...",
+   "words": [
+    {
+     "t": "Hmm...",
+     "start": 0.0,
+     "end": 0.1
+    }
+   ],
+   "n": 1,
+   "start": 0.2,
+   "end": 0.8,
+   "pic": "again"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I do not understand.",
+   "words": [
+    {
+     "t": "I",
+     "start": 5.82,
+     "end": 6.46
+    },
+    {
+     "t": "do",
+     "start": 6.76,
+     "end": 7.72
+    },
+    {
+     "t": "not",
+     "start": 7.72,
+     "end": 8.18
+    },
+    {
+     "t": "understand.",
+     "start": 8.18,
+     "end": 9.06,
+     "pic": "understand"
+    }
+   ],
+   "n": 2,
+   "start": 5.82,
+   "end": 9.06,
+   "pic": "idonotunderstand"
+  },
+  {
+   "section": "Verse 1",
+   "text": "That is okay!",
+   "words": [
+    {
+     "t": "That",
+     "start": 11.86,
+     "end": 12.16
+    },
+    {
+     "t": "is",
+     "start": 12.14,
+     "end": 12.66
+    },
+    {
+     "t": "okay!",
+     "start": 12.66,
+     "end": 13.48
+    }
+   ],
+   "n": 3,
+   "start": 11.86,
+   "end": 13.48,
+   "pic": "idonotunderstand"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I do not know.",
+   "words": [
+    {
+     "t": "I",
+     "start": 15.86,
+     "end": 16.26
+    },
+    {
+     "t": "do",
+     "start": 16.22,
+     "end": 16.66
+    },
+    {
+     "t": "not",
+     "start": 16.68,
+     "end": 17.24
+    },
+    {
+     "t": "know.",
+     "start": 17.24,
+     "end": 17.96,
+     "pic": "know"
+    }
+   ],
+   "n": 4,
+   "start": 15.86,
+   "end": 17.96,
+   "pic": "know"
+  },
+  {
+   "section": "Verse 1",
+   "text": "That is okay!",
+   "words": [
+    {
+     "t": "That",
+     "start": 20.3,
+     "end": 20.56
+    },
+    {
+     "t": "is",
+     "start": 20.58,
+     "end": 21.1
+    },
+    {
+     "t": "okay!",
+     "start": 21.1,
+     "end": 22.08
+    }
+   ],
+   "n": 5,
+   "start": 20.3,
+   "end": 22.08,
+   "pic": "know"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I do not understand.",
+   "words": [
+    {
+     "t": "I",
+     "start": 23.26,
+     "end": 23.48
+    },
+    {
+     "t": "do",
+     "start": 23.48,
+     "end": 23.74
+    },
+    {
+     "t": "not",
+     "start": 23.68,
+     "end": 23.86
+    },
+    {
+     "t": "understand.",
+     "start": 23.86,
+     "end": 24.36,
+     "pic": "understand"
+    }
+   ],
+   "n": 6,
+   "start": 23.26,
+   "end": 24.36,
+   "pic": "idonotunderstand"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Don't worry!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 24.82,
+     "end": 25.2
+    },
+    {
+     "t": "worry!",
+     "start": 25.78,
+     "end": 26.98
+    }
+   ],
+   "n": 7,
+   "start": 24.82,
+   "end": 26.98,
+   "pic": "idonotunderstand"
+  },
+  {
+   "section": "Chorus",
+   "text": "I do not understand! That is okay!",
+   "words": [
+    {
+     "t": "I",
+     "start": 27.69,
+     "end": 28.84
+    },
+    {
+     "t": "do",
+     "start": 28.9,
+     "end": 29.24
+    },
+    {
+     "t": "not",
+     "start": 29.24,
+     "end": 29.64
+    },
+    {
+     "t": "understand!",
+     "start": 29.64,
+     "end": 30.56,
+     "pic": "understand"
+    },
+    {
+     "t": "That",
+     "start": 31.04,
+     "end": 31.26
+    },
+    {
+     "t": "is",
+     "start": 31.26,
+     "end": 31.76
+    },
+    {
+     "t": "okay!",
+     "start": 31.76,
+     "end": 32.56
+    }
+   ],
+   "n": 8,
+   "start": 27.69,
+   "end": 32.56,
+   "pic": "idonotunderstand"
+  },
+  {
+   "section": "Chorus",
+   "text": "I do not know! That is okay!",
+   "words": [
+    {
+     "t": "I",
+     "start": 32.84,
+     "end": 33.22
+    },
+    {
+     "t": "do",
+     "start": 33.26,
+     "end": 33.68
+    },
+    {
+     "t": "not",
+     "start": 33.68,
+     "end": 34.3
+    },
+    {
+     "t": "know!",
+     "start": 34.3,
+     "end": 34.96,
+     "pic": "know"
+    },
+    {
+     "t": "That",
+     "start": 35.26,
+     "end": 35.52
+    },
+    {
+     "t": "is",
+     "start": 35.52,
+     "end": 36.04
+    },
+    {
+     "t": "okay!",
+     "start": 36.04,
+     "end": 37.0
+    }
+   ],
+   "n": 9,
+   "start": 32.84,
+   "end": 37.0,
+   "pic": "know"
+  },
+  {
+   "section": "Chorus",
+   "text": "Help me, please! Again, please!",
+   "words": [
+    {
+     "t": "Help",
+     "start": 37.6,
+     "end": 38.1,
+     "pic": "help"
+    },
+    {
+     "t": "me,",
+     "start": 38.04,
+     "end": 38.58
+    },
+    {
+     "t": "please!",
+     "start": 38.56,
+     "end": 39.3
+    },
+    {
+     "t": "Again,",
+     "start": 39.8,
+     "end": 40.12,
+     "pic": "again"
+    },
+    {
+     "t": "please!",
+     "start": 40.12,
+     "end": 41.02
+    }
+   ],
+   "n": 10,
+   "start": 37.6,
+   "end": 41.02,
+   "pic": "help"
+  },
+  {
+   "section": "Chorus",
+   "text": "That is okay! Don't worry!",
+   "words": [
+    {
+     "t": "That",
+     "start": 41.38,
+     "end": 41.92
+    },
+    {
+     "t": "is",
+     "start": 41.92,
+     "end": 42.42
+    },
+    {
+     "t": "okay!",
+     "start": 42.42,
+     "end": 43.2
+    },
+    {
+     "t": "Don't",
+     "start": 43.56,
+     "end": 44.1
+    },
+    {
+     "t": "worry!",
+     "start": 44.08,
+     "end": 44.44
+    }
+   ],
+   "n": 11,
+   "start": 41.38,
+   "end": 44.44,
+   "pic": "help"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Excuse me.",
+   "words": [
+    {
+     "t": "Excuse",
+     "start": 48.42,
+     "end": 49.3
+    },
+    {
+     "t": "me.",
+     "start": 49.3,
+     "end": 49.8
+    }
+   ],
+   "n": 12,
+   "start": 48.42,
+   "end": 49.8,
+   "pic": "help"
+  },
+  {
+   "section": "Verse 2",
+   "text": "No problem.",
+   "words": [
+    {
+     "t": "No",
+     "start": 52.56,
+     "end": 52.98
+    },
+    {
+     "t": "problem.",
+     "start": 52.94,
+     "end": 53.89
+    }
+   ],
+   "n": 13,
+   "start": 52.56,
+   "end": 53.89,
+   "pic": "help"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Help me, please.",
+   "words": [
+    {
+     "t": "Help",
+     "start": 56.9,
+     "end": 57.24,
+     "pic": "help"
+    },
+    {
+     "t": "me,",
+     "start": 57.2,
+     "end": 57.72
+    },
+    {
+     "t": "please.",
+     "start": 57.74,
+     "end": 58.46
+    }
+   ],
+   "n": 14,
+   "start": 56.9,
+   "end": 58.46,
+   "pic": "help"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Okay!",
+   "words": [
+    {
+     "t": "Okay!",
+     "start": 59.44,
+     "end": 59.52
+    }
+   ],
+   "n": 15,
+   "start": 58.56,
+   "end": 59.16,
+   "pic": "help"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Thank you!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 59.88,
+     "end": 60.14
+    },
+    {
+     "t": "you!",
+     "start": 60.14,
+     "end": 60.62
+    }
+   ],
+   "n": 16,
+   "start": 59.88,
+   "end": 60.62,
+   "pic": "help"
+  },
+  {
+   "section": "Verse 2",
+   "text": "You are welcome!",
+   "words": [
+    {
+     "t": "You",
+     "start": 61.2,
+     "end": 61.5
+    },
+    {
+     "t": "are",
+     "start": 61.5,
+     "end": 62.16
+    },
+    {
+     "t": "welcome!",
+     "start": 62.12,
+     "end": 63.26
+    }
+   ],
+   "n": 17,
+   "start": 61.2,
+   "end": 63.26,
+   "pic": "help"
+  },
+  {
+   "section": "Chorus",
+   "text": "I do not understand! That is okay!",
+   "words": [
+    {
+     "t": "I",
+     "start": 64.92,
+     "end": 65.44
+    },
+    {
+     "t": "do",
+     "start": 65.32,
+     "end": 65.68
+    },
+    {
+     "t": "not",
+     "start": 65.68,
+     "end": 66.1
+    },
+    {
+     "t": "understand!",
+     "start": 66.1,
+     "end": 66.88,
+     "pic": "understand"
+    },
+    {
+     "t": "That",
+     "start": 67.4,
+     "end": 67.68
+    },
+    {
+     "t": "is",
+     "start": 67.68,
+     "end": 68.2
+    },
+    {
+     "t": "okay!",
+     "start": 68.2,
+     "end": 69.0
+    }
+   ],
+   "n": 18,
+   "start": 64.92,
+   "end": 69.0,
+   "pic": "idonotunderstand"
+  },
+  {
+   "section": "Chorus",
+   "text": "I do not know! That is okay!",
+   "words": [
+    {
+     "t": "I",
+     "start": 69.24,
+     "end": 69.68
+    },
+    {
+     "t": "do",
+     "start": 69.64,
+     "end": 70.08
+    },
+    {
+     "t": "not",
+     "start": 70.08,
+     "end": 70.72
+    },
+    {
+     "t": "know!",
+     "start": 70.72,
+     "end": 71.28,
+     "pic": "know"
+    },
+    {
+     "t": "That",
+     "start": 71.64,
+     "end": 71.94
+    },
+    {
+     "t": "is",
+     "start": 71.94,
+     "end": 72.46
+    },
+    {
+     "t": "okay!",
+     "start": 72.46,
+     "end": 73.42
+    }
+   ],
+   "n": 19,
+   "start": 69.24,
+   "end": 73.42,
+   "pic": "know"
+  },
+  {
+   "section": "Chorus",
+   "text": "Help me, please! Again, please!",
+   "words": [
+    {
+     "t": "Help",
+     "start": 74.02,
+     "end": 74.5,
+     "pic": "help"
+    },
+    {
+     "t": "me,",
+     "start": 74.44,
+     "end": 75.02
+    },
+    {
+     "t": "please!",
+     "start": 74.98,
+     "end": 75.74
+    },
+    {
+     "t": "Again,",
+     "start": 75.96,
+     "end": 76.48,
+     "pic": "again"
+    },
+    {
+     "t": "please!",
+     "start": 76.54,
+     "end": 77.56
+    }
+   ],
+   "n": 20,
+   "start": 74.02,
+   "end": 77.56,
+   "pic": "help"
+  },
+  {
+   "section": "Chorus",
+   "text": "That is okay! Don't worry!",
+   "words": [
+    {
+     "t": "That",
+     "start": 77.84,
+     "end": 78.3
+    },
+    {
+     "t": "is",
+     "start": 78.34,
+     "end": 78.8
+    },
+    {
+     "t": "okay!",
+     "start": 78.84,
+     "end": 79.6
+    },
+    {
+     "t": "Don't",
+     "start": 79.92,
+     "end": 80.44
+    },
+    {
+     "t": "worry!",
+     "start": 80.44,
+     "end": 80.84
+    }
+   ],
+   "n": 21,
+   "start": 77.84,
+   "end": 80.84,
+   "pic": "help"
+  },
+  {
+   "section": "Bridge",
+   "text": "Understand? I understand!",
+   "words": [
+    {
+     "t": "Understand?",
+     "start": 82.7,
+     "end": 83.26,
+     "pic": "understand"
+    },
+    {
+     "t": "I",
+     "start": 85.0,
+     "end": 85.34
+    },
+    {
+     "t": "understand!",
+     "start": 85.34,
+     "end": 86.3,
+     "pic": "understand"
+    }
+   ],
+   "n": 22,
+   "start": 82.7,
+   "end": 86.3,
+   "pic": "understand"
+  },
+  {
+   "section": "Bridge",
+   "text": "Know? Now I know!",
+   "words": [
+    {
+     "t": "Know?",
+     "start": 86.47,
+     "end": 86.84,
+     "pic": "know"
+    },
+    {
+     "t": "Now",
+     "start": 86.9,
+     "end": 87.3
+    },
+    {
+     "t": "I",
+     "start": 87.32,
+     "end": 87.8
+    },
+    {
+     "t": "know!",
+     "start": 87.9,
+     "end": 88.34,
+     "pic": "know"
+    }
+   ],
+   "n": 23,
+   "start": 86.47,
+   "end": 88.34,
+   "pic": "know"
+  },
+  {
+   "section": "Bridge",
+   "text": "Thank you! You are welcome!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 90.12,
+     "end": 90.58
+    },
+    {
+     "t": "you!",
+     "start": 90.52,
+     "end": 91.12
+    },
+    {
+     "t": "You",
+     "start": 91.16,
+     "end": 91.78
+    },
+    {
+     "t": "are",
+     "start": 91.78,
+     "end": 92.24
+    },
+    {
+     "t": "welcome!",
+     "start": 92.24,
+     "end": 93.36
+    }
+   ],
+   "n": 24,
+   "start": 90.12,
+   "end": 93.36,
+   "pic": "know"
+  },
+  {
+   "section": "Chorus",
+   "text": "I do not understand! That is okay!",
+   "words": [
+    {
+     "t": "I",
+     "start": 94.68,
+     "end": 95.36
+    },
+    {
+     "t": "do",
+     "start": 95.36,
+     "end": 95.72
+    },
+    {
+     "t": "not",
+     "start": 95.72,
+     "end": 96.1
+    },
+    {
+     "t": "understand!",
+     "start": 96.12,
+     "end": 96.92,
+     "pic": "understand"
+    },
+    {
+     "t": "That",
+     "start": 97.4,
+     "end": 97.7
+    },
+    {
+     "t": "is",
+     "start": 97.68,
+     "end": 98.22
+    },
+    {
+     "t": "okay!",
+     "start": 98.2,
+     "end": 99.04
+    }
+   ],
+   "n": 25,
+   "start": 94.68,
+   "end": 99.04,
+   "pic": "idonotunderstand"
+  },
+  {
+   "section": "Chorus",
+   "text": "I do not know! That is okay!",
+   "words": [
+    {
+     "t": "I",
+     "start": 99.42,
+     "end": 99.66
+    },
+    {
+     "t": "do",
+     "start": 99.66,
+     "end": 100.12
+    },
+    {
+     "t": "not",
+     "start": 100.1,
+     "end": 100.64
+    },
+    {
+     "t": "know!",
+     "start": 100.66,
+     "end": 101.4,
+     "pic": "know"
+    },
+    {
+     "t": "That",
+     "start": 101.72,
+     "end": 101.96
+    },
+    {
+     "t": "is",
+     "start": 101.98,
+     "end": 102.48
+    },
+    {
+     "t": "okay!",
+     "start": 102.48,
+     "end": 103.36
+    }
+   ],
+   "n": 26,
+   "start": 99.42,
+   "end": 103.36,
+   "pic": "know"
+  },
+  {
+   "section": "Chorus",
+   "text": "Help me, please! Again, please!",
+   "words": [
+    {
+     "t": "Help",
+     "start": 103.92,
+     "end": 104.44,
+     "pic": "help"
+    },
+    {
+     "t": "me,",
+     "start": 104.44,
+     "end": 104.92
+    },
+    {
+     "t": "please!",
+     "start": 104.93,
+     "end": 105.68
+    },
+    {
+     "t": "Again,",
+     "start": 105.94,
+     "end": 106.5,
+     "pic": "again"
+    },
+    {
+     "t": "please!",
+     "start": 106.58,
+     "end": 107.78
+    }
+   ],
+   "n": 27,
+   "start": 103.92,
+   "end": 107.78,
+   "pic": "help"
+  },
+  {
+   "section": "Chorus",
+   "text": "That is okay! Don't worry!",
+   "words": [
+    {
+     "t": "That",
+     "start": 108.12,
+     "end": 108.42
+    },
+    {
+     "t": "is",
+     "start": 108.4,
+     "end": 108.8
+    },
+    {
+     "t": "okay!",
+     "start": 108.84,
+     "end": 109.62
+    },
+    {
+     "t": "Don't",
+     "start": 109.67,
+     "end": 109.89
+    },
+    {
+     "t": "worry!",
+     "start": 109.92,
+     "end": 110.14
+    }
+   ],
+   "n": 28,
+   "start": 108.12,
+   "end": 110.14,
+   "pic": "help"
+  },
+  {
+   "section": "Outro",
+   "text": "Now I understand!",
+   "words": [
+    {
+     "t": "Now",
+     "start": 110.24,
+     "end": 110.72
+    },
+    {
+     "t": "I",
+     "start": 110.74,
+     "end": 111.1
+    },
+    {
+     "t": "understand!",
+     "start": 111.1,
+     "end": 111.8,
+     "pic": "understand"
+    }
+   ],
+   "n": 29,
+   "start": 110.24,
+   "end": 111.8,
+   "pic": "understand"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "idonotunderstand",
+   "prompt": "What does he say?",
+   "answer": "I do not understand.",
+   "choices": [
+    "I do not understand.",
+    "I understand.",
+    "Thank you."
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "know",
+   "prompt": "I do not ...",
+   "answer": "know.",
+   "choices": [
+    "know.",
+    "help.",
+    "again."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 10,
+   "prompt": "Listen. Help me, ...!",
+   "answer": "help",
+   "choices": [
+    "help",
+    "trash",
+    "quiet"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "again",
+   "prompt": "Again, ...",
+   "answer": "please!",
+   "choices": [
+    "please!",
+    "sorry!",
+    "okay!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "understand",
+   "prompt": "I do not understand. That is ...",
+   "answer": "okay!",
+   "choices": [
+    "okay!",
+    "red!",
+    "a toy!"
+   ]
+  }
+ ]
+}

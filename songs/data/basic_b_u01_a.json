@@ -1,0 +1,975 @@
+{
+ "id": "basic_b_u01_a",
+ "title": "How Are You Today?",
+ "book": "Basic B",
+ "unit": 1,
+ "unitTitle": "How are you?",
+ "packId": "basic_b_u1",
+ "audio": "audio/basic_b_u01_a.mp3",
+ "duration": 144.74,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hey! How are you?",
+   "words": [
+    {
+     "t": "Hey!",
+     "start": 0.71,
+     "end": 1.66
+    },
+    {
+     "t": "How",
+     "start": 2.26,
+     "end": 2.44
+    },
+    {
+     "t": "are",
+     "start": 2.46,
+     "end": 2.68
+    },
+    {
+     "t": "you?",
+     "start": 2.68,
+     "end": 2.98
+    }
+   ],
+   "n": 1,
+   "start": 0.71,
+   "end": 2.98,
+   "pic": "angry"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 11.34,
+     "end": 11.68
+    },
+    {
+     "t": "are",
+     "start": 11.66,
+     "end": 12.22
+    },
+    {
+     "t": "you?",
+     "start": 12.22,
+     "end": 12.68
+    }
+   ],
+   "n": 2,
+   "start": 11.34,
+   "end": 12.68,
+   "pic": "angry"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I'm happy!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 15.18,
+     "end": 15.44
+    },
+    {
+     "t": "happy!",
+     "start": 15.52,
+     "end": 16.4,
+     "pic": "happy"
+    }
+   ],
+   "n": 3,
+   "start": 15.18,
+   "end": 16.4,
+   "pic": "happy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 20.06,
+     "end": 20.48
+    },
+    {
+     "t": "are",
+     "start": 20.48,
+     "end": 20.92
+    },
+    {
+     "t": "you?",
+     "start": 20.94,
+     "end": 21.36
+    }
+   ],
+   "n": 4,
+   "start": 20.06,
+   "end": 21.36,
+   "pic": "happy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I'm hungry!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 21.74,
+     "end": 21.98
+    },
+    {
+     "t": "hungry!",
+     "start": 21.98,
+     "end": 22.44,
+     "pic": "hungry"
+    }
+   ],
+   "n": 5,
+   "start": 21.74,
+   "end": 22.44,
+   "pic": "hungry"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 23.66,
+     "end": 23.86
+    },
+    {
+     "t": "are",
+     "start": 23.86,
+     "end": 24.18
+    },
+    {
+     "t": "you?",
+     "start": 24.18,
+     "end": 24.68
+    }
+   ],
+   "n": 6,
+   "start": 23.66,
+   "end": 24.68,
+   "pic": "hungry"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I'm tired!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 25.92,
+     "end": 26.3
+    },
+    {
+     "t": "tired!",
+     "start": 26.3,
+     "end": 27.02,
+     "pic": "tired"
+    }
+   ],
+   "n": 7,
+   "start": 25.92,
+   "end": 27.02,
+   "pic": "tired"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you? How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 28.72,
+     "end": 29.22
+    },
+    {
+     "t": "are",
+     "start": 29.22,
+     "end": 29.6
+    },
+    {
+     "t": "you?",
+     "start": 29.62,
+     "end": 30.1
+    },
+    {
+     "t": "How",
+     "start": 30.54,
+     "end": 31.1
+    },
+    {
+     "t": "are",
+     "start": 31.1,
+     "end": 31.64
+    },
+    {
+     "t": "you?",
+     "start": 31.64,
+     "end": 32.12
+    }
+   ],
+   "n": 8,
+   "start": 28.72,
+   "end": 32.12,
+   "pic": "tired"
+  },
+  {
+   "section": "Chorus",
+   "text": "I'm happy! I'm happy, too!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 32.56,
+     "end": 32.9
+    },
+    {
+     "t": "happy!",
+     "start": 32.9,
+     "end": 33.5,
+     "pic": "happy"
+    },
+    {
+     "t": "I'm",
+     "start": 34.0,
+     "end": 34.3
+    },
+    {
+     "t": "happy,",
+     "start": 34.3,
+     "end": 34.82,
+     "pic": "happy"
+    },
+    {
+     "t": "too!",
+     "start": 34.82,
+     "end": 35.5
+    }
+   ],
+   "n": 9,
+   "start": 32.56,
+   "end": 35.5,
+   "pic": "happy"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you? How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 37.54,
+     "end": 37.8
+    },
+    {
+     "t": "are",
+     "start": 37.88,
+     "end": 38.34
+    },
+    {
+     "t": "you?",
+     "start": 38.36,
+     "end": 38.88
+    },
+    {
+     "t": "How",
+     "start": 39.18,
+     "end": 39.86
+    },
+    {
+     "t": "are",
+     "start": 39.86,
+     "end": 40.38
+    },
+    {
+     "t": "you?",
+     "start": 40.38,
+     "end": 40.86
+    }
+   ],
+   "n": 10,
+   "start": 37.54,
+   "end": 40.86,
+   "pic": "happy"
+  },
+  {
+   "section": "Chorus",
+   "text": "I'm happy! Me too!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 41.08,
+     "end": 41.6
+    },
+    {
+     "t": "happy!",
+     "start": 41.6,
+     "end": 42.24,
+     "pic": "happy"
+    },
+    {
+     "t": "Me",
+     "start": 43.46,
+     "end": 43.66
+    },
+    {
+     "t": "too!",
+     "start": 43.66,
+     "end": 44.2
+    }
+   ],
+   "n": 11,
+   "start": 41.08,
+   "end": 44.2,
+   "pic": "happy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 46.24,
+     "end": 46.6
+    },
+    {
+     "t": "are",
+     "start": 46.66,
+     "end": 47.06
+    },
+    {
+     "t": "you?",
+     "start": 47.1,
+     "end": 47.52
+    }
+   ],
+   "n": 12,
+   "start": 46.24,
+   "end": 47.52,
+   "pic": "happy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I'm bored.",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 47.92,
+     "end": 48.22
+    },
+    {
+     "t": "bored.",
+     "start": 48.2,
+     "end": 48.86,
+     "pic": "bored"
+    }
+   ],
+   "n": 13,
+   "start": 47.92,
+   "end": 48.86,
+   "pic": "bored"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 51.68,
+     "end": 52.0
+    },
+    {
+     "t": "are",
+     "start": 52.0,
+     "end": 52.44
+    },
+    {
+     "t": "you?",
+     "start": 52.44,
+     "end": 52.9
+    }
+   ],
+   "n": 14,
+   "start": 51.68,
+   "end": 52.9,
+   "pic": "bored"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I'm sleepy.",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 56.0,
+     "end": 56.78
+    },
+    {
+     "t": "sleepy.",
+     "start": 56.78,
+     "end": 57.52,
+     "pic": "sleepy"
+    }
+   ],
+   "n": 15,
+   "start": 56.0,
+   "end": 57.52,
+   "pic": "sleepy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 58.24,
+     "end": 58.7
+    },
+    {
+     "t": "are",
+     "start": 58.7,
+     "end": 59.02
+    },
+    {
+     "t": "you?",
+     "start": 59.02,
+     "end": 59.44
+    }
+   ],
+   "n": 16,
+   "start": 58.24,
+   "end": 59.44,
+   "pic": "sleepy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I'm sick.",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 60.7,
+     "end": 61.16
+    },
+    {
+     "t": "sick.",
+     "start": 61.22,
+     "end": 61.58,
+     "pic": "sick"
+    }
+   ],
+   "n": 17,
+   "start": 60.7,
+   "end": 61.58,
+   "pic": "sick"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you? How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 63.6,
+     "end": 64.1
+    },
+    {
+     "t": "are",
+     "start": 64.1,
+     "end": 64.5
+    },
+    {
+     "t": "you?",
+     "start": 64.5,
+     "end": 65.04
+    },
+    {
+     "t": "How",
+     "start": 65.68,
+     "end": 66.06
+    },
+    {
+     "t": "are",
+     "start": 66.06,
+     "end": 66.54
+    },
+    {
+     "t": "you?",
+     "start": 66.54,
+     "end": 67.02
+    }
+   ],
+   "n": 18,
+   "start": 63.6,
+   "end": 67.02,
+   "pic": "sick"
+  },
+  {
+   "section": "Chorus",
+   "text": "I'm happy! I'm happy, too!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 67.4,
+     "end": 67.74
+    },
+    {
+     "t": "happy!",
+     "start": 67.76,
+     "end": 68.36,
+     "pic": "happy"
+    },
+    {
+     "t": "I'm",
+     "start": 68.9,
+     "end": 69.16
+    },
+    {
+     "t": "happy,",
+     "start": 69.16,
+     "end": 69.72,
+     "pic": "happy"
+    },
+    {
+     "t": "too!",
+     "start": 69.72,
+     "end": 70.34
+    }
+   ],
+   "n": 19,
+   "start": 67.4,
+   "end": 70.34,
+   "pic": "happy"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you? How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 72.32,
+     "end": 72.76
+    },
+    {
+     "t": "are",
+     "start": 72.76,
+     "end": 73.24
+    },
+    {
+     "t": "you?",
+     "start": 73.24,
+     "end": 73.74
+    },
+    {
+     "t": "How",
+     "start": 74.28,
+     "end": 74.74
+    },
+    {
+     "t": "are",
+     "start": 74.74,
+     "end": 75.24
+    },
+    {
+     "t": "you?",
+     "start": 75.24,
+     "end": 75.68
+    }
+   ],
+   "n": 20,
+   "start": 72.32,
+   "end": 75.68,
+   "pic": "happy"
+  },
+  {
+   "section": "Chorus",
+   "text": "I'm happy! Me too!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 76.16,
+     "end": 76.46
+    },
+    {
+     "t": "happy!",
+     "start": 76.48,
+     "end": 77.08,
+     "pic": "happy"
+    },
+    {
+     "t": "Me",
+     "start": 78.3,
+     "end": 78.56
+    },
+    {
+     "t": "too!",
+     "start": 78.56,
+     "end": 79.02
+    }
+   ],
+   "n": 21,
+   "start": 76.16,
+   "end": 79.02,
+   "pic": "happy"
+  },
+  {
+   "section": "Bridge",
+   "text": "I'm sad. Cheer up!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 81.86,
+     "end": 82.04
+    },
+    {
+     "t": "sad.",
+     "start": 82.04,
+     "end": 82.6,
+     "pic": "sad"
+    },
+    {
+     "t": "Cheer",
+     "start": 83.9,
+     "end": 84.4
+    },
+    {
+     "t": "up!",
+     "start": 84.28,
+     "end": 84.94
+    }
+   ],
+   "n": 22,
+   "start": 81.86,
+   "end": 84.94,
+   "pic": "sad"
+  },
+  {
+   "section": "Bridge",
+   "text": "I'm angry. Relax!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 86.1,
+     "end": 86.46
+    },
+    {
+     "t": "angry.",
+     "start": 86.46,
+     "end": 87.24,
+     "pic": "angry"
+    },
+    {
+     "t": "Relax!",
+     "start": 89.04,
+     "end": 89.5
+    }
+   ],
+   "n": 23,
+   "start": 86.1,
+   "end": 89.5,
+   "pic": "angry"
+  },
+  {
+   "section": "Bridge",
+   "text": "I'm worried. Don't worry!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 90.38,
+     "end": 90.92
+    },
+    {
+     "t": "worried.",
+     "start": 90.92,
+     "end": 91.64,
+     "pic": "worried"
+    },
+    {
+     "t": "Don't",
+     "start": 92.54,
+     "end": 93.0
+    },
+    {
+     "t": "worry!",
+     "start": 93.08,
+     "end": 93.8
+    }
+   ],
+   "n": 24,
+   "start": 90.38,
+   "end": 93.8,
+   "pic": "worried"
+  },
+  {
+   "section": "Bridge",
+   "text": "I'm scared. Be happy!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 94.72,
+     "end": 95.12
+    },
+    {
+     "t": "scared.",
+     "start": 95.16,
+     "end": 95.74,
+     "pic": "scared"
+    },
+    {
+     "t": "Be",
+     "start": 95.96,
+     "end": 96.2
+    },
+    {
+     "t": "happy!",
+     "start": 96.12,
+     "end": 97.2,
+     "pic": "happy"
+    }
+   ],
+   "n": 25,
+   "start": 94.72,
+   "end": 97.2,
+   "pic": "scared"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you? How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 98.59,
+     "end": 98.9
+    },
+    {
+     "t": "are",
+     "start": 98.98,
+     "end": 99.42
+    },
+    {
+     "t": "you?",
+     "start": 99.42,
+     "end": 99.96
+    },
+    {
+     "t": "How",
+     "start": 100.5,
+     "end": 100.9
+    },
+    {
+     "t": "are",
+     "start": 100.9,
+     "end": 101.44
+    },
+    {
+     "t": "you?",
+     "start": 101.44,
+     "end": 101.98
+    }
+   ],
+   "n": 26,
+   "start": 98.59,
+   "end": 101.98,
+   "pic": "scared"
+  },
+  {
+   "section": "Chorus",
+   "text": "I'm happy! I'm happy, too!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 102.38,
+     "end": 102.7
+    },
+    {
+     "t": "happy!",
+     "start": 102.68,
+     "end": 103.06,
+     "pic": "happy"
+    },
+    {
+     "t": "I'm",
+     "start": 103.84,
+     "end": 104.08
+    },
+    {
+     "t": "happy,",
+     "start": 104.06,
+     "end": 104.58,
+     "pic": "happy"
+    },
+    {
+     "t": "too!",
+     "start": 104.58,
+     "end": 105.24
+    }
+   ],
+   "n": 27,
+   "start": 102.38,
+   "end": 105.24,
+   "pic": "happy"
+  },
+  {
+   "section": "Chorus",
+   "text": "How are you? How are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 107.28,
+     "end": 107.7
+    },
+    {
+     "t": "are",
+     "start": 107.7,
+     "end": 108.18
+    },
+    {
+     "t": "you?",
+     "start": 108.18,
+     "end": 108.6
+    },
+    {
+     "t": "How",
+     "start": 109.22,
+     "end": 109.52
+    },
+    {
+     "t": "are",
+     "start": 109.64,
+     "end": 110.16
+    },
+    {
+     "t": "you?",
+     "start": 110.16,
+     "end": 110.68
+    }
+   ],
+   "n": 28,
+   "start": 107.28,
+   "end": 110.68,
+   "pic": "happy"
+  },
+  {
+   "section": "Chorus",
+   "text": "I'm happy! Me too!",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 111.1,
+     "end": 111.38
+    },
+    {
+     "t": "happy!",
+     "start": 111.38,
+     "end": 111.88,
+     "pic": "happy"
+    },
+    {
+     "t": "Me",
+     "start": 113.15,
+     "end": 113.46
+    },
+    {
+     "t": "too!",
+     "start": 113.46,
+     "end": 114.38
+    }
+   ],
+   "n": 29,
+   "start": 111.1,
+   "end": 114.38,
+   "pic": "happy"
+  },
+  {
+   "section": "Outro",
+   "text": "How are you? I'm happy!",
+   "words": [
+    {
+     "t": "How",
+     "start": 116.0,
+     "end": 116.5
+    },
+    {
+     "t": "are",
+     "start": 116.4,
+     "end": 116.86
+    },
+    {
+     "t": "you?",
+     "start": 116.86,
+     "end": 117.32
+    },
+    {
+     "t": "I'm",
+     "start": 119.81,
+     "end": 120.1
+    },
+    {
+     "t": "happy!",
+     "start": 120.1,
+     "end": 120.48,
+     "pic": "happy"
+    }
+   ],
+   "n": 30,
+   "start": 116.0,
+   "end": 120.48,
+   "pic": "happy"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "happy",
+   "prompt": "How are you?",
+   "answer": "I'm happy.",
+   "choices": [
+    "I'm happy.",
+    "I'm sad.",
+    "I'm tired."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. How are you?",
+   "answer": "hungry",
+   "choices": [
+    "hungry",
+    "sick",
+    "angry"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sleepy",
+   "prompt": "How are you?",
+   "answer": "I'm sleepy.",
+   "choices": [
+    "I'm angry.",
+    "I'm sleepy.",
+    "I'm hungry."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 17,
+   "prompt": "Listen. How are you?",
+   "answer": "sick",
+   "choices": [
+    "bored",
+    "sick",
+    "happy"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "worried",
+   "prompt": "How are you?",
+   "answer": "I'm worried.",
+   "choices": [
+    "I'm worried.",
+    "I'm bored.",
+    "I'm happy."
+   ]
+  }
+ ]
+}

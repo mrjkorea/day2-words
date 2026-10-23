@@ -1,0 +1,1008 @@
+{
+ "id": "basic_b_u02_b",
+ "title": "Me Too!",
+ "book": "Basic B",
+ "unit": 2,
+ "unitTitle": "I like Mr. Jay",
+ "packId": "basic_b_u2",
+ "audio": "audio/basic_b_u02_b.mp3",
+ "duration": 152.02,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "I like music!",
+   "words": [
+    {
+     "t": "I",
+     "start": 6.42,
+     "end": 6.84
+    },
+    {
+     "t": "like",
+     "start": 6.8,
+     "end": 7.36
+    },
+    {
+     "t": "music!",
+     "start": 7.36,
+     "end": 8.2,
+     "pic": "music"
+    }
+   ],
+   "n": 1,
+   "start": 6.42,
+   "end": 8.2,
+   "pic": "music"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like fruit.",
+   "words": [
+    {
+     "t": "I",
+     "start": 12.12,
+     "end": 12.52
+    },
+    {
+     "t": "like",
+     "start": 12.52,
+     "end": 13.98
+    },
+    {
+     "t": "fruit.",
+     "start": 13.94,
+     "end": 14.54,
+     "pic": "fruit"
+    }
+   ],
+   "n": 2,
+   "start": 12.12,
+   "end": 14.54,
+   "pic": "fruit"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Me too! I like fruit!",
+   "words": [
+    {
+     "t": "Me",
+     "start": 16.06,
+     "end": 16.28
+    },
+    {
+     "t": "too!",
+     "start": 16.28,
+     "end": 16.72
+    },
+    {
+     "t": "I",
+     "start": 17.96,
+     "end": 18.24
+    },
+    {
+     "t": "like",
+     "start": 18.24,
+     "end": 18.48
+    },
+    {
+     "t": "fruit!",
+     "start": 19.54,
+     "end": 19.92,
+     "pic": "fruit"
+    }
+   ],
+   "n": 3,
+   "start": 16.06,
+   "end": 19.92,
+   "pic": "fruit"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like games.",
+   "words": [
+    {
+     "t": "I",
+     "start": 20.72,
+     "end": 21.3
+    },
+    {
+     "t": "like",
+     "start": 21.28,
+     "end": 22.38
+    },
+    {
+     "t": "games.",
+     "start": 22.52,
+     "end": 23.44,
+     "pic": "games"
+    }
+   ],
+   "n": 4,
+   "start": 20.72,
+   "end": 23.44,
+   "pic": "games"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Me too! I like games!",
+   "words": [
+    {
+     "t": "Me",
+     "start": 24.82,
+     "end": 25.02
+    },
+    {
+     "t": "too!",
+     "start": 25.02,
+     "end": 25.46
+    },
+    {
+     "t": "I",
+     "start": 26.75,
+     "end": 26.98
+    },
+    {
+     "t": "like",
+     "start": 26.98,
+     "end": 27.22
+    },
+    {
+     "t": "games!",
+     "start": 27.28,
+     "end": 27.68,
+     "pic": "games"
+    }
+   ],
+   "n": 5,
+   "start": 24.82,
+   "end": 27.68,
+   "pic": "games"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like movies.",
+   "words": [
+    {
+     "t": "I",
+     "start": 29.46,
+     "end": 29.94
+    },
+    {
+     "t": "like",
+     "start": 29.88,
+     "end": 30.44
+    },
+    {
+     "t": "movies.",
+     "start": 30.44,
+     "end": 31.69,
+     "pic": "movies"
+    }
+   ],
+   "n": 6,
+   "start": 29.46,
+   "end": 31.69,
+   "pic": "movies"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Me too! I love movies!",
+   "words": [
+    {
+     "t": "Me",
+     "start": 33.62,
+     "end": 33.76
+    },
+    {
+     "t": "too!",
+     "start": 33.76,
+     "end": 34.32
+    },
+    {
+     "t": "I",
+     "start": 35.12,
+     "end": 35.46
+    },
+    {
+     "t": "love",
+     "start": 35.42,
+     "end": 35.68
+    },
+    {
+     "t": "movies!",
+     "start": 35.68,
+     "end": 36.32,
+     "pic": "movies"
+    }
+   ],
+   "n": 7,
+   "start": 33.62,
+   "end": 36.32,
+   "pic": "movies"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like it! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 38.24,
+     "end": 38.68
+    },
+    {
+     "t": "like",
+     "start": 38.64,
+     "end": 39.24
+    },
+    {
+     "t": "it!",
+     "start": 39.2,
+     "end": 40.04
+    },
+    {
+     "t": "Me",
+     "start": 40.09,
+     "end": 40.38
+    },
+    {
+     "t": "too!",
+     "start": 40.41,
+     "end": 40.7
+    }
+   ],
+   "n": 8,
+   "start": 38.24,
+   "end": 40.7,
+   "pic": "movies"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like it! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 40.84,
+     "end": 41.08
+    },
+    {
+     "t": "like",
+     "start": 41.1,
+     "end": 41.6
+    },
+    {
+     "t": "it!",
+     "start": 41.62,
+     "end": 42.03
+    },
+    {
+     "t": "Me",
+     "start": 42.05,
+     "end": 42.38
+    },
+    {
+     "t": "too!",
+     "start": 42.4,
+     "end": 42.92
+    }
+   ],
+   "n": 9,
+   "start": 40.84,
+   "end": 42.92,
+   "pic": "movies"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like you! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 43.12,
+     "end": 43.38
+    },
+    {
+     "t": "like",
+     "start": 43.38,
+     "end": 43.62
+    },
+    {
+     "t": "you!",
+     "start": 43.67,
+     "end": 44.09
+    },
+    {
+     "t": "Me",
+     "start": 44.48,
+     "end": 44.74
+    },
+    {
+     "t": "too!",
+     "start": 44.74,
+     "end": 45.1
+    }
+   ],
+   "n": 10,
+   "start": 43.12,
+   "end": 45.1,
+   "pic": "movies"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like you, too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 45.12,
+     "end": 45.38
+    },
+    {
+     "t": "like",
+     "start": 45.38,
+     "end": 45.76
+    },
+    {
+     "t": "you,",
+     "start": 50.32,
+     "end": 51.18
+    },
+    {
+     "t": "too!",
+     "start": 51.14,
+     "end": 52.1
+    }
+   ],
+   "n": 11,
+   "start": 45.12,
+   "end": 52.1,
+   "pic": "movies"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I like school.",
+   "words": [
+    {
+     "t": "I",
+     "start": 55.66,
+     "end": 56.3
+    },
+    {
+     "t": "like",
+     "start": 56.26,
+     "end": 57.42
+    },
+    {
+     "t": "school.",
+     "start": 57.28,
+     "end": 58.24,
+     "pic": "school"
+    }
+   ],
+   "n": 12,
+   "start": 55.66,
+   "end": 58.24,
+   "pic": "school"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Me too! School is fun!",
+   "words": [
+    {
+     "t": "Me",
+     "start": 59.76,
+     "end": 59.9
+    },
+    {
+     "t": "too!",
+     "start": 59.9,
+     "end": 60.38
+    },
+    {
+     "t": "School",
+     "start": 61.48,
+     "end": 61.9,
+     "pic": "school"
+    },
+    {
+     "t": "is",
+     "start": 61.88,
+     "end": 62.14
+    },
+    {
+     "t": "fun!",
+     "start": 62.14,
+     "end": 62.48
+    }
+   ],
+   "n": 13,
+   "start": 59.76,
+   "end": 62.48,
+   "pic": "school"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I like music.",
+   "words": [
+    {
+     "t": "I",
+     "start": 64.4,
+     "end": 64.82
+    },
+    {
+     "t": "like",
+     "start": 64.8,
+     "end": 65.36
+    },
+    {
+     "t": "music.",
+     "start": 65.36,
+     "end": 66.68,
+     "pic": "music"
+    }
+   ],
+   "n": 14,
+   "start": 64.4,
+   "end": 66.68,
+   "pic": "music"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Me too! I love music!",
+   "words": [
+    {
+     "t": "Me",
+     "start": 68.36,
+     "end": 68.64
+    },
+    {
+     "t": "too!",
+     "start": 68.64,
+     "end": 69.12
+    },
+    {
+     "t": "I",
+     "start": 70.02,
+     "end": 70.34
+    },
+    {
+     "t": "love",
+     "start": 70.34,
+     "end": 70.56
+    },
+    {
+     "t": "music!",
+     "start": 70.58,
+     "end": 71.08,
+     "pic": "music"
+    }
+   ],
+   "n": 15,
+   "start": 68.36,
+   "end": 71.08,
+   "pic": "music"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I like exercise.",
+   "words": [
+    {
+     "t": "I",
+     "start": 71.22,
+     "end": 71.34
+    },
+    {
+     "t": "like",
+     "start": 73.52,
+     "end": 74.0
+    },
+    {
+     "t": "exercise.",
+     "start": 74.1,
+     "end": 75.4,
+     "pic": "exercise"
+    }
+   ],
+   "n": 16,
+   "start": 71.22,
+   "end": 75.4,
+   "pic": "exercise"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Me too! I like jumping!",
+   "words": [
+    {
+     "t": "Me",
+     "start": 77.2,
+     "end": 77.38
+    },
+    {
+     "t": "too!",
+     "start": 77.4,
+     "end": 78.08
+    },
+    {
+     "t": "I",
+     "start": 78.82,
+     "end": 79.02
+    },
+    {
+     "t": "like",
+     "start": 79.06,
+     "end": 79.34
+    },
+    {
+     "t": "jumping!",
+     "start": 79.38,
+     "end": 79.72
+    }
+   ],
+   "n": 17,
+   "start": 77.2,
+   "end": 79.72,
+   "pic": "exercise"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like it! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 79.94,
+     "end": 80.16
+    },
+    {
+     "t": "like",
+     "start": 80.26,
+     "end": 80.74
+    },
+    {
+     "t": "it!",
+     "start": 82.9,
+     "end": 83.6
+    },
+    {
+     "t": "Me",
+     "start": 85.96,
+     "end": 86.12
+    },
+    {
+     "t": "too!",
+     "start": 86.12,
+     "end": 86.5
+    }
+   ],
+   "n": 18,
+   "start": 79.94,
+   "end": 86.5,
+   "pic": "exercise"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like it! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 86.8,
+     "end": 86.98
+    },
+    {
+     "t": "like",
+     "start": 86.98,
+     "end": 87.2
+    },
+    {
+     "t": "it!",
+     "start": 87.22,
+     "end": 88.08
+    },
+    {
+     "t": "Me",
+     "start": 88.1,
+     "end": 88.32
+    },
+    {
+     "t": "too!",
+     "start": 88.32,
+     "end": 88.6
+    }
+   ],
+   "n": 19,
+   "start": 86.8,
+   "end": 88.6,
+   "pic": "exercise"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like you! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 88.66,
+     "end": 88.94
+    },
+    {
+     "t": "like",
+     "start": 88.94,
+     "end": 89.32
+    },
+    {
+     "t": "you!",
+     "start": 89.34,
+     "end": 90.0
+    },
+    {
+     "t": "Me",
+     "start": 90.05,
+     "end": 90.28
+    },
+    {
+     "t": "too!",
+     "start": 90.31,
+     "end": 90.55
+    }
+   ],
+   "n": 20,
+   "start": 88.66,
+   "end": 90.55,
+   "pic": "exercise"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like you, too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 90.66,
+     "end": 91.36
+    },
+    {
+     "t": "like",
+     "start": 91.36,
+     "end": 93.98
+    },
+    {
+     "t": "you,",
+     "start": 93.74,
+     "end": 94.68
+    },
+    {
+     "t": "too!",
+     "start": 94.74,
+     "end": 95.36
+    }
+   ],
+   "n": 21,
+   "start": 90.66,
+   "end": 95.36,
+   "pic": "exercise"
+  },
+  {
+   "section": "Bridge",
+   "text": "Do you like meat?",
+   "words": [
+    {
+     "t": "Do",
+     "start": 115.92,
+     "end": 116.12
+    },
+    {
+     "t": "you",
+     "start": 116.12,
+     "end": 116.38
+    },
+    {
+     "t": "like",
+     "start": 116.38,
+     "end": 116.72
+    },
+    {
+     "t": "meat?",
+     "start": 116.72,
+     "end": 117.02,
+     "pic": "meat"
+    }
+   ],
+   "n": 22,
+   "start": 115.92,
+   "end": 117.02,
+   "pic": "meat"
+  },
+  {
+   "section": "Bridge",
+   "text": "No! I do not eat meat!",
+   "words": [
+    {
+     "t": "No!",
+     "start": 118.36,
+     "end": 118.72
+    },
+    {
+     "t": "I",
+     "start": 119.0,
+     "end": 119.38
+    },
+    {
+     "t": "do",
+     "start": 119.38,
+     "end": 119.78
+    },
+    {
+     "t": "not",
+     "start": 119.78,
+     "end": 120.4
+    },
+    {
+     "t": "eat",
+     "start": 120.62,
+     "end": 121.0
+    },
+    {
+     "t": "meat!",
+     "start": 121.0,
+     "end": 121.44,
+     "pic": "meat"
+    }
+   ],
+   "n": 23,
+   "start": 118.36,
+   "end": 121.44,
+   "pic": "meat"
+  },
+  {
+   "section": "Bridge",
+   "text": "Sorry! It is okay!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 121.64,
+     "end": 122.0
+    },
+    {
+     "t": "It",
+     "start": 122.48,
+     "end": 122.8
+    },
+    {
+     "t": "is",
+     "start": 122.8,
+     "end": 123.12
+    },
+    {
+     "t": "okay!",
+     "start": 123.12,
+     "end": 123.76
+    }
+   ],
+   "n": 24,
+   "start": 121.64,
+   "end": 123.76,
+   "pic": "meat"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like it! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 125.28,
+     "end": 125.92
+    },
+    {
+     "t": "like",
+     "start": 125.92,
+     "end": 126.54
+    },
+    {
+     "t": "it!",
+     "start": 126.54,
+     "end": 127.32
+    },
+    {
+     "t": "Me",
+     "start": 127.37,
+     "end": 127.52
+    },
+    {
+     "t": "too!",
+     "start": 127.55,
+     "end": 127.71
+    }
+   ],
+   "n": 25,
+   "start": 125.28,
+   "end": 127.71,
+   "pic": "meat"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like it! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 127.78,
+     "end": 128.02
+    },
+    {
+     "t": "like",
+     "start": 128.0,
+     "end": 128.7
+    },
+    {
+     "t": "it!",
+     "start": 128.7,
+     "end": 129.2
+    },
+    {
+     "t": "Me",
+     "start": 129.64,
+     "end": 129.74
+    },
+    {
+     "t": "too!",
+     "start": 129.74,
+     "end": 130.16
+    }
+   ],
+   "n": 26,
+   "start": 127.78,
+   "end": 130.16,
+   "pic": "meat"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like you! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 130.4,
+     "end": 130.64
+    },
+    {
+     "t": "like",
+     "start": 130.64,
+     "end": 130.88
+    },
+    {
+     "t": "you!",
+     "start": 130.93,
+     "end": 131.35
+    },
+    {
+     "t": "Me",
+     "start": 131.78,
+     "end": 132.0
+    },
+    {
+     "t": "too!",
+     "start": 132.0,
+     "end": 132.26
+    }
+   ],
+   "n": 27,
+   "start": 130.4,
+   "end": 132.26,
+   "pic": "meat"
+  },
+  {
+   "section": "Chorus",
+   "text": "I like you, too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 132.28,
+     "end": 132.66
+    },
+    {
+     "t": "like",
+     "start": 132.9,
+     "end": 133.0
+    },
+    {
+     "t": "you,",
+     "start": 133.0,
+     "end": 133.56
+    },
+    {
+     "t": "too!",
+     "start": 138.38,
+     "end": 139.08
+    }
+   ],
+   "n": 28,
+   "start": 132.28,
+   "end": 139.08,
+   "pic": "meat"
+  },
+  {
+   "section": "Outro",
+   "text": "I like you! Me too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 141.96,
+     "end": 142.3
+    },
+    {
+     "t": "like",
+     "start": 142.32,
+     "end": 143.03
+    },
+    {
+     "t": "you!",
+     "start": 143.05,
+     "end": 143.75
+    },
+    {
+     "t": "Me",
+     "start": 143.77,
+     "end": 144.24
+    },
+    {
+     "t": "too!",
+     "start": 144.26,
+     "end": 144.98
+    }
+   ],
+   "n": 29,
+   "start": 141.96,
+   "end": 144.98,
+   "pic": "meat"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "fruit",
+   "prompt": "What do you like?",
+   "answer": "I like fruit.",
+   "choices": [
+    "I like fruit.",
+    "I like meat.",
+    "I like games."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 6,
+   "prompt": "Listen. What do you like?",
+   "answer": "movies",
+   "choices": [
+    "movies",
+    "music",
+    "school"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "games",
+   "prompt": "I like games. Me ...?",
+   "answer": "Me too!",
+   "choices": [
+    "Me too!",
+    "You too!",
+    "I too!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 16,
+   "prompt": "Listen. What do you like?",
+   "answer": "exercise",
+   "choices": [
+    "noodles",
+    "exercise",
+    "apples"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "music",
+   "prompt": "What do you like?",
+   "answer": "I like music.",
+   "choices": [
+    "I like movies.",
+    "I like school.",
+    "I like music."
+   ]
+  }
+ ]
+}

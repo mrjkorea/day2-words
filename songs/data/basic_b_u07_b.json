@@ -1,0 +1,980 @@
+{
+ "id": "basic_b_u07_b",
+ "title": "It Is Red, It Is Blue",
+ "book": "Basic B",
+ "unit": 7,
+ "unitTitle": "What Color is That?",
+ "packId": "basic_b_u7",
+ "audio": "audio/basic_b_u07_b.mp3",
+ "duration": 149.14,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Colors! Let's go!",
+   "words": [
+    {
+     "t": "Colors!",
+     "start": 0.0,
+     "end": 0.1
+    },
+    {
+     "t": "Let's",
+     "start": 2.04,
+     "end": 2.14
+    },
+    {
+     "t": "go!",
+     "start": 2.14,
+     "end": 2.39
+    }
+   ],
+   "n": 1,
+   "start": 0.0,
+   "end": 2.39,
+   "pic": "black"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is red.",
+   "words": [
+    {
+     "t": "It",
+     "start": 13.36,
+     "end": 13.7
+    },
+    {
+     "t": "is",
+     "start": 13.74,
+     "end": 14.09
+    },
+    {
+     "t": "red.",
+     "start": 14.13,
+     "end": 14.64,
+     "pic": "red"
+    }
+   ],
+   "n": 2,
+   "start": 13.36,
+   "end": 14.64,
+   "pic": "red"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Apples are red!",
+   "words": [
+    {
+     "t": "Apples",
+     "start": 15.5,
+     "end": 15.92
+    },
+    {
+     "t": "are",
+     "start": 15.98,
+     "end": 16.46
+    },
+    {
+     "t": "red!",
+     "start": 16.46,
+     "end": 17.0,
+     "pic": "red"
+    }
+   ],
+   "n": 3,
+   "start": 15.5,
+   "end": 17.0,
+   "pic": "red"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is orange.",
+   "words": [
+    {
+     "t": "It",
+     "start": 19.92,
+     "end": 20.23
+    },
+    {
+     "t": "is",
+     "start": 20.27,
+     "end": 20.58
+    },
+    {
+     "t": "orange.",
+     "start": 20.62,
+     "end": 21.32,
+     "pic": "orange"
+    }
+   ],
+   "n": 4,
+   "start": 19.92,
+   "end": 21.32,
+   "pic": "orange"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Oranges are orange!",
+   "words": [
+    {
+     "t": "Oranges",
+     "start": 22.32,
+     "end": 22.74,
+     "pic": "orange"
+    },
+    {
+     "t": "are",
+     "start": 22.8,
+     "end": 23.56
+    },
+    {
+     "t": "orange!",
+     "start": 23.56,
+     "end": 24.52,
+     "pic": "orange"
+    }
+   ],
+   "n": 5,
+   "start": 22.32,
+   "end": 24.52,
+   "pic": "orange"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is green.",
+   "words": [
+    {
+     "t": "It",
+     "start": 26.43,
+     "end": 26.66
+    },
+    {
+     "t": "is",
+     "start": 26.66,
+     "end": 27.34
+    },
+    {
+     "t": "green.",
+     "start": 27.34,
+     "end": 27.86,
+     "pic": "green"
+    }
+   ],
+   "n": 6,
+   "start": 26.43,
+   "end": 27.86,
+   "pic": "green"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Trees are green!",
+   "words": [
+    {
+     "t": "Trees",
+     "start": 28.64,
+     "end": 28.96
+    },
+    {
+     "t": "are",
+     "start": 28.96,
+     "end": 29.54
+    },
+    {
+     "t": "green!",
+     "start": 29.54,
+     "end": 30.54,
+     "pic": "green"
+    }
+   ],
+   "n": 7,
+   "start": 28.64,
+   "end": 30.54,
+   "pic": "green"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is red! It is red!",
+   "words": [
+    {
+     "t": "It",
+     "start": 31.04,
+     "end": 31.12
+    },
+    {
+     "t": "is",
+     "start": 31.1,
+     "end": 31.72
+    },
+    {
+     "t": "red!",
+     "start": 32.9,
+     "end": 33.28,
+     "pic": "red"
+    },
+    {
+     "t": "It",
+     "start": 33.46,
+     "end": 33.88
+    },
+    {
+     "t": "is",
+     "start": 33.88,
+     "end": 34.0
+    },
+    {
+     "t": "red!",
+     "start": 34.0,
+     "end": 34.66,
+     "pic": "red"
+    }
+   ],
+   "n": 8,
+   "start": 31.04,
+   "end": 34.66,
+   "pic": "red"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is blue! It is blue!",
+   "words": [
+    {
+     "t": "It",
+     "start": 35.12,
+     "end": 35.44
+    },
+    {
+     "t": "is",
+     "start": 35.44,
+     "end": 36.02
+    },
+    {
+     "t": "blue!",
+     "start": 36.02,
+     "end": 36.52,
+     "pic": "blue"
+    },
+    {
+     "t": "It",
+     "start": 36.78,
+     "end": 36.96
+    },
+    {
+     "t": "is",
+     "start": 36.96,
+     "end": 38.3
+    },
+    {
+     "t": "blue!",
+     "start": 38.3,
+     "end": 38.82,
+     "pic": "blue"
+    }
+   ],
+   "n": 9,
+   "start": 35.12,
+   "end": 38.82,
+   "pic": "blue"
+  },
+  {
+   "section": "Chorus",
+   "text": "What color is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 39.26,
+     "end": 39.66
+    },
+    {
+     "t": "color",
+     "start": 39.66,
+     "end": 40.16
+    },
+    {
+     "t": "is",
+     "start": 40.16,
+     "end": 40.66
+    },
+    {
+     "t": "it?",
+     "start": 40.66,
+     "end": 40.88
+    }
+   ],
+   "n": 10,
+   "start": 39.26,
+   "end": 40.88,
+   "pic": "blue"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is red and blue!",
+   "words": [
+    {
+     "t": "It",
+     "start": 41.18,
+     "end": 41.36
+    },
+    {
+     "t": "is",
+     "start": 41.36,
+     "end": 41.64
+    },
+    {
+     "t": "red",
+     "start": 41.64,
+     "end": 42.14,
+     "pic": "red"
+    },
+    {
+     "t": "and",
+     "start": 42.14,
+     "end": 42.68
+    },
+    {
+     "t": "blue!",
+     "start": 42.68,
+     "end": 43.32,
+     "pic": "blue"
+    }
+   ],
+   "n": 11,
+   "start": 41.18,
+   "end": 43.32,
+   "pic": "red"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is white.",
+   "words": [
+    {
+     "t": "It",
+     "start": 46.66,
+     "end": 48.46
+    },
+    {
+     "t": "is",
+     "start": 48.46,
+     "end": 49.18
+    },
+    {
+     "t": "white.",
+     "start": 49.18,
+     "end": 49.64,
+     "pic": "white"
+    }
+   ],
+   "n": 12,
+   "start": 46.66,
+   "end": 49.64,
+   "pic": "white"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Snow is white!",
+   "words": [
+    {
+     "t": "Snow",
+     "start": 50.18,
+     "end": 50.74
+    },
+    {
+     "t": "is",
+     "start": 50.74,
+     "end": 51.38
+    },
+    {
+     "t": "white!",
+     "start": 51.38,
+     "end": 51.82,
+     "pic": "white"
+    }
+   ],
+   "n": 13,
+   "start": 50.18,
+   "end": 51.82,
+   "pic": "white"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is black.",
+   "words": [
+    {
+     "t": "It",
+     "start": 52.58,
+     "end": 52.9
+    },
+    {
+     "t": "is",
+     "start": 52.9,
+     "end": 53.48
+    },
+    {
+     "t": "black.",
+     "start": 53.48,
+     "end": 54.02,
+     "pic": "black"
+    }
+   ],
+   "n": 14,
+   "start": 52.58,
+   "end": 54.02,
+   "pic": "black"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Black is spelled B-L-A-C-K!",
+   "words": [
+    {
+     "t": "Black",
+     "start": 54.96,
+     "end": 55.28,
+     "pic": "black"
+    },
+    {
+     "t": "is",
+     "start": 55.28,
+     "end": 55.52
+    },
+    {
+     "t": "spelled",
+     "start": 55.52,
+     "end": 56.0
+    },
+    {
+     "t": "B-L-A-C-K!",
+     "start": 56.05,
+     "end": 56.47,
+     "pic": "black"
+    }
+   ],
+   "n": 15,
+   "start": 54.96,
+   "end": 56.47,
+   "pic": "black"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is blue.",
+   "words": [
+    {
+     "t": "It",
+     "start": 58.5,
+     "end": 59.52
+    },
+    {
+     "t": "is",
+     "start": 59.52,
+     "end": 60.06
+    },
+    {
+     "t": "blue.",
+     "start": 60.06,
+     "end": 60.5,
+     "pic": "blue"
+    }
+   ],
+   "n": 16,
+   "start": 58.5,
+   "end": 60.5,
+   "pic": "blue"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My eyes are blue!",
+   "words": [
+    {
+     "t": "My",
+     "start": 61.26,
+     "end": 61.56
+    },
+    {
+     "t": "eyes",
+     "start": 61.56,
+     "end": 61.88
+    },
+    {
+     "t": "are",
+     "start": 61.88,
+     "end": 62.24
+    },
+    {
+     "t": "blue!",
+     "start": 62.24,
+     "end": 62.72,
+     "pic": "blue"
+    }
+   ],
+   "n": 17,
+   "start": 61.26,
+   "end": 62.72,
+   "pic": "blue"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is red! It is red!",
+   "words": [
+    {
+     "t": "It",
+     "start": 63.04,
+     "end": 63.33
+    },
+    {
+     "t": "is",
+     "start": 63.35,
+     "end": 63.65
+    },
+    {
+     "t": "red!",
+     "start": 63.67,
+     "end": 64.12,
+     "pic": "red"
+    },
+    {
+     "t": "It",
+     "start": 64.14,
+     "end": 64.43
+    },
+    {
+     "t": "is",
+     "start": 64.45,
+     "end": 64.75
+    },
+    {
+     "t": "red!",
+     "start": 64.77,
+     "end": 65.24,
+     "pic": "red"
+    }
+   ],
+   "n": 18,
+   "start": 63.04,
+   "end": 65.24,
+   "pic": "red"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is blue! It is blue!",
+   "words": [
+    {
+     "t": "It",
+     "start": 65.7,
+     "end": 66.15
+    },
+    {
+     "t": "is",
+     "start": 66.17,
+     "end": 66.62
+    },
+    {
+     "t": "blue!",
+     "start": 66.64,
+     "end": 67.44,
+     "pic": "blue"
+    },
+    {
+     "t": "It",
+     "start": 67.46,
+     "end": 67.91
+    },
+    {
+     "t": "is",
+     "start": 67.93,
+     "end": 68.38
+    },
+    {
+     "t": "blue!",
+     "start": 68.4,
+     "end": 69.22,
+     "pic": "blue"
+    }
+   ],
+   "n": 19,
+   "start": 65.7,
+   "end": 69.22,
+   "pic": "blue"
+  },
+  {
+   "section": "Chorus",
+   "text": "What color is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 69.7,
+     "end": 70.16
+    },
+    {
+     "t": "color",
+     "start": 70.16,
+     "end": 70.68
+    },
+    {
+     "t": "is",
+     "start": 70.68,
+     "end": 71.08
+    },
+    {
+     "t": "it?",
+     "start": 71.08,
+     "end": 71.36
+    }
+   ],
+   "n": 20,
+   "start": 69.7,
+   "end": 71.36,
+   "pic": "blue"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is red and blue!",
+   "words": [
+    {
+     "t": "It",
+     "start": 71.68,
+     "end": 71.82
+    },
+    {
+     "t": "is",
+     "start": 71.82,
+     "end": 72.14
+    },
+    {
+     "t": "red",
+     "start": 72.14,
+     "end": 72.6,
+     "pic": "red"
+    },
+    {
+     "t": "and",
+     "start": 72.6,
+     "end": 73.16
+    },
+    {
+     "t": "blue!",
+     "start": 73.16,
+     "end": 73.66,
+     "pic": "blue"
+    }
+   ],
+   "n": 21,
+   "start": 71.68,
+   "end": 73.66,
+   "pic": "red"
+  },
+  {
+   "section": "Bridge",
+   "text": "What color? Yellow!",
+   "words": [
+    {
+     "t": "What",
+     "start": 89.4,
+     "end": 106.86
+    },
+    {
+     "t": "color?",
+     "start": 106.86,
+     "end": 110.66
+    },
+    {
+     "t": "Yellow!",
+     "start": 111.16,
+     "end": 111.46,
+     "pic": "yellow"
+    }
+   ],
+   "n": 22,
+   "start": 89.4,
+   "end": 111.46,
+   "pic": "yellow"
+  },
+  {
+   "section": "Bridge",
+   "text": "What color? Purple!",
+   "words": [
+    {
+     "t": "What",
+     "start": 112.0,
+     "end": 112.26
+    },
+    {
+     "t": "color?",
+     "start": 112.26,
+     "end": 112.84
+    },
+    {
+     "t": "Purple!",
+     "start": 113.34,
+     "end": 113.6,
+     "pic": "purple"
+    }
+   ],
+   "n": 23,
+   "start": 112.0,
+   "end": 113.6,
+   "pic": "purple"
+  },
+  {
+   "section": "Bridge",
+   "text": "What color? Rainbow!",
+   "words": [
+    {
+     "t": "What",
+     "start": 114.16,
+     "end": 114.44
+    },
+    {
+     "t": "color?",
+     "start": 114.44,
+     "end": 115.08
+    },
+    {
+     "t": "Rainbow!",
+     "start": 115.52,
+     "end": 115.86,
+     "pic": "rainbow"
+    }
+   ],
+   "n": 24,
+   "start": 114.16,
+   "end": 115.86,
+   "pic": "rainbow"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is red! It is red!",
+   "words": [
+    {
+     "t": "It",
+     "start": 120.88,
+     "end": 121.98
+    },
+    {
+     "t": "is",
+     "start": 121.98,
+     "end": 123.18
+    },
+    {
+     "t": "red!",
+     "start": 123.18,
+     "end": 123.62,
+     "pic": "red"
+    },
+    {
+     "t": "It",
+     "start": 123.62,
+     "end": 124.14
+    },
+    {
+     "t": "is",
+     "start": 124.14,
+     "end": 124.42
+    },
+    {
+     "t": "red!",
+     "start": 124.42,
+     "end": 124.88,
+     "pic": "red"
+    }
+   ],
+   "n": 25,
+   "start": 120.88,
+   "end": 124.88,
+   "pic": "red"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is blue! It is blue!",
+   "words": [
+    {
+     "t": "It",
+     "start": 125.0,
+     "end": 125.32
+    },
+    {
+     "t": "is",
+     "start": 125.32,
+     "end": 125.62
+    },
+    {
+     "t": "blue!",
+     "start": 125.62,
+     "end": 126.42,
+     "pic": "blue"
+    },
+    {
+     "t": "It",
+     "start": 128.3,
+     "end": 128.48
+    },
+    {
+     "t": "is",
+     "start": 128.48,
+     "end": 128.74
+    },
+    {
+     "t": "blue!",
+     "start": 128.74,
+     "end": 129.32,
+     "pic": "blue"
+    }
+   ],
+   "n": 26,
+   "start": 125.0,
+   "end": 129.32,
+   "pic": "blue"
+  },
+  {
+   "section": "Chorus",
+   "text": "What color is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 130.82,
+     "end": 131.18
+    },
+    {
+     "t": "color",
+     "start": 131.18,
+     "end": 131.68
+    },
+    {
+     "t": "is",
+     "start": 131.68,
+     "end": 132.16
+    },
+    {
+     "t": "it?",
+     "start": 132.16,
+     "end": 132.38
+    }
+   ],
+   "n": 27,
+   "start": 130.82,
+   "end": 132.38,
+   "pic": "blue"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is red and blue!",
+   "words": [
+    {
+     "t": "It",
+     "start": 132.68,
+     "end": 132.84
+    },
+    {
+     "t": "is",
+     "start": 132.84,
+     "end": 133.16
+    },
+    {
+     "t": "red",
+     "start": 133.16,
+     "end": 133.6,
+     "pic": "red"
+    },
+    {
+     "t": "and",
+     "start": 133.6,
+     "end": 134.22
+    },
+    {
+     "t": "blue!",
+     "start": 134.22,
+     "end": 134.84,
+     "pic": "blue"
+    }
+   ],
+   "n": 28,
+   "start": 132.68,
+   "end": 134.84,
+   "pic": "red"
+  },
+  {
+   "section": "Outro",
+   "text": "It is a rainbow!",
+   "words": [
+    {
+     "t": "It",
+     "start": 137.56,
+     "end": 137.8
+    },
+    {
+     "t": "is",
+     "start": 137.8,
+     "end": 138.14
+    },
+    {
+     "t": "a",
+     "start": 138.14,
+     "end": 138.56
+    },
+    {
+     "t": "rainbow!",
+     "start": 138.56,
+     "end": 139.22,
+     "pic": "rainbow"
+    }
+   ],
+   "n": 29,
+   "start": 137.56,
+   "end": 139.22,
+   "pic": "rainbow"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "red",
+   "prompt": "What color is it?",
+   "answer": "It is red.",
+   "choices": [
+    "It is red.",
+    "It is blue.",
+    "It is green."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 6,
+   "prompt": "Listen. What color?",
+   "answer": "green",
+   "choices": [
+    "green",
+    "yellow",
+    "purple"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "white",
+   "prompt": "What color is it?",
+   "answer": "It is white.",
+   "choices": [
+    "It is black.",
+    "It is white.",
+    "It is brown."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 16,
+   "prompt": "Listen. What color?",
+   "answer": "blue",
+   "choices": [
+    "red",
+    "blue",
+    "orange"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "purple",
+   "prompt": "What color is it?",
+   "answer": "It is purple.",
+   "choices": [
+    "It is purple.",
+    "It is yellow.",
+    "It is orange."
+   ]
+  }
+ ]
+}

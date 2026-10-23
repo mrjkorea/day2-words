@@ -71,6 +71,78 @@
    "unitTitle": "Numbers 11 to 100",
    "blurb": "Count big numbers!",
    "packId": "basic_a_u8"
+  },
+  {
+   "id": "basic_b_u01_a",
+   "title": "How Are You Today?",
+   "book": "Basic B",
+   "unit": 1,
+   "unitTitle": "How are you?",
+   "blurb": "How are you? I am happy!",
+   "packId": "basic_b_u1"
+  },
+  {
+   "id": "basic_b_u02_b",
+   "title": "Me Too!",
+   "book": "Basic B",
+   "unit": 2,
+   "unitTitle": "I like Mr. Jay",
+   "blurb": "I like fruit! Me too!",
+   "packId": "basic_b_u2"
+  },
+  {
+   "id": "basic_b_u03_b",
+   "title": "I Do Not Understand",
+   "book": "Basic B",
+   "unit": 3,
+   "unitTitle": "Classroom English Two",
+   "blurb": "I do not understand. That is okay!",
+   "packId": "basic_b_u3"
+  },
+  {
+   "id": "basic_b_u04_a",
+   "title": "Rock, Paper, Scissors!",
+   "book": "Basic B",
+   "unit": 4,
+   "unitTitle": "Rock Paper Scissors",
+   "blurb": "Rock wins! Paper wins!",
+   "packId": "basic_b_u4"
+  },
+  {
+   "id": "basic_b_u05_b",
+   "title": "It Is a Teddy Bear",
+   "book": "Basic B",
+   "unit": 5,
+   "unitTitle": "What is it?",
+   "blurb": "What is it? It is a teddy bear!",
+   "packId": "basic_b_u5"
+  },
+  {
+   "id": "basic_b_u06_b",
+   "title": "I Like My Body",
+   "book": "Basic B",
+   "unit": 6,
+   "unitTitle": "I like my body",
+   "blurb": "This is my nose!",
+   "packId": "basic_b_u6"
+  },
+  {
+   "id": "basic_b_u07_b",
+   "title": "It Is Red, It Is Blue",
+   "book": "Basic B",
+   "unit": 7,
+   "unitTitle": "What Color is That?",
+   "blurb": "What color is it? It is red!",
+   "packId": "basic_b_u7"
+  },
+  {
+   "id": "basic_b_u08_b",
+   "title": "I Am Twenty-Two",
+   "book": "Basic B",
+   "unit": 8,
+   "unitTitle": "How old are you?",
+   "blurb": "How old are you? I am twenty-two!",
+   "packId": "basic_b_u8"
   }
  ]
 }

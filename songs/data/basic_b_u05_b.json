@@ -1,0 +1,1199 @@
+{
+ "id": "basic_b_u05_b",
+ "title": "It Is a Teddy Bear",
+ "book": "Basic B",
+ "unit": 5,
+ "unitTitle": "What is it?",
+ "packId": "basic_b_u5",
+ "audio": "audio/basic_b_u05_b.mp3",
+ "duration": 150.77,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Look! What is it?",
+   "words": [
+    {
+     "t": "Look!",
+     "start": 8.9,
+     "end": 9.14
+    },
+    {
+     "t": "What",
+     "start": 9.14,
+     "end": 9.86
+    },
+    {
+     "t": "is",
+     "start": 9.86,
+     "end": 10.08
+    },
+    {
+     "t": "it?",
+     "start": 10.08,
+     "end": 10.26
+    }
+   ],
+   "n": 1,
+   "start": 8.9,
+   "end": 10.26,
+   "pic": "apple"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is a bag.",
+   "words": [
+    {
+     "t": "It",
+     "start": 11.18,
+     "end": 11.36
+    },
+    {
+     "t": "is",
+     "start": 11.32,
+     "end": 11.84
+    },
+    {
+     "t": "a",
+     "start": 11.86,
+     "end": 12.26
+    },
+    {
+     "t": "bag.",
+     "start": 12.24,
+     "end": 12.7,
+     "pic": "bag"
+    }
+   ],
+   "n": 2,
+   "start": 11.18,
+   "end": 12.7,
+   "pic": "bag"
+  },
+  {
+   "section": "Verse 1",
+   "text": "A bag! It is a bag!",
+   "words": [
+    {
+     "t": "A",
+     "start": 13.2,
+     "end": 13.3
+    },
+    {
+     "t": "bag!",
+     "start": 13.3,
+     "end": 13.66,
+     "pic": "bag"
+    },
+    {
+     "t": "It",
+     "start": 14.1,
+     "end": 14.18
+    },
+    {
+     "t": "is",
+     "start": 14.12,
+     "end": 14.26
+    },
+    {
+     "t": "a",
+     "start": 14.26,
+     "end": 14.46
+    },
+    {
+     "t": "bag!",
+     "start": 14.46,
+     "end": 14.82,
+     "pic": "bag"
+    }
+   ],
+   "n": 3,
+   "start": 13.2,
+   "end": 14.82,
+   "pic": "bag"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is a book.",
+   "words": [
+    {
+     "t": "It",
+     "start": 15.49,
+     "end": 15.7
+    },
+    {
+     "t": "is",
+     "start": 15.72,
+     "end": 16.2
+    },
+    {
+     "t": "a",
+     "start": 16.22,
+     "end": 16.66
+    },
+    {
+     "t": "book.",
+     "start": 16.64,
+     "end": 16.94,
+     "pic": "book"
+    }
+   ],
+   "n": 4,
+   "start": 15.49,
+   "end": 16.94,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "A book! It is a book!",
+   "words": [
+    {
+     "t": "A",
+     "start": 17.54,
+     "end": 17.64
+    },
+    {
+     "t": "book!",
+     "start": 17.64,
+     "end": 17.86,
+     "pic": "book"
+    },
+    {
+     "t": "It",
+     "start": 18.34,
+     "end": 18.46
+    },
+    {
+     "t": "is",
+     "start": 18.46,
+     "end": 18.6
+    },
+    {
+     "t": "a",
+     "start": 18.6,
+     "end": 18.72
+    },
+    {
+     "t": "book!",
+     "start": 18.72,
+     "end": 19.02,
+     "pic": "book"
+    }
+   ],
+   "n": 5,
+   "start": 17.04,
+   "end": 20.64,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is a toy.",
+   "words": [
+    {
+     "t": "It",
+     "start": 19.88,
+     "end": 20.06
+    },
+    {
+     "t": "is",
+     "start": 20.06,
+     "end": 20.64
+    },
+    {
+     "t": "a",
+     "start": 20.64,
+     "end": 21.0
+    },
+    {
+     "t": "toy.",
+     "start": 20.94,
+     "end": 21.94,
+     "pic": "toy"
+    }
+   ],
+   "n": 6,
+   "start": 19.88,
+   "end": 21.94,
+   "pic": "toy"
+  },
+  {
+   "section": "Verse 1",
+   "text": "A toy! It is a toy!",
+   "words": [
+    {
+     "t": "A",
+     "start": 22.56,
+     "end": 22.74
+    },
+    {
+     "t": "toy!",
+     "start": 22.78,
+     "end": 23.34,
+     "pic": "toy"
+    },
+    {
+     "t": "It",
+     "start": 24.44,
+     "end": 24.66
+    },
+    {
+     "t": "is",
+     "start": 24.66,
+     "end": 24.9
+    },
+    {
+     "t": "a",
+     "start": 24.9,
+     "end": 25.2
+    },
+    {
+     "t": "toy!",
+     "start": 25.2,
+     "end": 25.6,
+     "pic": "toy"
+    }
+   ],
+   "n": 7,
+   "start": 22.56,
+   "end": 25.6,
+   "pic": "toy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear! I like teddy bears!",
+   "words": [
+    {
+     "t": "It",
+     "start": 26.37,
+     "end": 26.7
+    },
+    {
+     "t": "is",
+     "start": 26.7,
+     "end": 27.18
+    },
+    {
+     "t": "a",
+     "start": 27.18,
+     "end": 27.54
+    },
+    {
+     "t": "teddy",
+     "start": 27.54,
+     "end": 27.88,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 27.88,
+     "end": 28.52
+    },
+    {
+     "t": "I",
+     "start": 28.78,
+     "end": 28.92
+    },
+    {
+     "t": "like",
+     "start": 28.94,
+     "end": 29.4
+    },
+    {
+     "t": "teddy",
+     "start": 29.48,
+     "end": 30.1,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bears!",
+     "start": 30.12,
+     "end": 30.66,
+     "pic": "teddybear"
+    }
+   ],
+   "n": 8,
+   "start": 26.37,
+   "end": 30.66,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear! I like teddy bears!",
+   "words": [
+    {
+     "t": "It",
+     "start": 30.78,
+     "end": 31.04
+    },
+    {
+     "t": "is",
+     "start": 31.06,
+     "end": 31.56
+    },
+    {
+     "t": "a",
+     "start": 31.52,
+     "end": 31.84
+    },
+    {
+     "t": "teddy",
+     "start": 31.84,
+     "end": 32.26,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 32.24,
+     "end": 32.78
+    },
+    {
+     "t": "I",
+     "start": 32.98,
+     "end": 33.3
+    },
+    {
+     "t": "like",
+     "start": 33.28,
+     "end": 33.76
+    },
+    {
+     "t": "teddy",
+     "start": 33.82,
+     "end": 34.46,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bears!",
+     "start": 34.46,
+     "end": 35.14,
+     "pic": "teddybear"
+    }
+   ],
+   "n": 9,
+   "start": 30.78,
+   "end": 35.14,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is it? What is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 35.68,
+     "end": 36.04
+    },
+    {
+     "t": "is",
+     "start": 36.04,
+     "end": 36.72
+    },
+    {
+     "t": "it?",
+     "start": 36.72,
+     "end": 37.3
+    },
+    {
+     "t": "What",
+     "start": 37.84,
+     "end": 38.26
+    },
+    {
+     "t": "is",
+     "start": 38.26,
+     "end": 38.94
+    },
+    {
+     "t": "it?",
+     "start": 38.94,
+     "end": 39.22
+    }
+   ],
+   "n": 10,
+   "start": 35.68,
+   "end": 39.22,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear!",
+   "words": [
+    {
+     "t": "It",
+     "start": 39.48,
+     "end": 39.82
+    },
+    {
+     "t": "is",
+     "start": 39.82,
+     "end": 40.3
+    },
+    {
+     "t": "a",
+     "start": 40.3,
+     "end": 40.6
+    },
+    {
+     "t": "teddy",
+     "start": 40.6,
+     "end": 40.94,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 40.94,
+     "end": 41.64
+    }
+   ],
+   "n": 11,
+   "start": 39.48,
+   "end": 41.64,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is a sock.",
+   "words": [
+    {
+     "t": "It",
+     "start": 43.04,
+     "end": 44.14
+    },
+    {
+     "t": "is",
+     "start": 44.14,
+     "end": 44.76
+    },
+    {
+     "t": "a",
+     "start": 44.76,
+     "end": 44.96
+    },
+    {
+     "t": "sock.",
+     "start": 44.96,
+     "end": 45.24,
+     "pic": "sock"
+    }
+   ],
+   "n": 12,
+   "start": 43.04,
+   "end": 45.24,
+   "pic": "sock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I do not like socks!",
+   "words": [
+    {
+     "t": "I",
+     "start": 46.34,
+     "end": 46.7
+    },
+    {
+     "t": "do",
+     "start": 46.7,
+     "end": 47.04
+    },
+    {
+     "t": "not",
+     "start": 47.04,
+     "end": 47.5
+    },
+    {
+     "t": "like",
+     "start": 47.54,
+     "end": 48.44
+    },
+    {
+     "t": "socks!",
+     "start": 48.44,
+     "end": 49.32,
+     "pic": "sock"
+    }
+   ],
+   "n": 13,
+   "start": 46.34,
+   "end": 49.32,
+   "pic": "sock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is a toothbrush.",
+   "words": [
+    {
+     "t": "It",
+     "start": 50.42,
+     "end": 50.6
+    },
+    {
+     "t": "is",
+     "start": 50.6,
+     "end": 51.16
+    },
+    {
+     "t": "a",
+     "start": 51.16,
+     "end": 51.56
+    },
+    {
+     "t": "toothbrush.",
+     "start": 51.56,
+     "end": 52.44,
+     "pic": "toothbrush"
+    }
+   ],
+   "n": 14,
+   "start": 50.42,
+   "end": 52.44,
+   "pic": "toothbrush"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Brush, brush, brush!",
+   "words": [
+    {
+     "t": "Brush,",
+     "start": 52.52,
+     "end": 52.9
+    },
+    {
+     "t": "brush,",
+     "start": 53.34,
+     "end": 53.72
+    },
+    {
+     "t": "brush!",
+     "start": 53.84,
+     "end": 54.36
+    }
+   ],
+   "n": 15,
+   "start": 52.52,
+   "end": 54.36,
+   "pic": "toothbrush"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is a night light.",
+   "words": [
+    {
+     "t": "It",
+     "start": 54.84,
+     "end": 55.04
+    },
+    {
+     "t": "is",
+     "start": 55.02,
+     "end": 55.56
+    },
+    {
+     "t": "a",
+     "start": 55.56,
+     "end": 55.94
+    },
+    {
+     "t": "night",
+     "start": 55.92,
+     "end": 56.22
+    },
+    {
+     "t": "light.",
+     "start": 56.22,
+     "end": 56.92
+    }
+   ],
+   "n": 16,
+   "start": 54.84,
+   "end": 56.92,
+   "pic": "nightlight"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Good night!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 57.52,
+     "end": 57.72
+    },
+    {
+     "t": "night!",
+     "start": 57.72,
+     "end": 58.3
+    }
+   ],
+   "n": 17,
+   "start": 57.52,
+   "end": 58.3,
+   "pic": "nightlight"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear! I like teddy bears!",
+   "words": [
+    {
+     "t": "It",
+     "start": 59.43,
+     "end": 59.91
+    },
+    {
+     "t": "is",
+     "start": 59.93,
+     "end": 60.4
+    },
+    {
+     "t": "a",
+     "start": 60.42,
+     "end": 60.78
+    },
+    {
+     "t": "teddy",
+     "start": 60.8,
+     "end": 61.65,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 61.67,
+     "end": 62.52
+    },
+    {
+     "t": "I",
+     "start": 62.54,
+     "end": 62.89
+    },
+    {
+     "t": "like",
+     "start": 62.91,
+     "end": 63.64
+    },
+    {
+     "t": "teddy",
+     "start": 63.66,
+     "end": 64.51,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bears!",
+     "start": 64.53,
+     "end": 65.52,
+     "pic": "teddybear"
+    }
+   ],
+   "n": 18,
+   "start": 59.43,
+   "end": 65.52,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear! I like teddy bears!",
+   "words": [
+    {
+     "t": "It",
+     "start": 65.7,
+     "end": 65.96
+    },
+    {
+     "t": "is",
+     "start": 66.04,
+     "end": 66.52
+    },
+    {
+     "t": "a",
+     "start": 66.44,
+     "end": 66.82
+    },
+    {
+     "t": "teddy",
+     "start": 66.82,
+     "end": 67.18,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 67.18,
+     "end": 67.8
+    },
+    {
+     "t": "I",
+     "start": 67.88,
+     "end": 68.24
+    },
+    {
+     "t": "like",
+     "start": 68.2,
+     "end": 68.76
+    },
+    {
+     "t": "teddy",
+     "start": 68.76,
+     "end": 69.32,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bears!",
+     "start": 69.34,
+     "end": 70.04,
+     "pic": "teddybear"
+    }
+   ],
+   "n": 19,
+   "start": 65.7,
+   "end": 70.04,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is it? What is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 70.58,
+     "end": 70.98
+    },
+    {
+     "t": "is",
+     "start": 70.96,
+     "end": 71.64
+    },
+    {
+     "t": "it?",
+     "start": 71.64,
+     "end": 72.06
+    },
+    {
+     "t": "What",
+     "start": 72.74,
+     "end": 73.18
+    },
+    {
+     "t": "is",
+     "start": 73.18,
+     "end": 73.82
+    },
+    {
+     "t": "it?",
+     "start": 73.82,
+     "end": 74.18
+    }
+   ],
+   "n": 20,
+   "start": 70.58,
+   "end": 74.18,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear!",
+   "words": [
+    {
+     "t": "It",
+     "start": 74.5,
+     "end": 74.7
+    },
+    {
+     "t": "is",
+     "start": 74.7,
+     "end": 75.18
+    },
+    {
+     "t": "a",
+     "start": 75.2,
+     "end": 75.36
+    },
+    {
+     "t": "teddy",
+     "start": 75.4,
+     "end": 75.86,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 75.9,
+     "end": 76.42
+    }
+   ],
+   "n": 21,
+   "start": 74.5,
+   "end": 76.42,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Bridge",
+   "text": "What is it? It is a toy!",
+   "words": [
+    {
+     "t": "What",
+     "start": 104.74,
+     "end": 105.4
+    },
+    {
+     "t": "is",
+     "start": 105.47,
+     "end": 105.92
+    },
+    {
+     "t": "it?",
+     "start": 105.96,
+     "end": 106.52
+    },
+    {
+     "t": "It",
+     "start": 106.58,
+     "end": 107.02
+    },
+    {
+     "t": "is",
+     "start": 107.07,
+     "end": 107.51
+    },
+    {
+     "t": "a",
+     "start": 107.56,
+     "end": 107.89
+    },
+    {
+     "t": "toy!",
+     "start": 107.92,
+     "end": 108.59,
+     "pic": "toy"
+    }
+   ],
+   "n": 22,
+   "start": 104.74,
+   "end": 108.59,
+   "pic": "toy"
+  },
+  {
+   "section": "Bridge",
+   "text": "What is it? It is a bear!",
+   "words": [
+    {
+     "t": "What",
+     "start": 109.18,
+     "end": 109.58
+    },
+    {
+     "t": "is",
+     "start": 109.62,
+     "end": 109.88
+    },
+    {
+     "t": "it?",
+     "start": 109.91,
+     "end": 110.24
+    },
+    {
+     "t": "It",
+     "start": 110.28,
+     "end": 110.54
+    },
+    {
+     "t": "is",
+     "start": 110.57,
+     "end": 110.84
+    },
+    {
+     "t": "a",
+     "start": 110.87,
+     "end": 111.06
+    },
+    {
+     "t": "bear!",
+     "start": 111.09,
+     "end": 111.55
+    }
+   ],
+   "n": 23,
+   "start": 109.18,
+   "end": 111.55,
+   "pic": "toy"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear! I like teddy bears!",
+   "words": [
+    {
+     "t": "It",
+     "start": 112.5,
+     "end": 112.89
+    },
+    {
+     "t": "is",
+     "start": 112.94,
+     "end": 113.33
+    },
+    {
+     "t": "a",
+     "start": 113.38,
+     "end": 113.67
+    },
+    {
+     "t": "teddy",
+     "start": 113.7,
+     "end": 114.39,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 114.47,
+     "end": 115.16
+    },
+    {
+     "t": "I",
+     "start": 115.23,
+     "end": 115.53
+    },
+    {
+     "t": "like",
+     "start": 115.56,
+     "end": 116.15
+    },
+    {
+     "t": "teddy",
+     "start": 116.22,
+     "end": 116.91,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bears!",
+     "start": 116.98,
+     "end": 117.77,
+     "pic": "teddybear"
+    }
+   ],
+   "n": 24,
+   "start": 112.5,
+   "end": 117.77,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear! I like teddy bears!",
+   "words": [
+    {
+     "t": "It",
+     "start": 117.86,
+     "end": 118.22
+    },
+    {
+     "t": "is",
+     "start": 118.24,
+     "end": 118.59
+    },
+    {
+     "t": "a",
+     "start": 118.61,
+     "end": 118.87
+    },
+    {
+     "t": "teddy",
+     "start": 118.89,
+     "end": 119.53,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 119.55,
+     "end": 120.19
+    },
+    {
+     "t": "I",
+     "start": 120.21,
+     "end": 120.47
+    },
+    {
+     "t": "like",
+     "start": 120.49,
+     "end": 121.03
+    },
+    {
+     "t": "teddy",
+     "start": 121.05,
+     "end": 121.69,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bears!",
+     "start": 121.71,
+     "end": 122.46,
+     "pic": "teddybear"
+    }
+   ],
+   "n": 25,
+   "start": 117.86,
+   "end": 122.46,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is it? What is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 122.78,
+     "end": 123.24
+    },
+    {
+     "t": "is",
+     "start": 123.18,
+     "end": 123.78
+    },
+    {
+     "t": "it?",
+     "start": 123.78,
+     "end": 124.84
+    },
+    {
+     "t": "What",
+     "start": 125.22,
+     "end": 125.46
+    },
+    {
+     "t": "is",
+     "start": 125.46,
+     "end": 126.08
+    },
+    {
+     "t": "it?",
+     "start": 126.08,
+     "end": 126.32
+    }
+   ],
+   "n": 26,
+   "start": 122.78,
+   "end": 126.32,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a teddy bear!",
+   "words": [
+    {
+     "t": "It",
+     "start": 126.8,
+     "end": 126.94
+    },
+    {
+     "t": "is",
+     "start": 126.94,
+     "end": 127.46
+    },
+    {
+     "t": "a",
+     "start": 127.46,
+     "end": 127.74
+    },
+    {
+     "t": "teddy",
+     "start": 127.74,
+     "end": 128.12,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 128.12,
+     "end": 128.86
+    }
+   ],
+   "n": 27,
+   "start": 126.8,
+   "end": 128.86,
+   "pic": "teddybear"
+  },
+  {
+   "section": "Outro",
+   "text": "It is a teddy bear!",
+   "words": [
+    {
+     "t": "It",
+     "start": 135.16,
+     "end": 135.64
+    },
+    {
+     "t": "is",
+     "start": 135.6,
+     "end": 136.12
+    },
+    {
+     "t": "a",
+     "start": 136.12,
+     "end": 136.46
+    },
+    {
+     "t": "teddy",
+     "start": 136.46,
+     "end": 136.84,
+     "pic": "teddybear"
+    },
+    {
+     "t": "bear!",
+     "start": 136.84,
+     "end": 137.32
+    }
+   ],
+   "n": 28,
+   "start": 135.16,
+   "end": 137.32,
+   "pic": "teddybear"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "teddybear",
+   "prompt": "What is it?",
+   "answer": "It is a teddy bear.",
+   "choices": [
+    "It is a teddy bear.",
+    "It is a bag.",
+    "It is a sock."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 2,
+   "prompt": "Listen. What is it?",
+   "answer": "bag",
+   "choices": [
+    "bag",
+    "book",
+    "toy"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "toothbrush",
+   "prompt": "What is it?",
+   "answer": "It is a toothbrush.",
+   "choices": [
+    "It is a book.",
+    "It is a toothbrush.",
+    "It is a night light."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 12,
+   "prompt": "Listen. What is it?",
+   "answer": "sock",
+   "choices": [
+    "toy",
+    "sock",
+    "apple"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "nightlight",
+   "prompt": "What is it?",
+   "answer": "It is a night light.",
+   "choices": [
+    "It is a night light.",
+    "It is a toy.",
+    "It is a bag."
+   ]
+  }
+ ]
+}

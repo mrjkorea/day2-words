@@ -1,0 +1,1063 @@
+{
+ "id": "basic_b_u04_a",
+ "title": "Rock, Paper, Scissors!",
+ "book": "Basic B",
+ "unit": 4,
+ "unitTitle": "Rock Paper Scissors",
+ "packId": "basic_b_u4",
+ "audio": "audio/basic_b_u04_a.mp3",
+ "duration": 155.69,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 17.3,
+     "end": 17.72,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 17.98,
+     "end": 18.3,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 18.64,
+     "end": 19.28,
+     "pic": "scissors"
+    }
+   ],
+   "n": 1,
+   "start": 17.3,
+   "end": 19.28,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Show it, or you lose!",
+   "words": [
+    {
+     "t": "Show",
+     "start": 19.44,
+     "end": 19.79
+    },
+    {
+     "t": "it,",
+     "start": 19.82,
+     "end": 20.18
+    },
+    {
+     "t": "or",
+     "start": 20.21,
+     "end": 20.56
+    },
+    {
+     "t": "you",
+     "start": 20.62,
+     "end": 21.04
+    },
+    {
+     "t": "lose!",
+     "start": 21.04,
+     "end": 21.56
+    }
+   ],
+   "n": 2,
+   "start": 19.44,
+   "end": 21.56,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 26.08,
+     "end": 26.5,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 27.02,
+     "end": 27.1,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 27.42,
+     "end": 27.96,
+     "pic": "scissors"
+    }
+   ],
+   "n": 3,
+   "start": 26.08,
+   "end": 27.96,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Rock!",
+   "words": [
+    {
+     "t": "Rock!",
+     "start": 31.76,
+     "end": 31.96,
+     "pic": "rock"
+    }
+   ],
+   "n": 4,
+   "start": 28.06,
+   "end": 28.66,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Paper! Paper wins!",
+   "words": [
+    {
+     "t": "Paper!",
+     "start": 32.18,
+     "end": 33.4,
+     "pic": "paper"
+    },
+    {
+     "t": "Paper",
+     "start": 33.88,
+     "end": 34.48,
+     "pic": "paper"
+    },
+    {
+     "t": "wins!",
+     "start": 34.48,
+     "end": 35.74
+    }
+   ],
+   "n": 5,
+   "start": 32.18,
+   "end": 35.74,
+   "pic": "paper"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I win!",
+   "words": [
+    {
+     "t": "I",
+     "start": 36.52,
+     "end": 37.02
+    },
+    {
+     "t": "win!",
+     "start": 37.02,
+     "end": 37.56
+    }
+   ],
+   "n": 6,
+   "start": 36.52,
+   "end": 37.56,
+   "pic": "paper"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Good job!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 43.12,
+     "end": 43.42
+    },
+    {
+     "t": "job!",
+     "start": 43.42,
+     "end": 44.18
+    }
+   ],
+   "n": 7,
+   "start": 43.12,
+   "end": 44.18,
+   "pic": "paper"
+  },
+  {
+   "section": "Chorus",
+   "text": "Show it, or you lose!",
+   "words": [
+    {
+     "t": "Show",
+     "start": 45.7,
+     "end": 46.04
+    },
+    {
+     "t": "it,",
+     "start": 46.06,
+     "end": 46.44
+    },
+    {
+     "t": "or",
+     "start": 46.7,
+     "end": 46.8
+    },
+    {
+     "t": "you",
+     "start": 46.86,
+     "end": 47.18
+    },
+    {
+     "t": "lose!",
+     "start": 47.18,
+     "end": 47.82
+    }
+   ],
+   "n": 8,
+   "start": 45.7,
+   "end": 47.82,
+   "pic": "paper"
+  },
+  {
+   "section": "Chorus",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 48.02,
+     "end": 48.26,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 48.6,
+     "end": 48.9,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 49.16,
+     "end": 49.74,
+     "pic": "scissors"
+    }
+   ],
+   "n": 9,
+   "start": 48.02,
+   "end": 49.74,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "Show it, or you lose!",
+   "words": [
+    {
+     "t": "Show",
+     "start": 52.26,
+     "end": 52.69
+    },
+    {
+     "t": "it,",
+     "start": 52.71,
+     "end": 53.06
+    },
+    {
+     "t": "or",
+     "start": 53.08,
+     "end": 53.36
+    },
+    {
+     "t": "you",
+     "start": 53.38,
+     "end": 53.74
+    },
+    {
+     "t": "lose!",
+     "start": 53.76,
+     "end": 54.28
+    }
+   ],
+   "n": 10,
+   "start": 52.26,
+   "end": 54.28,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 56.72,
+     "end": 57.16,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 57.24,
+     "end": 57.58,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 57.86,
+     "end": 58.38,
+     "pic": "scissors"
+    }
+   ],
+   "n": 11,
+   "start": 56.72,
+   "end": 58.38,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "I win! Good job!",
+   "words": [
+    {
+     "t": "I",
+     "start": 58.96,
+     "end": 59.26
+    },
+    {
+     "t": "win!",
+     "start": 59.26,
+     "end": 60.28
+    },
+    {
+     "t": "Good",
+     "start": 62.0,
+     "end": 62.16
+    },
+    {
+     "t": "job!",
+     "start": 62.16,
+     "end": 62.58
+    }
+   ],
+   "n": 12,
+   "start": 58.96,
+   "end": 62.58,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "You lose! Oh no!",
+   "words": [
+    {
+     "t": "You",
+     "start": 64.94,
+     "end": 65.22
+    },
+    {
+     "t": "lose!",
+     "start": 65.22,
+     "end": 66.52
+    },
+    {
+     "t": "Oh",
+     "start": 67.22,
+     "end": 67.56
+    },
+    {
+     "t": "no!",
+     "start": 67.56,
+     "end": 68.42
+    }
+   ],
+   "n": 13,
+   "start": 64.94,
+   "end": 68.42,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Show it, or you lose!",
+   "words": [
+    {
+     "t": "Show",
+     "start": 69.5,
+     "end": 69.9
+    },
+    {
+     "t": "it,",
+     "start": 69.9,
+     "end": 70.4
+    },
+    {
+     "t": "or",
+     "start": 70.4,
+     "end": 70.82
+    },
+    {
+     "t": "you",
+     "start": 70.82,
+     "end": 71.16
+    },
+    {
+     "t": "lose!",
+     "start": 71.16,
+     "end": 71.78
+    }
+   ],
+   "n": 14,
+   "start": 69.5,
+   "end": 71.78,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 72.0,
+     "end": 72.28,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 72.56,
+     "end": 72.82,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 73.58,
+     "end": 73.72,
+     "pic": "scissors"
+    }
+   ],
+   "n": 15,
+   "start": 72.0,
+   "end": 73.72,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Scissors!",
+   "words": [
+    {
+     "t": "Scissors!",
+     "start": 75.32,
+     "end": 75.88,
+     "pic": "scissors"
+    }
+   ],
+   "n": 16,
+   "start": 75.32,
+   "end": 75.88,
+   "pic": "scissors"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Rock! Rock wins!",
+   "words": [
+    {
+     "t": "Rock!",
+     "start": 78.46,
+     "end": 81.73,
+     "pic": "rock"
+    },
+    {
+     "t": "Rock",
+     "start": 81.75,
+     "end": 84.55,
+     "pic": "rock"
+    },
+    {
+     "t": "wins!",
+     "start": 84.57,
+     "end": 87.86
+    }
+   ],
+   "n": 17,
+   "start": 78.46,
+   "end": 87.86,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I win!",
+   "words": [
+    {
+     "t": "I",
+     "start": 93.28,
+     "end": 93.66
+    },
+    {
+     "t": "win!",
+     "start": 93.66,
+     "end": 94.24
+    }
+   ],
+   "n": 18,
+   "start": 93.28,
+   "end": 94.24,
+   "pic": "rock"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Good job!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 99.86,
+     "end": 100.18
+    },
+    {
+     "t": "job!",
+     "start": 100.22,
+     "end": 101.18
+    }
+   ],
+   "n": 19,
+   "start": 99.86,
+   "end": 101.18,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "Show it, or you lose!",
+   "words": [
+    {
+     "t": "Show",
+     "start": 102.5,
+     "end": 102.78
+    },
+    {
+     "t": "it,",
+     "start": 102.78,
+     "end": 103.18
+    },
+    {
+     "t": "or",
+     "start": 103.18,
+     "end": 103.54
+    },
+    {
+     "t": "you",
+     "start": 103.54,
+     "end": 103.92
+    },
+    {
+     "t": "lose!",
+     "start": 103.92,
+     "end": 104.5
+    }
+   ],
+   "n": 20,
+   "start": 102.5,
+   "end": 104.5,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 104.78,
+     "end": 105.0,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 105.24,
+     "end": 105.56,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 105.9,
+     "end": 106.36,
+     "pic": "scissors"
+    }
+   ],
+   "n": 21,
+   "start": 104.78,
+   "end": 106.36,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "Show it, or you lose!",
+   "words": [
+    {
+     "t": "Show",
+     "start": 109.0,
+     "end": 109.38
+    },
+    {
+     "t": "it,",
+     "start": 109.32,
+     "end": 109.68
+    },
+    {
+     "t": "or",
+     "start": 109.72,
+     "end": 110.12
+    },
+    {
+     "t": "you",
+     "start": 110.08,
+     "end": 110.48
+    },
+    {
+     "t": "lose!",
+     "start": 110.48,
+     "end": 111.04
+    }
+   ],
+   "n": 22,
+   "start": 109.0,
+   "end": 111.04,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 111.0,
+     "end": 111.52,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 111.54,
+     "end": 112.13,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 112.15,
+     "end": 113.0,
+     "pic": "scissors"
+    }
+   ],
+   "n": 23,
+   "start": 111.0,
+   "end": 113.0,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "I win! Good job!",
+   "words": [
+    {
+     "t": "I",
+     "start": 117.3,
+     "end": 117.76
+    },
+    {
+     "t": "win!",
+     "start": 117.74,
+     "end": 118.2
+    },
+    {
+     "t": "Good",
+     "start": 118.62,
+     "end": 118.84
+    },
+    {
+     "t": "job!",
+     "start": 118.84,
+     "end": 119.3
+    }
+   ],
+   "n": 24,
+   "start": 117.3,
+   "end": 119.3,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "You lose! Oh no!",
+   "words": [
+    {
+     "t": "You",
+     "start": 119.46,
+     "end": 119.76
+    },
+    {
+     "t": "lose!",
+     "start": 119.76,
+     "end": 120.36
+    },
+    {
+     "t": "Oh",
+     "start": 120.88,
+     "end": 121.08
+    },
+    {
+     "t": "no!",
+     "start": 121.08,
+     "end": 121.46
+    }
+   ],
+   "n": 25,
+   "start": 119.46,
+   "end": 121.46,
+   "pic": "rock"
+  },
+  {
+   "section": "Bridge",
+   "text": "Rock wins! Paper wins!",
+   "words": [
+    {
+     "t": "Rock",
+     "start": 121.64,
+     "end": 121.98,
+     "pic": "rock"
+    },
+    {
+     "t": "wins!",
+     "start": 122.08,
+     "end": 122.8
+    },
+    {
+     "t": "Paper",
+     "start": 123.92,
+     "end": 124.16,
+     "pic": "paper"
+    },
+    {
+     "t": "wins!",
+     "start": 124.16,
+     "end": 125.0
+    }
+   ],
+   "n": 26,
+   "start": 121.64,
+   "end": 125.0,
+   "pic": "rock"
+  },
+  {
+   "section": "Bridge",
+   "text": "Scissors win!",
+   "words": [
+    {
+     "t": "Scissors",
+     "start": 126.56,
+     "end": 128.2,
+     "pic": "scissors"
+    },
+    {
+     "t": "win!",
+     "start": 128.2,
+     "end": 129.52
+    }
+   ],
+   "n": 27,
+   "start": 126.56,
+   "end": 129.52,
+   "pic": "scissors"
+  },
+  {
+   "section": "Bridge",
+   "text": "One more time!",
+   "words": [
+    {
+     "t": "One",
+     "start": 130.84,
+     "end": 131.58
+    },
+    {
+     "t": "more",
+     "start": 131.8,
+     "end": 132.64
+    },
+    {
+     "t": "time!",
+     "start": 132.82,
+     "end": 133.94
+    }
+   ],
+   "n": 28,
+   "start": 130.84,
+   "end": 133.94,
+   "pic": "scissors"
+  },
+  {
+   "section": "Chorus",
+   "text": "Show it, or you lose!",
+   "words": [
+    {
+     "t": "Show",
+     "start": 135.12,
+     "end": 135.48
+    },
+    {
+     "t": "it,",
+     "start": 135.56,
+     "end": 135.82
+    },
+    {
+     "t": "or",
+     "start": 135.94,
+     "end": 136.8
+    },
+    {
+     "t": "you",
+     "start": 136.44,
+     "end": 136.78
+    },
+    {
+     "t": "lose!",
+     "start": 136.84,
+     "end": 137.34
+    }
+   ],
+   "n": 29,
+   "start": 135.12,
+   "end": 137.34,
+   "pic": "scissors"
+  },
+  {
+   "section": "Chorus",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 137.54,
+     "end": 137.66,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 138.04,
+     "end": 138.24,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 138.62,
+     "end": 139.08,
+     "pic": "scissors"
+    }
+   ],
+   "n": 30,
+   "start": 137.54,
+   "end": 139.08,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "Show it, or you lose!",
+   "words": [
+    {
+     "t": "Show",
+     "start": 139.48,
+     "end": 139.9
+    },
+    {
+     "t": "it,",
+     "start": 139.9,
+     "end": 140.28
+    },
+    {
+     "t": "or",
+     "start": 140.44,
+     "end": 140.7
+    },
+    {
+     "t": "you",
+     "start": 140.86,
+     "end": 141.1
+    },
+    {
+     "t": "lose!",
+     "start": 141.04,
+     "end": 141.56
+    }
+   ],
+   "n": 31,
+   "start": 139.48,
+   "end": 141.56,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "Rock, paper, scissors!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 141.74,
+     "end": 142.14,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 142.36,
+     "end": 142.64,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 142.98,
+     "end": 143.54,
+     "pic": "scissors"
+    }
+   ],
+   "n": 32,
+   "start": 141.74,
+   "end": 143.54,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "I win! Good job!",
+   "words": [
+    {
+     "t": "I",
+     "start": 143.98,
+     "end": 144.4
+    },
+    {
+     "t": "win!",
+     "start": 144.46,
+     "end": 144.84
+    },
+    {
+     "t": "Good",
+     "start": 145.32,
+     "end": 145.54
+    },
+    {
+     "t": "job!",
+     "start": 145.56,
+     "end": 145.96
+    }
+   ],
+   "n": 33,
+   "start": 143.98,
+   "end": 145.96,
+   "pic": "rock"
+  },
+  {
+   "section": "Chorus",
+   "text": "You lose! Oh no!",
+   "words": [
+    {
+     "t": "You",
+     "start": 146.43,
+     "end": 146.62
+    },
+    {
+     "t": "lose!",
+     "start": 146.62,
+     "end": 147.34
+    },
+    {
+     "t": "Oh",
+     "start": 147.58,
+     "end": 147.74
+    },
+    {
+     "t": "no!",
+     "start": 147.74,
+     "end": 148.1
+    }
+   ],
+   "n": 34,
+   "start": 146.43,
+   "end": 148.1,
+   "pic": "rock"
+  },
+  {
+   "section": "Outro",
+   "text": "Rock, paper, scissors! I win!",
+   "words": [
+    {
+     "t": "Rock,",
+     "start": 148.24,
+     "end": 148.66,
+     "pic": "rock"
+    },
+    {
+     "t": "paper,",
+     "start": 148.94,
+     "end": 149.18,
+     "pic": "paper"
+    },
+    {
+     "t": "scissors!",
+     "start": 149.46,
+     "end": 150.12,
+     "pic": "scissors"
+    },
+    {
+     "t": "I",
+     "start": 150.64,
+     "end": 151.42
+    },
+    {
+     "t": "win!",
+     "start": 151.44,
+     "end": 151.98
+    }
+   ],
+   "n": 35,
+   "start": 148.24,
+   "end": 151.98,
+   "pic": "rock"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "rockwins",
+   "prompt": "Rock or scissors? Who wins?",
+   "answer": "Rock wins.",
+   "choices": [
+    "Rock wins.",
+    "Scissors win.",
+    "Paper wins."
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "paper",
+   "prompt": "Listen. Which one?",
+   "answer": "paper",
+   "choices": [
+    "rock",
+    "paper",
+    "scissors"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "scissors",
+   "prompt": "What is this?",
+   "answer": "Scissors!",
+   "choices": [
+    "Rock!",
+    "Paper!",
+    "Scissors!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 17,
+   "prompt": "Listen. Who wins?",
+   "answer": "rock",
+   "choices": [
+    "rock",
+    "paper",
+    "scissors"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "rock",
+   "prompt": "Paper or rock? Who wins?",
+   "answer": "Paper wins.",
+   "choices": [
+    "Paper wins.",
+    "Rock wins.",
+    "Scissors win."
+   ]
+  }
+ ]
+}

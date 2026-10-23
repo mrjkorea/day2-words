@@ -1,0 +1,977 @@
+{
+ "id": "basic_b_u08_b",
+ "title": "I Am Twenty-Two",
+ "book": "Basic B",
+ "unit": 8,
+ "unitTitle": "How old are you?",
+ "packId": "basic_b_u8",
+ "audio": "audio/basic_b_u08_b.mp3",
+ "duration": 151.82,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "How old are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 6.44,
+     "end": 10.74
+    },
+    {
+     "t": "old",
+     "start": 10.74,
+     "end": 12.46
+    },
+    {
+     "t": "are",
+     "start": 12.52,
+     "end": 12.88
+    },
+    {
+     "t": "you?",
+     "start": 12.86,
+     "end": 13.48
+    }
+   ],
+   "n": 1,
+   "start": 6.44,
+   "end": 13.48,
+   "pic": "fourteen"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How old are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 16.0,
+     "end": 16.3
+    },
+    {
+     "t": "old",
+     "start": 16.3,
+     "end": 16.92
+    },
+    {
+     "t": "are",
+     "start": 16.92,
+     "end": 17.24
+    },
+    {
+     "t": "you?",
+     "start": 17.24,
+     "end": 18.79
+    }
+   ],
+   "n": 2,
+   "start": 16.0,
+   "end": 18.79,
+   "pic": "fourteen"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am twenty-two!",
+   "words": [
+    {
+     "t": "I",
+     "start": 20.3,
+     "end": 20.56
+    },
+    {
+     "t": "am",
+     "start": 20.56,
+     "end": 20.86
+    },
+    {
+     "t": "twenty-two!",
+     "start": 20.84,
+     "end": 21.92,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 3,
+   "start": 20.3,
+   "end": 21.92,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Twenty-two years old? Wow!",
+   "words": [
+    {
+     "t": "Twenty-two",
+     "start": 21.89,
+     "end": 23.5,
+     "pic": "twentytwo"
+    },
+    {
+     "t": "years",
+     "start": 23.52,
+     "end": 24.45
+    },
+    {
+     "t": "old?",
+     "start": 24.47,
+     "end": 25.27
+    },
+    {
+     "t": "Wow!",
+     "start": 25.29,
+     "end": 26.1
+    }
+   ],
+   "n": 4,
+   "start": 21.89,
+   "end": 26.1,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How old are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 29.02,
+     "end": 29.38
+    },
+    {
+     "t": "old",
+     "start": 29.5,
+     "end": 30.0
+    },
+    {
+     "t": "are",
+     "start": 30.0,
+     "end": 30.36
+    },
+    {
+     "t": "you?",
+     "start": 30.36,
+     "end": 30.86
+    }
+   ],
+   "n": 5,
+   "start": 29.02,
+   "end": 30.86,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am twenty-five!",
+   "words": [
+    {
+     "t": "I",
+     "start": 33.42,
+     "end": 33.68
+    },
+    {
+     "t": "am",
+     "start": 33.68,
+     "end": 33.86
+    },
+    {
+     "t": "twenty-five!",
+     "start": 33.86,
+     "end": 34.98,
+     "pic": "twentyfive"
+    }
+   ],
+   "n": 6,
+   "start": 33.42,
+   "end": 34.98,
+   "pic": "twentyfive"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Twenty-five years old? Cool!",
+   "words": [
+    {
+     "t": "Twenty-five",
+     "start": 37.73,
+     "end": 38.18,
+     "pic": "twentyfive"
+    },
+    {
+     "t": "years",
+     "start": 38.24,
+     "end": 38.42
+    },
+    {
+     "t": "old?",
+     "start": 38.42,
+     "end": 38.68
+    },
+    {
+     "t": "Cool!",
+     "start": 38.9,
+     "end": 39.08
+    }
+   ],
+   "n": 7,
+   "start": 37.73,
+   "end": 39.08,
+   "pic": "twentyfive"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old are you? I am twenty-two!",
+   "words": [
+    {
+     "t": "How",
+     "start": 39.94,
+     "end": 40.42
+    },
+    {
+     "t": "old",
+     "start": 40.38,
+     "end": 41.02
+    },
+    {
+     "t": "are",
+     "start": 41.02,
+     "end": 41.3
+    },
+    {
+     "t": "you?",
+     "start": 41.3,
+     "end": 41.78
+    },
+    {
+     "t": "I",
+     "start": 42.18,
+     "end": 42.42
+    },
+    {
+     "t": "am",
+     "start": 42.4,
+     "end": 42.66
+    },
+    {
+     "t": "twenty-two!",
+     "start": 42.6,
+     "end": 43.54,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 8,
+   "start": 39.94,
+   "end": 43.54,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old are you? I am twenty-two!",
+   "words": [
+    {
+     "t": "How",
+     "start": 46.44,
+     "end": 46.98
+    },
+    {
+     "t": "old",
+     "start": 46.84,
+     "end": 47.56
+    },
+    {
+     "t": "are",
+     "start": 47.6,
+     "end": 47.82
+    },
+    {
+     "t": "you?",
+     "start": 47.84,
+     "end": 48.5
+    },
+    {
+     "t": "I",
+     "start": 48.72,
+     "end": 49.0
+    },
+    {
+     "t": "am",
+     "start": 48.98,
+     "end": 49.2
+    },
+    {
+     "t": "twenty-two!",
+     "start": 49.2,
+     "end": 50.11,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 9,
+   "start": 46.44,
+   "end": 50.11,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "Years old, years old,",
+   "words": [
+    {
+     "t": "Years",
+     "start": 50.85,
+     "end": 51.12
+    },
+    {
+     "t": "old,",
+     "start": 51.12,
+     "end": 51.22
+    },
+    {
+     "t": "years",
+     "start": 51.96,
+     "end": 52.18
+    },
+    {
+     "t": "old,",
+     "start": 52.18,
+     "end": 52.72
+    }
+   ],
+   "n": 10,
+   "start": 50.85,
+   "end": 52.72,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am twenty-two!",
+   "words": [
+    {
+     "t": "I",
+     "start": 53.06,
+     "end": 53.32
+    },
+    {
+     "t": "am",
+     "start": 53.32,
+     "end": 53.48
+    },
+    {
+     "t": "twenty-two!",
+     "start": 53.48,
+     "end": 54.14,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 11,
+   "start": 53.06,
+   "end": 54.14,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How old are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 62.23,
+     "end": 63.16
+    },
+    {
+     "t": "old",
+     "start": 63.6,
+     "end": 64.9
+    },
+    {
+     "t": "are",
+     "start": 64.88,
+     "end": 65.18
+    },
+    {
+     "t": "you?",
+     "start": 65.18,
+     "end": 65.74
+    }
+   ],
+   "n": 12,
+   "start": 62.23,
+   "end": 65.74,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am thirty-three!",
+   "words": [
+    {
+     "t": "I",
+     "start": 68.58,
+     "end": 68.72
+    },
+    {
+     "t": "am",
+     "start": 68.74,
+     "end": 68.94
+    },
+    {
+     "t": "thirty-three!",
+     "start": 68.96,
+     "end": 69.77,
+     "pic": "thirtythree"
+    }
+   ],
+   "n": 13,
+   "start": 68.58,
+   "end": 69.77,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Thirty-three years old? Cool!",
+   "words": [
+    {
+     "t": "Thirty-three",
+     "start": 73.3,
+     "end": 75.4,
+     "pic": "thirtythree"
+    },
+    {
+     "t": "years",
+     "start": 75.4,
+     "end": 76.24
+    },
+    {
+     "t": "old?",
+     "start": 76.24,
+     "end": 76.9
+    },
+    {
+     "t": "Cool!",
+     "start": 76.95,
+     "end": 77.37
+    }
+   ],
+   "n": 14,
+   "start": 73.3,
+   "end": 77.37,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How old are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 77.64,
+     "end": 78.0
+    },
+    {
+     "t": "old",
+     "start": 77.86,
+     "end": 79.46
+    },
+    {
+     "t": "are",
+     "start": 79.46,
+     "end": 79.7
+    },
+    {
+     "t": "you?",
+     "start": 79.7,
+     "end": 80.06
+    }
+   ],
+   "n": 15,
+   "start": 77.64,
+   "end": 80.06,
+   "pic": "thirtythree"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am sixty-six!",
+   "words": [
+    {
+     "t": "I",
+     "start": 81.0,
+     "end": 81.64
+    },
+    {
+     "t": "am",
+     "start": 81.64,
+     "end": 81.94
+    },
+    {
+     "t": "sixty-six!",
+     "start": 81.94,
+     "end": 83.24,
+     "pic": "sixtysix"
+    }
+   ],
+   "n": 16,
+   "start": 81.0,
+   "end": 83.24,
+   "pic": "sixtysix"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sixty-six years old? Wow!",
+   "words": [
+    {
+     "t": "Sixty-six",
+     "start": 84.12,
+     "end": 86.1,
+     "pic": "sixtysix"
+    },
+    {
+     "t": "years",
+     "start": 86.16,
+     "end": 87.0
+    },
+    {
+     "t": "old?",
+     "start": 87.0,
+     "end": 88.42
+    },
+    {
+     "t": "Wow!",
+     "start": 89.26,
+     "end": 89.6
+    }
+   ],
+   "n": 17,
+   "start": 84.12,
+   "end": 89.6,
+   "pic": "sixtysix"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old are you? I am twenty-two!",
+   "words": [
+    {
+     "t": "How",
+     "start": 92.26,
+     "end": 92.65
+    },
+    {
+     "t": "old",
+     "start": 92.67,
+     "end": 93.05
+    },
+    {
+     "t": "are",
+     "start": 93.07,
+     "end": 93.46
+    },
+    {
+     "t": "you?",
+     "start": 93.48,
+     "end": 93.95
+    },
+    {
+     "t": "I",
+     "start": 93.97,
+     "end": 94.2
+    },
+    {
+     "t": "am",
+     "start": 94.22,
+     "end": 94.52
+    },
+    {
+     "t": "twenty-two!",
+     "start": 94.54,
+     "end": 95.6,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 18,
+   "start": 92.26,
+   "end": 95.6,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old are you? I am twenty-two!",
+   "words": [
+    {
+     "t": "How",
+     "start": 98.84,
+     "end": 99.2
+    },
+    {
+     "t": "old",
+     "start": 99.2,
+     "end": 99.96
+    },
+    {
+     "t": "are",
+     "start": 99.94,
+     "end": 100.26
+    },
+    {
+     "t": "you?",
+     "start": 100.22,
+     "end": 100.7
+    },
+    {
+     "t": "I",
+     "start": 101.06,
+     "end": 101.38
+    },
+    {
+     "t": "am",
+     "start": 101.34,
+     "end": 101.52
+    },
+    {
+     "t": "twenty-two!",
+     "start": 101.56,
+     "end": 101.79,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 19,
+   "start": 98.84,
+   "end": 101.79,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "Years old, years old,",
+   "words": [
+    {
+     "t": "Years",
+     "start": 103.2,
+     "end": 103.5
+    },
+    {
+     "t": "old,",
+     "start": 103.48,
+     "end": 103.58
+    },
+    {
+     "t": "years",
+     "start": 104.38,
+     "end": 104.56
+    },
+    {
+     "t": "old,",
+     "start": 104.56,
+     "end": 105.08
+    }
+   ],
+   "n": 20,
+   "start": 103.2,
+   "end": 105.08,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am twenty-two!",
+   "words": [
+    {
+     "t": "I",
+     "start": 105.41,
+     "end": 105.66
+    },
+    {
+     "t": "am",
+     "start": 105.66,
+     "end": 105.94
+    },
+    {
+     "t": "twenty-two!",
+     "start": 105.94,
+     "end": 106.5,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 21,
+   "start": 105.41,
+   "end": 106.5,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Bridge",
+   "text": "How old are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 118.5,
+     "end": 118.88
+    },
+    {
+     "t": "old",
+     "start": 118.82,
+     "end": 119.34
+    },
+    {
+     "t": "are",
+     "start": 119.42,
+     "end": 119.8
+    },
+    {
+     "t": "you?",
+     "start": 119.8,
+     "end": 120.18
+    }
+   ],
+   "n": 22,
+   "start": 118.5,
+   "end": 120.18,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Bridge",
+   "text": "It is a secret!",
+   "words": [
+    {
+     "t": "It",
+     "start": 125.09,
+     "end": 125.28
+    },
+    {
+     "t": "is",
+     "start": 125.28,
+     "end": 125.88
+    },
+    {
+     "t": "a",
+     "start": 125.86,
+     "end": 126.18
+    },
+    {
+     "t": "secret!",
+     "start": 126.18,
+     "end": 126.54
+    }
+   ],
+   "n": 23,
+   "start": 125.09,
+   "end": 126.54,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old are you? I am twenty-two!",
+   "words": [
+    {
+     "t": "How",
+     "start": 127.3,
+     "end": 127.66
+    },
+    {
+     "t": "old",
+     "start": 127.62,
+     "end": 128.32
+    },
+    {
+     "t": "are",
+     "start": 128.28,
+     "end": 128.58
+    },
+    {
+     "t": "you?",
+     "start": 128.58,
+     "end": 129.02
+    },
+    {
+     "t": "I",
+     "start": 129.66,
+     "end": 129.74
+    },
+    {
+     "t": "am",
+     "start": 129.74,
+     "end": 129.92
+    },
+    {
+     "t": "twenty-two!",
+     "start": 129.92,
+     "end": 130.32,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 24,
+   "start": 127.3,
+   "end": 130.32,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old are you? I am twenty-two!",
+   "words": [
+    {
+     "t": "How",
+     "start": 133.72,
+     "end": 134.12
+    },
+    {
+     "t": "old",
+     "start": 134.16,
+     "end": 134.88
+    },
+    {
+     "t": "are",
+     "start": 134.88,
+     "end": 135.14
+    },
+    {
+     "t": "you?",
+     "start": 135.14,
+     "end": 135.68
+    },
+    {
+     "t": "I",
+     "start": 135.98,
+     "end": 136.3
+    },
+    {
+     "t": "am",
+     "start": 136.28,
+     "end": 136.48
+    },
+    {
+     "t": "twenty-two!",
+     "start": 136.48,
+     "end": 136.77,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 25,
+   "start": 133.72,
+   "end": 136.77,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "Years old, years old,",
+   "words": [
+    {
+     "t": "Years",
+     "start": 138.1,
+     "end": 138.4
+    },
+    {
+     "t": "old,",
+     "start": 138.36,
+     "end": 138.84
+    },
+    {
+     "t": "years",
+     "start": 139.18,
+     "end": 139.42
+    },
+    {
+     "t": "old,",
+     "start": 139.42,
+     "end": 139.98
+    }
+   ],
+   "n": 26,
+   "start": 138.1,
+   "end": 139.98,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Chorus",
+   "text": "I am twenty-two!",
+   "words": [
+    {
+     "t": "I",
+     "start": 140.36,
+     "end": 140.58
+    },
+    {
+     "t": "am",
+     "start": 140.58,
+     "end": 140.8
+    },
+    {
+     "t": "twenty-two!",
+     "start": 140.8,
+     "end": 141.76,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 27,
+   "start": 140.36,
+   "end": 141.76,
+   "pic": "twentytwo"
+  },
+  {
+   "section": "Outro",
+   "text": "I am twenty-two!",
+   "words": [
+    {
+     "t": "I",
+     "start": 143.96,
+     "end": 144.1
+    },
+    {
+     "t": "am",
+     "start": 144.1,
+     "end": 147.3
+    },
+    {
+     "t": "twenty-two!",
+     "start": 147.4,
+     "end": 148.06,
+     "pic": "twentytwo"
+    }
+   ],
+   "n": 28,
+   "start": 143.96,
+   "end": 148.06,
+   "pic": "twentytwo"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "twentytwo",
+   "prompt": "How old are you?",
+   "answer": "I am twenty-two.",
+   "choices": [
+    "I am twenty-two.",
+    "I am twelve.",
+    "I am twenty-five."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 6,
+   "prompt": "Listen. How old?",
+   "answer": "twentyfive",
+   "choices": [
+    "twentyfive",
+    "twentytwo",
+    "fourteen"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "thirtythree",
+   "prompt": "How old are you?",
+   "answer": "I am thirty-three.",
+   "choices": [
+    "I am thirteen.",
+    "I am thirty-three.",
+    "I am three."
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 16,
+   "prompt": "Listen. How old?",
+   "answer": "sixtysix",
+   "choices": [
+    "sixtysix",
+    "seventeen",
+    "onehundred"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "ten",
+   "prompt": "How old are you?",
+   "answer": "I am ten years old.",
+   "choices": [
+    "I am ten years old.",
+    "I am ten year.",
+    "I ten years old."
+   ]
+  }
+ ]
+}
