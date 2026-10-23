@@ -143,6 +143,78 @@
    "unitTitle": "How old are you?",
    "blurb": "How old are you? I am twenty-two!",
    "packId": "basic_b_u8"
+  },
+  {
+   "id": "basic_c_u01_b",
+   "title": "Who Do You Love?",
+   "book": "Basic C",
+   "unit": 1,
+   "unitTitle": "I Love My Dog Zoey",
+   "blurb": "Who do you love? I love my pet!",
+   "packId": "basic_c_u1"
+  },
+  {
+   "id": "basic_c_u02_a",
+   "title": "Look at My New Hat",
+   "book": "Basic C",
+   "unit": 2,
+   "unitTitle": "Look at My New Hat",
+   "blurb": "Look at my new hat! Wow! Nice hat!",
+   "packId": "basic_c_u2"
+  },
+  {
+   "id": "basic_c_u03_a",
+   "title": "See You Monday!",
+   "book": "Basic C",
+   "unit": 3,
+   "unitTitle": "Classroom English Three",
+   "blurb": "See you Monday! May I start?",
+   "packId": "basic_c_u3"
+  },
+  {
+   "id": "basic_c_u04_a",
+   "title": "What Can We See Near Seoul?",
+   "book": "Basic C",
+   "unit": 4,
+   "unitTitle": "What Can We See near Tongyeong?",
+   "blurb": "You can see a turtle ship!",
+   "packId": "basic_c_u4"
+  },
+  {
+   "id": "basic_c_u05_a",
+   "title": "Spell Pig!",
+   "book": "Basic C",
+   "unit": 5,
+   "unitTitle": "Spelling Bee",
+   "blurb": "Spell pig! P-I-G!",
+   "packId": "basic_c_u5"
+  },
+  {
+   "id": "basic_c_u06_b",
+   "title": "Sorry, It Is Itchy!",
+   "book": "Basic C",
+   "unit": 6,
+   "unitTitle": "Don't Touch Your Arm",
+   "blurb": "Don't touch your arm! Sorry, it is itchy!",
+   "packId": "basic_c_u6"
+  },
+  {
+   "id": "basic_c_u07_b",
+   "title": "Come Play With Us",
+   "book": "Basic C",
+   "unit": 7,
+   "unitTitle": "Come Play With Us",
+   "blurb": "Where is the slide? It is here!",
+   "packId": "basic_c_u7"
+  },
+  {
+   "id": "basic_c_u08_a",
+   "title": "What Do You Want?",
+   "book": "Basic C",
+   "unit": 8,
+   "unitTitle": "I Want a New Computer",
+   "blurb": "What do you want? I want a new computer!",
+   "packId": "basic_c_u8"
   }
  ]
 }

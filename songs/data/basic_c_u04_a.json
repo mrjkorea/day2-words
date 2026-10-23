@@ -1,0 +1,1200 @@
+{
+ "id": "basic_c_u04_a",
+ "title": "What Can We See Near Seoul?",
+ "book": "Basic C",
+ "unit": 4,
+ "unitTitle": "What Can We See near Tongyeong?",
+ "packId": "basic_c_u4",
+ "audio": "audio/basic_c_u04_a.mp3",
+ "duration": 160.85,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Let's travel in Korea!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 16.48,
+     "end": 16.74
+    },
+    {
+     "t": "travel",
+     "start": 16.72,
+     "end": 17.02
+    },
+    {
+     "t": "in",
+     "start": 17.02,
+     "end": 17.48
+    },
+    {
+     "t": "Korea!",
+     "start": 17.48,
+     "end": 18.04
+    }
+   ],
+   "n": 1,
+   "start": 16.48,
+   "end": 18.04,
+   "pic": "andong"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What can we see near Seoul?",
+   "words": [
+    {
+     "t": "What",
+     "start": 18.48,
+     "end": 18.72
+    },
+    {
+     "t": "can",
+     "start": 18.74,
+     "end": 18.95
+    },
+    {
+     "t": "we",
+     "start": 18.97,
+     "end": 19.12
+    },
+    {
+     "t": "see",
+     "start": 19.14,
+     "end": 19.34
+    },
+    {
+     "t": "near",
+     "start": 19.36,
+     "end": 19.61
+    },
+    {
+     "t": "Seoul?",
+     "start": 19.63,
+     "end": 19.98,
+     "pic": "seoul"
+    }
+   ],
+   "n": 2,
+   "start": 18.48,
+   "end": 19.98,
+   "pic": "seoul"
+  },
+  {
+   "section": "Verse 1",
+   "text": "You can see a palace!",
+   "words": [
+    {
+     "t": "You",
+     "start": 20.7,
+     "end": 20.82
+    },
+    {
+     "t": "can",
+     "start": 20.8,
+     "end": 21.02
+    },
+    {
+     "t": "see",
+     "start": 21.02,
+     "end": 21.28
+    },
+    {
+     "t": "a",
+     "start": 21.28,
+     "end": 21.62
+    },
+    {
+     "t": "palace!",
+     "start": 21.66,
+     "end": 22.04
+    }
+   ],
+   "n": 3,
+   "start": 20.7,
+   "end": 22.04,
+   "pic": "seoul"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What can we see near Busan?",
+   "words": [
+    {
+     "t": "What",
+     "start": 24.34,
+     "end": 24.54
+    },
+    {
+     "t": "can",
+     "start": 24.5,
+     "end": 24.78
+    },
+    {
+     "t": "we",
+     "start": 24.78,
+     "end": 24.96
+    },
+    {
+     "t": "see",
+     "start": 24.96,
+     "end": 25.24
+    },
+    {
+     "t": "near",
+     "start": 25.24,
+     "end": 25.56
+    },
+    {
+     "t": "Busan?",
+     "start": 25.56,
+     "end": 26.06,
+     "pic": "busan"
+    }
+   ],
+   "n": 4,
+   "start": 24.34,
+   "end": 26.06,
+   "pic": "busan"
+  },
+  {
+   "section": "Verse 1",
+   "text": "You can see a fish market!",
+   "words": [
+    {
+     "t": "You",
+     "start": 26.56,
+     "end": 26.72
+    },
+    {
+     "t": "can",
+     "start": 26.72,
+     "end": 26.94
+    },
+    {
+     "t": "see",
+     "start": 26.88,
+     "end": 27.1
+    },
+    {
+     "t": "a",
+     "start": 27.1,
+     "end": 27.3
+    },
+    {
+     "t": "fish",
+     "start": 27.3,
+     "end": 27.48
+    },
+    {
+     "t": "market!",
+     "start": 27.48,
+     "end": 27.88
+    }
+   ],
+   "n": 5,
+   "start": 26.16,
+   "end": 29.76,
+   "pic": "busan"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What can we see near Jeju?",
+   "words": [
+    {
+     "t": "What",
+     "start": 28.4,
+     "end": 28.65
+    },
+    {
+     "t": "can",
+     "start": 28.67,
+     "end": 28.88
+    },
+    {
+     "t": "we",
+     "start": 28.9,
+     "end": 29.06
+    },
+    {
+     "t": "see",
+     "start": 29.08,
+     "end": 29.29
+    },
+    {
+     "t": "near",
+     "start": 29.31,
+     "end": 29.56
+    },
+    {
+     "t": "Jeju?",
+     "start": 29.58,
+     "end": 29.9,
+     "pic": "jeju"
+    }
+   ],
+   "n": 6,
+   "start": 28.4,
+   "end": 29.9,
+   "pic": "jeju"
+  },
+  {
+   "section": "Verse 1",
+   "text": "You can see a volcano!",
+   "words": [
+    {
+     "t": "You",
+     "start": 30.04,
+     "end": 30.16
+    },
+    {
+     "t": "can",
+     "start": 30.14,
+     "end": 30.38
+    },
+    {
+     "t": "see",
+     "start": 30.4,
+     "end": 30.7
+    },
+    {
+     "t": "a",
+     "start": 30.7,
+     "end": 30.9
+    },
+    {
+     "t": "volcano!",
+     "start": 30.87,
+     "end": 32.16
+    }
+   ],
+   "n": 7,
+   "start": 30.04,
+   "end": 32.16,
+   "pic": "jeju"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can we see? What can we see?",
+   "words": [
+    {
+     "t": "What",
+     "start": 32.3,
+     "end": 32.38
+    },
+    {
+     "t": "can",
+     "start": 32.4,
+     "end": 32.7
+    },
+    {
+     "t": "we",
+     "start": 32.7,
+     "end": 32.92
+    },
+    {
+     "t": "see?",
+     "start": 32.92,
+     "end": 33.3
+    },
+    {
+     "t": "What",
+     "start": 34.22,
+     "end": 34.34
+    },
+    {
+     "t": "can",
+     "start": 34.36,
+     "end": 34.66
+    },
+    {
+     "t": "we",
+     "start": 34.66,
+     "end": 34.88
+    },
+    {
+     "t": "see?",
+     "start": 34.88,
+     "end": 35.32
+    }
+   ],
+   "n": 8,
+   "start": 32.3,
+   "end": 35.32,
+   "pic": "jeju"
+  },
+  {
+   "section": "Chorus",
+   "text": "You can see, you can see!",
+   "words": [
+    {
+     "t": "You",
+     "start": 36.4,
+     "end": 36.56
+    },
+    {
+     "t": "can",
+     "start": 36.56,
+     "end": 36.8
+    },
+    {
+     "t": "see,",
+     "start": 36.8,
+     "end": 37.34
+    },
+    {
+     "t": "you",
+     "start": 37.92,
+     "end": 38.18
+    },
+    {
+     "t": "can",
+     "start": 38.18,
+     "end": 38.66
+    },
+    {
+     "t": "see!",
+     "start": 38.66,
+     "end": 39.24
+    }
+   ],
+   "n": 9,
+   "start": 36.4,
+   "end": 39.24,
+   "pic": "jeju"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can we see near Tongyeong?",
+   "words": [
+    {
+     "t": "What",
+     "start": 40.08,
+     "end": 40.28
+    },
+    {
+     "t": "can",
+     "start": 40.24,
+     "end": 40.56
+    },
+    {
+     "t": "we",
+     "start": 40.56,
+     "end": 40.72
+    },
+    {
+     "t": "see",
+     "start": 40.72,
+     "end": 41.24
+    },
+    {
+     "t": "near",
+     "start": 42.0,
+     "end": 42.28
+    },
+    {
+     "t": "Tongyeong?",
+     "start": 42.33,
+     "end": 42.75,
+     "pic": "tongyeong"
+    }
+   ],
+   "n": 10,
+   "start": 40.08,
+   "end": 42.75,
+   "pic": "whatcanweseeneartongyeong"
+  },
+  {
+   "section": "Chorus",
+   "text": "You can see a turtle ship!",
+   "words": [
+    {
+     "t": "You",
+     "start": 43.9,
+     "end": 44.04
+    },
+    {
+     "t": "can",
+     "start": 44.02,
+     "end": 44.32
+    },
+    {
+     "t": "see",
+     "start": 44.3,
+     "end": 44.88
+    },
+    {
+     "t": "a",
+     "start": 44.88,
+     "end": 45.62
+    },
+    {
+     "t": "turtle",
+     "start": 45.52,
+     "end": 46.34
+    },
+    {
+     "t": "ship!",
+     "start": 46.39,
+     "end": 46.81
+    }
+   ],
+   "n": 11,
+   "start": 43.9,
+   "end": 46.81,
+   "pic": "whatcanweseeneartongyeong"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What can we see near Andong?",
+   "words": [
+    {
+     "t": "What",
+     "start": 63.44,
+     "end": 63.84
+    },
+    {
+     "t": "can",
+     "start": 63.86,
+     "end": 64.18
+    },
+    {
+     "t": "we",
+     "start": 64.14,
+     "end": 64.4
+    },
+    {
+     "t": "see",
+     "start": 64.38,
+     "end": 64.56
+    },
+    {
+     "t": "near",
+     "start": 64.56,
+     "end": 64.86
+    },
+    {
+     "t": "Andong?",
+     "start": 64.86,
+     "end": 65.31,
+     "pic": "andong"
+    }
+   ],
+   "n": 12,
+   "start": 63.44,
+   "end": 65.31,
+   "pic": "andong"
+  },
+  {
+   "section": "Verse 2",
+   "text": "You can see a folk village!",
+   "words": [
+    {
+     "t": "You",
+     "start": 65.88,
+     "end": 66.04
+    },
+    {
+     "t": "can",
+     "start": 66.06,
+     "end": 66.24
+    },
+    {
+     "t": "see",
+     "start": 66.24,
+     "end": 66.44
+    },
+    {
+     "t": "a",
+     "start": 66.44,
+     "end": 66.68
+    },
+    {
+     "t": "folk",
+     "start": 66.65,
+     "end": 66.81
+    },
+    {
+     "t": "village!",
+     "start": 66.8,
+     "end": 67.32
+    }
+   ],
+   "n": 13,
+   "start": 65.41,
+   "end": 69.01,
+   "pic": "andong"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What can we see near Geoje?",
+   "words": [
+    {
+     "t": "What",
+     "start": 67.7,
+     "end": 67.82
+    },
+    {
+     "t": "can",
+     "start": 67.8,
+     "end": 68.06
+    },
+    {
+     "t": "we",
+     "start": 68.06,
+     "end": 68.24
+    },
+    {
+     "t": "see",
+     "start": 68.24,
+     "end": 68.46
+    },
+    {
+     "t": "near",
+     "start": 68.44,
+     "end": 68.8
+    },
+    {
+     "t": "Geoje?",
+     "start": 68.81,
+     "end": 69.36
+    }
+   ],
+   "n": 14,
+   "start": 67.7,
+   "end": 69.36,
+   "pic": "andong"
+  },
+  {
+   "section": "Verse 2",
+   "text": "You can see a POW camp!",
+   "words": [
+    {
+     "t": "You",
+     "start": 71.81,
+     "end": 71.94
+    },
+    {
+     "t": "can",
+     "start": 71.94,
+     "end": 72.16
+    },
+    {
+     "t": "see",
+     "start": 72.16,
+     "end": 72.48
+    },
+    {
+     "t": "a",
+     "start": 72.48,
+     "end": 72.84
+    },
+    {
+     "t": "POW",
+     "start": 72.89,
+     "end": 73.14
+    },
+    {
+     "t": "camp!",
+     "start": 73.17,
+     "end": 73.42
+    }
+   ],
+   "n": 15,
+   "start": 71.81,
+   "end": 73.42,
+   "pic": "andong"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What can we see near Seoul?",
+   "words": [
+    {
+     "t": "What",
+     "start": 73.52,
+     "end": 74.14
+    },
+    {
+     "t": "can",
+     "start": 74.16,
+     "end": 74.66
+    },
+    {
+     "t": "we",
+     "start": 74.68,
+     "end": 75.09
+    },
+    {
+     "t": "see",
+     "start": 75.11,
+     "end": 75.62
+    },
+    {
+     "t": "near",
+     "start": 75.64,
+     "end": 76.25
+    },
+    {
+     "t": "Seoul?",
+     "start": 76.27,
+     "end": 77.12,
+     "pic": "seoul"
+    }
+   ],
+   "n": 16,
+   "start": 73.52,
+   "end": 77.12,
+   "pic": "seoul"
+  },
+  {
+   "section": "Verse 2",
+   "text": "You can see a palace!",
+   "words": [
+    {
+     "t": "You",
+     "start": 77.24,
+     "end": 77.42
+    },
+    {
+     "t": "can",
+     "start": 77.42,
+     "end": 77.64
+    },
+    {
+     "t": "see",
+     "start": 77.64,
+     "end": 77.96
+    },
+    {
+     "t": "a",
+     "start": 77.96,
+     "end": 78.28
+    },
+    {
+     "t": "palace!",
+     "start": 78.28,
+     "end": 78.96
+    }
+   ],
+   "n": 17,
+   "start": 77.24,
+   "end": 78.96,
+   "pic": "seoul"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can we see? What can we see?",
+   "words": [
+    {
+     "t": "What",
+     "start": 78.96,
+     "end": 79.66
+    },
+    {
+     "t": "can",
+     "start": 79.66,
+     "end": 79.92
+    },
+    {
+     "t": "we",
+     "start": 79.92,
+     "end": 80.12
+    },
+    {
+     "t": "see?",
+     "start": 80.12,
+     "end": 80.8
+    },
+    {
+     "t": "What",
+     "start": 81.46,
+     "end": 81.6
+    },
+    {
+     "t": "can",
+     "start": 81.68,
+     "end": 81.86
+    },
+    {
+     "t": "we",
+     "start": 81.86,
+     "end": 82.08
+    },
+    {
+     "t": "see?",
+     "start": 82.08,
+     "end": 82.54
+    }
+   ],
+   "n": 18,
+   "start": 78.96,
+   "end": 82.54,
+   "pic": "seoul"
+  },
+  {
+   "section": "Chorus",
+   "text": "You can see, you can see!",
+   "words": [
+    {
+     "t": "You",
+     "start": 83.14,
+     "end": 83.72
+    },
+    {
+     "t": "can",
+     "start": 83.72,
+     "end": 83.98
+    },
+    {
+     "t": "see,",
+     "start": 83.98,
+     "end": 84.58
+    },
+    {
+     "t": "you",
+     "start": 85.14,
+     "end": 85.46
+    },
+    {
+     "t": "can",
+     "start": 85.4,
+     "end": 85.92
+    },
+    {
+     "t": "see!",
+     "start": 85.92,
+     "end": 86.56
+    }
+   ],
+   "n": 19,
+   "start": 83.14,
+   "end": 86.56,
+   "pic": "seoul"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can we see near Tongyeong?",
+   "words": [
+    {
+     "t": "What",
+     "start": 87.04,
+     "end": 87.44
+    },
+    {
+     "t": "can",
+     "start": 87.44,
+     "end": 87.74
+    },
+    {
+     "t": "we",
+     "start": 87.74,
+     "end": 87.98
+    },
+    {
+     "t": "see",
+     "start": 87.98,
+     "end": 88.3
+    },
+    {
+     "t": "near",
+     "start": 88.29,
+     "end": 89.49
+    },
+    {
+     "t": "Tongyeong?",
+     "start": 89.49,
+     "end": 90.34,
+     "pic": "tongyeong"
+    }
+   ],
+   "n": 20,
+   "start": 87.04,
+   "end": 90.34,
+   "pic": "whatcanweseeneartongyeong"
+  },
+  {
+   "section": "Chorus",
+   "text": "You can see a turtle ship!",
+   "words": [
+    {
+     "t": "You",
+     "start": 91.05,
+     "end": 91.21
+    },
+    {
+     "t": "can",
+     "start": 91.52,
+     "end": 91.84
+    },
+    {
+     "t": "see",
+     "start": 91.84,
+     "end": 92.38
+    },
+    {
+     "t": "a",
+     "start": 92.38,
+     "end": 93.06
+    },
+    {
+     "t": "turtle",
+     "start": 93.06,
+     "end": 94.4
+    },
+    {
+     "t": "ship!",
+     "start": 94.4,
+     "end": 95.75
+    }
+   ],
+   "n": 21,
+   "start": 91.05,
+   "end": 95.75,
+   "pic": "whatcanweseeneartongyeong"
+  },
+  {
+   "section": "Bridge",
+   "text": "A palace! Seoul!",
+   "words": [
+    {
+     "t": "A",
+     "start": 111.64,
+     "end": 111.76
+    },
+    {
+     "t": "palace!",
+     "start": 111.76,
+     "end": 112.46
+    },
+    {
+     "t": "Seoul!",
+     "start": 112.51,
+     "end": 112.93,
+     "pic": "seoul"
+    }
+   ],
+   "n": 22,
+   "start": 111.64,
+   "end": 112.93,
+   "pic": "seoul"
+  },
+  {
+   "section": "Bridge",
+   "text": "A volcano! Jeju!",
+   "words": [
+    {
+     "t": "A",
+     "start": 116.82,
+     "end": 117.32
+    },
+    {
+     "t": "volcano!",
+     "start": 117.32,
+     "end": 118.38
+    },
+    {
+     "t": "Jeju!",
+     "start": 118.43,
+     "end": 118.85,
+     "pic": "jeju"
+    }
+   ],
+   "n": 23,
+   "start": 116.82,
+   "end": 118.85,
+   "pic": "jeju"
+  },
+  {
+   "section": "Bridge",
+   "text": "A turtle ship! Tongyeong!",
+   "words": [
+    {
+     "t": "A",
+     "start": 121.34,
+     "end": 121.72
+    },
+    {
+     "t": "turtle",
+     "start": 121.74,
+     "end": 122.3
+    },
+    {
+     "t": "ship!",
+     "start": 122.3,
+     "end": 123.24
+    },
+    {
+     "t": "Tongyeong!",
+     "start": 123.29,
+     "end": 123.71,
+     "pic": "tongyeong"
+    }
+   ],
+   "n": 24,
+   "start": 121.34,
+   "end": 123.71,
+   "pic": "tongyeong"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can we see? What can we see?",
+   "words": [
+    {
+     "t": "What",
+     "start": 126.14,
+     "end": 127.02
+    },
+    {
+     "t": "can",
+     "start": 127.02,
+     "end": 127.38
+    },
+    {
+     "t": "we",
+     "start": 127.38,
+     "end": 127.6
+    },
+    {
+     "t": "see?",
+     "start": 127.6,
+     "end": 127.9
+    },
+    {
+     "t": "What",
+     "start": 127.95,
+     "end": 128.08
+    },
+    {
+     "t": "can",
+     "start": 128.14,
+     "end": 128.38
+    },
+    {
+     "t": "we",
+     "start": 128.38,
+     "end": 128.56
+    },
+    {
+     "t": "see?",
+     "start": 128.56,
+     "end": 128.86
+    }
+   ],
+   "n": 25,
+   "start": 126.14,
+   "end": 128.86,
+   "pic": "tongyeong"
+  },
+  {
+   "section": "Chorus",
+   "text": "You can see, you can see!",
+   "words": [
+    {
+     "t": "You",
+     "start": 130.66,
+     "end": 131.08
+    },
+    {
+     "t": "can",
+     "start": 131.14,
+     "end": 131.56
+    },
+    {
+     "t": "see,",
+     "start": 131.56,
+     "end": 131.96
+    },
+    {
+     "t": "you",
+     "start": 132.52,
+     "end": 132.9
+    },
+    {
+     "t": "can",
+     "start": 132.9,
+     "end": 133.4
+    },
+    {
+     "t": "see!",
+     "start": 133.4,
+     "end": 133.8
+    }
+   ],
+   "n": 26,
+   "start": 130.66,
+   "end": 133.8,
+   "pic": "tongyeong"
+  },
+  {
+   "section": "Chorus",
+   "text": "What can we see near Tongyeong?",
+   "words": [
+    {
+     "t": "What",
+     "start": 133.8,
+     "end": 134.26
+    },
+    {
+     "t": "can",
+     "start": 134.26,
+     "end": 135.16
+    },
+    {
+     "t": "we",
+     "start": 135.16,
+     "end": 135.36
+    },
+    {
+     "t": "see",
+     "start": 135.36,
+     "end": 135.64
+    },
+    {
+     "t": "near",
+     "start": 135.69,
+     "end": 136.09
+    },
+    {
+     "t": "Tongyeong?",
+     "start": 136.12,
+     "end": 136.52,
+     "pic": "tongyeong"
+    }
+   ],
+   "n": 27,
+   "start": 133.8,
+   "end": 136.52,
+   "pic": "whatcanweseeneartongyeong"
+  },
+  {
+   "section": "Chorus",
+   "text": "You can see a turtle ship!",
+   "words": [
+    {
+     "t": "You",
+     "start": 136.72,
+     "end": 136.92
+    },
+    {
+     "t": "can",
+     "start": 136.92,
+     "end": 137.16
+    },
+    {
+     "t": "see",
+     "start": 139.26,
+     "end": 139.72
+    },
+    {
+     "t": "a",
+     "start": 139.72,
+     "end": 140.3
+    },
+    {
+     "t": "turtle",
+     "start": 140.24,
+     "end": 141.46
+    },
+    {
+     "t": "ship!",
+     "start": 141.26,
+     "end": 142.44
+    }
+   ],
+   "n": 28,
+   "start": 136.72,
+   "end": 142.44,
+   "pic": "whatcanweseeneartongyeong"
+  },
+  {
+   "section": "Outro",
+   "text": "What can we see? Korea!",
+   "words": [
+    {
+     "t": "What",
+     "start": 142.46,
+     "end": 143.26
+    },
+    {
+     "t": "can",
+     "start": 143.26,
+     "end": 143.58
+    },
+    {
+     "t": "we",
+     "start": 147.0,
+     "end": 147.24
+    },
+    {
+     "t": "see?",
+     "start": 147.24,
+     "end": 147.62
+    },
+    {
+     "t": "Korea!",
+     "start": 147.67,
+     "end": 148.09
+    }
+   ],
+   "n": 29,
+   "start": 142.46,
+   "end": 148.09,
+   "pic": "whatcanweseeneartongyeong"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "seoul",
+   "prompt": "What can we see near Seoul?",
+   "answer": "You can see a palace!",
+   "choices": [
+    "You can see a palace!",
+    "You can see a volcano!",
+    "You can see a fish market!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 6,
+   "prompt": "Listen. Where?",
+   "answer": "jeju",
+   "choices": [
+    "jeju",
+    "busan",
+    "andong"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "tongyeong",
+   "prompt": "What can we see near Tongyeong?",
+   "answer": "You can see a turtle ship!",
+   "choices": [
+    "You can see a palace!",
+    "You can see a turtle ship!",
+    "You can see a folk village!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. Where?",
+   "answer": "busan",
+   "choices": [
+    "seoul",
+    "busan",
+    "jeju"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "andong",
+   "prompt": "Where is the folk village?",
+   "answer": "What can we see near Andong?",
+   "choices": [
+    "What can we see near Andong?",
+    "What can we see near Jeju?",
+    "What can we see near Seoul?"
+   ]
+  }
+ ]
+}

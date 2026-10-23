@@ -1,0 +1,1130 @@
+{
+ "id": "basic_c_u08_a",
+ "title": "What Do You Want?",
+ "book": "Basic C",
+ "unit": 8,
+ "unitTitle": "I Want a New Computer",
+ "packId": "basic_c_u8",
+ "audio": "audio/basic_c_u08_a.mp3",
+ "duration": 146.42,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 15.08,
+     "end": 15.28
+    },
+    {
+     "t": "do",
+     "start": 15.39,
+     "end": 15.56
+    },
+    {
+     "t": "you",
+     "start": 15.6,
+     "end": 15.88
+    },
+    {
+     "t": "want?",
+     "start": 15.88,
+     "end": 16.34
+    }
+   ],
+   "n": 1,
+   "start": 15.08,
+   "end": 16.34,
+   "pic": "bike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 17.18,
+     "end": 17.3
+    },
+    {
+     "t": "do",
+     "start": 17.3,
+     "end": 17.6
+    },
+    {
+     "t": "you",
+     "start": 17.6,
+     "end": 17.88
+    },
+    {
+     "t": "want?",
+     "start": 17.88,
+     "end": 18.42
+    }
+   ],
+   "n": 2,
+   "start": 17.18,
+   "end": 18.42,
+   "pic": "bike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I want a new phone!",
+   "words": [
+    {
+     "t": "I",
+     "start": 19.12,
+     "end": 19.48
+    },
+    {
+     "t": "want",
+     "start": 19.48,
+     "end": 19.88
+    },
+    {
+     "t": "a",
+     "start": 19.88,
+     "end": 20.14
+    },
+    {
+     "t": "new",
+     "start": 20.14,
+     "end": 20.44
+    },
+    {
+     "t": "phone!",
+     "start": 20.44,
+     "end": 21.14,
+     "pic": "phone"
+    }
+   ],
+   "n": 3,
+   "start": 19.12,
+   "end": 21.14,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 23.06,
+     "end": 23.3
+    },
+    {
+     "t": "do",
+     "start": 23.38,
+     "end": 23.6
+    },
+    {
+     "t": "you",
+     "start": 23.6,
+     "end": 23.88
+    },
+    {
+     "t": "want?",
+     "start": 23.88,
+     "end": 24.38
+    }
+   ],
+   "n": 4,
+   "start": 23.06,
+   "end": 24.38,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I want a new bike!",
+   "words": [
+    {
+     "t": "I",
+     "start": 25.02,
+     "end": 25.16
+    },
+    {
+     "t": "want",
+     "start": 25.16,
+     "end": 25.26
+    },
+    {
+     "t": "a",
+     "start": 25.26,
+     "end": 25.44
+    },
+    {
+     "t": "new",
+     "start": 25.44,
+     "end": 25.76
+    },
+    {
+     "t": "bike!",
+     "start": 25.76,
+     "end": 26.21,
+     "pic": "bike"
+    }
+   ],
+   "n": 5,
+   "start": 24.48,
+   "end": 27.48,
+   "pic": "iwantanewbike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 26.26,
+     "end": 26.44
+    },
+    {
+     "t": "do",
+     "start": 26.47,
+     "end": 26.64
+    },
+    {
+     "t": "you",
+     "start": 26.67,
+     "end": 26.85
+    },
+    {
+     "t": "want?",
+     "start": 26.88,
+     "end": 27.06
+    }
+   ],
+   "n": 6,
+   "start": 27.58,
+   "end": 29.98,
+   "pic": "iwantanewbike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I want new clothes!",
+   "words": [
+    {
+     "t": "I",
+     "start": 27.14,
+     "end": 27.52
+    },
+    {
+     "t": "want",
+     "start": 27.52,
+     "end": 27.94
+    },
+    {
+     "t": "new",
+     "start": 27.94,
+     "end": 28.46
+    },
+    {
+     "t": "clothes!",
+     "start": 28.46,
+     "end": 29.54,
+     "pic": "clothes"
+    }
+   ],
+   "n": 7,
+   "start": 27.14,
+   "end": 29.54,
+   "pic": "clothes"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 31.4,
+     "end": 31.56
+    },
+    {
+     "t": "do",
+     "start": 31.56,
+     "end": 31.84
+    },
+    {
+     "t": "you",
+     "start": 31.84,
+     "end": 32.1
+    },
+    {
+     "t": "want?",
+     "start": 32.1,
+     "end": 32.54
+    },
+    {
+     "t": "What",
+     "start": 33.32,
+     "end": 33.54
+    },
+    {
+     "t": "do",
+     "start": 33.54,
+     "end": 33.84
+    },
+    {
+     "t": "you",
+     "start": 33.84,
+     "end": 34.06
+    },
+    {
+     "t": "want?",
+     "start": 34.06,
+     "end": 34.48
+    }
+   ],
+   "n": 8,
+   "start": 31.4,
+   "end": 34.48,
+   "pic": "clothes"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want a new computer!",
+   "words": [
+    {
+     "t": "I",
+     "start": 34.62,
+     "end": 35.02
+    },
+    {
+     "t": "want",
+     "start": 35.02,
+     "end": 35.4
+    },
+    {
+     "t": "a",
+     "start": 35.38,
+     "end": 35.58
+    },
+    {
+     "t": "new",
+     "start": 35.62,
+     "end": 35.84
+    },
+    {
+     "t": "computer!",
+     "start": 35.84,
+     "end": 36.79,
+     "pic": "computer"
+    }
+   ],
+   "n": 9,
+   "start": 34.62,
+   "end": 36.79,
+   "pic": "computer"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 39.33,
+     "end": 39.5
+    },
+    {
+     "t": "do",
+     "start": 39.52,
+     "end": 39.82
+    },
+    {
+     "t": "you",
+     "start": 39.84,
+     "end": 40.1
+    },
+    {
+     "t": "want?",
+     "start": 40.1,
+     "end": 40.6
+    },
+    {
+     "t": "What",
+     "start": 41.38,
+     "end": 41.62
+    },
+    {
+     "t": "do",
+     "start": 41.58,
+     "end": 41.84
+    },
+    {
+     "t": "you",
+     "start": 41.86,
+     "end": 42.08
+    },
+    {
+     "t": "want?",
+     "start": 42.12,
+     "end": 42.46
+    }
+   ],
+   "n": 10,
+   "start": 39.33,
+   "end": 42.46,
+   "pic": "computer"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want, I want, I want!",
+   "words": [
+    {
+     "t": "I",
+     "start": 42.68,
+     "end": 43.1
+    },
+    {
+     "t": "want,",
+     "start": 43.0,
+     "end": 43.48
+    },
+    {
+     "t": "I",
+     "start": 43.74,
+     "end": 44.06
+    },
+    {
+     "t": "want,",
+     "start": 44.04,
+     "end": 44.16
+    },
+    {
+     "t": "I",
+     "start": 44.74,
+     "end": 45.04
+    },
+    {
+     "t": "want!",
+     "start": 45.08,
+     "end": 45.93
+    }
+   ],
+   "n": 11,
+   "start": 42.68,
+   "end": 45.93,
+   "pic": "computer"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 47.08,
+     "end": 47.32
+    },
+    {
+     "t": "do",
+     "start": 47.28,
+     "end": 47.58
+    },
+    {
+     "t": "you",
+     "start": 47.58,
+     "end": 47.8
+    },
+    {
+     "t": "want?",
+     "start": 47.8,
+     "end": 48.22
+    }
+   ],
+   "n": 12,
+   "start": 47.08,
+   "end": 48.22,
+   "pic": "computer"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I want a new school bag!",
+   "words": [
+    {
+     "t": "I",
+     "start": 48.86,
+     "end": 49.12
+    },
+    {
+     "t": "want",
+     "start": 49.09,
+     "end": 49.38
+    },
+    {
+     "t": "a",
+     "start": 49.38,
+     "end": 49.6
+    },
+    {
+     "t": "new",
+     "start": 49.6,
+     "end": 49.78
+    },
+    {
+     "t": "school",
+     "start": 49.8,
+     "end": 50.06
+    },
+    {
+     "t": "bag!",
+     "start": 50.06,
+     "end": 50.58
+    }
+   ],
+   "n": 13,
+   "start": 48.86,
+   "end": 50.58,
+   "pic": "schoolbag"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 51.1,
+     "end": 51.42
+    },
+    {
+     "t": "do",
+     "start": 51.64,
+     "end": 51.96
+    },
+    {
+     "t": "you",
+     "start": 51.96,
+     "end": 52.46
+    },
+    {
+     "t": "want?",
+     "start": 52.46,
+     "end": 53.38
+    }
+   ],
+   "n": 14,
+   "start": 51.1,
+   "end": 53.38,
+   "pic": "schoolbag"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I want new earphones!",
+   "words": [
+    {
+     "t": "I",
+     "start": 54.86,
+     "end": 55.1
+    },
+    {
+     "t": "want",
+     "start": 55.1,
+     "end": 55.32
+    },
+    {
+     "t": "new",
+     "start": 55.32,
+     "end": 55.6
+    },
+    {
+     "t": "earphones!",
+     "start": 55.6,
+     "end": 56.3,
+     "pic": "earphones"
+    }
+   ],
+   "n": 15,
+   "start": 54.86,
+   "end": 56.3,
+   "pic": "earphones"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 57.18,
+     "end": 57.32
+    },
+    {
+     "t": "do",
+     "start": 57.32,
+     "end": 57.62
+    },
+    {
+     "t": "you",
+     "start": 57.62,
+     "end": 57.94
+    },
+    {
+     "t": "want?",
+     "start": 57.94,
+     "end": 58.74
+    }
+   ],
+   "n": 16,
+   "start": 57.18,
+   "end": 58.74,
+   "pic": "earphones"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I want a new house!",
+   "words": [
+    {
+     "t": "I",
+     "start": 59.12,
+     "end": 59.52
+    },
+    {
+     "t": "want",
+     "start": 59.52,
+     "end": 59.92
+    },
+    {
+     "t": "a",
+     "start": 59.9,
+     "end": 60.48
+    },
+    {
+     "t": "new",
+     "start": 60.26,
+     "end": 60.64
+    },
+    {
+     "t": "house!",
+     "start": 60.64,
+     "end": 61.59,
+     "pic": "house"
+    }
+   ],
+   "n": 17,
+   "start": 59.12,
+   "end": 61.59,
+   "pic": "house"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 63.36,
+     "end": 63.56
+    },
+    {
+     "t": "do",
+     "start": 63.54,
+     "end": 63.82
+    },
+    {
+     "t": "you",
+     "start": 63.82,
+     "end": 64.1
+    },
+    {
+     "t": "want?",
+     "start": 64.1,
+     "end": 64.22
+    },
+    {
+     "t": "What",
+     "start": 65.34,
+     "end": 65.56
+    },
+    {
+     "t": "do",
+     "start": 65.52,
+     "end": 65.84
+    },
+    {
+     "t": "you",
+     "start": 65.84,
+     "end": 66.08
+    },
+    {
+     "t": "want?",
+     "start": 66.1,
+     "end": 66.42
+    }
+   ],
+   "n": 18,
+   "start": 63.36,
+   "end": 66.42,
+   "pic": "house"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want a new computer!",
+   "words": [
+    {
+     "t": "I",
+     "start": 66.7,
+     "end": 66.94
+    },
+    {
+     "t": "want",
+     "start": 66.94,
+     "end": 67.4
+    },
+    {
+     "t": "a",
+     "start": 67.38,
+     "end": 67.62
+    },
+    {
+     "t": "new",
+     "start": 67.62,
+     "end": 67.98
+    },
+    {
+     "t": "computer!",
+     "start": 67.98,
+     "end": 68.88,
+     "pic": "computer"
+    }
+   ],
+   "n": 19,
+   "start": 66.7,
+   "end": 68.88,
+   "pic": "computer"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 71.36,
+     "end": 71.54
+    },
+    {
+     "t": "do",
+     "start": 71.52,
+     "end": 71.84
+    },
+    {
+     "t": "you",
+     "start": 71.84,
+     "end": 72.1
+    },
+    {
+     "t": "want?",
+     "start": 72.1,
+     "end": 72.68
+    },
+    {
+     "t": "What",
+     "start": 73.1,
+     "end": 73.52
+    },
+    {
+     "t": "do",
+     "start": 73.44,
+     "end": 73.86
+    },
+    {
+     "t": "you",
+     "start": 73.88,
+     "end": 74.12
+    },
+    {
+     "t": "want?",
+     "start": 74.1,
+     "end": 74.54
+    }
+   ],
+   "n": 20,
+   "start": 71.36,
+   "end": 74.54,
+   "pic": "computer"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want, I want, I want!",
+   "words": [
+    {
+     "t": "I",
+     "start": 74.68,
+     "end": 75.02
+    },
+    {
+     "t": "want,",
+     "start": 75.02,
+     "end": 75.48
+    },
+    {
+     "t": "I",
+     "start": 75.72,
+     "end": 76.06
+    },
+    {
+     "t": "want,",
+     "start": 76.0,
+     "end": 76.4
+    },
+    {
+     "t": "I",
+     "start": 76.72,
+     "end": 77.3
+    },
+    {
+     "t": "want!",
+     "start": 77.34,
+     "end": 77.8
+    }
+   ],
+   "n": 21,
+   "start": 74.68,
+   "end": 77.8,
+   "pic": "computer"
+  },
+  {
+   "section": "Bridge",
+   "text": "A new phone? That is very expensive!",
+   "words": [
+    {
+     "t": "A",
+     "start": 109.95,
+     "end": 111.3
+    },
+    {
+     "t": "new",
+     "start": 111.88,
+     "end": 112.44
+    },
+    {
+     "t": "phone?",
+     "start": 112.44,
+     "end": 113.5,
+     "pic": "phone"
+    },
+    {
+     "t": "That",
+     "start": 113.5,
+     "end": 113.88
+    },
+    {
+     "t": "is",
+     "start": 113.88,
+     "end": 114.08
+    },
+    {
+     "t": "very",
+     "start": 114.08,
+     "end": 114.38
+    },
+    {
+     "t": "expensive!",
+     "start": 114.36,
+     "end": 114.82
+    }
+   ],
+   "n": 22,
+   "start": 109.95,
+   "end": 114.82,
+   "pic": "phone"
+  },
+  {
+   "section": "Bridge",
+   "text": "A new brother? No!",
+   "words": [
+    {
+     "t": "A",
+     "start": 116.88,
+     "end": 117.14
+    },
+    {
+     "t": "new",
+     "start": 117.14,
+     "end": 117.5
+    },
+    {
+     "t": "brother?",
+     "start": 117.5,
+     "end": 118.4,
+     "pic": "brother"
+    },
+    {
+     "t": "No!",
+     "start": 120.52,
+     "end": 121.32
+    }
+   ],
+   "n": 23,
+   "start": 116.88,
+   "end": 121.32,
+   "pic": "brother"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 123.36,
+     "end": 123.56
+    },
+    {
+     "t": "do",
+     "start": 123.62,
+     "end": 123.9
+    },
+    {
+     "t": "you",
+     "start": 123.9,
+     "end": 124.14
+    },
+    {
+     "t": "want?",
+     "start": 124.14,
+     "end": 124.5
+    },
+    {
+     "t": "What",
+     "start": 125.4,
+     "end": 125.58
+    },
+    {
+     "t": "do",
+     "start": 125.64,
+     "end": 125.88
+    },
+    {
+     "t": "you",
+     "start": 125.88,
+     "end": 126.12
+    },
+    {
+     "t": "want?",
+     "start": 126.12,
+     "end": 126.5
+    }
+   ],
+   "n": 24,
+   "start": 123.36,
+   "end": 126.5,
+   "pic": "brother"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want a new computer!",
+   "words": [
+    {
+     "t": "I",
+     "start": 126.7,
+     "end": 126.94
+    },
+    {
+     "t": "want",
+     "start": 126.94,
+     "end": 127.38
+    },
+    {
+     "t": "a",
+     "start": 127.38,
+     "end": 127.64
+    },
+    {
+     "t": "new",
+     "start": 127.64,
+     "end": 127.96
+    },
+    {
+     "t": "computer!",
+     "start": 127.96,
+     "end": 128.76,
+     "pic": "computer"
+    }
+   ],
+   "n": 25,
+   "start": 126.7,
+   "end": 128.76,
+   "pic": "computer"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you want? What do you want?",
+   "words": [
+    {
+     "t": "What",
+     "start": 131.12,
+     "end": 131.4
+    },
+    {
+     "t": "do",
+     "start": 131.4,
+     "end": 131.86
+    },
+    {
+     "t": "you",
+     "start": 131.86,
+     "end": 132.12
+    },
+    {
+     "t": "want?",
+     "start": 132.12,
+     "end": 132.68
+    },
+    {
+     "t": "What",
+     "start": 133.16,
+     "end": 133.48
+    },
+    {
+     "t": "do",
+     "start": 133.48,
+     "end": 133.88
+    },
+    {
+     "t": "you",
+     "start": 133.88,
+     "end": 134.1
+    },
+    {
+     "t": "want?",
+     "start": 134.1,
+     "end": 134.56
+    }
+   ],
+   "n": 26,
+   "start": 131.12,
+   "end": 134.56,
+   "pic": "computer"
+  },
+  {
+   "section": "Chorus",
+   "text": "I want, I want, I want!",
+   "words": [
+    {
+     "t": "I",
+     "start": 134.68,
+     "end": 135.02
+    },
+    {
+     "t": "want,",
+     "start": 135.02,
+     "end": 135.44
+    },
+    {
+     "t": "I",
+     "start": 135.7,
+     "end": 136.04
+    },
+    {
+     "t": "want,",
+     "start": 136.04,
+     "end": 136.58
+    },
+    {
+     "t": "I",
+     "start": 136.88,
+     "end": 137.28
+    },
+    {
+     "t": "want!",
+     "start": 137.28,
+     "end": 138.33
+    }
+   ],
+   "n": 27,
+   "start": 134.68,
+   "end": 138.33,
+   "pic": "computer"
+  },
+  {
+   "section": "Outro",
+   "text": "I want a new computer!",
+   "words": [
+    {
+     "t": "I",
+     "start": 138.92,
+     "end": 139.06
+    },
+    {
+     "t": "want",
+     "start": 139.06,
+     "end": 139.42
+    },
+    {
+     "t": "a",
+     "start": 139.42,
+     "end": 139.58
+    },
+    {
+     "t": "new",
+     "start": 139.58,
+     "end": 140.02
+    },
+    {
+     "t": "computer!",
+     "start": 140.02,
+     "end": 140.54,
+     "pic": "computer"
+    }
+   ],
+   "n": 28,
+   "start": 138.92,
+   "end": 140.54,
+   "pic": "computer"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "phone",
+   "prompt": "What do you want?",
+   "answer": "I want a new phone!",
+   "choices": [
+    "I want a new phone!",
+    "I want a new bike!",
+    "I want a new house!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. What do you want?",
+   "answer": "bike",
+   "choices": [
+    "bike",
+    "computer",
+    "doll"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "clothes",
+   "prompt": "What do you want?",
+   "answer": "I want new clothes!",
+   "choices": [
+    "I want new earphones!",
+    "I want new clothes!",
+    "I want a new bag!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 13,
+   "prompt": "Listen. What do you want?",
+   "answer": "schoolbag",
+   "choices": [
+    "pencilcase",
+    "schoolbag",
+    "phone"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "computer",
+   "prompt": "What do you want?",
+   "answer": "I want a new computer!",
+   "choices": [
+    "I want a new computer!",
+    "I want a new brother!",
+    "I want a new watch!"
+   ]
+  }
+ ]
+}

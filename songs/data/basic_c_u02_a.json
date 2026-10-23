@@ -1,0 +1,1131 @@
+{
+ "id": "basic_c_u02_a",
+ "title": "Look at My New Hat",
+ "book": "Basic C",
+ "unit": 2,
+ "unitTitle": "Look at My New Hat",
+ "packId": "basic_c_u2",
+ "audio": "audio/basic_c_u02_a.mp3",
+ "duration": 148.7,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hey! Look at me!",
+   "words": [
+    {
+     "t": "Hey!",
+     "start": 6.2,
+     "end": 7.2
+    },
+    {
+     "t": "Look",
+     "start": 9.32,
+     "end": 9.52
+    },
+    {
+     "t": "at",
+     "start": 9.48,
+     "end": 9.86
+    },
+    {
+     "t": "me!",
+     "start": 10.1,
+     "end": 10.34
+    }
+   ],
+   "n": 1,
+   "start": 6.2,
+   "end": 10.34,
+   "pic": "bag"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Look at my new hat!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 11.28,
+     "end": 11.46
+    },
+    {
+     "t": "at",
+     "start": 11.46,
+     "end": 11.6
+    },
+    {
+     "t": "my",
+     "start": 11.58,
+     "end": 11.78
+    },
+    {
+     "t": "new",
+     "start": 11.78,
+     "end": 12.24
+    },
+    {
+     "t": "hat!",
+     "start": 12.24,
+     "end": 12.62,
+     "pic": "hat"
+    }
+   ],
+   "n": 2,
+   "start": 11.28,
+   "end": 12.62,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Wow! Nice hat!",
+   "words": [
+    {
+     "t": "Wow!",
+     "start": 13.36,
+     "end": 13.66
+    },
+    {
+     "t": "Nice",
+     "start": 13.96,
+     "end": 14.3
+    },
+    {
+     "t": "hat!",
+     "start": 14.3,
+     "end": 14.72,
+     "pic": "hat"
+    }
+   ],
+   "n": 3,
+   "start": 13.36,
+   "end": 14.72,
+   "pic": "hat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Look at my new shoes!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 17.44,
+     "end": 17.58
+    },
+    {
+     "t": "at",
+     "start": 17.58,
+     "end": 17.7
+    },
+    {
+     "t": "my",
+     "start": 17.7,
+     "end": 17.86
+    },
+    {
+     "t": "new",
+     "start": 17.88,
+     "end": 18.3
+    },
+    {
+     "t": "shoes!",
+     "start": 18.3,
+     "end": 18.92,
+     "pic": "shoes"
+    }
+   ],
+   "n": 4,
+   "start": 17.44,
+   "end": 18.92,
+   "pic": "shoes"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Wow! Nice shoes!",
+   "words": [
+    {
+     "t": "Wow!",
+     "start": 19.5,
+     "end": 19.84
+    },
+    {
+     "t": "Nice",
+     "start": 20.08,
+     "end": 20.3
+    },
+    {
+     "t": "shoes!",
+     "start": 20.32,
+     "end": 20.9,
+     "pic": "shoes"
+    }
+   ],
+   "n": 5,
+   "start": 19.5,
+   "end": 20.9,
+   "pic": "shoes"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Look at my new coat!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 21.5,
+     "end": 21.64
+    },
+    {
+     "t": "at",
+     "start": 21.66,
+     "end": 21.78
+    },
+    {
+     "t": "my",
+     "start": 21.78,
+     "end": 21.96
+    },
+    {
+     "t": "new",
+     "start": 21.96,
+     "end": 22.4
+    },
+    {
+     "t": "coat!",
+     "start": 22.38,
+     "end": 22.78,
+     "pic": "coat"
+    }
+   ],
+   "n": 6,
+   "start": 21.5,
+   "end": 22.78,
+   "pic": "coat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Wow! Nice coat!",
+   "words": [
+    {
+     "t": "Wow!",
+     "start": 23.64,
+     "end": 23.9
+    },
+    {
+     "t": "Nice",
+     "start": 24.12,
+     "end": 24.42
+    },
+    {
+     "t": "coat!",
+     "start": 24.42,
+     "end": 24.8,
+     "pic": "coat"
+    }
+   ],
+   "n": 7,
+   "start": 23.64,
+   "end": 24.8,
+   "pic": "coat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new hat! Look at it!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 27.62,
+     "end": 27.84
+    },
+    {
+     "t": "at",
+     "start": 27.84,
+     "end": 28.04
+    },
+    {
+     "t": "my",
+     "start": 28.08,
+     "end": 28.46
+    },
+    {
+     "t": "new",
+     "start": 28.46,
+     "end": 28.96
+    },
+    {
+     "t": "hat!",
+     "start": 28.96,
+     "end": 29.46,
+     "pic": "hat"
+    },
+    {
+     "t": "Look",
+     "start": 29.72,
+     "end": 29.84
+    },
+    {
+     "t": "at",
+     "start": 29.92,
+     "end": 30.18
+    },
+    {
+     "t": "it!",
+     "start": 30.18,
+     "end": 30.66
+    }
+   ],
+   "n": 8,
+   "start": 27.62,
+   "end": 30.66,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new shoes! Look at them!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 31.38,
+     "end": 31.9
+    },
+    {
+     "t": "at",
+     "start": 31.9,
+     "end": 32.16
+    },
+    {
+     "t": "my",
+     "start": 32.12,
+     "end": 32.54
+    },
+    {
+     "t": "new",
+     "start": 32.54,
+     "end": 33.0
+    },
+    {
+     "t": "shoes!",
+     "start": 33.0,
+     "end": 33.6,
+     "pic": "shoes"
+    },
+    {
+     "t": "Look",
+     "start": 33.72,
+     "end": 33.94
+    },
+    {
+     "t": "at",
+     "start": 33.96,
+     "end": 34.14
+    },
+    {
+     "t": "them!",
+     "start": 34.14,
+     "end": 34.59
+    }
+   ],
+   "n": 9,
+   "start": 31.38,
+   "end": 34.59,
+   "pic": "shoes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at me, look at me,",
+   "words": [
+    {
+     "t": "Look",
+     "start": 34.68,
+     "end": 35.14
+    },
+    {
+     "t": "at",
+     "start": 35.14,
+     "end": 35.62
+    },
+    {
+     "t": "me,",
+     "start": 35.58,
+     "end": 36.04
+    },
+    {
+     "t": "look",
+     "start": 36.77,
+     "end": 37.06
+    },
+    {
+     "t": "at",
+     "start": 37.08,
+     "end": 37.4
+    },
+    {
+     "t": "me,",
+     "start": 37.4,
+     "end": 37.82
+    }
+   ],
+   "n": 10,
+   "start": 34.68,
+   "end": 37.82,
+   "pic": "shoes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new hat!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 39.32,
+     "end": 39.5
+    },
+    {
+     "t": "at",
+     "start": 39.48,
+     "end": 39.56
+    },
+    {
+     "t": "my",
+     "start": 39.58,
+     "end": 39.78
+    },
+    {
+     "t": "new",
+     "start": 39.78,
+     "end": 40.18
+    },
+    {
+     "t": "hat!",
+     "start": 40.16,
+     "end": 40.64,
+     "pic": "hat"
+    }
+   ],
+   "n": 11,
+   "start": 39.32,
+   "end": 40.64,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Look at my new phone!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 43.54,
+     "end": 44.6
+    },
+    {
+     "t": "at",
+     "start": 44.6,
+     "end": 46.18
+    },
+    {
+     "t": "my",
+     "start": 46.18,
+     "end": 46.42
+    },
+    {
+     "t": "new",
+     "start": 46.42,
+     "end": 47.0
+    },
+    {
+     "t": "phone!",
+     "start": 46.98,
+     "end": 47.48,
+     "pic": "phone"
+    }
+   ],
+   "n": 12,
+   "start": 43.54,
+   "end": 47.48,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Wow! Nice phone!",
+   "words": [
+    {
+     "t": "Wow!",
+     "start": 47.88,
+     "end": 48.24
+    },
+    {
+     "t": "Nice",
+     "start": 48.42,
+     "end": 48.8
+    },
+    {
+     "t": "phone!",
+     "start": 48.8,
+     "end": 49.3,
+     "pic": "phone"
+    }
+   ],
+   "n": 13,
+   "start": 47.88,
+   "end": 49.3,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Look at my new watch!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 49.94,
+     "end": 50.1
+    },
+    {
+     "t": "at",
+     "start": 50.1,
+     "end": 50.24
+    },
+    {
+     "t": "my",
+     "start": 50.24,
+     "end": 50.42
+    },
+    {
+     "t": "new",
+     "start": 50.42,
+     "end": 50.86
+    },
+    {
+     "t": "watch!",
+     "start": 50.86,
+     "end": 51.26,
+     "pic": "watch"
+    }
+   ],
+   "n": 14,
+   "start": 49.94,
+   "end": 51.26,
+   "pic": "watch"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Wow! Nice watch!",
+   "words": [
+    {
+     "t": "Wow!",
+     "start": 54.34,
+     "end": 54.48
+    },
+    {
+     "t": "Nice",
+     "start": 54.84,
+     "end": 55.24
+    },
+    {
+     "t": "watch!",
+     "start": 55.18,
+     "end": 55.72,
+     "pic": "watch"
+    }
+   ],
+   "n": 15,
+   "start": 54.34,
+   "end": 55.72,
+   "pic": "watch"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Look at my new bag!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 56.18,
+     "end": 56.47
+    },
+    {
+     "t": "at",
+     "start": 56.49,
+     "end": 56.67
+    },
+    {
+     "t": "my",
+     "start": 56.69,
+     "end": 56.88
+    },
+    {
+     "t": "new",
+     "start": 56.9,
+     "end": 57.13
+    },
+    {
+     "t": "bag!",
+     "start": 57.15,
+     "end": 57.46,
+     "pic": "bag"
+    }
+   ],
+   "n": 16,
+   "start": 56.18,
+   "end": 57.46,
+   "pic": "bag"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Wow! Nice bag!",
+   "words": [
+    {
+     "t": "Wow!",
+     "start": 58.04,
+     "end": 58.5
+    },
+    {
+     "t": "Nice",
+     "start": 58.72,
+     "end": 58.98
+    },
+    {
+     "t": "bag!",
+     "start": 58.98,
+     "end": 59.64,
+     "pic": "bag"
+    }
+   ],
+   "n": 17,
+   "start": 58.04,
+   "end": 59.64,
+   "pic": "bag"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new hat! Look at it!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 62.34,
+     "end": 62.46
+    },
+    {
+     "t": "at",
+     "start": 62.46,
+     "end": 62.72
+    },
+    {
+     "t": "my",
+     "start": 62.72,
+     "end": 63.06
+    },
+    {
+     "t": "new",
+     "start": 63.06,
+     "end": 63.6
+    },
+    {
+     "t": "hat!",
+     "start": 63.6,
+     "end": 64.08,
+     "pic": "hat"
+    },
+    {
+     "t": "Look",
+     "start": 64.26,
+     "end": 64.44
+    },
+    {
+     "t": "at",
+     "start": 64.48,
+     "end": 64.78
+    },
+    {
+     "t": "it!",
+     "start": 64.78,
+     "end": 65.3
+    }
+   ],
+   "n": 18,
+   "start": 62.34,
+   "end": 65.3,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new shoes! Look at them!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 66.26,
+     "end": 66.54
+    },
+    {
+     "t": "at",
+     "start": 66.54,
+     "end": 66.78
+    },
+    {
+     "t": "my",
+     "start": 66.78,
+     "end": 67.18
+    },
+    {
+     "t": "new",
+     "start": 67.18,
+     "end": 67.66
+    },
+    {
+     "t": "shoes!",
+     "start": 67.66,
+     "end": 68.06,
+     "pic": "shoes"
+    },
+    {
+     "t": "Look",
+     "start": 68.32,
+     "end": 68.56
+    },
+    {
+     "t": "at",
+     "start": 68.56,
+     "end": 68.86
+    },
+    {
+     "t": "them!",
+     "start": 68.91,
+     "end": 69.13
+    }
+   ],
+   "n": 19,
+   "start": 66.26,
+   "end": 69.13,
+   "pic": "shoes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at me, look at me,",
+   "words": [
+    {
+     "t": "Look",
+     "start": 69.24,
+     "end": 69.78
+    },
+    {
+     "t": "at",
+     "start": 69.78,
+     "end": 70.2
+    },
+    {
+     "t": "me,",
+     "start": 70.2,
+     "end": 70.62
+    },
+    {
+     "t": "look",
+     "start": 71.34,
+     "end": 71.66
+    },
+    {
+     "t": "at",
+     "start": 71.66,
+     "end": 72.04
+    },
+    {
+     "t": "me,",
+     "start": 72.04,
+     "end": 72.66
+    }
+   ],
+   "n": 20,
+   "start": 69.24,
+   "end": 72.66,
+   "pic": "shoes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new hat!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 73.88,
+     "end": 74.04
+    },
+    {
+     "t": "at",
+     "start": 74.04,
+     "end": 74.16
+    },
+    {
+     "t": "my",
+     "start": 74.16,
+     "end": 74.36
+    },
+    {
+     "t": "new",
+     "start": 74.36,
+     "end": 74.8
+    },
+    {
+     "t": "hat!",
+     "start": 74.8,
+     "end": 75.22,
+     "pic": "hat"
+    }
+   ],
+   "n": 21,
+   "start": 73.88,
+   "end": 75.22,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Bridge",
+   "text": "Let's take a picture, you and me!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 77.8,
+     "end": 77.98
+    },
+    {
+     "t": "take",
+     "start": 77.98,
+     "end": 78.22
+    },
+    {
+     "t": "a",
+     "start": 78.22,
+     "end": 78.5
+    },
+    {
+     "t": "picture,",
+     "start": 78.5,
+     "end": 78.9
+    },
+    {
+     "t": "you",
+     "start": 79.44,
+     "end": 79.76
+    },
+    {
+     "t": "and",
+     "start": 79.76,
+     "end": 80.14
+    },
+    {
+     "t": "me!",
+     "start": 80.14,
+     "end": 80.94
+    }
+   ],
+   "n": 22,
+   "start": 77.8,
+   "end": 80.94,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Bridge",
+   "text": "Look at the camera! One, two, three!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 81.74,
+     "end": 82.15
+    },
+    {
+     "t": "at",
+     "start": 82.17,
+     "end": 82.44
+    },
+    {
+     "t": "the",
+     "start": 82.46,
+     "end": 82.8
+    },
+    {
+     "t": "camera!",
+     "start": 82.82,
+     "end": 83.44
+    },
+    {
+     "t": "One,",
+     "start": 83.46,
+     "end": 83.87
+    },
+    {
+     "t": "two,",
+     "start": 83.89,
+     "end": 84.31
+    },
+    {
+     "t": "three!",
+     "start": 84.33,
+     "end": 84.9
+    }
+   ],
+   "n": 23,
+   "start": 81.74,
+   "end": 84.9,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new hat! Look at it!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 86.64,
+     "end": 86.82
+    },
+    {
+     "t": "at",
+     "start": 86.82,
+     "end": 87.08
+    },
+    {
+     "t": "my",
+     "start": 87.08,
+     "end": 87.5
+    },
+    {
+     "t": "new",
+     "start": 87.5,
+     "end": 87.98
+    },
+    {
+     "t": "hat!",
+     "start": 87.98,
+     "end": 88.48,
+     "pic": "hat"
+    },
+    {
+     "t": "Look",
+     "start": 88.64,
+     "end": 88.82
+    },
+    {
+     "t": "at",
+     "start": 88.9,
+     "end": 89.2
+    },
+    {
+     "t": "it!",
+     "start": 89.2,
+     "end": 89.76
+    }
+   ],
+   "n": 24,
+   "start": 86.64,
+   "end": 89.76,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new shoes! Look at them!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 90.69,
+     "end": 90.88
+    },
+    {
+     "t": "at",
+     "start": 90.9,
+     "end": 91.16
+    },
+    {
+     "t": "my",
+     "start": 91.16,
+     "end": 91.5
+    },
+    {
+     "t": "new",
+     "start": 91.54,
+     "end": 92.0
+    },
+    {
+     "t": "shoes!",
+     "start": 92.0,
+     "end": 92.6,
+     "pic": "shoes"
+    },
+    {
+     "t": "Look",
+     "start": 92.76,
+     "end": 92.94
+    },
+    {
+     "t": "at",
+     "start": 92.94,
+     "end": 93.24
+    },
+    {
+     "t": "them!",
+     "start": 93.24,
+     "end": 93.56
+    }
+   ],
+   "n": 25,
+   "start": 90.69,
+   "end": 93.56,
+   "pic": "shoes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at me, look at me,",
+   "words": [
+    {
+     "t": "Look",
+     "start": 93.72,
+     "end": 94.2
+    },
+    {
+     "t": "at",
+     "start": 94.2,
+     "end": 94.58
+    },
+    {
+     "t": "me,",
+     "start": 94.52,
+     "end": 95.12
+    },
+    {
+     "t": "look",
+     "start": 95.68,
+     "end": 96.06
+    },
+    {
+     "t": "at",
+     "start": 96.06,
+     "end": 96.42
+    },
+    {
+     "t": "me,",
+     "start": 96.42,
+     "end": 97.24
+    }
+   ],
+   "n": 26,
+   "start": 93.72,
+   "end": 97.24,
+   "pic": "shoes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at my new hat!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 98.28,
+     "end": 98.44
+    },
+    {
+     "t": "at",
+     "start": 98.44,
+     "end": 98.54
+    },
+    {
+     "t": "my",
+     "start": 98.54,
+     "end": 98.78
+    },
+    {
+     "t": "new",
+     "start": 98.78,
+     "end": 99.14
+    },
+    {
+     "t": "hat!",
+     "start": 99.14,
+     "end": 99.64,
+     "pic": "hat"
+    }
+   ],
+   "n": 27,
+   "start": 98.28,
+   "end": 99.64,
+   "pic": "lookatmynewhat"
+  },
+  {
+   "section": "Outro",
+   "text": "Look at my new hat!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 102.88,
+     "end": 103.1
+    },
+    {
+     "t": "at",
+     "start": 103.12,
+     "end": 103.36
+    },
+    {
+     "t": "my",
+     "start": 103.38,
+     "end": 103.72
+    },
+    {
+     "t": "new",
+     "start": 103.74,
+     "end": 104.24
+    },
+    {
+     "t": "hat!",
+     "start": 104.28,
+     "end": 104.76,
+     "pic": "hat"
+    }
+   ],
+   "n": 28,
+   "start": 102.88,
+   "end": 104.76,
+   "pic": "lookatmynewhat"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "hat",
+   "prompt": "Look at my new hat!",
+   "answer": "Wow! Nice hat!",
+   "choices": [
+    "Wow! Nice hat!",
+    "Wow! Nice shoes!",
+    "Wow! Nice bag!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. Look at my new ...",
+   "answer": "shoes",
+   "choices": [
+    "shoes",
+    "coat",
+    "watch"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "coat",
+   "prompt": "What does she say?",
+   "answer": "Look at my new coat!",
+   "choices": [
+    "Look at my new coat!",
+    "Look at my new phone!",
+    "Look at my new hat!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 14,
+   "prompt": "Listen. Look at my new ...",
+   "answer": "watch",
+   "choices": [
+    "phone",
+    "watch",
+    "bag"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "phone",
+   "prompt": "Look at my new phone!",
+   "answer": "Wow! Nice phone!",
+   "choices": [
+    "Wow! Nice coat!",
+    "Wow! Nice phone!",
+    "Wow! Nice watch!"
+   ]
+  }
+ ]
+}

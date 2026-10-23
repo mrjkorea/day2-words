@@ -1,0 +1,857 @@
+{
+ "id": "basic_c_u05_a",
+ "title": "Spell Pig!",
+ "book": "Basic C",
+ "unit": 5,
+ "unitTitle": "Spelling Bee",
+ "packId": "basic_c_u5",
+ "audio": "audio/basic_c_u05_a.mp3",
+ "duration": 151.44,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "This is the Mr. Jay spelling bee!",
+   "words": [
+    {
+     "t": "This",
+     "start": 0.9,
+     "end": 1.22
+    },
+    {
+     "t": "is",
+     "start": 1.16,
+     "end": 1.66
+    },
+    {
+     "t": "the",
+     "start": 1.66,
+     "end": 1.9
+    },
+    {
+     "t": "Mr.",
+     "start": 1.9,
+     "end": 2.34
+    },
+    {
+     "t": "Jay",
+     "start": 2.39,
+     "end": 2.64
+    },
+    {
+     "t": "spelling",
+     "start": 2.76,
+     "end": 3.36
+    },
+    {
+     "t": "bee!",
+     "start": 3.36,
+     "end": 4.06
+    }
+   ],
+   "n": 1,
+   "start": 0.9,
+   "end": 4.06,
+   "pic": "canada"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Spell pig!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 8.38,
+     "end": 8.96
+    },
+    {
+     "t": "pig!",
+     "start": 10.38,
+     "end": 11.04,
+     "pic": "pig"
+    }
+   ],
+   "n": 2,
+   "start": 8.38,
+   "end": 11.04,
+   "pic": "pig"
+  },
+  {
+   "section": "Verse 1",
+   "text": "P-I-G!",
+   "words": [
+    {
+     "t": "P-I-G!",
+     "start": 12.5,
+     "end": 14.75,
+     "pic": "pig"
+    }
+   ],
+   "n": 3,
+   "start": 12.5,
+   "end": 14.75,
+   "pic": "pig"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, good!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 15.22,
+     "end": 17.26
+    },
+    {
+     "t": "good!",
+     "start": 18.86,
+     "end": 19.46
+    }
+   ],
+   "n": 4,
+   "start": 15.22,
+   "end": 19.46,
+   "pic": "pig"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Thank you very much!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 20.68,
+     "end": 21.22
+    },
+    {
+     "t": "you",
+     "start": 21.36,
+     "end": 21.82
+    },
+    {
+     "t": "very",
+     "start": 21.82,
+     "end": 22.56
+    },
+    {
+     "t": "much!",
+     "start": 22.56,
+     "end": 23.42
+    }
+   ],
+   "n": 5,
+   "start": 20.68,
+   "end": 23.42,
+   "pic": "pig"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Spell dog!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 25.0,
+     "end": 25.4
+    },
+    {
+     "t": "dog!",
+     "start": 26.92,
+     "end": 27.58,
+     "pic": "dog"
+    }
+   ],
+   "n": 6,
+   "start": 25.0,
+   "end": 27.58,
+   "pic": "dog"
+  },
+  {
+   "section": "Verse 1",
+   "text": "D-O-G!",
+   "words": [
+    {
+     "t": "D-O-G!",
+     "start": 28.9,
+     "end": 31.15,
+     "pic": "dog"
+    }
+   ],
+   "n": 7,
+   "start": 28.9,
+   "end": 31.15,
+   "pic": "dog"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Spell it! P-I-G!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 34.78,
+     "end": 35.59
+    },
+    {
+     "t": "it!",
+     "start": 35.68,
+     "end": 36.26
+    },
+    {
+     "t": "Spell",
+     "start": 36.32,
+     "end": 37.14
+    },
+    {
+     "t": "it!",
+     "start": 37.23,
+     "end": 37.81
+    },
+    {
+     "t": "P-I-G!",
+     "start": 37.87,
+     "end": 38.8,
+     "pic": "pig"
+    }
+   ],
+   "n": 8,
+   "start": 34.78,
+   "end": 38.8,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Spell it! D-O-G!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 39.4,
+     "end": 40.03
+    },
+    {
+     "t": "it!",
+     "start": 40.1,
+     "end": 40.55
+    },
+    {
+     "t": "Spell",
+     "start": 40.6,
+     "end": 41.23
+    },
+    {
+     "t": "it!",
+     "start": 41.3,
+     "end": 41.75
+    },
+    {
+     "t": "D-O-G!",
+     "start": 41.8,
+     "end": 42.52,
+     "pic": "dog"
+    }
+   ],
+   "n": 9,
+   "start": 39.4,
+   "end": 42.52,
+   "pic": "dog"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at me! I'm the champion!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 43.49,
+     "end": 43.66
+    },
+    {
+     "t": "at",
+     "start": 43.7,
+     "end": 44.1
+    },
+    {
+     "t": "me!",
+     "start": 44.1,
+     "end": 44.64
+    },
+    {
+     "t": "I'm",
+     "start": 45.08,
+     "end": 45.28
+    },
+    {
+     "t": "the",
+     "start": 45.26,
+     "end": 45.58
+    },
+    {
+     "t": "champion!",
+     "start": 45.58,
+     "end": 46.58
+    }
+   ],
+   "n": 10,
+   "start": 43.49,
+   "end": 46.58,
+   "pic": "dog"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Yes, good!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 49.12,
+     "end": 49.76
+    },
+    {
+     "t": "it!",
+     "start": 49.74,
+     "end": 50.82
+    },
+    {
+     "t": "Yes,",
+     "start": 51.04,
+     "end": 52.92
+    },
+    {
+     "t": "good!",
+     "start": 53.66,
+     "end": 53.98
+    }
+   ],
+   "n": 11,
+   "start": 49.12,
+   "end": 53.98,
+   "pic": "dog"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Spell cat!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 54.0,
+     "end": 55.74
+    },
+    {
+     "t": "cat!",
+     "start": 55.94,
+     "end": 57.43,
+     "pic": "cat"
+    }
+   ],
+   "n": 12,
+   "start": 54.0,
+   "end": 57.43,
+   "pic": "cat"
+  },
+  {
+   "section": "Verse 2",
+   "text": "C-A-T!",
+   "words": [
+    {
+     "t": "C-A-T!",
+     "start": 59.9,
+     "end": 63.59,
+     "pic": "cat"
+    }
+   ],
+   "n": 13,
+   "start": 59.9,
+   "end": 63.59,
+   "pic": "cat"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Spell Seoul!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 64.1,
+     "end": 64.9
+    },
+    {
+     "t": "Seoul!",
+     "start": 64.99,
+     "end": 65.9,
+     "pic": "seoul"
+    }
+   ],
+   "n": 14,
+   "start": 64.1,
+   "end": 65.9,
+   "pic": "seoul"
+  },
+  {
+   "section": "Verse 2",
+   "text": "S-E-O-U-L!",
+   "words": [
+    {
+     "t": "S-E-O-U-L!",
+     "start": 66.2,
+     "end": 71.69,
+     "pic": "seoul"
+    }
+   ],
+   "n": 15,
+   "start": 66.2,
+   "end": 71.69,
+   "pic": "seoul"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Spell Canada!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 72.5,
+     "end": 73.8
+    },
+    {
+     "t": "Canada!",
+     "start": 73.94,
+     "end": 75.61,
+     "pic": "canada"
+    }
+   ],
+   "n": 16,
+   "start": 72.5,
+   "end": 75.61,
+   "pic": "canada"
+  },
+  {
+   "section": "Verse 2",
+   "text": "C-A-N-A-D-A!",
+   "words": [
+    {
+     "t": "C-A-N-A-D-A!",
+     "start": 76.1,
+     "end": 80.15,
+     "pic": "canada"
+    }
+   ],
+   "n": 17,
+   "start": 76.1,
+   "end": 80.15,
+   "pic": "canada"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Spell it! P-I-G!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 80.8,
+     "end": 81.55
+    },
+    {
+     "t": "it!",
+     "start": 81.63,
+     "end": 82.17
+    },
+    {
+     "t": "Spell",
+     "start": 82.22,
+     "end": 82.97
+    },
+    {
+     "t": "it!",
+     "start": 83.06,
+     "end": 83.59
+    },
+    {
+     "t": "P-I-G!",
+     "start": 83.65,
+     "end": 84.5,
+     "pic": "pig"
+    }
+   ],
+   "n": 18,
+   "start": 80.8,
+   "end": 84.5,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Spell it! D-O-G!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 84.6,
+     "end": 85.78
+    },
+    {
+     "t": "it!",
+     "start": 85.91,
+     "end": 86.76
+    },
+    {
+     "t": "Spell",
+     "start": 86.85,
+     "end": 88.03
+    },
+    {
+     "t": "it!",
+     "start": 88.16,
+     "end": 89.01
+    },
+    {
+     "t": "D-O-G!",
+     "start": 89.1,
+     "end": 90.45,
+     "pic": "dog"
+    }
+   ],
+   "n": 19,
+   "start": 84.6,
+   "end": 90.45,
+   "pic": "dog"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at me! I'm the champion!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 92.22,
+     "end": 92.62
+    },
+    {
+     "t": "at",
+     "start": 92.54,
+     "end": 92.88
+    },
+    {
+     "t": "me!",
+     "start": 92.9,
+     "end": 93.44
+    },
+    {
+     "t": "I'm",
+     "start": 93.88,
+     "end": 94.14
+    },
+    {
+     "t": "the",
+     "start": 94.1,
+     "end": 94.4
+    },
+    {
+     "t": "champion!",
+     "start": 94.4,
+     "end": 95.24
+    }
+   ],
+   "n": 20,
+   "start": 92.22,
+   "end": 95.24,
+   "pic": "dog"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Yes, good!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 98.28,
+     "end": 98.58
+    },
+    {
+     "t": "it!",
+     "start": 98.58,
+     "end": 99.1
+    },
+    {
+     "t": "Yes,",
+     "start": 100.46,
+     "end": 101.26
+    },
+    {
+     "t": "good!",
+     "start": 102.22,
+     "end": 102.78
+    }
+   ],
+   "n": 21,
+   "start": 98.28,
+   "end": 102.78,
+   "pic": "dog"
+  },
+  {
+   "section": "Bridge",
+   "text": "Spell school!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 106.6,
+     "end": 107.39
+    },
+    {
+     "t": "school!",
+     "start": 107.47,
+     "end": 108.49,
+     "pic": "school"
+    }
+   ],
+   "n": 22,
+   "start": 106.6,
+   "end": 108.49,
+   "pic": "school"
+  },
+  {
+   "section": "Bridge",
+   "text": "S-C-H-O-O-L!",
+   "words": [
+    {
+     "t": "S-C-H-O-O-L!",
+     "start": 108.8,
+     "end": 111.32,
+     "pic": "school"
+    }
+   ],
+   "n": 23,
+   "start": 108.8,
+   "end": 111.32,
+   "pic": "school"
+  },
+  {
+   "section": "Bridge",
+   "text": "Yes, you win!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 112.0,
+     "end": 112.73
+    },
+    {
+     "t": "you",
+     "start": 112.81,
+     "end": 113.42
+    },
+    {
+     "t": "win!",
+     "start": 113.49,
+     "end": 114.22
+    }
+   ],
+   "n": 24,
+   "start": 112.0,
+   "end": 114.22,
+   "pic": "school"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Spell it! P-I-G!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 119.0,
+     "end": 119.59
+    },
+    {
+     "t": "it!",
+     "start": 119.66,
+     "end": 120.08
+    },
+    {
+     "t": "Spell",
+     "start": 120.12,
+     "end": 120.72
+    },
+    {
+     "t": "it!",
+     "start": 120.78,
+     "end": 121.2
+    },
+    {
+     "t": "P-I-G!",
+     "start": 121.25,
+     "end": 121.92,
+     "pic": "pig"
+    }
+   ],
+   "n": 25,
+   "start": 119.0,
+   "end": 121.92,
+   "pic": "pig"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Spell it! D-O-G!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 122.0,
+     "end": 122.79
+    },
+    {
+     "t": "it!",
+     "start": 122.88,
+     "end": 123.44
+    },
+    {
+     "t": "Spell",
+     "start": 123.5,
+     "end": 124.29
+    },
+    {
+     "t": "it!",
+     "start": 124.38,
+     "end": 124.94
+    },
+    {
+     "t": "D-O-G!",
+     "start": 125.0,
+     "end": 125.9,
+     "pic": "dog"
+    }
+   ],
+   "n": 26,
+   "start": 122.0,
+   "end": 125.9,
+   "pic": "dog"
+  },
+  {
+   "section": "Chorus",
+   "text": "Look at me! I'm the champion!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 127.1,
+     "end": 127.38
+    },
+    {
+     "t": "at",
+     "start": 127.36,
+     "end": 127.58
+    },
+    {
+     "t": "me!",
+     "start": 127.76,
+     "end": 128.4
+    },
+    {
+     "t": "I'm",
+     "start": 128.76,
+     "end": 129.06
+    },
+    {
+     "t": "the",
+     "start": 129.1,
+     "end": 129.18
+    },
+    {
+     "t": "champion!",
+     "start": 129.24,
+     "end": 129.76
+    }
+   ],
+   "n": 27,
+   "start": 127.1,
+   "end": 129.76,
+   "pic": "dog"
+  },
+  {
+   "section": "Chorus",
+   "text": "Spell it! Yes, good!",
+   "words": [
+    {
+     "t": "Spell",
+     "start": 131.12,
+     "end": 133.32
+    },
+    {
+     "t": "it!",
+     "start": 133.4,
+     "end": 134.0
+    },
+    {
+     "t": "Yes,",
+     "start": 136.32,
+     "end": 136.52
+    },
+    {
+     "t": "good!",
+     "start": 136.82,
+     "end": 137.84
+    }
+   ],
+   "n": 28,
+   "start": 131.12,
+   "end": 137.84,
+   "pic": "dog"
+  },
+  {
+   "section": "Outro",
+   "text": "I win!",
+   "words": [
+    {
+     "t": "I",
+     "start": 144.14,
+     "end": 144.56
+    },
+    {
+     "t": "win!",
+     "start": 144.62,
+     "end": 145.54
+    }
+   ],
+   "n": 29,
+   "start": 144.14,
+   "end": 145.54,
+   "pic": "dog"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "pig",
+   "prompt": "Spell pig!",
+   "answer": "P-I-G",
+   "choices": [
+    "P-I-G",
+    "P-E-G",
+    "B-I-G"
+   ]
+  },
+  {
+   "type": "listen",
+   "word": "dog",
+   "prompt": "Listen. Which one?",
+   "answer": "dog",
+   "choices": [
+    "dog",
+    "cat",
+    "pig"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "cat",
+   "prompt": "Spell cat!",
+   "answer": "C-A-T",
+   "choices": [
+    "K-A-T",
+    "C-A-T",
+    "C-U-T"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "canada",
+   "prompt": "Spell Canada!",
+   "answer": "C-A-N-A-D-A",
+   "choices": [
+    "C-A-N-A-D-A",
+    "K-A-N-A-D-A",
+    "C-A-N-D-A"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "school",
+   "prompt": "Spell school!",
+   "answer": "S-C-H-O-O-L",
+   "choices": [
+    "S-K-O-O-L",
+    "S-C-H-O-L",
+    "S-C-H-O-O-L"
+   ]
+  }
+ ]
+}

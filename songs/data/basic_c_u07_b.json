@@ -1,0 +1,969 @@
+{
+ "id": "basic_c_u07_b",
+ "title": "Come Play With Us",
+ "book": "Basic C",
+ "unit": 7,
+ "unitTitle": "Come Play With Us",
+ "packId": "basic_c_u7",
+ "audio": "audio/basic_c_u07_b.mp3",
+ "duration": 151.78,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hey! Come play with us!",
+   "words": [
+    {
+     "t": "Hey!",
+     "start": 1.1,
+     "end": 14.52
+    },
+    {
+     "t": "Come",
+     "start": 17.2,
+     "end": 17.42
+    },
+    {
+     "t": "play",
+     "start": 17.38,
+     "end": 17.7
+    },
+    {
+     "t": "with",
+     "start": 17.7,
+     "end": 17.96
+    },
+    {
+     "t": "us!",
+     "start": 17.94,
+     "end": 18.34
+    }
+   ],
+   "n": 1,
+   "start": 1.1,
+   "end": 18.34,
+   "pic": "bumpercar"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Come play with us!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 19.3,
+     "end": 19.46
+    },
+    {
+     "t": "play",
+     "start": 19.46,
+     "end": 19.78
+    },
+    {
+     "t": "with",
+     "start": 19.78,
+     "end": 20.02
+    },
+    {
+     "t": "us!",
+     "start": 20.02,
+     "end": 20.46
+    }
+   ],
+   "n": 2,
+   "start": 19.3,
+   "end": 20.46,
+   "pic": "bumpercar"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hooray! I want to play!",
+   "words": [
+    {
+     "t": "Hooray!",
+     "start": 21.62,
+     "end": 22.6
+    },
+    {
+     "t": "I",
+     "start": 23.5,
+     "end": 23.78
+    },
+    {
+     "t": "want",
+     "start": 23.7,
+     "end": 24.06
+    },
+    {
+     "t": "to",
+     "start": 24.11,
+     "end": 24.19
+    },
+    {
+     "t": "play!",
+     "start": 24.06,
+     "end": 24.5
+    }
+   ],
+   "n": 3,
+   "start": 21.62,
+   "end": 24.5,
+   "pic": "bumpercar"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where is the swing?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 25.56,
+     "end": 25.8
+    },
+    {
+     "t": "is",
+     "start": 25.8,
+     "end": 26.04
+    },
+    {
+     "t": "the",
+     "start": 26.04,
+     "end": 26.2
+    },
+    {
+     "t": "swing?",
+     "start": 26.2,
+     "end": 26.66,
+     "pic": "swing"
+    }
+   ],
+   "n": 4,
+   "start": 25.56,
+   "end": 26.66,
+   "pic": "swing"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is there!",
+   "words": [
+    {
+     "t": "It",
+     "start": 27.96,
+     "end": 28.1
+    },
+    {
+     "t": "is",
+     "start": 28.08,
+     "end": 28.28
+    },
+    {
+     "t": "there!",
+     "start": 28.28,
+     "end": 28.86
+    }
+   ],
+   "n": 5,
+   "start": 27.96,
+   "end": 28.86,
+   "pic": "swing"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where is the slide?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 29.62,
+     "end": 29.98
+    },
+    {
+     "t": "is",
+     "start": 29.98,
+     "end": 30.22
+    },
+    {
+     "t": "the",
+     "start": 30.22,
+     "end": 30.36
+    },
+    {
+     "t": "slide?",
+     "start": 30.36,
+     "end": 30.98,
+     "pic": "slide"
+    }
+   ],
+   "n": 6,
+   "start": 29.62,
+   "end": 30.98,
+   "pic": "whereistheslide"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is here!",
+   "words": [
+    {
+     "t": "It",
+     "start": 32.18,
+     "end": 32.39
+    },
+    {
+     "t": "is",
+     "start": 32.41,
+     "end": 32.61
+    },
+    {
+     "t": "here!",
+     "start": 32.63,
+     "end": 33.03
+    }
+   ],
+   "n": 7,
+   "start": 32.18,
+   "end": 33.03,
+   "pic": "whereistheslide"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us! Hooray!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 34.2,
+     "end": 34.5
+    },
+    {
+     "t": "play",
+     "start": 34.54,
+     "end": 35.1
+    },
+    {
+     "t": "with",
+     "start": 35.1,
+     "end": 35.62
+    },
+    {
+     "t": "us!",
+     "start": 35.62,
+     "end": 36.22
+    },
+    {
+     "t": "Hooray!",
+     "start": 36.58,
+     "end": 37.1
+    }
+   ],
+   "n": 8,
+   "start": 34.2,
+   "end": 37.1,
+   "pic": "whereistheslide"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us! Hooray!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 38.32,
+     "end": 38.76
+    },
+    {
+     "t": "play",
+     "start": 38.74,
+     "end": 39.26
+    },
+    {
+     "t": "with",
+     "start": 39.32,
+     "end": 39.8
+    },
+    {
+     "t": "us!",
+     "start": 39.82,
+     "end": 40.26
+    },
+    {
+     "t": "Hooray!",
+     "start": 40.66,
+     "end": 40.99
+    }
+   ],
+   "n": 9,
+   "start": 38.32,
+   "end": 40.99,
+   "pic": "whereistheslide"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is here! It is there!",
+   "words": [
+    {
+     "t": "It",
+     "start": 42.54,
+     "end": 43.08
+    },
+    {
+     "t": "is",
+     "start": 43.06,
+     "end": 43.46
+    },
+    {
+     "t": "here!",
+     "start": 43.48,
+     "end": 44.1
+    },
+    {
+     "t": "It",
+     "start": 44.56,
+     "end": 44.78
+    },
+    {
+     "t": "is",
+     "start": 44.78,
+     "end": 45.0
+    },
+    {
+     "t": "there!",
+     "start": 45.0,
+     "end": 45.55
+    }
+   ],
+   "n": 10,
+   "start": 42.54,
+   "end": 45.55,
+   "pic": "whereistheslide"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 46.7,
+     "end": 47.12
+    },
+    {
+     "t": "play",
+     "start": 47.1,
+     "end": 47.66
+    },
+    {
+     "t": "with",
+     "start": 47.66,
+     "end": 48.16
+    },
+    {
+     "t": "us!",
+     "start": 48.16,
+     "end": 48.7
+    }
+   ],
+   "n": 11,
+   "start": 46.7,
+   "end": 48.7,
+   "pic": "whereistheslide"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where is the playhouse?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 50.26,
+     "end": 50.88
+    },
+    {
+     "t": "is",
+     "start": 50.84,
+     "end": 51.14
+    },
+    {
+     "t": "the",
+     "start": 51.14,
+     "end": 51.3
+    },
+    {
+     "t": "playhouse?",
+     "start": 51.3,
+     "end": 52.24,
+     "pic": "playhouse"
+    }
+   ],
+   "n": 12,
+   "start": 50.26,
+   "end": 52.24,
+   "pic": "playhouse"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is near the sandbox!",
+   "words": [
+    {
+     "t": "It",
+     "start": 52.98,
+     "end": 53.26
+    },
+    {
+     "t": "is",
+     "start": 53.24,
+     "end": 53.52
+    },
+    {
+     "t": "near",
+     "start": 53.52,
+     "end": 54.04
+    },
+    {
+     "t": "the",
+     "start": 54.04,
+     "end": 54.78
+    },
+    {
+     "t": "sandbox!",
+     "start": 54.58,
+     "end": 56.16,
+     "pic": "sandbox"
+    }
+   ],
+   "n": 13,
+   "start": 52.98,
+   "end": 56.16,
+   "pic": "sandbox"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where is the bench?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 56.26,
+     "end": 56.94
+    },
+    {
+     "t": "is",
+     "start": 56.96,
+     "end": 57.34
+    },
+    {
+     "t": "the",
+     "start": 57.36,
+     "end": 57.84
+    },
+    {
+     "t": "bench?",
+     "start": 57.86,
+     "end": 58.66
+    }
+   ],
+   "n": 14,
+   "start": 56.26,
+   "end": 58.66,
+   "pic": "sandbox"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is here!",
+   "words": [
+    {
+     "t": "It",
+     "start": 58.86,
+     "end": 59.56
+    },
+    {
+     "t": "is",
+     "start": 59.56,
+     "end": 59.86
+    },
+    {
+     "t": "here!",
+     "start": 59.84,
+     "end": 60.58
+    }
+   ],
+   "n": 15,
+   "start": 58.86,
+   "end": 60.58,
+   "pic": "sandbox"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Where is the seesaw?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 60.84,
+     "end": 61.28
+    },
+    {
+     "t": "is",
+     "start": 61.28,
+     "end": 61.56
+    },
+    {
+     "t": "the",
+     "start": 61.56,
+     "end": 61.72
+    },
+    {
+     "t": "seesaw?",
+     "start": 61.72,
+     "end": 62.82,
+     "pic": "seesaw"
+    }
+   ],
+   "n": 16,
+   "start": 60.84,
+   "end": 62.82,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is there!",
+   "words": [
+    {
+     "t": "It",
+     "start": 63.98,
+     "end": 64.1
+    },
+    {
+     "t": "is",
+     "start": 64.08,
+     "end": 64.28
+    },
+    {
+     "t": "there!",
+     "start": 64.28,
+     "end": 64.78
+    }
+   ],
+   "n": 17,
+   "start": 63.98,
+   "end": 64.78,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us! Hooray!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 67.64,
+     "end": 67.94
+    },
+    {
+     "t": "play",
+     "start": 67.98,
+     "end": 68.5
+    },
+    {
+     "t": "with",
+     "start": 68.54,
+     "end": 69.04
+    },
+    {
+     "t": "us!",
+     "start": 69.04,
+     "end": 69.72
+    },
+    {
+     "t": "Hooray!",
+     "start": 69.72,
+     "end": 70.21
+    }
+   ],
+   "n": 18,
+   "start": 67.64,
+   "end": 70.21,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us! Hooray!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 71.72,
+     "end": 72.08
+    },
+    {
+     "t": "play",
+     "start": 72.14,
+     "end": 72.7
+    },
+    {
+     "t": "with",
+     "start": 72.72,
+     "end": 73.18
+    },
+    {
+     "t": "us!",
+     "start": 73.22,
+     "end": 73.64
+    },
+    {
+     "t": "Hooray!",
+     "start": 73.9,
+     "end": 74.37
+    }
+   ],
+   "n": 19,
+   "start": 71.72,
+   "end": 74.37,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is here! It is there!",
+   "words": [
+    {
+     "t": "It",
+     "start": 75.97,
+     "end": 76.44
+    },
+    {
+     "t": "is",
+     "start": 76.4,
+     "end": 76.88
+    },
+    {
+     "t": "here!",
+     "start": 76.88,
+     "end": 77.48
+    },
+    {
+     "t": "It",
+     "start": 77.9,
+     "end": 78.18
+    },
+    {
+     "t": "is",
+     "start": 78.18,
+     "end": 78.42
+    },
+    {
+     "t": "there!",
+     "start": 78.42,
+     "end": 78.96
+    }
+   ],
+   "n": 20,
+   "start": 75.97,
+   "end": 78.96,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 79.58,
+     "end": 80.44
+    },
+    {
+     "t": "play",
+     "start": 80.44,
+     "end": 81.06
+    },
+    {
+     "t": "with",
+     "start": 81.06,
+     "end": 81.54
+    },
+    {
+     "t": "us!",
+     "start": 81.54,
+     "end": 81.98
+    }
+   ],
+   "n": 21,
+   "start": 79.58,
+   "end": 81.98,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Bridge",
+   "text": "Here? Here!",
+   "words": [
+    {
+     "t": "Here?",
+     "start": 98.33,
+     "end": 102.98
+    },
+    {
+     "t": "Here!",
+     "start": 104.36,
+     "end": 105.46
+    }
+   ],
+   "n": 22,
+   "start": 98.33,
+   "end": 105.46,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Bridge",
+   "text": "There? There!",
+   "words": [
+    {
+     "t": "There?",
+     "start": 106.9,
+     "end": 109.14
+    },
+    {
+     "t": "There!",
+     "start": 109.6,
+     "end": 111.46
+    }
+   ],
+   "n": 23,
+   "start": 106.9,
+   "end": 111.46,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Bridge",
+   "text": "Let's play!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 112.58,
+     "end": 112.96
+    },
+    {
+     "t": "play!",
+     "start": 112.96,
+     "end": 114.22
+    }
+   ],
+   "n": 24,
+   "start": 112.58,
+   "end": 114.22,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us! Hooray!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 117.95,
+     "end": 118.2
+    },
+    {
+     "t": "play",
+     "start": 118.22,
+     "end": 118.96
+    },
+    {
+     "t": "with",
+     "start": 118.96,
+     "end": 119.38
+    },
+    {
+     "t": "us!",
+     "start": 119.38,
+     "end": 119.82
+    },
+    {
+     "t": "Hooray!",
+     "start": 119.86,
+     "end": 120.78
+    }
+   ],
+   "n": 25,
+   "start": 117.95,
+   "end": 120.78,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us! Hooray!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 121.74,
+     "end": 122.44
+    },
+    {
+     "t": "play",
+     "start": 122.42,
+     "end": 123.02
+    },
+    {
+     "t": "with",
+     "start": 123.02,
+     "end": 123.56
+    },
+    {
+     "t": "us!",
+     "start": 123.55,
+     "end": 124.2
+    },
+    {
+     "t": "Hooray!",
+     "start": 124.2,
+     "end": 125.08
+    }
+   ],
+   "n": 26,
+   "start": 121.74,
+   "end": 125.08,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is here! It is there!",
+   "words": [
+    {
+     "t": "It",
+     "start": 126.26,
+     "end": 126.68
+    },
+    {
+     "t": "is",
+     "start": 126.68,
+     "end": 127.24
+    },
+    {
+     "t": "here!",
+     "start": 127.24,
+     "end": 127.86
+    },
+    {
+     "t": "It",
+     "start": 128.36,
+     "end": 128.6
+    },
+    {
+     "t": "is",
+     "start": 128.56,
+     "end": 128.68
+    },
+    {
+     "t": "there!",
+     "start": 128.78,
+     "end": 129.52
+    }
+   ],
+   "n": 27,
+   "start": 126.26,
+   "end": 129.52,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Chorus",
+   "text": "Come play with us!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 129.56,
+     "end": 130.8
+    },
+    {
+     "t": "play",
+     "start": 130.8,
+     "end": 131.46
+    },
+    {
+     "t": "with",
+     "start": 131.46,
+     "end": 131.9
+    },
+    {
+     "t": "us!",
+     "start": 131.9,
+     "end": 132.32
+    }
+   ],
+   "n": 28,
+   "start": 129.56,
+   "end": 132.32,
+   "pic": "seesaw"
+  },
+  {
+   "section": "Outro",
+   "text": "Come play with us!",
+   "words": [
+    {
+     "t": "Come",
+     "start": 138.88,
+     "end": 139.22
+    },
+    {
+     "t": "play",
+     "start": 139.22,
+     "end": 139.78
+    },
+    {
+     "t": "with",
+     "start": 139.78,
+     "end": 140.24
+    },
+    {
+     "t": "us!",
+     "start": 140.24,
+     "end": 140.6
+    }
+   ],
+   "n": 29,
+   "start": 138.88,
+   "end": 140.6,
+   "pic": "seesaw"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "slide",
+   "prompt": "Where is the slide?",
+   "answer": "It is here!",
+   "choices": [
+    "It is here!",
+    "It is a slide!",
+    "I like slides!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. Where is the ...?",
+   "answer": "swing",
+   "choices": [
+    "swing",
+    "seesaw",
+    "slide"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "playhouse",
+   "prompt": "What is it near?",
+   "answer": "It is near the sandbox!",
+   "choices": [
+    "It is near the sandbox!",
+    "It is near the bench!",
+    "It is near Seoul!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 16,
+   "prompt": "Listen. Where is the ...?",
+   "answer": "seesaw",
+   "choices": [
+    "maze",
+    "seesaw",
+    "sandbox"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "seesaw",
+   "prompt": "What do you ask?",
+   "answer": "Where is the seesaw?",
+   "choices": [
+    "Where is the seesaw?",
+    "Where is the slide?",
+    "Where is the swing?"
+   ]
+  }
+ ]
+}

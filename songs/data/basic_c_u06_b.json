@@ -1,0 +1,888 @@
+{
+ "id": "basic_c_u06_b",
+ "title": "Sorry, It Is Itchy!",
+ "book": "Basic C",
+ "unit": 6,
+ "unitTitle": "Don't Touch Your Arm",
+ "packId": "basic_c_u6",
+ "audio": "audio/basic_c_u06_b.mp3",
+ "duration": 150.19,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Oh, it is itchy!",
+   "words": [
+    {
+     "t": "Oh,",
+     "start": 0.52,
+     "end": 1.28
+    },
+    {
+     "t": "it",
+     "start": 1.6,
+     "end": 1.76
+    },
+    {
+     "t": "is",
+     "start": 1.74,
+     "end": 1.98
+    },
+    {
+     "t": "itchy!",
+     "start": 1.98,
+     "end": 2.54
+    }
+   ],
+   "n": 1,
+   "start": 0.52,
+   "end": 2.54,
+   "pic": "arm"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Don't touch your wrist!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 10.98,
+     "end": 11.38
+    },
+    {
+     "t": "touch",
+     "start": 11.36,
+     "end": 11.56
+    },
+    {
+     "t": "your",
+     "start": 11.64,
+     "end": 12.08
+    },
+    {
+     "t": "wrist!",
+     "start": 12.06,
+     "end": 12.68,
+     "pic": "wrist"
+    }
+   ],
+   "n": 2,
+   "start": 10.98,
+   "end": 12.68,
+   "pic": "wrist"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Sorry, it is itchy!",
+   "words": [
+    {
+     "t": "Sorry,",
+     "start": 13.9,
+     "end": 14.76
+    },
+    {
+     "t": "it",
+     "start": 15.4,
+     "end": 15.66
+    },
+    {
+     "t": "is",
+     "start": 15.68,
+     "end": 16.18
+    },
+    {
+     "t": "itchy!",
+     "start": 16.18,
+     "end": 17.0
+    }
+   ],
+   "n": 3,
+   "start": 13.9,
+   "end": 17.0,
+   "pic": "wrist"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Don't touch your toes!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 18.9,
+     "end": 19.36
+    },
+    {
+     "t": "touch",
+     "start": 19.36,
+     "end": 19.54
+    },
+    {
+     "t": "your",
+     "start": 19.64,
+     "end": 20.12
+    },
+    {
+     "t": "toes!",
+     "start": 20.16,
+     "end": 20.44,
+     "pic": "toe"
+    }
+   ],
+   "n": 4,
+   "start": 18.9,
+   "end": 20.44,
+   "pic": "toe"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Sorry, it is itchy!",
+   "words": [
+    {
+     "t": "Sorry,",
+     "start": 20.76,
+     "end": 21.24
+    },
+    {
+     "t": "it",
+     "start": 21.42,
+     "end": 21.68
+    },
+    {
+     "t": "is",
+     "start": 21.68,
+     "end": 21.9
+    },
+    {
+     "t": "itchy!",
+     "start": 21.9,
+     "end": 22.42
+    }
+   ],
+   "n": 5,
+   "start": 20.76,
+   "end": 22.42,
+   "pic": "toe"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Don't touch your ear!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 22.85,
+     "end": 23.3
+    },
+    {
+     "t": "touch",
+     "start": 23.34,
+     "end": 23.62
+    },
+    {
+     "t": "your",
+     "start": 23.58,
+     "end": 24.1
+    },
+    {
+     "t": "ear!",
+     "start": 24.14,
+     "end": 24.74,
+     "pic": "ear"
+    }
+   ],
+   "n": 6,
+   "start": 22.85,
+   "end": 24.74,
+   "pic": "ear"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Sorry, it is itchy!",
+   "words": [
+    {
+     "t": "Sorry,",
+     "start": 26.1,
+     "end": 26.86
+    },
+    {
+     "t": "it",
+     "start": 26.91,
+     "end": 27.29
+    },
+    {
+     "t": "is",
+     "start": 27.32,
+     "end": 27.69
+    },
+    {
+     "t": "itchy!",
+     "start": 27.72,
+     "end": 28.1
+    }
+   ],
+   "n": 7,
+   "start": 26.1,
+   "end": 28.1,
+   "pic": "ear"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! Sorry! It is itchy!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 28.28,
+     "end": 28.78
+    },
+    {
+     "t": "Sorry!",
+     "start": 28.83,
+     "end": 29.25
+    },
+    {
+     "t": "It",
+     "start": 30.05,
+     "end": 30.26
+    },
+    {
+     "t": "is",
+     "start": 30.26,
+     "end": 30.58
+    },
+    {
+     "t": "itchy!",
+     "start": 30.58,
+     "end": 31.06
+    }
+   ],
+   "n": 8,
+   "start": 28.28,
+   "end": 31.06,
+   "pic": "ear"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't touch! Don't touch!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 31.76,
+     "end": 32.46
+    },
+    {
+     "t": "touch!",
+     "start": 32.48,
+     "end": 32.88
+    },
+    {
+     "t": "Don't",
+     "start": 33.18,
+     "end": 33.56
+    },
+    {
+     "t": "touch!",
+     "start": 33.56,
+     "end": 34.1
+    }
+   ],
+   "n": 9,
+   "start": 31.76,
+   "end": 34.1,
+   "pic": "ear"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! Sorry! It is itchy!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 34.58,
+     "end": 34.86
+    },
+    {
+     "t": "Sorry!",
+     "start": 36.24,
+     "end": 36.9
+    },
+    {
+     "t": "It",
+     "start": 38.05,
+     "end": 38.24
+    },
+    {
+     "t": "is",
+     "start": 38.26,
+     "end": 38.56
+    },
+    {
+     "t": "itchy!",
+     "start": 38.56,
+     "end": 39.04
+    }
+   ],
+   "n": 10,
+   "start": 34.58,
+   "end": 39.04,
+   "pic": "ear"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay! That's okay!",
+   "words": [
+    {
+     "t": "Okay!",
+     "start": 39.26,
+     "end": 39.91
+    },
+    {
+     "t": "That's",
+     "start": 40.76,
+     "end": 41.28
+    },
+    {
+     "t": "okay!",
+     "start": 41.28,
+     "end": 41.9
+    }
+   ],
+   "n": 11,
+   "start": 39.26,
+   "end": 41.9,
+   "pic": "ear"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Don't touch your arm!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 43.02,
+     "end": 43.46
+    },
+    {
+     "t": "touch",
+     "start": 43.55,
+     "end": 43.68
+    },
+    {
+     "t": "your",
+     "start": 43.76,
+     "end": 44.26
+    },
+    {
+     "t": "arm!",
+     "start": 44.26,
+     "end": 44.94,
+     "pic": "arm"
+    }
+   ],
+   "n": 12,
+   "start": 43.02,
+   "end": 44.94,
+   "pic": "donttouchyourarm"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 46.1,
+     "end": 46.94
+    }
+   ],
+   "n": 13,
+   "start": 46.1,
+   "end": 46.94,
+   "pic": "donttouchyourarm"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Don't touch your leg!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 51.04,
+     "end": 51.48
+    },
+    {
+     "t": "touch",
+     "start": 51.48,
+     "end": 51.68
+    },
+    {
+     "t": "your",
+     "start": 51.76,
+     "end": 52.16
+    },
+    {
+     "t": "leg!",
+     "start": 52.16,
+     "end": 52.82,
+     "pic": "leg"
+    }
+   ],
+   "n": 14,
+   "start": 51.04,
+   "end": 52.82,
+   "pic": "leg"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 53.74,
+     "end": 53.92
+    }
+   ],
+   "n": 15,
+   "start": 52.92,
+   "end": 53.52,
+   "pic": "leg"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Don't touch your face!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 54.98,
+     "end": 55.48
+    },
+    {
+     "t": "touch",
+     "start": 55.46,
+     "end": 55.78
+    },
+    {
+     "t": "your",
+     "start": 55.72,
+     "end": 56.18
+    },
+    {
+     "t": "face!",
+     "start": 56.18,
+     "end": 57.04,
+     "pic": "face"
+    }
+   ],
+   "n": 16,
+   "start": 54.98,
+   "end": 57.04,
+   "pic": "face"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 58.42,
+     "end": 58.92
+    }
+   ],
+   "n": 17,
+   "start": 58.42,
+   "end": 58.92,
+   "pic": "face"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! Sorry! It is itchy!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 60.0,
+     "end": 60.92
+    },
+    {
+     "t": "Sorry!",
+     "start": 60.97,
+     "end": 61.39
+    },
+    {
+     "t": "It",
+     "start": 62.04,
+     "end": 62.28
+    },
+    {
+     "t": "is",
+     "start": 62.28,
+     "end": 62.54
+    },
+    {
+     "t": "itchy!",
+     "start": 62.58,
+     "end": 63.02
+    }
+   ],
+   "n": 18,
+   "start": 60.0,
+   "end": 63.02,
+   "pic": "face"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't touch! Don't touch!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 63.98,
+     "end": 64.46
+    },
+    {
+     "t": "touch!",
+     "start": 64.48,
+     "end": 64.98
+    },
+    {
+     "t": "Don't",
+     "start": 65.24,
+     "end": 65.58
+    },
+    {
+     "t": "touch!",
+     "start": 65.58,
+     "end": 66.02
+    }
+   ],
+   "n": 19,
+   "start": 63.98,
+   "end": 66.02,
+   "pic": "face"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! Sorry! It is itchy!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 66.44,
+     "end": 66.92
+    },
+    {
+     "t": "Sorry!",
+     "start": 68.3,
+     "end": 68.61
+    },
+    {
+     "t": "It",
+     "start": 70.12,
+     "end": 70.3
+    },
+    {
+     "t": "is",
+     "start": 70.28,
+     "end": 70.54
+    },
+    {
+     "t": "itchy!",
+     "start": 70.56,
+     "end": 71.02
+    }
+   ],
+   "n": 20,
+   "start": 66.44,
+   "end": 71.02,
+   "pic": "face"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay! That's okay!",
+   "words": [
+    {
+     "t": "Okay!",
+     "start": 71.32,
+     "end": 71.82
+    },
+    {
+     "t": "That's",
+     "start": 72.8,
+     "end": 73.3
+    },
+    {
+     "t": "okay!",
+     "start": 73.28,
+     "end": 74.14
+    }
+   ],
+   "n": 21,
+   "start": 71.32,
+   "end": 74.14,
+   "pic": "face"
+  },
+  {
+   "section": "Bridge",
+   "text": "Itchy arm! Itchy leg!",
+   "words": [
+    {
+     "t": "Itchy",
+     "start": 75.68,
+     "end": 76.12
+    },
+    {
+     "t": "arm!",
+     "start": 76.12,
+     "end": 77.06,
+     "pic": "arm"
+    },
+    {
+     "t": "Itchy",
+     "start": 77.64,
+     "end": 78.22
+    },
+    {
+     "t": "leg!",
+     "start": 78.22,
+     "end": 79.54,
+     "pic": "leg"
+    }
+   ],
+   "n": 22,
+   "start": 75.68,
+   "end": 79.54,
+   "pic": "arm"
+  },
+  {
+   "section": "Bridge",
+   "text": "Itchy face! Don't touch!",
+   "words": [
+    {
+     "t": "Itchy",
+     "start": 83.5,
+     "end": 84.06
+    },
+    {
+     "t": "face!",
+     "start": 84.04,
+     "end": 85.62,
+     "pic": "face"
+    },
+    {
+     "t": "Don't",
+     "start": 86.08,
+     "end": 86.5
+    },
+    {
+     "t": "touch!",
+     "start": 86.5,
+     "end": 88.02
+    }
+   ],
+   "n": 23,
+   "start": 83.5,
+   "end": 88.02,
+   "pic": "face"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! Sorry! It is itchy!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 90.26,
+     "end": 90.88
+    },
+    {
+     "t": "Sorry!",
+     "start": 92.14,
+     "end": 92.94
+    },
+    {
+     "t": "It",
+     "start": 94.04,
+     "end": 94.28
+    },
+    {
+     "t": "is",
+     "start": 94.28,
+     "end": 94.58
+    },
+    {
+     "t": "itchy!",
+     "start": 94.6,
+     "end": 95.04
+    }
+   ],
+   "n": 24,
+   "start": 90.26,
+   "end": 95.04,
+   "pic": "face"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't touch! Don't touch!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 96.06,
+     "end": 96.46
+    },
+    {
+     "t": "touch!",
+     "start": 96.44,
+     "end": 96.98
+    },
+    {
+     "t": "Don't",
+     "start": 97.22,
+     "end": 97.52
+    },
+    {
+     "t": "touch!",
+     "start": 97.52,
+     "end": 98.06
+    }
+   ],
+   "n": 25,
+   "start": 96.06,
+   "end": 98.06,
+   "pic": "face"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sorry! Sorry! It is itchy!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 98.58,
+     "end": 98.92
+    },
+    {
+     "t": "Sorry!",
+     "start": 100.3,
+     "end": 100.94
+    },
+    {
+     "t": "It",
+     "start": 102.02,
+     "end": 102.28
+    },
+    {
+     "t": "is",
+     "start": 102.26,
+     "end": 102.54
+    },
+    {
+     "t": "itchy!",
+     "start": 102.58,
+     "end": 103.02
+    }
+   ],
+   "n": 26,
+   "start": 98.58,
+   "end": 103.02,
+   "pic": "face"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay! That's okay!",
+   "words": [
+    {
+     "t": "Okay!",
+     "start": 103.28,
+     "end": 103.96
+    },
+    {
+     "t": "That's",
+     "start": 104.78,
+     "end": 105.3
+    },
+    {
+     "t": "okay!",
+     "start": 105.3,
+     "end": 105.78
+    }
+   ],
+   "n": 27,
+   "start": 103.28,
+   "end": 105.78,
+   "pic": "face"
+  },
+  {
+   "section": "Outro",
+   "text": "Sorry! It is itchy!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 131.73,
+     "end": 133.38
+    },
+    {
+     "t": "It",
+     "start": 134.6,
+     "end": 134.78
+    },
+    {
+     "t": "is",
+     "start": 134.78,
+     "end": 135.08
+    },
+    {
+     "t": "itchy!",
+     "start": 135.13,
+     "end": 135.55
+    }
+   ],
+   "n": 28,
+   "start": 131.73,
+   "end": 135.55,
+   "pic": "face"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "wrist",
+   "prompt": "Don't touch your ...",
+   "answer": "wrist",
+   "choices": [
+    "wrist",
+    "toe",
+    "ear"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 12,
+   "prompt": "Listen. Don't touch your ...",
+   "answer": "arm",
+   "choices": [
+    "arm",
+    "leg",
+    "face"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "face",
+   "prompt": "What does Mr. Jay say?",
+   "answer": "Don't touch your face!",
+   "choices": [
+    "Don't touch your face!",
+    "Don't touch your leg!",
+    "Don't touch your ear!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 14,
+   "prompt": "Listen. Don't touch your ...",
+   "answer": "leg",
+   "choices": [
+    "knee",
+    "leg",
+    "back"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "toe",
+   "prompt": "Don't touch your toes!",
+   "answer": "Sorry, it is itchy!",
+   "choices": [
+    "Sorry, it is itchy!",
+    "Look at my new hat!",
+    "I want a new bike!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,988 @@
+{
+ "id": "basic_c_u03_a",
+ "title": "See You Monday!",
+ "book": "Basic C",
+ "unit": 3,
+ "unitTitle": "Classroom English Three",
+ "packId": "basic_c_u3",
+ "audio": "audio/basic_c_u03_a.mp3",
+ "duration": 150.7,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Bye, everybody!",
+   "words": [
+    {
+     "t": "Bye,",
+     "start": 15.9,
+     "end": 16.82
+    },
+    {
+     "t": "everybody!",
+     "start": 16.82,
+     "end": 17.94
+    }
+   ],
+   "n": 1,
+   "start": 15.9,
+   "end": 17.94,
+   "pic": "know"
+  },
+  {
+   "section": "Verse 1",
+   "text": "See you Monday!",
+   "words": [
+    {
+     "t": "See",
+     "start": 19.16,
+     "end": 19.36
+    },
+    {
+     "t": "you",
+     "start": 19.36,
+     "end": 19.56
+    },
+    {
+     "t": "Monday!",
+     "start": 19.56,
+     "end": 20.06,
+     "pic": "monday"
+    }
+   ],
+   "n": 2,
+   "start": 19.16,
+   "end": 20.06,
+   "pic": "monday"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Have a good weekend!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 21.18,
+     "end": 21.4
+    },
+    {
+     "t": "a",
+     "start": 21.42,
+     "end": 21.52
+    },
+    {
+     "t": "good",
+     "start": 21.54,
+     "end": 21.76
+    },
+    {
+     "t": "weekend!",
+     "start": 21.78,
+     "end": 22.18
+    }
+   ],
+   "n": 3,
+   "start": 21.18,
+   "end": 22.18,
+   "pic": "monday"
+  },
+  {
+   "section": "Verse 1",
+   "text": "See you tomorrow!",
+   "words": [
+    {
+     "t": "See",
+     "start": 24.7,
+     "end": 25.06
+    },
+    {
+     "t": "you",
+     "start": 25.06,
+     "end": 25.52
+    },
+    {
+     "t": "tomorrow!",
+     "start": 25.52,
+     "end": 26.18,
+     "pic": "tomorrow"
+    }
+   ],
+   "n": 4,
+   "start": 24.7,
+   "end": 26.18,
+   "pic": "tomorrow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "See you tomorrow!",
+   "words": [
+    {
+     "t": "See",
+     "start": 26.88,
+     "end": 27.1
+    },
+    {
+     "t": "you",
+     "start": 27.1,
+     "end": 27.58
+    },
+    {
+     "t": "tomorrow!",
+     "start": 27.58,
+     "end": 28.24,
+     "pic": "tomorrow"
+    }
+   ],
+   "n": 5,
+   "start": 26.88,
+   "end": 28.24,
+   "pic": "tomorrow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Thank you!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 29.38,
+     "end": 29.66
+    },
+    {
+     "t": "you!",
+     "start": 29.66,
+     "end": 29.94
+    }
+   ],
+   "n": 6,
+   "start": 29.38,
+   "end": 29.94,
+   "pic": "tomorrow"
+  },
+  {
+   "section": "Verse 1",
+   "text": "You are welcome!",
+   "words": [
+    {
+     "t": "You",
+     "start": 30.96,
+     "end": 31.36
+    },
+    {
+     "t": "are",
+     "start": 31.36,
+     "end": 31.92
+    },
+    {
+     "t": "welcome!",
+     "start": 31.92,
+     "end": 32.8,
+     "pic": "welcome"
+    }
+   ],
+   "n": 7,
+   "start": 30.96,
+   "end": 32.8,
+   "pic": "welcome"
+  },
+  {
+   "section": "Chorus",
+   "text": "See you Monday! See you Monday!",
+   "words": [
+    {
+     "t": "See",
+     "start": 35.0,
+     "end": 35.32
+    },
+    {
+     "t": "you",
+     "start": 35.32,
+     "end": 35.62
+    },
+    {
+     "t": "Monday!",
+     "start": 35.62,
+     "end": 36.42,
+     "pic": "monday"
+    },
+    {
+     "t": "See",
+     "start": 36.47,
+     "end": 36.66
+    },
+    {
+     "t": "you",
+     "start": 36.69,
+     "end": 36.87
+    },
+    {
+     "t": "Monday!",
+     "start": 36.9,
+     "end": 37.09,
+     "pic": "monday"
+    }
+   ],
+   "n": 8,
+   "start": 35.0,
+   "end": 37.09,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a good weekend! Have a good weekend!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 37.18,
+     "end": 37.71
+    },
+    {
+     "t": "a",
+     "start": 37.73,
+     "end": 37.99
+    },
+    {
+     "t": "good",
+     "start": 38.01,
+     "end": 38.54
+    },
+    {
+     "t": "weekend!",
+     "start": 38.56,
+     "end": 39.46
+    },
+    {
+     "t": "Have",
+     "start": 39.48,
+     "end": 40.02
+    },
+    {
+     "t": "a",
+     "start": 40.04,
+     "end": 40.29
+    },
+    {
+     "t": "good",
+     "start": 40.31,
+     "end": 40.85
+    },
+    {
+     "t": "weekend!",
+     "start": 40.87,
+     "end": 41.79
+    }
+   ],
+   "n": 9,
+   "start": 37.18,
+   "end": 41.79,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Bye, bye! See you Monday!",
+   "words": [
+    {
+     "t": "Bye,",
+     "start": 43.38,
+     "end": 43.62
+    },
+    {
+     "t": "bye!",
+     "start": 43.62,
+     "end": 44.52
+    },
+    {
+     "t": "See",
+     "start": 45.44,
+     "end": 45.64
+    },
+    {
+     "t": "you",
+     "start": 45.64,
+     "end": 46.0
+    },
+    {
+     "t": "Monday!",
+     "start": 46.0,
+     "end": 46.28,
+     "pic": "monday"
+    }
+   ],
+   "n": 10,
+   "start": 43.38,
+   "end": 46.28,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a good weekend!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 46.36,
+     "end": 46.6
+    },
+    {
+     "t": "a",
+     "start": 46.6,
+     "end": 46.72
+    },
+    {
+     "t": "good",
+     "start": 46.72,
+     "end": 46.94
+    },
+    {
+     "t": "weekend!",
+     "start": 46.94,
+     "end": 47.54
+    }
+   ],
+   "n": 11,
+   "start": 46.36,
+   "end": 47.54,
+   "pic": "monday"
+  },
+  {
+   "section": "Verse 2",
+   "text": "May I start?",
+   "words": [
+    {
+     "t": "May",
+     "start": 51.46,
+     "end": 51.9
+    },
+    {
+     "t": "I",
+     "start": 51.9,
+     "end": 52.44
+    },
+    {
+     "t": "start?",
+     "start": 52.44,
+     "end": 53.28,
+     "pic": "start"
+    }
+   ],
+   "n": 12,
+   "start": 51.46,
+   "end": 53.28,
+   "pic": "mayistart"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sure! You can start now!",
+   "words": [
+    {
+     "t": "Sure!",
+     "start": 54.0,
+     "end": 54.84
+    },
+    {
+     "t": "You",
+     "start": 56.18,
+     "end": 56.38
+    },
+    {
+     "t": "can",
+     "start": 56.38,
+     "end": 56.68
+    },
+    {
+     "t": "start",
+     "start": 56.74,
+     "end": 57.1,
+     "pic": "start"
+    },
+    {
+     "t": "now!",
+     "start": 57.1,
+     "end": 58.0
+    }
+   ],
+   "n": 13,
+   "start": 54.0,
+   "end": 58.0,
+   "pic": "start"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Please test me!",
+   "words": [
+    {
+     "t": "Please",
+     "start": 59.78,
+     "end": 60.22
+    },
+    {
+     "t": "test",
+     "start": 60.22,
+     "end": 60.72,
+     "pic": "test"
+    },
+    {
+     "t": "me!",
+     "start": 60.72,
+     "end": 61.2
+    }
+   ],
+   "n": 14,
+   "start": 59.78,
+   "end": 61.2,
+   "pic": "test"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Okay, please wait a minute!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 61.64,
+     "end": 61.9
+    },
+    {
+     "t": "please",
+     "start": 62.14,
+     "end": 62.32
+    },
+    {
+     "t": "wait",
+     "start": 62.32,
+     "end": 62.54
+    },
+    {
+     "t": "a",
+     "start": 62.54,
+     "end": 62.74
+    },
+    {
+     "t": "minute!",
+     "start": 62.74,
+     "end": 62.88
+    }
+   ],
+   "n": 15,
+   "start": 61.3,
+   "end": 64.3,
+   "pic": "test"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Report!",
+   "words": [
+    {
+     "t": "Report!",
+     "start": 63.98,
+     "end": 64.3,
+     "pic": "report"
+    }
+   ],
+   "n": 16,
+   "start": 63.98,
+   "end": 64.3,
+   "pic": "report"
+  },
+  {
+   "section": "Verse 2",
+   "text": "One hundred percent!",
+   "words": [
+    {
+     "t": "One",
+     "start": 63.8,
+     "end": 64.29
+    },
+    {
+     "t": "hundred",
+     "start": 64.34,
+     "end": 65.22
+    },
+    {
+     "t": "percent!",
+     "start": 65.32,
+     "end": 66.29
+    }
+   ],
+   "n": 17,
+   "start": 63.8,
+   "end": 66.29,
+   "pic": "report"
+  },
+  {
+   "section": "Chorus",
+   "text": "See you Monday! See you Monday!",
+   "words": [
+    {
+     "t": "See",
+     "start": 68.08,
+     "end": 68.22
+    },
+    {
+     "t": "you",
+     "start": 68.22,
+     "end": 68.6
+    },
+    {
+     "t": "Monday!",
+     "start": 68.6,
+     "end": 69.08,
+     "pic": "monday"
+    },
+    {
+     "t": "See",
+     "start": 69.13,
+     "end": 69.51
+    },
+    {
+     "t": "you",
+     "start": 69.54,
+     "end": 69.91
+    },
+    {
+     "t": "Monday!",
+     "start": 69.94,
+     "end": 70.32,
+     "pic": "monday"
+    }
+   ],
+   "n": 18,
+   "start": 68.08,
+   "end": 70.32,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a good weekend! Have a good weekend!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 70.5,
+     "end": 71.05
+    },
+    {
+     "t": "a",
+     "start": 71.07,
+     "end": 71.34
+    },
+    {
+     "t": "good",
+     "start": 71.36,
+     "end": 71.91
+    },
+    {
+     "t": "weekend!",
+     "start": 71.93,
+     "end": 72.86
+    },
+    {
+     "t": "Have",
+     "start": 72.88,
+     "end": 73.44
+    },
+    {
+     "t": "a",
+     "start": 73.46,
+     "end": 73.72
+    },
+    {
+     "t": "good",
+     "start": 73.74,
+     "end": 74.3
+    },
+    {
+     "t": "weekend!",
+     "start": 74.32,
+     "end": 75.27
+    }
+   ],
+   "n": 19,
+   "start": 70.5,
+   "end": 75.27,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Bye, bye! See you Monday!",
+   "words": [
+    {
+     "t": "Bye,",
+     "start": 75.4,
+     "end": 75.91
+    },
+    {
+     "t": "bye!",
+     "start": 75.96,
+     "end": 76.47
+    },
+    {
+     "t": "See",
+     "start": 76.52,
+     "end": 76.94
+    },
+    {
+     "t": "you",
+     "start": 76.99,
+     "end": 77.41
+    },
+    {
+     "t": "Monday!",
+     "start": 77.46,
+     "end": 78.22,
+     "pic": "monday"
+    }
+   ],
+   "n": 20,
+   "start": 75.4,
+   "end": 78.22,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a good weekend!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 78.4,
+     "end": 79.5
+    },
+    {
+     "t": "a",
+     "start": 79.5,
+     "end": 79.7
+    },
+    {
+     "t": "good",
+     "start": 79.7,
+     "end": 79.9
+    },
+    {
+     "t": "weekend!",
+     "start": 79.9,
+     "end": 80.76
+    }
+   ],
+   "n": 21,
+   "start": 78.4,
+   "end": 80.76,
+   "pic": "monday"
+  },
+  {
+   "section": "Bridge",
+   "text": "Hey! It is okay!",
+   "words": [
+    {
+     "t": "Hey!",
+     "start": 84.66,
+     "end": 85.24
+    },
+    {
+     "t": "It",
+     "start": 87.46,
+     "end": 87.64
+    },
+    {
+     "t": "is",
+     "start": 87.64,
+     "end": 87.98
+    },
+    {
+     "t": "okay!",
+     "start": 87.98,
+     "end": 88.82
+    }
+   ],
+   "n": 22,
+   "start": 84.66,
+   "end": 88.82,
+   "pic": "monday"
+  },
+  {
+   "section": "Bridge",
+   "text": "It is okay!",
+   "words": [
+    {
+     "t": "It",
+     "start": 91.48,
+     "end": 91.76
+    },
+    {
+     "t": "is",
+     "start": 91.76,
+     "end": 92.08
+    },
+    {
+     "t": "okay!",
+     "start": 92.08,
+     "end": 92.88
+    }
+   ],
+   "n": 23,
+   "start": 91.48,
+   "end": 92.88,
+   "pic": "monday"
+  },
+  {
+   "section": "Bridge",
+   "text": "You are welcome!",
+   "words": [
+    {
+     "t": "You",
+     "start": 96.32,
+     "end": 96.64
+    },
+    {
+     "t": "are",
+     "start": 96.64,
+     "end": 97.38
+    },
+    {
+     "t": "welcome!",
+     "start": 97.38,
+     "end": 99.0,
+     "pic": "welcome"
+    }
+   ],
+   "n": 24,
+   "start": 96.32,
+   "end": 99.0,
+   "pic": "welcome"
+  },
+  {
+   "section": "Chorus",
+   "text": "See you Monday! See you Monday!",
+   "words": [
+    {
+     "t": "See",
+     "start": 105.32,
+     "end": 106.46
+    },
+    {
+     "t": "you",
+     "start": 106.46,
+     "end": 106.64
+    },
+    {
+     "t": "Monday!",
+     "start": 106.64,
+     "end": 109.49,
+     "pic": "monday"
+    },
+    {
+     "t": "See",
+     "start": 109.54,
+     "end": 109.96
+    },
+    {
+     "t": "you",
+     "start": 109.99,
+     "end": 110.41
+    },
+    {
+     "t": "Monday!",
+     "start": 110.44,
+     "end": 110.86,
+     "pic": "monday"
+    }
+   ],
+   "n": 25,
+   "start": 105.32,
+   "end": 110.86,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a good weekend! Have a good weekend!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 111.26,
+     "end": 111.86
+    },
+    {
+     "t": "a",
+     "start": 111.88,
+     "end": 112.17
+    },
+    {
+     "t": "good",
+     "start": 112.19,
+     "end": 112.79
+    },
+    {
+     "t": "weekend!",
+     "start": 112.81,
+     "end": 113.83
+    },
+    {
+     "t": "Have",
+     "start": 113.85,
+     "end": 114.45
+    },
+    {
+     "t": "a",
+     "start": 114.47,
+     "end": 114.76
+    },
+    {
+     "t": "good",
+     "start": 114.78,
+     "end": 115.38
+    },
+    {
+     "t": "weekend!",
+     "start": 115.4,
+     "end": 116.44
+    }
+   ],
+   "n": 26,
+   "start": 111.26,
+   "end": 116.44,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Bye, bye! See you Monday!",
+   "words": [
+    {
+     "t": "Bye,",
+     "start": 117.28,
+     "end": 117.86
+    },
+    {
+     "t": "bye!",
+     "start": 117.86,
+     "end": 118.76
+    },
+    {
+     "t": "See",
+     "start": 119.52,
+     "end": 119.74
+    },
+    {
+     "t": "you",
+     "start": 119.74,
+     "end": 120.02
+    },
+    {
+     "t": "Monday!",
+     "start": 120.07,
+     "end": 120.15,
+     "pic": "monday"
+    }
+   ],
+   "n": 27,
+   "start": 117.28,
+   "end": 120.15,
+   "pic": "monday"
+  },
+  {
+   "section": "Chorus",
+   "text": "Have a good weekend!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 119.94,
+     "end": 120.7
+    },
+    {
+     "t": "a",
+     "start": 120.7,
+     "end": 120.84
+    },
+    {
+     "t": "good",
+     "start": 120.84,
+     "end": 121.1
+    },
+    {
+     "t": "weekend!",
+     "start": 121.1,
+     "end": 121.88
+    }
+   ],
+   "n": 28,
+   "start": 119.94,
+   "end": 121.88,
+   "pic": "monday"
+  },
+  {
+   "section": "Outro",
+   "text": "See you Monday!",
+   "words": [
+    {
+     "t": "See",
+     "start": 125.8,
+     "end": 125.98
+    },
+    {
+     "t": "you",
+     "start": 125.98,
+     "end": 126.24
+    },
+    {
+     "t": "Monday!",
+     "start": 126.24,
+     "end": 126.7,
+     "pic": "monday"
+    }
+   ],
+   "n": 29,
+   "start": 125.8,
+   "end": 126.7,
+   "pic": "monday"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "monday",
+   "prompt": "It is Friday. Bye!",
+   "answer": "See you Monday!",
+   "choices": [
+    "See you Monday!",
+    "Good morning!",
+    "Spell it!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "mayistart",
+   "prompt": "Can I begin?",
+   "answer": "May I start?",
+   "choices": [
+    "May I start?",
+    "May I spell?",
+    "May I report?"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. See you ...",
+   "answer": "tomorrow",
+   "choices": [
+    "tomorrow",
+    "monday",
+    "test"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "test",
+   "prompt": "Please ... me!",
+   "answer": "test",
+   "choices": [
+    "test",
+    "start",
+    "mean"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "welcome",
+   "prompt": "Thank you!",
+   "answer": "You are welcome!",
+   "choices": [
+    "You are welcome!",
+    "See you Monday!",
+    "May I start?"
+   ]
+  }
+ ]
+}
