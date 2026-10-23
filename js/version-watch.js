@@ -4,10 +4,13 @@
   var LOCAL_BUILD = root.WM_BUILD_ID || "";
   var CHECK_MS = 3 * 60 * 1000;
   var timer = null;
+  var cur = root.document && root.document.currentScript;
+  var BASE = "version.json";
+  try { if (cur && cur.src) BASE = new URL("../version.json", cur.src).href; } catch (e) {}
 
   function check() {
     if (!LOCAL_BUILD) return;
-    var url = "version.json?_=" + Date.now();
+    var url = BASE + "?_=" + Date.now();
     fetch(url, { cache: "no-store" })
       .then(function (res) { return res.json(); })
       .then(function (data) {
