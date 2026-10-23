@@ -25,12 +25,12 @@
    "pic": "../packs/basic_a_u1/five.jpg",
    "choices": [
     "I have five apples.",
-    "I have six apples."
+    "I can run fast."
    ],
    "answer": "I have five apples.",
    "aud": {
     "I have five apples.": "audio/basic_a_u1/ai/ihavefiveapples.mp3",
-    "I have six apples.": "audio/basic_a_u1/ai/ihavesixapples.mp3"
+    "I can run fast.": "audio/basic_a_u7/ai/icanrunfast.mp3"
    }
   },
   {
@@ -127,12 +127,12 @@
    "pic": "../packs/basic_a_u2/cat.jpg",
    "choices": [
     "Hello, Mr. Cat.",
-    "Hello, Mr. Cow."
+    "I have six apples."
    ],
    "answer": "Hello, Mr. Cat.",
    "aud": {
     "Hello, Mr. Cat.": "audio/basic_a_u2/ai/hellomrcat.mp3",
-    "Hello, Mr. Cow.": "audio/basic_a_u2/ai/hellomrcow.mp3"
+    "I have six apples.": "audio/basic_a_u1/ai/ihavesixapples.mp3"
    }
   },
   {
@@ -146,13 +146,13 @@
    },
    "pic": "../packs/basic_a_u3/tab.jpg",
    "choices": [
-    "Okay. I am typing my ID.",
-    "Okay. I am making a new tab."
+    "Okay. I am making a new tab.",
+    "This is my dad."
    ],
    "answer": "Okay. I am making a new tab.",
    "aud": {
-    "Okay. I am typing my ID.": "audio/basic_a_u3/ai/okayiamtypingmyid.mp3",
-    "Okay. I am making a new tab.": "audio/basic_a_u3/ai/okayiammakinganewtab.mp3"
+    "Okay. I am making a new tab.": "audio/basic_a_u3/ai/okayiammakinganewtab.mp3",
+    "This is my dad.": "audio/basic_a_u5/ai/thisismydad.mp3"
    }
   },
   {

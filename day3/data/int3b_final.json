@@ -122,13 +122,15 @@
    },
    "pic": "../packs/int3b_u3/higher.jpg",
    "choices": [
-    "Quieter please.",
-    "Higher please."
+    "Higher please.",
+    "I am in second grade.",
+    "It is a flute."
    ],
    "answer": "Higher please.",
    "aud": {
-    "Quieter please.": "audio/int3b_u3/ai/quieterplease.mp3",
-    "Higher please.": "audio/int3b_u3/ai/higherplease.mp3"
+    "Higher please.": "audio/int3b_u3/ai/higherplease.mp3",
+    "I am in second grade.": "audio/int3b_u1/ai/iaminsecondgrade.mp3",
+    "It is a flute.": "audio/int3b_u2/ai/itisaflute.mp3"
    }
   },
   {
@@ -169,12 +171,14 @@
    "pic": "../packs/int3b_u1/third.jpg",
    "choices": [
     "I am in third grade.",
-    "I am in fifth grade."
+    "It is a drum.",
+    "They are mangoes."
    ],
    "answer": "I am in third grade.",
    "aud": {
     "I am in third grade.": "audio/int3b_u1/ai/iaminthirdgrade.mp3",
-    "I am in fifth grade.": "audio/int3b_u1/ai/iaminfifthgrade.mp3"
+    "It is a drum.": "audio/int3b_u2/ai/itisadrum.mp3",
+    "They are mangoes.": "audio/int3b_u6/ai/theyaremangoes.mp3"
    }
   },
   {
@@ -237,13 +241,15 @@
    },
    "pic": "../packs/int3b_u6/apple.jpg",
    "choices": [
-    "They are durians.",
-    "They are apples."
+    "They are apples.",
+    "I am in kindergarten.",
+    "Don't forget your money."
    ],
    "answer": "They are apples.",
    "aud": {
-    "They are durians.": "audio/int3b_u6/ai/theyaredurians.mp3",
-    "They are apples.": "audio/int3b_u6/ai/theyareapples.mp3"
+    "They are apples.": "audio/int3b_u6/ai/theyareapples.mp3",
+    "I am in kindergarten.": "audio/int3b_u1/ai/iaminkindergarten.mp3",
+    "Don't forget your money.": "audio/int3b_u7/ai/dontforgetyourmoney.mp3"
    }
   },
   {
@@ -295,13 +301,15 @@
    },
    "pic": "../packs/int3b_u4/grandmother.jpg",
    "choices": [
-    "She is my mom.",
-    "She is my grandmother."
+    "She is my grandmother.",
+    "They are pineapples.",
+    "Hurry up, please!"
    ],
    "answer": "She is my grandmother.",
    "aud": {
-    "She is my mom.": "audio/int3b_u4/ai/sheismymom.mp3",
-    "She is my grandmother.": "audio/int3b_u4/ai/sheismygrandmother.mp3"
+    "She is my grandmother.": "audio/int3b_u4/ai/sheismygrandmother.mp3",
+    "They are pineapples.": "audio/int3b_u6/ai/theyarepineapples.mp3",
+    "Hurry up, please!": "audio/int3b_u5/ai/hurryupplease.mp3"
    }
   },
   {

@@ -148,12 +148,12 @@
    "pic": "../packs/basic_c_u3/start.jpg",
    "choices": [
     "Yes, you may start.",
-    "You are welcome."
+    "We can see Seoul."
    ],
    "answer": "Yes, you may start.",
    "aud": {
     "Yes, you may start.": "audio/basic_c_u3/ai/yesyoumaystart.mp3",
-    "You are welcome.": "audio/basic_c_u3/ai/youarewelcome.mp3"
+    "We can see Seoul.": "audio/basic_c_u4/ai/wecanseeseoul.mp3"
    }
   },
   {
@@ -168,12 +168,12 @@
    "pic": "../packs/basic_c_u1/hamster.jpg",
    "choices": [
     "I love my hamster.",
-    "I love my rabbit."
+    "Look at my new shoes."
    ],
    "answer": "I love my hamster.",
    "aud": {
     "I love my hamster.": "audio/basic_c_u1/ai/ilovemyhamster.mp3",
-    "I love my rabbit.": "audio/basic_c_u1/ai/ilovemyrabbit.mp3"
+    "Look at my new shoes.": "audio/basic_c_u2/ai/lookatmynewshoes.mp3"
    }
   },
   {
@@ -187,13 +187,13 @@
    },
    "pic": "../packs/basic_c_u2/computer.jpg",
    "choices": [
-    "Look at my new earphones.",
-    "Look at my new computer."
+    "Look at my new computer.",
+    "We can see Jeju."
    ],
    "answer": "Look at my new computer.",
    "aud": {
-    "Look at my new earphones.": "audio/basic_c_u2/ai/lookatmynewearphones.mp3",
-    "Look at my new computer.": "audio/basic_c_u2/ai/lookatmynewcomputer.mp3"
+    "Look at my new computer.": "audio/basic_c_u2/ai/lookatmynewcomputer.mp3",
+    "We can see Jeju.": "audio/basic_c_u4/ai/wecanseejeju.mp3"
    }
   },
   {

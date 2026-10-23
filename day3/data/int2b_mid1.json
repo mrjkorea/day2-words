@@ -146,12 +146,16 @@
    "pic": "../packs/int2b_u3/president.jpg",
    "choices": [
     "I want to be a president.",
-    "I want to be a doctor."
+    "It is between the books.",
+    "He is fat.",
+    "It is eleven thirty."
    ],
    "answer": "I want to be a president.",
    "aud": {
     "I want to be a president.": "audio/int2b_u3/ai/iwanttobeapresident.mp3",
-    "I want to be a doctor.": "audio/int2b_u3/ai/iwanttobeadoctor.mp3"
+    "It is between the books.": "audio/int2b_u7/ai/itisbetweenthebooks.mp3",
+    "He is fat.": "audio/int2b_u5/ai/heisfat.mp3",
+    "It is eleven thirty.": "audio/int2b_u2/ai/itiseleventhirty.mp3"
    }
   },
   {
@@ -166,12 +170,16 @@
    "pic": "../packs/int2b_u1/saturday.jpg",
    "choices": [
     "It is Saturday.",
-    "It is Tuesday."
+    "It is under the desk.",
+    "I want to be a scientist.",
+    "This is my Korean teacher."
    ],
    "answer": "It is Saturday.",
    "aud": {
     "It is Saturday.": "audio/int2b_u1/ai/itissaturday.mp3",
-    "It is Tuesday.": "audio/int2b_u1/ai/itistuesday.mp3"
+    "It is under the desk.": "audio/int2b_u7/ai/itisunderthedesk.mp3",
+    "I want to be a scientist.": "audio/int2b_u3/ai/iwanttobeascientist.mp3",
+    "This is my Korean teacher.": "audio/int2b_u6/ai/thisismykoreanteacher.mp3"
    }
   },
   {
@@ -213,12 +221,16 @@
    "pic": "../packs/int2b_u2/onlineclass.jpg",
    "choices": [
     "It is online class time.",
-    "It is eleven."
+    "It is in my pocket.",
+    "He is good-looking.",
+    "I want to be a doctor."
    ],
    "answer": "It is online class time.",
    "aud": {
     "It is online class time.": "audio/int2b_u2/ai/itisonlineclasstime.mp3",
-    "It is eleven.": "audio/int2b_u2/ai/itiseleven.mp3"
+    "It is in my pocket.": "audio/int2b_u7/ai/itisinmypocket.mp3",
+    "He is good-looking.": "audio/int2b_u5/ai/heisgoodlooking.mp3",
+    "I want to be a doctor.": "audio/int2b_u3/ai/iwanttobeadoctor.mp3"
    }
   },
   {

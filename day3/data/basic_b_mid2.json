@@ -119,12 +119,12 @@
    "pic": "../packs/basic_b_u7/black.jpg",
    "choices": [
     "It is black.",
-    "It is white."
+    "I am happy."
    ],
    "answer": "It is black.",
    "aud": {
     "It is black.": "audio/basic_b_u7/ai/itisblack.mp3",
-    "It is white.": "audio/basic_b_u7/ai/itiswhite.mp3"
+    "I am happy.": "audio/basic_b_u1/ai/iamhappy.mp3"
    }
   },
   {
@@ -185,12 +185,12 @@
    "pic": "../packs/basic_b_u6/body.jpg",
    "choices": [
     "This is my body.",
-    "This is my nose."
+    "I like fruit."
    ],
    "answer": "This is my body.",
    "aud": {
     "This is my body.": "audio/basic_b_u6/ai/thisismybody.mp3",
-    "This is my nose.": "audio/basic_b_u6/ai/thisismynose.mp3"
+    "I like fruit.": "audio/basic_b_u2/ai/ilikefruit.mp3"
    }
   },
   {
@@ -205,12 +205,12 @@
    "pic": "../packs/basic_b_u5/nightlight.jpg",
    "choices": [
     "It is a night light.",
-    "It is a toy."
+    "I am twenty-two years old."
    ],
    "answer": "It is a night light.",
    "aud": {
     "It is a night light.": "audio/basic_b_u5/ai/itisanightlight.mp3",
-    "It is a toy.": "audio/basic_b_u5/ai/itisatoy.mp3"
+    "I am twenty-two years old.": "audio/basic_b_u8/ai/iamtwentytwoyearsold.mp3"
    }
   },
   {

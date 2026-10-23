@@ -76,12 +76,14 @@
    "pic": "../packs/int3b_u2/gayageum.jpg",
    "choices": [
     "It is a gayageum.",
-    "It is a piano."
+    "I am in fifth grade.",
+    "Slower please."
    ],
    "answer": "It is a gayageum.",
    "aud": {
     "It is a gayageum.": "audio/int3b_u2/ai/itisagayageum.mp3",
-    "It is a piano.": "audio/int3b_u2/ai/itisapiano.mp3"
+    "I am in fifth grade.": "audio/int3b_u1/ai/iaminfifthgrade.mp3",
+    "Slower please.": "audio/int3b_u3/ai/slowerplease.mp3"
    }
   },
   {
@@ -148,13 +150,15 @@
    },
    "pic": "../packs/int3b_u1/seventh.jpg",
    "choices": [
-    "I am in third grade.",
-    "I am in seventh grade."
+    "I am in seventh grade.",
+    "It is a violin.",
+    "Don't forget your backpack."
    ],
    "answer": "I am in seventh grade.",
    "aud": {
-    "I am in third grade.": "audio/int3b_u1/ai/iaminthirdgrade.mp3",
-    "I am in seventh grade.": "audio/int3b_u1/ai/iaminseventhgrade.mp3"
+    "I am in seventh grade.": "audio/int3b_u1/ai/iaminseventhgrade.mp3",
+    "It is a violin.": "audio/int3b_u2/ai/itisaviolin.mp3",
+    "Don't forget your backpack.": "audio/int3b_u7/ai/dontforgetyourbackpack.mp3"
    }
   },
   {
@@ -168,13 +172,15 @@
    },
    "pic": "../packs/int3b_u3/higher.jpg",
    "choices": [
-    "Quieter please.",
-    "Higher please."
+    "Higher please.",
+    "I am in second grade.",
+    "It is a flute."
    ],
    "answer": "Higher please.",
    "aud": {
-    "Quieter please.": "audio/int3b_u3/ai/quieterplease.mp3",
-    "Higher please.": "audio/int3b_u3/ai/higherplease.mp3"
+    "Higher please.": "audio/int3b_u3/ai/higherplease.mp3",
+    "I am in second grade.": "audio/int3b_u1/ai/iaminsecondgrade.mp3",
+    "It is a flute.": "audio/int3b_u2/ai/itisaflute.mp3"
    }
   },
   {

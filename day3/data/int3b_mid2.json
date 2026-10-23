@@ -36,13 +36,15 @@
    },
    "pic": "../packs/int3b_u5/putdown.jpg",
    "choices": [
-    "Slow down, please!",
-    "Put it down, please!"
+    "Put it down, please!",
+    "It is an ukulele.",
+    "I am in third grade."
    ],
    "answer": "Put it down, please!",
    "aud": {
-    "Slow down, please!": "audio/int3b_u5/ai/slowdownplease.mp3",
-    "Put it down, please!": "audio/int3b_u5/ai/putitdownplease.mp3"
+    "Put it down, please!": "audio/int3b_u5/ai/putitdownplease.mp3",
+    "It is an ukulele.": "audio/int3b_u2/ai/itisanukulele.mp3",
+    "I am in third grade.": "audio/int3b_u1/ai/iaminthirdgrade.mp3"
    }
   },
   {
@@ -110,12 +112,14 @@
    "pic": "../packs/int3b_u6/rambutan.jpg",
    "choices": [
     "They are rambutans.",
-    "They are lemons."
+    "He is my brother.",
+    "Louder please."
    ],
    "answer": "They are rambutans.",
    "aud": {
     "They are rambutans.": "audio/int3b_u6/ai/theyarerambutans.mp3",
-    "They are lemons.": "audio/int3b_u6/ai/theyarelemons.mp3"
+    "He is my brother.": "audio/int3b_u4/ai/heismybrother.mp3",
+    "Louder please.": "audio/int3b_u3/ai/louderplease.mp3"
    }
   },
   {
@@ -208,13 +212,15 @@
    },
    "pic": "../packs/int3b_u7/hat.jpg",
    "choices": [
-    "Don't forget your lunch.",
-    "Don't forget your hat."
+    "Don't forget your hat.",
+    "I am in second grade.",
+    "She is my aunt."
    ],
    "answer": "Don't forget your hat.",
    "aud": {
-    "Don't forget your lunch.": "audio/int3b_u7/ai/dontforgetyourlunch.mp3",
-    "Don't forget your hat.": "audio/int3b_u7/ai/dontforgetyourhat.mp3"
+    "Don't forget your hat.": "audio/int3b_u7/ai/dontforgetyourhat.mp3",
+    "I am in second grade.": "audio/int3b_u1/ai/iaminsecondgrade.mp3",
+    "She is my aunt.": "audio/int3b_u4/ai/sheismyaunt.mp3"
    }
   },
   {

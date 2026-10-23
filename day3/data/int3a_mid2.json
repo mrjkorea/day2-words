@@ -25,12 +25,14 @@
    "pic": "../packs/int3a_u5/cicada.jpg",
    "choices": [
     "It is a cicada.",
-    "It is a centipede."
+    "I like chocolate.",
+    "Jump rope!"
    ],
    "answer": "It is a cicada.",
    "aud": {
     "It is a cicada.": "audio/int3a_u5/ai/itisacicada.mp3",
-    "It is a centipede.": "audio/int3a_u5/ai/itisacentipede.mp3"
+    "I like chocolate.": "audio/int3a_u2/ai/ilikechocolate.mp3",
+    "Jump rope!": "audio/int3a_u7/ai/jumprope.mp3"
    }
   },
   {
@@ -45,12 +47,14 @@
    "pic": "../packs/int3a_u6/baker.jpg",
    "choices": [
     "My name is Baker.",
-    "My name is Rose."
+    "I can draw a flag.",
+    "He is one hundred years old."
    ],
    "answer": "My name is Baker.",
    "aud": {
     "My name is Baker.": "audio/int3a_u6/ai/mynameisbaker.mp3",
-    "My name is Rose.": "audio/int3a_u6/ai/mynameisrose.mp3"
+    "I can draw a flag.": "audio/int3a_u1/ai/icandrawaflag.mp3",
+    "He is one hundred years old.": "audio/int3a_u4/ai/heisonehundredyearsold.mp3"
    }
   },
   {
@@ -180,13 +184,15 @@
    },
    "pic": "../packs/int3a_u7/turn.jpg",
    "choices": [
-    "Jump rope!",
-    "Turn around!"
+    "Turn around!",
+    "It is a centipede.",
+    "My name is Rose."
    ],
    "answer": "Turn around!",
    "aud": {
-    "Jump rope!": "audio/int3a_u7/ai/jumprope.mp3",
-    "Turn around!": "audio/int3a_u7/ai/turnaround.mp3"
+    "Turn around!": "audio/int3a_u7/ai/turnaround.mp3",
+    "It is a centipede.": "audio/int3a_u5/ai/itisacentipede.mp3",
+    "My name is Rose.": "audio/int3a_u6/ai/mynameisrose.mp3"
    }
   },
   {

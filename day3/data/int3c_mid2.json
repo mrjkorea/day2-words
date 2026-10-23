@@ -70,13 +70,15 @@
    },
    "pic": "../packs/int3c_u5/cup.jpg",
    "choices": [
-    "I have a newspaper.",
-    "I have a cup."
+    "I have a cup.",
+    "It is eight o'clock.",
+    "Wear a shirt."
    ],
    "answer": "I have a cup.",
    "aud": {
-    "I have a newspaper.": "audio/int3c_u5/ai/ihaveanewspaper.mp3",
-    "I have a cup.": "audio/int3c_u5/ai/ihaveacup.mp3"
+    "I have a cup.": "audio/int3c_u5/ai/ihaveacup.mp3",
+    "It is eight o'clock.": "audio/int3c_u8/ai/itiseightoclock.mp3",
+    "Wear a shirt.": "audio/int3c_u3/ai/wearashirt.mp3"
    }
   },
   {
@@ -91,12 +93,14 @@
    "pic": "../packs/int3c_u7/type.jpg",
    "choices": [
     "I can type.",
-    "I can run."
+    "It is eleven o'clock.",
+    "I have a pencil."
    ],
    "answer": "I can type.",
    "aud": {
     "I can type.": "audio/int3c_u7/ai/icantype.mp3",
-    "I can run.": "audio/int3c_u7/ai/icanrun.mp3"
+    "It is eleven o'clock.": "audio/int3c_u8/ai/itiselevenoclock.mp3",
+    "I have a pencil.": "audio/int3c_u5/ai/ihaveapencil.mp3"
    }
   },
   {
@@ -149,12 +153,14 @@
    "pic": "../packs/int3c_u6/island.jpg",
    "choices": [
     "There are many islands.",
-    "There are many mountains."
+    "I can cook.",
+    "It is twelve o'clock."
    ],
    "answer": "There are many islands.",
    "aud": {
     "There are many islands.": "audio/int3c_u6/ai/therearemanyislands.mp3",
-    "There are many mountains.": "audio/int3c_u6/ai/therearemanymountains.mp3"
+    "I can cook.": "audio/int3c_u7/ai/icancook.mp3",
+    "It is twelve o'clock.": "audio/int3c_u8/ai/itistwelveoclock.mp3"
    }
   },
   {

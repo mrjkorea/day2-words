@@ -77,13 +77,17 @@
    },
    "pic": "../packs/int2c_u6/headache.jpg",
    "choices": [
-    "I have a bloody nose.",
-    "I have a headache."
+    "I have a headache.",
+    "It is garbage.",
+    "My favorite game is Go.",
+    "I visit an island."
    ],
    "answer": "I have a headache.",
    "aud": {
-    "I have a bloody nose.": "audio/int2c_u6/ai/ihaveabloodynose.mp3",
-    "I have a headache.": "audio/int2c_u6/ai/ihaveaheadache.mp3"
+    "I have a headache.": "audio/int2c_u6/ai/ihaveaheadache.mp3",
+    "It is garbage.": "audio/int2c_u3/ai/itisgarbage.mp3",
+    "My favorite game is Go.": "audio/int2c_u4/ai/myfavoritegameisgo.mp3",
+    "I visit an island.": "audio/int2c_u1/ai/ivisitanisland.mp3"
    }
   },
   {
@@ -97,13 +101,17 @@
    },
    "pic": null,
    "choices": [
-    "This is my phone.",
-    "This is Mr. Jay."
+    "This is Mr. Jay.",
+    "I have a stomachache.",
+    "My favorite color is blue.",
+    "I swim in summer."
    ],
    "answer": "This is Mr. Jay.",
    "aud": {
-    "This is my phone.": "audio/int2c_u7/ai/thisismyphone.mp3",
-    "This is Mr. Jay.": "audio/int2c_u7/ai/thisismrjay.mp3"
+    "This is Mr. Jay.": "audio/int2c_u7/ai/thisismrjay.mp3",
+    "I have a stomachache.": "audio/int2c_u6/ai/ihaveastomachache.mp3",
+    "My favorite color is blue.": "audio/int2c_u4/ai/myfavoritecolorisblue.mp3",
+    "I swim in summer.": "audio/int2c_u1/ai/iswiminsummer.mp3"
    }
   },
   {
@@ -204,12 +212,16 @@
    "pic": "../packs/int2c_u5/guilty.jpg",
    "choices": [
     "I am feeling guilty.",
-    "I am feeling fantastic."
+    "It is my candy.",
+    "My favorite color is blue.",
+    "I visit an island."
    ],
    "answer": "I am feeling guilty.",
    "aud": {
     "I am feeling guilty.": "audio/int2c_u5/ai/iamfeelingguilty.mp3",
-    "I am feeling fantastic.": "audio/int2c_u5/ai/iamfeelingfantastic.mp3"
+    "It is my candy.": "audio/int2c_u3/ai/itismycandy.mp3",
+    "My favorite color is blue.": "audio/int2c_u4/ai/myfavoritecolorisblue.mp3",
+    "I visit an island.": "audio/int2c_u1/ai/ivisitanisland.mp3"
    }
   },
   {

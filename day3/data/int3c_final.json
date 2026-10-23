@@ -29,12 +29,14 @@
    "pic": "../packs/int3c_u3/pants.jpg",
    "choices": [
     "Wear pants.",
-    "Wear a coat."
+    "It is sweet.",
+    "I have a pillow."
    ],
    "answer": "Wear pants.",
    "aud": {
     "Wear pants.": "audio/int3c_u3/ai/wearpants.mp3",
-    "Wear a coat.": "audio/int3c_u3/ai/wearacoat.mp3"
+    "It is sweet.": "audio/int3c_u1/ai/itissweet.mp3",
+    "I have a pillow.": "audio/int3c_u5/ai/ihaveapillow.mp3"
    }
   },
   {
@@ -48,13 +50,15 @@
    },
    "pic": "../packs/int3c_u7/fight.jpg",
    "choices": [
-    "I can cook.",
-    "I can fight."
+    "I can fight.",
+    "It is seven o'clock.",
+    "Wear a dress."
    ],
    "answer": "I can fight.",
    "aud": {
-    "I can cook.": "audio/int3c_u7/ai/icancook.mp3",
-    "I can fight.": "audio/int3c_u7/ai/icanfight.mp3"
+    "I can fight.": "audio/int3c_u7/ai/icanfight.mp3",
+    "It is seven o'clock.": "audio/int3c_u8/ai/itissevenoclock.mp3",
+    "Wear a dress.": "audio/int3c_u3/ai/wearadress.mp3"
    }
   },
   {
@@ -131,13 +135,15 @@
    },
    "pic": "../packs/int3c_u1/sour.jpg",
    "choices": [
-    "It is sweet.",
-    "It is sour."
+    "It is sour.",
+    "Wear a skirt.",
+    "It is nine o'clock."
    ],
    "answer": "It is sour.",
    "aud": {
-    "It is sweet.": "audio/int3c_u1/ai/itissweet.mp3",
-    "It is sour.": "audio/int3c_u1/ai/itissour.mp3"
+    "It is sour.": "audio/int3c_u1/ai/itissour.mp3",
+    "Wear a skirt.": "audio/int3c_u3/ai/wearaskirt.mp3",
+    "It is nine o'clock.": "audio/int3c_u8/ai/itisnineoclock.mp3"
    }
   },
   {
@@ -267,12 +273,14 @@
    "pic": "../packs/int3c_u4/junglegym.jpg",
    "choices": [
     "Let's play on the jungle gym.",
-    "Let's play."
+    "It is rice.",
+    "I have a chessboard."
    ],
    "answer": "Let's play on the jungle gym.",
    "aud": {
     "Let's play on the jungle gym.": "audio/int3c_u4/ai/letsplayonthejunglegym.mp3",
-    "Let's play.": "audio/int3c_u4/ai/letsplay.mp3"
+    "It is rice.": "audio/int3c_u1/ai/itisrice.mp3",
+    "I have a chessboard.": "audio/int3c_u5/ai/ihaveachessboard.mp3"
    }
   },
   {

@@ -119,13 +119,17 @@
    },
    "pic": "../packs/int2b_u6/math.jpg",
    "choices": [
-    "This is my gym teacher.",
-    "This is my math teacher."
+    "This is my math teacher.",
+    "It is breakfast time.",
+    "It is in my pencil case.",
+    "It is about five hundred won."
    ],
    "answer": "This is my math teacher.",
    "aud": {
-    "This is my gym teacher.": "audio/int2b_u6/ai/thisismygymteacher.mp3",
-    "This is my math teacher.": "audio/int2b_u6/ai/thisismymathteacher.mp3"
+    "This is my math teacher.": "audio/int2b_u6/ai/thisismymathteacher.mp3",
+    "It is breakfast time.": "audio/int2b_u2/ai/itisbreakfasttime.mp3",
+    "It is in my pencil case.": "audio/int2b_u7/ai/itisinmypencilcase.mp3",
+    "It is about five hundred won.": "audio/int2b_u4/ai/itisaboutfivehundredwon.mp3"
    }
   },
   {
@@ -204,13 +208,17 @@
    },
    "pic": "../packs/int2b_u5/tall.jpg",
    "choices": [
-    "He is good-looking.",
-    "He is tall."
+    "He is tall.",
+    "It is Sunday.",
+    "It is in my pocket.",
+    "I want to be an English teacher."
    ],
    "answer": "He is tall.",
    "aud": {
-    "He is good-looking.": "audio/int2b_u5/ai/heisgoodlooking.mp3",
-    "He is tall.": "audio/int2b_u5/ai/heistall.mp3"
+    "He is tall.": "audio/int2b_u5/ai/heistall.mp3",
+    "It is Sunday.": "audio/int2b_u1/ai/itissunday.mp3",
+    "It is in my pocket.": "audio/int2b_u7/ai/itisinmypocket.mp3",
+    "I want to be an English teacher.": "audio/int2b_u3/ai/iwanttobeanenglishteacher.mp3"
    }
   },
   {
@@ -225,12 +233,16 @@
    "pic": "../packs/int2b_u7/under.jpg",
    "choices": [
     "It is under the desk.",
-    "It is in my pocket."
+    "It is Wednesday.",
+    "He is thin.",
+    "I want to be a food critic."
    ],
    "answer": "It is under the desk.",
    "aud": {
     "It is under the desk.": "audio/int2b_u7/ai/itisunderthedesk.mp3",
-    "It is in my pocket.": "audio/int2b_u7/ai/itisinmypocket.mp3"
+    "It is Wednesday.": "audio/int2b_u1/ai/itiswednesday.mp3",
+    "He is thin.": "audio/int2b_u5/ai/heisthin.mp3",
+    "I want to be a food critic.": "audio/int2b_u3/ai/iwanttobeafoodcritic.mp3"
    }
   },
   {

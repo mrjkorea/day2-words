@@ -14,45 +14,6 @@
  "lineAudio": "audio/int2a_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "librarian",
-   "choices": [
-    "librarian",
-    "teacher",
-    "secretary",
-    "classmate"
-   ],
-   "unit": "int2a_u7"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "soccer",
-   "answer": "soccer",
-   "choices": [
-    "soccer",
-    "sccer",
-    "socer",
-    "sopcer"
-   ],
-   "unit": "int2a_u8"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "janitor",
-   "audio": "audio/int2a_u7/{v}/thisisourjanitor.mp3",
-   "answer": [
-    "This",
-    "is",
-    "our",
-    "janitor."
-   ],
-   "unit": "int2a_u7"
-  },
-  {
    "type": "order",
    "prompt": "Put the words in order.",
    "skill": "grammar",
@@ -67,57 +28,42 @@
    "unit": "int2a_u6"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2a_u5",
-   "q": {
-    "text": "Where is my phone?",
-    "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
-   },
-   "pic": "../packs/int2a_u5/bedroom.jpg",
-   "choices": [
-    "Maybe it is in the bedroom.",
-    "Maybe it is in the kitchen."
-   ],
-   "answer": "Maybe it is in the bedroom.",
-   "aud": {
-    "Maybe it is in the bedroom.": "audio/int2a_u5/ai/maybeitisinthebedroom.mp3",
-    "Maybe it is in the kitchen.": "audio/int2a_u5/ai/maybeitisinthekitchen.mp3"
-   }
-  },
-  {
    "type": "spell",
    "skill": "spelling",
-   "pic": "weird",
-   "answer": "weird",
+   "pic": "bathroom",
+   "answer": "bathroom",
    "choices": [
-    "weird",
-    "weurd",
-    "weir",
-    "wird"
+    "bathroom",
+    "bathrom",
+    "bethroom",
+    "bahroom"
    ],
-   "unit": "int2a_u6"
+   "unit": "int2a_u5"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2a_u7",
-   "q": {
-    "text": "Who is this?",
-    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
-   },
-   "pic": "../packs/int2a_u7/clean.jpg",
+   "type": "listen",
+   "skill": "listening",
+   "answer": "librarian",
    "choices": [
-    "This is our teacher.",
-    "Let's clean the classroom."
+    "librarian",
+    "teacher",
+    "secretary",
+    "classmate"
    ],
-   "answer": "Let's clean the classroom.",
-   "aud": {
-    "This is our teacher.": "audio/int2a_u7/ai/thisisourteacher.mp3",
-    "Let's clean the classroom.": "audio/int2a_u7/ai/letscleantheclassroom.mp3"
-   }
+   "unit": "int2a_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "watch",
+   "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
+   "answer": [
+    "I",
+    "watch",
+    "TV."
+   ],
+   "unit": "int2a_u8"
   },
   {
    "type": "fill",
@@ -143,51 +89,84 @@
    "unit": "int2a_u5"
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "watch",
-   "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
-   "answer": [
-    "I",
-    "watch",
-    "TV."
-   ],
-   "unit": "int2a_u8"
-  },
-  {
    "type": "spell",
    "skill": "spelling",
-   "pic": "bathroom",
-   "answer": "bathroom",
+   "pic": "weird",
+   "answer": "weird",
    "choices": [
-    "bathroom",
-    "bathrom",
-    "bethroom",
-    "bahroom"
+    "weird",
+    "weurd",
+    "weir",
+    "wird"
    ],
-   "unit": "int2a_u5"
+   "unit": "int2a_u6"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2a_u5",
+   "q": {
+    "text": "Where is my phone?",
+    "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
+   },
+   "pic": "../packs/int2a_u5/bedroom.jpg",
+   "choices": [
+    "Maybe it is in the bedroom.",
+    "This video is boring.",
+    "I can speak Chinese.",
+    "It is humid."
+   ],
+   "answer": "Maybe it is in the bedroom.",
+   "aud": {
+    "Maybe it is in the bedroom.": "audio/int2a_u5/ai/maybeitisinthebedroom.mp3",
+    "This video is boring.": "audio/int2a_u6/ai/thisvideoisboring.mp3",
+    "I can speak Chinese.": "audio/int2a_u3/ai/icanspeakchinese.mp3",
+    "It is humid.": "audio/int2a_u1/ai/itishumid.mp3"
+   }
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2a_u7",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
+   },
+   "pic": "../packs/int2a_u7/lunchlady.jpg",
+   "choices": [
+    "This is our lunch lady.",
+    "It is humid.",
+    "I want a blanket.",
+    "Maybe it is in the garage."
+   ],
+   "answer": "This is our lunch lady.",
+   "aud": {
+    "This is our lunch lady.": "audio/int2a_u7/ai/thisisourlunchlady.mp3",
+    "It is humid.": "audio/int2a_u1/ai/itishumid.mp3",
+    "I want a blanket.": "audio/int2a_u4/ai/iwantablanket.mp3",
+    "Maybe it is in the garage.": "audio/int2a_u5/ai/maybeitisinthegarage.mp3"
+   }
   },
   {
    "type": "fill",
    "prompt": "Fill in the missing word.",
    "skill": "vocabulary",
-   "pic": "groundskeeper",
-   "audio": "audio/int2a_u7/{v}/thisisourgroundskeeper.mp3",
+   "pic": "watch",
+   "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
    "sentence": [
-    "This",
-    "is",
-    "our",
+    "I",
     "___",
-    "."
+    "TV."
    ],
-   "answer": "groundskeeper",
+   "answer": "watch",
    "choices": [
-    "groundskeeper",
-    "librarian",
-    "classmate"
+    "watch",
+    "sing",
+    "relax"
    ],
-   "unit": "int2a_u7"
+   "unit": "int2a_u8"
   },
   {
    "type": "listen",
@@ -200,6 +179,43 @@
     "funny"
    ],
    "unit": "int2a_u6"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "sing",
+   "answer": "sing",
+   "choices": [
+    "sing",
+    "sin",
+    "ing",
+    "ding"
+   ],
+   "unit": "int2a_u8"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "int2a_u6",
+   "q": {
+    "text": "How is the video?",
+    "audio": "audio/int2a_u6/{v}/howisthevideo.mp3"
+   },
+   "pic": "../packs/int2a_u6/exciting.jpg",
+   "choices": [
+    "This video is exciting.",
+    "Maybe it is in my bag.",
+    "This is our janitor.",
+    "I can speak German."
+   ],
+   "answer": "This video is exciting.",
+   "aud": {
+    "This video is exciting.": "audio/int2a_u6/ai/thisvideoisexciting.mp3",
+    "Maybe it is in my bag.": "audio/int2a_u5/ai/maybeitisinmybag.mp3",
+    "This is our janitor.": "audio/int2a_u7/ai/thisisourjanitor.mp3",
+    "I can speak German.": "audio/int2a_u3/ai/icanspeakgerman.mp3"
+   }
   },
   {
    "type": "listen",
@@ -217,42 +233,36 @@
    "type": "fill",
    "prompt": "Fill in the missing word.",
    "skill": "vocabulary",
-   "pic": "piano",
-   "audio": "audio/int2a_u8/{v}/iplaythepiano.mp3",
+   "pic": "janitor",
+   "audio": "audio/int2a_u7/{v}/thisisourjanitor.mp3",
    "sentence": [
-    "I",
-    "play",
-    "the",
+    "This",
+    "is",
+    "our",
     "___",
     "."
    ],
-   "answer": "piano",
+   "answer": "janitor",
    "choices": [
-    "piano",
-    "play",
-    "watch"
+    "janitor",
+    "librarian",
+    "classmate"
    ],
-   "unit": "int2a_u8"
+   "unit": "int2a_u7"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2a_u6",
-   "q": {
-    "text": "How is the video?",
-    "audio": "audio/int2a_u6/{v}/howisthevideo.mp3"
-   },
-   "pic": "../packs/int2a_u6/exciting.jpg",
-   "choices": [
-    "This video is funny.",
-    "This video is exciting."
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "janitor",
+   "audio": "audio/int2a_u7/{v}/thisisourjanitor.mp3",
+   "answer": [
+    "This",
+    "is",
+    "our",
+    "janitor."
    ],
-   "answer": "This video is exciting.",
-   "aud": {
-    "This video is funny.": "audio/int2a_u6/ai/thisvideoisfunny.mp3",
-    "This video is exciting.": "audio/int2a_u6/ai/thisvideoisexciting.mp3"
-   }
+   "unit": "int2a_u7"
   }
  ],
  "words": [

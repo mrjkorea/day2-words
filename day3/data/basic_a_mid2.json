@@ -58,12 +58,12 @@
    "pic": "../packs/basic_a_u7/chinese.jpg",
    "choices": [
     "I can speak Chinese.",
-    "I can dance."
+    "I have ten apples."
    ],
    "answer": "I can speak Chinese.",
    "aud": {
     "I can speak Chinese.": "audio/basic_a_u7/ai/icanspeakchinese.mp3",
-    "I can dance.": "audio/basic_a_u7/ai/icandance.mp3"
+    "I have ten apples.": "audio/basic_a_u1/ai/ihavetenapples.mp3"
    }
   },
   {
@@ -124,12 +124,12 @@
    "pic": "../packs/basic_a_u5/nephew.jpg",
    "choices": [
     "This is my nephew.",
-    "This is my uncle."
+    "I can do taekwondo."
    ],
    "answer": "This is my nephew.",
    "aud": {
     "This is my nephew.": "audio/basic_a_u5/ai/thisismynephew.mp3",
-    "This is my uncle.": "audio/basic_a_u5/ai/thisismyuncle.mp3"
+    "I can do taekwondo.": "audio/basic_a_u7/ai/icandotaekwondo.mp3"
    }
   },
   {
@@ -243,12 +243,12 @@
    "pic": "pics/cube.webp",
    "choices": [
     "No, it is a cube.",
-    "Thank you."
+    "I have one apple."
    ],
    "answer": "No, it is a cube.",
    "aud": {
-    "No, it is a cube.": "audio/v/{v}/noitisacube.mp3",
-    "Thank you.": "audio/v/{v}/thankyou.mp3"
+    "No, it is a cube.": "audio/noitisacube.mp3",
+    "I have one apple.": "audio/basic_a_u1/ai/ihaveoneapple.mp3"
    }
   }
  ],

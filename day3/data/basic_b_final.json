@@ -62,12 +62,12 @@
    "pic": "../packs/basic_b_u7/white.jpg",
    "choices": [
     "It is white.",
-    "It is red."
+    "I like games."
    ],
    "answer": "It is white.",
    "aud": {
     "It is white.": "audio/basic_b_u7/ai/itiswhite.mp3",
-    "It is red.": "audio/basic_b_u7/ai/itisred.mp3"
+    "I like games.": "audio/basic_b_u2/ai/ilikegames.mp3"
    }
   },
   {
@@ -123,12 +123,12 @@
    "pic": "../packs/basic_b_u4/paper.jpg",
    "choices": [
     "Paper wins.",
-    "Rock wins."
+    "I am sleepy."
    ],
    "answer": "Paper wins.",
    "aud": {
     "Paper wins.": "audio/basic_b_u4/ai/paperwins.mp3",
-    "Rock wins.": "audio/basic_b_u4/ai/rockwins.mp3"
+    "I am sleepy.": "audio/basic_b_u1/ai/iamsleepy.mp3"
    }
   },
   {
@@ -181,12 +181,12 @@
    "pic": "../packs/basic_b_u3/understand.jpg",
    "choices": [
     "No. I do not understand.",
-    "No. I do not like noodles."
+    "It is brown."
    ],
    "answer": "No. I do not understand.",
    "aud": {
     "No. I do not understand.": "audio/basic_b_u3/ai/noidonotunderstand.mp3",
-    "No. I do not like noodles.": "audio/basic_b_u3/ai/noidonotlikenoodles.mp3"
+    "It is brown.": "audio/basic_b_u7/ai/itisbrown.mp3"
    }
   },
   {
@@ -221,13 +221,13 @@
    },
    "pic": "../packs/basic_b_u1/bored.jpg",
    "choices": [
-    "I am sleepy.",
-    "I am bored."
+    "I am bored.",
+    "It is a sock."
    ],
    "answer": "I am bored.",
    "aud": {
-    "I am sleepy.": "audio/basic_b_u1/ai/iamsleepy.mp3",
-    "I am bored.": "audio/basic_b_u1/ai/iambored.mp3"
+    "I am bored.": "audio/basic_b_u1/ai/iambored.mp3",
+    "It is a sock.": "audio/basic_b_u5/ai/itisasock.mp3"
    }
   },
   {

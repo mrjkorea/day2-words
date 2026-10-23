@@ -25,12 +25,14 @@
    "pic": "../packs/int3c_u2/cry.jpg",
    "choices": [
     "Don't cry.",
-    "Don't pull."
+    "There are many mountains.",
+    "It is ten o'clock."
    ],
    "answer": "Don't cry.",
    "aud": {
     "Don't cry.": "audio/int3c_u2/ai/dontcry.mp3",
-    "Don't pull.": "audio/int3c_u2/ai/dontpull.mp3"
+    "There are many mountains.": "audio/int3c_u6/ai/therearemanymountains.mp3",
+    "It is ten o'clock.": "audio/int3c_u8/ai/itistenoclock.mp3"
    }
   },
   {
@@ -92,13 +94,15 @@
    },
    "pic": "../packs/int3c_u3/shoes.jpg",
    "choices": [
-    "Wear a skirt.",
-    "Wear shoes."
+    "Wear shoes.",
+    "It is doenjang.",
+    "I have a phone."
    ],
    "answer": "Wear shoes.",
    "aud": {
-    "Wear a skirt.": "audio/int3c_u3/ai/wearaskirt.mp3",
-    "Wear shoes.": "audio/int3c_u3/ai/wearshoes.mp3"
+    "Wear shoes.": "audio/int3c_u3/ai/wearshoes.mp3",
+    "It is doenjang.": "audio/int3c_u1/ai/itisdoenjang.mp3",
+    "I have a phone.": "audio/int3c_u5/ai/ihaveaphone.mp3"
    }
   },
   {
@@ -239,12 +243,14 @@
    "pic": "../packs/int3c_u1/ddeok.jpg",
    "choices": [
     "It is ddeok.",
-    "It is sweet."
+    "I can walk.",
+    "There are no tigers."
    ],
    "answer": "It is ddeok.",
    "aud": {
     "It is ddeok.": "audio/int3c_u1/ai/itisddeok.mp3",
-    "It is sweet.": "audio/int3c_u1/ai/itissweet.mp3"
+    "I can walk.": "audio/int3c_u7/ai/icanwalk.mp3",
+    "There are no tigers.": "audio/int3c_u6/ai/therearenotigers.mp3"
    }
   }
  ],

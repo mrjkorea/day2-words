@@ -37,12 +37,14 @@
    "pic": "../packs/int3a_u1/circle.jpg",
    "choices": [
     "I can draw a circle.",
-    "I can draw."
+    "He is ten years old.",
+    "This is loud."
    ],
    "answer": "I can draw a circle.",
    "aud": {
     "I can draw a circle.": "audio/int3a_u1/ai/icandrawacircle.mp3",
-    "I can draw.": "audio/int3a_u1/ai/icandraw.mp3"
+    "He is ten years old.": "audio/int3a_u4/ai/heistenyearsold.mp3",
+    "This is loud.": "audio/int3a_u3/ai/thisisloud.mp3"
    }
   },
   {
@@ -162,12 +164,14 @@
    "pic": "../packs/int3a_u2/banana.jpg",
    "choices": [
     "I like banana.",
-    "I like red bean."
+    "Sit down!",
+    "It is a silkworm."
    ],
    "answer": "I like banana.",
    "aud": {
     "I like banana.": "audio/int3a_u2/ai/ilikebanana.mp3",
-    "I like red bean.": "audio/int3a_u2/ai/ilikeredbean.mp3"
+    "Sit down!": "audio/int3a_u7/ai/sitdown.mp3",
+    "It is a silkworm.": "audio/int3a_u5/ai/itisasilkworm.mp3"
    }
   },
   {
@@ -181,13 +185,15 @@
    },
    "pic": "../packs/int3a_u3/bad.jpg",
    "choices": [
-    "This is good.",
-    "This is bad."
+    "This is bad.",
+    "My name is Hunter.",
+    "I can draw a tree."
    ],
    "answer": "This is bad.",
    "aud": {
-    "This is good.": "audio/int3a_u3/ai/thisisgood.mp3",
-    "This is bad.": "audio/int3a_u3/ai/thisisbad.mp3"
+    "This is bad.": "audio/int3a_u3/ai/thisisbad.mp3",
+    "My name is Hunter.": "audio/int3a_u6/ai/mynameishunter.mp3",
+    "I can draw a tree.": "audio/int3a_u1/ai/icandrawatree.mp3"
    }
   },
   {

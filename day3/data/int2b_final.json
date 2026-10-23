@@ -28,13 +28,17 @@
    },
    "pic": "../packs/int2b_u7/pencilcase.jpg",
    "choices": [
-    "It is in my pocket.",
-    "It is in my pencil case."
+    "It is in my pencil case.",
+    "It is Tuesday.",
+    "I want to be a doctor.",
+    "He is thin."
    ],
    "answer": "It is in my pencil case.",
    "aud": {
-    "It is in my pocket.": "audio/int2b_u7/ai/itisinmypocket.mp3",
-    "It is in my pencil case.": "audio/int2b_u7/ai/itisinmypencilcase.mp3"
+    "It is in my pencil case.": "audio/int2b_u7/ai/itisinmypencilcase.mp3",
+    "It is Tuesday.": "audio/int2b_u1/ai/itistuesday.mp3",
+    "I want to be a doctor.": "audio/int2b_u3/ai/iwanttobeadoctor.mp3",
+    "He is thin.": "audio/int2b_u5/ai/heisthin.mp3"
    }
   },
   {
@@ -143,13 +147,17 @@
    },
    "pic": "../packs/int2b_u3/foodcritic.jpg",
    "choices": [
-    "I want to be a scientist.",
-    "I want to be a food critic."
+    "I want to be a food critic.",
+    "It is under the desk.",
+    "This is my art teacher.",
+    "It is eleven o'clock."
    ],
    "answer": "I want to be a food critic.",
    "aud": {
-    "I want to be a scientist.": "audio/int2b_u3/ai/iwanttobeascientist.mp3",
-    "I want to be a food critic.": "audio/int2b_u3/ai/iwanttobeafoodcritic.mp3"
+    "I want to be a food critic.": "audio/int2b_u3/ai/iwanttobeafoodcritic.mp3",
+    "It is under the desk.": "audio/int2b_u7/ai/itisunderthedesk.mp3",
+    "This is my art teacher.": "audio/int2b_u6/ai/thisismyartteacher.mp3",
+    "It is eleven o'clock.": "audio/int2b_u2/ai/itiselevenoclock.mp3"
    }
   },
   {
@@ -163,13 +171,17 @@
    },
    "pic": "../packs/int2b_u4/that.jpg",
    "choices": [
-    "It is one thousand meters.",
-    "It is one thousand won."
+    "It is one thousand won.",
+    "It is in my pocket.",
+    "I want to be a pro-gamer.",
+    "It is Monday."
    ],
    "answer": "It is one thousand won.",
    "aud": {
-    "It is one thousand meters.": "audio/int2b_u4/ai/itisonethousandmeters.mp3",
-    "It is one thousand won.": "audio/int2b_u4/ai/itisonethousandwon.mp3"
+    "It is one thousand won.": "audio/int2b_u4/ai/itisonethousandwon.mp3",
+    "It is in my pocket.": "audio/int2b_u7/ai/itisinmypocket.mp3",
+    "I want to be a pro-gamer.": "audio/int2b_u3/ai/iwanttobeaprogamer.mp3",
+    "It is Monday.": "audio/int2b_u1/ai/itismonday.mp3"
    }
   },
   {
@@ -215,13 +227,17 @@
    },
    "pic": "../packs/int2b_u1/workday.jpg",
    "choices": [
-    "It is Saturday.",
-    "It is a work day."
+    "It is a work day.",
+    "It is in front of the desk.",
+    "He is old.",
+    "This is my science teacher."
    ],
    "answer": "It is a work day.",
    "aud": {
-    "It is Saturday.": "audio/int2b_u1/ai/itissaturday.mp3",
-    "It is a work day.": "audio/int2b_u1/ai/itisaworkday.mp3"
+    "It is a work day.": "audio/int2b_u1/ai/itisaworkday.mp3",
+    "It is in front of the desk.": "audio/int2b_u7/ai/itisinfrontofthedesk.mp3",
+    "He is old.": "audio/int2b_u5/ai/heisold.mp3",
+    "This is my science teacher.": "audio/int2b_u6/ai/thisismyscienceteacher.mp3"
    }
   },
   {

@@ -41,12 +41,14 @@
    "pic": "../packs/int3a_u1/circle.jpg",
    "choices": [
     "I can draw a circle.",
-    "I can draw."
+    "He is ten years old.",
+    "This is loud."
    ],
    "answer": "I can draw a circle.",
    "aud": {
     "I can draw a circle.": "audio/int3a_u1/ai/icandrawacircle.mp3",
-    "I can draw.": "audio/int3a_u1/ai/icandraw.mp3"
+    "He is ten years old.": "audio/int3a_u4/ai/heistenyearsold.mp3",
+    "This is loud.": "audio/int3a_u3/ai/thisisloud.mp3"
    }
   },
   {
@@ -168,12 +170,14 @@
    "pic": "../packs/int3a_u4/fifteen.jpg",
    "choices": [
     "He is fifteen years old.",
-    "He is thirty years old."
+    "It is a butterfly.",
+    "I like mint."
    ],
    "answer": "He is fifteen years old.",
    "aud": {
     "He is fifteen years old.": "audio/int3a_u4/ai/heisfifteenyearsold.mp3",
-    "He is thirty years old.": "audio/int3a_u4/ai/heisthirtyyearsold.mp3"
+    "It is a butterfly.": "audio/int3a_u5/ai/itisabutterfly.mp3",
+    "I like mint.": "audio/int3a_u2/ai/ilikemint.mp3"
    }
   },
   {
@@ -236,12 +240,14 @@
    "pic": "../packs/int3a_u3/hard.jpg",
    "choices": [
     "This is hard.",
-    "This is good."
+    "My name is Ivy.",
+    "It is a mosquito."
    ],
    "answer": "This is hard.",
    "aud": {
     "This is hard.": "audio/int3a_u3/ai/thisishard.mp3",
-    "This is good.": "audio/int3a_u3/ai/thisisgood.mp3"
+    "My name is Ivy.": "audio/int3a_u6/ai/mynameisivy.mp3",
+    "It is a mosquito.": "audio/int3a_u5/ai/itisamosquito.mp3"
    }
   },
   {
@@ -314,12 +320,14 @@
    "pic": "../packs/int3a_u7/climb.jpg",
    "choices": [
     "Climb the rope!",
-    "Let's dance!"
+    "I like vanilla.",
+    "He is thirty years old."
    ],
    "answer": "Climb the rope!",
    "aud": {
     "Climb the rope!": "audio/int3a_u7/ai/climbtherope.mp3",
-    "Let's dance!": "audio/int3a_u7/ai/letsdance.mp3"
+    "I like vanilla.": "audio/int3a_u2/ai/ilikevanilla.mp3",
+    "He is thirty years old.": "audio/int3a_u4/ai/heisthirtyyearsold.mp3"
    }
   },
   {

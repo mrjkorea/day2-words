@@ -14,28 +14,38 @@
  "lineAudio": "audio/basic_c_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "dog",
-   "choices": [
-    "dog",
-    "tongyeong",
-    "seoul",
-    "canada"
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "knee",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourknee.mp3",
+   "sentence": [
+    "Don't",
+    "touch",
+    "your",
+    "___",
+    "."
    ],
-   "unit": "basic_c_u5"
+   "answer": "knee",
+   "choices": [
+    "knee",
+    "face",
+    "leg"
+   ],
+   "unit": "basic_c_u6"
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "maze",
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "knee",
+   "answer": "knee",
    "choices": [
-    "maze",
-    "junglegym",
-    "seesaw",
-    "sandbox"
+    "knee",
+    "knue",
+    "kne",
+    "rnee"
    ],
-   "unit": "basic_c_u7"
+   "unit": "basic_c_u5"
   },
   {
    "type": "order",
@@ -54,30 +64,131 @@
    "unit": "basic_c_u8"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "knee",
-   "answer": "knee",
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_c_u5",
+   "q": {
+    "text": "How do you spell pig?",
+    "audio": "audio/basic_c_u5/{v}/howdoyouspellpig.mp3"
+   },
+   "pic": "../packs/basic_c_u5/pig.jpg",
    "choices": [
-    "knee",
-    "knue",
-    "kne",
-    "rnee"
+    "P, I, G. Pig.",
+    "I love my cat."
+   ],
+   "answer": "P, I, G. Pig.",
+   "aud": {
+    "P, I, G. Pig.": "audio/basic_c_u5/ai/pigpig.mp3",
+    "I love my cat.": "audio/basic_c_u1/ai/ilovemycat.mp3"
+   }
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "bike",
+   "choices": [
+    "bike",
+    "computer",
+    "phone",
+    "earphones"
+   ],
+   "unit": "basic_c_u8"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "dog",
+   "choices": [
+    "dog",
+    "tongyeong",
+    "seoul",
+    "canada"
    ],
    "unit": "basic_c_u5"
   },
   {
    "type": "spell",
    "skill": "spelling",
-   "pic": "neck",
-   "answer": "neck",
+   "pic": "leg",
+   "answer": "leg",
    "choices": [
-    "neck",
-    "nck",
-    "nack",
-    "nek"
+    "leg",
+    "legk",
+    "lag",
+    "keg"
    ],
    "unit": "basic_c_u6"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "maze",
+   "answer": "maze",
+   "choices": [
+    "maze",
+    "maz",
+    "mize",
+    "meze"
+   ],
+   "unit": "basic_c_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/basic_c_u6/{v}/donttouchit.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "it."
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "dialogue",
+   "skill": "dialogue",
+   "prompt": "Choose the best answer.",
+   "unit": "basic_c_u7",
+   "q": {
+    "text": "Where do you want to play?",
+    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
+   },
+   "pic": "../packs/basic_c_u7/slide.jpg",
+   "choices": [
+    "Let's play on the slide.",
+    "I love my rabbit."
+   ],
+   "answer": "Let's play on the slide.",
+   "aud": {
+    "Let's play on the slide.": "audio/basic_c_u7/ai/letsplayontheslide.mp3",
+    "I love my rabbit.": "audio/basic_c_u1/ai/ilovemyrabbit.mp3"
+   }
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "wrist",
+   "choices": [
+    "wrist",
+    "arm",
+    "toe",
+    "leg"
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "maze",
+   "choices": [
+    "maze",
+    "junglegym",
+    "seesaw",
+    "sandbox"
+   ],
+   "unit": "basic_c_u7"
   },
   {
    "type": "fill",
@@ -102,114 +213,19 @@
    "unit": "basic_c_u5"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "swing",
-   "audio": "audio/basic_c_u7/{v}/letsplayontheswing.mp3",
-   "sentence": [
-    "Let's",
-    "play",
-    "on",
-    "the",
-    "___",
-    "."
-   ],
-   "answer": "swing",
-   "choices": [
-    "swing",
-    "slide",
-    "seesaw"
-   ],
-   "unit": "basic_c_u7"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "computer",
-   "answer": "computer",
-   "choices": [
-    "computer",
-    "comuter",
-    "computem",
-    "omputer"
-   ],
-   "unit": "basic_c_u8"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u7",
-   "q": {
-    "text": "Where do you want to play?",
-    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
-   },
-   "pic": "../packs/basic_c_u7/slide.jpg",
-   "choices": [
-    "Let's ride the bumper car.",
-    "Let's play on the slide."
-   ],
-   "answer": "Let's play on the slide.",
-   "aud": {
-    "Let's ride the bumper car.": "audio/basic_c_u7/ai/letsridethebumpercar.mp3",
-    "Let's play on the slide.": "audio/basic_c_u7/ai/letsplayontheslide.mp3"
-   }
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u5",
-   "q": {
-    "text": "How do you spell pig?",
-    "audio": "audio/basic_c_u5/{v}/howdoyouspellpig.mp3"
-   },
-   "pic": "../packs/basic_c_u5/pig.jpg",
-   "choices": [
-    "D, O, G. Dog.",
-    "P, I, G. Pig."
-   ],
-   "answer": "P, I, G. Pig.",
-   "aud": {
-    "D, O, G. Dog.": "audio/basic_c_u5/ai/dogdog.mp3",
-    "P, I, G. Pig.": "audio/basic_c_u5/ai/pigpig.mp3"
-   }
-  },
-  {
    "type": "order",
    "prompt": "Put the words in order.",
    "skill": "grammar",
-   "pic": "bumpercar",
-   "audio": "audio/basic_c_u7/{v}/letsridethebumpercar.mp3",
+   "pic": "sandbox",
+   "audio": "audio/basic_c_u7/{v}/letsplayinthesandbox.mp3",
    "answer": [
     "Let's",
-    "ride",
+    "play",
+    "in",
     "the",
-    "bumper",
-    "car."
+    "sandbox."
    ],
    "unit": "basic_c_u7"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u6",
-   "q": {
-    "text": "What is this?",
-    "audio": "audio/basic_c_u6/{v}/whatisthis.mp3"
-   },
-   "pic": "../packs/basic_c_u6/face.jpg",
-   "choices": [
-    "Don't touch your face.",
-    "Don't touch your leg."
-   ],
-   "answer": "Don't touch your face.",
-   "aud": {
-    "Don't touch your face.": "audio/basic_c_u6/ai/donttouchyourface.mp3",
-    "Don't touch your leg.": "audio/basic_c_u6/ai/donttouchyourleg.mp3"
-   }
   },
   {
    "type": "fill",
@@ -232,31 +248,6 @@
     "want"
    ],
    "unit": "basic_c_u8"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "wrist",
-   "choices": [
-    "wrist",
-    "arm",
-    "toe",
-    "leg"
-   ],
-   "unit": "basic_c_u6"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/basic_c_u6/{v}/donttouchit.mp3",
-   "answer": [
-    "Don't",
-    "touch",
-    "it."
-   ],
-   "unit": "basic_c_u6"
   }
  ],
  "words": [

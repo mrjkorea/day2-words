@@ -68,12 +68,12 @@
   {
    "type": "listen",
    "skill": "listening",
-   "answer": "music",
+   "answer": "color",
    "choices": [
-    "music",
-    "animal",
-    "season",
-    "hobby"
+    "color",
+    "snack",
+    "hobby",
+    "sport"
    ],
    "unit": "int2c_u4"
   },
@@ -141,13 +141,17 @@
    },
    "pic": "../packs/int2c_u1/ski.jpg",
    "choices": [
-    "I love all four seasons.",
-    "I ski in winter."
+    "I ski in winter.",
+    "I have a cold.",
+    "It is my book.",
+    "I am feeling nervous."
    ],
    "answer": "I ski in winter.",
    "aud": {
-    "I love all four seasons.": "audio/int2c_u1/ai/iloveallfourseasons.mp3",
-    "I ski in winter.": "audio/int2c_u1/ai/iskiinwinter.mp3"
+    "I ski in winter.": "audio/int2c_u1/ai/iskiinwinter.mp3",
+    "I have a cold.": "audio/int2c_u6/ai/ihaveacold.mp3",
+    "It is my book.": "audio/int2c_u3/ai/itismybook.mp3",
+    "I am feeling nervous.": "audio/int2c_u5/ai/iamfeelingnervous.mp3"
    }
   },
   {
@@ -239,15 +243,19 @@
     "text": "Whose is this?",
     "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
    },
-   "pic": "../packs/int2c_u3/yours.jpg",
+   "pic": "../packs/int2c_u3/garbage.jpg",
    "choices": [
-    "Whose candy is this?",
-    "Is this yours?"
+    "It is garbage.",
+    "I am fishing.",
+    "My back hurts.",
+    "Good luck!"
    ],
-   "answer": "Is this yours?",
+   "answer": "It is garbage.",
    "aud": {
-    "Whose candy is this?": "audio/int2c_u3/ai/whosecandyisthis.mp3",
-    "Is this yours?": "audio/int2c_u3/ai/isthisyours.mp3"
+    "It is garbage.": "audio/int2c_u3/ai/itisgarbage.mp3",
+    "I am fishing.": "audio/int2c_u2/ai/iamfishing.mp3",
+    "My back hurts.": "audio/int2c_u6/ai/mybackhurts.mp3",
+    "Good luck!": "audio/int2c_u8/ai/goodluck.mp3"
    }
   },
   {
@@ -275,13 +283,17 @@
    },
    "pic": null,
    "choices": [
-    "This is my phone.",
-    "This is Mr. Jay."
+    "This is Mr. Jay.",
+    "I have a stomachache.",
+    "My favorite color is blue.",
+    "I swim in summer."
    ],
    "answer": "This is Mr. Jay.",
    "aud": {
-    "This is my phone.": "audio/int2c_u7/ai/thisismyphone.mp3",
-    "This is Mr. Jay.": "audio/int2c_u7/ai/thisismrjay.mp3"
+    "This is Mr. Jay.": "audio/int2c_u7/ai/thisismrjay.mp3",
+    "I have a stomachache.": "audio/int2c_u6/ai/ihaveastomachache.mp3",
+    "My favorite color is blue.": "audio/int2c_u4/ai/myfavoritecolorisblue.mp3",
+    "I swim in summer.": "audio/int2c_u1/ai/iswiminsummer.mp3"
    }
   },
   {
@@ -317,24 +329,28 @@
    "pic": "../packs/int2c_u4/hobby.jpg",
    "choices": [
     "My favorite hobby is drawing.",
-    "What is your favorite?"
+    "My tooth hurts.",
+    "It is my candy.",
+    "Sorry, she is out."
    ],
    "answer": "My favorite hobby is drawing.",
    "aud": {
     "My favorite hobby is drawing.": "audio/int2c_u4/ai/myfavoritehobbyisdrawing.mp3",
-    "What is your favorite?": "audio/int2c_u4/ai/whatisyourfavorite.mp3"
+    "My tooth hurts.": "audio/int2c_u6/ai/mytoothhurts.mp3",
+    "It is my candy.": "audio/int2c_u3/ai/itismycandy.mp3",
+    "Sorry, she is out.": "audio/int2c_u7/ai/sorrysheisout.mp3"
    }
   },
   {
    "type": "spell",
    "skill": "spelling",
-   "pic": "yours",
-   "answer": "yours",
+   "pic": "book",
+   "answer": "book",
    "choices": [
-    "yours",
-    "yors",
-    "yoars",
-    "yourm"
+    "book",
+    "boos",
+    "boor",
+    "bok"
    ],
    "unit": "int2c_u3"
   }

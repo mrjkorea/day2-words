@@ -29,12 +29,12 @@
    "pic": "../packs/basic_a_u4/quiet.jpg",
    "choices": [
     "I am sorry.",
-    "Thank you very much."
+    "I have three apples."
    ],
    "answer": "I am sorry.",
    "aud": {
     "I am sorry.": "audio/basic_a_u4/ai/iamsorry.mp3",
-    "Thank you very much.": "audio/basic_a_u4/ai/thankyouverymuch.mp3"
+    "I have three apples.": "audio/basic_a_u1/ai/ihavethreeapples.mp3"
    }
   },
   {
@@ -237,12 +237,12 @@
    "pic": "../packs/basic_a_u7/study.jpg",
    "choices": [
     "I can study.",
-    "I can speak Chinese."
+    "This is my uncle."
    ],
    "answer": "I can study.",
    "aud": {
     "I can study.": "audio/basic_a_u7/ai/icanstudy.mp3",
-    "I can speak Chinese.": "audio/basic_a_u7/ai/icanspeakchinese.mp3"
+    "This is my uncle.": "audio/basic_a_u5/ai/thisismyuncle.mp3"
    }
   },
   {
@@ -257,12 +257,12 @@
    "pic": "../packs/basic_a_u3/restart.jpg",
    "choices": [
     "Okay. I am restarting my computer.",
-    "Okay. I am making a new tab."
+    "I have eight apples."
    ],
    "answer": "Okay. I am restarting my computer.",
    "aud": {
     "Okay. I am restarting my computer.": "audio/basic_a_u3/ai/okayiamrestartingmycomputer.mp3",
-    "Okay. I am making a new tab.": "audio/basic_a_u3/ai/okayiammakinganewtab.mp3"
+    "I have eight apples.": "audio/basic_a_u1/ai/ihaveeightapples.mp3"
    }
   },
   {
@@ -310,12 +310,12 @@
    "pic": "../packs/basic_a_u1/nine.jpg",
    "choices": [
     "I have nine apples.",
-    "I have one apple."
+    "Hello, Ms. Pig."
    ],
    "answer": "I have nine apples.",
    "aud": {
     "I have nine apples.": "audio/basic_a_u1/ai/ihavenineapples.mp3",
-    "I have one apple.": "audio/basic_a_u1/ai/ihaveoneapple.mp3"
+    "Hello, Ms. Pig.": "audio/basic_a_u2/ai/hellomspig.mp3"
    }
   },
   {

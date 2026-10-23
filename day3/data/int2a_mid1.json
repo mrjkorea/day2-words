@@ -79,12 +79,16 @@
    "pic": "../packs/int2a_u1/hailing.jpg",
    "choices": [
     "It is hailing.",
-    "It is cold."
+    "I can speak Korean.",
+    "This is our teacher.",
+    "I want tissue paper."
    ],
    "answer": "It is hailing.",
    "aud": {
     "It is hailing.": "audio/int2a_u1/ai/itishailing.mp3",
-    "It is cold.": "audio/int2a_u1/ai/itiscold.mp3"
+    "I can speak Korean.": "audio/int2a_u3/ai/icanspeakkorean.mp3",
+    "This is our teacher.": "audio/int2a_u7/ai/thisisourteacher.mp3",
+    "I want tissue paper.": "audio/int2a_u4/ai/iwanttissuepaper.mp3"
    }
   },
   {
@@ -159,12 +163,16 @@
    "pic": "../packs/int2a_u3/vietnamese.jpg",
    "choices": [
     "I can speak Vietnamese.",
-    "I can speak Korean."
+    "Maybe it is in the bathroom.",
+    "It is humid.",
+    "This is our principal."
    ],
    "answer": "I can speak Vietnamese.",
    "aud": {
     "I can speak Vietnamese.": "audio/int2a_u3/ai/icanspeakvietnamese.mp3",
-    "I can speak Korean.": "audio/int2a_u3/ai/icanspeakkorean.mp3"
+    "Maybe it is in the bathroom.": "audio/int2a_u5/ai/maybeitisinthebathroom.mp3",
+    "It is humid.": "audio/int2a_u1/ai/itishumid.mp3",
+    "This is our principal.": "audio/int2a_u7/ai/thisisourprincipal.mp3"
    }
   },
   {
@@ -204,12 +212,16 @@
    "pic": "../packs/int2a_u2/washroom.jpg",
    "choices": [
     "There is a washroom!",
-    "There are ants!"
+    "I can speak German.",
+    "It is cold.",
+    "This video is sad."
    ],
    "answer": "There is a washroom!",
    "aud": {
     "There is a washroom!": "audio/int2a_u2/ai/thereisawashroom.mp3",
-    "There are ants!": "audio/int2a_u2/ai/thereareants.mp3"
+    "I can speak German.": "audio/int2a_u3/ai/icanspeakgerman.mp3",
+    "It is cold.": "audio/int2a_u1/ai/itiscold.mp3",
+    "This video is sad.": "audio/int2a_u6/ai/thisvideoissad.mp3"
    }
   },
   {
