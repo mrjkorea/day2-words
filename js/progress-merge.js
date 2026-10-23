@@ -263,6 +263,17 @@
     var local = filterProgressToPackIds(localDay2, ids);
     var merged = merge(local, legacy);
     merged = merge(merged, server);
+    // Keep song stages/scores: filterProgressToPackIds drops them, which hid
+    // a student's saved Practice and could overwrite it on the next save.
+    ["songStages", "songScores"].forEach(function (k) {
+      var bag = {};
+      [localDay2, legacyDay2, serverDay2].forEach(function (src) {
+        var v = src && typeof src === "object" ? src[k] : null;
+        if (v && typeof v === "string") { try { v = JSON.parse(v); } catch (e) { v = null; } }
+        if (v && typeof v === "object") Object.keys(v).forEach(function (id) { bag[id] = v[id]; });
+      });
+      if (Object.keys(bag).length) merged[k] = bag;
+    });
     return { progress: merged, migrated: true };
   }
 

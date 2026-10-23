@@ -309,11 +309,53 @@
   var STAGE_NAME = { listen: "Listen", tap: "Tap", practice: "Practice", quiz: "Mini Quiz" };
   var STAGE_BTN = { listen: "btn-listen", tap: "btn-tap-stage", practice: "btn-practice", quiz: "btn-quiz" };
 
+  /* 2026-10-23: stages were saved only in this browser under one shared key, never read back
+     from the student's saved progress. A new device, a cleared browser, or a shared classroom PC
+     lost Practice and kept the quiz locked. Now: one key per student + merge from saved progress. */
+  function stageKey() { return authId ? STAGE_KEY + "." + authId : STAGE_KEY; }
+  function parseObj(raw) {
+    try { var o = JSON.parse(raw || "{}"); return o && typeof o === "object" ? o : {}; } catch (e) { return {}; }
+  }
+  function mergeStageBags(a, b) {
+    var out = {};
+    [a, b].forEach(function (bag) {
+      Object.keys(bag || {}).forEach(function (sid) {
+        var src = bag[sid];
+        if (!src || typeof src !== "object") return;
+        var dst = out[sid] || (out[sid] = {});
+        Object.keys(src).forEach(function (k) {
+          if (STAGES.indexOf(k) >= 0) { if (src[k] && !dst[k]) dst[k] = src[k]; }
+          else if (k === "quizAttempts") dst[k] = Math.max(dst[k] || 0, src[k] || 0);
+          else if (k === "quizScores") { if (!dst[k] || (src[k] || []).length > dst[k].length) dst[k] = src[k]; }
+          else if (dst[k] == null) dst[k] = src[k];
+        });
+      });
+    });
+    return out;
+  }
   function readStages() {
-    try {
-      var o = JSON.parse(localStorage.getItem(STAGE_KEY) || "{}");
-      return o && typeof o === "object" ? o : {};
-    } catch (e) { return {}; }
+    var mine = {};
+    try { mine = parseObj(localStorage.getItem(stageKey())); } catch (e) {}
+    if (authId) {
+      var legacy = {};
+      try { legacy = parseObj(localStorage.getItem(STAGE_KEY)); } catch (e) {}
+      if (Object.keys(legacy).length && !Object.keys(mine).length) mine = legacy;
+    }
+    return mine;
+  }
+  function writeStages(all) {
+    try { localStorage.setItem(stageKey(), JSON.stringify(all)); } catch (e) {}
+  }
+  function hydrateStages() {
+    var prog = window.MRJ_WM_progress;
+    if (!authId || !prog || typeof prog.load !== "function") return;
+    prog.load().then(function (res) {
+      if (!res || !res.progress_json) return;
+      var remote = typeof res.progress_json === "string" ? parseObj(res.progress_json) : res.progress_json;
+      if (!remote || !remote.songStages) return;
+      writeStages(mergeStageBags(readStages(), remote.songStages));
+      if (mode === "ready") { refreshStageButtons(); showBestStage(); }
+    }).catch(function () {});
   }
   function songStages() { return (song && readStages()[song.id]) || {}; }
   function isDone(stage) { return !!songStages()[stage]; }
@@ -335,7 +377,7 @@
     var mine = all[song.id] || {};
     mine[stage] = extra || { at: Date.now() };
     all[song.id] = mine;
-    try { localStorage.setItem(STAGE_KEY, JSON.stringify(all)); } catch (e) {}
+    writeStages(all);
     var r = extra && typeof extra.percent === "number" ? extra : { percent: 100, stars: 3, at: Date.now() };
     r.screen = stage;
     r.wordId = "stage_" + stage;
@@ -816,7 +858,7 @@
     mine.quizAttempts = attempts;
     mine.quizScores = (mine.quizScores || []).concat([quizScore]);
     all[song.id] = mine;
-    try { localStorage.setItem(STAGE_KEY, JSON.stringify(all)); } catch (e) {}
+    writeStages(all);
     var passed = quizScore >= PASS;
     var prog = window.MRJ_WM_progress;
     if (prog && typeof prog.logResult === "function") {
@@ -919,6 +961,7 @@
         audio.src = song.audio;
         audio.load();
         goReady();
+        hydrateStages();
         loop();
       })
       .catch(function () {
