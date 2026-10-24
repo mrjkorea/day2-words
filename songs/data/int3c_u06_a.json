@@ -1,0 +1,1062 @@
+{
+ "id": "int3c_u06_a",
+ "title": "How Many Cities?",
+ "book": "INT 3C",
+ "unit": 6,
+ "unitTitle": "How Many Cities?",
+ "packId": "int3c_u6",
+ "audio": "audio/int3c_u06_a.mp3",
+ "duration": 151.22,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Korea quiz!",
+   "words": [
+    {
+     "t": "Korea",
+     "start": 0.64,
+     "end": 0.9
+    },
+    {
+     "t": "quiz!",
+     "start": 0.9,
+     "end": 1.36
+    }
+   ],
+   "n": 1,
+   "start": 0.64,
+   "end": 1.36,
+   "pic": "city"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How many cities are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 12.0,
+     "end": 12.3
+    },
+    {
+     "t": "many",
+     "start": 12.34,
+     "end": 12.7
+    },
+    {
+     "t": "cities",
+     "start": 12.74,
+     "end": 13.23
+    },
+    {
+     "t": "are",
+     "start": 13.28,
+     "end": 13.58
+    },
+    {
+     "t": "there",
+     "start": 13.62,
+     "end": 14.04
+    },
+    {
+     "t": "in",
+     "start": 14.09,
+     "end": 14.33
+    },
+    {
+     "t": "Korea?",
+     "start": 14.36,
+     "end": 14.85
+    }
+   ],
+   "n": 2,
+   "start": 12.0,
+   "end": 14.85,
+   "pic": "city"
+  },
+  {
+   "section": "Verse 1",
+   "text": "There are one hundred twenty-five cities!",
+   "words": [
+    {
+     "t": "There",
+     "start": 15.0,
+     "end": 15.38
+    },
+    {
+     "t": "are",
+     "start": 15.42,
+     "end": 15.69
+    },
+    {
+     "t": "one",
+     "start": 15.72,
+     "end": 16.0
+    },
+    {
+     "t": "hundred",
+     "start": 16.03,
+     "end": 16.52
+    },
+    {
+     "t": "twenty-five",
+     "start": 16.57,
+     "end": 17.28
+    },
+    {
+     "t": "cities!",
+     "start": 17.36,
+     "end": 17.85
+    }
+   ],
+   "n": 3,
+   "start": 15.0,
+   "end": 17.85,
+   "pic": "city"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How many provinces are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 18.0,
+     "end": 18.35
+    },
+    {
+     "t": "many",
+     "start": 18.39,
+     "end": 18.81
+    },
+    {
+     "t": "provinces",
+     "start": 18.86,
+     "end": 19.64
+    },
+    {
+     "t": "are",
+     "start": 19.72,
+     "end": 20.07
+    },
+    {
+     "t": "there",
+     "start": 20.11,
+     "end": 20.61
+    },
+    {
+     "t": "in",
+     "start": 20.66,
+     "end": 20.94
+    },
+    {
+     "t": "Korea?",
+     "start": 20.97,
+     "end": 21.54
+    }
+   ],
+   "n": 4,
+   "start": 18.0,
+   "end": 21.54,
+   "pic": "city"
+  },
+  {
+   "section": "Verse 1",
+   "text": "There are nine provinces!",
+   "words": [
+    {
+     "t": "There",
+     "start": 21.7,
+     "end": 22.18
+    },
+    {
+     "t": "are",
+     "start": 22.24,
+     "end": 22.58
+    },
+    {
+     "t": "nine",
+     "start": 22.62,
+     "end": 23.03
+    },
+    {
+     "t": "provinces!",
+     "start": 23.08,
+     "end": 23.91
+    }
+   ],
+   "n": 5,
+   "start": 21.7,
+   "end": 23.91,
+   "pic": "city"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How many islands are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 24.2,
+     "end": 24.4
+    },
+    {
+     "t": "many",
+     "start": 24.43,
+     "end": 24.67
+    },
+    {
+     "t": "islands",
+     "start": 24.7,
+     "end": 25.07
+    },
+    {
+     "t": "are",
+     "start": 25.11,
+     "end": 25.31
+    },
+    {
+     "t": "there",
+     "start": 25.34,
+     "end": 25.62
+    },
+    {
+     "t": "in",
+     "start": 25.65,
+     "end": 25.82
+    },
+    {
+     "t": "Korea?",
+     "start": 25.84,
+     "end": 26.16
+    }
+   ],
+   "n": 6,
+   "start": 24.2,
+   "end": 26.16,
+   "pic": "howmanyislandsarethere"
+  },
+  {
+   "section": "Verse 1",
+   "text": "There are three thousand three hundred fifty-eight islands!",
+   "words": [
+    {
+     "t": "There",
+     "start": 26.4,
+     "end": 26.84
+    },
+    {
+     "t": "are",
+     "start": 26.89,
+     "end": 27.21
+    },
+    {
+     "t": "three",
+     "start": 27.25,
+     "end": 27.69
+    },
+    {
+     "t": "thousand",
+     "start": 27.74,
+     "end": 28.38
+    },
+    {
+     "t": "three",
+     "start": 28.45,
+     "end": 28.89
+    },
+    {
+     "t": "hundred",
+     "start": 28.94,
+     "end": 29.51
+    },
+    {
+     "t": "fifty-eight",
+     "start": 29.58,
+     "end": 30.4
+    },
+    {
+     "t": "islands!",
+     "start": 30.49,
+     "end": 31.13
+    }
+   ],
+   "n": 7,
+   "start": 26.4,
+   "end": 31.13,
+   "pic": "howmanyislandsarethere"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many? How many?",
+   "words": [
+    {
+     "t": "How",
+     "start": 33.0,
+     "end": 33.62
+    },
+    {
+     "t": "many?",
+     "start": 33.69,
+     "end": 34.55
+    },
+    {
+     "t": "How",
+     "start": 34.65,
+     "end": 35.27
+    },
+    {
+     "t": "many?",
+     "start": 35.34,
+     "end": 36.2
+    }
+   ],
+   "n": 8,
+   "start": 33.0,
+   "end": 36.2,
+   "pic": "howmanyislandsarethere"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 38.2,
+     "end": 38.65
+    },
+    {
+     "t": "many",
+     "start": 38.7,
+     "end": 39.24
+    },
+    {
+     "t": "are",
+     "start": 39.3,
+     "end": 39.75
+    },
+    {
+     "t": "there",
+     "start": 39.8,
+     "end": 40.43
+    },
+    {
+     "t": "in",
+     "start": 40.5,
+     "end": 40.86
+    },
+    {
+     "t": "Korea?",
+     "start": 40.9,
+     "end": 41.62
+    }
+   ],
+   "n": 9,
+   "start": 38.2,
+   "end": 41.62,
+   "pic": "howmanyislandsarethere"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many? How many?",
+   "words": [
+    {
+     "t": "How",
+     "start": 42.5,
+     "end": 43.16
+    },
+    {
+     "t": "many?",
+     "start": 43.23,
+     "end": 44.15
+    },
+    {
+     "t": "How",
+     "start": 44.25,
+     "end": 44.91
+    },
+    {
+     "t": "many?",
+     "start": 44.98,
+     "end": 45.9
+    }
+   ],
+   "n": 10,
+   "start": 42.5,
+   "end": 45.9,
+   "pic": "howmanyislandsarethere"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are, there are!",
+   "words": [
+    {
+     "t": "There",
+     "start": 47.72,
+     "end": 48.56
+    },
+    {
+     "t": "are,",
+     "start": 48.58,
+     "end": 49.29
+    },
+    {
+     "t": "there",
+     "start": 49.31,
+     "end": 50.15
+    },
+    {
+     "t": "are!",
+     "start": 50.17,
+     "end": 50.9
+    }
+   ],
+   "n": 11,
+   "start": 47.72,
+   "end": 50.9,
+   "pic": "howmanyislandsarethere"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How many national parks are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 53.14,
+     "end": 53.32
+    },
+    {
+     "t": "many",
+     "start": 53.34,
+     "end": 53.57
+    },
+    {
+     "t": "national",
+     "start": 53.59,
+     "end": 53.98
+    },
+    {
+     "t": "parks",
+     "start": 54.0,
+     "end": 54.26
+    },
+    {
+     "t": "are",
+     "start": 54.28,
+     "end": 54.47
+    },
+    {
+     "t": "there",
+     "start": 54.49,
+     "end": 54.75
+    },
+    {
+     "t": "in",
+     "start": 54.77,
+     "end": 54.91
+    },
+    {
+     "t": "Korea?",
+     "start": 54.93,
+     "end": 55.26
+    }
+   ],
+   "n": 12,
+   "start": 53.14,
+   "end": 55.26,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Verse 2",
+   "text": "There are twenty-two national parks!",
+   "words": [
+    {
+     "t": "There",
+     "start": 56.96,
+     "end": 57.22
+    },
+    {
+     "t": "are",
+     "start": 58.08,
+     "end": 58.22
+    },
+    {
+     "t": "twenty-two",
+     "start": 58.22,
+     "end": 58.68
+    },
+    {
+     "t": "national",
+     "start": 58.64,
+     "end": 59.28
+    },
+    {
+     "t": "parks!",
+     "start": 59.24,
+     "end": 59.96
+    }
+   ],
+   "n": 13,
+   "start": 56.96,
+   "end": 59.96,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How many volcanoes are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 59.96,
+     "end": 60.24
+    },
+    {
+     "t": "many",
+     "start": 60.26,
+     "end": 60.6
+    },
+    {
+     "t": "volcanoes",
+     "start": 60.62,
+     "end": 61.27
+    },
+    {
+     "t": "are",
+     "start": 61.29,
+     "end": 61.57
+    },
+    {
+     "t": "there",
+     "start": 61.59,
+     "end": 61.99
+    },
+    {
+     "t": "in",
+     "start": 62.01,
+     "end": 62.24
+    },
+    {
+     "t": "Korea?",
+     "start": 62.26,
+     "end": 62.74
+    }
+   ],
+   "n": 14,
+   "start": 59.96,
+   "end": 62.74,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Verse 2",
+   "text": "There are two volcanoes!",
+   "words": [
+    {
+     "t": "There",
+     "start": 63.24,
+     "end": 63.48
+    },
+    {
+     "t": "are",
+     "start": 63.48,
+     "end": 63.66
+    },
+    {
+     "t": "two",
+     "start": 63.66,
+     "end": 63.84
+    },
+    {
+     "t": "volcanoes!",
+     "start": 63.88,
+     "end": 64.48
+    }
+   ],
+   "n": 15,
+   "start": 63.24,
+   "end": 64.48,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How many deserts are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 67.22,
+     "end": 67.54
+    },
+    {
+     "t": "many",
+     "start": 67.54,
+     "end": 67.82
+    },
+    {
+     "t": "deserts",
+     "start": 67.82,
+     "end": 68.16
+    },
+    {
+     "t": "are",
+     "start": 68.16,
+     "end": 68.52
+    },
+    {
+     "t": "there",
+     "start": 68.5,
+     "end": 68.76
+    },
+    {
+     "t": "in",
+     "start": 68.76,
+     "end": 68.96
+    },
+    {
+     "t": "Korea?",
+     "start": 68.94,
+     "end": 69.42
+    }
+   ],
+   "n": 16,
+   "start": 67.22,
+   "end": 69.42,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Verse 2",
+   "text": "There are zero deserts!",
+   "words": [
+    {
+     "t": "There",
+     "start": 69.92,
+     "end": 70.06
+    },
+    {
+     "t": "are",
+     "start": 70.04,
+     "end": 70.22
+    },
+    {
+     "t": "zero",
+     "start": 70.22,
+     "end": 70.48
+    },
+    {
+     "t": "deserts!",
+     "start": 70.52,
+     "end": 71.16
+    }
+   ],
+   "n": 17,
+   "start": 69.92,
+   "end": 71.16,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many? How many?",
+   "words": [
+    {
+     "t": "How",
+     "start": 73.82,
+     "end": 74.06
+    },
+    {
+     "t": "many?",
+     "start": 74.06,
+     "end": 74.6
+    },
+    {
+     "t": "How",
+     "start": 75.78,
+     "end": 76.48
+    },
+    {
+     "t": "many?",
+     "start": 76.48,
+     "end": 76.9
+    }
+   ],
+   "n": 18,
+   "start": 73.82,
+   "end": 76.9,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 78.58,
+     "end": 78.95
+    },
+    {
+     "t": "many",
+     "start": 78.97,
+     "end": 79.43
+    },
+    {
+     "t": "are",
+     "start": 79.45,
+     "end": 79.82
+    },
+    {
+     "t": "there",
+     "start": 79.84,
+     "end": 80.37
+    },
+    {
+     "t": "in",
+     "start": 80.39,
+     "end": 80.69
+    },
+    {
+     "t": "Korea?",
+     "start": 80.71,
+     "end": 81.34
+    }
+   ],
+   "n": 19,
+   "start": 78.58,
+   "end": 81.34,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many? How many?",
+   "words": [
+    {
+     "t": "How",
+     "start": 82.3,
+     "end": 83.64
+    },
+    {
+     "t": "many?",
+     "start": 83.64,
+     "end": 84.1
+    },
+    {
+     "t": "How",
+     "start": 85.74,
+     "end": 86.12
+    },
+    {
+     "t": "many?",
+     "start": 86.11,
+     "end": 86.76
+    }
+   ],
+   "n": 20,
+   "start": 82.3,
+   "end": 86.76,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are, there are!",
+   "words": [
+    {
+     "t": "There",
+     "start": 88.02,
+     "end": 88.9
+    },
+    {
+     "t": "are,",
+     "start": 88.92,
+     "end": 89.68
+    },
+    {
+     "t": "there",
+     "start": 89.7,
+     "end": 90.58
+    },
+    {
+     "t": "are!",
+     "start": 90.6,
+     "end": 91.38
+    }
+   ],
+   "n": 21,
+   "start": 88.02,
+   "end": 91.38,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Bridge",
+   "text": "Pardon? How many cities?",
+   "words": [
+    {
+     "t": "Pardon?",
+     "start": 93.52,
+     "end": 112.96
+    },
+    {
+     "t": "How",
+     "start": 116.32,
+     "end": 116.52
+    },
+    {
+     "t": "many",
+     "start": 116.52,
+     "end": 116.74
+    },
+    {
+     "t": "cities?",
+     "start": 116.74,
+     "end": 117.24
+    }
+   ],
+   "n": 22,
+   "start": 93.52,
+   "end": 117.24,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Bridge",
+   "text": "One hundred twenty-five cities!",
+   "words": [
+    {
+     "t": "One",
+     "start": 117.98,
+     "end": 118.16
+    },
+    {
+     "t": "hundred",
+     "start": 118.16,
+     "end": 118.7
+    },
+    {
+     "t": "twenty-five",
+     "start": 118.75,
+     "end": 118.89
+    },
+    {
+     "t": "cities!",
+     "start": 118.96,
+     "end": 119.72
+    }
+   ],
+   "n": 23,
+   "start": 117.98,
+   "end": 119.72,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many? How many?",
+   "words": [
+    {
+     "t": "How",
+     "start": 121.88,
+     "end": 122.1
+    },
+    {
+     "t": "many?",
+     "start": 122.98,
+     "end": 123.48
+    },
+    {
+     "t": "How",
+     "start": 124.22,
+     "end": 124.48
+    },
+    {
+     "t": "many?",
+     "start": 124.48,
+     "end": 124.96
+    }
+   ],
+   "n": 24,
+   "start": 121.88,
+   "end": 124.96,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many are there in Korea?",
+   "words": [
+    {
+     "t": "How",
+     "start": 125.16,
+     "end": 125.58
+    },
+    {
+     "t": "many",
+     "start": 125.58,
+     "end": 126.36
+    },
+    {
+     "t": "are",
+     "start": 126.36,
+     "end": 128.36
+    },
+    {
+     "t": "there",
+     "start": 128.36,
+     "end": 128.92
+    },
+    {
+     "t": "in",
+     "start": 128.92,
+     "end": 129.3
+    },
+    {
+     "t": "Korea?",
+     "start": 129.3,
+     "end": 129.96
+    }
+   ],
+   "n": 25,
+   "start": 125.16,
+   "end": 129.96,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Chorus",
+   "text": "How many? How many?",
+   "words": [
+    {
+     "t": "How",
+     "start": 130.56,
+     "end": 130.66
+    },
+    {
+     "t": "many?",
+     "start": 130.66,
+     "end": 131.18
+    },
+    {
+     "t": "How",
+     "start": 131.4,
+     "end": 131.72
+    },
+    {
+     "t": "many?",
+     "start": 131.72,
+     "end": 132.1
+    }
+   ],
+   "n": 26,
+   "start": 130.56,
+   "end": 132.1,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Chorus",
+   "text": "There are, there are!",
+   "words": [
+    {
+     "t": "There",
+     "start": 134.74,
+     "end": 135.16
+    },
+    {
+     "t": "are,",
+     "start": 135.22,
+     "end": 138.26
+    },
+    {
+     "t": "there",
+     "start": 138.42,
+     "end": 139.16
+    },
+    {
+     "t": "are!",
+     "start": 139.16,
+     "end": 139.76
+    }
+   ],
+   "n": 27,
+   "start": 134.74,
+   "end": 139.76,
+   "pic": "nationalpark"
+  },
+  {
+   "section": "Outro",
+   "text": "How many? There are many!",
+   "words": [
+    {
+     "t": "How",
+     "start": 140.74,
+     "end": 141.36
+    },
+    {
+     "t": "many?",
+     "start": 141.36,
+     "end": 142.02
+    },
+    {
+     "t": "There",
+     "start": 143.06,
+     "end": 143.26
+    },
+    {
+     "t": "are",
+     "start": 143.26,
+     "end": 143.66
+    },
+    {
+     "t": "many!",
+     "start": 143.66,
+     "end": 143.86
+    }
+   ],
+   "n": 28,
+   "start": 140.74,
+   "end": 143.86,
+   "pic": "nationalpark"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "city",
+   "prompt": "How many cities are there in Korea?",
+   "answer": "There are one hundred twenty-five cities!",
+   "choices": [
+    "There are one hundred twenty-five cities!",
+    "There are nine cities!",
+    "There are two cities!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "There are ___ provinces!",
+   "answer": "nine",
+   "choices": [
+    "nine",
+    "two",
+    "twenty-two"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "volcano",
+   "prompt": "How many volcanoes are there in Korea?",
+   "answer": "There are two volcanoes!",
+   "choices": [
+    "There are two volcanoes!",
+    "There are zero volcanoes!",
+    "There are nine volcanoes!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "There are ___ national parks!",
+   "answer": "twenty-two",
+   "choices": [
+    "twenty-two",
+    "nine",
+    "two"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "desert",
+   "prompt": "How many deserts are there in Korea?",
+   "answer": "There are zero deserts!",
+   "choices": [
+    "There are zero deserts!",
+    "There are two deserts!",
+    "There are nine deserts!"
+   ]
+  }
+ ]
+}

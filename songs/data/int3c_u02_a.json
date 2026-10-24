@@ -1,0 +1,793 @@
+{
+ "id": "int3c_u02_a",
+ "title": "Do Not Yell!",
+ "book": "INT 3C",
+ "unit": 2,
+ "unitTitle": "Do Not Yell",
+ "packId": "int3c_u2",
+ "audio": "audio/int3c_u02_a.mp3",
+ "duration": 152.38,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Excuse me! Listen!",
+   "words": [
+    {
+     "t": "Excuse",
+     "start": 7.76,
+     "end": 8.78
+    },
+    {
+     "t": "me!",
+     "start": 8.78,
+     "end": 9.18
+    },
+    {
+     "t": "Listen!",
+     "start": 9.78,
+     "end": 10.18
+    }
+   ],
+   "n": 1,
+   "start": 7.76,
+   "end": 10.18,
+   "pic": "burp"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Do not yell!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 11.44,
+     "end": 11.62
+    },
+    {
+     "t": "not",
+     "start": 11.62,
+     "end": 12.1
+    },
+    {
+     "t": "yell!",
+     "start": 12.1,
+     "end": 12.84,
+     "pic": "yell"
+    }
+   ],
+   "n": 2,
+   "start": 11.44,
+   "end": 12.84,
+   "pic": "yell"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 14.54,
+     "end": 15.54
+    }
+   ],
+   "n": 3,
+   "start": 14.54,
+   "end": 15.54,
+   "pic": "yell"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Do not run!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 16.58,
+     "end": 16.84
+    },
+    {
+     "t": "not",
+     "start": 16.86,
+     "end": 17.3
+    },
+    {
+     "t": "run!",
+     "start": 17.32,
+     "end": 18.02,
+     "pic": "run"
+    }
+   ],
+   "n": 4,
+   "start": 16.58,
+   "end": 18.02,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 20.26,
+     "end": 20.66
+    }
+   ],
+   "n": 5,
+   "start": 20.26,
+   "end": 20.66,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Do not push!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 21.88,
+     "end": 22.1
+    },
+    {
+     "t": "not",
+     "start": 22.1,
+     "end": 22.56
+    },
+    {
+     "t": "push!",
+     "start": 27.38,
+     "end": 27.48
+    }
+   ],
+   "n": 6,
+   "start": 21.88,
+   "end": 27.48,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 30.0,
+     "end": 30.1
+    }
+   ],
+   "n": 7,
+   "start": 27.58,
+   "end": 28.18,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not yell! Shh!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 31.42,
+     "end": 31.74
+    },
+    {
+     "t": "not",
+     "start": 31.74,
+     "end": 32.4
+    },
+    {
+     "t": "yell!",
+     "start": 33.3,
+     "end": 33.7,
+     "pic": "yell"
+    },
+    {
+     "t": "Shh!",
+     "start": 35.42,
+     "end": 35.84
+    }
+   ],
+   "n": 8,
+   "start": 31.42,
+   "end": 35.84,
+   "pic": "yell"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not run! Walk!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 36.58,
+     "end": 36.86
+    },
+    {
+     "t": "not",
+     "start": 36.86,
+     "end": 37.7
+    },
+    {
+     "t": "run!",
+     "start": 38.5,
+     "end": 39.02,
+     "pic": "run"
+    },
+    {
+     "t": "Walk!",
+     "start": 39.07,
+     "end": 39.49
+    }
+   ],
+   "n": 9,
+   "start": 36.58,
+   "end": 39.49,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not, do not,",
+   "words": [
+    {
+     "t": "Do",
+     "start": 41.46,
+     "end": 42.2
+    },
+    {
+     "t": "not,",
+     "start": 42.2,
+     "end": 42.92
+    },
+    {
+     "t": "do",
+     "start": 43.14,
+     "end": 43.28
+    },
+    {
+     "t": "not,",
+     "start": 43.28,
+     "end": 43.7
+    }
+   ],
+   "n": 10,
+   "start": 41.46,
+   "end": 43.7,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not yell!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 44.38,
+     "end": 44.84
+    },
+    {
+     "t": "not",
+     "start": 44.84,
+     "end": 45.58
+    },
+    {
+     "t": "yell!",
+     "start": 48.94,
+     "end": 49.44,
+     "pic": "yell"
+    }
+   ],
+   "n": 11,
+   "start": 44.38,
+   "end": 49.44,
+   "pic": "yell"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Do not throw paper!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 53.22,
+     "end": 53.32
+    },
+    {
+     "t": "not",
+     "start": 53.32,
+     "end": 53.62
+    },
+    {
+     "t": "throw",
+     "start": 53.62,
+     "end": 54.0,
+     "pic": "throw"
+    },
+    {
+     "t": "paper!",
+     "start": 54.0,
+     "end": 54.6
+    }
+   ],
+   "n": 12,
+   "start": 53.22,
+   "end": 54.6,
+   "pic": "throw"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 56.0,
+     "end": 56.1
+    }
+   ],
+   "n": 13,
+   "start": 54.7,
+   "end": 55.3,
+   "pic": "throw"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Do not open the window!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 58.32,
+     "end": 58.5
+    },
+    {
+     "t": "not",
+     "start": 58.5,
+     "end": 58.78
+    },
+    {
+     "t": "open",
+     "start": 63.98,
+     "end": 64.38,
+     "pic": "open"
+    },
+    {
+     "t": "the",
+     "start": 64.38,
+     "end": 64.62
+    },
+    {
+     "t": "window!",
+     "start": 64.62,
+     "end": 65.12
+    }
+   ],
+   "n": 14,
+   "start": 58.32,
+   "end": 65.12,
+   "pic": "open"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 65.58,
+     "end": 67.58
+    }
+   ],
+   "n": 15,
+   "start": 65.58,
+   "end": 67.58,
+   "pic": "open"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Do not pull my hair!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 68.8,
+     "end": 68.94
+    },
+    {
+     "t": "not",
+     "start": 68.94,
+     "end": 69.24
+    },
+    {
+     "t": "pull",
+     "start": 69.24,
+     "end": 69.6,
+     "pic": "pull"
+    },
+    {
+     "t": "my",
+     "start": 69.6,
+     "end": 69.86
+    },
+    {
+     "t": "hair!",
+     "start": 69.86,
+     "end": 70.36
+    }
+   ],
+   "n": 16,
+   "start": 68.8,
+   "end": 70.36,
+   "pic": "pull"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Sorry!",
+   "words": [
+    {
+     "t": "Sorry!",
+     "start": 72.46,
+     "end": 72.84
+    }
+   ],
+   "n": 17,
+   "start": 72.46,
+   "end": 72.84,
+   "pic": "pull"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not yell! Shh!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 73.04,
+     "end": 73.27
+    },
+    {
+     "t": "not",
+     "start": 73.29,
+     "end": 73.59
+    },
+    {
+     "t": "yell!",
+     "start": 73.61,
+     "end": 74.04,
+     "pic": "yell"
+    },
+    {
+     "t": "Shh!",
+     "start": 74.06,
+     "end": 74.44
+    }
+   ],
+   "n": 18,
+   "start": 73.04,
+   "end": 74.44,
+   "pic": "yell"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not run! Walk!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 74.44,
+     "end": 74.58
+    },
+    {
+     "t": "not",
+     "start": 74.58,
+     "end": 75.0
+    },
+    {
+     "t": "run!",
+     "start": 75.05,
+     "end": 75.32,
+     "pic": "run"
+    },
+    {
+     "t": "Walk!",
+     "start": 75.35,
+     "end": 75.63
+    }
+   ],
+   "n": 19,
+   "start": 74.44,
+   "end": 75.63,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not, do not,",
+   "words": [
+    {
+     "t": "Do",
+     "start": 75.76,
+     "end": 76.12
+    },
+    {
+     "t": "not,",
+     "start": 76.12,
+     "end": 76.84
+    },
+    {
+     "t": "do",
+     "start": 77.3,
+     "end": 78.48
+    },
+    {
+     "t": "not,",
+     "start": 78.48,
+     "end": 79.46
+    }
+   ],
+   "n": 20,
+   "start": 75.76,
+   "end": 79.46,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not yell!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 79.56,
+     "end": 79.99
+    },
+    {
+     "t": "not",
+     "start": 80.01,
+     "end": 80.55
+    },
+    {
+     "t": "yell!",
+     "start": 80.57,
+     "end": 81.36,
+     "pic": "yell"
+    }
+   ],
+   "n": 21,
+   "start": 79.56,
+   "end": 81.36,
+   "pic": "yell"
+  },
+  {
+   "section": "Bridge",
+   "text": "In the library...",
+   "words": [
+    {
+     "t": "In",
+     "start": 81.46,
+     "end": 81.78
+    },
+    {
+     "t": "the",
+     "start": 81.8,
+     "end": 82.21
+    },
+    {
+     "t": "library...",
+     "start": 82.23,
+     "end": 83.26
+    }
+   ],
+   "n": 22,
+   "start": 81.46,
+   "end": 83.26,
+   "pic": "yell"
+  },
+  {
+   "section": "Bridge",
+   "text": "Do not yell...",
+   "words": [
+    {
+     "t": "Do",
+     "start": 83.36,
+     "end": 83.74
+    },
+    {
+     "t": "not",
+     "start": 83.76,
+     "end": 84.24
+    },
+    {
+     "t": "yell...",
+     "start": 84.26,
+     "end": 85.16,
+     "pic": "yell"
+    }
+   ],
+   "n": 23,
+   "start": 83.36,
+   "end": 85.16,
+   "pic": "yell"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not yell! Shh!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 82.94,
+     "end": 83.72
+    },
+    {
+     "t": "not",
+     "start": 83.72,
+     "end": 84.6
+    },
+    {
+     "t": "yell!",
+     "start": 84.6,
+     "end": 85.72,
+     "pic": "yell"
+    },
+    {
+     "t": "Shh!",
+     "start": 85.77,
+     "end": 86.19
+    }
+   ],
+   "n": 24,
+   "start": 82.94,
+   "end": 86.19,
+   "pic": "yell"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not run! Walk!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 86.52,
+     "end": 86.62
+    },
+    {
+     "t": "not",
+     "start": 86.62,
+     "end": 87.34
+    },
+    {
+     "t": "run!",
+     "start": 87.39,
+     "end": 87.81,
+     "pic": "run"
+    },
+    {
+     "t": "Walk!",
+     "start": 87.84,
+     "end": 88.26
+    }
+   ],
+   "n": 25,
+   "start": 86.52,
+   "end": 88.26,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not, do not,",
+   "words": [
+    {
+     "t": "Do",
+     "start": 88.7,
+     "end": 89.2
+    },
+    {
+     "t": "not,",
+     "start": 89.2,
+     "end": 89.9
+    },
+    {
+     "t": "do",
+     "start": 89.95,
+     "end": 90.37
+    },
+    {
+     "t": "not,",
+     "start": 91.84,
+     "end": 99.66
+    }
+   ],
+   "n": 26,
+   "start": 88.7,
+   "end": 99.66,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not yell!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 103.2,
+     "end": 104.41
+    },
+    {
+     "t": "not",
+     "start": 104.43,
+     "end": 105.95
+    },
+    {
+     "t": "yell!",
+     "start": 105.97,
+     "end": 108.12,
+     "pic": "yell"
+    }
+   ],
+   "n": 27,
+   "start": 103.2,
+   "end": 108.12,
+   "pic": "yell"
+  },
+  {
+   "section": "Outro",
+   "text": "Do not yell!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 108.22,
+     "end": 108.65
+    },
+    {
+     "t": "not",
+     "start": 108.67,
+     "end": 109.21
+    },
+    {
+     "t": "yell!",
+     "start": 109.23,
+     "end": 110.02,
+     "pic": "yell"
+    }
+   ],
+   "n": 28,
+   "start": 108.22,
+   "end": 110.02,
+   "pic": "yell"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "yell",
+   "prompt": "Do not yell!",
+   "answer": "Sorry!",
+   "choices": [
+    "Sorry!",
+    "Thank you!",
+    "Yes, I can!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "Do not ___!",
+   "answer": "run",
+   "choices": [
+    "run",
+    "push",
+    "yell"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "throw",
+   "prompt": "What is this?",
+   "answer": "Do not throw paper!",
+   "choices": [
+    "Do not throw paper!",
+    "Do not run!",
+    "Do not yell!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "Do not open the ___!",
+   "answer": "window",
+   "choices": [
+    "window",
+    "door",
+    "book"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "pull",
+   "prompt": "What is this?",
+   "answer": "Do not pull my hair!",
+   "choices": [
+    "Do not pull my hair!",
+    "Do not open the window!",
+    "Do not run!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,870 @@
+{
+ "id": "int3c_u04_a",
+ "title": "Let's Play an RPG!",
+ "book": "INT 3C",
+ "unit": 4,
+ "unitTitle": "Let's Play an RPG",
+ "packId": "int3c_u4",
+ "audio": "audio/int3c_u04_a.mp3",
+ "duration": 149.98,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "I'm bored...",
+   "words": [
+    {
+     "t": "I'm",
+     "start": 1.36,
+     "end": 5.78
+    },
+    {
+     "t": "bored...",
+     "start": 5.78,
+     "end": 6.24
+    }
+   ],
+   "n": 1,
+   "start": 1.36,
+   "end": 6.24,
+   "pic": "bike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Let's sing karaoke!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 11.34,
+     "end": 11.52
+    },
+    {
+     "t": "sing",
+     "start": 11.52,
+     "end": 11.74,
+     "pic": "sing"
+    },
+    {
+     "t": "karaoke!",
+     "start": 11.74,
+     "end": 12.29
+    }
+   ],
+   "n": 2,
+   "start": 11.34,
+   "end": 12.29,
+   "pic": "sing"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I cannot sing.",
+   "words": [
+    {
+     "t": "I",
+     "start": 14.46,
+     "end": 14.6
+    },
+    {
+     "t": "cannot",
+     "start": 14.64,
+     "end": 15.12
+    },
+    {
+     "t": "sing.",
+     "start": 15.12,
+     "end": 16.5,
+     "pic": "sing"
+    }
+   ],
+   "n": 3,
+   "start": 14.46,
+   "end": 16.5,
+   "pic": "sing"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Let's play soccer!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 17.58,
+     "end": 17.68
+    },
+    {
+     "t": "play",
+     "start": 17.68,
+     "end": 17.82
+    },
+    {
+     "t": "soccer!",
+     "start": 17.8,
+     "end": 18.2,
+     "pic": "soccer"
+    }
+   ],
+   "n": 4,
+   "start": 16.6,
+   "end": 18.4,
+   "pic": "letsplaysoccer"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I don't like sports.",
+   "words": [
+    {
+     "t": "I",
+     "start": 20.48,
+     "end": 21.58
+    },
+    {
+     "t": "don't",
+     "start": 21.56,
+     "end": 22.14
+    },
+    {
+     "t": "like",
+     "start": 22.14,
+     "end": 22.62
+    },
+    {
+     "t": "sports.",
+     "start": 22.66,
+     "end": 23.58
+    }
+   ],
+   "n": 5,
+   "start": 20.48,
+   "end": 23.58,
+   "pic": "letsplaysoccer"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Let's watch TV!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 24.5,
+     "end": 24.88
+    },
+    {
+     "t": "watch",
+     "start": 24.96,
+     "end": 25.12
+    },
+    {
+     "t": "TV!",
+     "start": 25.12,
+     "end": 25.76,
+     "pic": "tv"
+    }
+   ],
+   "n": 6,
+   "start": 24.5,
+   "end": 25.76,
+   "pic": "tv"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I don't like TV.",
+   "words": [
+    {
+     "t": "I",
+     "start": 27.62,
+     "end": 27.8
+    },
+    {
+     "t": "don't",
+     "start": 27.8,
+     "end": 28.14
+    },
+    {
+     "t": "like",
+     "start": 28.14,
+     "end": 28.52
+    },
+    {
+     "t": "TV.",
+     "start": 28.52,
+     "end": 29.47,
+     "pic": "tv"
+    }
+   ],
+   "n": 7,
+   "start": 27.62,
+   "end": 29.47,
+   "pic": "tv"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play! Let's play!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 31.62,
+     "end": 31.88
+    },
+    {
+     "t": "play!",
+     "start": 31.9,
+     "end": 32.52
+    },
+    {
+     "t": "Let's",
+     "start": 33.79,
+     "end": 34.36
+    },
+    {
+     "t": "play!",
+     "start": 34.4,
+     "end": 35.18
+    }
+   ],
+   "n": 8,
+   "start": 31.62,
+   "end": 35.18,
+   "pic": "tv"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play an RPG!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 36.29,
+     "end": 36.92
+    },
+    {
+     "t": "play",
+     "start": 36.94,
+     "end": 37.58
+    },
+    {
+     "t": "an",
+     "start": 37.7,
+     "end": 38.46
+    },
+    {
+     "t": "RPG!",
+     "start": 38.46,
+     "end": 39.34
+    }
+   ],
+   "n": 9,
+   "start": 36.29,
+   "end": 39.34,
+   "pic": "tv"
+  },
+  {
+   "section": "Chorus",
+   "text": "Good idea! Good idea!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 40.92,
+     "end": 41.36
+    },
+    {
+     "t": "idea!",
+     "start": 41.34,
+     "end": 42.28
+    },
+    {
+     "t": "Good",
+     "start": 42.84,
+     "end": 42.98
+    },
+    {
+     "t": "idea!",
+     "start": 42.98,
+     "end": 43.3
+    }
+   ],
+   "n": 10,
+   "start": 40.92,
+   "end": 43.3,
+   "pic": "tv"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play an RPG!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 46.03,
+     "end": 47.18
+    },
+    {
+     "t": "play",
+     "start": 47.18,
+     "end": 47.64
+    },
+    {
+     "t": "an",
+     "start": 47.78,
+     "end": 48.6
+    },
+    {
+     "t": "RPG!",
+     "start": 48.6,
+     "end": 49.88
+    }
+   ],
+   "n": 11,
+   "start": 46.03,
+   "end": 49.88,
+   "pic": "tv"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Let's cook!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 52.14,
+     "end": 52.34
+    },
+    {
+     "t": "cook!",
+     "start": 52.34,
+     "end": 52.66,
+     "pic": "cook"
+    }
+   ],
+   "n": 12,
+   "start": 52.14,
+   "end": 52.66,
+   "pic": "cook"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am not hungry.",
+   "words": [
+    {
+     "t": "I",
+     "start": 55.2,
+     "end": 55.44
+    },
+    {
+     "t": "am",
+     "start": 55.44,
+     "end": 55.76
+    },
+    {
+     "t": "not",
+     "start": 55.76,
+     "end": 56.08
+    },
+    {
+     "t": "hungry.",
+     "start": 56.08,
+     "end": 56.88
+    }
+   ],
+   "n": 13,
+   "start": 55.2,
+   "end": 56.88,
+   "pic": "cook"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Let's talk!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 58.58,
+     "end": 58.7
+    },
+    {
+     "t": "talk!",
+     "start": 58.72,
+     "end": 59.06,
+     "pic": "talk"
+    }
+   ],
+   "n": 14,
+   "start": 56.98,
+   "end": 58.18,
+   "pic": "talk"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My throat hurts.",
+   "words": [
+    {
+     "t": "My",
+     "start": 62.18,
+     "end": 62.44
+    },
+    {
+     "t": "throat",
+     "start": 62.44,
+     "end": 62.94
+    },
+    {
+     "t": "hurts.",
+     "start": 63.0,
+     "end": 64.35
+    }
+   ],
+   "n": 15,
+   "start": 62.18,
+   "end": 64.35,
+   "pic": "talk"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Let's ride bikes!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 65.58,
+     "end": 65.86
+    },
+    {
+     "t": "ride",
+     "start": 65.86,
+     "end": 66.14
+    },
+    {
+     "t": "bikes!",
+     "start": 66.58,
+     "end": 67.62
+    }
+   ],
+   "n": 16,
+   "start": 65.58,
+   "end": 67.62,
+   "pic": "talk"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My legs are short.",
+   "words": [
+    {
+     "t": "My",
+     "start": 68.56,
+     "end": 68.88
+    },
+    {
+     "t": "legs",
+     "start": 68.84,
+     "end": 69.4
+    },
+    {
+     "t": "are",
+     "start": 69.4,
+     "end": 70.02
+    },
+    {
+     "t": "short.",
+     "start": 70.02,
+     "end": 70.12
+    }
+   ],
+   "n": 17,
+   "start": 68.56,
+   "end": 70.12,
+   "pic": "talk"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play! Let's play!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 72.26,
+     "end": 72.8
+    },
+    {
+     "t": "play!",
+     "start": 72.76,
+     "end": 73.38
+    },
+    {
+     "t": "Let's",
+     "start": 74.94,
+     "end": 75.3
+    },
+    {
+     "t": "play!",
+     "start": 75.32,
+     "end": 76.04
+    }
+   ],
+   "n": 18,
+   "start": 72.26,
+   "end": 76.04,
+   "pic": "talk"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play an RPG!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 77.18,
+     "end": 77.94
+    },
+    {
+     "t": "play",
+     "start": 77.84,
+     "end": 78.34
+    },
+    {
+     "t": "an",
+     "start": 78.39,
+     "end": 78.77
+    },
+    {
+     "t": "RPG!",
+     "start": 78.96,
+     "end": 80.22
+    }
+   ],
+   "n": 19,
+   "start": 77.18,
+   "end": 80.22,
+   "pic": "talk"
+  },
+  {
+   "section": "Chorus",
+   "text": "Good idea! Good idea!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 81.78,
+     "end": 82.18
+    },
+    {
+     "t": "idea!",
+     "start": 82.18,
+     "end": 83.22
+    },
+    {
+     "t": "Good",
+     "start": 83.68,
+     "end": 83.9
+    },
+    {
+     "t": "idea!",
+     "start": 83.9,
+     "end": 84.54
+    }
+   ],
+   "n": 20,
+   "start": 81.78,
+   "end": 84.54,
+   "pic": "talk"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play an RPG!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 87.8,
+     "end": 88.12
+    },
+    {
+     "t": "play",
+     "start": 88.12,
+     "end": 88.62
+    },
+    {
+     "t": "an",
+     "start": 88.62,
+     "end": 89.22
+    },
+    {
+     "t": "RPG!",
+     "start": 89.22,
+     "end": 90.7
+    }
+   ],
+   "n": 21,
+   "start": 87.8,
+   "end": 90.7,
+   "pic": "talk"
+  },
+  {
+   "section": "Bridge",
+   "text": "Let's climb up the jungle gym!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 116.68,
+     "end": 116.8
+    },
+    {
+     "t": "climb",
+     "start": 116.8,
+     "end": 117.08,
+     "pic": "climb"
+    },
+    {
+     "t": "up",
+     "start": 117.06,
+     "end": 117.3
+    },
+    {
+     "t": "the",
+     "start": 117.3,
+     "end": 117.6
+    },
+    {
+     "t": "jungle",
+     "start": 117.6,
+     "end": 117.88
+    },
+    {
+     "t": "gym!",
+     "start": 117.9,
+     "end": 118.36
+    }
+   ],
+   "n": 22,
+   "start": 116.68,
+   "end": 118.36,
+   "pic": "junglegym"
+  },
+  {
+   "section": "Bridge",
+   "text": "It's too scary!",
+   "words": [
+    {
+     "t": "It's",
+     "start": 118.94,
+     "end": 119.1
+    },
+    {
+     "t": "too",
+     "start": 119.1,
+     "end": 119.26
+    },
+    {
+     "t": "scary!",
+     "start": 119.26,
+     "end": 119.66
+    }
+   ],
+   "n": 23,
+   "start": 118.46,
+   "end": 120.26,
+   "pic": "junglegym"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play! Let's play!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 122.62,
+     "end": 123.82
+    },
+    {
+     "t": "play!",
+     "start": 123.8,
+     "end": 124.46
+    },
+    {
+     "t": "Let's",
+     "start": 125.15,
+     "end": 125.44
+    },
+    {
+     "t": "play!",
+     "start": 125.46,
+     "end": 125.7
+    }
+   ],
+   "n": 24,
+   "start": 122.62,
+   "end": 125.7,
+   "pic": "junglegym"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play an RPG!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 125.8,
+     "end": 126.38
+    },
+    {
+     "t": "play",
+     "start": 126.38,
+     "end": 129.42
+    },
+    {
+     "t": "an",
+     "start": 128.18,
+     "end": 130.06
+    },
+    {
+     "t": "RPG!",
+     "start": 130.06,
+     "end": 131.38
+    }
+   ],
+   "n": 25,
+   "start": 125.8,
+   "end": 131.38,
+   "pic": "junglegym"
+  },
+  {
+   "section": "Chorus",
+   "text": "Good idea! Good idea!",
+   "words": [
+    {
+     "t": "Good",
+     "start": 132.2,
+     "end": 132.6
+    },
+    {
+     "t": "idea!",
+     "start": 132.6,
+     "end": 134.28
+    },
+    {
+     "t": "Good",
+     "start": 134.8,
+     "end": 135.02
+    },
+    {
+     "t": "idea!",
+     "start": 135.02,
+     "end": 135.64
+    }
+   ],
+   "n": 26,
+   "start": 132.2,
+   "end": 135.64,
+   "pic": "junglegym"
+  },
+  {
+   "section": "Chorus",
+   "text": "Let's play an RPG!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 137.52,
+     "end": 139.08
+    },
+    {
+     "t": "play",
+     "start": 139.08,
+     "end": 139.58
+    },
+    {
+     "t": "an",
+     "start": 139.74,
+     "end": 140.56
+    },
+    {
+     "t": "RPG!",
+     "start": 140.56,
+     "end": 141.82
+    }
+   ],
+   "n": 27,
+   "start": 137.52,
+   "end": 141.82,
+   "pic": "junglegym"
+  },
+  {
+   "section": "Outro",
+   "text": "Let's play an RPG! Good idea!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 141.92,
+     "end": 142.42
+    },
+    {
+     "t": "play",
+     "start": 142.44,
+     "end": 142.86
+    },
+    {
+     "t": "an",
+     "start": 142.88,
+     "end": 143.16
+    },
+    {
+     "t": "RPG!",
+     "start": 143.18,
+     "end": 143.6
+    },
+    {
+     "t": "Good",
+     "start": 143.62,
+     "end": 144.04
+    },
+    {
+     "t": "idea!",
+     "start": 144.06,
+     "end": 144.58
+    }
+   ],
+   "n": 28,
+   "start": 141.92,
+   "end": 144.58,
+   "pic": "junglegym"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "soccer",
+   "prompt": "Let's play soccer!",
+   "answer": "I don't like sports.",
+   "choices": [
+    "I don't like sports.",
+    "I am not hungry.",
+    "My throat hurts."
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "Let's sing ___!",
+   "answer": "karaoke",
+   "choices": [
+    "karaoke",
+    "a song",
+    "English"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "cook",
+   "prompt": "Let's cook!",
+   "answer": "I am not hungry.",
+   "choices": [
+    "I am not hungry.",
+    "My legs are short.",
+    "It's too scary!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "Let's ride ___!",
+   "answer": "bikes",
+   "choices": [
+    "bikes",
+    "horses",
+    "buses"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "tv",
+   "prompt": "Let's watch TV!",
+   "answer": "I don't like TV.",
+   "choices": [
+    "I don't like TV.",
+    "Good idea!",
+    "I cannot sing."
+   ]
+  }
+ ]
+}

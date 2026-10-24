@@ -557,6 +557,69 @@
    "unitTitle": "Do You Like Korea?",
    "blurb": "Where are you from? I am from Canada!",
    "packId": "int3b_u8"
+  },
+  {
+   "id": "int3c_u02_a",
+   "title": "Do Not Yell!",
+   "book": "INT 3C",
+   "unit": 2,
+   "unitTitle": "Do Not Yell",
+   "blurb": "Do not yell! Sorry! Do not run! Walk!",
+   "packId": "int3c_u2"
+  },
+  {
+   "id": "int3c_u03_b",
+   "title": "Put On Your Shoes",
+   "book": "INT 3C",
+   "unit": 3,
+   "unitTitle": "Can I Play Outside?",
+   "blurb": "Can I play outside? Not yet! Put on your shoes!",
+   "packId": "int3c_u3"
+  },
+  {
+   "id": "int3c_u04_a",
+   "title": "Let's Play an RPG!",
+   "book": "INT 3C",
+   "unit": 4,
+   "unitTitle": "Let's Play an RPG",
+   "blurb": "Let's play an RPG! Good idea!",
+   "packId": "int3c_u4"
+  },
+  {
+   "id": "int3c_u05_a",
+   "title": "What Do You Have?",
+   "book": "INT 3C",
+   "unit": 5,
+   "unitTitle": "What Do You Have?",
+   "blurb": "What do you have? I have a book!",
+   "packId": "int3c_u5"
+  },
+  {
+   "id": "int3c_u06_a",
+   "title": "How Many Cities?",
+   "book": "INT 3C",
+   "unit": 6,
+   "unitTitle": "How Many Cities?",
+   "blurb": "How many cities are there in Korea? There are one hundred twenty-five cities!",
+   "packId": "int3c_u6"
+  },
+  {
+   "id": "int3c_u07_a",
+   "title": "Can You Fly?",
+   "book": "INT 3C",
+   "unit": 7,
+   "unitTitle": "Can You Fly?",
+   "blurb": "Can you fly? No, I cannot! Can you dance? Yes, I can!",
+   "packId": "int3c_u7"
+  },
+  {
+   "id": "int3c_u08_b",
+   "title": "It Is Three O'Clock",
+   "book": "INT 3C",
+   "unit": 8,
+   "unitTitle": "What Time Is It?",
+   "blurb": "What time is it? It is three o'clock!",
+   "packId": "int3c_u8"
   }
  ]
 }

@@ -1,0 +1,1146 @@
+{
+ "id": "int3c_u05_a",
+ "title": "What Do You Have?",
+ "book": "INT 3C",
+ "unit": 5,
+ "unitTitle": "What Do You Have?",
+ "packId": "int3c_u5",
+ "audio": "audio/int3c_u05_a.mp3",
+ "duration": 149.52,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "What is in your bag?",
+   "words": [
+    {
+     "t": "What",
+     "start": 11.04,
+     "end": 11.24
+    },
+    {
+     "t": "is",
+     "start": 11.26,
+     "end": 11.42
+    },
+    {
+     "t": "in",
+     "start": 11.42,
+     "end": 11.68
+    },
+    {
+     "t": "your",
+     "start": 11.68,
+     "end": 11.98
+    },
+    {
+     "t": "bag?",
+     "start": 11.98,
+     "end": 12.56
+    }
+   ],
+   "n": 1,
+   "start": 11.04,
+   "end": 12.56,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 14.56,
+     "end": 16.06
+    },
+    {
+     "t": "do",
+     "start": 16.06,
+     "end": 16.46
+    },
+    {
+     "t": "you",
+     "start": 16.46,
+     "end": 16.74
+    },
+    {
+     "t": "have?",
+     "start": 16.74,
+     "end": 17.34
+    }
+   ],
+   "n": 2,
+   "start": 14.56,
+   "end": 17.34,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Nothing!",
+   "words": [
+    {
+     "t": "Nothing!",
+     "start": 18.34,
+     "end": 18.78
+    }
+   ],
+   "n": 3,
+   "start": 18.34,
+   "end": 18.78,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Do not lie!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 20.76,
+     "end": 21.02
+    },
+    {
+     "t": "not",
+     "start": 21.02,
+     "end": 21.46
+    },
+    {
+     "t": "lie!",
+     "start": 21.46,
+     "end": 22.02
+    }
+   ],
+   "n": 4,
+   "start": 20.76,
+   "end": 22.02,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I have a book!",
+   "words": [
+    {
+     "t": "I",
+     "start": 22.3,
+     "end": 23.3
+    },
+    {
+     "t": "have",
+     "start": 23.3,
+     "end": 23.7
+    },
+    {
+     "t": "a",
+     "start": 23.7,
+     "end": 23.94
+    },
+    {
+     "t": "book!",
+     "start": 23.94,
+     "end": 24.22,
+     "pic": "book"
+    }
+   ],
+   "n": 5,
+   "start": 22.3,
+   "end": 24.22,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 25.46,
+     "end": 25.74
+    },
+    {
+     "t": "do",
+     "start": 25.8,
+     "end": 26.08
+    },
+    {
+     "t": "you",
+     "start": 26.08,
+     "end": 26.3
+    },
+    {
+     "t": "have?",
+     "start": 26.3,
+     "end": 26.92
+    }
+   ],
+   "n": 6,
+   "start": 25.46,
+   "end": 26.92,
+   "pic": "book"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I have a puzzle!",
+   "words": [
+    {
+     "t": "I",
+     "start": 27.88,
+     "end": 28.14
+    },
+    {
+     "t": "have",
+     "start": 28.14,
+     "end": 28.58
+    },
+    {
+     "t": "a",
+     "start": 28.58,
+     "end": 28.9
+    },
+    {
+     "t": "puzzle!",
+     "start": 28.9,
+     "end": 29.54,
+     "pic": "puzzle"
+    }
+   ],
+   "n": 7,
+   "start": 27.88,
+   "end": 29.54,
+   "pic": "ihaveapuzzle"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you have? What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 31.32,
+     "end": 31.56
+    },
+    {
+     "t": "do",
+     "start": 31.56,
+     "end": 32.04
+    },
+    {
+     "t": "you",
+     "start": 32.04,
+     "end": 32.3
+    },
+    {
+     "t": "have?",
+     "start": 32.24,
+     "end": 32.88
+    },
+    {
+     "t": "What",
+     "start": 33.7,
+     "end": 33.94
+    },
+    {
+     "t": "do",
+     "start": 33.92,
+     "end": 34.44
+    },
+    {
+     "t": "you",
+     "start": 34.44,
+     "end": 34.66
+    },
+    {
+     "t": "have?",
+     "start": 34.66,
+     "end": 35.14
+    }
+   ],
+   "n": 8,
+   "start": 31.32,
+   "end": 35.14,
+   "pic": "ihaveapuzzle"
+  },
+  {
+   "section": "Chorus",
+   "text": "I have a book! I have a puzzle!",
+   "words": [
+    {
+     "t": "I",
+     "start": 35.96,
+     "end": 36.36
+    },
+    {
+     "t": "have",
+     "start": 36.36,
+     "end": 36.92
+    },
+    {
+     "t": "a",
+     "start": 36.92,
+     "end": 37.12
+    },
+    {
+     "t": "book!",
+     "start": 37.12,
+     "end": 37.3,
+     "pic": "book"
+    },
+    {
+     "t": "I",
+     "start": 37.48,
+     "end": 37.74
+    },
+    {
+     "t": "have",
+     "start": 37.74,
+     "end": 38.18
+    },
+    {
+     "t": "a",
+     "start": 38.16,
+     "end": 38.64
+    },
+    {
+     "t": "puzzle!",
+     "start": 38.44,
+     "end": 39.4,
+     "pic": "puzzle"
+    }
+   ],
+   "n": 9,
+   "start": 35.96,
+   "end": 39.4,
+   "pic": "ihaveapuzzle"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you have? What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 40.83,
+     "end": 41.1
+    },
+    {
+     "t": "do",
+     "start": 41.14,
+     "end": 41.64
+    },
+    {
+     "t": "you",
+     "start": 41.64,
+     "end": 41.86
+    },
+    {
+     "t": "have?",
+     "start": 41.86,
+     "end": 42.52
+    },
+    {
+     "t": "What",
+     "start": 43.24,
+     "end": 43.48
+    },
+    {
+     "t": "do",
+     "start": 43.62,
+     "end": 44.08
+    },
+    {
+     "t": "you",
+     "start": 44.08,
+     "end": 44.3
+    },
+    {
+     "t": "have?",
+     "start": 44.3,
+     "end": 44.48
+    }
+   ],
+   "n": 10,
+   "start": 40.83,
+   "end": 44.48,
+   "pic": "ihaveapuzzle"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not lie! I have my phone!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 45.66,
+     "end": 45.86
+    },
+    {
+     "t": "not",
+     "start": 45.9,
+     "end": 46.34
+    },
+    {
+     "t": "lie!",
+     "start": 46.34,
+     "end": 47.1
+    },
+    {
+     "t": "I",
+     "start": 48.28,
+     "end": 48.48
+    },
+    {
+     "t": "have",
+     "start": 48.54,
+     "end": 48.84
+    },
+    {
+     "t": "my",
+     "start": 48.9,
+     "end": 49.18
+    },
+    {
+     "t": "phone!",
+     "start": 49.18,
+     "end": 49.9,
+     "pic": "phone"
+    }
+   ],
+   "n": 11,
+   "start": 45.66,
+   "end": 49.9,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 51.33,
+     "end": 52.08
+    },
+    {
+     "t": "do",
+     "start": 52.08,
+     "end": 52.44
+    },
+    {
+     "t": "you",
+     "start": 52.44,
+     "end": 52.74
+    },
+    {
+     "t": "have?",
+     "start": 52.74,
+     "end": 53.28
+    }
+   ],
+   "n": 12,
+   "start": 51.33,
+   "end": 53.28,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I have a chess board!",
+   "words": [
+    {
+     "t": "I",
+     "start": 54.26,
+     "end": 54.6
+    },
+    {
+     "t": "have",
+     "start": 54.6,
+     "end": 54.72
+    },
+    {
+     "t": "a",
+     "start": 54.76,
+     "end": 54.98
+    },
+    {
+     "t": "chess",
+     "start": 54.98,
+     "end": 55.16
+    },
+    {
+     "t": "board!",
+     "start": 55.16,
+     "end": 55.46
+    }
+   ],
+   "n": 13,
+   "start": 53.38,
+   "end": 56.38,
+   "pic": "chessboard"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 56.0,
+     "end": 56.96
+    },
+    {
+     "t": "do",
+     "start": 56.96,
+     "end": 57.22
+    },
+    {
+     "t": "you",
+     "start": 57.24,
+     "end": 57.5
+    },
+    {
+     "t": "have?",
+     "start": 57.5,
+     "end": 57.98
+    }
+   ],
+   "n": 14,
+   "start": 56.0,
+   "end": 57.98,
+   "pic": "chessboard"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I have a pencil case!",
+   "words": [
+    {
+     "t": "I",
+     "start": 61.1,
+     "end": 61.82
+    },
+    {
+     "t": "have",
+     "start": 61.82,
+     "end": 62.14
+    },
+    {
+     "t": "a",
+     "start": 62.14,
+     "end": 62.38
+    },
+    {
+     "t": "pencil",
+     "start": 62.38,
+     "end": 62.76,
+     "pic": "pencil"
+    },
+    {
+     "t": "case!",
+     "start": 62.76,
+     "end": 63.71
+    }
+   ],
+   "n": 15,
+   "start": 61.1,
+   "end": 63.71,
+   "pic": "pencilcase"
+  },
+  {
+   "section": "Verse 2",
+   "text": "What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 65.76,
+     "end": 66.5
+    },
+    {
+     "t": "do",
+     "start": 66.5,
+     "end": 66.84
+    },
+    {
+     "t": "you",
+     "start": 66.84,
+     "end": 67.18
+    },
+    {
+     "t": "have?",
+     "start": 67.18,
+     "end": 67.78
+    }
+   ],
+   "n": 16,
+   "start": 65.76,
+   "end": 67.78,
+   "pic": "pencilcase"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I have my phone!",
+   "words": [
+    {
+     "t": "I",
+     "start": 68.64,
+     "end": 68.96
+    },
+    {
+     "t": "have",
+     "start": 68.96,
+     "end": 69.26
+    },
+    {
+     "t": "my",
+     "start": 69.28,
+     "end": 69.62
+    },
+    {
+     "t": "phone!",
+     "start": 69.62,
+     "end": 70.46,
+     "pic": "phone"
+    }
+   ],
+   "n": 17,
+   "start": 68.64,
+   "end": 70.46,
+   "pic": "phone"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you have? What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 72.02,
+     "end": 72.34
+    },
+    {
+     "t": "do",
+     "start": 72.38,
+     "end": 72.84
+    },
+    {
+     "t": "you",
+     "start": 72.86,
+     "end": 73.1
+    },
+    {
+     "t": "have?",
+     "start": 73.1,
+     "end": 73.48
+    },
+    {
+     "t": "What",
+     "start": 73.53,
+     "end": 73.95
+    },
+    {
+     "t": "do",
+     "start": 73.98,
+     "end": 74.4
+    },
+    {
+     "t": "you",
+     "start": 74.43,
+     "end": 74.85
+    },
+    {
+     "t": "have?",
+     "start": 74.88,
+     "end": 75.3
+    }
+   ],
+   "n": 18,
+   "start": 72.02,
+   "end": 75.3,
+   "pic": "phone"
+  },
+  {
+   "section": "Chorus",
+   "text": "I have a book! I have a puzzle!",
+   "words": [
+    {
+     "t": "I",
+     "start": 76.1,
+     "end": 76.37
+    },
+    {
+     "t": "have",
+     "start": 76.39,
+     "end": 76.95
+    },
+    {
+     "t": "a",
+     "start": 76.97,
+     "end": 77.24
+    },
+    {
+     "t": "book!",
+     "start": 77.26,
+     "end": 77.92,
+     "pic": "book"
+    },
+    {
+     "t": "I",
+     "start": 77.94,
+     "end": 78.21
+    },
+    {
+     "t": "have",
+     "start": 78.23,
+     "end": 78.8
+    },
+    {
+     "t": "a",
+     "start": 78.82,
+     "end": 79.09
+    },
+    {
+     "t": "puzzle!",
+     "start": 79.11,
+     "end": 79.98,
+     "pic": "puzzle"
+    }
+   ],
+   "n": 19,
+   "start": 76.1,
+   "end": 79.98,
+   "pic": "ihaveapuzzle"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you have? What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 81.44,
+     "end": 81.77
+    },
+    {
+     "t": "do",
+     "start": 81.79,
+     "end": 82.01
+    },
+    {
+     "t": "you",
+     "start": 82.03,
+     "end": 82.3
+    },
+    {
+     "t": "have?",
+     "start": 82.32,
+     "end": 82.71
+    },
+    {
+     "t": "What",
+     "start": 82.73,
+     "end": 83.06
+    },
+    {
+     "t": "do",
+     "start": 83.08,
+     "end": 83.3
+    },
+    {
+     "t": "you",
+     "start": 83.32,
+     "end": 83.59
+    },
+    {
+     "t": "have?",
+     "start": 83.61,
+     "end": 84.02
+    }
+   ],
+   "n": 20,
+   "start": 81.44,
+   "end": 84.02,
+   "pic": "ihaveapuzzle"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not lie! I have my phone!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 85.84,
+     "end": 87.46
+    },
+    {
+     "t": "not",
+     "start": 87.48,
+     "end": 89.51
+    },
+    {
+     "t": "lie!",
+     "start": 89.53,
+     "end": 91.97
+    },
+    {
+     "t": "I",
+     "start": 91.99,
+     "end": 93.2
+    },
+    {
+     "t": "have",
+     "start": 93.22,
+     "end": 95.66
+    },
+    {
+     "t": "my",
+     "start": 95.68,
+     "end": 97.3
+    },
+    {
+     "t": "phone!",
+     "start": 97.32,
+     "end": 100.6,
+     "pic": "phone"
+    }
+   ],
+   "n": 21,
+   "start": 85.84,
+   "end": 100.6,
+   "pic": "phone"
+  },
+  {
+   "section": "Bridge",
+   "text": "Nothing? Nothing!",
+   "words": [
+    {
+     "t": "Nothing?",
+     "start": 103.56,
+     "end": 103.98
+    },
+    {
+     "t": "Nothing!",
+     "start": 104.7,
+     "end": 105.36
+    }
+   ],
+   "n": 22,
+   "start": 103.56,
+   "end": 105.36,
+   "pic": "phone"
+  },
+  {
+   "section": "Bridge",
+   "text": "Do not lie! Okay...",
+   "words": [
+    {
+     "t": "Do",
+     "start": 107.1,
+     "end": 107.34
+    },
+    {
+     "t": "not",
+     "start": 107.36,
+     "end": 107.72
+    },
+    {
+     "t": "lie!",
+     "start": 107.72,
+     "end": 108.18
+    },
+    {
+     "t": "Okay...",
+     "start": 108.88,
+     "end": 109.4
+    }
+   ],
+   "n": 23,
+   "start": 107.1,
+   "end": 109.4,
+   "pic": "phone"
+  },
+  {
+   "section": "Bridge",
+   "text": "Study!",
+   "words": [
+    {
+     "t": "Study!",
+     "start": 110.5,
+     "end": 110.82
+    }
+   ],
+   "n": 24,
+   "start": 110.5,
+   "end": 110.82,
+   "pic": "phone"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you have? What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 110.92,
+     "end": 111.55
+    },
+    {
+     "t": "do",
+     "start": 111.57,
+     "end": 111.99
+    },
+    {
+     "t": "you",
+     "start": 112.01,
+     "end": 112.54
+    },
+    {
+     "t": "have?",
+     "start": 112.56,
+     "end": 113.3
+    },
+    {
+     "t": "What",
+     "start": 113.32,
+     "end": 113.95
+    },
+    {
+     "t": "do",
+     "start": 113.97,
+     "end": 114.39
+    },
+    {
+     "t": "you",
+     "start": 114.41,
+     "end": 114.94
+    },
+    {
+     "t": "have?",
+     "start": 114.96,
+     "end": 115.72
+    }
+   ],
+   "n": 25,
+   "start": 110.92,
+   "end": 115.72,
+   "pic": "phone"
+  },
+  {
+   "section": "Chorus",
+   "text": "I have a book! I have a puzzle!",
+   "words": [
+    {
+     "t": "I",
+     "start": 117.34,
+     "end": 117.94
+    },
+    {
+     "t": "have",
+     "start": 117.94,
+     "end": 118.42
+    },
+    {
+     "t": "a",
+     "start": 118.42,
+     "end": 118.68
+    },
+    {
+     "t": "book!",
+     "start": 118.7,
+     "end": 118.94,
+     "pic": "book"
+    },
+    {
+     "t": "I",
+     "start": 119.06,
+     "end": 119.4
+    },
+    {
+     "t": "have",
+     "start": 119.42,
+     "end": 119.8
+    },
+    {
+     "t": "a",
+     "start": 119.8,
+     "end": 119.98
+    },
+    {
+     "t": "puzzle!",
+     "start": 120.12,
+     "end": 120.26,
+     "pic": "puzzle"
+    }
+   ],
+   "n": 26,
+   "start": 117.34,
+   "end": 120.26,
+   "pic": "ihaveapuzzle"
+  },
+  {
+   "section": "Chorus",
+   "text": "What do you have? What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 121.54,
+     "end": 122.74
+    },
+    {
+     "t": "do",
+     "start": 122.74,
+     "end": 123.22
+    },
+    {
+     "t": "you",
+     "start": 123.26,
+     "end": 123.5
+    },
+    {
+     "t": "have?",
+     "start": 123.48,
+     "end": 123.86
+    },
+    {
+     "t": "What",
+     "start": 123.91,
+     "end": 124.11
+    },
+    {
+     "t": "do",
+     "start": 124.2,
+     "end": 124.48
+    },
+    {
+     "t": "you",
+     "start": 124.48,
+     "end": 124.68
+    },
+    {
+     "t": "have?",
+     "start": 124.68,
+     "end": 124.82
+    }
+   ],
+   "n": 27,
+   "start": 121.54,
+   "end": 124.82,
+   "pic": "ihaveapuzzle"
+  },
+  {
+   "section": "Chorus",
+   "text": "Do not lie! I have my phone!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 126.54,
+     "end": 126.86
+    },
+    {
+     "t": "not",
+     "start": 126.91,
+     "end": 127.33
+    },
+    {
+     "t": "lie!",
+     "start": 127.36,
+     "end": 127.78
+    },
+    {
+     "t": "I",
+     "start": 129.22,
+     "end": 130.2
+    },
+    {
+     "t": "have",
+     "start": 130.2,
+     "end": 130.6
+    },
+    {
+     "t": "my",
+     "start": 130.65,
+     "end": 131.07
+    },
+    {
+     "t": "phone!",
+     "start": 131.1,
+     "end": 131.52,
+     "pic": "phone"
+    }
+   ],
+   "n": 28,
+   "start": 126.54,
+   "end": 131.52,
+   "pic": "phone"
+  },
+  {
+   "section": "Outro",
+   "text": "What do you have?",
+   "words": [
+    {
+     "t": "What",
+     "start": 135.08,
+     "end": 137.18
+    },
+    {
+     "t": "do",
+     "start": 137.18,
+     "end": 138.02
+    },
+    {
+     "t": "you",
+     "start": 138.02,
+     "end": 138.78
+    },
+    {
+     "t": "have?",
+     "start": 138.78,
+     "end": 139.24
+    }
+   ],
+   "n": 29,
+   "start": 135.08,
+   "end": 139.24,
+   "pic": "phone"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "book",
+   "prompt": "What do you have?",
+   "answer": "I have a book!",
+   "choices": [
+    "I have a book!",
+    "I have a puzzle!",
+    "I have my phone!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 7,
+   "prompt": "Listen. I have a ...!",
+   "answer": "puzzle",
+   "choices": [
+    "puzzle",
+    "pencil",
+    "book"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "phone",
+   "prompt": "What do you have?",
+   "answer": "I have my phone!",
+   "choices": [
+    "I have a pencil case!",
+    "I have my phone!",
+    "I have a book!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "I have a chess ___!",
+   "answer": "board",
+   "choices": [
+    "board",
+    "book",
+    "case"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "pencilcase",
+   "prompt": "What do you have?",
+   "answer": "I have a pencil case!",
+   "choices": [
+    "I have a pencil case!",
+    "I have a chess board!",
+    "Nothing!"
+   ]
+  }
+ ]
+}

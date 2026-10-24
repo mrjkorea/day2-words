@@ -1,0 +1,979 @@
+{
+ "id": "int3c_u07_a",
+ "title": "Can You Fly?",
+ "book": "INT 3C",
+ "unit": 7,
+ "unitTitle": "Can You Fly?",
+ "packId": "int3c_u7",
+ "audio": "audio/int3c_u07_a.mp3",
+ "duration": 147.12,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hello, robot!",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 6.97,
+     "end": 7.39
+    },
+    {
+     "t": "robot!",
+     "start": 7.42,
+     "end": 7.84
+    }
+   ],
+   "n": 1,
+   "start": 6.97,
+   "end": 7.84,
+   "pic": "cook"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Can you dance?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 7.9,
+     "end": 9.1
+    },
+    {
+     "t": "you",
+     "start": 11.3,
+     "end": 11.72
+    },
+    {
+     "t": "dance?",
+     "start": 11.72,
+     "end": 12.28,
+     "pic": "dance"
+    }
+   ],
+   "n": 2,
+   "start": 7.9,
+   "end": 12.28,
+   "pic": "dance"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 16.2,
+     "end": 16.66
+    },
+    {
+     "t": "I",
+     "start": 16.66,
+     "end": 16.94
+    },
+    {
+     "t": "can!",
+     "start": 16.94,
+     "end": 17.46
+    }
+   ],
+   "n": 3,
+   "start": 16.2,
+   "end": 17.46,
+   "pic": "dance"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Can you sing?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 19.14,
+     "end": 19.32
+    },
+    {
+     "t": "you",
+     "start": 19.34,
+     "end": 19.58
+    },
+    {
+     "t": "sing?",
+     "start": 19.58,
+     "end": 20.18,
+     "pic": "sing"
+    }
+   ],
+   "n": 4,
+   "start": 19.14,
+   "end": 20.18,
+   "pic": "sing"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 21.84,
+     "end": 22.02
+    },
+    {
+     "t": "I",
+     "start": 22.02,
+     "end": 22.36
+    },
+    {
+     "t": "can!",
+     "start": 22.4,
+     "end": 22.64
+    }
+   ],
+   "n": 5,
+   "start": 21.84,
+   "end": 22.64,
+   "pic": "sing"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Can you jump?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 24.42,
+     "end": 24.62
+    },
+    {
+     "t": "you",
+     "start": 24.62,
+     "end": 24.84
+    },
+    {
+     "t": "jump?",
+     "start": 24.66,
+     "end": 24.86,
+     "pic": "jump"
+    }
+   ],
+   "n": 6,
+   "start": 22.74,
+   "end": 24.54,
+   "pic": "jump"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 28.0,
+     "end": 28.62
+    },
+    {
+     "t": "I",
+     "start": 29.76,
+     "end": 30.2
+    },
+    {
+     "t": "can!",
+     "start": 30.22,
+     "end": 30.74
+    }
+   ],
+   "n": 7,
+   "start": 28.0,
+   "end": 30.74,
+   "pic": "jump"
+  },
+  {
+   "section": "Chorus",
+   "text": "Can you fly? Can you fly?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 31.7,
+     "end": 32.22
+    },
+    {
+     "t": "you",
+     "start": 32.04,
+     "end": 32.8
+    },
+    {
+     "t": "fly?",
+     "start": 32.8,
+     "end": 33.62,
+     "pic": "fly"
+    },
+    {
+     "t": "Can",
+     "start": 34.48,
+     "end": 34.8
+    },
+    {
+     "t": "you",
+     "start": 34.8,
+     "end": 35.36
+    },
+    {
+     "t": "fly?",
+     "start": 35.38,
+     "end": 36.0,
+     "pic": "fly"
+    }
+   ],
+   "n": 8,
+   "start": 31.7,
+   "end": 36.0,
+   "pic": "fly"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, I cannot! No, I cannot!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 36.26,
+     "end": 36.34
+    },
+    {
+     "t": "I",
+     "start": 36.36,
+     "end": 36.64
+    },
+    {
+     "t": "cannot!",
+     "start": 36.66,
+     "end": 36.76
+    },
+    {
+     "t": "No,",
+     "start": 39.24,
+     "end": 39.48
+    },
+    {
+     "t": "I",
+     "start": 39.48,
+     "end": 40.04
+    },
+    {
+     "t": "cannot!",
+     "start": 40.02,
+     "end": 40.47
+    }
+   ],
+   "n": 9,
+   "start": 36.26,
+   "end": 40.47,
+   "pic": "fly"
+  },
+  {
+   "section": "Chorus",
+   "text": "Can you dance? Can you sing?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 42.3,
+     "end": 42.6
+    },
+    {
+     "t": "you",
+     "start": 42.66,
+     "end": 43.26
+    },
+    {
+     "t": "dance?",
+     "start": 43.26,
+     "end": 44.24,
+     "pic": "dance"
+    },
+    {
+     "t": "Can",
+     "start": 44.9,
+     "end": 45.36
+    },
+    {
+     "t": "you",
+     "start": 45.34,
+     "end": 46.0
+    },
+    {
+     "t": "sing?",
+     "start": 46.0,
+     "end": 46.66,
+     "pic": "sing"
+    }
+   ],
+   "n": 10,
+   "start": 42.3,
+   "end": 46.66,
+   "pic": "dance"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, I can! Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 46.78,
+     "end": 47.06
+    },
+    {
+     "t": "I",
+     "start": 47.12,
+     "end": 47.34
+    },
+    {
+     "t": "can!",
+     "start": 47.36,
+     "end": 47.81
+    },
+    {
+     "t": "Yes,",
+     "start": 49.48,
+     "end": 49.76
+    },
+    {
+     "t": "I",
+     "start": 50.78,
+     "end": 51.16
+    },
+    {
+     "t": "can!",
+     "start": 51.08,
+     "end": 54.48
+    }
+   ],
+   "n": 11,
+   "start": 46.78,
+   "end": 54.48,
+   "pic": "dance"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Can you type?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 54.53,
+     "end": 54.95
+    },
+    {
+     "t": "you",
+     "start": 54.98,
+     "end": 55.4
+    },
+    {
+     "t": "type?",
+     "start": 55.43,
+     "end": 55.85,
+     "pic": "type"
+    }
+   ],
+   "n": 12,
+   "start": 54.53,
+   "end": 55.85,
+   "pic": "type"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 58.7,
+     "end": 58.84
+    },
+    {
+     "t": "I",
+     "start": 58.9,
+     "end": 59.18
+    },
+    {
+     "t": "can!",
+     "start": 59.18,
+     "end": 59.66
+    }
+   ],
+   "n": 13,
+   "start": 58.7,
+   "end": 59.66,
+   "pic": "type"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Can you cook?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 61.38,
+     "end": 61.6
+    },
+    {
+     "t": "you",
+     "start": 61.6,
+     "end": 61.84
+    },
+    {
+     "t": "cook?",
+     "start": 61.89,
+     "end": 62.31,
+     "pic": "cook"
+    }
+   ],
+   "n": 14,
+   "start": 61.38,
+   "end": 62.31,
+   "pic": "cook"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 63.88,
+     "end": 64.2
+    },
+    {
+     "t": "I",
+     "start": 64.2,
+     "end": 64.48
+    },
+    {
+     "t": "can!",
+     "start": 64.48,
+     "end": 65.18
+    }
+   ],
+   "n": 15,
+   "start": 63.88,
+   "end": 65.18,
+   "pic": "cook"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Can you walk?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 66.62,
+     "end": 66.82
+    },
+    {
+     "t": "you",
+     "start": 66.82,
+     "end": 67.14
+    },
+    {
+     "t": "walk?",
+     "start": 67.14,
+     "end": 67.62,
+     "pic": "walk"
+    }
+   ],
+   "n": 16,
+   "start": 66.62,
+   "end": 67.62,
+   "pic": "walk"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 68.92,
+     "end": 69.44
+    },
+    {
+     "t": "I",
+     "start": 69.46,
+     "end": 69.74
+    },
+    {
+     "t": "can!",
+     "start": 69.74,
+     "end": 70.28
+    }
+   ],
+   "n": 17,
+   "start": 68.92,
+   "end": 70.28,
+   "pic": "walk"
+  },
+  {
+   "section": "Chorus",
+   "text": "Can you fly? Can you fly?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 74.2,
+     "end": 74.81
+    },
+    {
+     "t": "you",
+     "start": 74.83,
+     "end": 75.44
+    },
+    {
+     "t": "fly?",
+     "start": 75.46,
+     "end": 76.19,
+     "pic": "fly"
+    },
+    {
+     "t": "Can",
+     "start": 76.21,
+     "end": 76.82
+    },
+    {
+     "t": "you",
+     "start": 76.84,
+     "end": 77.45
+    },
+    {
+     "t": "fly?",
+     "start": 77.47,
+     "end": 78.22,
+     "pic": "fly"
+    }
+   ],
+   "n": 18,
+   "start": 74.2,
+   "end": 78.22,
+   "pic": "fly"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, I cannot! No, I cannot!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 78.5,
+     "end": 79.17
+    },
+    {
+     "t": "I",
+     "start": 79.19,
+     "end": 79.59
+    },
+    {
+     "t": "cannot!",
+     "start": 79.61,
+     "end": 80.84
+    },
+    {
+     "t": "No,",
+     "start": 80.86,
+     "end": 81.53
+    },
+    {
+     "t": "I",
+     "start": 81.55,
+     "end": 81.95
+    },
+    {
+     "t": "cannot!",
+     "start": 81.97,
+     "end": 83.22
+    }
+   ],
+   "n": 19,
+   "start": 78.5,
+   "end": 83.22,
+   "pic": "fly"
+  },
+  {
+   "section": "Chorus",
+   "text": "Can you dance? Can you sing?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 84.18,
+     "end": 84.78
+    },
+    {
+     "t": "you",
+     "start": 84.9,
+     "end": 85.5
+    },
+    {
+     "t": "dance?",
+     "start": 85.5,
+     "end": 86.26,
+     "pic": "dance"
+    },
+    {
+     "t": "Can",
+     "start": 86.34,
+     "end": 87.52
+    },
+    {
+     "t": "you",
+     "start": 87.52,
+     "end": 88.0
+    },
+    {
+     "t": "sing?",
+     "start": 87.94,
+     "end": 88.6,
+     "pic": "sing"
+    }
+   ],
+   "n": 20,
+   "start": 84.18,
+   "end": 88.6,
+   "pic": "dance"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, I can! Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 89.24,
+     "end": 90.07
+    },
+    {
+     "t": "I",
+     "start": 90.09,
+     "end": 90.49
+    },
+    {
+     "t": "can!",
+     "start": 90.51,
+     "end": 91.34
+    },
+    {
+     "t": "Yes,",
+     "start": 91.36,
+     "end": 92.19
+    },
+    {
+     "t": "I",
+     "start": 92.21,
+     "end": 92.61
+    },
+    {
+     "t": "can!",
+     "start": 92.63,
+     "end": 93.48
+    }
+   ],
+   "n": 21,
+   "start": 89.24,
+   "end": 93.48,
+   "pic": "dance"
+  },
+  {
+   "section": "Bridge",
+   "text": "Can you love?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 96.94,
+     "end": 97.3
+    },
+    {
+     "t": "you",
+     "start": 97.24,
+     "end": 98.06
+    },
+    {
+     "t": "love?",
+     "start": 98.06,
+     "end": 99.22,
+     "pic": "love"
+    }
+   ],
+   "n": 22,
+   "start": 96.94,
+   "end": 99.22,
+   "pic": "love"
+  },
+  {
+   "section": "Bridge",
+   "text": "No, I cannot...",
+   "words": [
+    {
+     "t": "No,",
+     "start": 102.68,
+     "end": 103.26
+    },
+    {
+     "t": "I",
+     "start": 103.32,
+     "end": 104.54
+    },
+    {
+     "t": "cannot...",
+     "start": 104.54,
+     "end": 106.28
+    }
+   ],
+   "n": 23,
+   "start": 102.68,
+   "end": 106.28,
+   "pic": "love"
+  },
+  {
+   "section": "Chorus",
+   "text": "Can you fly? Can you fly?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 110.84,
+     "end": 111.44
+    },
+    {
+     "t": "you",
+     "start": 111.44,
+     "end": 112.0
+    },
+    {
+     "t": "fly?",
+     "start": 113.22,
+     "end": 113.9,
+     "pic": "fly"
+    },
+    {
+     "t": "Can",
+     "start": 114.78,
+     "end": 115.24
+    },
+    {
+     "t": "you",
+     "start": 115.34,
+     "end": 115.8
+    },
+    {
+     "t": "fly?",
+     "start": 115.8,
+     "end": 116.4,
+     "pic": "fly"
+    }
+   ],
+   "n": 24,
+   "start": 110.84,
+   "end": 116.4,
+   "pic": "fly"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, I cannot! No, I cannot!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 117.72,
+     "end": 117.92
+    },
+    {
+     "t": "I",
+     "start": 117.92,
+     "end": 118.38
+    },
+    {
+     "t": "cannot!",
+     "start": 118.36,
+     "end": 118.71
+    },
+    {
+     "t": "No,",
+     "start": 119.62,
+     "end": 119.92
+    },
+    {
+     "t": "I",
+     "start": 119.94,
+     "end": 120.42
+    },
+    {
+     "t": "cannot!",
+     "start": 120.42,
+     "end": 120.98
+    }
+   ],
+   "n": 25,
+   "start": 117.72,
+   "end": 120.98,
+   "pic": "fly"
+  },
+  {
+   "section": "Chorus",
+   "text": "Can you dance? Can you sing?",
+   "words": [
+    {
+     "t": "Can",
+     "start": 122.66,
+     "end": 123.22
+    },
+    {
+     "t": "you",
+     "start": 123.24,
+     "end": 123.8
+    },
+    {
+     "t": "dance?",
+     "start": 123.82,
+     "end": 124.73,
+     "pic": "dance"
+    },
+    {
+     "t": "Can",
+     "start": 124.75,
+     "end": 125.31
+    },
+    {
+     "t": "you",
+     "start": 125.33,
+     "end": 125.89
+    },
+    {
+     "t": "sing?",
+     "start": 125.91,
+     "end": 126.72,
+     "pic": "sing"
+    }
+   ],
+   "n": 26,
+   "start": 122.66,
+   "end": 126.72,
+   "pic": "dance"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, I can! Yes, I can!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 127.08,
+     "end": 127.5
+    },
+    {
+     "t": "I",
+     "start": 127.56,
+     "end": 127.88
+    },
+    {
+     "t": "can!",
+     "start": 127.74,
+     "end": 127.99
+    },
+    {
+     "t": "Yes,",
+     "start": 129.12,
+     "end": 130.92
+    },
+    {
+     "t": "I",
+     "start": 130.97,
+     "end": 131.05
+    },
+    {
+     "t": "can!",
+     "start": 130.7,
+     "end": 130.84
+    }
+   ],
+   "n": 27,
+   "start": 127.08,
+   "end": 130.84,
+   "pic": "dance"
+  },
+  {
+   "section": "Outro",
+   "text": "Can you fly? No, I cannot!",
+   "words": [
+    {
+     "t": "Can",
+     "start": 133.22,
+     "end": 133.46
+    },
+    {
+     "t": "you",
+     "start": 133.72,
+     "end": 134.28
+    },
+    {
+     "t": "fly?",
+     "start": 134.28,
+     "end": 134.82,
+     "pic": "fly"
+    },
+    {
+     "t": "No,",
+     "start": 138.8,
+     "end": 140.96
+    },
+    {
+     "t": "I",
+     "start": 141.24,
+     "end": 141.58
+    },
+    {
+     "t": "cannot!",
+     "start": 141.58,
+     "end": 142.5
+    }
+   ],
+   "n": 28,
+   "start": 133.22,
+   "end": 142.5,
+   "pic": "fly"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "fly",
+   "prompt": "Can you fly?",
+   "answer": "No, I cannot!",
+   "choices": [
+    "No, I cannot!",
+    "Yes, I can!",
+    "I like music!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 2,
+   "prompt": "Listen. Can you ...?",
+   "answer": "dance",
+   "choices": [
+    "dance",
+    "sing",
+    "jump"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sing",
+   "prompt": "Can you sing?",
+   "answer": "Yes, I can!",
+   "choices": [
+    "Yes, I can!",
+    "No, I cannot!",
+    "It is soft!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 14,
+   "prompt": "Listen. Can you ...?",
+   "answer": "cook",
+   "choices": [
+    "cook",
+    "type",
+    "walk"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "love",
+   "prompt": "Can you love?",
+   "answer": "No, I cannot...",
+   "choices": [
+    "No, I cannot...",
+    "Yes, I can!",
+    "I am a robot!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1011 @@
+{
+ "id": "int3c_u08_b",
+ "title": "It Is Three O'Clock",
+ "book": "INT 3C",
+ "unit": 8,
+ "unitTitle": "What Time Is It?",
+ "packId": "int3c_u8",
+ "audio": "audio/int3c_u08_b.mp3",
+ "duration": 150.29,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Tick, tock!",
+   "words": [
+    {
+     "t": "Tick,",
+     "start": 12.63,
+     "end": 13.05
+    },
+    {
+     "t": "tock!",
+     "start": 13.08,
+     "end": 13.5
+    }
+   ],
+   "n": 1,
+   "start": 12.63,
+   "end": 13.5,
+   "pic": "eight"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is six o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 13.56,
+     "end": 14.14
+    },
+    {
+     "t": "is",
+     "start": 14.14,
+     "end": 14.44
+    },
+    {
+     "t": "six",
+     "start": 14.44,
+     "end": 14.98,
+     "pic": "six"
+    },
+    {
+     "t": "o'clock!",
+     "start": 15.03,
+     "end": 15.45
+    }
+   ],
+   "n": 2,
+   "start": 13.56,
+   "end": 15.45,
+   "pic": "six"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Six o'clock? Wake up!",
+   "words": [
+    {
+     "t": "Six",
+     "start": 16.56,
+     "end": 16.76,
+     "pic": "six"
+    },
+    {
+     "t": "o'clock?",
+     "start": 16.77,
+     "end": 17.82
+    },
+    {
+     "t": "Wake",
+     "start": 20.3,
+     "end": 20.64
+    },
+    {
+     "t": "up!",
+     "start": 20.64,
+     "end": 21.04
+    }
+   ],
+   "n": 3,
+   "start": 16.56,
+   "end": 21.04,
+   "pic": "six"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is nine o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 21.08,
+     "end": 21.36
+    },
+    {
+     "t": "is",
+     "start": 21.36,
+     "end": 21.6
+    },
+    {
+     "t": "nine",
+     "start": 21.58,
+     "end": 21.98,
+     "pic": "nine"
+    },
+    {
+     "t": "o'clock!",
+     "start": 21.97,
+     "end": 22.97
+    }
+   ],
+   "n": 4,
+   "start": 21.08,
+   "end": 22.97,
+   "pic": "nine"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Nine o'clock? School time!",
+   "words": [
+    {
+     "t": "Nine",
+     "start": 24.9,
+     "end": 25.24,
+     "pic": "nine"
+    },
+    {
+     "t": "o'clock?",
+     "start": 27.25,
+     "end": 29.12
+    },
+    {
+     "t": "School",
+     "start": 29.6,
+     "end": 29.96
+    },
+    {
+     "t": "time!",
+     "start": 29.94,
+     "end": 30.66
+    }
+   ],
+   "n": 5,
+   "start": 24.9,
+   "end": 30.66,
+   "pic": "nine"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is twelve o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 30.82,
+     "end": 31.18
+    },
+    {
+     "t": "is",
+     "start": 31.24,
+     "end": 31.48
+    },
+    {
+     "t": "twelve",
+     "start": 34.02,
+     "end": 34.38,
+     "pic": "twelve"
+    },
+    {
+     "t": "o'clock!",
+     "start": 34.43,
+     "end": 34.85
+    }
+   ],
+   "n": 6,
+   "start": 30.82,
+   "end": 34.85,
+   "pic": "twelve"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Twelve o'clock? Lunch time!",
+   "words": [
+    {
+     "t": "Twelve",
+     "start": 36.54,
+     "end": 36.98,
+     "pic": "twelve"
+    },
+    {
+     "t": "o'clock?",
+     "start": 38.85,
+     "end": 39.01
+    },
+    {
+     "t": "Lunch",
+     "start": 40.04,
+     "end": 40.42
+    },
+    {
+     "t": "time!",
+     "start": 40.42,
+     "end": 41.12
+    }
+   ],
+   "n": 7,
+   "start": 36.54,
+   "end": 41.12,
+   "pic": "twelve"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is three o'clock! Three o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 41.38,
+     "end": 41.56
+    },
+    {
+     "t": "is",
+     "start": 41.54,
+     "end": 41.86
+    },
+    {
+     "t": "three",
+     "start": 41.86,
+     "end": 42.46
+    },
+    {
+     "t": "o'clock!",
+     "start": 42.51,
+     "end": 42.93
+    },
+    {
+     "t": "Three",
+     "start": 44.14,
+     "end": 44.26
+    },
+    {
+     "t": "o'clock!",
+     "start": 44.21,
+     "end": 44.74
+    }
+   ],
+   "n": 8,
+   "start": 41.38,
+   "end": 44.74,
+   "pic": "twelve"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is time to go home!",
+   "words": [
+    {
+     "t": "It",
+     "start": 47.34,
+     "end": 47.44
+    },
+    {
+     "t": "is",
+     "start": 47.4,
+     "end": 47.72
+    },
+    {
+     "t": "time",
+     "start": 47.72,
+     "end": 48.22
+    },
+    {
+     "t": "to",
+     "start": 48.22,
+     "end": 48.6
+    },
+    {
+     "t": "go",
+     "start": 48.6,
+     "end": 48.9
+    },
+    {
+     "t": "home!",
+     "start": 48.92,
+     "end": 49.66
+    }
+   ],
+   "n": 9,
+   "start": 47.34,
+   "end": 49.66,
+   "pic": "twelve"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it? What time is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 52.56,
+     "end": 52.82
+    },
+    {
+     "t": "time",
+     "start": 52.82,
+     "end": 53.24
+    },
+    {
+     "t": "is",
+     "start": 53.24,
+     "end": 53.5
+    },
+    {
+     "t": "it?",
+     "start": 53.5,
+     "end": 53.88
+    },
+    {
+     "t": "What",
+     "start": 53.9,
+     "end": 54.2
+    },
+    {
+     "t": "time",
+     "start": 54.2,
+     "end": 54.44
+    },
+    {
+     "t": "is",
+     "start": 54.44,
+     "end": 54.86
+    },
+    {
+     "t": "it?",
+     "start": 54.86,
+     "end": 55.12
+    }
+   ],
+   "n": 10,
+   "start": 52.56,
+   "end": 55.12,
+   "pic": "twelve"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is three o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 56.83,
+     "end": 58.18
+    },
+    {
+     "t": "is",
+     "start": 58.04,
+     "end": 58.68
+    },
+    {
+     "t": "three",
+     "start": 58.72,
+     "end": 59.36
+    },
+    {
+     "t": "o'clock!",
+     "start": 59.41,
+     "end": 59.83
+    }
+   ],
+   "n": 11,
+   "start": 56.83,
+   "end": 59.83,
+   "pic": "twelve"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is two o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 66.1,
+     "end": 66.28
+    },
+    {
+     "t": "is",
+     "start": 66.28,
+     "end": 66.62
+    },
+    {
+     "t": "two",
+     "start": 66.62,
+     "end": 67.24,
+     "pic": "two"
+    },
+    {
+     "t": "o'clock!",
+     "start": 67.29,
+     "end": 67.71
+    }
+   ],
+   "n": 12,
+   "start": 66.1,
+   "end": 67.71,
+   "pic": "two"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Two o'clock? Class time!",
+   "words": [
+    {
+     "t": "Two",
+     "start": 68.83,
+     "end": 69.06,
+     "pic": "two"
+    },
+    {
+     "t": "o'clock?",
+     "start": 69.05,
+     "end": 70.05
+    },
+    {
+     "t": "Class",
+     "start": 71.4,
+     "end": 71.88
+    },
+    {
+     "t": "time!",
+     "start": 71.86,
+     "end": 72.56
+    }
+   ],
+   "n": 13,
+   "start": 68.83,
+   "end": 72.56,
+   "pic": "two"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is eleven o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 73.46,
+     "end": 73.76
+    },
+    {
+     "t": "is",
+     "start": 73.76,
+     "end": 73.94
+    },
+    {
+     "t": "eleven",
+     "start": 73.94,
+     "end": 74.34,
+     "pic": "eleven"
+    },
+    {
+     "t": "o'clock!",
+     "start": 74.35,
+     "end": 75.4
+    }
+   ],
+   "n": 14,
+   "start": 73.46,
+   "end": 75.4,
+   "pic": "eleven"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Eleven o'clock? Sleep time!",
+   "words": [
+    {
+     "t": "Eleven",
+     "start": 79.06,
+     "end": 79.62,
+     "pic": "eleven"
+    },
+    {
+     "t": "o'clock?",
+     "start": 79.67,
+     "end": 80.09
+    },
+    {
+     "t": "Sleep",
+     "start": 81.78,
+     "end": 82.22
+    },
+    {
+     "t": "time!",
+     "start": 82.22,
+     "end": 83.02
+    }
+   ],
+   "n": 15,
+   "start": 79.06,
+   "end": 83.02,
+   "pic": "eleven"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is one o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 83.3,
+     "end": 83.64
+    },
+    {
+     "t": "is",
+     "start": 83.6,
+     "end": 83.94
+    },
+    {
+     "t": "one",
+     "start": 83.9,
+     "end": 84.22,
+     "pic": "one"
+    },
+    {
+     "t": "o'clock!",
+     "start": 84.18,
+     "end": 85.08
+    }
+   ],
+   "n": 16,
+   "start": 83.3,
+   "end": 85.08,
+   "pic": "one"
+  },
+  {
+   "section": "Verse 2",
+   "text": "One o'clock? Game time!",
+   "words": [
+    {
+     "t": "One",
+     "start": 86.38,
+     "end": 86.8,
+     "pic": "one"
+    },
+    {
+     "t": "o'clock?",
+     "start": 86.85,
+     "end": 87.27
+    },
+    {
+     "t": "Game",
+     "start": 87.3,
+     "end": 87.72
+    },
+    {
+     "t": "time!",
+     "start": 87.75,
+     "end": 88.17
+    }
+   ],
+   "n": 17,
+   "start": 86.38,
+   "end": 88.17,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is three o'clock! Three o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 89.0,
+     "end": 89.15
+    },
+    {
+     "t": "is",
+     "start": 89.17,
+     "end": 89.33
+    },
+    {
+     "t": "three",
+     "start": 89.34,
+     "end": 89.61
+    },
+    {
+     "t": "o'clock!",
+     "start": 89.64,
+     "end": 90.03
+    },
+    {
+     "t": "Three",
+     "start": 90.07,
+     "end": 90.34
+    },
+    {
+     "t": "o'clock!",
+     "start": 90.37,
+     "end": 90.76
+    }
+   ],
+   "n": 18,
+   "start": 89.0,
+   "end": 90.76,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is time to go home!",
+   "words": [
+    {
+     "t": "It",
+     "start": 99.6,
+     "end": 99.78
+    },
+    {
+     "t": "is",
+     "start": 99.8,
+     "end": 100.18
+    },
+    {
+     "t": "time",
+     "start": 100.18,
+     "end": 100.64
+    },
+    {
+     "t": "to",
+     "start": 100.64,
+     "end": 101.0
+    },
+    {
+     "t": "go",
+     "start": 101.02,
+     "end": 101.4
+    },
+    {
+     "t": "home!",
+     "start": 101.4,
+     "end": 101.66
+    }
+   ],
+   "n": 19,
+   "start": 99.6,
+   "end": 101.66,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it? What time is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 104.86,
+     "end": 105.0
+    },
+    {
+     "t": "time",
+     "start": 104.96,
+     "end": 105.42
+    },
+    {
+     "t": "is",
+     "start": 105.42,
+     "end": 105.76
+    },
+    {
+     "t": "it?",
+     "start": 105.76,
+     "end": 106.12
+    },
+    {
+     "t": "What",
+     "start": 106.1,
+     "end": 106.3
+    },
+    {
+     "t": "time",
+     "start": 106.3,
+     "end": 106.7
+    },
+    {
+     "t": "is",
+     "start": 106.7,
+     "end": 107.08
+    },
+    {
+     "t": "it?",
+     "start": 108.12,
+     "end": 108.62
+    }
+   ],
+   "n": 20,
+   "start": 104.86,
+   "end": 108.62,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is three o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 109.82,
+     "end": 110.24
+    },
+    {
+     "t": "is",
+     "start": 109.98,
+     "end": 110.8
+    },
+    {
+     "t": "three",
+     "start": 110.8,
+     "end": 111.3
+    },
+    {
+     "t": "o'clock!",
+     "start": 111.27,
+     "end": 112.47
+    }
+   ],
+   "n": 21,
+   "start": 109.82,
+   "end": 112.47,
+   "pic": "one"
+  },
+  {
+   "section": "Bridge",
+   "text": "What time is it? Party time!",
+   "words": [
+    {
+     "t": "What",
+     "start": 124.57,
+     "end": 125.92
+    },
+    {
+     "t": "time",
+     "start": 125.92,
+     "end": 126.42
+    },
+    {
+     "t": "is",
+     "start": 126.42,
+     "end": 126.86
+    },
+    {
+     "t": "it?",
+     "start": 126.86,
+     "end": 127.32
+    },
+    {
+     "t": "Party",
+     "start": 127.37,
+     "end": 127.79
+    },
+    {
+     "t": "time!",
+     "start": 127.82,
+     "end": 128.24
+    }
+   ],
+   "n": 22,
+   "start": 124.57,
+   "end": 128.24,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is three o'clock! Three o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 129.26,
+     "end": 129.84
+    },
+    {
+     "t": "is",
+     "start": 129.78,
+     "end": 131.34
+    },
+    {
+     "t": "three",
+     "start": 131.39,
+     "end": 131.47
+    },
+    {
+     "t": "o'clock!",
+     "start": 131.32,
+     "end": 131.4
+    },
+    {
+     "t": "Three",
+     "start": 131.26,
+     "end": 131.34
+    },
+    {
+     "t": "o'clock!",
+     "start": 131.19,
+     "end": 131.27
+    }
+   ],
+   "n": 23,
+   "start": 129.26,
+   "end": 131.27,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is time to go home!",
+   "words": [
+    {
+     "t": "It",
+     "start": 131.13,
+     "end": 131.21
+    },
+    {
+     "t": "is",
+     "start": 130.98,
+     "end": 131.36
+    },
+    {
+     "t": "time",
+     "start": 131.34,
+     "end": 131.82
+    },
+    {
+     "t": "to",
+     "start": 131.82,
+     "end": 132.2
+    },
+    {
+     "t": "go",
+     "start": 132.2,
+     "end": 132.52
+    },
+    {
+     "t": "home!",
+     "start": 132.52,
+     "end": 133.16
+    }
+   ],
+   "n": 24,
+   "start": 131.13,
+   "end": 133.16,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "What time is it? What time is it?",
+   "words": [
+    {
+     "t": "What",
+     "start": 136.08,
+     "end": 136.26
+    },
+    {
+     "t": "time",
+     "start": 136.26,
+     "end": 136.68
+    },
+    {
+     "t": "is",
+     "start": 136.68,
+     "end": 136.94
+    },
+    {
+     "t": "it?",
+     "start": 136.96,
+     "end": 137.34
+    },
+    {
+     "t": "What",
+     "start": 138.52,
+     "end": 138.68
+    },
+    {
+     "t": "time",
+     "start": 138.68,
+     "end": 139.16
+    },
+    {
+     "t": "is",
+     "start": 139.16,
+     "end": 139.52
+    },
+    {
+     "t": "it?",
+     "start": 139.52,
+     "end": 140.06
+    }
+   ],
+   "n": 25,
+   "start": 136.08,
+   "end": 140.06,
+   "pic": "one"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is three o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 141.06,
+     "end": 141.58
+    },
+    {
+     "t": "is",
+     "start": 141.56,
+     "end": 142.06
+    },
+    {
+     "t": "three",
+     "start": 142.06,
+     "end": 142.74
+    },
+    {
+     "t": "o'clock!",
+     "start": 142.79,
+     "end": 143.21
+    }
+   ],
+   "n": 26,
+   "start": 141.06,
+   "end": 143.21,
+   "pic": "one"
+  },
+  {
+   "section": "Outro",
+   "text": "It is three o'clock!",
+   "words": [
+    {
+     "t": "It",
+     "start": 144.67,
+     "end": 144.98
+    },
+    {
+     "t": "is",
+     "start": 144.98,
+     "end": 145.3
+    },
+    {
+     "t": "three",
+     "start": 145.34,
+     "end": 145.78
+    },
+    {
+     "t": "o'clock!",
+     "start": 145.79,
+     "end": 146.74
+    }
+   ],
+   "n": 27,
+   "start": 144.67,
+   "end": 146.74,
+   "pic": "one"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "six",
+   "prompt": "What time is it?",
+   "answer": "It is six o'clock!",
+   "choices": [
+    "It is six o'clock!",
+    "It is nine o'clock!",
+    "It is twelve o'clock!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. It is ... o'clock!",
+   "answer": "nine",
+   "choices": [
+    "nine",
+    "five",
+    "ten"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "twelve",
+   "prompt": "Twelve o'clock?",
+   "answer": "Lunch time!",
+   "choices": [
+    "Lunch time!",
+    "Sleep time!",
+    "School time!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 14,
+   "prompt": "Listen. It is ... o'clock!",
+   "answer": "eleven",
+   "choices": [
+    "eleven",
+    "seven",
+    "one"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "two",
+   "prompt": "What time is it?",
+   "answer": "It is two o'clock!",
+   "choices": [
+    "It is two o'clock!",
+    "It is three o'clock!",
+    "It is one o'clock!"
+   ]
+  }
+ ]
+}
