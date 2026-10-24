@@ -1,0 +1,1104 @@
+{
+ "id": "int3c_u01_b",
+ "title": "Try It! What Is It?",
+ "book": "INT 3C",
+ "unit": 1,
+ "unitTitle": "Do You Like Sweet Food?",
+ "packId": "int3c_u1",
+ "audio": "audio/int3c_u01_b.mp3",
+ "duration": 130.92,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Let's try new food!",
+   "words": [
+    {
+     "t": "Let's",
+     "start": 11.3,
+     "end": 12.3
+    },
+    {
+     "t": "try",
+     "start": 12.36,
+     "end": 12.72
+    },
+    {
+     "t": "new",
+     "start": 12.72,
+     "end": 13.04
+    },
+    {
+     "t": "food!",
+     "start": 13.14,
+     "end": 13.84
+    }
+   ],
+   "n": 1,
+   "start": 11.3,
+   "end": 13.84,
+   "pic": "ddeok"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Do you like sweet food?",
+   "words": [
+    {
+     "t": "Do",
+     "start": 15.44,
+     "end": 15.52
+    },
+    {
+     "t": "you",
+     "start": 15.46,
+     "end": 15.82
+    },
+    {
+     "t": "like",
+     "start": 15.82,
+     "end": 16.18
+    },
+    {
+     "t": "sweet",
+     "start": 16.18,
+     "end": 16.54,
+     "pic": "sweet"
+    },
+    {
+     "t": "food?",
+     "start": 16.54,
+     "end": 17.2
+    }
+   ],
+   "n": 2,
+   "start": 15.44,
+   "end": 17.2,
+   "pic": "sweet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, I do!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 17.4,
+     "end": 17.72
+    },
+    {
+     "t": "I",
+     "start": 17.72,
+     "end": 18.26
+    },
+    {
+     "t": "do!",
+     "start": 18.26,
+     "end": 18.76
+    }
+   ],
+   "n": 3,
+   "start": 17.4,
+   "end": 18.76,
+   "pic": "sweet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Do you like salty food?",
+   "words": [
+    {
+     "t": "Do",
+     "start": 20.4,
+     "end": 20.62
+    },
+    {
+     "t": "you",
+     "start": 20.6,
+     "end": 20.86
+    },
+    {
+     "t": "like",
+     "start": 20.84,
+     "end": 21.12
+    },
+    {
+     "t": "salty",
+     "start": 21.1,
+     "end": 21.6,
+     "pic": "salty"
+    },
+    {
+     "t": "food?",
+     "start": 21.6,
+     "end": 22.24
+    }
+   ],
+   "n": 4,
+   "start": 20.4,
+   "end": 22.24,
+   "pic": "salty"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, I do!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 22.66,
+     "end": 22.8
+    },
+    {
+     "t": "I",
+     "start": 22.8,
+     "end": 23.32
+    },
+    {
+     "t": "do!",
+     "start": 23.32,
+     "end": 23.92
+    }
+   ],
+   "n": 5,
+   "start": 22.66,
+   "end": 23.92,
+   "pic": "salty"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Do you like sour food?",
+   "words": [
+    {
+     "t": "Do",
+     "start": 25.44,
+     "end": 25.66
+    },
+    {
+     "t": "you",
+     "start": 25.64,
+     "end": 25.88
+    },
+    {
+     "t": "like",
+     "start": 25.88,
+     "end": 26.2
+    },
+    {
+     "t": "sour",
+     "start": 26.2,
+     "end": 26.62,
+     "pic": "sour"
+    },
+    {
+     "t": "food?",
+     "start": 26.62,
+     "end": 27.36
+    }
+   ],
+   "n": 6,
+   "start": 25.44,
+   "end": 27.36,
+   "pic": "sour"
+  },
+  {
+   "section": "Verse 1",
+   "text": "No, I do not!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 28.16,
+     "end": 28.78
+    },
+    {
+     "t": "I",
+     "start": 29.88,
+     "end": 30.78
+    },
+    {
+     "t": "do",
+     "start": 30.78,
+     "end": 31.18
+    },
+    {
+     "t": "not!",
+     "start": 31.16,
+     "end": 31.7
+    }
+   ],
+   "n": 7,
+   "start": 28.16,
+   "end": 31.7,
+   "pic": "sour"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, I do! Yes, I do!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 32.46,
+     "end": 32.84
+    },
+    {
+     "t": "I",
+     "start": 32.86,
+     "end": 33.42
+    },
+    {
+     "t": "do!",
+     "start": 33.4,
+     "end": 34.0
+    },
+    {
+     "t": "Yes,",
+     "start": 35.1,
+     "end": 35.36
+    },
+    {
+     "t": "I",
+     "start": 35.36,
+     "end": 35.96
+    },
+    {
+     "t": "do!",
+     "start": 35.94,
+     "end": 36.5
+    }
+   ],
+   "n": 8,
+   "start": 32.46,
+   "end": 36.5,
+   "pic": "sour"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, I do not! No, I do not!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 37.18,
+     "end": 37.48
+    },
+    {
+     "t": "I",
+     "start": 37.46,
+     "end": 37.96
+    },
+    {
+     "t": "do",
+     "start": 37.96,
+     "end": 38.36
+    },
+    {
+     "t": "not!",
+     "start": 38.36,
+     "end": 38.75
+    },
+    {
+     "t": "No,",
+     "start": 40.1,
+     "end": 40.44
+    },
+    {
+     "t": "I",
+     "start": 40.44,
+     "end": 40.96
+    },
+    {
+     "t": "do",
+     "start": 41.0,
+     "end": 41.28
+    },
+    {
+     "t": "not!",
+     "start": 41.28,
+     "end": 41.8
+    }
+   ],
+   "n": 9,
+   "start": 37.18,
+   "end": 41.8,
+   "pic": "sour"
+  },
+  {
+   "section": "Chorus",
+   "text": "Try it! Try it! What is it?",
+   "words": [
+    {
+     "t": "Try",
+     "start": 42.6,
+     "end": 42.92
+    },
+    {
+     "t": "it!",
+     "start": 42.9,
+     "end": 43.36
+    },
+    {
+     "t": "Try",
+     "start": 43.96,
+     "end": 44.18
+    },
+    {
+     "t": "it!",
+     "start": 44.16,
+     "end": 44.62
+    },
+    {
+     "t": "What",
+     "start": 44.9,
+     "end": 45.1
+    },
+    {
+     "t": "is",
+     "start": 45.1,
+     "end": 45.5
+    },
+    {
+     "t": "it?",
+     "start": 45.5,
+     "end": 46.0
+    }
+   ],
+   "n": 10,
+   "start": 42.6,
+   "end": 46.0,
+   "pic": "sour"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a sticky rice dessert!",
+   "words": [
+    {
+     "t": "It",
+     "start": 46.75,
+     "end": 47.06
+    },
+    {
+     "t": "is",
+     "start": 47.06,
+     "end": 47.38
+    },
+    {
+     "t": "a",
+     "start": 47.4,
+     "end": 47.76
+    },
+    {
+     "t": "sticky",
+     "start": 47.76,
+     "end": 48.44
+    },
+    {
+     "t": "rice",
+     "start": 48.44,
+     "end": 49.48
+    },
+    {
+     "t": "dessert!",
+     "start": 49.48,
+     "end": 50.22
+    }
+   ],
+   "n": 11,
+   "start": 46.75,
+   "end": 50.22,
+   "pic": "itisastickyricedessert"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Try this! What is it?",
+   "words": [
+    {
+     "t": "Try",
+     "start": 52.0,
+     "end": 52.78
+    },
+    {
+     "t": "this!",
+     "start": 52.78,
+     "end": 53.36
+    },
+    {
+     "t": "What",
+     "start": 53.72,
+     "end": 53.92
+    },
+    {
+     "t": "is",
+     "start": 53.9,
+     "end": 54.34
+    },
+    {
+     "t": "it?",
+     "start": 54.34,
+     "end": 54.6
+    }
+   ],
+   "n": 12,
+   "start": 52.0,
+   "end": 54.6,
+   "pic": "itisastickyricedessert"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is sticky rice!",
+   "words": [
+    {
+     "t": "It",
+     "start": 55.62,
+     "end": 55.9
+    },
+    {
+     "t": "is",
+     "start": 55.9,
+     "end": 56.16
+    },
+    {
+     "t": "sticky",
+     "start": 56.16,
+     "end": 56.62
+    },
+    {
+     "t": "rice!",
+     "start": 56.66,
+     "end": 57.24
+    }
+   ],
+   "n": 13,
+   "start": 55.62,
+   "end": 57.24,
+   "pic": "itisastickyricedessert"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Try this! What is it?",
+   "words": [
+    {
+     "t": "Try",
+     "start": 57.82,
+     "end": 59.07
+    },
+    {
+     "t": "this!",
+     "start": 59.09,
+     "end": 60.86
+    },
+    {
+     "t": "What",
+     "start": 60.88,
+     "end": 62.39
+    },
+    {
+     "t": "is",
+     "start": 62.41,
+     "end": 63.41
+    },
+    {
+     "t": "it?",
+     "start": 63.43,
+     "end": 64.7
+    }
+   ],
+   "n": 14,
+   "start": 57.82,
+   "end": 64.7,
+   "pic": "itisastickyricedessert"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is a sweet dessert!",
+   "words": [
+    {
+     "t": "It",
+     "start": 65.36,
+     "end": 65.78
+    },
+    {
+     "t": "is",
+     "start": 65.84,
+     "end": 66.04
+    },
+    {
+     "t": "a",
+     "start": 66.02,
+     "end": 66.3
+    },
+    {
+     "t": "sweet",
+     "start": 66.3,
+     "end": 66.54,
+     "pic": "sweet"
+    },
+    {
+     "t": "dessert!",
+     "start": 66.54,
+     "end": 67.24
+    }
+   ],
+   "n": 15,
+   "start": 65.36,
+   "end": 67.24,
+   "pic": "sweet"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Do you like it?",
+   "words": [
+    {
+     "t": "Do",
+     "start": 68.32,
+     "end": 68.62
+    },
+    {
+     "t": "you",
+     "start": 68.6,
+     "end": 68.86
+    },
+    {
+     "t": "like",
+     "start": 68.86,
+     "end": 69.1
+    },
+    {
+     "t": "it?",
+     "start": 69.12,
+     "end": 69.5
+    }
+   ],
+   "n": 16,
+   "start": 68.32,
+   "end": 69.5,
+   "pic": "sweet"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, I do!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 70.16,
+     "end": 70.5
+    },
+    {
+     "t": "I",
+     "start": 70.46,
+     "end": 70.96
+    },
+    {
+     "t": "do!",
+     "start": 70.96,
+     "end": 71.66
+    }
+   ],
+   "n": 17,
+   "start": 70.16,
+   "end": 71.66,
+   "pic": "sweet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, I do! Yes, I do!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 72.56,
+     "end": 72.98
+    },
+    {
+     "t": "I",
+     "start": 72.96,
+     "end": 73.48
+    },
+    {
+     "t": "do!",
+     "start": 73.5,
+     "end": 74.06
+    },
+    {
+     "t": "Yes,",
+     "start": 74.32,
+     "end": 74.48
+    },
+    {
+     "t": "I",
+     "start": 74.46,
+     "end": 74.9
+    },
+    {
+     "t": "do!",
+     "start": 74.92,
+     "end": 75.2
+    }
+   ],
+   "n": 18,
+   "start": 72.56,
+   "end": 75.2,
+   "pic": "sweet"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, I do not! No, I do not!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 76.36,
+     "end": 76.85
+    },
+    {
+     "t": "I",
+     "start": 76.87,
+     "end": 77.16
+    },
+    {
+     "t": "do",
+     "start": 77.18,
+     "end": 77.57
+    },
+    {
+     "t": "not!",
+     "start": 77.59,
+     "end": 78.19
+    },
+    {
+     "t": "No,",
+     "start": 78.21,
+     "end": 78.7
+    },
+    {
+     "t": "I",
+     "start": 78.72,
+     "end": 79.01
+    },
+    {
+     "t": "do",
+     "start": 79.03,
+     "end": 79.42
+    },
+    {
+     "t": "not!",
+     "start": 79.44,
+     "end": 80.06
+    }
+   ],
+   "n": 19,
+   "start": 76.36,
+   "end": 80.06,
+   "pic": "sweet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Try it! Try it! What is it?",
+   "words": [
+    {
+     "t": "Try",
+     "start": 82.92,
+     "end": 83.35
+    },
+    {
+     "t": "it!",
+     "start": 83.37,
+     "end": 83.81
+    },
+    {
+     "t": "Try",
+     "start": 83.83,
+     "end": 84.26
+    },
+    {
+     "t": "it!",
+     "start": 84.28,
+     "end": 84.72
+    },
+    {
+     "t": "What",
+     "start": 84.74,
+     "end": 85.26
+    },
+    {
+     "t": "is",
+     "start": 85.28,
+     "end": 85.63
+    },
+    {
+     "t": "it?",
+     "start": 85.65,
+     "end": 86.1
+    }
+   ],
+   "n": 20,
+   "start": 82.92,
+   "end": 86.1,
+   "pic": "sweet"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a sticky rice dessert!",
+   "words": [
+    {
+     "t": "It",
+     "start": 86.86,
+     "end": 87.25
+    },
+    {
+     "t": "is",
+     "start": 87.27,
+     "end": 87.67
+    },
+    {
+     "t": "a",
+     "start": 87.69,
+     "end": 87.98
+    },
+    {
+     "t": "sticky",
+     "start": 88.0,
+     "end": 88.81
+    },
+    {
+     "t": "rice",
+     "start": 88.83,
+     "end": 89.43
+    },
+    {
+     "t": "dessert!",
+     "start": 89.45,
+     "end": 90.48
+    }
+   ],
+   "n": 21,
+   "start": 86.86,
+   "end": 90.48,
+   "pic": "itisastickyricedessert"
+  },
+  {
+   "section": "Bridge",
+   "text": "Do you like salty ice cream?",
+   "words": [
+    {
+     "t": "Do",
+     "start": 92.9,
+     "end": 93.06
+    },
+    {
+     "t": "you",
+     "start": 93.06,
+     "end": 93.38
+    },
+    {
+     "t": "like",
+     "start": 93.38,
+     "end": 93.7
+    },
+    {
+     "t": "salty",
+     "start": 93.7,
+     "end": 94.34,
+     "pic": "salty"
+    },
+    {
+     "t": "ice",
+     "start": 94.34,
+     "end": 94.72
+    },
+    {
+     "t": "cream?",
+     "start": 94.72,
+     "end": 94.82
+    }
+   ],
+   "n": 22,
+   "start": 92.9,
+   "end": 94.82,
+   "pic": "salty"
+  },
+  {
+   "section": "Bridge",
+   "text": "No, I do not! Yuck!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 98.12,
+     "end": 98.44
+    },
+    {
+     "t": "I",
+     "start": 98.44,
+     "end": 99.28
+    },
+    {
+     "t": "do",
+     "start": 99.28,
+     "end": 99.68
+    },
+    {
+     "t": "not!",
+     "start": 99.68,
+     "end": 100.02
+    },
+    {
+     "t": "Yuck!",
+     "start": 100.65,
+     "end": 101.73
+    }
+   ],
+   "n": 23,
+   "start": 98.12,
+   "end": 101.73,
+   "pic": "salty"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, I do! Yes, I do!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 102.36,
+     "end": 102.98
+    },
+    {
+     "t": "I",
+     "start": 102.98,
+     "end": 103.52
+    },
+    {
+     "t": "do!",
+     "start": 103.52,
+     "end": 104.02
+    },
+    {
+     "t": "Yes,",
+     "start": 104.22,
+     "end": 104.46
+    },
+    {
+     "t": "I",
+     "start": 104.46,
+     "end": 104.88
+    },
+    {
+     "t": "do!",
+     "start": 104.88,
+     "end": 105.12
+    }
+   ],
+   "n": 24,
+   "start": 102.36,
+   "end": 105.12,
+   "pic": "salty"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, I do not! No, I do not!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 107.26,
+     "end": 107.52
+    },
+    {
+     "t": "I",
+     "start": 107.52,
+     "end": 108.08
+    },
+    {
+     "t": "do",
+     "start": 108.08,
+     "end": 108.4
+    },
+    {
+     "t": "not!",
+     "start": 108.4,
+     "end": 108.98
+    },
+    {
+     "t": "No,",
+     "start": 109.22,
+     "end": 109.48
+    },
+    {
+     "t": "I",
+     "start": 109.48,
+     "end": 109.9
+    },
+    {
+     "t": "do",
+     "start": 109.9,
+     "end": 110.1
+    },
+    {
+     "t": "not!",
+     "start": 110.1,
+     "end": 110.22
+    }
+   ],
+   "n": 25,
+   "start": 107.26,
+   "end": 110.22,
+   "pic": "salty"
+  },
+  {
+   "section": "Chorus",
+   "text": "Try it! Try it! What is it?",
+   "words": [
+    {
+     "t": "Try",
+     "start": 111.84,
+     "end": 112.94
+    },
+    {
+     "t": "it!",
+     "start": 112.92,
+     "end": 113.4
+    },
+    {
+     "t": "Try",
+     "start": 113.74,
+     "end": 114.22
+    },
+    {
+     "t": "it!",
+     "start": 114.22,
+     "end": 114.68
+    },
+    {
+     "t": "What",
+     "start": 114.7,
+     "end": 115.2
+    },
+    {
+     "t": "is",
+     "start": 115.2,
+     "end": 115.62
+    },
+    {
+     "t": "it?",
+     "start": 115.62,
+     "end": 116.04
+    }
+   ],
+   "n": 26,
+   "start": 111.84,
+   "end": 116.04,
+   "pic": "salty"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a sticky rice dessert!",
+   "words": [
+    {
+     "t": "It",
+     "start": 116.88,
+     "end": 117.14
+    },
+    {
+     "t": "is",
+     "start": 117.14,
+     "end": 117.44
+    },
+    {
+     "t": "a",
+     "start": 117.44,
+     "end": 117.7
+    },
+    {
+     "t": "sticky",
+     "start": 117.7,
+     "end": 118.5
+    },
+    {
+     "t": "rice",
+     "start": 118.5,
+     "end": 119.64
+    },
+    {
+     "t": "dessert!",
+     "start": 119.62,
+     "end": 120.42
+    }
+   ],
+   "n": 27,
+   "start": 116.88,
+   "end": 120.42,
+   "pic": "itisastickyricedessert"
+  },
+  {
+   "section": "Outro",
+   "text": "Yes, I do!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 121.72,
+     "end": 121.94
+    },
+    {
+     "t": "I",
+     "start": 121.94,
+     "end": 122.4
+    },
+    {
+     "t": "do!",
+     "start": 122.38,
+     "end": 122.82
+    }
+   ],
+   "n": 28,
+   "start": 121.72,
+   "end": 122.82,
+   "pic": "itisastickyricedessert"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "sweet",
+   "prompt": "Do you like sweet food?",
+   "answer": "Yes, I do!",
+   "choices": [
+    "Yes, I do!",
+    "Okay, Dad!",
+    "It is a cello!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sour",
+   "prompt": "Do you like sour food?",
+   "answer": "No, I do not!",
+   "choices": [
+    "No, I do not!",
+    "Yes, it is!",
+    "Okay, Mom!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "whatisit",
+   "prompt": "Try this! What is it?",
+   "answer": "It is sticky rice!",
+   "choices": [
+    "It is sticky rice!",
+    "It is a violin!",
+    "It is my phone!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "itisastickyricedessert",
+   "prompt": "What is it?",
+   "answer": "It is a sticky rice dessert!",
+   "choices": [
+    "It is a sticky rice dessert!",
+    "It is salty ice cream!",
+    "It is a lemon!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "salty",
+   "prompt": "Do you like salty ice cream?",
+   "answer": "No, I do not! Yuck!",
+   "choices": [
+    "No, I do not! Yuck!",
+    "Yes, it is!",
+    "Don't forget!"
+   ]
+  }
+ ]
+}

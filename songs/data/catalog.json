@@ -514,6 +514,15 @@
    "packId": "int3b_u1"
   },
   {
+   "id": "int3b_u02_a",
+   "title": "Is This a Cello?",
+   "book": "INT 3B",
+   "unit": 2,
+   "unitTitle": "Is This a Gayageum?",
+   "blurb": "Is this a cello? No, it is not. It is a violin!",
+   "packId": "int3b_u2"
+  },
+  {
    "id": "int3b_u03_b",
    "title": "Slower, Please!",
    "book": "INT 3B",
@@ -550,6 +559,15 @@
    "packId": "int3b_u6"
   },
   {
+   "id": "int3b_u07_a",
+   "title": "Don't Forget Your Transit Card",
+   "book": "INT 3B",
+   "unit": 7,
+   "unitTitle": "Don't Forget Your Transit Card",
+   "blurb": "Don't forget your transit card! Okay, Dad!",
+   "packId": "int3b_u7"
+  },
+  {
    "id": "int3b_u08_b",
    "title": "Who, What, Where, Why?",
    "book": "INT 3B",
@@ -557,6 +575,15 @@
    "unitTitle": "Do You Like Korea?",
    "blurb": "Where are you from? I am from Canada!",
    "packId": "int3b_u8"
+  },
+  {
+   "id": "int3c_u01_b",
+   "title": "Try It! What Is It?",
+   "book": "INT 3C",
+   "unit": 1,
+   "unitTitle": "Do You Like Sweet Food?",
+   "blurb": "Do you like sweet food? Yes, I do! No, I do not!",
+   "packId": "int3c_u1"
   },
   {
    "id": "int3c_u02_a",

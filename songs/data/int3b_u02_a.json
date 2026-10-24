@@ -1,0 +1,1151 @@
+{
+ "id": "int3b_u02_a",
+ "title": "Is This a Cello?",
+ "book": "INT 3B",
+ "unit": 2,
+ "unitTitle": "Is This a Gayageum?",
+ "packId": "int3b_u2",
+ "audio": "audio/int3b_u02_a.mp3",
+ "duration": 150.77,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Listen! What is this?",
+   "words": [
+    {
+     "t": "Listen!",
+     "start": 1.03,
+     "end": 2.78
+    },
+    {
+     "t": "What",
+     "start": 3.36,
+     "end": 3.66
+    },
+    {
+     "t": "is",
+     "start": 3.64,
+     "end": 4.14
+    },
+    {
+     "t": "this?",
+     "start": 4.12,
+     "end": 4.82
+    }
+   ],
+   "n": 1,
+   "start": 1.03,
+   "end": 4.82,
+   "pic": "cello"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Is this a guitar?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 18.7,
+     "end": 18.84
+    },
+    {
+     "t": "this",
+     "start": 18.86,
+     "end": 19.1
+    },
+    {
+     "t": "a",
+     "start": 19.16,
+     "end": 19.42
+    },
+    {
+     "t": "guitar?",
+     "start": 19.42,
+     "end": 19.92,
+     "pic": "guitar"
+    }
+   ],
+   "n": 2,
+   "start": 18.7,
+   "end": 19.92,
+   "pic": "guitar"
+  },
+  {
+   "section": "Verse 1",
+   "text": "No, it is not. It is a ukulele!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 23.84,
+     "end": 24.64
+    },
+    {
+     "t": "it",
+     "start": 24.66,
+     "end": 24.94
+    },
+    {
+     "t": "is",
+     "start": 24.94,
+     "end": 25.12
+    },
+    {
+     "t": "not.",
+     "start": 25.1,
+     "end": 25.5
+    },
+    {
+     "t": "It",
+     "start": 26.4,
+     "end": 26.66
+    },
+    {
+     "t": "is",
+     "start": 26.68,
+     "end": 26.96
+    },
+    {
+     "t": "a",
+     "start": 26.94,
+     "end": 27.16
+    },
+    {
+     "t": "ukulele!",
+     "start": 27.16,
+     "end": 27.91,
+     "pic": "ukulele"
+    }
+   ],
+   "n": 3,
+   "start": 23.84,
+   "end": 27.91,
+   "pic": "ukulele"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Is this a piano?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 30.4,
+     "end": 30.58
+    },
+    {
+     "t": "this",
+     "start": 30.58,
+     "end": 30.8
+    },
+    {
+     "t": "a",
+     "start": 30.82,
+     "end": 30.98
+    },
+    {
+     "t": "piano?",
+     "start": 30.98,
+     "end": 31.46,
+     "pic": "piano"
+    }
+   ],
+   "n": 4,
+   "start": 30.4,
+   "end": 31.46,
+   "pic": "piano"
+  },
+  {
+   "section": "Verse 1",
+   "text": "No, it is not. It is a drum!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 32.26,
+     "end": 32.66
+    },
+    {
+     "t": "it",
+     "start": 32.66,
+     "end": 32.94
+    },
+    {
+     "t": "is",
+     "start": 32.92,
+     "end": 33.12
+    },
+    {
+     "t": "not.",
+     "start": 33.12,
+     "end": 33.58
+    },
+    {
+     "t": "It",
+     "start": 35.4,
+     "end": 35.68
+    },
+    {
+     "t": "is",
+     "start": 35.68,
+     "end": 35.9
+    },
+    {
+     "t": "a",
+     "start": 35.9,
+     "end": 36.18
+    },
+    {
+     "t": "drum!",
+     "start": 36.18,
+     "end": 36.78,
+     "pic": "drum"
+    }
+   ],
+   "n": 5,
+   "start": 32.26,
+   "end": 36.78,
+   "pic": "drum"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Is this a flute?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 40.42,
+     "end": 40.58
+    },
+    {
+     "t": "this",
+     "start": 40.58,
+     "end": 40.88
+    },
+    {
+     "t": "a",
+     "start": 40.9,
+     "end": 41.08
+    },
+    {
+     "t": "flute?",
+     "start": 41.08,
+     "end": 41.46,
+     "pic": "flute"
+    }
+   ],
+   "n": 6,
+   "start": 40.42,
+   "end": 41.46,
+   "pic": "flute"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, it is!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 43.92,
+     "end": 44.58
+    },
+    {
+     "t": "it",
+     "start": 45.34,
+     "end": 45.58
+    },
+    {
+     "t": "is!",
+     "start": 45.58,
+     "end": 46.02
+    }
+   ],
+   "n": 7,
+   "start": 43.92,
+   "end": 46.02,
+   "pic": "flute"
+  },
+  {
+   "section": "Chorus",
+   "text": "Is this a cello? Is this a cello?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 46.38,
+     "end": 46.64
+    },
+    {
+     "t": "this",
+     "start": 46.64,
+     "end": 46.88
+    },
+    {
+     "t": "a",
+     "start": 46.88,
+     "end": 47.16
+    },
+    {
+     "t": "cello?",
+     "start": 47.16,
+     "end": 47.91,
+     "pic": "cello"
+    },
+    {
+     "t": "Is",
+     "start": 48.36,
+     "end": 48.6
+    },
+    {
+     "t": "this",
+     "start": 48.58,
+     "end": 48.86
+    },
+    {
+     "t": "a",
+     "start": 48.86,
+     "end": 49.08
+    },
+    {
+     "t": "cello?",
+     "start": 49.08,
+     "end": 49.78,
+     "pic": "cello"
+    }
+   ],
+   "n": 8,
+   "start": 46.38,
+   "end": 49.78,
+   "pic": "cello"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, it is not! No, it is not!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 50.32,
+     "end": 50.64
+    },
+    {
+     "t": "it",
+     "start": 50.64,
+     "end": 50.92
+    },
+    {
+     "t": "is",
+     "start": 50.92,
+     "end": 51.18
+    },
+    {
+     "t": "not!",
+     "start": 51.16,
+     "end": 51.52
+    },
+    {
+     "t": "No,",
+     "start": 52.28,
+     "end": 52.62
+    },
+    {
+     "t": "it",
+     "start": 52.66,
+     "end": 52.94
+    },
+    {
+     "t": "is",
+     "start": 52.92,
+     "end": 53.12
+    },
+    {
+     "t": "not!",
+     "start": 53.16,
+     "end": 53.5
+    }
+   ],
+   "n": 9,
+   "start": 50.32,
+   "end": 53.5,
+   "pic": "cello"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a violin!",
+   "words": [
+    {
+     "t": "It",
+     "start": 54.05,
+     "end": 54.7
+    },
+    {
+     "t": "is",
+     "start": 54.68,
+     "end": 54.94
+    },
+    {
+     "t": "a",
+     "start": 54.94,
+     "end": 55.24
+    },
+    {
+     "t": "violin!",
+     "start": 55.14,
+     "end": 55.8,
+     "pic": "violin"
+    }
+   ],
+   "n": 10,
+   "start": 54.05,
+   "end": 55.8,
+   "pic": "violin"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, it is!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 56.0,
+     "end": 56.42
+    },
+    {
+     "t": "it",
+     "start": 56.48,
+     "end": 56.66
+    },
+    {
+     "t": "is!",
+     "start": 56.66,
+     "end": 56.92
+    }
+   ],
+   "n": 11,
+   "start": 56.0,
+   "end": 56.92,
+   "pic": "violin"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is this a violin?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 63.62,
+     "end": 64.6
+    },
+    {
+     "t": "this",
+     "start": 64.64,
+     "end": 64.92
+    },
+    {
+     "t": "a",
+     "start": 64.92,
+     "end": 65.16
+    },
+    {
+     "t": "violin?",
+     "start": 65.16,
+     "end": 65.84,
+     "pic": "violin"
+    }
+   ],
+   "n": 12,
+   "start": 63.62,
+   "end": 65.84,
+   "pic": "violin"
+  },
+  {
+   "section": "Verse 2",
+   "text": "No, it is not. It is a cello!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 70.26,
+     "end": 70.62
+    },
+    {
+     "t": "it",
+     "start": 70.76,
+     "end": 70.94
+    },
+    {
+     "t": "is",
+     "start": 70.92,
+     "end": 71.12
+    },
+    {
+     "t": "not.",
+     "start": 71.12,
+     "end": 71.48
+    },
+    {
+     "t": "It",
+     "start": 72.4,
+     "end": 72.7
+    },
+    {
+     "t": "is",
+     "start": 72.66,
+     "end": 72.92
+    },
+    {
+     "t": "a",
+     "start": 72.92,
+     "end": 73.18
+    },
+    {
+     "t": "cello!",
+     "start": 73.18,
+     "end": 73.94,
+     "pic": "cello"
+    }
+   ],
+   "n": 13,
+   "start": 70.26,
+   "end": 73.94,
+   "pic": "cello"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is this a drum?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 74.4,
+     "end": 74.62
+    },
+    {
+     "t": "this",
+     "start": 74.62,
+     "end": 74.88
+    },
+    {
+     "t": "a",
+     "start": 74.9,
+     "end": 75.2
+    },
+    {
+     "t": "drum?",
+     "start": 75.14,
+     "end": 75.6,
+     "pic": "drum"
+    }
+   ],
+   "n": 14,
+   "start": 74.4,
+   "end": 75.6,
+   "pic": "drum"
+  },
+  {
+   "section": "Verse 2",
+   "text": "No, it is not. It is a saxophone!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 78.08,
+     "end": 78.64
+    },
+    {
+     "t": "it",
+     "start": 78.74,
+     "end": 78.94
+    },
+    {
+     "t": "is",
+     "start": 78.92,
+     "end": 79.14
+    },
+    {
+     "t": "not.",
+     "start": 79.14,
+     "end": 79.52
+    },
+    {
+     "t": "It",
+     "start": 81.4,
+     "end": 81.72
+    },
+    {
+     "t": "is",
+     "start": 81.68,
+     "end": 81.94
+    },
+    {
+     "t": "a",
+     "start": 81.94,
+     "end": 82.14
+    },
+    {
+     "t": "saxophone!",
+     "start": 82.22,
+     "end": 83.42,
+     "pic": "saxophone"
+    }
+   ],
+   "n": 15,
+   "start": 78.08,
+   "end": 83.42,
+   "pic": "saxophone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Is this a ukulele?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 86.38,
+     "end": 86.62
+    },
+    {
+     "t": "this",
+     "start": 86.66,
+     "end": 86.84
+    },
+    {
+     "t": "a",
+     "start": 86.88,
+     "end": 87.14
+    },
+    {
+     "t": "ukulele?",
+     "start": 87.14,
+     "end": 88.36,
+     "pic": "ukulele"
+    }
+   ],
+   "n": 16,
+   "start": 86.38,
+   "end": 88.36,
+   "pic": "ukulele"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, it is!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 91.06,
+     "end": 91.3
+    },
+    {
+     "t": "it",
+     "start": 91.34,
+     "end": 91.62
+    },
+    {
+     "t": "is!",
+     "start": 91.58,
+     "end": 92.02
+    }
+   ],
+   "n": 17,
+   "start": 91.06,
+   "end": 92.02,
+   "pic": "ukulele"
+  },
+  {
+   "section": "Chorus",
+   "text": "Is this a cello? Is this a cello?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 92.46,
+     "end": 92.6
+    },
+    {
+     "t": "this",
+     "start": 92.62,
+     "end": 92.94
+    },
+    {
+     "t": "a",
+     "start": 92.9,
+     "end": 93.12
+    },
+    {
+     "t": "cello?",
+     "start": 93.12,
+     "end": 93.77,
+     "pic": "cello"
+    },
+    {
+     "t": "Is",
+     "start": 94.36,
+     "end": 94.6
+    },
+    {
+     "t": "this",
+     "start": 94.58,
+     "end": 94.88
+    },
+    {
+     "t": "a",
+     "start": 94.86,
+     "end": 95.1
+    },
+    {
+     "t": "cello?",
+     "start": 95.08,
+     "end": 95.73,
+     "pic": "cello"
+    }
+   ],
+   "n": 18,
+   "start": 92.46,
+   "end": 95.73,
+   "pic": "cello"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, it is not! No, it is not!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 96.36,
+     "end": 96.62
+    },
+    {
+     "t": "it",
+     "start": 96.66,
+     "end": 96.94
+    },
+    {
+     "t": "is",
+     "start": 96.92,
+     "end": 97.18
+    },
+    {
+     "t": "not!",
+     "start": 97.18,
+     "end": 97.42
+    },
+    {
+     "t": "No,",
+     "start": 98.32,
+     "end": 98.62
+    },
+    {
+     "t": "it",
+     "start": 98.68,
+     "end": 98.94
+    },
+    {
+     "t": "is",
+     "start": 98.92,
+     "end": 99.18
+    },
+    {
+     "t": "not!",
+     "start": 99.18,
+     "end": 99.48
+    }
+   ],
+   "n": 19,
+   "start": 96.36,
+   "end": 99.48,
+   "pic": "cello"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a violin!",
+   "words": [
+    {
+     "t": "It",
+     "start": 99.78,
+     "end": 100.12
+    },
+    {
+     "t": "is",
+     "start": 100.18,
+     "end": 100.9
+    },
+    {
+     "t": "a",
+     "start": 100.92,
+     "end": 101.12
+    },
+    {
+     "t": "violin!",
+     "start": 101.16,
+     "end": 101.8,
+     "pic": "violin"
+    }
+   ],
+   "n": 20,
+   "start": 99.78,
+   "end": 101.8,
+   "pic": "violin"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, it is!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 101.98,
+     "end": 102.36
+    },
+    {
+     "t": "it",
+     "start": 102.42,
+     "end": 102.66
+    },
+    {
+     "t": "is!",
+     "start": 102.66,
+     "end": 102.94
+    }
+   ],
+   "n": 21,
+   "start": 101.98,
+   "end": 102.94,
+   "pic": "violin"
+  },
+  {
+   "section": "Bridge",
+   "text": "Is this a guitar?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 108.62,
+     "end": 108.84
+    },
+    {
+     "t": "this",
+     "start": 110.9,
+     "end": 111.14
+    },
+    {
+     "t": "a",
+     "start": 111.14,
+     "end": 111.42
+    },
+    {
+     "t": "guitar?",
+     "start": 111.42,
+     "end": 111.78,
+     "pic": "guitar"
+    }
+   ],
+   "n": 22,
+   "start": 108.62,
+   "end": 111.78,
+   "pic": "guitar"
+  },
+  {
+   "section": "Bridge",
+   "text": "No, it is not. It is a microwave!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 116.32,
+     "end": 116.62
+    },
+    {
+     "t": "it",
+     "start": 116.62,
+     "end": 116.92
+    },
+    {
+     "t": "is",
+     "start": 116.9,
+     "end": 117.1
+    },
+    {
+     "t": "not.",
+     "start": 117.1,
+     "end": 117.5
+    },
+    {
+     "t": "It",
+     "start": 118.42,
+     "end": 118.7
+    },
+    {
+     "t": "is",
+     "start": 118.66,
+     "end": 118.92
+    },
+    {
+     "t": "a",
+     "start": 118.92,
+     "end": 119.26
+    },
+    {
+     "t": "microwave!",
+     "start": 119.26,
+     "end": 120.11,
+     "pic": "microwave"
+    }
+   ],
+   "n": 23,
+   "start": 116.32,
+   "end": 120.11,
+   "pic": "microwave"
+  },
+  {
+   "section": "Chorus",
+   "text": "Is this a cello? Is this a cello?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 123.0,
+     "end": 124.58
+    },
+    {
+     "t": "this",
+     "start": 124.58,
+     "end": 124.92
+    },
+    {
+     "t": "a",
+     "start": 124.9,
+     "end": 125.2
+    },
+    {
+     "t": "cello?",
+     "start": 125.2,
+     "end": 125.86,
+     "pic": "cello"
+    },
+    {
+     "t": "Is",
+     "start": 126.37,
+     "end": 126.6
+    },
+    {
+     "t": "this",
+     "start": 126.6,
+     "end": 126.82
+    },
+    {
+     "t": "a",
+     "start": 126.86,
+     "end": 127.16
+    },
+    {
+     "t": "cello?",
+     "start": 127.12,
+     "end": 127.77,
+     "pic": "cello"
+    }
+   ],
+   "n": 24,
+   "start": 123.0,
+   "end": 127.77,
+   "pic": "cello"
+  },
+  {
+   "section": "Chorus",
+   "text": "No, it is not! No, it is not!",
+   "words": [
+    {
+     "t": "No,",
+     "start": 128.38,
+     "end": 128.68
+    },
+    {
+     "t": "it",
+     "start": 128.66,
+     "end": 128.92
+    },
+    {
+     "t": "is",
+     "start": 128.92,
+     "end": 129.1
+    },
+    {
+     "t": "not!",
+     "start": 129.14,
+     "end": 129.5
+    },
+    {
+     "t": "No,",
+     "start": 130.32,
+     "end": 130.59
+    },
+    {
+     "t": "it",
+     "start": 130.66,
+     "end": 130.94
+    },
+    {
+     "t": "is",
+     "start": 130.92,
+     "end": 131.1
+    },
+    {
+     "t": "not!",
+     "start": 131.16,
+     "end": 131.52
+    }
+   ],
+   "n": 25,
+   "start": 128.38,
+   "end": 131.52,
+   "pic": "cello"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a violin!",
+   "words": [
+    {
+     "t": "It",
+     "start": 131.82,
+     "end": 132.2
+    },
+    {
+     "t": "is",
+     "start": 132.2,
+     "end": 132.94
+    },
+    {
+     "t": "a",
+     "start": 132.9,
+     "end": 133.12
+    },
+    {
+     "t": "violin!",
+     "start": 133.12,
+     "end": 133.76,
+     "pic": "violin"
+    }
+   ],
+   "n": 26,
+   "start": 131.82,
+   "end": 133.76,
+   "pic": "violin"
+  },
+  {
+   "section": "Chorus",
+   "text": "Yes, it is!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 138.28,
+     "end": 138.56
+    },
+    {
+     "t": "it",
+     "start": 138.56,
+     "end": 138.92
+    },
+    {
+     "t": "is!",
+     "start": 138.88,
+     "end": 139.36
+    }
+   ],
+   "n": 27,
+   "start": 138.28,
+   "end": 139.36,
+   "pic": "violin"
+  },
+  {
+   "section": "Outro",
+   "text": "Is this a cello?",
+   "words": [
+    {
+     "t": "Is",
+     "start": 140.42,
+     "end": 140.62
+    },
+    {
+     "t": "this",
+     "start": 140.62,
+     "end": 140.88
+    },
+    {
+     "t": "a",
+     "start": 140.92,
+     "end": 141.1
+    },
+    {
+     "t": "cello?",
+     "start": 141.1,
+     "end": 141.9,
+     "pic": "cello"
+    }
+   ],
+   "n": 28,
+   "start": 140.42,
+   "end": 141.9,
+   "pic": "cello"
+  },
+  {
+   "section": "Outro",
+   "text": "Yes, it is!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 143.1,
+     "end": 143.32
+    },
+    {
+     "t": "it",
+     "start": 143.34,
+     "end": 143.64
+    },
+    {
+     "t": "is!",
+     "start": 143.64,
+     "end": 143.98
+    }
+   ],
+   "n": 29,
+   "start": 143.1,
+   "end": 143.98,
+   "pic": "cello"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "cello",
+   "prompt": "Is this a cello?",
+   "answer": "Yes, it is!",
+   "choices": [
+    "Yes, it is!",
+    "No, I do not!",
+    "Okay, Dad!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "ukulele",
+   "prompt": "What is this?",
+   "answer": "It is a ukulele!",
+   "choices": [
+    "It is a ukulele!",
+    "It is a drum!",
+    "It is a piano!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "saxophone",
+   "prompt": "Is this a drum?",
+   "answer": "No, it is not. It is a saxophone!",
+   "choices": [
+    "No, it is not. It is a saxophone!",
+    "No, it is not. It is a flute!",
+    "Yes, it is!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "violin",
+   "prompt": "What is this?",
+   "answer": "It is a violin!",
+   "choices": [
+    "It is a violin!",
+    "It is a guitar!",
+    "It is a cello!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "microwave",
+   "prompt": "Is this a guitar?",
+   "answer": "No, it is not. It is a microwave!",
+   "choices": [
+    "No, it is not. It is a microwave!",
+    "No, it is not. It is a piano!",
+    "Yes, it is!"
+   ]
+  }
+ ]
+}

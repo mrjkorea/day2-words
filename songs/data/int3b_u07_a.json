@@ -1,0 +1,888 @@
+{
+ "id": "int3b_u07_a",
+ "title": "Don't Forget Your Transit Card",
+ "book": "INT 3B",
+ "unit": 7,
+ "unitTitle": "Don't Forget Your Transit Card",
+ "packId": "int3b_u7",
+ "audio": "audio/int3b_u07_a.mp3",
+ "duration": 151.7,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Have a good day!",
+   "words": [
+    {
+     "t": "Have",
+     "start": 0.12,
+     "end": 1.16
+    },
+    {
+     "t": "a",
+     "start": 1.18,
+     "end": 1.34
+    },
+    {
+     "t": "good",
+     "start": 1.38,
+     "end": 1.52
+    },
+    {
+     "t": "day!",
+     "start": 1.52,
+     "end": 2.24
+    }
+   ],
+   "n": 1,
+   "start": 0.12,
+   "end": 2.24,
+   "pic": "backpack"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Don't forget your transit card!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 15.98,
+     "end": 16.68
+    },
+    {
+     "t": "forget",
+     "start": 16.96,
+     "end": 17.82
+    },
+    {
+     "t": "your",
+     "start": 17.82,
+     "end": 18.82
+    },
+    {
+     "t": "transit",
+     "start": 18.82,
+     "end": 19.3
+    },
+    {
+     "t": "card!",
+     "start": 19.3,
+     "end": 19.94
+    }
+   ],
+   "n": 2,
+   "start": 15.98,
+   "end": 19.94,
+   "pic": "transitcard"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, Dad!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 20.5,
+     "end": 21.14
+    },
+    {
+     "t": "Dad!",
+     "start": 21.68,
+     "end": 21.92
+    }
+   ],
+   "n": 3,
+   "start": 20.5,
+   "end": 21.92,
+   "pic": "transitcard"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Don't forget your hat!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 22.48,
+     "end": 22.74
+    },
+    {
+     "t": "forget",
+     "start": 22.74,
+     "end": 22.94
+    },
+    {
+     "t": "your",
+     "start": 23.06,
+     "end": 23.46
+    },
+    {
+     "t": "hat!",
+     "start": 23.44,
+     "end": 23.88,
+     "pic": "hat"
+    }
+   ],
+   "n": 4,
+   "start": 22.48,
+   "end": 23.88,
+   "pic": "hat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, Dad!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 24.52,
+     "end": 25.18
+    },
+    {
+     "t": "Dad!",
+     "start": 25.54,
+     "end": 25.94
+    }
+   ],
+   "n": 5,
+   "start": 24.52,
+   "end": 25.94,
+   "pic": "hat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Don't forget your coat!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 26.48,
+     "end": 26.76
+    },
+    {
+     "t": "forget",
+     "start": 26.72,
+     "end": 27.08
+    },
+    {
+     "t": "your",
+     "start": 27.08,
+     "end": 27.42
+    },
+    {
+     "t": "coat!",
+     "start": 27.42,
+     "end": 27.78,
+     "pic": "coat"
+    }
+   ],
+   "n": 6,
+   "start": 26.48,
+   "end": 27.78,
+   "pic": "coat"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, Dad!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 28.0,
+     "end": 29.24
+    },
+    {
+     "t": "Dad!",
+     "start": 29.54,
+     "end": 30.02
+    }
+   ],
+   "n": 7,
+   "start": 28.0,
+   "end": 30.02,
+   "pic": "coat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget! Don't forget!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 32.32,
+     "end": 32.46
+    },
+    {
+     "t": "forget!",
+     "start": 32.52,
+     "end": 33.66
+    },
+    {
+     "t": "Don't",
+     "start": 34.96,
+     "end": 35.26
+    },
+    {
+     "t": "forget!",
+     "start": 35.24,
+     "end": 35.64
+    }
+   ],
+   "n": 8,
+   "start": 32.32,
+   "end": 35.64,
+   "pic": "coat"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget your transit card!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 36.98,
+     "end": 37.26
+    },
+    {
+     "t": "forget",
+     "start": 37.24,
+     "end": 37.58
+    },
+    {
+     "t": "your",
+     "start": 37.6,
+     "end": 37.86
+    },
+    {
+     "t": "transit",
+     "start": 37.9,
+     "end": 39.1
+    },
+    {
+     "t": "card!",
+     "start": 39.1,
+     "end": 39.95
+    }
+   ],
+   "n": 9,
+   "start": 36.98,
+   "end": 39.95,
+   "pic": "transitcard"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget your umbrella!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 40.66,
+     "end": 41.2
+    },
+    {
+     "t": "forget",
+     "start": 41.2,
+     "end": 41.68
+    },
+    {
+     "t": "your",
+     "start": 41.68,
+     "end": 42.82
+    },
+    {
+     "t": "umbrella!",
+     "start": 42.76,
+     "end": 44.44,
+     "pic": "umbrella"
+    }
+   ],
+   "n": 10,
+   "start": 40.66,
+   "end": 44.44,
+   "pic": "dontforgetyourumbrella"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, Dad! Okay!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 45.18,
+     "end": 45.76
+    },
+    {
+     "t": "Dad!",
+     "start": 47.38,
+     "end": 47.72
+    },
+    {
+     "t": "Okay!",
+     "start": 47.76,
+     "end": 48.22
+    }
+   ],
+   "n": 11,
+   "start": 45.18,
+   "end": 48.22,
+   "pic": "dontforgetyourumbrella"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Don't forget your money!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 48.46,
+     "end": 48.74
+    },
+    {
+     "t": "forget",
+     "start": 48.74,
+     "end": 49.08
+    },
+    {
+     "t": "your",
+     "start": 49.08,
+     "end": 49.38
+    },
+    {
+     "t": "money!",
+     "start": 49.38,
+     "end": 49.92,
+     "pic": "money"
+    }
+   ],
+   "n": 12,
+   "start": 48.46,
+   "end": 49.92,
+   "pic": "money"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Okay, Dad!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 51.04,
+     "end": 53.06
+    },
+    {
+     "t": "Dad!",
+     "start": 53.54,
+     "end": 53.96
+    }
+   ],
+   "n": 13,
+   "start": 51.04,
+   "end": 53.96,
+   "pic": "money"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Don't forget your phone!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 54.24,
+     "end": 54.72
+    },
+    {
+     "t": "forget",
+     "start": 54.72,
+     "end": 55.08
+    },
+    {
+     "t": "your",
+     "start": 55.08,
+     "end": 55.42
+    },
+    {
+     "t": "phone!",
+     "start": 55.42,
+     "end": 55.88,
+     "pic": "phone"
+    }
+   ],
+   "n": 14,
+   "start": 54.24,
+   "end": 55.88,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Okay, Dad!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 56.0,
+     "end": 56.1
+    },
+    {
+     "t": "Dad!",
+     "start": 57.52,
+     "end": 57.92
+    }
+   ],
+   "n": 15,
+   "start": 56.0,
+   "end": 57.92,
+   "pic": "phone"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Don't forget your lunch!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 58.58,
+     "end": 58.76
+    },
+    {
+     "t": "forget",
+     "start": 58.76,
+     "end": 59.1
+    },
+    {
+     "t": "your",
+     "start": 59.1,
+     "end": 59.56
+    },
+    {
+     "t": "lunch!",
+     "start": 61.42,
+     "end": 61.98,
+     "pic": "lunch"
+    }
+   ],
+   "n": 16,
+   "start": 58.58,
+   "end": 61.98,
+   "pic": "lunch"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Okay, Dad!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 62.64,
+     "end": 63.14
+    },
+    {
+     "t": "Dad!",
+     "start": 63.52,
+     "end": 63.84
+    }
+   ],
+   "n": 17,
+   "start": 62.64,
+   "end": 63.84,
+   "pic": "lunch"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget! Don't forget!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 64.06,
+     "end": 64.94
+    },
+    {
+     "t": "forget!",
+     "start": 64.94,
+     "end": 65.88
+    },
+    {
+     "t": "Don't",
+     "start": 66.92,
+     "end": 67.22
+    },
+    {
+     "t": "forget!",
+     "start": 67.22,
+     "end": 67.62
+    }
+   ],
+   "n": 18,
+   "start": 64.06,
+   "end": 67.62,
+   "pic": "lunch"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget your transit card!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 68.94,
+     "end": 69.24
+    },
+    {
+     "t": "forget",
+     "start": 69.24,
+     "end": 69.62
+    },
+    {
+     "t": "your",
+     "start": 69.6,
+     "end": 69.88
+    },
+    {
+     "t": "transit",
+     "start": 69.88,
+     "end": 71.08
+    },
+    {
+     "t": "card!",
+     "start": 71.08,
+     "end": 71.93
+    }
+   ],
+   "n": 19,
+   "start": 68.94,
+   "end": 71.93,
+   "pic": "transitcard"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget your umbrella!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 72.92,
+     "end": 73.24
+    },
+    {
+     "t": "forget",
+     "start": 73.24,
+     "end": 73.7
+    },
+    {
+     "t": "your",
+     "start": 73.64,
+     "end": 74.72
+    },
+    {
+     "t": "umbrella!",
+     "start": 74.72,
+     "end": 76.3,
+     "pic": "umbrella"
+    }
+   ],
+   "n": 20,
+   "start": 72.92,
+   "end": 76.3,
+   "pic": "dontforgetyourumbrella"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, Dad! Okay!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 78.44,
+     "end": 79.22
+    },
+    {
+     "t": "Dad!",
+     "start": 79.38,
+     "end": 79.96
+    },
+    {
+     "t": "Okay!",
+     "start": 82.44,
+     "end": 83.16
+    }
+   ],
+   "n": 21,
+   "start": 78.44,
+   "end": 83.16,
+   "pic": "dontforgetyourumbrella"
+  },
+  {
+   "section": "Bridge",
+   "text": "Don't forget your little sister!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 84.24,
+     "end": 84.46
+    },
+    {
+     "t": "forget",
+     "start": 84.46,
+     "end": 85.08
+    },
+    {
+     "t": "your",
+     "start": 85.08,
+     "end": 85.38
+    },
+    {
+     "t": "little",
+     "start": 85.42,
+     "end": 85.84
+    },
+    {
+     "t": "sister!",
+     "start": 85.84,
+     "end": 86.99
+    }
+   ],
+   "n": 22,
+   "start": 84.24,
+   "end": 86.99,
+   "pic": "littlesister"
+  },
+  {
+   "section": "Bridge",
+   "text": "Oh no! Sorry, Dad!",
+   "words": [
+    {
+     "t": "Oh",
+     "start": 88.08,
+     "end": 88.5
+    },
+    {
+     "t": "no!",
+     "start": 88.58,
+     "end": 90.32
+    },
+    {
+     "t": "Sorry,",
+     "start": 91.96,
+     "end": 93.12
+    },
+    {
+     "t": "Dad!",
+     "start": 93.12,
+     "end": 94.86
+    }
+   ],
+   "n": 23,
+   "start": 88.08,
+   "end": 94.86,
+   "pic": "littlesister"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget! Don't forget!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 95.98,
+     "end": 96.62
+    },
+    {
+     "t": "forget!",
+     "start": 96.96,
+     "end": 97.9
+    },
+    {
+     "t": "Don't",
+     "start": 102.58,
+     "end": 102.74
+    },
+    {
+     "t": "forget!",
+     "start": 102.74,
+     "end": 103.16
+    }
+   ],
+   "n": 24,
+   "start": 95.98,
+   "end": 103.16,
+   "pic": "littlesister"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget your transit card!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 104.44,
+     "end": 104.96
+    },
+    {
+     "t": "forget",
+     "start": 104.96,
+     "end": 105.6
+    },
+    {
+     "t": "your",
+     "start": 105.9,
+     "end": 106.96
+    },
+    {
+     "t": "transit",
+     "start": 106.9,
+     "end": 107.32
+    },
+    {
+     "t": "card!",
+     "start": 107.32,
+     "end": 108.16
+    }
+   ],
+   "n": 25,
+   "start": 104.44,
+   "end": 108.16,
+   "pic": "transitcard"
+  },
+  {
+   "section": "Chorus",
+   "text": "Don't forget your umbrella!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 108.66,
+     "end": 108.78
+    },
+    {
+     "t": "forget",
+     "start": 108.78,
+     "end": 109.16
+    },
+    {
+     "t": "your",
+     "start": 109.1,
+     "end": 109.5
+    },
+    {
+     "t": "umbrella!",
+     "start": 122.92,
+     "end": 124.74,
+     "pic": "umbrella"
+    }
+   ],
+   "n": 26,
+   "start": 108.66,
+   "end": 124.74,
+   "pic": "dontforgetyourumbrella"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, Dad! Okay!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 126.48,
+     "end": 127.3
+    },
+    {
+     "t": "Dad!",
+     "start": 127.38,
+     "end": 127.74
+    },
+    {
+     "t": "Okay!",
+     "start": 127.79,
+     "end": 128.03
+    }
+   ],
+   "n": 27,
+   "start": 126.48,
+   "end": 128.03,
+   "pic": "dontforgetyourumbrella"
+  },
+  {
+   "section": "Outro",
+   "text": "Don't forget your umbrella!",
+   "words": [
+    {
+     "t": "Don't",
+     "start": 128.14,
+     "end": 129.02
+    },
+    {
+     "t": "forget",
+     "start": 128.86,
+     "end": 130.02
+    },
+    {
+     "t": "your",
+     "start": 130.02,
+     "end": 130.12
+    },
+    {
+     "t": "umbrella!",
+     "start": 131.83,
+     "end": 133.08,
+     "pic": "umbrella"
+    }
+   ],
+   "n": 28,
+   "start": 128.14,
+   "end": 133.08,
+   "pic": "dontforgetyourumbrella"
+  },
+  {
+   "section": "Outro",
+   "text": "Okay, Dad!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 141.92,
+     "end": 142.02
+    },
+    {
+     "t": "Dad!",
+     "start": 143.54,
+     "end": 143.76
+    }
+   ],
+   "n": 29,
+   "start": 141.92,
+   "end": 143.76,
+   "pic": "dontforgetyourumbrella"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "transitcard",
+   "prompt": "What does Dad say?",
+   "answer": "Don't forget your transit card!",
+   "choices": [
+    "Don't forget your transit card!",
+    "Don't forget your hat!",
+    "Don't forget your lunch!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "umbrella",
+   "prompt": "Don't forget your umbrella!",
+   "answer": "Okay, Dad!",
+   "choices": [
+    "Okay, Dad!",
+    "Yes, it is!",
+    "No, I do not!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "phone",
+   "prompt": "What does Dad say?",
+   "answer": "Don't forget your phone!",
+   "choices": [
+    "Don't forget your phone!",
+    "Don't forget your money!",
+    "Don't forget your coat!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "money",
+   "prompt": "What does Dad say?",
+   "answer": "Don't forget your money!",
+   "choices": [
+    "Don't forget your money!",
+    "Don't forget your umbrella!",
+    "Don't forget your phone!"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "littlesister",
+   "prompt": "Don't forget your little sister!",
+   "answer": "Oh no! Sorry, Dad!",
+   "choices": [
+    "Oh no! Sorry, Dad!",
+    "Yes, I do!",
+    "It is a violin!"
+   ]
+  }
+ ]
+}
