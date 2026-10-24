@@ -1086,9 +1086,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 2,
-   "prompt": "Listen. I am ... years old!",
+   "type": "picture",
+   "prompt": "I am ___ years old!",
    "answer": "eleven",
    "choices": [
     "eleven",
@@ -1108,9 +1107,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 8,
-   "prompt": "Nice to meet you! Nice to meet you, ...!",
+   "type": "picture",
+   "prompt": "Nice to meet you! Nice to meet you, ___!",
    "answer": "too",
    "choices": [
     "too",

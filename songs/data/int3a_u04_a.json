@@ -1081,9 +1081,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 15,
-   "prompt": "Listen. He is ... years old!",
+   "type": "picture",
+   "prompt": "He is ___ years old!",
    "answer": "fifty-five",
    "choices": [
     "fifty-five",

@@ -1017,9 +1017,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 12,
-   "prompt": "Listen. It is a ...",
+   "type": "picture",
+   "prompt": "It is a ___",
    "answer": "firefly",
    "choices": [
     "firefly",

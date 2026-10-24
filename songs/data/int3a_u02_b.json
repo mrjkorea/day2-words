@@ -1046,9 +1046,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 13,
-   "prompt": "Listen. I like ...",
+   "type": "picture",
+   "prompt": "I like ___",
    "answer": "red bean",
    "choices": [
     "red bean",

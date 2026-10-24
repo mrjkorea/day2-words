@@ -775,9 +775,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 6,
-   "prompt": "Listen. Jump ...!",
+   "type": "picture",
+   "prompt": "Jump ___!",
    "answer": "rope",
    "choices": [
     "rope",
@@ -797,9 +796,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 14,
-   "prompt": "Listen. Do jumping ...!",
+   "type": "picture",
+   "prompt": "Do jumping ___!",
    "answer": "jacks",
    "choices": [
     "jacks",

@@ -1007,9 +1007,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 4,
-   "prompt": "Listen. I can draw a ...",
+   "type": "picture",
+   "prompt": "I can draw a ___",
    "answer": "dragon",
    "choices": [
     "dragon",
@@ -1029,9 +1028,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 16,
-   "prompt": "Listen. I can draw ...",
+   "type": "picture",
+   "prompt": "I can draw ___",
    "answer": "poo",
    "choices": [
     "poo",

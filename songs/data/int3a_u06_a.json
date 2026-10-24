@@ -1002,9 +1002,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 3,
-   "prompt": "Listen. My name is ...",
+   "type": "picture",
+   "prompt": "My name is ___",
    "answer": "Hunter",
    "choices": [
     "Hunter",
@@ -1024,9 +1023,8 @@
    ]
   },
   {
-   "type": "listen",
-   "line": 15,
-   "prompt": "Listen. My name is ...",
+   "type": "picture",
+   "prompt": "My name is ___",
    "answer": "Ivy",
    "choices": [
     "Ivy",
