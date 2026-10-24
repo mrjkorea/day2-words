@@ -1,0 +1,1071 @@
+{
+ "id": "int3a_u02_b",
+ "title": "What About You?",
+ "book": "INT 3A",
+ "unit": 2,
+ "unitTitle": "What Flavor Do You Like?",
+ "packId": "int3a_u2",
+ "audio": "audio/int3a_u02_b.mp3",
+ "duration": 152.74,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "I like chocolate. What about you?",
+   "words": [
+    {
+     "t": "I",
+     "start": 1.28,
+     "end": 1.48
+    },
+    {
+     "t": "like",
+     "start": 1.48,
+     "end": 1.7
+    },
+    {
+     "t": "chocolate.",
+     "start": 1.68,
+     "end": 2.28,
+     "pic": "chocolate"
+    },
+    {
+     "t": "What",
+     "start": 2.62,
+     "end": 2.84
+    },
+    {
+     "t": "about",
+     "start": 4.22,
+     "end": 4.46
+    },
+    {
+     "t": "you?",
+     "start": 4.46,
+     "end": 4.82
+    }
+   ],
+   "n": 1,
+   "start": 1.28,
+   "end": 4.82,
+   "pic": "chocolate"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like chocolate. What about you?",
+   "words": [
+    {
+     "t": "I",
+     "start": 9.1,
+     "end": 9.3
+    },
+    {
+     "t": "like",
+     "start": 9.3,
+     "end": 9.6
+    },
+    {
+     "t": "chocolate.",
+     "start": 9.58,
+     "end": 10.08,
+     "pic": "chocolate"
+    },
+    {
+     "t": "What",
+     "start": 10.3,
+     "end": 10.4
+    },
+    {
+     "t": "about",
+     "start": 10.4,
+     "end": 10.74
+    },
+    {
+     "t": "you?",
+     "start": 10.74,
+     "end": 11.18
+    }
+   ],
+   "n": 2,
+   "start": 9.1,
+   "end": 11.18,
+   "pic": "chocolate"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like vanilla!",
+   "words": [
+    {
+     "t": "I",
+     "start": 13.04,
+     "end": 13.22
+    },
+    {
+     "t": "like",
+     "start": 13.22,
+     "end": 13.46
+    },
+    {
+     "t": "vanilla!",
+     "start": 13.46,
+     "end": 13.96,
+     "pic": "vanilla"
+    }
+   ],
+   "n": 3,
+   "start": 13.04,
+   "end": 13.96,
+   "pic": "vanilla"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like strawberry. And you?",
+   "words": [
+    {
+     "t": "I",
+     "start": 14.72,
+     "end": 14.94
+    },
+    {
+     "t": "like",
+     "start": 14.94,
+     "end": 15.2
+    },
+    {
+     "t": "strawberry.",
+     "start": 15.2,
+     "end": 16.14,
+     "pic": "strawberry"
+    },
+    {
+     "t": "And",
+     "start": 19.06,
+     "end": 19.54
+    },
+    {
+     "t": "you?",
+     "start": 19.54,
+     "end": 19.76
+    }
+   ],
+   "n": 4,
+   "start": 14.72,
+   "end": 19.76,
+   "pic": "ilikestrawberry"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like mint!",
+   "words": [
+    {
+     "t": "I",
+     "start": 19.8,
+     "end": 20.06
+    },
+    {
+     "t": "like",
+     "start": 20.06,
+     "end": 20.58
+    },
+    {
+     "t": "mint!",
+     "start": 20.66,
+     "end": 21.22,
+     "pic": "mint"
+    }
+   ],
+   "n": 5,
+   "start": 19.8,
+   "end": 21.22,
+   "pic": "mint"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like banana. How about you?",
+   "words": [
+    {
+     "t": "I",
+     "start": 22.1,
+     "end": 22.26
+    },
+    {
+     "t": "like",
+     "start": 22.26,
+     "end": 22.52
+    },
+    {
+     "t": "banana.",
+     "start": 22.52,
+     "end": 23.1,
+     "pic": "banana"
+    },
+    {
+     "t": "How",
+     "start": 23.22,
+     "end": 23.44
+    },
+    {
+     "t": "about",
+     "start": 23.44,
+     "end": 23.72
+    },
+    {
+     "t": "you?",
+     "start": 23.72,
+     "end": 24.16
+    }
+   ],
+   "n": 6,
+   "start": 22.1,
+   "end": 24.16,
+   "pic": "banana"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like lemon!",
+   "words": [
+    {
+     "t": "I",
+     "start": 24.4,
+     "end": 24.54
+    },
+    {
+     "t": "like",
+     "start": 24.56,
+     "end": 24.9
+    },
+    {
+     "t": "lemon!",
+     "start": 24.9,
+     "end": 25.3,
+     "pic": "lemon"
+    }
+   ],
+   "n": 7,
+   "start": 24.4,
+   "end": 25.3,
+   "pic": "lemon"
+  },
+  {
+   "section": "Chorus",
+   "text": "What about you? What about me?",
+   "words": [
+    {
+     "t": "What",
+     "start": 26.44,
+     "end": 27.46
+    },
+    {
+     "t": "about",
+     "start": 27.48,
+     "end": 28.08
+    },
+    {
+     "t": "you?",
+     "start": 28.08,
+     "end": 28.8
+    },
+    {
+     "t": "What",
+     "start": 28.94,
+     "end": 29.2
+    },
+    {
+     "t": "about",
+     "start": 29.26,
+     "end": 29.54
+    },
+    {
+     "t": "me?",
+     "start": 29.54,
+     "end": 29.98
+    }
+   ],
+   "n": 8,
+   "start": 26.44,
+   "end": 29.98,
+   "pic": "lemon"
+  },
+  {
+   "section": "Chorus",
+   "text": "What flavor do you like?",
+   "words": [
+    {
+     "t": "What",
+     "start": 31.46,
+     "end": 31.62
+    },
+    {
+     "t": "flavor",
+     "start": 31.6,
+     "end": 32.42
+    },
+    {
+     "t": "do",
+     "start": 32.22,
+     "end": 33.2
+    },
+    {
+     "t": "you",
+     "start": 33.2,
+     "end": 33.64
+    },
+    {
+     "t": "like?",
+     "start": 33.64,
+     "end": 34.56
+    }
+   ],
+   "n": 9,
+   "start": 31.46,
+   "end": 34.56,
+   "pic": "lemon"
+  },
+  {
+   "section": "Chorus",
+   "text": "What about you? What about me?",
+   "words": [
+    {
+     "t": "What",
+     "start": 36.26,
+     "end": 36.64
+    },
+    {
+     "t": "about",
+     "start": 36.66,
+     "end": 37.11
+    },
+    {
+     "t": "you?",
+     "start": 37.13,
+     "end": 37.51
+    },
+    {
+     "t": "What",
+     "start": 37.53,
+     "end": 37.92
+    },
+    {
+     "t": "about",
+     "start": 37.94,
+     "end": 38.38
+    },
+    {
+     "t": "me?",
+     "start": 38.4,
+     "end": 38.74
+    }
+   ],
+   "n": 10,
+   "start": 36.26,
+   "end": 38.74,
+   "pic": "lemon"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite flavor is... melon!",
+   "words": [
+    {
+     "t": "My",
+     "start": 40.44,
+     "end": 40.66
+    },
+    {
+     "t": "favorite",
+     "start": 40.64,
+     "end": 41.44
+    },
+    {
+     "t": "flavor",
+     "start": 41.44,
+     "end": 42.44
+    },
+    {
+     "t": "is...",
+     "start": 42.44,
+     "end": 42.96
+    },
+    {
+     "t": "melon!",
+     "start": 42.96,
+     "end": 43.58,
+     "pic": "melon"
+    }
+   ],
+   "n": 11,
+   "start": 40.44,
+   "end": 43.58,
+   "pic": "melon"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I like milk flavor. What about you?",
+   "words": [
+    {
+     "t": "I",
+     "start": 62.52,
+     "end": 63.32
+    },
+    {
+     "t": "like",
+     "start": 63.36,
+     "end": 63.66
+    },
+    {
+     "t": "milk",
+     "start": 63.66,
+     "end": 63.92,
+     "pic": "milk"
+    },
+    {
+     "t": "flavor.",
+     "start": 63.92,
+     "end": 64.36
+    },
+    {
+     "t": "What",
+     "start": 64.6,
+     "end": 64.74
+    },
+    {
+     "t": "about",
+     "start": 64.74,
+     "end": 65.08
+    },
+    {
+     "t": "you?",
+     "start": 65.08,
+     "end": 65.52
+    }
+   ],
+   "n": 12,
+   "start": 62.52,
+   "end": 65.52,
+   "pic": "milk"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I like red bean!",
+   "words": [
+    {
+     "t": "I",
+     "start": 67.36,
+     "end": 67.54
+    },
+    {
+     "t": "like",
+     "start": 67.54,
+     "end": 67.84
+    },
+    {
+     "t": "red",
+     "start": 67.82,
+     "end": 68.16
+    },
+    {
+     "t": "bean!",
+     "start": 68.16,
+     "end": 68.66
+    }
+   ],
+   "n": 13,
+   "start": 67.36,
+   "end": 68.66,
+   "pic": "milk"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I like cotton candy. And you?",
+   "words": [
+    {
+     "t": "I",
+     "start": 69.12,
+     "end": 69.32
+    },
+    {
+     "t": "like",
+     "start": 69.32,
+     "end": 69.6
+    },
+    {
+     "t": "cotton",
+     "start": 69.6,
+     "end": 69.98
+    },
+    {
+     "t": "candy.",
+     "start": 69.98,
+     "end": 70.56
+    },
+    {
+     "t": "And",
+     "start": 73.48,
+     "end": 73.9
+    },
+    {
+     "t": "you?",
+     "start": 73.9,
+     "end": 74.1
+    }
+   ],
+   "n": 14,
+   "start": 69.12,
+   "end": 74.1,
+   "pic": "cottoncandy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I like watermelon!",
+   "words": [
+    {
+     "t": "I",
+     "start": 74.3,
+     "end": 74.46
+    },
+    {
+     "t": "like",
+     "start": 74.44,
+     "end": 74.92
+    },
+    {
+     "t": "watermelon!",
+     "start": 74.92,
+     "end": 75.72
+    }
+   ],
+   "n": 15,
+   "start": 74.3,
+   "end": 75.72,
+   "pic": "cottoncandy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I like mint. How about you?",
+   "words": [
+    {
+     "t": "I",
+     "start": 76.34,
+     "end": 76.6
+    },
+    {
+     "t": "like",
+     "start": 76.6,
+     "end": 76.9
+    },
+    {
+     "t": "mint.",
+     "start": 76.9,
+     "end": 77.22,
+     "pic": "mint"
+    },
+    {
+     "t": "How",
+     "start": 77.34,
+     "end": 77.5
+    },
+    {
+     "t": "about",
+     "start": 77.5,
+     "end": 77.78
+    },
+    {
+     "t": "you?",
+     "start": 77.78,
+     "end": 78.04
+    }
+   ],
+   "n": 16,
+   "start": 76.34,
+   "end": 78.04,
+   "pic": "mint"
+  },
+  {
+   "section": "Verse 2",
+   "text": "You like mint too?",
+   "words": [
+    {
+     "t": "You",
+     "start": 78.18,
+     "end": 78.34
+    },
+    {
+     "t": "like",
+     "start": 78.34,
+     "end": 78.66
+    },
+    {
+     "t": "mint",
+     "start": 78.66,
+     "end": 79.02,
+     "pic": "mint"
+    },
+    {
+     "t": "too?",
+     "start": 79.02,
+     "end": 79.48
+    }
+   ],
+   "n": 17,
+   "start": 78.18,
+   "end": 79.48,
+   "pic": "mint"
+  },
+  {
+   "section": "Chorus",
+   "text": "What about you? What about me?",
+   "words": [
+    {
+     "t": "What",
+     "start": 81.57,
+     "end": 81.84
+    },
+    {
+     "t": "about",
+     "start": 81.84,
+     "end": 82.42
+    },
+    {
+     "t": "you?",
+     "start": 82.42,
+     "end": 82.98
+    },
+    {
+     "t": "What",
+     "start": 83.03,
+     "end": 83.37
+    },
+    {
+     "t": "about",
+     "start": 83.54,
+     "end": 83.9
+    },
+    {
+     "t": "me?",
+     "start": 83.9,
+     "end": 84.13
+    }
+   ],
+   "n": 18,
+   "start": 81.57,
+   "end": 84.13,
+   "pic": "mint"
+  },
+  {
+   "section": "Chorus",
+   "text": "What flavor do you like?",
+   "words": [
+    {
+     "t": "What",
+     "start": 86.0,
+     "end": 86.86
+    },
+    {
+     "t": "flavor",
+     "start": 86.08,
+     "end": 86.78
+    },
+    {
+     "t": "do",
+     "start": 86.78,
+     "end": 87.56
+    },
+    {
+     "t": "you",
+     "start": 87.52,
+     "end": 88.0
+    },
+    {
+     "t": "like?",
+     "start": 87.96,
+     "end": 88.76
+    }
+   ],
+   "n": 19,
+   "start": 86.0,
+   "end": 88.76,
+   "pic": "mint"
+  },
+  {
+   "section": "Chorus",
+   "text": "What about you? What about me?",
+   "words": [
+    {
+     "t": "What",
+     "start": 90.56,
+     "end": 90.88
+    },
+    {
+     "t": "about",
+     "start": 90.88,
+     "end": 91.5
+    },
+    {
+     "t": "you?",
+     "start": 91.5,
+     "end": 92.16
+    },
+    {
+     "t": "What",
+     "start": 92.21,
+     "end": 92.46
+    },
+    {
+     "t": "about",
+     "start": 92.58,
+     "end": 92.94
+    },
+    {
+     "t": "me?",
+     "start": 92.94,
+     "end": 93.41
+    }
+   ],
+   "n": 20,
+   "start": 90.56,
+   "end": 93.41,
+   "pic": "mint"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite flavor is... melon!",
+   "words": [
+    {
+     "t": "My",
+     "start": 94.78,
+     "end": 94.96
+    },
+    {
+     "t": "favorite",
+     "start": 94.96,
+     "end": 95.82
+    },
+    {
+     "t": "flavor",
+     "start": 95.76,
+     "end": 96.78
+    },
+    {
+     "t": "is...",
+     "start": 96.78,
+     "end": 97.3
+    },
+    {
+     "t": "melon!",
+     "start": 97.3,
+     "end": 98.4,
+     "pic": "melon"
+    }
+   ],
+   "n": 21,
+   "start": 94.78,
+   "end": 98.4,
+   "pic": "melon"
+  },
+  {
+   "section": "Bridge",
+   "text": "Strawberry is better than banana!",
+   "words": [
+    {
+     "t": "Strawberry",
+     "start": 117.7,
+     "end": 118.44,
+     "pic": "strawberry"
+    },
+    {
+     "t": "is",
+     "start": 118.24,
+     "end": 118.9
+    },
+    {
+     "t": "better",
+     "start": 118.9,
+     "end": 119.26
+    },
+    {
+     "t": "than",
+     "start": 119.28,
+     "end": 119.76
+    },
+    {
+     "t": "banana!",
+     "start": 119.76,
+     "end": 120.44,
+     "pic": "banana"
+    }
+   ],
+   "n": 22,
+   "start": 117.7,
+   "end": 120.44,
+   "pic": "strawberry"
+  },
+  {
+   "section": "Bridge",
+   "text": "Chocolate is better than lemon!",
+   "words": [
+    {
+     "t": "Chocolate",
+     "start": 120.5,
+     "end": 122.78,
+     "pic": "chocolate"
+    },
+    {
+     "t": "is",
+     "start": 122.78,
+     "end": 123.4
+    },
+    {
+     "t": "better",
+     "start": 123.38,
+     "end": 123.88
+    },
+    {
+     "t": "than",
+     "start": 123.88,
+     "end": 124.64
+    },
+    {
+     "t": "lemon!",
+     "start": 124.64,
+     "end": 125.84,
+     "pic": "lemon"
+    }
+   ],
+   "n": 23,
+   "start": 120.5,
+   "end": 125.84,
+   "pic": "chocolate"
+  },
+  {
+   "section": "Chorus",
+   "text": "What about you? What about me?",
+   "words": [
+    {
+     "t": "What",
+     "start": 126.88,
+     "end": 127.1
+    },
+    {
+     "t": "about",
+     "start": 127.14,
+     "end": 127.7
+    },
+    {
+     "t": "you?",
+     "start": 127.62,
+     "end": 128.34
+    },
+    {
+     "t": "What",
+     "start": 128.58,
+     "end": 128.84
+    },
+    {
+     "t": "about",
+     "start": 128.84,
+     "end": 129.14
+    },
+    {
+     "t": "me?",
+     "start": 129.14,
+     "end": 129.68
+    }
+   ],
+   "n": 24,
+   "start": 126.88,
+   "end": 129.68,
+   "pic": "chocolate"
+  },
+  {
+   "section": "Chorus",
+   "text": "What flavor do you like?",
+   "words": [
+    {
+     "t": "What",
+     "start": 130.78,
+     "end": 131.2
+    },
+    {
+     "t": "flavor",
+     "start": 131.16,
+     "end": 131.74
+    },
+    {
+     "t": "do",
+     "start": 132.04,
+     "end": 132.8
+    },
+    {
+     "t": "you",
+     "start": 132.8,
+     "end": 133.22
+    },
+    {
+     "t": "like?",
+     "start": 133.22,
+     "end": 134.32
+    }
+   ],
+   "n": 25,
+   "start": 130.78,
+   "end": 134.32,
+   "pic": "chocolate"
+  },
+  {
+   "section": "Chorus",
+   "text": "What about you? What about me?",
+   "words": [
+    {
+     "t": "What",
+     "start": 135.7,
+     "end": 136.18
+    },
+    {
+     "t": "about",
+     "start": 136.18,
+     "end": 136.78
+    },
+    {
+     "t": "you?",
+     "start": 136.76,
+     "end": 137.66
+    },
+    {
+     "t": "What",
+     "start": 137.92,
+     "end": 138.24
+    },
+    {
+     "t": "about",
+     "start": 138.18,
+     "end": 138.48
+    },
+    {
+     "t": "me?",
+     "start": 138.48,
+     "end": 139.0
+    }
+   ],
+   "n": 26,
+   "start": 135.7,
+   "end": 139.0,
+   "pic": "chocolate"
+  },
+  {
+   "section": "Chorus",
+   "text": "My favorite flavor is... melon!",
+   "words": [
+    {
+     "t": "My",
+     "start": 140.1,
+     "end": 140.44
+    },
+    {
+     "t": "favorite",
+     "start": 140.3,
+     "end": 141.06
+    },
+    {
+     "t": "flavor",
+     "start": 141.1,
+     "end": 142.1
+    },
+    {
+     "t": "is...",
+     "start": 142.1,
+     "end": 142.64
+    },
+    {
+     "t": "melon!",
+     "start": 142.64,
+     "end": 143.1,
+     "pic": "melon"
+    }
+   ],
+   "n": 27,
+   "start": 140.1,
+   "end": 143.1,
+   "pic": "melon"
+  },
+  {
+   "section": "Outro",
+   "text": "What about you?",
+   "words": [
+    {
+     "t": "What",
+     "start": 144.3,
+     "end": 144.56
+    },
+    {
+     "t": "about",
+     "start": 144.56,
+     "end": 144.86
+    },
+    {
+     "t": "you?",
+     "start": 144.94,
+     "end": 145.36
+    }
+   ],
+   "n": 28,
+   "start": 144.3,
+   "end": 145.36,
+   "pic": "melon"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "chocolate",
+   "prompt": "What flavor do you like?",
+   "answer": "I like chocolate!",
+   "choices": [
+    "I like chocolate!",
+    "I like mint!",
+    "I like lemon!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 3,
+   "prompt": "Listen. I like ...",
+   "answer": "vanilla",
+   "choices": [
+    "vanilla",
+    "banana",
+    "melon"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "mint",
+   "prompt": "I like mint. What about you?",
+   "answer": "I like mint too!",
+   "choices": [
+    "I like mint too!",
+    "It is soft!",
+    "I am ten!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 13,
+   "prompt": "Listen. I like ...",
+   "answer": "red bean",
+   "choices": [
+    "red bean",
+    "cotton candy",
+    "strawberry"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "strawberry",
+   "prompt": "What flavor do you like?",
+   "answer": "I like strawberry!",
+   "choices": [
+    "I like vanilla!",
+    "I like strawberry!",
+    "I like banana!"
+   ]
+  }
+ ]
+}

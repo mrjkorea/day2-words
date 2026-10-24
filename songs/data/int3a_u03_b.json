@@ -1,0 +1,1023 @@
+{
+ "id": "int3a_u03_b",
+ "title": "How Is It?",
+ "book": "INT 3A",
+ "unit": 3,
+ "unitTitle": "Opposites",
+ "packId": "int3a_u3",
+ "audio": "audio/int3a_u03_b.mp3",
+ "duration": 150.38,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Touch it! How is it?",
+   "words": [
+    {
+     "t": "Touch",
+     "start": 1.16,
+     "end": 6.4
+    },
+    {
+     "t": "it!",
+     "start": 6.4,
+     "end": 9.88
+    },
+    {
+     "t": "How",
+     "start": 13.37,
+     "end": 13.92
+    },
+    {
+     "t": "is",
+     "start": 13.98,
+     "end": 14.2
+    },
+    {
+     "t": "it?",
+     "start": 14.2,
+     "end": 14.36
+    }
+   ],
+   "n": 1,
+   "start": 1.16,
+   "end": 14.36,
+   "pic": "bad"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 20.52,
+     "end": 20.94
+    },
+    {
+     "t": "is",
+     "start": 21.0,
+     "end": 21.78
+    },
+    {
+     "t": "it?",
+     "start": 21.66,
+     "end": 21.98
+    }
+   ],
+   "n": 2,
+   "start": 20.52,
+   "end": 21.98,
+   "pic": "bad"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is soft!",
+   "words": [
+    {
+     "t": "It",
+     "start": 22.84,
+     "end": 23.28
+    },
+    {
+     "t": "is",
+     "start": 23.28,
+     "end": 23.96
+    },
+    {
+     "t": "soft!",
+     "start": 23.86,
+     "end": 24.9,
+     "pic": "soft"
+    }
+   ],
+   "n": 3,
+   "start": 22.84,
+   "end": 24.9,
+   "pic": "soft"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How is that?",
+   "words": [
+    {
+     "t": "How",
+     "start": 25.0,
+     "end": 25.54
+    },
+    {
+     "t": "is",
+     "start": 25.56,
+     "end": 25.99
+    },
+    {
+     "t": "that?",
+     "start": 26.01,
+     "end": 26.8
+    }
+   ],
+   "n": 4,
+   "start": 25.0,
+   "end": 26.8,
+   "pic": "soft"
+  },
+  {
+   "section": "Verse 1",
+   "text": "That is hard!",
+   "words": [
+    {
+     "t": "That",
+     "start": 28.48,
+     "end": 28.98
+    },
+    {
+     "t": "is",
+     "start": 30.32,
+     "end": 30.82
+    },
+    {
+     "t": "hard!",
+     "start": 30.82,
+     "end": 31.38,
+     "pic": "hard"
+    }
+   ],
+   "n": 5,
+   "start": 28.48,
+   "end": 31.38,
+   "pic": "hard"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How is this?",
+   "words": [
+    {
+     "t": "How",
+     "start": 32.12,
+     "end": 32.44
+    },
+    {
+     "t": "is",
+     "start": 32.44,
+     "end": 33.04
+    },
+    {
+     "t": "this?",
+     "start": 33.08,
+     "end": 33.84
+    }
+   ],
+   "n": 6,
+   "start": 32.12,
+   "end": 33.84,
+   "pic": "hard"
+  },
+  {
+   "section": "Verse 1",
+   "text": "This is wet!",
+   "words": [
+    {
+     "t": "This",
+     "start": 34.36,
+     "end": 34.82
+    },
+    {
+     "t": "is",
+     "start": 34.82,
+     "end": 35.38
+    },
+    {
+     "t": "wet!",
+     "start": 35.38,
+     "end": 35.78
+    }
+   ],
+   "n": 7,
+   "start": 34.36,
+   "end": 35.78,
+   "pic": "hard"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is it? How is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 36.64,
+     "end": 37.32
+    },
+    {
+     "t": "is",
+     "start": 37.02,
+     "end": 39.2
+    },
+    {
+     "t": "it?",
+     "start": 38.36,
+     "end": 38.56
+    },
+    {
+     "t": "How",
+     "start": 38.61,
+     "end": 38.78
+    },
+    {
+     "t": "is",
+     "start": 38.86,
+     "end": 39.24
+    },
+    {
+     "t": "it?",
+     "start": 39.24,
+     "end": 39.36
+    }
+   ],
+   "n": 8,
+   "start": 36.64,
+   "end": 39.36,
+   "pic": "hard"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is big! It is small!",
+   "words": [
+    {
+     "t": "It",
+     "start": 40.68,
+     "end": 41.08
+    },
+    {
+     "t": "is",
+     "start": 41.1,
+     "end": 41.51
+    },
+    {
+     "t": "big!",
+     "start": 41.53,
+     "end": 42.14,
+     "pic": "big"
+    },
+    {
+     "t": "It",
+     "start": 42.16,
+     "end": 42.57
+    },
+    {
+     "t": "is",
+     "start": 42.59,
+     "end": 42.99
+    },
+    {
+     "t": "small!",
+     "start": 43.01,
+     "end": 43.86,
+     "pic": "small"
+    }
+   ],
+   "n": 9,
+   "start": 40.68,
+   "end": 43.86,
+   "pic": "big"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is it? How is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 45.0,
+     "end": 45.85
+    },
+    {
+     "t": "is",
+     "start": 45.87,
+     "end": 46.54
+    },
+    {
+     "t": "it?",
+     "start": 46.56,
+     "end": 47.41
+    },
+    {
+     "t": "How",
+     "start": 47.43,
+     "end": 48.28
+    },
+    {
+     "t": "is",
+     "start": 48.3,
+     "end": 48.97
+    },
+    {
+     "t": "it?",
+     "start": 48.99,
+     "end": 49.86
+    }
+   ],
+   "n": 10,
+   "start": 45.0,
+   "end": 49.86,
+   "pic": "big"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is loud! Shh! It is quiet!",
+   "words": [
+    {
+     "t": "It",
+     "start": 49.84,
+     "end": 50.17
+    },
+    {
+     "t": "is",
+     "start": 50.19,
+     "end": 50.52
+    },
+    {
+     "t": "loud!",
+     "start": 50.54,
+     "end": 51.14,
+     "pic": "loud"
+    },
+    {
+     "t": "Shh!",
+     "start": 51.16,
+     "end": 51.67
+    },
+    {
+     "t": "It",
+     "start": 51.69,
+     "end": 52.02
+    },
+    {
+     "t": "is",
+     "start": 52.04,
+     "end": 52.38
+    },
+    {
+     "t": "quiet!",
+     "start": 52.4,
+     "end": 53.1,
+     "pic": "quiet"
+    }
+   ],
+   "n": 11,
+   "start": 49.84,
+   "end": 53.1,
+   "pic": "loud"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How is this?",
+   "words": [
+    {
+     "t": "How",
+     "start": 54.84,
+     "end": 55.34
+    },
+    {
+     "t": "is",
+     "start": 55.26,
+     "end": 55.92
+    },
+    {
+     "t": "this?",
+     "start": 55.92,
+     "end": 56.44
+    }
+   ],
+   "n": 12,
+   "start": 54.84,
+   "end": 56.44,
+   "pic": "loud"
+  },
+  {
+   "section": "Verse 2",
+   "text": "This is hot!",
+   "words": [
+    {
+     "t": "This",
+     "start": 59.28,
+     "end": 59.84
+    },
+    {
+     "t": "is",
+     "start": 59.84,
+     "end": 60.62
+    },
+    {
+     "t": "hot!",
+     "start": 60.62,
+     "end": 61.36,
+     "pic": "hot"
+    }
+   ],
+   "n": 13,
+   "start": 59.28,
+   "end": 61.36,
+   "pic": "hot"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How is that?",
+   "words": [
+    {
+     "t": "How",
+     "start": 62.9,
+     "end": 63.2
+    },
+    {
+     "t": "is",
+     "start": 63.23,
+     "end": 63.46
+    },
+    {
+     "t": "that?",
+     "start": 63.49,
+     "end": 63.9
+    }
+   ],
+   "n": 14,
+   "start": 62.9,
+   "end": 63.9,
+   "pic": "hot"
+  },
+  {
+   "section": "Verse 2",
+   "text": "That is cold!",
+   "words": [
+    {
+     "t": "That",
+     "start": 64.4,
+     "end": 64.83
+    },
+    {
+     "t": "is",
+     "start": 64.85,
+     "end": 65.13
+    },
+    {
+     "t": "cold!",
+     "start": 65.15,
+     "end": 65.68,
+     "pic": "cold"
+    }
+   ],
+   "n": 15,
+   "start": 64.4,
+   "end": 65.68,
+   "pic": "cold"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 68.56,
+     "end": 69.06
+    },
+    {
+     "t": "is",
+     "start": 69.06,
+     "end": 69.74
+    },
+    {
+     "t": "it?",
+     "start": 69.74,
+     "end": 70.26
+    }
+   ],
+   "n": 16,
+   "start": 68.56,
+   "end": 70.26,
+   "pic": "cold"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is good!",
+   "words": [
+    {
+     "t": "It",
+     "start": 70.86,
+     "end": 71.28
+    },
+    {
+     "t": "is",
+     "start": 71.28,
+     "end": 71.98
+    },
+    {
+     "t": "good!",
+     "start": 71.98,
+     "end": 72.52,
+     "pic": "good"
+    }
+   ],
+   "n": 17,
+   "start": 70.86,
+   "end": 72.52,
+   "pic": "good"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is it? How is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 73.26,
+     "end": 73.9
+    },
+    {
+     "t": "is",
+     "start": 73.98,
+     "end": 74.9
+    },
+    {
+     "t": "it?",
+     "start": 74.9,
+     "end": 75.08
+    },
+    {
+     "t": "How",
+     "start": 75.2,
+     "end": 75.4
+    },
+    {
+     "t": "is",
+     "start": 75.4,
+     "end": 75.74
+    },
+    {
+     "t": "it?",
+     "start": 75.74,
+     "end": 76.19
+    }
+   ],
+   "n": 18,
+   "start": 73.26,
+   "end": 76.19,
+   "pic": "good"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is big! It is small!",
+   "words": [
+    {
+     "t": "It",
+     "start": 77.24,
+     "end": 77.34
+    },
+    {
+     "t": "is",
+     "start": 78.12,
+     "end": 78.72
+    },
+    {
+     "t": "big!",
+     "start": 78.76,
+     "end": 79.26,
+     "pic": "big"
+    },
+    {
+     "t": "It",
+     "start": 79.4,
+     "end": 79.6
+    },
+    {
+     "t": "is",
+     "start": 79.62,
+     "end": 79.86
+    },
+    {
+     "t": "small!",
+     "start": 79.9,
+     "end": 80.5,
+     "pic": "small"
+    }
+   ],
+   "n": 19,
+   "start": 77.24,
+   "end": 80.5,
+   "pic": "big"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is it? How is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 81.95,
+     "end": 82.26
+    },
+    {
+     "t": "is",
+     "start": 82.28,
+     "end": 82.9
+    },
+    {
+     "t": "it?",
+     "start": 82.9,
+     "end": 83.46
+    },
+    {
+     "t": "How",
+     "start": 83.48,
+     "end": 83.78
+    },
+    {
+     "t": "is",
+     "start": 83.78,
+     "end": 84.08
+    },
+    {
+     "t": "it?",
+     "start": 84.08,
+     "end": 84.26
+    }
+   ],
+   "n": 20,
+   "start": 81.95,
+   "end": 84.26,
+   "pic": "big"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is loud! Shh! It is quiet!",
+   "words": [
+    {
+     "t": "It",
+     "start": 84.72,
+     "end": 85.14
+    },
+    {
+     "t": "is",
+     "start": 85.2,
+     "end": 86.72
+    },
+    {
+     "t": "loud!",
+     "start": 86.8,
+     "end": 87.48,
+     "pic": "loud"
+    },
+    {
+     "t": "Shh!",
+     "start": 87.53,
+     "end": 87.65
+    },
+    {
+     "t": "It",
+     "start": 87.7,
+     "end": 88.16
+    },
+    {
+     "t": "is",
+     "start": 88.78,
+     "end": 89.02
+    },
+    {
+     "t": "quiet!",
+     "start": 89.04,
+     "end": 89.58,
+     "pic": "quiet"
+    }
+   ],
+   "n": 21,
+   "start": 84.72,
+   "end": 89.58,
+   "pic": "loud"
+  },
+  {
+   "section": "Bridge",
+   "text": "Big! Small!",
+   "words": [
+    {
+     "t": "Big!",
+     "start": 110.73,
+     "end": 112.48,
+     "pic": "big"
+    },
+    {
+     "t": "Small!",
+     "start": 112.76,
+     "end": 113.6,
+     "pic": "small"
+    }
+   ],
+   "n": 22,
+   "start": 110.73,
+   "end": 113.6,
+   "pic": "big"
+  },
+  {
+   "section": "Bridge",
+   "text": "Hot! Cold!",
+   "words": [
+    {
+     "t": "Hot!",
+     "start": 114.34,
+     "end": 114.78,
+     "pic": "hot"
+    },
+    {
+     "t": "Cold!",
+     "start": 115.22,
+     "end": 115.92,
+     "pic": "cold"
+    }
+   ],
+   "n": 23,
+   "start": 114.34,
+   "end": 115.92,
+   "pic": "hot"
+  },
+  {
+   "section": "Bridge",
+   "text": "Good! Bad!",
+   "words": [
+    {
+     "t": "Good!",
+     "start": 116.02,
+     "end": 116.65,
+     "pic": "good"
+    },
+    {
+     "t": "Bad!",
+     "start": 116.67,
+     "end": 117.22,
+     "pic": "bad"
+    }
+   ],
+   "n": 24,
+   "start": 116.02,
+   "end": 117.22,
+   "pic": "good"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is it? How is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 118.86,
+     "end": 119.35
+    },
+    {
+     "t": "is",
+     "start": 119.37,
+     "end": 119.75
+    },
+    {
+     "t": "it?",
+     "start": 119.77,
+     "end": 120.26
+    },
+    {
+     "t": "How",
+     "start": 120.28,
+     "end": 120.77
+    },
+    {
+     "t": "is",
+     "start": 120.79,
+     "end": 121.17
+    },
+    {
+     "t": "it?",
+     "start": 121.19,
+     "end": 121.7
+    }
+   ],
+   "n": 25,
+   "start": 118.86,
+   "end": 121.7,
+   "pic": "good"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is big! It is small!",
+   "words": [
+    {
+     "t": "It",
+     "start": 122.96,
+     "end": 123.14
+    },
+    {
+     "t": "is",
+     "start": 123.92,
+     "end": 124.48
+    },
+    {
+     "t": "big!",
+     "start": 124.48,
+     "end": 124.96,
+     "pic": "big"
+    },
+    {
+     "t": "It",
+     "start": 125.12,
+     "end": 125.32
+    },
+    {
+     "t": "is",
+     "start": 125.32,
+     "end": 125.58
+    },
+    {
+     "t": "small!",
+     "start": 125.58,
+     "end": 126.12,
+     "pic": "small"
+    }
+   ],
+   "n": 26,
+   "start": 122.96,
+   "end": 126.12,
+   "pic": "big"
+  },
+  {
+   "section": "Chorus",
+   "text": "How is it? How is it?",
+   "words": [
+    {
+     "t": "How",
+     "start": 126.45,
+     "end": 128.0
+    },
+    {
+     "t": "is",
+     "start": 128.0,
+     "end": 128.62
+    },
+    {
+     "t": "it?",
+     "start": 128.62,
+     "end": 129.14
+    },
+    {
+     "t": "How",
+     "start": 129.26,
+     "end": 129.44
+    },
+    {
+     "t": "is",
+     "start": 129.44,
+     "end": 129.72
+    },
+    {
+     "t": "it?",
+     "start": 130.3,
+     "end": 130.84
+    }
+   ],
+   "n": 27,
+   "start": 126.45,
+   "end": 130.84,
+   "pic": "big"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is loud! Shh! It is quiet!",
+   "words": [
+    {
+     "t": "It",
+     "start": 130.8,
+     "end": 131.13
+    },
+    {
+     "t": "is",
+     "start": 131.15,
+     "end": 131.49
+    },
+    {
+     "t": "loud!",
+     "start": 131.51,
+     "end": 132.11,
+     "pic": "loud"
+    },
+    {
+     "t": "Shh!",
+     "start": 132.13,
+     "end": 132.64
+    },
+    {
+     "t": "It",
+     "start": 132.66,
+     "end": 133.0
+    },
+    {
+     "t": "is",
+     "start": 133.02,
+     "end": 133.35
+    },
+    {
+     "t": "quiet!",
+     "start": 133.37,
+     "end": 134.08,
+     "pic": "quiet"
+    }
+   ],
+   "n": 28,
+   "start": 130.8,
+   "end": 134.08,
+   "pic": "loud"
+  },
+  {
+   "section": "Outro",
+   "text": "How is it? It is good!",
+   "words": [
+    {
+     "t": "How",
+     "start": 134.08,
+     "end": 136.32
+    },
+    {
+     "t": "is",
+     "start": 136.32,
+     "end": 137.04
+    },
+    {
+     "t": "it?",
+     "start": 137.04,
+     "end": 137.82
+    },
+    {
+     "t": "It",
+     "start": 138.66,
+     "end": 139.64
+    },
+    {
+     "t": "is",
+     "start": 139.64,
+     "end": 140.7
+    },
+    {
+     "t": "good!",
+     "start": 140.64,
+     "end": 141.24,
+     "pic": "good"
+    }
+   ],
+   "n": 29,
+   "start": 134.08,
+   "end": 141.24,
+   "pic": "good"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "soft",
+   "prompt": "How is it?",
+   "answer": "It is soft!",
+   "choices": [
+    "It is soft!",
+    "It is hard!",
+    "It is loud!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. That is ...",
+   "answer": "hard",
+   "choices": [
+    "hard",
+    "soft",
+    "hot"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "hot",
+   "prompt": "How is this?",
+   "answer": "This is hot!",
+   "choices": [
+    "This is cold!",
+    "This is hot!",
+    "This is quiet!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 15,
+   "prompt": "Listen. That is ...",
+   "answer": "cold",
+   "choices": [
+    "cold",
+    "big",
+    "good"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "quiet",
+   "prompt": "Shh! How is it?",
+   "answer": "It is quiet!",
+   "choices": [
+    "It is quiet!",
+    "It is loud!",
+    "It is big!"
+   ]
+  }
+ ]
+}

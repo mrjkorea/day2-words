@@ -431,6 +431,78 @@
    "unitTitle": "I'll Miss You",
    "blurb": "I am off! Take it easy!",
    "packId": "int2c_u8"
+  },
+  {
+   "id": "int3a_u01_b",
+   "title": "I Can Draw a Monster",
+   "book": "INT 3A",
+   "unit": 1,
+   "unitTitle": "I Can Draw a Monster",
+   "blurb": "What can you draw? I can draw a monster!",
+   "packId": "int3a_u1"
+  },
+  {
+   "id": "int3a_u02_b",
+   "title": "What About You?",
+   "book": "INT 3A",
+   "unit": 2,
+   "unitTitle": "What Flavor Do You Like?",
+   "blurb": "I like chocolate. What about you? I like vanilla!",
+   "packId": "int3a_u2"
+  },
+  {
+   "id": "int3a_u03_b",
+   "title": "How Is It?",
+   "book": "INT 3A",
+   "unit": 3,
+   "unitTitle": "Opposites",
+   "blurb": "How is it? It is soft! It is big! It is small!",
+   "packId": "int3a_u3"
+  },
+  {
+   "id": "int3a_u04_a",
+   "title": "How Old Is He?",
+   "book": "INT 3A",
+   "unit": 4,
+   "unitTitle": "How Old Is He?",
+   "blurb": "How old is he? He is five years old!",
+   "packId": "int3a_u4"
+  },
+  {
+   "id": "int3a_u05_b",
+   "title": "It Is a Centipede!",
+   "book": "INT 3A",
+   "unit": 5,
+   "unitTitle": "What Is This Bug?",
+   "blurb": "What is this bug? It is a centipede!",
+   "packId": "int3a_u5"
+  },
+  {
+   "id": "int3a_u06_a",
+   "title": "What Is Your Name?",
+   "book": "INT 3A",
+   "unit": 6,
+   "unitTitle": "How Will I Yell Your Name?",
+   "blurb": "What is your name? My name is Rose!",
+   "packId": "int3a_u6"
+  },
+  {
+   "id": "int3a_u07_a",
+   "title": "Stand Up! Yes, Sir!",
+   "book": "INT 3A",
+   "unit": 7,
+   "unitTitle": "Gym Class",
+   "blurb": "Stand up! Yes, sir! Clap three times!",
+   "packId": "int3a_u7"
+  },
+  {
+   "id": "int3a_u08_b",
+   "title": "Nice to Meet You",
+   "book": "INT 3A",
+   "unit": 8,
+   "unitTitle": "Introduction",
+   "blurb": "Nice to meet you! Where are you from? I am from Busan!",
+   "packId": "int3a_u8"
   }
  ]
 }

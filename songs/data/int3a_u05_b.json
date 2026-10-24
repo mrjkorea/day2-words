@@ -1,0 +1,1042 @@
+{
+ "id": "int3a_u05_b",
+ "title": "It Is a Centipede!",
+ "book": "INT 3A",
+ "unit": 5,
+ "unitTitle": "What Is This Bug?",
+ "packId": "int3a_u5",
+ "audio": "audio/int3a_u05_b.mp3",
+ "duration": 151.03,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "I cannot see! What is it?",
+   "words": [
+    {
+     "t": "I",
+     "start": 6.36,
+     "end": 6.7
+    },
+    {
+     "t": "cannot",
+     "start": 6.7,
+     "end": 7.4
+    },
+    {
+     "t": "see!",
+     "start": 7.4,
+     "end": 8.42
+    },
+    {
+     "t": "What",
+     "start": 8.54,
+     "end": 8.68
+    },
+    {
+     "t": "is",
+     "start": 8.68,
+     "end": 8.86
+    },
+    {
+     "t": "it?",
+     "start": 8.86,
+     "end": 9.12
+    }
+   ],
+   "n": 1,
+   "start": 6.36,
+   "end": 9.12,
+   "pic": "ant"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is a centipede!",
+   "words": [
+    {
+     "t": "It",
+     "start": 18.3,
+     "end": 18.5
+    },
+    {
+     "t": "is",
+     "start": 18.5,
+     "end": 18.64
+    },
+    {
+     "t": "a",
+     "start": 18.64,
+     "end": 19.0
+    },
+    {
+     "t": "centipede!",
+     "start": 19.0,
+     "end": 20.02,
+     "pic": "centipede"
+    }
+   ],
+   "n": 2,
+   "start": 18.3,
+   "end": 20.02,
+   "pic": "centipede"
+  },
+  {
+   "section": "Verse 1",
+   "text": "A centipede? Oh no!",
+   "words": [
+    {
+     "t": "A",
+     "start": 23.1,
+     "end": 23.36
+    },
+    {
+     "t": "centipede?",
+     "start": 23.4,
+     "end": 24.6,
+     "pic": "centipede"
+    },
+    {
+     "t": "Oh",
+     "start": 25.22,
+     "end": 25.62
+    },
+    {
+     "t": "no!",
+     "start": 25.58,
+     "end": 26.16
+    }
+   ],
+   "n": 3,
+   "start": 23.1,
+   "end": 26.16,
+   "pic": "centipede"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is a cockroach!",
+   "words": [
+    {
+     "t": "It",
+     "start": 27.48,
+     "end": 27.7
+    },
+    {
+     "t": "is",
+     "start": 27.7,
+     "end": 27.84
+    },
+    {
+     "t": "a",
+     "start": 27.84,
+     "end": 28.12
+    },
+    {
+     "t": "cockroach!",
+     "start": 28.12,
+     "end": 28.56,
+     "pic": "cockroach"
+    }
+   ],
+   "n": 4,
+   "start": 27.48,
+   "end": 28.56,
+   "pic": "cockroach"
+  },
+  {
+   "section": "Verse 1",
+   "text": "A cockroach? Oh no!",
+   "words": [
+    {
+     "t": "A",
+     "start": 32.34,
+     "end": 32.52
+    },
+    {
+     "t": "cockroach?",
+     "start": 32.54,
+     "end": 33.68,
+     "pic": "cockroach"
+    },
+    {
+     "t": "Oh",
+     "start": 34.38,
+     "end": 34.76
+    },
+    {
+     "t": "no!",
+     "start": 34.74,
+     "end": 35.44
+    }
+   ],
+   "n": 5,
+   "start": 32.34,
+   "end": 35.44,
+   "pic": "cockroach"
+  },
+  {
+   "section": "Verse 1",
+   "text": "It is a mosquito!",
+   "words": [
+    {
+     "t": "It",
+     "start": 35.44,
+     "end": 36.8
+    },
+    {
+     "t": "is",
+     "start": 36.82,
+     "end": 37.0
+    },
+    {
+     "t": "a",
+     "start": 37.0,
+     "end": 37.2
+    },
+    {
+     "t": "mosquito!",
+     "start": 37.3,
+     "end": 38.02,
+     "pic": "mosquito"
+    }
+   ],
+   "n": 6,
+   "start": 35.44,
+   "end": 38.02,
+   "pic": "mosquito"
+  },
+  {
+   "section": "Verse 1",
+   "text": "A mosquito? Oh no!",
+   "words": [
+    {
+     "t": "A",
+     "start": 39.94,
+     "end": 41.44
+    },
+    {
+     "t": "mosquito?",
+     "start": 41.44,
+     "end": 42.04,
+     "pic": "mosquito"
+    },
+    {
+     "t": "Oh",
+     "start": 43.54,
+     "end": 43.88
+    },
+    {
+     "t": "no!",
+     "start": 43.88,
+     "end": 44.68
+    }
+   ],
+   "n": 7,
+   "start": 39.94,
+   "end": 44.68,
+   "pic": "mosquito"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a bug! It is a bug!",
+   "words": [
+    {
+     "t": "It",
+     "start": 45.8,
+     "end": 45.96
+    },
+    {
+     "t": "is",
+     "start": 45.94,
+     "end": 46.1
+    },
+    {
+     "t": "a",
+     "start": 46.1,
+     "end": 46.36
+    },
+    {
+     "t": "bug!",
+     "start": 46.36,
+     "end": 46.8
+    },
+    {
+     "t": "It",
+     "start": 47.48,
+     "end": 48.26
+    },
+    {
+     "t": "is",
+     "start": 48.26,
+     "end": 48.4
+    },
+    {
+     "t": "a",
+     "start": 48.4,
+     "end": 48.68
+    },
+    {
+     "t": "bug!",
+     "start": 48.66,
+     "end": 49.26
+    }
+   ],
+   "n": 8,
+   "start": 45.8,
+   "end": 49.26,
+   "pic": "mosquito"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a centipede! Oh no!",
+   "words": [
+    {
+     "t": "It",
+     "start": 49.32,
+     "end": 50.54
+    },
+    {
+     "t": "is",
+     "start": 50.54,
+     "end": 50.72
+    },
+    {
+     "t": "a",
+     "start": 50.72,
+     "end": 51.04
+    },
+    {
+     "t": "centipede!",
+     "start": 51.04,
+     "end": 51.84,
+     "pic": "centipede"
+    },
+    {
+     "t": "Oh",
+     "start": 52.66,
+     "end": 53.06
+    },
+    {
+     "t": "no!",
+     "start": 53.06,
+     "end": 53.68
+    }
+   ],
+   "n": 9,
+   "start": 49.32,
+   "end": 53.68,
+   "pic": "centipede"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is this bug? What is this bug?",
+   "words": [
+    {
+     "t": "What",
+     "start": 54.48,
+     "end": 55.1
+    },
+    {
+     "t": "is",
+     "start": 55.1,
+     "end": 55.24
+    },
+    {
+     "t": "this",
+     "start": 55.24,
+     "end": 55.54
+    },
+    {
+     "t": "bug?",
+     "start": 55.54,
+     "end": 55.86
+    },
+    {
+     "t": "What",
+     "start": 57.15,
+     "end": 57.4
+    },
+    {
+     "t": "is",
+     "start": 57.4,
+     "end": 57.54
+    },
+    {
+     "t": "this",
+     "start": 57.56,
+     "end": 57.9
+    },
+    {
+     "t": "bug?",
+     "start": 57.88,
+     "end": 58.44
+    }
+   ],
+   "n": 10,
+   "start": 54.48,
+   "end": 58.44,
+   "pic": "centipede"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a bug!",
+   "words": [
+    {
+     "t": "It",
+     "start": 59.52,
+     "end": 59.74
+    },
+    {
+     "t": "is",
+     "start": 59.72,
+     "end": 59.86
+    },
+    {
+     "t": "a",
+     "start": 59.86,
+     "end": 60.18
+    },
+    {
+     "t": "bug!",
+     "start": 60.16,
+     "end": 60.86
+    }
+   ],
+   "n": 11,
+   "start": 59.52,
+   "end": 60.86,
+   "pic": "centipede"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is a firefly!",
+   "words": [
+    {
+     "t": "It",
+     "start": 61.21,
+     "end": 61.96
+    },
+    {
+     "t": "is",
+     "start": 61.98,
+     "end": 62.12
+    },
+    {
+     "t": "a",
+     "start": 62.12,
+     "end": 62.42
+    },
+    {
+     "t": "firefly!",
+     "start": 62.44,
+     "end": 63.19,
+     "pic": "firefly"
+    }
+   ],
+   "n": 12,
+   "start": 61.21,
+   "end": 63.19,
+   "pic": "firefly"
+  },
+  {
+   "section": "Verse 2",
+   "text": "A firefly? Pretty!",
+   "words": [
+    {
+     "t": "A",
+     "start": 66.02,
+     "end": 66.8
+    },
+    {
+     "t": "firefly?",
+     "start": 66.78,
+     "end": 68.1,
+     "pic": "firefly"
+    },
+    {
+     "t": "Pretty!",
+     "start": 68.46,
+     "end": 69.3
+    }
+   ],
+   "n": 13,
+   "start": 66.02,
+   "end": 69.3,
+   "pic": "firefly"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is a butterfly!",
+   "words": [
+    {
+     "t": "It",
+     "start": 70.62,
+     "end": 71.1
+    },
+    {
+     "t": "is",
+     "start": 71.12,
+     "end": 71.24
+    },
+    {
+     "t": "a",
+     "start": 71.24,
+     "end": 71.52
+    },
+    {
+     "t": "butterfly!",
+     "start": 71.52,
+     "end": 72.17,
+     "pic": "butterfly"
+    }
+   ],
+   "n": 14,
+   "start": 70.62,
+   "end": 72.17,
+   "pic": "itisabutterfly"
+  },
+  {
+   "section": "Verse 2",
+   "text": "A butterfly? Pretty!",
+   "words": [
+    {
+     "t": "A",
+     "start": 75.1,
+     "end": 75.96
+    },
+    {
+     "t": "butterfly?",
+     "start": 75.98,
+     "end": 76.92,
+     "pic": "butterfly"
+    },
+    {
+     "t": "Pretty!",
+     "start": 78.3,
+     "end": 78.42
+    }
+   ],
+   "n": 15,
+   "start": 75.1,
+   "end": 78.42,
+   "pic": "butterfly"
+  },
+  {
+   "section": "Verse 2",
+   "text": "It is a ladybug!",
+   "words": [
+    {
+     "t": "It",
+     "start": 80.0,
+     "end": 80.24
+    },
+    {
+     "t": "is",
+     "start": 80.28,
+     "end": 80.4
+    },
+    {
+     "t": "a",
+     "start": 80.4,
+     "end": 80.68
+    },
+    {
+     "t": "ladybug!",
+     "start": 80.68,
+     "end": 81.38
+    }
+   ],
+   "n": 16,
+   "start": 80.0,
+   "end": 81.38,
+   "pic": "butterfly"
+  },
+  {
+   "section": "Verse 2",
+   "text": "A ladybug? Pretty!",
+   "words": [
+    {
+     "t": "A",
+     "start": 84.84,
+     "end": 85.1
+    },
+    {
+     "t": "ladybug?",
+     "start": 85.06,
+     "end": 86.22
+    },
+    {
+     "t": "Pretty!",
+     "start": 86.88,
+     "end": 87.62
+    }
+   ],
+   "n": 17,
+   "start": 84.84,
+   "end": 87.62,
+   "pic": "butterfly"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a bug! It is a bug!",
+   "words": [
+    {
+     "t": "It",
+     "start": 89.2,
+     "end": 89.38
+    },
+    {
+     "t": "is",
+     "start": 89.38,
+     "end": 89.52
+    },
+    {
+     "t": "a",
+     "start": 89.54,
+     "end": 89.78
+    },
+    {
+     "t": "bug!",
+     "start": 89.88,
+     "end": 90.4
+    },
+    {
+     "t": "It",
+     "start": 90.81,
+     "end": 91.66
+    },
+    {
+     "t": "is",
+     "start": 91.66,
+     "end": 91.82
+    },
+    {
+     "t": "a",
+     "start": 91.82,
+     "end": 92.12
+    },
+    {
+     "t": "bug!",
+     "start": 92.06,
+     "end": 92.4
+    }
+   ],
+   "n": 18,
+   "start": 89.2,
+   "end": 92.4,
+   "pic": "butterfly"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a centipede! Oh no!",
+   "words": [
+    {
+     "t": "It",
+     "start": 93.6,
+     "end": 93.94
+    },
+    {
+     "t": "is",
+     "start": 93.94,
+     "end": 94.12
+    },
+    {
+     "t": "a",
+     "start": 94.12,
+     "end": 94.64
+    },
+    {
+     "t": "centipede!",
+     "start": 94.64,
+     "end": 95.94,
+     "pic": "centipede"
+    },
+    {
+     "t": "Oh",
+     "start": 96.12,
+     "end": 96.42
+    },
+    {
+     "t": "no!",
+     "start": 96.44,
+     "end": 97.06
+    }
+   ],
+   "n": 19,
+   "start": 93.6,
+   "end": 97.06,
+   "pic": "centipede"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is this bug? What is this bug?",
+   "words": [
+    {
+     "t": "What",
+     "start": 98.32,
+     "end": 98.54
+    },
+    {
+     "t": "is",
+     "start": 98.54,
+     "end": 98.66
+    },
+    {
+     "t": "this",
+     "start": 98.68,
+     "end": 98.86
+    },
+    {
+     "t": "bug?",
+     "start": 98.94,
+     "end": 99.52
+    },
+    {
+     "t": "What",
+     "start": 100.64,
+     "end": 100.78
+    },
+    {
+     "t": "is",
+     "start": 100.8,
+     "end": 100.96
+    },
+    {
+     "t": "this",
+     "start": 100.96,
+     "end": 101.2
+    },
+    {
+     "t": "bug?",
+     "start": 101.2,
+     "end": 101.82
+    }
+   ],
+   "n": 20,
+   "start": 98.32,
+   "end": 101.82,
+   "pic": "centipede"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a bug!",
+   "words": [
+    {
+     "t": "It",
+     "start": 102.94,
+     "end": 103.12
+    },
+    {
+     "t": "is",
+     "start": 103.12,
+     "end": 103.24
+    },
+    {
+     "t": "a",
+     "start": 103.24,
+     "end": 103.6
+    },
+    {
+     "t": "bug!",
+     "start": 103.6,
+     "end": 104.45
+    }
+   ],
+   "n": 21,
+   "start": 102.94,
+   "end": 104.45,
+   "pic": "centipede"
+  },
+  {
+   "section": "Bridge",
+   "text": "Moth! Ant! Spider! Cicada!",
+   "words": [
+    {
+     "t": "Moth!",
+     "start": 107.96,
+     "end": 108.42,
+     "pic": "moth"
+    },
+    {
+     "t": "Ant!",
+     "start": 108.47,
+     "end": 108.77,
+     "pic": "ant"
+    },
+    {
+     "t": "Spider!",
+     "start": 108.92,
+     "end": 109.54,
+     "pic": "spider"
+    },
+    {
+     "t": "Cicada!",
+     "start": 109.59,
+     "end": 110.01,
+     "pic": "cicada"
+    }
+   ],
+   "n": 22,
+   "start": 107.96,
+   "end": 110.01,
+   "pic": "moth"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a bug! It is a bug!",
+   "words": [
+    {
+     "t": "It",
+     "start": 116.64,
+     "end": 116.86
+    },
+    {
+     "t": "is",
+     "start": 116.86,
+     "end": 117.0
+    },
+    {
+     "t": "a",
+     "start": 117.0,
+     "end": 117.18
+    },
+    {
+     "t": "bug!",
+     "start": 117.34,
+     "end": 117.64
+    },
+    {
+     "t": "It",
+     "start": 118.96,
+     "end": 119.1
+    },
+    {
+     "t": "is",
+     "start": 119.1,
+     "end": 119.48
+    },
+    {
+     "t": "a",
+     "start": 119.48,
+     "end": 119.58
+    },
+    {
+     "t": "bug!",
+     "start": 119.58,
+     "end": 120.16
+    }
+   ],
+   "n": 23,
+   "start": 116.64,
+   "end": 120.16,
+   "pic": "moth"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a centipede! Oh no!",
+   "words": [
+    {
+     "t": "It",
+     "start": 121.14,
+     "end": 121.4
+    },
+    {
+     "t": "is",
+     "start": 121.4,
+     "end": 121.58
+    },
+    {
+     "t": "a",
+     "start": 121.58,
+     "end": 122.2
+    },
+    {
+     "t": "centipede!",
+     "start": 122.2,
+     "end": 123.4,
+     "pic": "centipede"
+    },
+    {
+     "t": "Oh",
+     "start": 123.54,
+     "end": 123.94
+    },
+    {
+     "t": "no!",
+     "start": 123.94,
+     "end": 124.48
+    }
+   ],
+   "n": 24,
+   "start": 121.14,
+   "end": 124.48,
+   "pic": "centipede"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is this bug? What is this bug?",
+   "words": [
+    {
+     "t": "What",
+     "start": 125.74,
+     "end": 125.98
+    },
+    {
+     "t": "is",
+     "start": 125.98,
+     "end": 126.12
+    },
+    {
+     "t": "this",
+     "start": 126.12,
+     "end": 126.3
+    },
+    {
+     "t": "bug?",
+     "start": 126.42,
+     "end": 126.96
+    },
+    {
+     "t": "What",
+     "start": 128.02,
+     "end": 128.22
+    },
+    {
+     "t": "is",
+     "start": 128.24,
+     "end": 128.38
+    },
+    {
+     "t": "this",
+     "start": 128.38,
+     "end": 128.7
+    },
+    {
+     "t": "bug?",
+     "start": 128.64,
+     "end": 129.24
+    }
+   ],
+   "n": 25,
+   "start": 125.74,
+   "end": 129.24,
+   "pic": "centipede"
+  },
+  {
+   "section": "Chorus",
+   "text": "It is a bug!",
+   "words": [
+    {
+     "t": "It",
+     "start": 130.22,
+     "end": 130.56
+    },
+    {
+     "t": "is",
+     "start": 130.56,
+     "end": 130.7
+    },
+    {
+     "t": "a",
+     "start": 130.7,
+     "end": 131.06
+    },
+    {
+     "t": "bug!",
+     "start": 131.06,
+     "end": 131.96
+    }
+   ],
+   "n": 26,
+   "start": 130.22,
+   "end": 131.96,
+   "pic": "centipede"
+  },
+  {
+   "section": "Outro",
+   "text": "It is a centipede!",
+   "words": [
+    {
+     "t": "It",
+     "start": 137.12,
+     "end": 137.38
+    },
+    {
+     "t": "is",
+     "start": 137.36,
+     "end": 137.52
+    },
+    {
+     "t": "a",
+     "start": 137.52,
+     "end": 137.82
+    },
+    {
+     "t": "centipede!",
+     "start": 137.82,
+     "end": 138.57,
+     "pic": "centipede"
+    }
+   ],
+   "n": 27,
+   "start": 137.12,
+   "end": 138.57,
+   "pic": "centipede"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "centipede",
+   "prompt": "What is this bug?",
+   "answer": "It is a centipede!",
+   "choices": [
+    "It is a centipede!",
+    "It is a butterfly!",
+    "It is a firefly!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 4,
+   "prompt": "Listen. It is a ...",
+   "answer": "cockroach",
+   "choices": [
+    "cockroach",
+    "mosquito",
+    "spider"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "butterfly",
+   "prompt": "What is this bug?",
+   "answer": "It is a butterfly!",
+   "choices": [
+    "It is a moth!",
+    "It is a butterfly!",
+    "It is an ant!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 12,
+   "prompt": "Listen. It is a ...",
+   "answer": "firefly",
+   "choices": [
+    "firefly",
+    "ladybug",
+    "centipede"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "mosquito",
+   "prompt": "What is this bug?",
+   "answer": "It is a mosquito!",
+   "choices": [
+    "It is a mosquito!",
+    "It is a cicada!",
+    "It is a spider!"
+   ]
+  }
+ ]
+}

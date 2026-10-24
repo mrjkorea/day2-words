@@ -1,0 +1,1133 @@
+{
+ "id": "int3a_u08_b",
+ "title": "Nice to Meet You",
+ "book": "INT 3A",
+ "unit": 8,
+ "unitTitle": "Introduction",
+ "packId": "int3a_u8",
+ "audio": "audio/int3a_u08_b.mp3",
+ "duration": 143.9,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hello! Let me introduce myself!",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 5.41,
+     "end": 6.56
+    },
+    {
+     "t": "Let",
+     "start": 7.84,
+     "end": 8.02
+    },
+    {
+     "t": "me",
+     "start": 8.02,
+     "end": 8.16
+    },
+    {
+     "t": "introduce",
+     "start": 8.16,
+     "end": 8.56
+    },
+    {
+     "t": "myself!",
+     "start": 8.56,
+     "end": 9.24
+    }
+   ],
+   "n": 1,
+   "start": 5.41,
+   "end": 9.24,
+   "pic": "dog"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am eleven years old!",
+   "words": [
+    {
+     "t": "I",
+     "start": 18.48,
+     "end": 18.74
+    },
+    {
+     "t": "am",
+     "start": 18.72,
+     "end": 19.12
+    },
+    {
+     "t": "eleven",
+     "start": 19.1,
+     "end": 19.96,
+     "pic": "eleven"
+    },
+    {
+     "t": "years",
+     "start": 19.96,
+     "end": 21.52
+    },
+    {
+     "t": "old!",
+     "start": 21.52,
+     "end": 21.98
+    }
+   ],
+   "n": 2,
+   "start": 18.48,
+   "end": 21.98,
+   "pic": "eleven"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Eleven? Cool!",
+   "words": [
+    {
+     "t": "Eleven?",
+     "start": 23.68,
+     "end": 24.38,
+     "pic": "eleven"
+    },
+    {
+     "t": "Cool!",
+     "start": 28.42,
+     "end": 28.76
+    }
+   ],
+   "n": 3,
+   "start": 23.68,
+   "end": 28.76,
+   "pic": "eleven"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I can draw!",
+   "words": [
+    {
+     "t": "I",
+     "start": 29.57,
+     "end": 29.9
+    },
+    {
+     "t": "can",
+     "start": 29.9,
+     "end": 30.46
+    },
+    {
+     "t": "draw!",
+     "start": 30.46,
+     "end": 30.98,
+     "pic": "draw"
+    }
+   ],
+   "n": 4,
+   "start": 29.57,
+   "end": 30.98,
+   "pic": "draw"
+  },
+  {
+   "section": "Verse 1",
+   "text": "You can draw? Wow!",
+   "words": [
+    {
+     "t": "You",
+     "start": 31.86,
+     "end": 32.16
+    },
+    {
+     "t": "can",
+     "start": 32.14,
+     "end": 32.74
+    },
+    {
+     "t": "draw?",
+     "start": 32.78,
+     "end": 33.46,
+     "pic": "draw"
+    },
+    {
+     "t": "Wow!",
+     "start": 34.14,
+     "end": 34.38
+    }
+   ],
+   "n": 5,
+   "start": 31.86,
+   "end": 34.38,
+   "pic": "draw"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like music!",
+   "words": [
+    {
+     "t": "I",
+     "start": 35.82,
+     "end": 35.96
+    },
+    {
+     "t": "like",
+     "start": 35.96,
+     "end": 36.26
+    },
+    {
+     "t": "music!",
+     "start": 36.26,
+     "end": 36.88,
+     "pic": "music"
+    }
+   ],
+   "n": 6,
+   "start": 35.82,
+   "end": 36.88,
+   "pic": "music"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I like music too!",
+   "words": [
+    {
+     "t": "I",
+     "start": 38.08,
+     "end": 38.22
+    },
+    {
+     "t": "like",
+     "start": 38.22,
+     "end": 38.54
+    },
+    {
+     "t": "music",
+     "start": 38.56,
+     "end": 39.38,
+     "pic": "music"
+    },
+    {
+     "t": "too!",
+     "start": 39.38,
+     "end": 40.26
+    }
+   ],
+   "n": 7,
+   "start": 38.08,
+   "end": 40.26,
+   "pic": "music"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you! Nice to meet you, too!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 40.96,
+     "end": 41.28
+    },
+    {
+     "t": "to",
+     "start": 41.28,
+     "end": 41.84
+    },
+    {
+     "t": "meet",
+     "start": 41.84,
+     "end": 42.36
+    },
+    {
+     "t": "you!",
+     "start": 42.36,
+     "end": 42.94
+    },
+    {
+     "t": "Nice",
+     "start": 43.2,
+     "end": 43.54
+    },
+    {
+     "t": "to",
+     "start": 43.56,
+     "end": 44.14
+    },
+    {
+     "t": "meet",
+     "start": 44.14,
+     "end": 44.58
+    },
+    {
+     "t": "you,",
+     "start": 44.58,
+     "end": 44.8
+    },
+    {
+     "t": "too!",
+     "start": 44.82,
+     "end": 45.2
+    }
+   ],
+   "n": 8,
+   "start": 40.96,
+   "end": 45.2,
+   "pic": "music"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is your name? How old are you?",
+   "words": [
+    {
+     "t": "What",
+     "start": 45.48,
+     "end": 46.02
+    },
+    {
+     "t": "is",
+     "start": 46.02,
+     "end": 46.88
+    },
+    {
+     "t": "your",
+     "start": 46.88,
+     "end": 47.2
+    },
+    {
+     "t": "name?",
+     "start": 47.2,
+     "end": 47.8
+    },
+    {
+     "t": "How",
+     "start": 48.02,
+     "end": 48.3
+    },
+    {
+     "t": "old",
+     "start": 48.3,
+     "end": 48.64
+    },
+    {
+     "t": "are",
+     "start": 48.64,
+     "end": 48.9
+    },
+    {
+     "t": "you?",
+     "start": 48.9,
+     "end": 49.28
+    }
+   ],
+   "n": 9,
+   "start": 45.48,
+   "end": 49.28,
+   "pic": "music"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you! Nice to meet you, too!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 49.98,
+     "end": 50.46
+    },
+    {
+     "t": "to",
+     "start": 50.44,
+     "end": 50.94
+    },
+    {
+     "t": "meet",
+     "start": 50.94,
+     "end": 51.52
+    },
+    {
+     "t": "you!",
+     "start": 51.52,
+     "end": 52.24
+    },
+    {
+     "t": "Nice",
+     "start": 52.58,
+     "end": 52.76
+    },
+    {
+     "t": "to",
+     "start": 52.76,
+     "end": 53.08
+    },
+    {
+     "t": "meet",
+     "start": 53.08,
+     "end": 53.54
+    },
+    {
+     "t": "you,",
+     "start": 53.54,
+     "end": 53.92
+    },
+    {
+     "t": "too!",
+     "start": 53.92,
+     "end": 54.32
+    }
+   ],
+   "n": 10,
+   "start": 49.98,
+   "end": 54.32,
+   "pic": "music"
+  },
+  {
+   "section": "Chorus",
+   "text": "Where are you from?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 54.5,
+     "end": 54.88
+    },
+    {
+     "t": "are",
+     "start": 54.88,
+     "end": 55.06
+    },
+    {
+     "t": "you",
+     "start": 55.24,
+     "end": 55.56
+    },
+    {
+     "t": "from?",
+     "start": 55.56,
+     "end": 56.02
+    }
+   ],
+   "n": 11,
+   "start": 54.5,
+   "end": 56.02,
+   "pic": "whereareyoufrom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am from Busan!",
+   "words": [
+    {
+     "t": "I",
+     "start": 59.66,
+     "end": 60.04
+    },
+    {
+     "t": "am",
+     "start": 59.96,
+     "end": 60.7
+    },
+    {
+     "t": "from",
+     "start": 60.7,
+     "end": 61.24
+    },
+    {
+     "t": "Busan!",
+     "start": 61.24,
+     "end": 62.89
+    }
+   ],
+   "n": 12,
+   "start": 59.66,
+   "end": 62.89,
+   "pic": "whereareyoufrom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Busan? Cool!",
+   "words": [
+    {
+     "t": "Busan?",
+     "start": 68.22,
+     "end": 68.84
+    },
+    {
+     "t": "Cool!",
+     "start": 69.34,
+     "end": 69.8
+    }
+   ],
+   "n": 13,
+   "start": 68.22,
+   "end": 69.8,
+   "pic": "whereareyoufrom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I really like dogs!",
+   "words": [
+    {
+     "t": "I",
+     "start": 70.2,
+     "end": 70.34
+    },
+    {
+     "t": "really",
+     "start": 70.34,
+     "end": 70.88
+    },
+    {
+     "t": "like",
+     "start": 70.88,
+     "end": 71.46
+    },
+    {
+     "t": "dogs!",
+     "start": 71.46,
+     "end": 72.12
+    }
+   ],
+   "n": 14,
+   "start": 70.2,
+   "end": 72.12,
+   "pic": "whereareyoufrom"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I have a dog!",
+   "words": [
+    {
+     "t": "I",
+     "start": 72.94,
+     "end": 73.64
+    },
+    {
+     "t": "have",
+     "start": 73.52,
+     "end": 74.38
+    },
+    {
+     "t": "a",
+     "start": 74.38,
+     "end": 74.82
+    },
+    {
+     "t": "dog!",
+     "start": 74.96,
+     "end": 75.52,
+     "pic": "dog"
+    }
+   ],
+   "n": 15,
+   "start": 72.94,
+   "end": 75.52,
+   "pic": "dog"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I go to middle school!",
+   "words": [
+    {
+     "t": "I",
+     "start": 76.84,
+     "end": 77.0
+    },
+    {
+     "t": "go",
+     "start": 77.0,
+     "end": 77.14
+    },
+    {
+     "t": "to",
+     "start": 77.14,
+     "end": 77.3
+    },
+    {
+     "t": "middle",
+     "start": 77.3,
+     "end": 77.56
+    },
+    {
+     "t": "school!",
+     "start": 77.52,
+     "end": 77.92,
+     "pic": "school"
+    }
+   ],
+   "n": 16,
+   "start": 75.62,
+   "end": 78.62,
+   "pic": "school"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Me too!",
+   "words": [
+    {
+     "t": "Me",
+     "start": 80.38,
+     "end": 80.62
+    },
+    {
+     "t": "too!",
+     "start": 80.62,
+     "end": 81.06
+    }
+   ],
+   "n": 17,
+   "start": 80.38,
+   "end": 81.06,
+   "pic": "school"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you! Nice to meet you, too!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 81.6,
+     "end": 82.28
+    },
+    {
+     "t": "to",
+     "start": 82.28,
+     "end": 82.7
+    },
+    {
+     "t": "meet",
+     "start": 82.7,
+     "end": 83.26
+    },
+    {
+     "t": "you!",
+     "start": 83.32,
+     "end": 83.86
+    },
+    {
+     "t": "Nice",
+     "start": 84.16,
+     "end": 84.48
+    },
+    {
+     "t": "to",
+     "start": 84.48,
+     "end": 85.08
+    },
+    {
+     "t": "meet",
+     "start": 85.08,
+     "end": 85.48
+    },
+    {
+     "t": "you,",
+     "start": 85.48,
+     "end": 85.76
+    },
+    {
+     "t": "too!",
+     "start": 85.76,
+     "end": 85.86
+    }
+   ],
+   "n": 18,
+   "start": 81.6,
+   "end": 85.86,
+   "pic": "school"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is your name? How old are you?",
+   "words": [
+    {
+     "t": "What",
+     "start": 86.4,
+     "end": 86.8
+    },
+    {
+     "t": "is",
+     "start": 86.8,
+     "end": 87.84
+    },
+    {
+     "t": "your",
+     "start": 87.82,
+     "end": 88.12
+    },
+    {
+     "t": "name?",
+     "start": 88.12,
+     "end": 88.7
+    },
+    {
+     "t": "How",
+     "start": 89.0,
+     "end": 89.22
+    },
+    {
+     "t": "old",
+     "start": 89.22,
+     "end": 89.58
+    },
+    {
+     "t": "are",
+     "start": 89.58,
+     "end": 89.8
+    },
+    {
+     "t": "you?",
+     "start": 89.82,
+     "end": 90.16
+    }
+   ],
+   "n": 19,
+   "start": 86.4,
+   "end": 90.16,
+   "pic": "school"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you! Nice to meet you, too!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 91.02,
+     "end": 91.38
+    },
+    {
+     "t": "to",
+     "start": 91.38,
+     "end": 91.86
+    },
+    {
+     "t": "meet",
+     "start": 91.92,
+     "end": 92.42
+    },
+    {
+     "t": "you!",
+     "start": 92.42,
+     "end": 93.1
+    },
+    {
+     "t": "Nice",
+     "start": 93.46,
+     "end": 93.76
+    },
+    {
+     "t": "to",
+     "start": 93.7,
+     "end": 94.02
+    },
+    {
+     "t": "meet",
+     "start": 94.02,
+     "end": 94.5
+    },
+    {
+     "t": "you,",
+     "start": 94.5,
+     "end": 94.84
+    },
+    {
+     "t": "too!",
+     "start": 94.86,
+     "end": 95.24
+    }
+   ],
+   "n": 20,
+   "start": 91.02,
+   "end": 95.24,
+   "pic": "school"
+  },
+  {
+   "section": "Chorus",
+   "text": "Where are you from?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 95.52,
+     "end": 95.8
+    },
+    {
+     "t": "are",
+     "start": 95.84,
+     "end": 96.22
+    },
+    {
+     "t": "you",
+     "start": 96.22,
+     "end": 96.5
+    },
+    {
+     "t": "from?",
+     "start": 96.54,
+     "end": 97.06
+    }
+   ],
+   "n": 21,
+   "start": 95.52,
+   "end": 97.06,
+   "pic": "whereareyoufrom"
+  },
+  {
+   "section": "Bridge",
+   "text": "What can you do? I can sing!",
+   "words": [
+    {
+     "t": "What",
+     "start": 100.94,
+     "end": 101.16
+    },
+    {
+     "t": "can",
+     "start": 101.12,
+     "end": 101.44
+    },
+    {
+     "t": "you",
+     "start": 101.44,
+     "end": 101.84
+    },
+    {
+     "t": "do?",
+     "start": 101.84,
+     "end": 102.46
+    },
+    {
+     "t": "I",
+     "start": 103.42,
+     "end": 103.9
+    },
+    {
+     "t": "can",
+     "start": 103.97,
+     "end": 104.32
+    },
+    {
+     "t": "sing!",
+     "start": 104.5,
+     "end": 104.88,
+     "pic": "sing"
+    }
+   ],
+   "n": 22,
+   "start": 100.94,
+   "end": 104.88,
+   "pic": "sing"
+  },
+  {
+   "section": "Bridge",
+   "text": "What do you like? I like dogs!",
+   "words": [
+    {
+     "t": "What",
+     "start": 105.46,
+     "end": 105.7
+    },
+    {
+     "t": "do",
+     "start": 105.7,
+     "end": 105.98
+    },
+    {
+     "t": "you",
+     "start": 106.0,
+     "end": 106.44
+    },
+    {
+     "t": "like?",
+     "start": 106.44,
+     "end": 106.98
+    },
+    {
+     "t": "I",
+     "start": 107.92,
+     "end": 108.06
+    },
+    {
+     "t": "like",
+     "start": 108.06,
+     "end": 108.46
+    },
+    {
+     "t": "dogs!",
+     "start": 108.46,
+     "end": 108.98
+    }
+   ],
+   "n": 23,
+   "start": 105.46,
+   "end": 108.98,
+   "pic": "sing"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you! Nice to meet you, too!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 109.2,
+     "end": 109.58
+    },
+    {
+     "t": "to",
+     "start": 109.5,
+     "end": 110.02
+    },
+    {
+     "t": "meet",
+     "start": 110.02,
+     "end": 110.6
+    },
+    {
+     "t": "you!",
+     "start": 110.6,
+     "end": 111.16
+    },
+    {
+     "t": "Nice",
+     "start": 111.48,
+     "end": 111.88
+    },
+    {
+     "t": "to",
+     "start": 111.8,
+     "end": 112.34
+    },
+    {
+     "t": "meet",
+     "start": 112.36,
+     "end": 112.78
+    },
+    {
+     "t": "you,",
+     "start": 112.78,
+     "end": 113.02
+    },
+    {
+     "t": "too!",
+     "start": 113.02,
+     "end": 113.44
+    }
+   ],
+   "n": 24,
+   "start": 109.2,
+   "end": 113.44,
+   "pic": "sing"
+  },
+  {
+   "section": "Chorus",
+   "text": "What is your name? How old are you?",
+   "words": [
+    {
+     "t": "What",
+     "start": 113.72,
+     "end": 114.12
+    },
+    {
+     "t": "is",
+     "start": 114.12,
+     "end": 115.14
+    },
+    {
+     "t": "your",
+     "start": 115.14,
+     "end": 115.54
+    },
+    {
+     "t": "name?",
+     "start": 115.54,
+     "end": 116.06
+    },
+    {
+     "t": "How",
+     "start": 116.42,
+     "end": 116.6
+    },
+    {
+     "t": "old",
+     "start": 116.6,
+     "end": 116.9
+    },
+    {
+     "t": "are",
+     "start": 116.9,
+     "end": 117.1
+    },
+    {
+     "t": "you?",
+     "start": 117.12,
+     "end": 117.32
+    }
+   ],
+   "n": 25,
+   "start": 113.72,
+   "end": 117.32,
+   "pic": "sing"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you! Nice to meet you, too!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 118.24,
+     "end": 118.72
+    },
+    {
+     "t": "to",
+     "start": 118.68,
+     "end": 119.18
+    },
+    {
+     "t": "meet",
+     "start": 119.18,
+     "end": 119.8
+    },
+    {
+     "t": "you!",
+     "start": 119.8,
+     "end": 120.44
+    },
+    {
+     "t": "Nice",
+     "start": 120.78,
+     "end": 120.98
+    },
+    {
+     "t": "to",
+     "start": 120.98,
+     "end": 121.32
+    },
+    {
+     "t": "meet",
+     "start": 121.32,
+     "end": 121.8
+    },
+    {
+     "t": "you,",
+     "start": 121.8,
+     "end": 122.16
+    },
+    {
+     "t": "too!",
+     "start": 122.16,
+     "end": 122.64
+    }
+   ],
+   "n": 26,
+   "start": 118.24,
+   "end": 122.64,
+   "pic": "sing"
+  },
+  {
+   "section": "Chorus",
+   "text": "Where are you from?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 122.82,
+     "end": 123.12
+    },
+    {
+     "t": "are",
+     "start": 123.16,
+     "end": 123.58
+    },
+    {
+     "t": "you",
+     "start": 123.58,
+     "end": 123.92
+    },
+    {
+     "t": "from?",
+     "start": 127.16,
+     "end": 127.62
+    }
+   ],
+   "n": 27,
+   "start": 122.82,
+   "end": 127.62,
+   "pic": "whereareyoufrom"
+  },
+  {
+   "section": "Outro",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 131.86,
+     "end": 132.26
+    },
+    {
+     "t": "to",
+     "start": 132.2,
+     "end": 132.56
+    },
+    {
+     "t": "meet",
+     "start": 132.56,
+     "end": 133.16
+    },
+    {
+     "t": "you!",
+     "start": 133.16,
+     "end": 133.86
+    }
+   ],
+   "n": 28,
+   "start": 131.86,
+   "end": 133.86,
+   "pic": "whereareyoufrom"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "whereareyoufrom",
+   "prompt": "Where are you from?",
+   "answer": "I am from Busan!",
+   "choices": [
+    "I am from Busan!",
+    "I am eleven years old!",
+    "I like music!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 2,
+   "prompt": "Listen. I am ... years old!",
+   "answer": "eleven",
+   "choices": [
+    "eleven",
+    "eighteen",
+    "ten"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "music",
+   "prompt": "What do you like?",
+   "answer": "I like music!",
+   "choices": [
+    "I like music!",
+    "I can draw!",
+    "Nice to meet you!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 8,
+   "prompt": "Nice to meet you! Nice to meet you, ...!",
+   "answer": "too",
+   "choices": [
+    "too",
+    "again",
+    "sir"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "dog",
+   "prompt": "What do you like?",
+   "answer": "I like dogs!",
+   "choices": [
+    "I like dogs!",
+    "I can sing!",
+    "I am from Busan!"
+   ]
+  }
+ ]
+}

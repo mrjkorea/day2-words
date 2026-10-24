@@ -1,0 +1,1106 @@
+{
+ "id": "int3a_u04_a",
+ "title": "How Old Is He?",
+ "book": "INT 3A",
+ "unit": 4,
+ "unitTitle": "How Old Is He?",
+ "packId": "int3a_u4",
+ "audio": "audio/int3a_u04_a.mp3",
+ "duration": 150.17,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Look at this picture!",
+   "words": [
+    {
+     "t": "Look",
+     "start": 7.52,
+     "end": 7.64
+    },
+    {
+     "t": "at",
+     "start": 7.64,
+     "end": 7.8
+    },
+    {
+     "t": "this",
+     "start": 7.94,
+     "end": 8.04
+    },
+    {
+     "t": "picture!",
+     "start": 8.04,
+     "end": 8.66
+    }
+   ],
+   "n": 1,
+   "start": 7.52,
+   "end": 8.66,
+   "pic": "fifteen"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How old is he?",
+   "words": [
+    {
+     "t": "How",
+     "start": 17.48,
+     "end": 17.72
+    },
+    {
+     "t": "old",
+     "start": 17.7,
+     "end": 18.14
+    },
+    {
+     "t": "is",
+     "start": 18.14,
+     "end": 18.34
+    },
+    {
+     "t": "he?",
+     "start": 18.36,
+     "end": 18.7
+    }
+   ],
+   "n": 2,
+   "start": 17.48,
+   "end": 18.7,
+   "pic": "fifteen"
+  },
+  {
+   "section": "Verse 1",
+   "text": "He is five years old!",
+   "words": [
+    {
+     "t": "He",
+     "start": 19.81,
+     "end": 19.92
+    },
+    {
+     "t": "is",
+     "start": 19.94,
+     "end": 20.12
+    },
+    {
+     "t": "five",
+     "start": 20.12,
+     "end": 20.54,
+     "pic": "five"
+    },
+    {
+     "t": "years",
+     "start": 20.54,
+     "end": 21.4
+    },
+    {
+     "t": "old!",
+     "start": 21.42,
+     "end": 21.82
+    }
+   ],
+   "n": 3,
+   "start": 19.81,
+   "end": 21.82,
+   "pic": "five"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 22.16,
+     "end": 22.42
+    },
+    {
+     "t": "old",
+     "start": 22.38,
+     "end": 22.7
+    },
+    {
+     "t": "is",
+     "start": 22.7,
+     "end": 22.94
+    },
+    {
+     "t": "she?",
+     "start": 22.94,
+     "end": 23.22
+    }
+   ],
+   "n": 4,
+   "start": 22.16,
+   "end": 23.22,
+   "pic": "five"
+  },
+  {
+   "section": "Verse 1",
+   "text": "She is ten years old!",
+   "words": [
+    {
+     "t": "She",
+     "start": 23.54,
+     "end": 23.66
+    },
+    {
+     "t": "is",
+     "start": 23.64,
+     "end": 24.02
+    },
+    {
+     "t": "ten",
+     "start": 24.02,
+     "end": 25.46,
+     "pic": "ten"
+    },
+    {
+     "t": "years",
+     "start": 25.48,
+     "end": 26.24
+    },
+    {
+     "t": "old!",
+     "start": 26.24,
+     "end": 26.62
+    }
+   ],
+   "n": 5,
+   "start": 23.54,
+   "end": 26.62,
+   "pic": "ten"
+  },
+  {
+   "section": "Verse 1",
+   "text": "How old is he?",
+   "words": [
+    {
+     "t": "How",
+     "start": 26.72,
+     "end": 26.84
+    },
+    {
+     "t": "old",
+     "start": 26.84,
+     "end": 27.24
+    },
+    {
+     "t": "is",
+     "start": 27.24,
+     "end": 27.48
+    },
+    {
+     "t": "he?",
+     "start": 32.08,
+     "end": 32.32
+    }
+   ],
+   "n": 6,
+   "start": 26.72,
+   "end": 32.32,
+   "pic": "ten"
+  },
+  {
+   "section": "Verse 1",
+   "text": "He is fifteen years old!",
+   "words": [
+    {
+     "t": "He",
+     "start": 32.62,
+     "end": 32.8
+    },
+    {
+     "t": "is",
+     "start": 32.8,
+     "end": 33.2
+    },
+    {
+     "t": "fifteen",
+     "start": 33.22,
+     "end": 33.82,
+     "pic": "fifteen"
+    },
+    {
+     "t": "years",
+     "start": 33.84,
+     "end": 34.52
+    },
+    {
+     "t": "old!",
+     "start": 34.62,
+     "end": 35.24
+    }
+   ],
+   "n": 7,
+   "start": 32.62,
+   "end": 35.24,
+   "pic": "heisfifteenyearsold"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old is he? How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 35.9,
+     "end": 36.02
+    },
+    {
+     "t": "old",
+     "start": 36.04,
+     "end": 36.64
+    },
+    {
+     "t": "is",
+     "start": 36.64,
+     "end": 37.14
+    },
+    {
+     "t": "he?",
+     "start": 37.14,
+     "end": 37.68
+    },
+    {
+     "t": "How",
+     "start": 38.1,
+     "end": 38.42
+    },
+    {
+     "t": "old",
+     "start": 38.36,
+     "end": 38.98
+    },
+    {
+     "t": "is",
+     "start": 38.98,
+     "end": 39.4
+    },
+    {
+     "t": "she?",
+     "start": 39.42,
+     "end": 39.8
+    }
+   ],
+   "n": 8,
+   "start": 35.9,
+   "end": 39.8,
+   "pic": "heisfifteenyearsold"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is five! She is ten!",
+   "words": [
+    {
+     "t": "He",
+     "start": 40.04,
+     "end": 40.34
+    },
+    {
+     "t": "is",
+     "start": 40.34,
+     "end": 40.72
+    },
+    {
+     "t": "five!",
+     "start": 40.72,
+     "end": 41.14,
+     "pic": "five"
+    },
+    {
+     "t": "She",
+     "start": 41.7,
+     "end": 41.96
+    },
+    {
+     "t": "is",
+     "start": 41.96,
+     "end": 42.4
+    },
+    {
+     "t": "ten!",
+     "start": 42.4,
+     "end": 43.12,
+     "pic": "ten"
+    }
+   ],
+   "n": 9,
+   "start": 40.04,
+   "end": 43.12,
+   "pic": "five"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old is he? How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 43.76,
+     "end": 45.12
+    },
+    {
+     "t": "old",
+     "start": 45.12,
+     "end": 45.82
+    },
+    {
+     "t": "is",
+     "start": 46.22,
+     "end": 46.32
+    },
+    {
+     "t": "he?",
+     "start": 46.32,
+     "end": 46.8
+    },
+    {
+     "t": "How",
+     "start": 47.02,
+     "end": 47.54
+    },
+    {
+     "t": "old",
+     "start": 47.54,
+     "end": 48.14
+    },
+    {
+     "t": "is",
+     "start": 48.14,
+     "end": 48.56
+    },
+    {
+     "t": "she?",
+     "start": 48.56,
+     "end": 49.12
+    }
+   ],
+   "n": 10,
+   "start": 43.76,
+   "end": 49.12,
+   "pic": "five"
+  },
+  {
+   "section": "Chorus",
+   "text": "Years old, years old!",
+   "words": [
+    {
+     "t": "Years",
+     "start": 49.34,
+     "end": 49.78
+    },
+    {
+     "t": "old,",
+     "start": 49.76,
+     "end": 50.42
+    },
+    {
+     "t": "years",
+     "start": 51.0,
+     "end": 51.34
+    },
+    {
+     "t": "old!",
+     "start": 51.34,
+     "end": 52.34
+    }
+   ],
+   "n": 11,
+   "start": 49.34,
+   "end": 52.34,
+   "pic": "five"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 53.48,
+     "end": 54.28
+    },
+    {
+     "t": "old",
+     "start": 54.28,
+     "end": 54.68
+    },
+    {
+     "t": "is",
+     "start": 54.66,
+     "end": 54.9
+    },
+    {
+     "t": "she?",
+     "start": 54.9,
+     "end": 55.28
+    }
+   ],
+   "n": 12,
+   "start": 53.48,
+   "end": 55.28,
+   "pic": "five"
+  },
+  {
+   "section": "Verse 2",
+   "text": "She is thirty years old!",
+   "words": [
+    {
+     "t": "She",
+     "start": 56.34,
+     "end": 56.48
+    },
+    {
+     "t": "is",
+     "start": 56.48,
+     "end": 56.72
+    },
+    {
+     "t": "thirty",
+     "start": 56.72,
+     "end": 57.08,
+     "pic": "thirty"
+    },
+    {
+     "t": "years",
+     "start": 57.08,
+     "end": 58.0
+    },
+    {
+     "t": "old!",
+     "start": 58.0,
+     "end": 58.54
+    }
+   ],
+   "n": 13,
+   "start": 56.34,
+   "end": 58.54,
+   "pic": "thirty"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How old is he?",
+   "words": [
+    {
+     "t": "How",
+     "start": 58.7,
+     "end": 58.92
+    },
+    {
+     "t": "old",
+     "start": 58.92,
+     "end": 59.26
+    },
+    {
+     "t": "is",
+     "start": 59.26,
+     "end": 59.5
+    },
+    {
+     "t": "he?",
+     "start": 59.5,
+     "end": 59.8
+    }
+   ],
+   "n": 14,
+   "start": 58.7,
+   "end": 59.8,
+   "pic": "thirty"
+  },
+  {
+   "section": "Verse 2",
+   "text": "He is fifty-five years old!",
+   "words": [
+    {
+     "t": "He",
+     "start": 60.14,
+     "end": 60.24
+    },
+    {
+     "t": "is",
+     "start": 60.24,
+     "end": 60.84
+    },
+    {
+     "t": "fifty-five",
+     "start": 60.89,
+     "end": 61.31,
+     "pic": "fiftyfive"
+    },
+    {
+     "t": "years",
+     "start": 61.94,
+     "end": 62.9
+    },
+    {
+     "t": "old!",
+     "start": 62.86,
+     "end": 63.2
+    }
+   ],
+   "n": 15,
+   "start": 60.14,
+   "end": 63.2,
+   "pic": "fiftyfive"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 63.26,
+     "end": 63.5
+    },
+    {
+     "t": "old",
+     "start": 63.5,
+     "end": 63.78
+    },
+    {
+     "t": "is",
+     "start": 63.78,
+     "end": 64.16
+    },
+    {
+     "t": "she?",
+     "start": 64.12,
+     "end": 64.56
+    }
+   ],
+   "n": 16,
+   "start": 63.26,
+   "end": 64.56,
+   "pic": "fiftyfive"
+  },
+  {
+   "section": "Verse 2",
+   "text": "She is seventy-seven years old!",
+   "words": [
+    {
+     "t": "She",
+     "start": 66.36,
+     "end": 66.72
+    },
+    {
+     "t": "is",
+     "start": 67.88,
+     "end": 68.08
+    },
+    {
+     "t": "seventy-seven",
+     "start": 68.13,
+     "end": 68.53,
+     "pic": "seventyseven"
+    },
+    {
+     "t": "years",
+     "start": 68.72,
+     "end": 70.0
+    },
+    {
+     "t": "old!",
+     "start": 70.0,
+     "end": 71.44
+    }
+   ],
+   "n": 17,
+   "start": 66.36,
+   "end": 71.44,
+   "pic": "seventyseven"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old is he? How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 72.32,
+     "end": 72.6
+    },
+    {
+     "t": "old",
+     "start": 72.6,
+     "end": 73.26
+    },
+    {
+     "t": "is",
+     "start": 73.22,
+     "end": 73.78
+    },
+    {
+     "t": "he?",
+     "start": 73.72,
+     "end": 73.82
+    },
+    {
+     "t": "How",
+     "start": 74.7,
+     "end": 74.98
+    },
+    {
+     "t": "old",
+     "start": 74.94,
+     "end": 75.52
+    },
+    {
+     "t": "is",
+     "start": 75.54,
+     "end": 76.0
+    },
+    {
+     "t": "she?",
+     "start": 75.98,
+     "end": 76.44
+    }
+   ],
+   "n": 18,
+   "start": 72.32,
+   "end": 76.44,
+   "pic": "seventyseven"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is five! She is ten!",
+   "words": [
+    {
+     "t": "He",
+     "start": 76.66,
+     "end": 76.96
+    },
+    {
+     "t": "is",
+     "start": 76.92,
+     "end": 77.34
+    },
+    {
+     "t": "five!",
+     "start": 77.18,
+     "end": 77.72,
+     "pic": "five"
+    },
+    {
+     "t": "She",
+     "start": 78.28,
+     "end": 78.52
+    },
+    {
+     "t": "is",
+     "start": 78.52,
+     "end": 78.96
+    },
+    {
+     "t": "ten!",
+     "start": 78.96,
+     "end": 79.84,
+     "pic": "ten"
+    }
+   ],
+   "n": 19,
+   "start": 76.66,
+   "end": 79.84,
+   "pic": "five"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old is he? How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 81.46,
+     "end": 81.72
+    },
+    {
+     "t": "old",
+     "start": 81.7,
+     "end": 82.36
+    },
+    {
+     "t": "is",
+     "start": 82.34,
+     "end": 82.88
+    },
+    {
+     "t": "he?",
+     "start": 82.88,
+     "end": 82.98
+    },
+    {
+     "t": "How",
+     "start": 83.78,
+     "end": 84.12
+    },
+    {
+     "t": "old",
+     "start": 84.02,
+     "end": 84.68
+    },
+    {
+     "t": "is",
+     "start": 84.66,
+     "end": 85.1
+    },
+    {
+     "t": "she?",
+     "start": 85.1,
+     "end": 85.68
+    }
+   ],
+   "n": 20,
+   "start": 81.46,
+   "end": 85.68,
+   "pic": "five"
+  },
+  {
+   "section": "Chorus",
+   "text": "Years old, years old!",
+   "words": [
+    {
+     "t": "Years",
+     "start": 85.85,
+     "end": 86.22
+    },
+    {
+     "t": "old,",
+     "start": 86.28,
+     "end": 87.04
+    },
+    {
+     "t": "years",
+     "start": 87.46,
+     "end": 87.86
+    },
+    {
+     "t": "old!",
+     "start": 87.92,
+     "end": 88.6
+    }
+   ],
+   "n": 21,
+   "start": 85.85,
+   "end": 88.6,
+   "pic": "five"
+  },
+  {
+   "section": "Bridge",
+   "text": "He is one hundred years old!",
+   "words": [
+    {
+     "t": "He",
+     "start": 102.0,
+     "end": 105.26
+    },
+    {
+     "t": "is",
+     "start": 105.26,
+     "end": 108.8
+    },
+    {
+     "t": "one",
+     "start": 108.85,
+     "end": 109.24
+    },
+    {
+     "t": "hundred",
+     "start": 109.27,
+     "end": 109.67
+    },
+    {
+     "t": "years",
+     "start": 109.86,
+     "end": 111.86
+    },
+    {
+     "t": "old!",
+     "start": 111.86,
+     "end": 112.88
+    }
+   ],
+   "n": 22,
+   "start": 102.0,
+   "end": 112.88,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Bridge",
+   "text": "One hundred? Wow!",
+   "words": [
+    {
+     "t": "One",
+     "start": 113.8,
+     "end": 114.27
+    },
+    {
+     "t": "hundred?",
+     "start": 114.32,
+     "end": 115.27
+    },
+    {
+     "t": "Wow!",
+     "start": 115.37,
+     "end": 115.94
+    }
+   ],
+   "n": 23,
+   "start": 113.8,
+   "end": 115.94,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old is he? How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 118.02,
+     "end": 118.22
+    },
+    {
+     "t": "old",
+     "start": 118.22,
+     "end": 118.88
+    },
+    {
+     "t": "is",
+     "start": 118.88,
+     "end": 119.42
+    },
+    {
+     "t": "he?",
+     "start": 119.4,
+     "end": 120.0
+    },
+    {
+     "t": "How",
+     "start": 120.34,
+     "end": 120.56
+    },
+    {
+     "t": "old",
+     "start": 120.56,
+     "end": 121.18
+    },
+    {
+     "t": "is",
+     "start": 121.18,
+     "end": 121.62
+    },
+    {
+     "t": "she?",
+     "start": 121.64,
+     "end": 122.08
+    }
+   ],
+   "n": 24,
+   "start": 118.02,
+   "end": 122.08,
+   "pic": "onehundred"
+  },
+  {
+   "section": "Chorus",
+   "text": "He is five! She is ten!",
+   "words": [
+    {
+     "t": "He",
+     "start": 122.36,
+     "end": 122.52
+    },
+    {
+     "t": "is",
+     "start": 122.56,
+     "end": 122.84
+    },
+    {
+     "t": "five!",
+     "start": 122.84,
+     "end": 123.44,
+     "pic": "five"
+    },
+    {
+     "t": "She",
+     "start": 124.0,
+     "end": 124.2
+    },
+    {
+     "t": "is",
+     "start": 124.2,
+     "end": 124.54
+    },
+    {
+     "t": "ten!",
+     "start": 124.58,
+     "end": 125.58,
+     "pic": "ten"
+    }
+   ],
+   "n": 25,
+   "start": 122.36,
+   "end": 125.58,
+   "pic": "five"
+  },
+  {
+   "section": "Chorus",
+   "text": "How old is he? How old is she?",
+   "words": [
+    {
+     "t": "How",
+     "start": 127.2,
+     "end": 127.4
+    },
+    {
+     "t": "old",
+     "start": 127.4,
+     "end": 127.86
+    },
+    {
+     "t": "is",
+     "start": 128.02,
+     "end": 128.58
+    },
+    {
+     "t": "he?",
+     "start": 128.56,
+     "end": 129.12
+    },
+    {
+     "t": "How",
+     "start": 129.46,
+     "end": 129.72
+    },
+    {
+     "t": "old",
+     "start": 129.78,
+     "end": 130.34
+    },
+    {
+     "t": "is",
+     "start": 130.32,
+     "end": 130.76
+    },
+    {
+     "t": "she?",
+     "start": 130.78,
+     "end": 131.28
+    }
+   ],
+   "n": 26,
+   "start": 127.2,
+   "end": 131.28,
+   "pic": "five"
+  },
+  {
+   "section": "Chorus",
+   "text": "Years old, years old!",
+   "words": [
+    {
+     "t": "Years",
+     "start": 131.6,
+     "end": 131.96
+    },
+    {
+     "t": "old,",
+     "start": 131.96,
+     "end": 132.6
+    },
+    {
+     "t": "years",
+     "start": 133.18,
+     "end": 133.58
+    },
+    {
+     "t": "old!",
+     "start": 133.6,
+     "end": 134.75
+    }
+   ],
+   "n": 27,
+   "start": 131.6,
+   "end": 134.75,
+   "pic": "five"
+  },
+  {
+   "section": "Outro",
+   "text": "How old is he?",
+   "words": [
+    {
+     "t": "How",
+     "start": 136.24,
+     "end": 136.52
+    },
+    {
+     "t": "old",
+     "start": 136.52,
+     "end": 136.9
+    },
+    {
+     "t": "is",
+     "start": 136.9,
+     "end": 137.24
+    },
+    {
+     "t": "he?",
+     "start": 137.12,
+     "end": 137.46
+    }
+   ],
+   "n": 28,
+   "start": 136.24,
+   "end": 137.46,
+   "pic": "five"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "five",
+   "prompt": "How old is he?",
+   "answer": "He is five years old!",
+   "choices": [
+    "He is five years old!",
+    "He is ten years old!",
+    "He is fifteen years old!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. She is ... years old!",
+   "answer": "ten",
+   "choices": [
+    "ten",
+    "five",
+    "thirty"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "thirty",
+   "prompt": "How old is she?",
+   "answer": "She is thirty years old!",
+   "choices": [
+    "She is fifty-five years old!",
+    "She is thirty years old!",
+    "She is ten years old!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 15,
+   "prompt": "Listen. He is ... years old!",
+   "answer": "fifty-five",
+   "choices": [
+    "fifty-five",
+    "seventy-seven",
+    "fifteen"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "onehundred",
+   "prompt": "How old is he?",
+   "answer": "He is one hundred years old!",
+   "choices": [
+    "He is one hundred years old!",
+    "He is five years old!",
+    "She is ten years old!"
+   ]
+  }
+ ]
+}

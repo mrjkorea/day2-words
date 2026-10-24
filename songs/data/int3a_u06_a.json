@@ -1,0 +1,1049 @@
+{
+ "id": "int3a_u06_a",
+ "title": "What Is Your Name?",
+ "book": "INT 3A",
+ "unit": 6,
+ "unitTitle": "How Will I Yell Your Name?",
+ "packId": "int3a_u6",
+ "audio": "audio/int3a_u06_a.mp3",
+ "duration": 150.65,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hello! Nice to meet you!",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 2.27,
+     "end": 2.92
+    },
+    {
+     "t": "Nice",
+     "start": 3.68,
+     "end": 3.92
+    },
+    {
+     "t": "to",
+     "start": 3.92,
+     "end": 4.18
+    },
+    {
+     "t": "meet",
+     "start": 4.2,
+     "end": 4.36
+    },
+    {
+     "t": "you!",
+     "start": 4.36,
+     "end": 5.06
+    }
+   ],
+   "n": 1,
+   "start": 2.27,
+   "end": 5.06,
+   "pic": "baker"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 9.94,
+     "end": 10.12
+    },
+    {
+     "t": "What",
+     "start": 10.78,
+     "end": 11.06
+    },
+    {
+     "t": "is",
+     "start": 11.06,
+     "end": 11.32
+    },
+    {
+     "t": "your",
+     "start": 11.32,
+     "end": 11.58
+    },
+    {
+     "t": "name?",
+     "start": 11.58,
+     "end": 12.2
+    }
+   ],
+   "n": 2,
+   "start": 9.94,
+   "end": 12.2,
+   "pic": "baker"
+  },
+  {
+   "section": "Verse 1",
+   "text": "My name is Hunter!",
+   "words": [
+    {
+     "t": "My",
+     "start": 13.12,
+     "end": 13.42
+    },
+    {
+     "t": "name",
+     "start": 13.42,
+     "end": 13.74
+    },
+    {
+     "t": "is",
+     "start": 13.78,
+     "end": 14.02
+    },
+    {
+     "t": "Hunter!",
+     "start": 14.02,
+     "end": 14.52,
+     "pic": "hunter"
+    }
+   ],
+   "n": 3,
+   "start": 13.12,
+   "end": 14.52,
+   "pic": "hunter"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 16.76,
+     "end": 17.22
+    },
+    {
+     "t": "What",
+     "start": 17.89,
+     "end": 18.2
+    },
+    {
+     "t": "is",
+     "start": 18.22,
+     "end": 18.48
+    },
+    {
+     "t": "your",
+     "start": 18.48,
+     "end": 18.72
+    },
+    {
+     "t": "name?",
+     "start": 18.72,
+     "end": 19.38
+    }
+   ],
+   "n": 4,
+   "start": 16.76,
+   "end": 19.38,
+   "pic": "hunter"
+  },
+  {
+   "section": "Verse 1",
+   "text": "My name is Mike!",
+   "words": [
+    {
+     "t": "My",
+     "start": 20.19,
+     "end": 20.46
+    },
+    {
+     "t": "name",
+     "start": 20.48,
+     "end": 20.84
+    },
+    {
+     "t": "is",
+     "start": 20.84,
+     "end": 21.0
+    },
+    {
+     "t": "Mike!",
+     "start": 21.0,
+     "end": 21.34,
+     "pic": "mike"
+    }
+   ],
+   "n": 5,
+   "start": 20.19,
+   "end": 21.34,
+   "pic": "mike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 21.54,
+     "end": 21.98
+    },
+    {
+     "t": "What",
+     "start": 22.6,
+     "end": 22.94
+    },
+    {
+     "t": "is",
+     "start": 22.94,
+     "end": 23.22
+    },
+    {
+     "t": "your",
+     "start": 23.22,
+     "end": 23.52
+    },
+    {
+     "t": "name?",
+     "start": 23.5,
+     "end": 24.3
+    }
+   ],
+   "n": 6,
+   "start": 21.54,
+   "end": 24.3,
+   "pic": "mike"
+  },
+  {
+   "section": "Verse 1",
+   "text": "My name is Ray!",
+   "words": [
+    {
+     "t": "My",
+     "start": 24.96,
+     "end": 25.18
+    },
+    {
+     "t": "name",
+     "start": 25.18,
+     "end": 25.56
+    },
+    {
+     "t": "is",
+     "start": 25.56,
+     "end": 25.82
+    },
+    {
+     "t": "Ray!",
+     "start": 28.18,
+     "end": 28.52
+    }
+   ],
+   "n": 7,
+   "start": 24.96,
+   "end": 28.52,
+   "pic": "mike"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 30.3,
+     "end": 30.82
+    },
+    {
+     "t": "hello!",
+     "start": 31.76,
+     "end": 32.84
+    },
+    {
+     "t": "What",
+     "start": 34.4,
+     "end": 34.6
+    },
+    {
+     "t": "is",
+     "start": 34.6,
+     "end": 34.84
+    },
+    {
+     "t": "your",
+     "start": 34.86,
+     "end": 35.16
+    },
+    {
+     "t": "name?",
+     "start": 35.16,
+     "end": 35.68
+    }
+   ],
+   "n": 8,
+   "start": 30.3,
+   "end": 35.68,
+   "pic": "mike"
+  },
+  {
+   "section": "Chorus",
+   "text": "My name is... My name is...",
+   "words": [
+    {
+     "t": "My",
+     "start": 36.08,
+     "end": 36.3
+    },
+    {
+     "t": "name",
+     "start": 36.3,
+     "end": 37.0
+    },
+    {
+     "t": "is...",
+     "start": 37.0,
+     "end": 38.08
+    },
+    {
+     "t": "My",
+     "start": 38.24,
+     "end": 38.58
+    },
+    {
+     "t": "name",
+     "start": 38.58,
+     "end": 39.1
+    },
+    {
+     "t": "is...",
+     "start": 39.14,
+     "end": 39.98
+    }
+   ],
+   "n": 9,
+   "start": 36.08,
+   "end": 39.98,
+   "pic": "mike"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 39.68,
+     "end": 40.24
+    },
+    {
+     "t": "hello!",
+     "start": 41.24,
+     "end": 42.44
+    },
+    {
+     "t": "What",
+     "start": 43.81,
+     "end": 44.0
+    },
+    {
+     "t": "is",
+     "start": 44.0,
+     "end": 44.28
+    },
+    {
+     "t": "your",
+     "start": 44.26,
+     "end": 44.6
+    },
+    {
+     "t": "name?",
+     "start": 44.58,
+     "end": 45.24
+    }
+   ],
+   "n": 10,
+   "start": 39.68,
+   "end": 45.24,
+   "pic": "mike"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 46.26,
+     "end": 46.42
+    },
+    {
+     "t": "to",
+     "start": 46.36,
+     "end": 46.88
+    },
+    {
+     "t": "meet",
+     "start": 47.1,
+     "end": 47.64
+    },
+    {
+     "t": "you!",
+     "start": 47.6,
+     "end": 48.18
+    }
+   ],
+   "n": 11,
+   "start": 46.26,
+   "end": 48.18,
+   "pic": "mike"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 53.8,
+     "end": 54.7
+    },
+    {
+     "t": "What",
+     "start": 55.3,
+     "end": 55.86
+    },
+    {
+     "t": "is",
+     "start": 55.86,
+     "end": 56.12
+    },
+    {
+     "t": "your",
+     "start": 56.12,
+     "end": 56.3
+    },
+    {
+     "t": "name?",
+     "start": 56.3,
+     "end": 56.66
+    }
+   ],
+   "n": 12,
+   "start": 53.8,
+   "end": 56.66,
+   "pic": "mike"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My name is Rose!",
+   "words": [
+    {
+     "t": "My",
+     "start": 57.86,
+     "end": 58.16
+    },
+    {
+     "t": "name",
+     "start": 58.16,
+     "end": 58.46
+    },
+    {
+     "t": "is",
+     "start": 58.48,
+     "end": 58.7
+    },
+    {
+     "t": "Rose!",
+     "start": 58.7,
+     "end": 59.04,
+     "pic": "rose"
+    }
+   ],
+   "n": 13,
+   "start": 57.86,
+   "end": 59.04,
+   "pic": "rose"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 59.38,
+     "end": 59.58
+    },
+    {
+     "t": "What",
+     "start": 60.26,
+     "end": 60.6
+    },
+    {
+     "t": "is",
+     "start": 60.58,
+     "end": 60.84
+    },
+    {
+     "t": "your",
+     "start": 60.84,
+     "end": 61.08
+    },
+    {
+     "t": "name?",
+     "start": 61.08,
+     "end": 61.68
+    }
+   ],
+   "n": 14,
+   "start": 59.38,
+   "end": 61.68,
+   "pic": "rose"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My name is Ivy!",
+   "words": [
+    {
+     "t": "My",
+     "start": 62.56,
+     "end": 62.84
+    },
+    {
+     "t": "name",
+     "start": 62.84,
+     "end": 63.22
+    },
+    {
+     "t": "is",
+     "start": 63.22,
+     "end": 63.42
+    },
+    {
+     "t": "Ivy!",
+     "start": 63.42,
+     "end": 63.76,
+     "pic": "ivy"
+    }
+   ],
+   "n": 15,
+   "start": 62.56,
+   "end": 63.76,
+   "pic": "ivy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello!",
+     "start": 63.9,
+     "end": 64.32
+    },
+    {
+     "t": "What",
+     "start": 64.96,
+     "end": 65.28
+    },
+    {
+     "t": "is",
+     "start": 65.28,
+     "end": 65.54
+    },
+    {
+     "t": "your",
+     "start": 65.54,
+     "end": 65.8
+    },
+    {
+     "t": "name?",
+     "start": 65.8,
+     "end": 66.56
+    }
+   ],
+   "n": 16,
+   "start": 63.9,
+   "end": 66.56,
+   "pic": "ivy"
+  },
+  {
+   "section": "Verse 2",
+   "text": "My name is Lily!",
+   "words": [
+    {
+     "t": "My",
+     "start": 67.34,
+     "end": 67.56
+    },
+    {
+     "t": "name",
+     "start": 67.56,
+     "end": 67.96
+    },
+    {
+     "t": "is",
+     "start": 67.96,
+     "end": 68.26
+    },
+    {
+     "t": "Lily!",
+     "start": 68.32,
+     "end": 69.22,
+     "pic": "lily"
+    }
+   ],
+   "n": 17,
+   "start": 67.34,
+   "end": 69.22,
+   "pic": "lily"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 72.38,
+     "end": 73.24
+    },
+    {
+     "t": "hello!",
+     "start": 74.16,
+     "end": 75.62
+    },
+    {
+     "t": "What",
+     "start": 76.72,
+     "end": 76.94
+    },
+    {
+     "t": "is",
+     "start": 76.9,
+     "end": 77.18
+    },
+    {
+     "t": "your",
+     "start": 77.18,
+     "end": 77.5
+    },
+    {
+     "t": "name?",
+     "start": 77.5,
+     "end": 78.04
+    }
+   ],
+   "n": 18,
+   "start": 72.38,
+   "end": 78.04,
+   "pic": "lily"
+  },
+  {
+   "section": "Chorus",
+   "text": "My name is... My name is...",
+   "words": [
+    {
+     "t": "My",
+     "start": 78.26,
+     "end": 78.68
+    },
+    {
+     "t": "name",
+     "start": 78.64,
+     "end": 79.26
+    },
+    {
+     "t": "is...",
+     "start": 79.36,
+     "end": 80.71
+    },
+    {
+     "t": "My",
+     "start": 80.6,
+     "end": 81.0
+    },
+    {
+     "t": "name",
+     "start": 80.98,
+     "end": 81.5
+    },
+    {
+     "t": "is...",
+     "start": 81.5,
+     "end": 81.92
+    }
+   ],
+   "n": 19,
+   "start": 78.26,
+   "end": 81.92,
+   "pic": "lily"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 82.52,
+     "end": 82.72
+    },
+    {
+     "t": "hello!",
+     "start": 83.58,
+     "end": 85.22
+    },
+    {
+     "t": "What",
+     "start": 86.18,
+     "end": 86.36
+    },
+    {
+     "t": "is",
+     "start": 86.36,
+     "end": 86.64
+    },
+    {
+     "t": "your",
+     "start": 86.64,
+     "end": 86.96
+    },
+    {
+     "t": "name?",
+     "start": 86.96,
+     "end": 87.58
+    }
+   ],
+   "n": 20,
+   "start": 82.52,
+   "end": 87.58,
+   "pic": "lily"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 88.36,
+     "end": 88.68
+    },
+    {
+     "t": "to",
+     "start": 88.68,
+     "end": 89.22
+    },
+    {
+     "t": "meet",
+     "start": 91.6,
+     "end": 92.0
+    },
+    {
+     "t": "you!",
+     "start": 92.0,
+     "end": 93.18
+    }
+   ],
+   "n": 21,
+   "start": 88.36,
+   "end": 93.18,
+   "pic": "lily"
+  },
+  {
+   "section": "Bridge",
+   "text": "I am Mr. Jay! Hey!",
+   "words": [
+    {
+     "t": "I",
+     "start": 96.42,
+     "end": 96.78
+    },
+    {
+     "t": "am",
+     "start": 96.8,
+     "end": 97.52
+    },
+    {
+     "t": "Mr.",
+     "start": 97.52,
+     "end": 98.42
+    },
+    {
+     "t": "Jay!",
+     "start": 98.47,
+     "end": 98.89
+    },
+    {
+     "t": "Hey!",
+     "start": 100.44,
+     "end": 101.08
+    }
+   ],
+   "n": 22,
+   "start": 96.42,
+   "end": 101.08,
+   "pic": "lily"
+  },
+  {
+   "section": "Bridge",
+   "text": "Nice to meet you all!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 108.42,
+     "end": 108.72
+    },
+    {
+     "t": "to",
+     "start": 108.64,
+     "end": 108.88
+    },
+    {
+     "t": "meet",
+     "start": 108.9,
+     "end": 109.08
+    },
+    {
+     "t": "you",
+     "start": 109.08,
+     "end": 109.34
+    },
+    {
+     "t": "all!",
+     "start": 109.34,
+     "end": 109.7
+    }
+   ],
+   "n": 23,
+   "start": 108.42,
+   "end": 109.7,
+   "pic": "lily"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 110.6,
+     "end": 111.0
+    },
+    {
+     "t": "hello!",
+     "start": 111.76,
+     "end": 113.08
+    },
+    {
+     "t": "What",
+     "start": 114.34,
+     "end": 114.58
+    },
+    {
+     "t": "is",
+     "start": 114.58,
+     "end": 114.84
+    },
+    {
+     "t": "your",
+     "start": 114.84,
+     "end": 115.14
+    },
+    {
+     "t": "name?",
+     "start": 115.14,
+     "end": 115.64
+    }
+   ],
+   "n": 24,
+   "start": 110.6,
+   "end": 115.64,
+   "pic": "lily"
+  },
+  {
+   "section": "Chorus",
+   "text": "My name is... My name is...",
+   "words": [
+    {
+     "t": "My",
+     "start": 115.88,
+     "end": 116.26
+    },
+    {
+     "t": "name",
+     "start": 116.26,
+     "end": 116.9
+    },
+    {
+     "t": "is...",
+     "start": 116.9,
+     "end": 117.94
+    },
+    {
+     "t": "My",
+     "start": 117.94,
+     "end": 118.48
+    },
+    {
+     "t": "name",
+     "start": 118.48,
+     "end": 119.14
+    },
+    {
+     "t": "is...",
+     "start": 119.14,
+     "end": 119.48
+    }
+   ],
+   "n": 25,
+   "start": 115.88,
+   "end": 119.48,
+   "pic": "lily"
+  },
+  {
+   "section": "Chorus",
+   "text": "Hello, hello! What is your name?",
+   "words": [
+    {
+     "t": "Hello,",
+     "start": 119.66,
+     "end": 120.3
+    },
+    {
+     "t": "hello!",
+     "start": 121.7,
+     "end": 122.24
+    },
+    {
+     "t": "What",
+     "start": 123.81,
+     "end": 123.98
+    },
+    {
+     "t": "is",
+     "start": 123.98,
+     "end": 124.26
+    },
+    {
+     "t": "your",
+     "start": 124.22,
+     "end": 124.56
+    },
+    {
+     "t": "name?",
+     "start": 124.56,
+     "end": 125.1
+    }
+   ],
+   "n": 26,
+   "start": 119.66,
+   "end": 125.1,
+   "pic": "lily"
+  },
+  {
+   "section": "Chorus",
+   "text": "Nice to meet you!",
+   "words": [
+    {
+     "t": "Nice",
+     "start": 126.1,
+     "end": 126.42
+    },
+    {
+     "t": "to",
+     "start": 126.38,
+     "end": 126.86
+    },
+    {
+     "t": "meet",
+     "start": 126.86,
+     "end": 127.5
+    },
+    {
+     "t": "you!",
+     "start": 127.6,
+     "end": 127.68
+    }
+   ],
+   "n": 27,
+   "start": 126.1,
+   "end": 127.68,
+   "pic": "lily"
+  },
+  {
+   "section": "Outro",
+   "text": "What is your name?",
+   "words": [
+    {
+     "t": "What",
+     "start": 134.2,
+     "end": 134.8
+    },
+    {
+     "t": "is",
+     "start": 134.72,
+     "end": 136.36
+    },
+    {
+     "t": "your",
+     "start": 136.84,
+     "end": 137.6
+    },
+    {
+     "t": "name?",
+     "start": 137.6,
+     "end": 138.76
+    }
+   ],
+   "n": 28,
+   "start": 134.2,
+   "end": 138.76,
+   "pic": "lily"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "rose",
+   "prompt": "What is your name?",
+   "answer": "My name is Rose!",
+   "choices": [
+    "My name is Rose!",
+    "I am ten!",
+    "It is soft!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 3,
+   "prompt": "Listen. My name is ...",
+   "answer": "Hunter",
+   "choices": [
+    "Hunter",
+    "Mike",
+    "Lily"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "mike",
+   "prompt": "What is your name?",
+   "answer": "My name is Mike!",
+   "choices": [
+    "My name is Ivy!",
+    "My name is Mike!",
+    "My name is Rose!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 15,
+   "prompt": "Listen. My name is ...",
+   "answer": "Ivy",
+   "choices": [
+    "Ivy",
+    "Rose",
+    "Hunter"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "lily",
+   "prompt": "Hello! What is your name?",
+   "answer": "My name is Lily!",
+   "choices": [
+    "My name is Lily!",
+    "Nice to meet you!",
+    "Yes, sir!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,822 @@
+{
+ "id": "int3a_u07_a",
+ "title": "Stand Up! Yes, Sir!",
+ "book": "INT 3A",
+ "unit": 7,
+ "unitTitle": "Gym Class",
+ "packId": "int3a_u7",
+ "audio": "audio/int3a_u07_a.mp3",
+ "duration": 150.77,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Gym class! Line up!",
+   "words": [
+    {
+     "t": "Gym",
+     "start": 6.16,
+     "end": 6.4
+    },
+    {
+     "t": "class!",
+     "start": 6.4,
+     "end": 6.8
+    },
+    {
+     "t": "Line",
+     "start": 7.68,
+     "end": 7.98
+    },
+    {
+     "t": "up!",
+     "start": 8.0,
+     "end": 8.4
+    }
+   ],
+   "n": 1,
+   "start": 6.16,
+   "end": 8.4,
+   "pic": "clap"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Stand up!",
+   "words": [
+    {
+     "t": "Stand",
+     "start": 19.4,
+     "end": 19.5,
+     "pic": "stand"
+    },
+    {
+     "t": "up!",
+     "start": 19.5,
+     "end": 19.88
+    }
+   ],
+   "n": 2,
+   "start": 8.5,
+   "end": 9.7,
+   "pic": "stand"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, sir!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 21.2,
+     "end": 21.5
+    },
+    {
+     "t": "sir!",
+     "start": 21.5,
+     "end": 22.26
+    }
+   ],
+   "n": 3,
+   "start": 21.2,
+   "end": 22.26,
+   "pic": "stand"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Run around!",
+   "words": [
+    {
+     "t": "Run",
+     "start": 23.44,
+     "end": 23.72,
+     "pic": "run"
+    },
+    {
+     "t": "around!",
+     "start": 23.72,
+     "end": 24.68
+    }
+   ],
+   "n": 4,
+   "start": 23.44,
+   "end": 24.68,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, sir!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 25.38,
+     "end": 25.68
+    },
+    {
+     "t": "sir!",
+     "start": 25.68,
+     "end": 26.74
+    }
+   ],
+   "n": 5,
+   "start": 25.38,
+   "end": 26.74,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Jump rope!",
+   "words": [
+    {
+     "t": "Jump",
+     "start": 32.9,
+     "end": 33.3
+    },
+    {
+     "t": "rope!",
+     "start": 33.32,
+     "end": 34.16
+    }
+   ],
+   "n": 6,
+   "start": 32.9,
+   "end": 34.16,
+   "pic": "run"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Yes, sir!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 34.8,
+     "end": 35.12
+    },
+    {
+     "t": "sir!",
+     "start": 35.12,
+     "end": 36.32
+    }
+   ],
+   "n": 7,
+   "start": 34.8,
+   "end": 36.32,
+   "pic": "run"
+  },
+  {
+   "section": "Chorus",
+   "text": "Stand up! Yes, sir!",
+   "words": [
+    {
+     "t": "Stand",
+     "start": 37.64,
+     "end": 38.14,
+     "pic": "stand"
+    },
+    {
+     "t": "up!",
+     "start": 38.12,
+     "end": 39.04
+    },
+    {
+     "t": "Yes,",
+     "start": 40.02,
+     "end": 40.28
+    },
+    {
+     "t": "sir!",
+     "start": 40.3,
+     "end": 41.46
+    }
+   ],
+   "n": 8,
+   "start": 37.64,
+   "end": 41.46,
+   "pic": "stand"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sit down! Yes, sir!",
+   "words": [
+    {
+     "t": "Sit",
+     "start": 42.21,
+     "end": 42.6,
+     "pic": "sit"
+    },
+    {
+     "t": "down!",
+     "start": 42.6,
+     "end": 43.01
+    },
+    {
+     "t": "Yes,",
+     "start": 44.2,
+     "end": 44.6
+    },
+    {
+     "t": "sir!",
+     "start": 44.58,
+     "end": 45.12
+    }
+   ],
+   "n": 9,
+   "start": 42.21,
+   "end": 45.12,
+   "pic": "sit"
+  },
+  {
+   "section": "Chorus",
+   "text": "Clap three times! Clap, clap, clap!",
+   "words": [
+    {
+     "t": "Clap",
+     "start": 47.0,
+     "end": 47.48,
+     "pic": "clap"
+    },
+    {
+     "t": "three",
+     "start": 47.46,
+     "end": 47.98
+    },
+    {
+     "t": "times!",
+     "start": 47.98,
+     "end": 48.29
+    },
+    {
+     "t": "Clap,",
+     "start": 49.98,
+     "end": 51.74,
+     "pic": "clap"
+    },
+    {
+     "t": "clap,",
+     "start": 51.74,
+     "end": 52.8,
+     "pic": "clap"
+    },
+    {
+     "t": "clap!",
+     "start": 52.8,
+     "end": 53.26,
+     "pic": "clap"
+    }
+   ],
+   "n": 10,
+   "start": 47.0,
+   "end": 53.26,
+   "pic": "clapthreetimes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thank you, sir!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 53.66,
+     "end": 53.8
+    },
+    {
+     "t": "you,",
+     "start": 53.8,
+     "end": 54.06
+    },
+    {
+     "t": "sir!",
+     "start": 54.02,
+     "end": 54.77
+    }
+   ],
+   "n": 11,
+   "start": 53.66,
+   "end": 54.77,
+   "pic": "clapthreetimes"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Climb up!",
+   "words": [
+    {
+     "t": "Climb",
+     "start": 56.46,
+     "end": 57.12,
+     "pic": "climb"
+    },
+    {
+     "t": "up!",
+     "start": 57.04,
+     "end": 57.54
+    }
+   ],
+   "n": 12,
+   "start": 56.46,
+   "end": 57.54,
+   "pic": "climb"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, sir!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 63.04,
+     "end": 63.38
+    },
+    {
+     "t": "sir!",
+     "start": 63.36,
+     "end": 64.32
+    }
+   ],
+   "n": 13,
+   "start": 63.04,
+   "end": 64.32,
+   "pic": "climb"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Do jumping jacks!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 65.44,
+     "end": 65.74
+    },
+    {
+     "t": "jumping",
+     "start": 65.76,
+     "end": 66.24
+    },
+    {
+     "t": "jacks!",
+     "start": 66.22,
+     "end": 67.04
+    }
+   ],
+   "n": 14,
+   "start": 65.44,
+   "end": 67.04,
+   "pic": "jumpingjacks"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, sir!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 68.22,
+     "end": 68.48
+    },
+    {
+     "t": "sir!",
+     "start": 68.46,
+     "end": 69.18
+    }
+   ],
+   "n": 15,
+   "start": 68.22,
+   "end": 69.18,
+   "pic": "jumpingjacks"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Dance!",
+   "words": [
+    {
+     "t": "Dance!",
+     "start": 70.46,
+     "end": 71.32,
+     "pic": "dance"
+    }
+   ],
+   "n": 16,
+   "start": 70.46,
+   "end": 71.32,
+   "pic": "dance"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Yes, sir!",
+   "words": [
+    {
+     "t": "Yes,",
+     "start": 72.26,
+     "end": 72.62
+    },
+    {
+     "t": "sir!",
+     "start": 72.68,
+     "end": 73.66
+    }
+   ],
+   "n": 17,
+   "start": 72.26,
+   "end": 73.66,
+   "pic": "dance"
+  },
+  {
+   "section": "Chorus",
+   "text": "Stand up! Yes, sir!",
+   "words": [
+    {
+     "t": "Stand",
+     "start": 75.14,
+     "end": 75.68,
+     "pic": "stand"
+    },
+    {
+     "t": "up!",
+     "start": 75.76,
+     "end": 76.7
+    },
+    {
+     "t": "Yes,",
+     "start": 77.74,
+     "end": 77.98
+    },
+    {
+     "t": "sir!",
+     "start": 77.96,
+     "end": 79.1
+    }
+   ],
+   "n": 18,
+   "start": 75.14,
+   "end": 79.1,
+   "pic": "stand"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sit down! Yes, sir!",
+   "words": [
+    {
+     "t": "Sit",
+     "start": 79.84,
+     "end": 80.28,
+     "pic": "sit"
+    },
+    {
+     "t": "down!",
+     "start": 80.24,
+     "end": 81.52
+    },
+    {
+     "t": "Yes,",
+     "start": 81.88,
+     "end": 82.12
+    },
+    {
+     "t": "sir!",
+     "start": 82.16,
+     "end": 82.9
+    }
+   ],
+   "n": 19,
+   "start": 79.84,
+   "end": 82.9,
+   "pic": "sit"
+  },
+  {
+   "section": "Chorus",
+   "text": "Clap three times! Clap, clap, clap!",
+   "words": [
+    {
+     "t": "Clap",
+     "start": 84.7,
+     "end": 85.14,
+     "pic": "clap"
+    },
+    {
+     "t": "three",
+     "start": 85.1,
+     "end": 85.58
+    },
+    {
+     "t": "times!",
+     "start": 85.58,
+     "end": 87.06
+    },
+    {
+     "t": "Clap,",
+     "start": 87.06,
+     "end": 87.74,
+     "pic": "clap"
+    },
+    {
+     "t": "clap,",
+     "start": 89.88,
+     "end": 90.56,
+     "pic": "clap"
+    },
+    {
+     "t": "clap!",
+     "start": 90.5,
+     "end": 90.6,
+     "pic": "clap"
+    }
+   ],
+   "n": 20,
+   "start": 84.7,
+   "end": 90.6,
+   "pic": "clapthreetimes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thank you, sir!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 91.3,
+     "end": 91.44
+    },
+    {
+     "t": "you,",
+     "start": 91.46,
+     "end": 91.7
+    },
+    {
+     "t": "sir!",
+     "start": 91.72,
+     "end": 92.7
+    }
+   ],
+   "n": 21,
+   "start": 91.3,
+   "end": 92.7,
+   "pic": "clapthreetimes"
+  },
+  {
+   "section": "Bridge",
+   "text": "Turn around! Yes, sir!",
+   "words": [
+    {
+     "t": "Turn",
+     "start": 101.36,
+     "end": 103.76,
+     "pic": "turn"
+    },
+    {
+     "t": "around!",
+     "start": 103.76,
+     "end": 104.56
+    },
+    {
+     "t": "Yes,",
+     "start": 106.04,
+     "end": 106.14
+    },
+    {
+     "t": "sir!",
+     "start": 106.16,
+     "end": 107.12
+    }
+   ],
+   "n": 22,
+   "start": 101.36,
+   "end": 107.12,
+   "pic": "turn"
+  },
+  {
+   "section": "Bridge",
+   "text": "Lie down! Yes, sir!",
+   "words": [
+    {
+     "t": "Lie",
+     "start": 108.24,
+     "end": 108.66
+    },
+    {
+     "t": "down!",
+     "start": 108.56,
+     "end": 109.5
+    },
+    {
+     "t": "Yes,",
+     "start": 110.04,
+     "end": 110.32
+    },
+    {
+     "t": "sir!",
+     "start": 110.32,
+     "end": 111.36
+    }
+   ],
+   "n": 23,
+   "start": 108.24,
+   "end": 111.36,
+   "pic": "turn"
+  },
+  {
+   "section": "Chorus",
+   "text": "Stand up! Yes, sir!",
+   "words": [
+    {
+     "t": "Stand",
+     "start": 112.86,
+     "end": 113.28,
+     "pic": "stand"
+    },
+    {
+     "t": "up!",
+     "start": 113.3,
+     "end": 114.3
+    },
+    {
+     "t": "Yes,",
+     "start": 115.4,
+     "end": 115.62
+    },
+    {
+     "t": "sir!",
+     "start": 115.56,
+     "end": 116.74
+    }
+   ],
+   "n": 24,
+   "start": 112.86,
+   "end": 116.74,
+   "pic": "stand"
+  },
+  {
+   "section": "Chorus",
+   "text": "Sit down! Yes, sir!",
+   "words": [
+    {
+     "t": "Sit",
+     "start": 117.5,
+     "end": 117.9,
+     "pic": "sit"
+    },
+    {
+     "t": "down!",
+     "start": 117.9,
+     "end": 118.46
+    },
+    {
+     "t": "Yes,",
+     "start": 119.58,
+     "end": 119.98
+    },
+    {
+     "t": "sir!",
+     "start": 119.86,
+     "end": 121.7
+    }
+   ],
+   "n": 25,
+   "start": 117.5,
+   "end": 121.7,
+   "pic": "sit"
+  },
+  {
+   "section": "Chorus",
+   "text": "Clap three times! Clap, clap, clap!",
+   "words": [
+    {
+     "t": "Clap",
+     "start": 122.34,
+     "end": 122.68,
+     "pic": "clap"
+    },
+    {
+     "t": "three",
+     "start": 122.7,
+     "end": 123.26
+    },
+    {
+     "t": "times!",
+     "start": 123.26,
+     "end": 123.88
+    },
+    {
+     "t": "Clap,",
+     "start": 126.56,
+     "end": 127.5,
+     "pic": "clap"
+    },
+    {
+     "t": "clap,",
+     "start": 127.94,
+     "end": 128.14,
+     "pic": "clap"
+    },
+    {
+     "t": "clap!",
+     "start": 128.34,
+     "end": 128.62,
+     "pic": "clap"
+    }
+   ],
+   "n": 26,
+   "start": 122.34,
+   "end": 128.62,
+   "pic": "clapthreetimes"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thank you, sir!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 129.0,
+     "end": 129.08
+    },
+    {
+     "t": "you,",
+     "start": 129.08,
+     "end": 129.3
+    },
+    {
+     "t": "sir!",
+     "start": 129.3,
+     "end": 129.85
+    }
+   ],
+   "n": 27,
+   "start": 129.0,
+   "end": 129.85,
+   "pic": "clapthreetimes"
+  },
+  {
+   "section": "Outro",
+   "text": "Thank you, sir!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 129.9,
+     "end": 130.1
+    },
+    {
+     "t": "you,",
+     "start": 130.12,
+     "end": 130.29
+    },
+    {
+     "t": "sir!",
+     "start": 130.31,
+     "end": 130.48
+    }
+   ],
+   "n": 28,
+   "start": 129.95,
+   "end": 131.75,
+   "pic": "clapthreetimes"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "stand",
+   "prompt": "Stand up!",
+   "answer": "Yes, sir!",
+   "choices": [
+    "Yes, sir!",
+    "No, I cannot!",
+    "It is soft!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 6,
+   "prompt": "Listen. Jump ...!",
+   "answer": "rope",
+   "choices": [
+    "rope",
+    "around",
+    "up"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "clapthreetimes",
+   "prompt": "Clap three times!",
+   "answer": "Clap, clap, clap!",
+   "choices": [
+    "Clap, clap, clap!",
+    "Stand up!",
+    "Sit down!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 14,
+   "prompt": "Listen. Do jumping ...!",
+   "answer": "jacks",
+   "choices": [
+    "jacks",
+    "rope",
+    "around"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "sit",
+   "prompt": "What is this?",
+   "answer": "Sit down!",
+   "choices": [
+    "Sit down!",
+    "Stand up!",
+    "Dance!"
+   ]
+  }
+ ]
+}
