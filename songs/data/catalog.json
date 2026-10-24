@@ -503,6 +503,60 @@
    "unitTitle": "Introduction",
    "blurb": "Nice to meet you! Where are you from? I am from Busan!",
    "packId": "int3a_u8"
+  },
+  {
+   "id": "int3b_u01_a",
+   "title": "What Grade Are You In?",
+   "book": "INT 3B",
+   "unit": 1,
+   "unitTitle": "What Grade Are You In?",
+   "blurb": "What grade are you in? I am in the fifth grade!",
+   "packId": "int3b_u1"
+  },
+  {
+   "id": "int3b_u03_b",
+   "title": "Slower, Please!",
+   "book": "INT 3B",
+   "unit": 3,
+   "unitTitle": "Bigger Please!",
+   "blurb": "Slower, please! Okay, slower!",
+   "packId": "int3b_u3"
+  },
+  {
+   "id": "int3b_u04_a",
+   "title": "Who Is This?",
+   "book": "INT 3B",
+   "unit": 4,
+   "unitTitle": "Who Is This?",
+   "blurb": "Who is this? Is she your mom? No, she is my aunt!",
+   "packId": "int3b_u4"
+  },
+  {
+   "id": "int3b_u05_b",
+   "title": "Slow Down! Okay, Coach!",
+   "book": "INT 3B",
+   "unit": 5,
+   "unitTitle": "Eat Up",
+   "blurb": "Slow down! Okay, coach! Quiet down! All right!",
+   "packId": "int3b_u5"
+  },
+  {
+   "id": "int3b_u06_b",
+   "title": "They Are Mangos",
+   "book": "INT 3B",
+   "unit": 6,
+   "unitTitle": "What Fruit Are These?",
+   "blurb": "What fruit are these? They are mangos!",
+   "packId": "int3b_u6"
+  },
+  {
+   "id": "int3b_u08_b",
+   "title": "Who, What, Where, Why?",
+   "book": "INT 3B",
+   "unit": 8,
+   "unitTitle": "Do You Like Korea?",
+   "blurb": "Where are you from? I am from Canada!",
+   "packId": "int3b_u8"
   }
  ]
 }

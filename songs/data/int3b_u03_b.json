@@ -1,0 +1,703 @@
+{
+ "id": "int3b_u03_b",
+ "title": "Slower, Please!",
+ "book": "INT 3B",
+ "unit": 3,
+ "unitTitle": "Bigger Please!",
+ "packId": "int3b_u3",
+ "audio": "audio/int3b_u03_b.mp3",
+ "duration": 133.85,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Too fast! Slower, please!",
+   "words": [
+    {
+     "t": "Too",
+     "start": 0.14,
+     "end": 0.46
+    },
+    {
+     "t": "fast!",
+     "start": 0.44,
+     "end": 1.18
+    },
+    {
+     "t": "Slower,",
+     "start": 2.1,
+     "end": 2.86,
+     "pic": "slower"
+    },
+    {
+     "t": "please!",
+     "start": 2.86,
+     "end": 3.8
+    }
+   ],
+   "n": 1,
+   "start": 0.14,
+   "end": 3.8,
+   "pic": "slowerplease"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Slower, please!",
+   "words": [
+    {
+     "t": "Slower,",
+     "start": 17.46,
+     "end": 18.12,
+     "pic": "slower"
+    },
+    {
+     "t": "please!",
+     "start": 18.12,
+     "end": 18.92
+    }
+   ],
+   "n": 2,
+   "start": 17.46,
+   "end": 18.92,
+   "pic": "slowerplease"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, slower!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 19.64,
+     "end": 20.08
+    },
+    {
+     "t": "slower!",
+     "start": 20.1,
+     "end": 20.52,
+     "pic": "slower"
+    }
+   ],
+   "n": 3,
+   "start": 19.64,
+   "end": 20.52,
+   "pic": "slower"
+  },
+  {
+   "section": "Verse 1",
+   "text": "More, please!",
+   "words": [
+    {
+     "t": "More,",
+     "start": 23.14,
+     "end": 23.7,
+     "pic": "more"
+    },
+    {
+     "t": "please!",
+     "start": 23.7,
+     "end": 24.6
+    }
+   ],
+   "n": 4,
+   "start": 23.14,
+   "end": 24.6,
+   "pic": "more"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, more!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 26.96,
+     "end": 27.06
+    },
+    {
+     "t": "more!",
+     "start": 28.02,
+     "end": 28.5,
+     "pic": "more"
+    }
+   ],
+   "n": 5,
+   "start": 26.96,
+   "end": 28.5,
+   "pic": "more"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Less, please!",
+   "words": [
+    {
+     "t": "Less,",
+     "start": 31.48,
+     "end": 31.58,
+     "pic": "less"
+    },
+    {
+     "t": "please!",
+     "start": 31.88,
+     "end": 32.36
+    }
+   ],
+   "n": 6,
+   "start": 31.48,
+   "end": 32.36,
+   "pic": "less"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, less!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 34.82,
+     "end": 35.46
+    },
+    {
+     "t": "less!",
+     "start": 35.72,
+     "end": 36.08,
+     "pic": "less"
+    }
+   ],
+   "n": 7,
+   "start": 34.82,
+   "end": 36.08,
+   "pic": "less"
+  },
+  {
+   "section": "Chorus",
+   "text": "Slower, please! Slower!",
+   "words": [
+    {
+     "t": "Slower,",
+     "start": 38.8,
+     "end": 39.02,
+     "pic": "slower"
+    },
+    {
+     "t": "please!",
+     "start": 39.42,
+     "end": 40.14
+    },
+    {
+     "t": "Slower!",
+     "start": 40.8,
+     "end": 41.12,
+     "pic": "slower"
+    }
+   ],
+   "n": 8,
+   "start": 38.8,
+   "end": 41.12,
+   "pic": "slowerplease"
+  },
+  {
+   "section": "Chorus",
+   "text": "Warmer, please! Warmer!",
+   "words": [
+    {
+     "t": "Warmer,",
+     "start": 42.5,
+     "end": 43.16,
+     "pic": "warmer"
+    },
+    {
+     "t": "please!",
+     "start": 43.38,
+     "end": 43.92
+    },
+    {
+     "t": "Warmer!",
+     "start": 44.3,
+     "end": 45.24,
+     "pic": "warmer"
+    }
+   ],
+   "n": 9,
+   "start": 42.5,
+   "end": 45.24,
+   "pic": "warmer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Cooler, please! Cooler!",
+   "words": [
+    {
+     "t": "Cooler,",
+     "start": 46.32,
+     "end": 47.12,
+     "pic": "cooler"
+    },
+    {
+     "t": "please!",
+     "start": 47.26,
+     "end": 47.84
+    },
+    {
+     "t": "Cooler!",
+     "start": 48.24,
+     "end": 49.16,
+     "pic": "cooler"
+    }
+   ],
+   "n": 10,
+   "start": 46.32,
+   "end": 49.16,
+   "pic": "cooler"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thank you!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 50.06,
+     "end": 50.62
+    },
+    {
+     "t": "you!",
+     "start": 50.62,
+     "end": 51.54
+    }
+   ],
+   "n": 11,
+   "start": 50.06,
+   "end": 51.54,
+   "pic": "cooler"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Higher, please!",
+   "words": [
+    {
+     "t": "Higher,",
+     "start": 51.64,
+     "end": 52.22,
+     "pic": "higher"
+    },
+    {
+     "t": "please!",
+     "start": 52.24,
+     "end": 52.84
+    }
+   ],
+   "n": 12,
+   "start": 51.64,
+   "end": 52.84,
+   "pic": "higher"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Okay, higher!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 55.76,
+     "end": 58.34
+    },
+    {
+     "t": "higher!",
+     "start": 58.46,
+     "end": 59.1,
+     "pic": "higher"
+    }
+   ],
+   "n": 13,
+   "start": 55.76,
+   "end": 59.1,
+   "pic": "higher"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Bigger, please!",
+   "words": [
+    {
+     "t": "Bigger,",
+     "start": 61.48,
+     "end": 62.44
+    },
+    {
+     "t": "please!",
+     "start": 62.38,
+     "end": 63.08
+    }
+   ],
+   "n": 14,
+   "start": 61.48,
+   "end": 63.08,
+   "pic": "higher"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Okay, bigger!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 63.62,
+     "end": 64.1
+    },
+    {
+     "t": "bigger!",
+     "start": 64.1,
+     "end": 66.98
+    }
+   ],
+   "n": 15,
+   "start": 63.62,
+   "end": 66.98,
+   "pic": "higher"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Smaller, please!",
+   "words": [
+    {
+     "t": "Smaller,",
+     "start": 69.04,
+     "end": 70.2,
+     "pic": "smaller"
+    },
+    {
+     "t": "please!",
+     "start": 70.36,
+     "end": 70.78
+    }
+   ],
+   "n": 16,
+   "start": 69.04,
+   "end": 70.78,
+   "pic": "smaller"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Okay, smaller!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 71.26,
+     "end": 73.72
+    },
+    {
+     "t": "smaller!",
+     "start": 73.82,
+     "end": 74.46,
+     "pic": "smaller"
+    }
+   ],
+   "n": 17,
+   "start": 71.26,
+   "end": 74.46,
+   "pic": "smaller"
+  },
+  {
+   "section": "Chorus",
+   "text": "Slower, please! Slower!",
+   "words": [
+    {
+     "t": "Slower,",
+     "start": 75.54,
+     "end": 76.04,
+     "pic": "slower"
+    },
+    {
+     "t": "please!",
+     "start": 77.48,
+     "end": 78.3
+    },
+    {
+     "t": "Slower!",
+     "start": 78.88,
+     "end": 79.48,
+     "pic": "slower"
+    }
+   ],
+   "n": 18,
+   "start": 75.54,
+   "end": 79.48,
+   "pic": "slowerplease"
+  },
+  {
+   "section": "Chorus",
+   "text": "Warmer, please! Warmer!",
+   "words": [
+    {
+     "t": "Warmer,",
+     "start": 80.58,
+     "end": 81.46,
+     "pic": "warmer"
+    },
+    {
+     "t": "please!",
+     "start": 81.88,
+     "end": 82.08
+    },
+    {
+     "t": "Warmer!",
+     "start": 82.58,
+     "end": 82.82,
+     "pic": "warmer"
+    }
+   ],
+   "n": 19,
+   "start": 80.58,
+   "end": 82.82,
+   "pic": "warmer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Cooler, please! Cooler!",
+   "words": [
+    {
+     "t": "Cooler,",
+     "start": 85.2,
+     "end": 85.68,
+     "pic": "cooler"
+    },
+    {
+     "t": "please!",
+     "start": 85.7,
+     "end": 86.18
+    },
+    {
+     "t": "Cooler!",
+     "start": 86.2,
+     "end": 86.7,
+     "pic": "cooler"
+    }
+   ],
+   "n": 20,
+   "start": 85.2,
+   "end": 86.7,
+   "pic": "cooler"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thank you!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 87.0,
+     "end": 87.12
+    },
+    {
+     "t": "you!",
+     "start": 87.12,
+     "end": 91.76
+    }
+   ],
+   "n": 21,
+   "start": 87.0,
+   "end": 91.76,
+   "pic": "cooler"
+  },
+  {
+   "section": "Bridge",
+   "text": "Faster! Harder! Better! Stronger!",
+   "words": [
+    {
+     "t": "Faster!",
+     "start": 92.22,
+     "end": 92.72
+    },
+    {
+     "t": "Harder!",
+     "start": 93.14,
+     "end": 93.52
+    },
+    {
+     "t": "Better!",
+     "start": 94.18,
+     "end": 94.62
+    },
+    {
+     "t": "Stronger!",
+     "start": 95.12,
+     "end": 95.7
+    }
+   ],
+   "n": 22,
+   "start": 92.22,
+   "end": 95.7,
+   "pic": "cooler"
+  },
+  {
+   "section": "Chorus",
+   "text": "Slower, please! Slower!",
+   "words": [
+    {
+     "t": "Slower,",
+     "start": 108.08,
+     "end": 108.28,
+     "pic": "slower"
+    },
+    {
+     "t": "please!",
+     "start": 108.28,
+     "end": 109.18
+    },
+    {
+     "t": "Slower!",
+     "start": 109.58,
+     "end": 110.36,
+     "pic": "slower"
+    }
+   ],
+   "n": 23,
+   "start": 108.08,
+   "end": 110.36,
+   "pic": "slowerplease"
+  },
+  {
+   "section": "Chorus",
+   "text": "Warmer, please! Warmer!",
+   "words": [
+    {
+     "t": "Warmer,",
+     "start": 111.82,
+     "end": 112.22,
+     "pic": "warmer"
+    },
+    {
+     "t": "please!",
+     "start": 112.42,
+     "end": 112.99
+    },
+    {
+     "t": "Warmer!",
+     "start": 113.5,
+     "end": 114.0,
+     "pic": "warmer"
+    }
+   ],
+   "n": 24,
+   "start": 111.82,
+   "end": 114.0,
+   "pic": "warmer"
+  },
+  {
+   "section": "Chorus",
+   "text": "Cooler, please! Cooler!",
+   "words": [
+    {
+     "t": "Cooler,",
+     "start": 115.5,
+     "end": 116.24,
+     "pic": "cooler"
+    },
+    {
+     "t": "please!",
+     "start": 116.42,
+     "end": 116.94
+    },
+    {
+     "t": "Cooler!",
+     "start": 117.28,
+     "end": 117.94,
+     "pic": "cooler"
+    }
+   ],
+   "n": 25,
+   "start": 115.5,
+   "end": 117.94,
+   "pic": "cooler"
+  },
+  {
+   "section": "Chorus",
+   "text": "Thank you!",
+   "words": [
+    {
+     "t": "Thank",
+     "start": 119.36,
+     "end": 120.0
+    },
+    {
+     "t": "you!",
+     "start": 119.98,
+     "end": 120.76
+    }
+   ],
+   "n": 26,
+   "start": 119.36,
+   "end": 120.76,
+   "pic": "cooler"
+  },
+  {
+   "section": "Outro",
+   "text": "Slower, please!",
+   "words": [
+    {
+     "t": "Slower,",
+     "start": 122.9,
+     "end": 123.7,
+     "pic": "slower"
+    },
+    {
+     "t": "please!",
+     "start": 123.84,
+     "end": 124.54
+    }
+   ],
+   "n": 27,
+   "start": 122.9,
+   "end": 124.54,
+   "pic": "slowerplease"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "slower",
+   "prompt": "Too fast!",
+   "answer": "Slower, please!",
+   "choices": [
+    "Slower, please!",
+    "Louder, please!",
+    "Thank you!"
+   ]
+  },
+  {
+   "type": "listen",
+   "line": 5,
+   "prompt": "Listen. Okay, ...!",
+   "answer": "more",
+   "choices": [
+    "more",
+    "less",
+    "higher"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "warmer",
+   "prompt": "It is cold!",
+   "answer": "Warmer, please!",
+   "choices": [
+    "Warmer, please!",
+    "Cooler, please!",
+    "Slower, please!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "Okay, ___!",
+   "answer": "higher",
+   "choices": [
+    "higher",
+    "bigger",
+    "smaller"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "smaller",
+   "prompt": "Too big!",
+   "answer": "Smaller, please!",
+   "choices": [
+    "Bigger, please!",
+    "Smaller, please!",
+    "More, please!"
+   ]
+  }
+ ]
+}

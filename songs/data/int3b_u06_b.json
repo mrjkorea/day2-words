@@ -1,0 +1,776 @@
+{
+ "id": "int3b_u06_b",
+ "title": "They Are Mangos",
+ "book": "INT 3B",
+ "unit": 6,
+ "unitTitle": "What Fruit Are These?",
+ "packId": "int3b_u6",
+ "audio": "audio/int3b_u06_b.mp3",
+ "duration": 152.35,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Look! Fruit!",
+   "words": [
+    {
+     "t": "Look!",
+     "start": 0.0,
+     "end": 0.1
+    },
+    {
+     "t": "Fruit!",
+     "start": 5.94,
+     "end": 6.26
+    }
+   ],
+   "n": 1,
+   "start": 0.0,
+   "end": 6.26,
+   "pic": "apple"
+  },
+  {
+   "section": "Verse 1",
+   "text": "They are mangos!",
+   "words": [
+    {
+     "t": "They",
+     "start": 19.9,
+     "end": 20.52
+    },
+    {
+     "t": "are",
+     "start": 20.59,
+     "end": 21.11
+    },
+    {
+     "t": "mangos!",
+     "start": 21.16,
+     "end": 22.1
+    }
+   ],
+   "n": 2,
+   "start": 19.9,
+   "end": 22.1,
+   "pic": "apple"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Mangos? Yummy!",
+   "words": [
+    {
+     "t": "Mangos?",
+     "start": 23.8,
+     "end": 24.8
+    },
+    {
+     "t": "Yummy!",
+     "start": 24.91,
+     "end": 25.8
+    }
+   ],
+   "n": 3,
+   "start": 23.8,
+   "end": 25.8,
+   "pic": "apple"
+  },
+  {
+   "section": "Verse 1",
+   "text": "They are bananas!",
+   "words": [
+    {
+     "t": "They",
+     "start": 27.6,
+     "end": 28.01
+    },
+    {
+     "t": "are",
+     "start": 28.06,
+     "end": 28.4
+    },
+    {
+     "t": "bananas!",
+     "start": 28.44,
+     "end": 29.12
+    }
+   ],
+   "n": 4,
+   "start": 27.6,
+   "end": 29.12,
+   "pic": "apple"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Bananas? Yummy!",
+   "words": [
+    {
+     "t": "Bananas?",
+     "start": 31.2,
+     "end": 32.3
+    },
+    {
+     "t": "Yummy!",
+     "start": 32.42,
+     "end": 33.3
+    }
+   ],
+   "n": 5,
+   "start": 31.2,
+   "end": 33.3,
+   "pic": "apple"
+  },
+  {
+   "section": "Verse 1",
+   "text": "They are pineapples!",
+   "words": [
+    {
+     "t": "They",
+     "start": 38.9,
+     "end": 39.44
+    },
+    {
+     "t": "are",
+     "start": 39.5,
+     "end": 39.95
+    },
+    {
+     "t": "pineapples!",
+     "start": 40.0,
+     "end": 41.17
+    }
+   ],
+   "n": 6,
+   "start": 38.9,
+   "end": 41.17,
+   "pic": "pineapple"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Pineapples? Yummy!",
+   "words": [
+    {
+     "t": "Pineapples?",
+     "start": 42.7,
+     "end": 43.76
+    },
+    {
+     "t": "Yummy!",
+     "start": 43.88,
+     "end": 44.53
+    }
+   ],
+   "n": 7,
+   "start": 42.7,
+   "end": 44.53,
+   "pic": "pineapple"
+  },
+  {
+   "section": "Chorus",
+   "text": "These? They are mangos!",
+   "words": [
+    {
+     "t": "These?",
+     "start": 46.3,
+     "end": 47.2
+    },
+    {
+     "t": "They",
+     "start": 47.3,
+     "end": 47.97
+    },
+    {
+     "t": "are",
+     "start": 48.05,
+     "end": 48.61
+    },
+    {
+     "t": "mangos!",
+     "start": 48.67,
+     "end": 49.69
+    }
+   ],
+   "n": 8,
+   "start": 46.3,
+   "end": 49.69,
+   "pic": "pineapple"
+  },
+  {
+   "section": "Chorus",
+   "text": "Those? They are lemons!",
+   "words": [
+    {
+     "t": "Those?",
+     "start": 50.2,
+     "end": 50.77
+    },
+    {
+     "t": "They",
+     "start": 50.83,
+     "end": 51.25
+    },
+    {
+     "t": "are",
+     "start": 51.3,
+     "end": 51.65
+    },
+    {
+     "t": "lemons!",
+     "start": 51.69,
+     "end": 52.33
+    }
+   ],
+   "n": 9,
+   "start": 50.2,
+   "end": 52.33,
+   "pic": "pineapple"
+  },
+  {
+   "section": "Chorus",
+   "text": "What fruit are these?",
+   "words": [
+    {
+     "t": "What",
+     "start": 52.7,
+     "end": 53.18
+    },
+    {
+     "t": "fruit",
+     "start": 53.23,
+     "end": 53.79
+    },
+    {
+     "t": "are",
+     "start": 53.85,
+     "end": 54.25
+    },
+    {
+     "t": "these?",
+     "start": 54.29,
+     "end": 54.93
+    }
+   ],
+   "n": 10,
+   "start": 52.7,
+   "end": 54.93,
+   "pic": "pineapple"
+  },
+  {
+   "section": "Chorus",
+   "text": "They are avocados!",
+   "words": [
+    {
+     "t": "They",
+     "start": 55.94,
+     "end": 56.34
+    },
+    {
+     "t": "are",
+     "start": 56.32,
+     "end": 56.86
+    },
+    {
+     "t": "avocados!",
+     "start": 56.91,
+     "end": 57.33
+    }
+   ],
+   "n": 11,
+   "start": 55.94,
+   "end": 57.33,
+   "pic": "pineapple"
+  },
+  {
+   "section": "Verse 2",
+   "text": "They are durian!",
+   "words": [
+    {
+     "t": "They",
+     "start": 62.2,
+     "end": 62.5
+    },
+    {
+     "t": "are",
+     "start": 62.5,
+     "end": 63.0
+    },
+    {
+     "t": "durian!",
+     "start": 63.0,
+     "end": 64.24,
+     "pic": "durian"
+    }
+   ],
+   "n": 12,
+   "start": 62.2,
+   "end": 64.24,
+   "pic": "durian"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Durian? Oh no!",
+   "words": [
+    {
+     "t": "Durian?",
+     "start": 66.36,
+     "end": 68.26,
+     "pic": "durian"
+    },
+    {
+     "t": "Oh",
+     "start": 68.31,
+     "end": 68.73
+    },
+    {
+     "t": "no!",
+     "start": 68.76,
+     "end": 69.18
+    }
+   ],
+   "n": 13,
+   "start": 66.36,
+   "end": 69.18,
+   "pic": "durian"
+  },
+  {
+   "section": "Verse 2",
+   "text": "They are lemons!",
+   "words": [
+    {
+     "t": "They",
+     "start": 77.5,
+     "end": 78.04
+    },
+    {
+     "t": "are",
+     "start": 78.1,
+     "end": 78.55
+    },
+    {
+     "t": "lemons!",
+     "start": 78.6,
+     "end": 79.41
+    }
+   ],
+   "n": 14,
+   "start": 77.5,
+   "end": 79.41,
+   "pic": "durian"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Lemons? Sour!",
+   "words": [
+    {
+     "t": "Lemons?",
+     "start": 81.3,
+     "end": 82.46
+    },
+    {
+     "t": "Sour!",
+     "start": 82.59,
+     "end": 83.5
+    }
+   ],
+   "n": 15,
+   "start": 81.3,
+   "end": 83.5,
+   "pic": "durian"
+  },
+  {
+   "section": "Verse 2",
+   "text": "They are lychee!",
+   "words": [
+    {
+     "t": "They",
+     "start": 85.16,
+     "end": 85.56
+    },
+    {
+     "t": "are",
+     "start": 85.56,
+     "end": 86.06
+    },
+    {
+     "t": "lychee!",
+     "start": 86.06,
+     "end": 87.31,
+     "pic": "lychee"
+    }
+   ],
+   "n": 16,
+   "start": 85.16,
+   "end": 87.31,
+   "pic": "lychee"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Lychee? Yummy!",
+   "words": [
+    {
+     "t": "Lychee?",
+     "start": 89.34,
+     "end": 90.06,
+     "pic": "lychee"
+    },
+    {
+     "t": "Yummy!",
+     "start": 90.02,
+     "end": 90.6
+    }
+   ],
+   "n": 17,
+   "start": 89.34,
+   "end": 90.6,
+   "pic": "lychee"
+  },
+  {
+   "section": "Chorus",
+   "text": "These? They are mangos!",
+   "words": [
+    {
+     "t": "These?",
+     "start": 92.22,
+     "end": 92.98
+    },
+    {
+     "t": "They",
+     "start": 94.3,
+     "end": 94.8
+    },
+    {
+     "t": "are",
+     "start": 94.8,
+     "end": 95.22
+    },
+    {
+     "t": "mangos!",
+     "start": 95.27,
+     "end": 95.69
+    }
+   ],
+   "n": 18,
+   "start": 92.22,
+   "end": 95.69,
+   "pic": "lychee"
+  },
+  {
+   "section": "Chorus",
+   "text": "Those? They are lemons!",
+   "words": [
+    {
+     "t": "Those?",
+     "start": 95.72,
+     "end": 96.25
+    },
+    {
+     "t": "They",
+     "start": 96.27,
+     "end": 96.66
+    },
+    {
+     "t": "are",
+     "start": 96.67,
+     "end": 97.0
+    },
+    {
+     "t": "lemons!",
+     "start": 97.02,
+     "end": 97.63
+    }
+   ],
+   "n": 19,
+   "start": 95.72,
+   "end": 97.63,
+   "pic": "lychee"
+  },
+  {
+   "section": "Chorus",
+   "text": "What fruit are these?",
+   "words": [
+    {
+     "t": "What",
+     "start": 98.62,
+     "end": 99.02
+    },
+    {
+     "t": "fruit",
+     "start": 99.07,
+     "end": 99.39
+    },
+    {
+     "t": "are",
+     "start": 99.54,
+     "end": 99.98
+    },
+    {
+     "t": "these?",
+     "start": 99.98,
+     "end": 100.92
+    }
+   ],
+   "n": 20,
+   "start": 98.62,
+   "end": 100.92,
+   "pic": "lychee"
+  },
+  {
+   "section": "Chorus",
+   "text": "They are avocados!",
+   "words": [
+    {
+     "t": "They",
+     "start": 102.02,
+     "end": 102.32
+    },
+    {
+     "t": "are",
+     "start": 102.32,
+     "end": 102.96
+    },
+    {
+     "t": "avocados!",
+     "start": 102.96,
+     "end": 104.44
+    }
+   ],
+   "n": 21,
+   "start": 102.02,
+   "end": 104.44,
+   "pic": "lychee"
+  },
+  {
+   "section": "Bridge",
+   "text": "These are apples! Those are mangos!",
+   "words": [
+    {
+     "t": "These",
+     "start": 115.46,
+     "end": 115.8
+    },
+    {
+     "t": "are",
+     "start": 115.8,
+     "end": 116.28
+    },
+    {
+     "t": "apples!",
+     "start": 116.28,
+     "end": 117.22
+    },
+    {
+     "t": "Those",
+     "start": 117.4,
+     "end": 117.76
+    },
+    {
+     "t": "are",
+     "start": 117.76,
+     "end": 118.28
+    },
+    {
+     "t": "mangos!",
+     "start": 118.33,
+     "end": 118.75
+    }
+   ],
+   "n": 22,
+   "start": 115.46,
+   "end": 118.75,
+   "pic": "lychee"
+  },
+  {
+   "section": "Chorus",
+   "text": "These? They are mangos!",
+   "words": [
+    {
+     "t": "These?",
+     "start": 123.56,
+     "end": 124.36
+    },
+    {
+     "t": "They",
+     "start": 125.06,
+     "end": 125.5
+    },
+    {
+     "t": "are",
+     "start": 125.5,
+     "end": 125.98
+    },
+    {
+     "t": "mangos!",
+     "start": 126.03,
+     "end": 126.42
+    }
+   ],
+   "n": 23,
+   "start": 123.56,
+   "end": 126.42,
+   "pic": "lychee"
+  },
+  {
+   "section": "Chorus",
+   "text": "Those? They are lemons!",
+   "words": [
+    {
+     "t": "Those?",
+     "start": 126.45,
+     "end": 126.83
+    },
+    {
+     "t": "They",
+     "start": 127.02,
+     "end": 127.36
+    },
+    {
+     "t": "are",
+     "start": 127.36,
+     "end": 128.02
+    },
+    {
+     "t": "lemons!",
+     "start": 128.07,
+     "end": 128.49
+    }
+   ],
+   "n": 24,
+   "start": 126.45,
+   "end": 128.49,
+   "pic": "lychee"
+  },
+  {
+   "section": "Chorus",
+   "text": "What fruit are these?",
+   "words": [
+    {
+     "t": "What",
+     "start": 129.72,
+     "end": 129.8
+    },
+    {
+     "t": "fruit",
+     "start": 129.77,
+     "end": 130.19
+    },
+    {
+     "t": "are",
+     "start": 130.4,
+     "end": 130.68
+    },
+    {
+     "t": "these?",
+     "start": 130.68,
+     "end": 131.6
+    }
+   ],
+   "n": 25,
+   "start": 129.72,
+   "end": 131.6,
+   "pic": "lychee"
+  },
+  {
+   "section": "Chorus",
+   "text": "They are avocados!",
+   "words": [
+    {
+     "t": "They",
+     "start": 132.76,
+     "end": 133.12
+    },
+    {
+     "t": "are",
+     "start": 133.12,
+     "end": 133.68
+    },
+    {
+     "t": "avocados!",
+     "start": 133.68,
+     "end": 135.08
+    }
+   ],
+   "n": 26,
+   "start": 132.76,
+   "end": 135.08,
+   "pic": "lychee"
+  },
+  {
+   "section": "Outro",
+   "text": "They are mangos!",
+   "words": [
+    {
+     "t": "They",
+     "start": 138.5,
+     "end": 138.86
+    },
+    {
+     "t": "are",
+     "start": 138.86,
+     "end": 139.36
+    },
+    {
+     "t": "mangos!",
+     "start": 139.41,
+     "end": 139.83
+    }
+   ],
+   "n": 27,
+   "start": 138.5,
+   "end": 139.83,
+   "pic": "lychee"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "mango",
+   "prompt": "What fruit are these?",
+   "answer": "They are mangos!",
+   "choices": [
+    "They are mangos!",
+    "They are lemons!",
+    "They are apples!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "They are ___!",
+   "answer": "bananas",
+   "choices": [
+    "bananas",
+    "pineapples",
+    "avocados"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "lemon",
+   "prompt": "What fruit are those?",
+   "answer": "They are lemons!",
+   "choices": [
+    "They are durian!",
+    "They are lemons!",
+    "They are mangos!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "They are ___!",
+   "answer": "lychee",
+   "choices": [
+    "lychee",
+    "durian",
+    "lemons"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "pineapple",
+   "prompt": "What fruit are these?",
+   "answer": "They are pineapples!",
+   "choices": [
+    "They are pineapples!",
+    "They are avocados!",
+    "They are lychee!"
+   ]
+  }
+ ]
+}

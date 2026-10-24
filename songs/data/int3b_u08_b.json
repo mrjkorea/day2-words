@@ -1,0 +1,977 @@
+{
+ "id": "int3b_u08_b",
+ "title": "Who, What, Where, Why?",
+ "book": "INT 3B",
+ "unit": 8,
+ "unitTitle": "Do You Like Korea?",
+ "packId": "int3b_u8",
+ "audio": "audio/int3b_u08_b.mp3",
+ "duration": 142.97,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Question words!",
+   "words": [
+    {
+     "t": "Question",
+     "start": 11.66,
+     "end": 12.12
+    },
+    {
+     "t": "words!",
+     "start": 12.1,
+     "end": 13.02
+    }
+   ],
+   "n": 1,
+   "start": 11.66,
+   "end": 13.02,
+   "pic": "canada"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Where are you from?",
+   "words": [
+    {
+     "t": "Where",
+     "start": 14.1,
+     "end": 14.52
+    },
+    {
+     "t": "are",
+     "start": 14.52,
+     "end": 15.04
+    },
+    {
+     "t": "you",
+     "start": 15.08,
+     "end": 15.32
+    },
+    {
+     "t": "from?",
+     "start": 15.32,
+     "end": 15.74
+    }
+   ],
+   "n": 2,
+   "start": 14.1,
+   "end": 15.74,
+   "pic": "whereareyoufrom"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I am from Canada!",
+   "words": [
+    {
+     "t": "I",
+     "start": 16.18,
+     "end": 16.54
+    },
+    {
+     "t": "am",
+     "start": 16.52,
+     "end": 17.02
+    },
+    {
+     "t": "from",
+     "start": 17.02,
+     "end": 17.46
+    },
+    {
+     "t": "Canada!",
+     "start": 17.46,
+     "end": 18.66,
+     "pic": "canada"
+    }
+   ],
+   "n": 3,
+   "start": 16.18,
+   "end": 18.66,
+   "pic": "iamfromcanada"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Why did you come to Korea?",
+   "words": [
+    {
+     "t": "Why",
+     "start": 19.78,
+     "end": 20.08
+    },
+    {
+     "t": "did",
+     "start": 20.06,
+     "end": 20.32
+    },
+    {
+     "t": "you",
+     "start": 20.32,
+     "end": 20.5
+    },
+    {
+     "t": "come",
+     "start": 20.5,
+     "end": 20.8
+    },
+    {
+     "t": "to",
+     "start": 20.78,
+     "end": 21.08
+    },
+    {
+     "t": "Korea?",
+     "start": 21.08,
+     "end": 21.8,
+     "pic": "korea"
+    }
+   ],
+   "n": 4,
+   "start": 19.78,
+   "end": 21.8,
+   "pic": "korea"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I came to teach English!",
+   "words": [
+    {
+     "t": "I",
+     "start": 23.9,
+     "end": 24.24
+    },
+    {
+     "t": "came",
+     "start": 24.24,
+     "end": 24.58
+    },
+    {
+     "t": "to",
+     "start": 24.58,
+     "end": 24.9
+    },
+    {
+     "t": "teach",
+     "start": 24.86,
+     "end": 25.26,
+     "pic": "teach"
+    },
+    {
+     "t": "English!",
+     "start": 25.26,
+     "end": 26.16
+    }
+   ],
+   "n": 5,
+   "start": 23.9,
+   "end": 26.16,
+   "pic": "teach"
+  },
+  {
+   "section": "Verse 1",
+   "text": "What Korean food do you like?",
+   "words": [
+    {
+     "t": "What",
+     "start": 29.66,
+     "end": 29.96
+    },
+    {
+     "t": "Korean",
+     "start": 29.96,
+     "end": 30.68
+    },
+    {
+     "t": "food",
+     "start": 30.64,
+     "end": 31.38,
+     "pic": "food"
+    },
+    {
+     "t": "do",
+     "start": 31.38,
+     "end": 31.72
+    },
+    {
+     "t": "you",
+     "start": 31.72,
+     "end": 31.94
+    },
+    {
+     "t": "like?",
+     "start": 31.94,
+     "end": 32.54
+    }
+   ],
+   "n": 6,
+   "start": 29.66,
+   "end": 32.54,
+   "pic": "food"
+  },
+  {
+   "section": "Verse 1",
+   "text": "I love gimbap!",
+   "words": [
+    {
+     "t": "I",
+     "start": 33.06,
+     "end": 33.16
+    },
+    {
+     "t": "love",
+     "start": 33.16,
+     "end": 33.62
+    },
+    {
+     "t": "gimbap!",
+     "start": 33.6,
+     "end": 34.78,
+     "pic": "gimbap"
+    }
+   ],
+   "n": 7,
+   "start": 33.06,
+   "end": 34.78,
+   "pic": "gimbap"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who? What? Where? When?",
+   "words": [
+    {
+     "t": "Who?",
+     "start": 34.94,
+     "end": 35.06
+    },
+    {
+     "t": "What?",
+     "start": 35.36,
+     "end": 35.84
+    },
+    {
+     "t": "Where?",
+     "start": 36.46,
+     "end": 37.08
+    },
+    {
+     "t": "When?",
+     "start": 37.26,
+     "end": 37.76
+    }
+   ],
+   "n": 8,
+   "start": 34.94,
+   "end": 37.76,
+   "pic": "gimbap"
+  },
+  {
+   "section": "Chorus",
+   "text": "Why? How?",
+   "words": [
+    {
+     "t": "Why?",
+     "start": 39.44,
+     "end": 40.86
+    },
+    {
+     "t": "How?",
+     "start": 41.08,
+     "end": 41.52
+    }
+   ],
+   "n": 9,
+   "start": 39.44,
+   "end": 41.52,
+   "pic": "gimbap"
+  },
+  {
+   "section": "Chorus",
+   "text": "Ask me again!",
+   "words": [
+    {
+     "t": "Ask",
+     "start": 43.8,
+     "end": 44.1
+    },
+    {
+     "t": "me",
+     "start": 44.12,
+     "end": 44.48
+    },
+    {
+     "t": "again!",
+     "start": 44.48,
+     "end": 45.23
+    }
+   ],
+   "n": 10,
+   "start": 43.8,
+   "end": 45.23,
+   "pic": "gimbap"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who? What? Where? When? Why? How?",
+   "words": [
+    {
+     "t": "Who?",
+     "start": 46.43,
+     "end": 46.64
+    },
+    {
+     "t": "What?",
+     "start": 47.0,
+     "end": 47.26
+    },
+    {
+     "t": "Where?",
+     "start": 47.52,
+     "end": 47.78
+    },
+    {
+     "t": "When?",
+     "start": 47.98,
+     "end": 48.26
+    },
+    {
+     "t": "Why?",
+     "start": 48.4,
+     "end": 48.72
+    },
+    {
+     "t": "How?",
+     "start": 48.96,
+     "end": 49.36
+    }
+   ],
+   "n": 11,
+   "start": 46.43,
+   "end": 49.36,
+   "pic": "gimbap"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How tall are you?",
+   "words": [
+    {
+     "t": "How",
+     "start": 50.48,
+     "end": 50.8
+    },
+    {
+     "t": "tall",
+     "start": 50.82,
+     "end": 51.21,
+     "pic": "tall"
+    },
+    {
+     "t": "are",
+     "start": 51.23,
+     "end": 51.55
+    },
+    {
+     "t": "you?",
+     "start": 51.57,
+     "end": 51.98
+    }
+   ],
+   "n": 12,
+   "start": 50.48,
+   "end": 51.98,
+   "pic": "tall"
+  },
+  {
+   "section": "Verse 2",
+   "text": "I am one hundred sixty centimeters tall!",
+   "words": [
+    {
+     "t": "I",
+     "start": 53.2,
+     "end": 53.9
+    },
+    {
+     "t": "am",
+     "start": 53.9,
+     "end": 54.1
+    },
+    {
+     "t": "one",
+     "start": 54.15,
+     "end": 54.5
+    },
+    {
+     "t": "hundred",
+     "start": 54.53,
+     "end": 54.87
+    },
+    {
+     "t": "sixty",
+     "start": 54.9,
+     "end": 55.25
+    },
+    {
+     "t": "centimeters",
+     "start": 55.42,
+     "end": 56.78
+    },
+    {
+     "t": "tall!",
+     "start": 56.74,
+     "end": 57.64,
+     "pic": "tall"
+    }
+   ],
+   "n": 13,
+   "start": 53.2,
+   "end": 57.64,
+   "pic": "centimeter"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How big are your feet?",
+   "words": [
+    {
+     "t": "How",
+     "start": 58.54,
+     "end": 58.9
+    },
+    {
+     "t": "big",
+     "start": 58.9,
+     "end": 59.28
+    },
+    {
+     "t": "are",
+     "start": 59.28,
+     "end": 59.56
+    },
+    {
+     "t": "your",
+     "start": 59.56,
+     "end": 59.7
+    },
+    {
+     "t": "feet?",
+     "start": 59.72,
+     "end": 60.18
+    }
+   ],
+   "n": 14,
+   "start": 58.54,
+   "end": 60.18,
+   "pic": "centimeter"
+  },
+  {
+   "section": "Verse 2",
+   "text": "They are two hundred forty millimeters!",
+   "words": [
+    {
+     "t": "They",
+     "start": 61.46,
+     "end": 61.72
+    },
+    {
+     "t": "are",
+     "start": 61.72,
+     "end": 62.02
+    },
+    {
+     "t": "two",
+     "start": 62.07,
+     "end": 62.39
+    },
+    {
+     "t": "hundred",
+     "start": 62.42,
+     "end": 62.75
+    },
+    {
+     "t": "forty",
+     "start": 62.78,
+     "end": 63.1
+    },
+    {
+     "t": "millimeters!",
+     "start": 63.26,
+     "end": 65.1
+    }
+   ],
+   "n": 15,
+   "start": 61.46,
+   "end": 65.1,
+   "pic": "centimeter"
+  },
+  {
+   "section": "Verse 2",
+   "text": "How much do you weigh?",
+   "words": [
+    {
+     "t": "How",
+     "start": 67.76,
+     "end": 68.0
+    },
+    {
+     "t": "much",
+     "start": 68.0,
+     "end": 68.26
+    },
+    {
+     "t": "do",
+     "start": 68.24,
+     "end": 68.5
+    },
+    {
+     "t": "you",
+     "start": 68.5,
+     "end": 68.74
+    },
+    {
+     "t": "weigh?",
+     "start": 68.7,
+     "end": 68.86,
+     "pic": "weigh"
+    }
+   ],
+   "n": 16,
+   "start": 65.2,
+   "end": 68.2,
+   "pic": "weigh"
+  },
+  {
+   "section": "Verse 2",
+   "text": "That is a secret!",
+   "words": [
+    {
+     "t": "That",
+     "start": 71.88,
+     "end": 72.24
+    },
+    {
+     "t": "is",
+     "start": 72.22,
+     "end": 72.52
+    },
+    {
+     "t": "a",
+     "start": 72.48,
+     "end": 73.04
+    },
+    {
+     "t": "secret!",
+     "start": 72.78,
+     "end": 73.53,
+     "pic": "secret"
+    }
+   ],
+   "n": 17,
+   "start": 71.88,
+   "end": 73.53,
+   "pic": "secret"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who? What? Where? When?",
+   "words": [
+    {
+     "t": "Who?",
+     "start": 74.5,
+     "end": 75.07
+    },
+    {
+     "t": "What?",
+     "start": 75.09,
+     "end": 75.75
+    },
+    {
+     "t": "Where?",
+     "start": 75.77,
+     "end": 76.53
+    },
+    {
+     "t": "When?",
+     "start": 76.55,
+     "end": 77.24
+    }
+   ],
+   "n": 18,
+   "start": 74.5,
+   "end": 77.24,
+   "pic": "secret"
+  },
+  {
+   "section": "Chorus",
+   "text": "Why? How?",
+   "words": [
+    {
+     "t": "Why?",
+     "start": 80.06,
+     "end": 80.34
+    },
+    {
+     "t": "How?",
+     "start": 80.66,
+     "end": 81.12
+    }
+   ],
+   "n": 19,
+   "start": 80.06,
+   "end": 81.12,
+   "pic": "secret"
+  },
+  {
+   "section": "Chorus",
+   "text": "Ask me again!",
+   "words": [
+    {
+     "t": "Ask",
+     "start": 83.42,
+     "end": 83.64
+    },
+    {
+     "t": "me",
+     "start": 83.64,
+     "end": 83.92
+    },
+    {
+     "t": "again!",
+     "start": 83.94,
+     "end": 84.54
+    }
+   ],
+   "n": 20,
+   "start": 83.42,
+   "end": 84.54,
+   "pic": "secret"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who? What? Where? When? Why? How?",
+   "words": [
+    {
+     "t": "Who?",
+     "start": 85.89,
+     "end": 86.25
+    },
+    {
+     "t": "What?",
+     "start": 86.27,
+     "end": 86.69
+    },
+    {
+     "t": "Where?",
+     "start": 86.71,
+     "end": 87.2
+    },
+    {
+     "t": "When?",
+     "start": 87.22,
+     "end": 87.64
+    },
+    {
+     "t": "Why?",
+     "start": 87.66,
+     "end": 88.02
+    },
+    {
+     "t": "How?",
+     "start": 88.04,
+     "end": 88.42
+    }
+   ],
+   "n": 21,
+   "start": 85.89,
+   "end": 88.42,
+   "pic": "secret"
+  },
+  {
+   "section": "Bridge",
+   "text": "Do you like Korea? Yes, I do!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 105.34,
+     "end": 105.9
+    },
+    {
+     "t": "you",
+     "start": 105.9,
+     "end": 106.84
+    },
+    {
+     "t": "like",
+     "start": 106.84,
+     "end": 107.0
+    },
+    {
+     "t": "Korea?",
+     "start": 106.98,
+     "end": 107.5,
+     "pic": "korea"
+    },
+    {
+     "t": "Yes,",
+     "start": 108.28,
+     "end": 108.64
+    },
+    {
+     "t": "I",
+     "start": 108.62,
+     "end": 109.12
+    },
+    {
+     "t": "do!",
+     "start": 109.12,
+     "end": 109.54
+    }
+   ],
+   "n": 22,
+   "start": 105.34,
+   "end": 109.54,
+   "pic": "korea"
+  },
+  {
+   "section": "Bridge",
+   "text": "Do you like kimchi? Yes, I do!",
+   "words": [
+    {
+     "t": "Do",
+     "start": 110.72,
+     "end": 110.82
+    },
+    {
+     "t": "you",
+     "start": 110.82,
+     "end": 110.96
+    },
+    {
+     "t": "like",
+     "start": 110.98,
+     "end": 111.18
+    },
+    {
+     "t": "kimchi?",
+     "start": 111.18,
+     "end": 111.72
+    },
+    {
+     "t": "Yes,",
+     "start": 112.2,
+     "end": 112.52
+    },
+    {
+     "t": "I",
+     "start": 112.52,
+     "end": 113.1
+    },
+    {
+     "t": "do!",
+     "start": 113.1,
+     "end": 113.88
+    }
+   ],
+   "n": 23,
+   "start": 110.72,
+   "end": 113.88,
+   "pic": "korea"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who? What? Where? When?",
+   "words": [
+    {
+     "t": "Who?",
+     "start": 115.64,
+     "end": 115.94
+    },
+    {
+     "t": "What?",
+     "start": 116.06,
+     "end": 116.74
+    },
+    {
+     "t": "Where?",
+     "start": 117.36,
+     "end": 117.98
+    },
+    {
+     "t": "When?",
+     "start": 118.16,
+     "end": 118.6
+    }
+   ],
+   "n": 24,
+   "start": 115.64,
+   "end": 118.6,
+   "pic": "korea"
+  },
+  {
+   "section": "Chorus",
+   "text": "Why? How?",
+   "words": [
+    {
+     "t": "Why?",
+     "start": 120.12,
+     "end": 121.76
+    },
+    {
+     "t": "How?",
+     "start": 122.08,
+     "end": 122.68
+    }
+   ],
+   "n": 25,
+   "start": 120.12,
+   "end": 122.68,
+   "pic": "korea"
+  },
+  {
+   "section": "Chorus",
+   "text": "Ask me again!",
+   "words": [
+    {
+     "t": "Ask",
+     "start": 124.84,
+     "end": 125.04
+    },
+    {
+     "t": "me",
+     "start": 125.04,
+     "end": 125.38
+    },
+    {
+     "t": "again!",
+     "start": 125.38,
+     "end": 126.23
+    }
+   ],
+   "n": 26,
+   "start": 124.84,
+   "end": 126.23,
+   "pic": "korea"
+  },
+  {
+   "section": "Chorus",
+   "text": "Who? What? Where? When? Why? How?",
+   "words": [
+    {
+     "t": "Who?",
+     "start": 127.22,
+     "end": 127.56
+    },
+    {
+     "t": "What?",
+     "start": 127.7,
+     "end": 128.14
+    },
+    {
+     "t": "Where?",
+     "start": 128.22,
+     "end": 128.32
+    },
+    {
+     "t": "When?",
+     "start": 128.88,
+     "end": 129.2
+    },
+    {
+     "t": "Why?",
+     "start": 130.78,
+     "end": 131.14
+    },
+    {
+     "t": "How?",
+     "start": 131.18,
+     "end": 131.54
+    }
+   ],
+   "n": 27,
+   "start": 127.22,
+   "end": 131.54,
+   "pic": "korea"
+  },
+  {
+   "section": "Outro",
+   "text": "Who? What? Where? Why?",
+   "words": [
+    {
+     "t": "Who?",
+     "start": 137.08,
+     "end": 137.46
+    },
+    {
+     "t": "What?",
+     "start": 137.48,
+     "end": 137.94
+    },
+    {
+     "t": "Where?",
+     "start": 137.96,
+     "end": 138.48
+    },
+    {
+     "t": "Why?",
+     "start": 138.5,
+     "end": 138.9
+    }
+   ],
+   "n": 28,
+   "start": 137.08,
+   "end": 138.9,
+   "pic": "korea"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "canada",
+   "prompt": "Where are you from?",
+   "answer": "I am from Canada!",
+   "choices": [
+    "I am from Canada!",
+    "I am from Korea!",
+    "That is a secret!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "I came to teach ___!",
+   "answer": "English",
+   "choices": [
+    "English",
+    "music",
+    "math"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "tall",
+   "prompt": "How tall are you?",
+   "answer": "I am one hundred sixty centimeters tall!",
+   "choices": [
+    "I am one hundred sixty centimeters tall!",
+    "I am from Canada!",
+    "Yes, I do!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "How much do you weigh? That is a ___!",
+   "answer": "secret",
+   "choices": [
+    "secret",
+    "question",
+    "picture"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "korea",
+   "prompt": "Do you like Korea?",
+   "answer": "Yes, I do!",
+   "choices": [
+    "Yes, I do!",
+    "I am from Canada!",
+    "That is a secret!"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,717 @@
+{
+ "id": "int3b_u05_b",
+ "title": "Slow Down! Okay, Coach!",
+ "book": "INT 3B",
+ "unit": 5,
+ "unitTitle": "Eat Up",
+ "packId": "int3b_u5",
+ "audio": "audio/int3b_u05_b.mp3",
+ "duration": 148.25,
+ "lines": [
+  {
+   "section": "Intro",
+   "text": "Hey! Slow down!",
+   "words": [
+    {
+     "t": "Hey!",
+     "start": 2.98,
+     "end": 6.08
+    },
+    {
+     "t": "Slow",
+     "start": 6.3,
+     "end": 6.5
+    },
+    {
+     "t": "down!",
+     "start": 6.5,
+     "end": 7.0
+    }
+   ],
+   "n": 1,
+   "start": 2.98,
+   "end": 7.0,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Slow down!",
+   "words": [
+    {
+     "t": "Slow",
+     "start": 15.92,
+     "end": 16.32
+    },
+    {
+     "t": "down!",
+     "start": 18.26,
+     "end": 19.46
+    }
+   ],
+   "n": 2,
+   "start": 15.92,
+   "end": 19.46,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, coach!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 20.5,
+     "end": 21.2
+    },
+    {
+     "t": "coach!",
+     "start": 21.2,
+     "end": 21.94
+    }
+   ],
+   "n": 3,
+   "start": 20.5,
+   "end": 21.94,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Sit down!",
+   "words": [
+    {
+     "t": "Sit",
+     "start": 23.84,
+     "end": 24.16
+    },
+    {
+     "t": "down!",
+     "start": 24.12,
+     "end": 25.34
+    }
+   ],
+   "n": 4,
+   "start": 23.84,
+   "end": 25.34,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, coach!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 28.0,
+     "end": 29.04
+    },
+    {
+     "t": "coach!",
+     "start": 29.04,
+     "end": 29.72
+    }
+   ],
+   "n": 5,
+   "start": 28.0,
+   "end": 29.72,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Turn down!",
+   "words": [
+    {
+     "t": "Turn",
+     "start": 31.5,
+     "end": 31.92
+    },
+    {
+     "t": "down!",
+     "start": 31.98,
+     "end": 33.16
+    }
+   ],
+   "n": 6,
+   "start": 31.5,
+   "end": 33.16,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 1",
+   "text": "Okay, coach!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 36.44,
+     "end": 36.8
+    },
+    {
+     "t": "coach!",
+     "start": 36.84,
+     "end": 37.58
+    }
+   ],
+   "n": 7,
+   "start": 36.44,
+   "end": 37.58,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Slow down! Okay, coach!",
+   "words": [
+    {
+     "t": "Slow",
+     "start": 38.46,
+     "end": 38.84
+    },
+    {
+     "t": "down!",
+     "start": 38.8,
+     "end": 39.46
+    },
+    {
+     "t": "Okay,",
+     "start": 39.5,
+     "end": 39.96
+    },
+    {
+     "t": "coach!",
+     "start": 40.06,
+     "end": 40.48
+    }
+   ],
+   "n": 8,
+   "start": 38.46,
+   "end": 40.48,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Quiet down! All right!",
+   "words": [
+    {
+     "t": "Quiet",
+     "start": 42.48,
+     "end": 42.78
+    },
+    {
+     "t": "down!",
+     "start": 42.78,
+     "end": 43.5
+    },
+    {
+     "t": "All",
+     "start": 44.64,
+     "end": 44.76
+    },
+    {
+     "t": "right!",
+     "start": 44.76,
+     "end": 45.34
+    }
+   ],
+   "n": 9,
+   "start": 42.48,
+   "end": 45.34,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Turn it down!",
+   "words": [
+    {
+     "t": "Turn",
+     "start": 45.8,
+     "end": 46.32
+    },
+    {
+     "t": "it",
+     "start": 46.32,
+     "end": 46.7
+    },
+    {
+     "t": "down!",
+     "start": 46.72,
+     "end": 47.32
+    }
+   ],
+   "n": 10,
+   "start": 45.8,
+   "end": 47.32,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, coach!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 51.68,
+     "end": 52.44
+    },
+    {
+     "t": "coach!",
+     "start": 52.44,
+     "end": 53.66
+    }
+   ],
+   "n": 11,
+   "start": 51.68,
+   "end": 53.66,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Quiet down!",
+   "words": [
+    {
+     "t": "Quiet",
+     "start": 62.82,
+     "end": 63.48
+    },
+    {
+     "t": "down!",
+     "start": 63.48,
+     "end": 64.38
+    }
+   ],
+   "n": 12,
+   "start": 62.82,
+   "end": 64.38,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 2",
+   "text": "All right!",
+   "words": [
+    {
+     "t": "All",
+     "start": 66.68,
+     "end": 67.1
+    },
+    {
+     "t": "right!",
+     "start": 67.16,
+     "end": 68.36
+    }
+   ],
+   "n": 13,
+   "start": 66.68,
+   "end": 68.36,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Calm down!",
+   "words": [
+    {
+     "t": "Calm",
+     "start": 70.94,
+     "end": 71.06
+    },
+    {
+     "t": "down!",
+     "start": 71.06,
+     "end": 72.18
+    }
+   ],
+   "n": 14,
+   "start": 70.94,
+   "end": 72.18,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 2",
+   "text": "All right!",
+   "words": [
+    {
+     "t": "All",
+     "start": 74.9,
+     "end": 75.28
+    },
+    {
+     "t": "right!",
+     "start": 75.32,
+     "end": 75.93
+    }
+   ],
+   "n": 15,
+   "start": 74.9,
+   "end": 75.93,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 2",
+   "text": "Cool down!",
+   "words": [
+    {
+     "t": "Cool",
+     "start": 78.62,
+     "end": 78.86
+    },
+    {
+     "t": "down!",
+     "start": 78.86,
+     "end": 79.4
+    }
+   ],
+   "n": 16,
+   "start": 78.62,
+   "end": 79.4,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Verse 2",
+   "text": "All right!",
+   "words": [
+    {
+     "t": "All",
+     "start": 82.88,
+     "end": 83.38
+    },
+    {
+     "t": "right!",
+     "start": 83.38,
+     "end": 83.98
+    }
+   ],
+   "n": 17,
+   "start": 82.88,
+   "end": 83.98,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Slow down! Okay, coach!",
+   "words": [
+    {
+     "t": "Slow",
+     "start": 85.46,
+     "end": 85.7
+    },
+    {
+     "t": "down!",
+     "start": 85.7,
+     "end": 86.3
+    },
+    {
+     "t": "Okay,",
+     "start": 86.66,
+     "end": 86.84
+    },
+    {
+     "t": "coach!",
+     "start": 87.9,
+     "end": 88.36
+    }
+   ],
+   "n": 18,
+   "start": 85.46,
+   "end": 88.36,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Quiet down! All right!",
+   "words": [
+    {
+     "t": "Quiet",
+     "start": 88.4,
+     "end": 89.45
+    },
+    {
+     "t": "down!",
+     "start": 89.47,
+     "end": 90.53
+    },
+    {
+     "t": "All",
+     "start": 90.55,
+     "end": 91.29
+    },
+    {
+     "t": "right!",
+     "start": 91.31,
+     "end": 92.54
+    }
+   ],
+   "n": 19,
+   "start": 88.4,
+   "end": 92.54,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Turn it down!",
+   "words": [
+    {
+     "t": "Turn",
+     "start": 92.68,
+     "end": 93.12
+    },
+    {
+     "t": "it",
+     "start": 93.12,
+     "end": 93.62
+    },
+    {
+     "t": "down!",
+     "start": 93.62,
+     "end": 94.2
+    }
+   ],
+   "n": 20,
+   "start": 92.68,
+   "end": 94.2,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, coach!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 98.86,
+     "end": 99.32
+    },
+    {
+     "t": "coach!",
+     "start": 99.52,
+     "end": 99.8
+    }
+   ],
+   "n": 21,
+   "start": 98.86,
+   "end": 99.8,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Bridge",
+   "text": "Up? Eat up!",
+   "words": [
+    {
+     "t": "Up?",
+     "start": 109.5,
+     "end": 109.64
+    },
+    {
+     "t": "Eat",
+     "start": 109.69,
+     "end": 110.11
+    },
+    {
+     "t": "up!",
+     "start": 111.1,
+     "end": 111.66
+    }
+   ],
+   "n": 22,
+   "start": 109.5,
+   "end": 111.66,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Bridge",
+   "text": "Down? Slow down!",
+   "words": [
+    {
+     "t": "Down?",
+     "start": 112.9,
+     "end": 113.68
+    },
+    {
+     "t": "Slow",
+     "start": 114.62,
+     "end": 115.0
+    },
+    {
+     "t": "down!",
+     "start": 115.0,
+     "end": 115.5
+    }
+   ],
+   "n": 23,
+   "start": 112.9,
+   "end": 115.5,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Slow down! Okay, coach!",
+   "words": [
+    {
+     "t": "Slow",
+     "start": 116.18,
+     "end": 116.67
+    },
+    {
+     "t": "down!",
+     "start": 116.69,
+     "end": 117.27
+    },
+    {
+     "t": "Okay,",
+     "start": 117.29,
+     "end": 117.86
+    },
+    {
+     "t": "coach!",
+     "start": 117.88,
+     "end": 118.56
+    }
+   ],
+   "n": 24,
+   "start": 116.18,
+   "end": 118.56,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Quiet down! All right!",
+   "words": [
+    {
+     "t": "Quiet",
+     "start": 120.76,
+     "end": 120.86
+    },
+    {
+     "t": "down!",
+     "start": 120.86,
+     "end": 122.4
+    },
+    {
+     "t": "All",
+     "start": 122.45,
+     "end": 122.87
+    },
+    {
+     "t": "right!",
+     "start": 122.9,
+     "end": 123.32
+    }
+   ],
+   "n": 25,
+   "start": 120.76,
+   "end": 123.32,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Turn it down!",
+   "words": [
+    {
+     "t": "Turn",
+     "start": 123.92,
+     "end": 124.38
+    },
+    {
+     "t": "it",
+     "start": 124.32,
+     "end": 124.82
+    },
+    {
+     "t": "down!",
+     "start": 124.82,
+     "end": 125.38
+    }
+   ],
+   "n": 26,
+   "start": 123.92,
+   "end": 125.38,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Chorus",
+   "text": "Okay, coach!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 129.82,
+     "end": 130.52
+    },
+    {
+     "t": "coach!",
+     "start": 130.48,
+     "end": 131.06
+    }
+   ],
+   "n": 27,
+   "start": 129.82,
+   "end": 131.06,
+   "pic": "bequiet"
+  },
+  {
+   "section": "Outro",
+   "text": "Okay, coach!",
+   "words": [
+    {
+     "t": "Okay,",
+     "start": 131.92,
+     "end": 132.34
+    },
+    {
+     "t": "coach!",
+     "start": 132.4,
+     "end": 132.84
+    }
+   ],
+   "n": 28,
+   "start": 131.92,
+   "end": 132.84,
+   "pic": "bequiet"
+  }
+ ],
+ "quiz": [
+  {
+   "type": "picture",
+   "pic": "slowdown",
+   "prompt": "Slow down!",
+   "answer": "Okay, coach!",
+   "choices": [
+    "Okay, coach!",
+    "No, thank you!",
+    "I am ten!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "___ down!",
+   "answer": "Sit",
+   "choices": [
+    "Sit",
+    "Turn",
+    "Calm"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "cooldown",
+   "prompt": "What is this?",
+   "answer": "Cool down!",
+   "choices": [
+    "Cool down!",
+    "Eat up!",
+    "Hurry up!"
+   ]
+  },
+  {
+   "type": "picture",
+   "prompt": "___ down!",
+   "answer": "Calm",
+   "choices": [
+    "Calm",
+    "Slow",
+    "Quiet"
+   ]
+  },
+  {
+   "type": "picture",
+   "pic": "eatup",
+   "prompt": "What is this?",
+   "answer": "Eat up!",
+   "choices": [
+    "Eat up!",
+    "Slow down!",
+    "Clean up!"
+   ]
+  }
+ ]
+}
