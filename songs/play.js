@@ -487,6 +487,7 @@
     $("line-now").innerHTML = "";
     wordEls = [];
     builtLine = -1;
+    if ($("line-tr")) showTr(null, null);
   }
 
   function renderLine(idx) {
@@ -518,7 +519,70 @@
     });
     builtLine = idx;
     $("line-next").textContent = next ? next.text : "";
+    showTr(line, next);
   }
+
+  /* ---------- lyric translations (display-only, songs/i18n/lyrics-<lang>.json keyed by English line) ---------- */
+  var LANGS = [
+    ["en", "English"], ["ko", "한국어"], ["zh-Hans", "简体中文"], ["ja", "日本語"], ["es", "Español"],
+    ["hi", "हिन्दी"], ["de", "Deutsch"], ["vi", "Tiếng Việt"], ["pt-BR", "Português (BR)"],
+    ["id", "Bahasa Indonesia"], ["fr", "Français"], ["ar", "العربية"], ["tr", "Türkçe"],
+    ["it", "Italiano"], ["pl", "Polski"]
+  ];
+  var trLang = "en";
+  var trMap = {};
+  function validLang(c) { for (var i = 0; i < LANGS.length; i++) if (LANGS[i][0] === c) return c; return ""; }
+  function readLocale() {
+    var q = "";
+    try { q = new URLSearchParams(location.search).get("lang") || ""; } catch (e) {}
+    return validLang(q) || validLang(account().locale || "") || "en";
+  }
+  function saveLocale(c) {
+    try {
+      var st = account();
+      st.locale = c;
+      localStorage.setItem(STATE_KEY, JSON.stringify(st));
+    } catch (e) {}
+  }
+  function setTrEl(el, text) {
+    var t = trLang !== "en" && text ? (trMap[text] || "") : "";
+    el.textContent = t;
+    el.hidden = !t;
+    if (trLang === "ar") el.setAttribute("dir", "rtl"); else el.removeAttribute("dir");
+  }
+  function showTr(line, next) {
+    setTrEl($("line-tr"), line ? line.text : "");
+    setTrEl($("next-tr"), next ? next.text : "");
+  }
+  function refreshTr() {
+    if (!song) return;
+    if (builtLine >= 0) showTr(song.lines[builtLine], song.lines[builtLine + 1]);
+    else showTr(null, builtLine === -2 ? song.lines[0] : null);
+  }
+  function loadLang(c) {
+    trLang = c;
+    trMap = {};
+    refreshTr();
+    if (c === "en") return;
+    fetch("i18n/lyrics-" + c + ".json?v=20261026-lyr-i18n")
+      .then(function (r) { return r.ok ? r.json() : {}; })
+      .then(function (m) { if (trLang === c) { trMap = m || {}; refreshTr(); } })
+      .catch(function () {});
+  }
+  function initLangPicker() {
+    var sel = $("lang-select");
+    if (!sel) return;
+    LANGS.forEach(function (l) {
+      var o = document.createElement("option");
+      o.value = l[0]; o.textContent = l[1];
+      sel.appendChild(o);
+    });
+    var c = readLocale();
+    sel.value = c;
+    sel.addEventListener("change", function () { saveLocale(sel.value); loadLang(sel.value); });
+    loadLang(c);
+  }
+  initLangPicker();
 
   function paintWords(t, idx) {
     var line = song.lines[idx];
@@ -558,6 +622,7 @@
         $("line-next").textContent = song.lines[0] ? song.lines[0].text : "";
         wordEls = [];
         builtLine = -2;
+        refreshTr();
       }
       showBackdrop(firstPic(), 0, 0);
       return;

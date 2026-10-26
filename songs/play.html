@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#1a2744" />
   <title>Song · MRJ Day 2 Words</title>
   <link rel="icon" href="../favicon.ico" />
-  <link rel="stylesheet" href="songs.css?v=20261016-stages5" />
+  <link rel="stylesheet" href="songs.css?v=20261026-lyr-i18n" />
 </head>
 <body>
   <div class="player" id="player">
@@ -21,7 +21,10 @@
     <header class="topbar">
       <a class="icon-btn" id="btn-home" href="https://mrjkorea.github.io/#levels">Map</a>
       <h1 id="song-title">Song</h1>
-      <button type="button" class="text-btn" id="btn-pause" hidden>Pause</button>
+      <div class="top-right">
+        <select id="lang-select" class="lang-select" aria-label="Language" title="Language"></select>
+        <button type="button" class="text-btn" id="btn-pause" hidden>Pause</button>
+      </div>
     </header>
     <div class="track" id="track" hidden><span id="track-bar"></span></div>
 
@@ -44,7 +47,9 @@
       <p class="tap-hint" id="tap-hint" hidden>Tap each word!</p>
       <div class="band">
         <div class="line-now" id="line-now"></div>
+        <div class="line-tr" id="line-tr" hidden></div>
         <div class="line-next" id="line-next"></div>
+        <div class="line-tr next" id="next-tr" hidden></div>
       </div>
     </section>
 
@@ -79,6 +84,6 @@
   <script>window.WM_BUILD_ID="20261013-scores-receiver";</script>
   <script src="../js/version-watch.js?v=20261013-scores-receiver"></script>
   <script src="https://mrjkorea.github.io/progress.js?v=20261026-song-return"></script>
-  <script src="play.js?v=20261026-map-return"></script>
+  <script src="play.js?v=20261026-lyr-i18n"></script>
 </body>
 </html>

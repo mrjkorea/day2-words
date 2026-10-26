@@ -400,3 +400,17 @@ img { max-width: 100%; }
 .qc.wrong { background: #ff9c9c; }
 .dock.solo .line-now { font-size: clamp(54px, 15vw, 96px); line-height: 1.12; }
 .dock.solo .band { padding: 22px 10px 26px; }
+
+/* lyric translation (display-only, under English) */
+.top-right { display: flex; gap: 6px; align-items: center; }
+.lang-select {
+  min-height: 40px; max-width: 128px; padding: 6px 8px; border-radius: 12px;
+  border: 0; background: rgba(0,0,0,0.45); color: #fff; font-weight: 800; font-size: 14px;
+}
+.lang-select option { color: #111; background: #fff; }
+.line-tr {
+  margin-top: 4px; font-size: clamp(12px, 3vw, 15px); font-weight: 600;
+  line-height: 1.3; color: rgba(255,255,255,0.62);
+}
+.line-tr.next { margin-top: 2px; font-size: clamp(11px, 2.6vw, 13px); color: rgba(255,255,255,0.45); }
+.dock.solo .line-tr { font-size: clamp(14px, 3.6vw, 18px); }
