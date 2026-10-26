@@ -1,0 +1,164 @@
+{
+  "id": "culture_m08_show",
+  "kind": "culture",
+  "title": "Culture · August · Yvid (Korea division)",
+  "passPercent": 70,
+  "units": [
+    "culture_m08_show"
+  ],
+  "wordAudio": "",
+  "picDir": "",
+  "lineAudio": "",
+  "questions": [
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "1910년에, 어느 나라가 한국을 장악했나요?"
+      },
+      "choices": [
+        "Japan",
+        "USA",
+        "China",
+        "Russia"
+      ],
+      "answer": "Japan"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "일본이 항복하고, 어느 나라가 남한을 도왔나요?"
+      },
+      "choices": [
+        "Russia",
+        "China",
+        "Japan",
+        "The United States"
+      ],
+      "answer": "The United States"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "미군은 한국을 나누기 위해 무슨 선을 사용했나요?"
+      },
+      "choices": [
+        "49th",
+        "17th",
+        "38th",
+        "DMZ"
+      ],
+      "answer": "38th"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "누가 북한의 첫 지도자가 되었나요?"
+      },
+      "choices": [
+        "Mao Zedong",
+        "Park Chung-hee",
+        "Kim Il-sung",
+        "Syngman Rhee"
+      ],
+      "answer": "Kim Il-sung"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "남쪽의 선거에서 누가 당선되었나요?"
+      },
+      "choices": [
+        "MacArthur",
+        "Syngman Rhee",
+        "Kim Il-sung",
+        "Gojong"
+      ],
+      "answer": "Syngman Rhee"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "김일성은 언제 남한을 침범했나요?"
+      },
+      "choices": [
+        "1945",
+        "1953",
+        "1910",
+        "1950"
+      ],
+      "answer": "1950"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "모든 UN군대의 지휘관은 누구였나요?"
+      },
+      "choices": [
+        "Kim Il-sung",
+        "Douglas MacArthur",
+        "Syngman Rhee",
+        "Eisenhower"
+      ],
+      "answer": "Douglas MacArthur"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "어느 나라가 북한을 돕기 위해 군대를 보냈나요?"
+      },
+      "choices": [
+        "Japan",
+        "USA",
+        "China",
+        "Russia"
+      ],
+      "answer": "China"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "한국 전쟁은 언제 휴전했나요?"
+      },
+      "choices": [
+        "1950",
+        "1953",
+        "1945",
+        "1960"
+      ],
+      "answer": "1953"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "남한과 북한 사이의 공식 국경은 무엇인가요?"
+      },
+      "choices": [
+        "38th",
+        "DMZ",
+        "Yalu",
+        "Imjin"
+      ],
+      "answer": "DMZ"
+    }
+  ]
+}

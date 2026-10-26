@@ -1,0 +1,374 @@
+{
+  "id": "culture_m08",
+  "kind": "culture",
+  "title": "Culture · August · Korean History Words",
+  "passPercent": 70,
+  "units": [
+    "culture_m08"
+  ],
+  "wordAudio": "",
+  "picDir": "",
+  "lineAudio": "",
+  "questions": [
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "왜군을 물리친 장군"
+      },
+      "choices": [
+        "Yun Bong-gil",
+        "Mun Ikjeom",
+        "Yi Sun-sin",
+        "Yu-Gwansun"
+      ],
+      "answer": "Yi Sun-sin"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "조선의 위대한 왕 (세종)"
+      },
+      "choices": [
+        "Dangun",
+        "Sejong the Great",
+        "Yu-Gwansun",
+        "Gim Hongdo"
+      ],
+      "answer": "Sejong the Great"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "한방의학을 발전한 의학자"
+      },
+      "choices": [
+        "Han Seok-bong",
+        "Heo Jun",
+        "Yun Dong-ju",
+        "Yun Bong-gil"
+      ],
+      "answer": "Heo Jun"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "조선시대의 최고의 화가"
+      },
+      "choices": [
+        "Heo Jun",
+        "Yun Dong-ju",
+        "Gim Hongdo",
+        "Yun Bong-gil"
+      ],
+      "answer": "Gim Hongdo"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "세계 최초 측우기를 만든 과학자"
+      },
+      "choices": [
+        "Yeongjo",
+        "Jang Yeong-sil",
+        "Sin Saimdang",
+        "Yun Dong-ju"
+      ],
+      "answer": "Jang Yeong-sil"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "고조선의 1대 왕"
+      },
+      "choices": [
+        "Gim Hongdo",
+        "Wang Geon",
+        "Yi Hwang",
+        "Dangun"
+      ],
+      "answer": "Dangun"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "발해를 세운 사람"
+      },
+      "choices": [
+        "Gim Hongdo",
+        "Sejong the Great",
+        "Dae Joyeong",
+        "Yi Hwang"
+      ],
+      "answer": "Dae Joyeong"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "일제강점기 독립운동가"
+      },
+      "choices": [
+        "Yeongjo",
+        "Kim Gu",
+        "Ahn Yong-Bok",
+        "Yun Dong-ju"
+      ],
+      "answer": "Kim Gu"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "3·1운동을 주도한 독립운동가"
+      },
+      "choices": [
+        "Heo Jun",
+        "Kim Jeong-ho",
+        "Hwang Jini",
+        "Yu-Gwansun"
+      ],
+      "answer": "Yu-Gwansun"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "후삼국을 통일한 임금"
+      },
+      "choices": [
+        "Wang Geon",
+        "Lee Wan-yong",
+        "Jang Yeong-sil",
+        "Han Seok-bong"
+      ],
+      "answer": "Wang Geon"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "이토 히로부미를 죽인 독립운동가"
+      },
+      "choices": [
+        "Dangun",
+        "Sin Saimdang",
+        "Jang Yeong-sil",
+        "An Jung-geun"
+      ],
+      "answer": "An Jung-geun"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "어린이 날을 만든 사람"
+      },
+      "choices": [
+        "Gojong",
+        "Bang Jeong-hwan",
+        "Mun Ikjeom",
+        "Ahn Yong-Bok"
+      ],
+      "answer": "Bang Jeong-hwan"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "국내로 목화를 들여온 사람"
+      },
+      "choices": [
+        "Wang Geon",
+        "Mun Ikjeom",
+        "Bang Jeong-hwan",
+        "Jang Yeong-sil"
+      ],
+      "answer": "Mun Ikjeom"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "행사장에 폭탄을 던진 독립 운동가"
+      },
+      "choices": [
+        "Gojong",
+        "Yun Bong-gil",
+        "Kim Jeong-ho",
+        "Yeongjo"
+      ],
+      "answer": "Yun Bong-gil"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "조선의 화가"
+      },
+      "choices": [
+        "Wang Geon",
+        "Sin Saimdang",
+        "An Jung-geun",
+        "Yi Sun-sin"
+      ],
+      "answer": "Sin Saimdang"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "최고의 명필가"
+      },
+      "choices": [
+        "Han Seok-bong",
+        "Yun Bong-gil",
+        "Mun Ikjeom",
+        "Yu-Gwansun"
+      ],
+      "answer": "Han Seok-bong"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "일제 시기의 유명한 시인"
+      },
+      "choices": [
+        "Dangun",
+        "Yi Hwang",
+        "Mun Ikjeom",
+        "Yun Dong-ju"
+      ],
+      "answer": "Yun Dong-ju"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "신문고를 만든 왕"
+      },
+      "choices": [
+        "Dangun",
+        "Dae Joyeong",
+        "Wang Geon",
+        "Yeongjo"
+      ],
+      "answer": "Yeongjo"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "정확한 지도를 만든 학자"
+      },
+      "choices": [
+        "An Jung-geun",
+        "Dangun",
+        "Kim Jeong-ho",
+        "Lee Wan-yong"
+      ],
+      "answer": "Kim Jeong-ho"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "나라를 팔아먹은 매국노"
+      },
+      "choices": [
+        "Kim Jeong-ho",
+        "Lee Wan-yong",
+        "Yun Bong-gil",
+        "Sin Saimdang"
+      ],
+      "answer": "Lee Wan-yong"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "조선을 대표하는 시조예술가"
+      },
+      "choices": [
+        "Kim Jeong-ho",
+        "Heo Jun",
+        "Wang Geon",
+        "Hwang Jini"
+      ],
+      "answer": "Hwang Jini"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "울릉도와 독도를 지킨 어부"
+      },
+      "choices": [
+        "Yun Dong-ju",
+        "Yi Hwang",
+        "Ahn Yong-Bok",
+        "Gim Hongdo"
+      ],
+      "answer": "Ahn Yong-Bok"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "한국을 대표하는 성리학자"
+      },
+      "choices": [
+        "Gojong",
+        "Jang Yeong-sil",
+        "Lee Wan-yong",
+        "Yi Hwang"
+      ],
+      "answer": "Yi Hwang"
+    },
+    {
+      "type": "dialogue",
+      "skill": "culture",
+      "prompt": "Choose the best answer.",
+      "q": {
+        "text": "조선의 마지막 왕"
+      },
+      "choices": [
+        "Mun Ikjeom",
+        "Jang Yeong-sil",
+        "An Jung-geun",
+        "Gojong"
+      ],
+      "answer": "Gojong"
+    }
+  ]
+}
