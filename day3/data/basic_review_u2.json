@@ -1,0 +1,787 @@
+{
+ "id": "basic_review_u2",
+ "kind": "review",
+ "title": "Basic Review · Units 3–4 (A / B / C)",
+ "passPercent": 80,
+ "units": [
+  "basic_a_u3",
+  "basic_a_u4",
+  "basic_b_u3",
+  "basic_b_u4",
+  "basic_c_u3",
+  "basic_c_u4"
+ ],
+ "wordAudio": "../packs/basic_a_u3/audio/us_f/",
+ "picDir": "../packs/basic_a_u3/",
+ "lineAudio": "audio/basic_a_u3/",
+ "questions": [
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "type",
+   "audio": "audio/basic_a_u3/{v}/typeyourid.mp3",
+   "answer": [
+    "Type",
+    "your",
+    "ID."
+   ],
+   "unit": "basic_a_u3"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "help",
+   "choices": [
+    "help",
+    "wait",
+    "tomorrow",
+    "afternoon"
+   ],
+   "unit": "basic_a_u4"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "test",
+   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
+   "sentence": [
+    "We",
+    "have",
+    "a",
+    "___",
+    "today."
+   ],
+   "answer": "test",
+   "choices": [
+    "test",
+    "start",
+    "basic_c_u3__understand"
+   ],
+   "unit": "basic_c_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "afternoon",
+   "audio": "audio/basic_a_u4/{v}/goodafternoon.mp3",
+   "sentence": [
+    "Good",
+    "___",
+    "."
+   ],
+   "answer": "afternoon",
+   "choices": [
+    "afternoon",
+    "wait",
+    "please"
+   ],
+   "unit": "basic_a_u4"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "test",
+   "choices": [
+    "test",
+    "mean",
+    "report",
+    "basic_c_u3__understand"
+   ],
+   "unit": "basic_c_u3"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "scissors",
+   "answer": "scissors",
+   "choices": [
+    "scissors",
+    "stissors",
+    "scisors",
+    "scissor"
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "scissors",
+   "choices": [
+    "scissors",
+    "rock",
+    "paper",
+    "wins"
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "unplug",
+   "audio": "audio/basic_a_u3/{v}/unplugyourheadset.mp3",
+   "answer": [
+    "Unplug",
+    "your",
+    "headset."
+   ],
+   "unit": "basic_a_u3"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "pardon",
+   "choices": [
+    "pardon",
+    "quiet",
+    "wait",
+    "tomorrow"
+   ],
+   "unit": "basic_a_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "test",
+   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "test",
+    "today."
+   ],
+   "unit": "basic_c_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "busan",
+   "audio": "audio/basic_c_u4/{v}/wecanseebusan.mp3",
+   "sentence": [
+    "We",
+    "can",
+    "see",
+    "___",
+    "."
+   ],
+   "answer": "Busan",
+   "choices": [
+    "Busan",
+    "Goseong",
+    "Pyeongchang"
+   ],
+   "unit": "basic_c_u4"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "andong",
+   "choices": [
+    "andong",
+    "gongju",
+    "jeju",
+    "pyeongchang"
+   ],
+   "unit": "basic_c_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/basic_b_u3/{v}/sitdownplease.mp3",
+   "answer": [
+    "Sit",
+    "down,",
+    "please."
+   ],
+   "unit": "basic_b_u3"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "gongju",
+   "choices": [
+    "gongju",
+    "suncheon",
+    "tongyeong",
+    "busan"
+   ],
+   "unit": "basic_c_u4"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "trash",
+   "answer": "trash",
+   "choices": [
+    "trash",
+    "rash",
+    "tralh",
+    "trasd"
+   ],
+   "unit": "basic_b_u3"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "rock",
+   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
+   "answer": [
+    "Rock",
+    "wins."
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "double",
+   "audio": "audio/basic_a_u3/{v}/doubleclick.mp3",
+   "sentence": [
+    "___",
+    "click."
+   ],
+   "answer": "Double",
+   "choices": [
+    "Double",
+    "Right",
+    "Scroll"
+   ],
+   "unit": "basic_a_u3"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "understand",
+   "choices": [
+    "understand",
+    "basic_b_u3__quiet",
+    "trash",
+    "basic_b_u3__help"
+   ],
+   "unit": "basic_b_u3"
+  }
+ ],
+ "words": [
+  {
+   "id": "unplug",
+   "en": "unplug",
+   "ko": "(플러그를) 뽑다",
+   "pic": "../packs/basic_a_u3/unplug.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/unplug.mp3",
+   "stext": "Unplug your headset.",
+   "sentence": "audio/basic_a_u3/{v}/unplugyourheadset.mp3"
+  },
+  {
+   "id": "headset",
+   "en": "headset",
+   "ko": "헤드셋",
+   "pic": "../packs/basic_a_u3/headset.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/headset.mp3",
+   "stext": "Put on your headset.",
+   "sentence": "audio/basic_a_u3/{v}/putonyourheadset.mp3"
+  },
+  {
+   "id": "scroll",
+   "en": "scroll",
+   "ko": "스크롤하다",
+   "pic": "../packs/basic_a_u3/scroll.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/scroll.mp3",
+   "stext": "Scroll down.",
+   "sentence": "audio/basic_a_u3/{v}/scrolldown.mp3"
+  },
+  {
+   "id": "type",
+   "en": "type",
+   "ko": "(자판을) 치다",
+   "pic": "../packs/basic_a_u3/type.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/type.mp3",
+   "stext": "Type your ID.",
+   "sentence": "audio/basic_a_u3/{v}/typeyourid.mp3"
+  },
+  {
+   "id": "tab",
+   "en": "tab",
+   "ko": "탭",
+   "pic": "../packs/basic_a_u3/tab.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/tab.mp3",
+   "stext": "Make a new tab.",
+   "sentence": "audio/basic_a_u3/{v}/makeanewtab.mp3"
+  },
+  {
+   "id": "click",
+   "en": "click",
+   "ko": "클릭하다",
+   "pic": "../packs/basic_a_u3/click.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/click.mp3",
+   "stext": "Click here.",
+   "sentence": "audio/basic_a_u3/{v}/clickhere.mp3"
+  },
+  {
+   "id": "left",
+   "en": "left",
+   "ko": "왼쪽",
+   "pic": "../packs/basic_a_u3/left.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/left.mp3",
+   "stext": "Left click.",
+   "sentence": "audio/basic_a_u3/{v}/leftclick.mp3"
+  },
+  {
+   "id": "right",
+   "en": "right",
+   "ko": "오른쪽",
+   "pic": "../packs/basic_a_u3/right.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/right.mp3",
+   "stext": "Right click.",
+   "sentence": "audio/basic_a_u3/{v}/rightclick.mp3"
+  },
+  {
+   "id": "double",
+   "en": "double",
+   "ko": "두 번의",
+   "pic": "../packs/basic_a_u3/double.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/double.mp3",
+   "stext": "Double click.",
+   "sentence": "audio/basic_a_u3/{v}/doubleclick.mp3"
+  },
+  {
+   "id": "restart",
+   "en": "restart",
+   "ko": "다시 시작하다",
+   "pic": "../packs/basic_a_u3/restart.jpg",
+   "audio": "../packs/basic_a_u3/audio/{v}/restart.mp3",
+   "stext": "Restart your computer.",
+   "sentence": "../packs/basic_a_u3/audio/{v}/restartyourcomputer.mp3"
+  },
+  {
+   "id": "good",
+   "en": "good",
+   "ko": "좋은",
+   "pic": null,
+   "audio": "../packs/basic_a_u4/audio/{v}/good.mp3",
+   "stext": "Good job!",
+   "sentence": "audio/basic_a_u4/{v}/goodjob.mp3"
+  },
+  {
+   "id": "afternoon",
+   "en": "afternoon",
+   "ko": "오후",
+   "pic": "../packs/basic_a_u4/afternoon.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/afternoon.mp3",
+   "stext": "Good afternoon.",
+   "sentence": "audio/basic_a_u4/{v}/goodafternoon.mp3"
+  },
+  {
+   "id": "tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "pic": "../packs/basic_a_u4/tomorrow.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/tomorrow.mp3",
+   "stext": "See you tomorrow.",
+   "sentence": "../packs/basic_a_u4/audio/{v}/seeyoutomorrow.mp3"
+  },
+  {
+   "id": "sorry",
+   "en": "sorry",
+   "ko": "미안해요",
+   "pic": "../packs/basic_a_u4/sorry.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/sorry.mp3",
+   "stext": "I am sorry.",
+   "sentence": "audio/basic_a_u4/{v}/iamsorry.mp3"
+  },
+  {
+   "id": "pardon",
+   "en": "pardon",
+   "ko": "뭐라고요?",
+   "pic": "../packs/basic_a_u4/pardon.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/pardon.mp3",
+   "stext": "Pardon me?",
+   "sentence": "audio/basic_a_u4/{v}/pardonme.mp3"
+  },
+  {
+   "id": "help",
+   "en": "help",
+   "ko": "돕다",
+   "pic": "../packs/basic_a_u4/help.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/help.mp3",
+   "stext": "Help me, please.",
+   "sentence": "audio/basic_a_u4/{v}/helpmeplease.mp3"
+  },
+  {
+   "id": "please",
+   "en": "please",
+   "ko": "부탁해요, 제발",
+   "pic": null,
+   "audio": "../packs/basic_a_u4/audio/{v}/please.mp3",
+   "stext": "Sit down, please.",
+   "sentence": "audio/basic_a_u4/{v}/sitdownplease.mp3"
+  },
+  {
+   "id": "quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/basic_a_u4/quiet.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/quiet.mp3",
+   "stext": "Be quiet, please.",
+   "sentence": "audio/basic_a_u4/{v}/bequietplease.mp3"
+  },
+  {
+   "id": "wait",
+   "en": "wait",
+   "ko": "기다리다",
+   "pic": "../packs/basic_a_u4/wait.jpg",
+   "audio": "../packs/basic_a_u4/audio/{v}/wait.mp3",
+   "stext": "Wait a minute.",
+   "sentence": "audio/basic_a_u4/{v}/waitaminute.mp3"
+  },
+  {
+   "id": "see",
+   "en": "see",
+   "ko": "보다",
+   "pic": null,
+   "audio": "../packs/basic_a_u4/audio/{v}/see.mp3",
+   "stext": "See you later.",
+   "sentence": "audio/basic_a_u4/{v}/seeyoulater.mp3"
+  },
+  {
+   "id": "again",
+   "en": "again",
+   "ko": "다시",
+   "pic": "../packs/basic_b_u3/again.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/again.mp3",
+   "stext": "Say it again, please.",
+   "sentence": "audio/basic_b_u3/{v}/sayitagainplease.mp3"
+  },
+  {
+   "id": "recycle",
+   "en": "recycle",
+   "ko": "재활용하다",
+   "pic": "../packs/basic_b_u3/recycle.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/recycle.mp3",
+   "stext": "Recycle the paper.",
+   "sentence": "audio/basic_b_u3/{v}/recyclethepaper.mp3"
+  },
+  {
+   "id": "trash",
+   "en": "trash",
+   "ko": "버리다, 쓰레기",
+   "pic": "../packs/basic_b_u3/trash.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/trash.mp3",
+   "stext": "Put it in the trash.",
+   "sentence": "audio/basic_b_u3/{v}/putitinthetrash.mp3"
+  },
+  {
+   "id": "understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "pic": "../packs/basic_b_u3/understand.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/understand.mp3",
+   "stext": "I do not understand.",
+   "sentence": "../packs/basic_b_u3/audio/{v}/idonotunderstand.mp3"
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "pic": "../packs/basic_b_u3/know.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/know.mp3",
+   "stext": "I know.",
+   "sentence": "audio/basic_b_u3/{v}/iknow.mp3"
+  },
+  {
+   "id": "basic_b_u3__help",
+   "en": "help",
+   "ko": "돕다",
+   "pic": "../packs/basic_b_u3/help.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/help.mp3",
+   "stext": "Can you help me?",
+   "sentence": "audio/basic_b_u3/{v}/canyouhelpme.mp3"
+  },
+  {
+   "id": "basic_b_u3__quiet",
+   "en": "quiet",
+   "ko": "조용한",
+   "pic": "../packs/basic_b_u3/quiet.jpg",
+   "audio": "../packs/basic_b_u3/audio/{v}/quiet.mp3",
+   "stext": "Be quiet, please.",
+   "sentence": "audio/basic_b_u3/{v}/bequietplease.mp3"
+  },
+  {
+   "id": "basic_b_u3__please",
+   "en": "please",
+   "ko": "부탁해요, 제발",
+   "pic": null,
+   "audio": "../packs/basic_b_u3/audio/{v}/please.mp3",
+   "stext": "Sit down, please.",
+   "sentence": "audio/basic_b_u3/{v}/sitdownplease.mp3"
+  },
+  {
+   "id": "rock",
+   "en": "rock",
+   "ko": "바위",
+   "pic": "../packs/basic_b_u4/rock.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/rock.mp3",
+   "stext": "Rock wins.",
+   "sentence": "../packs/basic_b_u4/audio/{v}/rockwins.mp3"
+  },
+  {
+   "id": "paper",
+   "en": "paper",
+   "ko": "보, 종이",
+   "pic": "../packs/basic_b_u4/paper.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/paper.mp3",
+   "stext": "Paper wins.",
+   "sentence": "audio/basic_b_u4/{v}/paperwins.mp3"
+  },
+  {
+   "id": "scissors",
+   "en": "scissors",
+   "ko": "가위",
+   "pic": "../packs/basic_b_u4/scissors.jpg",
+   "audio": "../packs/basic_b_u4/audio/{v}/scissors.mp3",
+   "stext": "Scissors win.",
+   "sentence": "audio/basic_b_u4/{v}/scissorswin.mp3"
+  },
+  {
+   "id": "wins",
+   "en": "wins",
+   "ko": "이기다",
+   "pic": null,
+   "audio": "../packs/basic_b_u4/audio/{v}/wins.mp3",
+   "stext": "Scissors win against paper.",
+   "sentence": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3"
+  },
+  {
+   "id": "monday",
+   "en": "Monday",
+   "ko": "월요일",
+   "pic": "../packs/basic_c_u3/monday.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/monday.mp3",
+   "stext": "See you on Monday.",
+   "sentence": "audio/basic_c_u3/{v}/seeyouonmonday.mp3"
+  },
+  {
+   "id": "start",
+   "en": "start",
+   "ko": "시작하다",
+   "pic": "../packs/basic_c_u3/start.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/start.mp3",
+   "stext": "May I start?",
+   "sentence": "../packs/basic_c_u3/audio/{v}/mayistart.mp3"
+  },
+  {
+   "id": "report",
+   "en": "report",
+   "ko": "보고하다",
+   "pic": "../packs/basic_c_u3/report.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/report.mp3",
+   "stext": "I have a report.",
+   "sentence": "audio/basic_c_u3/{v}/ihaveareport.mp3"
+  },
+  {
+   "id": "spell",
+   "en": "spell",
+   "ko": "철자를 말하다",
+   "pic": "../packs/basic_c_u3/spell.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/spell.mp3",
+   "stext": "How do you spell it?",
+   "sentence": "audio/basic_c_u3/{v}/howdoyouspellit.mp3"
+  },
+  {
+   "id": "mean",
+   "en": "mean",
+   "ko": "뜻하다",
+   "pic": "../packs/basic_c_u3/mean.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/mean.mp3",
+   "stext": "What does it mean?",
+   "sentence": "audio/basic_c_u3/{v}/whatdoesitmean.mp3"
+  },
+  {
+   "id": "welcome",
+   "en": "welcome",
+   "ko": "천만에요, 환영하다",
+   "pic": "../packs/basic_c_u3/welcome.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/welcome.mp3",
+   "stext": "You are welcome.",
+   "sentence": "audio/basic_c_u3/{v}/youarewelcome.mp3"
+  },
+  {
+   "id": "test",
+   "en": "test",
+   "ko": "시험하다",
+   "pic": "../packs/basic_c_u3/test.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/test.mp3",
+   "stext": "We have a test today.",
+   "sentence": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3"
+  },
+  {
+   "id": "basic_c_u3__tomorrow",
+   "en": "tomorrow",
+   "ko": "내일",
+   "pic": "../packs/basic_c_u3/tomorrow.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/tomorrow.mp3",
+   "stext": "See you tomorrow.",
+   "sentence": "audio/basic_c_u3/{v}/seeyoutomorrow.mp3"
+  },
+  {
+   "id": "basic_c_u3__understand",
+   "en": "understand",
+   "ko": "이해하다",
+   "pic": "../packs/basic_c_u3/understand.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/understand.mp3",
+   "stext": "I understand.",
+   "sentence": "audio/basic_c_u3/{v}/iunderstand.mp3"
+  },
+  {
+   "id": "basic_c_u3__know",
+   "en": "know",
+   "ko": "알다",
+   "pic": "../packs/basic_c_u3/know.jpg",
+   "audio": "../packs/basic_c_u3/audio/{v}/know.mp3",
+   "stext": "I don't know.",
+   "sentence": "audio/basic_c_u3/{v}/idontknow.mp3"
+  },
+  {
+   "id": "near",
+   "en": "near",
+   "ko": "근처에",
+   "pic": null,
+   "audio": "../packs/basic_c_u4/audio/{v}/near.mp3",
+   "stext": "Goseong is near Tongyeong.",
+   "sentence": "audio/basic_c_u4/{v}/goseongisneartongyeong.mp3"
+  },
+  {
+   "id": "seoul",
+   "en": "Seoul",
+   "ko": "서울",
+   "pic": "../packs/basic_c_u4/seoul.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/seoul.mp3",
+   "stext": "We can see Seoul.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseeseoul.mp3"
+  },
+  {
+   "id": "busan",
+   "en": "Busan",
+   "ko": "부산",
+   "pic": "../packs/basic_c_u4/busan.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/busan.mp3",
+   "stext": "We can see Busan.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseebusan.mp3"
+  },
+  {
+   "id": "jeju",
+   "en": "Jeju",
+   "ko": "제주",
+   "pic": "../packs/basic_c_u4/jeju.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/jeju.mp3",
+   "stext": "We can see Jeju.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseejeju.mp3"
+  },
+  {
+   "id": "tongyeong",
+   "en": "Tongyeong",
+   "ko": "통영",
+   "pic": "../packs/basic_c_u4/tongyeong.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/tongyeong.mp3",
+   "stext": "We can see Tongyeong.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseetongyeong.mp3"
+  },
+  {
+   "id": "gongju",
+   "en": "Gongju",
+   "ko": "공주",
+   "pic": "../packs/basic_c_u4/gongju.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/gongju.mp3",
+   "stext": "We can see Gongju.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseegongju.mp3"
+  },
+  {
+   "id": "andong",
+   "en": "Andong",
+   "ko": "안동",
+   "pic": "../packs/basic_c_u4/andong.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/andong.mp3",
+   "stext": "We can see Andong.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseeandong.mp3"
+  },
+  {
+   "id": "suncheon",
+   "en": "Suncheon",
+   "ko": "순천",
+   "pic": "../packs/basic_c_u4/suncheon.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/suncheon.mp3",
+   "stext": "We can see Suncheon.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseesuncheon.mp3"
+  },
+  {
+   "id": "goseong",
+   "en": "Goseong",
+   "ko": "고성",
+   "pic": "../packs/basic_c_u4/goseong.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/goseong.mp3",
+   "stext": "We can see Goseong.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseegoseong.mp3"
+  },
+  {
+   "id": "pyeongchang",
+   "en": "Pyeongchang",
+   "ko": "평창",
+   "pic": "../packs/basic_c_u4/pyeongchang.jpg",
+   "audio": "../packs/basic_c_u4/audio/{v}/pyeongchang.mp3",
+   "stext": "We can see Pyeongchang.",
+   "sentence": "audio/basic_c_u4/{v}/wecanseepyeongchang.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u3/",
+  "ai": "audio/basic_a_u3/ai/"
+ }
+}

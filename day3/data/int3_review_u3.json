@@ -1,0 +1,874 @@
+{
+ "id": "int3_review_u3",
+ "kind": "review",
+ "title": "Int 3 Review · Units 5–6 (3A / 3B / 3C)",
+ "passPercent": 80,
+ "units": [
+  "int3a_u5",
+  "int3a_u6",
+  "int3b_u5",
+  "int3b_u6",
+  "int3c_u5",
+  "int3c_u6"
+ ],
+ "wordAudio": "../packs/int3a_u5/audio/us_f/",
+ "picDir": "../packs/int3a_u5/",
+ "lineAudio": "audio/int3a_u5/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "ivy",
+   "choices": [
+    "ivy",
+    "iris",
+    "mike",
+    "hunter"
+   ],
+   "unit": "int3a_u6"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "silkworm",
+   "answer": "silkworm",
+   "choices": [
+    "silkworm",
+    "slkworm",
+    "silkwork",
+    "silpworm"
+   ],
+   "unit": "int3a_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "butterfly",
+   "choices": [
+    "butterfly",
+    "mosquito",
+    "silkworm",
+    "cicada"
+   ],
+   "unit": "int3a_u5"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": null,
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "answer": [
+    "I",
+    "will",
+    "yell",
+    "your",
+    "name."
+   ],
+   "unit": "int3a_u6"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "silkworm",
+   "audio": "audio/int3a_u5/{v}/itisasilkworm.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "silkworm",
+   "choices": [
+    "silkworm",
+    "moth",
+    "bug"
+   ],
+   "unit": "int3a_u5"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "stingray",
+   "audio": "audio/int3a_u6/{v}/mynameisstingray.mp3",
+   "answer": [
+    "My",
+    "name",
+    "is",
+    "Stingray."
+   ],
+   "unit": "int3a_u6"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "mango",
+   "choices": [
+    "mango",
+    "mangosteen",
+    "apple",
+    "lemon"
+   ],
+   "unit": "int3b_u6"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "putdown",
+   "answer": "put down",
+   "choices": [
+    "put down",
+    "pt down",
+    "put dwn",
+    "ut down"
+   ],
+   "unit": "int3b_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "pineapple",
+   "choices": [
+    "pineapple",
+    "grapefruit",
+    "durian",
+    "lychee"
+   ],
+   "unit": "int3b_u6"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "hat",
+   "audio": "audio/int3c_u5/{v}/ihaveahat.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "hat",
+   "choices": [
+    "hat",
+    "pillow",
+    "newspaper"
+   ],
+   "unit": "int3c_u5"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "desert",
+   "answer": "desert",
+   "choices": [
+    "desert",
+    "deserl",
+    "esert",
+    "deert"
+   ],
+   "unit": "int3c_u6"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "pencil",
+   "audio": "audio/int3c_u5/{v}/ihaveapencil.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "pencil",
+   "choices": [
+    "pencil",
+    "phone",
+    "chessboard"
+   ],
+   "unit": "int3c_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "desert",
+   "choices": [
+    "desert",
+    "mountain",
+    "province",
+    "city"
+   ],
+   "unit": "int3c_u6"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "desert",
+   "audio": "audio/int3c_u6/{v}/thereisnodesertinkorea.mp3",
+   "sentence": [
+    "There",
+    "is",
+    "no",
+    "___",
+    "in",
+    "Korea."
+   ],
+   "answer": "desert",
+   "choices": [
+    "desert",
+    "island",
+    "people"
+   ],
+   "unit": "int3c_u6"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "eatup",
+   "choices": [
+    "eatup",
+    "washup",
+    "giveup",
+    "cleanup"
+   ],
+   "unit": "int3b_u5"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "hurryup",
+   "audio": "audio/int3b_u5/{v}/hurryupplease.mp3",
+   "answer": [
+    "Hurry",
+    "up,",
+    "please!"
+   ],
+   "unit": "int3b_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "are",
+    "these?"
+   ],
+   "answer": "fruit",
+   "choices": [
+    "fruit",
+    "mango",
+    "mangosteen"
+   ],
+   "unit": "int3b_u6"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "cup",
+   "audio": "audio/int3c_u5/{v}/ihaveacup.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "cup",
+   "choices": [
+    "cup",
+    "pillow",
+    "phone"
+   ],
+   "unit": "int3c_u5"
+  }
+ ],
+ "words": [
+  {
+   "id": "bug",
+   "en": "bug",
+   "ko": "벌레",
+   "pic": null,
+   "audio": "../packs/int3a_u5/audio/{v}/bug.mp3",
+   "stext": "What is this bug?",
+   "sentence": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+  },
+  {
+   "id": "moth",
+   "en": "moth",
+   "ko": "나방",
+   "pic": "../packs/int3a_u5/moth.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/moth.mp3",
+   "stext": "It is a moth.",
+   "sentence": "audio/int3a_u5/{v}/itisamoth.mp3"
+  },
+  {
+   "id": "centipede",
+   "en": "centipede",
+   "ko": "지네",
+   "pic": "../packs/int3a_u5/centipede.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/centipede.mp3",
+   "stext": "It is a centipede.",
+   "sentence": "audio/int3a_u5/{v}/itisacentipede.mp3"
+  },
+  {
+   "id": "mosquito",
+   "en": "mosquito",
+   "ko": "모기",
+   "pic": "../packs/int3a_u5/mosquito.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/mosquito.mp3",
+   "stext": "It is a mosquito.",
+   "sentence": "audio/int3a_u5/{v}/itisamosquito.mp3"
+  },
+  {
+   "id": "cicada",
+   "en": "cicada",
+   "ko": "매미",
+   "pic": "../packs/int3a_u5/cicada.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/cicada.mp3",
+   "stext": "It is a cicada.",
+   "sentence": "audio/int3a_u5/{v}/itisacicada.mp3"
+  },
+  {
+   "id": "spider",
+   "en": "spider",
+   "ko": "거미",
+   "pic": "../packs/int3a_u5/spider.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/spider.mp3",
+   "stext": "It is a spider.",
+   "sentence": "audio/int3a_u5/{v}/itisaspider.mp3"
+  },
+  {
+   "id": "cockroach",
+   "en": "cockroach",
+   "ko": "바퀴벌레",
+   "pic": "../packs/int3a_u5/cockroach.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/cockroach.mp3",
+   "stext": "It is a cockroach.",
+   "sentence": "audio/int3a_u5/{v}/itisacockroach.mp3"
+  },
+  {
+   "id": "ant",
+   "en": "ant",
+   "ko": "개미",
+   "pic": "../packs/int3a_u5/ant.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/ant.mp3",
+   "stext": "It is an ant.",
+   "sentence": "audio/int3a_u5/{v}/itisanant.mp3"
+  },
+  {
+   "id": "silkworm",
+   "en": "silkworm",
+   "ko": "누에",
+   "pic": "../packs/int3a_u5/silkworm.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/silkworm.mp3",
+   "stext": "It is a silkworm.",
+   "sentence": "audio/int3a_u5/{v}/itisasilkworm.mp3"
+  },
+  {
+   "id": "butterfly",
+   "en": "butterfly",
+   "ko": "나비",
+   "pic": "../packs/int3a_u5/butterfly.jpg",
+   "audio": "../packs/int3a_u5/audio/{v}/butterfly.mp3",
+   "stext": "It is a butterfly.",
+   "sentence": "../packs/int3a_u5/audio/{v}/itisabutterfly.mp3"
+  },
+  {
+   "id": "name",
+   "en": "name",
+   "ko": "이름",
+   "pic": null,
+   "audio": "../packs/int3a_u6/audio/{v}/name.mp3",
+   "stext": "What is your name?",
+   "sentence": "audio/int3a_u6/{v}/whatisyourname.mp3"
+  },
+  {
+   "id": "yell",
+   "en": "yell",
+   "ko": "외치다, 부르다",
+   "pic": null,
+   "audio": "../packs/int3a_u6/audio/{v}/yell.mp3",
+   "stext": "I will yell your name.",
+   "sentence": "audio/int3a_u6/{v}/iwillyellyourname.mp3"
+  },
+  {
+   "id": "rose",
+   "en": "rose",
+   "ko": "장미",
+   "pic": "../packs/int3a_u6/rose.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/rose.mp3",
+   "stext": "My name is Rose.",
+   "sentence": "audio/int3a_u6/{v}/mynameisrose.mp3"
+  },
+  {
+   "id": "iris",
+   "en": "iris",
+   "ko": "붓꽃",
+   "pic": "../packs/int3a_u6/iris.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/iris.mp3",
+   "stext": "My name is Iris.",
+   "sentence": "audio/int3a_u6/{v}/mynameisiris.mp3"
+  },
+  {
+   "id": "hunter",
+   "en": "hunter",
+   "ko": "사냥꾼",
+   "pic": "../packs/int3a_u6/hunter.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/hunter.mp3",
+   "stext": "My name is Hunter.",
+   "sentence": "audio/int3a_u6/{v}/mynameishunter.mp3"
+  },
+  {
+   "id": "ginger",
+   "en": "ginger",
+   "ko": "생강",
+   "pic": "../packs/int3a_u6/ginger.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/ginger.mp3",
+   "stext": "My name is Ginger.",
+   "sentence": "audio/int3a_u6/{v}/mynameisginger.mp3"
+  },
+  {
+   "id": "stingray",
+   "en": "stingray",
+   "ko": "가오리",
+   "pic": "../packs/int3a_u6/stingray.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/stingray.mp3",
+   "stext": "My name is Stingray.",
+   "sentence": "audio/int3a_u6/{v}/mynameisstingray.mp3"
+  },
+  {
+   "id": "mike",
+   "en": "mike",
+   "ko": "마이크",
+   "pic": "../packs/int3a_u6/mike.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/mike.mp3",
+   "stext": "My name is Mike.",
+   "sentence": "audio/int3a_u6/{v}/mynameismike.mp3"
+  },
+  {
+   "id": "ivy",
+   "en": "ivy",
+   "ko": "담쟁이덩굴",
+   "pic": "../packs/int3a_u6/ivy.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/ivy.mp3",
+   "stext": "My name is Ivy.",
+   "sentence": "audio/int3a_u6/{v}/mynameisivy.mp3"
+  },
+  {
+   "id": "baker",
+   "en": "baker",
+   "ko": "제빵사",
+   "pic": "../packs/int3a_u6/baker.jpg",
+   "audio": "../packs/int3a_u6/audio/{v}/baker.mp3",
+   "stext": "My name is Baker.",
+   "sentence": "audio/int3a_u6/{v}/mynameisbaker.mp3"
+  },
+  {
+   "id": "eatup",
+   "en": "eat up",
+   "ko": "다 먹다",
+   "pic": "../packs/int3b_u5/eatup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/eatup.mp3",
+   "stext": "Eat up your food!",
+   "sentence": "audio/int3b_u5/{v}/eatupyourfood.mp3"
+  },
+  {
+   "id": "washup",
+   "en": "wash up",
+   "ko": "씻다",
+   "pic": "../packs/int3b_u5/washup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/washup.mp3",
+   "stext": "Wash up before dinner!",
+   "sentence": "audio/int3b_u5/{v}/washupbeforedinner.mp3"
+  },
+  {
+   "id": "hurryup",
+   "en": "hurry up",
+   "ko": "서두르다",
+   "pic": "../packs/int3b_u5/hurryup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/hurryup.mp3",
+   "stext": "Hurry up, please!",
+   "sentence": "audio/int3b_u5/{v}/hurryupplease.mp3"
+  },
+  {
+   "id": "cleanup",
+   "en": "clean up",
+   "ko": "치우다, 청소하다",
+   "pic": "../packs/int3b_u5/cleanup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/cleanup.mp3",
+   "stext": "Clean up your room!",
+   "sentence": "audio/int3b_u5/{v}/cleanupyourroom.mp3"
+  },
+  {
+   "id": "slowdown",
+   "en": "slow down",
+   "ko": "속도를 줄이다",
+   "pic": "../packs/int3b_u5/slowdown.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/slowdown.mp3",
+   "stext": "Slow down, please!",
+   "sentence": "audio/int3b_u5/{v}/slowdownplease.mp3"
+  },
+  {
+   "id": "putdown",
+   "en": "put down",
+   "ko": "내려놓다",
+   "pic": "../packs/int3b_u5/putdown.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/putdown.mp3",
+   "stext": "Put it down, please!",
+   "sentence": "audio/int3b_u5/{v}/putitdownplease.mp3"
+  },
+  {
+   "id": "comedown",
+   "en": "come down",
+   "ko": "내려오다",
+   "pic": "../packs/int3b_u5/comedown.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/comedown.mp3",
+   "stext": "Come down from there!",
+   "sentence": "audio/int3b_u5/{v}/comedownfromthere.mp3"
+  },
+  {
+   "id": "giveup",
+   "en": "give up",
+   "ko": "포기하다",
+   "pic": "../packs/int3b_u5/giveup.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/giveup.mp3",
+   "stext": "Don't give up!",
+   "sentence": "audio/int3b_u5/{v}/dontgiveup.mp3"
+  },
+  {
+   "id": "cooldown",
+   "en": "cool down",
+   "ko": "식히다",
+   "pic": "../packs/int3b_u5/cooldown.jpg",
+   "audio": "../packs/int3b_u5/audio/{v}/cooldown.mp3",
+   "stext": "Cool down, please!",
+   "sentence": "audio/int3b_u5/{v}/cooldownplease.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": null,
+   "audio": "../packs/int3b_u6/audio/{v}/fruit.mp3",
+   "stext": "What fruit are these?",
+   "sentence": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "pic": "../packs/int3b_u6/apple.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/apple.mp3",
+   "stext": "They are apples.",
+   "sentence": "audio/int3b_u6/{v}/theyareapples.mp3"
+  },
+  {
+   "id": "mango",
+   "en": "mango",
+   "ko": "망고",
+   "pic": "../packs/int3b_u6/mango.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/mango.mp3",
+   "stext": "They are mangoes.",
+   "sentence": "../packs/int3b_u6/audio/{v}/theyaremangoes.mp3"
+  },
+  {
+   "id": "lychee",
+   "en": "lychee",
+   "ko": "리치",
+   "pic": "../packs/int3b_u6/lychee.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lychee.mp3",
+   "stext": "They are lychees.",
+   "sentence": "audio/int3b_u6/{v}/theyarelychees.mp3"
+  },
+  {
+   "id": "rambutan",
+   "en": "rambutan",
+   "ko": "람부탄",
+   "pic": "../packs/int3b_u6/rambutan.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/rambutan.mp3",
+   "stext": "They are rambutans.",
+   "sentence": "audio/int3b_u6/{v}/theyarerambutans.mp3"
+  },
+  {
+   "id": "grapefruit",
+   "en": "grapefruit",
+   "ko": "자몽",
+   "pic": "../packs/int3b_u6/grapefruit.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/grapefruit.mp3",
+   "stext": "They are grapefruits.",
+   "sentence": "audio/int3b_u6/{v}/theyaregrapefruits.mp3"
+  },
+  {
+   "id": "mangosteen",
+   "en": "mangosteen",
+   "ko": "망고스틴",
+   "pic": "../packs/int3b_u6/mangosteen.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/mangosteen.mp3",
+   "stext": "They are mangosteens.",
+   "sentence": "audio/int3b_u6/{v}/theyaremangosteens.mp3"
+  },
+  {
+   "id": "durian",
+   "en": "durian",
+   "ko": "두리안",
+   "pic": "../packs/int3b_u6/durian.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/durian.mp3",
+   "stext": "They are durians.",
+   "sentence": "audio/int3b_u6/{v}/theyaredurians.mp3"
+  },
+  {
+   "id": "lemon",
+   "en": "lemon",
+   "ko": "레몬",
+   "pic": "../packs/int3b_u6/lemon.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/lemon.mp3",
+   "stext": "They are lemons.",
+   "sentence": "audio/int3b_u6/{v}/theyarelemons.mp3"
+  },
+  {
+   "id": "pineapple",
+   "en": "pineapple",
+   "ko": "파인애플",
+   "pic": "../packs/int3b_u6/pineapple.jpg",
+   "audio": "../packs/int3b_u6/audio/{v}/pineapple.mp3",
+   "stext": "They are pineapples.",
+   "sentence": "audio/int3b_u6/{v}/theyarepineapples.mp3"
+  },
+  {
+   "id": "pencil",
+   "en": "pencil",
+   "ko": "연필",
+   "pic": "../packs/int3c_u5/pencil.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/pencil.mp3",
+   "stext": "I have a pencil.",
+   "sentence": "audio/int3c_u5/{v}/ihaveapencil.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3c_u5/hat.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/hat.mp3",
+   "stext": "I have a hat.",
+   "sentence": "audio/int3c_u5/{v}/ihaveahat.mp3"
+  },
+  {
+   "id": "pencilcase",
+   "en": "pencil case",
+   "ko": "필통",
+   "pic": "../packs/int3c_u5/pencilcase.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/pencilcase.mp3",
+   "stext": "I have a pencil case.",
+   "sentence": "audio/int3c_u5/{v}/ihaveapencilcase.mp3"
+  },
+  {
+   "id": "newspaper",
+   "en": "newspaper",
+   "ko": "신문",
+   "pic": "../packs/int3c_u5/newspaper.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/newspaper.mp3",
+   "stext": "I have a newspaper.",
+   "sentence": "audio/int3c_u5/{v}/ihaveanewspaper.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/int3c_u5/book.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/book.mp3",
+   "stext": "I have a book.",
+   "sentence": "audio/int3c_u5/{v}/ihaveabook.mp3"
+  },
+  {
+   "id": "puzzle",
+   "en": "puzzle",
+   "ko": "퍼즐",
+   "pic": "../packs/int3c_u5/puzzle.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/puzzle.mp3",
+   "stext": "I have a puzzle.",
+   "sentence": "../packs/int3c_u5/audio/{v}/ihaveapuzzle.mp3"
+  },
+  {
+   "id": "chessboard",
+   "en": "chessboard",
+   "ko": "체스판",
+   "pic": "../packs/int3c_u5/chessboard.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/chessboard.mp3",
+   "stext": "I have a chessboard.",
+   "sentence": "audio/int3c_u5/{v}/ihaveachessboard.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int3c_u5/phone.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/phone.mp3",
+   "stext": "I have a phone.",
+   "sentence": "audio/int3c_u5/{v}/ihaveaphone.mp3"
+  },
+  {
+   "id": "pillow",
+   "en": "pillow",
+   "ko": "베개",
+   "pic": "../packs/int3c_u5/pillow.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/pillow.mp3",
+   "stext": "I have a pillow.",
+   "sentence": "audio/int3c_u5/{v}/ihaveapillow.mp3"
+  },
+  {
+   "id": "cup",
+   "en": "cup",
+   "ko": "컵",
+   "pic": "../packs/int3c_u5/cup.jpg",
+   "audio": "../packs/int3c_u5/audio/{v}/cup.mp3",
+   "stext": "I have a cup.",
+   "sentence": "audio/int3c_u5/{v}/ihaveacup.mp3"
+  },
+  {
+   "id": "howmany",
+   "en": "how many",
+   "ko": "얼마나 많은, 몇",
+   "pic": null,
+   "audio": "../packs/int3c_u6/audio/{v}/howmany.mp3",
+   "stext": "How many cities are there?",
+   "sentence": "audio/int3c_u6/{v}/howmanycitiesarethere.mp3"
+  },
+  {
+   "id": "city",
+   "en": "city",
+   "ko": "도시",
+   "pic": "../packs/int3c_u6/city.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/city.mp3",
+   "stext": "There are many cities.",
+   "sentence": "audio/int3c_u6/{v}/therearemanycities.mp3"
+  },
+  {
+   "id": "province",
+   "en": "province",
+   "ko": "도, 지방",
+   "pic": "../packs/int3c_u6/province.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/province.mp3",
+   "stext": "Korea has many provinces.",
+   "sentence": "audio/int3c_u6/{v}/koreahasmanyprovinces.mp3"
+  },
+  {
+   "id": "nationalpark",
+   "en": "national park",
+   "ko": "국립공원",
+   "pic": "../packs/int3c_u6/nationalpark.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/nationalpark.mp3",
+   "stext": "Let's visit a national park.",
+   "sentence": "audio/int3c_u6/{v}/letsvisitanationalpark.mp3"
+  },
+  {
+   "id": "island",
+   "en": "island",
+   "ko": "섬",
+   "pic": "../packs/int3c_u6/island.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/island.mp3",
+   "stext": "There are many islands.",
+   "sentence": "audio/int3c_u6/{v}/therearemanyislands.mp3"
+  },
+  {
+   "id": "volcano",
+   "en": "volcano",
+   "ko": "화산",
+   "pic": "../packs/int3c_u6/volcano.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/volcano.mp3",
+   "stext": "There is a volcano on Jeju.",
+   "sentence": "audio/int3c_u6/{v}/thereisavolcanoonjeju.mp3"
+  },
+  {
+   "id": "desert",
+   "en": "desert",
+   "ko": "사막",
+   "pic": "../packs/int3c_u6/desert.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/desert.mp3",
+   "stext": "There is no desert in Korea.",
+   "sentence": "audio/int3c_u6/{v}/thereisnodesertinkorea.mp3"
+  },
+  {
+   "id": "people",
+   "en": "people",
+   "ko": "사람들",
+   "pic": "../packs/int3c_u6/people.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/people.mp3",
+   "stext": "There are many people.",
+   "sentence": "audio/int3c_u6/{v}/therearemanypeople.mp3"
+  },
+  {
+   "id": "mountain",
+   "en": "mountain",
+   "ko": "산",
+   "pic": "../packs/int3c_u6/mountain.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/mountain.mp3",
+   "stext": "There are many mountains.",
+   "sentence": "audio/int3c_u6/{v}/therearemanymountains.mp3"
+  },
+  {
+   "id": "tiger",
+   "en": "tiger",
+   "ko": "호랑이",
+   "pic": "../packs/int3c_u6/tiger.jpg",
+   "audio": "../packs/int3c_u6/audio/{v}/tiger.mp3",
+   "stext": "There are no tigers.",
+   "sentence": "audio/int3c_u6/{v}/therearenotigers.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u5/",
+  "ai": "audio/int3a_u5/ai/"
+ }
+}

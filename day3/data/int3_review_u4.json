@@ -1,0 +1,897 @@
+{
+ "id": "int3_review_u4",
+ "kind": "review",
+ "title": "Int 3 Review · Units 7–8 (3A / 3B / 3C)",
+ "passPercent": 80,
+ "units": [
+  "int3a_u7",
+  "int3a_u8",
+  "int3b_u7",
+  "int3b_u8",
+  "int3c_u7",
+  "int3c_u8"
+ ],
+ "wordAudio": "../packs/int3a_u7/audio/us_f/",
+ "picDir": "../packs/int3a_u7/",
+ "lineAudio": "audio/int3a_u7/",
+ "questions": [
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "music",
+   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "music",
+   "choices": [
+    "music",
+    "eleven",
+    "introduction"
+   ],
+   "unit": "int3a_u8"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3a_u7/{v}/wehavegymclass.mp3",
+   "sentence": [
+    "We",
+    "have",
+    "___",
+    "class."
+   ],
+   "answer": "gym",
+   "choices": [
+    "gym",
+    "dance",
+    "clap"
+   ],
+   "unit": "int3a_u7"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "phone",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourphone.mp3",
+   "sentence": [
+    "Don't",
+    "forget",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "forget",
+    "hat"
+   ],
+   "unit": "int3b_u7"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "seven",
+   "choices": [
+    "seven",
+    "eight",
+    "nine",
+    "six"
+   ],
+   "unit": "int3c_u8"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fight",
+   "choices": [
+    "fight",
+    "int3c_u7__sing",
+    "type",
+    "love"
+   ],
+   "unit": "int3c_u7"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "dance",
+   "answer": "dance",
+   "choices": [
+    "dance",
+    "dabce",
+    "dace",
+    "ance"
+   ],
+   "unit": "int3a_u7"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int3a_u8/{v}/thisismyintroduction.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "introduction",
+   "choices": [
+    "introduction",
+    "eleven",
+    "sing"
+   ],
+   "unit": "int3a_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "coat",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3",
+   "answer": [
+    "Don't",
+    "forget",
+    "your",
+    "coat."
+   ],
+   "unit": "int3b_u7"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "weigh",
+   "audio": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3",
+   "sentence": [
+    "How",
+    "much",
+    "do",
+    "you",
+    "___",
+    "?"
+   ],
+   "answer": "weigh",
+   "choices": [
+    "weigh",
+    "Korea",
+    "teach"
+   ],
+   "unit": "int3b_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "eleven",
+   "audio": "audio/int3a_u8/{v}/iamelevenyearsold.mp3",
+   "answer": [
+    "I",
+    "am",
+    "eleven",
+    "years",
+    "old."
+   ],
+   "unit": "int3a_u8"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "fly",
+   "audio": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3",
+   "sentence": [
+    "No,",
+    "I",
+    "cannot",
+    "___",
+    "."
+   ],
+   "answer": "fly",
+   "choices": [
+    "fly",
+    "int3c_u7__run",
+    "jump"
+   ],
+   "unit": "int3c_u7"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "walk",
+   "audio": "audio/int3c_u7/{v}/icanwalk.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "walk",
+   "choices": [
+    "walk",
+    "jump",
+    "type"
+   ],
+   "unit": "int3c_u7"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "transitcard",
+   "choices": [
+    "transitcard",
+    "littlesister",
+    "umbrella",
+    "money"
+   ],
+   "unit": "int3b_u7"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "dance",
+   "choices": [
+    "dance",
+    "run",
+    "sit",
+    "clap"
+   ],
+   "unit": "int3a_u7"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "korea",
+   "choices": [
+    "korea",
+    "centimeter",
+    "secret",
+    "canada"
+   ],
+   "unit": "int3b_u8"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "nine",
+   "audio": "audio/int3c_u8/{v}/itisnineoclock.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "o'clock."
+   ],
+   "answer": "nine",
+   "choices": [
+    "nine",
+    "six",
+    "ten"
+   ],
+   "unit": "int3c_u8"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "five",
+   "answer": "five",
+   "choices": [
+    "five",
+    "fiv",
+    "fove",
+    "fise"
+   ],
+   "unit": "int3c_u8"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "centimeter",
+   "answer": "centimeter",
+   "choices": [
+    "centimeter",
+    "cenimeter",
+    "centumeter",
+    "entimeter"
+   ],
+   "unit": "int3b_u8"
+  }
+ ],
+ "words": [
+  {
+   "id": "gym",
+   "en": "gym",
+   "ko": "체육관, 체육",
+   "pic": null,
+   "audio": "../packs/int3a_u7/audio/{v}/gym.mp3",
+   "stext": "We have gym class.",
+   "sentence": "audio/int3a_u7/{v}/wehavegymclass.mp3"
+  },
+  {
+   "id": "stand",
+   "en": "stand",
+   "ko": "서다",
+   "pic": "../packs/int3a_u7/stand.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/stand.mp3",
+   "stext": "Stand up!",
+   "sentence": "audio/int3a_u7/{v}/standup.mp3"
+  },
+  {
+   "id": "run",
+   "en": "run",
+   "ko": "뛰다",
+   "pic": "../packs/int3a_u7/run.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/run.mp3",
+   "stext": "Run fast!",
+   "sentence": "audio/int3a_u7/{v}/runfast.mp3"
+  },
+  {
+   "id": "jumprope",
+   "en": "jump rope",
+   "ko": "줄넘기",
+   "pic": "../packs/int3a_u7/jumprope.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/jumprope.mp3",
+   "stext": "Jump rope!",
+   "sentence": "../packs/int3a_u7/audio/{v}/jumprope.mp3"
+  },
+  {
+   "id": "climb",
+   "en": "climb",
+   "ko": "오르다",
+   "pic": "../packs/int3a_u7/climb.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/climb.mp3",
+   "stext": "Climb the rope!",
+   "sentence": "audio/int3a_u7/{v}/climbtherope.mp3"
+  },
+  {
+   "id": "clap",
+   "en": "clap",
+   "ko": "박수 치다",
+   "pic": "../packs/int3a_u7/clap.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/clap.mp3",
+   "stext": "Clap three times!",
+   "sentence": "../packs/int3a_u7/audio/{v}/clapthreetimes.mp3"
+  },
+  {
+   "id": "turn",
+   "en": "turn",
+   "ko": "돌다",
+   "pic": "../packs/int3a_u7/turn.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/turn.mp3",
+   "stext": "Turn around!",
+   "sentence": "audio/int3a_u7/{v}/turnaround.mp3"
+  },
+  {
+   "id": "dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "pic": "../packs/int3a_u7/dance.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/dance.mp3",
+   "stext": "Let's dance!",
+   "sentence": "audio/int3a_u7/{v}/letsdance.mp3"
+  },
+  {
+   "id": "sit",
+   "en": "sit",
+   "ko": "앉다",
+   "pic": "../packs/int3a_u7/sit.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/sit.mp3",
+   "stext": "Sit down!",
+   "sentence": "audio/int3a_u7/{v}/sitdown.mp3"
+  },
+  {
+   "id": "jumpingjacks",
+   "en": "jumping jacks",
+   "ko": "팔 벌려 뛰기",
+   "pic": "../packs/int3a_u7/jumpingjacks.jpg",
+   "audio": "../packs/int3a_u7/audio/{v}/jumpingjacks.mp3",
+   "stext": "Do jumping jacks!",
+   "sentence": "audio/int3a_u7/{v}/dojumpingjacks.mp3"
+  },
+  {
+   "id": "introduction",
+   "en": "introduction",
+   "ko": "소개",
+   "pic": null,
+   "audio": "../packs/int3a_u8/audio/{v}/introduction.mp3",
+   "stext": "This is my introduction.",
+   "sentence": "audio/int3a_u8/{v}/thisismyintroduction.mp3"
+  },
+  {
+   "id": "eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "pic": "../packs/int3a_u8/eleven.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/eleven.mp3",
+   "stext": "I am eleven years old.",
+   "sentence": "audio/int3a_u8/{v}/iamelevenyearsold.mp3"
+  },
+  {
+   "id": "eighteen",
+   "en": "eighteen",
+   "ko": "열여덟, 18",
+   "pic": "../packs/int3a_u8/eighteen.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/eighteen.mp3",
+   "stext": "My brother is eighteen.",
+   "sentence": "audio/int3a_u8/{v}/mybrotheriseighteen.mp3"
+  },
+  {
+   "id": "sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/int3a_u8/sing.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/sing.mp3",
+   "stext": "I like to sing.",
+   "sentence": "audio/int3a_u8/{v}/iliketosing.mp3"
+  },
+  {
+   "id": "draw",
+   "en": "draw",
+   "ko": "그리다",
+   "pic": "../packs/int3a_u8/draw.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/draw.mp3",
+   "stext": "I like to draw.",
+   "sentence": "audio/int3a_u8/{v}/iliketodraw.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/int3a_u8/dog.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/dog.mp3",
+   "stext": "I have a dog.",
+   "sentence": "audio/int3a_u8/{v}/ihaveadog.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int3a_u8/music.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/music.mp3",
+   "stext": "I like music.",
+   "sentence": "audio/int3a_u8/{v}/ilikemusic.mp3"
+  },
+  {
+   "id": "family",
+   "en": "family",
+   "ko": "가족",
+   "pic": "../packs/int3a_u8/family.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/family.mp3",
+   "stext": "I love my family.",
+   "sentence": "audio/int3a_u8/{v}/ilovemyfamily.mp3"
+  },
+  {
+   "id": "people",
+   "en": "people",
+   "ko": "사람들",
+   "pic": null,
+   "audio": "../packs/int3a_u8/audio/{v}/people.mp3",
+   "stext": "There are four people in my family.",
+   "sentence": "audio/int3a_u8/{v}/therearefourpeopleinmyfamily.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/int3a_u8/school.jpg",
+   "audio": "../packs/int3a_u8/audio/{v}/school.mp3",
+   "stext": "I go to Hana School.",
+   "sentence": "audio/int3a_u8/{v}/igotohanaschool.mp3"
+  },
+  {
+   "id": "forget",
+   "en": "forget",
+   "ko": "잊다",
+   "pic": null,
+   "audio": "../packs/int3b_u7/audio/{v}/forget.mp3",
+   "stext": "Don't forget!",
+   "sentence": "audio/int3b_u7/{v}/dontforget.mp3"
+  },
+  {
+   "id": "transitcard",
+   "en": "transit card",
+   "ko": "교통카드",
+   "pic": "../packs/int3b_u7/transitcard.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/transitcard.mp3",
+   "stext": "Don't forget your transit card.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourtransitcard.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/int3b_u7/hat.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/hat.mp3",
+   "stext": "Don't forget your hat.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourhat.mp3"
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "pic": "../packs/int3b_u7/coat.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/coat.mp3",
+   "stext": "Don't forget your coat.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3"
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "pic": "../packs/int3b_u7/money.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/money.mp3",
+   "stext": "Don't forget your money.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourmoney.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int3b_u7/phone.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/phone.mp3",
+   "stext": "Don't forget your phone.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourphone.mp3"
+  },
+  {
+   "id": "backpack",
+   "en": "backpack",
+   "ko": "책가방",
+   "pic": "../packs/int3b_u7/backpack.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/backpack.mp3",
+   "stext": "Don't forget your backpack.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourbackpack.mp3"
+  },
+  {
+   "id": "lunch",
+   "en": "lunch",
+   "ko": "점심",
+   "pic": "../packs/int3b_u7/lunch.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/lunch.mp3",
+   "stext": "Don't forget your lunch.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourlunch.mp3"
+  },
+  {
+   "id": "littlesister",
+   "en": "little sister",
+   "ko": "여동생",
+   "pic": "../packs/int3b_u7/littlesister.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/littlesister.mp3",
+   "stext": "Don't forget your little sister.",
+   "sentence": "audio/int3b_u7/{v}/dontforgetyourlittlesister.mp3"
+  },
+  {
+   "id": "umbrella",
+   "en": "umbrella",
+   "ko": "우산",
+   "pic": "../packs/int3b_u7/umbrella.jpg",
+   "audio": "../packs/int3b_u7/audio/{v}/umbrella.mp3",
+   "stext": "Don't forget your umbrella.",
+   "sentence": "../packs/int3b_u7/audio/{v}/dontforgetyourumbrella.mp3"
+  },
+  {
+   "id": "canada",
+   "en": "Canada",
+   "ko": "캐나다",
+   "pic": "../packs/int3b_u8/canada.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/canada.mp3",
+   "stext": "I am from Canada.",
+   "sentence": "../packs/int3b_u8/audio/{v}/iamfromcanada.mp3"
+  },
+  {
+   "id": "korea",
+   "en": "Korea",
+   "ko": "한국",
+   "pic": "../packs/int3b_u8/korea.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/korea.mp3",
+   "stext": "I live in Korea.",
+   "sentence": "audio/int3b_u8/{v}/iliveinkorea.mp3"
+  },
+  {
+   "id": "tall",
+   "en": "tall",
+   "ko": "키가 큰",
+   "pic": "../packs/int3b_u8/tall.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/tall.mp3",
+   "stext": "I am tall.",
+   "sentence": "audio/int3b_u8/{v}/iamtall.mp3"
+  },
+  {
+   "id": "centimeter",
+   "en": "centimeter",
+   "ko": "센티미터",
+   "pic": "../packs/int3b_u8/centimeter.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/centimeter.mp3",
+   "stext": "I am one hundred eighty centimeters tall.",
+   "sentence": "audio/int3b_u8/{v}/iamonehundredeightycentimeterstall.mp3"
+  },
+  {
+   "id": "teach",
+   "en": "teach",
+   "ko": "가르치다",
+   "pic": "../packs/int3b_u8/teach.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/teach.mp3",
+   "stext": "I teach English.",
+   "sentence": "audio/int3b_u8/{v}/iteachenglish.mp3"
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "pic": null,
+   "audio": "../packs/int3b_u8/audio/{v}/english.mp3",
+   "stext": "I speak English.",
+   "sentence": "audio/int3b_u8/{v}/ispeakenglish.mp3"
+  },
+  {
+   "id": "food",
+   "en": "food",
+   "ko": "음식",
+   "pic": "../packs/int3b_u8/food.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/food.mp3",
+   "stext": "I like Korean food.",
+   "sentence": "audio/int3b_u8/{v}/ilikekoreanfood.mp3"
+  },
+  {
+   "id": "gimbap",
+   "en": "gimbap",
+   "ko": "김밥",
+   "pic": "../packs/int3b_u8/gimbap.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/gimbap.mp3",
+   "stext": "I like gimbap.",
+   "sentence": "audio/int3b_u8/{v}/ilikegimbap.mp3"
+  },
+  {
+   "id": "weigh",
+   "en": "weigh",
+   "ko": "무게가 ~이다",
+   "pic": "../packs/int3b_u8/weigh.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/weigh.mp3",
+   "stext": "How much do you weigh?",
+   "sentence": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3"
+  },
+  {
+   "id": "secret",
+   "en": "secret",
+   "ko": "비밀",
+   "pic": "../packs/int3b_u8/secret.jpg",
+   "audio": "../packs/int3b_u8/audio/{v}/secret.mp3",
+   "stext": "It is a secret.",
+   "sentence": "audio/int3b_u8/{v}/itisasecret.mp3"
+  },
+  {
+   "id": "int3c_u7__dance",
+   "en": "dance",
+   "ko": "춤추다",
+   "pic": "../packs/int3c_u7/dance.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/dance.mp3",
+   "stext": "I can dance.",
+   "sentence": "audio/int3c_u7/{v}/icandance.mp3"
+  },
+  {
+   "id": "jump",
+   "en": "jump",
+   "ko": "뛰다, 점프하다",
+   "pic": "../packs/int3c_u7/jump.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/jump.mp3",
+   "stext": "I can jump.",
+   "sentence": "audio/int3c_u7/{v}/icanjump.mp3"
+  },
+  {
+   "id": "int3c_u7__sing",
+   "en": "sing",
+   "ko": "노래하다",
+   "pic": "../packs/int3c_u7/sing.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/sing.mp3",
+   "stext": "I can sing.",
+   "sentence": "audio/int3c_u7/{v}/icansing.mp3"
+  },
+  {
+   "id": "fight",
+   "en": "fight",
+   "ko": "싸우다",
+   "pic": "../packs/int3c_u7/fight.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/fight.mp3",
+   "stext": "I can fight.",
+   "sentence": "audio/int3c_u7/{v}/icanfight.mp3"
+  },
+  {
+   "id": "type",
+   "en": "type",
+   "ko": "타자를 치다",
+   "pic": "../packs/int3c_u7/type.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/type.mp3",
+   "stext": "I can type.",
+   "sentence": "audio/int3c_u7/{v}/icantype.mp3"
+  },
+  {
+   "id": "walk",
+   "en": "walk",
+   "ko": "걷다",
+   "pic": "../packs/int3c_u7/walk.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/walk.mp3",
+   "stext": "I can walk.",
+   "sentence": "audio/int3c_u7/{v}/icanwalk.mp3"
+  },
+  {
+   "id": "cook",
+   "en": "cook",
+   "ko": "요리하다",
+   "pic": "../packs/int3c_u7/cook.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/cook.mp3",
+   "stext": "I can cook.",
+   "sentence": "audio/int3c_u7/{v}/icancook.mp3"
+  },
+  {
+   "id": "fly",
+   "en": "fly",
+   "ko": "날다",
+   "pic": "../packs/int3c_u7/fly.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/fly.mp3",
+   "stext": "No, I cannot fly.",
+   "sentence": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3"
+  },
+  {
+   "id": "love",
+   "en": "love",
+   "ko": "사랑하다",
+   "pic": "../packs/int3c_u7/love.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/love.mp3",
+   "stext": "I can love my family.",
+   "sentence": "audio/int3c_u7/{v}/icanlovemyfamily.mp3"
+  },
+  {
+   "id": "int3c_u7__run",
+   "en": "run",
+   "ko": "달리다",
+   "pic": "../packs/int3c_u7/run.jpg",
+   "audio": "../packs/int3c_u7/audio/{v}/run.mp3",
+   "stext": "I can run.",
+   "sentence": "audio/int3c_u7/{v}/icanrun.mp3"
+  },
+  {
+   "id": "oclock",
+   "en": "o'clock",
+   "ko": "~시 (정각)",
+   "pic": null,
+   "audio": "../packs/int3c_u8/audio/{v}/oclock.mp3",
+   "stext": "It is twelve o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itistwelveoclock.mp3"
+  },
+  {
+   "id": "one",
+   "en": "one",
+   "ko": "한, 1",
+   "pic": "../packs/int3c_u8/one.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/one.mp3",
+   "stext": "It is one o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itisoneoclock.mp3"
+  },
+  {
+   "id": "two",
+   "en": "two",
+   "ko": "두, 2",
+   "pic": "../packs/int3c_u8/two.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/two.mp3",
+   "stext": "It is two o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itistwooclock.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 5",
+   "pic": "../packs/int3c_u8/five.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/five.mp3",
+   "stext": "It is five o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itisfiveoclock.mp3"
+  },
+  {
+   "id": "six",
+   "en": "six",
+   "ko": "여섯, 6",
+   "pic": "../packs/int3c_u8/six.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/six.mp3",
+   "stext": "It is six o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itissixoclock.mp3"
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 7",
+   "pic": "../packs/int3c_u8/seven.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/seven.mp3",
+   "stext": "It is seven o'clock.",
+   "sentence": "../packs/int3c_u8/audio/{v}/itissevenoclock.mp3"
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 8",
+   "pic": "../packs/int3c_u8/eight.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/eight.mp3",
+   "stext": "It is eight o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itiseightoclock.mp3"
+  },
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 9",
+   "pic": "../packs/int3c_u8/nine.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/nine.mp3",
+   "stext": "It is nine o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itisnineoclock.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열, 10",
+   "pic": "../packs/int3c_u8/ten.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/ten.mp3",
+   "stext": "It is ten o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itistenoclock.mp3"
+  },
+  {
+   "id": "int3c_u8__eleven",
+   "en": "eleven",
+   "ko": "열한, 11",
+   "pic": "../packs/int3c_u8/eleven.jpg",
+   "audio": "../packs/int3c_u8/audio/{v}/eleven.mp3",
+   "stext": "It is eleven o'clock.",
+   "sentence": "audio/int3c_u8/{v}/itiselevenoclock.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int3a_u7/",
+  "ai": "audio/int3a_u7/ai/"
+ }
+}
