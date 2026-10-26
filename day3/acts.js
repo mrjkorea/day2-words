@@ -3,6 +3,7 @@ const A={};const $=s=>document.querySelector(s);const app=()=>document.getElemen
 const head=(id,sub,i,n)=>{const s=WB.steps.find(x=>x[0]===id);WB.voiceBtn();return `<div class="card"><h1>${s[2]} ${s[1]}</h1><div class="p">${sub}</div>${n?`<div class="bar"><i style="width:${i/n*100}%"></i></div>`:''}`};
 const fb=(t,ok)=>{const f=$('#fb');if(f){f.textContent=t;f.style.color=ok?'#2f9e44':'#c92a2a'}if(t&&t.startsWith('🎉'))WB.cheer('right');else if(t&&!ok&&!t.startsWith('First'))WB.cheer('wrong')};
 const U=s=>s.toUpperCase().replace(/[^A-Z]/g,'');
+const Hch=c=>String(c).toLowerCase();
 
 // 1. Matching Columns
 A.match=()=>{const W=WB.D.words,n=W.length;let right=0,done=0,sel=null,miss=new Set();
@@ -83,10 +84,10 @@ A.hangman=()=>{const W=WB.sh((WB.D.hangman&&WB.D.hangman.words||WB.D.words.map(w
   <button class="snd" id="pl">🔊 Listen</button> <button id="chs" style="font-size:15px">🎨 Style</button><div id="wd" style="font-size:36px;letter-spacing:8px;margin:10px"></div><div class="keys" id="k"></div><div id="fb"></div></div>`;
   $('#pl').onclick=()=>WB.play(w.audio);$('#chs').onclick=choose;setTimeout(()=>WB.play(w.audio),300);
   'abcdefghijklmnopqrstuvwxyz'.split('').forEach(ch=>{const b=document.createElement('button');b.textContent=ch;b.onclick=()=>guess(ch,b);$('#k').appendChild(b)});draw()}
- function draw(){const w=W[i];$('#wd').textContent=[...w.en].map(ch=>ch===' '?' ':got.has(ch)?ch:'_').join('');$('#sm').innerHTML=S.draw(lives,LIVES)}
- function guess(ch,b){if(lock)return;b.disabled=true;const w=W[i];if(w.en.includes(ch)){got.add(ch);b.classList.add('ok')}else{lives--;b.classList.add('no');fb('Not in the word! '+lives+' left…',false)}draw();
-  const win=[...w.en].every(c=>c===' '||got.has(c));if(win)fin(true);else if(lives<=0)fin(false)}
- function fin(ok){lock=true;const w=W[i];[...w.en].forEach(c=>got.add(c));draw();if(ok){right++,WB.tick('hangman',right,n);fb('🎉 You did it! '+w.en,true)}else fb(S.lose+' The word is: '+w.en,false);
+ function draw(){const w=W[i];$('#wd').textContent=[...w.en].map(ch=>ch===' '?' ':got.has(Hch(ch))?ch:'_').join('');$('#sm').innerHTML=S.draw(lives,LIVES)}
+ function guess(ch,b){if(lock)return;b.disabled=true;const w=W[i];const hit=[...w.en].some(c=>Hch(c)===Hch(ch));if(hit){got.add(Hch(ch));b.classList.add('ok')}else{lives--;b.classList.add('no');fb('Not in the word! '+lives+' left…',false)}draw();
+  const win=[...w.en].every(c=>c===' '||got.has(Hch(c)));if(win)fin(true);else if(lives<=0)fin(false)}
+ function fin(ok){lock=true;const w=W[i];[...w.en].forEach(c=>{if(c!==' ')got.add(Hch(c))});draw();if(ok){right++,WB.tick('hangman',right,n);fb('🎉 You did it! '+w.en,true)}else fb(S.lose+' The word is: '+w.en,false);
   WB.play(w.audio);setTimeout(()=>{i++;i<n?show():WB.end('hangman',right,n)},ok?1500:2500)}
  WB.skipBtn(()=>{if(S&&!lock)fin(true)});localStorage.getItem('mrj_day3_hangstyle')?go():choose();};
 
