@@ -27,6 +27,29 @@
 
   function $(id) { return document.getElementById(id); }
 
+  /* Return to the study-site Conversation map (never the songs catalog).
+     Map Open links pass ?return=<study-site map URL>&step=<level|Unit n|Song>. */
+  var SITE = "https://mrjkorea.github.io/";
+  var QS = new URLSearchParams(location.search);
+  var STEP_ID = (function () { var v = QS.get("step") || ""; return /^[^|<>"]{1,40}\|Unit \d{1,2}\|Song$/.test(v) ? v : ""; })();
+  var RETURN_URL = (function () {
+    var r = QS.get("return") || "";
+    if (r.indexOf(SITE) === 0 && !/[<>"\s]/.test(r)) return r;
+    if (STEP_ID) return SITE + "#path/" + encodeURIComponent(STEP_ID.split("|")[0]);
+    return SITE + "#levels";
+  })();
+  function goMap() { try { stopSlice(); pauseAudio(); } catch (e) {} location.href = RETURN_URL; }
+  function markMapStep() {
+    var SP = window.StudyProgress;
+    if (!STEP_ID || !SP) return Promise.resolve(false);
+    return SP.load().then(function () { return SP.markDone(STEP_ID); }).catch(function () { return false; });
+  }
+  (function () {
+    var h = document.getElementById("btn-home"), m = document.getElementById("btn-map");
+    if (h) h.href = RETURN_URL;
+    if (m) { m.href = RETURN_URL; m.addEventListener("click", function (e) { e.preventDefault(); var go = function () { location.href = RETURN_URL; }; (window.__mapSave || Promise.resolve()).then(go, go); setTimeout(go, 2500); }); }
+  })();
+
   function songIdFromUrl() {
     var q = new URLSearchParams(location.search).get("song") || "";
     if (!/^[a-z0-9_]+$/.test(q)) return "";
@@ -870,6 +893,7 @@
     var detail = quizScore + " / " + total + " right  ·  Try " + attempts;
     if (passed || attempts >= 2) {
       markDone("quiz", res);
+      window.__mapSave = markMapStep();
       stageDoneScreen("quiz", percent + "%", passed ? (stars >= 3 ? "Wow! Super star!" : "Great job! You passed!") : "Try again with your teacher", detail);
       $("btn-again").hidden = true;
     } else {
