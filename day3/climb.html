@@ -57,7 +57,7 @@ const TYPES={
 };
 const PROMPTS={listen:'Listen and choose the right picture.',spell:'Look at the picture. Choose the right spelling.',fill:'Fill in the missing word.',order:'Put the words in order.',dialogue:'Choose the best answer.'};
 const PROMPT=q=>{const t=q&&q.prompt;return (typeof t==='string'&&t.trim()&&t!=='undefined')?t:(PROMPTS[q&&q.type]||'Choose the right answer.')};
-const HOME=()=>D.kind==='review'?'units.html':WB.link('index.html');
+const HOME=()=>D.kind==='review'?(D.id&&/_review_u\d+$/.test(D.id)?'review.html':'units.html'):WB.link('index.html');
 function show(){locked=false;const q=D.questions[i],T=TYPES[q.type];if(!T){i++;return i<N?show():end()}
  card.innerHTML=head()+`<div class="p">${PROMPT(q)}</div>`+T.html(q)+`<div id="fb"></div>`;
  const pl=document.getElementById('play');if(pl)pl.onclick=()=>q.audio?line(q.audio):word(q.answer);

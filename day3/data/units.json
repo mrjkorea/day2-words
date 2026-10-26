@@ -646,5 +646,101 @@
   "kind": "review",
   "label": "Final Review",
   "title": "INT 3C · Final Review Units 1-8"
+ },
+ {
+  "id": "basic_review_u1",
+  "book": "basic_review",
+  "n": 1,
+  "kind": "review",
+  "label": "Review ONE",
+  "title": "Basic Review · Units 1–2 (A / B / C)"
+ },
+ {
+  "id": "basic_review_u2",
+  "book": "basic_review",
+  "n": 2,
+  "kind": "review",
+  "label": "Review TWO",
+  "title": "Basic Review · Units 3–4 (A / B / C)"
+ },
+ {
+  "id": "basic_review_u3",
+  "book": "basic_review",
+  "n": 3,
+  "kind": "review",
+  "label": "Review THREE",
+  "title": "Basic Review · Units 5–6 (A / B / C)"
+ },
+ {
+  "id": "basic_review_u4",
+  "book": "basic_review",
+  "n": 4,
+  "kind": "review",
+  "label": "Review FOUR",
+  "title": "Basic Review · Units 7–8 (A / B / C)"
+ },
+ {
+  "id": "int2_review_u1",
+  "book": "int2_review",
+  "n": 1,
+  "kind": "review",
+  "label": "Review ONE",
+  "title": "Int 2 Review · Units 1–2 (2A / 2B / 2C)"
+ },
+ {
+  "id": "int2_review_u2",
+  "book": "int2_review",
+  "n": 2,
+  "kind": "review",
+  "label": "Review TWO",
+  "title": "Int 2 Review · Units 3–4 (2A / 2B / 2C)"
+ },
+ {
+  "id": "int2_review_u3",
+  "book": "int2_review",
+  "n": 3,
+  "kind": "review",
+  "label": "Review THREE",
+  "title": "Int 2 Review · Units 5–6 (2A / 2B / 2C)"
+ },
+ {
+  "id": "int2_review_u4",
+  "book": "int2_review",
+  "n": 4,
+  "kind": "review",
+  "label": "Review FOUR",
+  "title": "Int 2 Review · Units 7–8 (2A / 2B / 2C)"
+ },
+ {
+  "id": "int3_review_u1",
+  "book": "int3_review",
+  "n": 1,
+  "kind": "review",
+  "label": "Review ONE",
+  "title": "Int 3 Review · Units 1–2 (3A / 3B / 3C)"
+ },
+ {
+  "id": "int3_review_u2",
+  "book": "int3_review",
+  "n": 2,
+  "kind": "review",
+  "label": "Review TWO",
+  "title": "Int 3 Review · Units 3–4 (3A / 3B / 3C)"
+ },
+ {
+  "id": "int3_review_u3",
+  "book": "int3_review",
+  "n": 3,
+  "kind": "review",
+  "label": "Review THREE",
+  "title": "Int 3 Review · Units 5–6 (3A / 3B / 3C)"
+ },
+ {
+  "id": "int3_review_u4",
+  "book": "int3_review",
+  "n": 4,
+  "kind": "review",
+  "label": "Review FOUR",
+  "title": "Int 3 Review · Units 7–8 (3A / 3B / 3C)"
  }
 ]

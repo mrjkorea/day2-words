@@ -1,0 +1,840 @@
+{
+ "id": "basic_review_u3",
+ "kind": "review",
+ "title": "Basic Review · Units 5–6 (A / B / C)",
+ "passPercent": 80,
+ "units": [
+  "basic_a_u5",
+  "basic_a_u06",
+  "basic_b_u5",
+  "basic_b_u6",
+  "basic_c_u5",
+  "basic_c_u6"
+ ],
+ "wordAudio": "../packs/basic_a_u5/audio/us_f/",
+ "picDir": "../packs/basic_a_u5/",
+ "lineAudio": "audio/basic_a_u5/",
+ "questions": [
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "tongyeong",
+   "answer": "Tongyeong",
+   "choices": [
+    "Tongyeong",
+    "Tungyeong",
+    "Tongyeon",
+    "Tengyeong"
+   ],
+   "unit": "basic_c_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "wrist",
+   "choices": [
+    "wrist",
+    "arm",
+    "toe",
+    "leg"
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "spell",
+   "prompt": "What is this? Pick the right spelling.",
+   "pic": "keyboard",
+   "answer": "keyboard",
+   "choices": [
+    "keybord",
+    "keyboard",
+    "kayboard"
+   ],
+   "skill": "spell",
+   "unit": "basic_a_u06"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "pic": "pen",
+   "audio": "whatisthis.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "this",
+    "?"
+   ],
+   "answer": "is",
+   "choices": [
+    "is",
+    "it",
+    "a"
+   ],
+   "skill": "dialogue",
+   "unit": "basic_a_u06"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "arm",
+   "choices": [
+    "arm",
+    "basic_c_u6__face",
+    "toe",
+    "wrist"
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "face",
+   "choices": [
+    "face",
+    "school",
+    "tongyeong",
+    "swing"
+   ],
+   "unit": "basic_c_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "ear",
+   "audio": "audio/basic_b_u6/{v}/thisismyear.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "ear",
+   "choices": [
+    "ear",
+    "head",
+    "body"
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "underwear",
+   "choices": [
+    "underwear",
+    "phonecharger",
+    "toothbrush",
+    "apple"
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "basic_b_u5__book",
+   "audio": "audio/basic_b_u5/{v}/itisabook.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "basic_b_u5__book",
+   "choices": [
+    "basic_b_u5__book",
+    "sock",
+    "underwear"
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "nose",
+   "choices": [
+    "nose",
+    "shoulder",
+    "chin",
+    "eye"
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "mom",
+   "choices": [
+    "mom",
+    "grandson",
+    "brother",
+    "nephew"
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "mouth",
+   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "mouth",
+   "choices": [
+    "mouth",
+    "eye",
+    "nose"
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "mom",
+   "answer": "mom",
+   "choices": [
+    "mom",
+    "mop",
+    "momb",
+    "momc"
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "pic": "cube",
+   "audio": "itisacube.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "cube."
+   ],
+   "skill": "unscramble",
+   "unit": "basic_a_u06"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "nephew",
+   "audio": "audio/basic_a_u5/{v}/thisismynephew.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "nephew."
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "toothbrush",
+   "audio": "audio/basic_b_u5/{v}/itisatoothbrush.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "toothbrush."
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "toe",
+   "choices": [
+    "toe",
+    "stomach",
+    "basic_c_u6__face",
+    "basic_c_u6__neck"
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "knee",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3",
+   "sentence": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "___",
+    "?"
+   ],
+   "answer": "knee",
+   "choices": [
+    "knee",
+    "Canada",
+    "Seoul"
+   ],
+   "unit": "basic_c_u5"
+  }
+ ],
+ "words": [
+  {
+   "id": "mom",
+   "en": "mom",
+   "ko": "엄마",
+   "pic": "../packs/basic_a_u5/mom.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/mom.mp3",
+   "stext": "This is my mom.",
+   "sentence": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3"
+  },
+  {
+   "id": "dad",
+   "en": "dad",
+   "ko": "아빠",
+   "pic": "../packs/basic_a_u5/dad.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/dad.mp3",
+   "stext": "This is my dad.",
+   "sentence": "audio/basic_a_u5/{v}/thisismydad.mp3"
+  },
+  {
+   "id": "sister",
+   "en": "sister",
+   "ko": "누나, 언니, 여동생",
+   "pic": "../packs/basic_a_u5/sister.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/sister.mp3",
+   "stext": "This is my sister.",
+   "sentence": "audio/basic_a_u5/{v}/thisismysister.mp3"
+  },
+  {
+   "id": "brother",
+   "en": "brother",
+   "ko": "형, 오빠, 남동생",
+   "pic": "../packs/basic_a_u5/brother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/brother.mp3",
+   "stext": "This is my brother.",
+   "sentence": "audio/basic_a_u5/{v}/thisismybrother.mp3"
+  },
+  {
+   "id": "uncle",
+   "en": "uncle",
+   "ko": "삼촌",
+   "pic": "../packs/basic_a_u5/uncle.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/uncle.mp3",
+   "stext": "This is my uncle.",
+   "sentence": "audio/basic_a_u5/{v}/thisismyuncle.mp3"
+  },
+  {
+   "id": "aunt",
+   "en": "aunt",
+   "ko": "이모, 고모",
+   "pic": "../packs/basic_a_u5/aunt.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/aunt.mp3",
+   "stext": "This is my aunt.",
+   "sentence": "audio/basic_a_u5/{v}/thisismyaunt.mp3"
+  },
+  {
+   "id": "grandmother",
+   "en": "grandmother",
+   "ko": "할머니",
+   "pic": "../packs/basic_a_u5/grandmother.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandmother.mp3",
+   "stext": "This is my grandmother.",
+   "sentence": "audio/basic_a_u5/{v}/thisismygrandmother.mp3"
+  },
+  {
+   "id": "cousin",
+   "en": "cousin",
+   "ko": "사촌",
+   "pic": "../packs/basic_a_u5/cousin.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/cousin.mp3",
+   "stext": "This is my cousin.",
+   "sentence": "audio/basic_a_u5/{v}/thisismycousin.mp3"
+  },
+  {
+   "id": "nephew",
+   "en": "nephew",
+   "ko": "조카",
+   "pic": "../packs/basic_a_u5/nephew.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/nephew.mp3",
+   "stext": "This is my nephew.",
+   "sentence": "audio/basic_a_u5/{v}/thisismynephew.mp3"
+  },
+  {
+   "id": "grandson",
+   "en": "grandson",
+   "ko": "손자",
+   "pic": "../packs/basic_a_u5/grandson.jpg",
+   "audio": "../packs/basic_a_u5/audio/{v}/grandson.mp3",
+   "stext": "This is my grandson.",
+   "sentence": "audio/basic_a_u5/{v}/thisismygrandson.mp3"
+  },
+  {
+   "id": "desk",
+   "en": "desk",
+   "pic": "pics/desk.webp",
+   "audio": "../songs/words/desk.mp3",
+   "sentence": "audio/itisadesk.mp3"
+  },
+  {
+   "id": "mouse",
+   "en": "mouse",
+   "pic": "pics/mouse.webp",
+   "audio": "../songs/words/mouse.mp3",
+   "sentence": "audio/itisamouse.mp3"
+  },
+  {
+   "id": "keyboard",
+   "en": "keyboard",
+   "pic": "pics/keyboard.webp",
+   "audio": "../songs/words/keyboard.mp3",
+   "sentence": "audio/itisakeyboard.mp3"
+  },
+  {
+   "id": "monitor",
+   "en": "monitor",
+   "pic": "pics/monitor.webp",
+   "audio": "../songs/words/monitor.mp3",
+   "sentence": "audio/itisamonitor.mp3"
+  },
+  {
+   "id": "cube",
+   "en": "cube",
+   "pic": "pics/cube.webp",
+   "audio": "../songs/words/cube.mp3",
+   "sentence": "audio/itisacube.mp3"
+  },
+  {
+   "id": "clipboard",
+   "en": "clipboard",
+   "pic": "pics/clipboard.webp",
+   "audio": "../songs/words/clipboard.mp3",
+   "sentence": "audio/itisaclipboard.mp3"
+  },
+  {
+   "id": "pen",
+   "en": "pen",
+   "pic": "pics/pen.webp",
+   "audio": "../songs/words/pen.mp3",
+   "sentence": "audio/itisapen.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "pic": "pics/book.webp",
+   "audio": "../songs/words/book.mp3",
+   "sentence": "audio/itisabook.mp3"
+  },
+  {
+   "id": "basic_b_u5__book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/basic_b_u5/book.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/book.mp3",
+   "stext": "It is a book.",
+   "sentence": "audio/basic_b_u5/{v}/itisabook.mp3"
+  },
+  {
+   "id": "phonecharger",
+   "en": "phone charger",
+   "ko": "휴대폰 충전기",
+   "pic": "../packs/basic_b_u5/phonecharger.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/phonecharger.mp3",
+   "stext": "It is a phone charger.",
+   "sentence": "audio/basic_b_u5/{v}/itisaphonecharger.mp3"
+  },
+  {
+   "id": "sock",
+   "en": "sock",
+   "ko": "양말",
+   "pic": "../packs/basic_b_u5/sock.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/sock.mp3",
+   "stext": "It is a sock.",
+   "sentence": "audio/basic_b_u5/{v}/itisasock.mp3"
+  },
+  {
+   "id": "toy",
+   "en": "toy",
+   "ko": "장난감",
+   "pic": "../packs/basic_b_u5/toy.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toy.mp3",
+   "stext": "It is a toy.",
+   "sentence": "../packs/basic_b_u5/audio/{v}/itisatoy.mp3"
+  },
+  {
+   "id": "underwear",
+   "en": "underwear",
+   "ko": "속옷",
+   "pic": "../packs/basic_b_u5/underwear.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/underwear.mp3",
+   "stext": "It is underwear.",
+   "sentence": "audio/basic_b_u5/{v}/itisunderwear.mp3"
+  },
+  {
+   "id": "toothbrush",
+   "en": "toothbrush",
+   "ko": "칫솔",
+   "pic": "../packs/basic_b_u5/toothbrush.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/toothbrush.mp3",
+   "stext": "It is a toothbrush.",
+   "sentence": "audio/basic_b_u5/{v}/itisatoothbrush.mp3"
+  },
+  {
+   "id": "nightlight",
+   "en": "night light",
+   "ko": "야간등",
+   "pic": "../packs/basic_b_u5/nightlight.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/nightlight.mp3",
+   "stext": "It is a night light.",
+   "sentence": "audio/basic_b_u5/{v}/itisanightlight.mp3"
+  },
+  {
+   "id": "teddybear",
+   "en": "teddy bear",
+   "ko": "곰인형",
+   "pic": "../packs/basic_b_u5/teddybear.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/teddybear.mp3",
+   "stext": "It is a teddy bear.",
+   "sentence": "audio/basic_b_u5/{v}/itisateddybear.mp3"
+  },
+  {
+   "id": "apple",
+   "en": "apple",
+   "ko": "사과",
+   "pic": "../packs/basic_b_u5/apple.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/apple.mp3",
+   "stext": "It is an apple.",
+   "sentence": "audio/basic_b_u5/{v}/itisanapple.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_b_u5/bag.jpg",
+   "audio": "../packs/basic_b_u5/audio/{v}/bag.mp3",
+   "stext": "It is a bag.",
+   "sentence": "audio/basic_b_u5/{v}/itisabag.mp3"
+  },
+  {
+   "id": "head",
+   "en": "head",
+   "ko": "머리",
+   "pic": "../packs/basic_b_u6/head.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/head.mp3",
+   "stext": "This is my head.",
+   "sentence": "../packs/basic_b_u6/audio/{v}/thisismyhead.mp3"
+  },
+  {
+   "id": "nose",
+   "en": "nose",
+   "ko": "코",
+   "pic": "../packs/basic_b_u6/nose.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/nose.mp3",
+   "stext": "This is my nose.",
+   "sentence": "audio/basic_b_u6/{v}/thisismynose.mp3"
+  },
+  {
+   "id": "mouth",
+   "en": "mouth",
+   "ko": "입",
+   "pic": "../packs/basic_b_u6/mouth.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/mouth.mp3",
+   "stext": "This is my mouth.",
+   "sentence": "audio/basic_b_u6/{v}/thisismymouth.mp3"
+  },
+  {
+   "id": "ear",
+   "en": "ear",
+   "ko": "귀",
+   "pic": "../packs/basic_b_u6/ear.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/ear.mp3",
+   "stext": "This is my ear.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyear.mp3"
+  },
+  {
+   "id": "eye",
+   "en": "eye",
+   "ko": "눈",
+   "pic": "../packs/basic_b_u6/eye.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/eye.mp3",
+   "stext": "This is my eye.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyeye.mp3"
+  },
+  {
+   "id": "neck",
+   "en": "neck",
+   "ko": "목",
+   "pic": "../packs/basic_b_u6/neck.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/neck.mp3",
+   "stext": "This is my neck.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyneck.mp3"
+  },
+  {
+   "id": "body",
+   "en": "body",
+   "ko": "몸",
+   "pic": "../packs/basic_b_u6/body.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/body.mp3",
+   "stext": "This is my body.",
+   "sentence": "audio/basic_b_u6/{v}/thisismybody.mp3"
+  },
+  {
+   "id": "chin",
+   "en": "chin",
+   "ko": "턱",
+   "pic": "../packs/basic_b_u6/chin.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/chin.mp3",
+   "stext": "This is my chin.",
+   "sentence": "audio/basic_b_u6/{v}/thisismychin.mp3"
+  },
+  {
+   "id": "hand",
+   "en": "hand",
+   "ko": "손",
+   "pic": "../packs/basic_b_u6/hand.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/hand.mp3",
+   "stext": "This is my hand.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyhand.mp3"
+  },
+  {
+   "id": "shoulder",
+   "en": "shoulder",
+   "ko": "어깨",
+   "pic": "../packs/basic_b_u6/shoulder.jpg",
+   "audio": "../packs/basic_b_u6/audio/{v}/shoulder.mp3",
+   "stext": "This is my shoulder.",
+   "sentence": "audio/basic_b_u6/{v}/thisismyshoulder.mp3"
+  },
+  {
+   "id": "pig",
+   "en": "pig",
+   "ko": "돼지",
+   "pic": "../packs/basic_c_u5/pig.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/pig.mp3",
+   "stext": "How do you spell pig?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellpig.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/basic_c_u5/dog.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/dog.mp3",
+   "stext": "How do you spell dog?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspelldog.mp3"
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "pic": "../packs/basic_c_u5/cat.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/cat.mp3",
+   "stext": "How do you spell cat?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellcat.mp3"
+  },
+  {
+   "id": "seoul",
+   "en": "Seoul",
+   "ko": "서울",
+   "pic": "../packs/basic_c_u5/seoul.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/seoul.mp3",
+   "stext": "How do you spell Seoul?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellseoul.mp3"
+  },
+  {
+   "id": "tongyeong",
+   "en": "Tongyeong",
+   "ko": "통영",
+   "pic": "../packs/basic_c_u5/tongyeong.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/tongyeong.mp3",
+   "stext": "How do you spell Tongyeong?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspelltongyeong.mp3"
+  },
+  {
+   "id": "canada",
+   "en": "Canada",
+   "ko": "캐나다",
+   "pic": "../packs/basic_c_u5/canada.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/canada.mp3",
+   "stext": "How do you spell Canada?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellcanada.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/basic_c_u5/school.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/school.mp3",
+   "stext": "How do you spell school?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellschool.mp3"
+  },
+  {
+   "id": "swing",
+   "en": "swing",
+   "ko": "그네",
+   "pic": "../packs/basic_c_u5/swing.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/swing.mp3",
+   "stext": "How do you spell swing?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellswing.mp3"
+  },
+  {
+   "id": "knee",
+   "en": "knee",
+   "ko": "무릎",
+   "pic": "../packs/basic_c_u5/knee.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/knee.mp3",
+   "stext": "How do you spell knee?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3"
+  },
+  {
+   "id": "face",
+   "en": "face",
+   "ko": "얼굴",
+   "pic": "../packs/basic_c_u5/face.jpg",
+   "audio": "../packs/basic_c_u5/audio/{v}/face.mp3",
+   "stext": "How do you spell face?",
+   "sentence": "audio/basic_c_u5/{v}/howdoyouspellface.mp3"
+  },
+  {
+   "id": "touch",
+   "en": "touch",
+   "ko": "만지다",
+   "pic": null,
+   "audio": "../packs/basic_c_u6/audio/{v}/touch.mp3",
+   "stext": "Don't touch it.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchit.mp3"
+  },
+  {
+   "id": "arm",
+   "en": "arm",
+   "ko": "팔",
+   "pic": "../packs/basic_c_u6/arm.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/arm.mp3",
+   "stext": "Don't touch your arm.",
+   "sentence": "../packs/basic_c_u6/audio/{v}/donttouchyourarm.mp3"
+  },
+  {
+   "id": "leg",
+   "en": "leg",
+   "ko": "다리",
+   "pic": "../packs/basic_c_u6/leg.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/leg.mp3",
+   "stext": "Don't touch your leg.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourleg.mp3"
+  },
+  {
+   "id": "basic_c_u6__knee",
+   "en": "knee",
+   "ko": "무릎",
+   "pic": "../packs/basic_c_u6/knee.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/knee.mp3",
+   "stext": "Don't touch your knee.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourknee.mp3"
+  },
+  {
+   "id": "back",
+   "en": "back",
+   "ko": "등",
+   "pic": "../packs/basic_c_u6/back.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/back.mp3",
+   "stext": "Don't touch your back.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourback.mp3"
+  },
+  {
+   "id": "basic_c_u6__face",
+   "en": "face",
+   "ko": "얼굴",
+   "pic": "../packs/basic_c_u6/face.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/face.mp3",
+   "stext": "Don't touch your face.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourface.mp3"
+  },
+  {
+   "id": "stomach",
+   "en": "stomach",
+   "ko": "배",
+   "pic": "../packs/basic_c_u6/stomach.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/stomach.mp3",
+   "stext": "Don't touch your stomach.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourstomach.mp3"
+  },
+  {
+   "id": "wrist",
+   "en": "wrist",
+   "ko": "손목",
+   "pic": "../packs/basic_c_u6/wrist.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/wrist.mp3",
+   "stext": "Don't touch your wrist.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourwrist.mp3"
+  },
+  {
+   "id": "toe",
+   "en": "toe",
+   "ko": "발가락",
+   "pic": "../packs/basic_c_u6/toe.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/toe.mp3",
+   "stext": "Don't touch your toe.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourtoe.mp3"
+  },
+  {
+   "id": "basic_c_u6__neck",
+   "en": "neck",
+   "ko": "목",
+   "pic": "../packs/basic_c_u6/neck.jpg",
+   "audio": "../packs/basic_c_u6/audio/{v}/neck.mp3",
+   "stext": "Don't touch your neck.",
+   "sentence": "audio/basic_c_u6/{v}/donttouchyourneck.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u5/",
+  "ai": "audio/basic_a_u5/ai/"
+ }
+}

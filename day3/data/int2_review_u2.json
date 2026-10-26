@@ -1,0 +1,890 @@
+{
+ "id": "int2_review_u2",
+ "kind": "review",
+ "title": "Int 2 Review · Units 3–4 (2A / 2B / 2C)",
+ "passPercent": 80,
+ "units": [
+  "int2a_u3",
+  "int2a_u4",
+  "int2b_u3",
+  "int2b_u4",
+  "int2c_u3",
+  "int2c_u4"
+ ],
+ "wordAudio": "../packs/int2a_u3/audio/us_f/",
+ "picDir": "../packs/int2a_u3/",
+ "lineAudio": "audio/int2a_u3/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "these",
+   "choices": [
+    "these",
+    "thousand",
+    "won",
+    "cheap"
+   ],
+   "unit": "int2b_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "vietnamese",
+   "audio": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "Vietnamese."
+   ],
+   "unit": "int2a_u3"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "season",
+   "choices": [
+    "season",
+    "color",
+    "game",
+    "fruit"
+   ],
+   "unit": "int2c_u4"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "chair",
+   "choices": [
+    "chair",
+    "int2c_u3__those",
+    "garbage",
+    "yours"
+   ],
+   "unit": "int2c_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "book",
+   "audio": "audio/int2c_u3/{v}/itismybook.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "book",
+   "choices": [
+    "book",
+    "candy",
+    "int2c_u3__those"
+   ],
+   "unit": "int2c_u3"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "these",
+   "audio": "audio/int2b_u4/{v}/howmucharethese.mp3",
+   "answer": [
+    "How",
+    "much",
+    "are",
+    "these?"
+   ],
+   "unit": "int2b_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "juice",
+   "audio": "audio/int2a_u4/{v}/iwantjuice.mp3",
+   "answer": [
+    "I",
+    "want",
+    "juice."
+   ],
+   "unit": "int2a_u4"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "game",
+   "answer": "game",
+   "choices": [
+    "game",
+    "gami",
+    "ame",
+    "gabe"
+   ],
+   "unit": "int2c_u4"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "audio/int2b_u3/{v}/icanbeanythinginthefuture.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "be",
+    "anything",
+    "in",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "future",
+   "choices": [
+    "future",
+    "scientist",
+    "judge"
+   ],
+   "unit": "int2b_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "computer",
+   "audio": "audio/int2a_u4/{v}/iwantacomputer.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "computer",
+   "choices": [
+    "computer",
+    "phone",
+    "water"
+   ],
+   "unit": "int2a_u4"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "german",
+   "choices": [
+    "german",
+    "english",
+    "hindi",
+    "korean"
+   ],
+   "unit": "int2a_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "chinese",
+   "audio": "audio/int2a_u3/{v}/icanspeakchinese.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "speak",
+    "___",
+    "."
+   ],
+   "answer": "Chinese",
+   "choices": [
+    "Chinese",
+    "Spanish",
+    "Korean"
+   ],
+   "unit": "int2a_u3"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "those",
+   "audio": "audio/int2b_u4/{v}/howmucharethose.mp3",
+   "answer": [
+    "How",
+    "much",
+    "are",
+    "those?"
+   ],
+   "unit": "int2b_u4"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": null,
+   "audio": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3",
+   "sentence": [
+    "What",
+    "do",
+    "you",
+    "___",
+    "?"
+   ],
+   "answer": "want",
+   "choices": [
+    "want",
+    "water",
+    "juice"
+   ],
+   "unit": "int2a_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "scientist",
+   "audio": "audio/int2b_u3/{v}/iwanttobeascientist.mp3",
+   "answer": [
+    "I",
+    "want",
+    "to",
+    "be",
+    "a",
+    "scientist."
+   ],
+   "unit": "int2b_u3"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "book",
+   "answer": "book",
+   "choices": [
+    "book",
+    "boos",
+    "boor",
+    "bok"
+   ],
+   "unit": "int2c_u3"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "judge",
+   "choices": [
+    "judge",
+    "president",
+    "actor",
+    "scientist"
+   ],
+   "unit": "int2b_u3"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "music",
+   "audio": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3",
+   "sentence": [
+    "My",
+    "favorite",
+    "___",
+    "is",
+    "K-pop."
+   ],
+   "answer": "music",
+   "choices": [
+    "music",
+    "game",
+    "season"
+   ],
+   "unit": "int2c_u4"
+  }
+ ],
+ "words": [
+  {
+   "id": "speak",
+   "en": "speak",
+   "ko": "말하다",
+   "pic": null,
+   "audio": "../packs/int2a_u3/audio/{v}/speak.mp3",
+   "stext": "Can you speak English?",
+   "sentence": "../packs/int2a_u3/audio/{v}/canyouspeakenglish.mp3"
+  },
+  {
+   "id": "chinese",
+   "en": "Chinese",
+   "ko": "중국어",
+   "pic": "../packs/int2a_u3/chinese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/chinese.mp3",
+   "stext": "I can speak Chinese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakchinese.mp3"
+  },
+  {
+   "id": "japanese",
+   "en": "Japanese",
+   "ko": "일본어",
+   "pic": "../packs/int2a_u3/japanese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/japanese.mp3",
+   "stext": "I can speak Japanese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakjapanese.mp3"
+  },
+  {
+   "id": "french",
+   "en": "French",
+   "ko": "프랑스어",
+   "pic": "../packs/int2a_u3/french.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/french.mp3",
+   "stext": "I can speak French.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakfrench.mp3"
+  },
+  {
+   "id": "german",
+   "en": "German",
+   "ko": "독일어",
+   "pic": "../packs/int2a_u3/german.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/german.mp3",
+   "stext": "I can speak German.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakgerman.mp3"
+  },
+  {
+   "id": "hindi",
+   "en": "Hindi",
+   "ko": "힌디어",
+   "pic": "../packs/int2a_u3/hindi.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/hindi.mp3",
+   "stext": "I can speak Hindi.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakhindi.mp3"
+  },
+  {
+   "id": "spanish",
+   "en": "Spanish",
+   "ko": "스페인어",
+   "pic": "../packs/int2a_u3/spanish.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/spanish.mp3",
+   "stext": "I can speak Spanish.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakspanish.mp3"
+  },
+  {
+   "id": "vietnamese",
+   "en": "Vietnamese",
+   "ko": "베트남어",
+   "pic": "../packs/int2a_u3/vietnamese.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/vietnamese.mp3",
+   "stext": "I can speak Vietnamese.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3"
+  },
+  {
+   "id": "korean",
+   "en": "Korean",
+   "ko": "한국어",
+   "pic": "../packs/int2a_u3/korean.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/korean.mp3",
+   "stext": "I can speak Korean.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakkorean.mp3"
+  },
+  {
+   "id": "english",
+   "en": "English",
+   "ko": "영어",
+   "pic": "../packs/int2a_u3/english.jpg",
+   "audio": "../packs/int2a_u3/audio/{v}/english.mp3",
+   "stext": "I can speak English.",
+   "sentence": "audio/int2a_u3/{v}/icanspeakenglish.mp3"
+  },
+  {
+   "id": "want",
+   "en": "want",
+   "ko": "원하다",
+   "pic": null,
+   "audio": "../packs/int2a_u4/audio/{v}/want.mp3",
+   "stext": "What do you want?",
+   "sentence": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3"
+  },
+  {
+   "id": "medicine",
+   "en": "medicine",
+   "ko": "약",
+   "pic": "../packs/int2a_u4/medicine.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/medicine.mp3",
+   "stext": "I want medicine.",
+   "sentence": "audio/int2a_u4/{v}/iwantmedicine.mp3"
+  },
+  {
+   "id": "blanket",
+   "en": "blanket",
+   "ko": "담요",
+   "pic": "../packs/int2a_u4/blanket.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/blanket.mp3",
+   "stext": "I want a blanket.",
+   "sentence": "../packs/int2a_u4/audio/{v}/iwantablanket.mp3"
+  },
+  {
+   "id": "tissuepaper",
+   "en": "tissue paper",
+   "ko": "휴지",
+   "pic": "../packs/int2a_u4/tissuepaper.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/tissuepaper.mp3",
+   "stext": "I want tissue paper.",
+   "sentence": "audio/int2a_u4/{v}/iwanttissuepaper.mp3"
+  },
+  {
+   "id": "soup",
+   "en": "soup",
+   "ko": "수프",
+   "pic": "../packs/int2a_u4/soup.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/soup.mp3",
+   "stext": "I want soup.",
+   "sentence": "audio/int2a_u4/{v}/iwantsoup.mp3"
+  },
+  {
+   "id": "juice",
+   "en": "juice",
+   "ko": "주스",
+   "pic": "../packs/int2a_u4/juice.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/juice.mp3",
+   "stext": "I want juice.",
+   "sentence": "audio/int2a_u4/{v}/iwantjuice.mp3"
+  },
+  {
+   "id": "water",
+   "en": "water",
+   "ko": "물",
+   "pic": "../packs/int2a_u4/water.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/water.mp3",
+   "stext": "I want water.",
+   "sentence": "audio/int2a_u4/{v}/iwantwater.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int2a_u4/phone.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/phone.mp3",
+   "stext": "I want a phone.",
+   "sentence": "audio/int2a_u4/{v}/iwantaphone.mp3"
+  },
+  {
+   "id": "hug",
+   "en": "hug",
+   "ko": "포옹",
+   "pic": "../packs/int2a_u4/hug.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/hug.mp3",
+   "stext": "I want a hug.",
+   "sentence": "audio/int2a_u4/{v}/iwantahug.mp3"
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "pic": "../packs/int2a_u4/computer.jpg",
+   "audio": "../packs/int2a_u4/audio/{v}/computer.mp3",
+   "stext": "I want a computer.",
+   "sentence": "audio/int2a_u4/{v}/iwantacomputer.mp3"
+  },
+  {
+   "id": "future",
+   "en": "future",
+   "ko": "미래",
+   "pic": null,
+   "audio": "../packs/int2b_u3/audio/{v}/future.mp3",
+   "stext": "I can be anything in the future.",
+   "sentence": "audio/int2b_u3/{v}/icanbeanythinginthefuture.mp3"
+  },
+  {
+   "id": "progamer",
+   "en": "pro-gamer",
+   "ko": "프로게이머",
+   "pic": "../packs/int2b_u3/progamer.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/progamer.mp3",
+   "stext": "I want to be a pro-gamer.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeaprogamer.mp3"
+  },
+  {
+   "id": "actor",
+   "en": "actor",
+   "ko": "배우",
+   "pic": "../packs/int2b_u3/actor.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/actor.mp3",
+   "stext": "I want to be an actor.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeanactor.mp3"
+  },
+  {
+   "id": "foodcritic",
+   "en": "food critic",
+   "ko": "음식 평론가",
+   "pic": "../packs/int2b_u3/foodcritic.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/foodcritic.mp3",
+   "stext": "I want to be a food critic.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeafoodcritic.mp3"
+  },
+  {
+   "id": "englishteacher",
+   "en": "English teacher",
+   "ko": "영어 선생님",
+   "pic": "../packs/int2b_u3/englishteacher.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/englishteacher.mp3",
+   "stext": "I want to be an English teacher.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeanenglishteacher.mp3"
+  },
+  {
+   "id": "policeofficer",
+   "en": "police officer",
+   "ko": "경찰관",
+   "pic": "../packs/int2b_u3/policeofficer.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/policeofficer.mp3",
+   "stext": "I want to be a police officer.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeapoliceofficer.mp3"
+  },
+  {
+   "id": "scientist",
+   "en": "scientist",
+   "ko": "과학자",
+   "pic": "../packs/int2b_u3/scientist.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/scientist.mp3",
+   "stext": "I want to be a scientist.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeascientist.mp3"
+  },
+  {
+   "id": "doctor",
+   "en": "doctor",
+   "ko": "의사",
+   "pic": "../packs/int2b_u3/doctor.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/doctor.mp3",
+   "stext": "I want to be a doctor.",
+   "sentence": "../packs/int2b_u3/audio/{v}/iwanttobeadoctor.mp3"
+  },
+  {
+   "id": "judge",
+   "en": "judge",
+   "ko": "판사",
+   "pic": "../packs/int2b_u3/judge.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/judge.mp3",
+   "stext": "I want to be a judge.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeajudge.mp3"
+  },
+  {
+   "id": "president",
+   "en": "president",
+   "ko": "대통령",
+   "pic": "../packs/int2b_u3/president.jpg",
+   "audio": "../packs/int2b_u3/audio/{v}/president.mp3",
+   "stext": "I want to be a president.",
+   "sentence": "audio/int2b_u3/{v}/iwanttobeapresident.mp3"
+  },
+  {
+   "id": "this",
+   "en": "this",
+   "ko": "이것",
+   "pic": null,
+   "audio": "../packs/int2b_u4/audio/{v}/this.mp3",
+   "stext": "How much is this?",
+   "sentence": "../packs/int2b_u4/audio/{v}/howmuchisthis.mp3"
+  },
+  {
+   "id": "that",
+   "en": "that",
+   "ko": "저것",
+   "pic": "../packs/int2b_u4/that.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/that.mp3",
+   "stext": "How much is that?",
+   "sentence": "audio/int2b_u4/{v}/howmuchisthat.mp3"
+  },
+  {
+   "id": "these",
+   "en": "these",
+   "ko": "이것들",
+   "pic": "../packs/int2b_u4/these.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/these.mp3",
+   "stext": "How much are these?",
+   "sentence": "audio/int2b_u4/{v}/howmucharethese.mp3"
+  },
+  {
+   "id": "those",
+   "en": "those",
+   "ko": "저것들",
+   "pic": "../packs/int2b_u4/those.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/those.mp3",
+   "stext": "How much are those?",
+   "sentence": "audio/int2b_u4/{v}/howmucharethose.mp3"
+  },
+  {
+   "id": "about",
+   "en": "about",
+   "ko": "약, 정도",
+   "pic": null,
+   "audio": "../packs/int2b_u4/audio/{v}/about.mp3",
+   "stext": "It is about five hundred won.",
+   "sentence": "../packs/int2b_u4/audio/{v}/itisaboutfivehundredwon.mp3"
+  },
+  {
+   "id": "won",
+   "en": "won",
+   "ko": "원 (돈)",
+   "pic": "../packs/int2b_u4/won.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/won.mp3",
+   "stext": "It is one thousand won.",
+   "sentence": "audio/int2b_u4/{v}/itisonethousandwon.mp3"
+  },
+  {
+   "id": "hundred",
+   "en": "hundred",
+   "ko": "백",
+   "pic": null,
+   "audio": "../packs/int2b_u4/audio/{v}/hundred.mp3",
+   "stext": "It is five hundred won.",
+   "sentence": "audio/int2b_u4/{v}/itisfivehundredwon.mp3"
+  },
+  {
+   "id": "thousand",
+   "en": "thousand",
+   "ko": "천",
+   "pic": "../packs/int2b_u4/thousand.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/thousand.mp3",
+   "stext": "It is two thousand won.",
+   "sentence": "audio/int2b_u4/{v}/itistwothousandwon.mp3"
+  },
+  {
+   "id": "everything",
+   "en": "everything",
+   "ko": "모든 것",
+   "pic": null,
+   "audio": "../packs/int2b_u4/audio/{v}/everything.mp3",
+   "stext": "Everything is cheap.",
+   "sentence": "audio/int2b_u4/{v}/everythingischeap.mp3"
+  },
+  {
+   "id": "cheap",
+   "en": "cheap",
+   "ko": "싼",
+   "pic": "../packs/int2b_u4/cheap.jpg",
+   "audio": "../packs/int2b_u4/audio/{v}/cheap.mp3",
+   "stext": "It is cheap.",
+   "sentence": "audio/int2b_u4/{v}/itischeap.mp3"
+  },
+  {
+   "id": "yours",
+   "en": "yours",
+   "ko": "너의 것",
+   "pic": "../packs/int2c_u3/yours.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/yours.mp3",
+   "stext": "Is this yours?",
+   "sentence": "audio/int2c_u3/{v}/isthisyours.mp3"
+  },
+  {
+   "id": "int2c_u3__those",
+   "en": "those",
+   "ko": "저것들",
+   "pic": "../packs/int2c_u3/those.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/those.mp3",
+   "stext": "Are those yours?",
+   "sentence": "audio/int2c_u3/{v}/arethoseyours.mp3"
+  },
+  {
+   "id": "whose",
+   "en": "whose",
+   "ko": "누구의",
+   "pic": null,
+   "audio": "../packs/int2c_u3/audio/{v}/whose.mp3",
+   "stext": "Whose candy is this?",
+   "sentence": "../packs/int2c_u3/audio/{v}/whosecandyisthis.mp3"
+  },
+  {
+   "id": "candy",
+   "en": "candy",
+   "ko": "사탕",
+   "pic": "../packs/int2c_u3/candy.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/candy.mp3",
+   "stext": "It is my candy.",
+   "sentence": "audio/int2c_u3/{v}/itismycandy.mp3"
+  },
+  {
+   "id": "int2c_u3__phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/int2c_u3/phone.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/phone.mp3",
+   "stext": "It is my phone.",
+   "sentence": "audio/int2c_u3/{v}/itismyphone.mp3"
+  },
+  {
+   "id": "chair",
+   "en": "chair",
+   "ko": "의자",
+   "pic": "../packs/int2c_u3/chair.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/chair.mp3",
+   "stext": "It is my chair.",
+   "sentence": "audio/int2c_u3/{v}/itismychair.mp3"
+  },
+  {
+   "id": "garbage",
+   "en": "garbage",
+   "ko": "쓰레기",
+   "pic": "../packs/int2c_u3/garbage.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/garbage.mp3",
+   "stext": "It is garbage.",
+   "sentence": "audio/int2c_u3/{v}/itisgarbage.mp3"
+  },
+  {
+   "id": "book",
+   "en": "book",
+   "ko": "책",
+   "pic": "../packs/int2c_u3/book.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/book.mp3",
+   "stext": "It is my book.",
+   "sentence": "audio/int2c_u3/{v}/itismybook.mp3"
+  },
+  {
+   "id": "money",
+   "en": "money",
+   "ko": "돈",
+   "pic": "../packs/int2c_u3/money.jpg",
+   "audio": "../packs/int2c_u3/audio/{v}/money.mp3",
+   "stext": "It is my money.",
+   "sentence": "audio/int2c_u3/{v}/itismymoney.mp3"
+  },
+  {
+   "id": "know",
+   "en": "know",
+   "ko": "알다",
+   "pic": null,
+   "audio": "../packs/int2c_u3/audio/{v}/know.mp3",
+   "stext": "I don't know.",
+   "sentence": "../packs/int2c_u3/audio/{v}/idontknow.mp3"
+  },
+  {
+   "id": "favorite",
+   "en": "favorite",
+   "ko": "가장 좋아하는",
+   "pic": null,
+   "audio": "../packs/int2c_u4/audio/{v}/favorite.mp3",
+   "stext": "What is your favorite?",
+   "sentence": "audio/int2c_u4/{v}/whatisyourfavorite.mp3"
+  },
+  {
+   "id": "animal",
+   "en": "animal",
+   "ko": "동물",
+   "pic": "../packs/int2c_u4/animal.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/animal.mp3",
+   "stext": "My favorite animal is the cat.",
+   "sentence": "audio/int2c_u4/{v}/myfavoriteanimalisthecat.mp3"
+  },
+  {
+   "id": "season",
+   "en": "season",
+   "ko": "계절",
+   "pic": "../packs/int2c_u4/season.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/season.mp3",
+   "stext": "My favorite season is summer.",
+   "sentence": "audio/int2c_u4/{v}/myfavoriteseasonissummer.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": "../packs/int2c_u4/fruit.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/fruit.mp3",
+   "stext": "My favorite fruit is the apple.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritefruitistheapple.mp3"
+  },
+  {
+   "id": "game",
+   "en": "game",
+   "ko": "게임",
+   "pic": "../packs/int2c_u4/game.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/game.mp3",
+   "stext": "My favorite game is Go.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritegameisgo.mp3"
+  },
+  {
+   "id": "color",
+   "en": "color",
+   "ko": "색깔",
+   "pic": "../packs/int2c_u4/color.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/color.mp3",
+   "stext": "My favorite color is blue.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritecolorisblue.mp3"
+  },
+  {
+   "id": "hobby",
+   "en": "hobby",
+   "ko": "취미",
+   "pic": "../packs/int2c_u4/hobby.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/hobby.mp3",
+   "stext": "My favorite hobby is drawing.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritehobbyisdrawing.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/int2c_u4/music.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/music.mp3",
+   "stext": "My favorite music is K-pop.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3"
+  },
+  {
+   "id": "snack",
+   "en": "snack",
+   "ko": "간식",
+   "pic": "../packs/int2c_u4/snack.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/snack.mp3",
+   "stext": "My favorite snack is chips.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritesnackischips.mp3"
+  },
+  {
+   "id": "sport",
+   "en": "sport",
+   "ko": "스포츠",
+   "pic": "../packs/int2c_u4/sport.jpg",
+   "audio": "../packs/int2c_u4/audio/{v}/sport.mp3",
+   "stext": "My favorite sport is soccer.",
+   "sentence": "audio/int2c_u4/{v}/myfavoritesportissoccer.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/int2a_u3/",
+  "ai": "audio/int2a_u3/ai/"
+ }
+}

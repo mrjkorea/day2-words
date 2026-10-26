@@ -1,0 +1,847 @@
+{
+ "id": "basic_review_u1",
+ "kind": "review",
+ "title": "Basic Review · Units 1–2 (A / B / C)",
+ "passPercent": 80,
+ "units": [
+  "basic_a_u1",
+  "basic_a_u2",
+  "basic_b_u1",
+  "basic_b_u2",
+  "basic_c_u1",
+  "basic_c_u2"
+ ],
+ "wordAudio": "../packs/basic_a_u1/audio/us_f/",
+ "picDir": "../packs/basic_a_u1/",
+ "lineAudio": "audio/basic_a_u1/",
+ "questions": [
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "ten",
+   "choices": [
+    "ten",
+    "one",
+    "two",
+    "nine"
+   ],
+   "unit": "basic_a_u1"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "basic_c_u1__cat",
+   "answer": "basic_c_u1__cat",
+   "choices": [
+    "basic_c_u1__cat",
+    "cati",
+    "catp",
+    "cot"
+   ],
+   "unit": "basic_c_u1"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "bored",
+   "audio": "audio/basic_b_u1/{v}/iambored.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "."
+   ],
+   "answer": "bored",
+   "choices": [
+    "bored",
+    "hungry",
+    "sleepy"
+   ],
+   "unit": "basic_b_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "tired",
+   "choices": [
+    "tired",
+    "hungry",
+    "bored",
+    "sad"
+   ],
+   "unit": "basic_b_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "fish",
+   "choices": [
+    "fish",
+    "hamster",
+    "basic_c_u1__cat",
+    "rabbit"
+   ],
+   "unit": "basic_c_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "shoes",
+   "choices": [
+    "shoes",
+    "coat",
+    "hat",
+    "earphones"
+   ],
+   "unit": "basic_c_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "horse",
+   "audio": "audio/basic_a_u2/{v}/hellomrhorse.mp3",
+   "answer": [
+    "Hello,",
+    "Mr.",
+    "Horse."
+   ],
+   "unit": "basic_a_u2"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "movies",
+   "answer": "movies",
+   "choices": [
+    "movies",
+    "movius",
+    "modies",
+    "movees"
+   ],
+   "unit": "basic_b_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "sick",
+   "audio": "audio/basic_b_u1/{v}/iamsick.mp3",
+   "answer": [
+    "I",
+    "am",
+    "sick."
+   ],
+   "unit": "basic_b_u1"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "turtle",
+   "audio": "audio/basic_c_u1/{v}/ilovemyturtle.mp3",
+   "answer": [
+    "I",
+    "love",
+    "my",
+    "turtle."
+   ],
+   "unit": "basic_c_u1"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "fruit",
+   "audio": "audio/basic_b_u2/{v}/ilikefruit.mp3",
+   "answer": [
+    "I",
+    "like",
+    "fruit."
+   ],
+   "unit": "basic_b_u2"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "bag",
+   "choices": [
+    "bag",
+    "phone",
+    "hat",
+    "computer"
+   ],
+   "unit": "basic_c_u2"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "earphones",
+   "choices": [
+    "earphones",
+    "shoes",
+    "hat",
+    "watch"
+   ],
+   "unit": "basic_c_u2"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "games",
+   "answer": "games",
+   "choices": [
+    "games",
+    "gemes",
+    "gams",
+    "rames"
+   ],
+   "unit": "basic_b_u2"
+  },
+  {
+   "type": "spell",
+   "skill": "spelling",
+   "pic": "goat",
+   "answer": "goat",
+   "choices": [
+    "goat",
+    "guat",
+    "goap",
+    "got"
+   ],
+   "unit": "basic_a_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "vocabulary",
+   "pic": "duck",
+   "audio": "audio/basic_a_u2/{v}/hellomrsduck.mp3",
+   "sentence": [
+    "Hello,",
+    "Mrs.",
+    "___",
+    "."
+   ],
+   "answer": "Duck",
+   "choices": [
+    "Duck",
+    "Dog",
+    "Hello"
+   ],
+   "unit": "basic_a_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Put the words in order.",
+   "skill": "grammar",
+   "pic": "four",
+   "audio": "audio/basic_a_u1/{v}/ihavefourapples.mp3",
+   "answer": [
+    "I",
+    "have",
+    "four",
+    "apples."
+   ],
+   "unit": "basic_a_u1"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "six",
+   "choices": [
+    "six",
+    "seven",
+    "four",
+    "one"
+   ],
+   "unit": "basic_a_u1"
+  }
+ ],
+ "words": [
+  {
+   "id": "one",
+   "en": "one",
+   "ko": "하나, 일",
+   "pic": "../packs/basic_a_u1/one.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/one.mp3",
+   "stext": "I have one apple.",
+   "sentence": "audio/basic_a_u1/{v}/ihaveoneapple.mp3"
+  },
+  {
+   "id": "two",
+   "en": "two",
+   "ko": "둘, 이",
+   "pic": "../packs/basic_a_u1/two.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/two.mp3",
+   "stext": "I have two apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavetwoapples.mp3"
+  },
+  {
+   "id": "three",
+   "en": "three",
+   "ko": "셋, 삼",
+   "pic": "../packs/basic_a_u1/three.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/three.mp3",
+   "stext": "I have three apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavethreeapples.mp3"
+  },
+  {
+   "id": "four",
+   "en": "four",
+   "ko": "넷, 사",
+   "pic": "../packs/basic_a_u1/four.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/four.mp3",
+   "stext": "I have four apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavefourapples.mp3"
+  },
+  {
+   "id": "five",
+   "en": "five",
+   "ko": "다섯, 오",
+   "pic": "../packs/basic_a_u1/five.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/five.mp3",
+   "stext": "I have five apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavefiveapples.mp3"
+  },
+  {
+   "id": "six",
+   "en": "six",
+   "ko": "여섯, 육",
+   "pic": "../packs/basic_a_u1/six.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/six.mp3",
+   "stext": "I have six apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavesixapples.mp3"
+  },
+  {
+   "id": "seven",
+   "en": "seven",
+   "ko": "일곱, 칠",
+   "pic": "../packs/basic_a_u1/seven.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/seven.mp3",
+   "stext": "I have seven apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavesevenapples.mp3"
+  },
+  {
+   "id": "eight",
+   "en": "eight",
+   "ko": "여덟, 팔",
+   "pic": "../packs/basic_a_u1/eight.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/eight.mp3",
+   "stext": "I have eight apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihaveeightapples.mp3"
+  },
+  {
+   "id": "nine",
+   "en": "nine",
+   "ko": "아홉, 구",
+   "pic": "../packs/basic_a_u1/nine.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/nine.mp3",
+   "stext": "I have nine apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavenineapples.mp3"
+  },
+  {
+   "id": "ten",
+   "en": "ten",
+   "ko": "열, 십",
+   "pic": "../packs/basic_a_u1/ten.jpg",
+   "audio": "../packs/basic_a_u1/audio/{v}/ten.mp3",
+   "stext": "I have ten apples.",
+   "sentence": "audio/basic_a_u1/{v}/ihavetenapples.mp3"
+  },
+  {
+   "id": "hello",
+   "en": "hello",
+   "ko": "안녕하세요",
+   "pic": null,
+   "audio": "../packs/basic_a_u2/audio/{v}/hello.mp3",
+   "stext": "Hello, Mom.",
+   "sentence": "audio/basic_a_u2/{v}/hellomom.mp3"
+  },
+  {
+   "id": "cat",
+   "en": "cat",
+   "ko": "고양이",
+   "pic": "../packs/basic_a_u2/cat.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/cat.mp3",
+   "stext": "Hello, Mr. Cat.",
+   "sentence": "../packs/basic_a_u2/audio/{v}/hellomrcat.mp3"
+  },
+  {
+   "id": "dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/basic_a_u2/dog.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/dog.mp3",
+   "stext": "Hello, Mr. Dog.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrdog.mp3"
+  },
+  {
+   "id": "cow",
+   "en": "cow",
+   "ko": "소",
+   "pic": "../packs/basic_a_u2/cow.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/cow.mp3",
+   "stext": "Hello, Mr. Cow.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrcow.mp3"
+  },
+  {
+   "id": "horse",
+   "en": "horse",
+   "ko": "말",
+   "pic": "../packs/basic_a_u2/horse.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/horse.mp3",
+   "stext": "Hello, Mr. Horse.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrhorse.mp3"
+  },
+  {
+   "id": "chicken",
+   "en": "chicken",
+   "ko": "닭",
+   "pic": "../packs/basic_a_u2/chicken.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/chicken.mp3",
+   "stext": "Hello, Ms. Chicken.",
+   "sentence": "audio/basic_a_u2/{v}/hellomschicken.mp3"
+  },
+  {
+   "id": "goat",
+   "en": "goat",
+   "ko": "염소",
+   "pic": "../packs/basic_a_u2/goat.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/goat.mp3",
+   "stext": "Hello, Ms. Goat.",
+   "sentence": "audio/basic_a_u2/{v}/hellomsgoat.mp3"
+  },
+  {
+   "id": "pig",
+   "en": "pig",
+   "ko": "돼지",
+   "pic": "../packs/basic_a_u2/pig.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/pig.mp3",
+   "stext": "Hello, Ms. Pig.",
+   "sentence": "audio/basic_a_u2/{v}/hellomspig.mp3"
+  },
+  {
+   "id": "sheep",
+   "en": "sheep",
+   "ko": "양",
+   "pic": "../packs/basic_a_u2/sheep.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/sheep.mp3",
+   "stext": "Hello, Mrs. Sheep.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrssheep.mp3"
+  },
+  {
+   "id": "duck",
+   "en": "duck",
+   "ko": "오리",
+   "pic": "../packs/basic_a_u2/duck.jpg",
+   "audio": "../packs/basic_a_u2/audio/{v}/duck.mp3",
+   "stext": "Hello, Mrs. Duck.",
+   "sentence": "audio/basic_a_u2/{v}/hellomrsduck.mp3"
+  },
+  {
+   "id": "happy",
+   "en": "happy",
+   "ko": "행복한",
+   "pic": "../packs/basic_b_u1/happy.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/happy.mp3",
+   "stext": "I am happy.",
+   "sentence": "../packs/basic_b_u1/audio/{v}/iamhappy.mp3"
+  },
+  {
+   "id": "sad",
+   "en": "sad",
+   "ko": "슬픈",
+   "pic": "../packs/basic_b_u1/sad.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sad.mp3",
+   "stext": "I am sad.",
+   "sentence": "audio/basic_b_u1/{v}/iamsad.mp3"
+  },
+  {
+   "id": "angry",
+   "en": "angry",
+   "ko": "화난",
+   "pic": "../packs/basic_b_u1/angry.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/angry.mp3",
+   "stext": "I am angry.",
+   "sentence": "audio/basic_b_u1/{v}/iamangry.mp3"
+  },
+  {
+   "id": "hungry",
+   "en": "hungry",
+   "ko": "배고픈",
+   "pic": "../packs/basic_b_u1/hungry.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/hungry.mp3",
+   "stext": "I am hungry.",
+   "sentence": "audio/basic_b_u1/{v}/iamhungry.mp3"
+  },
+  {
+   "id": "tired",
+   "en": "tired",
+   "ko": "피곤한",
+   "pic": "../packs/basic_b_u1/tired.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/tired.mp3",
+   "stext": "I am tired.",
+   "sentence": "audio/basic_b_u1/{v}/iamtired.mp3"
+  },
+  {
+   "id": "bored",
+   "en": "bored",
+   "ko": "지루한",
+   "pic": "../packs/basic_b_u1/bored.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/bored.mp3",
+   "stext": "I am bored.",
+   "sentence": "audio/basic_b_u1/{v}/iambored.mp3"
+  },
+  {
+   "id": "scared",
+   "en": "scared",
+   "ko": "무서운",
+   "pic": "../packs/basic_b_u1/scared.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/scared.mp3",
+   "stext": "I am scared.",
+   "sentence": "audio/basic_b_u1/{v}/iamscared.mp3"
+  },
+  {
+   "id": "sick",
+   "en": "sick",
+   "ko": "아픈",
+   "pic": "../packs/basic_b_u1/sick.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sick.mp3",
+   "stext": "I am sick.",
+   "sentence": "audio/basic_b_u1/{v}/iamsick.mp3"
+  },
+  {
+   "id": "worried",
+   "en": "worried",
+   "ko": "걱정되는",
+   "pic": "../packs/basic_b_u1/worried.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/worried.mp3",
+   "stext": "I am worried.",
+   "sentence": "audio/basic_b_u1/{v}/iamworried.mp3"
+  },
+  {
+   "id": "sleepy",
+   "en": "sleepy",
+   "ko": "졸린",
+   "pic": "../packs/basic_b_u1/sleepy.jpg",
+   "audio": "../packs/basic_b_u1/audio/{v}/sleepy.mp3",
+   "stext": "I am sleepy.",
+   "sentence": "audio/basic_b_u1/{v}/iamsleepy.mp3"
+  },
+  {
+   "id": "like",
+   "en": "like",
+   "ko": "좋아하다",
+   "pic": null,
+   "audio": "../packs/basic_b_u2/audio/{v}/like.mp3",
+   "stext": "I like Mr. Jay.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemrjay.mp3"
+  },
+  {
+   "id": "noodles",
+   "en": "noodles",
+   "ko": "면, 국수",
+   "pic": "../packs/basic_b_u2/noodles.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/noodles.mp3",
+   "stext": "I like noodles.",
+   "sentence": "../packs/basic_b_u2/audio/{v}/ilikenoodles.mp3"
+  },
+  {
+   "id": "meat",
+   "en": "meat",
+   "ko": "고기",
+   "pic": "../packs/basic_b_u2/meat.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/meat.mp3",
+   "stext": "I like meat.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemeat.mp3"
+  },
+  {
+   "id": "fruit",
+   "en": "fruit",
+   "ko": "과일",
+   "pic": "../packs/basic_b_u2/fruit.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/fruit.mp3",
+   "stext": "I like fruit.",
+   "sentence": "audio/basic_b_u2/{v}/ilikefruit.mp3"
+  },
+  {
+   "id": "games",
+   "en": "games",
+   "ko": "게임",
+   "pic": "../packs/basic_b_u2/games.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/games.mp3",
+   "stext": "I like games.",
+   "sentence": "audio/basic_b_u2/{v}/ilikegames.mp3"
+  },
+  {
+   "id": "school",
+   "en": "school",
+   "ko": "학교",
+   "pic": "../packs/basic_b_u2/school.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/school.mp3",
+   "stext": "I like school.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeschool.mp3"
+  },
+  {
+   "id": "exercise",
+   "en": "exercise",
+   "ko": "운동",
+   "pic": "../packs/basic_b_u2/exercise.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/exercise.mp3",
+   "stext": "I like exercise.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeexercise.mp3"
+  },
+  {
+   "id": "movies",
+   "en": "movies",
+   "ko": "영화",
+   "pic": "../packs/basic_b_u2/movies.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/movies.mp3",
+   "stext": "I like movies.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemovies.mp3"
+  },
+  {
+   "id": "music",
+   "en": "music",
+   "ko": "음악",
+   "pic": "../packs/basic_b_u2/music.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/music.mp3",
+   "stext": "I like music.",
+   "sentence": "audio/basic_b_u2/{v}/ilikemusic.mp3"
+  },
+  {
+   "id": "apples",
+   "en": "apples",
+   "ko": "사과",
+   "pic": "../packs/basic_b_u2/apples.jpg",
+   "audio": "../packs/basic_b_u2/audio/{v}/apples.mp3",
+   "stext": "I like apples.",
+   "sentence": "audio/basic_b_u2/{v}/ilikeapples.mp3"
+  },
+  {
+   "id": "love",
+   "en": "love",
+   "ko": "사랑하다",
+   "pic": null,
+   "audio": "../packs/basic_c_u1/audio/{v}/love.mp3",
+   "stext": "I love my family.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyfamily.mp3"
+  },
+  {
+   "id": "basic_c_u1__dog",
+   "en": "dog",
+   "ko": "개",
+   "pic": "../packs/basic_c_u1/dog.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/dog.mp3",
+   "stext": "I love my dog.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemydog.mp3"
+  },
+  {
+   "id": "basic_c_u1__cat",
+   "en": "cat",
+   "ko": "고양이",
+   "pic": "../packs/basic_c_u1/cat.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/cat.mp3",
+   "stext": "I love my cat.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemycat.mp3"
+  },
+  {
+   "id": "bird",
+   "en": "bird",
+   "ko": "새",
+   "pic": "../packs/basic_c_u1/bird.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/bird.mp3",
+   "stext": "I love my bird.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemybird.mp3"
+  },
+  {
+   "id": "rabbit",
+   "en": "rabbit",
+   "ko": "토끼",
+   "pic": "../packs/basic_c_u1/rabbit.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/rabbit.mp3",
+   "stext": "I love my rabbit.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyrabbit.mp3"
+  },
+  {
+   "id": "hamster",
+   "en": "hamster",
+   "ko": "햄스터",
+   "pic": "../packs/basic_c_u1/hamster.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/hamster.mp3",
+   "stext": "I love my hamster.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyhamster.mp3"
+  },
+  {
+   "id": "fish",
+   "en": "fish",
+   "ko": "물고기",
+   "pic": "../packs/basic_c_u1/fish.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/fish.mp3",
+   "stext": "I love my fish.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyfish.mp3"
+  },
+  {
+   "id": "beetle",
+   "en": "beetle",
+   "ko": "딱정벌레",
+   "pic": "../packs/basic_c_u1/beetle.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/beetle.mp3",
+   "stext": "I love my beetle.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemybeetle.mp3"
+  },
+  {
+   "id": "turtle",
+   "en": "turtle",
+   "ko": "거북이",
+   "pic": "../packs/basic_c_u1/turtle.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/turtle.mp3",
+   "stext": "I love my turtle.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemyturtle.mp3"
+  },
+  {
+   "id": "snake",
+   "en": "snake",
+   "ko": "뱀",
+   "pic": "../packs/basic_c_u1/snake.jpg",
+   "audio": "../packs/basic_c_u1/audio/{v}/snake.mp3",
+   "stext": "I love my snake.",
+   "sentence": "audio/basic_c_u1/{v}/ilovemysnake.mp3"
+  },
+  {
+   "id": "look",
+   "en": "look",
+   "ko": "보다",
+   "pic": null,
+   "audio": "../packs/basic_c_u2/audio/{v}/look.mp3",
+   "stext": "Look at me.",
+   "sentence": "audio/basic_c_u2/{v}/lookatme.mp3"
+  },
+  {
+   "id": "new",
+   "en": "new",
+   "ko": "새로운",
+   "pic": null,
+   "audio": "../packs/basic_c_u2/audio/{v}/new.mp3",
+   "stext": "My bag is new.",
+   "sentence": "audio/basic_c_u2/{v}/mybagisnew.mp3"
+  },
+  {
+   "id": "hat",
+   "en": "hat",
+   "ko": "모자",
+   "pic": "../packs/basic_c_u2/hat.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/hat.mp3",
+   "stext": "Look at my new hat.",
+   "sentence": "../packs/basic_c_u2/audio/{v}/lookatmynewhat.mp3"
+  },
+  {
+   "id": "earphones",
+   "en": "earphones",
+   "ko": "이어폰",
+   "pic": "../packs/basic_c_u2/earphones.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/earphones.mp3",
+   "stext": "Look at my new earphones.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewearphones.mp3"
+  },
+  {
+   "id": "shoes",
+   "en": "shoes",
+   "ko": "신발",
+   "pic": "../packs/basic_c_u2/shoes.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/shoes.mp3",
+   "stext": "Look at my new shoes.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewshoes.mp3"
+  },
+  {
+   "id": "phone",
+   "en": "phone",
+   "ko": "휴대폰",
+   "pic": "../packs/basic_c_u2/phone.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/phone.mp3",
+   "stext": "Look at my new phone.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewphone.mp3"
+  },
+  {
+   "id": "coat",
+   "en": "coat",
+   "ko": "외투",
+   "pic": "../packs/basic_c_u2/coat.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/coat.mp3",
+   "stext": "Look at my new coat.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewcoat.mp3"
+  },
+  {
+   "id": "watch",
+   "en": "watch",
+   "ko": "손목시계",
+   "pic": "../packs/basic_c_u2/watch.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/watch.mp3",
+   "stext": "Look at my new watch.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewwatch.mp3"
+  },
+  {
+   "id": "bag",
+   "en": "bag",
+   "ko": "가방",
+   "pic": "../packs/basic_c_u2/bag.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/bag.mp3",
+   "stext": "Look at my new bag.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewbag.mp3"
+  },
+  {
+   "id": "computer",
+   "en": "computer",
+   "ko": "컴퓨터",
+   "pic": "../packs/basic_c_u2/computer.jpg",
+   "audio": "../packs/basic_c_u2/audio/{v}/computer.mp3",
+   "stext": "Look at my new computer.",
+   "sentence": "audio/basic_c_u2/{v}/lookatmynewcomputer.mp3"
+  }
+ ],
+ "extras": [],
+ "coach": {
+  "voice": "Coach Ray (Fish 76bb6ae7b26c41fbbd484514fdb014c2)",
+  "dir": "audio/ray/",
+  "right": [
+   "right1.mp3",
+   "right2.mp3",
+   "right3.mp3",
+   "right4.mp3",
+   "right5.mp3"
+  ],
+  "wrong": [
+   "wrong1.mp3",
+   "wrong2.mp3",
+   "wrong3.mp3",
+   "wrong4.mp3"
+  ],
+  "top": [
+   "top1.mp3",
+   "top2.mp3",
+   "top3.mp3"
+  ],
+  "retry": [
+   "retry1.mp3",
+   "retry2.mp3",
+   "retry3.mp3"
+  ],
+  "next": [
+   "next1.mp3",
+   "next2.mp3"
+  ]
+ },
+ "video": {
+  "up": "video/climb_up.mp4",
+  "slip": "video/climb_slip.mp4",
+  "top": "video/climb_top.mp4",
+  "poster": "video/poster.webp"
+ },
+ "voices": {
+  "default": "us_f",
+  "dir": "audio/basic_a_u1/",
+  "ai": "audio/basic_a_u1/ai/"
+ }
+}
