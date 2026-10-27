@@ -47,17 +47,16 @@ A.odd=()=>{const S=WB.D.oddOneOut,n=S.length;let i=0,right=0,lock=false;
 
 // 4. Word Search (across and down only)
 A.search=()=>{const cfg=WB.D.wordSearch||{},N=cfg.size||8;const W=(cfg.words||WB.D.words.map(w=>w.id)).map(WB.w).filter(w=>U(w.en).length<=N);
- let g,placed;for(let t=0;t<200;t++){g=Array.from({length:N},()=>Array(N).fill(''));placed=[];let ok=true;
-  for(const w of W){const s=U(w.en);let put=false;for(let k=0;k<300&&!put;k++){const d=Math.random()<.5?[0,1]:[1,0],r=Math.floor(Math.random()*(N-d[0]*(s.length-1))),c=Math.floor(Math.random()*(N-d[1]*(s.length-1)));
-   if([...s].every((ch,j)=>{const v=g[r+d[0]*j][c+d[1]*j];return v===''||v===ch})){[...s].forEach((ch,j)=>g[r+d[0]*j][c+d[1]*j]=ch);placed.push({w,r,c,d,s});put=true}}if(!put){ok=false;break}}if(ok)break}
- const AB='ABCDEFGHIJKLMNOPRSTUVWY';g=g.map(row=>row.map(v=>v||AB[Math.floor(Math.random()*AB.length)]));
+ const letters=W.map(w=>U(w.en)).sort((a,b)=>b.length-a.length);const built=SearchLib.build(letters,N);
+ if(!built.ok){app().innerHTML=head('search','Word search could not be built. Tell your teacher.')+'</div>';return}
+ const g=built.g;const placed=built.placed.map(p=>{const w=W.find(x=>U(x.en)===p.s);return{w,r:p.r,c:p.c,d:p.d,s:p.s}});
  const n=placed.length;let found=new Set(),right=0,missed=false,start=null;
  app().innerHTML=head('search','Find the words. Tap the first letter, then the last letter.')+`<div class="lg" id="lg" style="grid-template-columns:repeat(${N},1fr);max-width:420px"></div>
  <div class="grid4" id="ws">`+placed.map(p=>`<div data-w="${p.w.id}" style="border-radius:12px;background:#f1f9ff;padding:4px">${WB.picHTML(p.w,"max-width:70px;min-height:50px;font-size:14px")}<button class="snd" style="font-size:15px;padding:6px">🔊 ${p.w.en}</button></div>`).join('')+`</div><div id="fb"></div></div>`;
  placed.forEach(p=>$(`[data-w="${p.w.id}"] button`).onclick=()=>WB.play(p.w.audio));
  g.forEach((row,r)=>row.forEach((ch,c)=>{const d=document.createElement('div');d.textContent=ch;d.dataset.r=r;d.dataset.c=c;d.onclick=()=>tap(r,c,d);$('#lg').appendChild(d)}));
  const cell=(r,c)=>$(`#lg [data-r="${r}"][data-c="${c}"]`);
- function mark(p){found.add(p.w.id);if(!missed)right++,WB.tick('search',right,n);missed=false;[...p.s].forEach((_,j)=>{const e=cell(p.r+p.d[0]*j,p.c+p.d[1]*j);e.classList.add('f');e.onclick=()=>WB.play(p.w.audio)});
+ function mark(p){found.add(p.w.id);if(!missed)right++,WB.tick('search',right,n);missed=false;[...p.s].forEach((_,j)=>{cell(p.r+p.d[0]*j,p.c+p.d[1]*j).classList.add('f')});
   $(`[data-w="${p.w.id}"]`).style.background='#b2f2bb';WB.play(p.w.audio);fb('🎉 You found '+p.w.en+'!',true);if(found.size===n)setTimeout(()=>WB.end('search',right,n),1300)}
  function tap(r,c,d){if(!start){start=[r,c,d];d.classList.add('s');return}const[r0,c0,d0]=start;start=null;d0.classList.remove('s');
   const p=placed.find(p=>!found.has(p.w.id)&&((p.r===r0&&p.c===c0&&p.r+p.d[0]*(p.s.length-1)===r&&p.c+p.d[1]*(p.s.length-1)===c)||(p.r===r&&p.c===c&&p.r+p.d[0]*(p.s.length-1)===r0&&p.c+p.d[1]*(p.s.length-1)===c0)));
