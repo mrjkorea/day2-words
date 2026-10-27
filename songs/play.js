@@ -384,11 +384,22 @@
   function isDone(stage) { return !!songStages()[stage]; }
   function mrjTeacher() {
     try {
+      if (window.MRJTeacherUnlock && window.MRJTeacherUnlock.isUnlocked()) return true;
       var api = window.MRJSignin || window.MRJ_AUTH;
       return !!(api && typeof api.isTeacher === "function" && api.isTeacher());
     } catch (e) {
       return false;
     }
+  }
+  function wireSongTeacherJump() {
+    if (!window.MRJTeacherUnlock) return;
+    MRJTeacherUnlock.setJumpButtons([
+      { label: "1 Listen", onClick: function () { goReady(); beginListen(); } },
+      { label: "2 Tap", onClick: function () { goReady(); startTapLine(0); } },
+      { label: "3 Practice", onClick: function () { goReady(); startPracticeLine(0); } },
+      { label: "4 Quiz", onClick: function () { goReady(); beginQuiz(); } },
+      { label: "Stages", onClick: goReady },
+    ]);
   }
   function isUnlocked(stage) {
     if (TEST_MODE || mrjTeacher()) return true;
@@ -414,7 +425,7 @@
     STAGES.forEach(function (st, i) {
       var b = $(STAGE_BTN[st]);
       var open = isUnlocked(st);
-      b.disabled = !open || (!TEST_MODE && st === "quiz" && isDone(st));
+      b.disabled = !open || (!TEST_MODE && !mrjTeacher() && st === "quiz" && isDone(st));
       b.classList.toggle("done", isDone(st));
       var sm = b.querySelector("small");
       if (!sm.dataset.orig) sm.dataset.orig = sm.textContent;
@@ -870,7 +881,7 @@
     return a;
   }
   function beginQuiz() {
-    if (!isUnlocked("quiz") || (!TEST_MODE && isDone("quiz"))) return;
+    if (!isUnlocked("quiz") || (!TEST_MODE && !mrjTeacher() && isDone("quiz"))) return;
     quizIdx = 0;
     quizScore = 0;
     showQuiz();
@@ -1062,12 +1073,20 @@
   document.addEventListener("mrj-teacher", function () {
     try {
       refreshStageButtons();
+      wireSongTeacherJump();
     } catch (e) {}
   });
+  if (window.MRJTeacherUnlock) {
+    MRJTeacherUnlock.installRefresh(function () {
+      refreshStageButtons();
+      wireSongTeacherJump();
+    });
+  }
 
   window.addEventListener("mrj-auth-ready", function (event) {
     var detail = event && event.detail ? event.detail : {};
     authId = String(detail.id == null ? "" : detail.id).trim();
+    wireSongTeacherJump();
     startSong();
   });
 })();

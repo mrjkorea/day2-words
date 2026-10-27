@@ -7,7 +7,8 @@ WB.prog=()=>{try{return JSON.parse(localStorage.getItem(WB.key()))||{}}catch(e){
 WB.save=(id,pct,right,n)=>{const p=WB.prog();const old=p[id];const pass=pct>=(WB.D.passPercent||80);
  if(!old||pct>=old.pct)p[id]={pct,right,n,pass:pass||(old&&old.pass),at:Date.now()};else if(pass)p[id].pass=true;localStorage.setItem(WB.key(),JSON.stringify(p))};
 WB.done=id=>{const r=WB.prog()[id];return !!(r&&r.pass)};
-WB.unlocked=id=>{if(WB.test)return true;const i=WB.steps.findIndex(s=>s[0]===id);return i<=0||WB.done(WB.steps[i-1][0])};
+WB.teacher=()=>{try{return!!(window.MRJTeacherUnlock&&window.MRJTeacherUnlock.isUnlocked())}catch(e){return false}};
+WB.unlocked=id=>{if(WB.test||WB.teacher())return true;const i=WB.steps.findIndex(s=>s[0]===id);return i<=0||WB.done(WB.steps[i-1][0])};
 WB.link=(page,extra)=>page+'?unit='+encodeURIComponent(WB.unit)+(WB.test?'&test=1':'')+(extra||'');
 WB.load=()=>fetch('data/'+WB.unit+'.json').then(r=>{if(!r.ok)throw Error('No unit '+WB.unit);return r.json()}).then(d=>WB.D=d);
 WB.sh=a=>a.map(v=>[Math.random(),v]).sort((x,y)=>x[0]-y[0]).map(v=>v[1]);
