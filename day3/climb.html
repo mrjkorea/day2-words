@@ -29,7 +29,7 @@
  </svg><video id="vid" muted playsinline preload="auto"></video></div>
  <div id="card"></div>
 </div>
-<script src="wb.js"></script>
+<script src="wb.js?v=20261027-teacher-chip"></script>
 <script>
 let D,i=0,right=0,pos=0,locked=false,N=0;const card=document.getElementById('card'),vid=document.getElementById('vid');
 const sh=WB.sh,word=w=>{const x=WB.w(w);const src=x&&x.audio?x.audio:(D.wordAudio?D.wordAudio+w.split(' ')[0]+'.mp3':'');return src?WB.play(src):Promise.resolve()},line=f=>{if(!f)return Promise.resolve();return WB.play(String(f).includes('/')?f:D.lineAudio+f)};
@@ -82,4 +82,11 @@ function start(){i=0;right=0;pos=0;WB._nl=null;move();show()}
 WB.load().then(d=>{D=d;WB.voiceBtn();N=d.questions.length;drawSteps();
  if(D.kind!=='review'&&D.kind!=='culture'&&!WB.unlocked('climb')){card.innerHTML=`<h1>🔒 Locked</h1><p class="p">Finish step 8 first.</p><button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`;return}
  if(WB.test)WB.skipBtn(()=>{if(!locked&&i<N)check(true,null)});start()}).catch(e=>card.innerHTML='<h1>Oops</h1><p>'+e.message+'</p>');
-</script></body></html>
+</script>
+<link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css">
+<link rel="stylesheet" href="../js/mrj-teacher-unlock.css?v=20261027-teacher-chip">
+<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js"></script>
+<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js" data-mrj-app="day2-words"></script>
+<script src="../js/mrj-teacher-unlock.js?v=20261027-teacher-chip"></script>
+<script src="teacher-jump.js?v=20261027-teacher-chip"></script>
+</body></html>
