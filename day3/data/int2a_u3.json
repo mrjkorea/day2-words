@@ -7,15 +7,115 @@
  "lineAudio": "audio/int2a_u3/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "german",
-   "choices": [
-    "german",
-    "english",
-    "hindi",
-    "korean"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u3/{v}/icanspeakhindi.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "Hindi."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3",
+   "answer": "I can speak Vietnamese.",
+   "choices": [
+    "I can speak Vietnamese.",
+    "I can speak Japanese.",
+    "I can speak German."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you speak?",
+    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
+   },
+   "choices": [
+    "I can speak Korean.",
+    "I can speak Chinese.",
+    "I like chocolate."
+   ],
+   "answer": "I can speak Korean.",
+   "pic": "../packs/int2a_u3/korean.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u3/{v}/icanspeakfrench.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "French."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u3/{v}/icanspeakenglish.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "speak",
+    "___",
+    "."
+   ],
+   "answer": "English",
+   "choices": [
+    "English",
+    "speak",
+    "Chinese"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u3/{v}/icanspeakenglish.mp3",
+   "answer": "I can speak English.",
+   "choices": [
+    "I can speak English.",
+    "I can speak German.",
+    "I can speak Spanish."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u3/{v}/icanspeakjapanese.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "Japanese."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you speak?",
+    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
+   },
+   "choices": [
+    "I can speak Vietnamese.",
+    "I can speak Korean.",
+    "I like chocolate."
+   ],
+   "answer": "I can speak Vietnamese.",
+   "pic": "../packs/int2a_u3/vietnamese.jpg"
   },
   {
    "type": "listen",
@@ -29,124 +129,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "hindi",
-   "choices": [
-    "hindi",
-    "german",
-    "korean",
-    "japanese"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "french",
-   "answer": "French",
-   "choices": [
-    "French",
-    "rench",
-    "Frenc",
-    "Frensh"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "spanish",
-   "answer": "Spanish",
-   "choices": [
-    "Spanish",
-    "Smanish",
-    "Spaniss",
-    "Spanich"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "vietnamese",
-   "audio": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3",
-   "answer": [
-    "I",
-    "can",
-    "speak",
-    "Vietnamese."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "../packs/int2a_u3/audio/{v}/canyouspeakenglish.mp3",
    "answer": [
     "Can",
     "you",
     "speak",
     "English?"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "hindi",
-   "audio": "audio/int2a_u3/{v}/icanspeakhindi.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "speak",
-    "___",
-    "."
-   ],
-   "answer": "Hindi",
-   "choices": [
-    "Hindi",
-    "French",
-    "Speak"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "vietnamese",
-   "audio": "audio/int2a_u3/{v}/icanspeakvietnamese.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "speak",
-    "___",
-    "."
-   ],
-   "answer": "Vietnamese",
-   "choices": [
-    "Vietnamese",
-    "Speak",
-    "English"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "chinese",
-   "audio": "audio/int2a_u3/{v}/icanspeakchinese.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "speak",
-    "___",
-    "."
-   ],
-   "answer": "Chinese",
-   "choices": [
-    "Chinese",
-    "Spanish",
-    "Korean"
    ]
   }
  ],
@@ -506,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

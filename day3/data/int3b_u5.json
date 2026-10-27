@@ -7,107 +7,113 @@
  "lineAudio": "audio/int3b_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "eatup",
-   "choices": [
-    "eatup",
-    "washup",
-    "giveup",
-    "cleanup"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "putdown",
-   "choices": [
-    "putdown",
-    "giveup",
-    "cooldown",
-    "eatup"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "comedown",
-   "choices": [
-    "comedown",
-    "slowdown",
-    "giveup",
-    "cooldown"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cooldown",
-   "answer": "cool down",
-   "choices": [
-    "cool down",
-    "cool duwn",
-    "cooldown",
-    "ool down"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "putdown",
-   "answer": "put down",
-   "choices": [
-    "put down",
-    "pt down",
-    "put dwn",
-    "ut down"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "giveup",
-   "audio": "audio/int3b_u5/{v}/dontgiveup.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/putitdownplease.mp3",
    "answer": [
-    "Don't",
-    "give",
-    "up!"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "hurryup",
-   "audio": "audio/int3b_u5/{v}/hurryupplease.mp3",
-   "answer": [
-    "Hurry",
-    "up,",
+    "Put",
+    "it",
+    "down,",
     "please!"
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "cleanup",
+   "audio": "audio/int3b_u5/{v}/hurryupplease.mp3",
+   "answer": "Hurry up, please!",
    "choices": [
-    "cleanup",
-    "washup",
-    "cooldown",
-    "putdown"
+    "Hurry up, please!",
+    "Slow down, please!",
+    "Put it down, please!"
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "slowdown",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I do?",
+    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
+   },
    "choices": [
-    "slowdown",
-    "eatup",
-    "hurryup",
-    "putdown"
+    "Clean up your room!",
+    "Eat up your food!",
+    "I practice martial arts."
+   ],
+   "answer": "Clean up your room!",
+   "pic": "../packs/int3b_u5/cleanup.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/cleanupyourroom.mp3",
+   "answer": [
+    "Clean",
+    "up",
+    "your",
+    "room!"
    ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/dontgiveup.mp3",
+   "sentence": [
+    "Don't",
+    "___",
+    "!"
+   ],
+   "answer": "give up",
+   "choices": [
+    "give up",
+    "eat up",
+    "wash up"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3b_u5/audio/{v}/bequiet.mp3",
+   "answer": "Be quiet!",
+   "choices": [
+    "Be quiet!",
+    "Cool down, please!",
+    "Put it down, please!"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/eatupyourfood.mp3",
+   "answer": [
+    "Eat",
+    "up",
+    "your",
+    "food!"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I do?",
+    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
+   },
+   "choices": [
+    "Hurry up, please!",
+    "Slow down, please!",
+    "My name is Rose."
+   ],
+   "answer": "Hurry up, please!",
+   "pic": "../packs/int3b_u5/hurryup.jpg"
   },
   {
    "type": "listen",
@@ -118,6 +124,18 @@
     "putdown",
     "hurryup",
     "comedown"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/washupbeforedinner.mp3",
+   "answer": [
+    "Wash",
+    "up",
+    "before",
+    "dinner!"
    ]
   }
  ],
@@ -468,10 +486,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

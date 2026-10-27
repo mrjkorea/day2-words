@@ -7,26 +7,110 @@
  "lineAudio": "audio/basic_a_u2/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "cow",
-   "choices": [
-    "cow",
-    "sheep",
-    "cat",
-    "chicken"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u2/{v}/hellomrsduck.mp3",
+   "answer": [
+    "Hello,",
+    "Mrs.",
+    "Duck."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "cat",
+   "audio": "audio/basic_a_u2/{v}/hellomrssheep.mp3",
+   "answer": "Hello, Mrs. Sheep.",
    "choices": [
-    "cat",
-    "sheep",
-    "dog",
-    "duck"
+    "Hello, Mrs. Sheep.",
+    "Hello, Mrs. Duck.",
+    "Hello, Mr. Cat."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this? Say hello!",
+    "audio": "audio/basic_a_u2/{v}/whoisthissayhello.mp3"
+   },
+   "choices": [
+    "Hello, Mr. Cat.",
+    "Hello, Ms. Pig.",
+    "I want to be a judge."
+   ],
+   "answer": "Hello, Ms. Pig.",
+   "pic": "../packs/basic_a_u2/pig.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u2/{v}/hellomrdog.mp3",
+   "answer": [
+    "Hello,",
+    "Mr.",
+    "Dog."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u2/{v}/hellomsgoat.mp3",
+   "sentence": [
+    "Hello,",
+    "Ms.",
+    "___"
+   ],
+   "answer": "Goat.",
+   "choices": [
+    "Goat.",
+    "Pig.",
+    "Chicken."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u2/{v}/hellomrhorse.mp3",
+   "answer": "Hello, Mr. Horse.",
+   "choices": [
+    "Hello, Mr. Horse.",
+    "Hello, Mr. Cow.",
+    "Hello, Mr. Cat."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u2/{v}/hellomspig.mp3",
+   "answer": [
+    "Hello,",
+    "Ms.",
+    "Pig."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this? Say hello!",
+    "audio": "audio/basic_a_u2/{v}/whoisthissayhello.mp3"
+   },
+   "choices": [
+    "Hello, Mr. Cat.",
+    "Hello, Mr. Cow.",
+    "I can run."
+   ],
+   "answer": "Hello, Mr. Cat.",
+   "pic": "../packs/basic_a_u2/cat.jpg"
   },
   {
    "type": "listen",
@@ -40,108 +124,14 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "chicken",
-   "answer": "chicken",
-   "choices": [
-    "chicken",
-    "chickin",
-    "shicken",
-    "cicken"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "goat",
-   "answer": "goat",
-   "choices": [
-    "goat",
-    "guat",
-    "goap",
-    "got"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "chicken",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_a_u2/{v}/hellomschicken.mp3",
    "answer": [
     "Hello,",
     "Ms.",
     "Chicken."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "horse",
-   "audio": "audio/basic_a_u2/{v}/hellomrhorse.mp3",
-   "answer": [
-    "Hello,",
-    "Mr.",
-    "Horse."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cat",
-   "audio": "../packs/basic_a_u2/audio/{v}/hellomrcat.mp3",
-   "sentence": [
-    "Hello,",
-    "Mr.",
-    "___",
-    "."
-   ],
-   "answer": "Cat",
-   "choices": [
-    "Cat",
-    "Dog",
-    "Goat"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sheep",
-   "audio": "audio/basic_a_u2/{v}/hellomrssheep.mp3",
-   "sentence": [
-    "Hello,",
-    "Mrs.",
-    "___",
-    "."
-   ],
-   "answer": "Sheep",
-   "choices": [
-    "Sheep",
-    "Pig",
-    "Chicken"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "duck",
-   "audio": "audio/basic_a_u2/{v}/hellomrsduck.mp3",
-   "sentence": [
-    "Hello,",
-    "Mrs.",
-    "___",
-    "."
-   ],
-   "answer": "Duck",
-   "choices": [
-    "Duck",
-    "Dog",
-    "Hello"
    ]
   }
  ],
@@ -571,10 +561,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

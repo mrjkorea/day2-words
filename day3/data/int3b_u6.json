@@ -7,79 +7,48 @@
  "lineAudio": "audio/int3b_u6/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "pineapple",
-   "choices": [
-    "pineapple",
-    "grapefruit",
-    "durian",
-    "lychee"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "grapefruit",
-   "choices": [
-    "grapefruit",
-    "durian",
-    "pineapple",
-    "mangosteen"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "mango",
-   "choices": [
-    "mango",
-    "mangosteen",
-    "apple",
-    "lemon"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "durian",
-   "answer": "durian",
-   "choices": [
-    "durian",
-    "dubian",
-    "drian",
-    "darian"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "mango",
-   "answer": "mango",
-   "choices": [
-    "mango",
-    "mingo",
-    "mngo",
-    "ango"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "grapefruit",
-   "audio": "audio/int3b_u6/{v}/theyaregrapefruits.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u6/{v}/theyarelychees.mp3",
    "answer": [
     "They",
     "are",
-    "grapefruits."
+    "lychees."
    ]
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u6/{v}/theyarelemons.mp3",
+   "answer": "They are lemons.",
+   "choices": [
+    "They are lemons.",
+    "They are durians.",
+    "They are grapefruits."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What fruit are these?",
+    "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+   },
+   "choices": [
+    "They are rambutans.",
+    "They are lemons.",
+    "I play soccer."
+   ],
+   "answer": "They are rambutans.",
+   "pic": "../packs/int3b_u6/rambutan.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "pineapple",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3b_u6/{v}/theyarepineapples.mp3",
    "answer": [
     "They",
@@ -89,33 +58,61 @@
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3",
    "sentence": [
     "What",
     "___",
     "are",
-    "these?"
+    "these",
+    "?"
    ],
    "answer": "fruit",
    "choices": [
     "fruit",
-    "mango",
-    "mangosteen"
+    "apple",
+    "mango"
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "rambutan",
+   "audio": "audio/int3b_u6/{v}/theyaregrapefruits.mp3",
+   "answer": "They are grapefruits.",
    "choices": [
-    "rambutan",
-    "durian",
-    "mango",
-    "grapefruit"
+    "They are grapefruits.",
+    "They are lemons.",
+    "They are mangoes."
    ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u6/{v}/theyarerambutans.mp3",
+   "answer": [
+    "They",
+    "are",
+    "rambutans."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What fruit are these?",
+    "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+   },
+   "choices": [
+    "They are pineapples.",
+    "They are mangoes.",
+    "I have a pencil case."
+   ],
+   "answer": "They are pineapples.",
+   "pic": "../packs/int3b_u6/pineapple.jpg"
   },
   {
    "type": "listen",
@@ -126,6 +123,17 @@
     "apple",
     "mango",
     "mangosteen"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u6/{v}/theyareapples.mp3",
+   "answer": [
+    "They",
+    "are",
+    "apples."
    ]
   }
  ],
@@ -562,10 +570,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

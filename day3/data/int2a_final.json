@@ -18,149 +18,123 @@
  "lineAudio": "audio/int2a_u1/",
  "questions": [
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "bathroom",
-   "answer": "bathroom",
-   "choices": [
-    "bathroom",
-    "bathrom",
-    "bethroom",
-    "bahroom"
-   ],
-   "unit": "int2a_u5"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2a_u7",
-   "q": {
-    "text": "Who is this?",
-    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
-   },
-   "pic": "../packs/int2a_u7/lunchlady.jpg",
-   "choices": [
-    "This is our lunch lady.",
-    "It is humid.",
-    "I want a blanket.",
-    "Maybe it is in the garage."
-   ],
-   "answer": "This is our lunch lady.",
-   "aud": {
-    "This is our lunch lady.": "audio/int2a_u7/ai/thisisourlunchlady.mp3",
-    "It is humid.": "audio/int2a_u1/ai/itishumid.mp3",
-    "I want a blanket.": "audio/int2a_u4/ai/iwantablanket.mp3",
-    "Maybe it is in the garage.": "audio/int2a_u5/ai/maybeitisinthegarage.mp3"
-   }
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "juice",
-   "audio": "audio/int2a_u4/{v}/iwantjuice.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/itishailing.mp3",
    "answer": [
-    "I",
-    "want",
-    "juice."
+    "It",
+    "is",
+    "hailing."
    ],
-   "unit": "int2a_u4"
+   "unit": "int2a_u1"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "washroom",
-   "audio": "audio/int2a_u2/{v}/thereisawashroom.mp3",
-   "sentence": [
-    "There",
-    "is",
-    "a",
-    "___",
-    "!"
-   ],
-   "answer": "washroom",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u1/{v}/theweatherisnice.mp3",
+   "answer": "The weather is nice.",
    "choices": [
-    "washroom",
-    "food",
-    "bee"
+    "The weather is nice.",
+    "How is the weather?",
+    "It is cold."
    ],
-   "unit": "int2a_u2"
+   "unit": "int2a_u1"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2a_u1",
    "q": {
     "text": "How is the weather?",
     "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
    },
-   "pic": "../packs/int2a_u1/stormy.jpg",
    "choices": [
     "It is stormy.",
-    "This is our janitor.",
-    "I can speak German.",
-    "Maybe it is in my bag."
+    "It is cold.",
+    "Take care."
    ],
-   "answer": "It is stormy.",
-   "aud": {
-    "It is stormy.": "audio/int2a_u1/ai/itisstormy.mp3",
-    "This is our janitor.": "audio/int2a_u7/ai/thisisourjanitor.mp3",
-    "I can speak German.": "audio/int2a_u3/ai/icanspeakgerman.mp3",
-    "Maybe it is in my bag.": "audio/int2a_u5/ai/maybeitisinmybag.mp3"
-   }
+   "answer": "It is cold.",
+   "unit": "int2a_u1",
+   "pic": "../packs/int2a_u1/cold.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "watch",
-   "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
-   "answer": [
-    "I",
-    "watch",
-    "TV."
-   ],
-   "unit": "int2a_u8"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "bee",
-   "audio": "audio/int2a_u2/{v}/therearebees.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2a_u2/audio/{v}/therearesnakes.mp3",
    "answer": [
     "There",
     "are",
-    "bees!"
+    "snakes!"
    ],
    "unit": "int2a_u2"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2a_u4",
-   "q": {
-    "text": "What do you want?",
-    "audio": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3"
-   },
-   "pic": "../packs/int2a_u4/juice.jpg",
-   "choices": [
-    "I want juice.",
-    "This is our principal.",
-    "I can speak Korean.",
-    "Maybe it is in the kitchen."
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthebathroom.mp3",
+   "sentence": [
+    "Maybe",
+    "it",
+    "is",
+    "in",
+    "the",
+    "___",
+    "."
    ],
-   "answer": "I want juice.",
-   "aud": {
-    "I want juice.": "audio/int2a_u4/ai/iwantjuice.mp3",
-    "This is our principal.": "audio/int2a_u7/ai/thisisourprincipal.mp3",
-    "I can speak Korean.": "audio/int2a_u3/ai/icanspeakkorean.mp3",
-    "Maybe it is in the kitchen.": "audio/int2a_u5/ai/maybeitisinthekitchen.mp3"
-   }
+   "answer": "bathroom",
+   "choices": [
+    "bathroom",
+    "bedroom",
+    "kitchen"
+   ],
+   "unit": "int2a_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u2/{v}/thereisawashroom.mp3",
+   "answer": "There is a washroom!",
+   "choices": [
+    "There is a washroom!",
+    "There is a hotel!",
+    "There is water!"
+   ],
+   "unit": "int2a_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u3/{v}/icanspeakkorean.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "Korean."
+   ],
+   "unit": "int2a_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is there?",
+    "audio": "audio/int2a_u2/{v}/whatisthere.mp3"
+   },
+   "choices": [
+    "There are teachers!",
+    "There are bees!",
+    "Have a nice day."
+   ],
+   "answer": "There are bees!",
+   "unit": "int2a_u2",
+   "pic": "../packs/int2a_u2/bee.jpg"
   },
   {
    "type": "listen",
@@ -175,181 +149,174 @@
    "unit": "int2a_u2"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2a_u8/{v}/iridemybike.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u4/{v}/iwantacomputer.mp3",
+   "answer": [
     "I",
-    "___",
-    "my",
-    "bike."
+    "want",
+    "a",
+    "computer."
    ],
-   "answer": "ride",
-   "choices": [
-    "ride",
-    "play",
-    "soccer"
-   ],
-   "unit": "int2a_u8"
+   "unit": "int2a_u4"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "garage",
-   "audio": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3",
-   "sentence": [
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int2a_u3/audio/{v}/canyouspeakenglish.mp3",
+   "answer": "Can you speak English?",
+   "choices": [
+    "Can you speak English?",
+    "I can speak Vietnamese.",
+    "I can speak English."
+   ],
+   "unit": "int2a_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you speak?",
+    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
+   },
+   "choices": [
+    "I can speak Korean.",
+    "I can speak Chinese.",
+    "Good luck."
+   ],
+   "answer": "I can speak Korean.",
+   "unit": "int2a_u3",
+   "pic": "../packs/int2a_u3/korean.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthediningroom.mp3",
+   "answer": [
     "Maybe",
     "it",
     "is",
     "in",
     "the",
-    "___",
-    "."
-   ],
-   "answer": "garage",
-   "choices": [
-    "garage",
-    "bathroom",
-    "maybe"
+    "dining",
+    "room."
    ],
    "unit": "int2a_u5"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "classmate",
-   "answer": "classmate",
-   "choices": [
-    "classmate",
-    "classmte",
-    "cassmate",
-    "classmata"
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u6/{v}/thisvideoissad.mp3",
+   "sentence": [
+    "This",
+    "video",
+    "is",
+    "___",
+    "."
    ],
-   "unit": "int2a_u7"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "scary",
+   "answer": "sad",
    "choices": [
-    "scary",
+    "sad",
     "gross",
-    "funny",
-    "sad"
+    "boring"
    ],
    "unit": "int2a_u6"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "french",
-   "answer": "French",
-   "choices": [
-    "French",
-    "rench",
-    "Frenc",
-    "Frensh"
-   ],
-   "unit": "int2a_u3"
-  },
-  {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "soup",
+   "audio": "../packs/int2a_u4/audio/{v}/iwantablanket.mp3",
+   "answer": "I want a blanket.",
    "choices": [
-    "soup",
-    "phone",
-    "water",
-    "hug"
+    "I want a blanket.",
+    "I want a phone.",
+    "I want a hug."
    ],
    "unit": "int2a_u4"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "hindi",
-   "audio": "audio/int2a_u3/{v}/icanspeakhindi.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "speak",
-    "___",
-    "."
-   ],
-   "answer": "Hindi",
-   "choices": [
-    "Hindi",
-    "French",
-    "Speak"
-   ],
-   "unit": "int2a_u3"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "foggy",
-   "choices": [
-    "foggy",
-    "hailing",
-    "cold",
-    "rainy"
-   ],
-   "unit": "int2a_u1"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2a_u3",
-   "q": {
-    "text": "What can you speak?",
-    "audio": "audio/int2a_u3/{v}/whatcanyouspeak.mp3"
-   },
-   "pic": "../packs/int2a_u3/chinese.jpg",
-   "choices": [
-    "I can speak Chinese.",
-    "It is rainy.",
-    "This is our secretary.",
-    "I want water."
-   ],
-   "answer": "I can speak Chinese.",
-   "aud": {
-    "I can speak Chinese.": "audio/int2a_u3/ai/icanspeakchinese.mp3",
-    "It is rainy.": "audio/int2a_u1/ai/itisrainy.mp3",
-    "This is our secretary.": "audio/int2a_u7/ai/thisisoursecretary.mp3",
-    "I want water.": "audio/int2a_u4/ai/iwantwater.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "stormy",
-   "answer": "stormy",
-   "choices": [
-    "stormy",
-    "storry",
-    "story",
-    "stomy"
-   ],
-   "unit": "int2a_u1"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "sad",
-   "audio": "audio/int2a_u6/{v}/thisvideoissad.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u6/{v}/thisvideoiscrazy.mp3",
    "answer": [
     "This",
     "video",
     "is",
-    "sad."
+    "crazy."
    ],
    "unit": "int2a_u6"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want?",
+    "audio": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "I want tissue paper.",
+    "I want a blanket.",
+    "I am sixty-six years old."
+   ],
+   "answer": "I want tissue paper.",
+   "unit": "int2a_u4",
+   "pic": "../packs/int2a_u4/tissuepaper.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u7/{v}/thisisourjanitor.mp3",
+   "answer": [
+    "This",
+    "is",
+    "our",
+    "janitor."
+   ],
+   "unit": "int2a_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u8/{v}/iplaywithmylittlebrother.mp3",
+   "answer": [
+    "I",
+    "play",
+    "with",
+    "my",
+    "little",
+    "brother."
+   ],
+   "unit": "int2a_u8"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u7/{v}/thisisoursecretary.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "our",
+    "___",
+    "."
+   ],
+   "answer": "secretary",
+   "choices": [
+    "secretary",
+    "principal",
+    "librarian"
+   ],
+   "unit": "int2a_u7"
   }
  ],
  "words": [

@@ -17,16 +17,120 @@
  "questions": [
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "type",
-   "audio": "audio/basic_a_u3/{v}/typeyourid.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3",
    "answer": [
-    "Type",
-    "your",
-    "ID."
+    "Make",
+    "a",
+    "new",
+    "tab."
    ],
    "unit": "basic_a_u3"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u3/{v}/sayitagainplease.mp3",
+   "answer": "Say it again, please.",
+   "choices": [
+    "Say it again, please.",
+    "Be quiet, please.",
+    "Put it on your head."
+   ],
+   "unit": "basic_b_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Type your ID.",
+    "audio": "audio/basic_a_u3/{v}/typeyourid.mp3"
+   },
+   "choices": [
+    "Okay. I am unplugging my headset.",
+    "Okay. I am typing my ID.",
+    "It is breakfast time."
+   ],
+   "answer": "Okay. I am typing my ID.",
+   "unit": "basic_a_u3",
+   "pic": "../packs/basic_a_u3/type.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/{v}/helpmeplease.mp3",
+   "answer": [
+    "Help",
+    "me,",
+    "please."
+   ],
+   "unit": "basic_a_u4"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u3/{v}/putonyourheadset.mp3",
+   "sentence": [
+    "Put",
+    "on",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "headset",
+   "choices": [
+    "headset",
+    "tab",
+    "unplug"
+   ],
+   "unit": "basic_a_u3"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3",
+   "answer": "Scissors win.",
+   "choices": [
+    "Scissors win.",
+    "Scissors win against paper.",
+    "Rock wins."
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u3/{v}/recyclethepaper.mp3",
+   "answer": [
+    "Recycle",
+    "the",
+    "paper."
+   ],
+   "unit": "basic_b_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Be quiet, please.",
+    "audio": "audio/basic_a_u4/{v}/bequietplease.mp3"
+   },
+   "choices": [
+    "I am sorry.",
+    "Thank you very much.",
+    "This is my ear."
+   ],
+   "answer": "I am sorry.",
+   "unit": "basic_a_u4",
+   "pic": "../packs/basic_a_u4/quiet.jpg"
   },
   {
    "type": "listen",
@@ -41,234 +145,133 @@
    "unit": "basic_a_u4"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "test",
-   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
-   "sentence": [
-    "We",
-    "have",
-    "a",
-    "___",
-    "today."
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3",
+   "answer": [
+    "Scissors",
+    "win",
+    "against",
+    "paper."
    ],
-   "answer": "test",
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u3/ai/thetestisred.mp3",
+   "answer": "The test is red.",
    "choices": [
-    "test",
-    "start",
-    "basic_c_u3__understand"
+    "The test is red.",
+    "The test is tomorrow.",
+    "We have a test today."
+   ],
+   "unit": "basic_c_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Do you understand?",
+    "audio": "audio/basic_b_u3/{v}/doyouunderstand.mp3"
+   },
+   "choices": [
+    "No. I do not understand.",
+    "No. I do not like noodles.",
+    "This is my neck."
+   ],
+   "answer": "No. I do not understand.",
+   "unit": "basic_b_u3",
+   "pic": "../packs/basic_b_u3/understand.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3",
+   "answer": [
+    "May",
+    "I",
+    "start?"
    ],
    "unit": "basic_c_u3"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "afternoon",
-   "audio": "audio/basic_a_u4/{v}/goodafternoon.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/{v}/iamsorry.mp3",
    "sentence": [
-    "Good",
+    "I",
+    "am",
     "___",
     "."
    ],
-   "answer": "afternoon",
+   "answer": "sorry",
    "choices": [
-    "afternoon",
-    "wait",
+    "sorry",
+    "quiet",
     "please"
    ],
    "unit": "basic_a_u4"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "test",
+   "audio": "audio/basic_c_u4/{v}/wecanseejeju.mp3",
+   "answer": "We can see Jeju.",
    "choices": [
-    "test",
-    "mean",
-    "report",
-    "basic_c_u3__understand"
+    "We can see Jeju.",
+    "We can see Andong.",
+    "We can see Pyeongchang."
    ],
-   "unit": "basic_c_u3"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "scissors",
-   "answer": "scissors",
-   "choices": [
-    "scissors",
-    "stissors",
-    "scisors",
-    "scissor"
-   ],
-   "unit": "basic_b_u4"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "scissors",
-   "choices": [
-    "scissors",
-    "rock",
-    "paper",
-    "wins"
-   ],
-   "unit": "basic_b_u4"
+   "unit": "basic_c_u4"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "unplug",
-   "audio": "audio/basic_a_u3/{v}/unplugyourheadset.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u4/{v}/wecanseeandong.mp3",
    "answer": [
-    "Unplug",
-    "your",
-    "headset."
-   ],
-   "unit": "basic_a_u3"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "pardon",
-   "choices": [
-    "pardon",
-    "quiet",
-    "wait",
-    "tomorrow"
-   ],
-   "unit": "basic_a_u4"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "test",
-   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
-   "answer": [
-    "We",
-    "have",
-    "a",
-    "test",
-    "today."
-   ],
-   "unit": "basic_c_u3"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "busan",
-   "audio": "audio/basic_c_u4/{v}/wecanseebusan.mp3",
-   "sentence": [
     "We",
     "can",
     "see",
-    "___",
-    "."
-   ],
-   "answer": "Busan",
-   "choices": [
-    "Busan",
-    "Goseong",
-    "Pyeongchang"
-   ],
-   "unit": "basic_c_u4"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "andong",
-   "choices": [
-    "andong",
-    "gongju",
-    "jeju",
-    "pyeongchang"
+    "Andong."
    ],
    "unit": "basic_c_u4"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/basic_b_u3/{v}/sitdownplease.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u3/ai/okayiamrestartingmycomputer.mp3",
    "answer": [
-    "Sit",
-    "down,",
-    "please."
-   ],
-   "unit": "basic_b_u3"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "gongju",
-   "choices": [
-    "gongju",
-    "suncheon",
-    "tongyeong",
-    "busan"
-   ],
-   "unit": "basic_c_u4"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "trash",
-   "answer": "trash",
-   "choices": [
-    "trash",
-    "rash",
-    "tralh",
-    "trasd"
-   ],
-   "unit": "basic_b_u3"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "rock",
-   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
-   "answer": [
-    "Rock",
-    "wins."
-   ],
-   "unit": "basic_b_u4"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "double",
-   "audio": "audio/basic_a_u3/{v}/doubleclick.mp3",
-   "sentence": [
-    "___",
-    "click."
-   ],
-   "answer": "Double",
-   "choices": [
-    "Double",
-    "Right",
-    "Scroll"
+    "Okay.",
+    "I",
+    "am",
+    "restarting",
+    "my",
+    "computer."
    ],
    "unit": "basic_a_u3"
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "understand",
-   "choices": [
-    "understand",
-    "basic_b_u3__quiet",
-    "trash",
-    "basic_b_u3__help"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/ai/yesicanhelpyou.mp3",
+   "answer": [
+    "Yes,",
+    "I",
+    "can",
+    "help",
+    "you."
    ],
-   "unit": "basic_b_u3"
+   "unit": "basic_a_u4"
   }
  ],
  "words": [

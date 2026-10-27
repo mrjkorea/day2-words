@@ -7,6 +7,114 @@
  "lineAudio": "audio/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/isitamouse.mp3",
+   "answer": [
+    "Is",
+    "it",
+    "a",
+    "mouse?"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/yesitis.mp3",
+   "answer": "Yes, it is.",
+   "choices": [
+    "Yes, it is.",
+    "Is it a mouse?",
+    "It is a book."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/whatisthis.mp3"
+   },
+   "choices": [
+    "It is a book.",
+    "I am fine.",
+    "I want medicine."
+   ],
+   "answer": "It is a book.",
+   "pic": "pics/book.webp"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/yesican.mp3",
+   "answer": [
+    "Yes,",
+    "I",
+    "can."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "expression",
+   "audio": "audio/whatisthis.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "this?"
+   ],
+   "answer": "is",
+   "choices": [
+    "is",
+    "Thank",
+    "am"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/itisapen.mp3",
+   "answer": "It is a pen.",
+   "choices": [
+    "It is a pen.",
+    "It is a book.",
+    "It is a desk."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/itisadesk.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "desk."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/whatisthis.mp3"
+   },
+   "choices": [
+    "Thank you.",
+    "It is a pen.",
+    "I love summer."
+   ],
+   "answer": "It is a pen.",
+   "pic": "pics/pen.webp"
+  },
+  {
    "type": "listen",
    "prompt": "Listen. Tap the picture.",
    "answer": "book",
@@ -19,127 +127,16 @@
    "skill": "listen"
   },
   {
-   "type": "spell",
-   "prompt": "What is this? Pick the right spelling.",
-   "pic": "pen",
-   "answer": "pen",
-   "choices": [
-    "pen",
-    "pne",
-    "ppen"
-   ],
-   "skill": "spell"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "audio": "whatisthis.mp3",
-   "answer": [
-    "What",
-    "is",
-    "this?"
-   ],
-   "skill": "unscramble"
-  },
-  {
-   "type": "listen",
-   "prompt": "Listen. Tap the picture.",
-   "answer": "mouse",
-   "choices": [
-    "keyboard",
-    "mouse",
-    "monitor",
-    "clipboard"
-   ],
-   "skill": "listen"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "pic": "book",
-   "audio": "itisabook.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "book",
-   "choices": [
-    "book",
-    "pen",
-    "desk"
-   ],
-   "skill": "dialogue"
-  },
-  {
-   "type": "spell",
-   "prompt": "What is this? Pick the right spelling.",
-   "pic": "desk",
-   "answer": "desk",
-   "choices": [
-    "dsek",
-    "desk",
-    "deks"
-   ],
-   "skill": "spell"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "pic": "pen",
-   "audio": "whatisthis.mp3",
-   "sentence": [
-    "What",
-    "___",
-    "this",
-    "?"
-   ],
-   "answer": "is",
-   "choices": [
-    "is",
-    "it",
-    "a"
-   ],
-   "skill": "dialogue"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "pic": "cube",
-   "audio": "itisacube.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/itisabook.mp3",
    "answer": [
     "It",
     "is",
     "a",
-    "cube."
-   ],
-   "skill": "unscramble"
-  },
-  {
-   "type": "listen",
-   "prompt": "Listen. Tap the picture.",
-   "answer": "clipboard",
-   "choices": [
-    "cube",
-    "book",
-    "clipboard",
-    "monitor"
-   ],
-   "skill": "listen"
-  },
-  {
-   "type": "spell",
-   "prompt": "What is this? Pick the right spelling.",
-   "pic": "keyboard",
-   "answer": "keyboard",
-   "choices": [
-    "keybord",
-    "keyboard",
-    "kayboard"
-   ],
-   "skill": "spell"
+    "book."
+   ]
   }
  ],
  "words": [
@@ -525,10 +522,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

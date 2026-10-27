@@ -18,23 +18,64 @@
  "lineAudio": "audio/basic_b_u1/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "bored",
-   "choices": [
-    "bored",
-    "sleepy",
-    "tired",
-    "worried"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u1/{v}/iamworried.mp3",
+   "answer": [
+    "I",
+    "am",
+    "worried."
    ],
    "unit": "basic_b_u1"
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u1/{v}/iamsick.mp3",
+   "answer": "I am sick.",
+   "choices": [
+    "I am sick.",
+    "I am scared.",
+    "I am bored."
+   ],
+   "unit": "basic_b_u1"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How are you?",
+    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+   },
+   "choices": [
+    "I am tired.",
+    "I am sad.",
+    "There are many islands."
+   ],
+   "answer": "I am tired.",
+   "unit": "basic_b_u1",
+   "pic": "../packs/basic_b_u1/tired.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u2/{v}/ilikemusic.mp3",
+   "answer": [
+    "I",
+    "like",
+    "music."
+   ],
+   "unit": "basic_b_u2"
+  },
+  {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "book",
-   "audio": "audio/basic_b_u5/{v}/itisabook.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisabag.mp3",
    "sentence": [
     "It",
     "is",
@@ -42,252 +83,55 @@
     "___",
     "."
    ],
-   "answer": "book",
+   "answer": "bag",
    "choices": [
-    "book",
-    "sock",
-    "underwear"
+    "bag",
+    "teddy bear",
+    "toothbrush"
    ],
    "unit": "basic_b_u5"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_b_u7",
-   "q": {
-    "text": "What color is that?",
-    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
-   },
-   "pic": "../packs/basic_b_u7/white.jpg",
-   "choices": [
-    "It is white.",
-    "I like games."
-   ],
-   "answer": "It is white.",
-   "aud": {
-    "It is white.": "audio/basic_b_u7/ai/itiswhite.mp3",
-    "I like games.": "audio/basic_b_u2/ai/ilikegames.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "mouth",
-   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
-   "answer": [
-    "This",
-    "is",
-    "my",
-    "mouth."
-   ],
-   "unit": "basic_b_u6"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "scissors",
-   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3",
-   "answer": [
-    "Scissors",
-    "win."
-   ],
-   "unit": "basic_b_u4"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/basic_b_u8/{v}/oneyearhastwelvemonths.mp3",
-   "answer": [
-    "One",
-    "year",
-    "has",
-    "twelve",
-    "months."
-   ],
-   "unit": "basic_b_u8"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_b_u4",
-   "q": {
-    "text": "Paper or rock. Who wins?",
-    "audio": "audio/basic_b_u4/{v}/paperorrockwhowins.mp3"
-   },
-   "pic": "../packs/basic_b_u4/paper.jpg",
-   "choices": [
-    "Paper wins.",
-    "I am sleepy."
-   ],
-   "answer": "Paper wins.",
-   "aud": {
-    "Paper wins.": "audio/basic_b_u4/ai/paperwins.mp3",
-    "I am sleepy.": "audio/basic_b_u1/ai/iamsleepy.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "fruit",
-   "audio": "audio/basic_b_u2/{v}/ilikefruit.mp3",
-   "answer": [
-    "I",
-    "like",
-    "fruit."
-   ],
-   "unit": "basic_b_u2"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "quiet",
-   "answer": "quiet",
-   "choices": [
-    "quiet",
-    "quiek",
-    "qoiet",
-    "quit"
-   ],
-   "unit": "basic_b_u3"
-  },
-  {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "exercise",
+   "audio": "audio/basic_b_u2/{v}/ilikemeat.mp3",
+   "answer": "I like meat.",
    "choices": [
-    "exercise",
-    "music",
-    "noodles",
-    "games"
+    "I like meat.",
+    "I like games.",
+    "I like movies."
    ],
    "unit": "basic_b_u2"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_b_u3",
-   "q": {
-    "text": "Do you understand?",
-    "audio": "audio/basic_b_u3/{v}/doyouunderstand.mp3"
-   },
-   "pic": "../packs/basic_b_u3/understand.jpg",
-   "choices": [
-    "No. I do not understand.",
-    "It is brown."
-   ],
-   "answer": "No. I do not understand.",
-   "aud": {
-    "No. I do not understand.": "audio/basic_b_u3/ai/noidonotunderstand.mp3",
-    "It is brown.": "audio/basic_b_u7/ai/itisbrown.mp3"
-   }
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/basic_b_u8/{v}/oneyearhastwelvemonths.mp3",
-   "sentence": [
-    "One",
-    "___",
-    "has",
-    "twelve",
-    "months."
-   ],
-   "answer": "year",
-   "choices": [
-    "year",
-    "seven",
-    "twenty-two"
-   ],
-   "unit": "basic_b_u8"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_b_u1",
-   "q": {
-    "text": "How are you?",
-    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
-   },
-   "pic": "../packs/basic_b_u1/bored.jpg",
-   "choices": [
-    "I am bored.",
-    "It is a sock."
-   ],
-   "answer": "I am bored.",
-   "aud": {
-    "I am bored.": "audio/basic_b_u1/ai/iambored.mp3",
-    "It is a sock.": "audio/basic_b_u5/ai/itisasock.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "brown",
-   "answer": "brown",
-   "choices": [
-    "brown",
-    "brow",
-    "bown",
-    "brwn"
-   ],
-   "unit": "basic_b_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_b_u3/{v}/sitdownplease.mp3",
-   "sentence": [
+   "answer": [
     "Sit",
     "down,",
-    "___",
-    "."
-   ],
-   "answer": "please",
-   "choices": [
-    "please",
-    "again",
-    "recycle"
+    "please."
    ],
    "unit": "basic_b_u3"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "book",
-   "answer": "book",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you like?",
+    "audio": "audio/basic_b_u2/{v}/whatdoyoulike.mp3"
+   },
    "choices": [
-    "book",
-    "bok",
-    "bouk",
-    "boik"
+    "I like music.",
+    "I like exercise.",
+    "Let's visit a national park."
    ],
-   "unit": "basic_b_u5"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hungry",
-   "answer": "hungry",
-   "choices": [
-    "hungry",
-    "hubgry",
-    "hungdy",
-    "hungy"
-   ],
-   "unit": "basic_b_u1"
+   "answer": "I like music.",
+   "unit": "basic_b_u2",
+   "pic": "../packs/basic_b_u2/music.jpg"
   },
   {
    "type": "listen",
@@ -302,36 +146,168 @@
    "unit": "basic_b_u4"
   },
   {
-   "type": "listen",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3",
+   "answer": [
+    "Scissors",
+    "win",
+    "against",
+    "paper."
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "body",
+   "audio": "audio/basic_b_u3/ai/putitinthetrashcan.mp3",
+   "answer": "Put it in the trash can.",
    "choices": [
-    "body",
+    "Put it in the trash can.",
+    "Put it in the trash.",
+    "Put it on your head."
+   ],
+   "unit": "basic_b_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Do you understand?",
+    "audio": "audio/basic_b_u3/{v}/doyouunderstand.mp3"
+   },
+   "choices": [
+    "No. I do not understand.",
+    "No. I do not like noodles.",
+    "I want to be a doctor."
+   ],
+   "answer": "No. I do not understand.",
+   "unit": "basic_b_u3",
+   "pic": "../packs/basic_b_u3/understand.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_b_u5/audio/{v}/itisatoy.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "toy."
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismyneck.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "neck",
+   "choices": [
     "neck",
     "eye",
-    "head"
+    "mouth"
    ],
    "unit": "basic_b_u6"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "apples",
-   "audio": "audio/basic_b_u2/{v}/ilikeapples.mp3",
-   "sentence": [
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
+   "answer": "Rock wins.",
+   "choices": [
+    "Rock wins.",
+    "Paper wins.",
+    "Scissors win."
+   ],
+   "unit": "basic_b_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismynose.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "nose."
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Rock or scissors. Who wins?",
+    "audio": "audio/basic_b_u4/{v}/rockorscissorswhowins.mp3"
+   },
+   "choices": [
+    "Scissors win.",
+    "Rock wins.",
+    "I want to be a food critic."
+   ],
+   "answer": "Rock wins.",
+   "unit": "basic_b_u4",
+   "pic": "../packs/basic_b_u4/rock.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u7/{v}/itisbrown.mp3",
+   "answer": [
+    "It",
+    "is",
+    "brown."
+   ],
+   "unit": "basic_b_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u8/{v}/iamseventeenyearsold.mp3",
+   "answer": [
     "I",
-    "like",
+    "am",
+    "seventeen",
+    "years",
+    "old."
+   ],
+   "unit": "basic_b_u8"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u7/{v}/itisblue.mp3",
+   "sentence": [
+    "It",
+    "is",
     "___",
     "."
    ],
-   "answer": "apples",
+   "answer": "blue",
    "choices": [
-    "apples",
-    "games",
-    "noodles"
+    "blue",
+    "green",
+    "red"
    ],
-   "unit": "basic_b_u2"
+   "unit": "basic_b_u7"
   }
  ],
  "words": [

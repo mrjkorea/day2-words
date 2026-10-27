@@ -7,80 +7,49 @@
  "lineAudio": "audio/basic_a_u1/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "six",
-   "choices": [
-    "six",
-    "seven",
-    "four",
-    "one"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "ten",
-   "choices": [
-    "ten",
-    "one",
-    "two",
-    "nine"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "two",
-   "choices": [
-    "two",
-    "eight",
-    "seven",
-    "one"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "one",
-   "answer": "one",
-   "choices": [
-    "one",
-    "onea",
-    "oni",
-    "ine"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "seven",
-   "answer": "seven",
-   "choices": [
-    "seven",
-    "sven",
-    "sevn",
-    "sevun"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "four",
-   "audio": "audio/basic_a_u1/{v}/ihavefourapples.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u1/{v}/ihavesevenapples.mp3",
    "answer": [
     "I",
     "have",
-    "four",
+    "seven",
     "apples."
    ]
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u1/{v}/ihavefourapples.mp3",
+   "answer": "I have four apples.",
+   "choices": [
+    "I have four apples.",
+    "I have six apples.",
+    "I have seven apples."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How many apples?",
+    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
+   },
+   "choices": [
+    "I have three apples.",
+    "I have eight apples.",
+    "It is a piano."
+   ],
+   "answer": "I have three apples.",
+   "pic": "../packs/basic_a_u1/three.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "eight",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_a_u1/{v}/ihaveeightapples.mp3",
    "answer": [
     "I",
@@ -91,59 +60,84 @@
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "seven",
-   "audio": "audio/basic_a_u1/{v}/ihavesevenapples.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u1/{v}/ihavethreeapples.mp3",
    "sentence": [
     "I",
     "have",
     "___",
-    "apples."
+    "apples",
+    "."
    ],
-   "answer": "seven",
+   "answer": "three",
    "choices": [
-    "seven",
-    "nine",
-    "four"
+    "three",
+    "ten",
+    "nine"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "two",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
    "audio": "audio/basic_a_u1/{v}/ihavetwoapples.mp3",
-   "sentence": [
+   "answer": "I have two apples.",
+   "choices": [
+    "I have two apples.",
+    "I have three apples.",
+    "I have six apples."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u1/{v}/ihavetenapples.mp3",
+   "answer": [
     "I",
     "have",
-    "___",
+    "ten",
     "apples."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How many apples?",
+    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
+   },
+   "choices": [
+    "I have five apples.",
+    "I have ten apples.",
+    "It is a saxophone."
    ],
+   "answer": "I have ten apples.",
+   "pic": "../packs/basic_a_u1/ten.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
    "answer": "two",
    "choices": [
     "two",
-    "nine",
-    "ten"
+    "eight",
+    "seven",
+    "one"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "four",
-   "audio": "audio/basic_a_u1/{v}/ihavefourapples.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u1/{v}/ihaveoneapple.mp3",
+   "answer": [
     "I",
     "have",
-    "___",
-    "apples."
-   ],
-   "answer": "four",
-   "choices": [
-    "four",
-    "seven",
-    "eight"
+    "one",
+    "apple."
    ]
   }
  ],
@@ -503,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

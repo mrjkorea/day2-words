@@ -7,15 +7,115 @@
  "lineAudio": "audio/int2c_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "fantastic",
-   "choices": [
-    "fantastic",
-    "confused",
-    "ignored",
-    "embarrassed"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3",
+   "answer": [
+    "I",
+    "am",
+    "feeling",
+    "nervous."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u5/{v}/iamfeelingconfused.mp3",
+   "answer": "I am feeling confused.",
+   "choices": [
+    "I am feeling confused.",
+    "I am feeling ignored.",
+    "I am feeling fantastic."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How are you feeling?",
+    "audio": "../packs/int2c_u5/audio/{v}/howareyoufeeling.mp3"
+   },
+   "choices": [
+    "I am feeling proud.",
+    "I am feeling confused.",
+    "They are two thousand won."
+   ],
+   "answer": "I am feeling confused.",
+   "pic": "../packs/int2c_u5/confused.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u5/{v}/iamfeelingproud.mp3",
+   "answer": [
+    "I",
+    "am",
+    "feeling",
+    "proud."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u5/{v}/iamfeelingguilty.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "feeling",
+    "___",
+    "."
+   ],
+   "answer": "guilty",
+   "choices": [
+    "guilty",
+    "surprised",
+    "jealous"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u5/{v}/iamfeelingembarrassed.mp3",
+   "answer": "I am feeling embarrassed.",
+   "choices": [
+    "I am feeling embarrassed.",
+    "I am feeling proud.",
+    "I am feeling fantastic."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u5/{v}/iamfeelingignored.mp3",
+   "answer": [
+    "I",
+    "am",
+    "feeling",
+    "ignored."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How are you feeling?",
+    "audio": "../packs/int2c_u5/audio/{v}/howareyoufeeling.mp3"
+   },
+   "choices": [
+    "I am feeling jealous.",
+    "I am feeling confused.",
+    "Maybe it is in the bedroom."
+   ],
+   "answer": "I am feeling jealous.",
+   "pic": "../packs/int2c_u5/jealous.jpg"
   },
   {
    "type": "listen",
@@ -29,124 +129,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "confused",
-   "choices": [
-    "confused",
-    "proud",
-    "worried",
-    "embarrassed"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "guilty",
-   "answer": "guilty",
-   "choices": [
-    "guilty",
-    "guikty",
-    "guily",
-    "guiltk"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "ignored",
-   "answer": "ignored",
-   "choices": [
-    "ignored",
-    "ignoed",
-    "ignorud",
-    "ignared"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "nervous",
-   "audio": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u5/{v}/iamfeelingsurprised.mp3",
    "answer": [
     "I",
     "am",
     "feeling",
-    "nervous."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "worried",
-   "audio": "audio/int2c_u5/{v}/iamfeelingworried.mp3",
-   "answer": [
-    "I",
-    "am",
-    "feeling",
-    "worried."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ignored",
-   "audio": "audio/int2c_u5/{v}/iamfeelingignored.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "feeling",
-    "___",
-    "."
-   ],
-   "answer": "ignored",
-   "choices": [
-    "ignored",
-    "worried",
-    "jealous"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "worried",
-   "audio": "audio/int2c_u5/{v}/iamfeelingworried.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "feeling",
-    "___",
-    "."
-   ],
-   "answer": "worried",
-   "choices": [
-    "worried",
-    "nervous",
-    "confused"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nervous",
-   "audio": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "feeling",
-    "___",
-    "."
-   ],
-   "answer": "nervous",
-   "choices": [
-    "nervous",
-    "jealous",
-    "surprised"
+    "surprised."
    ]
   }
  ],
@@ -506,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

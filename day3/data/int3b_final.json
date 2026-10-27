@@ -18,239 +18,121 @@
  "lineAudio": "audio/int3b_u1/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "grapefruit",
-   "choices": [
-    "grapefruit",
-    "durian",
-    "pineapple",
-    "mangosteen"
-   ],
-   "unit": "int3b_u6"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "gayageum",
-   "audio": "../packs/int3b_u2/audio/{v}/itisagayageum.mp3",
-   "answer": [
-    "It",
-    "is",
-    "a",
-    "gayageum."
-   ],
-   "unit": "int3b_u2"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "lunch",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourlunch.mp3",
-   "sentence": [
-    "Don't",
-    "forget",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "lunch",
-   "choices": [
-    "lunch",
-    "backpack",
-    "coat"
-   ],
-   "unit": "int3b_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "violin",
-   "audio": "audio/int3b_u2/{v}/itisaviolin.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "violin",
-   "choices": [
-    "violin",
-    "microwave",
-    "cello"
-   ],
-   "unit": "int3b_u2"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "me",
-   "audio": "audio/int3b_u4/{v}/itisme.mp3",
-   "answer": [
-    "It",
-    "is",
-    "me!"
-   ],
-   "unit": "int3b_u4"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "putdown",
-   "answer": "put down",
-   "choices": [
-    "put down",
-    "pt down",
-    "put dwn",
-    "ut down"
-   ],
-   "unit": "int3b_u5"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3b_u3",
-   "q": {
-    "text": "What do you want?",
-    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
-   },
-   "pic": "../packs/int3b_u3/higher.jpg",
-   "choices": [
-    "Higher please.",
-    "I am in second grade.",
-    "It is a flute."
-   ],
-   "answer": "Higher please.",
-   "aud": {
-    "Higher please.": "audio/int3b_u3/ai/higherplease.mp3",
-    "I am in second grade.": "audio/int3b_u1/ai/iaminsecondgrade.mp3",
-    "It is a flute.": "audio/int3b_u2/ai/itisaflute.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "giveup",
-   "audio": "audio/int3b_u5/{v}/dontgiveup.mp3",
-   "answer": [
-    "Don't",
-    "give",
-    "up!"
-   ],
-   "unit": "int3b_u5"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "gimbap",
-   "audio": "audio/int3b_u8/{v}/ilikegimbap.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u1/{v}/iaminfirstgrade.mp3",
    "answer": [
     "I",
-    "like",
-    "gimbap."
-   ],
-   "unit": "int3b_u8"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3b_u1",
-   "q": {
-    "text": "What grade are you in?",
-    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
-   },
-   "pic": "../packs/int3b_u1/third.jpg",
-   "choices": [
-    "I am in third grade.",
-    "It is a drum.",
-    "They are mangoes."
-   ],
-   "answer": "I am in third grade.",
-   "aud": {
-    "I am in third grade.": "audio/int3b_u1/ai/iaminthirdgrade.mp3",
-    "It is a drum.": "audio/int3b_u2/ai/itisadrum.mp3",
-    "They are mangoes.": "audio/int3b_u6/ai/theyaremangoes.mp3"
-   }
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "aunt",
-   "choices": [
-    "aunt",
-    "mom",
-    "me",
-    "grandmother"
-   ],
-   "unit": "int3b_u4"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "cello",
-   "choices": [
-    "cello",
-    "guitar",
-    "piano",
-    "violin"
-   ],
-   "unit": "int3b_u2"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "first",
-   "choices": [
+    "am",
+    "in",
     "first",
-    "kindergarten",
-    "sixth",
-    "eighth"
+    "grade."
    ],
    "unit": "int3b_u1"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "phone",
-   "answer": "phone",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u1/{v}/iaminfourthgrade.mp3",
+   "answer": "I am in fourth grade.",
    "choices": [
-    "phone",
-    "pbone",
-    "phon",
-    "phope"
+    "I am in fourth grade.",
+    "I am in third grade.",
+    "I am in eighth grade."
    ],
-   "unit": "int3b_u7"
+   "unit": "int3b_u1"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3b_u6",
    "q": {
-    "text": "What fruit are these?",
-    "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
+    "text": "What grade are you in?",
+    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
    },
-   "pic": "../packs/int3b_u6/apple.jpg",
    "choices": [
-    "They are apples.",
+    "I am in second grade.",
     "I am in kindergarten.",
-    "Don't forget your money."
+    "This is my introduction."
    ],
-   "answer": "They are apples.",
-   "aud": {
-    "They are apples.": "audio/int3b_u6/ai/theyareapples.mp3",
-    "I am in kindergarten.": "audio/int3b_u1/ai/iaminkindergarten.mp3",
-    "Don't forget your money.": "audio/int3b_u7/ai/dontforgetyourmoney.mp3"
-   }
+   "answer": "I am in second grade.",
+   "unit": "int3b_u1",
+   "pic": "../packs/int3b_u1/second.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u2/{v}/itisaviolin.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "violin."
+   ],
+   "unit": "int3b_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/dontgiveup.mp3",
+   "sentence": [
+    "Don't",
+    "___",
+    "!"
+   ],
+   "answer": "give up",
+   "choices": [
+    "give up",
+    "eat up",
+    "wash up"
+   ],
+   "unit": "int3b_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3b_u2/audio/{v}/isthisagayageum.mp3",
+   "answer": "Is this a gayageum?",
+   "choices": [
+    "Is this a gayageum?",
+    "It is a drum.",
+    "It is a guitar."
+   ],
+   "unit": "int3b_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3",
+   "answer": [
+    "Please",
+    "help",
+    "me."
+   ],
+   "unit": "int3b_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/int3b_u2/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    "It is a violin.",
+    "It is a drum.",
+    "He is ugly."
+   ],
+   "answer": "It is a violin.",
+   "unit": "int3b_u2",
+   "pic": "../packs/int3b_u2/violin.jpg"
   },
   {
    "type": "listen",
@@ -265,70 +147,168 @@
    "unit": "int3b_u8"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "second",
-   "answer": "second",
-   "choices": [
-    "second",
-    "semond",
-    "seond",
-    "scond"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u4/{v}/sheismyteacher.mp3",
+   "answer": [
+    "She",
+    "is",
+    "my",
+    "teacher."
    ],
-   "unit": "int3b_u1"
+   "unit": "int3b_u4"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "warmer",
-   "answer": "warmer",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u3/{v}/smallerplease.mp3",
+   "answer": "Smaller please.",
    "choices": [
-    "warmer",
-    "barmer",
-    "warmr",
-    "armer"
+    "Smaller please.",
+    "Louder please.",
+    "Less please."
    ],
    "unit": "int3b_u3"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3b_u4",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "Smaller please.",
+    "More please.",
+    "He is young."
+   ],
+   "answer": "Smaller please.",
+   "unit": "int3b_u3",
+   "pic": "../packs/int3b_u3/smaller.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/cleanupyourroom.mp3",
+   "answer": [
+    "Clean",
+    "up",
+    "your",
+    "room!"
+   ],
+   "unit": "int3b_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "are",
+    "these",
+    "?"
+   ],
+   "answer": "fruit",
+   "choices": [
+    "fruit",
+    "apple",
+    "mango"
+   ],
+   "unit": "int3b_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u4/{v}/heismydad.mp3",
+   "answer": "He is my dad.",
+   "choices": [
+    "He is my dad.",
+    "He is my grandfather.",
+    "He is my brother."
+   ],
+   "unit": "int3b_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u6/{v}/theyaredurians.mp3",
+   "answer": [
+    "They",
+    "are",
+    "durians."
+   ],
+   "unit": "int3b_u6"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
    "q": {
     "text": "Who is this?",
     "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3"
    },
-   "pic": "../packs/int3b_u4/grandmother.jpg",
    "choices": [
-    "She is my grandmother.",
-    "They are pineapples.",
-    "Hurry up, please!"
+    "It is me!",
+    "He is my uncle.",
+    "I have a dog."
    ],
-   "answer": "She is my grandmother.",
-   "aud": {
-    "She is my grandmother.": "audio/int3b_u4/ai/sheismygrandmother.mp3",
-    "They are pineapples.": "audio/int3b_u6/ai/theyarepineapples.mp3",
-    "Hurry up, please!": "audio/int3b_u5/ai/hurryupplease.mp3"
-   }
+   "answer": "It is me!",
+   "unit": "int3b_u4",
+   "pic": "../packs/int3b_u4/me.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourphone.mp3",
+   "answer": [
+    "Don't",
+    "forget",
+    "your",
+    "phone."
+   ],
+   "unit": "int3b_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u8/{v}/itisasecret.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "secret."
+   ],
+   "unit": "int3b_u8"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "smaller",
-   "audio": "audio/int3b_u3/{v}/smallerplease.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourtransitcard.mp3",
    "sentence": [
+    "Don't",
+    "forget",
+    "your",
     "___",
-    "please."
+    "."
    ],
-   "answer": "Smaller",
+   "answer": "transit card",
    "choices": [
-    "Smaller",
-    "More",
-    "Slower"
+    "transit card",
+    "forget",
+    "umbrella"
    ],
-   "unit": "int3b_u3"
+   "unit": "int3b_u7"
   }
  ],
  "words": [

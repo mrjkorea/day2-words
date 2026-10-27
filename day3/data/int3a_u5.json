@@ -7,26 +7,115 @@
  "lineAudio": "audio/int3a_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "silkworm",
-   "choices": [
-    "silkworm",
-    "ant",
-    "centipede",
-    "cockroach"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisacentipede.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "centipede."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "cicada",
+   "audio": "audio/int3a_u5/{v}/itisamosquito.mp3",
+   "answer": "It is a mosquito.",
    "choices": [
-    "cicada",
-    "moth",
-    "butterfly",
-    "centipede"
+    "It is a mosquito.",
+    "It is a spider.",
+    "It is a silkworm."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this bug?",
+    "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+   },
+   "choices": [
+    "It is a butterfly.",
+    "It is a silkworm.",
+    "This is Mr. Jay."
+   ],
+   "answer": "It is a silkworm.",
+   "pic": "../packs/int3a_u5/silkworm.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisacicada.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "cicada."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisaspider.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "spider",
+   "choices": [
+    "spider",
+    "ant",
+    "cicada"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3a_u5/audio/{v}/itisabutterfly.mp3",
+   "answer": "It is a butterfly.",
+   "choices": [
+    "It is a butterfly.",
+    "It is a moth.",
+    "It is a silkworm."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisasilkworm.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "silkworm."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this bug?",
+    "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+   },
+   "choices": [
+    "It is a cicada.",
+    "It is a centipede.",
+    "It is mine."
+   ],
+   "answer": "It is a cicada.",
+   "pic": "../packs/int3a_u5/cicada.jpg"
   },
   {
    "type": "listen",
@@ -40,113 +129,15 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "silkworm",
-   "answer": "silkworm",
-   "choices": [
-    "silkworm",
-    "slkworm",
-    "silkwork",
-    "silpworm"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "spider",
-   "answer": "spider",
-   "choices": [
-    "spider",
-    "spier",
-    "spidem",
-    "spide"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "spider",
-   "audio": "audio/int3a_u5/{v}/itisaspider.mp3",
-   "answer": [
-    "It",
-    "is",
-    "a",
-    "spider."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3",
-   "answer": [
-    "What",
-    "is",
-    "this",
-    "bug?"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "silkworm",
-   "audio": "audio/int3a_u5/{v}/itisasilkworm.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "silkworm",
-   "choices": [
-    "silkworm",
-    "moth",
-    "bug"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "butterfly",
-   "audio": "../packs/int3a_u5/audio/{v}/itisabutterfly.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "butterfly",
-   "choices": [
-    "butterfly",
-    "bug",
-    "cockroach"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cockroach",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3a_u5/{v}/itisacockroach.mp3",
-   "sentence": [
+   "answer": [
     "It",
     "is",
     "a",
-    "___",
-    "."
-   ],
-   "answer": "cockroach",
-   "choices": [
-    "cockroach",
-    "centipede",
-    "mosquito"
+    "cockroach."
    ]
   }
  ],
@@ -576,10 +567,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

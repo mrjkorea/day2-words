@@ -7,26 +7,112 @@
  "lineAudio": "audio/int3b_u8/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "korea",
-   "choices": [
-    "korea",
-    "centimeter",
-    "secret",
-    "canada"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u8/{v}/iamtall.mp3",
+   "answer": [
+    "I",
+    "am",
+    "tall."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "canada",
+   "audio": "audio/int3b_u8/{v}/iliveinkorea.mp3",
+   "answer": "I live in Korea.",
    "choices": [
-    "canada",
-    "food",
-    "weigh",
-    "teach"
+    "I live in Korea.",
+    "I like gimbap.",
+    "I am from Canada."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How much do you weigh?",
+    "audio": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3"
+   },
+   "choices": [
+    "I teach English.",
+    "It is a secret.",
+    "I have my transit card."
+   ],
+   "answer": "It is a secret.",
+   "pic": "../packs/int3b_u8/secret.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3b_u8/audio/{v}/whereareyoufrom.mp3",
+   "answer": [
+    "Where",
+    "are",
+    "you",
+    "from?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3b_u8/{v}/ispeakenglish.mp3",
+   "sentence": [
+    "I",
+    "speak",
+    "___",
+    "."
+   ],
+   "answer": "English",
+   "choices": [
+    "English",
+    "weigh",
+    "food"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u8/{v}/ilikekoreanfood.mp3",
+   "answer": "I like Korean food.",
+   "choices": [
+    "I like Korean food.",
+    "I like gimbap.",
+    "I am very tall."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u8/{v}/ispeakenglish.mp3",
+   "answer": [
+    "I",
+    "speak",
+    "English."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you do?",
+    "audio": "audio/int3b_u8/{v}/whatdoyoudo.mp3"
+   },
+   "choices": [
+    "I like gimbap.",
+    "I teach English.",
+    "I have my transit card."
+   ],
+   "answer": "I teach English.",
+   "pic": "../packs/int3b_u8/teach.jpg"
   },
   {
    "type": "listen",
@@ -40,110 +126,15 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "food",
-   "answer": "food",
-   "choices": [
-    "food",
-    "foon",
-    "fiod",
-    "fod"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "centimeter",
-   "answer": "centimeter",
-   "choices": [
-    "centimeter",
-    "cenimeter",
-    "centumeter",
-    "entimeter"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "tall",
-   "audio": "audio/int3b_u8/{v}/iamtall.mp3",
-   "answer": [
-    "I",
-    "am",
-    "tall."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "gimbap",
-   "audio": "audio/int3b_u8/{v}/ilikegimbap.mp3",
-   "answer": [
-    "I",
-    "like",
-    "gimbap."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "secret",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3b_u8/{v}/itisasecret.mp3",
-   "sentence": [
+   "answer": [
     "It",
     "is",
     "a",
-    "___",
-    "."
-   ],
-   "answer": "secret",
-   "choices": [
-    "secret",
-    "English",
-    "Korea"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "teach",
-   "audio": "audio/int3b_u8/{v}/iteachenglish.mp3",
-   "sentence": [
-    "I",
-    "___",
-    "English."
-   ],
-   "answer": "teach",
-   "choices": [
-    "teach",
-    "tall",
-    "Korea"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "weigh",
-   "audio": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3",
-   "sentence": [
-    "How",
-    "much",
-    "do",
-    "you",
-    "___",
-    "?"
-   ],
-   "answer": "weigh",
-   "choices": [
-    "weigh",
-    "Korea",
-    "teach"
+    "secret."
    ]
   }
  ],
@@ -503,10 +494,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

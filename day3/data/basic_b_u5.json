@@ -7,15 +7,116 @@
  "lineAudio": "audio/basic_b_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "apple",
-   "choices": [
-    "apple",
-    "phonecharger",
-    "toothbrush",
-    "teddybear"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisateddybear.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "teddy",
+    "bear."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u5/{v}/itisasock.mp3",
+   "answer": "It is a sock.",
+   "choices": [
+    "It is a sock.",
+    "It is a phone charger.",
+    "It is a toy."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
+   "choices": [
+    "It is an apple.",
+    "It is a toy.",
+    "I can speak English."
+   ],
+   "answer": "It is a toy.",
+   "pic": "../packs/basic_b_u5/toy.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisatoothbrush.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "toothbrush."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisanightlight.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "night light",
+   "choices": [
+    "night light",
+    "book",
+    "teddy bear"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/basic_b_u5/audio/{v}/itisatoy.mp3",
+   "answer": "It is a toy.",
+   "choices": [
+    "It is a toy.",
+    "It is a sock.",
+    "It is a book."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisanapple.mp3",
+   "answer": [
+    "It",
+    "is",
+    "an",
+    "apple."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
+   "choices": [
+    "It is underwear.",
+    "It is a night light.",
+    "I can draw a circle."
+   ],
+   "answer": "It is underwear.",
+   "pic": "../packs/basic_b_u5/underwear.jpg"
   },
   {
    "type": "listen",
@@ -29,122 +130,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "underwear",
-   "choices": [
-    "underwear",
-    "phonecharger",
-    "toothbrush",
-    "apple"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "book",
-   "answer": "book",
-   "choices": [
-    "book",
-    "bok",
-    "bouk",
-    "boik"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sock",
-   "answer": "sock",
-   "choices": [
-    "sock",
-    "mock",
-    "socp",
-    "sok"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "underwear",
-   "audio": "audio/basic_b_u5/{v}/itisunderwear.mp3",
-   "answer": [
-    "It",
-    "is",
-    "underwear."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "toothbrush",
-   "audio": "audio/basic_b_u5/{v}/itisatoothbrush.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisabag.mp3",
    "answer": [
     "It",
     "is",
     "a",
-    "toothbrush."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "underwear",
-   "audio": "audio/basic_b_u5/{v}/itisunderwear.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "underwear",
-   "choices": [
-    "underwear",
-    "apple",
-    "bag"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "book",
-   "audio": "audio/basic_b_u5/{v}/itisabook.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "book",
-   "choices": [
-    "book",
-    "sock",
-    "underwear"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sock",
-   "audio": "audio/basic_b_u5/{v}/itisasock.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "sock",
-   "choices": [
-    "sock",
-    "apple",
-    "toothbrush"
+    "bag."
    ]
   }
  ],
@@ -580,10 +574,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

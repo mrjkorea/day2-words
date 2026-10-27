@@ -7,80 +7,50 @@
  "lineAudio": "audio/int3c_u6/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "volcano",
-   "choices": [
-    "volcano",
-    "desert",
-    "tiger",
-    "province"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "tiger",
-   "choices": [
-    "tiger",
-    "mountain",
-    "desert",
-    "nationalpark"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "desert",
-   "choices": [
-    "desert",
-    "mountain",
-    "province",
-    "city"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "desert",
-   "answer": "desert",
-   "choices": [
-    "desert",
-    "deserl",
-    "esert",
-    "deert"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "island",
-   "answer": "island",
-   "choices": [
-    "island",
-    "esland",
-    "usland",
-    "islnd"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "people",
-   "audio": "audio/int3c_u6/{v}/therearemanypeople.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u6/{v}/howmanycitiesarethere.mp3",
    "answer": [
-    "There",
-    "are",
+    "How",
     "many",
-    "people."
+    "cities",
+    "are",
+    "there?"
    ]
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u6/{v}/koreahasmanyprovinces.mp3",
+   "answer": "Korea has many provinces.",
+   "choices": [
+    "Korea has many provinces.",
+    "There are many cities.",
+    "How many cities are there?"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you see?",
+    "audio": "audio/int3c_u6/{v}/whatcanyousee.mp3"
+   },
+   "choices": [
+    "There are many people.",
+    "There is no desert in Korea.",
+    "There are four dogs in my school."
+   ],
+   "answer": "There are many people.",
+   "pic": "../packs/int3c_u6/people.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "city",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3c_u6/{v}/therearemanycities.mp3",
    "answer": [
     "There",
@@ -91,51 +61,8 @@
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "volcano",
-   "audio": "audio/int3c_u6/{v}/thereisavolcanoonjeju.mp3",
-   "sentence": [
-    "There",
-    "is",
-    "a",
-    "___",
-    "on",
-    "Jeju."
-   ],
-   "answer": "volcano",
-   "choices": [
-    "volcano",
-    "mountain",
-    "city"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "desert",
-   "audio": "audio/int3c_u6/{v}/thereisnodesertinkorea.mp3",
-   "sentence": [
-    "There",
-    "is",
-    "no",
-    "___",
-    "in",
-    "Korea."
-   ],
-   "answer": "desert",
-   "choices": [
-    "desert",
-    "island",
-    "people"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "people",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int3c_u6/{v}/therearemanypeople.mp3",
    "sentence": [
     "There",
@@ -147,8 +74,72 @@
    "answer": "people",
    "choices": [
     "people",
-    "mountain",
-    "desert"
+    "volcano",
+    "national park"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u6/{v}/thereisavolcanoonjeju.mp3",
+   "answer": "There is a volcano on Jeju.",
+   "choices": [
+    "There is a volcano on Jeju.",
+    "There is no desert in Korea.",
+    "There are many mountains."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u6/{v}/therearenotigers.mp3",
+   "answer": [
+    "There",
+    "are",
+    "no",
+    "tigers."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you see?",
+    "audio": "audio/int3c_u6/{v}/whatcanyousee.mp3"
+   },
+   "choices": [
+    "There are many islands.",
+    "There are many mountains.",
+    "There are four dogs in my school."
+   ],
+   "answer": "There are many islands.",
+   "pic": "../packs/int3c_u6/island.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "volcano",
+   "choices": [
+    "volcano",
+    "desert",
+    "tiger",
+    "province"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u6/audio/{v}/howmanyislandsarethere.mp3",
+   "answer": [
+    "How",
+    "many",
+    "islands",
+    "are",
+    "there?"
    ]
   }
  ],
@@ -508,10 +499,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

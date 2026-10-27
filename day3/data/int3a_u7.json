@@ -7,67 +7,9 @@
  "lineAudio": "audio/int3a_u7/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "dance",
-   "choices": [
-    "dance",
-    "run",
-    "sit",
-    "clap"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "sit",
-   "choices": [
-    "sit",
-    "jumpingjacks",
-    "clap",
-    "turn"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "jumprope",
-   "choices": [
-    "jumprope",
-    "run",
-    "jumpingjacks",
-    "sit"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "dance",
-   "answer": "dance",
-   "choices": [
-    "dance",
-    "dabce",
-    "dace",
-    "ance"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "climb",
-   "answer": "climb",
-   "choices": [
-    "climb",
-    "clib",
-    "llimb",
-    "clumb"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "climb",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3a_u7/{v}/climbtherope.mp3",
    "answer": [
     "Climb",
@@ -76,10 +18,37 @@
    ]
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u7/{v}/standup.mp3",
+   "answer": "Stand up!",
+   "choices": [
+    "Stand up!",
+    "Run fast!",
+    "Clap three times!"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do we do?",
+    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
+   },
+   "choices": [
+    "Jump rope!",
+    "Turn around!",
+    "Maybe it is in the bathroom."
+   ],
+   "answer": "Turn around!",
+   "pic": "../packs/int3a_u7/turn.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "clap",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "../packs/int3a_u7/audio/{v}/clapthreetimes.mp3",
    "answer": [
     "Clap",
@@ -89,56 +58,81 @@
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "dance",
-   "audio": "audio/int3a_u7/{v}/letsdance.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u7/{v}/dojumpingjacks.mp3",
    "sentence": [
-    "Let's",
+    "Do",
     "___",
     "!"
    ],
-   "answer": "dance",
+   "answer": "jumping jacks",
    "choices": [
-    "dance",
-    "turn",
-    "run"
+    "jumping jacks",
+    "gym",
+    "dance"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3a_u7/audio/{v}/jumprope.mp3",
+   "answer": "Jump rope!",
+   "choices": [
+    "Jump rope!",
+    "Climb the rope!",
+    "Do jumping jacks!"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3a_u7/{v}/wehavegymclass.mp3",
-   "sentence": [
+   "answer": [
     "We",
     "have",
-    "___",
-    "class."
-   ],
-   "answer": "gym",
-   "choices": [
     "gym",
+    "class."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do we do?",
+    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
+   },
+   "choices": [
+    "Climb the rope!",
+    "Let's dance!",
+    "I have a pencil."
+   ],
+   "answer": "Climb the rope!",
+   "pic": "../packs/int3a_u7/climb.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "dance",
+   "choices": [
     "dance",
+    "run",
+    "sit",
     "clap"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "turn",
-   "audio": "audio/int3a_u7/{v}/turnaround.mp3",
-   "sentence": [
-    "___",
-    "around!"
-   ],
-   "answer": "Turn",
-   "choices": [
-    "Turn",
-    "Dance",
-    "Sit"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u7/{v}/dojumpingjacks.mp3",
+   "answer": [
+    "Do",
+    "jumping",
+    "jacks!"
    ]
   }
  ],
@@ -575,10 +569,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

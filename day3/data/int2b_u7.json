@@ -7,15 +7,117 @@
  "lineAudio": "audio/int2b_u7/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "outside",
-   "choices": [
-    "outside",
-    "across",
-    "nextto",
-    "transitcard"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u7/{v}/itisinmypocket.mp3",
+   "answer": [
+    "It",
+    "is",
+    "in",
+    "my",
+    "pocket."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u7/{v}/itisinmypencilcase.mp3",
+   "answer": "It is in my pencil case.",
+   "choices": [
+    "It is in my pencil case.",
+    "It is in my pocket.",
+    "It is in front of the desk."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where is it?",
+    "audio": "audio/int2b_u7/{v}/whereisit.mp3"
+   },
+   "choices": [
+    "It is between the books.",
+    "It is in front of the desk.",
+    "Don't pull."
+   ],
+   "answer": "It is between the books.",
+   "pic": "../packs/int2b_u7/between.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u7/{v}/itisoutside.mp3",
+   "answer": [
+    "It",
+    "is",
+    "outside."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u7/{v}/itisacrossthestreet.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "the",
+    "street",
+    "."
+   ],
+   "answer": "across",
+   "choices": [
+    "across",
+    "pocket",
+    "next to"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u7/{v}/itisinfrontofthedesk.mp3",
+   "answer": "It is in front of the desk.",
+   "choices": [
+    "It is in front of the desk.",
+    "It is under the desk.",
+    "It is behind the desk."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u7/{v}/itisunderthedesk.mp3",
+   "answer": [
+    "It",
+    "is",
+    "under",
+    "the",
+    "desk."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where is it?",
+    "audio": "audio/int2b_u7/{v}/whereisit.mp3"
+   },
+   "choices": [
+    "It is under the desk.",
+    "It is in my pocket.",
+    "I am washing vegetables."
+   ],
+   "answer": "It is under the desk.",
+   "pic": "../packs/int2b_u7/under.jpg"
   },
   {
    "type": "listen",
@@ -29,126 +131,16 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "between",
-   "choices": [
-    "between",
-    "infrontof",
-    "transitcard",
-    "pencilcase"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "across",
-   "answer": "across",
-   "choices": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u7/{v}/itisacrossthestreet.mp3",
+   "answer": [
+    "It",
+    "is",
     "across",
-    "ocross",
-    "cross",
-    "akross"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "between",
-   "answer": "between",
-   "choices": [
-    "between",
-    "beteen",
-    "besween",
-    "btween"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "pencilcase",
-   "audio": "audio/int2b_u7/{v}/itisinmypencilcase.mp3",
-   "answer": [
-    "It",
-    "is",
-    "in",
-    "my",
-    "pencil",
-    "case."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "outside",
-   "audio": "audio/int2b_u7/{v}/itisoutside.mp3",
-   "answer": [
-    "It",
-    "is",
-    "outside."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "behind",
-   "audio": "audio/int2b_u7/{v}/itisbehindthedesk.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
     "the",
-    "desk."
-   ],
-   "answer": "behind",
-   "choices": [
-    "behind",
-    "outside",
-    "under"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "under",
-   "audio": "audio/int2b_u7/{v}/itisunderthedesk.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "the",
-    "desk."
-   ],
-   "answer": "under",
-   "choices": [
-    "under",
-    "outside",
-    "across"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "pocket",
-   "audio": "audio/int2b_u7/{v}/itisinmypocket.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "in",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "pocket",
-   "choices": [
-    "pocket",
-    "outside",
-    "between"
+    "street."
    ]
   }
  ],
@@ -507,10 +499,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

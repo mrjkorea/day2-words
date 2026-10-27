@@ -7,26 +7,113 @@
  "lineAudio": "audio/int3c_u4/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "talk",
-   "choices": [
-    "talk",
-    "cook",
-    "bike",
-    "school"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u4/{v}/letswatchtv.mp3",
+   "answer": [
+    "Let's",
+    "watch",
+    "TV."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "tv",
+   "audio": "audio/int3c_u4/{v}/letsplay.mp3",
+   "answer": "Let's play.",
    "choices": [
-    "tv",
-    "school",
-    "cook",
-    "sing"
+    "Let's play.",
+    "Let's climb.",
+    "Let's go to school."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want to do?",
+    "audio": "audio/int3c_u4/{v}/whatdoyouwanttodo.mp3"
+   },
+   "choices": [
+    "Let's ride a bike.",
+    "Let's talk.",
+    "I have nine apples."
+   ],
+   "answer": "Let's talk.",
+   "pic": "../packs/int3c_u4/talk.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u4/{v}/letsgotoschool.mp3",
+   "answer": [
+    "Let's",
+    "go",
+    "to",
+    "school."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u4/{v}/letsgotoschool.mp3",
+   "sentence": [
+    "Let's",
+    "go",
+    "to",
+    "___",
+    "."
+   ],
+   "answer": "school",
+   "choices": [
+    "school",
+    "play",
+    "cook"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
+   "answer": "Let's ride a bike.",
+   "choices": [
+    "Let's ride a bike.",
+    "Let's go to school.",
+    "Let's play."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u4/audio/{v}/letsplaysoccer.mp3",
+   "answer": [
+    "Let's",
+    "play",
+    "soccer."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want to do?",
+    "audio": "audio/int3c_u4/{v}/whatdoyouwanttodo.mp3"
+   },
+   "choices": [
+    "Let's watch TV.",
+    "Let's climb.",
+    "My tooth hurts."
+   ],
+   "answer": "Let's climb.",
+   "pic": "../packs/int3c_u4/climb.jpg"
   },
   {
    "type": "listen",
@@ -40,109 +127,17 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cook",
-   "answer": "cook",
-   "choices": [
-    "cook",
-    "rook",
-    "coo",
-    "pook"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "school",
-   "answer": "school",
-   "choices": [
-    "school",
-    "schoos",
-    "schoo",
-    "scpool"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "tv",
-   "audio": "audio/int3c_u4/{v}/letswatchtv.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u4/{v}/letsplayonthejunglegym.mp3",
    "answer": [
     "Let's",
-    "watch",
-    "TV."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "bike",
-   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
-   "answer": [
-    "Let's",
-    "ride",
-    "a",
-    "bike."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "bike",
-   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
-   "sentence": [
-    "Let's",
-    "ride",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "bike",
-   "choices": [
-    "bike",
-    "talk",
-    "cook"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "talk",
-   "audio": "audio/int3c_u4/{v}/letstalk.mp3",
-   "sentence": [
-    "Let's",
-    "___",
-    "."
-   ],
-   "answer": "talk",
-   "choices": [
-    "talk",
     "play",
-    "bike"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "soccer",
-   "audio": "../packs/int3c_u4/audio/{v}/letsplaysoccer.mp3",
-   "sentence": [
-    "Let's",
-    "play",
-    "___",
-    "."
-   ],
-   "answer": "soccer",
-   "choices": [
-    "soccer",
-    "play",
-    "bike"
+    "on",
+    "the",
+    "jungle",
+    "gym."
    ]
   }
  ],
@@ -502,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

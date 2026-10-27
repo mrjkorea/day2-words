@@ -7,6 +7,121 @@
  "lineAudio": "audio/int2b_u4/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u4/{v}/itistwothousandwon.mp3",
+   "answer": [
+    "It",
+    "is",
+    "two",
+    "thousand",
+    "won."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int2b_u4/audio/{v}/howmuchisthis.mp3",
+   "answer": "How much is this?",
+   "choices": [
+    "How much is this?",
+    "How much is that?",
+    "How much are those?"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Is it cheap?",
+    "audio": "audio/int2b_u4/{v}/isitcheap.mp3"
+   },
+   "choices": [
+    "Yes, it is Monday.",
+    "Yes, it is cheap.",
+    "It is a rainbow."
+   ],
+   "answer": "Yes, it is cheap.",
+   "pic": "../packs/int2b_u4/cheap.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u4/{v}/itisonethousandwon.mp3",
+   "answer": [
+    "It",
+    "is",
+    "one",
+    "thousand",
+    "won."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u4/{v}/itisfivehundredwon.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "five",
+    "___",
+    "won",
+    "."
+   ],
+   "answer": "hundred",
+   "choices": [
+    "hundred",
+    "won",
+    "these"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u4/ai/yesitismonday.mp3",
+   "answer": "Yes, it is Monday.",
+   "choices": [
+    "Yes, it is Monday.",
+    "Yes, it is cheap.",
+    "It is cheap."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u4/ai/itisonethousandmeters.mp3",
+   "answer": [
+    "It",
+    "is",
+    "one",
+    "thousand",
+    "meters."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How much is that?",
+    "audio": "audio/int2b_u4/{v}/howmuchisthat.mp3"
+   },
+   "choices": [
+    "It is one thousand meters.",
+    "It is one thousand won.",
+    "I am in kindergarten."
+   ],
+   "answer": "It is one thousand won.",
+   "pic": "../packs/int2b_u4/that.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "cheap",
@@ -18,134 +133,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "won",
-   "choices": [
-    "won",
-    "thousand",
-    "that",
-    "cheap"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "these",
-   "choices": [
-    "these",
-    "thousand",
-    "won",
-    "cheap"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "these",
-   "answer": "these",
-   "choices": [
-    "these",
-    "theme",
-    "ttese",
-    "phese"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "won",
-   "answer": "won",
-   "choices": [
-    "won",
-    "bon",
-    "wonu",
-    "wod"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "these",
-   "audio": "audio/int2b_u4/{v}/howmucharethese.mp3",
-   "answer": [
-    "How",
-    "much",
-    "are",
-    "these?"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "those",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2b_u4/{v}/howmucharethose.mp3",
    "answer": [
     "How",
     "much",
     "are",
     "those?"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "that",
-   "audio": "audio/int2b_u4/{v}/howmuchisthat.mp3",
-   "sentence": [
-    "How",
-    "much",
-    "is",
-    "___",
-    "?"
-   ],
-   "answer": "that",
-   "choices": [
-    "that",
-    "about",
-    "won"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cheap",
-   "audio": "audio/int2b_u4/{v}/itischeap.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "cheap",
-   "choices": [
-    "cheap",
-    "that",
-    "about"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2b_u4/{v}/itisfivehundredwon.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "five",
-    "___",
-    "won."
-   ],
-   "answer": "hundred",
-   "choices": [
-    "hundred",
-    "this",
-    "those"
    ]
   }
  ],
@@ -505,10 +501,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

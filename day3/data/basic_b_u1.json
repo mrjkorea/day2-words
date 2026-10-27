@@ -7,26 +7,111 @@
  "lineAudio": "audio/basic_b_u1/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "hungry",
-   "choices": [
-    "hungry",
-    "sick",
-    "bored",
-    "tired"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u1/{v}/iamworried.mp3",
+   "answer": [
+    "I",
+    "am",
+    "worried."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "tired",
+   "audio": "audio/basic_b_u1/{v}/iambored.mp3",
+   "answer": "I am bored.",
    "choices": [
-    "tired",
-    "hungry",
-    "bored",
-    "sad"
+    "I am bored.",
+    "I am tired.",
+    "I am hungry."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How are you?",
+    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+   },
+   "choices": [
+    "I am tired.",
+    "I am sad.",
+    "This is her friend."
+   ],
+   "answer": "I am tired.",
+   "pic": "../packs/basic_b_u1/tired.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u1/{v}/iamscared.mp3",
+   "answer": [
+    "I",
+    "am",
+    "scared."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u1/{v}/iamsad.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "."
+   ],
+   "answer": "sad",
+   "choices": [
+    "sad",
+    "sick",
+    "sleepy"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3",
+   "answer": "How are you?",
+   "choices": [
+    "How are you?",
+    "I am bored.",
+    "I am angry."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u1/{v}/iamhungry.mp3",
+   "answer": [
+    "I",
+    "am",
+    "hungry."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How are you?",
+    "audio": "../packs/basic_b_u1/audio/{v}/howareyou.mp3"
+   },
+   "choices": [
+    "I am sleepy.",
+    "I am happy.",
+    "There is a volcano on Jeju."
+   ],
+   "answer": "I am sleepy.",
+   "pic": "../packs/basic_b_u1/sleepy.jpg"
   },
   {
    "type": "listen",
@@ -40,108 +125,14 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "tired",
-   "answer": "tired",
-   "choices": [
-    "tired",
-    "tared",
-    "kired",
-    "tited"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hungry",
-   "answer": "hungry",
-   "choices": [
-    "hungry",
-    "hubgry",
-    "hungdy",
-    "hungy"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "sick",
-   "audio": "audio/basic_b_u1/{v}/iamsick.mp3",
-   "answer": [
-    "I",
-    "am",
-    "sick."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "tired",
-   "audio": "audio/basic_b_u1/{v}/iamtired.mp3",
-   "answer": [
-    "I",
-    "am",
-    "tired."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "hungry",
-   "audio": "audio/basic_b_u1/{v}/iamhungry.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "___",
-    "."
-   ],
-   "answer": "hungry",
-   "choices": [
-    "hungry",
-    "angry",
-    "sleepy"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sleepy",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_b_u1/{v}/iamsleepy.mp3",
-   "sentence": [
+   "answer": [
     "I",
     "am",
-    "___",
-    "."
-   ],
-   "answer": "sleepy",
-   "choices": [
-    "sleepy",
-    "sick",
-    "angry"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "bored",
-   "audio": "audio/basic_b_u1/{v}/iambored.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "___",
-    "."
-   ],
-   "answer": "bored",
-   "choices": [
-    "bored",
-    "hungry",
-    "sleepy"
+    "sleepy."
    ]
   }
  ],
@@ -501,10 +492,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

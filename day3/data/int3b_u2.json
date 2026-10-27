@@ -7,93 +7,61 @@
  "lineAudio": "audio/int3b_u2/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "violin",
-   "choices": [
-    "violin",
-    "guitar",
-    "microwave",
-    "drum"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "drum",
-   "choices": [
-    "drum",
-    "gayageum",
-    "microwave",
-    "violin"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "cello",
-   "choices": [
-    "cello",
-    "guitar",
-    "piano",
-    "violin"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "microwave",
-   "answer": "microwave",
-   "choices": [
-    "microwave",
-    "mirowave",
-    "micrwave",
-    "microwive"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "flute",
-   "answer": "flute",
-   "choices": [
-    "flute",
-    "klute",
-    "flte",
-    "fute"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "gayageum",
-   "audio": "../packs/int3b_u2/audio/{v}/itisagayageum.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u2/{v}/itisaflute.mp3",
    "answer": [
     "It",
     "is",
     "a",
-    "gayageum."
+    "flute."
    ]
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u2/{v}/itisasaxophone.mp3",
+   "answer": "It is a saxophone.",
+   "choices": [
+    "It is a saxophone.",
+    "It is a gayageum.",
+    "It is a guitar."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/int3b_u2/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    "It is a violin.",
+    "It is a drum.",
+    "Scissors win."
+   ],
+   "answer": "It is a violin.",
+   "pic": "../packs/int3b_u2/violin.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "drum",
-   "audio": "audio/int3b_u2/{v}/itisadrum.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3b_u2/audio/{v}/isthisagayageum.mp3",
    "answer": [
-    "It",
-    "is",
+    "Is",
+    "this",
     "a",
-    "drum."
+    "gayageum?"
    ]
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "saxophone",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int3b_u2/{v}/itisasaxophone.mp3",
    "sentence": [
     "It",
@@ -105,48 +73,71 @@
    "answer": "saxophone",
    "choices": [
     "saxophone",
-    "microwave",
-    "ukulele"
+    "piano",
+    "flute"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "microwave",
-   "audio": "audio/int3b_u2/{v}/itisamicrowave.mp3",
-   "sentence": [
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u2/{v}/itisadrum.mp3",
+   "answer": "It is a drum.",
+   "choices": [
+    "It is a drum.",
+    "It is a violin.",
+    "It is a flute."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u2/{v}/itisanukulele.mp3",
+   "answer": [
     "It",
     "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "microwave",
+    "an",
+    "ukulele."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/int3b_u2/{v}/whatisthis.mp3"
+   },
    "choices": [
+    "It is a flute.",
+    "It is an ukulele.",
+    "I want new earphones."
+   ],
+   "answer": "It is an ukulele.",
+   "pic": "../packs/int3b_u2/ukulele.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "violin",
+   "choices": [
+    "violin",
+    "guitar",
     "microwave",
-    "flute",
     "drum"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "violin",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3b_u2/{v}/itisaviolin.mp3",
-   "sentence": [
+   "answer": [
     "It",
     "is",
     "a",
-    "___",
-    "."
-   ],
-   "answer": "violin",
-   "choices": [
-    "violin",
-    "microwave",
-    "cello"
+    "violin."
    ]
   }
  ],
@@ -583,10 +574,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

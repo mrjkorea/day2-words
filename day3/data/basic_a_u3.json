@@ -7,15 +7,118 @@
  "lineAudio": "audio/basic_a_u3/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "right",
-   "choices": [
-    "right",
-    "restart",
-    "headset",
-    "left"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_a_u3/audio/{v}/restartyourcomputer.mp3",
+   "answer": [
+    "Restart",
+    "your",
+    "computer."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3",
+   "answer": "Make a new tab.",
+   "choices": [
+    "Make a new tab.",
+    "Okay. I am making a new tab.",
+    "Unplug your headset."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Restart your computer.",
+    "audio": "../packs/basic_a_u3/audio/{v}/restartyourcomputer.mp3"
+   },
+   "choices": [
+    "Okay. I am restarting my computer.",
+    "Okay. I am making a new tab.",
+    "I ride my bike."
+   ],
+   "answer": "Okay. I am restarting my computer.",
+   "pic": "../packs/basic_a_u3/restart.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u3/ai/okayiamunpluggingmyheadset.mp3",
+   "answer": [
+    "Okay.",
+    "I",
+    "am",
+    "unplugging",
+    "my",
+    "headset."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u3/{v}/putonyourheadset.mp3",
+   "sentence": [
+    "Put",
+    "on",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "headset",
+   "choices": [
+    "headset",
+    "tab",
+    "unplug"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u3/{v}/clickhere.mp3",
+   "answer": "Click here.",
+   "choices": [
+    "Click here.",
+    "Put on your headset.",
+    "Double click."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u3/ai/okayiamtypingmyid.mp3",
+   "answer": [
+    "Okay.",
+    "I",
+    "am",
+    "typing",
+    "my",
+    "ID."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Make a new tab.",
+    "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3"
+   },
+   "choices": [
+    "Okay. I am typing my ID.",
+    "Okay. I am making a new tab.",
+    "I practice taekwondo."
+   ],
+   "answer": "Okay. I am making a new tab.",
+   "pic": "../packs/basic_a_u3/tab.jpg"
   },
   {
    "type": "listen",
@@ -29,117 +132,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "restart",
-   "choices": [
-    "restart",
-    "type",
-    "headset",
-    "scroll"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "click",
-   "answer": "click",
-   "choices": [
-    "click",
-    "clik",
-    "clck",
-    "clilk"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "unplug",
-   "answer": "unplug",
-   "choices": [
-    "unplug",
-    "nplug",
-    "unmlug",
-    "uplug"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "type",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_a_u3/{v}/typeyourid.mp3",
    "answer": [
     "Type",
     "your",
     "ID."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "unplug",
-   "audio": "audio/basic_a_u3/{v}/unplugyourheadset.mp3",
-   "answer": [
-    "Unplug",
-    "your",
-    "headset."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "type",
-   "audio": "audio/basic_a_u3/{v}/typeyourid.mp3",
-   "sentence": [
-    "___",
-    "your",
-    "ID."
-   ],
-   "answer": "Type",
-   "choices": [
-    "Type",
-    "Scroll",
-    "Unplug"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "double",
-   "audio": "audio/basic_a_u3/{v}/doubleclick.mp3",
-   "sentence": [
-    "___",
-    "click."
-   ],
-   "answer": "Double",
-   "choices": [
-    "Double",
-    "Right",
-    "Scroll"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "tab",
-   "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3",
-   "sentence": [
-    "Make",
-    "a",
-    "new",
-    "___",
-    "."
-   ],
-   "answer": "tab",
-   "choices": [
-    "tab",
-    "left",
-    "right"
    ]
   }
  ],
@@ -499,10 +499,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

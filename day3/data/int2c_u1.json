@@ -7,144 +7,137 @@
  "lineAudio": "audio/int2c_u1/",
  "questions": [
   {
-   "type": "listen",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u1/{v}/iswiminsummer.mp3",
+   "answer": [
+    "I",
+    "swim",
+    "in",
+    "summer."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
+   "audio": "audio/int2c_u1/{v}/ilovefall.mp3",
+   "answer": "I love fall.",
+   "choices": [
+    "I love fall.",
+    "I love summer.",
+    "I love winter."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you love?",
+    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
+   },
+   "choices": [
+    "I love spring.",
+    "I swim in summer.",
+    "I want to be a pro-gamer."
+   ],
+   "answer": "I swim in summer.",
+   "pic": "../packs/int2c_u1/swim.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u1/{v}/ivisitmygrandma.mp3",
+   "answer": [
+    "I",
+    "visit",
+    "my",
+    "grandma."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u1/{v}/iswiminsummer.mp3",
+   "sentence": [
+    "I",
+    "___",
+    "in",
+    "summer",
+    "."
+   ],
    "answer": "swim",
    "choices": [
     "swim",
-    "summer",
-    "island",
+    "spring",
     "fall"
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "leaves",
-   "choices": [
-    "leaves",
-    "summer",
-    "winter",
-    "fall"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "winter",
-   "choices": [
-    "winter",
-    "spring",
-    "island",
-    "summer"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "spring",
-   "answer": "spring",
-   "choices": [
-    "spring",
-    "lpring",
-    "sprinr",
-    "sprong"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fall",
-   "answer": "fall",
-   "choices": [
-    "fall",
-    "fll",
-    "call",
-    "falc"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "ski",
    "audio": "audio/int2c_u1/{v}/iskiinwinter.mp3",
-   "answer": [
-    "I",
-    "ski",
-    "in",
-    "winter."
+   "answer": "I ski in winter.",
+   "choices": [
+    "I ski in winter.",
+    "I swim in summer.",
+    "I love winter."
    ]
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "spring",
-   "audio": "audio/int2c_u1/{v}/ilovespring.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u1/audio/{v}/iloveallfourseasons.mp3",
    "answer": [
     "I",
     "love",
-    "spring."
+    "all",
+    "four",
+    "seasons."
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "leaves",
-   "audio": "audio/int2c_u1/{v}/theleavesareredinfall.mp3",
-   "sentence": [
-    "The",
-    "___",
-    "are",
-    "red",
-    "in",
-    "fall."
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you love?",
+    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
+   },
+   "choices": [
+    "I love all four seasons.",
+    "I ski in winter.",
+    "It is about five hundred won."
    ],
+   "answer": "I ski in winter.",
+   "pic": "../packs/int2c_u1/ski.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
    "answer": "leaves",
    "choices": [
     "leaves",
-    "swim",
-    "spring"
+    "summer",
+    "winter",
+    "fall"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "spring",
-   "audio": "audio/int2c_u1/{v}/ilovespring.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u1/{v}/ilovewinter.mp3",
+   "answer": [
     "I",
     "love",
-    "___",
-    "."
-   ],
-   "answer": "spring",
-   "choices": [
-    "spring",
-    "leaves",
-    "ski"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2c_u1/{v}/ivisitmygrandma.mp3",
-   "sentence": [
-    "I",
-    "___",
-    "my",
-    "grandma."
-   ],
-   "answer": "visit",
-   "choices": [
-    "visit",
-    "ski",
-    "swim"
+    "winter."
    ]
   }
  ],
@@ -504,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

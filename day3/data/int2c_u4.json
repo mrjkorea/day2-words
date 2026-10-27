@@ -7,6 +7,123 @@
  "lineAudio": "audio/int2c_u4/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u4/{v}/myfavoritefruitistheapple.mp3",
+   "answer": [
+    "My",
+    "favorite",
+    "fruit",
+    "is",
+    "the",
+    "apple."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3",
+   "answer": "My favorite music is K-pop.",
+   "choices": [
+    "My favorite music is K-pop.",
+    "My favorite fruit is the apple.",
+    "My favorite sport is soccer."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is your favorite season?",
+    "audio": "audio/int2c_u4/{v}/whatisyourfavoriteseason.mp3"
+   },
+   "choices": [
+    "My favorite hobby is drawing.",
+    "My favorite season is summer.",
+    "I am in eighth grade."
+   ],
+   "answer": "My favorite season is summer.",
+   "pic": "../packs/int2c_u4/season.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u4/{v}/myfavoriteseasonissummer.mp3",
+   "answer": [
+    "My",
+    "favorite",
+    "season",
+    "is",
+    "summer."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u4/{v}/myfavoritefruitistheapple.mp3",
+   "sentence": [
+    "My",
+    "favorite",
+    "___",
+    "is",
+    "the",
+    "apple",
+    "."
+   ],
+   "answer": "fruit",
+   "choices": [
+    "fruit",
+    "hobby",
+    "favorite"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u4/{v}/myfavoritecolorisblue.mp3",
+   "answer": "My favorite color is blue.",
+   "choices": [
+    "My favorite color is blue.",
+    "My favorite sport is soccer.",
+    "My favorite snack is chips."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u4/{v}/myfavoritesnackischips.mp3",
+   "answer": [
+    "My",
+    "favorite",
+    "snack",
+    "is",
+    "chips."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is your favorite animal?",
+    "audio": "../packs/int2c_u4/audio/{v}/whatisyourfavoriteanimal.mp3"
+   },
+   "choices": [
+    "My favorite game is Go.",
+    "My favorite animal is the cat.",
+    "I am ten years old."
+   ],
+   "answer": "My favorite animal is the cat.",
+   "pic": "../packs/int2c_u4/animal.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "color",
@@ -18,137 +135,16 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "season",
-   "choices": [
-    "season",
-    "color",
-    "game",
-    "fruit"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "music",
-   "choices": [
-    "music",
-    "animal",
-    "season",
-    "hobby"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "game",
-   "answer": "game",
-   "choices": [
-    "game",
-    "gami",
-    "ame",
-    "gabe"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sport",
-   "answer": "sport",
-   "choices": [
-    "sport",
-    "spor",
-    "sporb",
-    "spot"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "music",
-   "audio": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3",
-   "answer": [
-    "My",
-    "favorite",
-    "music",
-    "is",
-    "K-pop."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u4/{v}/whatisyourfavorite.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u4/audio/{v}/whatisyourfavoriteanimal.mp3",
    "answer": [
     "What",
     "is",
     "your",
-    "favorite?"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "season",
-   "audio": "audio/int2c_u4/{v}/myfavoriteseasonissummer.mp3",
-   "sentence": [
-    "My",
     "favorite",
-    "___",
-    "is",
-    "summer."
-   ],
-   "answer": "season",
-   "choices": [
-    "season",
-    "sport",
-    "hobby"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "fruit",
-   "audio": "audio/int2c_u4/{v}/myfavoritefruitistheapple.mp3",
-   "sentence": [
-    "My",
-    "favorite",
-    "___",
-    "is",
-    "the",
-    "apple."
-   ],
-   "answer": "fruit",
-   "choices": [
-    "fruit",
-    "hobby",
-    "snack"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "music",
-   "audio": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3",
-   "sentence": [
-    "My",
-    "favorite",
-    "___",
-    "is",
-    "K-pop."
-   ],
-   "answer": "music",
-   "choices": [
-    "music",
-    "game",
-    "season"
+    "animal?"
    ]
   }
  ],
@@ -508,10 +504,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

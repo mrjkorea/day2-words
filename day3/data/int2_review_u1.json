@@ -17,50 +17,120 @@
  "questions": [
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "bee",
-   "audio": "audio/int2a_u2/{v}/therearebees.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/itisfoggy.mp3",
+   "answer": [
+    "It",
+    "is",
+    "foggy."
+   ],
+   "unit": "int2a_u1"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u1/{v}/itisaholiday.mp3",
+   "answer": "It is a holiday.",
+   "choices": [
+    "It is a holiday.",
+    "It is a work day.",
+    "It is a school day."
+   ],
+   "unit": "int2b_u1"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How is the weather?",
+    "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+   },
+   "choices": [
+    "It is hailing.",
+    "It is cold.",
+    "I am seven years old."
+   ],
+   "answer": "It is hailing.",
+   "unit": "int2a_u1",
+   "pic": "../packs/int2a_u1/hailing.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u2/{v}/thereareteachers.mp3",
    "answer": [
     "There",
     "are",
-    "bees!"
+    "teachers!"
    ],
    "unit": "int2a_u2"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "breakfast",
-   "answer": "breakfast",
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/itishot.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "hot",
    "choices": [
-    "breakfast",
-    "brakfast",
-    "breakfest",
-    "breakfas"
+    "hot",
+    "cold",
+    "windy"
+   ],
+   "unit": "int2a_u1"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u2/{v}/itissnacktime.mp3",
+   "answer": "It is snack time.",
+   "choices": [
+    "It is snack time.",
+    "It is school time.",
+    "It is breakfast time."
    ],
    "unit": "int2b_u2"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "fruit",
-   "audio": "audio/int2c_u2/{v}/iameatingfruit.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "eating",
-    "___",
-    "."
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u1/{v}/itisaschoolday.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "school",
+    "day."
    ],
-   "answer": "fruit",
+   "unit": "int2b_u1"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is there?",
+    "audio": "audio/int2a_u2/{v}/whatisthere.mp3"
+   },
    "choices": [
-    "fruit",
-    "bow",
-    "picture"
+    "There is water!",
+    "There are snakes!",
+    "I am one hundred years old."
    ],
-   "unit": "int2c_u2"
+   "answer": "There is water!",
+   "unit": "int2a_u2",
+   "pic": "../packs/int2a_u2/water.jpg"
   },
   {
    "type": "listen",
@@ -75,227 +145,132 @@
    "unit": "int2c_u1"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "recess",
-   "answer": "recess",
-   "choices": [
-    "recess",
-    "ricess",
-    "receks",
-    "rekess"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u2/{v}/itiseleventhirty.mp3",
+   "answer": [
+    "It",
+    "is",
+    "eleven",
+    "thirty."
    ],
    "unit": "int2b_u2"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "hotel",
-   "audio": "audio/int2a_u2/{v}/thereisahotel.mp3",
-   "sentence": [
-    "There",
-    "is",
-    "a",
-    "___",
-    "!"
-   ],
-   "answer": "hotel",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u1/{v}/ilovesummer.mp3",
+   "answer": "I love summer.",
    "choices": [
-    "hotel",
-    "ant",
-    "washroom"
-   ],
-   "unit": "int2a_u2"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "ski",
-   "audio": "audio/int2c_u1/{v}/iskiinwinter.mp3",
-   "answer": [
-    "I",
-    "ski",
-    "in",
-    "winter."
+    "I love summer.",
+    "I love all four seasons.",
+    "I love winter."
    ],
    "unit": "int2c_u1"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "recess",
-   "audio": "audio/int2b_u2/{v}/itisrecesstime.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "time."
-   ],
-   "answer": "recess",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What day is it today?",
+    "audio": "../packs/int2b_u1/audio/{v}/whatdayisittoday.mp3"
+   },
    "choices": [
-    "recess",
-    "eleven",
-    "o'clock"
+    "It is Sunday.",
+    "It is a holiday.",
+    "I like chocolate."
    ],
-   "unit": "int2b_u2"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "monday",
-   "answer": "Monday",
-   "choices": [
-    "Monday",
-    "Monay",
-    "monday",
-    "Moncay"
-   ],
-   "unit": "int2b_u1"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "tuesday",
-   "audio": "audio/int2b_u1/{v}/itistuesday.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "Tuesday",
-   "choices": [
-    "Tuesday",
-    "Monday",
-    "Saturday"
-   ],
-   "unit": "int2b_u1"
+   "answer": "It is Sunday.",
+   "unit": "int2b_u1",
+   "pic": "../packs/int2b_u1/sunday.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u2/{v}/myteethareclean.mp3",
-   "answer": [
-    "My",
-    "teeth",
-    "are",
-    "clean."
-   ],
-   "unit": "int2c_u2"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cold",
-   "answer": "cold",
-   "choices": [
-    "cold",
-    "cod",
-    "colt",
-    "celd"
-   ],
-   "unit": "int2a_u1"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2a_u1/{v}/theweatherisnice.mp3",
-   "sentence": [
-    "The",
-    "___",
-    "is",
-    "nice."
-   ],
-   "answer": "weather",
-   "choices": [
-    "weather",
-    "humid",
-    "snowing"
-   ],
-   "unit": "int2a_u1"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "wednesday",
-   "choices": [
-    "wednesday",
-    "tuesday",
-    "schoolday",
-    "thursday"
-   ],
-   "unit": "int2b_u1"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hotel",
-   "answer": "hotel",
-   "choices": [
-    "hotel",
-    "hotes",
-    "hocel",
-    "htel"
-   ],
-   "unit": "int2a_u2"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "picture",
-   "audio": "audio/int2c_u2/{v}/iamtakingapicture.mp3",
-   "answer": [
-    "I",
-    "am",
-    "taking",
-    "a",
-    "picture."
-   ],
-   "unit": "int2c_u2"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "hot",
-   "audio": "audio/int2a_u1/{v}/itishot.mp3",
-   "answer": [
-    "It",
-    "is",
-    "hot."
-   ],
-   "unit": "int2a_u1"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "leaves",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2c_u1/{v}/theleavesareredinfall.mp3",
-   "sentence": [
+   "answer": [
     "The",
-    "___",
+    "leaves",
     "are",
     "red",
     "in",
     "fall."
    ],
-   "answer": "leaves",
-   "choices": [
-    "leaves",
-    "swim",
-    "spring"
-   ],
    "unit": "int2c_u1"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u2/{v}/thereiswater.mp3",
+   "sentence": [
+    "There",
+    "is",
+    "___",
+    "!"
+   ],
+   "answer": "water",
+   "choices": [
+    "water",
+    "food",
+    "hotel"
+   ],
+   "unit": "int2a_u2"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u2/{v}/iameatingfruit.mp3",
+   "answer": "I am eating fruit.",
+   "choices": [
+    "I am eating fruit.",
+    "I am selling fruit.",
+    "I am playing Go."
+   ],
+   "unit": "int2c_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u2/{v}/iamplayinggo.mp3",
+   "answer": [
+    "I",
+    "am",
+    "playing",
+    "Go."
+   ],
+   "unit": "int2c_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/itissnowing.mp3",
+   "answer": [
+    "It",
+    "is",
+    "snowing."
+   ],
+   "unit": "int2a_u1"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u2/{v}/thereisawashroom.mp3",
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "washroom!"
+   ],
+   "unit": "int2a_u2"
   }
  ],
  "words": [

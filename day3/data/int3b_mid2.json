@@ -14,113 +14,123 @@
  "lineAudio": "audio/int3b_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "coat",
-   "choices": [
-    "coat",
-    "littlesister",
-    "lunch",
-    "umbrella"
-   ],
-   "unit": "int3b_u7"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3b_u5",
-   "q": {
-    "text": "What should I do?",
-    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
-   },
-   "pic": "../packs/int3b_u5/putdown.jpg",
-   "choices": [
-    "Put it down, please!",
-    "It is an ukulele.",
-    "I am in third grade."
-   ],
-   "answer": "Put it down, please!",
-   "aud": {
-    "Put it down, please!": "audio/int3b_u5/ai/putitdownplease.mp3",
-    "It is an ukulele.": "audio/int3b_u2/ai/itisanukulele.mp3",
-    "I am in third grade.": "audio/int3b_u1/ai/iaminthirdgrade.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "lunch",
-   "answer": "lunch",
-   "choices": [
-    "lunch",
-    "punch",
-    "luch",
-    "lnch"
-   ],
-   "unit": "int3b_u7"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "durian",
-   "answer": "durian",
-   "choices": [
-    "durian",
-    "dubian",
-    "drian",
-    "darian"
-   ],
-   "unit": "int3b_u6"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "coat",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/eatupyourfood.mp3",
    "answer": [
-    "Don't",
-    "forget",
+    "Eat",
+    "up",
     "your",
-    "coat."
-   ],
-   "unit": "int3b_u7"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "putdown",
-   "answer": "put down",
-   "choices": [
-    "put down",
-    "pt down",
-    "put dwn",
-    "ut down"
+    "food!"
    ],
    "unit": "int3b_u5"
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourlunch.mp3",
+   "answer": "Don't forget your lunch.",
+   "choices": [
+    "Don't forget your lunch.",
+    "Don't forget your transit card.",
+    "Don't forget your phone."
+   ],
+   "unit": "int3b_u7"
+  },
+  {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3b_u6",
+   "q": {
+    "text": "What should I do?",
+    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
+   },
+   "choices": [
+    "Hurry up, please!",
+    "Cool down, please!",
+    "I play soccer."
+   ],
+   "answer": "Cool down, please!",
+   "unit": "int3b_u5",
+   "pic": "../packs/int3b_u5/cooldown.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u6/{v}/theyaredurians.mp3",
+   "answer": [
+    "They",
+    "are",
+    "durians."
+   ],
+   "unit": "int3b_u6"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "are",
+    "these",
+    "?"
+   ],
+   "answer": "fruit",
+   "choices": [
+    "fruit",
+    "apple",
+    "mango"
+   ],
+   "unit": "int3b_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3b_u8/audio/{v}/iamfromcanada.mp3",
+   "answer": "I am from Canada.",
+   "choices": [
+    "I am from Canada.",
+    "I am very tall.",
+    "I am one hundred eighty centimeters tall."
+   ],
+   "unit": "int3b_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourlittlesister.mp3",
+   "answer": [
+    "Don't",
+    "forget",
+    "your",
+    "little",
+    "sister."
+   ],
+   "unit": "int3b_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
    "q": {
     "text": "What fruit are these?",
     "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3"
    },
-   "pic": "../packs/int3b_u6/rambutan.jpg",
    "choices": [
-    "They are rambutans.",
-    "He is my brother.",
-    "Louder please."
+    "They are durians.",
+    "They are apples.",
+    "The weather is nice."
    ],
-   "answer": "They are rambutans.",
-   "aud": {
-    "They are rambutans.": "audio/int3b_u6/ai/theyarerambutans.mp3",
-    "He is my brother.": "audio/int3b_u4/ai/heismybrother.mp3",
-    "Louder please.": "audio/int3b_u3/ai/louderplease.mp3"
-   }
+   "answer": "They are apples.",
+   "unit": "int3b_u6",
+   "pic": "../packs/int3b_u6/apple.jpg"
   },
   {
    "type": "listen",
@@ -136,117 +146,90 @@
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "gimbap",
-   "audio": "audio/int3b_u8/{v}/ilikegimbap.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u8/{v}/ispeakenglish.mp3",
    "answer": [
     "I",
-    "like",
-    "gimbap."
+    "speak",
+    "English."
    ],
    "unit": "int3b_u8"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3",
-   "sentence": [
-    "What",
-    "___",
-    "are",
-    "these?"
-   ],
-   "answer": "fruit",
-   "choices": [
-    "fruit",
-    "mango",
-    "mangosteen"
-   ],
-   "unit": "int3b_u6"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "weigh",
-   "audio": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3",
-   "sentence": [
-    "How",
-    "much",
-    "do",
-    "you",
-    "___",
-    "?"
-   ],
-   "answer": "weigh",
-   "choices": [
-    "weigh",
-    "Korea",
-    "teach"
-   ],
-   "unit": "int3b_u8"
-  },
-  {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "grapefruit",
+   "audio": "../packs/int3b_u5/audio/{v}/bequiet.mp3",
+   "answer": "Be quiet!",
    "choices": [
-    "grapefruit",
-    "durian",
-    "pineapple",
-    "mangosteen"
+    "Be quiet!",
+    "Don't give up!",
+    "Put it down, please!"
    ],
-   "unit": "int3b_u6"
+   "unit": "int3b_u5"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3b_u7",
    "q": {
     "text": "What should I take?",
     "audio": "audio/int3b_u7/{v}/whatshoulditake.mp3"
    },
-   "pic": "../packs/int3b_u7/hat.jpg",
    "choices": [
     "Don't forget your hat.",
-    "I am in second grade.",
-    "She is my aunt."
+    "Don't forget your transit card.",
+    "My name is Iris."
    ],
-   "answer": "Don't forget your hat.",
-   "aud": {
-    "Don't forget your hat.": "audio/int3b_u7/ai/dontforgetyourhat.mp3",
-    "I am in second grade.": "audio/int3b_u1/ai/iaminsecondgrade.mp3",
-    "She is my aunt.": "audio/int3b_u4/ai/sheismyaunt.mp3"
-   }
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "korea",
-   "choices": [
-    "korea",
-    "centimeter",
-    "secret",
-    "canada"
-   ],
-   "unit": "int3b_u8"
+   "answer": "Don't forget your transit card.",
+   "unit": "int3b_u7",
+   "pic": "../packs/int3b_u7/transitcard.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "hurryup",
-   "audio": "audio/int3b_u5/{v}/hurryupplease.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/comedownfromthere.mp3",
    "answer": [
-    "Hurry",
-    "up,",
-    "please!"
+    "Come",
+    "down",
+    "from",
+    "there!"
    ],
    "unit": "int3b_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourphone.mp3",
+   "sentence": [
+    "Don't",
+    "forget",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "coat",
+    "hat"
+   ],
+   "unit": "int3b_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u6/{v}/theyarelemons.mp3",
+   "answer": [
+    "They",
+    "are",
+    "lemons."
+   ],
+   "unit": "int3b_u6"
   }
  ],
  "words": [

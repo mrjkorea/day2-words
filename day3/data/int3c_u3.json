@@ -7,15 +7,112 @@
  "lineAudio": "audio/int3c_u3/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "pants",
-   "choices": [
-    "pants",
-    "skirt",
-    "socks",
-    "shoes"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u3/{v}/wearashirt.mp3",
+   "answer": [
+    "Wear",
+    "a",
+    "shirt."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u3/{v}/wearacoat.mp3",
+   "answer": "Wear a coat.",
+   "choices": [
+    "Wear a coat.",
+    "Wear a dress.",
+    "Wear a skirt."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I wear?",
+    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+   },
+   "choices": [
+    "Wear shoes.",
+    "Wear a dress.",
+    "Don't forget your little sister."
+   ],
+   "answer": "Wear a dress.",
+   "pic": "../packs/int3c_u3/dress.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u3/{v}/wearadress.mp3",
+   "answer": [
+    "Wear",
+    "a",
+    "dress."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u3/{v}/wearadress.mp3",
+   "sentence": [
+    "Wear",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "dress",
+   "choices": [
+    "dress",
+    "skirt",
+    "gloves"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3c_u3/audio/{v}/caniplayoutside.mp3",
+   "answer": "Can I play outside?",
+   "choices": [
+    "Can I play outside?",
+    "What should I wear?",
+    "Wear gloves."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3",
+   "answer": [
+    "What",
+    "should",
+    "I",
+    "wear?"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I wear?",
+    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+   },
+   "choices": [
+    "Wear a skirt.",
+    "Wear shoes.",
+    "My name is Stingray."
+   ],
+   "answer": "Wear shoes.",
+   "pic": "../packs/int3c_u3/shoes.jpg"
   },
   {
    "type": "listen",
@@ -29,119 +126,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "socks",
-   "choices": [
-    "socks",
-    "gloves",
-    "shoes",
-    "dress"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "shirt",
-   "answer": "shirt",
-   "choices": [
-    "shirt",
-    "khirt",
-    "shirl",
-    "shrt"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "pants",
-   "answer": "pants",
-   "choices": [
-    "pants",
-    "pantn",
-    "pant",
-    "pantb"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "skirt",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3c_u3/{v}/wearaskirt.mp3",
    "answer": [
     "Wear",
     "a",
     "skirt."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3",
-   "answer": [
-    "What",
-    "should",
-    "I",
-    "wear?"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "pants",
-   "audio": "audio/int3c_u3/{v}/wearpants.mp3",
-   "sentence": [
-    "Wear",
-    "___",
-    "."
-   ],
-   "answer": "pants",
-   "choices": [
-    "pants",
-    "dress",
-    "outside"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3",
-   "sentence": [
-    "What",
-    "should",
-    "I",
-    "___",
-    "?"
-   ],
-   "answer": "wear",
-   "choices": [
-    "wear",
-    "socks",
-    "shoes"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "gloves",
-   "audio": "audio/int3c_u3/{v}/weargloves.mp3",
-   "sentence": [
-    "Wear",
-    "___",
-    "."
-   ],
-   "answer": "gloves",
-   "choices": [
-    "gloves",
-    "skirt",
-    "shirt"
    ]
   }
  ],
@@ -571,10 +563,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -7,26 +7,113 @@
  "lineAudio": "audio/int2c_u3/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "chair",
-   "choices": [
-    "chair",
-    "those",
-    "garbage",
-    "yours"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u3/{v}/itisgarbage.mp3",
+   "answer": [
+    "It",
+    "is",
+    "garbage."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
+   "audio": "audio/int2c_u3/{v}/itismycandy.mp3",
+   "answer": "It is my candy.",
+   "choices": [
+    "It is my candy.",
+    "It is my book.",
+    "It is my chair."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Whose is this?",
+    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
+   },
+   "choices": [
+    "It is my book.",
+    "Is this yours?",
+    "We can see Goseong."
+   ],
+   "answer": "It is my book.",
+   "pic": "../packs/int2c_u3/book.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u3/{v}/itismyphone.mp3",
+   "answer": [
+    "It",
+    "is",
+    "my",
+    "phone."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u3/{v}/itismybook.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
    "answer": "book",
    "choices": [
     "book",
-    "money",
-    "phone",
-    "those"
+    "those",
+    "chair"
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u3/{v}/itismychair.mp3",
+   "answer": "It is my chair.",
+   "choices": [
+    "It is my chair.",
+    "It is my book.",
+    "It is my candy."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u3/audio/{v}/idontknow.mp3",
+   "answer": [
+    "I",
+    "don't",
+    "know."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Whose is this?",
+    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
+   },
+   "choices": [
+    "Whose candy is this?",
+    "Is this yours?",
+    "This is my math teacher."
+   ],
+   "answer": "Is this yours?",
+   "pic": "../packs/int2c_u3/yours.jpg"
   },
   {
    "type": "listen",
@@ -40,112 +127,15 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "yours",
-   "answer": "yours",
-   "choices": [
-    "yours",
-    "yors",
-    "yoars",
-    "yourm"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "book",
-   "answer": "book",
-   "choices": [
-    "book",
-    "boos",
-    "boor",
-    "bok"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "garbage",
-   "audio": "audio/int2c_u3/{v}/itisgarbage.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u3/audio/{v}/whosecandyisthis.mp3",
    "answer": [
-    "It",
-    "is",
-    "garbage."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "book",
-   "audio": "audio/int2c_u3/{v}/itismybook.mp3",
-   "answer": [
-    "It",
-    "is",
-    "my",
-    "book."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "candy",
-   "audio": "audio/int2c_u3/{v}/itismycandy.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "candy",
-   "choices": [
+    "Whose",
     "candy",
-    "phone",
-    "money"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "phone",
-   "audio": "audio/int2c_u3/{v}/itismyphone.mp3",
-   "sentence": [
-    "It",
     "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "whose",
-    "know"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "book",
-   "audio": "audio/int2c_u3/{v}/itismybook.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "book",
-   "choices": [
-    "book",
-    "candy",
-    "those"
+    "this?"
    ]
   }
  ],
@@ -505,10 +495,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

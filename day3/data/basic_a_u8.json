@@ -7,6 +7,114 @@
  "lineAudio": "audio/basic_a_u8/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itisonehundred.mp3",
+   "answer": [
+    "It",
+    "is",
+    "one",
+    "hundred."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u8/{v}/itisfiftyfive.mp3",
+   "answer": "It is fifty-five.",
+   "choices": [
+    "It is fifty-five.",
+    "It is ninety-seven.",
+    "It is eleven."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What number is it?",
+    "audio": "audio/basic_a_u8/{v}/whatnumberisit.mp3"
+   },
+   "choices": [
+    "It is ninety-nine.",
+    "It is ninety-seven.",
+    "I am tired."
+   ],
+   "answer": "It is ninety-seven.",
+   "pic": "../packs/basic_a_u8/ninetyseven.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itiseleven.mp3",
+   "answer": [
+    "It",
+    "is",
+    "eleven."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itisninetynine.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "ninety-nine",
+   "choices": [
+    "ninety-nine",
+    "one hundred",
+    "thirty-three"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u8/{v}/itisthirtythree.mp3",
+   "answer": "It is thirty-three.",
+   "choices": [
+    "It is thirty-three.",
+    "It is twelve.",
+    "It is fifteen."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itisfifteen.mp3",
+   "answer": [
+    "It",
+    "is",
+    "fifteen."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What number is it?",
+    "audio": "audio/basic_a_u8/{v}/whatnumberisit.mp3"
+   },
+   "choices": [
+    "It is ninety-seven.",
+    "It is twelve.",
+    "I am tired."
+   ],
+   "answer": "It is twelve.",
+   "pic": "../packs/basic_a_u8/twelve.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "twelve",
@@ -18,130 +126,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "fifteen",
-   "choices": [
-    "fifteen",
-    "ninetyseven",
-    "ninetynine",
-    "thirteen"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "thirteen",
-   "choices": [
-    "thirteen",
-    "twelve",
-    "ninetynine",
-    "fiftyfive"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "twelve",
-   "answer": "twelve",
-   "choices": [
-    "twelve",
-    "telve",
-    "twilve",
-    "twlve"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "eleven",
-   "answer": "eleven",
-   "choices": [
-    "eleven",
-    "elenen",
-    "eliven",
-    "elevon"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "thirteen",
-   "audio": "audio/basic_a_u8/{v}/itisthirteen.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itistwentytwo.mp3",
    "answer": [
     "It",
     "is",
-    "thirteen."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "twelve",
-   "audio": "audio/basic_a_u8/{v}/itistwelve.mp3",
-   "answer": [
-    "It",
-    "is",
-    "twelve."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ninetynine",
-   "audio": "audio/basic_a_u8/{v}/itisninetynine.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "ninety-nine",
-   "choices": [
-    "ninety-nine",
-    "ninety-seven",
-    "thirty-three"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "eleven",
-   "audio": "audio/basic_a_u8/{v}/itiseleven.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "eleven",
-   "choices": [
-    "eleven",
-    "thirteen",
-    "twenty-two"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "thirteen",
-   "audio": "audio/basic_a_u8/{v}/itisthirteen.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "thirteen",
-   "choices": [
-    "thirteen",
-    "fifteen",
-    "twenty-two"
+    "twenty-two."
    ]
   }
  ],
@@ -494,10 +486,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

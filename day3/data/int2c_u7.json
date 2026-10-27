@@ -7,26 +7,115 @@
  "lineAudio": "audio/int2c_u7/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "there",
-   "choices": [
-    "there",
-    "who",
-    "call",
-    "okay"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u7/{v}/sheisout.mp3",
+   "answer": [
+    "She",
+    "is",
+    "out."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "hello",
+   "audio": "../packs/int2c_u7/audio/{v}/thisismrjay.mp3",
+   "answer": "This is Mr. Jay.",
    "choices": [
-    "hello",
-    "there",
-    "who",
-    "out"
+    "This is Mr. Jay.",
+    "This is my phone.",
+    "This is her friend."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Can she call me back?",
+    "audio": "audio/int2c_u7/{v}/canshecallmeback.mp3"
+   },
+   "choices": [
+    "Okay. She will eat lunch.",
+    "Okay. She will call you back.",
+    "Be quiet, please."
+   ],
+   "answer": "Okay. She will call you back."
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u7/ai/sorryitisraining.mp3",
+   "answer": [
+    "Sorry,",
+    "it",
+    "is",
+    "raining."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u7/{v}/iwillcallyouback.mp3",
+   "sentence": [
+    "I",
+    "will",
+    "___",
+    "you",
+    "back",
+    "."
+   ],
+   "answer": "call",
+   "choices": [
+    "call",
+    "out",
+    "friend"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u7/{v}/isminathere.mp3",
+   "answer": "Is Mina there?",
+   "choices": [
+    "Is Mina there?",
+    "This is Mr. Jay.",
+    "She is out."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u7/ai/okayshewillcallyouback.mp3",
+   "answer": [
+    "Okay.",
+    "She",
+    "will",
+    "call",
+    "you",
+    "back."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Is Mina there?",
+    "audio": "audio/int2c_u7/{v}/isminathere.mp3"
+   },
+   "choices": [
+    "Sorry, she is out.",
+    "Sorry, it is raining.",
+    "It is a microwave."
+   ],
+   "answer": "Sorry, she is out."
   },
   {
    "type": "listen",
@@ -40,112 +129,16 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "okay",
-   "answer": "okay",
-   "choices": [
-    "okay",
-    "ikay",
-    "oay",
-    "okoy"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "out",
-   "answer": "out",
-   "choices": [
-    "out",
-    "oat",
-    "outi",
-    "outl"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u7/{v}/sorrywrongnumber.mp3",
-   "answer": [
-    "Sorry,",
-    "wrong",
-    "number."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "phonenumber",
-   "audio": "audio/int2c_u7/{v}/whatisyourphonenumber.mp3",
-   "answer": [
-    "What",
-    "is",
-    "your",
-    "phone",
-    "number?"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2c_u7/{v}/thisisherfriend.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "her",
-    "___",
-    "."
-   ],
-   "answer": "friend",
-   "choices": [
-    "friend",
-    "okay",
-    "call"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "call",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2c_u7/{v}/iwillcallyouback.mp3",
-   "sentence": [
+   "answer": [
     "I",
     "will",
-    "___",
+    "call",
     "you",
     "back."
-   ],
-   "answer": "call",
-   "choices": [
-    "call",
-    "okay",
-    "hello"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "there",
-   "audio": "audio/int2c_u7/{v}/isminathere.mp3",
-   "sentence": [
-    "Is",
-    "Mina",
-    "___",
-    "?"
-   ],
-   "answer": "there",
-   "choices": [
-    "there",
-    "who",
-    "friend"
    ]
   }
  ],
@@ -505,10 +498,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

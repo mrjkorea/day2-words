@@ -7,26 +7,112 @@
  "lineAudio": "audio/int2a_u1/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "stormy",
-   "choices": [
-    "stormy",
-    "rainy",
-    "snowing",
-    "hot"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/itissnowing.mp3",
+   "answer": [
+    "It",
+    "is",
+    "snowing."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "cold",
+   "audio": "audio/int2a_u1/{v}/itisfoggy.mp3",
+   "answer": "It is foggy.",
    "choices": [
-    "cold",
-    "rainy",
-    "hot",
-    "stormy"
+    "It is foggy.",
+    "It is windy.",
+    "It is rainy."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How is the weather?",
+    "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+   },
+   "choices": [
+    "It is stormy.",
+    "It is cold.",
+    "I am ten years old."
+   ],
+   "answer": "It is cold.",
+   "pic": "../packs/int2a_u1/cold.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/itishailing.mp3",
+   "answer": [
+    "It",
+    "is",
+    "hailing."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/itiswindy.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "windy",
+   "choices": [
+    "windy",
+    "hailing",
+    "weather"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u1/{v}/itishot.mp3",
+   "answer": "It is hot.",
+   "choices": [
+    "It is hot.",
+    "It is hailing.",
+    "It is sunny."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/theweatherisnice.mp3",
+   "answer": [
+    "The",
+    "weather",
+    "is",
+    "nice."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How is the weather?",
+    "audio": "../packs/int2a_u1/audio/{v}/howistheweather.mp3"
+   },
+   "choices": [
+    "It is humid.",
+    "It is hailing.",
+    "It was a long year."
+   ],
+   "answer": "It is humid.",
+   "pic": "../packs/int2a_u1/humid.jpg"
   },
   {
    "type": "listen",
@@ -40,108 +126,14 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "stormy",
-   "answer": "stormy",
-   "choices": [
-    "stormy",
-    "storry",
-    "story",
-    "stomy"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cold",
-   "answer": "cold",
-   "choices": [
-    "cold",
-    "cod",
-    "colt",
-    "celd"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "hot",
-   "audio": "audio/int2a_u1/{v}/itishot.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u1/{v}/itiswindy.mp3",
    "answer": [
     "It",
     "is",
-    "hot."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "hailing",
-   "audio": "audio/int2a_u1/{v}/itishailing.mp3",
-   "answer": [
-    "It",
-    "is",
-    "hailing."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2a_u1/{v}/theweatherisnice.mp3",
-   "sentence": [
-    "The",
-    "___",
-    "is",
-    "nice."
-   ],
-   "answer": "weather",
-   "choices": [
-    "weather",
-    "humid",
-    "snowing"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "stormy",
-   "audio": "audio/int2a_u1/{v}/itisstormy.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "stormy",
-   "choices": [
-    "stormy",
-    "snowing",
-    "windy"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "humid",
-   "audio": "audio/int2a_u1/{v}/itishumid.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "humid",
-   "choices": [
-    "humid",
-    "cold",
-    "stormy"
+    "windy."
    ]
   }
  ],
@@ -501,10 +493,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

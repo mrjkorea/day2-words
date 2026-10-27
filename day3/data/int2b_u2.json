@@ -7,26 +7,114 @@
  "lineAudio": "audio/int2b_u2/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "eleven",
-   "choices": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u2/{v}/itiselevenoclock.mp3",
+   "answer": [
+    "It",
+    "is",
     "eleven",
-    "breakfast",
-    "school",
-    "recess"
+    "o'clock."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
+   "audio": "audio/int2b_u2/{v}/itisschooltime.mp3",
+   "answer": "It is school time.",
+   "choices": [
+    "It is school time.",
+    "It is snack time.",
+    "It is online class time."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What time is it now?",
+    "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3"
+   },
+   "choices": [
+    "It is breakfast time.",
+    "It is recess time.",
+    "We have a test today."
+   ],
+   "answer": "It is breakfast time.",
+   "pic": "../packs/int2b_u2/breakfast.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u2/{v}/itiseleven.mp3",
+   "answer": [
+    "It",
+    "is",
+    "eleven."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u2/{v}/itisrecesstime.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "time",
+    "."
+   ],
    "answer": "recess",
    "choices": [
     "recess",
-    "snack",
-    "breakfast",
-    "oclock"
+    "online class",
+    "thirty"
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int2b_u2/audio/{v}/itisbreakfasttime.mp3",
+   "answer": "It is breakfast time.",
+   "choices": [
+    "It is breakfast time.",
+    "It is snack time.",
+    "It is online class time."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u2/{v}/itissnacktime.mp3",
+   "answer": [
+    "It",
+    "is",
+    "snack",
+    "time."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What time is it now?",
+    "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3"
+   },
+   "choices": [
+    "It is eleven o'clock.",
+    "It is eleven.",
+    "The test is tomorrow."
+   ],
+   "answer": "It is eleven o'clock.",
+   "pic": "../packs/int2b_u2/oclock.jpg"
   },
   {
    "type": "listen",
@@ -40,48 +128,9 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "breakfast",
-   "answer": "breakfast",
-   "choices": [
-    "breakfast",
-    "brakfast",
-    "breakfest",
-    "breakfas"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "recess",
-   "answer": "recess",
-   "choices": [
-    "recess",
-    "ricess",
-    "receks",
-    "rekess"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "onlineclass",
-   "audio": "audio/int2b_u2/{v}/itisonlineclasstime.mp3",
-   "answer": [
-    "It",
-    "is",
-    "online",
-    "class",
-    "time."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "../packs/int2b_u2/audio/{v}/whattimeisitnow.mp3",
    "answer": [
     "What",
@@ -89,63 +138,6 @@
     "is",
     "it",
     "now?"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "snack",
-   "audio": "audio/int2b_u2/{v}/itissnacktime.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "time."
-   ],
-   "answer": "snack",
-   "choices": [
-    "snack",
-    "eleven",
-    "school"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "recess",
-   "audio": "audio/int2b_u2/{v}/itisrecesstime.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "time."
-   ],
-   "answer": "recess",
-   "choices": [
-    "recess",
-    "eleven",
-    "o'clock"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "breakfast",
-   "audio": "../packs/int2b_u2/audio/{v}/itisbreakfasttime.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "time."
-   ],
-   "answer": "breakfast",
-   "choices": [
-    "breakfast",
-    "time",
-    "recess"
    ]
   }
  ],
@@ -496,10 +488,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

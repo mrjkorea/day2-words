@@ -16,17 +16,123 @@
  "lineAudio": "audio/basic_a_u5/",
  "questions": [
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "tongyeong",
-   "answer": "Tongyeong",
-   "choices": [
-    "Tongyeong",
-    "Tungyeong",
-    "Tongyeon",
-    "Tengyeong"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u5/{v}/thisismybrother.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "brother."
    ],
-   "unit": "basic_c_u5"
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u5/{v}/itisatoothbrush.mp3",
+   "answer": "It is a toothbrush.",
+   "choices": [
+    "It is a toothbrush.",
+    "It is a book.",
+    "It is a bag."
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "This is my mom.",
+    "This is my cousin.",
+    "We can see Busan."
+   ],
+   "answer": "This is my mom.",
+   "unit": "basic_a_u5",
+   "pic": "../packs/basic_a_u5/mom.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/itisapen.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "pen."
+   ],
+   "unit": "basic_a_u06"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u5/{v}/thisismyaunt.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "aunt",
+   "choices": [
+    "aunt",
+    "nephew",
+    "brother"
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u6/{v}/thisismyeye.mp3",
+   "answer": "This is my eye.",
+   "choices": [
+    "This is my eye.",
+    "This is my chin.",
+    "This is my head."
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisanapple.mp3",
+   "answer": [
+    "It",
+    "is",
+    "an",
+    "apple."
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/whatisthis.mp3"
+   },
+   "choices": [
+    "It is a book.",
+    "I am fine.",
+    "I watch TV."
+   ],
+   "answer": "It is a book.",
+   "unit": "basic_a_u06",
+   "pic": "pics/book.webp"
   },
   {
    "type": "listen",
@@ -41,249 +147,132 @@
    "unit": "basic_c_u6"
   },
   {
-   "type": "spell",
-   "prompt": "What is this? Pick the right spelling.",
-   "pic": "keyboard",
-   "answer": "keyboard",
-   "choices": [
-    "keybord",
-    "keyboard",
-    "kayboard"
-   ],
-   "skill": "spell",
-   "unit": "basic_a_u06"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "pic": "pen",
-   "audio": "whatisthis.mp3",
-   "sentence": [
-    "What",
-    "___",
-    "this",
-    "?"
-   ],
-   "answer": "is",
-   "choices": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_b_u6/audio/{v}/thisismyhead.mp3",
+   "answer": [
+    "This",
     "is",
-    "it",
-    "a"
+    "my",
+    "head."
    ],
-   "skill": "dialogue",
-   "unit": "basic_a_u06"
+   "unit": "basic_b_u6"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "arm",
+   "audio": "audio/basic_c_u5/ai/catcat.mp3",
+   "answer": "C, A, T. Cat.",
    "choices": [
-    "arm",
-    "basic_c_u6__face",
-    "toe",
-    "wrist"
-   ],
-   "unit": "basic_c_u6"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "face",
-   "choices": [
-    "face",
-    "school",
-    "tongyeong",
-    "swing"
+    "C, A, T. Cat.",
+    "F, A, C, E. Face.",
+    "C, U, T. Cut."
    ],
    "unit": "basic_c_u5"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ear",
-   "audio": "audio/basic_b_u6/{v}/thisismyear.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "ear",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
    "choices": [
-    "ear",
-    "head",
-    "body"
+    "It is underwear.",
+    "It is a night light.",
+    "We can see Seoul."
    ],
-   "unit": "basic_b_u6"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "underwear",
-   "choices": [
-    "underwear",
-    "phonecharger",
-    "toothbrush",
-    "apple"
-   ],
-   "unit": "basic_b_u5"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "basic_b_u5__book",
-   "audio": "audio/basic_b_u5/{v}/itisabook.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "basic_b_u5__book",
-   "choices": [
-    "basic_b_u5__book",
-    "sock",
-    "underwear"
-   ],
-   "unit": "basic_b_u5"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "nose",
-   "choices": [
-    "nose",
-    "shoulder",
-    "chin",
-    "eye"
-   ],
-   "unit": "basic_b_u6"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "mom",
-   "choices": [
-    "mom",
-    "grandson",
-    "brother",
-    "nephew"
-   ],
-   "unit": "basic_a_u5"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "mouth",
-   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "mouth",
-   "choices": [
-    "mouth",
-    "eye",
-    "nose"
-   ],
-   "unit": "basic_b_u6"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "mom",
-   "answer": "mom",
-   "choices": [
-    "mom",
-    "mop",
-    "momb",
-    "momc"
-   ],
-   "unit": "basic_a_u5"
+   "answer": "It is underwear.",
+   "unit": "basic_b_u5",
+   "pic": "../packs/basic_b_u5/underwear.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "pic": "cube",
-   "audio": "itisacube.mp3",
-   "answer": [
-    "It",
-    "is",
-    "a",
-    "cube."
-   ],
-   "skill": "unscramble",
-   "unit": "basic_a_u06"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "nephew",
-   "audio": "audio/basic_a_u5/{v}/thisismynephew.mp3",
-   "answer": [
-    "This",
-    "is",
-    "my",
-    "nephew."
-   ],
-   "unit": "basic_a_u5"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "toothbrush",
-   "audio": "audio/basic_b_u5/{v}/itisatoothbrush.mp3",
-   "answer": [
-    "It",
-    "is",
-    "a",
-    "toothbrush."
-   ],
-   "unit": "basic_b_u5"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "toe",
-   "choices": [
-    "toe",
-    "stomach",
-    "basic_c_u6__face",
-    "basic_c_u6__neck"
-   ],
-   "unit": "basic_c_u6"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "knee",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3",
-   "sentence": [
+   "answer": [
     "How",
     "do",
     "you",
     "spell",
-    "___",
-    "?"
-   ],
-   "answer": "knee",
-   "choices": [
-    "knee",
-    "Canada",
-    "Seoul"
+    "knee?"
    ],
    "unit": "basic_c_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisanightlight.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "night light",
+   "choices": [
+    "night light",
+    "apple",
+    "phone charger"
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourneck.mp3",
+   "answer": "Don't touch your neck.",
+   "choices": [
+    "Don't touch your neck.",
+    "Don't touch your knee.",
+    "Don't touch your wrist."
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchit.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "it."
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "mom."
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/isitamouse.mp3",
+   "answer": [
+    "Is",
+    "it",
+    "a",
+    "mouse?"
+   ],
+   "unit": "basic_a_u06"
   }
  ],
  "words": [

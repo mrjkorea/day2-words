@@ -14,184 +14,122 @@
  "lineAudio": "audio/basic_a_u5/",
  "questions": [
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sing",
-   "audio": "audio/basic_a_u7/{v}/icansing.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "___",
-    "."
-   ],
-   "answer": "sing",
-   "choices": [
-    "sing",
-    "piano",
-    "dance"
-   ],
-   "unit": "basic_a_u7"
-  },
-  {
-   "type": "spell",
-   "prompt": "What is this? Pick the right spelling.",
-   "pic": "keyboard",
-   "answer": "keyboard",
-   "choices": [
-    "keybord",
-    "keyboard",
-    "kayboard"
-   ],
-   "skill": "spell",
-   "unit": "basic_a_u06"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_a_u7",
-   "q": {
-    "text": "What can you do?",
-    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
-   },
-   "pic": "../packs/basic_a_u7/chinese.jpg",
-   "choices": [
-    "I can speak Chinese.",
-    "I have ten apples."
-   ],
-   "answer": "I can speak Chinese.",
-   "aud": {
-    "I can speak Chinese.": "audio/basic_a_u7/ai/icanspeakchinese.mp3",
-    "I have ten apples.": "audio/basic_a_u1/ai/ihavetenapples.mp3"
-   }
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "twelve",
-   "audio": "audio/basic_a_u8/{v}/itistwelve.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u5/{v}/thisismyuncle.mp3",
    "answer": [
-    "It",
-    "is",
-    "twelve."
-   ],
-   "unit": "basic_a_u8"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sister",
-   "audio": "audio/basic_a_u5/{v}/thisismysister.mp3",
-   "sentence": [
     "This",
     "is",
     "my",
-    "___",
-    "."
-   ],
-   "answer": "sister",
-   "choices": [
-    "sister",
-    "uncle",
-    "aunt"
+    "uncle."
    ],
    "unit": "basic_a_u5"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "study",
+   "audio": "audio/basic_a_u7/{v}/icanrunfast.mp3",
+   "answer": "I can run fast.",
    "choices": [
-    "study",
-    "sing",
-    "draw",
-    "dance"
+    "I can run fast.",
+    "I can run.",
+    "I can dance."
    ],
    "unit": "basic_a_u7"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_a_u5",
    "q": {
     "text": "Who is this?",
     "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
    },
-   "pic": "../packs/basic_a_u5/nephew.jpg",
    "choices": [
-    "This is my nephew.",
-    "I can do taekwondo."
+    "This is my dad.",
+    "This is my grandmother.",
+    "I speak English."
    ],
-   "answer": "This is my nephew.",
-   "aud": {
-    "This is my nephew.": "audio/basic_a_u5/ai/thisismynephew.mp3",
-    "I can do taekwondo.": "audio/basic_a_u7/ai/icandotaekwondo.mp3"
-   }
+   "answer": "This is my dad.",
+   "unit": "basic_a_u5",
+   "pic": "../packs/basic_a_u5/dad.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "chinese",
-   "audio": "audio/basic_a_u7/{v}/icanspeakchinese.mp3",
-   "answer": [
-    "I",
-    "can",
-    "speak",
-    "Chinese."
-   ],
-   "unit": "basic_a_u7"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "mom",
-   "answer": "mom",
-   "choices": [
-    "mom",
-    "mop",
-    "momb",
-    "momc"
-   ],
-   "unit": "basic_a_u5"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "pic": "cube",
-   "audio": "audio/v/{v}/itisacube.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/itisapen.mp3",
    "answer": [
     "It",
     "is",
     "a",
-    "cube."
+    "pen."
    ],
-   "skill": "unscramble",
    "unit": "basic_a_u06"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ninetynine",
-   "audio": "audio/basic_a_u8/{v}/itisninetynine.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u7/{v}/icanspeakchinese.mp3",
    "sentence": [
-    "It",
-    "is",
+    "I",
+    "can",
+    "speak",
     "___",
     "."
    ],
-   "answer": "ninety-nine",
+   "answer": "Chinese",
    "choices": [
-    "ninety-nine",
-    "ninety-seven",
-    "thirty-three"
+    "Chinese",
+    "fast",
+    "sing"
+   ],
+   "unit": "basic_a_u7"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u8/{v}/itistwentytwo.mp3",
+   "answer": "It is twenty-two.",
+   "choices": [
+    "It is twenty-two.",
+    "It is ninety-nine.",
+    "It is fifty-five."
    ],
    "unit": "basic_a_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u7/{v}/icanrun.mp3",
+   "answer": [
+    "I",
+    "can",
+    "run."
+   ],
+   "unit": "basic_a_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Is it a mouse?",
+    "audio": "audio/isitamouse.mp3"
+   },
+   "choices": [
+    "No, it is a cube.",
+    "Thank you.",
+    "One year has twelve months."
+   ],
+   "answer": "No, it is a cube.",
+   "unit": "basic_a_u06",
+   "pic": "pics/cube.webp"
   },
   {
    "type": "listen",
@@ -206,50 +144,90 @@
    "unit": "basic_a_u5"
   },
   {
-   "type": "listen",
-   "prompt": "Listen. Tap the picture.",
-   "answer": "mouse",
-   "choices": [
-    "keyboard",
-    "mouse",
-    "monitor",
-    "clipboard"
-   ],
-   "skill": "listen",
-   "unit": "basic_a_u06"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "twelve",
-   "answer": "twelve",
-   "choices": [
-    "twelve",
-    "telve",
-    "twilve",
-    "twlve"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itisthirteen.mp3",
+   "answer": [
+    "It",
+    "is",
+    "thirteen."
    ],
    "unit": "basic_a_u8"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_a_u06",
-   "q": {
-    "text": "Is it a mouse?",
-    "audio": "audio/v/{v}/isitamouse.mp3"
-   },
-   "pic": "pics/cube.webp",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u5/{v}/thisismygrandson.mp3",
+   "answer": "This is my grandson.",
    "choices": [
-    "No, it is a cube.",
-    "I have one apple."
+    "This is my grandson.",
+    "This is my uncle.",
+    "This is my mom."
    ],
-   "answer": "No, it is a cube.",
-   "aud": {
-    "No, it is a cube.": "audio/noitisacube.mp3",
-    "I have one apple.": "audio/basic_a_u1/ai/ihaveoneapple.mp3"
-   }
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
+   },
+   "choices": [
+    "I can do taekwondo.",
+    "I can run fast.",
+    "I want a phone."
+   ],
+   "answer": "I can run fast.",
+   "unit": "basic_a_u7",
+   "pic": "../packs/basic_a_u7/fast.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u5/{v}/thisismybrother.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "brother."
+   ],
+   "unit": "basic_a_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itiseleven.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "eleven",
+   "choices": [
+    "eleven",
+    "one hundred",
+    "twelve"
+   ],
+   "unit": "basic_a_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/whatisthis.mp3",
+   "answer": [
+    "What",
+    "is",
+    "this?"
+   ],
+   "unit": "basic_a_u06"
   }
  ],
  "words": [

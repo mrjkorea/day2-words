@@ -14,120 +14,124 @@
  "lineAudio": "audio/int3c_u5/",
  "questions": [
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "desert",
-   "answer": "desert",
-   "choices": [
-    "desert",
-    "deserl",
-    "esert",
-    "deert"
-   ],
-   "unit": "int3c_u6"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "one",
-   "answer": "one",
-   "choices": [
-    "one",
-    "onep",
-    "onem",
-    "onea"
-   ],
-   "unit": "int3c_u8"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "walk",
-   "audio": "audio/int3c_u7/{v}/icanwalk.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u5/audio/{v}/ihaveapuzzle.mp3",
+   "answer": [
     "I",
-    "can",
-    "___",
-    "."
+    "have",
+    "a",
+    "puzzle."
    ],
-   "answer": "walk",
+   "unit": "int3c_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u7/{v}/icanwalk.mp3",
+   "answer": "I can walk.",
    "choices": [
-    "walk",
-    "jump",
-    "type"
+    "I can walk.",
+    "I can fight.",
+    "I can cook."
    ],
    "unit": "int3c_u7"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3c_u5",
    "q": {
     "text": "What do you have?",
     "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3"
    },
-   "pic": "../packs/int3c_u5/cup.jpg",
    "choices": [
-    "I have a cup.",
-    "It is eight o'clock.",
-    "Wear a shirt."
+    "I have a phone.",
+    "I have a hat.",
+    "This video is crazy."
    ],
-   "answer": "I have a cup.",
-   "aud": {
-    "I have a cup.": "audio/int3c_u5/ai/ihaveacup.mp3",
-    "It is eight o'clock.": "audio/int3c_u8/ai/itiseightoclock.mp3",
-    "Wear a shirt.": "audio/int3c_u3/ai/wearashirt.mp3"
-   }
+   "answer": "I have a hat.",
+   "unit": "int3c_u5",
+   "pic": "../packs/int3c_u5/hat.jpg"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3c_u7",
-   "q": {
-    "text": "Can you type?",
-    "audio": "audio/int3c_u7/{v}/canyoutype.mp3"
-   },
-   "pic": "../packs/int3c_u7/type.jpg",
-   "choices": [
-    "I can type.",
-    "It is eleven o'clock.",
-    "I have a pencil."
-   ],
-   "answer": "I can type.",
-   "aud": {
-    "I can type.": "audio/int3c_u7/ai/icantype.mp3",
-    "It is eleven o'clock.": "audio/int3c_u8/ai/itiselevenoclock.mp3",
-    "I have a pencil.": "audio/int3c_u5/ai/ihaveapencil.mp3"
-   }
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "volcano",
-   "choices": [
-    "volcano",
-    "desert",
-    "tiger",
-    "province"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u6/{v}/letsvisitanationalpark.mp3",
+   "answer": [
+    "Let's",
+    "visit",
+    "a",
+    "national",
+    "park."
    ],
    "unit": "int3c_u6"
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "six",
-   "audio": "audio/int3c_u8/{v}/itissixoclock.mp3",
-   "answer": [
-    "It",
-    "is",
-    "six",
-    "o'clock."
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u6/{v}/letsvisitanationalpark.mp3",
+   "sentence": [
+    "Let's",
+    "visit",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "national park",
+   "choices": [
+    "national park",
+    "volcano",
+    "people"
+   ],
+   "unit": "int3c_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u8/{v}/itistwelveoclock.mp3",
+   "answer": "It is twelve o'clock.",
+   "choices": [
+    "It is twelve o'clock.",
+    "It is eleven o'clock.",
+    "It is five o'clock."
    ],
    "unit": "int3c_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3",
+   "answer": [
+    "No,",
+    "I",
+    "cannot",
+    "fly."
+   ],
+   "unit": "int3c_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you see?",
+    "audio": "audio/int3c_u6/{v}/whatcanyousee.mp3"
+   },
+   "choices": [
+    "There are many people.",
+    "There is no desert in Korea.",
+    "Hello, Ms. Pig."
+   ],
+   "answer": "There are many people.",
+   "unit": "int3c_u6",
+   "pic": "../packs/int3c_u6/people.jpg"
   },
   {
    "type": "listen",
@@ -142,119 +146,92 @@
    "unit": "int3c_u7"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3c_u6",
-   "q": {
-    "text": "What can you see?",
-    "audio": "audio/int3c_u6/{v}/whatcanyousee.mp3"
-   },
-   "pic": "../packs/int3c_u6/island.jpg",
-   "choices": [
-    "There are many islands.",
-    "I can cook.",
-    "It is twelve o'clock."
-   ],
-   "answer": "There are many islands.",
-   "aud": {
-    "There are many islands.": "audio/int3c_u6/ai/therearemanyislands.mp3",
-    "I can cook.": "audio/int3c_u7/ai/icancook.mp3",
-    "It is twelve o'clock.": "audio/int3c_u8/ai/itistwelveoclock.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "puzzle",
-   "answer": "puzzle",
-   "choices": [
-    "puzzle",
-    "pozzle",
-    "pzzle",
-    "puczle"
-   ],
-   "unit": "int3c_u5"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "people",
-   "audio": "audio/int3c_u6/{v}/therearemanypeople.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u8/{v}/itistenoclock.mp3",
    "answer": [
-    "There",
-    "are",
-    "many",
-    "people."
-   ],
-   "unit": "int3c_u6"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "pencil",
-   "choices": [
-    "pencil",
-    "hat",
-    "book",
-    "pillow"
-   ],
-   "unit": "int3c_u5"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nine",
-   "audio": "audio/int3c_u8/{v}/itisnineoclock.mp3",
-   "sentence": [
     "It",
     "is",
-    "___",
+    "ten",
     "o'clock."
-   ],
-   "answer": "nine",
-   "choices": [
-    "nine",
-    "six",
-    "ten"
    ],
    "unit": "int3c_u8"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "hat",
-   "audio": "audio/int3c_u5/{v}/ihaveahat.mp3",
-   "sentence": [
-    "I",
-    "have",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "hat",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3",
+   "answer": "What do you have?",
    "choices": [
-    "hat",
-    "pillow",
-    "newspaper"
+    "What do you have?",
+    "I have a pencil case.",
+    "I have a phone."
    ],
    "unit": "int3c_u5"
   },
   {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Can you run?",
+    "audio": "audio/int3c_u7/{v}/canyourun.mp3"
+   },
+   "choices": [
+    "I can walk.",
+    "I can run.",
+    "I am angry."
+   ],
+   "answer": "I can run.",
+   "unit": "int3c_u7",
+   "pic": "../packs/int3c_u7/run.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "jump",
-   "audio": "audio/int3c_u7/{v}/icanjump.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u5/{v}/ihaveabook.mp3",
    "answer": [
     "I",
+    "have",
+    "a",
+    "book."
+   ],
+   "unit": "int3c_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u7/{v}/icancook.mp3",
+   "sentence": [
+    "I",
     "can",
-    "jump."
+    "___",
+    "."
+   ],
+   "answer": "cook",
+   "choices": [
+    "cook",
+    "fly",
+    "love"
    ],
    "unit": "int3c_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u6/{v}/koreahasmanyprovinces.mp3",
+   "answer": [
+    "Korea",
+    "has",
+    "many",
+    "provinces."
+   ],
+   "unit": "int3c_u6"
   }
  ],
  "words": [

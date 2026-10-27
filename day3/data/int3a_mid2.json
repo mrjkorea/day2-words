@@ -14,186 +14,124 @@
  "lineAudio": "audio/int3a_u5/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3a_u5/audio/{v}/itisabutterfly.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "butterfly."
+   ],
+   "unit": "int3a_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u7/{v}/wehavegymclass.mp3",
+   "answer": "We have gym class.",
+   "choices": [
+    "We have gym class.",
+    "Sit down!",
+    "Jump rope!"
+   ],
+   "unit": "int3a_u7"
+  },
+  {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u5",
    "q": {
     "text": "What is this bug?",
     "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
    },
-   "pic": "../packs/int3a_u5/cicada.jpg",
    "choices": [
-    "It is a cicada.",
-    "I like chocolate.",
-    "Jump rope!"
+    "It is a butterfly.",
+    "It is a silkworm.",
+    "It is mine."
    ],
-   "answer": "It is a cicada.",
-   "aud": {
-    "It is a cicada.": "audio/int3a_u5/ai/itisacicada.mp3",
-    "I like chocolate.": "audio/int3a_u2/ai/ilikechocolate.mp3",
-    "Jump rope!": "audio/int3a_u7/ai/jumprope.mp3"
-   }
+   "answer": "It is a silkworm.",
+   "unit": "int3a_u5",
+   "pic": "../packs/int3a_u5/silkworm.jpg"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u6",
-   "q": {
-    "text": "What is your name?",
-    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
-   },
-   "pic": "../packs/int3a_u6/baker.jpg",
-   "choices": [
-    "My name is Baker.",
-    "I can draw a flag.",
-    "He is one hundred years old."
-   ],
-   "answer": "My name is Baker.",
-   "aud": {
-    "My name is Baker.": "audio/int3a_u6/ai/mynameisbaker.mp3",
-    "I can draw a flag.": "audio/int3a_u1/ai/icandrawaflag.mp3",
-    "He is one hundred years old.": "audio/int3a_u4/ai/heisonehundredyearsold.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sing",
-   "answer": "sing",
-   "choices": [
-    "sing",
-    "sinb",
-    "sng",
-    "sang"
-   ],
-   "unit": "int3a_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hunter",
-   "answer": "hunter",
-   "choices": [
-    "hunter",
-    "hunrer",
-    "unter",
-    "huntur"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "answer": [
+    "I",
+    "will",
+    "yell",
+    "your",
+    "name."
    ],
    "unit": "int3a_u6"
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "climb",
-   "audio": "audio/int3a_u7/{v}/climbtherope.mp3",
-   "answer": [
-    "Climb",
-    "the",
-    "rope!"
-   ],
-   "unit": "int3a_u7"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "silkworm",
-   "choices": [
-    "silkworm",
-    "ant",
-    "centipede",
-    "cockroach"
-   ],
-   "unit": "int3a_u5"
-  },
-  {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "dance",
-   "audio": "audio/int3a_u7/{v}/letsdance.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
    "sentence": [
-    "Let's",
+    "I",
+    "will",
     "___",
-    "!"
-   ],
-   "answer": "dance",
-   "choices": [
-    "dance",
-    "turn",
-    "run"
-   ],
-   "unit": "int3a_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "silkworm",
-   "audio": "audio/int3a_u5/{v}/itisasilkworm.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
+    "your",
+    "name",
     "."
    ],
-   "answer": "silkworm",
+   "answer": "yell",
    "choices": [
-    "silkworm",
-    "moth",
-    "bug"
+    "yell",
+    "name",
+    "rose"
    ],
-   "unit": "int3a_u5"
+   "unit": "int3a_u6"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "dance",
+   "audio": "audio/int3a_u8/ai/yesihaveadog.mp3",
+   "answer": "Yes. I have a dog.",
    "choices": [
-    "dance",
-    "run",
-    "sit",
-    "clap"
-   ],
-   "unit": "int3a_u7"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "music",
-   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
-   "answer": [
-    "I",
-    "like",
-    "music."
+    "Yes. I have a dog.",
+    "I have a dog.",
+    "Yes. I like to sing."
    ],
    "unit": "int3a_u8"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u7",
-   "q": {
-    "text": "What do we do?",
-    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
-   },
-   "pic": "../packs/int3a_u7/turn.jpg",
-   "choices": [
-    "Turn around!",
-    "It is a centipede.",
-    "My name is Rose."
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u7/{v}/dojumpingjacks.mp3",
+   "answer": [
+    "Do",
+    "jumping",
+    "jacks!"
    ],
-   "answer": "Turn around!",
-   "aud": {
-    "Turn around!": "audio/int3a_u7/ai/turnaround.mp3",
-    "It is a centipede.": "audio/int3a_u5/ai/itisacentipede.mp3",
-    "My name is Rose.": "audio/int3a_u6/ai/mynameisrose.mp3"
-   }
+   "unit": "int3a_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is your name?",
+    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+   },
+   "choices": [
+    "My name is Baker.",
+    "My name is Rose.",
+    "There is no desert in Korea."
+   ],
+   "answer": "My name is Baker.",
+   "unit": "int3a_u6",
+   "pic": "../packs/int3a_u6/baker.jpg"
   },
   {
    "type": "listen",
@@ -208,50 +146,89 @@
    "unit": "int3a_u6"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "silkworm",
-   "answer": "silkworm",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u8/{v}/ihaveadog.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "dog."
+   ],
+   "unit": "int3a_u8"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u5/{v}/itisacockroach.mp3",
+   "answer": "It is a cockroach.",
    "choices": [
-    "silkworm",
-    "slkworm",
-    "silkwork",
-    "silpworm"
+    "It is a cockroach.",
+    "It is a moth.",
+    "It is a silkworm."
+   ],
+   "unit": "int3a_u5"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do we do?",
+    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
+   },
+   "choices": [
+    "Climb the rope!",
+    "Let's dance!",
+    "Sorry, she is out."
+   ],
+   "answer": "Climb the rope!",
+   "unit": "int3a_u7",
+   "pic": "../packs/int3a_u7/climb.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisamosquito.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "mosquito."
    ],
    "unit": "int3a_u5"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "music",
-   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u7/{v}/letsdance.mp3",
    "sentence": [
-    "I",
-    "like",
+    "Let's",
     "___",
-    "."
+    "!"
    ],
-   "answer": "music",
+   "answer": "dance",
    "choices": [
-    "music",
-    "eleven",
-    "introduction"
+    "dance",
+    "gym",
+    "jumping jacks"
    ],
-   "unit": "int3a_u8"
+   "unit": "int3a_u7"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/mynameisginger.mp3",
    "answer": [
-    "I",
-    "will",
-    "yell",
-    "your",
-    "name."
+    "My",
+    "name",
+    "is",
+    "Ginger."
    ],
    "unit": "int3a_u6"
   }

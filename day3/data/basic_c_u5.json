@@ -7,15 +7,118 @@
  "lineAudio": "audio/basic_c_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "dog",
-   "choices": [
-    "dog",
-    "tongyeong",
-    "seoul",
-    "canada"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/ai/cutcut.mp3",
+   "answer": [
+    "C,",
+    "U,",
+    "T.",
+    "Cut."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u5/ai/dugdug.mp3",
+   "answer": "D, U, G. Dug.",
+   "choices": [
+    "D, U, G. Dug.",
+    "D, O, G. Dog.",
+    "P, I, G. Pig."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How do you spell pig?",
+    "audio": "audio/basic_c_u5/{v}/howdoyouspellpig.mp3"
+   },
+   "choices": [
+    "D, O, G. Dog.",
+    "P, I, G. Pig.",
+    "I am in seventh grade."
+   ],
+   "answer": "P, I, G. Pig.",
+   "pic": "../packs/basic_c_u5/pig.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellcanada.mp3",
+   "answer": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "Canada?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellswing.mp3",
+   "sentence": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "___",
+    "?"
+   ],
+   "answer": "swing",
+   "choices": [
+    "swing",
+    "Tongyeong",
+    "pig"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u5/ai/fasefase.mp3",
+   "answer": "F, A, S, E. Fase.",
+   "choices": [
+    "F, A, S, E. Fase.",
+    "F, A, C, E. Face.",
+    "C, A, T. Cat."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellswing.mp3",
+   "answer": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "swing?"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How do you spell dog?",
+    "audio": "audio/basic_c_u5/{v}/howdoyouspelldog.mp3"
+   },
+   "choices": [
+    "D, O, G. Dog.",
+    "D, U, G. Dug.",
+    "It is garbage."
+   ],
+   "answer": "D, O, G. Dog.",
+   "pic": "../packs/basic_c_u5/dog.jpg"
   },
   {
    "type": "listen",
@@ -29,129 +132,16 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "face",
-   "choices": [
-    "face",
-    "school",
-    "tongyeong",
-    "swing"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "tongyeong",
-   "answer": "Tongyeong",
-   "choices": [
-    "Tongyeong",
-    "Tungyeong",
-    "Tongyeon",
-    "Tengyeong"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "knee",
-   "answer": "knee",
-   "choices": [
-    "knee",
-    "knue",
-    "kne",
-    "rnee"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "face",
-   "audio": "audio/basic_c_u5/{v}/howdoyouspellface.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellschool.mp3",
    "answer": [
     "How",
     "do",
     "you",
     "spell",
-    "face?"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "seoul",
-   "audio": "audio/basic_c_u5/{v}/howdoyouspellseoul.mp3",
-   "answer": [
-    "How",
-    "do",
-    "you",
-    "spell",
-    "Seoul?"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "dog",
-   "audio": "audio/basic_c_u5/{v}/howdoyouspelldog.mp3",
-   "sentence": [
-    "How",
-    "do",
-    "you",
-    "spell",
-    "___",
-    "?"
-   ],
-   "answer": "dog",
-   "choices": [
-    "dog",
-    "knee",
-    "Seoul"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "face",
-   "audio": "audio/basic_c_u5/{v}/howdoyouspellface.mp3",
-   "sentence": [
-    "How",
-    "do",
-    "you",
-    "spell",
-    "___",
-    "?"
-   ],
-   "answer": "face",
-   "choices": [
-    "face",
-    "Tongyeong",
-    "dog"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "knee",
-   "audio": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3",
-   "sentence": [
-    "How",
-    "do",
-    "you",
-    "spell",
-    "___",
-    "?"
-   ],
-   "answer": "knee",
-   "choices": [
-    "knee",
-    "Canada",
-    "Seoul"
+    "school?"
    ]
   }
  ],
@@ -511,10 +501,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

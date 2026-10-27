@@ -7,82 +7,98 @@
  "lineAudio": "audio/int2b_u3/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "judge",
-   "choices": [
-    "judge",
-    "president",
-    "actor",
-    "scientist"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "progamer",
-   "choices": [
-    "progamer",
-    "actor",
-    "judge",
-    "policeofficer"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "scientist",
-   "choices": [
-    "scientist",
-    "doctor",
-    "foodcritic",
-    "policeofficer"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "doctor",
-   "answer": "doctor",
-   "choices": [
-    "doctor",
-    "doctir",
-    "docter",
-    "docnor"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "judge",
-   "answer": "judge",
-   "choices": [
-    "judge",
-    "jdge",
-    "jadge",
-    "pudge"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "scientist",
-   "audio": "audio/int2b_u3/{v}/iwanttobeascientist.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u3/{v}/iwanttobeapresident.mp3",
    "answer": [
     "I",
     "want",
     "to",
     "be",
     "a",
-    "scientist."
+    "president."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u3/{v}/iwanttobeascientist.mp3",
+   "answer": "I want to be a scientist.",
+   "choices": [
+    "I want to be a scientist.",
+    "I want to be a pro-gamer.",
+    "I want to be a food critic."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want to be in the future?",
+    "audio": "../packs/int2b_u3/audio/{v}/whatdoyouwanttobeinthefuture.mp3"
+   },
+   "choices": [
+    "I want to be a pro-gamer.",
+    "I want to be an English teacher.",
+    "Don't sleep."
+   ],
+   "answer": "I want to be a pro-gamer.",
+   "pic": "../packs/int2b_u3/progamer.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u3/{v}/iwanttobeajudge.mp3",
+   "answer": [
+    "I",
+    "want",
+    "to",
+    "be",
+    "a",
+    "judge."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u3/{v}/iwanttobeapoliceofficer.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "to",
+    "be",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "police officer",
+   "choices": [
+    "police officer",
+    "judge",
+    "food critic"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u3/{v}/iwanttobeaprogamer.mp3",
+   "answer": "I want to be a pro-gamer.",
+   "choices": [
+    "I want to be a pro-gamer.",
+    "I want to be a president.",
+    "I want to be a food critic."
    ]
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "actor",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2b_u3/{v}/iwanttobeanactor.mp3",
    "answer": [
     "I",
@@ -94,70 +110,45 @@
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "judge",
-   "audio": "audio/int2b_u3/{v}/iwanttobeajudge.mp3",
-   "sentence": [
-    "I",
-    "want",
-    "to",
-    "be",
-    "a",
-    "___",
-    "."
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want to be in the future?",
+    "audio": "../packs/int2b_u3/audio/{v}/whatdoyouwanttobeinthefuture.mp3"
+   },
+   "choices": [
+    "I want to be a food critic.",
+    "I want to be a doctor.",
+    "Higher please."
    ],
+   "answer": "I want to be a doctor.",
+   "pic": "../packs/int2b_u3/doctor.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
    "answer": "judge",
    "choices": [
     "judge",
     "president",
-    "doctor"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "progamer",
-   "audio": "audio/int2b_u3/{v}/iwanttobeaprogamer.mp3",
-   "sentence": [
-    "I",
-    "want",
-    "to",
-    "be",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "pro-gamer",
-   "choices": [
-    "pro-gamer",
-    "president",
+    "actor",
     "scientist"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2b_u3/{v}/icanbeanythinginthefuture.mp3",
-   "sentence": [
+   "answer": [
     "I",
     "can",
     "be",
     "anything",
     "in",
     "the",
-    "___",
-    "."
-   ],
-   "answer": "future",
-   "choices": [
-    "future",
-    "scientist",
-    "judge"
+    "future."
    ]
   }
  ],
@@ -514,10 +505,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

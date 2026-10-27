@@ -7,6 +7,114 @@
  "lineAudio": "audio/basic_b_u2/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u2/{v}/ilikefruit.mp3",
+   "answer": [
+    "I",
+    "like",
+    "fruit."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u2/{v}/ilikeexercise.mp3",
+   "answer": "I like exercise.",
+   "choices": [
+    "I like exercise.",
+    "I like school.",
+    "I like meat."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you like?",
+    "audio": "audio/basic_b_u2/{v}/whatdoyoulike.mp3"
+   },
+   "choices": [
+    "I like games.",
+    "I like school.",
+    "Wait a minute."
+   ],
+   "answer": "I like school.",
+   "pic": "../packs/basic_b_u2/school.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u2/{v}/ilikemrjay.mp3",
+   "answer": [
+    "I",
+    "like",
+    "Mr.",
+    "Jay."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/basic_b_u2/audio/{v}/ilikenoodles.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "noodles",
+   "choices": [
+    "noodles",
+    "fruit",
+    "music"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u2/{v}/ilikemeat.mp3",
+   "answer": "I like meat.",
+   "choices": [
+    "I like meat.",
+    "I like fruit.",
+    "I like movies."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u2/{v}/ilikemusic.mp3",
+   "answer": [
+    "I",
+    "like",
+    "music."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you like?",
+    "audio": "audio/basic_b_u2/{v}/whatdoyoulike.mp3"
+   },
+   "choices": [
+    "I like exercise.",
+    "I like apples.",
+    "This video is boring."
+   ],
+   "answer": "I like apples.",
+   "pic": "../packs/basic_b_u2/apples.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "exercise",
@@ -18,130 +126,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "noodles",
-   "choices": [
-    "noodles",
-    "movies",
-    "meat",
-    "exercise"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "apples",
-   "choices": [
-    "apples",
-    "music",
-    "noodles",
-    "school"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "movies",
-   "answer": "movies",
-   "choices": [
-    "movies",
-    "movius",
-    "modies",
-    "movees"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "games",
-   "answer": "games",
-   "choices": [
-    "games",
-    "gemes",
-    "gams",
-    "rames"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "fruit",
-   "audio": "audio/basic_b_u2/{v}/ilikefruit.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u2/{v}/ilikemovies.mp3",
    "answer": [
     "I",
     "like",
-    "fruit."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "noodles",
-   "audio": "../packs/basic_b_u2/audio/{v}/ilikenoodles.mp3",
-   "answer": [
-    "I",
-    "like",
-    "noodles."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "apples",
-   "audio": "audio/basic_b_u2/{v}/ilikeapples.mp3",
-   "sentence": [
-    "I",
-    "like",
-    "___",
-    "."
-   ],
-   "answer": "apples",
-   "choices": [
-    "apples",
-    "games",
-    "noodles"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "games",
-   "audio": "audio/basic_b_u2/{v}/ilikegames.mp3",
-   "sentence": [
-    "I",
-    "like",
-    "___",
-    "."
-   ],
-   "answer": "games",
-   "choices": [
-    "games",
-    "meat",
-    "fruit"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "meat",
-   "audio": "audio/basic_b_u2/{v}/ilikemeat.mp3",
-   "sentence": [
-    "I",
-    "like",
-    "___",
-    "."
-   ],
-   "answer": "meat",
-   "choices": [
-    "meat",
-    "music",
-    "games"
+    "movies."
    ]
   }
  ],
@@ -501,10 +493,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

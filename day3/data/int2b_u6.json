@@ -7,26 +7,118 @@
  "lineAudio": "audio/int2b_u6/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "socialstudies",
-   "choices": [
-    "socialstudies",
-    "science",
-    "math",
-    "art"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u6/{v}/thisismyteacher.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "teacher."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "math",
+   "audio": "audio/int2b_u6/{v}/thisismyartteacher.mp3",
+   "answer": "This is my art teacher.",
    "choices": [
-    "math",
-    "english",
-    "art",
-    "socialstudies"
+    "This is my art teacher.",
+    "This is my math teacher.",
+    "This is my social studies teacher."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2b_u6/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "This is my science teacher.",
+    "This is my gym teacher.",
+    "I love my snake."
+   ],
+   "answer": "This is my gym teacher.",
+   "pic": "../packs/int2b_u6/gym.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u6/{v}/thisismygymteacher.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "gym",
+    "teacher."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u6/{v}/thisismyhistoryteacher.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "teacher",
+    "."
+   ],
+   "answer": "history",
+   "choices": [
+    "history",
+    "teacher",
+    "English"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int2b_u6/audio/{v}/thisismymathteacher.mp3",
+   "answer": "This is my math teacher.",
+   "choices": [
+    "This is my math teacher.",
+    "This is my gym teacher.",
+    "This is my English teacher."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u6/{v}/thisismykoreanteacher.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "Korean",
+    "teacher."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2b_u6/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "This is my gym teacher.",
+    "This is my math teacher.",
+    "I am sad."
+   ],
+   "answer": "This is my math teacher.",
+   "pic": "../packs/int2b_u6/math.jpg"
   },
   {
    "type": "listen",
@@ -40,114 +132,16 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "science",
-   "answer": "science",
-   "choices": [
-    "science",
-    "sciense",
-    "scionce",
-    "scienc"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "english",
-   "answer": "English",
-   "choices": [
-    "English",
-    "Enrlish",
-    "Englisn",
-    "Engish"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2b_u6/{v}/thisismyteacher.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u6/{v}/thisismyhistoryteacher.mp3",
    "answer": [
     "This",
     "is",
     "my",
+    "history",
     "teacher."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "science",
-   "audio": "audio/int2b_u6/{v}/thisismyscienceteacher.mp3",
-   "answer": [
-    "This",
-    "is",
-    "my",
-    "science",
-    "teacher."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "english",
-   "audio": "audio/int2b_u6/{v}/thisismyenglishteacher.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "teacher."
-   ],
-   "answer": "English",
-   "choices": [
-    "English",
-    "History",
-    "Math"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "science",
-   "audio": "audio/int2b_u6/{v}/thisismyscienceteacher.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "teacher."
-   ],
-   "answer": "science",
-   "choices": [
-    "science",
-    "math",
-    "English"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "korean",
-   "audio": "audio/int2b_u6/{v}/thisismykoreanteacher.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "teacher."
-   ],
-   "answer": "Korean",
-   "choices": [
-    "Korean",
-    "Math",
-    "Science"
    ]
   }
  ],
@@ -507,10 +501,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

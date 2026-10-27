@@ -7,6 +7,109 @@
  "lineAudio": "audio/int3c_u2/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u2/{v}/dontcry.mp3",
+   "answer": [
+    "Don't",
+    "cry."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u2/{v}/dontsleep.mp3",
+   "answer": "Don't sleep.",
+   "choices": [
+    "Don't sleep.",
+    "Don't yell.",
+    "Don't run."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can I not do?",
+    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
+   },
+   "choices": [
+    "Don't cry.",
+    "Don't pull.",
+    "D, U, G. Dug."
+   ],
+   "answer": "Don't cry.",
+   "pic": "../packs/int3c_u2/cry.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u2/{v}/dontcry.mp3",
+   "answer": [
+    "Don't",
+    "cry."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u2/{v}/dontcry.mp3",
+   "sentence": [
+    "Don't",
+    "___",
+    "."
+   ],
+   "answer": "cry",
+   "choices": [
+    "cry",
+    "yell",
+    "burp"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u2/{v}/donttouch.mp3",
+   "answer": "Don't touch.",
+   "choices": [
+    "Don't touch.",
+    "Don't throw.",
+    "Don't open."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u2/{v}/dontopen.mp3",
+   "answer": [
+    "Don't",
+    "open."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can I not do?",
+    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
+   },
+   "choices": [
+    "Don't open.",
+    "Don't touch.",
+    "F, A, S, E. Fase."
+   ],
+   "answer": "Don't touch.",
+   "pic": "../packs/int3c_u2/touch.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "fight",
@@ -18,125 +121,13 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "pull",
-   "choices": [
-    "pull",
-    "yell",
-    "burp",
-    "cry"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "cry",
-   "choices": [
-    "cry",
-    "fight",
-    "burp",
-    "pull"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "throw",
-   "answer": "throw",
-   "choices": [
-    "throw",
-    "hrow",
-    "rhrow",
-    "thow"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fight",
-   "answer": "fight",
-   "choices": [
-    "fight",
-    "figt",
-    "fught",
-    "figh"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "open",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3c_u2/{v}/dontopen.mp3",
    "answer": [
     "Don't",
     "open."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "sleep",
-   "audio": "audio/int3c_u2/{v}/dontsleep.mp3",
-   "answer": [
-    "Don't",
-    "sleep."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "burp",
-   "audio": "audio/int3c_u2/{v}/dontburp.mp3",
-   "sentence": [
-    "Don't",
-    "___",
-    "."
-   ],
-   "answer": "burp",
-   "choices": [
-    "burp",
-    "sleep",
-    "touch"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cry",
-   "audio": "audio/int3c_u2/{v}/dontcry.mp3",
-   "sentence": [
-    "Don't",
-    "___",
-    "."
-   ],
-   "answer": "cry",
-   "choices": [
-    "cry",
-    "pull",
-    "sleep"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "run",
-   "audio": "audio/int3c_u2/{v}/dontrun.mp3",
-   "sentence": [
-    "Don't",
-    "___",
-    "."
-   ],
-   "answer": "run",
-   "choices": [
-    "run",
-    "yell",
-    "sleep"
    ]
   }
  ],
@@ -496,10 +487,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

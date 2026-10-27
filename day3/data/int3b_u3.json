@@ -7,6 +7,111 @@
  "lineAudio": "audio/int3b_u3/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3",
+   "answer": [
+    "Please",
+    "help",
+    "me."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u3/{v}/moreplease.mp3",
+   "answer": "More please.",
+   "choices": [
+    "More please.",
+    "Warmer please.",
+    "Smaller please."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "More please.",
+    "Slower please.",
+    "Be quiet, please."
+   ],
+   "answer": "More please.",
+   "pic": "../packs/int3b_u3/more.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u3/{v}/moreplease.mp3",
+   "answer": [
+    "More",
+    "please."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "expression",
+   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3",
+   "sentence": [
+    "Please",
+    "help",
+    "___"
+   ],
+   "answer": "me.",
+   "choices": [
+    "me.",
+    "Smaller",
+    "Higher"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u3/{v}/coolerplease.mp3",
+   "answer": "Cooler please.",
+   "choices": [
+    "Cooler please.",
+    "Slower please.",
+    "Warmer please."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3",
+   "answer": [
+    "Please",
+    "help",
+    "me."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "Smaller please.",
+    "More please.",
+    "Good night, teacher."
+   ],
+   "answer": "Smaller please.",
+   "pic": "../packs/int3b_u3/smaller.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "cooler",
@@ -18,123 +123,13 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "warmer",
-   "choices": [
-    "warmer",
-    "slower",
-    "cooler",
-    "more"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "less",
-   "choices": [
-    "less",
-    "cooler",
-    "quieter",
-    "warmer"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cooler",
-   "answer": "cooler",
-   "choices": [
-    "cooler",
-    "couler",
-    "coolr",
-    "coomer"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "warmer",
-   "answer": "warmer",
-   "choices": [
-    "warmer",
-    "barmer",
-    "warmr",
-    "armer"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "warmer",
-   "audio": "audio/int3b_u3/{v}/warmerplease.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u3/{v}/moreplease.mp3",
    "answer": [
-    "Warmer",
-    "please."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "less",
-   "audio": "audio/int3b_u3/{v}/lessplease.mp3",
-   "answer": [
-    "Less",
-    "please."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "warmer",
-   "audio": "audio/int3b_u3/{v}/warmerplease.mp3",
-   "sentence": [
-    "___",
-    "please."
-   ],
-   "answer": "Warmer",
-   "choices": [
-    "Warmer",
-    "Please",
-    "Smaller"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3",
-   "sentence": [
-    "___",
-    "help",
-    "me."
-   ],
-   "answer": "Please",
-   "choices": [
-    "Please",
-    "Warmer",
-    "Less"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "smaller",
-   "audio": "audio/int3b_u3/{v}/smallerplease.mp3",
-   "sentence": [
-    "___",
-    "please."
-   ],
-   "answer": "Smaller",
-   "choices": [
-    "Smaller",
     "More",
-    "Slower"
+    "please."
    ]
   }
  ],
@@ -494,10 +489,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

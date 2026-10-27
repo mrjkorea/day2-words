@@ -7,6 +7,115 @@
  "lineAudio": "audio/int2b_u1/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u1/{v}/itisfriday.mp3",
+   "answer": [
+    "It",
+    "is",
+    "Friday."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u1/{v}/itiswednesday.mp3",
+   "answer": "It is Wednesday.",
+   "choices": [
+    "It is Wednesday.",
+    "What day is it today?",
+    "It is a holiday."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What day is it today?",
+    "audio": "../packs/int2b_u1/audio/{v}/whatdayisittoday.mp3"
+   },
+   "choices": [
+    "It is Saturday.",
+    "It is Tuesday.",
+    "This is my aunt."
+   ],
+   "answer": "It is Saturday.",
+   "pic": "../packs/int2b_u1/saturday.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u1/{v}/itistuesday.mp3",
+   "answer": [
+    "It",
+    "is",
+    "Tuesday."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u1/{v}/itissaturday.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "Saturday",
+   "choices": [
+    "Saturday",
+    "school day",
+    "Thursday"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int2b_u1/audio/{v}/itismonday.mp3",
+   "answer": "It is Monday.",
+   "choices": [
+    "It is Monday.",
+    "It is Sunday.",
+    "It is Thursday."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u1/{v}/itisaschoolday.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "school",
+    "day."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What day is it today?",
+    "audio": "../packs/int2b_u1/audio/{v}/whatdayisittoday.mp3"
+   },
+   "choices": [
+    "It is Saturday.",
+    "It is a work day.",
+    "This is my grandson."
+   ],
+   "answer": "It is a work day.",
+   "pic": "../packs/int2b_u1/workday.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "holiday",
@@ -18,130 +127,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "thursday",
-   "choices": [
-    "thursday",
-    "holiday",
-    "friday",
-    "monday"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "wednesday",
-   "choices": [
-    "wednesday",
-    "tuesday",
-    "schoolday",
-    "thursday"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "monday",
-   "answer": "Monday",
-   "choices": [
-    "Monday",
-    "Monay",
-    "monday",
-    "Moncay"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "holiday",
-   "answer": "holiday",
-   "choices": [
-    "holiday",
-    "holibay",
-    "holidy",
-    "hociday"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "friday",
-   "audio": "audio/int2b_u1/{v}/itisfriday.mp3",
-   "answer": [
-    "It",
-    "is",
-    "Friday."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "thursday",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2b_u1/{v}/itisthursday.mp3",
    "answer": [
     "It",
     "is",
     "Thursday."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "tuesday",
-   "audio": "audio/int2b_u1/{v}/itistuesday.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "Tuesday",
-   "choices": [
-    "Tuesday",
-    "Monday",
-    "Saturday"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sunday",
-   "audio": "audio/int2b_u1/{v}/itissunday.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "Sunday",
-   "choices": [
-    "Sunday",
-    "Monday",
-    "Holiday"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "saturday",
-   "audio": "audio/int2b_u1/{v}/itissaturday.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "Saturday",
-   "choices": [
-    "Saturday",
-    "Friday",
-    "Thursday"
    ]
   }
  ],
@@ -501,10 +494,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

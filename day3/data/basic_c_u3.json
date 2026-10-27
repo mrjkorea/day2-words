@@ -7,26 +7,116 @@
  "lineAudio": "audio/basic_c_u3/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "test",
-   "choices": [
-    "test",
-    "mean",
-    "report",
-    "understand"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u3/ai/yesyoumaystart.mp3",
+   "answer": [
+    "Yes,",
+    "you",
+    "may",
+    "start."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
+   "audio": "audio/basic_c_u3/{v}/seeyouonmonday.mp3",
+   "answer": "See you on Monday.",
+   "choices": [
+    "See you on Monday.",
+    "See you tomorrow.",
+    "How do you spell it?"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "May I start?",
+    "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3"
+   },
+   "choices": [
+    "Yes, you may start.",
+    "You are welcome.",
+    "Nice to meet you too."
+   ],
+   "answer": "Yes, you may start.",
+   "pic": "../packs/basic_c_u3/start.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u3/ai/sorryidontknow.mp3",
+   "answer": [
+    "Sorry,",
+    "I",
+    "don't",
+    "know."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u3/{v}/howdoyouspellit.mp3",
+   "sentence": [
+    "How",
+    "do",
+    "you",
+    "___",
+    "it",
+    "?"
+   ],
    "answer": "spell",
    "choices": [
     "spell",
-    "welcome",
-    "mean",
-    "test"
+    "know",
+    "Monday"
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3",
+   "answer": "May I start?",
+   "choices": [
+    "May I start?",
+    "Sorry, I don't know.",
+    "I don't know."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u3/{v}/ihaveareport.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "report."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Thank you.",
+    "audio": "audio/basic_c_u3/{v}/thankyou.mp3"
+   },
+   "choices": [
+    "You are welcome.",
+    "May I start?",
+    "He is young."
+   ],
+   "answer": "You are welcome.",
+   "pic": "../packs/basic_c_u3/welcome.jpg"
   },
   {
    "type": "listen",
@@ -40,112 +130,15 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "test",
-   "answer": "test",
-   "choices": [
-    "test",
-    "tesd",
-    "tst",
-    "est"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "welcome",
-   "answer": "welcome",
-   "choices": [
-    "welcome",
-    "melcome",
-    "welcone",
-    "welcom"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "test",
-   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u3/{v}/whatdoesitmean.mp3",
    "answer": [
-    "We",
-    "have",
-    "a",
-    "test",
-    "today."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "know",
-   "audio": "audio/basic_c_u3/{v}/idontknow.mp3",
-   "answer": [
-    "I",
-    "don't",
-    "know."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "start",
-   "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3",
-   "sentence": [
-    "May",
-    "I",
-    "___",
-    "?"
-   ],
-   "answer": "start",
-   "choices": [
-    "start",
-    "Monday",
-    "tomorrow"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "spell",
-   "audio": "audio/basic_c_u3/{v}/howdoyouspellit.mp3",
-   "sentence": [
-    "How",
-    "do",
-    "you",
-    "___",
-    "it?"
-   ],
-   "answer": "spell",
-   "choices": [
-    "spell",
-    "Monday",
-    "tomorrow"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "test",
-   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
-   "sentence": [
-    "We",
-    "have",
-    "a",
-    "___",
-    "today."
-   ],
-   "answer": "test",
-   "choices": [
-    "test",
-    "start",
-    "understand"
+    "What",
+    "does",
+    "it",
+    "mean?"
    ]
   }
  ],
@@ -505,10 +498,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

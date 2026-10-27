@@ -14,211 +14,124 @@
  "lineAudio": "audio/basic_c_u1/",
  "questions": [
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "start",
-   "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3",
-   "sentence": [
-    "May",
-    "I",
-    "___",
-    "?"
-   ],
-   "answer": "start",
-   "choices": [
-    "start",
-    "Monday",
-    "tomorrow"
-   ],
-   "unit": "basic_c_u3"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cat",
-   "answer": "cat",
-   "choices": [
-    "cat",
-    "cati",
-    "catp",
-    "cot"
-   ],
-   "unit": "basic_c_u1"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "test",
-   "audio": "audio/basic_c_u3/{v}/wehaveatesttoday.mp3",
-   "answer": [
-    "We",
-    "have",
-    "a",
-    "test",
-    "today."
-   ],
-   "unit": "basic_c_u3"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_c_u1/{v}/ilovemyfamily.mp3",
-   "sentence": [
+   "answer": [
     "I",
-    "___",
+    "love",
     "my",
     "family."
    ],
-   "answer": "love",
-   "choices": [
-    "love",
-    "rabbit",
-    "fish"
-   ],
    "unit": "basic_c_u1"
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "suncheon",
-   "audio": "audio/basic_c_u4/{v}/wecanseesuncheon.mp3",
-   "answer": [
-    "We",
-    "can",
-    "see",
-    "Suncheon."
-   ],
-   "unit": "basic_c_u4"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "coat",
-   "answer": "coat",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u3/{v}/iunderstand.mp3",
+   "answer": "I understand.",
    "choices": [
-    "coat",
-    "poat",
-    "cat",
-    "coa"
+    "I understand.",
+    "I don't know.",
+    "Sorry, I don't know."
    ],
-   "unit": "basic_c_u2"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "tongyeong",
-   "answer": "Tongyeong",
-   "choices": [
-    "Tongyeong",
-    "Tongyeopg",
-    "Tongyeonk",
-    "dongyeong"
-   ],
-   "unit": "basic_c_u4"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "computer",
-   "audio": "audio/basic_c_u2/{v}/lookatmynewcomputer.mp3",
-   "answer": [
-    "Look",
-    "at",
-    "my",
-    "new",
-    "computer."
-   ],
-   "unit": "basic_c_u2"
+   "unit": "basic_c_u3"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u3",
-   "q": {
-    "text": "May I start?",
-    "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3"
-   },
-   "pic": "../packs/basic_c_u3/start.jpg",
-   "choices": [
-    "Yes, you may start.",
-    "We can see Seoul."
-   ],
-   "answer": "Yes, you may start.",
-   "aud": {
-    "Yes, you may start.": "audio/basic_c_u3/ai/yesyoumaystart.mp3",
-    "We can see Seoul.": "audio/basic_c_u4/ai/wecanseeseoul.mp3"
-   }
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u1",
    "q": {
     "text": "What pet do you love?",
     "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
    },
-   "pic": "../packs/basic_c_u1/hamster.jpg",
    "choices": [
-    "I love my hamster.",
-    "Look at my new shoes."
+    "I love my rabbit.",
+    "I love my cat.",
+    "Sit down!"
    ],
-   "answer": "I love my hamster.",
-   "aud": {
-    "I love my hamster.": "audio/basic_c_u1/ai/ilovemyhamster.mp3",
-    "Look at my new shoes.": "audio/basic_c_u2/ai/lookatmynewshoes.mp3"
-   }
+   "answer": "I love my cat.",
+   "unit": "basic_c_u1",
+   "pic": "../packs/basic_c_u1/cat.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u2/{v}/mybagisnew.mp3",
+   "answer": [
+    "My",
+    "bag",
+    "is",
+    "new."
+   ],
+   "unit": "basic_c_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewcoat.mp3",
+   "sentence": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "coat",
+   "choices": [
+    "coat",
+    "phone",
+    "bag"
+   ],
+   "unit": "basic_c_u2"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u4/{v}/wecanseetongyeong.mp3",
+   "answer": "We can see Tongyeong.",
+   "choices": [
+    "We can see Tongyeong.",
+    "We can see Jeju.",
+    "We can see Seoul."
+   ],
+   "unit": "basic_c_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u3/ai/thetestisred.mp3",
+   "answer": [
+    "The",
+    "test",
+    "is",
+    "red."
+   ],
+   "unit": "basic_c_u3"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u2",
    "q": {
     "text": "What is new?",
     "audio": "audio/basic_c_u2/{v}/whatisnew.mp3"
    },
-   "pic": "../packs/basic_c_u2/computer.jpg",
    "choices": [
-    "Look at my new computer.",
-    "We can see Jeju."
+    "Look at my new coat.",
+    "Look at my new hat.",
+    "I can draw a hat."
    ],
-   "answer": "Look at my new computer.",
-   "aud": {
-    "Look at my new computer.": "audio/basic_c_u2/ai/lookatmynewcomputer.mp3",
-    "We can see Jeju.": "audio/basic_c_u4/ai/wecanseejeju.mp3"
-   }
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "snake",
-   "choices": [
-    "snake",
-    "turtle",
-    "beetle",
-    "cat"
-   ],
-   "unit": "basic_c_u1"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "earphones",
-   "choices": [
-    "earphones",
-    "shoes",
-    "hat",
-    "watch"
-   ],
-   "unit": "basic_c_u2"
+   "answer": "Look at my new coat.",
+   "unit": "basic_c_u2",
+   "pic": "../packs/basic_c_u2/coat.jpg"
   },
   {
    "type": "listen",
@@ -233,25 +146,93 @@
    "unit": "basic_c_u3"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "goseong",
-   "audio": "audio/basic_c_u4/{v}/wecanseegoseong.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u4/{v}/wecanseeandong.mp3",
+   "answer": [
     "We",
     "can",
     "see",
+    "Andong."
+   ],
+   "unit": "basic_c_u4"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u1/{v}/ilovemybird.mp3",
+   "answer": "I love my bird.",
+   "choices": [
+    "I love my bird.",
+    "I love my cat.",
+    "I love my fish."
+   ],
+   "unit": "basic_c_u1"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "May I start?",
+    "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3"
+   },
+   "choices": [
+    "Yes, you may start.",
+    "You are welcome.",
+    "Let's dance!"
+   ],
+   "answer": "Yes, you may start.",
+   "unit": "basic_c_u3",
+   "pic": "../packs/basic_c_u3/start.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u1/{v}/ilovemysnake.mp3",
+   "answer": [
+    "I",
+    "love",
+    "my",
+    "snake."
+   ],
+   "unit": "basic_c_u1"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u3/{v}/seeyoutomorrow.mp3",
+   "sentence": [
+    "See",
+    "you",
     "___",
     "."
    ],
-   "answer": "Goseong",
+   "answer": "tomorrow",
    "choices": [
-    "Goseong",
-    "Seoul",
-    "Busan"
+    "tomorrow",
+    "mean",
+    "know"
    ],
-   "unit": "basic_c_u4"
+   "unit": "basic_c_u3"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewbag.mp3",
+   "answer": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "bag."
+   ],
+   "unit": "basic_c_u2"
   }
  ],
  "words": [

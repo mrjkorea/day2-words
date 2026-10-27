@@ -7,6 +7,114 @@
  "lineAudio": "audio/int2c_u8/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u8/ai/nicetomeetyoutoo.mp3",
+   "answer": [
+    "Nice",
+    "to",
+    "meet",
+    "you",
+    "too."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u8/{v}/wehadagreattime.mp3",
+   "answer": "We had a great time.",
+   "choices": [
+    "We had a great time.",
+    "Have a nice day.",
+    "It was a long year."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "I have a big test tomorrow.",
+    "audio": "audio/int2c_u8/{v}/ihaveabigtesttomorrow.mp3"
+   },
+   "choices": [
+    "Good luck!",
+    "Happy birthday!",
+    "I want a hug."
+   ],
+   "answer": "Good luck!"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u8/{v}/itwasalongyear.mp3",
+   "answer": [
+    "It",
+    "was",
+    "a",
+    "long",
+    "year."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u8/{v}/goodluck.mp3",
+   "sentence": [
+    "Good",
+    "___",
+    "."
+   ],
+   "answer": "luck",
+   "choices": [
+    "luck",
+    "nice",
+    "time"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u8/ai/happybirthday.mp3",
+   "answer": "Happy birthday!",
+   "choices": [
+    "Happy birthday!",
+    "Take it easy.",
+    "You too!"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u8/ai/goodbyetakecare.mp3",
+   "answer": [
+    "Goodbye.",
+    "Take",
+    "care."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Have a nice day!",
+    "audio": "audio/int2c_u8/{v}/haveaniceday.mp3"
+   },
+   "choices": [
+    "You too!",
+    "Good morning!",
+    "F, A, S, E. Fase."
+   ],
+   "answer": "You too!"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "long",
@@ -18,135 +126,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "care",
-   "choices": [
-    "care",
-    "long",
-    "easy",
-    "nice"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "luck",
-   "choices": [
-    "luck",
-    "nice",
-    "long",
-    "care"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "easy",
-   "answer": "easy",
-   "choices": [
-    "easy",
-    "eay",
-    "uasy",
-    "eask"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "miss",
-   "answer": "miss",
-   "choices": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u8/audio/{v}/illmissyou.mp3",
+   "answer": [
+    "I'll",
     "miss",
-    "mis",
-    "mass",
-    "mins"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u8/{v}/haveaniceday.mp3",
-   "answer": [
-    "Have",
-    "a",
-    "nice",
-    "day."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u8/{v}/wehadagreattime.mp3",
-   "answer": [
-    "We",
-    "had",
-    "a",
-    "great",
-    "time."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "luck",
-   "audio": "audio/int2c_u8/{v}/goodluck.mp3",
-   "sentence": [
-    "Good",
-    "___",
-    "."
-   ],
-   "answer": "luck",
-   "choices": [
-    "luck",
-    "care",
-    "nice"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2c_u8/{v}/haveaniceday.mp3",
-   "sentence": [
-    "Have",
-    "a",
-    "nice",
-    "___",
-    "."
-   ],
-   "answer": "day",
-   "choices": [
-    "day",
-    "nice",
-    "goodbye"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nice",
-   "audio": "audio/int2c_u8/{v}/itwasnicetomeetyou.mp3",
-   "sentence": [
-    "It",
-    "was",
-    "___",
-    "to",
-    "meet",
     "you."
-   ],
-   "answer": "nice",
-   "choices": [
-    "nice",
-    "time",
-    "luck"
    ]
   }
  ],
@@ -497,10 +484,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

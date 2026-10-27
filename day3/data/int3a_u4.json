@@ -7,26 +7,119 @@
  "lineAudio": "audio/int3a_u4/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "five",
-   "choices": [
-    "five",
-    "thirtynine",
-    "seventyseven",
-    "fifteen"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/heistenyearsold.mp3",
+   "answer": [
+    "He",
+    "is",
+    "ten",
+    "years",
+    "old."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "thirtynine",
+   "audio": "audio/int3a_u4/{v}/heistwentysevenyearsold.mp3",
+   "answer": "He is twenty-seven years old.",
    "choices": [
-    "thirtynine",
-    "onehundred",
-    "thirty",
-    "ten"
+    "He is twenty-seven years old.",
+    "He is thirty years old.",
+    "He is fifteen years old."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How old is he?",
+    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+   },
+   "choices": [
+    "He is thirty-nine years old.",
+    "He is one hundred years old.",
+    "Wear a coat."
+   ],
+   "answer": "He is thirty-nine years old.",
+   "pic": "../packs/int3a_u4/thirtynine.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/heisthirtyyearsold.mp3",
+   "answer": [
+    "He",
+    "is",
+    "thirty",
+    "years",
+    "old."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/int3a_u4/audio/{v}/heisfifteenyearsold.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "years",
+    "old",
+    "."
+   ],
+   "answer": "fifteen",
+   "choices": [
+    "fifteen",
+    "twenty-seven",
+    "seventy-seven"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u4/{v}/heisseventysevenyearsold.mp3",
+   "answer": "He is seventy-seven years old.",
+   "choices": [
+    "He is seventy-seven years old.",
+    "He is one hundred years old.",
+    "He is ten years old."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/oneyearhastwelvemonths.mp3",
+   "answer": [
+    "One",
+    "year",
+    "has",
+    "twelve",
+    "months."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How old is he?",
+    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+   },
+   "choices": [
+    "He is fifteen years old.",
+    "He is thirty years old.",
+    "Less please."
+   ],
+   "answer": "He is fifteen years old.",
+   "pic": "../packs/int3a_u4/fifteen.jpg"
   },
   {
    "type": "listen",
@@ -40,115 +133,16 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fifteen",
-   "answer": "fifteen",
-   "choices": [
-    "fifteen",
-    "fiftien",
-    "fifteun",
-    "fiften"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "ten",
-   "answer": "ten",
-   "choices": [
-    "ten",
-    "sen",
-    "ton",
-    "tenn"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "thirty",
-   "audio": "audio/int3a_u4/{v}/heisthirtyyearsold.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/heisfiveyearsold.mp3",
    "answer": [
     "He",
     "is",
-    "thirty",
+    "five",
     "years",
     "old."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "twentyseven",
-   "audio": "audio/int3a_u4/{v}/heistwentysevenyearsold.mp3",
-   "answer": [
-    "He",
-    "is",
-    "twenty-seven",
-    "years",
-    "old."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "twentyseven",
-   "audio": "audio/int3a_u4/{v}/heistwentysevenyearsold.mp3",
-   "sentence": [
-    "He",
-    "is",
-    "___",
-    "years",
-    "old."
-   ],
-   "answer": "twenty-seven",
-   "choices": [
-    "twenty-seven",
-    "year",
-    "fifty-five"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "fiftyfive",
-   "audio": "audio/int3a_u4/{v}/heisfiftyfiveyearsold.mp3",
-   "sentence": [
-    "He",
-    "is",
-    "___",
-    "years",
-    "old."
-   ],
-   "answer": "fifty-five",
-   "choices": [
-    "fifty-five",
-    "ten",
-    "fifteen"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "seventyseven",
-   "audio": "audio/int3a_u4/{v}/heisseventysevenyearsold.mp3",
-   "sentence": [
-    "He",
-    "is",
-    "___",
-    "years",
-    "old."
-   ],
-   "answer": "seventy-seven",
-   "choices": [
-    "seventy-seven",
-    "fifty-five",
-    "fifteen"
    ]
   }
  ],
@@ -504,10 +498,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

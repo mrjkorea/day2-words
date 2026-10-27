@@ -19,24 +19,65 @@
  "questions": [
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u2/{v}/myteethareclean.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u1/{v}/iswiminsummer.mp3",
    "answer": [
-    "My",
-    "teeth",
-    "are",
-    "clean."
+    "I",
+    "swim",
+    "in",
+    "summer."
+   ],
+   "unit": "int2c_u1"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int2c_u1/audio/{v}/iloveallfourseasons.mp3",
+   "answer": "I love all four seasons.",
+   "choices": [
+    "I love all four seasons.",
+    "I love spring.",
+    "I love summer."
+   ],
+   "unit": "int2c_u1"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you love?",
+    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
+   },
+   "choices": [
+    "I love all four seasons.",
+    "I ski in winter.",
+    "This is our teacher."
+   ],
+   "answer": "I ski in winter.",
+   "unit": "int2c_u1",
+   "pic": "../packs/int2c_u1/ski.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u2/{v}/iameatingfruit.mp3",
+   "answer": [
+    "I",
+    "am",
+    "eating",
+    "fruit."
    ],
    "unit": "int2c_u2"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nervous",
-   "audio": "../packs/int2c_u5/audio/{v}/iamfeelingnervous.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u5/{v}/iamfeelingsurprised.mp3",
    "sentence": [
     "I",
     "am",
@@ -44,26 +85,56 @@
     "___",
     "."
    ],
-   "answer": "nervous",
+   "answer": "surprised",
    "choices": [
-    "nervous",
-    "jealous",
-    "surprised"
+    "surprised",
+    "worried",
+    "nervous"
    ],
    "unit": "int2c_u5"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fall",
-   "answer": "fall",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u2/{v}/iambowing.mp3",
+   "answer": "I am bowing.",
    "choices": [
-    "fall",
-    "fll",
-    "call",
-    "falc"
+    "I am bowing.",
+    "I am taking a picture.",
+    "I am eating fruit."
    ],
-   "unit": "int2c_u1"
+   "unit": "int2c_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u3/{v}/itismyphone.mp3",
+   "answer": [
+    "It",
+    "is",
+    "my",
+    "phone."
+   ],
+   "unit": "int2c_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What are you doing?",
+    "audio": "../packs/int2c_u2/audio/{v}/whatareyoudoing.mp3"
+   },
+   "choices": [
+    "I am fishing.",
+    "I am eating fruit.",
+    "This is our secretary."
+   ],
+   "answer": "I am eating fruit.",
+   "unit": "int2c_u2",
+   "pic": "../packs/int2c_u2/fruit.jpg"
   },
   {
    "type": "listen",
@@ -78,281 +149,167 @@
    "unit": "int2c_u4"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "out",
-   "answer": "out",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u4/{v}/myfavoritemusiciskpop.mp3",
+   "answer": [
+    "My",
+    "favorite",
+    "music",
+    "is",
+    "K-pop."
+   ],
+   "unit": "int2c_u4"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u3/{v}/itismycandy.mp3",
+   "answer": "It is my candy.",
    "choices": [
-    "out",
-    "oat",
-    "outi",
-    "outl"
+    "It is my candy.",
+    "It is my chair.",
+    "It is my money."
+   ],
+   "unit": "int2c_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Whose is this?",
+    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
+   },
+   "choices": [
+    "Are those yours?",
+    "It is my phone.",
+    "This is our janitor."
+   ],
+   "answer": "It is my phone.",
+   "unit": "int2c_u3",
+   "pic": "../packs/int2c_u3/phone.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u5/{v}/iamfeelingworried.mp3",
+   "answer": [
+    "I",
+    "am",
+    "feeling",
+    "worried."
+   ],
+   "unit": "int2c_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u6/{v}/ihaveastomachache.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "stomachache",
+   "choices": [
+    "stomachache",
+    "tooth",
+    "fever"
+   ],
+   "unit": "int2c_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u4/{v}/myfavoritecolorisblue.mp3",
+   "answer": "My favorite color is blue.",
+   "choices": [
+    "My favorite color is blue.",
+    "My favorite music is K-pop.",
+    "My favorite game is Go."
+   ],
+   "unit": "int2c_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u6/{v}/mytoothhurts.mp3",
+   "answer": [
+    "My",
+    "tooth",
+    "hurts."
+   ],
+   "unit": "int2c_u6"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is your favorite color?",
+    "audio": "audio/int2c_u4/{v}/whatisyourfavoritecolor.mp3"
+   },
+   "choices": [
+    "My favorite color is blue.",
+    "My favorite snack is chips.",
+    "This is our classmate."
+   ],
+   "answer": "My favorite color is blue.",
+   "unit": "int2c_u4",
+   "pic": "../packs/int2c_u4/color.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u7/audio/{v}/whoisthis.mp3",
+   "answer": [
+    "Who",
+    "is",
+    "this?"
    ],
    "unit": "int2c_u7"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u8/{v}/wehadagreattime.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u8/ai/goodbyetakecare.mp3",
    "answer": [
-    "We",
-    "had",
-    "a",
-    "great",
-    "time."
+    "Goodbye.",
+    "Take",
+    "care."
    ],
    "unit": "int2c_u8"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "ignored",
-   "answer": "ignored",
-   "choices": [
-    "ignored",
-    "ignoed",
-    "ignorud",
-    "ignared"
-   ],
-   "unit": "int2c_u5"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "tooth",
-   "choices": [
-    "tooth",
-    "sorethroat",
-    "fever",
-    "stomachache"
-   ],
-   "unit": "int2c_u6"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2c_u1",
-   "q": {
-    "text": "What do you love?",
-    "audio": "audio/int2c_u1/{v}/whatdoyoulove.mp3"
-   },
-   "pic": "../packs/int2c_u1/ski.jpg",
-   "choices": [
-    "I ski in winter.",
-    "I have a cold.",
-    "It is my book.",
-    "I am feeling nervous."
-   ],
-   "answer": "I ski in winter.",
-   "aud": {
-    "I ski in winter.": "audio/int2c_u1/ai/iskiinwinter.mp3",
-    "I have a cold.": "audio/int2c_u6/ai/ihaveacold.mp3",
-    "It is my book.": "audio/int2c_u3/ai/itismybook.mp3",
-    "I am feeling nervous.": "audio/int2c_u5/ai/iamfeelingnervous.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u4/{v}/whatisyourfavorite.mp3",
-   "answer": [
-    "What",
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u7/{v}/thisisherfriend.mp3",
+   "sentence": [
+    "This",
     "is",
-    "your",
-    "favorite?"
-   ],
-   "unit": "int2c_u4"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "brush",
-   "choices": [
-    "brush",
-    "bow",
-    "vegetable",
-    "fruit"
-   ],
-   "unit": "int2c_u2"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "leaves",
-   "choices": [
-    "leaves",
-    "summer",
-    "winter",
-    "fall"
-   ],
-   "unit": "int2c_u1"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "kimchi",
-   "audio": "audio/int2c_u2/{v}/iammakingkimchi.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "making",
+    "her",
     "___",
     "."
    ],
-   "answer": "kimchi",
+   "answer": "friend",
    "choices": [
-    "kimchi",
-    "vegetable",
-    "bow"
+    "friend",
+    "out",
+    "phone number"
    ],
-   "unit": "int2c_u2"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2c_u8/{v}/haveaniceday.mp3",
-   "sentence": [
-    "Have",
-    "a",
-    "nice",
-    "___",
-    "."
-   ],
-   "answer": "day",
-   "choices": [
-    "day",
-    "nice",
-    "goodbye"
-   ],
-   "unit": "int2c_u8"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2c_u3",
-   "q": {
-    "text": "Whose is this?",
-    "audio": "audio/int2c_u3/{v}/whoseisthis.mp3"
-   },
-   "pic": "../packs/int2c_u3/garbage.jpg",
-   "choices": [
-    "It is garbage.",
-    "I am fishing.",
-    "My back hurts.",
-    "Good luck!"
-   ],
-   "answer": "It is garbage.",
-   "aud": {
-    "It is garbage.": "audio/int2c_u3/ai/itisgarbage.mp3",
-    "I am fishing.": "audio/int2c_u2/ai/iamfishing.mp3",
-    "My back hurts.": "audio/int2c_u6/ai/mybackhurts.mp3",
-    "Good luck!": "audio/int2c_u8/ai/goodluck.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "fever",
-   "audio": "audio/int2c_u6/{v}/ihaveafever.mp3",
-   "answer": [
-    "I",
-    "have",
-    "a",
-    "fever."
-   ],
-   "unit": "int2c_u6"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2c_u7",
-   "q": {
-    "text": "Hello? Who is this?",
-    "audio": "audio/int2c_u7/{v}/hellowhoisthis.mp3"
-   },
-   "pic": null,
-   "choices": [
-    "This is Mr. Jay.",
-    "I have a stomachache.",
-    "My favorite color is blue.",
-    "I swim in summer."
-   ],
-   "answer": "This is Mr. Jay.",
-   "aud": {
-    "This is Mr. Jay.": "audio/int2c_u7/ai/thisismrjay.mp3",
-    "I have a stomachache.": "audio/int2c_u6/ai/ihaveastomachache.mp3",
-    "My favorite color is blue.": "audio/int2c_u4/ai/myfavoritecolorisblue.mp3",
-    "I swim in summer.": "audio/int2c_u1/ai/iswiminsummer.mp3"
-   }
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "book",
-   "audio": "audio/int2c_u3/{v}/itismybook.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "book",
-   "choices": [
-    "book",
-    "candy",
-    "those"
-   ],
-   "unit": "int2c_u3"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2c_u4",
-   "q": {
-    "text": "What is your favorite hobby?",
-    "audio": "audio/int2c_u4/{v}/whatisyourfavoritehobby.mp3"
-   },
-   "pic": "../packs/int2c_u4/hobby.jpg",
-   "choices": [
-    "My favorite hobby is drawing.",
-    "My tooth hurts.",
-    "It is my candy.",
-    "Sorry, she is out."
-   ],
-   "answer": "My favorite hobby is drawing.",
-   "aud": {
-    "My favorite hobby is drawing.": "audio/int2c_u4/ai/myfavoritehobbyisdrawing.mp3",
-    "My tooth hurts.": "audio/int2c_u6/ai/mytoothhurts.mp3",
-    "It is my candy.": "audio/int2c_u3/ai/itismycandy.mp3",
-    "Sorry, she is out.": "audio/int2c_u7/ai/sorrysheisout.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "book",
-   "answer": "book",
-   "choices": [
-    "book",
-    "boos",
-    "boor",
-    "bok"
-   ],
-   "unit": "int2c_u3"
+   "unit": "int2c_u7"
   }
  ],
  "words": [

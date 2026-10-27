@@ -7,15 +7,115 @@
  "lineAudio": "audio/basic_a_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "nephew",
-   "choices": [
-    "nephew",
-    "mom",
-    "aunt",
-    "brother"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u5/{v}/thisismygrandmother.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "grandmother."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u5/{v}/thisismycousin.mp3",
+   "answer": "This is my cousin.",
+   "choices": [
+    "This is my cousin.",
+    "This is my uncle.",
+    "This is my brother."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "This is my nephew.",
+    "This is my uncle.",
+    "I want tissue paper."
+   ],
+   "answer": "This is my nephew.",
+   "pic": "../packs/basic_a_u5/nephew.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u5/{v}/thisismysister.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "sister."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u5/{v}/thisismybrother.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "brother",
+   "choices": [
+    "brother",
+    "mom",
+    "sister"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u5/{v}/thisismyuncle.mp3",
+   "answer": "This is my uncle.",
+   "choices": [
+    "This is my uncle.",
+    "This is my nephew.",
+    "This is my grandmother."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "mom."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/basic_a_u5/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "This is my cousin.",
+    "This is my nephew.",
+    "I want a blanket."
+   ],
+   "answer": "This is my cousin.",
+   "pic": "../packs/basic_a_u5/cousin.jpg"
   },
   {
    "type": "listen",
@@ -29,124 +129,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "uncle",
-   "choices": [
-    "uncle",
-    "nephew",
-    "sister",
-    "cousin"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "mom",
-   "answer": "mom",
-   "choices": [
-    "mom",
-    "mop",
-    "momb",
-    "momc"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "grandson",
-   "answer": "grandson",
-   "choices": [
-    "grandson",
-    "nrandson",
-    "gradson",
-    "grankson"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "nephew",
-   "audio": "audio/basic_a_u5/{v}/thisismynephew.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u5/{v}/thisismybrother.mp3",
    "answer": [
     "This",
     "is",
     "my",
-    "nephew."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "mom",
-   "audio": "../packs/basic_a_u5/audio/{v}/thisismymom.mp3",
-   "answer": [
-    "This",
-    "is",
-    "my",
-    "mom."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sister",
-   "audio": "audio/basic_a_u5/{v}/thisismysister.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "sister",
-   "choices": [
-    "sister",
-    "uncle",
-    "aunt"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cousin",
-   "audio": "audio/basic_a_u5/{v}/thisismycousin.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "cousin",
-   "choices": [
-    "cousin",
-    "nephew",
-    "dad"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nephew",
-   "audio": "audio/basic_a_u5/{v}/thisismynephew.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "nephew",
-   "choices": [
-    "nephew",
-    "mom",
-    "sister"
+    "brother."
    ]
   }
  ],
@@ -506,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

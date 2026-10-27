@@ -7,6 +7,113 @@
  "lineAudio": "audio/int3a_u3/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisisquiet.mp3",
+   "answer": [
+    "This",
+    "is",
+    "quiet."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u3/{v}/thisishot.mp3",
+   "answer": "This is hot.",
+   "choices": [
+    "This is hot.",
+    "This is hard.",
+    "This is loud."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How is it?",
+    "audio": "audio/int3a_u3/{v}/howisit.mp3"
+   },
+   "choices": [
+    "This is hard.",
+    "This is good.",
+    "I am in seventh grade."
+   ],
+   "answer": "This is hard.",
+   "pic": "../packs/int3a_u3/hard.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisisbad.mp3",
+   "answer": [
+    "This",
+    "is",
+    "bad."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisisgood.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "good",
+   "choices": [
+    "good",
+    "loud",
+    "quiet"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3a_u3/audio/{v}/thisiscold.mp3",
+   "answer": "This is cold.",
+   "choices": [
+    "This is cold.",
+    "This is good.",
+    "This is soft."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisissoft.mp3",
+   "answer": [
+    "This",
+    "is",
+    "soft."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How is it?",
+    "audio": "audio/int3a_u3/{v}/howisit.mp3"
+   },
+   "choices": [
+    "This is good.",
+    "This is bad.",
+    "It is thirteen."
+   ],
+   "answer": "This is bad.",
+   "pic": "../packs/int3a_u3/bad.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "quiet",
@@ -18,130 +125,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "hot",
-   "choices": [
-    "hot",
-    "hard",
-    "small",
-    "big"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "good",
-   "choices": [
-    "good",
-    "cold",
-    "bad",
-    "soft"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "small",
-   "answer": "small",
-   "choices": [
-    "small",
-    "smal",
-    "scall",
-    "cmall"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "soft",
-   "answer": "soft",
-   "choices": [
-    "soft",
-    "sott",
-    "sft",
-    "sopt"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "loud",
-   "audio": "audio/int3a_u3/{v}/thisisloud.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisisgood.mp3",
    "answer": [
     "This",
     "is",
-    "loud."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "big",
-   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
-   "answer": [
-    "This",
-    "is",
-    "big."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "big",
-   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "big",
-   "choices": [
-    "big",
-    "loud",
-    "bad"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cold",
-   "audio": "../packs/int3a_u3/audio/{v}/thisiscold.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "cold",
-   "choices": [
-    "cold",
-    "loud",
-    "good"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "bad",
-   "audio": "audio/int3a_u3/{v}/thisisbad.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "bad",
-   "choices": [
-    "bad",
-    "loud",
-    "soft"
+    "good."
    ]
   }
  ],
@@ -501,10 +492,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

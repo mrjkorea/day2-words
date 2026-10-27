@@ -14,50 +14,118 @@
  "lineAudio": "audio/int3c_u1/",
  "questions": [
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3c_u2",
-   "q": {
-    "text": "What can I not do?",
-    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
-   },
-   "pic": "../packs/int3c_u2/cry.jpg",
-   "choices": [
-    "Don't cry.",
-    "There are many mountains.",
-    "It is ten o'clock."
-   ],
-   "answer": "Don't cry.",
-   "aud": {
-    "Don't cry.": "audio/int3c_u2/ai/dontcry.mp3",
-    "There are many mountains.": "audio/int3c_u6/ai/therearemanymountains.mp3",
-    "It is ten o'clock.": "audio/int3c_u8/ai/itistenoclock.mp3"
-   }
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "sour",
-   "choices": [
-    "sour",
-    "salty",
-    "sweet",
-    "doenjang"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u1/{v}/itisadessert.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "dessert."
    ],
    "unit": "int3c_u1"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "pull",
+   "audio": "audio/int3c_u3/{v}/wearashirt.mp3",
+   "answer": "Wear a shirt.",
    "choices": [
-    "pull",
-    "yell",
-    "burp",
-    "cry"
+    "Wear a shirt.",
+    "Wear a dress.",
+    "Wear a coat."
+   ],
+   "unit": "int3c_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is it? How does it taste?",
+    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
+   },
+   "choices": [
+    "Try it!",
+    "It is sweet.",
+    "Sit down, please."
+   ],
+   "answer": "It is sweet.",
+   "unit": "int3c_u1",
+   "pic": "../packs/int3c_u1/sweet.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u2/{v}/dontpull.mp3",
+   "answer": [
+    "Don't",
+    "pull."
    ],
    "unit": "int3c_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u2/{v}/donttouch.mp3",
+   "sentence": [
+    "Don't",
+    "___",
+    "."
+   ],
+   "answer": "touch",
+   "choices": [
+    "touch",
+    "pull",
+    "sleep"
+   ],
+   "unit": "int3c_u2"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
+   "answer": "Let's ride a bike.",
+   "choices": [
+    "Let's ride a bike.",
+    "Let's play on the jungle gym.",
+    "Let's go to school."
+   ],
+   "unit": "int3c_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u3/{v}/wearacoat.mp3",
+   "answer": [
+    "Wear",
+    "a",
+    "coat."
+   ],
+   "unit": "int3c_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can I not do?",
+    "audio": "audio/int3c_u2/{v}/whatcaninotdo.mp3"
+   },
+   "choices": [
+    "Don't open.",
+    "Don't touch.",
+    "I am brushing my teeth."
+   ],
+   "answer": "Don't touch.",
+   "unit": "int3c_u2",
+   "pic": "../packs/int3c_u2/touch.jpg"
   },
   {
    "type": "listen",
@@ -73,117 +141,65 @@
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "open",
-   "audio": "audio/int3c_u2/{v}/dontopen.mp3",
-   "answer": [
-    "Don't",
-    "open."
-   ],
-   "unit": "int3c_u2"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3c_u3",
-   "q": {
-    "text": "What should I wear?",
-    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
-   },
-   "pic": "../packs/int3c_u3/shoes.jpg",
-   "choices": [
-    "Wear shoes.",
-    "It is doenjang.",
-    "I have a phone."
-   ],
-   "answer": "Wear shoes.",
-   "aud": {
-    "Wear shoes.": "audio/int3c_u3/ai/wearshoes.mp3",
-    "It is doenjang.": "audio/int3c_u1/ai/itisdoenjang.mp3",
-    "I have a phone.": "audio/int3c_u5/ai/ihaveaphone.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "bike",
-   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u4/{v}/letsplayonthejunglegym.mp3",
    "answer": [
     "Let's",
-    "ride",
-    "a",
-    "bike."
+    "play",
+    "on",
+    "the",
+    "jungle",
+    "gym."
    ],
    "unit": "int3c_u4"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "salty",
-   "answer": "salty",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u1/{v}/itisdoenjang.mp3",
+   "answer": "It is doenjang.",
    "choices": [
-    "salty",
-    "alty",
-    "salt",
-    "salmy"
+    "It is doenjang.",
+    "It is sweet.",
+    "It is rice."
    ],
    "unit": "int3c_u1"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cook",
-   "answer": "cook",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I wear?",
+    "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3"
+   },
    "choices": [
-    "cook",
-    "rook",
-    "coo",
-    "pook"
+    "Wear a skirt.",
+    "Wear shoes.",
+    "I am sorry."
    ],
-   "unit": "int3c_u4"
+   "answer": "Wear shoes.",
+   "unit": "int3c_u3",
+   "pic": "../packs/int3c_u3/shoes.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "skirt",
-   "audio": "audio/int3c_u3/{v}/wearaskirt.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u1/{v}/itissweet.mp3",
    "answer": [
-    "Wear",
-    "a",
-    "skirt."
+    "It",
+    "is",
+    "sweet."
    ],
-   "unit": "int3c_u3"
+   "unit": "int3c_u1"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "bike",
-   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
-   "sentence": [
-    "Let's",
-    "ride",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "bike",
-   "choices": [
-    "bike",
-    "talk",
-    "cook"
-   ],
-   "unit": "int3c_u4"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "gloves",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int3c_u3/{v}/weargloves.mp3",
    "sentence": [
     "Wear",
@@ -193,65 +209,21 @@
    "answer": "gloves",
    "choices": [
     "gloves",
-    "skirt",
-    "shirt"
+    "wear",
+    "skirt"
    ],
    "unit": "int3c_u3"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "doenjang",
-   "audio": "audio/int3c_u1/{v}/itisdoenjang.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "doenjang",
-   "choices": [
-    "doenjang",
-    "ddeok",
-    "rice"
-   ],
-   "unit": "int3c_u1"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fight",
-   "answer": "fight",
-   "choices": [
-    "fight",
-    "figt",
-    "fught",
-    "figh"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u2/{v}/dontopen.mp3",
+   "answer": [
+    "Don't",
+    "open."
    ],
    "unit": "int3c_u2"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3c_u1",
-   "q": {
-    "text": "What is it? How does it taste?",
-    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
-   },
-   "pic": "../packs/int3c_u1/ddeok.jpg",
-   "choices": [
-    "It is ddeok.",
-    "I can walk.",
-    "There are no tigers."
-   ],
-   "answer": "It is ddeok.",
-   "aud": {
-    "It is ddeok.": "audio/int3c_u1/ai/itisddeok.mp3",
-    "I can walk.": "audio/int3c_u7/ai/icanwalk.mp3",
-    "There are no tigers.": "audio/int3c_u6/ai/therearenotigers.mp3"
-   }
   }
  ],
  "words": [

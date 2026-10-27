@@ -7,6 +7,117 @@
  "lineAudio": "audio/int3c_u8/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u8/{v}/itistwelveoclock.mp3",
+   "answer": [
+    "It",
+    "is",
+    "twelve",
+    "o'clock."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u8/{v}/itisoneoclock.mp3",
+   "answer": "It is one o'clock.",
+   "choices": [
+    "It is one o'clock.",
+    "It is twelve o'clock.",
+    "It is two o'clock."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What time is it?",
+    "audio": "../packs/int3c_u8/audio/{v}/whattimeisit.mp3"
+   },
+   "choices": [
+    "It is twelve o'clock.",
+    "It is eight o'clock.",
+    "Warmer please."
+   ],
+   "answer": "It is eight o'clock.",
+   "pic": "../packs/int3c_u8/eight.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u8/audio/{v}/whattimeisit.mp3",
+   "answer": [
+    "What",
+    "time",
+    "is",
+    "it?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u8/{v}/itistwooclock.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "o'clock",
+    "."
+   ],
+   "answer": "two",
+   "choices": [
+    "two",
+    "five",
+    "o'clock"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u8/{v}/itiseightoclock.mp3",
+   "answer": "It is eight o'clock.",
+   "choices": [
+    "It is eight o'clock.",
+    "It is seven o'clock.",
+    "It is six o'clock."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u8/audio/{v}/itissevenoclock.mp3",
+   "answer": [
+    "It",
+    "is",
+    "seven",
+    "o'clock."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What time is it?",
+    "audio": "../packs/int3c_u8/audio/{v}/whattimeisit.mp3"
+   },
+   "choices": [
+    "It is one o'clock.",
+    "It is seven o'clock.",
+    "I can study."
+   ],
+   "answer": "It is one o'clock.",
+   "pic": "../packs/int3c_u8/one.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "ten",
@@ -18,132 +129,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "seven",
-   "choices": [
-    "seven",
-    "eight",
-    "nine",
-    "six"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "eight",
-   "choices": [
-    "eight",
-    "one",
-    "five",
-    "ten"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "one",
-   "answer": "one",
-   "choices": [
-    "one",
-    "onep",
-    "onem",
-    "onea"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "five",
-   "answer": "five",
-   "choices": [
-    "five",
-    "fiv",
-    "fove",
-    "fise"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "two",
-   "audio": "audio/int3c_u8/{v}/itistwooclock.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u8/{v}/itiselevenoclock.mp3",
    "answer": [
     "It",
     "is",
-    "two",
+    "eleven",
     "o'clock."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "six",
-   "audio": "audio/int3c_u8/{v}/itissixoclock.mp3",
-   "answer": [
-    "It",
-    "is",
-    "six",
-    "o'clock."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nine",
-   "audio": "audio/int3c_u8/{v}/itisnineoclock.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "o'clock."
-   ],
-   "answer": "nine",
-   "choices": [
-    "nine",
-    "six",
-    "ten"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "six",
-   "audio": "audio/int3c_u8/{v}/itissixoclock.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "o'clock."
-   ],
-   "answer": "six",
-   "choices": [
-    "six",
-    "nine",
-    "two"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "seven",
-   "audio": "../packs/int3c_u8/audio/{v}/itissevenoclock.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "o'clock."
-   ],
-   "answer": "seven",
-   "choices": [
-    "seven",
-    "six",
-    "ten"
    ]
   }
  ],
@@ -503,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -7,26 +7,118 @@
  "lineAudio": "audio/int3a_u8/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "family",
-   "choices": [
-    "family",
-    "sing",
-    "eighteen",
-    "eleven"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u8/{v}/igotohanaschool.mp3",
+   "answer": [
+    "I",
+    "go",
+    "to",
+    "Hana",
+    "School."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "sing",
+   "audio": "audio/int3a_u8/{v}/thisismyintroduction.mp3",
+   "answer": "This is my introduction.",
    "choices": [
-    "sing",
-    "draw",
-    "school",
-    "eighteen"
+    "This is my introduction.",
+    "My brother is eighteen.",
+    "I love my family."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where are you from?",
+    "audio": "../packs/int3a_u8/audio/{v}/whereareyoufrom.mp3"
+   },
+   "choices": [
+    "I am from Seoul.",
+    "I am eleven years old.",
+    "Wear socks."
+   ],
+   "answer": "I am from Seoul."
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3a_u8/audio/{v}/whereareyoufrom.mp3",
+   "answer": [
+    "Where",
+    "are",
+    "you",
+    "from?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u8/{v}/therearefourpeopleinmyfamily.mp3",
+   "sentence": [
+    "There",
+    "are",
+    "four",
+    "___",
+    "in",
+    "my",
+    "family",
+    "."
+   ],
+   "answer": "people",
+   "choices": [
+    "people",
+    "eleven",
+    "draw"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u8/{v}/ilovemyfamily.mp3",
+   "answer": "I love my family.",
+   "choices": [
+    "I love my family.",
+    "There are four people in my family.",
+    "I like to draw."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u8/{v}/ihaveadog.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "dog."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Do you have a pet?",
+    "audio": "audio/int3a_u8/{v}/doyouhaveapet.mp3"
+   },
+   "choices": [
+    "Yes. I like to sing.",
+    "Yes. I have a dog.",
+    "I have a cold."
+   ],
+   "answer": "Yes. I have a dog.",
+   "pic": "../packs/int3a_u8/dog.jpg"
   },
   {
    "type": "listen",
@@ -40,112 +132,16 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sing",
-   "answer": "sing",
-   "choices": [
-    "sing",
-    "sinb",
-    "sng",
-    "sang"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "eighteen",
-   "answer": "eighteen",
-   "choices": [
-    "eighteen",
-    "eghteen",
-    "oighteen",
-    "eigtteen"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "music",
-   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u8/ai/yesiliketosing.mp3",
    "answer": [
+    "Yes.",
     "I",
     "like",
-    "music."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "eleven",
-   "audio": "audio/int3a_u8/{v}/iamelevenyearsold.mp3",
-   "answer": [
-    "I",
-    "am",
-    "eleven",
-    "years",
-    "old."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3a_u8/{v}/thisismyintroduction.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "introduction",
-   "choices": [
-    "introduction",
-    "eleven",
-    "sing"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "family",
-   "audio": "audio/int3a_u8/{v}/ilovemyfamily.mp3",
-   "sentence": [
-    "I",
-    "love",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "family",
-   "choices": [
-    "family",
-    "draw",
-    "school"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "music",
-   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
-   "sentence": [
-    "I",
-    "like",
-    "___",
-    "."
-   ],
-   "answer": "music",
-   "choices": [
-    "music",
-    "eleven",
-    "introduction"
+    "to",
+    "sing."
    ]
   }
  ],
@@ -505,10 +501,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

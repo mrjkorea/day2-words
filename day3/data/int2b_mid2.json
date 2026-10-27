@@ -14,155 +14,125 @@
  "lineAudio": "audio/int2b_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "outside",
-   "choices": [
-    "outside",
-    "across",
-    "nextto",
-    "transitcard"
-   ],
-   "unit": "int2b_u7"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "science",
-   "audio": "audio/int2b_u6/{v}/thisismyscienceteacher.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2b_u5/audio/{v}/ishetall.mp3",
    "answer": [
-    "This",
-    "is",
-    "my",
-    "science",
-    "teacher."
-   ],
-   "unit": "int2b_u6"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "hers",
-   "audio": "audio/int2b_u8/{v}/itishers.mp3",
-   "answer": [
-    "It",
-    "is",
-    "hers."
-   ],
-   "unit": "int2b_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "science",
-   "answer": "science",
-   "choices": [
-    "science",
-    "sciense",
-    "scionce",
-    "scienc"
-   ],
-   "unit": "int2b_u6"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "short",
-   "answer": "short",
-   "choices": [
-    "short",
-    "sport",
-    "lhort",
-    "shot"
+    "Is",
+    "he",
+    "tall?"
    ],
    "unit": "int2b_u5"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hers",
-   "answer": "hers",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u7/{v}/itisacrossthestreet.mp3",
+   "answer": "It is across the street.",
    "choices": [
-    "hers",
-    "hrs",
-    "rers",
-    "heps"
-   ],
-   "unit": "int2b_u8"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "pencilcase",
-   "audio": "audio/int2b_u7/{v}/itisinmypencilcase.mp3",
-   "answer": [
-    "It",
-    "is",
-    "in",
-    "my",
-    "pencil",
-    "case."
+    "It is across the street.",
+    "It is behind the desk.",
+    "It is between the books."
    ],
    "unit": "int2b_u7"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2b_u6",
    "q": {
-    "text": "Who is this?",
-    "audio": "audio/int2b_u6/{v}/whoisthis.mp3"
+    "text": "What does he look like?",
+    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
    },
-   "pic": "../packs/int2b_u6/math.jpg",
    "choices": [
-    "This is my math teacher.",
-    "It is breakfast time.",
-    "It is in my pencil case.",
-    "It is about five hundred won."
+    "He is ugly.",
+    "He is fat.",
+    "It is a gayageum."
    ],
-   "answer": "This is my math teacher.",
-   "aud": {
-    "This is my math teacher.": "audio/int2b_u6/ai/thisismymathteacher.mp3",
-    "It is breakfast time.": "audio/int2b_u2/ai/itisbreakfasttime.mp3",
-    "It is in my pencil case.": "audio/int2b_u7/ai/itisinmypencilcase.mp3",
-    "It is about five hundred won.": "audio/int2b_u4/ai/itisaboutfivehundredwon.mp3"
-   }
+   "answer": "He is ugly.",
+   "unit": "int2b_u5",
+   "pic": "../packs/int2b_u5/ugly.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2b_u6/audio/{v}/thisismymathteacher.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "math",
+    "teacher."
+   ],
+   "unit": "int2b_u6"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "yours",
-   "audio": "audio/int2b_u8/{v}/itisyours.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u6/{v}/thisismyartteacher.mp3",
    "sentence": [
-    "It",
+    "This",
     "is",
+    "my",
     "___",
+    "teacher",
     "."
    ],
-   "answer": "yours",
+   "answer": "art",
    "choices": [
-    "yours",
-    "hers",
-    "his"
+    "art",
+    "science",
+    "teacher"
+   ],
+   "unit": "int2b_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u8/{v}/itisyours.mp3",
+   "answer": "It is yours.",
+   "choices": [
+    "It is yours.",
+    "It is not yours. It is mine.",
+    "It is ours."
    ],
    "unit": "int2b_u8"
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "math",
-   "choices": [
-    "math",
-    "english",
-    "art",
-    "socialstudies"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u7/{v}/itisinmypocket.mp3",
+   "answer": [
+    "It",
+    "is",
+    "in",
+    "my",
+    "pocket."
    ],
-   "unit": "int2b_u6"
+   "unit": "int2b_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2b_u6/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "This is my Korean teacher.",
+    "This is my science teacher.",
+    "It is a flute."
+   ],
+   "answer": "This is my Korean teacher.",
+   "unit": "int2b_u6",
+   "pic": "../packs/int2b_u6/korean.jpg"
   },
   {
    "type": "listen",
@@ -177,93 +147,93 @@
    "unit": "int2b_u5"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "under",
-   "audio": "audio/int2b_u7/{v}/itisunderthedesk.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u8/{v}/itishis.mp3",
+   "answer": [
     "It",
     "is",
-    "___",
-    "the",
-    "desk."
+    "his."
    ],
-   "answer": "under",
-   "choices": [
-    "under",
-    "outside",
-    "across"
-   ],
-   "unit": "int2b_u7"
+   "unit": "int2b_u8"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2b_u5",
-   "q": {
-    "text": "What does he look like?",
-    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
-   },
-   "pic": "../packs/int2b_u5/tall.jpg",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u5/{v}/heisold.mp3",
+   "answer": "He is old.",
    "choices": [
+    "He is old.",
     "He is tall.",
-    "It is Sunday.",
-    "It is in my pocket.",
-    "I want to be an English teacher."
+    "Is he tall?"
    ],
-   "answer": "He is tall.",
-   "aud": {
-    "He is tall.": "audio/int2b_u5/ai/heistall.mp3",
-    "It is Sunday.": "audio/int2b_u1/ai/itissunday.mp3",
-    "It is in my pocket.": "audio/int2b_u7/ai/itisinmypocket.mp3",
-    "I want to be an English teacher.": "audio/int2b_u3/ai/iwanttobeanenglishteacher.mp3"
-   }
+   "unit": "int2b_u5"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int2b_u7",
    "q": {
     "text": "Where is it?",
     "audio": "audio/int2b_u7/{v}/whereisit.mp3"
    },
-   "pic": "../packs/int2b_u7/under.jpg",
    "choices": [
     "It is under the desk.",
-    "It is Wednesday.",
-    "He is thin.",
-    "I want to be a food critic."
+    "It is in my pocket.",
+    "Let's play on the seesaw."
    ],
    "answer": "It is under the desk.",
-   "aud": {
-    "It is under the desk.": "audio/int2b_u7/ai/itisunderthedesk.mp3",
-    "It is Wednesday.": "audio/int2b_u1/ai/itiswednesday.mp3",
-    "He is thin.": "audio/int2b_u5/ai/heisthin.mp3",
-    "I want to be a food critic.": "audio/int2b_u3/ai/iwanttobeafoodcritic.mp3"
-   }
+   "unit": "int2b_u7",
+   "pic": "../packs/int2b_u7/under.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u5/{v}/heisthin.mp3",
+   "answer": [
+    "He",
+    "is",
+    "thin."
+   ],
+   "unit": "int2b_u5"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "thin",
-   "audio": "audio/int2b_u5/{v}/heisthin.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u7/{v}/itisinmypencilcase.mp3",
    "sentence": [
-    "He",
+    "It",
     "is",
+    "in",
+    "my",
     "___",
     "."
    ],
-   "answer": "thin",
+   "answer": "pencil case",
    "choices": [
-    "thin",
-    "good-looking",
-    "rich"
+    "pencil case",
+    "under",
+    "pocket"
    ],
-   "unit": "int2b_u5"
+   "unit": "int2b_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u6/{v}/thisismyartteacher.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "art",
+    "teacher."
+   ],
+   "unit": "int2b_u6"
   }
  ],
  "words": [

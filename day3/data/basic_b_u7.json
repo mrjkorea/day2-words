@@ -7,15 +7,111 @@
  "lineAudio": "audio/basic_b_u7/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "brown",
-   "choices": [
-    "brown",
-    "orange",
-    "red",
-    "rainbow"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u7/{v}/itisblue.mp3",
+   "answer": [
+    "It",
+    "is",
+    "blue."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u7/{v}/itiswhite.mp3",
+   "answer": "It is white.",
+   "choices": [
+    "It is white.",
+    "It is a rainbow.",
+    "It is red."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "choices": [
+    "It is black.",
+    "It is white.",
+    "This is soft."
+   ],
+   "answer": "It is black.",
+   "pic": "../packs/basic_b_u7/black.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u7/{v}/itisgreen.mp3",
+   "answer": [
+    "It",
+    "is",
+    "green."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u7/{v}/itisyellow.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "yellow",
+   "choices": [
+    "yellow",
+    "green",
+    "blue"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u7/{v}/itisyellow.mp3",
+   "answer": "It is yellow.",
+   "choices": [
+    "It is yellow.",
+    "It is a rainbow.",
+    "It is green."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_b_u7/audio/{v}/itisred.mp3",
+   "answer": [
+    "It",
+    "is",
+    "red."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "choices": [
+    "It is red.",
+    "It is brown.",
+    "This is bad."
+   ],
+   "answer": "It is red.",
+   "pic": "../packs/basic_b_u7/red.jpg"
   },
   {
    "type": "listen",
@@ -29,119 +125,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "red",
-   "choices": [
-    "red",
-    "black",
-    "orange",
-    "purple"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "white",
-   "answer": "white",
-   "choices": [
-    "white",
-    "whute",
-    "wite",
-    "wlite"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "brown",
-   "answer": "brown",
-   "choices": [
-    "brown",
-    "brow",
-    "bown",
-    "brwn"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "green",
-   "audio": "audio/basic_b_u7/{v}/itisgreen.mp3",
-   "answer": [
-    "It",
-    "is",
-    "green."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "purple",
-   "audio": "audio/basic_b_u7/{v}/itispurple.mp3",
-   "answer": [
-    "It",
-    "is",
-    "purple."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "orange",
-   "audio": "audio/basic_b_u7/{v}/itisorange.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "orange",
-   "choices": [
-    "orange",
-    "green",
-    "yellow"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "red",
-   "audio": "../packs/basic_b_u7/audio/{v}/itisred.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "red",
-   "choices": [
-    "red",
-    "brown",
-    "white"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "brown",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_b_u7/{v}/itisbrown.mp3",
-   "sentence": [
+   "answer": [
     "It",
     "is",
-    "___",
-    "."
-   ],
-   "answer": "brown",
-   "choices": [
-    "brown",
-    "yellow",
-    "black"
+    "brown."
    ]
   }
  ],
@@ -578,10 +569,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -7,26 +7,119 @@
  "lineAudio": "audio/basic_c_u2/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "shoes",
-   "choices": [
-    "shoes",
-    "coat",
-    "hat",
-    "earphones"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_c_u2/audio/{v}/lookatmynewhat.mp3",
+   "answer": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "hat."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "earphones",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewbag.mp3",
+   "answer": "Look at my new bag.",
    "choices": [
-    "earphones",
-    "shoes",
-    "hat",
-    "watch"
+    "Look at my new bag.",
+    "Look at my new computer.",
+    "Look at my new shoes."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is new?",
+    "audio": "audio/basic_c_u2/{v}/whatisnew.mp3"
+   },
+   "choices": [
+    "Look at my new coat.",
+    "Look at my new hat.",
+    "Be quiet, please."
+   ],
+   "answer": "Look at my new coat.",
+   "pic": "../packs/basic_c_u2/coat.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewshoes.mp3",
+   "answer": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "shoes."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewphone.mp3",
+   "sentence": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "phone",
+   "choices": [
+    "phone",
+    "shoes",
+    "computer"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u2/{v}/lookatme.mp3",
+   "answer": "Look at me.",
+   "choices": [
+    "Look at me.",
+    "Look at my new phone.",
+    "Look at my new coat."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewphone.mp3",
+   "answer": [
+    "Look",
+    "at",
+    "my",
+    "new",
+    "phone."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is new?",
+    "audio": "audio/basic_c_u2/{v}/whatisnew.mp3"
+   },
+   "choices": [
+    "Look at my new earphones.",
+    "Look at my new computer.",
+    "I have a pencil."
+   ],
+   "answer": "Look at my new computer.",
+   "pic": "../packs/basic_c_u2/computer.jpg"
   },
   {
    "type": "listen",
@@ -40,117 +133,16 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hat",
-   "answer": "hat",
-   "choices": [
-    "hat",
-    "hato",
-    "hit",
-    "hatb"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "coat",
-   "answer": "coat",
-   "choices": [
-    "coat",
-    "poat",
-    "cat",
-    "coa"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "phone",
-   "audio": "audio/basic_c_u2/{v}/lookatmynewphone.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewearphones.mp3",
    "answer": [
     "Look",
     "at",
     "my",
     "new",
-    "phone."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "computer",
-   "audio": "audio/basic_c_u2/{v}/lookatmynewcomputer.mp3",
-   "answer": [
-    "Look",
-    "at",
-    "my",
-    "new",
-    "computer."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "coat",
-   "audio": "audio/basic_c_u2/{v}/lookatmynewcoat.mp3",
-   "sentence": [
-    "Look",
-    "at",
-    "my",
-    "new",
-    "___",
-    "."
-   ],
-   "answer": "coat",
-   "choices": [
-    "coat",
-    "bag",
-    "computer"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "watch",
-   "audio": "audio/basic_c_u2/{v}/lookatmynewwatch.mp3",
-   "sentence": [
-    "Look",
-    "at",
-    "my",
-    "new",
-    "___",
-    "."
-   ],
-   "answer": "watch",
-   "choices": [
-    "watch",
-    "bag",
-    "phone"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/basic_c_u2/{v}/mybagisnew.mp3",
-   "sentence": [
-    "My",
-    "bag",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "new",
-   "choices": [
-    "new",
-    "phone",
-    "coat"
+    "earphones."
    ]
   }
  ],
@@ -510,10 +502,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

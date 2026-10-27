@@ -7,26 +7,115 @@
  "lineAudio": "audio/int2a_u8/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "martialarts",
-   "choices": [
-    "martialarts",
-    "watch",
-    "piano",
-    "soccer"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u8/{v}/ipracticetaekwondo.mp3",
+   "answer": [
+    "I",
+    "practice",
+    "taekwondo."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "piano",
+   "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
+   "answer": "I watch TV.",
    "choices": [
-    "piano",
-    "watch",
-    "martialarts",
-    "soccer"
+    "I watch TV.",
+    "I practice taekwondo.",
+    "I play soccer."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you do after school?",
+    "audio": "../packs/int2a_u8/audio/{v}/whatdoyoudoafterschool.mp3"
+   },
+   "choices": [
+    "I sing songs.",
+    "I play the piano.",
+    "One year has twelve months."
+   ],
+   "answer": "I sing songs.",
+   "pic": "../packs/int2a_u8/sing.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2a_u8/audio/{v}/whatdoyoudoafterschool.mp3",
+   "answer": [
+    "What",
+    "do",
+    "you",
+    "do",
+    "after",
+    "school?"
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/int2a_u8/audio/{v}/iplaysoccer.mp3",
+   "sentence": [
+    "I",
+    "play",
+    "___",
+    "."
+   ],
+   "answer": "soccer",
+   "choices": [
+    "soccer",
+    "little brother",
+    "sing"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int2a_u8/audio/{v}/iplaysoccer.mp3",
+   "answer": "I play soccer.",
+   "choices": [
+    "I play soccer.",
+    "I play the piano.",
+    "I play games."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u8/{v}/ipracticemartialarts.mp3",
+   "answer": [
+    "I",
+    "practice",
+    "martial",
+    "arts."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you do after school?",
+    "audio": "../packs/int2a_u8/audio/{v}/whatdoyoudoafterschool.mp3"
+   },
+   "choices": [
+    "I play with my little brother.",
+    "I relax at home.",
+    "Slower please."
+   ],
+   "answer": "I play with my little brother.",
+   "pic": "../packs/int2a_u8/littlebrother.jpg"
   },
   {
    "type": "listen",
@@ -40,111 +129,15 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "soccer",
-   "answer": "soccer",
-   "choices": [
-    "soccer",
-    "sccer",
-    "socer",
-    "sopcer"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sing",
-   "answer": "sing",
-   "choices": [
-    "sing",
-    "sin",
-    "ing",
-    "ding"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "watch",
-   "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u8/{v}/irelaxathome.mp3",
    "answer": [
     "I",
-    "watch",
-    "TV."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "littlebrother",
-   "audio": "audio/int2a_u8/{v}/iplaywithmylittlebrother.mp3",
-   "answer": [
-    "I",
-    "play",
-    "with",
-    "my",
-    "little",
-    "brother."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "watch",
-   "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
-   "sentence": [
-    "I",
-    "___",
-    "TV."
-   ],
-   "answer": "watch",
-   "choices": [
-    "watch",
-    "sing",
-    "relax"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "piano",
-   "audio": "audio/int2a_u8/{v}/iplaythepiano.mp3",
-   "sentence": [
-    "I",
-    "play",
-    "the",
-    "___",
-    "."
-   ],
-   "answer": "piano",
-   "choices": [
-    "piano",
-    "play",
-    "watch"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2a_u8/{v}/iridemybike.mp3",
-   "sentence": [
-    "I",
-    "___",
-    "my",
-    "bike."
-   ],
-   "answer": "ride",
-   "choices": [
-    "ride",
-    "play",
-    "soccer"
+    "relax",
+    "at",
+    "home."
    ]
   }
  ],
@@ -504,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

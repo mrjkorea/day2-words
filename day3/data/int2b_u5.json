@@ -7,6 +7,113 @@
  "lineAudio": "audio/int2b_u5/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2b_u5/audio/{v}/ishetall.mp3",
+   "answer": [
+    "Is",
+    "he",
+    "tall?"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u5/{v}/heisyoung.mp3",
+   "answer": "He is young.",
+   "choices": [
+    "He is young.",
+    "Is he tall?",
+    "He is smart."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What does he look like?",
+    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
+   },
+   "choices": [
+    "He is old.",
+    "He is ugly.",
+    "It is a violin."
+   ],
+   "answer": "He is old.",
+   "pic": "../packs/int2b_u5/old.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u5/{v}/heissmart.mp3",
+   "answer": [
+    "He",
+    "is",
+    "smart."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2b_u5/{v}/heisshort.mp3",
+   "sentence": [
+    "He",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "short",
+   "choices": [
+    "short",
+    "thin",
+    "smart"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u5/{v}/heisthin.mp3",
+   "answer": "He is thin.",
+   "choices": [
+    "He is thin.",
+    "He is rich.",
+    "He is young."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u5/{v}/heisrich.mp3",
+   "answer": [
+    "He",
+    "is",
+    "rich."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What does he look like?",
+    "audio": "audio/int2b_u5/{v}/whatdoeshelooklike.mp3"
+   },
+   "choices": [
+    "He is good-looking.",
+    "He is tall.",
+    "It is a violin."
+   ],
+   "answer": "He is tall.",
+   "pic": "../packs/int2b_u5/tall.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "old",
@@ -18,130 +125,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "tall",
-   "choices": [
-    "tall",
-    "goodlooking",
-    "fat",
-    "old"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "ugly",
-   "choices": [
-    "ugly",
-    "young",
-    "short",
-    "fat"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "short",
-   "answer": "short",
-   "choices": [
-    "short",
-    "sport",
-    "lhort",
-    "shot"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "rich",
-   "answer": "rich",
-   "choices": [
-    "rich",
-    "rch",
-    "roch",
-    "rikh"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "goodlooking",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2b_u5/{v}/heisgoodlooking.mp3",
    "answer": [
     "He",
     "is",
     "good-looking."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "thin",
-   "audio": "audio/int2b_u5/{v}/heisthin.mp3",
-   "answer": [
-    "He",
-    "is",
-    "thin."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "thin",
-   "audio": "audio/int2b_u5/{v}/heisthin.mp3",
-   "sentence": [
-    "He",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "thin",
-   "choices": [
-    "thin",
-    "good-looking",
-    "rich"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "tall",
-   "audio": "audio/int2b_u5/{v}/heistall.mp3",
-   "sentence": [
-    "He",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "tall",
-   "choices": [
-    "tall",
-    "short",
-    "thin"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "old",
-   "audio": "audio/int2b_u5/{v}/heisold.mp3",
-   "sentence": [
-    "He",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "old",
-   "choices": [
-    "old",
-    "good-looking",
-    "fat"
    ]
   }
  ],
@@ -501,10 +492,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

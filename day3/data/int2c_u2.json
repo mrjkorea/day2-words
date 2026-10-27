@@ -7,6 +7,116 @@
  "lineAudio": "audio/int2c_u2/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u2/{v}/myteethareclean.mp3",
+   "answer": [
+    "My",
+    "teeth",
+    "are",
+    "clean."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u2/{v}/iamplayinggo.mp3",
+   "answer": "I am playing Go.",
+   "choices": [
+    "I am playing Go.",
+    "I am making kimchi.",
+    "I am bowing."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What are you doing?",
+    "audio": "../packs/int2c_u2/audio/{v}/whatareyoudoing.mp3"
+   },
+   "choices": [
+    "I am taking a picture.",
+    "I am brushing my teeth.",
+    "Clean up your room!"
+   ],
+   "answer": "I am taking a picture.",
+   "pic": "../packs/int2c_u2/picture.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u2/{v}/iammakingkimchi.mp3",
+   "answer": [
+    "I",
+    "am",
+    "making",
+    "kimchi."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u2/audio/{v}/iamfishing.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "."
+   ],
+   "answer": "fishing",
+   "choices": [
+    "fishing",
+    "fruit",
+    "teeth"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u2/{v}/iambrushingmyteeth.mp3",
+   "answer": "I am brushing my teeth.",
+   "choices": [
+    "I am brushing my teeth.",
+    "I am eating fruit.",
+    "I am washing vegetables."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u2/{v}/iamwashingvegetables.mp3",
+   "answer": [
+    "I",
+    "am",
+    "washing",
+    "vegetables."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What are you doing?",
+    "audio": "../packs/int2c_u2/audio/{v}/whatareyoudoing.mp3"
+   },
+   "choices": [
+    "I am playing Go.",
+    "I am making kimchi.",
+    "I want a blanket."
+   ],
+   "answer": "I am playing Go.",
+   "pic": "../packs/int2c_u2/go.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "fruit",
@@ -18,135 +128,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "fishing",
-   "choices": [
-    "fishing",
-    "bow",
-    "vegetable",
-    "picture"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "brush",
-   "choices": [
-    "brush",
-    "bow",
-    "vegetable",
-    "fruit"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "vegetable",
-   "answer": "vegetable",
-   "choices": [
-    "vegetable",
-    "vugetable",
-    "vegetalle",
-    "vegeteble"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fishing",
-   "answer": "fishing",
-   "choices": [
-    "fishing",
-    "rishing",
-    "fshing",
-    "fishinb"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "picture",
-   "audio": "audio/int2c_u2/{v}/iamtakingapicture.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u2/audio/{v}/iamfishing.mp3",
    "answer": [
     "I",
     "am",
-    "taking",
-    "a",
-    "picture."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u2/{v}/myteethareclean.mp3",
-   "answer": [
-    "My",
-    "teeth",
-    "are",
-    "clean."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "fruit",
-   "audio": "audio/int2c_u2/{v}/iameatingfruit.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "eating",
-    "___",
-    "."
-   ],
-   "answer": "fruit",
-   "choices": [
-    "fruit",
-    "bow",
-    "picture"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int2c_u2/{v}/myteethareclean.mp3",
-   "sentence": [
-    "My",
-    "___",
-    "are",
-    "clean."
-   ],
-   "answer": "teeth",
-   "choices": [
-    "teeth",
-    "fishing",
-    "Go"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "kimchi",
-   "audio": "audio/int2c_u2/{v}/iammakingkimchi.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "making",
-    "___",
-    "."
-   ],
-   "answer": "kimchi",
-   "choices": [
-    "kimchi",
-    "vegetable",
-    "bow"
+    "fishing."
    ]
   }
  ],
@@ -506,10 +495,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

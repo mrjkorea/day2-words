@@ -7,6 +7,118 @@
  "lineAudio": "audio/basic_c_u1/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u1/{v}/ilovemycat.mp3",
+   "answer": [
+    "I",
+    "love",
+    "my",
+    "cat."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u1/{v}/ilovemyfish.mp3",
+   "answer": "I love my fish.",
+   "choices": [
+    "I love my fish.",
+    "I love my beetle.",
+    "I love my rabbit."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What pet do you love?",
+    "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
+   },
+   "choices": [
+    "I love my beetle.",
+    "I love my fish.",
+    "I can draw a monster."
+   ],
+   "answer": "I love my fish.",
+   "pic": "../packs/basic_c_u1/fish.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u1/{v}/ilovemybird.mp3",
+   "answer": [
+    "I",
+    "love",
+    "my",
+    "bird."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u1/{v}/ilovemyhamster.mp3",
+   "sentence": [
+    "I",
+    "love",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "hamster",
+   "choices": [
+    "hamster",
+    "beetle",
+    "snake"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u1/{v}/ilovemyhamster.mp3",
+   "answer": "I love my hamster.",
+   "choices": [
+    "I love my hamster.",
+    "I love my family.",
+    "I love my beetle."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_c_u1/audio/{v}/ilovemydogzoey.mp3",
+   "answer": [
+    "I",
+    "love",
+    "my",
+    "dog",
+    "Zoey."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What pet do you love?",
+    "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
+   },
+   "choices": [
+    "I love my hamster.",
+    "I love my rabbit.",
+    "Turn around!"
+   ],
+   "answer": "I love my hamster.",
+   "pic": "../packs/basic_c_u1/hamster.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "snake",
@@ -18,134 +130,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "cat",
-   "choices": [
-    "cat",
-    "bird",
-    "beetle",
-    "fish"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "fish",
-   "choices": [
-    "fish",
-    "hamster",
-    "cat",
-    "rabbit"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "bird",
-   "answer": "bird",
-   "choices": [
-    "bird",
-    "berd",
-    "ird",
-    "bir"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cat",
-   "answer": "cat",
-   "choices": [
-    "cat",
-    "cati",
-    "catp",
-    "cot"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "snake",
-   "audio": "audio/basic_c_u1/{v}/ilovemysnake.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u1/{v}/ilovemydog.mp3",
    "answer": [
     "I",
     "love",
     "my",
-    "snake."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "turtle",
-   "audio": "audio/basic_c_u1/{v}/ilovemyturtle.mp3",
-   "answer": [
-    "I",
-    "love",
-    "my",
-    "turtle."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "snake",
-   "audio": "audio/basic_c_u1/{v}/ilovemysnake.mp3",
-   "sentence": [
-    "I",
-    "love",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "snake",
-   "choices": [
-    "snake",
-    "love",
-    "dog"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/basic_c_u1/{v}/ilovemyfamily.mp3",
-   "sentence": [
-    "I",
-    "___",
-    "my",
-    "family."
-   ],
-   "answer": "love",
-   "choices": [
-    "love",
-    "rabbit",
-    "fish"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "rabbit",
-   "audio": "audio/basic_c_u1/{v}/ilovemyrabbit.mp3",
-   "sentence": [
-    "I",
-    "love",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "rabbit",
-   "choices": [
-    "rabbit",
-    "hamster",
-    "fish"
+    "dog."
    ]
   }
  ],
@@ -575,10 +568,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

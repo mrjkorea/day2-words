@@ -7,15 +7,112 @@
  "lineAudio": "audio/basic_a_u4/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "wait",
-   "choices": [
-    "wait",
-    "quiet",
-    "pardon",
-    "tomorrow"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/{v}/sitdownplease.mp3",
+   "answer": [
+    "Sit",
+    "down,",
+    "please."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u4/{v}/goodjob.mp3",
+   "answer": "Good job!",
+   "choices": [
+    "Good job!",
+    "Good afternoon.",
+    "Good night, teacher."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Be quiet, please.",
+    "audio": "audio/basic_a_u4/{v}/bequietplease.mp3"
+   },
+   "choices": [
+    "I am sorry.",
+    "Thank you very much.",
+    "No. I do not understand."
+   ],
+   "answer": "I am sorry.",
+   "pic": "../packs/basic_a_u4/quiet.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/ai/goodafternoonteacher.mp3",
+   "answer": [
+    "Good",
+    "afternoon,",
+    "teacher."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/{v}/bequietplease.mp3",
+   "sentence": [
+    "Be",
+    "___",
+    ",",
+    "please",
+    "."
+   ],
+   "answer": "quiet",
+   "choices": [
+    "quiet",
+    "tomorrow",
+    "sorry"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u4/ai/yesicanhelpyou.mp3",
+   "answer": "Yes, I can help you.",
+   "choices": [
+    "Yes, I can help you.",
+    "Yes, I can dance.",
+    "I am sorry."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/{v}/seeyoulater.mp3",
+   "answer": [
+    "See",
+    "you",
+    "later."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Good afternoon.",
+    "audio": "audio/basic_a_u4/{v}/goodafternoon.mp3"
+   },
+   "choices": [
+    "Good afternoon, teacher.",
+    "Good night, teacher.",
+    "I can draw a star."
+   ],
+   "answer": "Good afternoon, teacher.",
+   "pic": "../packs/basic_a_u4/afternoon.jpg"
   },
   {
    "type": "listen",
@@ -29,116 +126,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "pardon",
-   "choices": [
-    "pardon",
-    "quiet",
-    "wait",
-    "tomorrow"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "afternoon",
-   "answer": "afternoon",
-   "choices": [
-    "afternoon",
-    "aftertoon",
-    "aftercoon",
-    "afturnoon"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "quiet",
-   "answer": "quiet",
-   "choices": [
-    "quiet",
-    "quiot",
-    "uiet",
-    "quiit"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "wait",
-   "audio": "audio/basic_a_u4/{v}/waitaminute.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/{v}/bequietplease.mp3",
    "answer": [
-    "Wait",
-    "a",
-    "minute."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "sorry",
-   "audio": "audio/basic_a_u4/{v}/iamsorry.mp3",
-   "answer": [
-    "I",
-    "am",
-    "sorry."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "wait",
-   "audio": "audio/basic_a_u4/{v}/waitaminute.mp3",
-   "sentence": [
-    "___",
-    "a",
-    "minute."
-   ],
-   "answer": "Wait",
-   "choices": [
-    "Wait",
-    "Good",
-    "Pardon"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "help",
-   "audio": "audio/basic_a_u4/{v}/helpmeplease.mp3",
-   "sentence": [
-    "___",
-    "me,",
+    "Be",
+    "quiet,",
     "please."
-   ],
-   "answer": "Help",
-   "choices": [
-    "Help",
-    "Wait",
-    "Sorry"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "afternoon",
-   "audio": "audio/basic_a_u4/{v}/goodafternoon.mp3",
-   "sentence": [
-    "Good",
-    "___",
-    "."
-   ],
-   "answer": "afternoon",
-   "choices": [
-    "afternoon",
-    "wait",
-    "please"
    ]
   }
  ],
@@ -498,10 +493,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

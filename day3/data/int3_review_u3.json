@@ -16,63 +16,66 @@
  "lineAudio": "audio/int3a_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "ivy",
-   "choices": [
-    "ivy",
-    "iris",
-    "mike",
-    "hunter"
-   ],
-   "unit": "int3a_u6"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "silkworm",
-   "answer": "silkworm",
-   "choices": [
-    "silkworm",
-    "slkworm",
-    "silkwork",
-    "silpworm"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisaspider.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "spider."
    ],
    "unit": "int3a_u5"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "butterfly",
+   "audio": "audio/int3b_u5/{v}/putitdownplease.mp3",
+   "answer": "Put it down, please!",
    "choices": [
-    "butterfly",
-    "mosquito",
-    "silkworm",
-    "cicada"
+    "Put it down, please!",
+    "Slow down, please!",
+    "Cool down, please!"
    ],
-   "unit": "int3a_u5"
+   "unit": "int3b_u5"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this bug?",
+    "audio": "../packs/int3a_u5/audio/{v}/whatisthisbug.mp3"
+   },
+   "choices": [
+    "It is a cicada.",
+    "It is a butterfly.",
+    "I have my transit card."
+   ],
+   "answer": "It is a butterfly.",
+   "unit": "int3a_u5",
+   "pic": "../packs/int3a_u5/butterfly.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/mynameisivy.mp3",
    "answer": [
-    "I",
-    "will",
-    "yell",
-    "your",
-    "name."
+    "My",
+    "name",
+    "is",
+    "Ivy."
    ],
    "unit": "int3a_u6"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "silkworm",
-   "audio": "audio/int3a_u5/{v}/itisasilkworm.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisacentipede.mp3",
    "sentence": [
     "It",
     "is",
@@ -80,27 +83,56 @@
     "___",
     "."
    ],
-   "answer": "silkworm",
+   "answer": "centipede",
    "choices": [
-    "silkworm",
-    "moth",
-    "bug"
+    "centipede",
+    "cockroach",
+    "mosquito"
    ],
    "unit": "int3a_u5"
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "stingray",
-   "audio": "audio/int3a_u6/{v}/mynameisstingray.mp3",
-   "answer": [
-    "My",
-    "name",
-    "is",
-    "Stingray."
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u6/{v}/theyarelychees.mp3",
+   "answer": "They are lychees.",
+   "choices": [
+    "They are lychees.",
+    "They are lemons.",
+    "They are mangosteens."
    ],
-   "unit": "int3a_u6"
+   "unit": "int3b_u6"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u5/{v}/eatupyourfood.mp3",
+   "answer": [
+    "Eat",
+    "up",
+    "your",
+    "food!"
+   ],
+   "unit": "int3b_u5"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is your name?",
+    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+   },
+   "choices": [
+    "I will yell your name.",
+    "My name is Stingray.",
+    "I have my transit card."
+   ],
+   "answer": "My name is Stingray.",
+   "unit": "int3a_u6",
+   "pic": "../packs/int3a_u6/stingray.jpg"
   },
   {
    "type": "listen",
@@ -115,184 +147,132 @@
    "unit": "int3b_u6"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "putdown",
-   "answer": "put down",
-   "choices": [
-    "put down",
-    "pt down",
-    "put dwn",
-    "ut down"
-   ],
-   "unit": "int3b_u5"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "pineapple",
-   "choices": [
-    "pineapple",
-    "grapefruit",
-    "durian",
-    "lychee"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u6/{v}/theyareapples.mp3",
+   "answer": [
+    "They",
+    "are",
+    "apples."
    ],
    "unit": "int3b_u6"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "hat",
-   "audio": "audio/int3c_u5/{v}/ihaveahat.mp3",
-   "sentence": [
-    "I",
-    "have",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "hat",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u5/{v}/ihaveacup.mp3",
+   "answer": "I have a cup.",
    "choices": [
-    "hat",
-    "pillow",
-    "newspaper"
+    "I have a cup.",
+    "I have a chessboard.",
+    "I have a phone."
    ],
    "unit": "int3c_u5"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "desert",
-   "answer": "desert",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I do?",
+    "audio": "audio/int3b_u5/{v}/whatshouldido.mp3"
+   },
    "choices": [
-    "desert",
-    "deserl",
-    "esert",
-    "deert"
+    "Hurry up, please!",
+    "Cool down, please!",
+    "It is a violin."
    ],
-   "unit": "int3c_u6"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "pencil",
-   "audio": "audio/int3c_u5/{v}/ihaveapencil.mp3",
-   "sentence": [
-    "I",
-    "have",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "pencil",
-   "choices": [
-    "pencil",
-    "phone",
-    "chessboard"
-   ],
-   "unit": "int3c_u5"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "desert",
-   "choices": [
-    "desert",
-    "mountain",
-    "province",
-    "city"
-   ],
-   "unit": "int3c_u6"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "desert",
-   "audio": "audio/int3c_u6/{v}/thereisnodesertinkorea.mp3",
-   "sentence": [
-    "There",
-    "is",
-    "no",
-    "___",
-    "in",
-    "Korea."
-   ],
-   "answer": "desert",
-   "choices": [
-    "desert",
-    "island",
-    "people"
-   ],
-   "unit": "int3c_u6"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "eatup",
-   "choices": [
-    "eatup",
-    "washup",
-    "giveup",
-    "cleanup"
-   ],
-   "unit": "int3b_u5"
+   "answer": "Cool down, please!",
+   "unit": "int3b_u5",
+   "pic": "../packs/int3b_u5/cooldown.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "hurryup",
-   "audio": "audio/int3b_u5/{v}/hurryupplease.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u5/{v}/ihaveapencil.mp3",
    "answer": [
-    "Hurry",
-    "up,",
-    "please!"
-   ],
-   "unit": "int3b_u5"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "../packs/int3b_u6/audio/{v}/whatfruitarethese.mp3",
-   "sentence": [
-    "What",
-    "___",
-    "are",
-    "these?"
-   ],
-   "answer": "fruit",
-   "choices": [
-    "fruit",
-    "mango",
-    "mangosteen"
-   ],
-   "unit": "int3b_u6"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cup",
-   "audio": "audio/int3c_u5/{v}/ihaveacup.mp3",
-   "sentence": [
     "I",
     "have",
     "a",
-    "___",
-    "."
-   ],
-   "answer": "cup",
-   "choices": [
-    "cup",
-    "pillow",
-    "phone"
+    "pencil."
    ],
    "unit": "int3c_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "sentence": [
+    "I",
+    "will",
+    "___",
+    "your",
+    "name",
+    "."
+   ],
+   "answer": "yell",
+   "choices": [
+    "yell",
+    "name",
+    "rose"
+   ],
+   "unit": "int3a_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u6/{v}/koreahasmanyprovinces.mp3",
+   "answer": "Korea has many provinces.",
+   "choices": [
+    "Korea has many provinces.",
+    "There are many cities.",
+    "How many islands are there?"
+   ],
+   "unit": "int3c_u6"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u6/{v}/therearemanymountains.mp3",
+   "answer": [
+    "There",
+    "are",
+    "many",
+    "mountains."
+   ],
+   "unit": "int3c_u6"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisasilkworm.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "silkworm."
+   ],
+   "unit": "int3a_u5"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/mynameisiris.mp3",
+   "answer": [
+    "My",
+    "name",
+    "is",
+    "Iris."
+   ],
+   "unit": "int3a_u6"
   }
  ],
  "words": [

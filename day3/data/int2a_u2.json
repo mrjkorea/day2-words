@@ -7,79 +7,9 @@
  "lineAudio": "audio/int2a_u2/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "spider",
-   "choices": [
-    "spider",
-    "hotel",
-    "ant",
-    "food"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "snake",
-   "choices": [
-    "snake",
-    "monster",
-    "bee",
-    "hotel"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "water",
-   "choices": [
-    "water",
-    "spider",
-    "food",
-    "snake"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hotel",
-   "answer": "hotel",
-   "choices": [
-    "hotel",
-    "hotes",
-    "hocel",
-    "htel"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "ant",
-   "answer": "ant",
-   "choices": [
-    "ant",
-    "antd",
-    "anta",
-    "anti"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "spider",
-   "audio": "audio/int2a_u2/{v}/therearespiders.mp3",
-   "answer": [
-    "There",
-    "are",
-    "spiders!"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "bee",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2a_u2/{v}/therearebees.mp3",
    "answer": [
     "There",
@@ -88,30 +18,48 @@
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "hotel",
-   "audio": "audio/int2a_u2/{v}/thereisahotel.mp3",
-   "sentence": [
-    "There",
-    "is",
-    "a",
-    "___",
-    "!"
-   ],
-   "answer": "hotel",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u2/{v}/therearespiders.mp3",
+   "answer": "There are spiders!",
    "choices": [
-    "hotel",
-    "ant",
-    "washroom"
+    "There are spiders!",
+    "There are ants!",
+    "There are snakes!"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is there?",
+    "audio": "audio/int2a_u2/{v}/whatisthere.mp3"
+   },
+   "choices": [
+    "There are teachers!",
+    "There are ants!",
+    "This is my neck."
+   ],
+   "answer": "There are teachers!",
+   "pic": "../packs/int2a_u2/teacher.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u2/{v}/thereareants.mp3",
+   "answer": [
+    "There",
+    "are",
+    "ants!"
    ]
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "washroom",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int2a_u2/{v}/thereisawashroom.mp3",
    "sentence": [
     "There",
@@ -124,26 +72,69 @@
    "choices": [
     "washroom",
     "food",
-    "bee"
+    "water"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "water",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u2/{v}/thereisahotel.mp3",
+   "answer": "There is a hotel!",
+   "choices": [
+    "There is a hotel!",
+    "There is a washroom!",
+    "There is water!"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2a_u2/{v}/thereiswater.mp3",
-   "sentence": [
+   "answer": [
     "There",
     "is",
-    "___",
-    "!"
+    "water!"
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is there?",
+    "audio": "audio/int2a_u2/{v}/whatisthere.mp3"
+   },
+   "choices": [
+    "There is water!",
+    "There are snakes!",
+    "This is my mouth."
    ],
+   "answer": "There is water!",
+   "pic": "../packs/int2a_u2/water.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
    "answer": "water",
    "choices": [
     "water",
-    "ant",
+    "spider",
+    "food",
     "snake"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u2/{v}/thereisawashroom.mp3",
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "washroom!"
    ]
   }
  ],
@@ -580,10 +571,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

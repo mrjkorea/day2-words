@@ -7,15 +7,120 @@
  "lineAudio": "audio/basic_c_u8/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "earphones",
-   "choices": [
-    "earphones",
-    "schoolbag",
-    "clothes",
-    "pencilcase"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u8/{v}/iwantanewcomputer.mp3",
+   "answer": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "computer."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u8/{v}/iwantanewdoll.mp3",
+   "answer": "I want a new doll.",
+   "choices": [
+    "I want a new doll.",
+    "I want a new bike.",
+    "I want a new phone."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/basic_c_u8/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "I want a little brother.",
+    "I want new clothes.",
+    "I want to be an English teacher."
+   ],
+   "answer": "I want a little brother.",
+   "pic": "../packs/basic_c_u8/brother.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u8/{v}/iwantanewpencilcase.mp3",
+   "answer": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "pencil",
+    "case."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/basic_c_u8/audio/{v}/iwantanewbike.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "___",
+    "."
+   ],
+   "answer": "bike",
+   "choices": [
+    "bike",
+    "clothes",
+    "school bag"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u8/{v}/iwantalittlebrother.mp3",
+   "answer": "I want a little brother.",
+   "choices": [
+    "I want a little brother.",
+    "I want a new pencil case.",
+    "I want a new computer."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_c_u8/audio/{v}/iwantanewbike.mp3",
+   "answer": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "bike."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/basic_c_u8/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "I want new earphones.",
+    "I want new clothes.",
+    "The leaves are red in fall."
+   ],
+   "answer": "I want new clothes.",
+   "pic": "../packs/basic_c_u8/clothes.jpg"
   },
   {
    "type": "listen",
@@ -29,129 +134,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "bike",
-    "pencilcase",
-    "earphones"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "doll",
-   "answer": "doll",
-   "choices": [
-    "doll",
-    "dopl",
-    "oll",
-    "dolr"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "computer",
-   "answer": "computer",
-   "choices": [
-    "computer",
-    "comuter",
-    "computem",
-    "omputer"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "phone",
-   "audio": "audio/basic_c_u8/{v}/iwantanewphone.mp3",
-   "answer": [
-    "I",
-    "want",
-    "a",
-    "new",
-    "phone."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "pencilcase",
-   "audio": "audio/basic_c_u8/{v}/iwantanewpencilcase.mp3",
-   "answer": [
-    "I",
-    "want",
-    "a",
-    "new",
-    "pencil",
-    "case."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "computer",
-   "audio": "audio/basic_c_u8/{v}/iwantanewcomputer.mp3",
-   "sentence": [
-    "I",
-    "want",
-    "a",
-    "new",
-    "___",
-    "."
-   ],
-   "answer": "computer",
-   "choices": [
-    "computer",
-    "brother",
-    "earphones"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "earphones",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_c_u8/{v}/iwantnewearphones.mp3",
-   "sentence": [
+   "answer": [
     "I",
     "want",
     "new",
-    "___",
-    "."
-   ],
-   "answer": "earphones",
-   "choices": [
-    "earphones",
-    "brother",
-    "phone"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "phone",
-   "audio": "audio/basic_c_u8/{v}/iwantanewphone.mp3",
-   "sentence": [
-    "I",
-    "want",
-    "a",
-    "new",
-    "___",
-    "."
-   ],
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "doll",
-    "want"
+    "earphones."
    ]
   }
  ],
@@ -574,10 +565,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

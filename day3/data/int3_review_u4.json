@@ -16,239 +16,124 @@
  "lineAudio": "audio/int3a_u7/",
  "questions": [
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "music",
-   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
-   "sentence": [
-    "I",
-    "like",
-    "___",
-    "."
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u7/{v}/wehavegymclass.mp3",
+   "answer": [
+    "We",
+    "have",
+    "gym",
+    "class."
    ],
-   "answer": "music",
+   "unit": "int3a_u7"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourtransitcard.mp3",
+   "answer": "Don't forget your transit card.",
    "choices": [
-    "music",
-    "eleven",
-    "introduction"
+    "Don't forget your transit card.",
+    "Don't forget your phone.",
+    "Don't forget your money."
+   ],
+   "unit": "int3b_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do we do?",
+    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
+   },
+   "choices": [
+    "Climb the rope!",
+    "Jump rope!",
+    "Don't cry."
+   ],
+   "answer": "Jump rope!",
+   "unit": "int3a_u7",
+   "pic": "../packs/int3a_u7/jumprope.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u8/{v}/thisismyintroduction.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "introduction."
    ],
    "unit": "int3a_u8"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int3a_u7/{v}/wehavegymclass.mp3",
    "sentence": [
     "We",
     "have",
     "___",
-    "class."
+    "class",
+    "."
    ],
    "answer": "gym",
    "choices": [
     "gym",
-    "dance",
-    "clap"
+    "jumping jacks",
+    "dance"
    ],
    "unit": "int3a_u7"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "phone",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourphone.mp3",
-   "sentence": [
-    "Don't",
-    "forget",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "forget",
-    "hat"
-   ],
-   "unit": "int3b_u7"
-  },
-  {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "seven",
+   "audio": "../packs/int3b_u8/audio/{v}/iamfromcanada.mp3",
+   "answer": "I am from Canada.",
    "choices": [
-    "seven",
-    "eight",
-    "nine",
-    "six"
-   ],
-   "unit": "int3c_u8"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "fight",
-   "choices": [
-    "fight",
-    "int3c_u7__sing",
-    "type",
-    "love"
-   ],
-   "unit": "int3c_u7"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "dance",
-   "answer": "dance",
-   "choices": [
-    "dance",
-    "dabce",
-    "dace",
-    "ance"
-   ],
-   "unit": "int3a_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3a_u8/{v}/thisismyintroduction.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "introduction",
-   "choices": [
-    "introduction",
-    "eleven",
-    "sing"
-   ],
-   "unit": "int3a_u8"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "coat",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3",
-   "answer": [
-    "Don't",
-    "forget",
-    "your",
-    "coat."
-   ],
-   "unit": "int3b_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "weigh",
-   "audio": "audio/int3b_u8/{v}/howmuchdoyouweigh.mp3",
-   "sentence": [
-    "How",
-    "much",
-    "do",
-    "you",
-    "___",
-    "?"
-   ],
-   "answer": "weigh",
-   "choices": [
-    "weigh",
-    "Korea",
-    "teach"
+    "I am from Canada.",
+    "I am tall.",
+    "I am one hundred eighty centimeters tall."
    ],
    "unit": "int3b_u8"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "eleven",
-   "audio": "audio/int3a_u8/{v}/iamelevenyearsold.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourlittlesister.mp3",
    "answer": [
-    "I",
-    "am",
-    "eleven",
-    "years",
-    "old."
-   ],
-   "unit": "int3a_u8"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "fly",
-   "audio": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3",
-   "sentence": [
-    "No,",
-    "I",
-    "cannot",
-    "___",
-    "."
-   ],
-   "answer": "fly",
-   "choices": [
-    "fly",
-    "int3c_u7__run",
-    "jump"
-   ],
-   "unit": "int3c_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "walk",
-   "audio": "audio/int3c_u7/{v}/icanwalk.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "___",
-    "."
-   ],
-   "answer": "walk",
-   "choices": [
-    "walk",
-    "jump",
-    "type"
-   ],
-   "unit": "int3c_u7"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "transitcard",
-   "choices": [
-    "transitcard",
-    "littlesister",
-    "umbrella",
-    "money"
+    "Don't",
+    "forget",
+    "your",
+    "little",
+    "sister."
    ],
    "unit": "int3b_u7"
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "dance",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How old are you?",
+    "audio": "audio/int3a_u8/{v}/howoldareyou.mp3"
+   },
    "choices": [
-    "dance",
-    "run",
-    "sit",
-    "clap"
+    "I am from Seoul.",
+    "I am eleven years old.",
+    "It is in my pocket."
    ],
-   "unit": "int3a_u7"
+   "answer": "I am eleven years old.",
+   "unit": "int3a_u8",
+   "pic": "../packs/int3a_u8/eleven.jpg"
   },
   {
    "type": "listen",
@@ -263,50 +148,130 @@
    "unit": "int3b_u8"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nine",
-   "audio": "audio/int3c_u8/{v}/itisnineoclock.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "o'clock."
-   ],
-   "answer": "nine",
-   "choices": [
-    "nine",
-    "six",
-    "ten"
-   ],
-   "unit": "int3c_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "five",
-   "answer": "five",
-   "choices": [
-    "five",
-    "fiv",
-    "fove",
-    "fise"
-   ],
-   "unit": "int3c_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "centimeter",
-   "answer": "centimeter",
-   "choices": [
-    "centimeter",
-    "cenimeter",
-    "centumeter",
-    "entimeter"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u8/{v}/ispeakenglish.mp3",
+   "answer": [
+    "I",
+    "speak",
+    "English."
    ],
    "unit": "int3b_u8"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u7/{v}/icanwalk.mp3",
+   "answer": "I can walk.",
+   "choices": [
+    "I can walk.",
+    "I can jump.",
+    "I can love my family."
+   ],
+   "unit": "int3c_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I take?",
+    "audio": "audio/int3b_u7/{v}/whatshoulditake.mp3"
+   },
+   "choices": [
+    "Don't forget your lunch.",
+    "Don't forget your hat.",
+    "I can speak English."
+   ],
+   "answer": "Don't forget your hat.",
+   "unit": "int3b_u7",
+   "pic": "../packs/int3b_u7/hat.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3",
+   "answer": [
+    "No,",
+    "I",
+    "cannot",
+    "fly."
+   ],
+   "unit": "int3c_u7"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u8/{v}/ilovemyfamily.mp3",
+   "sentence": [
+    "I",
+    "love",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "family",
+   "choices": [
+    "family",
+    "sing",
+    "people"
+   ],
+   "unit": "int3a_u8"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u8/{v}/itisoneoclock.mp3",
+   "answer": "It is one o'clock.",
+   "choices": [
+    "It is one o'clock.",
+    "It is seven o'clock.",
+    "It is ten o'clock."
+   ],
+   "unit": "int3c_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u8/{v}/itisfiveoclock.mp3",
+   "answer": [
+    "It",
+    "is",
+    "five",
+    "o'clock."
+   ],
+   "unit": "int3c_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u7/{v}/dojumpingjacks.mp3",
+   "answer": [
+    "Do",
+    "jumping",
+    "jacks!"
+   ],
+   "unit": "int3a_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3a_u8/audio/{v}/whereareyoufrom.mp3",
+   "answer": [
+    "Where",
+    "are",
+    "you",
+    "from?"
+   ],
+   "unit": "int3a_u8"
   }
  ],
  "words": [

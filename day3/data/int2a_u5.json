@@ -7,67 +7,9 @@
  "lineAudio": "audio/int2a_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "attic",
-   "choices": [
-    "attic",
-    "diningroom",
-    "basement",
-    "bathroom"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "livingroom",
-   "choices": [
-    "livingroom",
-    "diningroom",
-    "bedroom",
-    "classroom"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "classroom",
-   "choices": [
-    "classroom",
-    "basement",
-    "attic",
-    "livingroom"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "bathroom",
-   "answer": "bathroom",
-   "choices": [
-    "bathroom",
-    "bathrom",
-    "bethroom",
-    "bahroom"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "attic",
-   "answer": "attic",
-   "choices": [
-    "attic",
-    "atkic",
-    "ettic",
-    "atti"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "basement",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2a_u5/{v}/maybeitisinthebasement.mp3",
    "answer": [
     "Maybe",
@@ -79,26 +21,53 @@
    ]
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthebedroom.mp3",
+   "answer": "Maybe it is in the bedroom.",
+   "choices": [
+    "Maybe it is in the bedroom.",
+    "Maybe it is in the dining room.",
+    "Maybe it is in the attic."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where is my phone?",
+    "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
+   },
+   "choices": [
+    "Maybe it is in the garage.",
+    "Maybe it is in the bathroom.",
+    "I want to be a doctor."
+   ],
+   "answer": "Maybe it is in the bathroom.",
+   "pic": "../packs/int2a_u5/bathroom.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "garage",
-   "audio": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthediningroom.mp3",
    "answer": [
     "Maybe",
     "it",
     "is",
     "in",
     "the",
-    "garage."
+    "dining",
+    "room."
    ]
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "attic",
-   "audio": "audio/int2a_u5/{v}/maybeitisintheattic.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthebasement.mp3",
    "sentence": [
     "Maybe",
     "it",
@@ -108,55 +77,78 @@
     "___",
     "."
    ],
+   "answer": "basement",
+   "choices": [
+    "basement",
+    "garage",
+    "dining room"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u5/{v}/maybeitisinthebathroom.mp3",
+   "answer": "Maybe it is in the bathroom.",
+   "choices": [
+    "Maybe it is in the bathroom.",
+    "Maybe it is in the classroom.",
+    "Maybe it is in the dining room."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u5/{v}/maybeitisintheclassroom.mp3",
+   "answer": [
+    "Maybe",
+    "it",
+    "is",
+    "in",
+    "the",
+    "classroom."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where is my phone?",
+    "audio": "../packs/int2a_u5/audio/{v}/whereismyphone.mp3"
+   },
+   "choices": [
+    "Maybe it is in the garage.",
+    "Maybe it is in the kitchen.",
+    "It is rice."
+   ],
+   "answer": "Maybe it is in the kitchen.",
+   "pic": "../packs/int2a_u5/kitchen.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
    "answer": "attic",
    "choices": [
     "attic",
+    "diningroom",
     "basement",
-    "bedroom"
+    "bathroom"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "bedroom",
-   "audio": "audio/int2a_u5/{v}/maybeitisinthebedroom.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2a_u5/audio/{v}/maybeitisinthekitchen.mp3",
+   "answer": [
     "Maybe",
     "it",
     "is",
     "in",
     "the",
-    "___",
-    "."
-   ],
-   "answer": "bedroom",
-   "choices": [
-    "bedroom",
-    "bathroom",
-    "maybe"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "garage",
-   "audio": "audio/int2a_u5/{v}/maybeitisinthegarage.mp3",
-   "sentence": [
-    "Maybe",
-    "it",
-    "is",
-    "in",
-    "the",
-    "___",
-    "."
-   ],
-   "answer": "garage",
-   "choices": [
-    "garage",
-    "bathroom",
-    "maybe"
+    "kitchen."
    ]
   }
  ],
@@ -579,10 +571,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

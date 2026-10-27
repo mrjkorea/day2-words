@@ -7,6 +7,115 @@
  "lineAudio": "audio/basic_a_u7/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_a_u7/audio/{v}/icandance.mp3",
+   "answer": [
+    "I",
+    "can",
+    "dance."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u7/{v}/icandotaekwondo.mp3",
+   "answer": "I can do taekwondo.",
+   "choices": [
+    "I can do taekwondo.",
+    "I can do magic.",
+    "I can run."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
+   },
+   "choices": [
+    "I can run fast.",
+    "I can run.",
+    "I live in Korea."
+   ],
+   "answer": "I can run.",
+   "pic": "../packs/basic_a_u7/run.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u7/{v}/icandomagic.mp3",
+   "answer": [
+    "I",
+    "can",
+    "do",
+    "magic."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/basic_a_u7/audio/{v}/icandance.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "dance",
+   "choices": [
+    "dance",
+    "fast",
+    "run"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u7/{v}/icanrun.mp3",
+   "answer": "I can run.",
+   "choices": [
+    "I can run.",
+    "I can study.",
+    "I can do taekwondo."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u7/{v}/icanspeakchinese.mp3",
+   "answer": [
+    "I",
+    "can",
+    "speak",
+    "Chinese."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
+   },
+   "choices": [
+    "I can study.",
+    "I can speak Chinese.",
+    "Don't throw."
+   ],
+   "answer": "I can study.",
+   "pic": "../packs/basic_a_u7/study.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "dance",
@@ -18,132 +127,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "draw",
-   "choices": [
-    "draw",
-    "sing",
-    "magic",
-    "taekwondo"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "study",
-   "choices": [
-    "study",
-    "sing",
-    "draw",
-    "dance"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "taekwondo",
-   "answer": "taekwondo",
-   "choices": [
-    "taekwondo",
-    "tekwondo",
-    "taekondo",
-    "taekwonmo"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "run",
-   "answer": "run",
-   "choices": [
-    "run",
-    "rur",
-    "rus",
-    "tun"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "study",
-   "audio": "audio/basic_a_u7/{v}/icanstudy.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u7/{v}/icandraw.mp3",
    "answer": [
     "I",
     "can",
-    "study."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "chinese",
-   "audio": "audio/basic_a_u7/{v}/icanspeakchinese.mp3",
-   "answer": [
-    "I",
-    "can",
-    "speak",
-    "Chinese."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sing",
-   "audio": "audio/basic_a_u7/{v}/icansing.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "___",
-    "."
-   ],
-   "answer": "sing",
-   "choices": [
-    "sing",
-    "piano",
-    "dance"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "study",
-   "audio": "audio/basic_a_u7/{v}/icanstudy.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "___",
-    "."
-   ],
-   "answer": "study",
-   "choices": [
-    "study",
-    "draw",
-    "run"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "fast",
-   "audio": "audio/basic_a_u7/{v}/icanrunfast.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "run",
-    "___",
-    "."
-   ],
-   "answer": "fast",
-   "choices": [
-    "fast",
-    "piano",
-    "Chinese"
+    "draw."
    ]
   }
  ],
@@ -559,10 +550,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

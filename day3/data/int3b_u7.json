@@ -7,6 +7,118 @@
  "lineAudio": "audio/int3b_u7/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourmoney.mp3",
+   "answer": [
+    "Don't",
+    "forget",
+    "your",
+    "money."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourlunch.mp3",
+   "answer": "Don't forget your lunch.",
+   "choices": [
+    "Don't forget your lunch.",
+    "Don't forget your coat.",
+    "Don't forget your hat."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I take?",
+    "audio": "audio/int3b_u7/{v}/whatshoulditake.mp3"
+   },
+   "choices": [
+    "Don't forget your backpack.",
+    "Don't forget your lunch.",
+    "It is seven o'clock."
+   ],
+   "answer": "Don't forget your lunch.",
+   "pic": "../packs/int3b_u7/lunch.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourhat.mp3",
+   "answer": [
+    "Don't",
+    "forget",
+    "your",
+    "hat."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourmoney.mp3",
+   "sentence": [
+    "Don't",
+    "forget",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "money",
+   "choices": [
+    "money",
+    "umbrella",
+    "coat"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3",
+   "answer": "Don't forget your coat.",
+   "choices": [
+    "Don't forget your coat.",
+    "Don't forget your lunch.",
+    "Don't forget your little sister."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourlittlesister.mp3",
+   "answer": [
+    "Don't",
+    "forget",
+    "your",
+    "little",
+    "sister."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What should I take?",
+    "audio": "audio/int3b_u7/{v}/whatshoulditake.mp3"
+   },
+   "choices": [
+    "Don't forget your lunch.",
+    "Don't forget your hat.",
+    "This is our classmate."
+   ],
+   "answer": "Don't forget your hat.",
+   "pic": "../packs/int3b_u7/hat.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "transitcard",
@@ -18,136 +130,16 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "coat",
-   "choices": [
-    "coat",
-    "littlesister",
-    "lunch",
-    "umbrella"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "littlesister",
-   "choices": [
-    "littlesister",
-    "money",
-    "phone",
-    "hat"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "phone",
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "pbone",
-    "phon",
-    "phope"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "lunch",
-   "answer": "lunch",
-   "choices": [
-    "lunch",
-    "punch",
-    "luch",
-    "lnch"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "coat",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u7/{v}/dontforgetyourtransitcard.mp3",
    "answer": [
     "Don't",
     "forget",
     "your",
-    "coat."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "littlesister",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourlittlesister.mp3",
-   "answer": [
-    "Don't",
-    "forget",
-    "your",
-    "little",
-    "sister."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "lunch",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourlunch.mp3",
-   "sentence": [
-    "Don't",
-    "forget",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "lunch",
-   "choices": [
-    "lunch",
-    "backpack",
-    "coat"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "coat",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourcoat.mp3",
-   "sentence": [
-    "Don't",
-    "forget",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "coat",
-   "choices": [
-    "coat",
-    "lunch",
-    "forget"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "phone",
-   "audio": "audio/int3b_u7/{v}/dontforgetyourphone.mp3",
-   "sentence": [
-    "Don't",
-    "forget",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "forget",
-    "hat"
+    "transit",
+    "card."
    ]
   }
  ],
@@ -577,10 +569,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

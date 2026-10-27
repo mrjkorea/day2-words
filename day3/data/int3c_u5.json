@@ -7,15 +7,115 @@
  "lineAudio": "audio/int3c_u5/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "pencil",
-   "choices": [
-    "pencil",
-    "hat",
-    "book",
-    "pillow"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3",
+   "answer": [
+    "What",
+    "do",
+    "you",
+    "have?"
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u5/{v}/ihaveapencil.mp3",
+   "answer": "I have a pencil.",
+   "choices": [
+    "I have a pencil.",
+    "I have a chessboard.",
+    "I have a puzzle."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you have?",
+    "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3"
+   },
+   "choices": [
+    "I have a phone.",
+    "I have a hat.",
+    "This video is quiet."
+   ],
+   "answer": "I have a hat.",
+   "pic": "../packs/int3c_u5/hat.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u5/{v}/ihaveachessboard.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "chessboard."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u5/{v}/ihaveanewspaper.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "newspaper",
+   "choices": [
+    "newspaper",
+    "book",
+    "puzzle"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u5/{v}/ihaveabook.mp3",
+   "answer": "I have a book.",
+   "choices": [
+    "I have a book.",
+    "I have a puzzle.",
+    "I have a hat."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u5/{v}/ihaveapillow.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "pillow."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you have?",
+    "audio": "../packs/int3c_u5/audio/{v}/whatdoyouhave.mp3"
+   },
+   "choices": [
+    "I have a newspaper.",
+    "I have a cup.",
+    "Hello, Mr. Dog."
+   ],
+   "answer": "I have a cup.",
+   "pic": "../packs/int3c_u5/cup.jpg"
   },
   {
    "type": "listen",
@@ -29,124 +129,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "pillow",
-    "book",
-    "chessboard"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "puzzle",
-   "answer": "puzzle",
-   "choices": [
-    "puzzle",
-    "pozzle",
-    "pzzle",
-    "puczle"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "phone",
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "phoe",
-    "phome",
-    "pone"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "pillow",
-   "audio": "audio/int3c_u5/{v}/ihaveapillow.mp3",
-   "answer": [
-    "I",
-    "have",
-    "a",
-    "pillow."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "chessboard",
-   "audio": "audio/int3c_u5/{v}/ihaveachessboard.mp3",
-   "answer": [
-    "I",
-    "have",
-    "a",
-    "chessboard."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cup",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3c_u5/{v}/ihaveacup.mp3",
-   "sentence": [
+   "answer": [
     "I",
     "have",
     "a",
-    "___",
-    "."
-   ],
-   "answer": "cup",
-   "choices": [
-    "cup",
-    "pillow",
-    "phone"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "hat",
-   "audio": "audio/int3c_u5/{v}/ihaveahat.mp3",
-   "sentence": [
-    "I",
-    "have",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "hat",
-   "choices": [
-    "hat",
-    "pillow",
-    "newspaper"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "pencil",
-   "audio": "audio/int3c_u5/{v}/ihaveapencil.mp3",
-   "sentence": [
-    "I",
-    "have",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "pencil",
-   "choices": [
-    "pencil",
-    "phone",
-    "chessboard"
+    "cup."
    ]
   }
  ],
@@ -583,10 +574,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

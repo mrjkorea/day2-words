@@ -14,69 +14,122 @@
  "lineAudio": "audio/basic_a_u1/",
  "questions": [
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_a_u1",
-   "q": {
-    "text": "How many apples?",
-    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
-   },
-   "pic": "../packs/basic_a_u1/five.jpg",
-   "choices": [
-    "I have five apples.",
-    "I can run fast."
-   ],
-   "answer": "I have five apples.",
-   "aud": {
-    "I have five apples.": "audio/basic_a_u1/ai/ihavefiveapples.mp3",
-    "I can run fast.": "audio/basic_a_u7/ai/icanrunfast.mp3"
-   }
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "type",
-   "audio": "audio/basic_a_u3/{v}/typeyourid.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u1/{v}/ihavesevenapples.mp3",
    "answer": [
-    "Type",
-    "your",
-    "ID."
-   ],
-   "unit": "basic_a_u3"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "two",
-   "audio": "audio/basic_a_u1/{v}/ihavetwoapples.mp3",
-   "sentence": [
     "I",
     "have",
-    "___",
+    "seven",
     "apples."
-   ],
-   "answer": "two",
-   "choices": [
-    "two",
-    "nine",
-    "ten"
    ],
    "unit": "basic_a_u1"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "cow",
+   "audio": "audio/basic_a_u3/{v}/unplugyourheadset.mp3",
+   "answer": "Unplug your headset.",
    "choices": [
-    "cow",
-    "sheep",
-    "cat",
-    "chicken"
+    "Unplug your headset.",
+    "Put on your headset.",
+    "Type your ID."
+   ],
+   "unit": "basic_a_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How many apples?",
+    "audio": "audio/basic_a_u1/{v}/howmanyapples.mp3"
+   },
+   "choices": [
+    "I have nine apples.",
+    "I have one apple.",
+    "There are many people."
+   ],
+   "answer": "I have nine apples.",
+   "unit": "basic_a_u1",
+   "pic": "../packs/basic_a_u1/nine.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u2/{v}/hellomrsduck.mp3",
+   "answer": [
+    "Hello,",
+    "Mrs.",
+    "Duck."
    ],
    "unit": "basic_a_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u3/{v}/putonyourheadset.mp3",
+   "sentence": [
+    "Put",
+    "on",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "headset",
+   "choices": [
+    "headset",
+    "tab",
+    "unplug"
+   ],
+   "unit": "basic_a_u3"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u4/ai/goodafternoonteacher.mp3",
+   "answer": "Good afternoon, teacher.",
+   "choices": [
+    "Good afternoon, teacher.",
+    "Good night, teacher.",
+    "Good afternoon."
+   ],
+   "unit": "basic_a_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u3/{v}/putonyourheadset.mp3",
+   "answer": [
+    "Put",
+    "on",
+    "your",
+    "headset."
+   ],
+   "unit": "basic_a_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this? Say hello!",
+    "audio": "audio/basic_a_u2/{v}/whoisthissayhello.mp3"
+   },
+   "choices": [
+    "Hello, Mr. Horse.",
+    "Hello, Mrs. Duck.",
+    "It is a guitar."
+   ],
+   "answer": "Hello, Mr. Horse.",
+   "unit": "basic_a_u2",
+   "pic": "../packs/basic_a_u2/horse.jpg"
   },
   {
    "type": "listen",
@@ -91,159 +144,91 @@
    "unit": "basic_a_u1"
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "restart",
-   "choices": [
-    "restart",
-    "type",
-    "headset",
-    "scroll"
-   ],
-   "unit": "basic_a_u3"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "wait",
-   "audio": "audio/basic_a_u4/{v}/waitaminute.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_a_u4/audio/{v}/seeyoutomorrow.mp3",
    "answer": [
-    "Wait",
-    "a",
-    "minute."
+    "See",
+    "you",
+    "tomorrow."
    ],
    "unit": "basic_a_u4"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_a_u2",
-   "q": {
-    "text": "Who is this? Say hello!",
-    "audio": "audio/basic_a_u2/{v}/whoisthissayhello.mp3"
-   },
-   "pic": "../packs/basic_a_u2/cat.jpg",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_a_u1/{v}/ihavefourapples.mp3",
+   "answer": "I have four apples.",
    "choices": [
-    "Hello, Mr. Cat.",
-    "I have six apples."
-   ],
-   "answer": "Hello, Mr. Cat.",
-   "aud": {
-    "Hello, Mr. Cat.": "audio/basic_a_u2/ai/hellomrcat.mp3",
-    "I have six apples.": "audio/basic_a_u1/ai/ihavesixapples.mp3"
-   }
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_a_u3",
-   "q": {
-    "text": "Make a new tab.",
-    "audio": "audio/basic_a_u3/{v}/makeanewtab.mp3"
-   },
-   "pic": "../packs/basic_a_u3/tab.jpg",
-   "choices": [
-    "Okay. I am making a new tab.",
-    "This is my dad."
-   ],
-   "answer": "Okay. I am making a new tab.",
-   "aud": {
-    "Okay. I am making a new tab.": "audio/basic_a_u3/ai/okayiammakinganewtab.mp3",
-    "This is my dad.": "audio/basic_a_u5/ai/thisismydad.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "chicken",
-   "audio": "audio/basic_a_u2/{v}/hellomschicken.mp3",
-   "answer": [
-    "Hello,",
-    "Ms.",
-    "Chicken."
-   ],
-   "unit": "basic_a_u2"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "one",
-   "answer": "one",
-   "choices": [
-    "one",
-    "onea",
-    "oni",
-    "ine"
+    "I have four apples.",
+    "I have nine apples.",
+    "I have three apples."
    ],
    "unit": "basic_a_u1"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "goat",
-   "answer": "goat",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Type your ID.",
+    "audio": "audio/basic_a_u3/{v}/typeyourid.mp3"
+   },
    "choices": [
-    "goat",
-    "guat",
-    "goap",
-    "got"
+    "Okay. I am unplugging my headset.",
+    "Okay. I am typing my ID.",
+    "It is a violin."
+   ],
+   "answer": "Okay. I am typing my ID.",
+   "unit": "basic_a_u3",
+   "pic": "../packs/basic_a_u3/type.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u1/{v}/ihavefiveapples.mp3",
+   "answer": [
+    "I",
+    "have",
+    "five",
+    "apples."
+   ],
+   "unit": "basic_a_u1"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u4/{v}/bequietplease.mp3",
+   "sentence": [
+    "Be",
+    "___",
+    ",",
+    "please",
+    "."
+   ],
+   "answer": "quiet",
+   "choices": [
+    "quiet",
+    "afternoon",
+    "please"
+   ],
+   "unit": "basic_a_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u2/{v}/hellomsgoat.mp3",
+   "answer": [
+    "Hello,",
+    "Ms.",
+    "Goat."
    ],
    "unit": "basic_a_u2"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "type",
-   "audio": "audio/basic_a_u3/{v}/typeyourid.mp3",
-   "sentence": [
-    "___",
-    "your",
-    "ID."
-   ],
-   "answer": "Type",
-   "choices": [
-    "Type",
-    "Scroll",
-    "Unplug"
-   ],
-   "unit": "basic_a_u3"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "wait",
-   "audio": "audio/basic_a_u4/{v}/waitaminute.mp3",
-   "sentence": [
-    "___",
-    "a",
-    "minute."
-   ],
-   "answer": "Wait",
-   "choices": [
-    "Wait",
-    "Good",
-    "Pardon"
-   ],
-   "unit": "basic_a_u4"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "afternoon",
-   "answer": "afternoon",
-   "choices": [
-    "afternoon",
-    "aftertoon",
-    "aftercoon",
-    "afturnoon"
-   ],
-   "unit": "basic_a_u4"
   }
  ],
  "words": [

@@ -14,51 +14,122 @@
  "lineAudio": "audio/int3a_u1/",
  "questions": [
   {
-   "type": "listen",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u1/{v}/icandrawanapple.mp3",
+   "answer": [
+    "I",
+    "can",
+    "draw",
+    "an",
+    "apple."
+   ],
+   "unit": "int3a_u1"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "good",
+   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
+   "answer": "This is big.",
    "choices": [
-    "good",
-    "cold",
-    "bad",
-    "soft"
+    "This is big.",
+    "This is hard.",
+    "This is hot."
    ],
    "unit": "int3a_u3"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u1",
    "q": {
     "text": "What can you draw?",
     "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
    },
-   "pic": "../packs/int3a_u1/circle.jpg",
    "choices": [
-    "I can draw a circle.",
-    "He is ten years old.",
-    "This is loud."
+    "I can draw a monster.",
+    "I can draw.",
+    "I can do magic."
    ],
-   "answer": "I can draw a circle.",
-   "aud": {
-    "I can draw a circle.": "audio/int3a_u1/ai/icandrawacircle.mp3",
-    "He is ten years old.": "audio/int3a_u4/ai/heistenyearsold.mp3",
-    "This is loud.": "audio/int3a_u3/ai/thisisloud.mp3"
-   }
+   "answer": "I can draw a monster.",
+   "unit": "int3a_u1",
+   "pic": "../packs/int3a_u1/monster.jpg"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "banana",
-   "answer": "banana",
-   "choices": [
-    "banana",
-    "anana",
-    "banena",
-    "banane"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u2/{v}/ilikeredbean.mp3",
+   "answer": [
+    "I",
+    "like",
+    "red",
+    "bean."
    ],
    "unit": "int3a_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u2/{v}/ilikemelon.mp3",
+   "sentence": [
+    "I",
+    "like",
+    "___",
+    "."
+   ],
+   "answer": "melon",
+   "choices": [
+    "melon",
+    "lemon",
+    "strawberry"
+   ],
+   "unit": "int3a_u2"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u4/{v}/heisfiftyfiveyearsold.mp3",
+   "answer": "He is fifty-five years old.",
+   "choices": [
+    "He is fifty-five years old.",
+    "He is thirty-nine years old.",
+    "He is twenty-seven years old."
+   ],
+   "unit": "int3a_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3a_u3/audio/{v}/thisiscold.mp3",
+   "answer": [
+    "This",
+    "is",
+    "cold."
+   ],
+   "unit": "int3a_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What flavor do you like?",
+    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+   },
+   "choices": [
+    "I like chocolate.",
+    "I like lemon.",
+    "They are durians."
+   ],
+   "answer": "I like chocolate.",
+   "unit": "int3a_u2",
+   "pic": "../packs/int3a_u2/chocolate.jpg"
   },
   {
    "type": "listen",
@@ -73,190 +144,93 @@
    "unit": "int3a_u1"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "seventyseven",
-   "audio": "audio/int3a_u4/{v}/heisseventysevenyearsold.mp3",
-   "sentence": [
-    "He",
-    "is",
-    "___",
-    "years",
-    "old."
-   ],
-   "answer": "seventy-seven",
-   "choices": [
-    "seventy-seven",
-    "fifty-five",
-    "fifteen"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/oneyearhastwelvemonths.mp3",
+   "answer": [
+    "One",
+    "year",
+    "has",
+    "twelve",
+    "months."
    ],
    "unit": "int3a_u4"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "poo",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
    "audio": "audio/int3a_u1/{v}/icandrawpoo.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "draw",
-    "___",
-    "."
-   ],
-   "answer": "poo",
+   "answer": "I can draw poo.",
    "choices": [
-    "poo",
-    "monster",
-    "hat"
+    "I can draw poo.",
+    "I can draw a hat.",
+    "I can draw Korea."
    ],
    "unit": "int3a_u1"
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "big",
-   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
-   "answer": [
-    "This",
-    "is",
-    "big."
-   ],
-   "unit": "int3a_u3"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "melon",
-   "choices": [
-    "melon",
-    "mint",
-    "banana",
-    "redbean"
-   ],
-   "unit": "int3a_u2"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fifteen",
-   "answer": "fifteen",
-   "choices": [
-    "fifteen",
-    "fiftien",
-    "fifteun",
-    "fiften"
-   ],
-   "unit": "int3a_u4"
-  },
-  {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u2",
-   "q": {
-    "text": "What flavor do you like?",
-    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
-   },
-   "pic": "../packs/int3a_u2/banana.jpg",
-   "choices": [
-    "I like banana.",
-    "Sit down!",
-    "It is a silkworm."
-   ],
-   "answer": "I like banana.",
-   "aud": {
-    "I like banana.": "audio/int3a_u2/ai/ilikebanana.mp3",
-    "Sit down!": "audio/int3a_u7/ai/sitdown.mp3",
-    "It is a silkworm.": "audio/int3a_u5/ai/itisasilkworm.mp3"
-   }
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u3",
    "q": {
     "text": "How is it?",
     "audio": "audio/int3a_u3/{v}/howisit.mp3"
    },
-   "pic": "../packs/int3a_u3/bad.jpg",
    "choices": [
-    "This is bad.",
-    "My name is Hunter.",
-    "I can draw a tree."
+    "This is hard.",
+    "This is good.",
+    "It is Saturday."
    ],
-   "answer": "This is bad.",
-   "aud": {
-    "This is bad.": "audio/int3a_u3/ai/thisisbad.mp3",
-    "My name is Hunter.": "audio/int3a_u6/ai/mynameishunter.mp3",
-    "I can draw a tree.": "audio/int3a_u1/ai/icandrawatree.mp3"
-   }
+   "answer": "This is hard.",
+   "unit": "int3a_u3",
+   "pic": "../packs/int3a_u3/hard.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "twentyseven",
-   "audio": "audio/int3a_u4/{v}/heistwentysevenyearsold.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u1/{v}/icandrawaflag.mp3",
    "answer": [
-    "He",
-    "is",
-    "twenty-seven",
-    "years",
-    "old."
+    "I",
+    "can",
+    "draw",
+    "a",
+    "flag."
    ],
-   "unit": "int3a_u4"
+   "unit": "int3a_u1"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cold",
-   "audio": "../packs/int3a_u3/audio/{v}/thisiscold.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
    "sentence": [
     "This",
     "is",
     "___",
     "."
    ],
-   "answer": "cold",
+   "answer": "big",
    "choices": [
-    "cold",
-    "loud",
-    "good"
+    "big",
+    "hot",
+    "bad"
    ],
    "unit": "int3a_u3"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "redbean",
-   "audio": "audio/int3a_u2/{v}/ilikeredbean.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u2/{v}/ilikemelon.mp3",
    "answer": [
     "I",
     "like",
-    "red",
-    "bean."
+    "melon."
    ],
    "unit": "int3a_u2"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "korea",
-   "answer": "Korea",
-   "choices": [
-    "Korea",
-    "orea",
-    "Kolea",
-    "Koree"
-   ],
-   "unit": "int3a_u1"
   }
  ],
  "words": [

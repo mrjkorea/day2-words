@@ -7,147 +7,142 @@
  "lineAudio": "audio/int3b_u1/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "first",
-   "choices": [
-    "first",
-    "kindergarten",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u1/{v}/iaminsixthgrade.mp3",
+   "answer": [
+    "I",
+    "am",
+    "in",
     "sixth",
-    "eighth"
+    "grade."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "second",
+   "audio": "audio/int3b_u1/{v}/iaminfirstgrade.mp3",
+   "answer": "I am in first grade.",
    "choices": [
-    "second",
-    "fifth",
-    "sixth",
-    "kindergarten"
+    "I am in first grade.",
+    "I am in fourth grade.",
+    "I am in fifth grade."
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "fourth",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What grade are you in?",
+    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+   },
    "choices": [
+    "I am in second grade.",
+    "I am in kindergarten.",
+    "I love my dog."
+   ],
+   "answer": "I am in second grade.",
+   "pic": "../packs/int3b_u1/second.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u1/{v}/iaminfourthgrade.mp3",
+   "answer": [
+    "I",
+    "am",
+    "in",
     "fourth",
-    "second",
-    "fifth",
-    "first"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fifth",
-   "answer": "fifth",
-   "choices": [
-    "fifth",
-    "kifth",
-    "fofth",
-    "fifh"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "second",
-   "answer": "second",
-   "choices": [
-    "second",
-    "semond",
-    "seond",
-    "scond"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "kindergarten",
-   "audio": "audio/int3b_u1/{v}/iaminkindergarten.mp3",
-   "answer": [
-    "I",
-    "am",
-    "in",
-    "kindergarten."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "fifth",
-   "audio": "../packs/int3b_u1/audio/{v}/iaminfifthgrade.mp3",
-   "answer": [
-    "I",
-    "am",
-    "in",
-    "fifth",
     "grade."
    ]
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "eighth",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int3b_u1/{v}/iamineighthgrade.mp3",
    "sentence": [
     "I",
     "am",
     "in",
     "___",
-    "grade."
+    "grade",
+    "."
    ],
    "answer": "eighth",
    "choices": [
     "eighth",
     "seventh",
+    "first"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3b_u1/audio/{v}/iaminfifthgrade.mp3",
+   "answer": "I am in fifth grade.",
+   "choices": [
+    "I am in fifth grade.",
+    "I am in eighth grade.",
+    "I am in second grade."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u1/{v}/iamineighthgrade.mp3",
+   "answer": [
+    "I",
+    "am",
+    "in",
+    "eighth",
+    "grade."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What grade are you in?",
+    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3"
+   },
+   "choices": [
+    "I am in kindergarten.",
+    "I am in fifth grade.",
+    "He is fat."
+   ],
+   "answer": "I am in fifth grade.",
+   "pic": "../packs/int3b_u1/fifth.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "second",
+   "choices": [
+    "second",
+    "fifth",
+    "sixth",
     "kindergarten"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "../packs/int3b_u1/audio/{v}/whatgradeareyouin.mp3",
-   "sentence": [
+   "answer": [
     "What",
-    "___",
+    "grade",
     "are",
     "you",
     "in?"
-   ],
-   "answer": "grade",
-   "choices": [
-    "grade",
-    "first",
-    "fifth"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "second",
-   "audio": "audio/int3b_u1/{v}/iaminsecondgrade.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "in",
-    "___",
-    "grade."
-   ],
-   "answer": "second",
-   "choices": [
-    "second",
-    "grade",
-    "fourth"
    ]
   }
  ],
@@ -507,10 +502,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -7,81 +7,9 @@
  "lineAudio": "audio/int3a_u1/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "monster",
-   "choices": [
-    "monster",
-    "circle",
-    "korea",
-    "poo"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "circle",
-   "choices": [
-    "circle",
-    "korea",
-    "monster",
-    "hat"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "apple",
-   "choices": [
-    "apple",
-    "flag",
-    "poo",
-    "monster"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "tree",
-   "answer": "tree",
-   "choices": [
-    "tree",
-    "tre",
-    "mree",
-    "rree"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "korea",
-   "answer": "Korea",
-   "choices": [
-    "Korea",
-    "orea",
-    "Kolea",
-    "Koree"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "tree",
-   "audio": "audio/int3a_u1/{v}/icandrawatree.mp3",
-   "answer": [
-    "I",
-    "can",
-    "draw",
-    "a",
-    "tree."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "monster",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "../packs/int3a_u1/audio/{v}/icandrawamonster.mp3",
    "answer": [
     "I",
@@ -92,50 +20,49 @@
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "apple",
-   "audio": "audio/int3a_u1/{v}/icandrawanapple.mp3",
-   "sentence": [
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u1/{v}/icandrawkorea.mp3",
+   "answer": "I can draw Korea.",
+   "choices": [
+    "I can draw Korea.",
+    "I can draw a star.",
+    "I can draw a hat."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you draw?",
+    "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
+   },
+   "choices": [
+    "I can draw a flag.",
+    "I can draw Korea.",
+    "They are durians."
+   ],
+   "answer": "I can draw Korea.",
+   "pic": "../packs/int3a_u1/korea.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u1/{v}/icandrawpoo.mp3",
+   "answer": [
     "I",
     "can",
     "draw",
-    "an",
-    "___",
-    "."
-   ],
-   "answer": "apple",
-   "choices": [
-    "apple",
-    "flag",
-    "monster"
+    "poo."
    ]
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3a_u1/{v}/icandraw.mp3",
-   "sentence": [
-    "I",
-    "can",
-    "___",
-    "."
-   ],
-   "answer": "draw",
-   "choices": [
-    "draw",
-    "flag",
-    "poo"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "poo",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int3a_u1/{v}/icandrawpoo.mp3",
    "sentence": [
     "I",
@@ -147,8 +74,71 @@
    "answer": "poo",
    "choices": [
     "poo",
-    "monster",
-    "hat"
+    "draw",
+    "apple"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u1/{v}/icandrawaflag.mp3",
+   "answer": "I can draw a flag.",
+   "choices": [
+    "I can draw a flag.",
+    "I can draw a monster.",
+    "I can draw a circle."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u1/{v}/icandrawanapple.mp3",
+   "answer": [
+    "I",
+    "can",
+    "draw",
+    "an",
+    "apple."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you draw?",
+    "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
+   },
+   "choices": [
+    "I can draw a circle.",
+    "I can draw.",
+    "It is Wednesday."
+   ],
+   "answer": "I can draw a circle.",
+   "pic": "../packs/int3a_u1/circle.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "apple",
+   "choices": [
+    "apple",
+    "flag",
+    "poo",
+    "monster"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u1/{v}/icandraw.mp3",
+   "answer": [
+    "I",
+    "can",
+    "draw."
    ]
   }
  ],
@@ -578,10 +568,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

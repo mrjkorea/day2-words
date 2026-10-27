@@ -7,26 +7,114 @@
  "lineAudio": "audio/int2a_u4/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "soup",
-   "choices": [
-    "soup",
-    "phone",
-    "water",
-    "hug"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u4/{v}/iwantjuice.mp3",
+   "answer": [
+    "I",
+    "want",
+    "juice."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "medicine",
+   "audio": "audio/int2a_u4/{v}/iwantwater.mp3",
+   "answer": "I want water.",
    "choices": [
-    "medicine",
-    "blanket",
-    "hug",
-    "computer"
+    "I want water.",
+    "I want tissue paper.",
+    "I want soup."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want?",
+    "audio": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "I want water.",
+    "I want medicine.",
+    "It is recess time."
+   ],
+   "answer": "I want medicine.",
+   "pic": "../packs/int2a_u4/medicine.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u4/{v}/iwantaphone.mp3",
+   "answer": [
+    "I",
+    "want",
+    "a",
+    "phone."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/int2a_u4/audio/{v}/iwantablanket.mp3",
+   "sentence": [
+    "I",
+    "want",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "blanket",
+   "choices": [
+    "blanket",
+    "juice",
+    "soup"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u4/{v}/iwanttissuepaper.mp3",
+   "answer": "I want tissue paper.",
+   "choices": [
+    "I want tissue paper.",
+    "I want a hug.",
+    "I want a computer."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u4/{v}/iwantacomputer.mp3",
+   "answer": [
+    "I",
+    "want",
+    "a",
+    "computer."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want?",
+    "audio": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "What do you want?",
+    "I want water.",
+    "It is breakfast time."
+   ],
+   "answer": "I want water.",
+   "pic": "../packs/int2a_u4/water.jpg"
   },
   {
    "type": "listen",
@@ -40,111 +128,14 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "blanket",
-   "answer": "blanket",
-   "choices": [
-    "blanket",
-    "blankeb",
-    "blanset",
-    "blanbet"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hug",
-   "answer": "hug",
-   "choices": [
-    "hug",
-    "hugi",
-    "huc",
-    "huge"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "juice",
-   "audio": "audio/int2a_u4/{v}/iwantjuice.mp3",
-   "answer": [
-    "I",
-    "want",
-    "juice."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "blanket",
-   "audio": "../packs/int2a_u4/audio/{v}/iwantablanket.mp3",
-   "answer": [
-    "I",
-    "want",
-    "a",
-    "blanket."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "soup",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2a_u4/{v}/iwantsoup.mp3",
-   "sentence": [
+   "answer": [
     "I",
     "want",
-    "___",
-    "."
-   ],
-   "answer": "soup",
-   "choices": [
-    "soup",
-    "computer",
-    "water"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "computer",
-   "audio": "audio/int2a_u4/{v}/iwantacomputer.mp3",
-   "sentence": [
-    "I",
-    "want",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "computer",
-   "choices": [
-    "computer",
-    "phone",
-    "water"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "../packs/int2a_u4/audio/{v}/whatdoyouwant.mp3",
-   "sentence": [
-    "What",
-    "do",
-    "you",
-    "___",
-    "?"
-   ],
-   "answer": "want",
-   "choices": [
-    "want",
-    "water",
-    "juice"
+    "soup."
    ]
   }
  ],
@@ -574,10 +565,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -18,6 +18,123 @@
  "lineAudio": "audio/int3a_u1/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u1/{v}/icandraw.mp3",
+   "answer": [
+    "I",
+    "can",
+    "draw."
+   ],
+   "unit": "int3a_u1"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u1/{v}/icandrawaflag.mp3",
+   "answer": "I can draw a flag.",
+   "choices": [
+    "I can draw a flag.",
+    "I can draw a hat.",
+    "I can draw a monster."
+   ],
+   "unit": "int3a_u1"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you draw?",
+    "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
+   },
+   "choices": [
+    "I can draw a monster.",
+    "I can draw.",
+    "It is Saturday."
+   ],
+   "answer": "I can draw a monster.",
+   "unit": "int3a_u1",
+   "pic": "../packs/int3a_u1/monster.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u2/{v}/ilikeredbean.mp3",
+   "answer": [
+    "I",
+    "like",
+    "red",
+    "bean."
+   ],
+   "unit": "int3a_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisacentipede.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "centipede",
+   "choices": [
+    "centipede",
+    "ant",
+    "cicada"
+   ],
+   "unit": "int3a_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u2/{v}/ilikemilk.mp3",
+   "answer": "I like milk.",
+   "choices": [
+    "I like milk.",
+    "I like banana.",
+    "I like melon."
+   ],
+   "unit": "int3a_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisissmall.mp3",
+   "answer": [
+    "This",
+    "is",
+    "small."
+   ],
+   "unit": "int3a_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What flavor do you like?",
+    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+   },
+   "choices": [
+    "I like chocolate.",
+    "I like lemon.",
+    "I can play the piano."
+   ],
+   "answer": "I like chocolate.",
+   "unit": "int3a_u2",
+   "pic": "../packs/int3a_u2/chocolate.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "iris",
@@ -30,318 +147,172 @@
    "unit": "int3a_u6"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u1",
-   "q": {
-    "text": "What can you draw?",
-    "audio": "../packs/int3a_u1/audio/{v}/whatcanyoudraw.mp3"
-   },
-   "pic": "../packs/int3a_u1/circle.jpg",
-   "choices": [
-    "I can draw a circle.",
-    "He is ten years old.",
-    "This is loud."
-   ],
-   "answer": "I can draw a circle.",
-   "aud": {
-    "I can draw a circle.": "audio/int3a_u1/ai/icandrawacircle.mp3",
-    "He is ten years old.": "audio/int3a_u4/ai/heistenyearsold.mp3",
-    "This is loud.": "audio/int3a_u3/ai/thisisloud.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "soft",
-   "answer": "soft",
-   "choices": [
-    "soft",
-    "sott",
-    "sft",
-    "sopt"
-   ],
-   "unit": "int3a_u3"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "monster",
-   "choices": [
-    "monster",
-    "circle",
-    "korea",
-    "poo"
-   ],
-   "unit": "int3a_u1"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "silkworm",
-   "answer": "silkworm",
-   "choices": [
-    "silkworm",
-    "slkworm",
-    "silkwork",
-    "silpworm"
-   ],
-   "unit": "int3a_u5"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "big",
-   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "big",
-   "choices": [
-    "big",
-    "loud",
-    "bad"
-   ],
-   "unit": "int3a_u3"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "thirty",
-   "audio": "audio/int3a_u4/{v}/heisthirtyyearsold.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/heisfiveyearsold.mp3",
    "answer": [
     "He",
     "is",
-    "thirty",
+    "five",
     "years",
     "old."
    ],
    "unit": "int3a_u4"
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "stingray",
-   "audio": "audio/int3a_u6/{v}/mynameisstingray.mp3",
-   "answer": [
-    "My",
-    "name",
-    "is",
-    "Stingray."
-   ],
-   "unit": "int3a_u6"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "milk",
-   "audio": "audio/int3a_u2/{v}/ilikemilk.mp3",
-   "sentence": [
-    "I",
-    "like",
-    "___",
-    "."
-   ],
-   "answer": "milk",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
+   "answer": "This is big.",
    "choices": [
-    "milk",
-    "melon",
-    "strawberry"
+    "This is big.",
+    "This is small.",
+    "This is good."
    ],
-   "unit": "int3a_u2"
+   "unit": "int3a_u3"
   },
   {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u4",
-   "q": {
-    "text": "How old is he?",
-    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
-   },
-   "pic": "../packs/int3a_u4/fifteen.jpg",
-   "choices": [
-    "He is fifteen years old.",
-    "It is a butterfly.",
-    "I like mint."
-   ],
-   "answer": "He is fifteen years old.",
-   "aud": {
-    "He is fifteen years old.": "audio/int3a_u4/ai/heisfifteenyearsold.mp3",
-    "It is a butterfly.": "audio/int3a_u5/ai/itisabutterfly.mp3",
-    "I like mint.": "audio/int3a_u2/ai/ilikemint.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "redbean",
-   "audio": "audio/int3a_u2/{v}/ilikeredbean.mp3",
-   "answer": [
-    "I",
-    "like",
-    "red",
-    "bean."
-   ],
-   "unit": "int3a_u2"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cockroach",
-   "audio": "audio/int3a_u5/{v}/itisacockroach.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "cockroach",
-   "choices": [
-    "cockroach",
-    "centipede",
-    "mosquito"
-   ],
-   "unit": "int3a_u5"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "music",
-   "audio": "audio/int3a_u8/{v}/ilikemusic.mp3",
-   "answer": [
-    "I",
-    "like",
-    "music."
-   ],
-   "unit": "int3a_u8"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u3",
    "q": {
     "text": "How is it?",
     "audio": "audio/int3a_u3/{v}/howisit.mp3"
    },
-   "pic": "../packs/int3a_u3/hard.jpg",
    "choices": [
-    "This is hard.",
-    "My name is Ivy.",
-    "It is a mosquito."
+    "This is good.",
+    "This is bad.",
+    "It is Tuesday."
    ],
-   "answer": "This is hard.",
-   "aud": {
-    "This is hard.": "audio/int3a_u3/ai/thisishard.mp3",
-    "My name is Ivy.": "audio/int3a_u6/ai/mynameisivy.mp3",
-    "It is a mosquito.": "audio/int3a_u5/ai/itisamosquito.mp3"
-   }
+   "answer": "This is bad.",
+   "unit": "int3a_u3",
+   "pic": "../packs/int3a_u3/bad.jpg"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "dance",
-   "answer": "dance",
-   "choices": [
-    "dance",
-    "dabce",
-    "dace",
-    "ance"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u5/{v}/itisacicada.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "cicada."
    ],
-   "unit": "int3a_u7"
+   "unit": "int3a_u5"
   },
   {
-   "type": "listen",
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "sentence": [
+    "I",
+    "will",
+    "___",
+    "your",
+    "name",
+    "."
+   ],
+   "answer": "yell",
+   "choices": [
+    "yell",
+    "name",
+    "rose"
+   ],
+   "unit": "int3a_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "mint",
+   "audio": "audio/int3a_u4/{v}/oneyearhastwelvemonths.mp3",
+   "answer": "One year has twelve months.",
    "choices": [
-    "mint",
-    "melon",
-    "redbean",
-    "lemon"
-   ],
-   "unit": "int3a_u2"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "seventyseven",
-   "choices": [
-    "seventyseven",
-    "thirty",
-    "onehundred",
-    "fifteen"
+    "One year has twelve months.",
+    "He is one hundred years old.",
+    "He is five years old."
    ],
    "unit": "int3a_u4"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3a_u8/{v}/thisismyintroduction.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "answer": [
+    "I",
+    "will",
+    "yell",
+    "your",
+    "name."
    ],
-   "answer": "introduction",
+   "unit": "int3a_u6"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How old is he?",
+    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+   },
    "choices": [
-    "introduction",
-    "eleven",
-    "sing"
+    "He is fifteen years old.",
+    "He is thirty years old.",
+    "They are lychees."
+   ],
+   "answer": "He is fifteen years old.",
+   "unit": "int3a_u4",
+   "pic": "../packs/int3a_u4/fifteen.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u7/{v}/dojumpingjacks.mp3",
+   "answer": [
+    "Do",
+    "jumping",
+    "jacks!"
+   ],
+   "unit": "int3a_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u8/{v}/therearefourpeopleinmyfamily.mp3",
+   "answer": [
+    "There",
+    "are",
+    "four",
+    "people",
+    "in",
+    "my",
+    "family."
    ],
    "unit": "int3a_u8"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "int3a_u7",
-   "q": {
-    "text": "What do we do?",
-    "audio": "audio/int3a_u7/{v}/whatdowedo.mp3"
-   },
-   "pic": "../packs/int3a_u7/climb.jpg",
-   "choices": [
-    "Climb the rope!",
-    "I like vanilla.",
-    "He is thirty years old."
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u7/{v}/dojumpingjacks.mp3",
+   "sentence": [
+    "Do",
+    "___",
+    "!"
    ],
-   "answer": "Climb the rope!",
-   "aud": {
-    "Climb the rope!": "audio/int3a_u7/ai/climbtherope.mp3",
-    "I like vanilla.": "audio/int3a_u2/ai/ilikevanilla.mp3",
-    "He is thirty years old.": "audio/int3a_u4/ai/heisthirtyyearsold.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "tree",
-   "answer": "tree",
+   "answer": "jumping jacks",
    "choices": [
-    "tree",
-    "tre",
-    "mree",
-    "rree"
+    "jumping jacks",
+    "dance",
+    "gym"
    ],
-   "unit": "int3a_u1"
+   "unit": "int3a_u7"
   }
  ],
  "words": [

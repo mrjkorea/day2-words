@@ -14,130 +14,53 @@
  "lineAudio": "audio/basic_c_u5/",
  "questions": [
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "knee",
-   "audio": "audio/basic_c_u6/{v}/donttouchyourknee.mp3",
-   "sentence": [
-    "Don't",
-    "touch",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "knee",
-   "choices": [
-    "knee",
-    "face",
-    "leg"
-   ],
-   "unit": "basic_c_u6"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "knee",
-   "answer": "knee",
-   "choices": [
-    "knee",
-    "knue",
-    "kne",
-    "rnee"
-   ],
-   "unit": "basic_c_u5"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "pencilcase",
-   "audio": "audio/basic_c_u8/{v}/iwantanewpencilcase.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellswing.mp3",
    "answer": [
-    "I",
-    "want",
-    "a",
-    "new",
-    "pencil",
-    "case."
-   ],
-   "unit": "basic_c_u8"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u5",
-   "q": {
-    "text": "How do you spell pig?",
-    "audio": "audio/basic_c_u5/{v}/howdoyouspellpig.mp3"
-   },
-   "pic": "../packs/basic_c_u5/pig.jpg",
-   "choices": [
-    "P, I, G. Pig.",
-    "I love my cat."
-   ],
-   "answer": "P, I, G. Pig.",
-   "aud": {
-    "P, I, G. Pig.": "audio/basic_c_u5/ai/pigpig.mp3",
-    "I love my cat.": "audio/basic_c_u1/ai/ilovemycat.mp3"
-   }
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "bike",
-   "choices": [
-    "bike",
-    "computer",
-    "phone",
-    "earphones"
-   ],
-   "unit": "basic_c_u8"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "dog",
-   "choices": [
-    "dog",
-    "tongyeong",
-    "seoul",
-    "canada"
+    "How",
+    "do",
+    "you",
+    "spell",
+    "swing?"
    ],
    "unit": "basic_c_u5"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "leg",
-   "answer": "leg",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u7/{v}/letsplayintheplayhouse.mp3",
+   "answer": "Let's play in the playhouse.",
    "choices": [
-    "leg",
-    "legk",
-    "lag",
-    "keg"
-   ],
-   "unit": "basic_c_u6"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "maze",
-   "answer": "maze",
-   "choices": [
-    "maze",
-    "maz",
-    "mize",
-    "meze"
+    "Let's play in the playhouse.",
+    "Let's play in the sandbox.",
+    "Let's go in the maze."
    ],
    "unit": "basic_c_u7"
   },
   {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How do you spell cat?",
+    "audio": "audio/basic_c_u5/{v}/howdoyouspellcat.mp3"
+   },
+   "choices": [
+    "C, U, T. Cut.",
+    "C, A, T. Cat.",
+    "I am in fourth grade."
+   ],
+   "answer": "C, A, T. Cat.",
+   "unit": "basic_c_u5",
+   "pic": "../packs/basic_c_u5/cat.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_c_u6/{v}/donttouchit.mp3",
    "answer": [
     "Don't",
@@ -147,36 +70,68 @@
    "unit": "basic_c_u6"
   },
   {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u7",
-   "q": {
-    "text": "Where do you want to play?",
-    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
-   },
-   "pic": "../packs/basic_c_u7/slide.jpg",
-   "choices": [
-    "Let's play on the slide.",
-    "I love my rabbit."
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourneck.mp3",
+   "sentence": [
+    "Don't",
+    "touch",
+    "your",
+    "___",
+    "."
    ],
-   "answer": "Let's play on the slide.",
-   "aud": {
-    "Let's play on the slide.": "audio/basic_c_u7/ai/letsplayontheslide.mp3",
-    "I love my rabbit.": "audio/basic_c_u1/ai/ilovemyrabbit.mp3"
-   }
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "wrist",
+   "answer": "neck",
    "choices": [
-    "wrist",
-    "arm",
+    "neck",
     "toe",
-    "leg"
+    "touch"
    ],
    "unit": "basic_c_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u8/{v}/iwantnewearphones.mp3",
+   "answer": "I want new earphones.",
+   "choices": [
+    "I want new earphones.",
+    "I want a new school bag.",
+    "I want a new pencil case."
+   ],
+   "unit": "basic_c_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsridethebumpercar.mp3",
+   "answer": [
+    "Let's",
+    "ride",
+    "the",
+    "bumper",
+    "car."
+   ],
+   "unit": "basic_c_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_c_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    "Don't touch your neck.",
+    "Don't touch your arm.",
+    "It is my book."
+   ],
+   "answer": "Don't touch your arm.",
+   "unit": "basic_c_u6",
+   "pic": "../packs/basic_c_u6/arm.jpg"
   },
   {
    "type": "listen",
@@ -191,63 +146,95 @@
    "unit": "basic_c_u7"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "knee",
-   "audio": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3",
-   "sentence": [
-    "How",
-    "do",
-    "you",
-    "spell",
-    "___",
-    "?"
-   ],
-   "answer": "knee",
-   "choices": [
-    "knee",
-    "Canada",
-    "Seoul"
-   ],
-   "unit": "basic_c_u5"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "sandbox",
-   "audio": "audio/basic_c_u7/{v}/letsplayinthesandbox.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_c_u8/audio/{v}/iwantanewbike.mp3",
    "answer": [
-    "Let's",
-    "play",
-    "in",
-    "the",
-    "sandbox."
-   ],
-   "unit": "basic_c_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "phone",
-   "audio": "audio/basic_c_u8/{v}/iwantanewphone.mp3",
-   "sentence": [
     "I",
     "want",
     "a",
     "new",
+    "bike."
+   ],
+   "unit": "basic_c_u8"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u5/ai/dugdug.mp3",
+   "answer": "D, U, G. Dug.",
+   "choices": [
+    "D, U, G. Dug.",
+    "D, O, G. Dog.",
+    "C, U, T. Cut."
+   ],
+   "unit": "basic_c_u5"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where do you want to play?",
+    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
+   },
+   "choices": [
+    "Let's play on the jungle gym.",
+    "Let's ride the merry-go-round.",
+    "I am in sixth grade."
+   ],
+   "answer": "Let's play on the jungle gym.",
+   "unit": "basic_c_u7",
+   "pic": "../packs/basic_c_u7/junglegym.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/ai/dogdog.mp3",
+   "answer": [
+    "D,",
+    "O,",
+    "G.",
+    "Dog."
+   ],
+   "unit": "basic_c_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsgointhemaze.mp3",
+   "sentence": [
+    "Let's",
+    "go",
+    "in",
+    "the",
     "___",
     "."
    ],
-   "answer": "phone",
+   "answer": "maze",
    "choices": [
-    "phone",
-    "doll",
-    "want"
+    "maze",
+    "playhouse",
+    "sandbox"
    ],
-   "unit": "basic_c_u8"
+   "unit": "basic_c_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourstomach.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "your",
+    "stomach."
+   ],
+   "unit": "basic_c_u6"
   }
  ],
  "words": [

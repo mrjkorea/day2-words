@@ -7,26 +7,111 @@
  "lineAudio": "audio/int3c_u1/",
  "questions": [
   {
-   "type": "listen",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u1/{v}/itissalty.mp3",
+   "answer": [
+    "It",
+    "is",
+    "salty."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "salty",
+   "audio": "audio/int3c_u1/{v}/ilikesweetfood.mp3",
+   "answer": "I like sweet food.",
    "choices": [
+    "I like sweet food.",
+    "It is sour.",
+    "It is a sticky rice dessert."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is it? How does it taste?",
+    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
+   },
+   "choices": [
+    "It is rice.",
+    "It is doenjang.",
+    "I am playing Go."
+   ],
+   "answer": "It is doenjang.",
+   "pic": "../packs/int3c_u1/doenjang.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u1/{v}/itisrice.mp3",
+   "answer": [
+    "It",
+    "is",
+    "rice."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3c_u1/{v}/itisrice.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "rice",
+   "choices": [
+    "rice",
     "salty",
-    "sour",
-    "ddeok",
     "sweet"
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "ddeok",
+   "audio": "audio/int3c_u1/{v}/itissour.mp3",
+   "answer": "It is sour.",
    "choices": [
-    "ddeok",
-    "sweet",
-    "doenjang",
-    "salty"
+    "It is sour.",
+    "It is rice.",
+    "It is sticky."
    ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u1/{v}/itisdoenjang.mp3",
+   "answer": [
+    "It",
+    "is",
+    "doenjang."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is it? How does it taste?",
+    "audio": "audio/int3c_u1/{v}/whatisithowdoesittaste.mp3"
+   },
+   "choices": [
+    "Try it!",
+    "It is sweet.",
+    "Hello! Nice to meet you."
+   ],
+   "answer": "It is sweet.",
+   "pic": "../packs/int3c_u1/sweet.jpg"
   },
   {
    "type": "listen",
@@ -40,107 +125,17 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "salty",
-   "answer": "salty",
-   "choices": [
-    "salty",
-    "alty",
-    "salt",
-    "salmy"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sweet",
-   "answer": "sweet",
-   "choices": [
-    "sweet",
-    "sweeb",
-    "weet",
-    "swee"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "salty",
-   "audio": "audio/int3c_u1/{v}/itissalty.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3c_u1/audio/{v}/itisastickyricedessert.mp3",
    "answer": [
-    "It",
-    "is",
-    "salty."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int3c_u1/{v}/itissticky.mp3",
-   "answer": [
-    "It",
-    "is",
-    "sticky."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3c_u1/{v}/itisadessert.mp3",
-   "sentence": [
     "It",
     "is",
     "a",
-    "___",
-    "."
-   ],
-   "answer": "dessert",
-   "choices": [
-    "dessert",
     "sticky",
-    "rice"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "doenjang",
-   "audio": "audio/int3c_u1/{v}/itisdoenjang.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "doenjang",
-   "choices": [
-    "doenjang",
-    "ddeok",
-    "rice"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3c_u1/{v}/tryit.mp3",
-   "sentence": [
-    "___",
-    "it!"
-   ],
-   "answer": "Try",
-   "choices": [
-    "Try",
-    "Dessert",
-    "Rice"
+    "rice",
+    "dessert."
    ]
   }
  ],
@@ -500,10 +495,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

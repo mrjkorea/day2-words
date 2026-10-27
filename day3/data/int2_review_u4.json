@@ -16,22 +16,52 @@
  "lineAudio": "audio/int2a_u7/",
  "questions": [
   {
-   "type": "listen",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u7/{v}/thisisoursecretary.mp3",
+   "answer": [
+    "This",
+    "is",
+    "our",
+    "secretary."
+   ],
+   "unit": "int2a_u7"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "transitcard",
+   "audio": "audio/int2b_u7/{v}/itisoutside.mp3",
+   "answer": "It is outside.",
    "choices": [
-    "transitcard",
-    "infrontof",
-    "between",
-    "pencilcase"
+    "It is outside.",
+    "It is in my pocket.",
+    "It is across the street."
    ],
    "unit": "int2b_u7"
   },
   {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "audio/int2a_u7/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "This is our teacher.",
+    "Let's clean the classroom.",
+    "Wear gloves."
+   ],
+   "answer": "Let's clean the classroom.",
+   "unit": "int2a_u7",
+   "pic": "../packs/int2a_u7/clean.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "watch",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2a_u8/{v}/iwatchtv.mp3",
    "answer": [
     "I",
@@ -42,217 +72,67 @@
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "theirs",
-   "audio": "audio/int2b_u8/{v}/itistheirs.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u7/{v}/letscleantheclassroom.mp3",
    "sentence": [
-    "It",
-    "is",
+    "Let's",
     "___",
-    "."
-   ],
-   "answer": "theirs",
-   "choices": [
-    "theirs",
-    "ours",
-    "hers"
-   ],
-   "unit": "int2b_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "teacher",
-   "answer": "teacher",
-   "choices": [
-    "teacher",
-    "teocher",
-    "teachep",
-    "tacher"
-   ],
-   "unit": "int2a_u7"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "luck",
-   "choices": [
-    "luck",
-    "nice",
-    "long",
-    "care"
-   ],
-   "unit": "int2c_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "classmate",
-   "answer": "classmate",
-   "choices": [
-    "classmate",
-    "classmte",
-    "cassmate",
-    "classmata"
-   ],
-   "unit": "int2a_u7"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "across",
-   "answer": "across",
-   "choices": [
-    "across",
-    "ocross",
-    "cross",
-    "akross"
-   ],
-   "unit": "int2b_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "yours",
-   "audio": "audio/int2b_u8/{v}/itisyours.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "yours",
-   "choices": [
-    "yours",
-    "hers",
-    "his"
-   ],
-   "unit": "int2b_u8"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "librarian",
-   "audio": "audio/int2a_u7/{v}/thisisourlibrarian.mp3",
-   "answer": [
-    "This",
-    "is",
-    "our",
-    "librarian."
-   ],
-   "unit": "int2a_u7"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2c_u7/{v}/sorrywrongnumber.mp3",
-   "answer": [
-    "Sorry,",
-    "wrong",
-    "number."
-   ],
-   "unit": "int2c_u7"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "martialarts",
-   "choices": [
-    "martialarts",
-    "watch",
-    "piano",
-    "soccer"
-   ],
-   "unit": "int2a_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "out",
-   "answer": "out",
-   "choices": [
-    "out",
-    "oat",
-    "outi",
-    "outl"
-   ],
-   "unit": "int2c_u7"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "there",
-   "choices": [
-    "there",
-    "who",
-    "call",
-    "okay"
-   ],
-   "unit": "int2c_u7"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "piano",
-   "audio": "audio/int2a_u8/{v}/iplaythepiano.mp3",
-   "sentence": [
-    "I",
-    "play",
     "the",
-    "___",
+    "classroom",
     "."
    ],
-   "answer": "piano",
+   "answer": "clean",
    "choices": [
-    "piano",
-    "play",
-    "watch"
+    "clean",
+    "groundskeeper",
+    "janitor"
    ],
-   "unit": "int2a_u8"
+   "unit": "int2a_u7"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "miss",
-   "answer": "miss",
-   "choices": [
-    "miss",
-    "mis",
-    "mass",
-    "mins"
-   ],
-   "unit": "int2c_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "easy",
-   "answer": "easy",
-   "choices": [
-    "easy",
-    "eay",
-    "uasy",
-    "eask"
-   ],
-   "unit": "int2c_u8"
-  },
-  {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "outside",
+   "audio": "../packs/int2b_u8/audio/{v}/itisnotyoursitismine.mp3",
+   "answer": "It is not yours. It is mine.",
    "choices": [
-    "outside",
-    "across",
-    "nextto",
-    "transitcard"
+    "It is not yours. It is mine.",
+    "It is yours.",
+    "It is mine."
+   ],
+   "unit": "int2b_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u7/{v}/itisinmypocket.mp3",
+   "answer": [
+    "It",
+    "is",
+    "in",
+    "my",
+    "pocket."
    ],
    "unit": "int2b_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you do after school?",
+    "audio": "../packs/int2a_u8/audio/{v}/whatdoyoudoafterschool.mp3"
+   },
+   "choices": [
+    "I sing songs.",
+    "I play the piano.",
+    "Wear a skirt."
+   ],
+   "answer": "I sing songs.",
+   "unit": "int2a_u8",
+   "pic": "../packs/int2a_u8/sing.jpg"
   },
   {
    "type": "listen",
@@ -265,6 +145,133 @@
     "his"
    ],
    "unit": "int2b_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u8/{v}/itishers.mp3",
+   "answer": [
+    "It",
+    "is",
+    "hers."
+   ],
+   "unit": "int2b_u8"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u7/ai/sorrysheisout.mp3",
+   "answer": "Sorry, she is out.",
+   "choices": [
+    "Sorry, she is out.",
+    "She is out.",
+    "Sorry, it is raining."
+   ],
+   "unit": "int2c_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where is it?",
+    "audio": "audio/int2b_u7/{v}/whereisit.mp3"
+   },
+   "choices": [
+    "It is in front of the desk.",
+    "I have my transit card.",
+    "Sit down, please."
+   ],
+   "answer": "I have my transit card.",
+   "unit": "int2b_u7",
+   "pic": "../packs/int2b_u7/transitcard.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u7/audio/{v}/thisismrjay.mp3",
+   "answer": [
+    "This",
+    "is",
+    "Mr.",
+    "Jay."
+   ],
+   "unit": "int2c_u7"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u8/{v}/iplaywithmylittlebrother.mp3",
+   "sentence": [
+    "I",
+    "play",
+    "with",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "little brother",
+   "choices": [
+    "little brother",
+    "sing",
+    "soccer"
+   ],
+   "unit": "int2a_u8"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u8/{v}/wehadagreattime.mp3",
+   "answer": "We had a great time.",
+   "choices": [
+    "We had a great time.",
+    "It was a long year.",
+    "Have a nice day."
+   ],
+   "unit": "int2c_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u8/{v}/haveaniceday.mp3",
+   "answer": [
+    "Have",
+    "a",
+    "nice",
+    "day."
+   ],
+   "unit": "int2c_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u7/{v}/iamastudent.mp3",
+   "answer": [
+    "I",
+    "am",
+    "a",
+    "student."
+   ],
+   "unit": "int2a_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u8/{v}/isingsongs.mp3",
+   "answer": [
+    "I",
+    "sing",
+    "songs."
+   ],
+   "unit": "int2a_u8"
   }
  ],
  "words": [

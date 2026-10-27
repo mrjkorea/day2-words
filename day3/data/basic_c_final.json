@@ -18,23 +18,52 @@
  "lineAudio": "audio/basic_c_u1/",
  "questions": [
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "tongyeong",
-   "answer": "Tongyeong",
-   "choices": [
-    "Tongyeong",
-    "Tungyeong",
-    "Tongyeon",
-    "Tengyeong"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u1/{v}/ilovemysnake.mp3",
+   "answer": [
+    "I",
+    "love",
+    "my",
+    "snake."
    ],
-   "unit": "basic_c_u5"
+   "unit": "basic_c_u1"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u1/{v}/ilovemybeetle.mp3",
+   "answer": "I love my beetle.",
+   "choices": [
+    "I love my beetle.",
+    "I love my snake.",
+    "I love my dog Zoey."
+   ],
+   "unit": "basic_c_u1"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What pet do you love?",
+    "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
+   },
+   "choices": [
+    "I love my hamster.",
+    "I love my rabbit.",
+    "I can draw a star."
+   ],
+   "answer": "I love my hamster.",
+   "unit": "basic_c_u1",
+   "pic": "../packs/basic_c_u1/hamster.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "phone",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_c_u2/{v}/lookatmynewphone.mp3",
    "answer": [
     "Look",
@@ -44,6 +73,70 @@
     "phone."
    ],
    "unit": "basic_c_u2"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3",
+   "sentence": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "___",
+    "?"
+   ],
+   "answer": "knee",
+   "choices": [
+    "knee",
+    "pig",
+    "face"
+   ],
+   "unit": "basic_c_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u2/{v}/lookatmynewbag.mp3",
+   "answer": "Look at my new bag.",
+   "choices": [
+    "Look at my new bag.",
+    "Look at my new earphones.",
+    "Look at my new watch."
+   ],
+   "unit": "basic_c_u2"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u3/ai/yesyoumaystart.mp3",
+   "answer": [
+    "Yes,",
+    "you",
+    "may",
+    "start."
+   ],
+   "unit": "basic_c_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is new?",
+    "audio": "audio/basic_c_u2/{v}/whatisnew.mp3"
+   },
+   "choices": [
+    "Look at my new earphones.",
+    "Look at my new computer.",
+    "Climb the rope!"
+   ],
+   "answer": "Look at my new computer.",
+   "unit": "basic_c_u2",
+   "pic": "../packs/basic_c_u2/computer.jpg"
   },
   {
    "type": "listen",
@@ -58,288 +151,171 @@
    "unit": "basic_c_u4"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/basic_c_u2/{v}/mybagisnew.mp3",
-   "sentence": [
-    "My",
-    "bag",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "new",
-   "choices": [
-    "new",
-    "phone",
-    "coat"
-   ],
-   "unit": "basic_c_u2"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "dog",
-   "audio": "audio/basic_c_u5/{v}/howdoyouspelldog.mp3",
-   "sentence": [
-    "How",
-    "do",
-    "you",
-    "spell",
-    "___",
-    "?"
-   ],
-   "answer": "dog",
-   "choices": [
-    "dog",
-    "knee",
-    "Seoul"
-   ],
-   "unit": "basic_c_u5"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u7",
-   "q": {
-    "text": "Where do you want to play?",
-    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
-   },
-   "pic": "../packs/basic_c_u7/junglegym.jpg",
-   "choices": [
-    "Let's play on the jungle gym.",
-    "Look at my new hat."
-   ],
-   "answer": "Let's play on the jungle gym.",
-   "aud": {
-    "Let's play on the jungle gym.": "audio/basic_c_u7/ai/letsplayonthejunglegym.mp3",
-    "Look at my new hat.": "audio/basic_c_u2/ai/lookatmynewhat.mp3"
-   }
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "bird",
-   "answer": "bird",
-   "choices": [
-    "bird",
-    "berd",
-    "ird",
-    "bir"
-   ],
-   "unit": "basic_c_u1"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "suncheon",
-   "audio": "audio/basic_c_u4/{v}/wecanseesuncheon.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u4/{v}/wecanseebusan.mp3",
    "answer": [
     "We",
     "can",
     "see",
-    "Suncheon."
+    "Busan."
    ],
    "unit": "basic_c_u4"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "fish",
+   "audio": "audio/basic_c_u3/ai/thetestisred.mp3",
+   "answer": "The test is red.",
    "choices": [
-    "fish",
-    "hamster",
-    "cat",
-    "rabbit"
-   ],
-   "unit": "basic_c_u1"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "test",
-   "answer": "test",
-   "choices": [
-    "test",
-    "tesd",
-    "tst",
-    "est"
+    "The test is red.",
+    "The test is tomorrow.",
+    "We have a test today."
    ],
    "unit": "basic_c_u3"
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "arm",
-   "choices": [
-    "arm",
-    "face",
-    "toe",
-    "wrist"
-   ],
-   "unit": "basic_c_u6"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "phone",
-   "audio": "audio/basic_c_u8/{v}/iwantanewphone.mp3",
-   "sentence": [
-    "I",
-    "want",
-    "a",
-    "new",
-    "___",
-    "."
-   ],
-   "answer": "phone",
-   "choices": [
-    "phone",
-    "doll",
-    "want"
-   ],
-   "unit": "basic_c_u8"
-  },
-  {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u4",
-   "q": {
-    "text": "What can we see?",
-    "audio": "audio/basic_c_u4/{v}/whatcanwesee.mp3"
-   },
-   "pic": "../packs/basic_c_u4/gongju.jpg",
-   "choices": [
-    "We can see Gongju.",
-    "C, A, T. Cat."
-   ],
-   "answer": "We can see Gongju.",
-   "aud": {
-    "We can see Gongju.": "audio/basic_c_u4/ai/wecanseegongju.mp3",
-    "C, A, T. Cat.": "audio/basic_c_u5/ai/catcat.mp3"
-   }
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u1",
-   "q": {
-    "text": "What pet do you love?",
-    "audio": "audio/basic_c_u1/{v}/whatpetdoyoulove.mp3"
-   },
-   "pic": "../packs/basic_c_u1/beetle.jpg",
-   "choices": [
-    "I love my beetle.",
-    "The test is tomorrow."
-   ],
-   "answer": "I love my beetle.",
-   "aud": {
-    "I love my beetle.": "audio/basic_c_u1/ai/ilovemybeetle.mp3",
-    "The test is tomorrow.": "audio/basic_c_u3/ai/thetestistomorrow.mp3"
-   }
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "start",
-   "audio": "../packs/basic_c_u3/audio/{v}/mayistart.mp3",
-   "sentence": [
-    "May",
-    "I",
-    "___",
-    "?"
-   ],
-   "answer": "start",
-   "choices": [
-    "start",
-    "Monday",
-    "tomorrow"
-   ],
-   "unit": "basic_c_u3"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "back",
-   "audio": "audio/basic_c_u6/{v}/donttouchyourback.mp3",
-   "answer": [
-    "Don't",
-    "touch",
-    "your",
-    "back."
-   ],
-   "unit": "basic_c_u6"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "earphones",
-   "choices": [
-    "earphones",
-    "shoes",
-    "hat",
-    "watch"
-   ],
-   "unit": "basic_c_u2"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_c_u3",
    "q": {
     "text": "When is the test?",
     "audio": "audio/basic_c_u3/{v}/whenisthetest.mp3"
    },
-   "pic": "../packs/basic_c_u3/test.jpg",
    "choices": [
     "The test is tomorrow.",
-    "I love my fish."
+    "The test is red.",
+    "I can draw a monster."
    ],
    "answer": "The test is tomorrow.",
-   "aud": {
-    "The test is tomorrow.": "audio/basic_c_u3/ai/thetestistomorrow.mp3",
-    "I love my fish.": "audio/basic_c_u1/ai/ilovemyfish.mp3"
-   }
+   "unit": "basic_c_u3",
+   "pic": "../packs/basic_c_u3/test.jpg"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "seesaw",
-   "answer": "seesaw",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u5/{v}/howdoyouspellknee.mp3",
+   "answer": [
+    "How",
+    "do",
+    "you",
+    "spell",
+    "knee?"
+   ],
+   "unit": "basic_c_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourstomach.mp3",
+   "sentence": [
+    "Don't",
+    "touch",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "stomach",
    "choices": [
-    "seesaw",
-    "seosaw",
-    "seasaw",
-    "eesaw"
+    "stomach",
+    "wrist",
+    "neck"
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u4/{v}/wecanseegoseong.mp3",
+   "answer": "We can see Goseong.",
+   "choices": [
+    "We can see Goseong.",
+    "We can see Seoul.",
+    "We can see Gongju."
+   ],
+   "unit": "basic_c_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourstomach.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "your",
+    "stomach."
+   ],
+   "unit": "basic_c_u6"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can we see?",
+    "audio": "audio/basic_c_u4/{v}/whatcanwesee.mp3"
+   },
+   "choices": [
+    "We can see Pyeongchang.",
+    "We can see Gongju.",
+    "Do jumping jacks!"
+   ],
+   "answer": "We can see Gongju.",
+   "unit": "basic_c_u4",
+   "pic": "../packs/basic_c_u4/gongju.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsridetherollercoaster.mp3",
+   "answer": [
+    "Let's",
+    "ride",
+    "the",
+    "roller",
+    "coaster."
    ],
    "unit": "basic_c_u7"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "pencilcase",
-   "audio": "audio/basic_c_u8/{v}/iwantanewpencilcase.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u8/{v}/iwantit.mp3",
    "answer": [
     "I",
     "want",
-    "a",
-    "new",
-    "pencil",
-    "case."
+    "it."
    ],
    "unit": "basic_c_u8"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsplayontheswing.mp3",
+   "sentence": [
+    "Let's",
+    "play",
+    "on",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "swing",
+   "choices": [
+    "swing",
+    "seesaw",
+    "playhouse"
+   ],
+   "unit": "basic_c_u7"
   }
  ],
  "words": [

@@ -7,26 +7,116 @@
  "lineAudio": "audio/int3a_u6/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "iris",
-   "choices": [
-    "iris",
-    "baker",
-    "mike",
-    "stingray"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/mynameisstingray.mp3",
+   "answer": [
+    "My",
+    "name",
+    "is",
+    "Stingray."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "ivy",
+   "audio": "audio/int3a_u6/{v}/whatisyourname.mp3",
+   "answer": "What is your name?",
    "choices": [
-    "ivy",
-    "iris",
-    "mike",
-    "hunter"
+    "What is your name?",
+    "How will I yell your name?",
+    "My name is Mike."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is your name?",
+    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+   },
+   "choices": [
+    "My name is Hunter.",
+    "My name is Iris.",
+    "It is thirty-three."
+   ],
+   "answer": "My name is Iris.",
+   "pic": "../packs/int3a_u6/iris.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
+   "answer": [
+    "I",
+    "will",
+    "yell",
+    "your",
+    "name."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/whatisyourname.mp3",
+   "sentence": [
+    "What",
+    "is",
+    "your",
+    "___",
+    "?"
+   ],
+   "answer": "name",
+   "choices": [
+    "name",
+    "yell",
+    "rose"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3a_u6/{v}/mynameisiris.mp3",
+   "answer": "My name is Iris.",
+   "choices": [
+    "My name is Iris.",
+    "My name is Baker.",
+    "My name is Mike."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/mynameismike.mp3",
+   "answer": [
+    "My",
+    "name",
+    "is",
+    "Mike."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is your name?",
+    "audio": "audio/int3a_u6/{v}/whatisyourname.mp3"
+   },
+   "choices": [
+    "My name is Ivy.",
+    "My name is Rose.",
+    "I am taking a picture."
+   ],
+   "answer": "My name is Rose.",
+   "pic": "../packs/int3a_u6/rose.jpg"
   },
   {
    "type": "listen",
@@ -40,114 +130,15 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hunter",
-   "answer": "hunter",
-   "choices": [
-    "hunter",
-    "hunrer",
-    "unter",
-    "huntur"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "iris",
-   "answer": "iris",
-   "choices": [
-    "iris",
-    "iras",
-    "ris",
-    "iis"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
-   "answer": [
-    "I",
-    "will",
-    "yell",
-    "your",
-    "name."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "stingray",
-   "audio": "audio/int3a_u6/{v}/mynameisstingray.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u6/{v}/mynameisginger.mp3",
    "answer": [
     "My",
     "name",
     "is",
-    "Stingray."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3a_u6/{v}/iwillyellyourname.mp3",
-   "sentence": [
-    "I",
-    "will",
-    "___",
-    "your",
-    "name."
-   ],
-   "answer": "yell",
-   "choices": [
-    "yell",
-    "name",
-    "stingray"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "baker",
-   "audio": "audio/int3a_u6/{v}/mynameisbaker.mp3",
-   "sentence": [
-    "My",
-    "name",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "Baker",
-   "choices": [
-    "Baker",
-    "Hunter",
-    "Ivy"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ivy",
-   "audio": "audio/int3a_u6/{v}/mynameisivy.mp3",
-   "sentence": [
-    "My",
-    "name",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "Ivy",
-   "choices": [
-    "Ivy",
-    "Stingray",
-    "Rose"
+    "Ginger."
    ]
   }
  ],
@@ -507,10 +498,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

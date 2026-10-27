@@ -7,15 +7,115 @@
  "lineAudio": "audio/int2a_u6/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "exciting",
-   "choices": [
-    "exciting",
-    "weird",
-    "quiet",
-    "funny"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u6/{v}/thisvideoisgross.mp3",
+   "answer": [
+    "This",
+    "video",
+    "is",
+    "gross."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u6/{v}/thisvideoisexciting.mp3",
+   "answer": "This video is exciting.",
+   "choices": [
+    "This video is exciting.",
+    "This video is boring.",
+    "This video is sad."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How is the video?",
+    "audio": "audio/int2a_u6/{v}/howisthevideo.mp3"
+   },
+   "choices": [
+    "This video is exciting.",
+    "This video is scary.",
+    "This is my phone."
+   ],
+   "answer": "This video is scary.",
+   "pic": "../packs/int2a_u6/scary.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u6/{v}/lookatthisvideo.mp3",
+   "answer": [
+    "Look",
+    "at",
+    "this",
+    "video."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2a_u6/{v}/thisvideoisweird.mp3",
+   "sentence": [
+    "This",
+    "video",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "weird",
+   "choices": [
+    "weird",
+    "crazy",
+    "gross"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2a_u6/{v}/thisvideoissad.mp3",
+   "answer": "This video is sad.",
+   "choices": [
+    "This video is sad.",
+    "This video is crazy.",
+    "This video is quiet."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2a_u6/{v}/thisvideoiscrazy.mp3",
+   "answer": [
+    "This",
+    "video",
+    "is",
+    "crazy."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How is the video?",
+    "audio": "audio/int2a_u6/{v}/howisthevideo.mp3"
+   },
+   "choices": [
+    "This video is scary.",
+    "This video is boring.",
+    "This is my math teacher."
+   ],
+   "answer": "This video is boring.",
+   "pic": "../packs/int2a_u6/boring.jpg"
   },
   {
    "type": "listen",
@@ -29,124 +129,16 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "scary",
-   "choices": [
-    "scary",
-    "gross",
-    "funny",
-    "sad"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "quiet",
-   "answer": "quiet",
-   "choices": [
-    "quiet",
-    "quet",
-    "qiiet",
-    "quiem"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "weird",
-   "answer": "weird",
-   "choices": [
-    "weird",
-    "weurd",
-    "weir",
-    "wird"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "sad",
-   "audio": "audio/int2a_u6/{v}/thisvideoissad.mp3",
-   "answer": [
-    "This",
-    "video",
-    "is",
-    "sad."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int2a_u6/{v}/lookatthisvideo.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2a_u6/audio/{v}/lookatthisfunnyvideo.mp3",
    "answer": [
     "Look",
     "at",
     "this",
+    "funny",
     "video."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "scary",
-   "audio": "audio/int2a_u6/{v}/thisvideoisscary.mp3",
-   "sentence": [
-    "This",
-    "video",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "scary",
-   "choices": [
-    "scary",
-    "weird",
-    "funny"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "crazy",
-   "audio": "audio/int2a_u6/{v}/thisvideoiscrazy.mp3",
-   "sentence": [
-    "This",
-    "video",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "crazy",
-   "choices": [
-    "crazy",
-    "exciting",
-    "weird"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "exciting",
-   "audio": "audio/int2a_u6/{v}/thisvideoisexciting.mp3",
-   "sentence": [
-    "This",
-    "video",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "exciting",
-   "choices": [
-    "exciting",
-    "quiet",
-    "scary"
    ]
   }
  ],
@@ -506,10 +498,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

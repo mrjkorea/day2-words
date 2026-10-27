@@ -7,133 +7,61 @@
  "lineAudio": "audio/basic_b_u6/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "body",
-   "choices": [
-    "body",
-    "neck",
-    "eye",
-    "head"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "nose",
-   "choices": [
-    "nose",
-    "shoulder",
-    "chin",
-    "eye"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "mouth",
-   "choices": [
-    "mouth",
-    "ear",
-    "nose",
-    "neck"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hand",
-   "answer": "hand",
-   "choices": [
-    "hand",
-    "and",
-    "han",
-    "had"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "neck",
-   "answer": "neck",
-   "choices": [
-    "neck",
-    "necc",
-    "nebk",
-    "nuck"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "body",
-   "audio": "audio/basic_b_u6/{v}/thisismybody.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismyeye.mp3",
    "answer": [
     "This",
     "is",
     "my",
-    "body."
+    "eye."
    ]
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u6/{v}/thisismychin.mp3",
+   "answer": "This is my chin.",
+   "choices": [
+    "This is my chin.",
+    "This is my shoulder.",
+    "This is my ear."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_b_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    "This is my body.",
+    "This is my nose.",
+    "I am bowing."
+   ],
+   "answer": "This is my body.",
+   "pic": "../packs/basic_b_u6/body.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "mouth",
-   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismyhand.mp3",
    "answer": [
     "This",
     "is",
     "my",
-    "mouth."
+    "hand."
    ]
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "mouth",
-   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "mouth",
-   "choices": [
-    "mouth",
-    "eye",
-    "nose"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ear",
-   "audio": "audio/basic_b_u6/{v}/thisismyear.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "ear",
-   "choices": [
-    "ear",
-    "head",
-    "body"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "nose",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/basic_b_u6/{v}/thisismynose.mp3",
    "sentence": [
     "This",
@@ -145,8 +73,71 @@
    "answer": "nose",
    "choices": [
     "nose",
+    "mouth",
+    "neck"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u6/{v}/thisismyshoulder.mp3",
+   "answer": "This is my shoulder.",
+   "choices": [
+    "This is my shoulder.",
+    "This is my mouth.",
+    "This is my eye."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismyneck.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "neck."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_b_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    "This is my neck.",
+    "This is my mouth.",
+    "It is a moth."
+   ],
+   "answer": "This is my mouth.",
+   "pic": "../packs/basic_b_u6/mouth.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "body",
+   "choices": [
+    "body",
     "neck",
-    "body"
+    "eye",
+    "head"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismynose.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "nose."
    ]
   }
  ],
@@ -583,10 +574,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

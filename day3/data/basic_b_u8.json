@@ -7,6 +7,121 @@
  "lineAudio": "audio/basic_b_u8/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u8/{v}/iamsixtysixyearsold.mp3",
+   "answer": [
+    "I",
+    "am",
+    "sixty-six",
+    "years",
+    "old."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u8/{v}/iamthirtythreeyearsold.mp3",
+   "answer": "I am thirty-three years old.",
+   "choices": [
+    "I am thirty-three years old.",
+    "I am twenty-two years old.",
+    "I am twenty-five years old."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How old are you?",
+    "audio": "../packs/basic_b_u8/audio/{v}/howoldareyou.mp3"
+   },
+   "choices": [
+    "I am seventeen years old.",
+    "I am fourteen years old.",
+    "You too!"
+   ],
+   "answer": "I am seventeen years old.",
+   "pic": "../packs/basic_b_u8/seventeen.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u8/{v}/iamtwentyfiveyearsold.mp3",
+   "answer": [
+    "I",
+    "am",
+    "twenty-five",
+    "years",
+    "old."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u8/{v}/iamtwentyfiveyearsold.mp3",
+   "sentence": [
+    "I",
+    "am",
+    "___",
+    "years",
+    "old",
+    "."
+   ],
+   "answer": "twenty-five",
+   "choices": [
+    "twenty-five",
+    "one hundred",
+    "ten"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/basic_b_u8/audio/{v}/howoldareyou.mp3",
+   "answer": "How old are you?",
+   "choices": [
+    "How old are you?",
+    "I am one hundred years old.",
+    "I am thirty-three years old."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u8/{v}/iamseventeenyearsold.mp3",
+   "answer": [
+    "I",
+    "am",
+    "seventeen",
+    "years",
+    "old."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How old are you?",
+    "audio": "../packs/basic_b_u8/audio/{v}/howoldareyou.mp3"
+   },
+   "choices": [
+    "One year has twelve months.",
+    "I am twenty-five years old.",
+    "We had a great time."
+   ],
+   "answer": "I am twenty-five years old.",
+   "pic": "../packs/basic_b_u8/twentyfive.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "seventeen",
@@ -18,56 +133,9 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "fourteen",
-   "choices": [
-    "fourteen",
-    "thirtythree",
-    "seven",
-    "twentyfive"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "seven",
-   "choices": [
-    "seven",
-    "onehundred",
-    "thirtythree",
-    "fourteen"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "ten",
-   "answer": "ten",
-   "choices": [
-    "ten",
-    "tenc",
-    "teb",
-    "tenb"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "seventeen",
-   "answer": "seventeen",
-   "choices": [
-    "seventeen",
-    "seventaen",
-    "keventeen",
-    "seenteen"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_b_u8/{v}/oneyearhastwelvemonths.mp3",
    "answer": [
     "One",
@@ -75,80 +143,6 @@
     "has",
     "twelve",
     "months."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "seven",
-   "audio": "audio/basic_b_u8/{v}/iamsevenyearsold.mp3",
-   "answer": [
-    "I",
-    "am",
-    "seven",
-    "years",
-    "old."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/basic_b_u8/{v}/oneyearhastwelvemonths.mp3",
-   "sentence": [
-    "One",
-    "___",
-    "has",
-    "twelve",
-    "months."
-   ],
-   "answer": "year",
-   "choices": [
-    "year",
-    "seven",
-    "twenty-two"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "twentytwo",
-   "audio": "audio/basic_b_u8/{v}/iamtwentytwoyearsold.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "___",
-    "years",
-    "old."
-   ],
-   "answer": "twenty-two",
-   "choices": [
-    "twenty-two",
-    "year",
-    "seven"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ten",
-   "audio": "../packs/basic_b_u8/audio/{v}/iamtenyearsold.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "___",
-    "years",
-    "old."
-   ],
-   "answer": "ten",
-   "choices": [
-    "ten",
-    "fourteen",
-    "seventeen"
    ]
   }
  ],
@@ -503,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

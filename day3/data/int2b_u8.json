@@ -7,110 +7,63 @@
  "lineAudio": "audio/int2b_u8/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "theirs",
-   "choices": [
-    "theirs",
-    "yours",
-    "his",
-    "ours"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "hers",
-   "choices": [
-    "hers",
-    "ours",
-    "mine",
-    "his"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "yours",
-   "choices": [
-    "yours",
-    "mine",
-    "hers",
-    "his"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "yours",
-   "answer": "yours",
-   "choices": [
-    "yours",
-    "yors",
-    "ours",
-    "yoirs"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hers",
-   "answer": "hers",
-   "choices": [
-    "hers",
-    "hrs",
-    "rers",
-    "heps"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "hers",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2b_u8/audio/{v}/itisnotyoursitismine.mp3",
+   "answer": [
+    "It",
+    "is",
+    "not",
+    "yours.",
+    "It",
+    "is",
+    "mine."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
    "audio": "audio/int2b_u8/{v}/itishers.mp3",
-   "answer": [
-    "It",
-    "is",
-    "hers."
+   "answer": "It is hers.",
+   "choices": [
+    "It is hers.",
+    "It is mine.",
+    "It is ours."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Whose is it?",
+    "audio": "audio/int2b_u8/{v}/whoseisit.mp3"
+   },
+   "choices": [
+    "It is ours.",
+    "It is yours.",
+    "Restart your computer."
+   ],
+   "answer": "It is yours.",
+   "pic": "../packs/int2b_u8/yours.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "ours",
-   "audio": "audio/int2b_u8/{v}/itisours.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u8/{v}/itistheirs.mp3",
    "answer": [
     "It",
     "is",
-    "ours."
+    "theirs."
    ]
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "yours",
-   "audio": "audio/int2b_u8/{v}/itisyours.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "yours",
-   "choices": [
-    "yours",
-    "hers",
-    "his"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "theirs",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int2b_u8/{v}/itistheirs.mp3",
    "sentence": [
     "It",
@@ -121,27 +74,69 @@
    "answer": "theirs",
    "choices": [
     "theirs",
-    "ours",
-    "hers"
+    "his",
+    "mine"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "his",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2b_u8/{v}/itisyours.mp3",
+   "answer": "It is yours.",
+   "choices": [
+    "It is yours.",
+    "It is not yours. It is mine.",
+    "It is theirs."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2b_u8/{v}/itishis.mp3",
-   "sentence": [
+   "answer": [
     "It",
     "is",
-    "___",
-    "."
-   ],
-   "answer": "his",
+    "his."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Whose is it?",
+    "audio": "audio/int2b_u8/{v}/whoseisit.mp3"
+   },
    "choices": [
-    "his",
-    "theirs",
-    "mine"
+    "It is yours.",
+    "It is his.",
+    "My favorite hobby is drawing."
+   ],
+   "answer": "It is his.",
+   "pic": "../packs/int2b_u8/his.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
+   "answer": "hers",
+   "choices": [
+    "hers",
+    "ours",
+    "mine",
+    "his"
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2b_u8/{v}/itisours.mp3",
+   "answer": [
+    "It",
+    "is",
+    "ours."
    ]
   }
  ],
@@ -464,10 +459,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -7,26 +7,113 @@
  "lineAudio": "audio/int3a_u2/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "strawberry",
-   "choices": [
-    "strawberry",
-    "chocolate",
-    "banana",
-    "redbean"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u2/{v}/ilikevanilla.mp3",
+   "answer": [
+    "I",
+    "like",
+    "vanilla."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "melon",
+   "audio": "audio/int3a_u2/{v}/ilikemelon.mp3",
+   "answer": "I like melon.",
    "choices": [
-    "melon",
-    "mint",
-    "banana",
-    "redbean"
+    "I like melon.",
+    "I like banana.",
+    "I like chocolate."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What flavor do you like?",
+    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+   },
+   "choices": [
+    "I like vanilla.",
+    "I like mint.",
+    "Korea has many provinces."
+   ],
+   "answer": "I like vanilla.",
+   "pic": "../packs/int3a_u2/vanilla.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3a_u2/audio/{v}/ilikestrawberry.mp3",
+   "answer": [
+    "I",
+    "like",
+    "strawberry."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3",
+   "sentence": [
+    "What",
+    "___",
+    "do",
+    "you",
+    "like",
+    "?"
+   ],
+   "answer": "flavor",
+   "choices": [
+    "flavor",
+    "strawberry",
+    "chocolate"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3",
+   "answer": "What flavor do you like?",
+   "choices": [
+    "What flavor do you like?",
+    "I like strawberry.",
+    "I like milk."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u2/{v}/ilikechocolate.mp3",
+   "answer": [
+    "I",
+    "like",
+    "chocolate."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What flavor do you like?",
+    "audio": "../packs/int3a_u2/audio/{v}/whatflavordoyoulike.mp3"
+   },
+   "choices": [
+    "I like chocolate.",
+    "I like lemon.",
+    "We can see Tongyeong."
+   ],
+   "answer": "I like chocolate.",
+   "pic": "../packs/int3a_u2/chocolate.jpg"
   },
   {
    "type": "listen",
@@ -40,109 +127,14 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "milk",
-   "answer": "milk",
-   "choices": [
-    "milk",
-    "mitk",
-    "mipk",
-    "mlk"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "banana",
-   "answer": "banana",
-   "choices": [
-    "banana",
-    "anana",
-    "banena",
-    "banane"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "banana",
-   "audio": "audio/int3a_u2/{v}/ilikebanana.mp3",
-   "answer": [
-    "I",
-    "like",
-    "banana."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "redbean",
-   "audio": "audio/int3a_u2/{v}/ilikeredbean.mp3",
-   "answer": [
-    "I",
-    "like",
-    "red",
-    "bean."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "mint",
-   "audio": "audio/int3a_u2/{v}/ilikemint.mp3",
-   "sentence": [
-    "I",
-    "like",
-    "___",
-    "."
-   ],
-   "answer": "mint",
-   "choices": [
-    "mint",
-    "strawberry",
-    "vanilla"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "milk",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3a_u2/{v}/ilikemilk.mp3",
-   "sentence": [
+   "answer": [
     "I",
     "like",
-    "___",
-    "."
-   ],
-   "answer": "milk",
-   "choices": [
-    "milk",
-    "melon",
-    "strawberry"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "banana",
-   "audio": "audio/int3a_u2/{v}/ilikebanana.mp3",
-   "sentence": [
-    "I",
-    "like",
-    "___",
-    "."
-   ],
-   "answer": "banana",
-   "choices": [
-    "banana",
-    "chocolate",
-    "melon"
+    "milk."
    ]
   }
  ],
@@ -502,10 +494,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -7,67 +7,48 @@
  "lineAudio": "audio/int3c_u7/",
  "questions": [
   {
-   "type": "listen",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u7/{v}/icantype.mp3",
+   "answer": [
+    "I",
+    "can",
+    "type."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "fight",
+   "audio": "../packs/int3c_u7/audio/{v}/canyoufly.mp3",
+   "answer": "Can you fly?",
    "choices": [
-    "fight",
-    "sing",
-    "type",
-    "love"
+    "Can you fly?",
+    "I can jump.",
+    "I can dance."
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "cook",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Can you fight?",
+    "audio": "audio/int3c_u7/{v}/canyoufight.mp3"
+   },
    "choices": [
-    "cook",
-    "fly",
-    "love",
-    "dance"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "run",
-   "choices": [
-    "run",
-    "fight",
-    "type",
-    "love"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fly",
-   "answer": "fly",
-   "choices": [
-    "fly",
-    "flyt",
-    "flyd",
-    "flr"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "type",
-   "answer": "type",
-   "choices": [
-    "type",
-    "tcpe",
-    "trpe",
-    "lype"
-   ]
+    "I can cook.",
+    "I can fight.",
+    "He is ten years old."
+   ],
+   "answer": "I can fight.",
+   "pic": "../packs/int3c_u7/fight.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "jump",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3c_u7/{v}/icanjump.mp3",
    "answer": [
     "I",
@@ -76,73 +57,84 @@
    ]
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "sing",
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
    "audio": "audio/int3c_u7/{v}/icansing.mp3",
-   "answer": [
+   "sentence": [
     "I",
     "can",
-    "sing."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "fly",
-   "audio": "../packs/int3c_u7/audio/{v}/noicannotfly.mp3",
-   "sentence": [
-    "No,",
-    "I",
-    "cannot",
     "___",
     "."
    ],
-   "answer": "fly",
+   "answer": "sing",
    "choices": [
-    "fly",
-    "run",
+    "sing",
+    "fight",
     "jump"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "run",
-   "audio": "audio/int3c_u7/{v}/icanrun.mp3",
-   "sentence": [
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u7/{v}/icandance.mp3",
+   "answer": "I can dance.",
+   "choices": [
+    "I can dance.",
+    "I can jump.",
+    "I can love my family."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u7/{v}/icanfight.mp3",
+   "answer": [
     "I",
     "can",
-    "___",
-    "."
+    "fight."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Can you fly?",
+    "audio": "../packs/int3c_u7/audio/{v}/canyoufly.mp3"
+   },
+   "choices": [
+    "No, I cannot fly.",
+    "I can fight.",
+    "He is five years old."
    ],
+   "answer": "No, I cannot fly.",
+   "pic": "../packs/int3c_u7/fly.jpg"
+  },
+  {
+   "type": "listen",
+   "skill": "listening",
    "answer": "run",
    "choices": [
     "run",
-    "sing",
+    "fight",
+    "type",
     "love"
    ]
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "walk",
-   "audio": "audio/int3c_u7/{v}/icanwalk.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u7/{v}/icanlovemyfamily.mp3",
+   "answer": [
     "I",
     "can",
-    "___",
-    "."
-   ],
-   "answer": "walk",
-   "choices": [
-    "walk",
-    "jump",
-    "type"
+    "love",
+    "my",
+    "family."
    ]
   }
  ],
@@ -502,10 +494,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

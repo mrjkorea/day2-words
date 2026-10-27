@@ -7,6 +7,116 @@
  "lineAudio": "audio/basic_c_u6/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchit.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "it."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourstomach.mp3",
+   "answer": "Don't touch your stomach.",
+   "choices": [
+    "Don't touch your stomach.",
+    "Don't touch your toe.",
+    "Don't touch your neck."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_c_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    "Don't touch your neck.",
+    "Don't touch your arm.",
+    "It is in my pencil case."
+   ],
+   "answer": "Don't touch your arm.",
+   "pic": "../packs/basic_c_u6/arm.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_c_u6/audio/{v}/donttouchyourarm.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "your",
+    "arm."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourtoe.mp3",
+   "sentence": [
+    "Don't",
+    "touch",
+    "your",
+    "___",
+    "."
+   ],
+   "answer": "toe",
+   "choices": [
+    "toe",
+    "arm",
+    "stomach"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourback.mp3",
+   "answer": "Don't touch your back.",
+   "choices": [
+    "Don't touch your back.",
+    "Don't touch your wrist.",
+    "Don't touch your stomach."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourwrist.mp3",
+   "answer": [
+    "Don't",
+    "touch",
+    "your",
+    "wrist."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is this?",
+    "audio": "audio/basic_c_u6/{v}/whatisthis.mp3"
+   },
+   "choices": [
+    "Don't touch your leg.",
+    "Don't touch your knee.",
+    "I can draw a circle."
+   ],
+   "answer": "Don't touch your leg.",
+   "pic": "../packs/basic_c_u6/leg.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "wrist",
@@ -18,134 +128,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "toe",
-   "choices": [
-    "toe",
-    "stomach",
-    "face",
-    "neck"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "arm",
-   "choices": [
-    "arm",
-    "face",
-    "toe",
-    "wrist"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "leg",
-   "answer": "leg",
-   "choices": [
-    "leg",
-    "legk",
-    "lag",
-    "keg"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "neck",
-   "answer": "neck",
-   "choices": [
-    "neck",
-    "nck",
-    "nack",
-    "nek"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "back",
-   "audio": "audio/basic_c_u6/{v}/donttouchyourback.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u6/{v}/donttouchyourtoe.mp3",
    "answer": [
     "Don't",
     "touch",
     "your",
-    "back."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/basic_c_u6/{v}/donttouchit.mp3",
-   "answer": [
-    "Don't",
-    "touch",
-    "it."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "neck",
-   "audio": "audio/basic_c_u6/{v}/donttouchyourneck.mp3",
-   "sentence": [
-    "Don't",
-    "touch",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "neck",
-   "choices": [
-    "neck",
-    "stomach",
-    "wrist"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "knee",
-   "audio": "audio/basic_c_u6/{v}/donttouchyourknee.mp3",
-   "sentence": [
-    "Don't",
-    "touch",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "knee",
-   "choices": [
-    "knee",
-    "face",
-    "leg"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "leg",
-   "audio": "audio/basic_c_u6/{v}/donttouchyourleg.mp3",
-   "sentence": [
-    "Don't",
-    "touch",
-    "your",
-    "___",
-    "."
-   ],
-   "answer": "leg",
-   "choices": [
-    "leg",
-    "face",
-    "stomach"
+    "toe."
    ]
   }
  ],
@@ -505,10 +496,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

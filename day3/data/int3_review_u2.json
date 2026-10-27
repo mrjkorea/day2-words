@@ -17,32 +17,120 @@
  "questions": [
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "thirty",
-   "audio": "audio/int3a_u4/{v}/heisthirtyyearsold.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisisquiet.mp3",
+   "answer": [
+    "This",
+    "is",
+    "quiet."
+   ],
+   "unit": "int3a_u3"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u3/{v}/quieterplease.mp3",
+   "answer": "Quieter please.",
+   "choices": [
+    "Quieter please.",
+    "Louder please.",
+    "Slower please."
+   ],
+   "unit": "int3b_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How is it?",
+    "audio": "audio/int3a_u3/{v}/howisit.mp3"
+   },
+   "choices": [
+    "This is hard.",
+    "This is soft.",
+    "It is Wednesday."
+   ],
+   "answer": "This is soft.",
+   "unit": "int3a_u3",
+   "pic": "../packs/int3a_u3/soft.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/heistenyearsold.mp3",
    "answer": [
     "He",
     "is",
-    "thirty",
+    "ten",
     "years",
     "old."
    ],
    "unit": "int3a_u4"
   },
   {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3",
-   "answer": [
-    "What",
-    "should",
-    "I",
-    "wear?"
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisishot.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "___",
+    "."
    ],
-   "unit": "int3c_u3"
+   "answer": "hot",
+   "choices": [
+    "hot",
+    "good",
+    "big"
+   ],
+   "unit": "int3a_u3"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u4/{v}/itisme.mp3",
+   "answer": "It is me!",
+   "choices": [
+    "It is me!",
+    "He is my grandfather.",
+    "He is my brother."
+   ],
+   "unit": "int3b_u4"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u3/{v}/pleasehelpme.mp3",
+   "answer": [
+    "Please",
+    "help",
+    "me."
+   ],
+   "unit": "int3b_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "How old is he?",
+    "audio": "../packs/int3a_u4/audio/{v}/howoldishe.mp3"
+   },
+   "choices": [
+    "He is thirty years old.",
+    "He is fifty-five years old.",
+    "This is my history teacher."
+   ],
+   "answer": "He is fifty-five years old.",
+   "unit": "int3a_u4",
+   "pic": "../packs/int3a_u4/fiftyfive.jpg"
   },
   {
    "type": "listen",
@@ -57,102 +145,98 @@
    "unit": "int3b_u3"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "big",
-   "audio": "audio/int3a_u3/{v}/thisisbig.mp3",
-   "sentence": [
-    "This",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3",
+   "answer": [
+    "Who",
     "is",
-    "___",
-    "."
-   ],
-   "answer": "big",
-   "choices": [
-    "big",
-    "loud",
-    "bad"
-   ],
-   "unit": "int3a_u3"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "dad",
-   "choices": [
-    "dad",
-    "aunt",
-    "me",
-    "grandfather"
+    "this?"
    ],
    "unit": "int3b_u4"
   },
   {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u3/{v}/wearshoes.mp3",
+   "answer": "Wear shoes.",
+   "choices": [
+    "Wear shoes.",
+    "Wear a shirt.",
+    "Wear socks."
+   ],
+   "unit": "int3c_u3"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do you want?",
+    "audio": "audio/int3b_u3/{v}/whatdoyouwant.mp3"
+   },
+   "choices": [
+    "Smaller please.",
+    "More please.",
+    "It is Wednesday."
+   ],
+   "answer": "Smaller please.",
+   "unit": "int3b_u3",
+   "pic": "../packs/int3b_u3/smaller.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3",
+   "answer": [
+    "What",
+    "should",
+    "I",
+    "wear?"
+   ],
+   "unit": "int3c_u3"
+  },
+  {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "talk",
-   "audio": "audio/int3c_u4/{v}/letstalk.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/heisonehundredyearsold.mp3",
    "sentence": [
-    "Let's",
+    "He",
+    "is",
     "___",
+    "years",
+    "old",
     "."
    ],
-   "answer": "talk",
+   "answer": "one hundred",
    "choices": [
-    "talk",
-    "play",
-    "bike"
+    "one hundred",
+    "seventy-seven",
+    "five"
+   ],
+   "unit": "int3a_u4"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3c_u4/{v}/letssing.mp3",
+   "answer": "Let's sing.",
+   "choices": [
+    "Let's sing.",
+    "Let's climb.",
+    "Let's watch TV."
    ],
    "unit": "int3c_u4"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "cold",
-   "audio": "../packs/int3a_u3/audio/{v}/thisiscold.mp3",
-   "sentence": [
-    "This",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "cold",
-   "choices": [
-    "cold",
-    "loud",
-    "good"
-   ],
-   "unit": "int3a_u3"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "grandmother",
-   "audio": "../packs/int3b_u4/audio/{v}/sheismygrandmother.mp3",
-   "sentence": [
-    "She",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "grandmother",
-   "choices": [
-    "grandmother",
-    "uncle",
-    "dad"
-   ],
-   "unit": "int3b_u4"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "tv",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int3c_u4/{v}/letswatchtv.mp3",
    "answer": [
     "Let's",
@@ -162,126 +246,28 @@
    "unit": "int3c_u4"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "small",
-   "answer": "small",
-   "choices": [
-    "small",
-    "smal",
-    "scall",
-    "cmall"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u3/{v}/thisishot.mp3",
+   "answer": [
+    "This",
+    "is",
+    "hot."
    ],
    "unit": "int3a_u3"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fifteen",
-   "answer": "fifteen",
-   "choices": [
-    "fifteen",
-    "fiftien",
-    "fifteun",
-    "fiften"
-   ],
-   "unit": "int3a_u4"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "cooler",
-   "answer": "cooler",
-   "choices": [
-    "cooler",
-    "couler",
-    "coolr",
-    "coomer"
-   ],
-   "unit": "int3b_u3"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/int3c_u3/{v}/whatshouldiwear.mp3",
-   "sentence": [
-    "What",
-    "should",
-    "I",
-    "___",
-    "?"
-   ],
-   "answer": "wear",
-   "choices": [
-    "wear",
-    "socks",
-    "shoes"
-   ],
-   "unit": "int3c_u3"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "me",
-   "audio": "audio/int3b_u4/{v}/itisme.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3a_u4/{v}/heisfiveyearsold.mp3",
    "answer": [
-    "It",
+    "He",
     "is",
-    "me!"
-   ],
-   "unit": "int3b_u4"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "bike",
-   "audio": "audio/int3c_u4/{v}/letsrideabike.mp3",
-   "answer": [
-    "Let's",
-    "ride",
-    "a",
-    "bike."
-   ],
-   "unit": "int3c_u4"
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "skirt",
-   "audio": "audio/int3c_u3/{v}/wearaskirt.mp3",
-   "answer": [
-    "Wear",
-    "a",
-    "skirt."
-   ],
-   "unit": "int3c_u3"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "cooler",
-   "choices": [
-    "cooler",
-    "warmer",
-    "smaller",
-    "louder"
-   ],
-   "unit": "int3b_u3"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "seventyseven",
-   "choices": [
-    "seventyseven",
-    "thirty",
-    "onehundred",
-    "fifteen"
+    "five",
+    "years",
+    "old."
    ],
    "unit": "int3a_u4"
   }

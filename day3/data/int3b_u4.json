@@ -7,6 +7,117 @@
  "lineAudio": "audio/int3b_u4/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u4/{v}/heismybrother.mp3",
+   "answer": [
+    "He",
+    "is",
+    "my",
+    "brother."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int3b_u4/{v}/heismyuncle.mp3",
+   "answer": "He is my uncle.",
+   "choices": [
+    "He is my uncle.",
+    "He is my dad.",
+    "He is my grandfather."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "It is me!",
+    "He is my uncle.",
+    "I can cook."
+   ],
+   "answer": "He is my uncle.",
+   "pic": "../packs/int3b_u4/uncle.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int3b_u4/audio/{v}/sheismygrandmother.mp3",
+   "answer": [
+    "She",
+    "is",
+    "my",
+    "grandmother."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int3b_u4/{v}/sheismymom.mp3",
+   "sentence": [
+    "She",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "mom",
+   "choices": [
+    "mom",
+    "uncle",
+    "grandfather"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3",
+   "answer": "Who is this?",
+   "choices": [
+    "Who is this?",
+    "It is me!",
+    "She is my mom."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u4/{v}/sheismyaunt.mp3",
+   "answer": [
+    "She",
+    "is",
+    "my",
+    "aunt."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Who is this?",
+    "audio": "../packs/int3b_u4/audio/{v}/whoisthis.mp3"
+   },
+   "choices": [
+    "She is my mom.",
+    "She is my grandmother.",
+    "I play games."
+   ],
+   "answer": "She is my grandmother.",
+   "pic": "../packs/int3b_u4/grandmother.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "dad",
@@ -18,134 +129,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "aunt",
-   "choices": [
-    "aunt",
-    "mom",
-    "me",
-    "grandmother"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "grandmother",
-   "choices": [
-    "grandmother",
-    "brother",
-    "sister",
-    "aunt"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "sister",
-   "answer": "sister",
-   "choices": [
-    "sister",
-    "siter",
-    "sistec",
-    "sismer"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "teacher",
-   "answer": "teacher",
-   "choices": [
-    "teacher",
-    "toacher",
-    "teached",
-    "teacer"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "mom",
-   "audio": "audio/int3b_u4/{v}/sheismymom.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int3b_u4/{v}/heismygrandfather.mp3",
    "answer": [
-    "She",
-    "is",
-    "my",
-    "mom."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "me",
-   "audio": "audio/int3b_u4/{v}/itisme.mp3",
-   "answer": [
-    "It",
-    "is",
-    "me!"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "aunt",
-   "audio": "audio/int3b_u4/{v}/sheismyaunt.mp3",
-   "sentence": [
-    "She",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "aunt",
-   "choices": [
-    "aunt",
-    "grandfather",
-    "sister"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "uncle",
-   "audio": "audio/int3b_u4/{v}/heismyuncle.mp3",
-   "sentence": [
     "He",
     "is",
     "my",
-    "___",
-    "."
-   ],
-   "answer": "uncle",
-   "choices": [
-    "uncle",
-    "grandfather",
-    "aunt"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "grandmother",
-   "audio": "../packs/int3b_u4/audio/{v}/sheismygrandmother.mp3",
-   "sentence": [
-    "She",
-    "is",
-    "my",
-    "___",
-    "."
-   ],
-   "answer": "grandmother",
-   "choices": [
-    "grandmother",
-    "uncle",
-    "dad"
+    "grandfather."
    ]
   }
  ],
@@ -505,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

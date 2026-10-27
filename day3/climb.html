@@ -52,10 +52,12 @@ const TYPES={
   start:q=>{const built=[];card.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{if(locked)return;const s=document.getElementById('slots');
    if(b.parentNode.id==='tiles'){s.appendChild(b);built.push(b.textContent)}else{document.getElementById('tiles').appendChild(b);built.splice(built.indexOf(b.textContent),1)}
    if(built.length===q.answer.length)check(built.join(' ')===q.answer.join(' '),null)})}},
+ // hear: play a full expression line, choose the matching sentence (A/B/C).
+ hear:{html:q=>`<button class="snd" id="play">🔊 Listen</button>`+choiceBtns(q),start:q=>setTimeout(()=>line(q.audio),300)},
  dialogue:{html:q=>{const qa=q.q&&q.q.audio;const aud=q.audio||qa;return (q.pic?`<div class="big"><img src="${q.pic}" alt=""></div>`:'')+(aud?`<button class="snd" id="play">🔊</button>`:'')+`<div class="sent">💬 ${q.q.text}</div>`+choiceBtns(q)},
   start:q=>{const a=q.q&&q.q.audio;if(a){q.audio=a;setTimeout(()=>line(a),300)}}}
 };
-const PROMPTS={listen:'Listen and choose the right picture.',spell:'Look at the picture. Choose the right spelling.',fill:'Fill in the missing word.',order:'Put the words in order.',dialogue:'Choose the best answer.'};
+const PROMPTS={listen:'Listen and choose the right picture.',spell:'Look at the picture. Choose the right spelling.',fill:'Fill in the missing word.',order:'Put the words in order.',dialogue:'Choose the best answer.',hear:'Listen. Which sentence do you hear?'};
 const PROMPT=q=>{const t=q&&q.prompt;return (typeof t==='string'&&t.trim()&&t!=='undefined')?t:(PROMPTS[q&&q.type]||'Choose the right answer.')};
 const HOME=()=>D.kind==='culture'?'units.html':D.kind==='review'?(D.id&&/_review_u\d+$/.test(D.id)?'review.html':'units.html'):WB.link('index.html');
 const KINDLBL=()=>D.kind==='culture'?'Culture':D.kind==='review'?'Review':'Day 3';

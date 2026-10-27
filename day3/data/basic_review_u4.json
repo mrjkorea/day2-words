@@ -16,41 +16,120 @@
  "lineAudio": "audio/basic_a_u7/",
  "questions": [
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "brown",
-   "answer": "brown",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u7/{v}/icansing.mp3",
+   "answer": [
+    "I",
+    "can",
+    "sing."
+   ],
+   "unit": "basic_a_u7"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u7/{v}/itiswhite.mp3",
+   "answer": "It is white.",
    "choices": [
-    "brown",
-    "brow",
-    "bown",
-    "brwn"
+    "It is white.",
+    "It is blue.",
+    "It is black."
    ],
    "unit": "basic_b_u7"
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "dance",
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can you do?",
+    "audio": "audio/basic_a_u7/{v}/whatcanyoudo.mp3"
+   },
    "choices": [
-    "dance",
-    "fast",
-    "magic",
+    "I can speak Chinese.",
+    "I can dance.",
+    "I teach English."
+   ],
+   "answer": "I can speak Chinese.",
+   "unit": "basic_a_u7",
+   "pic": "../packs/basic_a_u7/chinese.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itisonehundred.mp3",
+   "answer": [
+    "It",
+    "is",
+    "one",
+    "hundred."
+   ],
+   "unit": "basic_a_u8"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u7/{v}/icandraw.mp3",
+   "sentence": [
+    "I",
+    "can",
+    "___",
+    "."
+   ],
+   "answer": "draw",
+   "choices": [
+    "draw",
+    "sing",
     "taekwondo"
    ],
    "unit": "basic_a_u7"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "study",
+   "audio": "audio/basic_b_u8/{v}/iamsevenyearsold.mp3",
+   "answer": "I am seven years old.",
    "choices": [
-    "study",
-    "sing",
-    "draw",
-    "dance"
+    "I am seven years old.",
+    "I am sixty-six years old.",
+    "I am thirty-three years old."
    ],
-   "unit": "basic_a_u7"
+   "unit": "basic_b_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u7/{v}/itisyellow.mp3",
+   "answer": [
+    "It",
+    "is",
+    "yellow."
+   ],
+   "unit": "basic_b_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What number is it?",
+    "audio": "audio/basic_a_u8/{v}/whatnumberisit.mp3"
+   },
+   "choices": [
+    "It is ninety-nine.",
+    "It is ninety-seven.",
+    "There is no desert in Korea."
+   ],
+   "answer": "It is ninety-seven.",
+   "unit": "basic_a_u8",
+   "pic": "../packs/basic_a_u8/ninetyseven.jpg"
   },
   {
    "type": "listen",
@@ -65,213 +144,132 @@
    "unit": "basic_b_u8"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "computer",
-   "answer": "computer",
-   "choices": [
-    "computer",
-    "comuter",
-    "computem",
-    "omputer"
-   ],
-   "unit": "basic_c_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "eleven",
-   "answer": "eleven",
-   "choices": [
-    "eleven",
-    "elenen",
-    "eliven",
-    "elevon"
-   ],
-   "unit": "basic_a_u8"
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "purple",
-   "audio": "audio/basic_b_u7/{v}/itispurple.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u8/{v}/iamtwentytwoyearsold.mp3",
    "answer": [
-    "It",
-    "is",
-    "purple."
+    "I",
+    "am",
+    "twenty-two",
+    "years",
+    "old."
    ],
-   "unit": "basic_b_u7"
+   "unit": "basic_b_u8"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u7/{v}/letsplayinthesandbox.mp3",
+   "answer": "Let's play in the sandbox.",
+   "choices": [
+    "Let's play in the sandbox.",
+    "Let's play in the playhouse.",
+    "Let's go in the maze."
+   ],
+   "unit": "basic_c_u7"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "choices": [
+    "It is red.",
+    "It is brown.",
+    "I love summer."
+   ],
+   "answer": "It is red.",
+   "unit": "basic_b_u7",
+   "pic": "../packs/basic_b_u7/red.jpg"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "bumpercar",
-   "audio": "audio/basic_c_u7/{v}/letsridethebumpercar.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsridetherollercoaster.mp3",
    "answer": [
     "Let's",
     "ride",
     "the",
-    "bumper",
-    "car."
+    "roller",
+    "coaster."
    ],
    "unit": "basic_c_u7"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "bike",
-   "choices": [
-    "bike",
-    "computer",
-    "phone",
-    "earphones"
-   ],
-   "unit": "basic_c_u8"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "ten",
-   "answer": "ten",
-   "choices": [
-    "ten",
-    "tenc",
-    "teb",
-    "tenb"
-   ],
-   "unit": "basic_b_u8"
   },
   {
    "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "swing",
-   "audio": "audio/basic_c_u7/{v}/letsplayontheswing.mp3",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itisonehundred.mp3",
    "sentence": [
-    "Let's",
-    "play",
-    "on",
-    "the",
+    "It",
+    "is",
     "___",
     "."
    ],
-   "answer": "swing",
+   "answer": "one hundred",
    "choices": [
-    "swing",
-    "slide",
-    "seesaw"
-   ],
-   "unit": "basic_c_u7"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "thirteen",
-   "choices": [
-    "thirteen",
-    "twelve",
-    "ninetynine",
-    "fiftyfive"
+    "one hundred",
+    "ninety-nine",
+    "eleven"
    ],
    "unit": "basic_a_u8"
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "sandbox",
+   "audio": "audio/basic_c_u8/{v}/iwantit.mp3",
+   "answer": "I want it.",
    "choices": [
-    "sandbox",
-    "seesaw",
-    "swing",
-    "slide"
+    "I want it.",
+    "I want new clothes.",
+    "I want a little brother."
    ],
-   "unit": "basic_c_u7"
+   "unit": "basic_c_u8"
   },
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "study",
-   "audio": "audio/basic_a_u7/{v}/icanstudy.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_c_u8/audio/{v}/iwantanewbike.mp3",
+   "answer": [
+    "I",
+    "want",
+    "a",
+    "new",
+    "bike."
+   ],
+   "unit": "basic_c_u8"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u7/{v}/icanrun.mp3",
+   "answer": [
     "I",
     "can",
-    "___",
-    "."
-   ],
-   "answer": "study",
-   "choices": [
-    "study",
-    "draw",
-    "run"
+    "run."
    ],
    "unit": "basic_a_u7"
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "seven",
-   "choices": [
-    "seven",
-    "basic_b_u8__onehundred",
-    "basic_b_u8__thirtythree",
-    "fourteen"
-   ],
-   "unit": "basic_b_u8"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "earphones",
-   "choices": [
-    "earphones",
-    "schoolbag",
-    "clothes",
-    "pencilcase"
-   ],
-   "unit": "basic_c_u8"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ninetynine",
-   "audio": "audio/basic_a_u8/{v}/itisninetynine.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_a_u8/{v}/itisthirtythree.mp3",
+   "answer": [
     "It",
     "is",
-    "___",
-    "."
-   ],
-   "answer": "ninety-nine",
-   "choices": [
-    "ninety-nine",
-    "ninety-seven",
-    "thirty-three"
+    "thirty-three."
    ],
    "unit": "basic_a_u8"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "brown",
-   "audio": "audio/basic_b_u7/{v}/itisbrown.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "___",
-    "."
-   ],
-   "answer": "brown",
-   "choices": [
-    "brown",
-    "yellow",
-    "black"
-   ],
-   "unit": "basic_b_u7"
   }
  ],
  "words": [

@@ -7,15 +7,112 @@
  "lineAudio": "audio/basic_b_u4/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "wins",
-   "choices": [
-    "wins",
-    "scissors",
-    "paper",
-    "rock"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3",
+   "answer": [
+    "Scissors",
+    "win",
+    "against",
+    "paper."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3",
+   "answer": "Scissors win.",
+   "choices": [
+    "Scissors win.",
+    "Scissors win against paper.",
+    "Rock wins."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Paper or rock. Who wins?",
+    "audio": "audio/basic_b_u4/{v}/paperorrockwhowins.mp3"
+   },
+   "choices": [
+    "Paper wins.",
+    "Rock wins.",
+    "Sit down, please."
+   ],
+   "answer": "Paper wins.",
+   "pic": "../packs/basic_b_u4/paper.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3",
+   "answer": [
+    "Scissors",
+    "win",
+    "against",
+    "paper."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Fill in the missing word.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3",
+   "sentence": [
+    "___",
+    "win."
+   ],
+   "answer": "Scissors",
+   "choices": [
+    "Scissors",
+    "wins.",
+    "Paper"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
+   "answer": "Rock wins.",
+   "choices": [
+    "Rock wins.",
+    "Paper wins.",
+    "Scissors win against paper."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3",
+   "answer": [
+    "Scissors",
+    "win",
+    "against",
+    "paper."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Scissors or paper. Who wins?",
+    "audio": "audio/basic_b_u4/{v}/scissorsorpaperwhowins.mp3"
+   },
+   "choices": [
+    "Scissors win.",
+    "Paper wins.",
+    "It is eleven."
+   ],
+   "answer": "Scissors win.",
+   "pic": "../packs/basic_b_u4/scissors.jpg"
   },
   {
    "type": "listen",
@@ -29,111 +126,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "scissors",
-   "choices": [
-    "scissors",
-    "rock",
-    "paper",
-    "wins"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "rock",
-   "answer": "rock",
-   "choices": [
-    "rock",
-    "pock",
-    "rok",
-    "roct"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "scissors",
-   "answer": "scissors",
-   "choices": [
-    "scissors",
-    "stissors",
-    "scisors",
-    "scissor"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "scissors",
-   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u4/{v}/scissorswinagainstpaper.mp3",
    "answer": [
     "Scissors",
-    "win."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "rock",
-   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
-   "answer": [
-    "Rock",
-    "wins."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "rock",
-   "audio": "../packs/basic_b_u4/audio/{v}/rockwins.mp3",
-   "sentence": [
-    "___",
-    "wins."
-   ],
-   "answer": "Rock",
-   "choices": [
-    "Rock",
-    "Paper",
-    "Scissors"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "paper",
-   "audio": "audio/basic_b_u4/{v}/paperwins.mp3",
-   "sentence": [
-    "___",
-    "wins."
-   ],
-   "answer": "Paper",
-   "choices": [
-    "Paper",
-    "Scissors",
-    "Rock"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "scissors",
-   "audio": "audio/basic_b_u4/{v}/scissorswin.mp3",
-   "sentence": [
-    "___",
-    "win."
-   ],
-   "answer": "Scissors",
-   "choices": [
-    "Scissors",
-    "Paper",
-    "Rock"
+    "win",
+    "against",
+    "paper."
    ]
   }
  ],
@@ -424,10 +425,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

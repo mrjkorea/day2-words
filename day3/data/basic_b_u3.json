@@ -7,6 +7,118 @@
  "lineAudio": "audio/basic_b_u3/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u3/ai/noidonotunderstand.mp3",
+   "answer": [
+    "No.",
+    "I",
+    "do",
+    "not",
+    "understand."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u3/{v}/putitinthetrash.mp3",
+   "answer": "Put it in the trash.",
+   "choices": [
+    "Put it in the trash.",
+    "Put it in the trash can.",
+    "Put it on your head."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What do we do with old paper?",
+    "audio": "audio/basic_b_u3/{v}/whatdowedowitholdpaper.mp3"
+   },
+   "choices": [
+    "Eat the paper.",
+    "Recycle the paper.",
+    "Hello, Mr. Cat."
+   ],
+   "answer": "Recycle the paper.",
+   "pic": "../packs/basic_b_u3/recycle.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u3/{v}/recyclethepaper.mp3",
+   "answer": [
+    "Recycle",
+    "the",
+    "paper."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u3/{v}/bequietplease.mp3",
+   "sentence": [
+    "Be",
+    "___",
+    ",",
+    "please",
+    "."
+   ],
+   "answer": "quiet",
+   "choices": [
+    "quiet",
+    "trash",
+    "again"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u3/{v}/bequietplease.mp3",
+   "answer": "Be quiet, please.",
+   "choices": [
+    "Be quiet, please.",
+    "Sit down, please.",
+    "Say it again, please."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u3/ai/yesicanhelpyou.mp3",
+   "answer": [
+    "Yes,",
+    "I",
+    "can",
+    "help",
+    "you."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Do you understand?",
+    "audio": "audio/basic_b_u3/{v}/doyouunderstand.mp3"
+   },
+   "choices": [
+    "No. I do not understand.",
+    "No. I do not like noodles.",
+    "Wear a shirt."
+   ],
+   "answer": "No. I do not understand.",
+   "pic": "../packs/basic_b_u3/understand.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "trash",
@@ -18,130 +130,17 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "understand",
-   "choices": [
-    "understand",
-    "quiet",
-    "trash",
-    "help"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "help",
-   "choices": [
-    "help",
-    "again",
-    "quiet",
-    "understand"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "quiet",
-   "answer": "quiet",
-   "choices": [
-    "quiet",
-    "quiek",
-    "qoiet",
-    "quit"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "trash",
-   "answer": "trash",
-   "choices": [
-    "trash",
-    "rash",
-    "tralh",
-    "trasd"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "help",
-   "audio": "audio/basic_b_u3/{v}/canyouhelpme.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u3/ai/noidonotlikenoodles.mp3",
    "answer": [
-    "Can",
-    "you",
-    "help",
-    "me?"
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": null,
-   "audio": "audio/basic_b_u3/{v}/sitdownplease.mp3",
-   "answer": [
-    "Sit",
-    "down,",
-    "please."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": null,
-   "audio": "audio/basic_b_u3/{v}/sitdownplease.mp3",
-   "sentence": [
-    "Sit",
-    "down,",
-    "___",
-    "."
-   ],
-   "answer": "please",
-   "choices": [
-    "please",
-    "again",
-    "recycle"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "help",
-   "audio": "audio/basic_b_u3/{v}/canyouhelpme.mp3",
-   "sentence": [
-    "Can",
-    "you",
-    "___",
-    "me?"
-   ],
-   "answer": "help",
-   "choices": [
-    "help",
-    "quiet",
-    "again"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "know",
-   "audio": "audio/basic_b_u3/{v}/iknow.mp3",
-   "sentence": [
+    "No.",
     "I",
-    "___",
-    "."
-   ],
-   "answer": "know",
-   "choices": [
-    "know",
-    "quiet",
-    "recycle"
+    "do",
+    "not",
+    "like",
+    "noodles."
    ]
   }
  ],
@@ -483,10 +482,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

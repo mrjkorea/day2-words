@@ -7,15 +7,113 @@
  "lineAudio": "audio/int2c_u6/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "stomachache",
-   "choices": [
-    "stomachache",
-    "cold",
-    "back",
-    "sorethroat"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/int2c_u6/audio/{v}/ihaveaheadache.mp3",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "headache."
    ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u6/{v}/ihaveabloodynose.mp3",
+   "answer": "I have a bloody nose.",
+   "choices": [
+    "I have a bloody nose.",
+    "I have a sore throat.",
+    "I have a cold."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What's wrong?",
+    "audio": "../packs/int2c_u6/audio/{v}/whatswrong.mp3"
+   },
+   "choices": [
+    "I have a headache.",
+    "I have a stomachache.",
+    "This is our secretary."
+   ],
+   "answer": "I have a stomachache.",
+   "pic": "../packs/int2c_u6/stomachache.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u6/{v}/mykneehurts.mp3",
+   "answer": [
+    "My",
+    "knee",
+    "hurts."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/int2c_u6/{v}/ihaveacold.mp3",
+   "sentence": [
+    "I",
+    "have",
+    "a",
+    "___",
+    "."
+   ],
+   "answer": "cold",
+   "choices": [
+    "cold",
+    "stomachache",
+    "ankle"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/int2c_u6/{v}/ihaveasorethroat.mp3",
+   "answer": "I have a sore throat.",
+   "choices": [
+    "I have a sore throat.",
+    "I have a headache.",
+    "I have a stomachache."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/int2c_u6/{v}/mybackhurts.mp3",
+   "answer": [
+    "My",
+    "back",
+    "hurts."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What's wrong?",
+    "audio": "../packs/int2c_u6/audio/{v}/whatswrong.mp3"
+   },
+   "choices": [
+    "My tooth hurts.",
+    "My back hurts.",
+    "I am one hundred years old."
+   ],
+   "answer": "My tooth hurts.",
+   "pic": "../packs/int2c_u6/tooth.jpg"
   },
   {
    "type": "listen",
@@ -29,121 +127,14 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "bloodynose",
-   "choices": [
-    "bloodynose",
-    "knee",
-    "tooth",
-    "ankle"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "fever",
-   "answer": "fever",
-   "choices": [
-    "fever",
-    "fevir",
-    "fevar",
-    "kever"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "stomachache",
-   "answer": "stomachache",
-   "choices": [
-    "stomachache",
-    "stomackache",
-    "stomachace",
-    "stomachakhe"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "ankle",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/int2c_u6/{v}/myanklehurts.mp3",
    "answer": [
     "My",
     "ankle",
     "hurts."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "fever",
-   "audio": "audio/int2c_u6/{v}/ihaveafever.mp3",
-   "answer": [
-    "I",
-    "have",
-    "a",
-    "fever."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "headache",
-   "audio": "../packs/int2c_u6/audio/{v}/ihaveaheadache.mp3",
-   "sentence": [
-    "I",
-    "have",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "headache",
-   "choices": [
-    "headache",
-    "knee",
-    "fever"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "stomachache",
-   "audio": "audio/int2c_u6/{v}/ihaveastomachache.mp3",
-   "sentence": [
-    "I",
-    "have",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "stomachache",
-   "choices": [
-    "stomachache",
-    "back",
-    "fever"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "back",
-   "audio": "audio/int2c_u6/{v}/mybackhurts.mp3",
-   "sentence": [
-    "My",
-    "___",
-    "hurts."
-   ],
-   "answer": "back",
-   "choices": [
-    "back",
-    "stomachache",
-    "cold"
    ]
   }
  ],
@@ -503,10 +494,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -14,45 +14,98 @@
  "lineAudio": "audio/basic_b_u5/",
  "questions": [
   {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "red",
-   "audio": "../packs/basic_b_u7/audio/{v}/itisred.mp3",
-   "sentence": [
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "../packs/basic_b_u5/audio/{v}/itisatoy.mp3",
+   "answer": [
     "It",
     "is",
-    "___",
-    "."
+    "a",
+    "toy."
    ],
-   "answer": "red",
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u7/{v}/itiswhite.mp3",
+   "answer": "It is white.",
    "choices": [
-    "red",
-    "brown",
-    "white"
+    "It is white.",
+    "It is blue.",
+    "It is green."
    ],
    "unit": "basic_b_u7"
   },
   {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What is it?",
+    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
+   },
+   "choices": [
+    "It is underwear.",
+    "It is a night light.",
+    "I can speak Spanish."
+   ],
+   "answer": "It is underwear.",
+   "unit": "basic_b_u5",
+   "pic": "../packs/basic_b_u5/underwear.jpg"
+  },
+  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "seven",
-   "audio": "audio/basic_b_u8/{v}/iamsevenyearsold.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismyneck.mp3",
    "answer": [
-    "I",
-    "am",
-    "seven",
-    "years",
-    "old."
+    "This",
+    "is",
+    "my",
+    "neck."
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismybody.mp3",
+   "sentence": [
+    "This",
+    "is",
+    "my",
+    "___",
+    "."
+   ],
+   "answer": "body",
+   "choices": [
+    "body",
+    "eye",
+    "chin"
+   ],
+   "unit": "basic_b_u6"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u8/{v}/oneyearhastwelvemonths.mp3",
+   "answer": "One year has twelve months.",
+   "choices": [
+    "One year has twelve months.",
+    "I am one hundred years old.",
+    "I am thirty-three years old."
    ],
    "unit": "basic_b_u8"
   },
   {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "purple",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_b_u7/{v}/itispurple.mp3",
    "answer": [
     "It",
@@ -62,170 +115,21 @@
    "unit": "basic_b_u7"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "ten",
-   "answer": "ten",
-   "choices": [
-    "ten",
-    "tenc",
-    "teb",
-    "tenb"
-   ],
-   "unit": "basic_b_u8"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "apple",
-   "choices": [
-    "apple",
-    "phonecharger",
-    "toothbrush",
-    "teddybear"
-   ],
-   "unit": "basic_b_u5"
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "ten",
-   "audio": "../packs/basic_b_u8/audio/{v}/iamtenyearsold.mp3",
-   "sentence": [
-    "I",
-    "am",
-    "___",
-    "years",
-    "old."
-   ],
-   "answer": "ten",
-   "choices": [
-    "ten",
-    "fourteen",
-    "seventeen"
-   ],
-   "unit": "basic_b_u8"
-  },
-  {
    "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
    "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_b_u7",
-   "q": {
-    "text": "What color is that?",
-    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
-   },
-   "pic": "../packs/basic_b_u7/black.jpg",
-   "choices": [
-    "It is black.",
-    "I am happy."
-   ],
-   "answer": "It is black.",
-   "aud": {
-    "It is black.": "audio/basic_b_u7/ai/itisblack.mp3",
-    "I am happy.": "audio/basic_b_u1/ai/iamhappy.mp3"
-   }
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "sock",
-   "audio": "audio/basic_b_u5/{v}/itisasock.mp3",
-   "sentence": [
-    "It",
-    "is",
-    "a",
-    "___",
-    "."
-   ],
-   "answer": "sock",
-   "choices": [
-    "sock",
-    "apple",
-    "toothbrush"
-   ],
-   "unit": "basic_b_u5"
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "nose",
-   "choices": [
-    "nose",
-    "shoulder",
-    "chin",
-    "eye"
-   ],
-   "unit": "basic_b_u6"
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "book",
-   "answer": "book",
-   "choices": [
-    "book",
-    "bok",
-    "bouk",
-    "boik"
-   ],
-   "unit": "basic_b_u5"
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_b_u6",
    "q": {
     "text": "What is this?",
     "audio": "audio/basic_b_u6/{v}/whatisthis.mp3"
    },
-   "pic": "../packs/basic_b_u6/body.jpg",
    "choices": [
     "This is my body.",
-    "I like fruit."
+    "This is my nose.",
+    "I can draw poo."
    ],
    "answer": "This is my body.",
-   "aud": {
-    "This is my body.": "audio/basic_b_u6/ai/thisismybody.mp3",
-    "I like fruit.": "audio/basic_b_u2/ai/ilikefruit.mp3"
-   }
-  },
-  {
-   "type": "dialogue",
-   "skill": "dialogue",
-   "prompt": "Choose the best answer.",
-   "unit": "basic_b_u5",
-   "q": {
-    "text": "What is it?",
-    "audio": "../packs/basic_b_u5/audio/{v}/whatisit.mp3"
-   },
-   "pic": "../packs/basic_b_u5/nightlight.jpg",
-   "choices": [
-    "It is a night light.",
-    "I am twenty-two years old."
-   ],
-   "answer": "It is a night light.",
-   "aud": {
-    "It is a night light.": "audio/basic_b_u5/ai/itisanightlight.mp3",
-    "I am twenty-two years old.": "audio/basic_b_u8/ai/iamtwentytwoyearsold.mp3"
-   }
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "mouth",
-   "audio": "audio/basic_b_u6/{v}/thisismymouth.mp3",
-   "answer": [
-    "This",
-    "is",
-    "my",
-    "mouth."
-   ],
-   "unit": "basic_b_u6"
+   "unit": "basic_b_u6",
+   "pic": "../packs/basic_b_u6/body.jpg"
   },
   {
    "type": "listen",
@@ -240,15 +144,91 @@
    "unit": "basic_b_u7"
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "hand",
-   "answer": "hand",
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u8/{v}/iamtwentytwoyearsold.mp3",
+   "answer": [
+    "I",
+    "am",
+    "twenty-two",
+    "years",
+    "old."
+   ],
+   "unit": "basic_b_u8"
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_b_u5/{v}/itisatoothbrush.mp3",
+   "answer": "It is a toothbrush.",
    "choices": [
-    "hand",
-    "and",
-    "han",
-    "had"
+    "It is a toothbrush.",
+    "It is a toy.",
+    "It is a book."
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What color is that?",
+    "audio": "../packs/basic_b_u7/audio/{v}/whatcoloristhat.mp3"
+   },
+   "choices": [
+    "It is brown.",
+    "It is black.",
+    "I can speak German."
+   ],
+   "answer": "It is brown.",
+   "unit": "basic_b_u7",
+   "pic": "../packs/basic_b_u7/brown.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u5/{v}/itisabag.mp3",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "bag."
+   ],
+   "unit": "basic_b_u5"
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u7/{v}/itisblack.mp3",
+   "sentence": [
+    "It",
+    "is",
+    "___",
+    "."
+   ],
+   "answer": "black",
+   "choices": [
+    "black",
+    "red",
+    "brown"
+   ],
+   "unit": "basic_b_u7"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_b_u6/{v}/thisismyeye.mp3",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "eye."
    ],
    "unit": "basic_b_u6"
   }

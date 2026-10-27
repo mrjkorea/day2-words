@@ -7,26 +7,120 @@
  "lineAudio": "audio/basic_c_u7/",
  "questions": [
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "maze",
-   "choices": [
-    "maze",
-    "junglegym",
-    "seesaw",
-    "sandbox"
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsplayontheslide.mp3",
+   "answer": [
+    "Let's",
+    "play",
+    "on",
+    "the",
+    "slide."
    ]
   },
   {
-   "type": "listen",
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
    "skill": "listening",
-   "answer": "sandbox",
+   "audio": "audio/basic_c_u7/{v}/letsplayintheplayhouse.mp3",
+   "answer": "Let's play in the playhouse.",
    "choices": [
-    "sandbox",
-    "seesaw",
-    "swing",
-    "slide"
+    "Let's play in the playhouse.",
+    "Let's play in the sandbox.",
+    "Let's go in the maze."
    ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where do you want to play?",
+    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
+   },
+   "choices": [
+    "Let's ride the roller coaster.",
+    "Let's ride the bumper car.",
+    "I have a hat."
+   ],
+   "answer": "Let's ride the bumper car.",
+   "pic": "../packs/basic_c_u7/bumpercar.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsplayontheseesaw.mp3",
+   "answer": [
+    "Let's",
+    "play",
+    "on",
+    "the",
+    "seesaw."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsplayonthejunglegym.mp3",
+   "sentence": [
+    "Let's",
+    "play",
+    "on",
+    "the",
+    "___",
+    "."
+   ],
+   "answer": "jungle gym",
+   "choices": [
+    "jungle gym",
+    "playhouse",
+    "swing"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u7/{v}/letsridethebumpercar.mp3",
+   "answer": "Let's ride the bumper car.",
+   "choices": [
+    "Let's ride the bumper car.",
+    "Let's ride the merry-go-round.",
+    "Let's ride the roller coaster."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u7/{v}/letsplayonthejunglegym.mp3",
+   "answer": [
+    "Let's",
+    "play",
+    "on",
+    "the",
+    "jungle",
+    "gym."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "Where do you want to play?",
+    "audio": "audio/basic_c_u7/{v}/wheredoyouwanttoplay.mp3"
+   },
+   "choices": [
+    "Let's ride the bumper car.",
+    "Let's play on the slide.",
+    "Let's play."
+   ],
+   "answer": "Let's play on the slide.",
+   "pic": "../packs/basic_c_u7/slide.jpg"
   },
   {
    "type": "listen",
@@ -40,118 +134,16 @@
    ]
   },
   {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "seesaw",
-   "answer": "seesaw",
-   "choices": [
-    "seesaw",
-    "seosaw",
-    "seasaw",
-    "eesaw"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "maze",
-   "answer": "maze",
-   "choices": [
-    "maze",
-    "maz",
-    "mize",
-    "meze"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "sandbox",
-   "audio": "audio/basic_c_u7/{v}/letsplayinthesandbox.mp3",
-   "answer": [
-    "Let's",
-    "play",
-    "in",
-    "the",
-    "sandbox."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "bumpercar",
-   "audio": "audio/basic_c_u7/{v}/letsridethebumpercar.mp3",
-   "answer": [
-    "Let's",
-    "ride",
-    "the",
-    "bumper",
-    "car."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "slide",
-   "audio": "audio/basic_c_u7/{v}/letsplayontheslide.mp3",
-   "sentence": [
-    "Let's",
-    "play",
-    "on",
-    "the",
-    "___",
-    "."
-   ],
-   "answer": "slide",
-   "choices": [
-    "slide",
-    "playhouse",
-    "seesaw"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "swing",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
    "audio": "audio/basic_c_u7/{v}/letsplayontheswing.mp3",
-   "sentence": [
+   "answer": [
     "Let's",
     "play",
     "on",
     "the",
-    "___",
-    "."
-   ],
-   "answer": "swing",
-   "choices": [
-    "swing",
-    "slide",
-    "seesaw"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "playhouse",
-   "audio": "audio/basic_c_u7/{v}/letsplayintheplayhouse.mp3",
-   "sentence": [
-    "Let's",
-    "play",
-    "in",
-    "the",
-    "___",
-    "."
-   ],
-   "answer": "playhouse",
-   "choices": [
-    "playhouse",
-    "maze",
-    "merry-go-round"
+    "swing."
    ]
   }
  ],
@@ -586,10 +578,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {

@@ -7,6 +7,117 @@
  "lineAudio": "audio/basic_c_u4/",
  "questions": [
   {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u4/{v}/wecanseeseoul.mp3",
+   "answer": [
+    "We",
+    "can",
+    "see",
+    "Seoul."
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u4/{v}/wecanseesuncheon.mp3",
+   "answer": "We can see Suncheon.",
+   "choices": [
+    "We can see Suncheon.",
+    "What can we see near Tongyeong?",
+    "We can see Gongju."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can we see?",
+    "audio": "audio/basic_c_u4/{v}/whatcanwesee.mp3"
+   },
+   "choices": [
+    "We can see Andong.",
+    "We can see Goseong.",
+    "Okay. She will call you back."
+   ],
+   "answer": "We can see Andong.",
+   "pic": "../packs/basic_c_u4/andong.jpg"
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u4/{v}/wecanseeandong.mp3",
+   "answer": [
+    "We",
+    "can",
+    "see",
+    "Andong."
+   ]
+  },
+  {
+   "type": "fill",
+   "prompt": "Listen. Fill in the missing word in the expression.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u4/{v}/wecanseegongju.mp3",
+   "sentence": [
+    "We",
+    "can",
+    "see",
+    "___",
+    "."
+   ],
+   "answer": "Gongju",
+   "choices": [
+    "Gongju",
+    "Busan",
+    "Pyeongchang"
+   ]
+  },
+  {
+   "type": "hear",
+   "prompt": "Listen. Which sentence do you hear?",
+   "skill": "listening",
+   "audio": "audio/basic_c_u4/{v}/wecanseepyeongchang.mp3",
+   "answer": "We can see Pyeongchang.",
+   "choices": [
+    "We can see Pyeongchang.",
+    "What can we see near Tongyeong?",
+    "We can see Suncheon."
+   ]
+  },
+  {
+   "type": "order",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u4/{v}/wecanseetongyeong.mp3",
+   "answer": [
+    "We",
+    "can",
+    "see",
+    "Tongyeong."
+   ]
+  },
+  {
+   "type": "dialogue",
+   "prompt": "Listen. Choose the best answer.",
+   "skill": "dialogue",
+   "q": {
+    "text": "What can we see?",
+    "audio": "audio/basic_c_u4/{v}/whatcanwesee.mp3"
+   },
+   "choices": [
+    "We can see Seoul.",
+    "We can see Jeju.",
+    "I am in first grade."
+   ],
+   "answer": "We can see Jeju.",
+   "pic": "../packs/basic_c_u4/jeju.jpg"
+  },
+  {
    "type": "listen",
    "skill": "listening",
    "answer": "suncheon",
@@ -18,135 +129,15 @@
    ]
   },
   {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "andong",
-   "choices": [
-    "andong",
-    "gongju",
-    "jeju",
-    "pyeongchang"
-   ]
-  },
-  {
-   "type": "listen",
-   "skill": "listening",
-   "answer": "gongju",
-   "choices": [
-    "gongju",
-    "suncheon",
-    "tongyeong",
-    "busan"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "suncheon",
-   "answer": "Suncheon",
-   "choices": [
-    "Suncheon",
-    "Sunchaon",
-    "Sucheon",
-    "Sunchion"
-   ]
-  },
-  {
-   "type": "spell",
-   "skill": "spelling",
-   "pic": "tongyeong",
-   "answer": "Tongyeong",
-   "choices": [
-    "Tongyeong",
-    "Tongyeopg",
-    "Tongyeonk",
-    "dongyeong"
-   ]
-  },
-  {
    "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "suncheon",
-   "audio": "audio/basic_c_u4/{v}/wecanseesuncheon.mp3",
+   "prompt": "Listen and put the expression in order.",
+   "skill": "expression",
+   "audio": "audio/basic_c_u4/{v}/wecanseejeju.mp3",
    "answer": [
     "We",
     "can",
     "see",
-    "Suncheon."
-   ]
-  },
-  {
-   "type": "order",
-   "prompt": "Put the words in order.",
-   "skill": "grammar",
-   "pic": "andong",
-   "audio": "audio/basic_c_u4/{v}/wecanseeandong.mp3",
-   "answer": [
-    "We",
-    "can",
-    "see",
-    "Andong."
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "goseong",
-   "audio": "audio/basic_c_u4/{v}/wecanseegoseong.mp3",
-   "sentence": [
-    "We",
-    "can",
-    "see",
-    "___",
-    "."
-   ],
-   "answer": "Goseong",
-   "choices": [
-    "Goseong",
-    "Seoul",
-    "Busan"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "seoul",
-   "audio": "audio/basic_c_u4/{v}/wecanseeseoul.mp3",
-   "sentence": [
-    "We",
-    "can",
-    "see",
-    "___",
-    "."
-   ],
-   "answer": "Seoul",
-   "choices": [
-    "Seoul",
-    "Suncheon",
-    "Busan"
-   ]
-  },
-  {
-   "type": "fill",
-   "prompt": "Fill in the missing word.",
-   "skill": "vocabulary",
-   "pic": "busan",
-   "audio": "audio/basic_c_u4/{v}/wecanseebusan.mp3",
-   "sentence": [
-    "We",
-    "can",
-    "see",
-    "___",
-    "."
-   ],
-   "answer": "Busan",
-   "choices": [
-    "Busan",
-    "Goseong",
-    "Pyeongchang"
+    "Jeju."
    ]
   }
  ],
@@ -506,10 +497,11 @@
  "review": {
   "note": "Later the mountain quiz becomes a harder review. Each question has a type (a renderer in climb.html TYPES) and a skill (which workbook step it reviews). Planned types: match, map, odd, search, hangman, cross, unscramble, dialogue.",
   "types": [
+   "dialogue",
+   "fill",
+   "hear",
    "listen",
-   "spell",
-   "order",
-   "fill"
+   "order"
   ]
  },
  "voices": {
