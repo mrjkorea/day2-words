@@ -1,0 +1,26 @@
+name: Day 3 validate
+on:
+  push:
+    paths:
+      - 'day3/**'
+      - 'scripts/validate-day3.mjs'
+      - 'scripts/test-hangman-letter-match.mjs'
+      - '.github/workflows/day3-validate.yml'
+  pull_request:
+    paths:
+      - 'day3/**'
+      - 'scripts/validate-day3.mjs'
+      - 'scripts/test-hangman-letter-match.mjs'
+      - '.github/workflows/day3-validate.yml'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate all Day 3 packs
+        run: node scripts/validate-day3.mjs
+      - name: Hangman letter match
+        run: node scripts/test-hangman-letter-match.mjs
