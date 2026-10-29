@@ -239,6 +239,9 @@
   }
 
   function loadProgram(program) {
+    if (root.MRJ_AUTH && typeof root.MRJ_AUTH.loadPack === "function") {
+      return root.MRJ_AUTH.loadPack(program);
+    }
     var id = authStudentId();
     var token = authToken();
     return postRemote({
@@ -327,14 +330,18 @@
       pendingSave = body;
       return Promise.resolve({ ok: false, error: "not_loaded" });
     }
-    var req = {
-      action: "save_pack",
-      id: id,
-      token: token,
-      program: PROGRAM,
-      progress_json: body.progress_json || "{}",
-    };
-    return postRemote(req).then(function (res) {
+    var progressJson = body.progress_json || "{}";
+    var saveP =
+      root.MRJ_AUTH && typeof root.MRJ_AUTH.savePack === "function"
+        ? root.MRJ_AUTH.savePack(PROGRAM, progressJson)
+        : postRemote({
+            action: "save_pack",
+            id: id,
+            token: token,
+            program: PROGRAM,
+            progress_json: progressJson,
+          });
+    return saveP.then(function (res) {
       var ok = !!(res && res.ok && res.saved !== false && !res.error);
       if (ok) {
         retryAttempt = 0;
