@@ -2,9 +2,9 @@
 <style>body{font-family:system-ui,sans-serif;background:#eef7ff;margin:0;padding:16px;color:#123}h1{margin:0 0 12px}h2{margin:18px 0 8px;text-transform:uppercase;font-size:18px}.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}a{display:block;background:#fff;border-radius:14px;padding:12px;text-decoration:none;color:#123;box-shadow:0 2px 6px #0002}a b{color:#1971c2}.st{color:#e8a400}</style></head><body>
 <h1>📘 Day 3 Workbooks</h1><p><a href="review.html">🏔️ Conversation Review climbs (Basic / Int 2 / Int 3)</a></p><div id="L">Loading…</div>
 <script>fetch('data/units.json').then(r=>r.json()).then(U=>{const by={};U.forEach(u=>(by[u.book]=by[u.book]||[]).push(u));L.innerHTML=Object.entries(by).map(([b,us])=>`<h2>${b.replace('_',' ')}</h2><div class="g">`+us.map(u=>{let p={};try{p=JSON.parse(localStorage.getItem('mrj_day3_'+u.id)||'{}')}catch(e){}const s=Object.values(p).filter(x=>x&&x.pass).length;return u.kind==='review'?`<a href="climb.html?unit=${u.id}" style="background:#fff4e6"><b>🏔️ ${u.label}</b><br>${u.title.split('·').pop().trim()}${p.climb&&p.climb.pass?`<br><span class="st">⭐ ${p.climb.pct}%</span>`:''}</a>`:`<a href="index.html?unit=${u.id}"><b>Unit ${u.n}</b><br>${u.title.split('·').pop().trim()}${s?`<br><span class="st">⭐ ${s}</span>`:''}</a>`}).join('')+'</div>').join('')})</script>
-<link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css">
+<link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css?v=20261030-cf-login-1.7.3">
 <link rel="stylesheet" href="../js/mrj-teacher-unlock.css?v=20261030-chip-teacher-only">
-<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js?v=20261030-cf-login-1.7.2-gas"></script>
-<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js?v=20261030-cf-login-1.7.2-gas" data-mrj-app="day2-words"></script>
+<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js?v=20261030-cf-login-1.7.3"></script>
+<script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js?v=20261030-cf-login-1.7.3" data-mrj-app="day2-words"></script>
 <script src="../js/mrj-teacher-unlock.js?v=20261030-chip-teacher-only"></script>
 </body></html>
