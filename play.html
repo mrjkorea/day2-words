@@ -20,6 +20,7 @@
         location.replace("index.html" + hash);
         return;
       }
+      try { localStorage.setItem("MRJ_TEMP_UNLOCK_ALL", "1"); } catch (e) {}
       params.delete("pack");
       var src = "https://mrjkorea.github.io/day2-words/packs/" + pack + ".json";
       var rest = params.toString();

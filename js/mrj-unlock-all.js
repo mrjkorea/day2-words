@@ -7,6 +7,10 @@
 
   root.MRJ_TEMP_UNLOCK_ALL = true;
 
+  try {
+    if (root.localStorage) root.localStorage.setItem("MRJ_TEMP_UNLOCK_ALL", "1");
+  } catch (e) {}
+
   root.MRJ_pathLocksOpen = function () {
     return !!root.MRJ_TEMP_UNLOCK_ALL;
   };
