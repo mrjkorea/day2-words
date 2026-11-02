@@ -1,4 +1,125 @@
-/* Jump bar (shown after mrj-auth teacher unlock via .mrj-auth-teacher-btn). */
+/* Teacher tools (top-right, from mrj-auth chip). Jump bar stays at bottom for stage shortcuts. */
+
+.mrj-teacher-tools-btn {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 0 14px;
+  margin-left: 6px;
+  border: 2px solid #111;
+  border-radius: 999px;
+  background: #ffe14a;
+  color: #111;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.mrj-teacher-tools-btn[hidden] {
+  display: none !important;
+}
+
+.mrj-teacher-control-panel {
+  position: fixed;
+  top: calc(8px + env(safe-area-inset-top, 0px));
+  right: 8px;
+  z-index: 2147481600;
+  max-width: min(420px, calc(100vw - 16px));
+  max-height: min(70vh, 520px);
+  overflow: auto;
+  background: #fffdf6;
+  border: 3px solid #111;
+  border-radius: 16px;
+  box-shadow: 0 8px 0 #111;
+  padding: 14px 16px 16px;
+}
+
+.mrj-teacher-control-panel[hidden] {
+  display: none !important;
+}
+
+.mrj-teacher-control-panel h2 {
+  margin: 0 0 8px;
+  font-size: 20px;
+}
+
+.mrj-teacher-panel-cap {
+  margin: 0 0 12px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.mrj-teacher-panel-list {
+  margin: 0 0 12px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  min-height: 48px;
+}
+
+.mrj-teacher-panel-row {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.mrj-teacher-panel-row:last-child {
+  border-bottom: 0;
+}
+
+.mrj-teacher-panel-close {
+  min-height: 44px;
+  width: 100%;
+  border: 2px solid #111;
+  border-radius: 12px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.mrj-teacher-start-btn,
+.mrj-teacher-relock-btn {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 2px solid #0033b8;
+  border-radius: 12px;
+  background: #d9e8ff;
+  color: #0033b8;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+body:not(.mrj-teacher) .mrj-teacher-start-btn,
+body:not(.mrj-teacher) .mrj-teacher-relock-btn {
+  display: none !important;
+}
+
+.mrj-teacher-relock-btn {
+  border-color: #666;
+  background: #f0f0f0;
+  color: #333;
+  font-size: 13px;
+  min-height: 38px;
+}
+
+.mrj-unit-locked {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+body.mrj-teacher .mrj-unit-locked {
+  pointer-events: auto;
+  opacity: 1;
+}
+
 .mrj-teacher-jump-bar {
   position: fixed;
   left: 0;
@@ -35,10 +156,4 @@
 
 body.mrj-teacher-jump-on {
   padding-bottom: calc(52px + env(safe-area-inset-bottom, 0px));
-}
-
-/* Legacy FAB removed — keep hidden if cached script ever injected one. */
-.mrj-teacher-unlock-btn,
-.mrj-teacher-unlock-panel {
-  display: none !important;
 }

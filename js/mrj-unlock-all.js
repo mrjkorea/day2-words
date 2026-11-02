@@ -1,6 +1,7 @@
 /**
  * Jay temporary unlock until proper teacher unlock UI.
  * Set MRJ_TEMP_UNLOCK_ALL = false (or remove this script) to restore path/unit locks.
+ * Until then, sections also honor teacherUnlock in progress_json (js/mrj-teacher-unlock.js).
  */
 (function (root) {
   "use strict";

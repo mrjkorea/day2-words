@@ -56,15 +56,41 @@ function render(){
     out='<div class="grid">'+DATA.books.map(function(b){return '<a class="card" href="#'+b.id+'">'+esc(b.name)+'</a>';}).join("")+'</div>';
   }
   v.innerHTML=out; window.scrollTo(0,0);
+  applyTeacherUnits();
 }
+function applyTeacherUnits(){
+  if(!window.MRJTeacherUnlock)return;
+  var nodes=document.querySelectorAll("#view .card.unit, #view a.card.unit");
+  if(!nodes.length)nodes=document.querySelectorAll("#view a.card");
+  var sections=[];
+  nodes.forEach(function(node){
+   var m=(node.getAttribute("href")||"").match(/#([a-z0-9_]+)$/);
+   if(!m)return;
+   var id=m[1];
+   node.setAttribute("data-unit-id",id);
+   sections.push({kind:"unit",id:id,node:node,showRelock:true,onDone:render});
+  });
+  MRJTeacherUnlock.loadProgress().then(function(prog){
+   sections.forEach(function(spec){
+    var open=MRJTeacherUnlock.unitOpen(spec.id,prog);
+    spec.node.classList.toggle("mrj-unit-locked",!open&&!MRJTeacherUnlock.tempUnlockAll());
+   });
+   MRJTeacherUnlock.registerSections(sections);
+  });
+}
+document.addEventListener("mrj-teacher-unlock-changed",render);
 window.addEventListener("hashchange",render);
 render();
 fetch("songs/data/catalog.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(d){
   (d.songs||[]).forEach(function(s){if(s.packId)SONGS[s.packId]=s;}); render();
 }).catch(function(){});
 </script>
-<link rel="stylesheet" href="js/mrj-teacher-unlock.css?v=20261102-temp-unlock-all">
-<script src="js/mrj-unlock-all.js?v=20261102-temp-unlock-all"></script>
-<script src="js/mrj-teacher-unlock.js?v=20261102-temp-unlock-all"></script>
+<link rel="stylesheet" href="js/mrj-teacher-unlock.css?v=20261102-teacher-start-here">
+<script src="js/progress-config.js?v=20261102-teacher-start-here"></script>
+<script src="js/progress-merge.js?v=20261102-teacher-start-here"></script>
+<script src="js/progress.js?v=20261102-teacher-start-here"></script>
+<script src="js/start-slice.js?v=20261102-teacher-start-here"></script>
+<script src="js/mrj-unlock-all.js?v=20261102-teacher-start-here"></script>
+<script src="js/mrj-teacher-unlock.js?v=20261102-teacher-start-here"></script>
 </body>
 </html>
