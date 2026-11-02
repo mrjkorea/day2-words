@@ -1,4 +1,6 @@
 /* Day 2 Words progress: MRJ_AUTH loadPack/savePack (Worker) with GAS fallback via postRemote. */
+/* Jay temporary unlock until proper teacher unlock UI — see js/mrj-unlock-all.js */
+window.MRJ_TEMP_UNLOCK_ALL = true;
 window.MRJ_SCORE_SHEET = "https://docs.google.com/spreadsheets/d/1bpgekxlektvwpsef1PmIkxPiDuHrkVXFaAy-OmwqL5c";
 window.WM_SIGNIN_URL =
   "https://script.google.com/macros/s/AKfycbwtJTUO3gbcMrlAwsn1feWxyp7Rw2cxpfe1bOT9v2rxmQHa2Tlc6pFNWAjU6ZAdlD6kFQ/exec";

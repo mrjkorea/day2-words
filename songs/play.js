@@ -401,8 +401,11 @@
       { label: "Stages", onClick: goReady },
     ]);
   }
+  function tempUnlockAll() {
+    try { return !!window.MRJ_TEMP_UNLOCK_ALL; } catch (e) { return false; }
+  }
   function isUnlocked(stage) {
-    if (TEST_MODE || mrjTeacher()) return true;
+    if (TEST_MODE || tempUnlockAll() || mrjTeacher()) return true;
     var i = STAGES.indexOf(stage);
     return i <= 0 || isDone(STAGES[i - 1]);
   }
