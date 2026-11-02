@@ -57,6 +57,44 @@
     return out;
   }
 
+  function mergeTeacherUnlock(a, b) {
+    a = a && typeof a === "object" ? a : {};
+    b = b && typeof b === "object" ? b : {};
+    function mergeFlags(x, y) {
+      x = x && typeof x === "object" ? x : {};
+      y = y && typeof y === "object" ? y : {};
+      var out = {};
+      var keys = Object.keys(x);
+      Object.keys(y).forEach(function (k) {
+        if (keys.indexOf(k) === -1) keys.push(k);
+      });
+      keys.forEach(function (k) {
+        out[k] = !!(x[k] || y[k]);
+      });
+      return out;
+    }
+    var out = {
+      units: mergeFlags(a.units, b.units),
+      songs: {},
+      day3: {},
+    };
+    var songKeys = Object.keys(a.songs || {});
+    Object.keys(b.songs || {}).forEach(function (k) {
+      if (songKeys.indexOf(k) === -1) songKeys.push(k);
+    });
+    songKeys.forEach(function (sid) {
+      out.songs[sid] = mergeFlags(a.songs && a.songs[sid], b.songs && b.songs[sid]);
+    });
+    var dayKeys = Object.keys(a.day3 || {});
+    Object.keys(b.day3 || {}).forEach(function (k) {
+      if (dayKeys.indexOf(k) === -1) dayKeys.push(k);
+    });
+    dayKeys.forEach(function (unitId) {
+      out.day3[unitId] = mergeFlags(a.day3 && a.day3[unitId], b.day3 && b.day3[unitId]);
+    });
+    return out;
+  }
+
   function mergeShallowObjects(a, b) {
     a = a && typeof a === "object" ? a : {};
     b = b && typeof b === "object" ? b : {};
@@ -200,6 +238,7 @@
       testKind: base.testKind || other.testKind || "easy",
       currentPackId: currentPackId,
       sets: sets,
+      teacherUnlock: mergeTeacherUnlock(base.teacherUnlock, other.teacherUnlock),
     };
   }
 

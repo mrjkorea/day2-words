@@ -29,8 +29,8 @@
  </svg><video id="vid" muted playsinline preload="auto"></video></div>
  <div id="card"></div>
 </div>
-<script src="../js/mrj-unlock-all.js?v=20261102-temp-unlock-all"></script>
-<script src="wb.js?v=20261102-temp-unlock-all"></script>
+<script src="../js/mrj-unlock-all.js?v=20261102-teacher-start-here"></script>
+<script src="wb.js?v=20261102-teacher-start-here"></script>
 <script>
 let D,i=0,right=0,pos=0,locked=false,N=0;const card=document.getElementById('card'),vid=document.getElementById('vid');
 const sh=WB.sh,word=w=>{const x=WB.w(w);const src=x&&x.audio?x.audio:(D.wordAudio?D.wordAudio+w.split(' ')[0]+'.mp3':'');return src?WB.play(src):Promise.resolve()},line=f=>{if(!f)return Promise.resolve();return WB.play(String(f).includes('/')?f:D.lineAudio+f)};
@@ -85,10 +85,10 @@ WB.load().then(d=>{D=d;WB.voiceBtn();N=d.questions.length;drawSteps();
  if(WB.test)WB.skipBtn(()=>{if(!locked&&i<N)check(true,null)});start()}).catch(e=>card.innerHTML='<h1>Oops</h1><p>'+e.message+'</p>');
 </script>
 <link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css?v=20261030-cf-login-1.7.3">
-<link rel="stylesheet" href="../js/mrj-teacher-unlock.css?v=20261102-temp-unlock-all">
+<link rel="stylesheet" href="../js/mrj-teacher-unlock.css?v=20261102-teacher-start-here">
 <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js?v=20261030-cf-login-1.7.3"></script>
 <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js?v=20261030-cf-login-1.7.3" data-mrj-app="day2-words"></script>
-<script src="../js/mrj-unlock-all.js?v=20261102-temp-unlock-all"></script>
-<script src="../js/mrj-teacher-unlock.js?v=20261102-temp-unlock-all"></script>
-<script src="teacher-jump.js?v=20261102-temp-unlock-all"></script>
+<script src="../js/mrj-unlock-all.js?v=20261102-teacher-start-here"></script>
+<script src="../js/mrj-teacher-unlock.js?v=20261102-teacher-start-here"></script>
+<script src="teacher-jump.js?v=20261102-teacher-start-here"></script>
 </body></html>

@@ -391,6 +391,26 @@
       return false;
     }
   }
+  function wireSongTeacherSections() {
+    if (!window.MRJTeacherUnlock || !song) return;
+    var sections = STAGES.map(function (st) {
+      var btn = $(STAGE_BTN[st]);
+      return {
+        kind: "songStage",
+        songId: song.id,
+        stage: st,
+        node: btn,
+        naturalOpen: isUnlocked(st),
+        showRelock: true,
+        onDone: function () {
+          refreshStageButtons();
+        },
+      };
+    });
+    MRJTeacherUnlock.loadProgress().then(function () {
+      MRJTeacherUnlock.registerSections(sections);
+    });
+  }
   function wireSongTeacherJump() {
     if (!window.MRJTeacherUnlock) return;
     MRJTeacherUnlock.setJumpButtons([
@@ -404,8 +424,18 @@
   function tempUnlockAll() {
     try { return !!window.MRJ_TEMP_UNLOCK_ALL; } catch (e) { return false; }
   }
+  function teacherStageOpen(stage) {
+    if (!song || !window.MRJTeacherUnlock) return false;
+    try {
+      var p = MRJTeacherUnlock.getCachedProgress ? MRJTeacherUnlock.getCachedProgress() : null;
+      return !!(MRJTeacherUnlock.teacherSongStageOpen && MRJTeacherUnlock.teacherSongStageOpen(p, song.id, stage));
+    } catch (e) {
+      return false;
+    }
+  }
   function isUnlocked(stage) {
-    if (TEST_MODE || tempUnlockAll() || mrjTeacher()) return true;
+    if (TEST_MODE || tempUnlockAll()) return true;
+    if (teacherStageOpen(stage)) return true;
     var i = STAGES.indexOf(stage);
     return i <= 0 || isDone(STAGES[i - 1]);
   }
@@ -1065,6 +1095,7 @@
         audio.load();
         goReady();
         hydrateStages();
+        wireSongTeacherSections();
         loop();
       })
       .catch(function () {
