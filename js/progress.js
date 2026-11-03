@@ -7,6 +7,7 @@
   var hydrated = false;
   var loadDone = false;
   var pendingSave = null;
+  var saveTail = Promise.resolve();
   var retryTimer = null;
   var retryAttempt = 0;
   var loadRetryTimer = null;
@@ -270,10 +271,13 @@
 
     dispatchHydrated(out);
 
+    // Finish this write before load() resolves. Otherwise a teacher save that
+    // starts in the same turn can be overwritten by a late migration post.
+    var follow = Promise.resolve(null);
     if (pendingSave && pendingSave.progress_json) {
       var snap = pendingSave;
       pendingSave = null;
-      flushSave(snap);
+      follow = flushSave(snap);
     } else if (
       migrationBody &&
       migrationBody.migrated &&
@@ -281,10 +285,12 @@
       root.MRJ_WM_progressHasPackData &&
       root.MRJ_WM_progressHasPackData(migrationBody.progress)
     ) {
-      flushSave({ progress_json: JSON.stringify(migrationBody.progress) });
+      follow = flushSave({ progress_json: JSON.stringify(migrationBody.progress) });
     }
 
-    return out;
+    return follow.then(function () {
+      return out;
+    });
   }
 
   function runMigrationIfNeeded(res) {
@@ -318,6 +324,77 @@
       });
   }
 
+  function noteSaveResult(body, res) {
+    var ok = !!(res && res.ok && res.saved !== false && !res.error);
+    if (ok) {
+      retryAttempt = 0;
+      lastSaveError = "";
+      writeLocal(body);
+      dispatchSaveStatus(true, res);
+      return res;
+    }
+    lastSaveError = (res && res.error) || "save_failed";
+    dispatchSaveStatus(false, res);
+    scheduleRetry(body);
+    return res;
+  }
+
+  function postSave(body) {
+    var id = authStudentId();
+    var token = authToken();
+    var progressJson = body.progress_json || "{}";
+    function send() {
+      if (root.MRJ_AUTH && typeof root.MRJ_AUTH.savePack === "function") {
+        return root.MRJ_AUTH.savePack(PROGRAM, progressJson);
+      }
+      return postRemote({
+        action: "save_pack",
+        id: id,
+        token: token,
+        program: PROGRAM,
+        progress_json: progressJson,
+      });
+    }
+    return send()
+      .then(function (res) {
+        if (
+          res &&
+          res.error === "pack_not_loaded" &&
+          root.MRJ_AUTH &&
+          typeof root.MRJ_AUTH.loadPack === "function"
+        ) {
+          return root.MRJ_AUTH.loadPack(PROGRAM).then(function () {
+            return send();
+          });
+        }
+        return res;
+      })
+      .then(function (res) {
+        return noteSaveResult(body, res);
+      })
+      .catch(function () {
+        lastSaveError = "network";
+        dispatchSaveStatus(false, { error: "network" });
+        scheduleRetry(body);
+        return { ok: false, error: "network" };
+      });
+  }
+
+  function enqueueSave(body) {
+    var run = saveTail.then(function () {
+      return postSave(body);
+    });
+    saveTail = run.then(
+      function () {
+        return null;
+      },
+      function () {
+        return null;
+      }
+    );
+    return run;
+  }
+
   function flushSave(body) {
     if (!body) return Promise.resolve(null);
     var id = authStudentId();
@@ -330,36 +407,8 @@
       pendingSave = body;
       return Promise.resolve({ ok: false, error: "not_loaded" });
     }
-    var progressJson = body.progress_json || "{}";
-    var saveP =
-      root.MRJ_AUTH && typeof root.MRJ_AUTH.savePack === "function"
-        ? root.MRJ_AUTH.savePack(PROGRAM, progressJson)
-        : postRemote({
-            action: "save_pack",
-            id: id,
-            token: token,
-            program: PROGRAM,
-            progress_json: progressJson,
-          });
-    return saveP.then(function (res) {
-      var ok = !!(res && res.ok && res.saved !== false && !res.error);
-      if (ok) {
-        retryAttempt = 0;
-        lastSaveError = "";
-        writeLocal(body);
-        dispatchSaveStatus(true, res);
-        return res;
-      }
-      lastSaveError = (res && res.error) || "save_failed";
-      dispatchSaveStatus(false, res);
-      scheduleRetry(body);
-      return res;
-    }).catch(function () {
-      lastSaveError = "network";
-      dispatchSaveStatus(false, { error: "network" });
-      scheduleRetry(body);
-      return { ok: false, error: "network" };
-    });
+    if (pendingSave === body) pendingSave = null;
+    return enqueueSave(body);
   }
 
   function save(payload) {
