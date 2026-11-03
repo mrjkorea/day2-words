@@ -6,7 +6,7 @@
 (function (root) {
   "use strict";
 
-  var BUILD = "20261102-teacher-start-here";
+  var BUILD = "20261103-day2-teacher-save";
   var PACK_BASE = "https://mrjkorea.github.io/day2-words/packs/";
   var STUDY_SIZES = [5, 10, 15, 20];
   var SONG_STAGES = ["listen", "tap", "practice", "quiz"];
@@ -20,6 +20,19 @@
   var cachedProgress = null;
   var progressLoading = null;
   var sectionRegistry = [];
+  var paintToken = 0;
+
+  var BOOK_NAMES = {
+    basic_a: "Basic A",
+    basic_b: "Basic B",
+    basic_c: "Basic C",
+    int2a: "INT 2A",
+    int2b: "INT 2B",
+    int2c: "INT 2C",
+    int3a: "INT 3A",
+    int3b: "INT 3B",
+    int3c: "INT 3C",
+  };
 
   function auth() {
     return root.MRJ_AUTH || root.MRJSignin || null;
@@ -85,42 +98,148 @@
     return p;
   }
 
+  function teacherLocalKey() {
+    var id = studentId();
+    return id ? "mrj.day2words.teacherUnlock." + id : "";
+  }
+
+  function readLocalTeacher() {
+    var key = teacherLocalKey();
+    if (!key || !root.localStorage) return null;
+    try {
+      var raw = root.localStorage.getItem(key);
+      if (!raw) return null;
+      var parsed = JSON.parse(raw);
+      return parsed && typeof parsed === "object" ? parsed : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function writeLocalTeacher(teacherUnlock) {
+    var key = teacherLocalKey();
+    if (!key || !root.localStorage) return;
+    try {
+      root.localStorage.setItem(key, JSON.stringify(teacherUnlock || { units: {}, songs: {}, day3: {} }));
+    } catch (e) {}
+  }
+
+  function orFlags(a, b) {
+    var out = {};
+    a = a && typeof a === "object" ? a : {};
+    b = b && typeof b === "object" ? b : {};
+    Object.keys(a).forEach(function (k) {
+      if (a[k]) out[k] = true;
+    });
+    Object.keys(b).forEach(function (k) {
+      if (b[k]) out[k] = true;
+    });
+    return out;
+  }
+
+  function orNested(a, b) {
+    var out = {};
+    a = a && typeof a === "object" ? a : {};
+    b = b && typeof b === "object" ? b : {};
+    Object.keys(a).forEach(function (k) {
+      out[k] = orFlags(a[k], null);
+    });
+    Object.keys(b).forEach(function (k) {
+      out[k] = orFlags(out[k], b[k]);
+    });
+    return out;
+  }
+
+  /** This browser's last teacher edit wins, then any server flags it does not name. */
+  function applyLocalTeacher(prog) {
+    var local = readLocalTeacher();
+    if (!local) return prog;
+    var server = prog.teacherUnlock || {};
+    if (local.units || local.songs || local.day3) {
+      prog.teacherUnlock = {
+        units: local.units && typeof local.units === "object" ? local.units : orFlags(server.units, null),
+        songs: local.songs && typeof local.songs === "object" ? local.songs : orNested(server.songs, null),
+        day3: local.day3 && typeof local.day3 === "object" ? local.day3 : orNested(server.day3, null),
+      };
+    }
+    return prog;
+  }
+
   function loadProgress(force) {
     if (!force && cachedProgress) return Promise.resolve(cachedProgress);
     if (progressLoading) return progressLoading;
     var progApi = root.MRJ_WM_progress;
     if (!studentId() || !progApi || typeof progApi.load !== "function") {
-      cachedProgress = parseProgress(null);
+      cachedProgress = applyLocalTeacher(parseProgress(null));
       return Promise.resolve(cachedProgress);
     }
     progressLoading = progApi
       .load()
       .then(function (res) {
-        var raw = res && res.progress_json ? res.progress_json : null;
-        cachedProgress = parseProgress(raw);
         progressLoading = null;
+        var loadFailed = !res || res.ok === false || (res.ok !== true && res.error);
+        if (loadFailed) {
+          if (!cachedProgress) cachedProgress = applyLocalTeacher(parseProgress(null));
+          cachedProgress.__mrjLoadFailed = true;
+          return cachedProgress;
+        }
+        var raw = res.progress_json ? res.progress_json : null;
+        cachedProgress = applyLocalTeacher(parseProgress(raw));
+        delete cachedProgress.__mrjLoadFailed;
         return cachedProgress;
       })
       .catch(function () {
-        cachedProgress = parseProgress(null);
         progressLoading = null;
+        if (!cachedProgress) cachedProgress = applyLocalTeacher(parseProgress(null));
+        cachedProgress.__mrjLoadFailed = true;
         return cachedProgress;
       });
     return progressLoading;
   }
 
+  function progressForSave(progress) {
+    if (!progress || !progress.__mrjLoadFailed) return progress;
+    var copy = {};
+    Object.keys(progress).forEach(function (k) {
+      if (k !== "__mrjLoadFailed") copy[k] = progress[k];
+    });
+    return copy;
+  }
+
   function saveProgress(progress) {
     cachedProgress = progress;
+    writeLocalTeacher(progress && progress.teacherUnlock);
     var progApi = root.MRJ_WM_progress;
     if (!studentId() || !progApi || typeof progApi.save !== "function") {
       return Promise.resolve({ ok: false, error: "no_save" });
     }
-    return progApi.save({ progress_json: JSON.stringify(progress) });
+    var body = progressForSave(progress);
+    return progApi.save({ progress_json: JSON.stringify(body) }).then(function (res) {
+      return res || { ok: false, error: "no_save" };
+    });
   }
 
   function invalidateProgress() {
     cachedProgress = null;
     progressLoading = null;
+  }
+
+  /**
+   * Reload so a save does not clobber newer set scores, then apply fn and write.
+   * Paint from the mutated copy — do not drop the cache and reload again, or the
+   * panel paints the pre-save server copy ("No teacher unlocks saved yet").
+   */
+  function commitTeacherEdit(fn) {
+    return loadProgress(true).then(function (prog) {
+      fn(prog);
+      cachedProgress = prog;
+      writeLocalTeacher(prog.teacherUnlock);
+      paintPanelList();
+      if (prog.__mrjLoadFailed) {
+        return { ok: false, error: "load_failed" };
+      }
+      return saveProgress(prog);
+    });
   }
 
   function packIdFromUnit(unitId) {
@@ -241,21 +360,19 @@
   }
 
   function unlockUnit(unitId) {
-    return loadProgress(true).then(function (prog) {
+    return commitTeacherEdit(function (prog) {
       prog.teacherUnlock.units[unitId] = true;
-      return saveProgress(prog);
     });
   }
 
   function relockUnit(unitId) {
-    return loadProgress(true).then(function (prog) {
+    return commitTeacherEdit(function (prog) {
       delete prog.teacherUnlock.units[unitId];
-      return saveProgress(prog);
     });
   }
 
   function unlockSongStage(songId, stage) {
-    return loadProgress(true).then(function (prog) {
+    return commitTeacherEdit(function (prog) {
       prog.teacherUnlock.songs[songId] = prog.teacherUnlock.songs[songId] || {};
       prog.teacherUnlock.songs[songId][stage] = true;
       SONG_STAGES.forEach(function (st) {
@@ -263,38 +380,39 @@
         var j = SONG_STAGES.indexOf(stage);
         if (i >= 0 && j >= 0 && i <= j) prog.teacherUnlock.songs[songId][st] = true;
       });
-      return saveProgress(prog);
     });
   }
 
   function relockSong(songId) {
-    return loadProgress(true).then(function (prog) {
+    return commitTeacherEdit(function (prog) {
       delete prog.teacherUnlock.songs[songId];
-      return saveProgress(prog);
     });
   }
 
   function unlockDay3Step(unitId, stepId) {
     writeDay3LocalTeacher(unitId, stepId, true);
-    return loadProgress(true).then(function (prog) {
+    return commitTeacherEdit(function (prog) {
       prog.teacherUnlock.day3[unitId] = prog.teacherUnlock.day3[unitId] || {};
       prog.teacherUnlock.day3[unitId][stepId] = true;
-      return saveProgress(prog);
     });
   }
 
   function relockDay3Step(unitId, stepId) {
     writeDay3LocalTeacher(unitId, stepId, false);
-    return loadProgress(true).then(function (prog) {
+    return commitTeacherEdit(function (prog) {
       if (prog.teacherUnlock.day3[unitId]) delete prog.teacherUnlock.day3[unitId][stepId];
-      return saveProgress(prog);
     });
   }
 
   function unlockPackFromWordGroup(packId, startNumber) {
     return loadProgress(true).then(function (prog) {
       return applyPackStart(prog, packId, startNumber, prog.studySize || 10);
-    }).then(saveProgress);
+    }).then(function (prog) {
+      cachedProgress = prog;
+      writeLocalTeacher(prog.teacherUnlock);
+      paintPanelList();
+      return saveProgress(prog);
+    });
   }
 
   function sectionOpen(spec, prog) {
@@ -331,18 +449,46 @@
     return btn;
   }
 
+  function nodeAlive(node) {
+    if (!node) return false;
+    if (typeof node.isConnected === "boolean") return node.isConnected;
+    return true;
+  }
+
+  function clearTeacherButtons(node) {
+    if (!node || typeof node.querySelectorAll !== "function") return;
+    var old = node.querySelectorAll(".mrj-teacher-start-btn, .mrj-teacher-relock-btn");
+    for (var i = 0; i < old.length; i++) {
+      if (old[i] && old[i].parentNode) old[i].parentNode.removeChild(old[i]);
+    }
+  }
+
+  function afterTeacherEdit(spec) {
+    paintPanelList();
+    paintSectionDecorations();
+    if (spec && spec.onDone) spec.onDone();
+    try {
+      root.document.dispatchEvent(new root.CustomEvent("mrj-teacher-unlock-changed"));
+    } catch (e) {}
+  }
+
   function paintSectionDecorations() {
-    if (!root.document || !isTeacherSession()) {
-      root.document.querySelectorAll(".mrj-teacher-start-btn").forEach(function (el) {
-        el.remove();
-      });
+    if (!root.document) return;
+    if (!isTeacherSession()) {
+      if (root.document.querySelectorAll) {
+        var stray = root.document.querySelectorAll(".mrj-teacher-start-btn, .mrj-teacher-relock-btn");
+        for (var s = 0; s < stray.length; s++) {
+          if (stray[s].parentNode) stray[s].parentNode.removeChild(stray[s]);
+        }
+      }
       return;
     }
+    var token = ++paintToken;
     loadProgress(false).then(function (prog) {
+      if (token !== paintToken) return;
       sectionRegistry.forEach(function (spec) {
-        if (!spec || !spec.node) return;
-        var old = spec.node.querySelector(".mrj-teacher-start-btn");
-        if (old) old.remove();
+        if (!spec || !spec.node || !nodeAlive(spec.node)) return;
+        clearTeacherButtons(spec.node);
         var open = sectionOpen(spec, prog);
         spec.node.classList.toggle("mrj-teacher-section-open", open);
         spec.node.classList.toggle("mrj-teacher-section-locked", !open);
@@ -357,13 +503,7 @@
             chain = unlockDay3Step(spec.unitId, spec.stepId);
           }
           chain.then(function () {
-            invalidateProgress();
-            if (spec.onDone) spec.onDone();
-            paintPanelList();
-            paintSectionDecorations();
-            try {
-              root.document.dispatchEvent(new root.CustomEvent("mrj-teacher-unlock-changed"));
-            } catch (e) {}
+            afterTeacherEdit(spec);
           });
         });
         spec.node.appendChild(btn);
@@ -374,10 +514,7 @@
             else if (spec.kind === "songStage") chain = relockSong(spec.songId);
             else if (spec.kind === "day3") chain = relockDay3Step(spec.unitId, spec.stepId);
             chain.then(function () {
-              invalidateProgress();
-              paintPanelList();
-              paintSectionDecorations();
-              if (spec.onDone) spec.onDone();
+              afterTeacherEdit(spec);
             });
           });
           undo.classList.add("mrj-teacher-relock-btn");
@@ -387,11 +524,22 @@
     });
   }
 
+  function unitStartLabel(unitId) {
+    var m = /^([a-z0-9_]+)_u(\d+)$/.exec(String(unitId || ""));
+    if (!m) return "Unit " + unitId;
+    var n = String(Number(m[2]));
+    if (n.length < 2) n = "0" + n;
+    var book = BOOK_NAMES[m[1]] || m[1];
+    return book + ": start at unit" + n;
+  }
+
   function listOpenSections(prog) {
     prog = prog || cachedProgress || parseProgress(null);
     var lines = [];
     Object.keys(prog.teacherUnlock.units || {}).forEach(function (id) {
-      if (prog.teacherUnlock.units[id]) lines.push({ kind: "unit", id: id, label: "Unit " + id });
+      if (prog.teacherUnlock.units[id]) {
+        lines.push({ kind: "unit", id: id, unitId: id, label: unitStartLabel(id) });
+      }
     });
     Object.keys(prog.teacherUnlock.songs || {}).forEach(function (sid) {
       var st = prog.teacherUnlock.songs[sid] || {};
@@ -436,7 +584,24 @@
       lines.forEach(function (line) {
         var row = root.document.createElement("div");
         row.className = "mrj-teacher-panel-row";
-        row.textContent = line.label;
+        var text = root.document.createElement("span");
+        text.className = "mrj-teacher-panel-text";
+        text.textContent = line.label;
+        row.appendChild(text);
+        if (line.kind === "unit" && line.unitId) {
+          var undo = root.document.createElement("button");
+          undo.type = "button";
+          undo.className = "mrj-teacher-panel-undo";
+          undo.textContent = "Undo";
+          undo.addEventListener("click", function (ev) {
+            if (ev.stopPropagation) ev.stopPropagation();
+            if (ev.preventDefault) ev.preventDefault();
+            relockUnit(line.unitId).then(function () {
+              afterTeacherEdit(null);
+            });
+          });
+          row.appendChild(undo);
+        }
         list.appendChild(row);
       });
     });

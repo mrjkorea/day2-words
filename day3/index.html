@@ -1,6 +1,6 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Day 3 Virtual Workbook</title><link rel="icon" href="../favicon.ico"><link rel="stylesheet" href="wb.css"></head>
-<body><div id="app"><div class="card"><h1>Loading…</h1></div></div><script src="../js/mrj-unlock-all.js?v=20261102-teacher-start-here"></script><script src="wb.js?v=20261102-teacher-start-here"></script><script>
+<body><div id="app"><div class="card"><h1>Loading…</h1></div></div><script src="../js/mrj-unlock-all.js?v=20261103-day2-teacher-save"></script><script src="wb.js?v=20261103-day2-teacher-save"></script><script>
 WB.load().then(D=>{const p=WB.prog();let h=`<div class="card"><h1>📒 Day 3 Workbook</h1><h2>${D.title}</h2><div class="p">Finish each step to open the next. Get ${D.passPercent}% to open the next step. Get 100% for a gold star 🌟. Pass the mountain test with ${D.passPercent}%!</div><div class="p">🌟 ${WB.steps.filter(s=>(p[s[0]]||{}).pct===100).length} / ${WB.steps.length} gold stars</div><div class="p"><b>🗣️ Choose your voice:</b></div>${WB.voiceBar()}`;
  WB.steps.forEach(([id,name,ic],k)=>{const r=p[id],done=WB.done(id),open=WB.unlocked(id);
   const url=id==='climb'?WB.link('climb.html'):WB.link('play.html','&a='+id);
@@ -25,13 +25,13 @@ WB.load().then(D=>{const p=WB.prog();let h=`<div class="card"><h1>📒 Day 3 Wor
 }).catch(e=>document.getElementById('app').innerHTML='<div class="card"><h1>Oops</h1><p>'+e.message+'</p></div>');
 </script>
 <link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css?v=20261030-cf-login-1.7.3">
-<link rel="stylesheet" href="../js/mrj-teacher-unlock.css?v=20261102-teacher-start-here">
+<link rel="stylesheet" href="../js/mrj-teacher-unlock.css?v=20261103-day2-teacher-save">
 <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js?v=20261030-cf-login-1.7.3"></script>
 <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js?v=20261030-cf-login-1.7.3" data-mrj-app="day2-words"></script>
-<script src="../js/progress-config.js?v=20261102-teacher-start-here"></script>
-<script src="../js/progress-merge.js?v=20261102-teacher-start-here"></script>
-<script src="../js/progress.js?v=20261102-teacher-start-here"></script>
-<script src="../js/mrj-unlock-all.js?v=20261102-teacher-start-here"></script>
-<script src="../js/mrj-teacher-unlock.js?v=20261102-teacher-start-here"></script>
-<script src="teacher-jump.js?v=20261102-teacher-start-here"></script>
+<script src="../js/progress-config.js?v=20261103-day2-teacher-save"></script>
+<script src="../js/progress-merge.js?v=20261103-day2-teacher-save"></script>
+<script src="../js/progress.js?v=20261103-day2-teacher-save"></script>
+<script src="../js/mrj-unlock-all.js?v=20261103-day2-teacher-save"></script>
+<script src="../js/mrj-teacher-unlock.js?v=20261103-day2-teacher-save"></script>
+<script src="teacher-jump.js?v=20261103-day2-teacher-save"></script>
 </body></html>

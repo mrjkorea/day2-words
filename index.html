@@ -68,7 +68,7 @@ function applyTeacherUnits(){
    if(!m)return;
    var id=m[1];
    node.setAttribute("data-unit-id",id);
-   sections.push({kind:"unit",id:id,node:node,showRelock:true,onDone:render});
+   sections.push({kind:"unit",id:id,node:node,showRelock:true});
   });
   MRJTeacherUnlock.loadProgress().then(function(prog){
    sections.forEach(function(spec){
@@ -78,19 +78,19 @@ function applyTeacherUnits(){
    MRJTeacherUnlock.registerSections(sections);
   });
 }
-document.addEventListener("mrj-teacher-unlock-changed",render);
+document.addEventListener("mrj-teacher-unlock-changed",applyTeacherUnits);
 window.addEventListener("hashchange",render);
 render();
 fetch("songs/data/catalog.json",{cache:"no-store"}).then(function(r){return r.json();}).then(function(d){
   (d.songs||[]).forEach(function(s){if(s.packId)SONGS[s.packId]=s;}); render();
 }).catch(function(){});
 </script>
-<link rel="stylesheet" href="js/mrj-teacher-unlock.css?v=20261102-teacher-start-here">
-<script src="js/progress-config.js?v=20261102-teacher-start-here"></script>
-<script src="js/progress-merge.js?v=20261102-teacher-start-here"></script>
-<script src="js/progress.js?v=20261102-teacher-start-here"></script>
-<script src="js/start-slice.js?v=20261102-teacher-start-here"></script>
-<script src="js/mrj-unlock-all.js?v=20261102-teacher-start-here"></script>
-<script src="js/mrj-teacher-unlock.js?v=20261102-teacher-start-here"></script>
+<link rel="stylesheet" href="js/mrj-teacher-unlock.css?v=20261103-day2-teacher-save">
+<script src="js/progress-config.js?v=20261103-day2-teacher-save"></script>
+<script src="js/progress-merge.js?v=20261103-day2-teacher-save"></script>
+<script src="js/progress.js?v=20261103-day2-teacher-save"></script>
+<script src="js/start-slice.js?v=20261103-day2-teacher-save"></script>
+<script src="js/mrj-unlock-all.js?v=20261103-day2-teacher-save"></script>
+<script src="js/mrj-teacher-unlock.js?v=20261103-day2-teacher-save"></script>
 </body>
 </html>

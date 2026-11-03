@@ -62,8 +62,30 @@
 }
 
 .mrj-teacher-panel-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
   padding: 6px 0;
   border-bottom: 1px solid #eee;
+}
+
+.mrj-teacher-panel-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.mrj-teacher-panel-undo {
+  flex: 0 0 auto;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 2px solid #666;
+  border-radius: 999px;
+  background: #f4f4f4;
+  color: #222;
+  font-size: 14px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
 .mrj-teacher-panel-row:last-child {

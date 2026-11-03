@@ -279,7 +279,7 @@
       if (allow && !allow[pid]) return;
       outSets[pid] = sets[pid];
     });
-    return {
+    var out = {
       v: prog.v || 1,
       studentId: prog.studentId || "",
       voice: prog.voice || "us_m",
@@ -289,6 +289,12 @@
       currentPackId: prog.currentPackId || "",
       sets: outSets,
     };
+    // Teacher "start from here" lives beside sets. Dropping it here made the
+    // next migration save wipe a unit the teacher had just unlocked.
+    if (prog.teacherUnlock && typeof prog.teacherUnlock === "object") {
+      out.teacherUnlock = prog.teacherUnlock;
+    }
+    return out;
   }
 
   function buildMigratedDay2Progress(serverDay2, legacyDay2, localDay2, packIds, mergeFn) {
