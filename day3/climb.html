@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mountain Climb Quiz</title>
-<link rel="icon" href="../favicon.ico"><link rel="stylesheet" href="wb.css">
+<link rel="icon" href="../favicon.ico"><link rel="stylesheet" href="wb.css?v=20261106-try-again">
 <style>
 #app2{max-width:980px;margin:auto;padding:10px;display:flex;gap:12px;flex-wrap:wrap}
 #mt{flex:1 1 300px;position:relative;min-height:200px}
@@ -30,9 +30,9 @@
  <div id="card"></div>
 </div>
 <script src="../js/mrj-unlock-all.js?v=20261103-day2-teacher-save"></script>
-<script src="wb.js?v=20261103-day2-teacher-save"></script>
+<script src="wb.js?v=20261106-try-again"></script>
 <script>
-let D,i=0,right=0,pos=0,locked=false,N=0;const card=document.getElementById('card'),vid=document.getElementById('vid');
+let D,i=0,right=0,pos=0,locked=false,N=0;const wrongSet=new Set();const card=document.getElementById('card'),vid=document.getElementById('vid');
 const sh=WB.sh,word=w=>{const x=WB.w(w);const src=x&&x.audio?x.audio:(D.wordAudio?D.wordAudio+w.split(' ')[0]+'.mp3':'');return src?WB.play(src):Promise.resolve()},line=f=>{if(!f)return Promise.resolve();return WB.play(String(f).includes('/')?f:D.lineAudio+f)};
 const pic=w=>{if(String(w).includes("/"))return `<img src="${w}" alt="">`;const x=WB.w(w);return x&&x.pic?`<img src="${x.pic}" alt="">`:x&&!x.pic?`<div class="kcard">${x.ko||""}</div>`:D.picDir?`<img src="${D.picDir}${w}.webp" alt="${w}">`:`<div class="kcard">${w}</div>`};
 function spot(p){const t=p/N,y=380-t*350,x=150+Math.sin(t*9)*(70*(1-t));return[x,y]}
@@ -68,18 +68,21 @@ function show(){locked=false;const q=D.questions[i],T=TYPES[q.type];if(!T){i++;r
  card.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>check(b.dataset.a===q.answer,b));T.start&&T.start(q)}
 async function check(ok,btn){if(locked)return;locked=true;const q=D.questions[i],fb=document.getElementById('fb');
  if(ok){right++;WB.tick('climb',right,N);btn&&btn.classList.add('ok');fb.innerHTML='🎉 Great job! Climb up!';fb.style.color='#2f9e44';WB.cheer('right')}
- else{btn&&btn.classList.add('no');const ans=Array.isArray(q.answer)?q.answer.join(' '):q.answer;
+ else{btn&&btn.classList.add('no');wrongSet.add(i);const ans=Array.isArray(q.answer)?q.answer.join(' '):q.answer;
   card.querySelectorAll('[data-a]').forEach(b=>{if(b.dataset.a===q.answer)b.classList.add('ok')});
   fb.innerHTML='😮 Oops, slip! Right answer: <u>'+ans+'</u>';fb.style.color='#c92a2a';WB.cheer('wrong')}
  await clip(ok?'up':'slip');pos=ok?Math.min(N,pos+1):Math.max(0,pos-0.5);move();
  setTimeout(next,ok?500:1400)}
 function next(){i++;if(i<N)show();else end()}
-async function end(){const p=Math.round(right/N*100),ps=p>=D.passPercent;WB.save('climb',p,right,N);document.querySelector('.nextlvl')?.remove();
- card.innerHTML=`<h1>${D.title}</h1><p class="pct ${ps?'':'fail'}">${p}%</p><div style="font-size:28px">${right} / ${N} right</div>
+async function end(){const p=Math.round(right/N*100),ps=p>=D.passPercent;const t=WB.finish('climb',right,N,missedList());document.querySelector('.nextlvl')?.remove();
+ const rec=WB.prog().climb||{},rows=rec.attempts||[],bestPct=Math.max.apply(null,rows.map(a=>a.score).concat([p])),bestRow=rows.filter(a=>a.score===bestPct)[0]||{n:t.n};
+ const tries=t.n>1?`<div class="tries">Try ${t.n} · ${p}%</div><div class="bestpct">Best ${bestPct}% (try ${bestRow.n})</div>`:'';
+ card.innerHTML=`<h1>${D.title}</h1><p class="pct ${ps?'':'fail'}">${p}%</p><div style="font-size:28px">${right} / ${N} right</div>${tries}
  <div class="p" style="font-size:24px">${p===100?'🌟 GOLD STAR! '+KINDLBL()+' passed!':ps?'🏔️ PASS! You reached the top! '+KINDLBL()+' passed!':'Not yet — you need '+D.passPercent+'%. Try again!'}</div>
- <button id="again">🔁 Play again</button> <button onclick="location.href=HOME()">🏠 ${D.kind==='review'||D.kind==='culture'?'All units':'Steps'}</button>`;
- document.getElementById('again').onclick=start;WB.cheer(ps?'top':'retry');if(ps){pos=N;move();await clip('top')}}
-function start(){i=0;right=0;pos=0;WB._nl=null;move();show()}
+ <button id="tryagain" class="trybtn">🔁 Try again</button> <button onclick="location.href=HOME()">🏠 ${D.kind==='review'||D.kind==='culture'?'All units':'Steps'}</button>`;
+ document.querySelector('.trychip')?.remove();document.getElementById('tryagain').onclick=()=>WB.askTry();WB.cheer(ps?'top':'retry');if(ps){pos=N;move();await clip('top')}}
+function missedList(){const out=[];D.questions.forEach((q,ix)=>{if(wrongSet.has(ix))out.push(q.answer)});return out}
+function start(){i=0;right=0;pos=0;wrongSet.clear();WB._nl=null;move();show()}
 WB.load().then(d=>{D=d;WB.voiceBtn();N=d.questions.length;drawSteps();
  if(D.kind!=='review'&&D.kind!=='culture'&&!WB.unlocked('climb')){card.innerHTML=`<h1>🔒 Locked</h1><p class="p">Finish step 8 first.</p><button onclick="location.href=WB.link('index.html')">🏠 Steps</button>`;return}
  if(WB.test)WB.skipBtn(()=>{if(!locked&&i<N)check(true,null)});start()}).catch(e=>card.innerHTML='<h1>Oops</h1><p>'+e.message+'</p>');

@@ -4,9 +4,30 @@ WB.qs=new URLSearchParams(location.search);WB.unit=WB.qs.get('unit')||'basic_a_u
 WB.steps=[['match','Matching Columns','🔗'],['map','Map Quiz','🗺️'],['odd','Odd One Out','🤔'],['search','Word Search','🔍'],['hangman','Hangman','🎈'],['cross','Crossword','✏️'],['unscramble','Unscramble Words','🧩'],['dialogue','Complete the Dialogue','💬'],['climb','Mountain Quiz (Final Test)','🏔️']];
 WB.key=()=> 'mrj_day3_'+WB.unit;
 WB.prog=()=>{try{return JSON.parse(localStorage.getItem(WB.key()))||{}}catch(e){return{}}};
-WB.save=(id,pct,right,n)=>{const p=WB.prog();const old=p[id];const pass=pct>=(WB.D.passPercent||80);
- if(!old||pct>=old.pct)p[id]={pct,right,n,pass:pass||(old&&old.pass),at:Date.now()};else if(pass)p[id].pass=true;localStorage.setItem(WB.key(),JSON.stringify(p))};
+WB.startedAt=Date.now();
+// Scores are appended, never replaced (TRY_AGAIN_SPEC). Old fields stay: the map, the stars and the unlock all read pct/pass.
+WB.save=(id,pct,right,n,row)=>{const p=WB.prog();const old=p[id]||{};const pass=pct>=(WB.D.passPercent||80);
+ const better=!old.pct||pct>=old.pct;const rec={pct:Math.max(pct,Number(old.pct)||0),right:better?right:(Number(old.right)||right),n:better?n:(Number(old.n)||n),pass:pass||!!old.pass,at:Number(old.at)||Date.now(),attempts:Array.isArray(old.attempts)?old.attempts.slice():[],firstDoneAt:old.firstDoneAt||new Date().toISOString(),lastAttemptAt:old.lastAttemptAt||null};
+ if(row){rec.attempts=rec.attempts.concat([row]);rec.attemptCount=rec.attempts.length;rec.lastAttemptAt=row.endedAt}
+ p[id]=rec;localStorage.setItem(WB.key(),JSON.stringify(p));return rec};
+WB.tries=id=>{const r=WB.prog()[id];return r&&Array.isArray(r.attempts)?r.attempts:[]};
+WB.tryNo=id=>WB.tries(id).length+1;
 WB.done=id=>{const r=WB.prog()[id];return !!(r&&r.pass)};
+// A step opened by a teacher is not earned, so it is marked source teacher and never marks an earlier step done.
+WB.natural=id=>{const i=WB.steps.findIndex(s=>s[0]===id);return i<=0||WB.done(WB.steps[i-1][0])};
+WB.teacherJump=id=>{if(WB.natural(id))return false;try{const T=window.MRJTeacherUnlock;if(!T)return false;const pr=T.getCachedProgress?T.getCachedProgress():null;if(T.teacherDay3Open&&T.teacherDay3Open(pr,WB.unit,id))return true;if(T.day3LocalTeacherOpen&&T.day3LocalTeacherOpen(WB.unit,id))return true}catch(e){}return false};
+// One finished try = one appended row. Nothing earlier is touched.
+WB.finish=(id,right,n,missed)=>{const pct=n?Math.round(right/n*100):0;const prev=(WB.prog()[id]||{});const k=(Array.isArray(prev.attempts)?prev.attempts.length:0)+1;
+ const row={n:k,startedAt:new Date(WB.startedAt||Date.now()).toISOString(),endedAt:new Date().toISOString(),score:pct,correct:right,total:n,pass:pct>=(WB.D?WB.D.passPercent:80),missed:Array.isArray(missed)?missed:[],source:WB.teacherJump(id)?'teacher':'student'};
+ WB.save(id,pct,right,n,row);return {n:k,pct}};
+// Try again asks first, then reloads the same activity at its first item (same unit, same step).
+WB.askTry=()=>{if(document.querySelector('.trymodal'))return;const d=document.createElement('div');d.className='trymodal';
+ d.innerHTML='<div class="trycard"><b>Try again?</b><p>Your result now is saved. Nothing is erased.</p><div class="tryrow"><button class="yesbtn" id="try-yes">Yes, try again</button><button class="ghost" id="try-no">No, keep this</button></div></div>';
+ document.body.appendChild(d);
+ d.querySelector('#try-yes').onclick=()=>location.reload();d.querySelector('#try-no').onclick=()=>d.remove();
+ d.onclick=e=>{if(e.target===d)d.remove()}};
+// Small Try N chip while playing a re-attempt.
+WB.chip=id=>{const k=WB.tryNo(id);if(k<2||document.querySelector('.trychip'))return;const b=document.createElement('div');b.className='trychip';b.textContent='Try '+k;document.body.appendChild(b)};
 WB.teacher=()=>{try{return!!(window.MRJTeacherUnlock&&window.MRJTeacherUnlock.isUnlocked())}catch(e){return false}};
 WB.unlocked=id=>{if(WB.test||(typeof window!=='undefined'&&window.MRJ_TEMP_UNLOCK_ALL))return true;const i=WB.steps.findIndex(s=>s[0]===id);const natural=i<=0||WB.done(WB.steps[i-1][0]);if(natural)return true;try{const T=window.MRJTeacherUnlock;if(T){const p=T.getCachedProgress?T.getCachedProgress():null;if(T.teacherDay3Open&&T.teacherDay3Open(p,WB.unit,id))return true;if(T.day3LocalTeacherOpen&&T.day3LocalTeacherOpen(WB.unit,id))return true}}catch(e){}return false};
 WB.link=(page,extra)=>page+'?unit='+encodeURIComponent(WB.unit)+(WB.test?'&test=1':'')+(extra||'');
@@ -38,12 +59,21 @@ WB.tick=(id,right,n)=>{if(!n||right/n<(WB.D.passPercent||80)/100||WB._nl===id)re
  b.onclick=()=>location.href=nx?WB.link(nx[0]==='climb'?'climb.html':'play.html',nx[0]==='climb'?'':'&a='+nx[0]):(WB.D.kind==='review'?'units.html':WB.link('index.html'));document.body.appendChild(b);setTimeout(()=>WB.cheer('next'),900)};
 WB.all=()=>[...(WB.D.words||[]),...(WB.D.extras||[])];
 WB.w=id=>WB.all().find(w=>w.id===id);
-WB.end=(id,right,n)=>{const pct=n?Math.round(right/n*100):0;WB.save(id,pct,right,n);
+WB.end=(id,right,n)=>{const t=WB.finish(id,right,n);const pct=t.pct;
  const i=WB.steps.findIndex(s=>s[0]===id),nx=WB.steps[i+1];
- document.getElementById('app').innerHTML=`<div class="card"><h1>${WB.steps[i][2]} ${WB.steps[i][1]}</h1><p class="pct">${pct}%</p><div style="font-size:28px">${right} / ${n} right</div>
- <div class="p" style="font-size:24px">${pct===100?'🌟 GOLD STAR! Perfect!':pct>=(WB.D.passPercent||80)?'⭐ Next level unlocked!':'Get '+(WB.D.passPercent||80)+'% to open the next level. Try again!'}</div><p><button onclick="location.reload()">🔁 Again</button> <button onclick="location.href=WB.link('index.html')">🏠 Steps</button>
- ${nx&&pct>=(WB.D.passPercent||80)?`<button class="ok" style="font-size:26px;padding:14px 22px" onclick="location.href=WB.link('${nx[0]==='climb'?'climb.html':'play.html'}','${nx[0]==='climb'?'':'&a='+nx[0]}')">Next level ▶</button>`:''}</p></div>`;document.querySelector('.nextlvl')?.remove();WB.cheer(pct===100||pct>=(WB.D.passPercent||80)?'top':'retry')};
+ const rec=WB.prog()[id]||{},rows=rec.attempts||[];
+ const bestPct=Math.max.apply(null,rows.map(a=>a.score).concat([pct]));
+ const bestRow=rows.filter(a=>a.score===bestPct)[0]||{n:t.n};
+ const tries=t.n>1?`<div class="tries">Try ${t.n} · ${pct}%</div><div class="bestpct">Best ${bestPct}% (try ${bestRow.n})</div>`:'';
+ document.getElementById('app').innerHTML=`<div class="card"><h1>${WB.steps[i][2]} ${WB.steps[i][1]}</h1><p class="pct">${pct}%</p><div style="font-size:28px">${right} / ${n} right</div>${tries}
+ <div class="p" style="font-size:24px">${pct===100?'🌟 GOLD STAR! Perfect!':pct>=(WB.D.passPercent||80)?'⭐ Next level unlocked!':'Get '+(WB.D.passPercent||80)+'% to open the next level. Try again!'}</div><p><button class="trybtn" id="try-btn">🔁 Try again</button> <button onclick="location.href=WB.link('index.html')">🏠 Steps</button>
+ ${nx&&pct>=(WB.D.passPercent||80)?`<button class="ok" style="font-size:26px;padding:14px 22px" onclick="location.href=WB.link('${nx[0]==='climb'?'climb.html':'play.html'}','${nx[0]==='climb'?'':'&a='+nx[0]}')">Next level ▶</button>`:''}</p></div>`;
+ document.querySelector('.nextlvl')?.remove();document.querySelector('.trychip')?.remove();
+ const tb=document.getElementById('try-btn');if(tb)tb.onclick=()=>WB.askTry();
+ WB.cheer(pct===100||pct>=(WB.D.passPercent||80)?'top':'retry')};
 WB.skipBtn=fn=>{if(!WB.test)return;let b=document.querySelector('.skip');if(!b){b=document.createElement('button');b.className='skip';b.textContent='TEST: skip ✓';document.body.appendChild(b)}b.onclick=fn};
 
 // Picture, or a Korean-meaning card for words with no picture
 WB.picHTML=(w,style)=>w&&w.pic?`<img class="pic" ${style?`style="${style}"`:''} src="${w.pic}" alt="">`:`<div class="kcard" ${style?`style="${style}"`:''}>${w&&w.ko||'?'}</div>`;
+// Try 2 chip on load, when this activity has been finished before.
+try{const _a=WB.qs.get('a');if(_a&&WB.steps.some(s=>s[0]===_a))WB.chip(_a);else if(/climb\.html$/.test(location.pathname))WB.chip('climb')}catch(e){}
