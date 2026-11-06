@@ -1087,7 +1087,7 @@
         if (!data || !data.lines || !data.lines.length) throw new Error("empty");
         song = data;
         buildUniq();
-        document.title = (song.title || "Song") + " · Songs";
+        document.title = (song.title || "Song") + " · MRJ Day 2";
         $("song-title").textContent = song.title || "Song";
         $("ready-title").textContent = song.title || "Song";
         $("ready-sub").textContent = (song.book || "") + (song.unitTitle ? " · Unit " + song.unit + " · " + song.unitTitle : "");
