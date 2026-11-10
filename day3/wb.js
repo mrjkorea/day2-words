@@ -13,13 +13,30 @@ WB.save=(id,pct,right,n,row)=>{const p=WB.prog();const old=p[id]||{};const pass=
 WB.tries=id=>{const r=WB.prog()[id];return r&&Array.isArray(r.attempts)?r.attempts:[]};
 WB.tryNo=id=>WB.tries(id).length+1;
 WB.done=id=>{const r=WB.prog()[id];return !!(r&&r.pass)};
+// One finished try = one ClassroomMetrics row (Jay's study-world audit, via Reg/Metrics 2026-11-11).
+// The item id is always unit|step, never a suffix: attempt and re_attempt say which try it was.
+WB.program='day3-workbook';
+WB.postScore=(id,right,n,pct,row,missed)=>{
+ try{
+  const S=window.MRJ_SCORES;if(!S||typeof S.post!=='function')return;
+  const A=window.MRJ_AUTH;const student=A&&typeof A.student==='function'?String(A.student()||'').trim():'';
+  if(!student)return;
+  const k=row&&row.n?row.n:1;const pass=pct>=((WB.D&&WB.D.passPercent)||80);
+  S.post({student:student,program:WB.program,appName:'MRJ Day 3 Workbook',source:'day3-workbook',
+   bookTitle:(WB.D&&(WB.D.book||WB.D.title))||'',unitTitle:WB.unit,
+   itemId:WB.unit+'|'+id,itemType:'activity',scoreValue:right,scoreMax:n,scorePct:pct,attemptIndex:k,unitId:WB.unit,
+   completed:true,durationSeconds:Math.max(0,Math.round((Date.now()-(WB.startedAt||Date.now()))/1000)),
+   correctness:pass?'correct':'incorrect',
+   metadata:{step:id,attempt:k,re_attempt:k>1,passed:pass,source:(row&&row.source)||'student',missed_count:Array.isArray(missed)?missed.length:0}}).catch(()=>{});
+ }catch(e){}
+};
 // A step opened by a teacher is not earned, so it is marked source teacher and never marks an earlier step done.
 WB.natural=id=>{const i=WB.steps.findIndex(s=>s[0]===id);return i<=0||WB.done(WB.steps[i-1][0])};
 WB.teacherJump=id=>{if(WB.natural(id))return false;try{const T=window.MRJTeacherUnlock;if(!T)return false;const pr=T.getCachedProgress?T.getCachedProgress():null;if(T.teacherDay3Open&&T.teacherDay3Open(pr,WB.unit,id))return true;if(T.day3LocalTeacherOpen&&T.day3LocalTeacherOpen(WB.unit,id))return true}catch(e){}return false};
 // One finished try = one appended row. Nothing earlier is touched.
 WB.finish=(id,right,n,missed)=>{const pct=n?Math.round(right/n*100):0;const prev=(WB.prog()[id]||{});const k=(Array.isArray(prev.attempts)?prev.attempts.length:0)+1;
  const row={n:k,startedAt:new Date(WB.startedAt||Date.now()).toISOString(),endedAt:new Date().toISOString(),score:pct,correct:right,total:n,pass:pct>=(WB.D?WB.D.passPercent:80),missed:Array.isArray(missed)?missed:[],source:WB.teacherJump(id)?'teacher':'student'};
- WB.save(id,pct,right,n,row);return {n:k,pct}};
+ WB.save(id,pct,right,n,row);WB.postScore(id,right,n,pct,row,missed);return {n:k,pct}};
 // Try again asks first, then reloads the same activity at its first item (same unit, same step).
 WB.askTry=()=>{if(document.querySelector('.trymodal'))return;const d=document.createElement('div');d.className='trymodal';
  d.innerHTML='<div class="trycard"><b>Try again?</b><p>Your result now is saved. Nothing is erased.</p><div class="tryrow"><button class="yesbtn" id="try-yes">Yes, try again</button><button class="ghost" id="try-no">No, keep this</button></div></div>';
