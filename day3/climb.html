@@ -30,7 +30,7 @@
  <div id="card"></div>
 </div>
 <script src="../js/mrj-unlock-all.js?v=20261103-day2-teacher-save"></script>
-<script src="../mrj-scores.js?v=20261111-day3-metrics"></script><script src="wb.js?v=20261111-day3-metrics"></script>
+<script src="../mrj-scores.js?v=20261112-canonical"></script><script src="wb.js?v=20261111-day3-metrics"></script>
 <script>
 let D,i=0,right=0,pos=0,locked=false,N=0;const wrongSet=new Set();const card=document.getElementById('card'),vid=document.getElementById('vid');
 const sh=WB.sh,word=w=>{const x=WB.w(w);const src=x&&x.audio?x.audio:(D.wordAudio?D.wordAudio+w.split(' ')[0]+'.mp3':'');return src?WB.play(src):Promise.resolve()},line=f=>{if(!f)return Promise.resolve();return WB.play(String(f).includes('/')?f:D.lineAudio+f)};
